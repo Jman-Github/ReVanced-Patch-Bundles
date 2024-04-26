@@ -1,4 +1,4 @@
-# Patch Repository In Use
+# Patch Repositorys In Use
 
 ### Anddea-Patches:
 https://github.com/anddea/revanced-patches
@@ -22,7 +22,7 @@ https://github.com/rufusin/revanced-patches
 https://github.com/IndusAryan/twitter-patches
 
 
-# Intergrations Repository In Use
+# Intergrations Repositorys In Use
 
 ### Anddea-Patches:
 https://github.com/anddea/revanced-integrations
