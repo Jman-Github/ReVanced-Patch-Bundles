@@ -28,50 +28,50 @@ Use these links to set your patch bundles inside the ReVanced Compose Manager. T
 
 # Patch Repositorys In Use
 
-### Anddea-Patches:
+#### Anddea-Patches:
 https://github.com/anddea/revanced-patches
 
-### Experimental-Patches:
+#### Experimental-Patches:
 https://github.com/Aunali321/ReVancedExperiments
 
-### Piko-Patches:
+#### Piko-Patches:
 https://github.com/crimera/piko
 
-### Privacy-Patches:
+#### Privacy-Patches:
 https://github.com/jkennethcarino/privacy-revanced-patches
 
-### ReX-Patches:
+#### ReX-Patches:
 https://github.com/YT-Advanced/ReX-patches
 
-### Rufusin-Patches:
+#### Rufusin-Patches:
 https://github.com/rufusin/revanced-patches
 
-### Twitter-Patches:
+#### Twitter-Patches:
 https://github.com/IndusAryan/twitter-patches
 
 
 # Intergrations Repositorys In Use
 
-### Anddea-Patches:
+#### Anddea-Patches:
 https://github.com/anddea/revanced-integrations
 
-### Experimental-Patches:
+#### Experimental-Patches:
 (Uses default ReVanced Intergrations)
 https://github.com/ReVanced/revanced-integrations
 
-### Piko-Patches:
+#### Piko-Patches:
 https://github.com/crimera/revanced-integrations
 
-### Privacy-Patches:
+#### Privacy-Patches:
 https://github.com/jkennethcarino/privacy-revanced-integrations
 
-### ReX-Patches:
+#### ReX-Patches:
 https://github.com/YT-Advanced/ReX-integrations
 
-### Rufusin-Patches:
+#### Rufusin-Patches:
 https://github.com/rufusin/revanced-integrations
 
-### Twitter-Patches:
+#### Twitter-Patches:
 (Uses default ReVanced Intergrations)
 https://github.com/ReVanced/revanced-integrations
 
