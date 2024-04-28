@@ -4,74 +4,74 @@ This repository gets manually updated within 24 hours of a patch or Intergration
 
 Use these links to set your patch bundles inside the ReVanced Compose Manager. The manager should update the bundles every time these links have a change in their code.
 
-#### Anddea-Patches:
+#### Anddea-Patches-Bundle:
 ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-JSONs/main/anddea-patches.json```
 
-#### Experimental-Patches:
+#### Experimental-Patches-Bundle:
 ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-JSONs/main/experimental-patches.json```
 
-#### Piko-Patches:
+#### Piko-Patches-Bundle:
 ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-JSONs/main/piko-patches.json```
 
-#### Privacy-Patches:
+#### Privacy-Patches-Bundle:
 ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-JSONs/main/privacy-patches.json```
 
-#### ReX-Patches:
+#### ReX-Patches-Bundle:
 ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-JSONs/main/rex-patches.json```
 
-#### Rufusin-Patches:
+#### Rufusin-Patches-Bundle:
 ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-JSONs/main/rufusin-patches.json```
 
-#### Twitter-Patches:
+#### Twitter-Patches-Bundle:
 ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-JSONs/main/twitter-patches.json```
 
 
 # Patch Repositorys In Use
 
-#### Anddea-Patches:
+#### Anddea-Patches-Bundle:
 https://github.com/anddea/revanced-patches
 
-#### Experimental-Patches:
+#### Experimental-Patches-Bundle:
 https://github.com/Aunali321/ReVancedExperiments
 
-#### Piko-Patches:
+#### Piko-Patches-Bundle:
 https://github.com/crimera/piko
 
-#### Privacy-Patches:
+#### Privacy-Patches-Bundle:
 https://github.com/jkennethcarino/privacy-revanced-patches
 
-#### ReX-Patches:
+#### ReX-Patches-Bundle:
 https://github.com/YT-Advanced/ReX-patches
 
-#### Rufusin-Patches:
+#### Rufusin-Patches-Bundle:
 https://github.com/rufusin/revanced-patches
 
-#### Twitter-Patches:
+#### Twitter-Patches-Bundle:
 https://github.com/IndusAryan/twitter-patches
 
 
 # Intergrations Repositorys In Use
 
-#### Anddea-Patches:
+#### Anddea-Patches-Bundle:
 https://github.com/anddea/revanced-integrations
 
-#### Experimental-Patches:
+#### Experimental-Patches-Bundle:
 (Uses default ReVanced Intergrations)
 https://github.com/ReVanced/revanced-integrations
 
-#### Piko-Patches:
+#### Piko-Patches-Bundle:
 https://github.com/crimera/revanced-integrations
 
-#### Privacy-Patches:
+#### Privacy-Patches-Bundle:
 https://github.com/jkennethcarino/privacy-revanced-integrations
 
-#### ReX-Patches:
+#### ReX-Patches-Bundle:
 https://github.com/YT-Advanced/ReX-integrations
 
-#### Rufusin-Patches:
+#### Rufusin-Patches-Bundle:
 https://github.com/rufusin/revanced-integrations
 
-#### Twitter-Patches:
+#### Twitter-Patches-Bundle:
 (Uses default ReVanced Intergrations)
 https://github.com/ReVanced/revanced-integrations
 
