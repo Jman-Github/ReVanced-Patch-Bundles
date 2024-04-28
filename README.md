@@ -25,6 +25,11 @@ Use these links to set your patch bundles inside the ReVanced Compose Manager. T
 #### Twitter-Patches-Bundle:
 ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-JSONs/dev/twitter-patches-bundle.json```
 
+#### ReVanced Compose Manager
+##### Source:
+https://github.com/ReVanced/revanced-manager/tree/compose-dev
+##### Latest Download:
+https://github.com/ReVanced/revanced-manager/actions/runs/8573909978/artifacts/1389296318
 
 # Patch Repositorys In Use
 
