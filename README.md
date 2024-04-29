@@ -1,28 +1,28 @@
 # About ❓
+### You are currently on the ```stable-bundles``` branch. For ```dev-bundles``` branch go [here](https://github.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/tree/dev-bundles).
+This repository gets manually updated within 24 hours of a patch or integrations updates from the repositorys listed below. This repository is used for the patch bundles sources in the ReVanced Conpose Manager. The [stable-patches](https://github.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/tree/stable-bundles) branch is for all stable versions of patches and integrations, dev versions will not be added once they release, only stable. The [dev-bundles](https://github.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/tree/dev-bundles) branch is for all dev versions of patches and integrations, stable versions will not be added once they release, only dev.
 
-This repository gets manually updated within 24 hours of a patch or Intergrations update from the repositorys listed below. This repository is used for the patch bundles sources in the ReVanced Conpose Manager.
-
-Use these links to set your patch bundles inside the ReVanced Compose Manager. The manager should update the bundles every time these links have a change in their code.
+Use these links to set your patch bundles inside the ReVanced Compose Manager. These are stable patch and integration links, not dev. Go [here](https://github.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/tree/dev-bundles) for dev patch and integration links and information. The manager should update the bundles every time these links have a change in their code.
 #### Anddea-Patches-Bundle 📦:
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/main/anddea-patches-bundle.json```
+```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/stable-bundles/stable-anddea-patches-bundle.json```
 
 #### Experimental-Patches-Bundle 📦:
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/main/experimental-patches-bundle.json```
+```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/stable-bundles/stable-experimental-patches-bundle.json```
 
 #### Piko-Patches-Bundle 📦:
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/main/piko-patches-bundle.json```
+```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/stable-bundles/stable-piko-patches-bundle.json```
 
 #### Privacy-Patches-Bundle 📦:
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/main/privacy-patches-bundle.json```
+```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/stable-bundles/stable-privacy-patches-bundle.json```
 
 #### ReX-Patches-Bundle 📦:
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/main/rex-patches-bundle.json```
+```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/stable-bundles/stable-rex-patches-bundle.json```
 
 #### Rufusin-Patches-Bundle 📦:
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/main/rufusin-patches-bundle.json```
+```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/stable-bundles/stable-rufusin-patches-bundle.json```
 
 #### Twitter-Patches-Bundle 📦:
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/main/twitter-patches-bundle.json```
+```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/stable-bundles/stable-twitter-patches-bundle.json```
 
 #### ReVanced Compose Manager 📱:
 ##### Source 📋:
