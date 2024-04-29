@@ -5,25 +5,25 @@ This repository gets manually updated within 24 hours of a patch or Intergration
 Use these links to set your patch bundles inside the ReVanced Compose Manager. The manager should update the bundles every time these links have a change in their code.
 
 #### Anddea-Patches-Bundle:
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-JSONs/dev/anddea-patches-bundle.json```
+```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/main/anddea-patches-bundle.json```
 
 #### Experimental-Patches-Bundle:
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-JSONs/dev/experimental-patches-bundle.json```
+```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/main/experimental-patches-bundle.json```
 
 #### Piko-Patches-Bundle:
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-JSONs/dev/piko-patches-bundle.json```
+```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/main/piko-patches-bundle.json```
 
 #### Privacy-Patches-Bundle:
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-JSONs/dev/privacy-patches-bundle.json```
+```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/main/privacy-patches-bundle.json```
 
 #### ReX-Patches-Bundle:
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-JSONs/dev/rex-patches-bundle.json```
+```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/main/rex-patches-bundle.json```
 
 #### Rufusin-Patches-Bundle:
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-JSONs/dev/rufusin-patches-bundle.json```
+```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/main/rufusin-patches-bundle.json```
 
 #### Twitter-Patches-Bundle:
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-JSONs/dev/twitter-patches-bundle.json```
+```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundle-JSONs/main/twitter-patches-bundle.json```
 
 #### ReVanced Compose Manager:
 ##### Source:
