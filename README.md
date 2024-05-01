@@ -1,3 +1,7 @@
+## Status 🚨
+[![update bundle.json files](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml/badge.svg?event=schedule)](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml)
+[![update bundle.json files](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml/badge.svg)](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml)
+
 # About ❓
 This repository gets automatically updated within 12 hours of a patch or integrations update from the repositorys listed [below](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/README.md#patch-repositorys-in-use-). This repository is used for the patch bundles sources in the [ReVanced Manager Compose](https://github.com/ReVanced/revanced-manager/tree/compose-dev). Use these links to set your patch bundles inside the ReVanced Manager Compose. The links will import the patch bundles (integrations & patches) into the manager which should update the bundles every time these links have a change in their code.
 #### Anddea-Patches-Bundle 📦:
