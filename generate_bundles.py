@@ -47,9 +47,9 @@ def main():
                 "url": integration_asset_url
             }
         }
-        with open(f'{source}-bundle.json', 'w') as file:
+        with open(f'{source}-patches-bundle.json', 'w') as file:
             json.dump(info_dict, file, indent=2)
-        print(f"Latest release information saved to {source}-bundle.json")
+        print(f"Latest release information saved to {source}-patches-bundle.json")
 
 if __name__ == "__main__":
     main()
