@@ -1,8 +1,10 @@
-name: update bundle.json files
+name: update patch-bundle.json
 
 on:
+  workflow_dispatch:
+  push:
   schedule:
-    - cron:  '0 * * * *'
+    - cron: '0 * * * *'
 
 jobs:
   update_bundle:
@@ -15,13 +17,13 @@ jobs:
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
           fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
         python-version: '3.x'
       
     - name: Run Python script
       run: |
-        pip install requests
+        pip install httpx
         python generate_bundles.py
       
     - name: Commit and push changes
@@ -31,6 +33,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add *.json
         git commit -a -m "update bundle.json [skip ci]"
+        git pull
 
     - name: Push changes
       uses: ad-m/github-push-action@master
