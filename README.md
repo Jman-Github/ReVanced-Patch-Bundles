@@ -89,5 +89,5 @@ https://github.com/ReVanced/revanced-integrations
 
 
 ## Contributors 🤝
-#### [indrastorms]([https://github.com/indrastorms)
+##### [indrastorms](https://github.com/indrastorms)
 Helped with the automation of this repository with Github Actions.
