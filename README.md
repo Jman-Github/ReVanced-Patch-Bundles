@@ -1,5 +1,5 @@
 # About ❓
-This repository gets automaticly updated within 12 hours of a patch or integrations update from the repositorys listed [below]([url](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/README.md#patch-repositorys-in-use-)). This repository is used for the patch bundles sources in the ReVanced Manager Compose. Use these links to set your patch bundles inside the ReVanced Compose Manager. The links will import the patch bundles (intergrations & patches) into the manager which should update the bundles every time these links have a change in their code.
+This repository gets automaticly updated within 12 hours of a patch or integrations update from the repositorys listed [below]([https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/README.md#patch-repositorys-in-use-). This repository is used for the patch bundles sources in the ReVanced Manager Compose. Use these links to set your patch bundles inside the ReVanced Compose Manager. The links will import the patch bundles (intergrations & patches) into the manager which should update the bundles every time these links have a change in their code.
 #### Anddea-Patches-Bundle 📦:
 ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/anddea-patches-bundle.json```
 
