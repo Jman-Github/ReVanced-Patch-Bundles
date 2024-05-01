@@ -29,7 +29,7 @@ def get_latest_release(repo_url, prerelease = False):
 
 
 def main():
-    with open('sources.json') as file:
+    with open('bundle-sources.json') as file:
         sources = json.load(file)
 
     for source in sources:
