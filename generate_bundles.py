@@ -2,7 +2,7 @@ import asyncio
 import json
 from httpx import AsyncClient
 
-async def get_latest_release(repo_url, prerelease=False):
+async def get_latest_release(repo_url, prerelease=None):
     async def get_version_url(release):
         version = release['tag_name']
         for asset in release["assets"]:
@@ -16,15 +16,24 @@ async def get_latest_release(repo_url, prerelease=False):
     response = await AsyncClient().get(api_url)
     if response.status_code == 200:
         releases = response.json()
+        latest_release = releases[0]  # Assuming releases are sorted by latest first
         target_release = None
         for release in releases:
-            if prerelease == release["prerelease"]:
+            if prerelease is not None:
+                if prerelease == release["prerelease"]:
+                    target_release = release
+                    break
+            else:
                 target_release = release
                 break
         if not target_release:
             print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
             return None, None
         version, asset_url = await get_version_url(target_release)
+        latest_prerelease = releases[0] if releases[0]["prerelease"] else None
+        if latest_prerelease and latest_prerelease["tag_name"] != latest_release["tag_name"]:
+            # If latest prerelease is not the latest release, fetch regular release
+            version, asset_url = await get_version_url(latest_release)
         return version, asset_url
 
 async def main():
@@ -32,10 +41,10 @@ async def main():
         sources = json.load(file)
 
     for source, repo in sources.items():
-        patches_version, patches_asset_url = await get_latest_release(repo.get('patches'), repo.get('prerelease', False))
+        patches_version, patches_asset_url = await get_latest_release(repo.get('patches'), True)
         if not patches_version:  # If no pre-release found, try regular release
             patches_version, patches_asset_url = await get_latest_release(repo.get('patches'))
-        integration_version, integration_asset_url = await get_latest_release(repo.get('integration'), repo.get('prerelease', False))
+        integration_version, integration_asset_url = await get_latest_release(repo.get('integration'), True)
         if not integration_version:  # If no pre-release found, try regular release
             integration_version, integration_asset_url = await get_latest_release(repo.get('integration'))
         info_dict = {
