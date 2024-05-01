@@ -4,8 +4,7 @@ on:
   workflow_dispatch:
   push:
   schedule:
-    - cron: '0 0 * * *'
-    - cron: "* */1 * * *"
+    - cron: "*/60 * * * *"
 
 jobs:
   update_bundle:
