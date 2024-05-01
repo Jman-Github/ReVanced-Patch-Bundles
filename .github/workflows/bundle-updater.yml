@@ -1,4 +1,4 @@
-name: update bundle.json
+name: update bundle.json files
 
 on:
   workflow_dispatch:
@@ -24,7 +24,7 @@ jobs:
     - name: Run Python script
       run: |
         pip install requests
-        python gen_bundle.py
+        python generate_bundles.py
       
     - name: Commit and push changes
       continue-on-error: true
@@ -38,4 +38,4 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GIT_TOKEN }}
-        branch: main
+        branch: bundles
