@@ -31,8 +31,7 @@ This repository automatically checks for patch and integration updates from the 
 #### Dropped-Patches-Bundle 📦:
 ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/dropped-patches-bundle.json```
 
-
-#### ReVanced Compose Manager 📱:
+# ReVanced Compose Manager 📱:
 ##### Source 📋:
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
 ##### Latest Download 📩:
