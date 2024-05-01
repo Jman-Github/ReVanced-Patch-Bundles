@@ -1,11 +1,11 @@
 import requests
 import json
 
-def get_latest_release(repo_url, prerelease = False):
+def get_latest_release(repo_url, prerelease=False):
     def get_version_url(release):
         version = release['tag_name']
         for asset in release["assets"]:
-            if (asset["browser_download_url"].find(".jar") != -1) or\
+            if (asset["browser_download_url"].find(".jar") != -1) or \
                (asset["browser_download_url"].find(".apk") != -1):
                 asset_url = asset['browser_download_url']
                 return version, asset_url
@@ -15,28 +15,24 @@ def get_latest_release(repo_url, prerelease = False):
     response = requests.get(api_url)
     if response.status_code == 200:
         releases = response.json()
-        if prerelease:
-            for release in releases:
-                if release["prerelease"]:
-                    version, asset_url = get_version_url(release)
-                    return version, asset_url
-        else:
-            for release in releases:
-                if release["prerelease"] is False:
-                    version, asset_url = get_version_url(release)
-                    return version, asset_url
-
-
+        for release in releases:
+            if prerelease and release["prerelease"]:
+                version, asset_url = get_version_url(release)
+                return version, asset_url
+            elif not prerelease and not release["prerelease"]:
+                version, asset_url = get_version_url(release)
+                return version, asset_url
+    return None, None
 
 def main():
     with open('sources.json') as file:
         sources = json.load(file)
 
-    for source in sources:
-        patches_version, patches_asset_url = get_latest_release(sources.get(source).get('patches'), 
-                               sources.get(source).get('prerelease', False))
-        integration_version, integration_asset_url = get_latest_release(sources.get(source).get('integration'),
-                               sources.get(source).get('prerelease', False))
+    for source, details in sources.items():
+        patches_version, patches_asset_url = get_latest_release(details.get('patches'), 
+                                                                details.get('prerelease', False))
+        integration_version, integration_asset_url = get_latest_release(details.get('integration'),
+                                                                        details.get('prerelease', False))
         info_dict = {
             "patches": {
                 "version": patches_version,
