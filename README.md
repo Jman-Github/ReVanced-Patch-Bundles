@@ -1,5 +1,8 @@
 ## Status 🚨
+#### Schedule Status 📃
 [![update bundle.json files](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml/badge.svg?event=schedule)](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml)
+
+#### Action Status 🎬
 [![update bundle.json files](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml/badge.svg)](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml)
 
 # About ❓
