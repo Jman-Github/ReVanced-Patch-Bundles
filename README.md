@@ -3,7 +3,7 @@
 [![update bundle.json files](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml/badge.svg)](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml)
 
 # About ❓
-This repository gets automatically updated within 12 hours of a patch or integrations update from the repositorys listed [below](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/README.md#patch-repositorys-in-use-). This repository is used for the patch bundles sources in the [ReVanced Manager Compose](https://github.com/ReVanced/revanced-manager/tree/compose-dev). Use these links to set your patch bundles inside the ReVanced Manager Compose. The links will import the patch bundles (integrations & patches) into the manager which should update the bundles every time these links have a change in their code.
+This repository gets automatically checks for patch and integrations from the repositorys listed [below](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/README.md#patch-repositorys-in-use-) every 1 - 2 hours. The links listed below are used for the patch bundles sources in the [ReVanced Manager Compose](https://github.com/ReVanced/revanced-manager/tree/compose-dev). Use these links to set your patch bundles inside the ReVanced Manager Compose. The links will import the patch bundles (integrations & patches) into the manager which should update the bundles every time these links have a change in their code.
 #### Anddea-Patches-Bundle 📦:
 ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/anddea-patches-bundle.json```
 
@@ -24,6 +24,10 @@ This repository gets automatically updated within 12 hours of a patch or integra
 
 #### Twitter-Patches-Bundle 📦:
 ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/twitter-patches-bundle.json```
+
+#### Dropped-Patches-Bundle 📦:
+```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/dropped-patches-bundle.json```
+
 
 #### ReVanced Compose Manager 📱:
 ##### Source 📋:
@@ -79,3 +83,7 @@ https://github.com/rufusin/revanced-integrations
 #### Twitter-Patches-Bundle ⛓:
 (Uses default ReVanced Intergrations)
 https://github.com/ReVanced/revanced-integrations
+
+
+## Contributors 🤝
+[indrastorms]([https://github.com/indrastorms); helped with the automation of this repository with Github Actions.
