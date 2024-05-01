@@ -32,7 +32,7 @@ async def get_latest_release(repo_url, prerelease = False):
 
 
 async def main():
-    with open('bunlde-sources.json') as file:
+    with open('bundle-sources.json') as file:
         sources = json.load(file)
 
     for source, repo in sources.items():
