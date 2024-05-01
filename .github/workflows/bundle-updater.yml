@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
   schedule:
-    - cron: "*/60 * * * *"
+    - cron: "0 * * * *" # Run every hour at the 0th minute
 
 jobs:
   update_bundle:
