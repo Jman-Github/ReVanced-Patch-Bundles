@@ -1,10 +1,8 @@
 name: update bundle.json files
 
 on:
-  workflow_dispatch:
-  push:
   schedule:
-    - cron: "0 * * * *" # Run every hour at the 0th minute
+    - cron:  '0 * * * *'
 
 jobs:
   update_bundle:
