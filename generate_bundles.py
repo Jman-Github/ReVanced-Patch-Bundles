@@ -25,7 +25,7 @@ async def get_latest_release(repo_url):
             else:
                 if not latest_regular_release or release["published_at"] > latest_regular_release["published_at"]:
                     latest_regular_release = release
-        if latest_regular_release and latest_regular_release["published_at"] > latest_prerelease["published_at"]:
+        if latest_regular_release and (not latest_prerelease or latest_regular_release["published_at"] > latest_prerelease["published_at"]):
             target_release = latest_regular_release
         else:
             target_release = latest_prerelease
