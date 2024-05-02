@@ -19,7 +19,7 @@ Like me or unlike me!
 </table>
 </div>
 
-#### 📃 Schedule Status‎
+<sub><b><i>Like counter: 1</i></b></sub>
 [![Patch bundle updater](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml/badge.svg?event=schedule)](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml)
 
 #### 🎬 Action Status
