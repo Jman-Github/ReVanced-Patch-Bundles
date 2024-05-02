@@ -1,0 +1,85 @@
+name: Add Like
+on:
+  issues:
+    types:
+      - labeled
+jobs:
+  add-like:
+    env:
+      author: ${{github.event.issue.user.login}}
+    if: github.event.label.name == 'like'
+    runs-on: ubuntu-latest
+    name: commit and push like
+    steps:
+    - uses: actions/checkout@master
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+    - name: Create local changes
+      run: |
+        #FIND=$(grep -Fx "$author" likers.txt)
+        if grep -Fxq "$author" likers.txt
+        #if [[! -z "$FIND"]] 
+        then
+        echo "Try again!"
+        else
+        echo "$author" >> likers.txt
+        #and update counter
+        LIKES=$(wc -l < likers.txt);REPLACE=$(echo "<sub><b><i>Like counter: ${LIKES}</i></b></sub>");(head -9 README.md; echo "$REPLACE"; tail -n +11 README.md) > foobar && mv foobar README.md
+        fi
+    - name: Commit & Push changes
+      uses: actions-js/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+  add-mutable-like:
+    env:
+      author: ${{github.event.issue.user.login}}
+    if: github.event.label.name == 'like-mutable'
+    runs-on: ubuntu-latest
+    name: commit and push mutable like
+    steps:
+    - uses: actions/checkout@master
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+    - name: Create local changes
+      run: |
+        if grep -Fxq "$author" likers-mutable.txt
+        then
+        echo "Try again!"
+        else
+        echo "$author" >> likers-mutable.txt
+        #and update counter
+        LIKES=$(wc -l < likers-mutable.txt);REPLACE=$(echo "<sub><b><i>Like counter: ${LIKES}</i></b></sub>");(head -18 README.md; echo "$REPLACE"; tail -n +20 README.md) > foobar && mv foobar README.md
+        fi
+    - name: Commit & Push changes
+      uses: actions-js/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}    
+  unlike:
+    env:
+      author: ${{github.event.issue.user.login}}
+    if: github.event.label.name == 'unlike-mutable'
+    runs-on: ubuntu-latest
+    name: commit and push mutable unlike
+    steps:
+    - uses: actions/checkout@master
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+    - name: Create local changes
+      run: |
+        LINE=$(grep -Fx "$author" likers-mutable.txt -n| cut -d ":" -f 1)
+        if [ -z "$LINE" ]
+        then
+        echo "Try again! You haven't already liked"
+        else
+        #withdraw like
+        sed -i "${LINE}d" likers-mutable.txt
+        #and update counter
+        LIKES=$(wc -l < likers-mutable.txt);REPLACE=$(echo "<sub><b><i>Like counter: ${LIKES}</i></b></sub>");(head -18 README.md; echo "$REPLACE"; tail -n +20 README.md) > foobar && mv foobar README.md
+        fi
+    - name: Commit & Push changes unlike
+      uses: actions-js/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
