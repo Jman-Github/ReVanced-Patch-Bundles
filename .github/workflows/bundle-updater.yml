@@ -26,8 +26,14 @@ jobs:
         pip install httpx
         python generate_bundles.py
       
-    - name: Finalize and commit changes
+    - name: Check for changes
+      id: check_changes
+      run: |
+        git diff --quiet || echo "Changes found"
       continue-on-error: true
+      
+    - name: Finalize and commit changes
+      if: steps.check_changes.outputs.stdout != ''
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
