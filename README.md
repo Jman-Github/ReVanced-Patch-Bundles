@@ -1,8 +1,8 @@
 # Status 🚨
-##### Schedule Status 📃
+#### Schedule Status 📃
 [![update bundle.json files](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml/badge.svg?event=schedule)](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml)
 
-##### Action Status 🎬
+#### Action Status 🎬
 [![update bundle.json files](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml/badge.svg)](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml)
 
 # About ❓
@@ -32,9 +32,9 @@ This repository automatically checks for patch and integration updates from the 
 ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/dropped-patches-bundle.json```
 
 # ReVanced Compose Manager 📱:
-##### Source 📋:
+#### Source 📋:
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
-##### Latest Download 📩:
+#### Latest Download 📩:
 https://github.com/ReVanced/revanced-manager/actions/runs/8573909978/artifacts/1389296318
 
 # Patch Repositorys In Use 🩹
@@ -89,4 +89,4 @@ https://github.com/ReVanced/revanced-integrations
 
 ## Contributors 🤝
 ##### [indrastorms](https://github.com/indrastorms)
-Helped with the automation of this repository with Github Actions.
+Helped with the automation of this repository by using Github Actions.
