@@ -26,15 +26,15 @@ jobs:
         pip install httpx
         python generate_bundles.py
       
-    - name: Finalize and commmit changes
+    - name: Finalize and commit changes
       continue-on-error: true
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add *.json
         git commit -a -m "updated patch-bundle.json to latest"
-        git pull
-
+        git pull --rebase
+        
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
