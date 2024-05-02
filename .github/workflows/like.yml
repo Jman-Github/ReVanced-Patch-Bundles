@@ -37,6 +37,6 @@ jobs:
         git commit -m "Add like by $author"
     - name: Push changes
       run: |
-        git push origin bundles
+        git push origin HEAD:bundles
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
