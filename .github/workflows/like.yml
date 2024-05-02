@@ -3,6 +3,8 @@ on:
   issues:
     types:
       - labeled
+      - unlabeled
+
 jobs:
   add-mutable-like:
     env:
@@ -65,12 +67,15 @@ jobs:
         run: |
           # Remove author from likers-mutable.txt if exists
           sed -i "/^${author}$/d" likers-mutable.txt
-          # Move author from likers-mutable.txt to unlikers-mutable.txt
-          sed -i "/^${author}$/d" unlikers-mutable.txt
-          echo "$author" >> unlikers-mutable.txt
-          # Update the like counter in line 15 of README.md
-          CURRENT_LIKES=$(grep -c "^" likers-mutable.txt)
-          sed -i "15s#.*#<sub><b><i>Like counter: $((CURRENT_LIKES))</i></b></sub>#" README.md
+          if grep -Fxq "$author" unlikers-mutable.txt
+          then
+            echo "Try again!"
+          else
+            echo "$author" >> unlikers-mutable.txt
+            # Find and replace the like counter in line 15 of README.md
+            CURRENT_LIKES=$(($(grep -c "^" likers-mutable.txt) - $(grep -c "^" unlikers-mutable.txt)))
+            sed -i "15s#.*#<sub><b><i>Like counter: $((CURRENT_LIKES))</i></b></sub>#" README.md
+          fi
 
       - name: Set up Git
         run: |
