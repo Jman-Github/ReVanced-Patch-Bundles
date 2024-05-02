@@ -29,52 +29,14 @@ jobs:
           REPLACE=$(echo "<sub><b><i>Like counter: ${LIKES}</i></b></sub>")
           (head -9 README.md; echo "$REPLACE"; tail -n +11 README.md) > foobar && mv foobar README.md
         fi
-    - name: Commit & Push changes
-      uses: actions-js/push@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-  add-mutable-like:
-    env:
-      author: ${{github.event.issue.user.login}}
-    if: github.event.label.name == 'like-mutable'
-    runs-on: ubuntu-latest
-    name: commit and push mutable like
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-      with:
-        persist-credentials: false
-        fetch-depth: 0
-        ref: bundles
-    - name: Create local changes
+    - name: Commit changes
       run: |
-        if grep -Fxq "$author" likers-mutable.txt
-        then
-          echo "Try again!"
-        else
-          echo "$author" >> likers-mutable.txt
-          #and update counter
-          LIKES=$(wc -l < likers-mutable.txt)
-          REPLACE=$(echo "<sub><b><i>Like counter: ${LIKES}</i></b></sub>")
-          (head -18 README.md; echo "$REPLACE"; tail -n +20 README.md) > foobar && mv foobar README.md
-        fi
-    - name: Commit & Push changes
-      uses: actions-js/push@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}    
-  unlike:
-    env:
-      author: ${{github.event.issue.user.login}}
-    if: github.event.label.name == 'unlike-mutable'
-    runs-on: ubuntu-latest
-    name: commit and push mutable unlike
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-      with:
-        persist-credentials: false
-        fetch-depth: 0
-        ref: bundles
-    - name: Create local changes
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Add like by $author"
+    - name: Push changes
       run: |
-        LINE=$(grep -Fx "$author" likers-mutable.txt -n|
+        git push origin bundles
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
