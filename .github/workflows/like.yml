@@ -26,8 +26,8 @@ jobs:
           else
             echo "$author" >> likers-mutable.txt
             # Find and replace the like counter in line 15 of README.md
-            like_counter=$(wc -l < likers-mutable.txt)
-            sed -i "15s#.*#<sub><b><i>Like counter: $((like_counter))</i></b></sub>#" README.md
+            like_counter=$(($(wc -l < likers-mutable.txt) + 1))
+            sed -i "15s#.*#<sub><b><i>Like counter: $like_counter</i></b></sub>#" README.md
           fi
 
       - name: Set up Git
@@ -70,7 +70,7 @@ jobs:
             sed -i "${LINE}d" likers-mutable.txt
             # Find and replace the like counter in line 15 of README.md
             like_counter=$(wc -l < likers-mutable.txt)
-            sed -i "15s#.*#<sub><b><i>Like counter: $((like_counter))</i></b></sub>#" README.md
+            sed -i "15s#.*#<sub><b><i>Like counter: $like_counter</i></b></sub>#" README.md
           fi
 
       - name: Set up Git
