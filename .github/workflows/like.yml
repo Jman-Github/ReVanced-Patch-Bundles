@@ -32,6 +32,9 @@ jobs:
             echo "$author" >> likers-mutable.txt
             # Find and replace the like counter in line 15 of README.md
             CURRENT_LIKES=$(($(grep -c "^" likers-mutable.txt) - $(grep -c "^" unlikers-mutable.txt)))
+            if [ $CURRENT_LIKES -lt 0 ]; then
+              CURRENT_LIKES=0
+            fi
             sed -i "15s#.*#<sub><b><i>Like counter: $((CURRENT_LIKES))</i></b></sub>#" README.md
           fi
 
@@ -77,6 +80,9 @@ jobs:
             echo "$author" >> unlikers-mutable.txt
             # Find and replace the like counter in line 15 of README.md
             CURRENT_LIKES=$(($(grep -c "^" likers-mutable.txt) - $(grep -c "^" unlikers-mutable.txt)))
+            if [ $CURRENT_LIKES -lt 0 ]; then
+              CURRENT_LIKES=0
+            fi
             sed -i "15s#.*#<sub><b><i>Like counter: $((CURRENT_LIKES))</i></b></sub>#" README.md
           fi
 
