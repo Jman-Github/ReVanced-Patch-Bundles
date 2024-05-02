@@ -7,7 +7,7 @@
 <tr>
 <td>
 Like me!
-
+<sub><b><i>Like counter: 2</i></b></sub>
 [<a href="https://github.com/jman-github/ReVanced-Patch-Bundles/issues/new?assignees=&labels=like&template=like.yml&title=Add+new+like%21">👍</a>]
 
 <sub><b><i>Like counter: 0</i></b></sub>
