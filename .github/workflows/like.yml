@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     name: commit and push like
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v2
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -39,7 +40,8 @@ jobs:
     runs-on: ubuntu-latest
     name: commit and push mutable like
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v2
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -67,26 +69,12 @@ jobs:
     runs-on: ubuntu-latest
     name: commit and push mutable unlike
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v2
       with:
         persist-credentials: false
         fetch-depth: 0
         ref: bundles
     - name: Create local changes
       run: |
-        LINE=$(grep -Fx "$author" likers-mutable.txt -n| cut -d ":" -f 1)
-        if [ -z "$LINE" ]
-        then
-          echo "Try again! You haven't already liked"
-        else
-          #withdraw like
-          sed -i "${LINE}d" likers-mutable.txt
-          #and update counter
-          LIKES=$(wc -l < likers-mutable.txt)
-          REPLACE=$(echo "<sub><b><i>Like counter: ${LIKES}</i></b></sub>")
-          (head -18 README.md; echo "$REPLACE"; tail -n +20 README.md) > foobar && mv foobar README.md
-        fi
-    - name: Commit & Push changes unlike
-      uses: actions-js/push@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        LINE=$(grep -Fx "$author" likers-mutable.txt -n|
