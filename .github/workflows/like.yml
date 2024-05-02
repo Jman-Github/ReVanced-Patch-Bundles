@@ -34,6 +34,7 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
         git commit -am "Add $author like"
+        git pull origin main --rebase
         git push
   add-mutable-like:
     env:
@@ -65,6 +66,7 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
         git commit -am "Add mutable $author like"
+        git pull origin main --rebase
         git push
   unlike:
     env:
@@ -98,4 +100,5 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
         git commit -am "Remove $author like"
+        git pull origin main --rebase
         git push
