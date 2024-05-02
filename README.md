@@ -62,6 +62,9 @@ https://github.com/rufusin/revanced-patches
 #### 🏷️ Twitter-Patches-Bundle:
 https://github.com/IndusAryan/twitter-patches
 
+#### 🏷️ Dropped-Patches-Bundle:
+https://github.com/indrastorms/Dropped-Patches
+
 
 # 🖇 Intergrations Repositorys In Use
 #### ⛓ Anddea-Patches-Bundle:
@@ -84,6 +87,10 @@ https://github.com/YT-Advanced/ReX-integrations
 https://github.com/rufusin/revanced-integrations
 
 #### ⛓ Twitter-Patches-Bundle:
+(Uses default ReVanced Intergrations)
+https://github.com/ReVanced/revanced-integrations
+
+#### ⛓ Dropped-Patches-Bundle:
 (Uses default ReVanced Intergrations)
 https://github.com/ReVanced/revanced-integrations
 
