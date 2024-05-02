@@ -10,7 +10,7 @@ Like me!
 
 [<a href="https://github.com/jman-github/ReVanced-Patch-Bundles/issues/new?assignees=&labels=like&template=like.yml&title=Add+new+like%21">👍</a>]
 
-<sub><b><i>Like counter: $(wc -l < likers.txt)</i></b></sub>
+<sub><b><i>Like counter: 0
 
 <hr size=15px color="ff5733" width=70%>
 
