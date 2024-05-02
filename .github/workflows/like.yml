@@ -29,6 +29,11 @@ jobs:
             sed -i '13s#.*#<sub><b><i>Like counter: $(wc -l < likers.txt)</i></b></sub>#' README.md
           fi
 
+      - name: Set up Git
+        run: |
+          git config --global user.email "github-action@example.com"
+          git config --global user.name "jman-github"
+
       - name: Check for changes
         run: |
           git diff --exit-code || git commit -am "Add like by $author"
@@ -63,6 +68,11 @@ jobs:
             # Find and replace the like counter in line 22 of README.md
             sed -i '22s#.*#<sub><b><i>Like counter: $(wc -l < likers-mutable.txt)</i></b></sub>#' README.md
           fi
+
+      - name: Set up Git
+        run: |
+          git config --global user.email "github-action@example.com"
+          git config --global user.name "jman-github"
 
       - name: Check for changes
         run: |
@@ -100,6 +110,11 @@ jobs:
             # Find and replace the like counter in line 22 of README.md
             sed -i '22s#.*#<sub><b><i>Like counter: $(wc -l < likers-mutable.txt)</i></b></sub>#' README.md
           fi
+
+      - name: Set up Git
+        run: |
+          git config --global user.email "github-action@example.com"
+          git config --global user.name "jman-github"
 
       - name: Check for changes
         run: |
