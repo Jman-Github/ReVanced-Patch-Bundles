@@ -3,7 +3,6 @@ on:
   issues:
     types:
       - labeled
-      - unlabeled
 
 jobs:
   add-mutable-like:
@@ -22,8 +21,10 @@ jobs:
 
       - name: Create local changes
         run: |
-          # Remove author from unlikers-mutable.txt if exists
-          sed -i "/^${author}$/d" unlikers-mutable.txt
+          if grep -Fxq "$author" unlikers-mutable.txt
+          then
+            sed -i "/^$author$/d" unlikers-mutable.txt
+          fi
           if grep -Fxq "$author" likers-mutable.txt
           then
             echo "Try again!"
@@ -37,7 +38,7 @@ jobs:
       - name: Set up Git
         run: |
           git config --global user.email "github-action@example.com"
-          git config --global user.name "github-actions"
+          git config --global user.name "github-actions[bot]"
 
       - name: Check for changes
         run: |
@@ -65,11 +66,13 @@ jobs:
 
       - name: Create local changes
         run: |
-          # Remove author from likers-mutable.txt if exists
-          sed -i "/^${author}$/d" likers-mutable.txt
+          if grep -Fxq "$author" likers-mutable.txt
+          then
+            sed -i "/^$author$/d" likers-mutable.txt
+          fi
           if grep -Fxq "$author" unlikers-mutable.txt
           then
-            echo "Try again!"
+            echo "Try again! You have already unliked"
           else
             echo "$author" >> unlikers-mutable.txt
             # Find and replace the like counter in line 15 of README.md
@@ -80,7 +83,7 @@ jobs:
       - name: Set up Git
         run: |
           git config --global user.email "github-action@example.com"
-          git config --global user.name "github-actions"
+          git config --global user.name "github-actions[bot]"
 
       - name: Check for changes
         run: |
