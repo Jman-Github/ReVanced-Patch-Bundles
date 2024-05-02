@@ -25,21 +25,94 @@ jobs:
             echo "Try again!"
           else
             echo "$author" >> likers.txt
-            #and update counter
-            LIKES=$(wc -l < likers.txt)
-            REPLACE=$(echo "<sub><b><i>Like counter: ${LIKES}</i></b></sub>")
-            (head -9 README.md; echo "$REPLACE"; tail -n +11 README.md) > foobar && mv foobar README.md
+            # Find and replace the like counter in line 13 of README.md
+            sed -i '13s/.*/<sub><b><i>Like counter: $(wc -l < likers.txt)</i></b></sub>/' README.md
           fi
-
-      - name: Configure Git
-        run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
 
       - name: Commit changes
         run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add .
           git commit -m "Add like by $author"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: bundles
+
+  add-mutable-like:
+    env:
+      author: ${{ github.event.issue.user.login }}
+    if: github.event.label.name == 'like-mutable'
+    runs-on: ubuntu-latest
+    name: commit and push mutable like
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+          ref: bundles
+
+      - name: Create local changes
+        run: |
+          if grep -Fxq "$author" likers-mutable.txt
+          then
+            echo "Try again!"
+          else
+            echo "$author" >> likers-mutable.txt
+            # Find and replace the like counter in line 22 of README.md
+            sed -i '22s/.*/<sub><b><i>Like counter: $(wc -l < likers-mutable.txt)</i></b></sub>/' README.md
+          fi
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Add mutable like by $author"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: bundles
+
+  unlike:
+    env:
+      author: ${{ github.event.issue.user.login }}
+    if: github.event.label.name == 'unlike-mutable'
+    runs-on: ubuntu-latest
+    name: commit and push mutable unlike
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+          ref: bundles
+
+      - name: Create local changes
+        run: |
+          LINE=$(grep -Fx "$author" likers-mutable.txt -n| cut -d ":" -f 1)
+          if [ -z "$LINE" ]
+          then
+            echo "Try again! You haven't already liked"
+          else
+            #withdraw like
+            sed -i "${LINE}d" likers-mutable.txt
+            # Find and replace the like counter in line 22 of README.md
+            sed -i '22s/.*/<sub><b><i>Like counter: $(wc -l < likers-mutable.txt)</i></b></sub>/' README.md
+          fi
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Remove mutable like by $author"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
