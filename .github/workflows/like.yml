@@ -25,9 +25,9 @@ jobs:
             echo "Try again!"
           else
             echo "$author" >> likers-mutable.txt
-            # Find and replace the like counter in line 22 of README.md
-            like_counter=$(($(wc -l < likers-mutable.txt) - 1))
-            sed -i "22s#.*#<sub><b><i>Like counter: $((like_counter))</i></b></sub>#" README.md
+            # Find and replace the like counter in line 15 of README.md
+            like_counter=$(($(wc -l < likers-mutable.txt)))
+            sed -i "15s#.*#<sub><b><i>Like counter: $((like_counter))</i></b></sub>#" README.md
           fi
 
       - name: Set up Git
@@ -61,16 +61,16 @@ jobs:
 
       - name: Create local changes
         run: |
-          LINE=$(grep -Fx "$author" likers-mutable.txt -n| cut -d ":" -f 1)
+          LINE=$(grep -Fx "$author" likers-mutable.txt -n | cut -d ":" -f 1)
           if [ -z "$LINE" ]
           then
             echo "Try again! You haven't already liked"
           else
             #withdraw like
             sed -i "${LINE}d" likers-mutable.txt
-            # Find and replace the like counter in line 22 of README.md
-            like_counter=$(($(wc -l < likers-mutable.txt) - 1))
-            sed -i "22s#.*#<sub><b><i>Like counter: $((like_counter))</i></b></sub>#" README.md
+            # Find and replace the like counter in line 15 of README.md
+            like_counter=$(($(wc -l < likers-mutable.txt)))
+            sed -i "15s#.*#<sub><b><i>Like counter: $((like_counter))</i></b></sub>#" README.md
           fi
 
       - name: Set up Git
