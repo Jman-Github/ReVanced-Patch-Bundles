@@ -29,12 +29,9 @@ jobs:
             sed -i '13s/.*/<sub><b><i>Like counter: $(wc -l < likers.txt)</i></b></sub>/' README.md
           fi
 
-      - name: Commit changes
+      - name: Check for changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Add like by $author"
+          git diff --exit-code || git commit -am "Add like by $author"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
@@ -67,12 +64,9 @@ jobs:
             sed -i '22s/.*/<sub><b><i>Like counter: $(wc -l < likers-mutable.txt)</i></b></sub>/' README.md
           fi
 
-      - name: Commit changes
+      - name: Check for changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Add mutable like by $author"
+          git diff --exit-code || git commit -am "Add mutable like by $author"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
@@ -107,12 +101,9 @@ jobs:
             sed -i '22s/.*/<sub><b><i>Like counter: $(wc -l < likers-mutable.txt)</i></b></sub>/' README.md
           fi
 
-      - name: Commit changes
+      - name: Check for changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Remove mutable like by $author"
+          git diff --exit-code || git commit -am "Remove mutable like by $author"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
