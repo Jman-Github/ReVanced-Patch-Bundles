@@ -4,47 +4,6 @@ on:
     types:
       - labeled
 jobs:
-  add-like:
-    env:
-      author: ${{ github.event.issue.user.login }}
-    if: github.event.label.name == 'like'
-    runs-on: ubuntu-latest
-    name: commit and push like
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
-          fetch-depth: 0
-          ref: bundles
-
-      - name: Create local changes
-        run: |
-          if grep -Fxq "$author" likers.txt
-          then
-            echo "Try again!"
-          else
-            echo "$author" >> likers.txt
-            # Find and replace the like counter in line 13 of README.md
-            like_counter=$(($(wc -l < likers.txt) - 1))
-            sed -i "13s#.*#<sub><b><i>Like counter: $((like_counter))</i></b></sub>#" README.md
-          fi
-
-      - name: Set up Git
-        run: |
-          git config --global user.email "github-action@example.com"
-          git config --global user.name "jman-github"
-
-      - name: Check for changes
-        run: |
-          git diff --exit-code || git commit -am "Add like by $author"
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: bundles
-
   add-mutable-like:
     env:
       author: ${{ github.event.issue.user.login }}
