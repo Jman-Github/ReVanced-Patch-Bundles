@@ -59,6 +59,10 @@ jobs:
           fetch-depth: 0
           ref: bundles
 
+      - name: Add unliker to file
+        run: |
+          echo "$author" >> unlikers-mutable.txt
+
       - name: Create local changes
         run: |
           LINE=$(grep -Fx "$author" likers-mutable.txt -n | cut -d ":" -f 1)
