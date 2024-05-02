@@ -20,6 +20,8 @@ jobs:
 
       - name: Create local changes
         run: |
+          # Remove author from unlikers-mutable.txt if exists
+          sed -i "/^${author}$/d" unlikers-mutable.txt
           if grep -Fxq "$author" likers-mutable.txt
           then
             echo "Try again!"
@@ -61,20 +63,22 @@ jobs:
 
       - name: Create local changes
         run: |
-          LINE=$(grep -Fx "$author" likers-mutable.txt -n | cut -d ":" -f 1)
+          # Remove author from likers-mutable.txt if exists
+          sed -i "/^${author}$/d" likers-mutable.txt
+          LINE=$(grep -Fx "$author" unlikers-mutable.txt -n | cut -d ":" -f 1)
           if [ -z "$LINE" ]
           then
             echo "Try again! You haven't already liked"
           else
             # Withdraw like
-            sed -i "${LINE}d" likers-mutable.txt
+            sed -i "${LINE}d" unlikers-mutable.txt
             # Update the like counter in line 15 of README.md
             CURRENT_LIKES=$(grep -c "^" likers-mutable.txt)
             sed -i "15s#.*#<sub><b><i>Like counter: $((CURRENT_LIKES))</i></b></sub>#" README.md
           fi
 
       - name: Add unliker to file
-        run: echo "$author" >> unlikers-mutable.txt
+        run: echo "$author" >> likers-mutable.txt
 
       - name: Set up Git
         run: |
