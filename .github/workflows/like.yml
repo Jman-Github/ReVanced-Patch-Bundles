@@ -26,7 +26,7 @@ jobs:
           else
             echo "$author" >> likers.txt
             # Find and replace the like counter in line 13 of README.md
-            sed -i '13s/.*/<sub><b><i>Like counter: $(wc -l < likers.txt)</i></b></sub>/' README.md
+            sed -i '13s#.*#<sub><b><i>Like counter: $(wc -l < likers.txt)</i></b></sub>#' README.md
           fi
 
       - name: Check for changes
@@ -61,7 +61,7 @@ jobs:
           else
             echo "$author" >> likers-mutable.txt
             # Find and replace the like counter in line 22 of README.md
-            sed -i '22s/.*/<sub><b><i>Like counter: $(wc -l < likers-mutable.txt)</i></b></sub>/' README.md
+            sed -i '22s#.*#<sub><b><i>Like counter: $(wc -l < likers-mutable.txt)</i></b></sub>#' README.md
           fi
 
       - name: Check for changes
@@ -98,7 +98,7 @@ jobs:
             #withdraw like
             sed -i "${LINE}d" likers-mutable.txt
             # Find and replace the like counter in line 22 of README.md
-            sed -i '22s/.*/<sub><b><i>Like counter: $(wc -l < likers-mutable.txt)</i></b></sub>/' README.md
+            sed -i '22s#.*#<sub><b><i>Like counter: $(wc -l < likers-mutable.txt)</i></b></sub>#' README.md
           fi
 
       - name: Check for changes
