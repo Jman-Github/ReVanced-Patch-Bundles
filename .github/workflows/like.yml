@@ -15,6 +15,7 @@ jobs:
       with:
         persist-credentials: false
         fetch-depth: 0
+        ref: bundles
     - name: Create local changes
       run: |
         if grep -Fxq "$author" likers.txt
@@ -27,15 +28,10 @@ jobs:
           REPLACE=$(echo "<sub><b><i>Like counter: ${LIKES}</i></b></sub>")
           (head -9 README.md; echo "$REPLACE"; tail -n +11 README.md) > foobar && mv foobar README.md
         fi
-    - name: Pull changes from remote
-      run: git pull origin main
     - name: Commit & Push changes
-      run: |
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --global user.name "github-actions[bot]"
-        git commit -am "Add $author like"
-        git pull origin main --rebase
-        git push
+      uses: actions-js/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
   add-mutable-like:
     env:
       author: ${{github.event.issue.user.login}}
@@ -47,6 +43,7 @@ jobs:
       with:
         persist-credentials: false
         fetch-depth: 0
+        ref: bundles
     - name: Create local changes
       run: |
         if grep -Fxq "$author" likers-mutable.txt
@@ -59,15 +56,10 @@ jobs:
           REPLACE=$(echo "<sub><b><i>Like counter: ${LIKES}</i></b></sub>")
           (head -18 README.md; echo "$REPLACE"; tail -n +20 README.md) > foobar && mv foobar README.md
         fi
-    - name: Pull changes from remote
-      run: git pull origin main
     - name: Commit & Push changes
-      run: |
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --global user.name "github-actions[bot]"
-        git commit -am "Add mutable $author like"
-        git pull origin main --rebase
-        git push
+      uses: actions-js/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}    
   unlike:
     env:
       author: ${{github.event.issue.user.login}}
@@ -79,6 +71,7 @@ jobs:
       with:
         persist-credentials: false
         fetch-depth: 0
+        ref: bundles
     - name: Create local changes
       run: |
         LINE=$(grep -Fx "$author" likers-mutable.txt -n| cut -d ":" -f 1)
@@ -93,12 +86,7 @@ jobs:
           REPLACE=$(echo "<sub><b><i>Like counter: ${LIKES}</i></b></sub>")
           (head -18 README.md; echo "$REPLACE"; tail -n +20 README.md) > foobar && mv foobar README.md
         fi
-    - name: Pull changes from remote
-      run: git pull origin main
     - name: Commit & Push changes unlike
-      run: |
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --global user.name "github-actions[bot]"
-        git commit -am "Remove $author like"
-        git pull origin main --rebase
-        git push
+      uses: actions-js/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
