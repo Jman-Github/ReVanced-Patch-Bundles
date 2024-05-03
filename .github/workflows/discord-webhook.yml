@@ -19,3 +19,5 @@ jobs:
         with:
           webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
           content: 'GitHub Action triggered: ${{ github.repository }}'
+          embed-title: 'GitHub Action triggered'
+          embed-description: '${{ github.repository }} has been triggered.'
