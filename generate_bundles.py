@@ -4,6 +4,10 @@ from httpx import AsyncClient
 
 async def get_latest_release(repo_url):
     async def get_version_url(release):
+        if release is None:
+            print("No release found")
+            return None, None
+
         version = release['tag_name']
         for asset in release["assets"]:
             if asset["browser_download_url"].endswith(".jar") or asset["browser_download_url"].endswith(".apk"):
