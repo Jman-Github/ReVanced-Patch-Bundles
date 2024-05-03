@@ -35,19 +35,25 @@ jobs:
     - name: Check for changes
       id: check_changes
       run: |
-        git diff --quiet HEAD^ -- '*.json' || echo "Changes found"
+        git fetch
+        if git diff --quiet FETCH_HEAD -- '*.json'; then
+          echo "No changes"
+        else
+          echo "Changes found"
+        fi
       continue-on-error: true
       
     - name: Finalize and commit changes
-      if: steps.check_changes.outputs.stdout != ''
+      if: steps.check_changes.outputs.stdout != 'No changes'
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add *.json
-        git commit -a -m "updated patch-bundle.json to latest"
+        git commit -m "Update patch-bundle.json to latest"
         git pull --rebase
         
     - name: Push changes
+      if: steps.check_changes.outputs.stdout != 'No changes'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GIT_TOKEN }}
