@@ -1,6 +1,9 @@
 name: Patch bundle updater
 
 on:
+  push:
+    paths:
+      - '**.json'
   workflow_dispatch:
   schedule:
     - cron: '*/30 * * * *'
@@ -57,3 +60,12 @@ jobs:
     - name: Pause
       if: matrix.minutes != 3
       run: sleep 60
+
+    # Trigger Discord notification if there are changes in .json files and this is the last repeat/pause
+    - name: Discord notification
+      if: matrix.minutes == 3 && steps.check_changes.outputs.stdout != ''
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      uses: Ilshidur/action-discord@master
+      with:
+        args: 'The project {{ EVENT_PAYLOAD.repository.full_name }} has been deployed. Some of patch-bundle.json files have been updated.'
