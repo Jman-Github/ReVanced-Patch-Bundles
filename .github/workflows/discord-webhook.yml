@@ -1,9 +1,6 @@
 name: Discord Notification
 
 on:
-  push:
-    branches:
-      - bundles
   workflow_run:
     workflows:
       - 'Patch bundle updater'
@@ -12,7 +9,7 @@ on:
 
 jobs:
   send_discord_notification:
-    if: ${{ github.event_name == 'workflow_run' && github.event.workflow == 'Patch bundle updater' && github.event.workflow_run.conclusion == 'success' && steps.get_json_file_name.outputs.file_name != '' }}
+    if: ${{ github.event.workflow == 'Patch bundle updater' && github.event.workflow_run.conclusion == 'success' && steps.get_json_file_name.outputs.file_name != '' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
