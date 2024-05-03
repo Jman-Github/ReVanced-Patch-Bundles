@@ -4,11 +4,11 @@ from httpx import AsyncClient
 
 async def get_latest_release(repo_url):
     async def get_version_url(release):
-        if release is None or 'tag_name' not in release:
+        try:
+            version = release['tag_name']
+        except (TypeError, KeyError):
             print("No valid release found")
             return None, None
-
-        version = release['tag_name']
 
         assets = release.get("assets", [])
         if not assets:
