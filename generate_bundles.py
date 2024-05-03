@@ -16,7 +16,7 @@ async def get_latest_release(repo_url):
     api_url = f"{repo_url}/releases"
     response = await AsyncClient().get(api_url)
     if response.status_code == 200:
-        releases = sorted(response.json(), key=lambda release: release["published_at"], reverse=True)
+        releases = response.json()
         version, asset_url = await get_version_url(releases)
         return version, asset_url
 
