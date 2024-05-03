@@ -17,5 +17,5 @@ jobs:
         if: ${{ github.event_name == 'push' && contains(github.event.head_commit.modified, 'patch-bundles.json') || github.event_name == 'workflow_dispatch' }}
         uses: tsickert/discord-webhook@v6.0.0
         with:
-          url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
           content: 'GitHub Action triggered: ${{ github.repository }}'
