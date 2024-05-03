@@ -18,6 +18,6 @@ jobs:
         uses: tsickert/discord-webhook@v6.0.0
         with:
           webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          content: 'GitHub Action triggered: ${{ github.repository }}'
+          content: 'GitHub Action triggered: ${GITHUB_REPOSITORY}'
           embed-title: 'GitHub Action triggered'
           embed-description: '${{ github.repository }} has been triggered.'
