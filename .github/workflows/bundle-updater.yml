@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '*/30 * * * *'
-    
+
 jobs:
   update_bundle:
     runs-on: ubuntu-latest
@@ -35,25 +35,19 @@ jobs:
     - name: Check for changes
       id: check_changes
       run: |
-        git diff --quiet && echo "false" || echo "true" > changes.txt
+        git diff --quiet || echo "Changes found"
       continue-on-error: true
       
-    - name: Set changes output
-      if: steps.check_changes.outputs.changes == 'true'
-      run: echo "::set-output name=changes::$(cat changes.txt)"
-      
     - name: Finalize and commit changes
-      if: steps.check_changes.outputs.changes == 'true'
+      if: steps.check_changes.outputs.stdout != ''
       run: |
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --global user.name "github-actions[bot]"
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
         git add *.json
-        git commit -m "updated patch-bundle.json to latest"
+        git commit -a -m "updated patch-bundle.json to latest"
         git pull --rebase
-        git push
         
     - name: Push changes
-      if: matrix.minutes == 3 && steps.check_changes.outputs.changes == 'true'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GIT_TOKEN }}
@@ -63,12 +57,3 @@ jobs:
     - name: Pause
       if: matrix.minutes != 3
       run: sleep 60
-
-    # Trigger Discord notification if there are changes in .json files and this is the last repeat/pause
-    - name: Discord notification
-      if: matrix.minutes == 3 && steps.check_changes.outputs.changes == 'true'
-      env:
-        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-      uses: Ilshidur/action-discord@master
-      with:
-        args: 'The project {{ EVENT_PAYLOAD.repository.full_name }} has been deployed. Some of patch-bundle.json files have been updated.'
