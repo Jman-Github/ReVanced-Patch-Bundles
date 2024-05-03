@@ -7,7 +7,6 @@ on:
 
 jobs:
   check_for_updates:
-    name: Check for bundle updates
     runs-on: ubuntu-latest
 
     strategy:
