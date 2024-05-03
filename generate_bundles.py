@@ -3,34 +3,21 @@ import json
 from httpx import AsyncClient
 
 async def get_latest_release(repo_url):
-    async def get_version_url(release):
-        version = release['tag_name']
-        for asset in release["assets"]:
-            if asset["browser_download_url"].endswith(".jar") or asset["browser_download_url"].endswith(".apk"):
-                asset_url = asset['browser_download_url']
-                return version, asset_url
-        print(f"No asset found for the {version}")
+    async def get_version_url(releases):
+        for release in releases:
+            version = release['tag_name']
+            for asset in release["assets"]:
+                if asset["browser_download_url"].endswith(".jar") or asset["browser_download_url"].endswith(".apk"):
+                    asset_url = asset['browser_download_url']
+                    return version, asset_url
+            print(f"No asset found for the {version}")
         return None, None
 
     api_url = f"{repo_url}/releases"
     response = await AsyncClient().get(api_url)
     if response.status_code == 200:
-        releases = response.json()
-        print(releases)  # Print the releases
-        latest_prerelease = None
-        latest_regular_release = None
-        for release in releases:
-            if release["prerelease"]:
-                if not latest_prerelease or release["published_at"] > latest_prerelease["published_at"]:
-                    latest_prerelease = release
-            else:
-                if not latest_regular_release or release["published_at"] > latest_regular_release["published_at"]:
-                    latest_regular_release = release
-        if latest_regular_release and (not latest_prerelease or latest_regular_release["published_at"] > latest_prerelease["published_at"]):
-            target_release = latest_regular_release
-        else:
-            target_release = latest_prerelease
-        version, asset_url = await get_version_url(target_release)
+        releases = sorted(response.json(), key=lambda release: release["published_at"], reverse=True)
+        version, asset_url = await get_version_url(releases)
         return version, asset_url
 
 async def main():
