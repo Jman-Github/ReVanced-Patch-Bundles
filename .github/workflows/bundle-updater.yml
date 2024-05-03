@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 0
     
     - name: Set up generate_bundles.py
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v2
       with:
         python-version: '3.x'
       
@@ -49,15 +49,19 @@ jobs:
         branch: bundles
 
     - name: Actions for Discord
+      id: discord_notification
       uses: Ilshidur/action-discord@0.3.2
 
     - name: Discord notification
       if: steps.check_changes.outputs.stdout != '' && steps.check_changes.outputs.stdout.includes('.json') && secrets.DISCORD_WEBHOOK
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-      uses: Ilshidur/action-discord@master
-      with:
-        args: 'The following .json files have been updated: *.json\n\n[View Commits](https://github.com/${{ github.repository }}/compare/${{ github.event.before }}...${{ github.sha }})'
+      run: |
+        echo 'The following .json files have been updated: *.json\n\n[View Commits](https://github.com/${{ github.repository }}/compare/${{ github.event.before }}...${{ github.sha }})' >> $GITHUB_ENV
+
+    - name: Trigger Discord notification
+      if: steps.discord_notification.outputs.status == 'success'
+      run: curl -X POST -H "Content-Type: application/json" -d "{\"content\": \"$(cat $GITHUB_ENV)\"}" $DISCORD_WEBHOOK
 
     # Pause the workflow for one minute before running again
     - name: Pause
