@@ -35,7 +35,7 @@ jobs:
     - name: Check for changes
       id: check_changes
       run: |
-        git diff --quiet || echo "Changes found"
+        git diff --quiet HEAD^ -- '*.json' || echo "Changes found"
       continue-on-error: true
       
     - name: Finalize and commit changes
