@@ -55,5 +55,5 @@ jobs:
 
     # Pause the workflow for one minute before running again
     - name: Pause
-      if: matrix.minutes != 5
+      if: matrix.minutes != 3
       run: sleep 60
