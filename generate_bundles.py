@@ -1,59 +1,57 @@
+import asyncio
 import json
-import requests
+from httpx import AsyncClient
 
-# Load bundle sources from bundle-sources.json
-with open("bundle-sources.json", "r") as json_file:
-    bundle_sources = json.load(json_file)
+async def get_latest_release(repo_url):
+    async def get_version_url(release):
+        version = release['tag_name']
+        for asset in release["assets"]:
+            if asset["browser_download_url"].endswith(".jar") or asset["browser_download_url"].endswith(".apk"):
+                asset_url = asset['browser_download_url']
+                return version, asset_url
+        print(f"No asset found for the {version}")
+        return None, None
 
-for source_name, source_info in bundle_sources.items():
-    print(f"Processing source: {source_name}")
-    
-    # Get patches info
-    print("API URL:", f"{source_info['patches']}/releases")
-    response = requests.get(f"{source_info['patches']}/releases")
-    print("Response status code:", response.status_code)
-    releases = response.json()
-    print("Number of releases:", len(releases))
-    
-    # Fetch patches
-    patches_info = {}
-    for release in releases:
-        print("Checking release:", release['tag_name'])
-        for asset in release['assets']:
-            if asset['name'].endswith('.jar'):
-                patches_info['version'] = release['tag_name']
-                patches_info['url'] = asset['browser_download_url']
-                break
-    print("Patches version:", patches_info.get('version', 'Not Found'))
-    print("Patches asset URL:", patches_info.get('url', 'Not Found'))
-    
-    # Get integrations info
-    print("API URL:", f"{source_info['integration']}/releases")
-    response = requests.get(f"{source_info['integration']}/releases")
-    print("Response status code:", response.status_code)
-    releases = response.json()
-    print("Number of releases:", len(releases))
-    
-    # Fetch integrations
-    integrations_info = {}
-    for release in releases:
-        print("Checking release:", release['tag_name'])
-        for asset in release['assets']:
-            if asset['name'].endswith('.apk'):
-                integrations_info['version'] = release['tag_name']
-                integrations_info['url'] = asset['browser_download_url']
-                break
-    print("Integration version:", integrations_info.get('version', 'Not Found'))
-    print("Integration asset URL:", integrations_info.get('url', 'Not Found'))
-    
-    # Save information to a JSON file
-    bundle_info = {
-        "patches_version": patches_info.get('version', 'Not Found'),
-        "patches_url": patches_info.get('url', 'Not Found'),
-        "integration_version": integrations_info.get('version', 'Not Found'),
-        "integration_url": integrations_info.get('url', 'Not Found')
-    }
-    with open(f"{source_name}-patches-bundle.json", "w") as json_file:
-        json.dump(bundle_info, json_file, indent=4)
+    api_url = f"{repo_url}/releases"
+    response = await AsyncClient().get(api_url)
+    if response.status_code == 200:
+        releases = response.json()
+        latest_prerelease = None
+        latest_regular_release = None
+        for release in releases:
+            if release["prerelease"]:
+                if not latest_prerelease or release["published_at"] > latest_prerelease["published_at"]:
+                    latest_prerelease = release
+            else:
+                if not latest_regular_release or release["published_at"] > latest_regular_release["published_at"]:
+                    latest_regular_release = release
+        if latest_regular_release and (not latest_prerelease or latest_regular_release["published_at"] > latest_prerelease["published_at"]):
+            target_release = latest_regular_release
+        else:
+            target_release = latest_prerelease
+        version, asset_url = await get_version_url(target_release)
+        return version, asset_url
 
-print("Latest release information saved to *_patches-bundle.json")
+async def main():
+    with open('bundle-sources.json') as file:
+        sources = json.load(file)
+
+    for source, repo in sources.items():
+        patches_version, patches_asset_url = await get_latest_release(repo.get('patches'))
+        integration_version, integration_asset_url = await get_latest_release(repo.get('integration'))
+        info_dict = {
+            "patches": {
+                "version": patches_version,
+                "url": patches_asset_url
+            },
+            "integrations": {
+                "version": integration_version,
+                "url": integration_asset_url
+            }
+        }
+        with open(f'{source}-patches-bundle.json', 'w') as file:
+            json.dump(info_dict, file, indent=2)
+        print(f"Latest release information saved to {source}-patches-bundle.json")
+
+if __name__ == "__main__":
+    asyncio.run(main())
