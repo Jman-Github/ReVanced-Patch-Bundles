@@ -8,10 +8,19 @@ async def get_latest_release(repo_url):
             print("No release found")
             return None, None
 
-        version = release['tag_name']
-        for asset in release["assets"]:
-            if asset["browser_download_url"].endswith(".jar") or asset["browser_download_url"].endswith(".apk"):
-                asset_url = asset['browser_download_url']
+        version = release.get('tag_name')
+        if version is None:
+            print("No tag name found")
+            return None, None
+
+        assets = release.get("assets", [])
+        if not assets:
+            print(f"No assets found for the {version}")
+            return None, None
+
+        for asset in assets:
+            if asset.get("browser_download_url", "").endswith(".jar") or asset.get("browser_download_url", "").endswith(".apk"):
+                asset_url = asset.get('browser_download_url')
                 return version, asset_url
         print(f"No asset found for the {version}")
         return None, None
@@ -33,13 +42,13 @@ async def get_latest_release(repo_url):
     latest_prerelease = None
     latest_regular_release = None
     for release in releases:
-        if release["prerelease"]:
-            if not latest_prerelease or release["published_at"] > latest_prerelease["published_at"]:
+        if release.get("prerelease"):
+            if not latest_prerelease or release.get("published_at") > latest_prerelease.get("published_at", ""):
                 latest_prerelease = release
         else:
-            if not latest_regular_release or release["published_at"] > latest_regular_release["published_at"]:
+            if not latest_regular_release or release.get("published_at") > latest_regular_release.get("published_at", ""):
                 latest_regular_release = release
-    if latest_regular_release and (not latest_prerelease or latest_regular_release["published_at"] > latest_prerelease["published_at"]):
+    if latest_regular_release and (not latest_prerelease or latest_regular_release.get("published_at", "") > latest_prerelease.get("published_at", "")):
         target_release = latest_regular_release
     else:
         target_release = latest_prerelease
