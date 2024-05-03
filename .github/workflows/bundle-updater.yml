@@ -6,7 +6,8 @@ on:
     - cron: '*/30 * * * *'
 
 jobs:
-  update_bundle:
+  check_for_updates:
+    name: Check for bundle updates
     runs-on: ubuntu-latest
 
     strategy:
