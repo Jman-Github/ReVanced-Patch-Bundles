@@ -4,14 +4,11 @@ from httpx import AsyncClient
 
 async def get_latest_release(repo_url):
     async def get_version_url(release):
-        if release is None:
-            print("No release found")
+        if release is None or 'tag_name' not in release:
+            print("No valid release found")
             return None, None
 
-        version = release.get('tag_name')
-        if version is None:
-            print("No tag name found")
-            return None, None
+        version = release['tag_name']
 
         assets = release.get("assets", [])
         if not assets:
@@ -39,21 +36,21 @@ async def get_latest_release(repo_url):
         else:
             break
 
-    latest_prerelease = None
-    latest_regular_release = None
+    latest_release = None
     for release in releases:
         if release.get("prerelease"):
-            if not latest_prerelease or release.get("published_at") > latest_prerelease.get("published_at", ""):
-                latest_prerelease = release
+            if not latest_release or release.get("published_at") > latest_release.get("published_at", ""):
+                latest_release = release
         else:
-            if not latest_regular_release or release.get("published_at") > latest_regular_release.get("published_at", ""):
-                latest_regular_release = release
-    if latest_regular_release and (not latest_prerelease or latest_regular_release.get("published_at", "") > latest_prerelease.get("published_at", "")):
-        target_release = latest_regular_release
+            if not latest_release or release.get("published_at") > latest_release.get("published_at", ""):
+                latest_release = release
+
+    if latest_release:
+        version, asset_url = await get_version_url(latest_release)
+        return version, asset_url
     else:
-        target_release = latest_prerelease
-    version, asset_url = await get_version_url(target_release)
-    return version, asset_url
+        print("No latest release found")
+        return None, None
 
 async def main():
     with open('bundle-sources.json') as file:
