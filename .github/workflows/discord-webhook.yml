@@ -3,19 +3,23 @@ name: Discord Notification
 on:
   workflow_run:
     workflows:
-      - 'Bundle Updater'
+      - 'bundle-updater.yml'
     types:
       - completed
 
 jobs:
   send_discord_notification:
-    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.name == 'Bundle Updater' }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.name == 'bundle-updater.yml' && steps.get_json_file_name.outputs.file_name != '' }}
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
       - name: Get changed JSON file name
         id: get_json_file_name
-        run: echo "::set-output name=file_name::$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '.json')"
-      
+        run: |
+          echo "::set-output name=file_name::$(git diff --name-only ${{ github.event.workflow_run.head_commit }}^..${{ github.event.workflow_run.head_commit }} | grep '.json' | head -n 1)"
+
       - name: Send Discord notification
         if: steps.get_json_file_name.outputs.file_name != ''
         uses: tsickert/discord-webhook@v6.0.0
