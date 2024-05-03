@@ -35,21 +35,25 @@ jobs:
     - name: Check for changes
       id: check_changes
       run: |
-        git diff --quiet && echo "::set-output name=changes::false" || echo "::set-output name=changes::true"
+        git diff --quiet && echo "false" || echo "true" > changes.txt
       continue-on-error: true
+      
+    - name: Set changes output
+      if: steps.check_changes.outputs.changes == 'true'
+      run: echo "::set-output name=changes::$(cat changes.txt)"
       
     - name: Finalize and commit changes
       if: steps.check_changes.outputs.changes == 'true'
       run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
         git add *.json
         git commit -m "updated patch-bundle.json to latest"
         git pull --rebase
         git push
         
     - name: Push changes
-      if: matrix.minutes == 3
+      if: matrix.minutes == 3 && steps.check_changes.outputs.changes == 'true'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GIT_TOKEN }}
