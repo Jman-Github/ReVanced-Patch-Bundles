@@ -4,53 +4,33 @@ from httpx import AsyncClient
 
 async def get_latest_release(repo_url):
     async def get_version_url(release):
-        try:
-            version = release['tag_name']
-        except (TypeError, KeyError):
-            print("No valid release found")
-            return None, None
-
-        assets = release.get("assets", [])
-        if not assets:
-            print(f"No assets found for the {version}")
-            return None, None
-
-        for asset in assets:
-            if asset.get("browser_download_url", "").endswith(".jar") or asset.get("browser_download_url", "").endswith(".apk"):
-                asset_url = asset.get('browser_download_url')
+        version = release['tag_name']
+        for asset in release["assets"]:
+            if asset["browser_download_url"].endswith(".jar") or asset["browser_download_url"].endswith(".apk"):
+                asset_url = asset['browser_download_url']
                 return version, asset_url
         print(f"No asset found for the {version}")
         return None, None
 
     api_url = f"{repo_url}/releases"
-    releases = []
-    page = 1
-    while True:
-        response = await AsyncClient().get(api_url, params={"page": page})
-        if response.status_code == 200:
-            page_releases = response.json()
-            if not page_releases:
-                break
-            releases.extend(page_releases)
-            page += 1
+    response = await AsyncClient().get(api_url)
+    if response.status_code == 200:
+        releases = response.json()
+        latest_prerelease = None
+        latest_regular_release = None
+        for release in releases:
+            if release["prerelease"]:
+                if not latest_prerelease or release["published_at"] > latest_prerelease["published_at"]:
+                    latest_prerelease = release
+            else:
+                if not latest_regular_release or release["published_at"] > latest_regular_release["published_at"]:
+                    latest_regular_release = release
+        if latest_regular_release and (not latest_prerelease or latest_regular_release["published_at"] > latest_prerelease["published_at"]):
+            target_release = latest_regular_release
         else:
-            break
-
-    latest_release = None
-    for release in releases:
-        if release.get("prerelease"):
-            if not latest_release or release.get("published_at") > latest_release.get("published_at", ""):
-                latest_release = release
-        else:
-            if not latest_release or release.get("published_at") > latest_release.get("published_at", ""):
-                latest_release = release
-
-    if latest_release:
-        version, asset_url = await get_version_url(latest_release)
+            target_release = latest_prerelease
+        version, asset_url = await get_version_url(target_release)
         return version, asset_url
-    else:
-        print("No latest release found")
-        return None, None
 
 async def main():
     with open('bundle-sources.json') as file:
