@@ -1,0 +1,20 @@
+name: Discord Notification
+
+on:
+  push:
+    paths:
+      - 'bundle-updater.yml'
+      - '**.json'
+
+jobs:
+  send_discord_notification:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Send Discord notification
+        uses: tsickert/discord-webhook@v6.0.0
+        with:
+          url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          content: 'GitHub Action triggered: ${{ github.repository }}'
