@@ -1,13 +1,10 @@
 name: Patch bundle updater
 
 on:
-  push:
-    paths:
-      - '**.json'
   workflow_dispatch:
   schedule:
     - cron: '*/30 * * * *'
-
+    
 jobs:
   update_bundle:
     runs-on: ubuntu-latest
