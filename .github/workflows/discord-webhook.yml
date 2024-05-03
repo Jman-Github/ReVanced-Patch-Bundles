@@ -9,24 +9,18 @@ on:
 
 jobs:
   send_discord_notification:
-    if: ${{ github.event.workflow == 'Patch bundle updater' && github.event.workflow_run.conclusion == 'success' && steps.get_json_file_name.outputs.file_name != '' }}
+    if: ${{ github.event.workflow == 'Patch bundle updater' && github.event.workflow_run.conclusion == 'success' && env.has_json_changes == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Get changed JSON file name
-        id: get_json_file_name
-        run: |
-          echo "::set-output name=file_name::$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '.json')"
-          
       - name: Send Discord notification
-        if: steps.get_json_file_name.outputs.file_name != ''
         uses: tsickert/discord-webhook@v6.0.0
         with:
           webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
           webhook-profile-url: 'https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png'
           webhook-profile-name: 'ReVanced-Patch-Bundle'
-          content: 'Changes detected in ${{ steps.get_json_file_name.outputs.file_name }} file in ${{ github.repository }}.'
+          content: 'Changes detected in a JSON file in ${{ github.repository }}.'
           embed-title: 'JSON File Updated'
-          embed-description: 'Changes detected in ${{ steps.get_json_file_name.outputs.file_name }} file.'
+          embed-description: 'Changes detected in a JSON file.'
