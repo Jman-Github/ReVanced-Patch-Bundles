@@ -1,82 +1,59 @@
 import json
-import os
 import requests
 
-def get_latest_release(api_url):
-    response = requests.get(api_url)
-    if response.status_code == 200:
-        releases = response.json()
-        if releases:
-            latest_release = releases[0]
-            version = latest_release['tag_name']
-            assets = latest_release['assets']
-            asset_url = None
-            for asset in assets:
-                if asset['name'].endswith(('.jar', '.apk')):
-                    asset_url = asset['browser_download_url']
-                    break
-            return version, asset_url
-    return None, None
+# Load bundle sources from bundle-sources.json
+with open("bundle-sources.json", "r") as json_file:
+    bundle_sources = json.load(json_file)
 
-def update_bundle(source_name, patches_version, patches_asset_url, integration_version, integration_asset_url):
-    filename = f"{source_name}-patches-bundle.json"
-    data = {
-        "patches_version": patches_version,
-        "patches_asset_url": patches_asset_url,
-        "integration_version": integration_version,
-        "integration_asset_url": integration_asset_url
-    }
-    with open(filename, 'w') as f:
-        json.dump(data, f, indent=4)
-
-def process_source(source_name, patches_api_url, integration_api_url):
+for source_name, source_info in bundle_sources.items():
     print(f"Processing source: {source_name}")
     
-    patches_version, patches_asset_url = get_latest_release(patches_api_url)
-    print(f"Patches version: {patches_version}")
-    print(f"Patches asset URL: {patches_asset_url}")
+    # Get patches info
+    print("API URL:", f"{source_info['patches']}/releases")
+    response = requests.get(f"{source_info['patches']}/releases")
+    print("Response status code:", response.status_code)
+    releases = response.json()
+    print("Number of releases:", len(releases))
     
-    integration_version, integration_asset_url = get_latest_release(integration_api_url)
-    print(f"Integration version: {integration_version}")
-    print(f"Integration asset URL: {integration_asset_url}")
+    # Fetch patches
+    patches_info = {}
+    for release in releases:
+        print("Checking release:", release['tag_name'])
+        for asset in release['assets']:
+            if asset['name'].endswith('.jar'):
+                patches_info['version'] = release['tag_name']
+                patches_info['url'] = asset['browser_download_url']
+                break
+    print("Patches version:", patches_info.get('version', 'Not Found'))
+    print("Patches asset URL:", patches_info.get('url', 'Not Found'))
     
-    update_bundle(source_name, patches_version, patches_asset_url, integration_version, integration_asset_url)
-    print(f"Latest release information saved to {source_name}-patches-bundle.json")
-
-sources = {
-    "piko": {
-        "patches_api_url": "https://api.github.com/repos/crimera/piko/releases",
-        "integration_api_url": "https://api.github.com/repos/crimera/revanced-integrations/releases"
-    },
-    "anddea": {
-        "patches_api_url": "https://api.github.com/repos/anddea/revanced-patches/releases",
-        "integration_api_url": "https://api.github.com/repos/anddea/revanced-integrations/releases"
-    },
-    "experimental": {
-        "patches_api_url": "https://api.github.com/repos/Aunali321/ReVancedExperiments/releases",
-        "integration_api_url": "https://api.github.com/repos/revanced/revanced-integrations/releases"
-    },
-    "privacy": {
-        "patches_api_url": "https://api.github.com/repos/jkennethcarino/privacy-revanced-patches/releases",
-        "integration_api_url": "https://api.github.com/repos/jkennethcarino/privacy-revanced-integrations/releases"
-    },
-    "rex": {
-        "patches_api_url": "https://api.github.com/repos/YT-Advanced/ReX-patches/releases",
-        "integration_api_url": "https://api.github.com/repos/YT-Advanced/ReX-integrations/releases"
-    },
-    "twitter": {
-        "patches_api_url": "https://api.github.com/repos/IndusAryan/twitter-patches/releases",
-        "integration_api_url": "https://api.github.com/repos/ReVanced/revanced-integrations/releases"
-    },
-    "rufusin": {
-        "patches_api_url": "https://api.github.com/repos/rufusin/revanced-patches/releases",
-        "integration_api_url": "https://api.github.com/repos/rufusin/revanced-integrations/releases"
-    },
-    "dropped": {
-        "patches_api_url": "https://api.github.com/repos/indrastorms/dropped-patches/releases",
-        "integration_api_url": "https://api.github.com/repos/ReVanced/revanced-integrations/releases"
+    # Get integrations info
+    print("API URL:", f"{source_info['integration']}/releases")
+    response = requests.get(f"{source_info['integration']}/releases")
+    print("Response status code:", response.status_code)
+    releases = response.json()
+    print("Number of releases:", len(releases))
+    
+    # Fetch integrations
+    integrations_info = {}
+    for release in releases:
+        print("Checking release:", release['tag_name'])
+        for asset in release['assets']:
+            if asset['name'].endswith('.apk'):
+                integrations_info['version'] = release['tag_name']
+                integrations_info['url'] = asset['browser_download_url']
+                break
+    print("Integration version:", integrations_info.get('version', 'Not Found'))
+    print("Integration asset URL:", integrations_info.get('url', 'Not Found'))
+    
+    # Save information to a JSON file
+    bundle_info = {
+        "patches_version": patches_info.get('version', 'Not Found'),
+        "patches_url": patches_info.get('url', 'Not Found'),
+        "integration_version": integrations_info.get('version', 'Not Found'),
+        "integration_url": integrations_info.get('url', 'Not Found')
     }
-}
+    with open(f"{source_name}-patches-bundle.json", "w") as json_file:
+        json.dump(bundle_info, json_file, indent=4)
 
-for source_name, urls in sources.items():
-    process_source(source_name, urls["patches_api_url"], urls["integration_api_url"])
+print("Latest release information saved to *_patches-bundle.json")
