@@ -35,11 +35,11 @@ jobs:
     - name: Check for changes
       id: check_changes
       run: |
-        git diff --quiet || echo "Changes found"
+        git diff --quiet && echo "::set-output name=changes::false" || echo "::set-output name=changes::true"
       continue-on-error: true
       
     - name: Finalize and commit changes
-      if: steps.check_changes.outputs.stdout != ''
+      if: steps.check_changes.outputs.changes == 'true'
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
@@ -62,7 +62,7 @@ jobs:
 
     # Trigger Discord notification if there are changes in .json files and this is the last repeat/pause
     - name: Discord notification
-      if: matrix.minutes == 3 && steps.check_changes.outputs.stdout != ''
+      if: matrix.minutes == 3 && steps.check_changes.outputs.changes == 'true'
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
       uses: Ilshidur/action-discord@master
