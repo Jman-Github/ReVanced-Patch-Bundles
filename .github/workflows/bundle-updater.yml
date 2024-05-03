@@ -4,6 +4,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '*/30 * * * *'
+  push:
+    paths:
+      - '*.json'
 
 jobs:
   update_bundle:
@@ -13,11 +16,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       with:
-          persist-credentials: false
-          fetch-depth: 0
+        persist-credentials: false
+        fetch-depth: 0
     
     - name: Set up generate_bundles.py
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v2
       with:
         python-version: '3.x'
       
@@ -29,8 +32,12 @@ jobs:
     - name: Check for changes
       id: check_changes
       run: |
-        git diff --quiet || echo "Changes found"
-      continue-on-error: true
+        if git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -q '\.json'; then
+          echo "JSON files have been modified."
+        else
+          echo "No changes in JSON files."
+          exit 1
+        fi
       
     - name: Finalize and commit changes
       if: steps.check_changes.outputs.stdout != ''
@@ -45,14 +52,14 @@ jobs:
       if: steps.check_changes.outputs.stdout != ''
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.GIT_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: bundles
 
     - name: Actions for Discord
       uses: Ilshidur/action-discord@0.3.2
 
     - name: Discord notification
-      if: steps.check_changes.outputs.stdout != '' && steps.check_changes.outputs.stdout.includes('.json')
+      if: steps.check_changes.outputs.stdout != ''
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
       uses: Ilshidur/action-discord@master
