@@ -27,9 +27,13 @@ jobs:
       with:
         python-version: '3.x'
       
-    - name: Run generate_bundles.py
+    - name: Install dependencies
       run: |
         pip install httpx
+        pip install requests
+      
+    - name: Run generate_bundles.py
+      run: |
         python generate_bundles.py
       
     - name: Check for changes
