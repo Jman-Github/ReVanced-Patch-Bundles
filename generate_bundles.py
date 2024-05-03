@@ -2,38 +2,28 @@ import asyncio
 import json
 from httpx import AsyncClient
 
+async def get_version_url(release):
+    version = release['tag_name']
+    for asset in release["assets"]:
+        if asset["browser_download_url"].endswith(".jar") or asset["browser_download_url"].endswith(".apk"):
+            asset_url = asset['browser_download_url']
+            return version, asset_url
+    print(f"No asset found for the {version}")
+    return None, None
+
 async def get_latest_release(repo_url):
-    async def get_version_url(release):
-        version = release['tag_name']
-        for asset in release["assets"]:
-            if asset["browser_download_url"].endswith(".jar") or asset["browser_download_url"].endswith(".apk"):
-                asset_url = asset['browser_download_url']
-                return version, asset_url
-        print(f"No asset found for the {version}")
+    api_url = f"{repo_url}/releases/latest"
+    response = await AsyncClient().get(api_url)
+    if response.status_code == 200:
+        latest_release = response.json()
+        version, asset_url = await get_version_url(latest_release)
+        return version, asset_url
+    else:
+        print(f"Failed to fetch latest release for {repo_url}")
         return None, None
 
-    api_url = f"{repo_url}/releases"
-    response = await AsyncClient().get(api_url)
-    if response.status_code == 200:
-        releases = response.json()
-        latest_release = None
-        for release in releases:
-            if not latest_release or release["published_at"] > latest_release["published_at"]:
-                latest_release = release
-        version, asset_url = await get_version_url(latest_release)
-        return version, asset_url
-
 async def get_latest_patches(repo_url):
-    api_url = f"{repo_url}/releases"
-    response = await AsyncClient().get(api_url)
-    if response.status_code == 200:
-        releases = response.json()
-        latest_release = None
-        for release in releases:
-            if not latest_release or release["published_at"] > latest_release["published_at"]:
-                latest_release = release
-        version, asset_url = await get_version_url(latest_release)
-        return version, asset_url
+    return await get_latest_release(repo_url)
 
 async def main():
     with open('bundle-sources.json') as file:
