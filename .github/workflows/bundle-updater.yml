@@ -61,6 +61,7 @@ jobs:
       with:
         github_token: ${{ secrets.GIT_TOKEN }}
         branch: bundles
+        commit_message: "Patch bundle updater"
 
     # Pause the workflow for one minute before running again
     - name: Pause
