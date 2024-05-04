@@ -39,20 +39,11 @@ jobs:
             echo "::set-output name=has_changes::true"
           fi
           
-      - name: Install dependencies
-        if: steps.check_changes.outputs.has_changes == 'true'
-        run: |
-          pip install httpx
-
-      - name: Install Discord Webhook Action
-        if: steps.check_changes.outputs.has_changes == 'true'
-        uses: tsickert/discord-webhook@v6.0.0
-
       - name: Send Discord Notification
         if: steps.check_changes.outputs.has_changes == 'true'
-        uses: tsickert/discord-webhook@v6.0.0
-        with:
-          webhook-url: ${{ secrets.WEBHOOK_URL }}
-          content: 'A JSON file has been changed.'
-          username: 'ReVanced-Patch-Bundles'
-          avatar-url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUECg_ITr7YkE2pYiVdHqTxlg3wLwXKXIQrcxEBKd7Q&s'
+        run: |
+          curl -X POST -H "Content-Type: application/json" -d '{
+            "content": "A JSON file has been changed.",
+            "username": "ReVanced-Patch-Bundles",
+            "avatar_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUECg_ITr7YkE2pYiVdHqTxlg3wLwXKXIQrcxEBKd7Q&s"
+          }' ${{ secrets.WEBHOOK_URL }}
