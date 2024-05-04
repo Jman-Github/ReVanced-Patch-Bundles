@@ -24,13 +24,26 @@ jobs:
       - name: Check for JSON changes
         id: check_changes
         run: |
-          if git diff --quiet HEAD^ -- '*.json'; then
-            echo "No changes"
-            echo "::set-output name=has_changes::false"
-          else
+          git fetch
+          git diff --name-only HEAD^ -- '*.json' > json_changes.txt
+          if [ -s json_changes.txt ]; then
             echo "Changes found"
             echo "::set-output name=has_changes::true"
+            cat json_changes.txt
+          else
+            echo "No changes"
+            echo "::set-output name=has_changes::false"
           fi
+          
+      - name: Get JSON file changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        id: get_json_changes
+        run: |
+          while IFS= read -r file; do
+            echo "Changes in $file:"
+            git diff --unified=3 HEAD^ -- "$file"
+            echo "---"
+          done < json_changes.txt
           
       - name: Send Discord Notification
         if: steps.check_changes.outputs.has_changes == 'true'
@@ -40,3 +53,8 @@ jobs:
           content: 'A JSON file has been changed.'
           username: 'ReVanced-Patch-Bundles'
           avatar-url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUECg_ITr7YkE2pYiVdHqTxlg3wLwXKXIQrcxEBKd7Q&s'
+          embed-description: |
+            Changes in JSON file(s):
+            ```
+            ${{ steps.get_json_changes.outputs.json_changes }}
+            ```
