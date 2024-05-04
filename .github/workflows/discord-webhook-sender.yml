@@ -4,6 +4,10 @@ on:
   push:
     paths:
       - '*.json'
+    # Check if push is done by GitHub Actions
+    branches:
+      - bundles
+
   workflow_run:
     workflows: ["Patch bundle updater"]
     types:
