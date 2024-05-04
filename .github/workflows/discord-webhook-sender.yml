@@ -10,7 +10,7 @@ jobs:
   send_discord_notification:
     name: Send Discord Notification
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' && contains(github.event.head_commit.message, 'Update patch-bundle.json to latest') && contains(github.event.head_commit.modified, '.json') }}
+    if: ${{ github.event_name == 'push' && contains(github.event.head_commit.message, 'Update patch-bundle.json to latest') && contains(github.event.head_commit.message, '.json') }}
     
     steps:
       - name: Checkout code
@@ -21,7 +21,20 @@ jobs:
         with:
           python-version: '3.x'
           
+      - name: Check for JSON modification
+        run: |
+          for file in ${GITHUB_EVENT_PATH}; do
+            if [[ ${file} == *.json ]]; then
+              echo "::set-output name=json_modified::true"
+              exit 0
+            fi
+          done
+          echo "::set-output name=json_modified::false"
+        id: check_json_modification
+        shell: bash
+        
       - name: Send Discord Notification
+        if: steps.check_json_modification.outputs.json_modified == 'true'
         uses: tsickert/discord-webhook@v6.0.0
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
