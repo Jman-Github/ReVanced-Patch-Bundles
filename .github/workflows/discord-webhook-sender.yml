@@ -4,13 +4,13 @@ on:
   push:
     paths:
       - '**.json'
-      - '.github/workflows/bundle-updater.yml'
+      - '.github/workflows/patch-bundle-updater.yml'
 
 jobs:
   send_discord_notification:
     name: Send Discord Notification
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' && contains(github.event.head_commit.modified, '.json') }}
+    if: ${{ github.event_name == 'push' && contains(github.event.head_commit.modified, '.json') && github.event.head_commit.message =~ 'Patch bundle updater' }}
     
     steps:
       - name: Checkout code
