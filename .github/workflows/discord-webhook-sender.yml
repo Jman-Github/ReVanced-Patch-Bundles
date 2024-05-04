@@ -39,6 +39,9 @@ jobs:
         uses: tsickert/discord-webhook@v6.0.0
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
-          embeds: '[{"title":"Patch-Bundle.json File(s) Updated","description":"The following file(s) have been changed: ${steps.check_json_modification.outputs.json_file}","color":65280,"author":{"name":"Patch Bundle Updater Workflow"}}]'
+          embed-title: 'Patch-Bundle.json File(s) Updated'
+          embed-description: 'The following file(s) have been changed: ${steps.check_json_modification.outputs.json_file}'
+          embed-color: 65280
+          embed-author-name: 'Patch Bundle Updater Workflow'
           username: 'ReVanced-Patch-Bundles'
           avatar-url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUECg_ITr7YkE2pYiVdHqTxlg3wLwXKXIQrcxEBKd7Q&s'
