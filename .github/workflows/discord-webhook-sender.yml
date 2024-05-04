@@ -22,6 +22,7 @@ jobs:
           python-version: '3.x'
           
       - name: Check for JSON modification
+        id: check_json_modification
         run: |
           for file in ${GITHUB_EVENT_PATH}; do
             if [[ ${file} == *.json ]]; then
@@ -31,16 +32,14 @@ jobs:
             fi
           done
           echo "::set-output name=json_modified::false"
-        id: check_json_modification
-        shell: bash
-        
+          
       - name: Send Discord Notification
         if: steps.check_json_modification.outputs.json_modified == 'true'
         uses: tsickert/discord-webhook@v6.0.0
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
           embed-title: 'Patch-Bundle.json File(s) Updated'
-          embed-description: 'The following file(s) have been changed: ${steps.check_json_modification.outputs.json_file}'
+          embed-description: "The following file(s) have been changed: ${{ steps.check_json_modification.outputs.json_file }}"
           embed-color: 65280
           embed-author-name: 'Patch Bundle Updater Workflow'
           username: 'ReVanced-Patch-Bundles'
