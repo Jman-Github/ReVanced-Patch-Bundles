@@ -27,7 +27,7 @@ jobs:
           for file in ${GITHUB_EVENT_PATH}; do
             if [[ ${file} == *.json ]]; then
               echo "::set-output name=json_modified::true"
-              echo "::set-output name=json_file::${file}"
+              echo "::set-output name=json_file::$(basename ${file})"
               exit 0
             fi
           done
@@ -38,9 +38,10 @@ jobs:
         uses: tsickert/discord-webhook@v6.0.0
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
-          embed-title: 'Patch-Bundle.json File(s) Updated'
+          embed-title: '[Patch-Bundle.json File(s) Updated](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/master/${{ steps.check_json_modification.outputs.json_file }})'
           embed-description: "The following file(s) have been changed: ${{ steps.check_json_modification.outputs.json_file }}"
           embed-color: 65280
-          embed-author-name: 'Patch Bundle Updater Workflow'
+          embed-author-name: '[Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml)'
+          embed-thumbnail-url: 'https://static-00.iconduck.com/assets.00/automatic-updates-icon-2048x2048-uniuxzla.png'
           username: 'ReVanced-Patch-Bundles'
           avatar-url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUECg_ITr7YkE2pYiVdHqTxlg3wLwXKXIQrcxEBKd7Q&s'
