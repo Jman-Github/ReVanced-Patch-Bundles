@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - '**.json'
-      - '.github/workflows/patch-bundle-updater.yml'
+      - '.github/workflows/bundle-updater.yml'
 
 jobs:
   send_discord_notification:
