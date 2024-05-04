@@ -9,8 +9,13 @@ jobs:
   check_for_updates:
     name: Check for bundle updates
     runs-on: ubuntu-latest
-    outputs:
-      has_json_changes: ${{ steps.check_changes.outputs.has_json_changes }}
+
+    strategy:
+      max-parallel: 1
+      fail-fast: false
+      matrix:
+        minutes: [1, 2, 3]
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -34,15 +39,15 @@ jobs:
         git fetch
         if git diff --quiet FETCH_HEAD -- '*.json'; then
           echo "No changes"
-          echo "::set-output name=has_json_changes::false"
+          echo "has_changes=false" >> $GITHUB_ENV
         else
           echo "Changes found"
-          echo "::set-output name=has_json_changes::true"
+          echo "has_changes=true" >> $GITHUB_ENV
         fi
       continue-on-error: true
       
     - name: Finalize and commit changes
-      if: ${{ needs.check_for_updates.outputs.has_json_changes == 'true' }}
+      if: env.has_changes == 'true'
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
@@ -51,7 +56,7 @@ jobs:
         git pull --rebase
         
     - name: Push changes
-      if: ${{ needs.check_for_updates.outputs.has_json_changes == 'true' }}
+      if: env.has_changes == 'true'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GIT_TOKEN }}
