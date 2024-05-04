@@ -9,8 +9,9 @@ on:
 
 jobs:
   send_discord_notification:
-    if: ${{ github.event.workflow == 'Patch bundle updater' && github.event.workflow_run.conclusion == 'success' && env.has_json_changes == 'true' }}
     runs-on: ubuntu-latest
+    needs: patch_bundle_updater
+    if: ${{ needs.patch_bundle_updater.outputs.has_json_changes == 'true' }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
