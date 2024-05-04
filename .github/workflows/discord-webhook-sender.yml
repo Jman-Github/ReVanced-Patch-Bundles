@@ -1,16 +1,19 @@
 name: Discord Notification on JSON Change
 
 on:
-  workflow_dispatch:
   push:
     paths:
-      - '**.json'
+      - '*.json'
+  workflow_run:
+    workflows: ["Patch bundle updater"]
+    types:
+      - completed
 
 jobs:
   send_discord_notification:
     name: Send Discord Notification
-    if: github.event_name == 'push' && steps.check_changes.outputs.has_changes == 'true'
     runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_run' && github.event.workflow_run.name == 'Patch bundle updater' && steps.check_changes.outputs.has_changes == 'true'
     
     steps:
       - name: Checkout code
@@ -25,6 +28,9 @@ jobs:
         run: |
           pip install httpx
       
+      - name: Install Discord Webhook Action
+        uses: tsickert/discord-webhook@v6.0.0
+
       - name: Send Discord Notification
         uses: tsickert/discord-webhook@v6.0.0
         with:
