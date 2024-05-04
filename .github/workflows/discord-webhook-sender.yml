@@ -1,16 +1,16 @@
 name: Discord Notification on JSON Change
 
 on:
-  workflow_run:
-    workflows: ["Patch bundle updater"]
-    types:
-      - completed
+  push:
+    paths:
+      - '**.json'
+      - '.github/workflows/bundle-updater.yml'
 
 jobs:
   send_discord_notification:
     name: Send Discord Notification
     runs-on: ubuntu-latest
-    if: github.event.workflow_run.name == 'Patch bundle updater'
+    if: ${{ github.event_name == 'push' && contains(github.event.head_commit.modified, '.json') }}
     
     steps:
       - name: Checkout code
@@ -21,45 +21,10 @@ jobs:
         with:
           python-version: '3.x'
           
-      - name: Check for JSON changes
-        id: check_changes
-        run: |
-          git fetch
-          if git rev-parse HEAD^; then
-            git diff --name-only HEAD^ -- '*.json' > json_changes.txt
-            if [ -s json_changes.txt ]; then
-              echo "Changes found"
-              echo "::set-output name=has_changes::true"
-              cat json_changes.txt
-            else
-              echo "No changes"
-              echo "::set-output name=has_changes::false"
-            fi
-          else
-            echo "No previous commits"
-            echo "::set-output name=has_changes::false"
-          fi
-          
-      - name: Get JSON file changes
-        if: steps.check_changes.outputs.has_changes == 'true'
-        id: get_json_changes
-        run: |
-          while IFS= read -r file; do
-            echo "Changes in $file:"
-            git diff --unified=3 HEAD^ -- "$file"
-            echo "---"
-          done < json_changes.txt
-          
       - name: Send Discord Notification
-        if: steps.check_changes.outputs.has_changes == 'true'
         uses: tsickert/discord-webhook@v6.0.0
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
           content: 'A JSON file has been changed.'
           username: 'ReVanced-Patch-Bundles'
           avatar-url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUECg_ITr7YkE2pYiVdHqTxlg3wLwXKXIQrcxEBKd7Q&s'
-          embed-description: |
-            Changes in JSON file(s):
-            ```
-            ${{ steps.get_json_changes.outputs.json_changes }}
-            ```
