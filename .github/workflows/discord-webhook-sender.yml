@@ -13,7 +13,7 @@ jobs:
   send_discord_notification:
     name: Send Discord Notification
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_run' && github.event.workflow_run.name == 'Patch bundle updater' && steps.check_changes.outputs.has_changes == 'true'
+    if: github.event_name == 'workflow_run' && github.event.workflow_run.name == 'Patch bundle updater'
     
     steps:
       - name: Checkout code
