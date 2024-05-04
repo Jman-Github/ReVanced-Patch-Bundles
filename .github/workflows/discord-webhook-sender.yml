@@ -3,31 +3,27 @@ name: Discord Notification on JSON Change
 on:
   push:
     paths:
-      - '*.json'  # Triggers the workflow when any JSON file is pushed
+      - '*.json'
   workflow_run:
     workflows: ["Patch bundle updater"]
     types:
-      - completed  # Triggers the workflow when the "Patch bundle updater" workflow completes
+      - completed
 
 jobs:
   send_discord_notification:
     name: Send Discord Notification
     runs-on: ubuntu-latest
     if: github.event_name == 'workflow_run' && github.event.workflow_run.name == 'Patch bundle updater' && steps.check_changes.outputs.has_changes == 'true'
-    # The job runs only if the event is a workflow_run event, the triggered workflow is "Patch bundle updater",
-    # and the check_changes job detects changes in the JSON files
     
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        # Checkout the repository content
-
+        
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
-        # Set up Python environment
-
+          
       - name: Check for JSON changes
         id: check_changes
         run: |
@@ -38,18 +34,15 @@ jobs:
             echo "Changes found"
             echo "::set-output name=has_changes::true"
           fi
-        # Checks if any JSON files have been changed
 
       - name: Install dependencies
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           pip install httpx
-        # Install dependencies only if there are changes in the JSON files
 
       - name: Install Discord Webhook Action
         if: steps.check_changes.outputs.has_changes == 'true'
         uses: tsickert/discord-webhook@v6.0.0
-        # Install Discord Webhook Action only if there are changes in the JSON files
 
       - name: Send Discord Notification
         if: steps.check_changes.outputs.has_changes == 'true'
@@ -60,4 +53,3 @@ jobs:
           username: 'ReVanced-Patch-Bundles'
           avatar-url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUECg_ITr7YkE2pYiVdHqTxlg3wLwXKXIQrcxEBKd7Q&s'
           raw-data: hi.json
-        # Send Discord notification only if there are changes in the JSON files
