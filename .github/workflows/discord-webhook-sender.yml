@@ -10,7 +10,7 @@ jobs:
   send_discord_notification:
     name: Send Discord Notification
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' && github.event.head_commit.message =~ 'Patch bundle updater' && contains(github.event.head_commit.modified, '.json') }}
+    if: ${{ github.event_name == 'push' && startsWith(github.event.head_commit.message, 'Patch bundle updater') && contains(github.event.head_commit.modified, '.json') }}
     
     steps:
       - name: Checkout code
