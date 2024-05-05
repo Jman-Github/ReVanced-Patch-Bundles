@@ -10,11 +10,11 @@ jobs:
   send_discord_notification:
     name: Send Discord Notification
     runs-on: ubuntu-latest
-    if: >
-      github.event_name == 'push' &&
-      contains(github.event.head_commit.message, 'Update patch-bundle.json to latest')
-
+    
     steps:
+      - name: Debug Event Payload
+        run: echo "${{ toJson(github.event) }}"
+
       - name: Checkout code
         uses: actions/checkout@v2
         
@@ -34,6 +34,7 @@ jobs:
               commit_link="https://github.com/${{ github.repository }}/commit/${{ github.sha }}"
             fi
           done
+          echo "JSON Files: $json_files"
           if [ -n "$json_files" ]; then
             json_files="${json_files::-2}"
             echo "::set-output name=json_modified::true"
@@ -45,7 +46,9 @@ jobs:
         shell: bash
         
       - name: Send Discord Notification
-        if: steps.check_json_modification.outputs.json_modified == 'true'
+        if: >
+          steps.check_json_modification.outputs.json_modified == 'true' &&
+          contains(github.event.head_commit.message, 'Update patch-bundle.json to latest')
         uses: tsickert/discord-webhook@v6.0.0
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
