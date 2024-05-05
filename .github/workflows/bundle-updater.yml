@@ -77,15 +77,19 @@ jobs:
         github_token: ${{ secrets.GIT_TOKEN }}
         branch: bundles
 
-    # Upload changed_files.txt as artifact
-    - name: Upload artifact
-      if: env.has_changes == 'true'
-      uses: actions/upload-artifact@v2
-      with:
-        name: changed_files
-        path: changed_files.txt
-
     # Pause the workflow for one minute before running again
     - name: Pause
       if: matrix.minutes != 3
       run: sleep 2
+
+  upload_artifact:
+    name: Upload artifact
+    needs: check_for_updates
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: changed_files
+          path: changed_files.txt
