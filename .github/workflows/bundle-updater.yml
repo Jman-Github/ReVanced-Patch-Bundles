@@ -10,12 +10,6 @@ jobs:
     name: Check for bundle updates
     runs-on: ubuntu-latest
 
-    strategy:
-      max-parallel: 1
-      fail-fast: false
-      matrix:
-        minutes: [1, 2, 3]
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -69,8 +63,3 @@ jobs:
       with:
         github_token: ${{ secrets.GIT_TOKEN }}
         branch: bundles
-
-    # Pause the workflow for one minute before running again
-    - name: Pause
-      if: matrix.minutes != 3
-      run: sleep 60
