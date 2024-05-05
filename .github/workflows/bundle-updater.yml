@@ -53,6 +53,10 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add *.json
         git diff --cached --quiet || git commit -m "Update patch-bundle.json to latest"
+        # Resolve merge conflict
+        git checkout --theirs dropped-patches-bundle.json
+        git add dropped-patches-bundle.json
+        git commit --no-edit
         git pull --rebase
         
     - name: Push changes
