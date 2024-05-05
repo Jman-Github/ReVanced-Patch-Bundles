@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
     
     - name: Set up generate_bundles.py
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v2
       with:
         python-version: '3.x'
       
@@ -61,14 +61,14 @@ jobs:
             fi
           done
           # Pull changes before pushing
-          git pull origin bundles
+          git pull origin ${{ github.ref }}
         else
           echo "No changes to commit"
         fi
     - name: Push changes and Upload artifact
       if: env.has_changes == 'true'
       run: |
-        git push https://github.com/${{ github.repository }} bundles -c "Authorization: token ${{ secrets.GITHUB_TOKEN }}"
+        git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:bundles
         mv changed_files.txt $GITHUB_WORKSPACE
         echo "::set-output name=changed_files_path::$GITHUB_WORKSPACE/changed_files.txt"
 
