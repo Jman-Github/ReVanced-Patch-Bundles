@@ -34,11 +34,11 @@ jobs:
             echo "::set-output name=json_modified::true"
             echo "::set-output name=json_files::${json_files}"
           else
-            echo "::set-output name=json_modified::false"
+            echo "::set-output name=json_files::"
           fi
           
       - name: Send Discord Notification
-        if: steps.check_json_modification.outputs.json_modified == 'true'
+        if: steps.check_json_modification.outputs.json_files != ''
         uses: tsickert/discord-webhook@v6.0.0
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
