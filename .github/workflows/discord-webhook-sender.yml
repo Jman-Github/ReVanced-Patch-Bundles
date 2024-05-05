@@ -17,21 +17,25 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: changed_files
-          path: ./artifacts
+          path: ${{ github.workspace }}
 
-      - name: Read changed files
-        id: read_changed_files
+      - name: Check for JSON modification
+        id: check_json_modification
         run: |
-          cat ./artifacts/changed_files.txt
-          echo "::set-output name=changed_files::$(cat ./artifacts/changed_files.txt)"
-
+          if [ -f "${{ github.workspace }}/changed_files.txt" ]; then
+            echo "::set-output name=json_modified::true"
+            echo "::set-output name=json_files::$(cat ${{ github.workspace }}/changed_files.txt)"
+          else
+            echo "::set-output name=json_modified::false"
+          fi
+          
       - name: Send Discord Notification
-        if: steps.read_changed_files.outputs.changed_files != ''
+        if: steps.check_json_modification.outputs.json_modified == 'true'
         uses: tsickert/discord-webhook@v6.0.0
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
           embed-title: 'Patch-Bundle.json File(s) Updated'
-          embed-description: "Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml). Files updated: ${{ steps.read_changed_files.outputs.changed_files }}"
+          embed-description: "Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml). Files updated: ${{ steps.check_json_modification.outputs.json_files }}"
           embed-color: 65280
           embed-author-name: 'Patch Bundle Updater Workflow'
           embed-author-icon: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
