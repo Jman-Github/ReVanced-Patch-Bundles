@@ -10,8 +10,7 @@ jobs:
   send_discord_notification:
     name: Send Discord Notification
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' && contains(github.event.head_commit.message, 'Update patch-bundle.json to latest') && contains(github.event.head_commit.message, '.json') }}
-
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -20,24 +19,25 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
-
+          
       - name: Check for JSON modification
         id: check_json_modification
         run: |
-          json_files=$(git diff-tree --no-commit-id --name-only -r HEAD | grep '\.json$' || true)
-          echo "JSON Files: $json_files"
+          json_files=""
+          for file in $(git diff --name-only HEAD^); do
+            if [[ ${file} == *.json ]]; then
+              json_files="${json_files} $(basename ${file})"
+            fi
+          done
           if [ -n "${json_files}" ]; then
+            echo "::set-output name=json_modified::true"
             echo "::set-output name=json_files::${json_files}"
           else
-            echo "::set-output name=json_files::"
+            echo "::set-output name=json_modified::false"
           fi
           
-      - name: Debug JSON modification
-        run: |
-          echo "JSON Files: ${{ steps.check_json_modification.outputs.json_files }}"
-          
       - name: Send Discord Notification
-        if: steps.check_json_modification.outputs.json_files != ''
+        if: steps.check_json_modification.outputs.json_modified == 'true'
         uses: tsickert/discord-webhook@v6.0.0
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
