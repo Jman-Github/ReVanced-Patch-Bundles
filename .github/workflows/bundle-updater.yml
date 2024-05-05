@@ -53,12 +53,15 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add *.json
         if [ -n "$(git diff --cached --name-only)" ]; then
-          git commit -m "Update patch-bundle.json to latest"
-          # Resolve merge conflict
-          git checkout --theirs dropped-patches-bundle.json
-          git add dropped-patches-bundle.json
-          git commit --no-edit
-          git pull --rebase
+          git commit -m "Update JSON files to latest" || echo "No changes to commit"
+          # Resolve merge conflicts for each JSON file if they exist
+          for file in $(git diff --name-only --cached '*.json'); do
+            if [ -f "$file" ]; then
+              git checkout --theirs "$file"
+              git add "$file"
+              git commit --no-edit
+            fi
+          done
         else
           echo "No changes to commit"
         fi
