@@ -13,7 +13,7 @@ async def get_latest_release(repo_url):
         return None, None
 
     api_url = f"{repo_url}/releases"
-    timeout = Timeout(connect=30.0, read=60.0)
+    timeout = Timeout(connect=30.0, read=60.0, write=None, pool=None)
     response = await AsyncClient().get(api_url, timeout=timeout)
     if response.status_code == 200:
         releases = response.json()
