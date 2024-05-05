@@ -39,6 +39,8 @@ jobs:
           echo "has_changes=true" >> $GITHUB_ENV
           git diff --name-only FETCH_HEAD '*.json' > changed_files.txt
           echo "Commit link: https://github.com/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}" >> changed_files.txt
+          echo "Files changed:" >> changed_files.txt
+          git diff --name-only FETCH_HEAD '*.json' >> changed_files.txt
         fi
       continue-on-error: true
       
@@ -63,13 +65,13 @@ jobs:
         else
           echo "No changes to commit"
         fi
-        
-    - name: Push changes
+
+    - name: Push changes and Upload artifact
       if: env.has_changes == 'true'
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GIT_TOKEN }}
-        branch: bundles
+      run: |
+        git push origin bundles
+        mv changed_files.txt $GITHUB_WORKSPACE
+        echo "::set-output name=changed_files_path::$GITHUB_WORKSPACE/changed_files.txt"
 
   upload_artifact:
     name: Upload artifact
@@ -81,4 +83,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: changed_files
-          path: changed_files.txt
+          path: ${{ needs.check_for_updates.outputs.changed_files_path }}
