@@ -62,6 +62,8 @@ jobs:
               git commit --no-edit
             fi
           done
+          # Pull changes before pushing
+          git pull origin bundles
         else
           echo "No changes to commit"
         fi
