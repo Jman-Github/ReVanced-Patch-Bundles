@@ -24,24 +24,28 @@ jobs:
       - name: Check for JSON modification
         id: check_json_modification
         run: |
-          for file in ${GITHUB_EVENT_PATH}; do
+          json_files=""
+          for file in $(git diff --name-only HEAD^); do
             if [[ ${file} == *.json ]]; then
-              echo "::set-output name=json_modified::true"
-              echo "::set-output name=json_file::$(basename ${file})"
-              exit 0
+              json_files="${json_files} $(basename ${file})"
             fi
           done
-          echo "::set-output name=json_modified::false"
+          if [ -n "${json_files}" ]; then
+            echo "::set-output name=json_modified::true"
+            echo "::set-output name=json_files::${json_files}"
+          else
+            echo "::set-output name=json_modified::false"
+          fi
           
       - name: Send Discord Notification
         if: steps.check_json_modification.outputs.json_modified == 'true'
         uses: tsickert/discord-webhook@v6.0.0
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
-          embed-title: '[Patch-Bundle.json File(s) Updated](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/master/${{ steps.check_json_modification.outputs.json_file }})'
-          embed-description: "The following file(s) have been changed: ${{ steps.check_json_modification.outputs.json_file }}"
+          embed-title: 'Patch-Bundle.json File(s) Updated'
+          embed-description: "The following file(s) have been changed by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml):\n${{ steps.check_json_modification.outputs.json_files }}"
           embed-color: 65280
-          embed-author-name: '[Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml)'
+          embed-author-name: 'Patch Bundle Updater Workflow'
           embed-thumbnail-url: 'https://static-00.iconduck.com/assets.00/automatic-updates-icon-2048x2048-uniuxzla.png'
           username: 'ReVanced-Patch-Bundles'
           avatar-url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUECg_ITr7YkE2pYiVdHqTxlg3wLwXKXIQrcxEBKd7Q&s'
