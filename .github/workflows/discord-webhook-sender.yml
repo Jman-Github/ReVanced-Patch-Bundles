@@ -19,15 +19,10 @@ jobs:
         id: check_json_modification
         run: |
           if [[ $GITHUB_EVENT_NAME == 'push' && $GITHUB_EVENT_PATH == *'bundle-updater.yml' && $(git log -1 --pretty=format:'%s') == *"Update patch-bundle.json to latest"* ]]; then
-            json_files=""
+            json_files=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | grep '\.json$' | xargs -I {} basename {})
             commit_link="https://github.com/${{ github.repository }}/commit/${{ github.sha }}"
-            for file in $(git diff-tree --no-commit-id --name-only -r ${{ github.sha }}); do
-              if [[ ${file} == *.json ]]; then
-                json_files="${json_files}$(basename ${file}), "
-              fi
-            done
+            echo "JSON Files: $json_files"
             if [ -n "$json_files" ]; then
-              json_files="${json_files::-2}"
               echo "::set-output name=json_modified::true"
               echo "::set-output name=json_files::${json_files}"
               echo "::set-output name=commit_link::${commit_link}"
