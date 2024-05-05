@@ -52,12 +52,16 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add *.json
-        git diff --cached --quiet || git commit -m "Update patch-bundle.json to latest"
-        # Resolve merge conflict
-        git checkout --theirs dropped-patches-bundle.json
-        git add dropped-patches-bundle.json
-        git commit --no-edit
-        git pull --rebase
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update patch-bundle.json to latest" --allow-empty
+          # Resolve merge conflict
+          git checkout --theirs dropped-patches-bundle.json
+          git add dropped-patches-bundle.json
+          git commit --no-edit
+          git pull --rebase
+        fi
         
     - name: Push changes
       if: env.has_changes == 'true'
