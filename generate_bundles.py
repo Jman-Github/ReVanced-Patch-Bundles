@@ -1,6 +1,6 @@
 import asyncio
 import json
-from httpx import AsyncClient
+from httpx import AsyncClient, Timeout
 
 async def get_latest_release(repo_url):
     async def get_version_url(release):
@@ -13,7 +13,8 @@ async def get_latest_release(repo_url):
         return None, None
 
     api_url = f"{repo_url}/releases"
-    response = await AsyncClient().get(api_url)
+    timeout = Timeout(connect=30.0, read=60.0)
+    response = await AsyncClient().get(api_url, timeout=timeout)
     if response.status_code == 200:
         releases = response.json()
         latest_prerelease = None
