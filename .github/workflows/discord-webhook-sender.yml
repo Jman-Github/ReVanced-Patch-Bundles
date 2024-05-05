@@ -44,6 +44,12 @@ jobs:
             echo "::set-output name=json_modified::false"
           fi
         shell: bash
+
+      - name: Debug JSON Modified
+        run: echo "JSON Modified: ${{ steps.check_json_modification.outputs.json_modified }}"
+        
+      - name: Debug Commit Link
+        run: echo "Commit Link: ${{ steps.check_json_modification.outputs.commit_link }}"
         
       - name: Send Discord Notification
         if: >
