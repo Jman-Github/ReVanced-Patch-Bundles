@@ -10,12 +10,6 @@ jobs:
     name: Check for bundle updates
     runs-on: ubuntu-latest
 
-    strategy:
-      max-parallel: 1
-      fail-fast: false
-      matrix:
-        minutes: [1, 2, 3]
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -65,7 +59,7 @@ jobs:
             fi
           done
           # Pull changes before pushing
-          git pull origin bundles --no-rebase
+          git pull origin bundles
         else
           echo "No changes to commit"
         fi
@@ -77,16 +71,11 @@ jobs:
         github_token: ${{ secrets.GIT_TOKEN }}
         branch: bundles
 
-    # Pause the workflow for one minute before running again
-    - name: Pause
-      if: matrix.minutes != 3
-      run: sleep 2
-
   upload_artifact:
     name: Upload artifact
     needs: check_for_updates
     runs-on: ubuntu-latest
-    if: always()
+    if: always() && needs.check_for_updates.outputs.has_changes == 'true'
     steps:
       - name: Upload artifact
         uses: actions/upload-artifact@v2
