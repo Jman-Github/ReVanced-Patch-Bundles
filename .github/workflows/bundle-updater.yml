@@ -38,7 +38,8 @@ jobs:
           echo "Changes found"
           echo "has_changes=true" >> $GITHUB_ENV
           echo "Changed files:" > changed_files.txt
-          git diff --name-only FETCH_HEAD -- '*.json' | awk -v repo="${{ github.repository }}" '{print "- [" $0 "](https://github.com/" repo "/commit/${{ github.sha }})"}' >> changed_files.txt
+          commit_sha=$(git log -1 --format="%H")
+          echo "- [Changed files](https://github.com/${{ github.repository }}/commit/$commit_sha)" >> changed_files.txt
         fi
       continue-on-error: true
       
@@ -51,11 +52,6 @@ jobs:
         git diff --cached --quiet || git commit -m "Update patch-bundle.json to latest"
         git pull --rebase
         
-    - name: Get latest commit SHA
-      if: env.has_changes == 'true'
-      id: latest_commit
-      run: echo ::set-output name=commit_sha::$(git rev-parse HEAD)
-      
     - name: Push changes
       if: env.has_changes == 'true'
       uses: ad-m/github-push-action@v0.8.0
