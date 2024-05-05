@@ -16,12 +16,18 @@ jobs:
     
     steps:
       - name: Checkout code
+        if: github.event_name == 'push' || github.event.workflow == 'Patch bundle updater'
         uses: actions/checkout@v2
+        
+      - name: Delay
+        if: github.event.workflow == 'Patch bundle updater'
+        run: echo "Delaying for 225 seconds"; sleep 225
         
       - name: Check for JSON modification
         id: check_json_modification
+        if: github.event_name == 'push'
         run: |
-          if [[ $GITHUB_EVENT_NAME == 'push' && $GITHUB_EVENT_PATH == *'bundle-updater.yml' && $(git log -1 --pretty=format:'%s') == *"Update patch-bundle.json to latest"* ]]; then
+          if [[ $GITHUB_EVENT_PATH == *'bundle-updater.yml' && $(git log -1 --pretty=format:'%s') == *"Update JSON files to latest"* ]]; then
             json_files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.json$' | xargs -I {} basename {})
             commit_link="https://github.com/${{ github.repository }}/commit/${{ github.sha }}"
             echo "JSON Files: $json_files"
@@ -37,7 +43,7 @@ jobs:
           fi
           
       - name: Send Discord Notification
-        if: ${{ steps.check_json_modification.outputs.json_modified == 'true' }}
+        if: steps.check_json_modification.outputs.json_modified == 'true'
         uses: tsickert/discord-webhook@v6.0.0
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
