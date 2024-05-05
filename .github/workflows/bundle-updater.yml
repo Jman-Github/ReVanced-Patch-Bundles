@@ -45,12 +45,11 @@ jobs:
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "jman-github"
-        git config --global user.email "${{ secrets.GITHUB_EMAIL }}"
         git add *.json
         if git diff --cached --quiet; then
           echo "No changes to commit"
         else
           git commit -m "Update patch-bundle.json to latest"
-          # Push the changes
+          git pull origin bundles --rebase
           git push origin bundles
         fi
