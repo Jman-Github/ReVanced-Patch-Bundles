@@ -25,7 +25,7 @@ jobs:
         id: check_json_modification
         run: |
           json_files=""
-          for file in ${{ github.event.commits[0].added }} ${{ github.event.commits[0].modified }}; do
+          for file in ${{ github.event_path }}; do
             if [[ ${file} == *.json ]]; then
               json_files="${json_files}$(basename ${file}), "
             fi
@@ -45,7 +45,7 @@ jobs:
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
           embed-title: 'Patch-Bundle.json File(s) Updated'
-          embed-description: "The following file(s) have been changed by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml): ${{ steps.check_json_modification.outputs.json_files }}"
+          embed-description: "Patch-bundle.json file(s) have been successfully changed by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml)."
           embed-color: 65280
           embed-author-name: 'Patch Bundle Updater Workflow'
           embed-thumbnail-url: 'https://cdn-icons-png.flaticon.com/512/5278/5278658.png'
