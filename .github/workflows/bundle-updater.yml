@@ -51,12 +51,6 @@ jobs:
           echo "No changes to commit"
         else
           git commit -m "Update patch-bundle.json to latest"
-          # Pull any changes from the remote repository
-          git pull origin bundles --rebase
-          # Resolve merge conflict if any
-          git checkout --theirs dropped-patches-bundle.json
-          git add dropped-patches-bundle.json
-          git rebase --continue
           # Push the changes
           git push origin bundles
         fi
