@@ -31,7 +31,6 @@ jobs:
             fi
           done
           if [ -n "${json_files}" ]; then
-            echo "::set-output name=json_modified::true"
             echo "::set-output name=json_files::${json_files}"
           else
             echo "::set-output name=json_files::"
