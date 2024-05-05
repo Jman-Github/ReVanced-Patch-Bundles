@@ -28,12 +28,12 @@ jobs:
           for file in ${{ github.event_path }}; do
             if [[ ${file} == *.json ]]; then
               json_files="${json_files}$(basename ${file}), "
-              commit_link="https://github.com/${{ github.repository }}/commit/${{ github.sha }}"
             fi
           done
           echo "JSON Files: $json_files"
           if [ -n "$json_files" ]; then
             json_files="${json_files::-2}"
+            commit_link="https://github.com/${{ github.repository }}/commit/${{ github.sha }}"
             echo "::set-output name=json_modified::true"
             echo "::set-output name=json_files::${json_files}"
             echo "::set-output name=commit_link::${commit_link}"
