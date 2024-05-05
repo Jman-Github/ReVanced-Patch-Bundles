@@ -37,7 +37,8 @@ jobs:
         else
           echo "Changes found"
           echo "has_changes=true" >> $GITHUB_ENV
-          git diff --name-only FETCH_HEAD -- '*.json' > changed_files.txt
+          echo "Changed files:" > changed_files.txt
+          git diff --name-status FETCH_HEAD -- '*.json' | awk '{print "- [" $2 "](" $2 ")"}' >> changed_files.txt
         fi
       continue-on-error: true
       
