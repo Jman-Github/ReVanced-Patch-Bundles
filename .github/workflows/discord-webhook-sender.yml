@@ -15,35 +15,31 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-          
       - name: Check for JSON modification
         id: check_json_modification
         run: |
-          json_files=""
-          commit_link=""
-          for file in ${{ github.event_path }}; do
-            if [[ ${file} == *.json ]]; then
-              json_files="${json_files}$(basename ${file}), "
-            fi
-          done
-          echo "JSON Files: $json_files"
-          if [ -n "$json_files" ]; then
-            json_files="${json_files::-2}"
+          if [[ $GITHUB_EVENT_NAME == 'push' && $GITHUB_EVENT_PATH == *'bundle-updater.yml' && $(git log -1 --pretty=format:'%s') == *"Update patch-bundle.json to latest"* ]]; then
+            json_files=""
             commit_link="https://github.com/${{ github.repository }}/commit/${{ github.sha }}"
-            echo "::set-output name=json_modified::true"
-            echo "::set-output name=json_files::${json_files}"
-            echo "::set-output name=commit_link::${commit_link}"
+            for file in $(git diff-tree --no-commit-id --name-only -r ${{ github.sha }}); do
+              if [[ ${file} == *.json ]]; then
+                json_files="${json_files}$(basename ${file}), "
+              fi
+            done
+            if [ -n "$json_files" ]; then
+              json_files="${json_files::-2}"
+              echo "::set-output name=json_modified::true"
+              echo "::set-output name=json_files::${json_files}"
+              echo "::set-output name=commit_link::${commit_link}"
+            else
+              echo "::set-output name=json_modified::false"
+            fi
           else
             echo "::set-output name=json_modified::false"
           fi
-        shell: bash
 
       - name: Send Discord Notification
-        if: ${{ steps.check_json_modification.outputs.json_modified == 'true' && contains(github.event.head_commit.message, 'Update patch-bundle.json to latest') }}
+        if: ${{ steps.check_json_modification.outputs.json_modified == 'true' }}
         uses: tsickert/discord-webhook@v6.0.0
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
