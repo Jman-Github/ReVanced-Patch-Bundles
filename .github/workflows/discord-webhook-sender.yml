@@ -25,7 +25,7 @@ jobs:
         id: check_json_modification
         run: |
           json_files=""
-          for file in ${{ github.event_path }}; do
+          for file in ${{ github.event.commits[0].added }} ${{ github.event.commits[0].modified }}; do
             if [[ ${file} == *.json ]]; then
               json_files="${json_files}$(basename ${file}), "
             fi
