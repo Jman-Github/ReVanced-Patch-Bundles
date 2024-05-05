@@ -70,20 +70,13 @@ jobs:
         else
           echo "No changes to commit"
         fi
-
-    - name: Upload changed files artifact
-      if: env.has_changes == 'true'
-      uses: actions/upload-artifact@v2
-      with:
-        name: changed_files
-        path: changed_files.txt
         
     - name: Push changes
       if: env.has_changes == 'true'
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GIT_TOKEN }}
-        branch: bundles
+      run: |
+        git push origin HEAD:temp_branch
+        echo "::set-output name=branch_name::temp_branch"
+        echo "::set-output name=changed_files::changed_files.txt"
 
     # Pause the workflow for one minute before running again
     - name: Pause
