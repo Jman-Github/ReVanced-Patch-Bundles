@@ -68,8 +68,7 @@ jobs:
     - name: Push changes and Upload artifact
       if: env.has_changes == 'true'
       run: |
-        git config --global user.name "github-actions[bot]"
-        git push https://github.com/${{ github.repository }} bundles
+        git push https://${{ secrets.GITHUB_ACTOR }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} bundles
         mv changed_files.txt $GITHUB_WORKSPACE
         echo "::set-output name=changed_files_path::$GITHUB_WORKSPACE/changed_files.txt"
   upload_artifact:
