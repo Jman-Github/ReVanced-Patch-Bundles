@@ -37,10 +37,10 @@ jobs:
         else
           echo "Changes found"
           echo "has_changes=true" >> $GITHUB_ENV
-          git diff --name-only FETCH_HEAD '*.json' > changed_files.txt
-          echo "Commit link: https://github.com/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}" >> changed_files.txt
-          echo "Files changed:" >> changed_files.txt
-          git diff --name-only FETCH_HEAD '*.json' >> changed_files.txt
+          git diff --name-only FETCH_HEAD '*.json' > $GITHUB_WORKSPACE/changed_files.txt
+          echo "Commit link: https://github.com/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}" >> $GITHUB_WORKSPACE/changed_files.txt
+          echo "Files changed:" >> $GITHUB_WORKSPACE/changed_files.txt
+          git diff --name-only FETCH_HEAD '*.json' >> $GITHUB_WORKSPACE/changed_files.txt
         fi
       continue-on-error: true
       
@@ -69,8 +69,7 @@ jobs:
       if: env.has_changes == 'true'
       run: |
         git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:bundles
-        if [ -f "changed_files.txt" ]; then
-          mv changed_files.txt $GITHUB_WORKSPACE/changed_files.txt
+        if [ -f "$GITHUB_WORKSPACE/changed_files.txt" ]; then
           echo "::set-output name=changed_files_path::$GITHUB_WORKSPACE/changed_files.txt"
         else
           echo "No changed_files.txt found"
