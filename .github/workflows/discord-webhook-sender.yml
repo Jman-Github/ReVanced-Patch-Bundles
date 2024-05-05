@@ -22,7 +22,7 @@ jobs:
       - name: Check for JSON modification
         id: check_json_modification
         run: |
-          if [ -f "./artifacts/changed_files.txt" ]; then
+          if [ -f "./artifacts/changed_files.zip" ]; then
             echo "::set-output name=json_modified::true"
             echo "::set-output name=json_files::$(cat ./artifacts/changed_files.txt)"
           else
