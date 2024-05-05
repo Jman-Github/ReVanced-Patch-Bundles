@@ -38,7 +38,7 @@ jobs:
           echo "Changes found"
           echo "has_changes=true" >> $GITHUB_ENV
           echo "Changed files:" > changed_files.txt
-          git diff --name-status FETCH_HEAD -- '*.json' | awk '{print "- [" $2 "](" $2 ")"}' >> changed_files.txt
+          git diff --name-only FETCH_HEAD -- '*.json' | awk -v repo="${{ github.repository }}" -v sha="${{ github.sha }}" '{print "- [" $0 "](https://github.com/" repo "/commit/" sha ")"}' >> changed_files.txt
         fi
       continue-on-error: true
       
@@ -58,21 +58,7 @@ jobs:
         github_token: ${{ secrets.GIT_TOKEN }}
         branch: bundles
         
-    - name: Retrieve repository and commit information
-      if: env.has_changes == 'true'
-      id: repo_commit_info
-      run: |
-        echo "::set-output name=repo_name::${GITHUB_REPOSITORY}"
-        echo "::set-output name=commit_sha::${GITHUB_SHA}"
-        
     - name: Create artifact of changed files
-      if: env.has_changes == 'true'
-      run: |
-        echo "Changed files:" > changed_files.txt
-        awk -v repo_name="${{ steps.repo_commit_info.outputs.repo_name }}" -v commit_sha="${{ steps.repo_commit_info.outputs.commit_sha }}" '{print "- [" $2 "](https://github.com/" repo_name "/commit/" commit_sha ")"}' >> changed_files.txt
-      continue-on-error: true
-      
-    - name: Upload artifact
       if: env.has_changes == 'true'
       uses: actions/upload-artifact@v2
       with:
