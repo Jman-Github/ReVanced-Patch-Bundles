@@ -24,13 +24,7 @@ jobs:
       - name: Check for JSON modification
         id: check_json_modification
         run: |
-          json_files=""
-          for file in $(git diff --name-only HEAD~1); do
-            echo "File: $file"
-            if [[ ${file} == *.json ]]; then
-              json_files="${json_files} $(basename ${file})"
-            fi
-          done
+          json_files=$(git diff --name-only HEAD^ | grep '\.json$' || true)
           echo "JSON Files: $json_files"
           if [ -n "${json_files}" ]; then
             echo "::set-output name=json_files::${json_files}"
