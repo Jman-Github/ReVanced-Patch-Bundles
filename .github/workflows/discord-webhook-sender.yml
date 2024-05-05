@@ -16,6 +16,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         
+      - name: Download artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: bundle-json
+          path: artifacts
+      
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -26,7 +32,7 @@ jobs:
         run: |
           json_files=""
           commit_link=""
-          for file in ${{ github.event_path }}; do
+          for file in ${{ github.workspace }}/artifacts/*; do
             if [[ ${file} == *.json ]]; then
               json_files="${json_files}$(basename ${file}), "
             fi
