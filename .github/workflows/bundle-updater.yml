@@ -65,7 +65,7 @@ jobs:
             fi
           done
           # Pull changes before pushing
-          git pull origin bundles
+          git pull origin bundles --no-rebase
         else
           echo "No changes to commit"
         fi
