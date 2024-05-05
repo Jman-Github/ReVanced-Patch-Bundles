@@ -4,44 +4,44 @@ on:
   push:
     paths:
       - '**.json'
-  workflow_run:
-    workflows: ["Patch bundle updater"]
-    types:
-      - completed
+      - '.github/workflows/bundle-updater.yml'
 
 jobs:
   send_discord_notification:
     name: Send Discord Notification
     runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' && contains(github.event.head_commit.message, 'Update patch-bundle.json to latest') && contains(github.event.head_commit.message, '.json') }}
     
     steps:
       - name: Checkout code
-        if: github.event_name == 'push' || github.event.workflow == 'Patch bundle updater'
         uses: actions/checkout@v2
         
-      - name: Delay
-        if: github.event.workflow == 'Patch bundle updater'
-        run: echo "Delaying for 225 seconds"; sleep 225
-        
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          
       - name: Check for JSON modification
         id: check_json_modification
-        if: github.event_name == 'push'
         run: |
-          if [[ $GITHUB_EVENT_PATH == *'bundle-updater.yml' && $(git log -1 --pretty=format:'%s') == *"Update JSON files to latest"* ]]; then
-            json_files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.json$' | xargs -I {} basename {})
-            commit_link="https://github.com/${{ github.repository }}/commit/${{ github.sha }}"
-            echo "JSON Files: $json_files"
-            if [ -n "$json_files" ]; then
-              echo "::set-output name=json_modified::true"
-              echo "::set-output name=json_files::${json_files}"
-              echo "::set-output name=commit_link::${commit_link}"
-            else
-              echo "::set-output name=json_modified::false"
+          json_files=""
+          commit_link=""
+          for file in ${{ github.event_path }}; do
+            if [[ ${file} == *.json ]]; then
+              json_files="${json_files}$(basename ${file}), "
             fi
+          done
+          if [ -n "$json_files" ]; then
+            json_files="${json_files::-2}"
+            commit_link="https://github.com/${{ github.repository }}/commit/${{ github.sha }}"
+            echo "::set-output name=json_modified::true"
+            echo "::set-output name=json_files::${json_files}"
+            echo "::set-output name=commit_link::${commit_link}"
           else
             echo "::set-output name=json_modified::false"
           fi
-          
+        shell: bash
+        
       - name: Send Discord Notification
         if: steps.check_json_modification.outputs.json_modified == 'true'
         uses: tsickert/discord-webhook@v6.0.0
