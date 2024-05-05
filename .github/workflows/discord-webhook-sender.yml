@@ -25,6 +25,7 @@ jobs:
         id: check_json_modification
         run: |
           json_files=""
+          commit_link=""
           for file in ${{ github.event_path }}; do
             if [[ ${file} == *.json ]]; then
               json_files="${json_files}$(basename ${file}), "
@@ -32,8 +33,10 @@ jobs:
           done
           if [ -n "$json_files" ]; then
             json_files="${json_files::-2}"
+            commit_link="https://github.com/${{ github.repository }}/commit/${{ github.sha }}"
             echo "::set-output name=json_modified::true"
             echo "::set-output name=json_files::${json_files}"
+            echo "::set-output name=commit_link::${commit_link}"
           else
             echo "::set-output name=json_modified::false"
           fi
@@ -45,7 +48,7 @@ jobs:
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
           embed-title: 'Patch-Bundle.json File(s) Updated'
-          embed-description: "Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml)."
+          embed-description: "Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml). [Commit Link](${{ steps.check_json_modification.outputs.commit_link }})."
           embed-color: 65280
           embed-author-name: 'Patch Bundle Updater Workflow'
           embed-author-icon: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
