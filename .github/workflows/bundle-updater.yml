@@ -11,45 +11,45 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      with:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
           persist-credentials: false
           fetch-depth: 0
     
-    - name: Set up generate_bundles.py
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.x'
+      - name: Set up generate_bundles.py
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
       
-    - name: Run generate_bundles.py
-      run: |
-        pip install httpx
-        python generate_bundles.py
+      - name: Run generate_bundles.py
+        run: |
+          pip install httpx
+          python generate_bundles.py
       
-    - name: Check for changes
-      id: check_changes
-      run: |
-        git fetch
-        if git diff --quiet FETCH_HEAD -- '*.json'; then
-          echo "No changes"
-          echo "has_changes=false" >> $GITHUB_ENV
-        else
-          echo "Changes found"
-          echo "has_changes=true" >> $GITHUB_ENV
-        fi
-      continue-on-error: true
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git fetch
+          if git diff --quiet FETCH_HEAD -- '*.json'; then
+            echo "No changes"
+            echo "has_changes=false" >> $GITHUB_ENV
+          else
+            echo "Changes found"
+            echo "has_changes=true" >> $GITHUB_ENV
+          fi
+        continue-on-error: true
       
-    - name: Finalize and commit changes
-      if: env.has_changes == 'true'
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "jman-github"
-        git add *.json
-        if git diff --cached --quiet; then
-          echo "No changes to commit"
-        else
-          git commit -m "Update patch-bundle.json to latest"
-          git pull origin bundles --rebase
-          git push origin bundles
-        fi
+      - name: Finalize and commit changes
+        if: env.has_changes == 'true'
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "jman-github"
+          git add *.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update patch-bundle.json to latest"
+            git pull origin bundles --rebase
+            git push origin bundles ${{ secrets.GITHUB_TOKEN }}
+          fi
