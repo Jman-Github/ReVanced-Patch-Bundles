@@ -19,7 +19,7 @@ jobs:
         id: check_json_modification
         run: |
           if [[ $GITHUB_EVENT_NAME == 'push' && $GITHUB_EVENT_PATH == *'bundle-updater.yml' && $(git log -1 --pretty=format:'%s') == *"Update patch-bundle.json to latest"* ]]; then
-            json_files=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | grep '\.json$' | xargs -I {} basename {})
+            json_files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.json$' | xargs -I {} basename {})
             commit_link="https://github.com/${{ github.repository }}/commit/${{ github.sha }}"
             echo "JSON Files: $json_files"
             if [ -n "$json_files" ]; then
@@ -32,7 +32,7 @@ jobs:
           else
             echo "::set-output name=json_modified::false"
           fi
-
+          
       - name: Send Discord Notification
         if: ${{ steps.check_json_modification.outputs.json_modified == 'true' }}
         uses: tsickert/discord-webhook@v6.0.0
