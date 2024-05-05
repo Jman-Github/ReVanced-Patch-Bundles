@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
     
     - name: Set up generate_bundles.py
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v2
       with:
         python-version: '3.x'
       
@@ -53,9 +53,9 @@ jobs:
         
     - name: Push changes
       if: env.has_changes == 'true'
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@v1
       with:
-        github_token: ${{ secrets.GIT_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: bundles
         
     - name: Create artifact of changed files
