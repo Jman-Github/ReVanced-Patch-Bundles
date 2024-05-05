@@ -47,7 +47,7 @@ jobs:
     - name: Finalize and commit changes
       if: env.has_changes == 'true'
       run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.email "${{ secrets.GH_EMAIL }}"
         git config --local user.name "github-actions[bot]"
         git add *.json
         if [ -n "$(git diff --cached --name-only)" ]; then
@@ -68,9 +68,8 @@ jobs:
     - name: Push changes and Upload artifact
       if: env.has_changes == 'true'
       run: |
-        git config --global user.email "you@example.com"
-        git config --global user.name "Your Name"
-        git push https://${{ secrets.GITHUB_ACTOR }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} bundles
+        git config --global user.name "github-actions[bot]"
+        git push https://github.com/${{ github.repository }} bundles
         mv changed_files.txt $GITHUB_WORKSPACE
         echo "::set-output name=changed_files_path::$GITHUB_WORKSPACE/changed_files.txt"
   upload_artifact:
