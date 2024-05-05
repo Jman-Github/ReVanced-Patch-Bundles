@@ -69,7 +69,7 @@ jobs:
       if: env.has_changes == 'true'
       run: |
         git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:bundles
-        mv changed_files.txt $GITHUB_WORKSPACE
+        mv changed_files.txt $GITHUB_WORKSPACE/changed_files.txt
         echo "::set-output name=changed_files_path::$GITHUB_WORKSPACE/changed_files.txt"
 
   upload_artifact:
