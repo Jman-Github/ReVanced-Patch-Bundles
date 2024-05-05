@@ -60,10 +60,3 @@ jobs:
           # Push the changes
           git push origin bundles
         fi
-        
-    - name: Push changes
-      if: env.has_changes == 'true'
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GIT_TOKEN }}
-        branch: bundles
