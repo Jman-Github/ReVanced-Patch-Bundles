@@ -1,60 +1,41 @@
 name: Discord Notification on JSON Change
 
 on:
-  push:
-    paths:
-      - '**.json'
-      - '.github/workflows/bundle-updater.yml'
+  workflow_run:
+    workflows: ["Patch bundle updater"]
+    types:
+      - completed
 
 jobs:
   send_discord_notification:
     name: Send Discord Notification
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' && contains(github.event.head_commit.message, 'Update patch-bundle.json to latest') && contains(github.event.head_commit.message, '.json') }}
-    
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-        
-      - name: Download artifacts
+      - name: Download changed files artifact
         uses: actions/download-artifact@v2
         with:
-          name: bundle-json
-          path: artifacts
-      
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-          
+          name: changed_files
+          path: ./artifacts
+
       - name: Check for JSON modification
         id: check_json_modification
         run: |
-          json_files=""
-          commit_link=""
-          for file in ${{ github.workspace }}/artifacts/*; do
-            if [[ ${file} == *.json ]]; then
-              json_files="${json_files}$(basename ${file}), "
-            fi
-          done
-          if [ -n "$json_files" ]; then
-            json_files="${json_files::-2}"
-            commit_link="https://github.com/${{ github.repository }}/commit/${{ github.sha }}"
+          if [ -f "./artifacts/changed_files.txt" ]; then
             echo "::set-output name=json_modified::true"
-            echo "::set-output name=json_files::${json_files}"
-            echo "::set-output name=commit_link::${commit_link}"
+            echo "::set-output name=json_files::$(cat ./artifacts/changed_files.txt)"
           else
             echo "::set-output name=json_modified::false"
           fi
-        shell: bash
-        
+          
       - name: Send Discord Notification
         if: steps.check_json_modification.outputs.json_modified == 'true'
         uses: tsickert/discord-webhook@v6.0.0
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
           embed-title: 'Patch-Bundle.json File(s) Updated'
-          embed-description: "Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](${{ steps.check_json_modification.outputs.commit_link }})."
+          embed-description: "Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml). Files updated: ${{ steps.check_json_modification.outputs.json_files }}"
           embed-color: 65280
           embed-author-name: 'Patch Bundle Updater Workflow'
           embed-author-icon: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
