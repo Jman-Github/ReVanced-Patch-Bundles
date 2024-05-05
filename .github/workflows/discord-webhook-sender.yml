@@ -4,7 +4,10 @@ on:
   push:
     paths:
       - '**.json'
-      - '.github/workflows/bundle-updater.yml'
+  workflow_run:
+    workflows: ["Patch bundle updater"]
+    types:
+      - completed
 
 jobs:
   send_discord_notification:
