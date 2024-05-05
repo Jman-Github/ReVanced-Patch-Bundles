@@ -43,9 +43,9 @@ jobs:
         else
           echo "Changes found"
           echo "has_changes=true" >> $GITHUB_ENV
-          # Save artifacts
-          mkdir -p artifacts
-          cp *.json artifacts/
+          echo "Files changed:"
+          git diff --name-only FETCH_HEAD -- '*.json'
+          git diff --name-only FETCH_HEAD -- '*.json' > changed_files.txt
         fi
       continue-on-error: true
       
@@ -70,6 +70,13 @@ jobs:
         else
           echo "No changes to commit"
         fi
+
+    - name: Upload changed files artifact
+      if: env.has_changes == 'true'
+      uses: actions/upload-artifact@v2
+      with:
+        name: changed_files
+        path: changed_files.txt
         
     - name: Push changes
       if: env.has_changes == 'true'
@@ -77,14 +84,7 @@ jobs:
       with:
         github_token: ${{ secrets.GIT_TOKEN }}
         branch: bundles
-        
-    - name: Upload artifacts
-      if: env.has_changes == 'true'
-      uses: actions/upload-artifact@v2
-      with:
-        name: bundle-json
-        path: artifacts/
-        
+
     # Pause the workflow for one minute before running again
     - name: Pause
       if: matrix.minutes != 3
