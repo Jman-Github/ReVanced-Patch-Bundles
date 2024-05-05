@@ -45,9 +45,10 @@ jobs:
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
           embed-title: 'Patch-Bundle.json File(s) Updated'
-          embed-description: "Patch-bundle.json file(s) have been successfully changed by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml)."
+          embed-description: "Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml)."
           embed-color: 65280
           embed-author-name: 'Patch Bundle Updater Workflow'
+          embed-author-icon: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
           embed-thumbnail-url: 'https://cdn-icons-png.flaticon.com/512/5278/5278658.png'
           username: 'ReVanced-Patch-Bundles'
           avatar-url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUECg_ITr7YkE2pYiVdHqTxlg3wLwXKXIQrcxEBKd7Q&s'
