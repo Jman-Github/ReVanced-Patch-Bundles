@@ -145,5 +145,5 @@ jobs:
         run: |
           while IFS= read -r file; do
             git checkout HEAD -- "$file"
-          done < ${{ github.workspace }}/changed_files/${{ steps.get_artifact_id.outputs.artifact_id }}/changed_files.txt
+          done < ${{ github.workspace }}/changed_files/changed_files.txt
         if: success()
