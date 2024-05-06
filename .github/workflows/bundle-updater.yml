@@ -10,6 +10,9 @@ jobs:
     name: Check for bundle updates
     runs-on: ubuntu-latest
 
+    outputs:
+      has_changes: ${{ steps.check_changes.outputs.has_changes }}
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -22,24 +25,31 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install requests
+      - name: Set up virtual environment
+        run: python -m venv venv
+        working-directory: ${{ github.workspace }}
+
+      - name: Activate virtual environment and install dependencies
         run: |
-          pip install requests
+          source venv/bin/activate
+          pip install requests httpx
+        working-directory: ${{ github.workspace }}
 
       - name: Run generate_bundles.py
         run: |
-          pip install httpx
+          source venv/bin/activate
           python generate_bundles.py
 
       - name: Check for changes
         id: check_changes
         run: |
+          source venv/bin/activate
           if git diff --quiet HEAD^ -- '*.json'; then
             echo "No changes"
-            echo "has_changes=false" >> $GITHUB_ENV
+            echo "::set-output name=has_changes::false"
           else
             echo "Changes found"
-            echo "has_changes=true" >> $GITHUB_ENV
+            echo "::set-output name=has_changes::true"
             echo "Changed files:" > changed_files.txt
             python find_commit.py >> changed_files.txt
           fi
@@ -47,8 +57,9 @@ jobs:
         working-directory: ${{ github.workspace }}
 
       - name: Finalize and commit changes
-        if: env.has_changes == 'true'
+        if: steps.check_changes.outputs.has_changes == 'true'
         run: |
+          source venv/bin/activate
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git remote set-url origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
@@ -59,7 +70,7 @@ jobs:
         working-directory: ${{ github.workspace }}
 
       - name: Push changes
-        if: env.has_changes == 'true'
+        if: steps.check_changes.outputs.has_changes == 'true'
         uses: ad-m/github-push-action@v0.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -76,18 +87,24 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
+      - name: Set up virtual environment
+        run: python -m venv venv
+        working-directory: ${{ github.workspace }}
+
+      - name: Activate virtual environment and install dependencies
+        run: |
+          source venv/bin/activate
+          pip install requests
+        working-directory: ${{ github.workspace }}
 
       - name: Find commit for changed files
         run: |
+          source venv/bin/activate
           python find_commit.py
         working-directory: ${{ github.workspace }}
 
       - name: Create artifact of changed files
-        if: always()
+        if: ${{ needs.check_for_updates.outputs.has_changes == 'true' }}
         uses: actions/upload-artifact@v2
         with:
           name: changed_files
