@@ -5,6 +5,10 @@ on:
     paths:
       - '**.json'
       - '.github/workflows/bundle-updater.yml'
+  workflow_run:
+    workflows: ["Patch bundle updater"]
+    types:
+      - completed
 
 jobs:
   send_discord_notification:
@@ -43,19 +47,19 @@ jobs:
         uses: actions/download-artifact@v2
         if: steps.check_json_modification.outputs.json_modified == 'true'
         with:
-          name: change_bundles
-          path: change_bundles.zip
+          name: changed_files
+          path: changed_files.zip
           
       - name: Unzip artifact
         if: steps.check_json_modification.outputs.json_modified == 'true'
-        run: unzip -qq change_bundles.zip -d change_bundles
+        run: unzip -qq changed_files.zip -d changed_files
           
       - name: Read change_bundles.txt
         if: steps.check_json_modification.outputs.json_modified == 'true'
         id: read_change_bundles
         run: |
-          cat change_bundles/change_bundles.txt
-          echo "::set-output name=change_bundles::$(cat change_bundles/change_bundles.txt)"
+          cat changed_files/changed_files.txt
+          echo "::set-output name=change_bundles::$(cat changed_files/changed_files.txt)"
           
       - name: Send Discord Notification
         if: steps.check_json_modification.outputs.json_modified == 'true'
