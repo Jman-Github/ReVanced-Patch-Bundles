@@ -119,36 +119,31 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: List contents of directory before download
-        run: ls -l
-        working-directory: ${{ github.workspace }}
-
       - name: Download changed files artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v2
         with:
           name: changed_files
-          path: changed_files
+          path: ${{ github.workspace }}/changed_files
 
-      - name: Verify artifact download
-        run: ls -l changed_files
-        working-directory: ${{ github.workspace }}
+      - name: List contents of directory after download
+        run: ls -l ${{ github.workspace }}/changed_files
+        if: success()
+
+      - name: Get artifact ID
+        id: get_artifact_id
+        run: echo "::set-output name=artifact_id::${{ github.run_id }}"
 
       - name: Unzip artifact
-        run: |
-          unzip_result=$(unzip -o changed_files/changed_files.zip)
-          if [[ $? -ne 0 ]]; then
-            echo "Failed to unzip the artifact: $unzip_result"
-            exit 1
-          fi
-        working-directory: ${{ github.workspace }}
+        run: unzip -o ${{ github.workspace }}/changed_files/${{ steps.get_artifact_id.outputs.artifact_id }}/changed_files.zip -d ${{ github.workspace }}/changed_files
+        if: success()
 
       - name: List contents of directory after unzip
-        run: ls -l
-        working-directory: ${{ github.workspace }}
+        run: ls -l ${{ github.workspace }}/changed_files
+        if: success()
 
       - name: Pull changes
         run: |
           while IFS= read -r file; do
             git checkout HEAD -- "$file"
-          done < changed_files/changed_files.txt
-        working-directory: ${{ github.workspace }}
+          done < ${{ github.workspace }}/changed_files/${{ steps.get_artifact_id.outputs.artifact_id }}/changed_files.txt
+        if: success()
