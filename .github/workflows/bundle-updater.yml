@@ -21,15 +21,15 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
+        
+    - name: Install BeautifulSoup4
+      run: |
+        pip install beautifulsoup4
       
     - name: Run generate_bundles.py
       run: |
         pip install httpx
         python generate_bundles.py
-
-    - name: Install requests
-      run: |
-        python -m pip install requests
 
     - name: Check for changes
       id: check_changes
