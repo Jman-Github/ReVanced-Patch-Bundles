@@ -21,7 +21,7 @@ jobs:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5.1.0
         with:
           python-version: '3.x'
 
@@ -105,7 +105,7 @@ jobs:
 
       - name: Create artifact of changed files
         if: ${{ needs.check_for_updates.outputs.has_changes == 'true' }}
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4.3.3
         with:
           name: changed_files
           path: changed_files.txt
