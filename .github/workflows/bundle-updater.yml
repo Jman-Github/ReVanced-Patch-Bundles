@@ -25,21 +25,25 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install requests
-        run: |
-          pip install requests
+      - name: Set up virtual environment
+        run: python -m venv venv
+        working-directory: ${{ github.workspace }}
 
-      - name: Install other dependencies
+      - name: Activate virtual environment and install dependencies
         run: |
-          pip install httpx
+          source venv/bin/activate
+          pip install requests httpx
+        working-directory: ${{ github.workspace }}
 
       - name: Run generate_bundles.py
         run: |
+          source venv/bin/activate
           python generate_bundles.py
 
       - name: Check for changes
         id: check_changes
         run: |
+          source venv/bin/activate
           if git diff --quiet HEAD^ -- '*.json'; then
             echo "No changes"
             echo "::set-output name=has_changes::false"
@@ -55,6 +59,7 @@ jobs:
       - name: Finalize and commit changes
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
+          source venv/bin/activate
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git remote set-url origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
@@ -82,13 +87,19 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
+      - name: Set up virtual environment
+        run: python -m venv venv
+        working-directory: ${{ github.workspace }}
+
+      - name: Activate virtual environment and install dependencies
+        run: |
+          source venv/bin/activate
+          pip install requests
+        working-directory: ${{ github.workspace }}
 
       - name: Find commit for changed files
         run: |
+          source venv/bin/activate
           python find_commit.py
         working-directory: ${{ github.workspace }}
 
