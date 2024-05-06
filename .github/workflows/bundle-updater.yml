@@ -35,32 +35,34 @@ jobs:
 
       - name: Run generate_bundles.py
         run: |
-          source venv/bin/activate
-          python generate_bundles.py
+          bash -c "source venv/bin/activate && python generate_bundles.py"
+        working-directory: ${{ github.workspace }}
 
       - name: Check for changes
         id: check_changes
-        if: success()
+        if: ${{ success() }}
         run: |
-          source venv/bin/activate
-          if git diff --quiet HEAD^ -- '*.json'; then
-            echo "::set-output name=has_changes::false"
-          else
-            echo "::set-output name=has_changes::true"
-            echo "Changed files:" > changed_files.txt
-            git diff --name-only HEAD^ '*.json' >> changed_files.txt
-          fi
+          bash -c "\
+          source venv/bin/activate \
+          && if git diff --quiet HEAD^ -- '*.json'; then \
+                echo '::set-output name=has_changes::false'; \
+             else \
+                echo '::set-output name=has_changes::true'; \
+                echo 'Changed files:' > changed_files.txt; \
+                git diff --name-only HEAD^ '*.json' >> changed_files.txt; \
+             fi"
         working-directory: ${{ github.workspace }}
 
       - name: Finalize and commit changes
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
-          source venv/bin/activate
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git remote set-url origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
-          git add *.json
-          git diff --cached --quiet || (git commit -m "Update patch-bundle.json to latest" && git push origin HEAD:${{ github.ref }} --follow-tags)
+          bash -c "\
+          source venv/bin/activate \
+          && git config --local user.email '41898282+github-actions[bot]@users.noreply.github.com' \
+          && git config --local user.name 'github-actions[bot]' \
+          && git remote set-url origin 'https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}' \
+          && git add *.json \
+          && git diff --cached --quiet || (git commit -m 'Update patch-bundle.json to latest' && git push origin HEAD:${{ github.ref }} --follow-tags)"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         working-directory: ${{ github.workspace }}
@@ -89,14 +91,16 @@ jobs:
 
       - name: Activate virtual environment and install dependencies
         run: |
-          source venv/bin/activate
-          python -m pip install requests httpx
+          bash -c "\
+          source venv/bin/activate \
+          && python -m pip install requests httpx"
         working-directory: ${{ github.workspace }}
 
       - name: Find commit for changed files
         run: |
-          source venv/bin/activate
-          python find_commit.py
+          bash -c "\
+          source venv/bin/activate \
+          && python find_commit.py"
         working-directory: ${{ github.workspace }}
 
       - name: Create artifact of changed files
@@ -123,18 +127,14 @@ jobs:
         uses: actions/download-artifact@v4.1.7
         with:
           name: changed_files
-          path: ${{ github.workspace }}/changed_files.zip
+          path: changed_files.zip
 
       - name: Verify artifact download
-        run: |
-          ls -l
-          unzip -l ${{ github.workspace }}/changed_files.zip
+        run: ls -l
         working-directory: ${{ github.workspace }}
 
       - name: Unzip artifact
-        run: |
-          cd ${{ github.workspace }}
-          unzip -o changed_files.zip -d changed_files
+        run: unzip -o changed_files.zip
         working-directory: ${{ github.workspace }}
 
       - name: List contents of directory after unzip
@@ -145,5 +145,5 @@ jobs:
         run: |
           while IFS= read -r file; do
             git checkout HEAD -- "$file"
-          done < changed_files/changed_files.txt
+          done < changed_files.txt
         working-directory: ${{ github.workspace }}
