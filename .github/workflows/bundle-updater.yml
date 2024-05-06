@@ -128,11 +128,13 @@ jobs:
       - name: Verify artifact download
         run: |
           ls -l
-          unzip -l ${{ github.workspace }}/changed_files.zip
+          unzip -l changed_files.zip
         working-directory: ${{ github.workspace }}
 
       - name: Unzip artifact
-        run: unzip -o ${{ github.workspace }}/changed_files.zip
+        run: |
+          cd ${{ github.workspace }}
+          unzip -o changed_files.zip
         working-directory: ${{ github.workspace }}
 
       - name: List contents of directory after unzip
