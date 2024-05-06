@@ -10,6 +10,9 @@ jobs:
     name: Check for bundle updates
     runs-on: ubuntu-latest
 
+    outputs:
+      has_changes: ${{ steps.check_changes.outputs.has_changes }}
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -36,10 +39,10 @@ jobs:
         run: |
           if git diff --quiet HEAD^ -- '*.json'; then
             echo "No changes"
-            echo "has_changes=false" >> $GITHUB_ENV
+            echo "::set-output name=has_changes::false"
           else
             echo "Changes found"
-            echo "has_changes=true" >> $GITHUB_ENV
+            echo "::set-output name=has_changes::true"
             echo "Changed files:" > changed_files.txt
             python find_commit.py >> changed_files.txt
           fi
@@ -47,7 +50,7 @@ jobs:
         working-directory: ${{ github.workspace }}
 
       - name: Finalize and commit changes
-        if: env.has_changes == 'true'
+        if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -59,7 +62,7 @@ jobs:
         working-directory: ${{ github.workspace }}
 
       - name: Push changes
-        if: env.has_changes == 'true'
+        if: steps.check_changes.outputs.has_changes == 'true'
         uses: ad-m/github-push-action@v0.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -87,7 +90,7 @@ jobs:
         working-directory: ${{ github.workspace }}
 
       - name: Create artifact of changed files
-        if: always() && needs.check_for_updates.outputs.has_changes == 'true'
+        if: ${{ needs.check_for_updates.outputs.has_changes == 'true' }}
         uses: actions/upload-artifact@v2
         with:
           name: changed_files
