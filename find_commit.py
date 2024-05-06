@@ -1,51 +1,24 @@
-import os
+User
+Modify this find_commit.py script so it can pull the names of the .json files changed by the bundle_updater.yml workflow that it's running under.
+
+Code:
+
 import requests
-from dotenv import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv()
+# URL for the commits page
+url = "https://api.github.com/repos/jman-github/revanced-patch-bundles/commits"
+response = requests.get(url)
+commits = response.json()
 
-# Function to get the details of the latest workflow run
-def get_latest_workflow_run():
-    url = f"https://api.github.com/repos/{os.getenv('GITHUB_REPOSITORY')}/actions/runs"
-    headers = {"Authorization": f"token {os.getenv('GITHUB_TOKEN')}"}
-    response = requests.get(url, headers=headers)
-    if response.status_code == 200:
-        data = response.json()
-        if "workflow_runs" in data:
-            workflow_runs = data["workflow_runs"]
-            for run in workflow_runs:
-                if run["name"] == "Patch bundle updater":  # Name of the workflow
-                    return run
-    return None
+# Find the latest commit made by "github-actions[bot]"
+latest_commit_url = None
+for commit in commits:
+    if commit['commit']['author']['name'] == "github-actions[bot]":
+        latest_commit_url = commit['html_url']
+        break
 
-# Function to get the names of the .json files changed in the latest workflow run
-def get_changed_json_files(run_id):
-    url = f"https://api.github.com/repos/{os.getenv('GITHUB_REPOSITORY')}/actions/runs/{run_id}/artifacts"
-    headers = {"Authorization": f"token {os.getenv('GITHUB_TOKEN')}"}
-    response = requests.get(url, headers=headers)
-    if response.status_code == 200:
-        artifacts = response.json()["artifacts"]
-        changed_json_files = []
-        for artifact in artifacts:
-            if artifact["name"].endswith(".json"):
-                changed_json_files.append(artifact["name"])
-        return changed_json_files
-    return None
-
-# Get the latest workflow run
-latest_run = get_latest_workflow_run()
-
-if latest_run:
-    run_id = latest_run["id"]
-    changed_json_files = get_changed_json_files(run_id)
-    if changed_json_files:
-        with open('artifacts/changed_files.txt', 'w') as f:
-            f.write("Changed JSON files:\n")
-            for file_name in changed_json_files:
-                f.write(f"- {file_name}\n")
-            f.write(f"\n[View Workflow Run](https://github.com/{os.getenv('GITHUB_REPOSITORY')}/actions/runs/{run_id})\n")
-    else:
-        print("No .json files found.")
+if latest_commit_url:
+    with open('changed_files.txt', 'w') as f:
+        f.write(f"\n[View Commit]({latest_commit_url})\n")
 else:
-    print("No workflow runs found.")
+    print("No commits found.")
