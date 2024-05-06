@@ -126,7 +126,9 @@ jobs:
           path: changed_files.zip
 
       - name: Verify artifact download
-        run: ls -l
+        run: |
+          ls -l
+          unzip -l changed_files.zip
         working-directory: ${{ github.workspace }}
 
       - name: Unzip artifact
