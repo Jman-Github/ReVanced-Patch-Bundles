@@ -1,8 +1,3 @@
-User
-Modify this find_commit.py script so it can pull the names of the .json files changed by the bundle_updater.yml workflow that it's running under.
-
-Code:
-
 import requests
 
 # URL for the commits page
