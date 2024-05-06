@@ -48,7 +48,7 @@ jobs:
           else
             echo "::set-output name=has_changes::true"
             echo "Changed files:" > changed_files.txt
-            python find_commit.py >> changed_files.txt
+            git diff --name-only HEAD^ '*.json' >> changed_files.txt
           fi
         working-directory: ${{ github.workspace }}
 
@@ -115,7 +115,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: List contents of directory
+      - name: List contents of directory before download
         run: ls -l
         working-directory: ${{ github.workspace }}
 
@@ -125,13 +125,21 @@ jobs:
           name: changed_files
           path: changed_files.zip
 
+      - name: Verify artifact download
+        run: ls -l
+        working-directory: ${{ github.workspace }}
+
       - name: Unzip artifact
-        run: unzip changed_files.zip
+        run: unzip -o changed_files.zip
+        working-directory: ${{ github.workspace }}
+
+      - name: List contents of directory after unzip
+        run: ls -l
         working-directory: ${{ github.workspace }}
 
       - name: Pull changes
         run: |
           while IFS= read -r file; do
             git checkout HEAD -- "$file"
-          done < changed_files/changed_files.txt
+          done < changed_files.txt
         working-directory: ${{ github.workspace }}
