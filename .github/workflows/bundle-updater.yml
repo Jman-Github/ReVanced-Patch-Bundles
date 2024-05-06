@@ -14,32 +14,33 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       with:
-          persist-credentials: false
-          fetch-depth: 0
+        persist-credentials: false
+        fetch-depth: 0
     
     - name: Set up generate_bundles.py
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
-      
+
     - name: Run generate_bundles.py
       run: |
         pip install httpx
         python generate_bundles.py
-      
+
     - name: Check for changes
       id: check_changes
       run: |
-        git fetch
-        if git diff --quiet FETCH_HEAD -- '*.json'; then
+        if git diff --quiet HEAD^ -- '*.json'; then
           echo "No changes"
           echo "has_changes=false" >> $GITHUB_ENV
         else
           echo "Changes found"
           echo "has_changes=true" >> $GITHUB_ENV
           echo "Changed files:" > changed_files.txt
-          commit_sha=$(git log -1 --format="%H")
-          echo "- [Changed files](https://github.com/${{ github.repository }}/commit/$commit_sha)" >> changed_files.txt
+          for file in $(git diff --name-only HEAD^ -- '*.json'); do
+            commit_sha=$(curl -s "https://api.github.com/repos/${{ github.repository }}/commits?path=$file" | jq -r '.[0].sha')
+            echo "- [$file](https://github.com/${{ github.repository }}/commit/$commit_sha)" >> changed_files.txt
+          done
         fi
       continue-on-error: true
       
