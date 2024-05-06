@@ -39,13 +39,35 @@ jobs:
           fi
         shell: bash
         
+      - name: Download artifact
+        if: steps.check_json_modification.outputs.json_modified == 'true'
+        uses: actions/download-artifact@v2
+        with:
+          name: changed_files
+          path: changed_files.zip
+          
+      - name: Unzip artifact
+        if: steps.check_json_modification.outputs.json_modified == 'true'
+        run: |
+          unzip -o changed_files.zip
+          
+      - name: Read changed_files.txt
+        if: steps.check_json_modification.outputs.json_modified == 'true'
+        id: read_changed_files
+        run: |
+          changed_files_content=$(<changed_files.txt)
+          echo "::set-output name=changed_files_content::${changed_files_content}"
+          
       - name: Send Discord Notification
         if: steps.check_json_modification.outputs.json_modified == 'true'
         uses: tsickert/discord-webhook@v6.0.0
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
           embed-title: 'Patch-Bundle.json File(s) Updated'
-          embed-description: "Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml)."
+          embed-description: |
+            Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml).
+            Changes:
+            ${{ steps.read_changed_files.outputs.changed_files_content }}
           embed-color: 65280
           embed-author-name: 'Patch Bundle Updater Workflow'
           embed-author-icon: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
