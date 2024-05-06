@@ -50,8 +50,8 @@ jobs:
           else
             echo "Changes found"
             echo "::set-output name=has_changes::true"
-            echo "Changed files:" > changed_files.txt
-            python find_commit.py >> changed_files.txt
+            echo "Changed files:" > artifacts/changed_files.txt
+            python find_commit.py >> artifacts/changed_files.txt
           fi
         continue-on-error: true
         working-directory: ${{ github.workspace }}
@@ -63,7 +63,7 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git remote set-url origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
-          git add *.json
+          git add *.json artifacts/changed_files.txt
           git diff --cached --quiet || (git commit -m "Update patch-bundle.json to latest" && git push origin HEAD:${{ github.ref }} --follow-tags)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -108,4 +108,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: changed_files
-          path: changed_files.txt
+          path: artifacts/changed_files.txt
