@@ -128,13 +128,13 @@ jobs:
       - name: Verify artifact download
         run: |
           ls -l
-          unzip -l changed_files.zip
+          unzip -l ${{ github.workspace }}/changed_files.zip
         working-directory: ${{ github.workspace }}
 
       - name: Unzip artifact
         run: |
           cd ${{ github.workspace }}
-          unzip -o changed_files.zip
+          unzip -o changed_files.zip -d changed_files
         working-directory: ${{ github.workspace }}
 
       - name: List contents of directory after unzip
@@ -145,5 +145,5 @@ jobs:
         run: |
           while IFS= read -r file; do
             git checkout HEAD -- "$file"
-          done < changed_files.txt
+          done < changed_files/changed_files.txt
         working-directory: ${{ github.workspace }}
