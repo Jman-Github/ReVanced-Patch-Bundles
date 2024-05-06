@@ -29,9 +29,12 @@ jobs:
         run: |
           pip install requests
 
-      - name: Run generate_bundles.py
+      - name: Install other dependencies
         run: |
           pip install httpx
+
+      - name: Run generate_bundles.py
+        run: |
           python generate_bundles.py
 
       - name: Check for changes
