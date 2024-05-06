@@ -14,9 +14,10 @@ for commit in commits:
 
 if latest_commit_url:
     changed_files = []
-    for file in commit['files']:
-        if file['filename'].endswith('.json'):
-            changed_files.append(file['filename'])
+    if 'files' in commit:
+        for file in commit['files']:
+            if file['filename'].endswith('.json'):
+                changed_files.append(file['filename'])
 
     with open('changed_files.txt', 'w') as f:
         if changed_files:
