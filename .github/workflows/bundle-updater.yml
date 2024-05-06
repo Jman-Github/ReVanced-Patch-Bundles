@@ -123,16 +123,16 @@ jobs:
         uses: actions/download-artifact@v4.1.7
         with:
           name: changed_files
-          path: changed_files.zip
+          path: ${{ github.workspace }}/changed_files.zip
 
       - name: Verify artifact download
         run: |
           ls -l
-          unzip -l changed_files.zip
+          unzip -l ${{ github.workspace }}/changed_files.zip
         working-directory: ${{ github.workspace }}
 
       - name: Unzip artifact
-        run: unzip -o changed_files.zip
+        run: unzip -o ${{ github.workspace }}/changed_files.zip
         working-directory: ${{ github.workspace }}
 
       - name: List contents of directory after unzip
