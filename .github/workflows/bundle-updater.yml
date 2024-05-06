@@ -17,10 +17,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
+          persist-credentials: false
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5.1.0
+        uses: actions/setup-python@v5.3.3
         with:
           python-version: '3.x'
 
@@ -43,9 +44,9 @@ jobs:
         run: |
           source venv/bin/activate
           if git diff --quiet HEAD^ -- '*.json'; then
-            echo "has_changes=false" >> $GITHUB_ENV
+            echo "::set-output name=has_changes::false"
           else
-            echo "has_changes=true" >> $GITHUB_ENV
+            echo "::set-output name=has_changes::true"
             echo "Changed files:" > changed_files.txt
             python find_commit.py >> changed_files.txt
           fi
