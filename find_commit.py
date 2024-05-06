@@ -1,19 +1,46 @@
+import os
 import requests
+from dotenv import load_dotenv
 
-# URL for the commits page
-url = "https://api.github.com/repos/jman-github/revanced-patch-bundles/commits"
-response = requests.get(url)
-commits = response.json()
+# Load environment variables from .env file
+load_dotenv()
 
-# Find the latest commit made by "github-actions[bot]"
-latest_commit_url = None
-for commit in commits:
-    if commit['commit']['author']['name'] == "github-actions[bot]":
-        latest_commit_url = commit['html_url']
-        break
+# Function to get the details of the latest workflow run
+def get_latest_workflow_run():
+    url = "https://api.github.com/repos/jman-github/revanced-patch-bundles/actions/runs"
+    headers = {"Authorization": f"token {os.getenv('GITHUB_TOKEN')}"}
+    response = requests.get(url, headers=headers)
+    workflow_runs = response.json()["workflow_runs"]
+    for run in workflow_runs:
+        if run["workflow_id"] == 1729913:  # ID of the bundle_updater.yml workflow
+            return run
+    return None
 
-if latest_commit_url:
-    with open('changed_files.txt', 'w') as f:
-        f.write(f"\n[View Commit]({latest_commit_url})\n")
+# Function to get the names of the .json files changed in the latest workflow run
+def get_changed_json_files(run_id):
+    url = f"https://api.github.com/repos/jman-github/revanced-patch-bundles/actions/runs/{run_id}/artifacts"
+    headers = {"Authorization": f"token {os.getenv('GITHUB_TOKEN')}"}
+    response = requests.get(url, headers=headers)
+    artifacts = response.json()["artifacts"]
+    changed_json_files = []
+    for artifact in artifacts:
+        if artifact["name"].endswith(".json"):
+            changed_json_files.append(artifact["name"])
+    return changed_json_files
+
+# Get the latest workflow run
+latest_run = get_latest_workflow_run()
+
+if latest_run:
+    run_id = latest_run["id"]
+    changed_json_files = get_changed_json_files(run_id)
+    if changed_json_files:
+        with open('changed_files.txt', 'w') as f:
+            f.write("Changed JSON files:\n")
+            for file_name in changed_json_files:
+                f.write(f"- {file_name}\n")
+            f.write(f"\n[View Workflow Run](https://github.com/jman-github/revanced-patch-bundles/actions/runs/{run_id})\n")
+    else:
+        print("No .json files found.")
 else:
-    print("No commits found.")
+    print("No workflow runs found.")
