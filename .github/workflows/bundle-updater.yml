@@ -44,12 +44,13 @@ jobs:
         if: success()
         run: |
           source venv/bin/activate
+          git fetch
           if git diff --quiet HEAD^ -- '*.json'; then
             echo "::set-output name=has_changes::false"
           else
             echo "::set-output name=has_changes::true"
             echo "Changed files:" > changed_files.txt
-            python find_commit.py >> changed_files.txt
+            git diff --name-only HEAD^ -- '*.json' >> changed_files.txt
           fi
         working-directory: ${{ github.workspace }}
 
