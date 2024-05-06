@@ -40,7 +40,7 @@ if latest_run:
     run_id = latest_run["id"]
     changed_json_files = get_changed_json_files(run_id)
     if changed_json_files:
-        with open('changed_files.txt', 'w') as f:
+        with open('artifacts/changed_files.txt', 'w') as f:
             f.write("Changed JSON files:\n")
             for file_name in changed_json_files:
                 f.write(f"- {file_name}\n")
