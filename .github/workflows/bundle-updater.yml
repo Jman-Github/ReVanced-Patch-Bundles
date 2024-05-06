@@ -94,7 +94,7 @@ jobs:
       - name: Activate virtual environment and install dependencies
         run: |
           source venv/bin/activate
-          pip install requests
+          pip install requests python-dotenv
         working-directory: ${{ github.workspace }}
 
       - name: Find commit for changed files
