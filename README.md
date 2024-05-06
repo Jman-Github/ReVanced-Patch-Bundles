@@ -1,4 +1,5 @@
 # 🚨 Status & Stats
+## CURRENTLY DOWN. WORKING ON FIX.
 ![GitHub Repo stars](https://img.shields.io/github/stars/jman-github/revanced-patch-bundles?style=github-dark)
 
 <div align=left>
