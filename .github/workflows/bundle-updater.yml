@@ -26,7 +26,7 @@ jobs:
       run: |
         pip install httpx
         python generate_bundles.py
-      
+
     - name: Check for changes
       id: check_changes
       run: |
@@ -37,9 +37,10 @@ jobs:
           echo "Changes found"
           echo "has_changes=true" >> $GITHUB_ENV
           echo "Changed files:" > changed_files.txt
-          python ${{ github.workspace }}/find_commit.py >> changed_files.txt
+          python find_commit.py >> changed_files.txt
         fi
       continue-on-error: true
+      working-directory: ${{ github.workspace }}
       
     - name: Finalize and commit changes
       if: env.has_changes == 'true'
