@@ -51,10 +51,9 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git remote set-url origin "git@github.com:${{ github.repository }}.git"
           git add *.json
           git diff --cached --quiet || git commit -m "Update patch-bundle.json to latest"
-          git push origin HEAD:${{ github.ref }}
+          git push origin HEAD:${{ github.ref }} --follow-tags "${GITHUB_TOKEN}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         working-directory: ${{ github.workspace }}
