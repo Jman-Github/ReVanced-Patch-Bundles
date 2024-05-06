@@ -48,7 +48,7 @@ jobs:
           else
             echo "::set-output name=has_changes::true"
             echo "Changed files:" > changed_files.txt
-            python find_commit.py >> changed_files.txt
+            python find_changed_files.py ${{ github.event.before }} >> changed_files.txt
           fi
         working-directory: ${{ github.workspace }}
       
@@ -91,6 +91,12 @@ jobs:
         run: |
           source venv/bin/activate
           python -m pip install requests httpx
+        working-directory: ${{ github.workspace }}
+
+      - name: Run generate_bundles.py
+        run: |
+          source venv/bin/activate
+          python generate_bundles.py
         working-directory: ${{ github.workspace }}
 
       - name: Find commit for changed files
