@@ -53,7 +53,8 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add *.json
           git diff --cached --quiet || git commit -m "Update patch-bundle.json to latest"
-          git pull --rebase
+          git push
+        working-directory: ${{ github.workspace }}
 
       - name: Push changes
         if: env.has_changes == 'true'
