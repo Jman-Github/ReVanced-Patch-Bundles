@@ -21,12 +21,12 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
-
+      
     - name: Run generate_bundles.py
       run: |
         pip install httpx
         python generate_bundles.py
-
+      
     - name: Check for changes
       id: check_changes
       run: |
@@ -37,10 +37,7 @@ jobs:
           echo "Changes found"
           echo "has_changes=true" >> $GITHUB_ENV
           echo "Changed files:" > changed_files.txt
-          for file in $(git diff --name-only HEAD^ -- '*.json'); do
-            commit_sha=$(curl -s "https://api.github.com/repos/${{ github.repository }}/commits?path=$file" | jq -r '.[0].sha')
-            echo "- [$file](https://github.com/${{ github.repository }}/commit/$commit_sha)" >> changed_files.txt
-          done
+          python find_commit.py >> changed_files.txt
         fi
       continue-on-error: true
       
