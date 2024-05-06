@@ -15,7 +15,7 @@ def get_latest_workflow_run():
         if "workflow_runs" in data:
             workflow_runs = data["workflow_runs"]
             for run in workflow_runs:
-                if run["workflow_id"] == 1729913:  # ID of the bundle_updater.yml workflow
+                if run["name"] == "Patch bundle updater":  # Name of the workflow
                     return run
     return None
 
