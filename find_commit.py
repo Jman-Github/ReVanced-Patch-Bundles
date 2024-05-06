@@ -18,13 +18,16 @@ if commit_link:
     # Find all the modified files in the latest commit
     files_modified = latest_commit_soup.find_all('div', class_='file-info flex-auto min-width-0')
 
-    # Print file names and links
-    with open('changed_files.txt', 'w') as f:
-        print("Changed files:")
-        for file_info in files_modified:
-            file_name = file_info.find('a', class_='link-gray-dark text-bold js-navigation-open').text.strip()
-            file_path = file_info.find('a', class_='link-gray').get('title')
-            f.write(f"- [{file_name}]({file_path})\n")
-            print(f"- [{file_name}]({file_path})")
+    if files_modified:
+        # Print file names and links
+        with open('changed_files.txt', 'w') as f:
+            print("Changed files:")
+            for file_info in files_modified:
+                file_name = file_info.find('a', class_='link-gray-dark text-bold js-navigation-open').text.strip()
+                file_path = file_info.find('a', class_='link-gray').get('title')
+                f.write(f"- [{file_name}]({file_path})\n")
+                print(f"- [{file_name}]({file_path})")
+    else:
+        print("No files found in the latest commit.")
 else:
     print("No commits found.")
