@@ -48,7 +48,7 @@ jobs:
           else
             echo "::set-output name=has_changes::true"
             echo "Changed files:" > changed_files.txt
-            python find_changed_files.py ${{ github.event.before }} >> changed_files.txt
+            python find_changed_files.py $(git log -1 --pretty=format:"%at") >> changed_files.txt
           fi
         working-directory: ${{ github.workspace }}
       
