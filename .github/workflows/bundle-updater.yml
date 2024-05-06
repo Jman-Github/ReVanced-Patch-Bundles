@@ -50,8 +50,8 @@ jobs:
           else
             echo "Changes found"
             echo "::set-output name=has_changes::true"
-            echo "Changed files:" > changed_files.txt
-            python find_commit.py >> changed_files.txt
+            echo "Changed files:" > ${{ github.workspace }}/changed_files.txt
+            python find_commit.py >> ${{ github.workspace }}/changed_files.txt
           fi
         continue-on-error: true
         working-directory: ${{ github.workspace }}
@@ -94,7 +94,7 @@ jobs:
       - name: Install dependencies
         run: |
           source venv/bin/activate
-          pip install requests httpx python-dotenv
+          pip install requests python-dotenv
         working-directory: ${{ github.workspace }}
 
       - name: Find commit for changed files
@@ -108,4 +108,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: changed_files
-          path: changed_files.txt
+          path: ${{ github.workspace }}/changed_files.txt
