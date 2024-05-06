@@ -37,6 +37,7 @@ jobs:
         run: |
           source venv/bin/activate
           python generate_bundles.py
+        working-directory: ${{ github.workspace }}
 
       - name: Check for changes
         id: check_changes
