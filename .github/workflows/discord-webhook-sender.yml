@@ -40,23 +40,22 @@ jobs:
         shell: bash
         
       - name: Download artifact
-        if: steps.check_json_modification.outputs.json_modified == 'true'
         uses: actions/download-artifact@v2
+        if: steps.check_json_modification.outputs.json_modified == 'true'
         with:
-          name: changed_files
-          path: changed_files.zip
+          name: change_bundles
+          path: change_bundles.zip
           
       - name: Unzip artifact
         if: steps.check_json_modification.outputs.json_modified == 'true'
-        run: |
-          unzip -o changed_files.zip
+        run: unzip -qq change_bundles.zip -d change_bundles
           
-      - name: Read changed_files.txt
+      - name: Read change_bundles.txt
         if: steps.check_json_modification.outputs.json_modified == 'true'
-        id: read_changed_files
+        id: read_change_bundles
         run: |
-          changed_files_content=$(<changed_files.txt)
-          echo "::set-output name=changed_files_content::${changed_files_content}"
+          cat change_bundles/change_bundles.txt
+          echo "::set-output name=change_bundles::$(cat change_bundles/change_bundles.txt)"
           
       - name: Send Discord Notification
         if: steps.check_json_modification.outputs.json_modified == 'true'
@@ -66,8 +65,9 @@ jobs:
           embed-title: 'Patch-Bundle.json File(s) Updated'
           embed-description: |
             Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml).
-            Changes:
-            ${{ steps.read_changed_files.outputs.changed_files_content }}
+            
+            **Changes:**
+            ${{ steps.read_change_bundles.outputs.change_bundles }}
           embed-color: 65280
           embed-author-name: 'Patch Bundle Updater Workflow'
           embed-author-icon: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
