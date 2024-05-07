@@ -98,9 +98,13 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: bundles
 
+      - name: Wait for 10 seconds
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: sleep 10s
+
       - name: Create artifact of changed files
         if: steps.check_changes.outputs.has_changes == 'true' && steps.find_commit.outputs.changed_files != ''
         uses: actions/upload-artifact@v2
         with:
           name: changed_files
-          path: ${{ steps.find_commit.outputs.changed_files }}
+          path: changed_files.txt
