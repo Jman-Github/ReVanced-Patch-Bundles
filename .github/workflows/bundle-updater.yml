@@ -61,8 +61,6 @@ jobs:
           git diff --cached --quiet || (git commit -m "Update patch-bundle.json to latest" && git push origin HEAD:${{ github.ref }} --follow-tags)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          no_changes: ${{ env.no_changes }}
-        working-directory: ${{ github.workspace }}
 
       - name: Push changes
         if: env.no_changes != 'true'
