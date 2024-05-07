@@ -14,6 +14,6 @@ for commit in commits:
 
 if latest_commit_url:
     with open('commit_link.txt', 'w') as f:
-        f.write(f"{latest_commit_url}")
+        f.write(f"[View Commit]({latest_commit_url})")
 else:
     print("No commits found.")
