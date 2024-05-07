@@ -13,7 +13,7 @@ for commit in commits:
         break
 
 if latest_commit_url:
-    with open('changed_files.txt', 'w') as f:
-        f.write(f"\n[View Commit]({latest_commit_url})\n")
+    with open('commit_link.txt', 'w') as f:
+        f.write(f"{latest_commit_url}")
 else:
     print("No commits found.")
