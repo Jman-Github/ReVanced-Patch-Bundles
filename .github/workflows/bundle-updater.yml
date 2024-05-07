@@ -65,14 +65,25 @@ jobs:
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           source venv/bin/activate
-          python find_commit.py
+          python find_commit.py > commit_link.txt
 
       - name: Find commit for changed files
         id: find_commit
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           source venv/bin/activate
-          cat changed_files.txt
+          commit_link=$(cat commit_link.txt)
+          changed_files=$(git diff --name-only HEAD^ -- '*.json')
+          if [ -z "$changed_files" ]; then
+            echo "::set-output name=changed_files::"
+          else
+            echo "Commit link: $commit_link" > changed_files.txt
+            echo "Changed files:" >> changed_files.txt
+            for file in $changed_files; do
+              echo "- $file" >> changed_files.txt
+            done
+            echo "::set-output name=changed_files::changed_files.txt"
+          fi
 
       - name: Finalize and commit changes
         if: success() && steps.check_changes.outputs.has_changes == 'true'
