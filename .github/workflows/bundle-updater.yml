@@ -13,7 +13,6 @@ jobs:
     outputs:
       has_changes: ${{ steps.check_changes.outputs.has_changes }}
       changed_files: ${{ steps.find_commit.outputs.changed_files }}
-      commit_link: ${{ steps.get_commit_link.outputs.commit_link }}
 
     steps:
       - name: Checkout code
@@ -60,14 +59,6 @@ jobs:
             echo "::set-output name=has_changes::true"
           fi
 
-      - name: Run find_commit.py and Get commit link
-        id: get_commit_link
-        if: steps.check_changes.outputs.has_changes == 'true'
-        run: |
-          source venv/bin/activate
-          python find_commit.py > commit_link.txt
-          echo "::set-output name=commit_link::$(cat commit_link.txt)"
-
       - name: Find commit for changed files
         id: find_commit
         if: steps.check_changes.outputs.has_changes == 'true'
@@ -77,7 +68,12 @@ jobs:
           if [ -z "$changed_files" ]; then
             echo "::set-output name=changed_files::"
           else
-            echo "::set-output name=changed_files::$changed_files"
+            echo "Changed files:" > changed_files.txt
+            for file in $changed_files; do
+              echo "- $file" >> changed_files.txt
+            done
+            python find_commit.py >> changed_files.txt
+            echo "::set-output name=changed_files::changed_files.txt"
           fi
 
       - name: Finalize and commit changes
@@ -85,7 +81,7 @@ jobs:
         run: |
           source venv/bin/activate
           git add *.json
-          git diff --cached --quiet || (git commit -m "Update patch-bundle.json to latest" && git pull && git push origin HEAD:${{ github.ref }} --follow-tags)
+          git diff --cached --quiet || (git commit -m "Update patch-bundle.json to latest" && git push origin HEAD:${{ github.ref }} --follow-tags)
 
       - name: Push changes
         if: steps.check_changes.outputs.has_changes == 'true'
@@ -94,20 +90,9 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: bundles
 
-      - name: Wait for 10 seconds
-        if: steps.check_changes.outputs.has_changes == 'true'
-        run: sleep 10s
-
       - name: Create artifact of changed files
         if: steps.check_changes.outputs.has_changes == 'true' && steps.find_commit.outputs.changed_files != ''
-        run: |
-          cat changed_files.txt > temp.txt
-          echo "" >> temp.txt
-          cat commit_link.txt >> temp.txt
-          mv temp.txt changed_files.txt
-          cat changed_files.txt
-        working-directory: ${{ github.workspace }}
         uses: actions/upload-artifact@v2
         with:
           name: changed_files
-          path: changed_files.txt
+          path: ${{ steps.find_commit.outputs.changed_files }}
