@@ -12,7 +12,8 @@ jobs:
 
     outputs:
       has_changes: ${{ steps.check_changes.outputs.has_changes }}
-      changed_files: ${{ steps.find_commit.outputs.changed_files }}
+      changed_files_list: ${{ steps.find_commit.outputs.changed_files_list }}
+      commit_link: ${{ steps.get_commit_link.outputs.commit_link }}
 
     steps:
       - name: Checkout code
@@ -65,6 +66,7 @@ jobs:
         run: |
           source venv/bin/activate
           python find_commit.py > commit_link.txt
+          echo "::set-output name=commit_link::$(cat commit_link.txt)"
 
       - name: Find commit for changed files
         id: find_commit
@@ -74,14 +76,13 @@ jobs:
           commit_link=$(cat commit_link.txt)
           changed_files=$(git diff --name-only HEAD^ -- '*.json')
           if [ -z "$changed_files" ]; then
-            echo "::set-output name=changed_files::"
+            echo "::set-output name=changed_files_list::"
           else
-            echo "Commit link: $commit_link" > changed_files.txt
-            echo "Changed files:" >> changed_files.txt
+            echo "Changed files:" > changed_files.txt
             for file in $changed_files; do
               echo "- $file" >> changed_files.txt
             done
-            echo "::set-output name=changed_files::changed_files.txt"
+            echo "::set-output name=changed_files_list::changed_files.txt"
           fi
 
       - name: Finalize and commit changes
@@ -103,8 +104,15 @@ jobs:
         run: sleep 10s
 
       - name: Create artifact of changed files
-        if: steps.check_changes.outputs.has_changes == 'true' && steps.find_commit.outputs.changed_files != ''
+        if: steps.check_changes.outputs.has_changes == 'true' && steps.find_commit.outputs.changed_files_list != ''
         uses: actions/upload-artifact@v2
         with:
-          name: changed_files
+          name: changed_files_list
           path: changed_files.txt
+
+      - name: Create artifact of commit link
+        if: steps.check_changes.outputs.has_changes == 'true' && steps.get_commit_link.outputs.commit_link != ''
+        uses: actions/upload-artifact@v2
+        with:
+          name: commit_link
+          path: commit_link.txt
