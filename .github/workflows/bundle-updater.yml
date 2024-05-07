@@ -12,6 +12,7 @@ jobs:
 
     outputs:
       has_changes: ${{ steps.check_changes.outputs.has_changes }}
+      changed_files: ${{ steps.find_commit.outputs.changed_files }}
 
     steps:
       - name: Checkout code
@@ -83,7 +84,7 @@ jobs:
           branch: bundles
 
       - name: Create artifact of changed files
-        if: steps.check_changes.outputs.has_changes == 'true'
+        if: steps.check_changes.outputs.has_changes == 'true' && steps.find_commit.outputs.changed_files != ''
         uses: actions/upload-artifact@v2
         with:
           name: changed_files
