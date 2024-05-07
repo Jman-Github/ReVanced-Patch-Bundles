@@ -17,3 +17,12 @@ if latest_commit_url:
         f.write(f"\n[View Commit]({latest_commit_url})\n")
 else:
     print("No commits found.")
+
+# Save the list of changed files to a file
+changed_files = subprocess.check_output(['git', 'diff', '--name-only', 'HEAD^', '--', '*.json']).decode('utf-8').splitlines()
+
+with open('changed_files.txt', 'w') as f:
+    f.write(f"\n[View Commit]({latest_commit_url})\n")
+    f.write("Changed files:\n")
+    for file in changed_files:
+        f.write(f"- {file}\n")
