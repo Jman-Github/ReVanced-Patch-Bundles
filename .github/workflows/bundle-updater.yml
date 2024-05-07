@@ -75,6 +75,7 @@ jobs:
             echo "" >> changed_files.txt
             echo "Commit:" >> changed_files.txt
             echo "[View Commit](https://github.com/${{ github.repository }}/commit/$(git rev-parse HEAD))" >> changed_files.txt
+            cat changed_files.txt
             echo "::set-output name=changed_files::changed_files.txt"
           fi
 
