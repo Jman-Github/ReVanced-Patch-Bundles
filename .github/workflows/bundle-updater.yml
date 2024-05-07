@@ -10,6 +10,9 @@ jobs:
     name: Check for bundle updates
     runs-on: ubuntu-latest
 
+    outputs:
+      has_changes: ${{ steps.check_changes.outputs.has_changes }}
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -34,24 +37,23 @@ jobs:
         run: |
           source venv/bin/activate
           python generate_bundles.py
-        working-directory: ${{ github.workspace }}
 
       - name: Check for changes
         id: check_changes
+        if: success()
         run: |
           source venv/bin/activate
-          git fetch
           if git diff --quiet HEAD^ -- '*.json'; then
-            echo "no_changes=true" >> $GITHUB_ENV
+            echo "::set-output name=has_changes::false"
           else
-            echo "no_changes=false" >> $GITHUB_ENV
+            echo "::set-output name=has_changes::true"
             echo "Changed files:" > changed_files.txt
-            git diff --name-only HEAD^ -- '*.json' >> changed_files.txt
+            python find_commit.py >> changed_files.txt
           fi
         working-directory: ${{ github.workspace }}
 
       - name: Finalize and commit changes
-        if: ${{ steps.check_changes.outputs.has_changes == 'true' }}
+        if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           source venv/bin/activate
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -61,9 +63,10 @@ jobs:
           git diff --cached --quiet || (git commit -m "Update patch-bundle.json to latest" && git push origin HEAD:${{ github.ref }} --follow-tags)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        working-directory: ${{ github.workspace }}
 
       - name: Push changes
-        if: ${{ steps.check_changes.outputs.has_changes == 'true' }}
+        if: steps.check_changes.outputs.has_changes == 'true'
         uses: ad-m/github-push-action@v0.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -77,10 +80,6 @@ jobs:
     if: ${{ needs.check_for_updates.outputs.has_changes == 'true' }}
     
     steps:
-      - name: Skip this job if there are no changes
-        if: ${{ needs.check_for_updates.outputs.has_changes != 'true' }}
-        run: exit 0
-
       - name: Checkout code
         uses: actions/checkout@v4
 
@@ -101,6 +100,7 @@ jobs:
         working-directory: ${{ github.workspace }}
 
       - name: Create artifact of changed files
+        if: ${{ needs.check_for_updates.outputs.has_changes == 'true' }}
         uses: actions/upload-artifact@v4.3.3
         with:
           name: changed_files
