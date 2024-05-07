@@ -115,8 +115,6 @@ jobs:
         id: get_commit_link
         run: |
           python find_commit.py
-          commit_link=$(cat commit_link.txt)
-          echo "[View Commit]($commit_link)" > commit_link.txt
 
       - name: Create artifact of commit link
         if: steps.get_commit_link.outputs.commit_link != ''
