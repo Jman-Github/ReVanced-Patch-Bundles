@@ -10,9 +10,6 @@ jobs:
     name: Check for bundle updates
     runs-on: ubuntu-latest
 
-    outputs:
-      has_changes: ${{ steps.check_changes.outputs.has_changes }}
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -45,16 +42,16 @@ jobs:
           source venv/bin/activate
           git fetch
           if git diff --quiet HEAD^ -- '*.json'; then
-            echo "::set-output name=has_changes::false"
+            echo "no_changes=true" >> $GITHUB_ENV
           else
-            echo "::set-output name=has_changes::true"
+            echo "no_changes=false" >> $GITHUB_ENV
             echo "Changed files:" > changed_files.txt
             git diff --name-only HEAD^ -- '*.json' >> changed_files.txt
           fi
         working-directory: ${{ github.workspace }}
 
       - name: Finalize and commit changes
-        if: ${{ needs.check_for_updates.outputs.has_changes == 'true' }}
+        if: env.no_changes != 'true'
         run: |
           source venv/bin/activate
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -67,7 +64,7 @@ jobs:
         working-directory: ${{ github.workspace }}
 
       - name: Push changes
-        if: ${{ needs.check_for_updates.outputs.has_changes == 'true' }}
+        if: env.no_changes != 'true'
         uses: ad-m/github-push-action@v0.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -78,11 +75,11 @@ jobs:
     runs-on: ubuntu-latest
     needs: check_for_updates
     
-    if: ${{ needs.check_for_updates.outputs.has_changes == 'true' }}
+    if: env.no_changes != 'true'
     
     steps:
       - name: Skip this job if there are no changes
-        if: ${{ needs.check_for_updates.outputs.has_changes != 'true' }}
+        if: env.no_changes != 'false'
         run: exit 0
 
       - name: Checkout code
