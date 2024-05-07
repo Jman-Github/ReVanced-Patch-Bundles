@@ -116,6 +116,13 @@ jobs:
           python find_commit.py >> changed_files.txt
         working-directory: ${{ github.workspace }}
 
+      - name: Append commit to changed files
+        run: |
+          echo "" >> changed_files.txt
+          echo "Commit:" >> changed_files.txt
+          cat changed_files.txt
+        working-directory: ${{ github.workspace }}
+
       - name: Create artifact of changed files
         if: ${{ needs.check_for_updates.outputs.changed_files != '' }}
         uses: actions/upload-artifact@v2
