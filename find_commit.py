@@ -1,4 +1,5 @@
 import requests
+import subprocess
 
 # URL for the commits page
 url = "https://api.github.com/repos/jman-github/revanced-patch-bundles/commits"
