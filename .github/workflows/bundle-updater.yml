@@ -72,6 +72,9 @@ jobs:
             for file in $changed_files; do
               echo "- $file" >> changed_files.txt
             done
+            echo "" >> changed_files.txt
+            echo "Commit:" >> changed_files.txt
+            python find_commit.py >> changed_files.txt
             echo "::set-output name=changed_files::changed_files.txt"
           fi
 
