@@ -1,4 +1,4 @@
-name: Patch bundle updater
+ame: Patch bundle updater
 
 on:
   workflow_dispatch:
@@ -13,7 +13,6 @@ jobs:
     outputs:
       has_changes: ${{ steps.check_changes.outputs.has_changes }}
       changed_files: ${{ steps.find_commit.outputs.changed_files }}
-      commit_link: ${{ steps.get_commit_link.outputs.commit_link }}
 
     steps:
       - name: Checkout code
@@ -107,12 +106,5 @@ jobs:
         if: steps.check_changes.outputs.has_changes == 'true' && steps.find_commit.outputs.changed_files != ''
         uses: actions/upload-artifact@v2
         with:
-          name: changed_files_list
+          name: changed_files
           path: changed_files.txt
-
-      - name: Create artifact of commit link
-        if: steps.check_changes.outputs.has_changes == 'true' && steps.find_commit.outputs.changed_files != ''
-        uses: actions/upload-artifact@v2
-        with:
-          name: commit_link
-          path: commit_link.txt
