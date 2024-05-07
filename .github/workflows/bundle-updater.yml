@@ -52,7 +52,6 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          source venv/bin/activate
           if git diff --quiet HEAD^ -- '*.json'; then
             echo "::set-output name=has_changes::false"
           else
@@ -63,13 +62,13 @@ jobs:
         id: find_commit
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
-          source venv/bin/activate
+          cd ${{ github.workspace }}
           python find_commit.py
 
       - name: Finalize and commit changes
         if: success() && steps.check_changes.outputs.has_changes == 'true'
         run: |
-          source venv/bin/activate
+          cd ${{ github.workspace }}
           git add *.json
           git diff --cached --quiet || (git commit -m "Update patch-bundle.json to latest" && git push origin HEAD:${{ github.ref }} --follow-tags)
 
@@ -114,7 +113,7 @@ jobs:
       - name: Run find_commit.py and Get commit link
         id: get_commit_link
         run: |
-          source venv/bin/activate
+          cd ${{ github.workspace }}
           python find_commit.py
 
       - name: Create artifact of commit link
