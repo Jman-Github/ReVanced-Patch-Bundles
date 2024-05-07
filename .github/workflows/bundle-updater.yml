@@ -114,6 +114,7 @@ jobs:
       - name: Run find_commit.py and Get commit link
         id: get_commit_link
         run: |
+          source venv/bin/activate
           python find_commit.py
 
       - name: Create artifact of commit link
