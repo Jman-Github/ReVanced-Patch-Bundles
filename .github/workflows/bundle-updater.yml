@@ -49,6 +49,8 @@ jobs:
             git diff --name-only HEAD^ -- '*.json' >> changed_files.txt
           fi
         working-directory: ${{ github.workspace }}
+        env:
+          has_changes: ${{ steps.check_changes.outputs.has_changes }}
 
   find_commit:
     name: Find commit for changed files
@@ -58,10 +60,6 @@ jobs:
     if: ${{ needs.check_for_updates.outputs.has_changes == 'true' }}
     
     steps:
-      - name: Skip this job if there are no changes
-        if: ${{ needs.check_for_updates.outputs.has_changes != 'true' }}
-        run: exit 0
-
       - name: Checkout code
         uses: actions/checkout@v4
 
@@ -86,6 +84,7 @@ jobs:
         with:
           name: changed_files
           path: changed_files.txt
+        if: success()
 
       - name: Finalize and commit changes
         if: success() && needs.check_for_updates.outputs.has_changes == 'true'
