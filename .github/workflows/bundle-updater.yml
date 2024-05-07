@@ -84,7 +84,7 @@ jobs:
       - name: Skip this job if there are no changes
         if: ${{ needs.check_for_updates.outputs.has_changes != 'true' }}
         run: exit 0
-        
+
       - name: Checkout code
         uses: actions/checkout@v4
 
