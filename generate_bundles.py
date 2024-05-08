@@ -44,6 +44,10 @@ async def main():
     with open('bundle-sources.json') as file:
         sources = json.load(file)
 
+    # Configure Git user name and email
+    subprocess.run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"])
+    subprocess.run(["git", "config", "user.name", "github-actions[bot]"])
+
     for source, repo in sources.items():
         patches_version, patches_asset_url = await get_latest_release(repo.get('patches'))
         integration_version, integration_asset_url = await get_latest_release(repo.get('integration'))
@@ -68,8 +72,10 @@ async def main():
             subprocess.run(["git", "add", f"{source}-patches-bundle.json"])
         else:
             print(f"Error: Unable to fetch release information for {source}")
+    
     # Commit the changes
     subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
+    
 
 if __name__ == "__main__":
     asyncio.run(main())
