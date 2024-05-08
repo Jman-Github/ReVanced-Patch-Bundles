@@ -44,29 +44,28 @@ async def main():
     with open('bundle-sources.json') as file:
         sources = json.load(file)
 
-    for _ in range(2):  # Repeat the process two times
-        for source, repo in sources.items():
-            patches_version, patches_asset_url = await get_latest_release(repo.get('patches'))
-            integration_version, integration_asset_url = await get_latest_release(repo.get('integration'))
-            
-            # Check if patches_version, patches_asset_url, integration_version, and integration_asset_url are not None
-            if patches_version is not None and patches_asset_url is not None and integration_version is not None and integration_asset_url is not None:
-                info_dict = {
-                    "patches": {
-                        "version": patches_version,
-                        "url": patches_asset_url
-                    },
-                    "integrations": {
-                        "version": integration_version,
-                        "url": integration_asset_url
-                    }
+    for source, repo in sources.items():
+        patches_version, patches_asset_url = await get_latest_release(repo.get('patches'))
+        integration_version, integration_asset_url = await get_latest_release(repo.get('integration'))
+        
+        # Check if patches_version, patches_asset_url, integration_version, and integration_asset_url are not None
+        if patches_version is not None and patches_asset_url is not None and integration_version is not None and integration_asset_url is not None:
+            info_dict = {
+                "patches": {
+                    "version": patches_version,
+                    "url": patches_asset_url
+                },
+                "integrations": {
+                    "version": integration_version,
+                    "url": integration_asset_url
                 }
-                with open(f'{source}-patches-bundle.json', 'w') as file:
-                    json.dump(info_dict, file, indent=2)
-                print(f"Latest release information saved to {source}-patches-bundle.json")
-                subprocess.run(["git", "add", f"{source}-patches-bundle.json"])  # Add the newly created JSON file to git staging area
-            else:
-                print(f"Error: Unable to fetch release information for {source}")
+            }
+            with open(f'{source}-patches-bundle.json', 'w') as file:
+                json.dump(info_dict, file, indent=2)
+            print(f"Latest release information saved to {source}-patches-bundle.json")
+            subprocess.run(["git", "add", f"{source}-patches-bundle.json"])  # Add the newly created JSON file to git staging area
+        else:
+            print(f"Error: Unable to fetch release information for {source}")
 
 if __name__ == "__main__":
     asyncio.run(main())
