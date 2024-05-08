@@ -69,6 +69,7 @@ jobs:
             echo "::set-output name=changed_files::"
           else
             echo "Changed files:" > changed_files.txt
+            echo "Changed files:"  # Output the header
             echo "$changed_files" | while IFS= read -r file; do
               echo "- $file" >> changed_files.txt
             done
