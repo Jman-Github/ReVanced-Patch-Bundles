@@ -1,16 +1,20 @@
 name: Bundle updater commit puller
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["Patch bundle updater"]
+    types:
+      - completed
 
 jobs:
   find-commit:
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4.1.4
+        with:
+          ref: ${{ github.event.workflow_run.head_branch }}
 
       - name: Set up Python
         uses: actions/setup-python@v5.1.0
