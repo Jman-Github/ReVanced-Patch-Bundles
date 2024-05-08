@@ -58,7 +58,6 @@ jobs:
           else
             echo "::set-output name=has_changes::true"
           fi
-
       - name: Find commit for changed files
         id: find_commit
         if: steps.check_changes.outputs.has_changes == 'true'
@@ -74,14 +73,12 @@ jobs:
             done
             echo "::set-output name=changed_files::changed_files.txt"
           fi
-
       - name: Finalize and commit changes
         if: success() && steps.check_changes.outputs.has_changes == 'true'
         run: |
           source venv/bin/activate
           git add *.json
           git diff --cached --quiet || (git commit -m "Update patch-bundle.json to latest" && git push origin HEAD:${{ github.ref }} --follow-tags)
-
       - name: Push changes
         if: steps.check_changes.outputs.has_changes == 'true'
         uses: ad-m/github-push-action@v0.8.0
@@ -91,7 +88,14 @@ jobs:
 
       - name: Create artifact of changed files
         if: steps.check_changes.outputs.has_changes == 'true' && steps.find_commit.outputs.changed_files != ''
+        id: create_artifact
+        run: |
+          echo "${{ steps.find_commit.outputs.changed_files }}" > changed_files.txt
+        continue-on-error: true
+        
+      - name: Upload artifact
+        if: steps.check_changes.outputs.has_changes == 'true' && steps.find_commit.outputs.changed_files != '' && steps.create_artifact.completed == 'success'
         uses: actions/upload-artifact@v2
         with:
           name: changed_files
-          path: ${{ steps.find_commit.outputs.changed_files }}
+          path: changed_files.txt
