@@ -1,5 +1,6 @@
 import asyncio
 import json
+import subprocess
 from httpx import AsyncClient, Timeout
 
 async def get_latest_release(repo_url):
@@ -62,6 +63,7 @@ async def main():
             with open(f'{source}-patches-bundle.json', 'w') as file:
                 json.dump(info_dict, file, indent=2)
             print(f"Latest release information saved to {source}-patches-bundle.json")
+            subprocess.run(["git", "add", f"{source}-patches-bundle.json"])  # Add the newly created JSON file to git staging area
         else:
             print(f"Error: Unable to fetch release information for {source}")
 
