@@ -10,11 +10,14 @@ jobs:
   find-commit:
     runs-on: ubuntu-latest
     if: >
-      github.event.workflow_run.conclusion == 'success' && 
       github.event.workflow.name == 'Patch bundle updater' &&
+      github.event.workflow_run.conclusion == 'success' &&
       github.event.workflow_run.outputs.artifacts
 
     steps:
+      - name: Wait for 30 seconds
+        run: sleep 30s
+
       - name: Checkout code
         uses: actions/checkout@v4.1.4
         with:
