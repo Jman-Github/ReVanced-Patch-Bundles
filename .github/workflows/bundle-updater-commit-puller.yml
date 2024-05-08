@@ -7,17 +7,20 @@ on:
       - completed
 
 jobs:
-  find_commit:
+  find-commit:
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'completed' }}
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Run find_commit.py
         run: python find_commit.py
+        working-directory: ${{ github.workspace }}
 
-      - name: Archive output
+      - name: Archive find_commit.py output
         uses: actions/upload-artifact@v2
         with:
           name: find_commit_output
-          path: output.txt
+          path: find_commit_output.txt
