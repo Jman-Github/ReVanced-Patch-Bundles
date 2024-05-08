@@ -68,7 +68,10 @@ jobs:
           if [ -z "$changed_files" ]; then
             echo "::set-output name=changed_files::"
           else
-            echo "${changed_files}" > changed_files.txt
+            echo "Changed files:" > changed_files.txt
+            echo "$changed_files" | while read -r file; do
+              echo "- $file" | tee -a changed_files.txt
+            done
             echo "::set-output name=changed_files::changed_files.txt"
           fi
 
