@@ -14,10 +14,6 @@ jobs:
       has_changes: ${{ steps.check_changes.outputs.has_changes }}
       changed_files: ${{ steps.find_commit.outputs.changed_files }}
 
-    strategy:
-      matrix:
-        repeat: [1, 2, 3]
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4.1.4
@@ -26,7 +22,7 @@ jobs:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5.1.0
         with:
           python-version: '3.x'
 
@@ -34,6 +30,15 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install requests httpx
+        working-directory: ${{ github.workspace }}
+
+      - name: Run generate_bundles.py
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          python -m pip install --upgrade pip
+          python -m pip install requests httpx
+          python generate_bundles.py
         working-directory: ${{ github.workspace }}
 
       - name: Set up Git
@@ -44,20 +49,10 @@ jobs:
           git remote add origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
         shell: bash
 
-      - name: Loop ${{ matrix.repeat }} times
-        run: |
-          for i in $(seq ${{ matrix.repeat }}); do
-            python -m venv venv
-            source venv/bin/activate
-            python -m pip install --upgrade pip
-            python -m pip install requests httpx
-            python generate_bundles.py
-            deactivate
-          done
-
       - name: Check for changes
         id: check_changes
         run: |
+          source venv/bin/activate
           if git diff --quiet HEAD^ -- '*.json'; then
             echo "::set-output name=has_changes::false"
           else
@@ -68,6 +63,7 @@ jobs:
         id: find_commit
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
+          source venv/bin/activate
           changed_files=$(git diff --name-only HEAD^ -- '*.json')
           if [ -z "$changed_files" ]; then
             echo "::set-output name=changed_files::"
@@ -79,6 +75,7 @@ jobs:
       - name: Finalize and commit changes
         if: success() && steps.check_changes.outputs.has_changes == 'true'
         run: |
+          source venv/bin/activate
           git add *.json
           git diff --cached --quiet || (git commit -m "Update patch-bundle.json to latest" && git push origin HEAD:${{ github.ref }} --follow-tags)
 
