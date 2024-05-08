@@ -63,9 +63,13 @@ async def main():
             with open(f'{source}-patches-bundle.json', 'w') as file:
                 json.dump(info_dict, file, indent=2)
             print(f"Latest release information saved to {source}-patches-bundle.json")
-            subprocess.run(["git", "add", f"{source}-patches-bundle.json"])  # Add the newly created JSON file to git staging area
+            
+            # Stage the changes made to the JSON file
+            subprocess.run(["git", "add", f"{source}-patches-bundle.json"])
         else:
             print(f"Error: Unable to fetch release information for {source}")
+    # Commit the changes
+    subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
 
 if __name__ == "__main__":
     asyncio.run(main())
