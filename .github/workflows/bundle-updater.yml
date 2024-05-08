@@ -69,8 +69,8 @@ jobs:
             echo "::set-output name=changed_files::"
           else
             echo "Changed files:" > changed_files.txt
-            echo "$changed_files" | while read -r file; do
-              echo "- $file" | tee -a changed_files.txt
+            echo "$changed_files" | while IFS= read -r file; do
+              echo "- $file" >> changed_files.txt
             done
             echo "::set-output name=changed_files::changed_files.txt"
           fi
