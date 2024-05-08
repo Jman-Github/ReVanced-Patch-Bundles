@@ -9,10 +9,12 @@ on:
 jobs:
   find-commit:
     runs-on: ubuntu-latest
-    if: |
+    if: >
       github.event.workflow_run.conclusion == 'success' && 
       github.event.workflow.name == 'Patch bundle updater' &&
-      github.event.workflow_run.outputs.artifacts
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.head_commit
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4.1.4
