@@ -12,7 +12,7 @@ jobs:
     if: >
       github.event.workflow.name == 'Patch bundle updater' &&
       github.event.workflow_run.conclusion == 'success' &&
-      github.event.workflow_run.outputs.artifacts
+      contains(github.event.workflow_run.event.json, 'artifacts')
 
     steps:
       - name: Wait for 30 seconds
