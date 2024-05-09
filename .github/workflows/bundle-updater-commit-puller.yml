@@ -46,7 +46,7 @@ jobs:
         uses: benc-uk/workflow-dispatch@v1.2.3
         with:
           workflow: "Patch bundle updater"
-          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          token: ${{ secrets.GIT_TOKEN }}
 
       - name: Wait for Patch bundle updater completion
         id: wait
