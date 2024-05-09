@@ -43,7 +43,7 @@ jobs:
     steps:
       - name: Trigger Patch bundle updater
         id: patch_bundle_updater
-        uses: actions/workflow-dispatch@v2
+        uses: benc-uk/workflow-dispatch@v1.2.3
         with:
           workflow: "Patch bundle updater"
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
