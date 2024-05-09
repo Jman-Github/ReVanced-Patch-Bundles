@@ -18,6 +18,8 @@ jobs:
       - name: Run find_commit.py
         run: |
           python find_commit.py > find_commit_output.txt
+          COMMIT_LINK=$(python find_commit.py)
+          echo $COMMIT_LINK >> find_commit_output.txt
         working-directory: ${{ github.workspace }}
 
       - name: Check if output file exists
