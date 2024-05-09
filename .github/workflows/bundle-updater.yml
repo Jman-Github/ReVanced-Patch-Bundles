@@ -22,7 +22,7 @@ jobs:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5.1.0
         with:
           python-version: '3.x'
 
@@ -57,18 +57,12 @@ jobs:
           else
             echo "::set-output name=has_changes::true"
           fi
-          
+
       - name: Find commit for changed files
         id: find_commit
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
-          changed_files=$(python find_commit.py)
-          if [ -z "$changed_files" ]; then
-            echo "::set-output name=changed_files::"
-          else
-            echo "$changed_files" > changed_files.txt
-            echo "::set-output name=changed_files::changed_files.txt"
-          fi
+          python find_commit.py > changed_files.txt
 
       - name: Push changes
         if: steps.check_changes.outputs.has_changes == 'true'
@@ -77,15 +71,40 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: bundles
 
-  create_changed_files_artifact:
-    name: Create artifact of changed files
-    runs-on: ubuntu-latest
-    needs: check_for_updates
-    if: needs.check_for_updates.outputs.has_changes == 'true' && needs.check_for_updates.outputs.changed_files != ''
-
-    steps:
-      - name: Archive changed files
+      - name: Create artifact of changed files
+        if: steps.check_changes.outputs.has_changes == 'true' && steps.find_commit.outputs.changed_files != ''
         uses: actions/upload-artifact@v4.3.3
         with:
           name: changed_files
+          path: changed_files.txt
+
+  update_artifact:
+    name: Update Artifact
+    needs: check_for_updates
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.1.4
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Download changed files artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: changed_files
+          path: ${{ github.workspace }}
+
+      - name: Run find_commit.py
+        run: |
+          python find_commit.py >> changed_files.txt
+        working-directory: ${{ github.workspace }}
+
+      - name: Upload artifact with updated information
+        uses: actions/upload-artifact@v2
+        with:
+          name: updated_files
           path: changed_files.txt
