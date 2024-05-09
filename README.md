@@ -51,6 +51,9 @@ This repository automatically checks for patch and integration updates from the 
 #### 📦 Dropped-Patches-Bundle:
 ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/dropped-patches-bundle.json```
 
+#### 📦 Inotia00-Patches-Bundle:
+```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/inotia00-patches-bundle.json```
+
 # 📱 ReVanced Compose Manager:
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/actions/runs/8905129319
@@ -82,6 +85,9 @@ https://github.com/IndusAryan/twitter-patches
 #### 🏷️ Dropped-Patches-Bundle:
 https://github.com/indrastorms/Dropped-Patches
 
+#### 🏷️ Inotia00-Patches-Bundle:
+https://github.com/inotia00/revanced-Patches
+
 
 # 🖇 Intergrations Repositorys In Use
 #### ⛓ Anddea-Patches-Bundle:
@@ -110,6 +116,9 @@ https://github.com/ReVanced/revanced-integrations
 #### ⛓ Dropped-Patches-Bundle:
 (Uses default ReVanced Intergrations)
 https://github.com/ReVanced/revanced-integrations
+
+#### 🏷️ Inotia00-Patches-Bundle:
+https://github.com/inotia00/revanced-integrations
 
 ## 🤝 Contributors
 ##### [indrastorms](https://github.com/indrastorms)
