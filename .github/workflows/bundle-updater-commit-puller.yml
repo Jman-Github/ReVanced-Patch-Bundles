@@ -1,4 +1,4 @@
-name: Bundle updater commit puller
+name: Generate Commit Artifact
 
 on:
   workflow_run:
@@ -7,43 +7,26 @@ on:
       - completed
 
 jobs:
-  find-commit:
+  generate_commit_artifact:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Run find_commit.py
-        run: |
-          python find_commit.py > find_commit_output.txt
-          COMMIT_LINK=$(python find_commit.py)
-          echo $COMMIT_LINK >> find_commit_output.txt
-        working-directory: ${{ github.workspace }}
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
 
-      - name: Archive find_commit.py output
-        if: success() && steps.run.outputs.exit-code == 0
+      - name: Install requests
+        run: pip install requests
+
+      - name: Run find_commit.py
+        run: python find_commit.py
+
+      - name: Upload find_commit output artifact
         uses: actions/upload-artifact@v2
         with:
           name: find_commit_output
           path: find_commit_output.txt
-
-  patch-bundle-updater:
-    runs-on: ubuntu-latest
-    needs: find-commit
-
-    steps:
-      - name: Trigger Patch bundle updater
-        id: patch_bundle_updater
-        uses: benc-uk/workflow-dispatch@v1.2.3
-        with:
-          workflow: "Patch bundle updater"
-          token: ${{ secrets.GIT_TOKEN }}
-
-      - name: Wait for Patch bundle updater completion
-        id: wait
-        uses: octokit/request-action@v2.3.0
-        with:
-          route: GET /repos/${{ github.repository }}/actions/runs/${{ steps.patch_bundle_updater.outputs.run_id }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
