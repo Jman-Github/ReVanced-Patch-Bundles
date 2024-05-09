@@ -8,7 +8,7 @@ on:
 
 jobs:
   find-commit:
-    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'completed' }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.status == 'completed' }}
     runs-on: ubuntu-latest
 
     steps:
