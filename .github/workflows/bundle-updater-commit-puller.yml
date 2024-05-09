@@ -19,6 +19,16 @@ jobs:
         run: python find_commit.py
         working-directory: ${{ github.workspace }}
 
+      - name: Check if output file exists
+        run: |
+          if [ -f find_commit_output.txt ]; then
+            echo "Output file exists."
+          else
+            echo "Output file does not exist."
+            exit 1
+          fi
+        working-directory: ${{ github.workspace }}
+
       - name: Archive find_commit.py output
         uses: actions/upload-artifact@v2
         with:
