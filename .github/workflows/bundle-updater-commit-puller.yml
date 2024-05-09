@@ -2,15 +2,14 @@ name: Bundle updater commit puller
 
 on:
   workflow_run:
-    workflows: ["Patch bundle updater"]
+    workflows: ["Bundle updater commit puller"]
     types:
       - completed
 
 jobs:
   find-commit:
-    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.status == 'completed' && needs.patch-bundle-updater.outputs.artifact_uploaded == 'true' }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.status == 'completed' && github.event.workflow_run.name == 'Bundle updater commit puller' }}
     runs-on: ubuntu-latest
-    needs: patch-bundle-updater
 
     steps:
       - name: Checkout code
@@ -23,40 +22,9 @@ jobs:
           echo $COMMIT_LINK >> find_commit_output.txt
         working-directory: ${{ github.workspace }}
 
-      - name: Check if output file exists
-        run: |
-          ls -l find_commit_output.txt
-        continue-on-error: true
-
       - name: Archive find_commit.py output
-        if: success() && needs.patch-bundle-updater.outputs.artifact_uploaded == 'true' && steps.run.outputs.exit-code == 0
+        if: success() && steps.run.outputs.exit-code == 0
         uses: actions/upload-artifact@v2
         with:
           name: find_commit_output
           path: find_commit_output.txt
-
-  patch-bundle-updater:
-    runs-on: ubuntu-latest
-    outputs:
-      artifact_uploaded: ${{ steps.create_artifact.outputs.artifact_uploaded }}
-
-    steps:
-      - name: Trigger Patch bundle updater
-        id: patch_bundle_updater
-        uses: benc-uk/workflow-dispatch@v1.2.3
-        with:
-          workflow: "Patch bundle updater"
-          token: ${{ secrets.GIT_TOKEN }}
-
-      - name: Wait for Patch bundle updater completion
-        id: wait
-        uses: octokit/request-action@v2.3.0
-        with:
-          route: GET /repos/${{ github.repository }}/actions/runs/${{ steps.patch_bundle_updater.outputs.run_id }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Check if artifact is uploaded
-        id: create_artifact
-        if: ${{ steps.wait.outputs.status == 'completed' && steps.wait.outputs.conclusion == 'success' && fromJson(steps.wait.outputs.data).workflow_run.artifacts.total_count > 0 }}
-        run: echo "::set-output name=artifact_uploaded::true"
