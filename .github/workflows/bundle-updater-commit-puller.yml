@@ -19,13 +19,13 @@ jobs:
         run: python find_commit.py
         working-directory: ${{ github.workspace }}
 
-      - name: Verify output file
-        run: |
-          ls -l find_commit_output.txt
+      - name: List files in the directory
+        run: ls -la
         working-directory: ${{ github.workspace }}
 
       - name: Archive find_commit.py output
-        if: success()
+        if: success() && steps.check.exists == 'true'
+        id: check
         uses: actions/upload-artifact@v2
         with:
           name: find_commit_output
