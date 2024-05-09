@@ -9,7 +9,6 @@ on:
 jobs:
   find-commit:
     runs-on: ubuntu-latest
-    needs: patch-bundle-updater
 
     steps:
       - name: Checkout code
@@ -31,7 +30,7 @@ jobs:
 
   patch-bundle-updater:
     runs-on: ubuntu-latest
-    if: github.event.workflow_run.conclusion == 'success'
+    needs: find-commit
 
     steps:
       - name: Trigger Patch bundle updater
