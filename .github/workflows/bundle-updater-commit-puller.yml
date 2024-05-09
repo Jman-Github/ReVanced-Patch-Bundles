@@ -9,8 +9,7 @@ on:
 jobs:
   find-commit:
     if: ${{ github.event.workflow_run.conclusion == 'success' && 
-            github.event.workflow_run.status == 'completed' && 
-            github.event.workflow_run.name == 'Patch bundle updater' && 
+            github.event.workflow_run.workflow == 'Patch bundle updater' && 
             github.event.workflow_run.event == 'completed' && 
             github.event.workflow_run.artifacts.total_count > 0 }}
     runs-on: ubuntu-latest
