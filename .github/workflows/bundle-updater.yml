@@ -12,7 +12,6 @@ jobs:
 
     outputs:
       has_changes: ${{ steps.check_changes.outputs.has_changes }}
-      changed_files: ${{ steps.find_commit.outputs.changed_files }}
 
     steps:
       - name: Checkout code
@@ -57,10 +56,8 @@ jobs:
           else
             echo "::set-output name=has_changes::true"
           fi
-
       - name: Find commit for changed files
         id: find_commit
-        if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           changed_files=$(python find_commit.py)
           if [ -z "$changed_files" ]; then
@@ -78,7 +75,7 @@ jobs:
           branch: bundles
 
       - name: Create artifact of changed files
-        if: steps.check_changes.outputs.has_changes == 'true' && steps.find_commit.outputs.changed_files != ''
+        if: steps.find_commit.outputs.changed_files != ''
         uses: actions/upload-artifact@v4.3.3
         with:
           name: changed_files
