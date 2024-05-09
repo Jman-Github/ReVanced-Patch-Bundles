@@ -117,7 +117,7 @@ https://github.com/ReVanced/revanced-integrations
 (Uses default ReVanced Intergrations)
 https://github.com/ReVanced/revanced-integrations
 
-#### 🏷️ Inotia00-Patches-Bundle:
+#### ⛓ Inotia00-Patches-Bundle:
 https://github.com/inotia00/revanced-integrations
 
 ## 🤝 Contributors
