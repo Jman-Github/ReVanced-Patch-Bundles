@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v
+        uses: actions/checkout@v2
 
       - name: Run find_commit.py
         run: python find_commit.py
