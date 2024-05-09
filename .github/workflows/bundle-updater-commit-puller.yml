@@ -50,7 +50,7 @@ jobs:
 
       - name: Wait for Patch bundle updater completion
         id: wait
-        uses: octokit/request-action@v2.3.1
+        uses: octokit/request-action@v2.3.0
         with:
           route: GET /repos/:repository/actions/runs/${{ steps.patch_bundle_updater.outputs.run_id }}
           repository: ${{ github.repository }}
