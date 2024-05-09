@@ -52,8 +52,9 @@ jobs:
         id: wait
         uses: octokit/request-action@v2.3.0
         with:
-          route: GET /repos/:repository/actions/runs/${{ steps.patch_bundle_updater.outputs.run_id }}
-          repository: ${{ github.repository }}
+          route: GET /repos/${{ github.repository }}/actions/runs/${{ steps.patch_bundle_updater.outputs.run_id }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Check if artifact is uploaded
         id: create_artifact
