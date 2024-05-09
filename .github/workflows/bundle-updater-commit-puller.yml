@@ -8,11 +8,8 @@ on:
 
 jobs:
   find-commit:
-    if: ${{ github.event.workflow_run.conclusion == 'success' && 
-            github.event.workflow_run.workflow == 'Patch bundle updater' && 
-            github.event.workflow_run.event == 'completed' && 
-            github.event.workflow_run.artifacts.total_count > 0 }}
     runs-on: ubuntu-latest
+    needs: patch-bundle-updater
 
     steps:
       - name: Checkout code
@@ -31,3 +28,22 @@ jobs:
         with:
           name: find_commit_output
           path: find_commit_output.txt
+
+  patch-bundle-updater:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger Patch bundle updater
+        id: patch_bundle_updater
+        uses: benc-uk/workflow-dispatch@v1.2.3
+        with:
+          workflow: "Patch bundle updater"
+          token: ${{ secrets.GIT_TOKEN }}
+
+      - name: Wait for Patch bundle updater completion
+        id: wait
+        uses: octokit/request-action@v2.3.0
+        with:
+          route: GET /repos/${{ github.repository }}/actions/runs/${{ steps.patch_bundle_updater.outputs.run_id }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
