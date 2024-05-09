@@ -2,13 +2,13 @@ name: Bundle updater commit puller
 
 on:
   workflow_run:
-    workflows: ["Bundle updater commit puller"]
+    workflows: ["Patch bundle updater"]
     types:
       - completed
 
 jobs:
   find-commit:
-    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.status == 'completed' && github.event.workflow_run.name == 'Bundle updater commit puller' }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.status == 'completed' && github.event.workflow_run.name == 'Patch bundle updater' }}
     runs-on: ubuntu-latest
 
     steps:
