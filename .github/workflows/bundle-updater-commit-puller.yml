@@ -19,20 +19,8 @@ jobs:
         run: python find_commit.py
         working-directory: ${{ github.workspace }}
 
-      - name: Check if output file exists
-        id: check_file
-        run: |
-          if [ -f "find_commit_output.txt" ]; then
-            echo "File exists"
-            echo "::set-output name=exists::true"
-          else
-            echo "File not found"
-            echo "::set-output name=exists::false"
-          fi
-        shell: bash
-
       - name: Archive find_commit.py output
-        if: steps.check_file.outputs.exists == 'true'
+        if: ${{ success() && steps.run.outputs.exit-code == 0 }}
         uses: actions/upload-artifact@v2
         with:
           name: find_commit_output
