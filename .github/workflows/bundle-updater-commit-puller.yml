@@ -8,9 +8,32 @@ on:
 
 jobs:
   generate_commit_artifact:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
-      - name: Debug why workflow is skipped
+      - name: Debug event payload
+        run: echo "${{ toJson(github.event) }}"
+
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Run find_commit.py and create artifact
         run: |
-          cat $GITHUB_EVENT_PATH
+          python find_commit.py > find_commit_output.txt
+          echo "Commit link: $(cat find_commit_output.txt)"
+        shell: bash
+
+      - name: Upload find_commit output artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: find_commit_output
+          path: find_commit_output.txt
