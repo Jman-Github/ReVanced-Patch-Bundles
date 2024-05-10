@@ -1,7 +1,8 @@
 import requests
+import os
 
 # URL for the commits page
-url = "https://api.github.com/repos/jman-github/revanced-patch-bundles/commits"
+url = f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/commits"
 response = requests.get(url)
 commits = response.json()
 
@@ -13,6 +14,7 @@ for commit in commits:
         break
 
 if latest_commit_url:
-    print(f"[View Commit]({latest_commit_url})")
+    with open("commit-link.txt", "w") as file:
+        file.write(f"[View Commit]({latest_commit_url})")
 else:
     print("No commits found.")
