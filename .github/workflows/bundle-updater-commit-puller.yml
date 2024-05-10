@@ -13,13 +13,14 @@ jobs:
       - name: Check if Patch bundle updater workflow produced artifacts
         id: check_artifact
         run: |
-          latest_run_id=$(jq -r '.workflow_runs[0].id' <<< "$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/${{ github.repository }}/actions/workflows/patch-bundle-updater.yml/runs)")
+          latest_run_id=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/${{ github.repository }}/actions/workflows/patch-bundle-updater.yml/runs | jq -r '.workflow_runs[0].id')
           artifacts=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/${{ github.repository }}/actions/runs/$latest_run_id/artifacts)
-          if [[ $(jq -r '.artifacts | length' <<< "$artifacts") -eq 0 ]]; then
+          if [[ $(echo "$artifacts" | jq '.artifacts | length') -eq 0 ]]; then
             echo "No artifacts found. Cancelling workflow."
             exit 1
           fi
-          
+          echo "::set-output name=artifacts_found::true"
+
       - name: Download latest artifact
         if: steps.check_artifact.outputs.artifacts_found == 'true'
         uses: actions/download-artifact@v2
