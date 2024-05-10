@@ -14,7 +14,7 @@ jobs:
         id: check_artifact
         run: |
           latest_run_id=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml/runs | jq -r '.workflow_runs[0].id')
-          artifacts=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/Jman-Github/ReVanced-Patch-Bundles/actions/runs/$latest_run_id/artifacts)
+          artifacts=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/Jman-Github/ReVanced-Patch-Bundles/actions/runs/$latest_run_id)
           if [[ $(echo "$artifacts" | jq '.artifacts | length') -eq 0 ]]; then
             echo "No artifacts found. Cancelling workflow."
             exit 1
