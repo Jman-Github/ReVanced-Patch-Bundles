@@ -19,18 +19,19 @@ jobs:
             echo "No artifacts found. Cancelling workflow."
             exit 1
           fi
+          
       - name: Download latest artifact
-        if: steps.check_artifact.outcome == 'success'
+        if: steps.check_artifact.outputs.artifacts_found == 'true'
         uses: actions/download-artifact@v2
         with:
           name: <changed_files>
 
       - name: Run find_commit.py script
-        if: steps.check_artifact.outcome == 'success'
+        if: steps.check_artifact.outputs.artifacts_found == 'true'
         run: python find_commit.py
 
       - name: Create commit link artifact
-        if: steps.check_artifact.outcome == 'success'
+        if: steps.check_artifact.outputs.artifacts_found == 'true'
         uses: actions/upload-artifact@v2
         with:
           name: commit-link
