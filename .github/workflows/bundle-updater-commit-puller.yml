@@ -8,6 +8,7 @@ on:
 
 jobs:
   get-artifact:
+    if: github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Check if Patch bundle updater workflow produced artifacts
@@ -23,7 +24,7 @@ jobs:
         if: steps.check_artifact.outcome == 'success'
         uses: actions/download-artifact@v2
         with:
-          name: <ARTIFACT_NAME> # Replace <ARTIFACT_NAME> with the name of your artifact
+          name: <changed_files>
 
       - name: Run find_commit.py script
         if: steps.check_artifact.outcome == 'success'
