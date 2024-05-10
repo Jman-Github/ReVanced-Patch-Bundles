@@ -14,19 +14,19 @@ jobs:
         id: check_artifact
         uses: xSAVIKx/artifact-exists-action@v0
         with:
-          name: "changed_files.txt"
-
-      - name: Run find_commit.py script
-        if: steps.check_artifact.outputs.exists == 'true'
-        run: python find_commit.py
-
-      - name: Create commit link artifact
-        if: steps.check_artifact.outputs.exists == 'true'
-        uses: actions/upload-artifact@v2
-        with:
-          name: commit-link
-          path: commit-link.txt
+          name: "changed_files"
 
       - name: No artifacts found
         if: steps.check_artifact.outputs.exists != 'true'
         run: echo "No artifacts found. Cancelling workflow."
+        continue-on-error: true
+
+      - name: Run find_commit.py script
+        run: python find_commit.py
+
+      - name: Create commit link artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: commit-link
+          path: commit-link.txt
+        if: steps.check_artifact.outputs.exists == 'true'
