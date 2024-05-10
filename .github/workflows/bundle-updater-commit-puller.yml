@@ -8,23 +8,11 @@ on:
 
 jobs:
   generate_commit_artifact:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
       - name: Debug event payload
         run: echo "${{ toJson(github.event) }}"
-
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Setup Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.x
-
-      - name: Install requests
-        run: pip install requests
 
       - name: Download latest artifact from Patch bundle updater workflow
         id: download_artifact
@@ -39,7 +27,18 @@ jobs:
             echo "Error: Artifact not found. Cancelling the workflow."
             exit 1
           fi
-        if: ${{ steps.download_artifact.outputs.artifact_downloaded == 'true' }}
+        if: ${{ steps.download_artifact.outputs.artifact_downloaded == 'false' }}
+
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Install requests
+        run: pip install requests
 
       - name: Run find_commit.py and create artifact
         run: |
