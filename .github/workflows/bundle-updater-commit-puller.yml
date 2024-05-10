@@ -3,15 +3,14 @@ name: Patch Bundle Updater
 on:
   workflow_run:
     workflows: ["Patch bundle updater"]
+    types:
+      - completed
 
 jobs:
   get-artifact:
     if: github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
-      - name: Wait for 60 seconds
-        run: sleep 60
-
       - name: Check if Patch bundle updater workflow produced artifacts
         id: check_artifact
         run: |
@@ -21,7 +20,6 @@ jobs:
             echo "No artifacts found. Cancelling workflow."
             exit 1
           fi
-
       - name: Download latest artifact
         if: steps.check_artifact.outcome == 'success'
         uses: actions/download-artifact@v2
