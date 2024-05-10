@@ -13,15 +13,20 @@ jobs:
       - name: List workflows
         id: list_workflows
         run: |
-          workflows=$(curl -s -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml)
-          latest_workflow_id=$(echo "$workflows" | jq -r '.workflows[0].id')
+          latest_workflow_id=$(curl -s -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/Jman-Github/ReVanced-Patch-Bundles/actions/workflows | jq -r '.workflows[0].id')
           echo "::set-output name=latest_workflow_id::$latest_workflow_id"
           
-      - name: Check if Patch bundle updater workflow produced artifacts
-        id: check_artifact
+      - name: Get latest run ID
+        id: get_latest_run_id
         run: |
           latest_workflow_id=${{ steps.list_workflows.outputs.latest_workflow_id }}
           latest_run_id=$(curl -s -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/$latest_workflow_id/runs | jq -r '.workflow_runs[0].id')
+          echo "::set-output name=latest_run_id::$latest_run_id"
+
+      - name: Check if Patch bundle updater workflow produced artifacts
+        id: check_artifact
+        run: |
+          latest_run_id=${{ steps.get_latest_run_id.outputs.latest_run_id }}
           artifacts=$(curl -s -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/Jman-Github/ReVanced-Patch-Bundles/actions/runs/$latest_run_id/artifacts)
           if [[ $(echo "$artifacts" | jq '.artifacts | length') -eq 0 ]]; then
             echo "No artifacts found. Cancelling workflow."
@@ -31,9 +36,12 @@ jobs:
 
       - name: Download latest artifact
         if: steps.check_artifact.outputs.artifacts_found == 'true'
-        uses: actions/download-artifact@v2
+        id: download-artifact
+        uses: dawidd6/action-download-artifact@v3
         with:
-          name: changed_files
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          workflow: patch-bundle-updater.yml
+          if_no_artifact_found: ignore
 
       - name: Run find_commit.py script
         if: steps.check_artifact.outputs.artifacts_found == 'true'
