@@ -14,6 +14,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Download artifact from Patch bundle updater
+        uses: actions/download-artifact@v2
+        with:
+          name: find_commit_output
+          path: .
+
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
