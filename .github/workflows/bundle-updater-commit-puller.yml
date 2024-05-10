@@ -8,10 +8,14 @@ on:
 
 jobs:
   generate_commit_artifact:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
+      - name: Debug event payload
+        run: |
+          echo "Workflow run conclusion: ${{ github.event.workflow_run.conclusion }}"
+          echo "Workflow run status: ${{ github.event.workflow_run.status }}"
+
       - name: Checkout code
         uses: actions/checkout@v2
 
