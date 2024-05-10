@@ -14,7 +14,7 @@ jobs:
         id: check_artifact
         uses: xSAVIKx/artifact-exists-action@v0
         with:
-          name: "changed_files" # Change this to the name of your artifact
+          name: "changed_files"
 
       - name: Run find_commit.py script
         if: steps.check_artifact.outputs.exists == 'true'
