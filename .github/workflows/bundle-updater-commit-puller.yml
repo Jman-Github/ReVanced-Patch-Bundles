@@ -28,3 +28,10 @@ jobs:
       - name: Run find_commit.py script
         if: steps.check_artifact.outcome == 'success'
         run: python find_commit.py
+
+      - name: Create commit link artifact
+        if: steps.check_artifact.outcome == 'success'
+        uses: actions/upload-artifact@v2
+        with:
+          name: commit-link
+          path: commit-link.txt
