@@ -26,6 +26,21 @@ jobs:
       - name: Install requests
         run: pip install requests
 
+      - name: Download latest artifact from Patch bundle updater workflow
+        id: download_artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: find_commit_output
+          path: find_commit_output.txt
+
+      - name: Check if artifact was downloaded
+        run: |
+          if [ ! -f "find_commit_output.txt" ]; then
+            echo "Error: Artifact not found. Cancelling the workflow."
+            exit 1
+          fi
+        if: ${{ steps.download_artifact.outputs.artifact_downloaded == 'true' }}
+
       - name: Run find_commit.py and create artifact
         run: |
           python find_commit.py > find_commit_output.txt
