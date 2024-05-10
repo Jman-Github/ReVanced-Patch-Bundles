@@ -13,7 +13,7 @@ jobs:
       - name: List workflows
         id: list_workflows
         run: |
-          workflows=$(curl -s -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/Jman-Github/ReVanced-Patch-Bundles/actions/workflows)
+          workflows=$(curl -s -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml)
           latest_workflow_id=$(echo "$workflows" | jq -r '.workflows[0].id')
           echo "::set-output name=latest_workflow_id::$latest_workflow_id"
           
