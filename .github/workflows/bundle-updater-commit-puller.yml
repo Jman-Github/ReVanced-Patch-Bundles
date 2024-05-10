@@ -8,7 +8,6 @@ on:
 
 jobs:
   get-artifact:
-    if: github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Check if Patch bundle updater workflow produced artifacts
@@ -27,7 +26,7 @@ jobs:
           name: <changed_files>
 
       - name: Run find_commit.py script
-        if: steps.check_artifact.outcome == 'success' && success()
+        if: steps.check_artifact.outcome == 'success'
         run: python find_commit.py
 
       - name: Create commit link artifact
