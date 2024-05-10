@@ -10,11 +10,19 @@ jobs:
   get-artifact:
     runs-on: ubuntu-latest
     steps:
+      - name: List workflows
+        id: list_workflows
+        run: |
+          workflows=$(curl -s -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/Jman-Github/ReVanced-Patch-Bundles/actions/workflows)
+          latest_workflow_id=$(echo "$workflows" | jq -r '.workflows[0].id')
+          echo "::set-output name=latest_workflow_id::$latest_workflow_id"
+          
       - name: Check if Patch bundle updater workflow produced artifacts
         id: check_artifact
         run: |
-          latest_run_id=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml/runs | jq -r '.workflow_runs[0].id')
-          artifacts=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/Jman-Github/ReVanced-Patch-Bundles/actions/runs/$latest_run_id/artifacts)
+          latest_workflow_id=${{ steps.list_workflows.outputs.latest_workflow_id }}
+          latest_run_id=$(curl -s -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/$latest_workflow_id/runs | jq -r '.workflow_runs[0].id')
+          artifacts=$(curl -s -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/Jman-Github/ReVanced-Patch-Bundles/actions/runs/$latest_run_id/artifacts)
           if [[ $(echo "$artifacts" | jq '.artifacts | length') -eq 0 ]]; then
             echo "No artifacts found. Cancelling workflow."
             exit 1
