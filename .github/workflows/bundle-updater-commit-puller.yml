@@ -8,7 +8,7 @@ on:
 
 jobs:
   generate_commit_artifact:
-    if: ${{ github.event.workflow_run.event == 'completed' && github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
