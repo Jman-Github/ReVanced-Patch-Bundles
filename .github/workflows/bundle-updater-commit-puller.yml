@@ -1,4 +1,4 @@
-name: Generate Commit Artifact
+name: Patch Bundle Updater
 
 on:
   workflow_run:
@@ -7,52 +7,33 @@ on:
       - completed
 
 jobs:
-  generate_commit_artifact:
+  get-artifact:
     runs-on: ubuntu-latest
-
+    if: github.event.workflow_run.conclusion == 'success'
     steps:
-      - name: Debug event payload
-        run: echo "${{ toJson(github.event) }}"
-
-      - name: Download latest artifact from Patch bundle updater workflow
-        id: download_artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: find_commit_output
-          path: find_commit_output.txt
-
-      - name: Check if artifact was downloaded
-        id: check_artifact
+      - name: Check if Patch bundle updater workflow produced artifacts
         run: |
-          if [ ! -f "find_commit_output.txt" ]; then
-            echo "Error: Artifact not found. Cancelling the workflow."
+          latest_run_id=$(jq -r '.workflow_runs[0].id' <<< "$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/${{ github.repository }}/actions/workflows/patch-bundle-updater.yml/runs)")
+          artifacts=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/${{ github.repository }}/actions/runs/$latest_run_id/artifacts)
+          if [[ $(jq -r '.artifacts | length' <<< "$artifacts") -eq 0 ]]; then
+            echo "No artifacts found. Cancelling workflow."
             exit 1
           fi
-        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Cancel workflow if artifact not found
-        if: ${{ steps.check_artifact.outcome != 'success' }}
-        run: exit 1
-
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Setup Python
-        uses: actions/setup-python@v2
+      - name: Download latest artifact
+        id: download-artifact
+        uses: actions/download-artifact@v2
         with:
-          python-version: 3.x
+          name: <ARTIFACT_NAME> # Replace <ARTIFACT_NAME> with the name of your artifact
 
-      - name: Install requests
-        run: pip install requests
+      - name: Run find_commit.py script
+        run: python find_commit.py
+        working-directory: ${{ github.workspace }}
 
-      - name: Run find_commit.py and create artifact
-        run: |
-          python find_commit.py > find_commit_output.txt
-          echo "Commit link: $(cat find_commit_output.txt)"
-        shell: bash
-
-      - name: Upload find_commit output artifact
+      - name: Create commit link artifact
         uses: actions/upload-artifact@v2
         with:
-          name: find_commit_output
-          path: find_commit_output.txt
+          name: commit-link
+          path: commit-link.txt
