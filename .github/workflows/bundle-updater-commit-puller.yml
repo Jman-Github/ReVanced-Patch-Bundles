@@ -12,9 +12,7 @@ jobs:
 
     steps:
       - name: Debug event payload
-        run: |
-          echo "Workflow run conclusion: ${{ github.event.workflow_run.conclusion }}"
-          echo "Workflow run status: ${{ github.event.workflow_run.status }}"
+        run: echo "${{ toJson(github.event) }}"
 
       - name: Checkout code
         uses: actions/checkout@v2
