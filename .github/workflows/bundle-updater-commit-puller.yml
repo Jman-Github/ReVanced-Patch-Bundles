@@ -9,6 +9,8 @@ on:
 jobs:
   generate_commit_artifact:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Debug event payload
-        run: echo "${{ toJson(github.event) }}"
+      - name: Debug why workflow is skipped
+        run: |
+          cat $GITHUB_EVENT_PATH
