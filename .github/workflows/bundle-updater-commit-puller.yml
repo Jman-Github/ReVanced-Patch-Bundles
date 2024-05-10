@@ -27,7 +27,7 @@ jobs:
           name: <changed_files>
 
       - name: Run find_commit.py script
-        if: steps.check_artifact.outcome == 'success'
+        if: steps.check_artifact.outcome == 'success' && success()
         run: python find_commit.py
 
       - name: Create commit link artifact
