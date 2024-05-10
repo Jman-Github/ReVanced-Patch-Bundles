@@ -22,12 +22,17 @@ jobs:
           path: find_commit_output.txt
 
       - name: Check if artifact was downloaded
+        id: check_artifact
         run: |
           if [ ! -f "find_commit_output.txt" ]; then
             echo "Error: Artifact not found. Cancelling the workflow."
             exit 1
           fi
-        if: ${{ steps.download_artifact.outputs.artifact_downloaded == 'false' }}
+        continue-on-error: true
+
+      - name: Cancel workflow if artifact not found
+        if: ${{ steps.check_artifact.outcome != 'success' }}
+        run: exit 1
 
       - name: Checkout code
         uses: actions/checkout@v2
