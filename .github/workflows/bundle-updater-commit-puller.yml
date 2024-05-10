@@ -14,8 +14,8 @@ jobs:
       - name: Check if Patch bundle updater workflow produced artifacts
         id: check_artifact
         run: |
-          latest_run_id=$(jq -r '.workflow_runs[0].id' <<< "$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/${{ github.repository }}/actions/workflows/patch-bundle-updater.yml/runs)")
-          artifacts=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/${{ github.repository }}/actions/runs/$latest_run_id/artifacts)
+          latest_run_id=$(jq -r '.workflow_runs[0].id' <<< "$(curl -s -H "Authorization: Bearer ${{ secrets.GIT_TOKEN }}" https://api.github.com/repos/${{ github.repository }}/actions/workflows/patch-bundle-updater.yml/runs)")
+          artifacts=$(curl -s -H "Authorization: Bearer ${{ secrets.GIT_TOKEN }}" https://api.github.com/repos/${{ github.repository }}/actions/runs/$latest_run_id/artifacts)
           if [[ $(jq -r '.artifacts | length' <<< "$artifacts") -eq 0 ]]; then
             echo "No artifacts found. Cancelling workflow."
             exit 1
