@@ -14,22 +14,21 @@ jobs:
         id: check_artifact
         uses: rexdefuror/check_artifact_exists@v1.0.1
         with:
-          token: ${{ secrets.GIT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           owner: 'Jman-Github'
           repo: 'ReVanced-Patch-Bundles'
           name: 'changed_files' # Change this to the name of your artifact without extension
 
-      - name: No artifacts found
+      - name: Cancel workflow if no artifact found
         if: steps.check_artifact.outputs.ARTIFACT_EXISTS == 'false'
-        run: echo "No artifacts found. Cancelling workflow."
-        continue-on-error: true
+        run: |
+          echo "No artifacts found. Cancelling workflow."
+          exit 0
 
       - name: Run find_commit.py script
-        if: steps.check_artifact.outputs.ARTIFACT_EXISTS == 'true'
         run: python find_commit.py
 
       - name: Create commit link artifact
-        if: steps.check_artifact.outputs.ARTIFACT_EXISTS == 'true'
         uses: actions/upload-artifact@v2
         with:
           name: commit-link
