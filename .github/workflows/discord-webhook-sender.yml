@@ -67,6 +67,7 @@ jobs:
         uses: tsickert/discord-webhook@master
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
+          content: '||@everyone||'
           embed-title: 'Patch-Bundle.json File(s) Updated'
           embed-description: |
             Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml).
