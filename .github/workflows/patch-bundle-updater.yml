@@ -41,12 +41,18 @@ jobs:
           python -m pip install requests httpx
           output=$(python generate_bundles.py 2>&1)
           echo "$output"
-          if [[ "$output" == *"Your branch is up to date with 'origin/bundles'."* ]]; then
+          if echo "$output" | grep -q "Your branch is up to date with 'origin/bundles'."; then
             echo "Branch is up to date with 'origin/bundles'. Exiting..."
-            exit
+            exit 0
           else
             git add '*.json'
-            git diff --cached --quiet || (git commit -m "Update patch-bundle.json to latest" && git push origin HEAD:${{ github.ref }} --follow-tags)
+            if ! git diff --cached --quiet; then
+              git commit -m "Update patch-bundle.json to latest"
+              git push origin HEAD:${{ github.ref }} --follow-tags
+            else
+              echo "No changes to commit. Exiting..."
+              exit 0
+            fi
           fi
         working-directory: ${{ github.workspace }}
 
