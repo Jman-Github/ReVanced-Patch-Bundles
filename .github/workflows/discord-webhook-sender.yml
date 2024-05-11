@@ -51,10 +51,10 @@ jobs:
       - name: Set changes variable
         id: set_changes
         run: |
-          patch_bundle_content=$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/*)
+          patch_bundle_content=$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt)
           commit_puller_content=$(cat ReVanced-Patch-Bundles/commit_puller_artifact/*)
           
-          changes=$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/*.txt)
+          changes=$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt)
           
           if [ -z "$changes" ]; then
             changes="No changes"
