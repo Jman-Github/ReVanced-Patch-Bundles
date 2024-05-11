@@ -14,20 +14,24 @@ jobs:
         id: download_artifact
         uses: benday-inc/download-latest-artifact@main
         with:
-          token: ${{ secrets.GIT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           repository_owner: 'Jman-Github'
           repository_name: 'ReVanced-Patch-Bundles'
-          workflow_name: 'bundle-updater.yml'
+          workflow_name: 'Patch bundle updater'
           branch_name: 'bundles'
           artifact_name: 'changed_files'
           download_path: 'ReVanced-Patch-Bundles'
+          download_filename: 'changed_files.zip'
 
       - name: Check if artifact was downloaded
         run: |
-          if [ ! -f "ReVanced-Patch-Bundles/changed_files" ]; then
+          if [ ! -f "ReVanced-Patch-Bundles/changed_files.zip" ]; then
             echo "No artifact found. Cancelling workflow."
             exit 0
           fi
+
+      - name: Unzip artifact
+        run: unzip ReVanced-Patch-Bundles/changed_files.zip -d ReVanced-Patch-Bundles/
 
       - name: Install dependencies
         run: |
