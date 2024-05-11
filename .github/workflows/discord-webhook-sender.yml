@@ -51,17 +51,22 @@ jobs:
       - name: Set changes variable
         id: set_changes
         run: |
-          patch_bundle_content=$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt)
-          commit_puller_content=$(cat ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt)
-          
           changes=$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt)
           
           if [ -z "$changes" ]; then
             changes="No changes"
           fi
           echo "::set-output name=changes::${changes}"
-          echo "::set-output name=patch_bundle_content::$patch_bundle_content"
-          echo "::set-output name=commit_puller_content::$commit_puller_content"
+          
+          # Send each line of changed_files.txt as a separate variable
+          mapfile -t changes_array < ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt
+          changes_json="["
+          for ((i=0; i<${#changes_array[@]}; i++)); do
+            changes_json+="\"${changes_array[$i]}\","
+          done
+          changes_json="${changes_json%,}"
+          changes_json+="]"
+          echo "::set-output name=changes_json::$changes_json"
           
       - name: Send Discord Notification
         uses: tsickert/discord-webhook@master
@@ -73,15 +78,13 @@ jobs:
             Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml).
             
             **Changes:**
-            \`\`\`
+            ```
             ${{ steps.set_changes.outputs.changes }}
-            \`\`\`
-            
-            **Commit Puller Content:**
-            \`\`\`
-            ${{ steps.set_changes.outputs.commit_puller_content }}
-            \`\`\`
-            
+            ```
+            **Changed:**
+            ```
+            ${{ join(fromJson(steps.set_changes.outputs.changes_json), '\n') }}
+            ```
           embed-color: '65280'
           embed-author-name: 'Patch Bundle Updater Workflow'
           embed-author-icon-url: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
