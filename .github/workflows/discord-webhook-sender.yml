@@ -51,7 +51,7 @@ jobs:
       - name: Set changes variable
         id: set_changes
         run: |
-          changes=$(diff -r ReVanced-Patch-Bundles/patch_bundle_updater_artifact ReVanced-Patch-Bundles/commit_puller_artifact)
+          changes=$(diff -r ReVanced-Patch-Bundles/patch_bundle_updater_artifact ReVanced-Patch-Bundles/commit_puller_artifact || true)
           if [ -z "$changes" ]; then
             changes="No changes"
           fi

@@ -35,14 +35,14 @@ jobs:
           pip install requests
 
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@main
 
       - name: Run find_commit.py script
         run: |
           python find_commit.py
 
       - name: Create commit link artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@main
         with:
           name: commit-link
           path: commit-link.txt
