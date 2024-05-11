@@ -3,7 +3,7 @@ name: Patch bundle updater
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/30 * * * *'
 
 jobs:
   check_for_updates:
@@ -39,7 +39,7 @@ jobs:
           source venv/bin/activate
           python -m pip install --upgrade pip
           python -m pip install requests httpx
-          python generate_bundles.py > output.txt
+          python generate_bundles.py > output.txt 2>&1
           if grep -q "No changes found. Exiting..." output.txt; then
             echo "No changes found. Exiting..."
             exit 0
