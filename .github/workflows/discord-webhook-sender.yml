@@ -13,7 +13,7 @@ jobs:
       - name: Download Artifact from Bundle updater commit puller
         uses: benday-inc/download-latest-artifact@main
         if: ${{ github.event.workflow_run.name == 'Bundle updater commit puller' }}
-        id: download_bundle_updater_artifact
+        id: download_bundle-updater-commit-puller_artifact
         with:
           token: ${{ secrets.GIT_TOKEN }}
           repository_owner: 'Jman-Github'
@@ -23,15 +23,15 @@ jobs:
           download_filename: 'commit-link.zip'
 
       - name: Unzip Bundle updater artifact
-        if: steps.download_bundle_updater_artifact.outputs.download_success == 'true'
-        run: unzip bundle_updater_artifact/changed_files.zip -d bundle_updater_artifact
+        if: steps.download_bundle-updater-commit-puller_artifact.outputs.download_success == 'true'
+        run: unzip bundle-updater-commit-puller_artifact/commit-link.zip -d bundle-updater-commit-puller_artifact
 
       - name: Download Artifact from Patch bundle updater
         uses: benday-inc/download-latest-artifact@main
         if: github.event.workflow_run.name == 'Patch bundle updater'
-        id: download_patch_updater_artifact
+        id: download_bundle_updater_artifact
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GIT_TOKEN }}
           repository_owner: 'Jman-Github'
           repository_name: 'ReVanced-Patch-Bundles'
           workflow_name: 'Patch bundle updater'
@@ -39,17 +39,17 @@ jobs:
           download_filename: 'changed_files.zip'
 
       - name: Unzip Patch bundle updater artifact
-        if: steps.download_patch_updater_artifact.outputs.download_success == 'true'
-        run: unzip patch_updater_artifact/changed_files.zip -d patch_updater_artifact
+        if: steps.download_bundle_updater_artifact.outputs.download_success == 'true'
+        run: unzip bundle_updater_artifact/changed_files.zip -d bundle_updater_artifact
 
       - name: Combine changes from both artifacts
         run: |
-          cp -r bundle_updater_artifact/. patch_updater_artifact/.
-          cd patch_updater_artifact
+          cp -r bundle-updater-commit-puller_artifact/. bundle_updater_artifact/.
+          cd bundle_updater_artifact
           zip -r combined_files.zip .
 
       - name: Send Discord Notification
-        if: steps.download_bundle_updater_artifact.outputs.download_success == 'true' || steps.download_patch_updater_artifact.outputs.download_success == 'true'
+        if: steps.download_bundle-updater-commit-puller_artifact.outputs.download_success == 'true' || steps.download_bundle_updater_artifact.outputs.download_success == 'true'
         uses: tsickert/discord-webhook@v6.0.0
         with:
          webhook-url: ${{ secrets.WEBHOOK_URL }}
