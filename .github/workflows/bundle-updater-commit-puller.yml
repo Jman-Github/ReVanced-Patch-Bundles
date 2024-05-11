@@ -26,7 +26,7 @@ jobs:
           exit 0
 
       - name: Run find_commit.py script
-        run: python find_commit.py
+        run: python /home/runner/work/ReVanced-Patch-Bundles/ReVanced-Patch-Bundles/find_commit.py
 
       - name: Create commit link artifact
         uses: actions/upload-artifact@v2
