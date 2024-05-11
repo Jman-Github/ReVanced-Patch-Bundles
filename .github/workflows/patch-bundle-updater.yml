@@ -45,24 +45,19 @@ jobs:
             echo "Branch is up to date with 'origin/bundles'. Exiting..."
             exit 0
           else
-            if echo "$output" | grep -q "Changes detected"; then
-              if [ -f "patch-bundle.json" ]; then
-                git config --global user.email "github-actions@github.com"
-                git config --global user.name "GitHub Actions"
-                if [ -n "$(git status --porcelain patch-bundle.json)" ]; then
-                  git add patch-bundle.json
-                  git commit -m "Update patch-bundle.json to latest"
-                  git push origin HEAD:bundles --follow-tags
-                else
-                  echo "No changes to commit. Exiting..."
-                  exit 0
-                fi
+            if [ -f "patch-bundle.json" ]; then
+              git config --global user.email "github-actions@github.com"
+              git config --global user.name "GitHub Actions"
+              git add patch-bundle.json
+              if [ -n "$(git status --porcelain)" ]; then
+                git commit -m "Update patch-bundle.json to latest"
+                git push origin HEAD:bundles --follow-tags
               else
-                echo "patch-bundle.json not found. Exiting..."
+                echo "No changes to commit. Exiting..."
                 exit 0
               fi
             else
-              echo "No changes detected. Exiting..."
+              echo "patch-bundle.json not found. Exiting..."
               exit 0
             fi
           fi
