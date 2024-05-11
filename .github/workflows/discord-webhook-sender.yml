@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Download Artifact from Patch bundle updater
         id: download_patch_bundle_updater_artifact
-        uses: benday-inc/download-latest-artifact@v2.2
+        uses: benday-inc/download-latest-artifact@main
         with:
           token: ${{ secrets.GIT_TOKEN }}
           repository_owner: 'Jman-Github'
@@ -25,7 +25,7 @@ jobs:
 
       - name: Download Artifact from Commit puller
         id: download_commit_puller_artifact
-        uses: benday-inc/download-latest-artifact@v2.2
+        uses: benday-inc/download-latest-artifact@main
         with:
           token: ${{ secrets.GIT_TOKEN }}
           repository_owner: 'Jman-Github'
@@ -36,6 +36,12 @@ jobs:
           download_path: 'ReVanced-Patch-Bundles'
           download_filename: 'commit-link.zip'
 
+      - name: Create patch bundle updater artifact directory
+        run: mkdir -p ReVanced-Patch-Bundles/patch_bundle_updater_artifact
+
+      - name: Create commit puller artifact directory
+        run: mkdir -p ReVanced-Patch-Bundles/commit_puller_artifact
+
       - name: Unzip Patch bundle updater artifact
         run: unzip ReVanced-Patch-Bundles/changed_files.zip -d ReVanced-Patch-Bundles/patch_bundle_updater_artifact
 
@@ -45,12 +51,8 @@ jobs:
       - name: Set changes variable
         id: set_changes
         run: |
-          if [ -d "ReVanced-Patch-Bundles/patch_bundle_updater_artifact" ] && [ -d "ReVanced-Patch-Bundles/commit_puller_artifact" ]; then
-            changes=$(diff -r ReVanced-Patch-Bundles/patch_bundle_updater_artifact ReVanced-Patch-Bundles/commit_puller_artifact)
-            if [ -z "$changes" ]; then
-              changes="No changes"
-            fi
-          else
+          changes=$(diff -r ReVanced-Patch-Bundles/patch_bundle_updater_artifact ReVanced-Patch-Bundles/commit_puller_artifact)
+          if [ -z "$changes" ]; then
             changes="No changes"
           fi
           echo "::set-output name=changes::${changes}"

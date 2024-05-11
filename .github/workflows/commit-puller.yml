@@ -29,10 +29,6 @@ jobs:
           echo "No artifact found. Cancelling workflow."
           exit 0
 
-      - name: Unzip artifact
-        if: steps.download_artifact.outputs.artifact_downloaded == 'true'
-        run: unzip ReVanced-Patch-Bundles/changed_files.zip -d ReVanced-Patch-Bundles/
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip

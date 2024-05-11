@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
-
+        uses: actions/checkout@main
       - name: Close labeled issues
         run: |
           TOKEN="${{ secrets.GITHUB_TOKEN }}"

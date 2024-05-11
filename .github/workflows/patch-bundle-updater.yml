@@ -16,13 +16,13 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4.1.4
+        uses: actions/checkout@main
         with:
           persist-credentials: false
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5.1.0
+        uses: actions/setup-python@main
         with:
           python-version: '3.x'
 
@@ -72,14 +72,14 @@ jobs:
 
       - name: Push changes
         if: steps.check_changes.outputs.has_changes == 'true'
-        uses: ad-m/github-push-action@v0.8.0
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: bundles
 
       - name: Create artifact of changed files
         if: steps.check_changes.outputs.has_changes == 'true' && steps.find_commit.outputs.changed_files != ''
-        uses: actions/upload-artifact@v4.3.3
+        uses: actions/upload-artifact@main
         with:
           name: changed_files
           path: changed_files.txt
