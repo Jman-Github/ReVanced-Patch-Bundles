@@ -1,0 +1,52 @@
+name: Commit puller
+
+on:
+  workflow_run:
+    workflows: ["Patch bundle updater"]
+    types:
+      - completed
+
+jobs:
+  get-artifact:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Prior Artifact
+        id: download_artifact
+        uses: benday-inc/download-latest-artifact@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository_owner: 'Jman-Github'
+          repository_name: 'ReVanced-Patch-Bundles'
+          workflow_name: 'Patch bundle updater'
+          branch_name: 'bundles'
+          artifact_name: 'changed_files'
+          download_path: 'ReVanced-Patch-Bundles'
+          download_filename: 'changed_files.zip'
+
+      - name: Check if artifact was downloaded
+        if: steps.download_artifact.outputs.artifact_downloaded != 'true'
+        run: |
+          echo "No artifact found. Cancelling workflow."
+          exit 0
+
+      - name: Unzip artifact
+        if: steps.download_artifact.outputs.artifact_downloaded == 'true'
+        run: unzip ReVanced-Patch-Bundles/changed_files.zip -d ReVanced-Patch-Bundles/
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run find_commit.py script
+        run: |
+          python find_commit.py
+
+      - name: Create commit link artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: commit-link
+          path: commit-link.txt
