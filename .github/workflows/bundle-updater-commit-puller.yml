@@ -10,23 +10,27 @@ jobs:
   get-artifact:
     runs-on: ubuntu-latest
     steps:
-      - name: Check artifact existence
+      - name: Check if artifact exists
         id: check_artifact
-        uses: xSAVIKx/artifact-exists-action@v0
+        uses: rexdefuror/check_artifact_exists@v1.0.1
         with:
-          name: "changed_files"
+          token: ${{ secrets.GIT_TOKEN }}
+          owner: 'Jman-Github'
+          repo: 'ReVanced-Patch-Bundles'
+          name: 'changed_files' # Change this to the name of your artifact without extension
 
       - name: No artifacts found
-        if: steps.check_artifact.outputs.exists != 'true'
+        if: steps.check_artifact.outputs.ARTIFACT_EXISTS == 'false'
         run: echo "No artifacts found. Cancelling workflow."
         continue-on-error: true
 
       - name: Run find_commit.py script
+        if: steps.check_artifact.outputs.ARTIFACT_EXISTS == 'true'
         run: python find_commit.py
 
       - name: Create commit link artifact
+        if: steps.check_artifact.outputs.ARTIFACT_EXISTS == 'true'
         uses: actions/upload-artifact@v2
         with:
           name: commit-link
           path: commit-link.txt
-        if: steps.check_artifact.outputs.exists == 'true'
