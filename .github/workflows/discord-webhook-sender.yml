@@ -51,15 +51,20 @@ jobs:
       - name: Set changes variable
         id: set_changes
         run: |
-          changes=$(diff -r ReVanced-Patch-Bundles/patch_bundle_updater_artifact ReVanced-Patch-Bundles/commit_puller_artifact || true)
+          patch_bundle_content=$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/*)
+          commit_puller_content=$(cat ReVanced-Patch-Bundles/commit_puller_artifact/*)
+          
+          changes=$(diff -u <(echo "$patch_bundle_content") <(echo "$commit_puller_content") || true)
+          
           if [ -z "$changes" ]; then
             changes="No changes"
           fi
           echo "::set-output name=changes::${changes}"
+          echo "::set-output name=patch_bundle_content::$patch_bundle_content"
+          echo "::set-output name=commit_puller_content::$commit_puller_content"
           
       - name: Send Discord Notification
-        uses: tsickert/discord-webhook@v6.0.0
-        if: steps.set_changes.outputs.changes != 'No changes'
+        uses: tsickert/discord-webhook@master
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
           embed-title: 'Patch-Bundle.json File(s) Updated'
@@ -67,6 +72,16 @@ jobs:
             Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml).
             
             **Changes:** ${{ steps.set_changes.outputs.changes }}
+            
+            **Patch Bundle Content:**
+            ```
+            ${{ steps.set_changes.outputs.patch_bundle_content }}
+            ```
+            
+            **Commit Puller Content:**
+            ```
+            ${{ steps.set_changes.outputs.commit_puller_content }}
+            ```
           embed-color: '65280'
           embed-author-name: 'Patch Bundle Updater Workflow'
           embed-author-icon-url: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
