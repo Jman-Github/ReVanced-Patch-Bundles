@@ -10,20 +10,24 @@ jobs:
   get-artifact:
     runs-on: ubuntu-latest
     steps:
-      - name: Check if artifact exists
-        id: check_artifact
-        uses: rexdefuror/check_artifact_exists@v1.0.1
+      - name: Download Prior Artifact
+        id: download_artifact
+        uses: benday-inc/download-latest-artifact@main
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          owner: 'Jman-Github'
-          repo: 'ReVanced-Patch-Bundles'
-          name: 'changed_files' # Change this to the name of your artifact without extension
+          token: ${{ secrets.GIT_TOKEN }}
+          repository_owner: 'Jman-Github'
+          repository_name: 'ReVanced-Patch-Bundles'
+          workflow_name: 'Patch bundle updater'
+          branch_name: 'master'
+          artifact_name: 'changed_files'
+          download_path: 'ReVanced-Patch-Bundles'
 
-      - name: Cancel workflow if no artifact found
-        if: steps.check_artifact.outputs.ARTIFACT_EXISTS == 'false'
+      - name: Check if artifact was downloaded
         run: |
-          echo "No artifacts found. Cancelling workflow."
-          exit 0
+          if [ ! -f "ReVanced-Patch-Bundles/changed_files" ]; then
+            echo "No artifact found. Cancelling workflow."
+            exit 0
+          fi
 
       - name: Install dependencies
         run: |
@@ -35,7 +39,7 @@ jobs:
 
       - name: Run find_commit.py script
         run: |
-          python find_commit.py
+          python ReVanced-Patch-Bundles/find_commit.py
 
       - name: Create commit link artifact
         uses: actions/upload-artifact@v2
