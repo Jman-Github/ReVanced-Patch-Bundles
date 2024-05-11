@@ -11,9 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download Artifact from Patch bundle updater
-        uses: benday-inc/download-latest-artifact@main
-        if: ${{ github.event.workflow_run.name == 'Patch bundle updater' }}
         id: download_patch_bundle_updater_artifact
+        uses: benday-inc/download-latest-artifact@v2.2
         with:
           token: ${{ secrets.GIT_TOKEN }}
           repository_owner: 'Jman-Github'
@@ -24,48 +23,45 @@ jobs:
           download_path: 'ReVanced-Patch-Bundles'
           download_filename: 'changed_files.zip'
 
-      - name: Unzip Patch bundle updater artifact
-        if: steps.download_patch_bundle_updater_artifact.outputs.download_success == 'true'
-        run: unzip patch_bundle_updater_artifact/changed_files.zip -d patch_bundle_updater_artifact
-
       - name: Download Artifact from Commit puller
-        uses: benday-inc/download-latest-artifact@main
-        if: github.event.workflow_run.name == 'Commit puller'
         id: download_commit_puller_artifact
+        uses: benday-inc/download-latest-artifact@v2.2
         with:
           token: ${{ secrets.GIT_TOKEN }}
           repository_owner: 'Jman-Github'
           repository_name: 'ReVanced-Patch-Bundles'
           branch_name: 'bundles'
-          artifact_name: 'commmit-link'
+          artifact_name: 'commit_link'
           workflow_name: 'Commit puller'
           download_path: 'ReVanced-Patch-Bundles'
-          download_filename: 'commit'
+          download_filename: 'commit_link.zip'
 
-      - name: Unzip Commit puller artifact
-        if: steps.download_commit_puller_artifact.outputs.download_success == 'true'
-        run: unzip commit_puller_artifact/commit_link.zip -d commit_puller_artifact
-
-      - name: Combine changes from both artifacts
+      - name: Set changes variable
         run: |
-          cp -r commit-puller_artifact/. patch_bundle_updater_artifact/.
-          cd patch_bundle_updater_artifact
-          zip -r combined_files.zip .
+          if [ -f "patch_bundle_updater_artifact/changed_files.zip" ] && [ -f "commit_puller_artifact/commit_link.zip" ]; then
+            changes="Some changes"
+          elif [ -f "patch_bundle_updater_artifact/changed_files.zip" ]; then
+            changes="Changes from Patch bundle updater"
+          elif [ -f "commit_puller_artifact/commit_link.zip" ]; then
+            changes="Changes from Commit puller"
+          else
+            changes="No changes"
+          fi
+          echo "::set-output name=changes::${changes}"
 
       - name: Send Discord Notification
         if: steps.download_patch_bundle_updater_artifact.outputs.download_success == 'true' || steps.download_commit_puller_artifact.outputs.download_success == 'true'
         uses: tsickert/discord-webhook@v6.0.0
         with:
-         webhook-url: ${{ secrets.WEBHOOK_URL }}
-         embed-title: 'Patch-Bundle.json File(s) Updated'
-         embed-description: |
-          Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml).
-          
-          **Changes:**
-          ${{ steps.read_change_bundles.outputs.change_bundles }}
-         embed-color: 65280
-         embed-author-name: 'Patch Bundle Updater Workflow'
-         embed-author-icon-url: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
-         embed-thumbnail-url: 'https://cdn-icons-png.flaticon.com/512/5278/5278658.png'
-         username: 'ReVanced-Patch-Bundles'
-         avatar-url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUECg_ITr7YkE2pYiVdHqTxlg3wLwXKXIQrcxEBKd7Q&s'
+          webhook-url: ${{ secrets.WEBHOOK_URL }}
+          embed-title: 'Patch-Bundle.json File(s) Updated'
+          embed-description: |
+            Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml).
+            
+            **Changes:** ${{ steps.set_changes.outputs.changes }}
+          embed-color: '65280'
+          embed-author-name: 'Patch Bundle Updater Workflow'
+          embed-author-icon-url: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
+          embed-thumbnail-url: 'https://cdn-icons-png.flaticon.com/512/5278/5278658.png'
+          username: 'ReVanced-Patch-Bundles'
+          avatar-url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUECg_ITr7YkE2pYiVdHqTxlg3wLwXKXIQrcxEBKd7Q&s'
