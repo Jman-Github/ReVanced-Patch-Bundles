@@ -37,6 +37,7 @@ jobs:
           download_filename: 'commit-link.zip'
 
       - name: Set changes variable
+        id: set_changes
         run: |
           if [ -f "patch_bundle_updater_artifact/changed_files.zip" ] && [ -f "commit_puller_artifact/commit-link.zip" ]; then
             changes="Some changes"
