@@ -45,6 +45,8 @@ jobs:
             echo "Branch is up to date with 'origin/bundles'. Exiting..."
             exit 0
           else
+            git config --global user.email "github-actions@github.com"
+            git config --global user.name "GitHub Actions"
             git add patch-bundle.json
             if [ -n "$(git status --porcelain)" ]; then
               git commit -m "Update patch-bundle.json to latest"
@@ -55,7 +57,6 @@ jobs:
             fi
           fi
         working-directory: ${{ github.workspace }}
-
 
       - name: Check for changes
         id: check_changes
