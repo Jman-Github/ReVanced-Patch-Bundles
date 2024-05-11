@@ -52,7 +52,7 @@ jobs:
         id: set_changes
         run: |
           patch_bundle_content=$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt)
-          commit_puller_content=$(cat ReVanced-Patch-Bundles/commit_puller_artifact/*)
+          commit_puller_content=$(cat ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt)
           
           changes=$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt)
           
@@ -77,7 +77,7 @@ jobs:
             ${{ steps.set_changes.outputs.changes }}
             ```
             ${{ steps.set_changes.outputs.commit_puller_content }}
-            
+           
           embed-color: '65280'
           embed-author-name: 'Patch Bundle Updater Workflow'
           embed-author-icon-url: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'

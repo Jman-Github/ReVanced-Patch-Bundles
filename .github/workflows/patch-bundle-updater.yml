@@ -43,7 +43,7 @@ jobs:
           echo "$output"
           if [[ "$output" == *"Your branch is up to date with 'origin/bundles'."* ]]; then
             echo "Branch is up to date with 'origin/bundles'. Exiting..."
-            exit 0
+            exit
           else
             git add '*.json'
             git diff --cached --quiet || (git commit -m "Update patch-bundle.json to latest" && git push origin HEAD:${{ github.ref }} --follow-tags)
