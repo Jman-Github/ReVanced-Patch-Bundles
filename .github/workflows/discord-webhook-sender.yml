@@ -36,15 +36,22 @@ jobs:
           download_path: 'ReVanced-Patch-Bundles'
           download_filename: 'commit-link.zip'
 
+      - name: Unzip Patch bundle updater artifact
+        if: steps.download_patch_bundle_updater_artifact.outputs.download_success == 'true'
+        run: unzip ReVanced-Patch-Bundles/changed_files.zip -d ReVanced-Patch-Bundles/patch_bundle_updater_artifact
+
+      - name: Unzip Commit puller artifact
+        if: steps.download_commit_puller_artifact.outputs.download_success == 'true'
+        run: unzip ReVanced-Patch-Bundles/commit-link.zip -d ReVanced-Patch-Bundles/commit_puller_artifact
+
       - name: Set changes variable
         id: set_changes
         run: |
-          if [ -f "ReVanced-Patch-Bundles/changed_files.zip" ] && [ -f "ReVanced-Patch-Bundles/commit-link.zip" ]; then
-            changes="Some changes"
-          elif [ -f "ReVanced-Patch-Bundles/changed_files.zip" ]; then
-            changes="Changes from Patch bundle updater"
-          elif [ -f "ReVanced-Patch-Bundles/commit-link.zip" ]; then
-            changes="Changes from Commit puller"
+          if [ -d "ReVanced-Patch-Bundles/patch_bundle_updater_artifact" ] && [ -d "ReVanced-Patch-Bundles/commit_puller_artifact" ]; then
+            changes=$(diff -r ReVanced-Patch-Bundles/patch_bundle_updater_artifact ReVanced-Patch-Bundles/commit_puller_artifact)
+            if [ -z "$changes" ]; then
+              changes="No changes"
+            fi
           else
             changes="No changes"
           fi
@@ -57,7 +64,7 @@ jobs:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
           embed-title: 'Patch-Bundle.json File(s) Updated'
           embed-description: |
-            Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml).
+            Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml).
             
             **Changes:** ${{ steps.set_changes.outputs.changes }}
           embed-color: '65280'
