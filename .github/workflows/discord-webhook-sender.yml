@@ -76,10 +76,8 @@ jobs:
             ```
             ${{ steps.set_changes.outputs.changes }}
             ```
-            **Commit Puller Content:**
-          
             ${{ steps.set_changes.outputs.commit_puller_content }}
-          
+            
           embed-color: '65280'
           embed-author-name: 'Patch Bundle Updater Workflow'
           embed-author-icon-url: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
