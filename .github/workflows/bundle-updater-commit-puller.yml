@@ -35,7 +35,7 @@ jobs:
 
       - name: Run find_commit.py script
         run: |
-          python Jman-Github/ReVanced-Patch-Bundles/find_commit.py
+          python ReVanced-Patch-Bundles/find_commit.py
 
       - name: Create commit link artifact
         uses: actions/upload-artifact@v2
