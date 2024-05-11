@@ -30,9 +30,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
       - name: Run find_commit.py script
         run: |
-          python find_commit.py
+          python Jman-Github/ReVanced-Patch-Bundles/find_commit.py
 
       - name: Create commit link artifact
         uses: actions/upload-artifact@v2
