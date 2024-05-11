@@ -50,13 +50,3 @@ jobs:
         with:
           name: commit-link
           path: commit-link.txt
-
-  error-handling:
-    needs: get-artifact
-    if: ${{ failure() }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Error handling
-        run: |
-          echo "Error occurred, cancelling workflow."
-          exit 0
