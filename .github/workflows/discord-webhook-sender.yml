@@ -37,11 +37,9 @@ jobs:
           download_filename: 'commit-link.zip'
 
       - name: Unzip Patch bundle updater artifact
-        if: steps.download_patch_bundle_updater_artifact.outputs.download_success == 'true'
         run: unzip ReVanced-Patch-Bundles/changed_files.zip -d ReVanced-Patch-Bundles/patch_bundle_updater_artifact
 
       - name: Unzip Commit puller artifact
-        if: steps.download_commit_puller_artifact.outputs.download_success == 'true'
         run: unzip ReVanced-Patch-Bundles/commit-link.zip -d ReVanced-Patch-Bundles/commit_puller_artifact
 
       - name: Set changes variable
@@ -56,10 +54,10 @@ jobs:
             changes="No changes"
           fi
           echo "::set-output name=changes::${changes}"
-
+          
       - name: Send Discord Notification
-        if: steps.set_changes.outputs.changes != 'No changes'
         uses: tsickert/discord-webhook@v6.0.0
+        if: steps.set_changes.outputs.changes != 'No changes'
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
           embed-title: 'Patch-Bundle.json File(s) Updated'
