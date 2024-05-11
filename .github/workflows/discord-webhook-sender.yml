@@ -31,18 +31,18 @@ jobs:
           repository_owner: 'Jman-Github'
           repository_name: 'ReVanced-Patch-Bundles'
           branch_name: 'bundles'
-          artifact_name: 'commit_link'
+          artifact_name: 'commit-link'
           workflow_name: 'Commit puller'
           download_path: 'ReVanced-Patch-Bundles'
-          download_filename: 'commit_link.zip'
+          download_filename: 'commit-link.zip'
 
       - name: Set changes variable
         run: |
-          if [ -f "patch_bundle_updater_artifact/changed_files.zip" ] && [ -f "commit_puller_artifact/commit_link.zip" ]; then
+          if [ -f "patch_bundle_updater_artifact/changed_files.zip" ] && [ -f "commit_puller_artifact/commit-link.zip" ]; then
             changes="Some changes"
           elif [ -f "patch_bundle_updater_artifact/changed_files.zip" ]; then
             changes="Changes from Patch bundle updater"
-          elif [ -f "commit_puller_artifact/commit_link.zip" ]; then
+          elif [ -f "commit_puller_artifact/commit-link.zip" ]; then
             changes="Changes from Commit puller"
           else
             changes="No changes"
