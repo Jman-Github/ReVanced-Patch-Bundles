@@ -43,20 +43,21 @@ jobs:
           echo "$output"
           if [[ $output == *"Your branch is up to date with 'origin/bundles'."* ]]; then
             echo "No changes found. Exiting..."
-            exit
+          else
+            git add '*.json'
+            git diff --cached --quiet || (git commit -m "Update patch-bundle.json to latest" && git push origin HEAD:${{ github.ref }} --follow-tags)
           fi
-          git add '*.json'
-          git diff --cached --quiet || (git commit -m "Update patch-bundle.json to latest" && git push origin HEAD:${{ github.ref }} --follow-tags)
         working-directory: ${{ github.workspace }}
 
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet HEAD^ -- '*.json'; then
+          if git diff --quiet HEAD HEAD^ -- '*.json'; then
             echo "::set-output name=has_changes::false"
           else
             echo "::set-output name=has_changes::true"
           fi
+          
       - name: Find commit for changed files
         id: find_commit
         if: steps.check_changes.outputs.has_changes == 'true'
@@ -68,6 +69,7 @@ jobs:
             echo "$changed_files" > changed_files.txt
             echo "::set-output name=changed_files::changed_files.txt"
           fi
+
       - name: Push changes
         if: steps.check_changes.outputs.has_changes == 'true'
         uses: ad-m/github-push-action@v0.8.0
