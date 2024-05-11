@@ -40,7 +40,7 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install requests httpx
           python generate_bundles.py > output.txt 2>&1
-          if grep -q "No changes found. Exiting..." output.txt; then
+          if [ -f "output.txt" ] && grep -q "No changes found. Exiting..." output.txt; then
             echo "No changes found. Exiting..."
             exit 0
           else
