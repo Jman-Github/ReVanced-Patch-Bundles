@@ -39,11 +39,11 @@ jobs:
       - name: Set changes variable
         id: set_changes
         run: |
-          if [ -f "patch_bundle_updater_artifact/changed_files.zip" ] && [ -f "commit_puller_artifact/commit-link.zip" ]; then
+          if [ -f "ReVanced-Patch-Bundles/changed_files.zip" ] && [ -f "ReVanced-Patch-Bundles/commit-link.zip" ]; then
             changes="Some changes"
-          elif [ -f "patch_bundle_updater_artifact/changed_files.zip" ]; then
+          elif [ -f "ReVanced-Patch-Bundles/changed_files.zip" ]; then
             changes="Changes from Patch bundle updater"
-          elif [ -f "commit_puller_artifact/commit-link.zip" ]; then
+          elif [ -f "ReVanced-Patch-Bundles/commit-link.zip" ]; then
             changes="Changes from Commit puller"
           else
             changes="No changes"
@@ -51,7 +51,7 @@ jobs:
           echo "::set-output name=changes::${changes}"
 
       - name: Send Discord Notification
-        if: steps.download_patch_bundle_updater_artifact.outputs.download_success == 'true' || steps.download_commit_puller_artifact.outputs.download_success == 'true'
+        if: steps.set_changes.outputs.changes != 'No changes'
         uses: tsickert/discord-webhook@v6.0.0
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
