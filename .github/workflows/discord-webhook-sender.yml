@@ -2,7 +2,7 @@ name: Discord webhook sender
 
 on:
   workflow_run:
-    workflows: ["Bundle updater commit puller", "Patch bundle updater"]
+    workflows: ["Bundle updater commit puller"]
     types:
       - completed
 
