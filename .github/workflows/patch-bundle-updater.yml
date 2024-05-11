@@ -39,9 +39,9 @@ jobs:
           source venv/bin/activate
           python -m pip install --upgrade pip
           python -m pip install requests httpx
-          output=$(python generate_bundles.py)
+          output=$(python generate_bundles.py 2>&1)
           echo "$output"
-          if [[ $output == *"Your branch is up to date with 'origin/bundles'."* ]]; then
+          if [[ $output == *"No changes found. Exiting..."* ]]; then
             echo "No changes found. Exiting..."
             exit 0
           else
