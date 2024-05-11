@@ -1,88 +1,67 @@
-name: Discord Notification on JSON Change
+name: Check and Update Patch-Bundle.json
 
 on:
-  push:
-    paths:
-      - '**.json'
-      - '.github/workflows/bundle-updater.yml'
   workflow_run:
-    workflows: ["Patch bundle updater"]
+    workflows: ["Bundle updater commit puller", "Patch bundle updater"]
     types:
       - completed
 
 jobs:
-  send_discord_notification:
-    name: Send Discord Notification
+  check_and_update:
     runs-on: ubuntu-latest
-    if: |
-      (
-        github.event_name == 'push' &&
-        contains(github.event.head_commit.message, 'Update patch-bundle.json to latest')
-      ) || (
-        github.event_name == 'workflow_run' &&
-        github.event.workflow == 'Patch bundle updater' &&
-        github.event.workflow_run.conclusion == 'success'
-      )
-    
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-        
-      - name: Set up Python
-        uses: actions/setup-python@v2
+      - name: Download Artifact from Bundle updater commit puller
+        uses: benday-inc/download-latest-artifact@main
+        if: ${{ github.event.workflow_run.name == 'Bundle updater commit puller' }}
+        id: download_bundle_updater_artifact
         with:
-          python-version: '3.x'
-          
-      - name: Check for JSON modification
-        id: check_json_modification
-        run: |
-          json_files=""
-          for file in ${{ github.event.client_payload.files }}; do
-            if [[ ${file} == *.json ]]; then
-              json_files="${json_files}$(basename ${file}), "
-            fi
-          done
-          if [ -n "$json_files" ]; then
-            json_files="${json_files::-2}"
-            echo "::set-output name=json_modified::true"
-            echo "::set-output name=json_files::${json_files}"
-          else
-            echo "::set-output name=json_modified::false"
-          fi
-        shell: bash
-        
-      - name: Download artifact
-        uses: actions/download-artifact@v2
-        if: steps.check_json_modification.outputs.json_modified == 'true'
+          token: ${{ secrets.GIT_TOKEN }}
+          repository_owner: 'Jman-Github'
+          repository_name: 'ReVanced-Patch-Bundles'
+          workflow_name: 'Bundle updater commit puller'
+          download_path: 'commit-link'
+          download_filename: 'commit-link.zip'
+
+      - name: Unzip Bundle updater artifact
+        if: steps.download_bundle_updater_artifact.outputs.download_success == 'true'
+        run: unzip bundle_updater_artifact/changed_files.zip -d bundle_updater_artifact
+
+      - name: Download Artifact from Patch bundle updater
+        uses: benday-inc/download-latest-artifact@main
+        if: github.event.workflow_run.name == 'Patch bundle updater'
+        id: download_patch_updater_artifact
         with:
-          name: changed_files
-          path: changed_files.zip
-          
-      - name: Unzip artifact
-        if: steps.check_json_modification.outputs.json_modified == 'true'
-        run: unzip -qq changed_files.zip -d changed_files
-          
-      - name: Read change_bundles.txt
-        if: steps.check_json_modification.outputs.json_modified == 'true'
-        id: read_change_bundles
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository_owner: 'Jman-Github'
+          repository_name: 'ReVanced-Patch-Bundles'
+          workflow_name: 'Patch bundle updater'
+          download_path: 'changed_files'
+          download_filename: 'changed_files.zip'
+
+      - name: Unzip Patch bundle updater artifact
+        if: steps.download_patch_updater_artifact.outputs.download_success == 'true'
+        run: unzip patch_updater_artifact/changed_files.zip -d patch_updater_artifact
+
+      - name: Combine changes from both artifacts
         run: |
-          cat changed_files/changed_files.txt
-          echo "::set-output name=change_bundles::$(cat changed_files/changed_files.txt)"
-          
+          cp -r bundle_updater_artifact/. patch_updater_artifact/.
+          cd patch_updater_artifact
+          zip -r combined_files.zip .
+
       - name: Send Discord Notification
-        if: steps.check_json_modification.outputs.json_modified == 'true'
+        if: steps.download_bundle_updater_artifact.outputs.download_success == 'true' || steps.download_patch_updater_artifact.outputs.download_success == 'true'
         uses: tsickert/discord-webhook@v6.0.0
         with:
-          webhook-url: ${{ secrets.WEBHOOK_URL }}
-          embed-title: 'Patch-Bundle.json File(s) Updated'
-          embed-description: |
-            Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml).
-            
-            **Changes:**
-            ${{ steps.read_change_bundles.outputs.change_bundles }}
-          embed-color: 65280
-          embed-author-name: 'Patch Bundle Updater Workflow'
-          embed-author-icon: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
-          embed-thumbnail-url: 'https://cdn-icons-png.flaticon.com/512/5278/5278658.png'
-          username: 'ReVanced-Patch-Bundles'
-          avatar-url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUECg_ITr7YkE2pYiVdHqTxlg3wLwXKXIQrcxEBKd7Q&s'
+         webhook-url: ${{ secrets.WEBHOOK_URL }}
+         embed-title: 'Patch-Bundle.json File(s) Updated'
+         embed-description: |
+          Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/bundle-updater.yml).
+          
+          **Changes:**
+          ${{ steps.read_change_bundles.outputs.change_bundles }}
+         embed-color: 65280
+         embed-author-name: 'Patch Bundle Updater Workflow'
+         embed-author-icon-url: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
+         embed-thumbnail-url: 'https://cdn-icons-png.flaticon.com/512/5278/5278658.png'
+         username: 'ReVanced-Patch-Bundles'
+         avatar-url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUECg_ITr7YkE2pYiVdHqTxlg3wLwXKXIQrcxEBKd7Q&s'
