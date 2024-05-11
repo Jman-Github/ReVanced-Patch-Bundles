@@ -17,20 +17,20 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           repository_owner: 'Jman-Github'
           repository_name: 'ReVanced-Patch-Bundles'
-          workflow_name: 'Patch bundle updater'
+          workflow_name: 'bundle-updater'
           branch_name: 'bundles'
           artifact_name: 'changed_files'
           download_path: 'ReVanced-Patch-Bundles'
           download_filename: 'changed_files.zip'
 
       - name: Check if artifact was downloaded
+        if: steps.download_artifact.outputs.artifact_downloaded != 'true'
         run: |
-          if [ ! -f "ReVanced-Patch-Bundles/changed_files.zip" ]; then
-            echo "No artifact found. Cancelling workflow."
-            exit 0
-          fi
+          echo "No artifact found. Cancelling workflow."
+          exit 0
 
       - name: Unzip artifact
+        if: steps.download_artifact.outputs.artifact_downloaded == 'true'
         run: unzip ReVanced-Patch-Bundles/changed_files.zip -d ReVanced-Patch-Bundles/
 
       - name: Install dependencies
@@ -43,10 +43,20 @@ jobs:
 
       - name: Run find_commit.py script
         run: |
-          python find_commit.py
+          python ReVanced-Patch-Bundles/find_commit.py
 
       - name: Create commit link artifact
         uses: actions/upload-artifact@v2
         with:
           name: commit-link
           path: commit-link.txt
+
+  error-handling:
+    needs: get-artifact
+    if: ${{ failure() }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Error handling
+        run: |
+          echo "Error occurred, cancelling workflow."
+          exit 0
