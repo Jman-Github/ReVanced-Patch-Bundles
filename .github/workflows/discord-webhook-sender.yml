@@ -18,6 +18,7 @@ jobs:
           token: ${{ secrets.GIT_TOKEN }}
           repository_owner: 'Jman-Github'
           repository_name: 'ReVanced-Patch-Bundles'
+          branch_name: 'bundles'
           workflow_name: 'Bundle updater commit puller'
           download_path: 'commit-link'
           download_filename: 'commit-link.zip'
@@ -34,6 +35,7 @@ jobs:
           token: ${{ secrets.GIT_TOKEN }}
           repository_owner: 'Jman-Github'
           repository_name: 'ReVanced-Patch-Bundles'
+          branch_name: 'bundles'
           workflow_name: 'Patch bundle updater'
           download_path: 'changed_files'
           download_filename: 'changed_files.zip'
