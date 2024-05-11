@@ -26,7 +26,7 @@ Like me or unlike me!
 [![Patch bundle updater](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml/badge.svg)](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml)
 
 # ❓ About 
-This repository automatically checks for patch and integration updates from the repositorys listed [below](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/README.md#patch-repositorys-in-use-) every 10 minutes. The links listed below are used for the patch bundles sources in the [ReVanced Manager Compose](https://github.com/ReVanced/revanced-manager/tree/compose-dev). Use these links to set your patch bundles inside the ReVanced Manager Compose. The links will import the patch bundles (integrations & patches) into the manager which should update the bundles every time these links have a change in their code.
+This repository automatically checks for patch and integration updates from the repositorys listed [below](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/README.md#patch-repositorys-in-use-) every 10 minutes. These repositories are alternative ReVanced patch and integration sources for extended patch sources. The links listed below are used for the patch bundles sources in the [ReVanced Manager Compose](https://github.com/ReVanced/revanced-manager/tree/compose-dev). Use these links to set your patch bundles inside the ReVanced Manager Compose. The links will import the patch bundles (integrations & patches) into the manager which should update the bundles every time these links have a change in their code. *If you have any other working ReVanced alternative patch and integration repositories that aren't already included in this repository, please create an [issue](https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues) to let me know.*
 #### 📦 Anddea-Patches-Bundle:
 ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/anddea-patches-bundle.json```
 
@@ -53,6 +53,9 @@ This repository automatically checks for patch and integration updates from the 
 
 #### 📦 Inotia00-Patches-Bundle:
 ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/inotia00-patches-bundle.json```
+
+#### 📦 BiliRoamingX-Patches-Bundle:
+```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/biliroamingx-patches-bundle.json```
 
 # 📱 ReVanced Compose Manager:
 #### 📋 Source:
@@ -88,6 +91,9 @@ https://github.com/indrastorms/Dropped-Patches
 #### 🏷️ Inotia00-Patches-Bundle:
 https://github.com/inotia00/revanced-Patches
 
+#### 🏷️ BiliRoamingX-Patches-Bundle:
+https://github.com/BiliRoamingX/BiliRoamingX
+
 
 # 🖇 Intergrations Repositorys In Use
 #### ⛓ Anddea-Patches-Bundle:
@@ -119,6 +125,9 @@ https://github.com/ReVanced/revanced-integrations
 
 #### ⛓ Inotia00-Patches-Bundle:
 https://github.com/inotia00/revanced-integrations
+
+#### ⛓ BiliRoamingX-Patches-Bundle:
+https://github.com/BiliRoamingX/BiliRoamingX
 
 ## 🤝 Contributors
 ##### [indrastorms](https://github.com/indrastorms)
