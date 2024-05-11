@@ -39,8 +39,9 @@ jobs:
           source venv/bin/activate
           python -m pip install --upgrade pip
           python -m pip install requests httpx
-          python generate_bundles.py > output.txt 2>&1
-          if [ -f "output.txt" ] && grep -q "No changes found. Exiting..." output.txt; then
+          output=$(python generate_bundles.py 2>&1)
+          echo "$output"
+          if [[ "$output" == *"No changes found. Exiting..."* ]]; then
             echo "No changes found. Exiting..."
             exit 0
           else
