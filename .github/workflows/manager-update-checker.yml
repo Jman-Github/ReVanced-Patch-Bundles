@@ -40,7 +40,7 @@ jobs:
 
       - name: Update README
         run: |
-          python /home/runner/work/ReVanced-Patch-Bundles/ReVanced-Patch-Bundles/update_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
+          python update_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
         env:
           GITHUB_RUN_ID: ${{ github.run_id }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
