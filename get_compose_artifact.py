@@ -1,26 +1,28 @@
-import os
-import requests
-import zipfile
+name: Check for compose manager updates
 
-def download_latest_artifact(artifact_url):
-    response = requests.get(artifact_url)
-    with open("artifact.zip", "wb") as f:
-        f.write(response.content)
-    with zipfile.ZipFile("artifact.zip", "r") as zip_ref:
-        zip_ref.extractall("artifact")
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
 
-def update_readme(artifact_url):
-    readme_path = "README.md"
+jobs:
+  get-artifact-and-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    with open(readme_path, "r") as f:
-        lines = f.readlines()
+      - name: Install Python dependencies
+        run: |
+          sudo apt-get install jq -y
+          python -m pip install requests
 
-    lines[63] = f"- [Download Latest Artifact]({artifact_url})\n"
-
-    with open(readme_path, "w") as f:
-        f.writelines(lines)
-
-if __name__ == "__main__":
-    artifact_url = os.getenv("ARTIFACT_URL")
-    download_latest_artifact(artifact_url)
-    update_readme(artifact_url)
+      - name: Get artifact URL and run Python script
+        run: |
+          ARTIFACT_URL=$(curl -sS "https://api.github.com/repos/ReVanced/revanced-manager/actions/workflows/pr-build.yml/runs?event=pull_request&status=success" | jq -r '.workflow_runs[0].artifacts_url')
+          ARTIFACT_ID=$(curl -sS "$ARTIFACT_URL" | jq -r '.artifacts[0].id')
+          ARTIFACT_DOWNLOAD_URL=$(curl -sS "https://api.github.com/repos/ReVanced/revanced-manager/actions/artifacts/$ARTIFACT_ID/zip" | jq -r '.archive_download_url')
+          echo "::set-env name=ARTIFACT_URL::$ARTIFACT_DOWNLOAD_URL"
+          wget -O artifact.zip "${ARTIFACT_DOWNLOAD_URL}"
+          unzip -q artifact.zip -d artifact
+          python get_compose_artifact.py
