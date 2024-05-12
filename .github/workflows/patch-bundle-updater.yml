@@ -18,6 +18,9 @@ jobs:
       changed_files: ${{ steps.find_commit.outputs.changed_files }}
 
     steps:
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@main
+
       - name: Checkout code
         uses: actions/checkout@main
         with:
@@ -93,14 +96,3 @@ jobs:
         with:
           name: changed_files
           path: changed_files.txt
-
-  cancel_superseded_workflows:
-    runs-on: ubuntu-latest
-    if: ${{ always() }}
-    needs: [check_for_updates]
-    steps:
-      - uses: viveklak/cancel-workflows@main
-        with:
-          workflow-run-id: ${{ github.run_id }}
-          limit-to-previous-successful-run-commit: "true"
-          dry-run: "false" # Set this to false when ready to actually cancel workflows
