@@ -67,6 +67,13 @@ jobs:
           changes_json="${changes_json%,}"
           changes_json+="]"
           echo "::set-output name=changes_json::$changes_json"
+
+          commit_link=$(cat ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt)
+          
+          if [ -z "$commit_link" ]; then
+            commit_link="No commit link"
+          fi
+          echo "::set-output name=commit_link::${commit_link}"
           
       - name: Send Discord Notification
         uses: tsickert/discord-webhook@master
@@ -79,12 +86,11 @@ jobs:
             
             **Changes:**
             ```
-            ${{ steps.set_changes.outputs.changes }}
-            ```
-            **Changed:**
-            ```
             ${{ join(fromJson(steps.set_changes.outputs.changes_json), '') }}
             ```
+            ${{ steps.set_changes.outputs.commit_link }}
+            
+            Commit link: ${{ steps.set_changes.outputs.commit_link }}
           embed-color: '65280'
           embed-author-name: 'Patch Bundle Updater Workflow'
           embed-author-icon-url: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
