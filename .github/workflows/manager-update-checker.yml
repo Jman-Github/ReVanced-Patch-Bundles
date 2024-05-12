@@ -16,7 +16,8 @@ jobs:
         run: |
           ARTIFACT_ID=$(curl -sS "https://api.github.com/repos/ReVanced/revanced-manager/actions/workflows/pr-build.yml/runs?event=pull_request&status=success" | jq -r '.workflow_runs[0].id')
           ARTIFACT_URL="https://github.com/ReVanced/revanced-manager/actions/runs/$ARTIFACT_ID/artifacts"
-          echo "::set-output name=artifact_url::$ARTIFACT_URL"
+          ARTIFACT_DOWNLOAD_URL=$(curl -sS "$ARTIFACT_URL" | jq -r '.artifacts[0].archive_download_url')
+          echo "::set-output name=artifact_url::$ARTIFACT_DOWNLOAD_URL"
 
   download-and-run:
     needs: get-artifact-url
