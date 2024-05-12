@@ -25,11 +25,12 @@ jobs:
           ARTIFACT_DOWNLOAD_URL=$(curl -sS "https://api.github.com/repos/ReVanced/revanced-manager/actions/artifacts/$ARTIFACT_ID/zip" | jq -r '.archive_download_url')
           echo "::set-output name=artifact_url::$ARTIFACT_DOWNLOAD_URL"
 
-      - name: Download artifact
-        run: |
-          wget -O artifact.zip "${{ steps.get_artifact_url.outputs.artifact_url }}"
-          unzip -q artifact.zip -d artifact
+      - name: Download and extract artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: artifact
+          path: artifact
 
       - name: Run Python script
         run: |
-          python download_artifact.py
+          python get_compose_artifact.py
