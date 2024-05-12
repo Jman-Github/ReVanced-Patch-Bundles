@@ -17,7 +17,7 @@ jobs:
           sudo apt-get install jq -y
           python -m pip install requests
 
-      - name: Get artifact URL and update README
+      - name: Get artifact URL
         run: |
           ARTIFACT_URL=$(curl -sS -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/ReVanced/revanced-manager/actions/workflows/pr-build.yml/runs?event=pull_request&status=success" | jq -r '.workflow_runs[0].artifacts_url')
           if [ -z "$ARTIFACT_URL" ]; then
@@ -29,10 +29,14 @@ jobs:
             echo "Failed to fetch artifact ID."
             exit 1
           fi
-          ARTIFACT_DOWNLOAD_URL="https://github.com/ReVanced/revanced-manager/actions/runs/${GITHUB_RUN_ID}/artifacts/${ARTIFACT_ID}"
+          ARTIFACT_DOWNLOAD_URL="https://github.com/ReVanced/revanced-manager/actions/runs/${GITHUB_RUN_ID}/artifacts/${ARTIFACT_ID}/zip"
+          echo "::set-env name=ARTIFACT_URL::$ARTIFACT_DOWNLOAD_URL"
           echo "ARTIFACT_DOWNLOAD_URL: $ARTIFACT_DOWNLOAD_URL"
-          python /home/runner/work/ReVanced-Patch-Bundles/ReVanced-Patch-Bundles/update_readme.py $ARTIFACT_DOWNLOAD_URL
-          echo "README updated successfully."
+          echo "ARTIFACT_ID: $ARTIFACT_ID"
+        
+      - name: Update README
+        run: |
+          curl -X PATCH -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" -H "Content-Type: application/json" -d "{\"message\":\"Updated README\",\"content\":\"$(cat README.md | base64)\"}" "https://api.github.com/repos/ReVanced/revanced-manager/contents/README.md?ref=main"
         env:
           GITHUB_RUN_ID: ${{ github.run_id }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
