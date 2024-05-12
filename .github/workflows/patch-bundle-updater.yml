@@ -16,6 +16,7 @@ jobs:
     outputs:
       has_changes: ${{ steps.check_changes.outputs.has_changes }}
       changed_files: ${{ steps.find_commit.outputs.changed_files }}
+      cancel_workflow: ${{ steps.run_generate_bundles.outputs.cancel_workflow }}
 
     steps:
       - name: Cancel Previous Runs
@@ -49,7 +50,7 @@ jobs:
           echo "$output"
           if echo "$output" | grep -q "Your branch is up to date with 'origin/bundles'."; then
             echo "Branch is up to date with 'origin/bundles'. Exiting..."
-            echo "CANCEL_WORKFLOW=true" >> $GITHUB_ENV
+            echo "::set-output name=cancel_workflow::true"
           else
             git add '*.json'
             if [ -n "$(git status --porcelain)" ]; then
@@ -57,18 +58,18 @@ jobs:
               git push origin HEAD:${{ github.ref }} --follow-tags
             else
               echo "No changes to commit. Exiting..."
-              echo "CANCEL_WORKFLOW=true" >> $GITHUB_ENV
+              echo "::set-output name=cancel_workflow::true"
             fi
           fi
         working-directory: ${{ github.workspace }}
-        continue-on-error: true      
+        continue-on-error: true
 
       - name: Cancel workflow
         if: steps.run_generate_bundles.outputs.cancel_workflow == 'true'
         uses: action-pack/cancel@v1
         with:
-          token: ${{ secrets.GIT_TOKEN }}
-          
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Check for changes
         id: check_changes
         if: steps.run_generate_bundles.outputs.cancel_workflow != 'true'
