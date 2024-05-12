@@ -58,14 +58,14 @@ jobs:
               git push origin HEAD:${{ github.ref }} --follow-tags
             else
               echo "No changes to commit. Exiting..."
-              echo "::set-output name=cancel_workflow::true"
+              echo "::set-output name=has_changes::false"
             fi
           fi
         working-directory: ${{ github.workspace }}
         continue-on-error: true
 
       - name: Cancel workflow
-        if: steps.run_generate_bundles.outputs.cancel_workflow == 'true' && steps.run_generate_bundles.outputs.has_changes != 'true'
+        if: steps.run_generate_bundles.outputs.cancel_workflow == 'true' && steps.check_changes.outputs.has_changes == 'false'
         uses: action-pack/cancel@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
