@@ -19,9 +19,6 @@ jobs:
       cancel_workflow: ${{ steps.run_generate_bundles.outputs.cancel_workflow }}
 
     steps:
-      - name: Cancel Previous Runs
-        uses: styfle/cancel-workflow-action@main
-
       - name: Checkout code
         uses: actions/checkout@main
         with:
