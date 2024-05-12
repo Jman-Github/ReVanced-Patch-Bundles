@@ -30,7 +30,9 @@ jobs:
             exit 1
           fi
           ARTIFACT_DOWNLOAD_URL="https://github.com/ReVanced/revanced-manager/actions/runs/${GITHUB_RUN_ID}/artifacts/${ARTIFACT_ID}"
+          echo "ARTIFACT_DOWNLOAD_URL: $ARTIFACT_DOWNLOAD_URL"
           python /home/runner/work/ReVanced-Patch-Bundles/ReVanced-Patch-Bundles/update_readme.py $ARTIFACT_DOWNLOAD_URL
+          echo "README updated successfully."
         env:
           GITHUB_RUN_ID: ${{ github.run_id }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
