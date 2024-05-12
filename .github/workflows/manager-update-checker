@@ -1,0 +1,35 @@
+name: Check for compose manager updates
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  download-artifact:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Python dependencies
+        run: |
+          sudo apt-get install jq -y
+          python -m pip install requests
+
+      - name: Get artifact URL
+        id: get_artifact_url
+        run: |
+          ARTIFACT_URL=$(curl -sS "https://api.github.com/repos/ReVanced/revanced-manager/actions/workflows/pr-build.yml/runs?event=pull_request&status=success" | jq -r '.workflow_runs[0].artifacts_url')
+          ARTIFACT_ID=$(curl -sS "$ARTIFACT_URL" | jq -r '.artifacts[0].id')
+          ARTIFACT_DOWNLOAD_URL=$(curl -sS "https://api.github.com/repos/ReVanced/revanced-manager/actions/artifacts/$ARTIFACT_ID/zip" | jq -r '.archive_download_url')
+          echo "::set-output name=artifact_url::$ARTIFACT_DOWNLOAD_URL"
+
+      - name: Download artifact
+        run: |
+          wget -O artifact.zip "${{ steps.get_artifact_url.outputs.artifact_url }}"
+          unzip -q artifact.zip -d artifact
+
+      - name: Run Python script
+        run: |
+          python download_artifact.py
