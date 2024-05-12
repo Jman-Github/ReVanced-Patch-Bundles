@@ -3,7 +3,7 @@ name: Patch bundle updater
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/10 * * * *'
 
 jobs:
   check_for_updates:
