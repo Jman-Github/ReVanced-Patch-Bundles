@@ -2,16 +2,14 @@ import os
 import requests
 import zipfile
 
-def download_latest_artifact():
-    artifact_url = os.environ["ARTIFACT_URL"]
+def download_latest_artifact(artifact_url):
     response = requests.get(artifact_url)
     with open("artifact.zip", "wb") as f:
         f.write(response.content)
     with zipfile.ZipFile("artifact.zip", "r") as zip_ref:
         zip_ref.extractall("artifact")
 
-def update_readme():
-    artifact_url = os.environ["ARTIFACT_URL"]
+def update_readme(artifact_url):
     readme_path = "README.md"
 
     with open(readme_path, "r") as f:
@@ -23,5 +21,6 @@ def update_readme():
         f.writelines(lines)
 
 if __name__ == "__main__":
-    download_latest_artifact()
-    update_readme()
+    artifact_url = os.getenv("ARTIFACT_URL")
+    download_latest_artifact(artifact_url)
+    update_readme(artifact_url)
