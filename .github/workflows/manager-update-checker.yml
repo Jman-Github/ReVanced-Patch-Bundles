@@ -30,11 +30,8 @@ jobs:
           sudo apt-get install jq -y
           python -m pip install requests
 
-      - name: Download and extract artifact
+      - name: Run Python script
         run: |
           wget -O artifact.zip "${{ needs.get-artifact-url.outputs.artifact_url }}"
           unzip -q artifact.zip -d artifact
-
-      - name: Run Python script
-        run: |
           python get_compose_artifact.py
