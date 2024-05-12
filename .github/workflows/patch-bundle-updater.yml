@@ -61,12 +61,6 @@ jobs:
         working-directory: ${{ github.workspace }}
         continue-on-error: true
 
-      - name: Cancel workflow
-        if: steps.run_generate_bundles.outputs.cancel_workflow == 'true' && steps.check_changes.outputs.has_changes == 'false'
-        uses: action-pack/cancel@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Check for changes
         id: check_changes
         if: steps.run_generate_bundles.outputs.cancel_workflow != 'true'
