@@ -49,6 +49,7 @@ jobs:
           echo "$output"
           if echo "$output" | grep -q "Your branch is up to date with 'origin/bundles'."; then
             echo "Branch is up to date with 'origin/bundles'. Exiting..."
+            echo "::set-output name=cancel_workflow::true"
             env.CANCEL_WORKFLOW=true
           else
             git add '*.json'
@@ -57,12 +58,9 @@ jobs:
               git push origin HEAD:${{ github.ref }} --follow-tags
             else
               echo "No changes to commit. Exiting..."
+              echo "::set-output name=cancel_workflow::true"
               env.CANCEL_WORKFLOW=true
             fi
-          fi
-          if [ "${{ env.CANCEL_WORKFLOW }}" == "true" ]; then
-            echo "Cancelling workflow..."
-            echo "::set-output name=cancel_workflow::true"
           fi
         working-directory: ${{ github.workspace }}
         continue-on-error: true
@@ -70,7 +68,9 @@ jobs:
       - name: Cancel workflow
         if: steps.run_generate_bundles.outputs.cancel_workflow == 'true'
         uses: action-pack/cancel@v1
-
+        with:
+          token: ${{ secrets.GIT_TOKEN }}
+          
       - name: Check for changes
         id: check_changes
         if: steps.run_generate_bundles.outputs.cancel_workflow != 'true'
