@@ -57,9 +57,9 @@ This repository automatically checks for patch and integration updates from the 
 #### 📦 BiliRoamingX-Patches-Bundle:
 ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/biliroamingx-patches-bundle.json```
 
-# 📱 ReVanced Compose Manager:
+# 📱 ReVanced Manager Compose:
 #### 📋 Source:
-https://github.com/ReVanced/revanced-manager/actions/runs/8905129319
+https://github.com/ReVanced/revanced-manager/tree/compose-dev
 #### 📩 Latest Download:
 https://github.com/ReVanced/revanced-manager/actions/runs/8905129319/artifacts/1462850032
 
