@@ -1,6 +1,7 @@
 import sys
 import os
 import requests
+import base64  # Adding the import statement for base64 module
 
 def update_readme(artifact_url):
     readme_path = os.path.join(os.environ["GITHUB_WORKSPACE"], "README.md")
