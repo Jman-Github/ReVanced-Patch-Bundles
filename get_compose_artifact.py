@@ -1,3 +1,4 @@
+import os
 import sys
 
 def update_readme(artifact_url):
