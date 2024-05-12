@@ -30,7 +30,7 @@ jobs:
             echo "Failed to fetch artifact ID."
             exit 1
           fi
-          ARTIFACT_DOWNLOAD_URL="https://github.com/ReVanced/revanced-manager/actions/runs/${{ github.run_id }}/artifacts/${ARTIFACT_ID}/zip"
+          ARTIFACT_DOWNLOAD_URL="https://github.com/ReVanced/revanced-manager/actions/runs/${{ github.run_id }}/artifacts/${ARTIFACT_ID}"
           echo "::set-output name=artifact_url::$ARTIFACT_DOWNLOAD_URL"
           echo "ARTIFACT_DOWNLOAD_URL: $ARTIFACT_DOWNLOAD_URL"
           echo "ARTIFACT_ID: $ARTIFACT_ID"
