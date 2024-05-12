@@ -49,7 +49,7 @@ jobs:
           echo "$output"
           if echo "$output" | grep -q "Your branch is up to date with 'origin/bundles'."; then
             echo "Branch is up to date with 'origin/bundles'. Exiting..."
-            exit 0
+            env.CANCEL_WORKFLOW=true
           else
             git add '*.json'
             if [ -n "$(git status --porcelain)" ]; then
@@ -57,13 +57,23 @@ jobs:
               git push origin HEAD:${{ github.ref }} --follow-tags
             else
               echo "No changes to commit. Exiting..."
-              exit 0
+              env.CANCEL_WORKFLOW=true
             fi
           fi
+          if [ "${{ env.CANCEL_WORKFLOW }}" == "true" ]; then
+            echo "Cancelling workflow..."
+            echo "::set-output name=cancel_workflow::true"
+          fi
         working-directory: ${{ github.workspace }}
+        continue-on-error: true
+
+      - name: Cancel workflow
+        if: steps.run_generate_bundles.outputs.cancel_workflow == 'true'
+        uses: action-pack/cancel@v1
 
       - name: Check for changes
         id: check_changes
+        if: steps.run_generate_bundles.outputs.cancel_workflow != 'true'
         run: |
           if git diff --quiet HEAD HEAD^ -- '*.json'; then
             echo "::set-output name=has_changes::false"
