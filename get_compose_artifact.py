@@ -1,16 +1,7 @@
-import os
-import requests
-import zipfile
-
-def download_latest_artifact(artifact_url):
-    response = requests.get(artifact_url)
-    with open("artifact.zip", "wb") as f:
-        f.write(response.content)
-    with zipfile.ZipFile("artifact.zip", "r") as zip_ref:
-        zip_ref.extractall("artifact")
+import sys
 
 def update_readme(artifact_url):
-    readme_path = "artifact/README.md"
+    readme_path = "README.md"
 
     with open(readme_path, "r") as f:
         lines = f.readlines()
@@ -21,6 +12,5 @@ def update_readme(artifact_url):
         f.writelines(lines)
 
 if __name__ == "__main__":
-    artifact_url = os.getenv("ARTIFACT_URL")
-    download_latest_artifact(artifact_url)
+    artifact_url = sys.argv[1]
     update_readme(artifact_url)
