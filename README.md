@@ -61,7 +61,6 @@ This repository automatically checks for patch and integration updates from the 
 
 ### 📦 Twitter-Patches-Bundle:
 *Stable:* ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/twitter-stable-patches-bundle.json```
-https://github.com/ReVanced/revanced-manager/actions/runs/8905129319/artifacts/1462850032
 
 *Dev:* ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/twitter-dev-patches-bundle.json```
 
