@@ -20,11 +20,10 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
         releases = response.json()
         if latest_flag:
             target_release = max(releases, key=lambda x: x["published_at"])
+        elif prerelease:
+            target_release = max((release for release in releases if release["prerelease"]), key=lambda x: x["published_at"], default=None)
         else:
-            if prerelease:
-                target_release = max((release for release in releases if release["prerelease"]), key=lambda x: x["published_at"], default=None)
-            else:
-                target_release = max((release for release in releases if not release["prerelease"]), key=lambda x: x["published_at"], default=None)
+            target_release = max((release for release in releases if not release["prerelease"]), key=lambda x: x["published_at"], default=None)
         
         if target_release:
             version, asset_url = await get_version_url(target_release)
