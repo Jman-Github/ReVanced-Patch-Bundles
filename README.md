@@ -68,6 +68,7 @@ https://github.com/ReVanced/revanced-manager/actions/runs/8905129319/artifacts/1
 
 
 
+
 # 🩹 Patch Repositorys In Use
 #### 🏷️ Anddea-Patches-Bundle:
 https://github.com/anddea/revanced-patches
