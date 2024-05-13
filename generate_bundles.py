@@ -3,7 +3,7 @@ import json
 import subprocess
 from httpx import AsyncClient, Timeout
 
-async def get_latest_release(repo_url):
+async def get_latest_release(repo_url, prerelease):
     async def get_version_url(release):
         version = release['tag_name']
         for asset in release["assets"]:
@@ -21,24 +21,25 @@ async def get_latest_release(repo_url):
         latest_prerelease = None
         latest_regular_release = None
         for release in releases:
-            if release["prerelease"]:
+            if prerelease and release["prerelease"]:
                 if not latest_prerelease or release["published_at"] > latest_prerelease["published_at"]:
                     latest_prerelease = release
-            else:
+            elif not prerelease and not release["prerelease"]:
                 if not latest_regular_release or release["published_at"] > latest_regular_release["published_at"]:
                     latest_regular_release = release
-        if latest_regular_release and latest_prerelease:
-            if latest_regular_release["published_at"] > latest_prerelease["published_at"]:
-                target_release = latest_regular_release
-            else:
-                target_release = latest_prerelease
-        elif latest_regular_release:
-            target_release = latest_regular_release
-        else:
-            target_release = latest_prerelease
         
-        version, asset_url = await get_version_url(target_release)
-        return version, asset_url
+        if prerelease:
+            target_release = latest_prerelease
+        else:
+            target_release = latest_regular_release
+        
+        if target_release:
+            version, asset_url = await get_version_url(target_release)
+            return version, asset_url
+        else:
+            return None, None
+    else:
+        return None, None
 
 async def main():
     with open('bundle-sources.json') as file:
@@ -49,8 +50,9 @@ async def main():
     subprocess.run(["git", "config", "user.name", "github-actions[bot]"])
 
     for source, repo in sources.items():
-        patches_version, patches_asset_url = await get_latest_release(repo.get('patches'))
-        integration_version, integration_asset_url = await get_latest_release(repo.get('integration'))
+        prerelease = repo.get('prerelease', False)
+        patches_version, patches_asset_url = await get_latest_release(repo.get('patches'), prerelease)
+        integration_version, integration_asset_url = await get_latest_release(repo.get('integration'), prerelease)
         
         # Check if patches_version, patches_asset_url, integration_version, and integration_asset_url are not None
         if patches_version is not None and patches_asset_url is not None and integration_version is not None and integration_asset_url is not None:

@@ -1,52 +1,103 @@
 {
-  "piko": {
+  "piko-stable": {
     "patches": "https://api.github.com/repos/crimera/piko",
     "integration": "https://api.github.com/repos/crimera/revanced-integrations",
-    "prerelease": true
+    "prerelease": false
   },
-  "anddea": {
+  "anddea-stable": {
     "patches": "https://api.github.com/repos/anddea/revanced-patches",
     "integration": "https://api.github.com/repos/anddea/revanced-integrations",
-    "prerelease": true
+    "prerelease": false
   },
-  "experimental": {
+  "experimental-stable": {
     "patches": "https://api.github.com/repos/Aunali321/ReVancedExperiments",
     "integration": "https://api.github.com/repos/revanced/revanced-integrations",
-    "prerelease": true
+    "prerelease": false
   },
-  "privacy": {
+  "privacy-stable": {
     "patches": "https://api.github.com/repos/jkennethcarino/privacy-revanced-patches",
     "integration": "https://api.github.com/repos/jkennethcarino/privacy-revanced-integrations",
-    "prerelease": true
+    "prerelease": false
   },
-  "rex": {
+  "rex-stable": {
     "patches": "https://api.github.com/repos/YT-Advanced/ReX-patches",
     "integration": "https://api.github.com/repos/YT-Advanced/ReX-integrations",
-    "prerelease": true
+    "prerelease": false
   },
-  "twitter": {
+  "twitter-stable": {
     "patches": "https://api.github.com/repos/IndusAryan/twitter-patches",
     "integration": "https://api.github.com/repos/revanced/revanced-integrations",
-    "prerelease": true
+    "prerelease": false
   },
-  "rufusin": { 
+  "rufusin-stable": { 
     "patches": "https://api.github.com/repos/rufusin/revanced-patches",
     "integration": "https://api.github.com/repos/rufusin/revanced-integrations",
-    "prerelease": true
+    "prerelease": false
      },
-  "dropped": { 
+  "dropped-stable": { 
     "patches": "https://api.github.com/repos/indrastorms/dropped-patches",
     "integration": "https://api.github.com/repos/revanced/revanced-integrations",
-    "prerelease": true
+    "prerelease": false
      },
-  "inotia00": { 
+  "inotia00-stable": { 
     "patches": "https://api.github.com/repos/inotia00/revanced-patches",
     "integration": "https://api.github.com/repos/inotia00/revanced-integrations",
-    "prerelease": true
+    "prerelease": false
      },
-  "biliroamingx": { 
+  "biliroamingx-stable": { 
       "patches": "https://api.github.com/repos/BiliRoamingX/BiliRoamingX",
       "integration": "https://api.github.com/repos/BiliRoamingX/BiliRoamingX",
+      "prerelease": false
+    },
+  "piko-dev": {
+      "patches": "https://api.github.com/repos/crimera/piko",
+      "integration": "https://api.github.com/repos/crimera/revanced-integrations",
       "prerelease": true
-  }
-}
+        },
+  "anddea-dev": {
+      "patches": "https://api.github.com/repos/anddea/revanced-patches",
+      "integration": "https://api.github.com/repos/anddea/revanced-integrations",
+      "prerelease": true
+        },
+  "experimental-dev": {
+      "patches": "https://api.github.com/repos/Aunali321/ReVancedExperiments",
+      "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+      "prerelease": true
+        },
+  "privacy-dev": {
+      "patches": "https://api.github.com/repos/jkennethcarino/privacy-revanced-patches",
+      "integration": "https://api.github.com/repos/jkennethcarino/privacy-revanced-integrations",
+      "prerelease": true
+        },
+  "rex-dev": {
+      "patches": "https://api.github.com/repos/YT-Advanced/ReX-patches",
+      "integration": "https://api.github.com/repos/YT-Advanced/ReX-integrations",
+      "prerelease": true
+        },
+  "twitter-dev": {
+      "patches": "https://api.github.com/repos/IndusAryan/twitter-patches",
+      "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+      "prerelease": true
+        },
+  "rufusin-dev": { 
+      "patches": "https://api.github.com/repos/rufusin/revanced-patches",
+      "integration": "https://api.github.com/repos/rufusin/revanced-integrations",
+      "prerelease": true
+           },
+  "dropped-dev": { 
+      "patches": "https://api.github.com/repos/indrastorms/dropped-patches",
+      "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+      "prerelease": true
+           },
+  "inotia00-dev": { 
+      "patches": "https://api.github.com/repos/inotia00/revanced-patches",
+      "integration": "https://api.github.com/repos/inotia00/revanced-integrations",
+      "prerelease": true
+           },
+  "biliroamingx-dev": { 
+        "patches": "https://api.github.com/repos/BiliRoamingX/BiliRoamingX",
+        "integration": "https://api.github.com/repos/BiliRoamingX/BiliRoamingX",
+        "prerelease": true
+    
+        }
+      }
