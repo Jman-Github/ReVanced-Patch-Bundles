@@ -3,7 +3,7 @@ import json
 import subprocess
 from httpx import AsyncClient, Timeout
 
-async def get_latest_release(repo_url, prerelease):
+async def get_latest_release(repo_url, prerelease, latest_flag=False):
     async def get_version_url(release):
         version = release['tag_name']
         for asset in release["assets"]:
@@ -18,20 +18,13 @@ async def get_latest_release(repo_url, prerelease):
     response = await AsyncClient().get(api_url, timeout=timeout)
     if response.status_code == 200:
         releases = response.json()
-        latest_prerelease = None
-        latest_regular_release = None
-        for release in releases:
-            if prerelease and release["prerelease"]:
-                if not latest_prerelease or release["published_at"] > latest_prerelease["published_at"]:
-                    latest_prerelease = release
-            elif not prerelease and not release["prerelease"]:
-                if not latest_regular_release or release["published_at"] > latest_regular_release["published_at"]:
-                    latest_regular_release = release
-        
-        if prerelease:
-            target_release = latest_prerelease
+        if latest_flag:
+            target_release = max(releases, key=lambda x: x["published_at"])
         else:
-            target_release = latest_regular_release
+            if prerelease:
+                target_release = max((release for release in releases if release["prerelease"]), key=lambda x: x["published_at"], default=None)
+            else:
+                target_release = max((release for release in releases if not release["prerelease"]), key=lambda x: x["published_at"], default=None)
         
         if target_release:
             version, asset_url = await get_version_url(target_release)
@@ -53,8 +46,9 @@ async def main():
 
     for source, repo in sources.items():
         prerelease = repo.get('prerelease', False)
-        patches_version, patches_asset_url = await get_latest_release(repo.get('patches'), prerelease)
-        integration_version, integration_asset_url = await get_latest_release(repo.get('integration'), prerelease)
+        latest_flag = repo.get('latest', False)  # Retrieving the 'latest' flag
+        patches_version, patches_asset_url = await get_latest_release(repo.get('patches'), prerelease, latest_flag)
+        integration_version, integration_asset_url = await get_latest_release(repo.get('integration'), prerelease, latest_flag)
         
         # Check if patches_version, patches_asset_url, integration_version, and integration_asset_url are not None
         if patches_version is not None and patches_asset_url is not None and integration_version is not None and integration_asset_url is not None:
