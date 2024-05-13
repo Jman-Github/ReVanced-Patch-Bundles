@@ -30,64 +30,44 @@ This repository automatically checks for patch and integration updates from the 
 > [!WARNING]  
 > Some of the dev-patch-bundle sources will not be working. This is due to some of the repositories having never created a prerelease. Those sources will have "N/A" in the repsective patch-bundle.json files. The current dev-patch-bundle sources that have this issue are BiliRoamingX, Rufusin and ReX.
 #### 📦 Anddea-Patches-Bundle:
-###### Stable: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/anddea-stable-patches-bundle.json```
-###### Dev: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/biliroamingx-dev-patches-bundle.json```
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/anddea-stable-patches-bundle.json```
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/anddea-dev-patches-bundle.json```
 
 #### 📦 Experimental-Patches-Bundle:
-###### Stable: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/anddea-stable-patches-bundle.json```
-###### Dev: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/biliroamingx-dev-patches-bundle.json```
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/experimental-stable-patches-bundle.json```
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/experimental-dev-patches-bundle.json```
 
 #### 📦 Piko-Patches-Bundle:
-###### Stable: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/anddea-stable-patches-bundle.json```
-###### Dev: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/biliroamingx-dev-patches-bundle.json```
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/piko-stable-patches-bundle.json```
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/piko-dev-patches-bundle.json```
 
 #### 📦 Privacy-Patches-Bundle:
-###### Stable: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/anddea-stable-patches-bundle.json```
-###### Dev: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/biliroamingx-dev-patches-bundle.json```
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/privacy-stable-patches-bundle.json```
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/privacy-dev-patches-bundle.json```
 
 #### 📦 ReX-Patches-Bundle:
-###### Stable: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/anddea-stable-patches-bundle.json```
-###### Dev: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/biliroamingx-dev-patches-bundle.json```
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/rex-stable-patches-bundle.json```
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/rex-dev-patches-bundle.json```
 
 #### 📦 Rufusin-Patches-Bundle:
-###### Stable: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/anddea-stable-patches-bundle.json```
-###### Dev: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/biliroamingx-dev-patches-bundle.json```
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/rufusin-stable-patches-bundle.json```
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/rufusin-dev-patches-bundle.json```
 
 #### 📦 Twitter-Patches-Bundle:
-###### Stable: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/anddea-stable-patches-bundle.json```
-###### Dev:
- ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/biliroamingx-dev-patches-bundle.json```
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/twitter-stable-patches-bundle.json```
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/twitter-dev-patches-bundle.json```
 
 #### 📦 Dropped-Patches-Bundle:
-###### Stable: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/anddea-stable-patches-bundle.json```
-###### Dev: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/biliroamingx-dev-patches-bundle.json```
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/dropped-stable-patches-bundle.json```
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/dropped-dev-patches-bundle.json```
 
 #### 📦 Inotia00-Patches-Bundle:
-###### Stable: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/anddea-stable-patches-bundle.json```
-###### Dev: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/biliroamingx-dev-patches-bundle.json```
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/inotia00-stable-patches-bundle.json```
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/inotia00-dev-patches-bundle.json```
 
 #### 📦 BiliRoamingX-Patches-Bundle:
-###### Stable: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/anddea-stable-patches-bundle.json```
-###### Dev: 
-```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/biliroamingx-dev-patches-bundle.json```
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/biliroamingx-stable-patches-bundle.json```
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/biliroamingx-dev-patches-bundle.json```
 
 # 📱 ReVanced Manager Compose:
 #### 📋 Source:
