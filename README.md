@@ -28,8 +28,8 @@ Like me or unlike me!
 # ❓ About 
 This repository automatically checks for patch and integration updates from the repositorys listed [below](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/README.md#patch-repositorys-in-use-) every 10 minutes. These repositories are alternative ReVanced patch and integration sources for extended patch sources. The links listed below are used for the patch bundles sources in the [ReVanced Manager Compose](https://github.com/ReVanced/revanced-manager/tree/compose-dev). Use these links to set your patch bundles inside the ReVanced Manager Compose. Choose between dev releases and stable releases of the patch bundles. The links will import the patch bundles (integrations & patches) into the manager which should update the bundles every time these links have a change in their code. *If you have any other working ReVanced alternative patch and integration repositories that aren't already included in this repository, please create an [issue](https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues) to let me know.*
 #### 📦 Anddea-Patches-Bundle:
-###### Stable: ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/anddea-stable-patches-bundle.json```
-###### Dev: ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/biliroamingx-dev-patches-bundle.json```
+##### Stable: ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/anddea-stable-patches-bundle.json```
+##### Dev: ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/biliroamingx-dev-patches-bundle.json```
 
 #### 📦 Experimental-Patches-Bundle:
 ##### Stable: ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/anddea-stable-patches-bundle.json```
