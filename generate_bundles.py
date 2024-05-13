@@ -21,8 +21,6 @@ async def get_latest_release(repo_url, prerelease):
         latest_prerelease = None
         latest_regular_release = None
         for release in releases:
-            print("Release:", release)
-            print("Prerelease:", release["prerelease"])
             if prerelease and release["prerelease"]:
                 if not latest_prerelease or release["published_at"] > latest_prerelease["published_at"]:
                     latest_prerelease = release
@@ -30,20 +28,16 @@ async def get_latest_release(repo_url, prerelease):
                 if not latest_regular_release or release["published_at"] > latest_regular_release["published_at"]:
                     latest_regular_release = release
         
-        print("Latest Prerelease:", latest_prerelease)
-        print("Latest Regular Release:", latest_regular_release)
-        
         if prerelease:
             target_release = latest_prerelease
         else:
             target_release = latest_regular_release
         
-        print("Target Release:", target_release)
-        
         if target_release:
             version, asset_url = await get_version_url(target_release)
             return version, asset_url
         else:
+            print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
             return None, None
     else:
         print("Failed to fetch releases")
