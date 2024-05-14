@@ -4,13 +4,16 @@ import subprocess
 from httpx import AsyncClient, Timeout
 
 async def get_latest_release(repo_url, prerelease, latest_flag=False):
-    async def get_version_url(release):
+    async def get_version_urls(release):
         version = release['tag_name']
-        asset_urls = [asset['browser_download_url'] for asset in release["assets"] if asset["browser_download_url"].endswith((".jar", ".apk"))]
-        if asset_urls:
-            return version, asset_urls
-        print(f"No asset found for the {version}")
-        return None, None
+        patches_url = None
+        integrations_url = None
+        for asset in release["assets"]:
+            if asset["browser_download_url"].endswith(".jar"):
+                patches_url = asset['browser_download_url']
+            elif asset["browser_download_url"].endswith(".apk"):
+                integrations_url = asset['browser_download_url']
+        return version, patches_url, integrations_url
 
     api_url = f"{repo_url}/releases"
     timeout = Timeout(connect=30.0, read=60.0, write=None, pool=None)
@@ -26,14 +29,13 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
             target_release = max((release for release in releases if not release["prerelease"]), key=lambda x: x["published_at"], default=None)
         
         if target_release:
-            version, asset_urls = await get_version_url(target_release)
-            return version, asset_urls
+            return await get_version_urls(target_release)
         else:
             print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
-            return None, None
+            return None, None, None
     else:
         print("Failed to fetch releases")
-        return None, None
+        return None, None, None
 
 async def main():
     with open('bundle-sources.json') as file:
@@ -46,18 +48,18 @@ async def main():
     for source, repo in sources.items():
         prerelease = repo.get('prerelease', False)
         latest_flag = repo.get('latest', False)  # Retrieving the 'latest' flag
-        patches_version, patches_asset_urls = await get_latest_release(repo.get('patches'), prerelease, latest_flag)
-        integration_version, integration_asset_urls = await get_latest_release(repo.get('integration'), prerelease, latest_flag)
+        patches_version, patches_asset_url, _ = await get_latest_release(repo.get('patches'), prerelease, latest_flag)
+        integrations_version, _, integration_asset_url = await get_latest_release(repo.get('integration'), prerelease, latest_flag)
         
-        if patches_version is not None and patches_asset_urls is not None:
+        if patches_version and patches_asset_url and integrations_version and integration_asset_url:
             info_dict = {
                 "patches": {
                     "version": patches_version,
-                    "urls": patches_asset_urls
+                    "url": patches_asset_url
                 },
                 "integrations": {
-                    "version": integration_version,
-                    "urls": integration_asset_urls
+                    "version": integrations_version,
+                    "url": integration_asset_url
                 }
             }
             with open(f'{source}-patches-bundle.json', 'w') as file:
