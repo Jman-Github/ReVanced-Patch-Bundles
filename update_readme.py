@@ -17,7 +17,7 @@ def update_readme(artifact_url):
         readme_content = response.json()
         readme_content_decoded = base64.b64decode(readme_content["content"]).decode("utf-8")
         lines = readme_content_decoded.split("\n")
-        lines[99] = f"{artifact_url}"  # Editing line 99
+        lines[181] = f"{artifact_url}"  # Editing line 181
         new_content = "\n".join(lines)
         update_data = {
             "message": "Updated manager download link to latest",
