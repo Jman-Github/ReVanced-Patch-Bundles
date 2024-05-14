@@ -6,16 +6,16 @@ from httpx import AsyncClient, Timeout
 async def get_latest_release(repo_url, prerelease, latest_flag=False):
     async def get_version_url(release):
         version = release['tag_name']
-        for asset in release["assets"]:
-            if asset["browser_download_url"].endswith(".jar") or asset["browser_download_url"].endswith(".apk"):
-                asset_url = asset['browser_download_url']
-                return version, asset_url
+        asset_urls = [asset['browser_download_url'] for asset in release["assets"] if asset["browser_download_url"].endswith((".jar", ".apk"))]
+        if asset_urls:
+            return version, asset_urls
         print(f"No asset found for the {version}")
         return None, None
 
     api_url = f"{repo_url}/releases"
     timeout = Timeout(connect=30.0, read=60.0, write=None, pool=None)
-    response = await AsyncClient().get(api_url, timeout=timeout)
+    async with AsyncClient(timeout=timeout) as client:
+        response = await client.get(api_url)
     if response.status_code == 200:
         releases = response.json()
         if latest_flag:
@@ -26,8 +26,8 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
             target_release = max((release for release in releases if not release["prerelease"]), key=lambda x: x["published_at"], default=None)
         
         if target_release:
-            version, asset_url = await get_version_url(target_release)
-            return version, asset_url
+            version, asset_urls = await get_version_url(target_release)
+            return version, asset_urls
         else:
             print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
             return None, None
@@ -46,19 +46,18 @@ async def main():
     for source, repo in sources.items():
         prerelease = repo.get('prerelease', False)
         latest_flag = repo.get('latest', False)  # Retrieving the 'latest' flag
-        patches_version, patches_asset_url = await get_latest_release(repo.get('patches'), prerelease, latest_flag)
-        integration_version, integration_asset_url = await get_latest_release(repo.get('integration'), prerelease, latest_flag)
+        patches_version, patches_asset_urls = await get_latest_release(repo.get('patches'), prerelease, latest_flag)
+        integration_version, integration_asset_urls = await get_latest_release(repo.get('integration'), prerelease, latest_flag)
         
-        # Check if patches_version, patches_asset_url, integration_version, and integration_asset_url are not None
-        if patches_version is not None and patches_asset_url is not None and integration_version is not None and integration_asset_url is not None:
+        if patches_version is not None and patches_asset_urls is not None:
             info_dict = {
                 "patches": {
                     "version": patches_version,
-                    "url": patches_asset_url
+                    "urls": patches_asset_urls
                 },
                 "integrations": {
                     "version": integration_version,
-                    "url": integration_asset_url
+                    "urls": integration_asset_urls
                 }
             }
             with open(f'{source}-patches-bundle.json', 'w') as file:
@@ -72,7 +71,6 @@ async def main():
     
     # Commit the changes
     subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
-    
 
 if __name__ == "__main__":
     asyncio.run(main())
