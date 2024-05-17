@@ -179,7 +179,7 @@ https://github.com/ReVanced/revanced-manager/actions/runs/8905129319/artifacts/1
 #### [⛓ Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
 
 #### [⛓ Experimental-Patches-Bundle](https://github.com/Aunali321/ReVancedExperiments)
-https://github.com/ReVanced/revanced-manager/actions/runs/8905129319/artifacts/1462850032
+<details>
 <summary><i>Expand For More Information<i></summary>
 
 *Uses default ReVanced Intergrations.*
