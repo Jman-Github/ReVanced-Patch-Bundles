@@ -154,57 +154,47 @@ https://github.com/ReVanced/revanced-manager/tree/compose-dev
 https://github.com/ReVanced/revanced-manager/actions/runs/8905129319/artifacts/1462850032
 
 # 🩹 Patch Repositorys In Use
-#### [🏷️ Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
+#### 🏷️ [Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
 
-#### [🏷️ Experimental-Patches-Bundle](https://github.com/Aunali321/ReVancedExperiments)
+#### 🏷️ [Experimental-Patches-Bundle](https://github.com/Aunali321/ReVancedExperiments)
 
-#### [🏷️ Piko-Patches-Bundle](https://github.com/crimera/piko)
+#### 🏷️ [Piko-Patches-Bundle](https://github.com/crimera/piko)
 
-#### [🏷️ Privacy-Patches-Bundle](https://github.com/jkennethcarino/privacy-revanced-patches)
+#### 🏷️ [Privacy-Patches-Bundle](https://github.com/jkennethcarino/privacy-revanced-patches)
 
-#### [🏷️ ReX-Patches-Bundle](https://github.com/YT-Advanced/ReX-patches)
+#### 🏷️ [ReX-Patches-Bundle](https://github.com/YT-Advanced/ReX-patches)
 
-#### [🏷️ Rufusin-Patches-Bundle](https://github.com/rufusin/revanced-patches)
+#### 🏷️ [Rufusin-Patches-Bundle](https://github.com/rufusin/revanced-patches)
 
-#### [🏷️ Twitter-Patches-Bundle](https://github.com/IndusAryan/twitter-patches)
+#### 🏷️ [Twitter-Patches-Bundle](https://github.com/IndusAryan/twitter-patches)
 
-#### [🏷️ Dropped-Patches-Bundle](https://github.com/indrastorms/Dropped-Patches)
+#### 🏷️ [Dropped-Patches-Bundle](https://github.com/indrastorms/Dropped-Patches)
 
-#### [🏷️ Inotia00-Patches-Bundle](https://github.com/inotia00/revanced-Patches)
+#### 🏷️ [Inotia00-Patches-Bundle](https://github.com/inotia00/revanced-Patches)
 
-#### [🏷️ BiliRoamingX-Patches-Bundle](https://github.com/BiliRoamingX/BiliRoamingX)
+#### 🏷️ [BiliRoamingX-Patches-Bundle](https://github.com/BiliRoamingX/BiliRoamingX)
 
 
 # 🖇 Intergrations Repositorys In Use
 #### [⛓ Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
 
-#### [⛓ Experimental-Patches-Bundle](https://github.com/Aunali321/ReVancedExperiments)
-<details>
-<summary><i>Expand For More Information<i></summary>
+#### ⛓ [Experimental-Patches-Bundle](https://github.com/Aunali321/ReVancedExperiments)
 
-Uses default ReVanced Intergrations.
-</details>
+#### ⛓ [Piko-Patches-Bundle](https://github.com/crimera/piko)
 
-#### [⛓ Piko-Patches-Bundle](https://github.com/crimera/piko)
+#### ⛓ [Privacy-Patches-Bundle](https://github.com/jkennethcarino/privacy-revanced-patches)
 
-#### [⛓ Privacy-Patches-Bundle](https://github.com/jkennethcarino/privacy-revanced-patches)
+#### ⛓ [ReX-Patches-Bundle](https://github.com/YT-Advanced/ReX-patches)
 
-#### [⛓ ReX-Patches-Bundle](https://github.com/YT-Advanced/ReX-patches)
+#### ⛓ [Rufusin-Patches-Bundle](https://github.com/rufusin/revanced-patches)
 
-#### [⛓ Rufusin-Patches-Bundle](https://github.com/rufusin/revanced-patches)
+#### ⛓ [Twitter-Patches-Bundle](https://github.com/IndusAryan/twitter-patches)
 
-#### [⛓ Twitter-Patches-Bundle](https://github.com/IndusAryan/twitter-patches)
+#### ⛓ [Dropped-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
-#### [⛓ Dropped-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
-<details>
-<summary><i>Expand For More Information<i></summary>
+#### ⛓ [Inotia00-Patches-Bundle](https://github.com/inotia00/revanced-integrations)
 
-Uses default ReVanced Intergrations.
-</details>
-
-#### [⛓ Inotia00-Patches-Bundle](https://github.com/inotia00/revanced-integrations)
-
-#### [⛓ BiliRoamingX-Patches-Bundle](https://github.com/BiliRoamingX/BiliRoamingX)
+#### ⛓ [BiliRoamingX-Patches-Bundle](https://github.com/BiliRoamingX/BiliRoamingX)
 
 ## 🤝 Contributors
 ##### [indrastorms](https://github.com/indrastorms)
