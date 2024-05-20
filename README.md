@@ -182,8 +182,7 @@ https://github.com/ReVanced/revanced-manager/actions/runs/8905129319/artifacts/1
 <details>
 <summary><i>Expand For More Information<i></summary>
 
-*Uses default ReVanced Intergrations.*
-
+Uses default ReVanced Intergrations.
 </details>
 
 #### [⛓ Piko-Patches-Bundle](https://github.com/crimera/piko)
@@ -200,8 +199,7 @@ https://github.com/ReVanced/revanced-manager/actions/runs/8905129319/artifacts/1
 <details>
 <summary><i>Expand For More Information<i></summary>
 
-*Uses default ReVanced Intergrations.*
-
+Uses default ReVanced Intergrations.
 </details>
 
 #### [⛓ Inotia00-Patches-Bundle](https://github.com/inotia00/revanced-integrations)
