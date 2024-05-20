@@ -176,7 +176,7 @@ https://github.com/ReVanced/revanced-manager/actions/runs/8905129319/artifacts/1
 
 
 # 🖇 Intergrations Repositorys In Use
-#### [⛓ Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
+#### ⛓ [Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
 
 #### ⛓ [Experimental-Patches-Bundle](https://github.com/Aunali321/ReVancedExperiments)
 
