@@ -151,7 +151,7 @@ https://github.com/ReVanced/revanced-manager/actions/runs/9327340654/artifacts/1
 #### 🏷️ [Dropped-Patches-Bundle](https://github.com/indrastorms/Dropped-Patches)
 
 #### 🏷️ [Inotia00-Patches-Bundle](https://github.com/inotia00/revanced-Patches)
-
+https://github.com/ReVanced/revanced-manager/actions/runs/9327340654/artifacts/1558250268
 #### 🏷️ [BiliRoamingX-Patches-Bundle](https://github.com/BiliRoamingX/BiliRoamingX)
 
 
