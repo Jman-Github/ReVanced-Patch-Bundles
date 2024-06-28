@@ -12,6 +12,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Pull latest changes
+        run: git pull origin bundles
+
       - name: Install Python dependencies
         run: |
           sudo apt-get install jq -y
@@ -39,35 +42,9 @@ jobs:
           GITHUB_RUN_ID: ${{ github.run_id }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Display README before update
-        run: cat README.md
-
       - name: Update README
         run: |
-          echo "Running update_readme.py script"
           python update_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
-          echo "Script executed"
-          cat README.md
         env:
           GITHUB_RUN_ID: ${{ github.run_id }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Force a file change if no changes detected
-        run: |
-          if git diff --exit-code README.md; then
-            echo "# Force change to trigger commit" >> README.md
-          fi
-
-      - name: Display README after update
-        run: cat README.md
-
-      - name: Commit and Push changes
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add README.md
-          git commit -m "Update README.md with new artifact URL"
-          git pull --rebase origin bundles
-          git push
-        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
