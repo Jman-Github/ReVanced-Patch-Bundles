@@ -49,6 +49,13 @@ jobs:
         id: update_script
         run: |
           python update_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
+          script_exit_code=$?
+          echo "Script exit code: $script_exit_code"
+          if [ $script_exit_code -ne 0 ]; then
+            echo "Failed to execute update_readme.py script."
+            exit 1
+          fi
+          echo "Script executed successfully."
         env:
           GITHUB_RUN_ID: ${{ github.run_id }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -64,10 +71,13 @@ jobs:
           if git diff --quiet; then
             echo "No changes detected in README.md"
             exit 0
+          else
+            echo "Changes detected in README.md"
+            echo "::set-output name=changed::true"
           fi
 
       - name: Commit changes
-        if: success() && steps.update_script.outputs.changed == 'true'
+        if: success() && steps.check_for_changes.outputs.changed == 'true'
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
