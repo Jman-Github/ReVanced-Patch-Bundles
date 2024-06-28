@@ -179,4 +179,3 @@ https://github.com/ReVanced/revanced-manager/actions/runs/9653452701/artifacts/1
 ## 🤝 Contributors
 ##### [indrastorms](https://github.com/indrastorms)
 Helped with the automation of this repository by using Github Actions.
-# Force change to trigger commit
