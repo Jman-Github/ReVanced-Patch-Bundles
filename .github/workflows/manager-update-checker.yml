@@ -49,7 +49,15 @@ jobs:
           GITHUB_RUN_ID: ${{ github.run_id }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Check for changes
+        run: |
+          if git diff --exit-code; then
+            echo "No changes detected in README.md"
+            exit 0
+          fi
+
       - name: Commit changes
+        if: success()
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
