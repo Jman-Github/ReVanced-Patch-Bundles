@@ -45,7 +45,8 @@ jobs:
       - name: Debug before update
         run: cat README.md
 
-      - name: Update README
+      - name: Run update script
+        id: update_script
         run: |
           python update_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
         env:
