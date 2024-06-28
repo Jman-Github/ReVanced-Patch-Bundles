@@ -39,12 +39,18 @@ jobs:
           GITHUB_RUN_ID: ${{ github.run_id }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Display README before update
+        run: cat README.md
+
       - name: Update README
         run: |
           python update_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
         env:
           GITHUB_RUN_ID: ${{ github.run_id }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Display README after update
+        run: cat README.md
 
       - name: Commit and Push changes
         run: |
@@ -55,3 +61,4 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
