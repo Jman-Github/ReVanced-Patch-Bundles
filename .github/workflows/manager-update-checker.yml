@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Pull latest changes
-        run: git pull origin bundles
+        run: git pull origin main
 
       - name: Install Python dependencies
         run: |
@@ -47,4 +47,14 @@ jobs:
           python update_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
         env:
           GITHUB_RUN_ID: ${{ github.run_id }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m "Update README with new artifact URL"
+          git push origin main
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
