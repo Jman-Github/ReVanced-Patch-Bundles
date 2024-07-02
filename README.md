@@ -127,6 +127,54 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/biliroamingx-dev-patches-bundle.json```
 </details>
 
+### 📦 Wyse--Patches-Bundle:
+
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/wyse--latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/wyse--stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/wyse--dev-patches-bundle.json```
+</details>
+
+### 📦 BholeyKaBhakt-Patches-Bundle:
+
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/bholeykabhakt-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/bholeykabhakt-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/bholeykabhakt-dev-patches-bundle.json```
+</details>
+
+### 📦 Andronedev-Patches-Bundle:
+
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/andronedev-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/andronedev-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/andronedev-dev-patches-bundle.json```
+</details>
+
+### 📦 1fexd-Patches-Bundle:
+
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/1fexd-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/1fexd-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/1fexd-dev-patches-bundle.json```
+</details>
+
 # 📱 ReVanced Manager Compose:
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
@@ -154,6 +202,14 @@ https://github.com/ReVanced/revanced-manager/actions/runs/9653452701/artifacts/1
 
 #### 🏷️ [BiliRoamingX-Patches-Bundle](https://github.com/BiliRoamingX/BiliRoamingX)
 
+#### 🏷️ [Wyse--Patches-Bundle](https://github.com/Wyse-/revanced-patches)
+
+#### 🏷️ [BholeyKaBhakt-Patches-Bundle](https://github.com/BholeyKaBhakt/revanced-patches-xtra)
+
+#### 🏷️ [Andronedev-Patches-Bundle](https://github.com/andronedev/revanced-patches)
+
+#### 🏷️ [1fexd-Patches-Bundle](https://github.com/1fexd/revanced-patches)
+
 
 # 🖇 Intergrations Repositorys In Use
 #### ⛓ [Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
@@ -175,6 +231,14 @@ https://github.com/ReVanced/revanced-manager/actions/runs/9653452701/artifacts/1
 #### ⛓ [Inotia00-Patches-Bundle](https://github.com/inotia00/revanced-integrations)
 
 #### ⛓ [BiliRoamingX-Patches-Bundle](https://github.com/BiliRoamingX/BiliRoamingX)
+
+#### ⛓ [Wyse--Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
+
+#### ⛓ [BholeyKaBhakt-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
+
+#### ⛓ [Andronedev-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
+
+#### ⛓ [1fexd-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 ## 🤝 Contributors
 ##### [indrastorms](https://github.com/indrastorms)
