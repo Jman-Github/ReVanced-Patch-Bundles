@@ -2,6 +2,7 @@ import asyncio
 import json
 import subprocess
 from httpx import AsyncClient, Timeout
+import time
 
 async def get_latest_release(repo_url, prerelease, latest_flag=False):
     async def get_version_urls(release):
@@ -34,8 +35,34 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
             print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
             return None, None, None
     else:
-        print("Failed to fetch releases")
+        print(f"Failed to fetch releases from {repo_url}")
         return None, None, None
+
+async def fetch_release_data(source, repo):
+    prerelease = repo.get('prerelease', False)
+    latest_flag = repo.get('latest', False)
+    patches_version, patches_asset_url, _ = await get_latest_release(repo.get('patches'), prerelease, latest_flag)
+    integrations_version, _, integration_asset_url = await get_latest_release(repo.get('integration'), prerelease, latest_flag)
+    
+    if patches_version and patches_asset_url and integrations_version and integration_asset_url:
+        info_dict = {
+            "patches": {
+                "version": patches_version,
+                "url": patches_asset_url
+            },
+            "integrations": {
+                "version": integrations_version,
+                "url": integration_asset_url
+            }
+        }
+        with open(f'{source}-patches-bundle.json', 'w') as file:
+            json.dump(info_dict, file, indent=2)
+        print(f"Latest release information saved to {source}-patches-bundle.json")
+        
+        # Stage the changes made to the JSON file
+        subprocess.run(["git", "add", f"{source}-patches-bundle.json"])
+    else:
+        print(f"Error: Unable to fetch release information for {source}")
 
 async def main():
     with open('bundle-sources.json') as file:
@@ -46,30 +73,8 @@ async def main():
     subprocess.run(["git", "config", "user.name", "github-actions[bot]"])
 
     for source, repo in sources.items():
-        prerelease = repo.get('prerelease', False)
-        latest_flag = repo.get('latest', False)  # Retrieving the 'latest' flag
-        patches_version, patches_asset_url, _ = await get_latest_release(repo.get('patches'), prerelease, latest_flag)
-        integrations_version, _, integration_asset_url = await get_latest_release(repo.get('integration'), prerelease, latest_flag)
-        
-        if patches_version and patches_asset_url and integrations_version and integration_asset_url:
-            info_dict = {
-                "patches": {
-                    "version": patches_version,
-                    "url": patches_asset_url
-                },
-                "integrations": {
-                    "version": integrations_version,
-                    "url": integration_asset_url
-                }
-            }
-            with open(f'{source}-patches-bundle.json', 'w') as file:
-                json.dump(info_dict, file, indent=2)
-            print(f"Latest release information saved to {source}-patches-bundle.json")
-            
-            # Stage the changes made to the JSON file
-            subprocess.run(["git", "add", f"{source}-patches-bundle.json"])
-        else:
-            print(f"Error: Unable to fetch release information for {source}")
+        await fetch_release_data(source, repo)
+        await asyncio.sleep(5)  # Add a cooldown of 5 seconds between requests
     
     # Commit the changes
     subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
