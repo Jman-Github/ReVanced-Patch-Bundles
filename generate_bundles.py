@@ -17,7 +17,7 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
         return version, patches_url, integrations_url
 
     api_url = f"{repo_url}/releases"
-    timeout = Timeout(connect=30.0, read=60.0, write=None, pool=None)
+    timeout = Timeout(connect=90.0, read=180.0, write=None, pool=None)  # Increased timeouts
     async with AsyncClient(timeout=timeout) as client:
         response = await client.get(api_url)
     if response.status_code == 200:
