@@ -3,7 +3,12 @@ import json
 import subprocess
 import time
 import os
+import logging
 from github import Github
+
+# Configure logging
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 # Function to get the PAT from an environment variable
 def get_github_pat():
@@ -14,6 +19,7 @@ def get_github_pat():
 
 async def get_latest_release(repo_url, prerelease, latest_flag=False):
     try:
+        logger.debug(f"Fetching releases for {repo_url}")
         gh = Github(get_github_pat())
         repo = gh.get_repo(repo_url.split("/")[-2:])
 
@@ -27,6 +33,7 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
             target_release = max((release for release in releases if not release.prerelease), key=lambda x: x.published_at, default=None)
 
         if target_release:
+            logger.debug(f"Found latest release: {target_release.tag_name}")
             patches_url = None
             integrations_url = None
             for asset in target_release.assets:
@@ -36,20 +43,22 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
                     integrations_url = asset.browser_download_url
             return target_release.tag_name, patches_url, integrations_url
         else:
-            print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
+            logger.warning(f"No {'pre' if prerelease else ''}release found for {repo_url}")
             return None, None, None
 
     except Exception as e:
-        print(f"Error fetching releases for {repo_url}: {str(e)}")
+        logger.error(f"Error fetching releases for {repo_url}: {str(e)}")
         return None, None, None
 
 async def fetch_release_data(source, repo):
+    logger.debug(f"Fetching release data for {source}")
     prerelease = repo.get('prerelease', False)
     latest_flag = repo.get('latest', False)
     patches_version, patches_asset_url, integrations_url = await get_latest_release(repo.get('patches'), prerelease, latest_flag)
     integrations_version, integrations_asset_url, _ = await get_latest_release(repo.get('integration'), prerelease, latest_flag)
 
     if patches_version and patches_asset_url and integrations_version and integrations_asset_url:
+        logger.info(f"Successfully fetched release data for {source}")
         info_dict = {
             "patches": {
                 "version": patches_version,
@@ -62,14 +71,15 @@ async def fetch_release_data(source, repo):
         }
         with open(f'{source}-patches-bundle.json', 'w') as file:
             json.dump(info_dict, file, indent=2)
-        print(f"Latest release information saved to {source}-patches-bundle.json")
+        logger.info(f"Saved release information to {source}-patches-bundle.json")
 
         # Stage the changes made to the JSON file
         subprocess.run(["git", "add", f"{source}-patches-bundle.json"])
     else:
-        print(f"Error: Unable to fetch release information for {source}")
+        logger.error(f"Error fetching release information for {source}")
 
 async def main():
+    logger.info("Starting script execution")
     with open('bundle-sources.json') as file:
         sources = json.load(file)
 
@@ -78,14 +88,16 @@ async def main():
     subprocess.run(["git", "config", "user.name", "github-actions[bot]"])
 
     for source, repo in sources.items():
+        logger.debug(f"Processing source: {source}")
         await fetch_release_data(source, repo)
         await asyncio.sleep(15)  # 15-second cooldown between requests
 
     # Commit the changes
+    logger.info("Committing changes")
     subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
 
 if __name__ == "__main__":
     try:
         asyncio.run(main())
     except ValueError as e:
-        print(str(e))
+        logger.error(str(e))
