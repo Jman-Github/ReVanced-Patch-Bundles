@@ -3,6 +3,11 @@ import json
 import subprocess
 from httpx import AsyncClient, Timeout
 import time
+import os
+
+# Function to get the PAT from an environment variable or a secure location
+def get_github_pat():
+    return os.getenv('GITHUB_PAT')  # Ensure you have set this environment variable
 
 async def get_latest_release(repo_url, prerelease, latest_flag=False):
     async def get_version_urls(release):
@@ -18,7 +23,8 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
 
     api_url = f"{repo_url}/releases"
     timeout = Timeout(connect=None, read=None, write=None, pool=None)  # No timeouts
-    async with AsyncClient(timeout=timeout) as client:
+    headers = {"Authorization": f"token {get_github_pat()}"}
+    async with AsyncClient(timeout=timeout, headers=headers) as client:
         response = await client.get(api_url)
     if response.status_code == 200:
         releases = response.json()
@@ -74,7 +80,7 @@ async def main():
 
     for source, repo in sources.items():
         await fetch_release_data(source, repo)
-        await asyncio.sleep(45)  # Add a cooldown of 45 seconds between requests
+        await asyncio.sleep(5)  # Add a cooldown of 5 seconds between requests
     
     # Commit the changes
     subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
