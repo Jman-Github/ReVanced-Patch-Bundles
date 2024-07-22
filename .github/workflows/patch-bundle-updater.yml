@@ -43,9 +43,14 @@ jobs:
           source venv/bin/activate
           python -m pip install --upgrade pip
           python -m pip install requests httpx
-          GH_PAT=${{ secrets.GH_PAT }}  # Retrieve PAT from GitHub secret
+
+          # Retrieve PAT from a secure environment variable
+          GH_PAT=${{ secrets.GH_PAT }}
+
+          # Pass PAT as an argument to generate_bundles.py (recommended)
           output=$(python generate_bundles.py $GH_PAT 2>&1)
           echo "$output"
+
           if echo "$output" | grep -q "Your branch is up to date with 'origin/bundles'."; then
             echo "Branch is up to date with 'origin/bundles'. Exiting..."
             echo "::set-output name=cancel_workflow::true"
