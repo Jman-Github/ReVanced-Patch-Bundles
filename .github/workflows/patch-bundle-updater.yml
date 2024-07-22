@@ -64,6 +64,9 @@ jobs:
               echo "::set-output name=has_changes::false"
             fi
           fi
+
+          # Display API request count
+          echo "Total API requests: $api_request_count"
         working-directory: ${{ github.workspace }}
         continue-on-error: true
 
