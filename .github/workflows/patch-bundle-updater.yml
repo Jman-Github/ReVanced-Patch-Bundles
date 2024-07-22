@@ -31,11 +31,12 @@ jobs:
       - name: Install Python development headers
         run: sudo apt install python3-dev
 
-      - name: Install cython
-        run: pip install cython==0.29.5
+      # Install cython (considering potential compatibility issues)
+      - name: Install cython (latest stable)
+        run: pip install cython
 
-      - name: Create build directory
-        run: mkdir build
+      - name: Create build directory (if not already present)
+        run: mkdir -p build  # Ensures directory creation even if it exists
 
       - name: Install dependencies
         run: |
