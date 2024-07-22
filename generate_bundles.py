@@ -5,9 +5,12 @@ from httpx import AsyncClient, Timeout, HTTPStatusError
 import time
 import os
 
-# Function to get the PAT from an environment variable or a secure location
+# Function to get the PAT from an environment variable
 def get_github_pat():
-    return os.getenv('GH_PAT')  # Ensure you have set this environment variable
+    pat = os.getenv('GH_PAT')
+    if not pat:
+        raise ValueError("GitHub PAT is not set in the environment variables")
+    return pat
 
 async def get_latest_release(repo_url, prerelease, latest_flag=False):
     async def get_version_urls(release):
@@ -29,7 +32,7 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
         try:
             response = await client.get(api_url)
             response.raise_for_status()
-            
+
             # Handle rate limit
             rate_limit_remaining = int(response.headers.get('X-RateLimit-Remaining', 1))
             if rate_limit_remaining == 0:
@@ -105,4 +108,7 @@ async def main():
     subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except ValueError as e:
+        print(str(e))
