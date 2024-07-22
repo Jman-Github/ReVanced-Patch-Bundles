@@ -30,6 +30,10 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Install Python development headers
+        run: |
+          sudo apt install python3-dev  # Replace with appropriate command for your system
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
