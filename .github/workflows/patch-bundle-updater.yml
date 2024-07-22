@@ -34,7 +34,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install PyGithub
-        working-directory: ${{ github.workspace }}
 
       - name: Run generate_bundles.py
         id: run_generate_bundles
@@ -58,8 +57,6 @@ jobs:
               echo "::set-output name=has_changes::false"
             fi
           fi
-        working_directory: ${{ github.workspace }}
-        continue-on-error: true
 
       - name: Check for changes
         id: check_changes
