@@ -1,110 +1,116 @@
 import asyncio
 import json
 import subprocess
-from httpx import AsyncClient, Timeout
+from httpx import AsyncClient, Timeout, HTTPStatus
 import time
 import os
 
 api_request_count = 0
 
 def load_counter():
-    try:
-        with open('api_request_count.txt', 'r') as f:
-            return int(f.read())
-    except FileNotFoundError:
-        return 0
+  try:
+    with open('api_request_count.txt', 'r') as f:
+      return int(f.read())
+  except FileNotFoundError:
+    return 0
 
 def save_counter(count):
-    with open('api_request_count.txt', 'w') as f:
-        f.write(str(count))
+  with open('api_request_count.txt', 'w') as f:
+    f.write(str(count))
 
 api_request_count = load_counter()
 
 # Function to get the PAT from an environment variable or a secure location
 def get_github_pat():
-    return os.getenv('GH_PAT')  # Ensure you have set this environment variable
+  return os.getenv('GH_PAT')  # Ensure you have set this environment variable
 
 async def get_latest_release(repo_url, prerelease, latest_flag=False):
-    async def get_version_urls(release):
-        version = release['tag_name']
-        patches_url = None
-        integrations_url = None
-        for asset in release["assets"]:
-            if asset["browser_download_url"].endswith(".jar"):
-                patches_url = asset['browser_download_url']
-            elif asset["browser_download_url"].endswith(".apk"):
-                integrations_url = asset['browser_download_url']
-        return version, patches_url, integrations_url
+  async def get_version_urls(release):
+    version = release['tag_name']
+    patches_url = None
+    integrations_url = None
+    for asset in release["assets"]:
+      if asset["browser_download_url"].endswith(".jar"):
+        patches_url = asset['browser_download_url']
+      elif asset["browser_download_url"].endswith(".apk"):
+        integrations_url = asset['browser_download_url']
+    return version, patches_url, integrations_url
 
-    api_url = f"{repo_url}/releases"
-    timeout = Timeout(connect=None, read=None, write=None, pool=None)  # No timeouts
-    headers = {"Authorization": f"token {get_github_pat()}"}
-    async with AsyncClient(timeout=timeout, headers=headers) as client:
-        response = await client.get(api_url)
-    if response.status_code == 200:
-        releases = response.json()
-        if latest_flag:
-            target_release = max(releases, key=lambda x: x["published_at"])
-        elif prerelease:
-            target_release = max((release for release in releases if release["prerelease"]), key=lambda x: x["published_at"], default=None)
-        else:
-            target_release = max((release for release in releases if not release["prerelease"]), key=lambda x: x["published_at"], default=None)
-
-        if target_release:
-            global api_request_count
-            api_request_count += 1
-            save_counter(api_request_count)
-            return await get_version_urls(target_release)
-        else:
-            print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
-            return None, None, None
+  api_url = f"{repo_url}/releases"
+  timeout = Timeout(connect=None, read=None, write=None, pool=None)  # No timeouts
+  headers = {"Authorization": f"token {get_github_pat()}"}
+  async with AsyncClient(timeout=timeout, headers=headers) as client:
+    response = await client.get(api_url)
+  if response.status_code == HTTPStatus.OK:
+    releases = response.json()
+    if latest_flag:
+      target_release = max(releases, key=lambda x: x["published_at"])
+    elif prerelease:
+      target_release = max((release for release in releases if release["prerelease"]), key=lambda x: x["published_at"], default=None)
     else:
-        print(f"Failed to fetch releases from {repo_url}")
-        return None, None, None
+      target_release = max((release for release in releases if not release["prerelease"]), key=lambda x: x["published_at"], default=None)
+
+    if target_release:
+      global api_request_count
+      api_request_count += 1
+      save_counter(api_request_count)
+      return await get_version_urls(target_release)
+    else:
+      print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
+      return None, None, None
+  else:
+    print(f"Failed to fetch releases from {repo_url} ({response.status_code})")
+    return None, None, None
 
 async def fetch_release_data(source, repo):
-    prerelease = repo.get('prerelease', False)
-    latest_flag = repo.get('latest', False)
-    patches_version, patches_asset_url, integrations_url = await get_latest_release(repo.get('patches'), prerelease, latest_flag)
-    integrations_version, integrations_asset_url, _ = await get_latest_release(repo.get('integration'), prerelease, latest_flag)
+  prerelease = repo.get('prerelease', False)
+  latest_flag = repo.get('latest', False)
 
-    if patches_version and patches_asset_url and integrations_version and integrations_asset_url:
-        info_dict = {
-            "patches": {
-                "version": patches_version,
-                "url": patches_asset_url
-            },
-            "integrations": {
-                "version": integrations_version,
-                "url": integrations_asset_url
-            }
-        }
-        with open(f'{source}-patches-bundle.json', 'w') as file:
-            json.dump(info_dict, file, indent=2)
-        print(f"Latest release information saved to {source}-patches-bundle.json")
+  # Check remaining API requests before proceeding
+  if api_request_count >= 60:  # Adjust limit based on GitHub's rate limit (60 per hour)
+    print(f"API request limit reached ({api_request_count}). Waiting for reset...")
+    await asyncio.sleep(3600)  # Wait for 1 hour before retrying
 
-        # Stage the changes made to the JSON file
-        subprocess.run(["git", "add", f"{source}-patches-bundle.json"])
-    else:
-        print(f"Error: Unable to fetch release information for {source}")
+  patches_version, patches_asset_url, integrations_url = await get_latest_release(repo.get('patches'), prerelease, latest_flag)
+  integrations_version, integrations_asset_url, _ = await get_latest_release(repo.get('integration'), prerelease, latest_flag)
+
+  if patches_version and patches_asset_url and integrations_version and integrations_asset_url:
+    info_dict = {
+      "patches": {
+        "version": patches_version,
+        "url": patches_asset_url
+      },
+      "integrations": {
+        "version": integrations_version,
+        "url": integrations_asset_url
+      }
+    }
+    with open(f'{source}-patches-bundle.json', 'w') as file:
+      json.dump(info_dict, file, indent=2)
+    print(f"Latest release information saved to {source}-patches-bundle.json")
+
+    # Stage the changes made to the JSON file
+    subprocess.run(["git", "add", f"{source}-patches-bundle.json"])
+  else:
+    print(f"Error: Unable to fetch release information for {source}")
 
 async def main():
-    with open('bundle-sources.json') as file:
-        sources = json.load(file)
+  with open('bundle-sources.json') as file:
+    sources = json.load(file)
 
-    # Configure Git user name and email
-    subprocess.run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"])
-    subprocess.run(["git", "config", "user.name", "github-actions[bot]"])
+  # Configure Git user name and email
+  subprocess.run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"])
+  subprocess.run(["git", "config", "user.name", "github-actions[bot]"])
 
-    for source, repo in sources.items():
-        await fetch_release_data(source, repo)
-        await asyncio.sleep(15)  # 15-second cooldown between requests
+  for source, repo in sources.items():
+    await fetch_release_data(source, repo)
+    await asyncio.sleep(15)  # 15-second cooldown between requests
 
-    # Commit the changes
-    subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
+  # Commit the changes
+  subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
 
-    # Print total API requests
-    print(f"Total API requests: {api_request_count}")
+  # Print total API requests
+  print(f"Total API requests: {api_request_count}")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+  asyncio.run(main())
