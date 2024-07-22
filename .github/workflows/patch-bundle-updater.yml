@@ -38,17 +38,15 @@ jobs:
 
       - name: Run generate_bundles.py
         id: run_generate_bundles
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}  # Pass the secret as an environment variable
         run: |
           python -m venv venv
           source venv/bin/activate
           python -m pip install --upgrade pip
           python -m pip install requests httpx
 
-          # Retrieve PAT from a secure environment variable
-          GH_PAT=${{ secrets.GH_PAT }}
-
-          # Pass PAT as an argument to generate_bundles.py (recommended)
-          output=$(python generate_bundles.py $GH_PAT 2>&1)
+          output=$(python generate_bundles.py 2>&1)
           echo "$output"
 
           if echo "$output" | grep -q "Your branch is up to date with 'origin/bundles'."; then
