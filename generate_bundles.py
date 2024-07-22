@@ -5,6 +5,21 @@ from httpx import AsyncClient, Timeout
 import time
 import os
 
+api_request_count = 0
+
+def load_counter():
+    try:
+        with open('api_request_count.txt', 'r') as f:
+            return int(f.read())
+    except FileNotFoundError:
+        return 0
+
+def save_counter(count):
+    with open('api_request_count.txt', 'w') as f:
+        f.write(str(count))
+
+api_request_count = load_counter()
+
 # Function to get the PAT from an environment variable or a secure location
 def get_github_pat():
     return os.getenv('GH_PAT')  # Ensure you have set this environment variable
@@ -36,6 +51,9 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
             target_release = max((release for release in releases if not release["prerelease"]), key=lambda x: x["published_at"], default=None)
 
         if target_release:
+            global api_request_count
+            api_request_count += 1
+            save_counter(api_request_count)
             return await get_version_urls(target_release)
         else:
             print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
@@ -84,6 +102,9 @@ async def main():
 
     # Commit the changes
     subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
+
+    # Print total API requests
+    print(f"Total API requests: {api_request_count}")
 
 if __name__ == "__main__":
     asyncio.run(main())
