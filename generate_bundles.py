@@ -41,10 +41,10 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
 async def fetch_release_data(source, repo):
     prerelease = repo.get('prerelease', False)
     latest_flag = repo.get('latest', False)
-    patches_version, patches_asset_url, _ = await get_latest_release(repo.get('patches'), prerelease, latest_flag)
-    integrations_version, _, integration_asset_url = await get_latest_release(repo.get('integration'), prerelease, latest_flag)
+    patches_version, patches_asset_url, integrations_url = await get_latest_release(repo.get('patches'), prerelease, latest_flag)
+    integrations_version, integrations_asset_url, _ = await get_latest_release(repo.get('integration'), prerelease, latest_flag)
     
-    if patches_version and patches_asset_url and integrations_version and integration_asset_url:
+    if patches_version and patches_asset_url and integrations_version and integrations_asset_url:
         info_dict = {
             "patches": {
                 "version": patches_version,
@@ -52,7 +52,7 @@ async def fetch_release_data(source, repo):
             },
             "integrations": {
                 "version": integrations_version,
-                "url": integration_asset_url
+                "url": integrations_asset_url
             }
         }
         with open(f'{source}-patches-bundle.json', 'w') as file:
@@ -74,7 +74,7 @@ async def main():
 
     for source, repo in sources.items():
         await fetch_release_data(source, repo)
-        await asyncio.sleep(5)  # Add a cooldown of 5 seconds between requests
+        await asyncio.sleep(45)  # Add a cooldown of 45 seconds between requests
     
     # Commit the changes
     subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
