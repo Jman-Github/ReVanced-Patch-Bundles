@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 def get_github_pat():
     return os.getenv('GITHUB_PAT')
 
-async def get_latest_release(repo_url, prerelease, latest_flag=False):
+def get_latest_release(repo_url, prerelease, latest_flag=False):
     async def get_version_urls(release):
         version = release.tag_name
         patches_url = None
@@ -23,10 +23,10 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
                 integrations_url = asset.url
         return version, patches_url, integrations_url
 
-    async with Github(get_github_pat()) as github:
+    with Github(get_github_pat()) as github:
         repo = github.get_repo(repo_url)
         try:
-            releases = await repo.get_releases()
+            releases = repo.get_releases()
         except Exception as e:
             logging.error(f"Error fetching releases for {repo_url}: {e}")
             return None, None, None
@@ -43,7 +43,7 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
             target_release = max((release for release in releases if not release.prerelease), key=lambda x: x.created_at, default=None)
 
         if target_release:
-            return await get_version_urls(target_release)
+            return get_version_urls(target_release)
         else:
             logging.warning(f"No {'pre' if prerelease else ''}release found for {repo_url}")
             return None, None, None
@@ -53,8 +53,8 @@ async def fetch_release_data(source, repo):
     latest_flag = repo.get('latest', False)
 
     try:
-        patches_version, patches_asset_url, integrations_url = await get_latest_release(repo.get('patches'), prerelease, latest_flag)
-        integrations_version, integrations_asset_url, _ = await get_latest_release(repo.get('integration'), prerelease, latest_flag)
+        patches_version, patches_asset_url, integrations_url = get_latest_release(repo.get('patches'), prerelease, latest_flag)
+        integrations_version, integrations_asset_url, _ = get_latest_release(repo.get('integration'), prerelease, latest_flag)
     except Exception as e:
         logging.error(f"Error fetching release data for {source}: {e}")
         return
