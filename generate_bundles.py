@@ -1,7 +1,7 @@
 import asyncio
 import json
 import subprocess
-from httpx import AsyncClient, Timeout
+from httpx import AsyncClient, Timeout, HTTPStatusError
 import time
 import os
 
@@ -24,35 +24,44 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
     api_url = f"{repo_url}/releases"
     timeout = Timeout(connect=None, read=None, write=None, pool=None)  # No timeouts
     headers = {"Authorization": f"token {get_github_pat()}"}
+    
     async with AsyncClient(timeout=timeout, headers=headers) as client:
-        response = await client.get(api_url)
-        
-    if response.status_code == 200:
-        # Handle rate limit
-        rate_limit_remaining = int(response.headers.get('X-RateLimit-Remaining', 1))
-        if rate_limit_remaining == 0:
-            reset_time = int(response.headers.get('X-RateLimit-Reset', time.time()))
-            sleep_time = reset_time - time.time() + 1
-            print(f"Rate limit reached. Sleeping for {sleep_time} seconds.")
-            await asyncio.sleep(sleep_time)
-            return await get_latest_release(repo_url, prerelease, latest_flag)
-        
-        releases = response.json()
-        if latest_flag:
-            target_release = max(releases, key=lambda x: x["published_at"])
-        elif prerelease:
-            target_release = max((release for release in releases if release["prerelease"]), key=lambda x: x["published_at"], default=None)
-        else:
-            target_release = max((release for release in releases if not release["prerelease"]), key=lambda x: x["published_at"], default=None)
+        try:
+            response = await client.get(api_url)
+            response.raise_for_status()
+            
+            # Handle rate limit
+            rate_limit_remaining = int(response.headers.get('X-RateLimit-Remaining', 1))
+            if rate_limit_remaining == 0:
+                reset_time = int(response.headers.get('X-RateLimit-Reset', time.time()))
+                sleep_time = reset_time - time.time() + 1
+                print(f"Rate limit reached. Sleeping for {sleep_time} seconds.")
+                await asyncio.sleep(sleep_time)
+                return await get_latest_release(repo_url, prerelease, latest_flag)
 
-        if target_release:
-            return await get_version_urls(target_release)
-        else:
-            print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
+            releases = response.json()
+            if latest_flag:
+                target_release = max(releases, key=lambda x: x["published_at"])
+            elif prerelease:
+                target_release = max((release for release in releases if release["prerelease"]), key=lambda x: x["published_at"], default=None)
+            else:
+                target_release = max((release for release in releases if not release["prerelease"]), key=lambda x: x["published_at"], default=None)
+
+            if target_release:
+                return await get_version_urls(target_release)
+            else:
+                print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
+                return None, None, None
+
+        except HTTPStatusError as e:
+            if e.response.status_code == 403:
+                print(f"Rate limit reached or access denied for {repo_url}")
+            else:
+                print(f"Failed to fetch releases from {repo_url}: {e.response.status_code} {e.response.text}")
             return None, None, None
-    else:
-        print(f"Failed to fetch releases from {repo_url}")
-        return None, None, None
+        except Exception as e:
+            print(f"Failed to fetch releases from {repo_url}: {str(e)}")
+            return None, None, None
 
 async def fetch_release_data(source, repo):
     prerelease = repo.get('prerelease', False)
