@@ -225,21 +225,21 @@ https://github.com/ReVanced/revanced-manager/actions/runs/9882660125/artifacts/1
 
 
 # 🖇 Intergrations Repositorys In Use
-#### ⛓ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-patches)
+#### ⛓ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-integrations)
 
-#### ⛓ [Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
+#### ⛓ [Anddea-Patches-Bundle](https://github.com/anddea/revanced-integrations)
 
-#### ⛓ [Experimental-Patches-Bundle](https://github.com/Aunali321/ReVancedExperiments)
+#### ⛓ [Experimental-Patches-Bundle](https://github.com/revanced/revanced-integrations)
 
-#### ⛓ [Piko-Patches-Bundle](https://github.com/crimera/piko)
+#### ⛓ [Piko-Patches-Bundle](https://github.com/crimera/revanced-integrations)
 
-#### ⛓ [Privacy-Patches-Bundle](https://github.com/jkennethcarino/privacy-revanced-patches)
+#### ⛓ [Privacy-Patches-Bundle](https://github.com/jkennethcarino/privacy-revanced-integrations)
 
-#### ⛓ [ReX-Patches-Bundle](https://github.com/YT-Advanced/ReX-patches)
+#### ⛓ [ReX-Patches-Bundle](https://github.com/YT-Advanced/ReX-integrations)
 
-#### ⛓ [Rufusin-Patches-Bundle](https://github.com/rufusin/revanced-patches)
+#### ⛓ [Rufusin-Patches-Bundle](https://github.com/rufusin/revanced-integrations)
 
-#### ⛓ [Twitter-Patches-Bundle](https://github.com/IndusAryan/twitter-patches)
+#### ⛓ [Twitter-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 #### ⛓ [Dropped-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
