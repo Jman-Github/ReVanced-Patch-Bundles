@@ -23,6 +23,10 @@ def get_latest_release(repo_url, prerelease, latest_flag=False):
                 integrations_url = asset.url
         return version, patches_url, integrations_url
 
+    # Ensure the URL ends with /releases
+    if not repo_url.endswith("/releases"):
+        repo_url += "/releases"
+
     with Github(get_github_pat()) as github:
         repo = github.get_repo(repo_url)
         try:
