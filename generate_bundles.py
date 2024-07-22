@@ -4,6 +4,7 @@ import subprocess
 from httpx import AsyncClient, Timeout, HTTPStatus
 import time
 import os
+from tenacity import retry, stop_after_attempt, wait_exponential
 
 api_request_count = 0
 
@@ -24,6 +25,7 @@ api_request_count = load_counter()
 def get_github_pat():
   return os.getenv('GH_PAT')  # Ensure you have set this environment variable
 
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, max=60))
 async def get_latest_release(repo_url, prerelease, latest_flag=False):
   async def get_version_urls(release):
     version = release['tag_name']
@@ -60,7 +62,7 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
       return None, None, None
   else:
     print(f"Failed to fetch releases from {repo_url} ({response.status_code})")
-    return None, None, None
+    raise Exception(f"Error fetching releases: {response.text}")
 
 async def fetch_release_data(source, repo):
   prerelease = repo.get('prerelease', False)
