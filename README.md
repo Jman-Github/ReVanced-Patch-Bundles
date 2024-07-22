@@ -8,7 +8,7 @@
 # ❓ About 
 This repository automatically checks for patch and integration updates from the repositorys listed [below](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/README.md#patch-repositorys-in-use-) every 60 minutes. These repositories are alternative ReVanced patch and integration sources for extended patch sources. The links listed below are used for the patch bundles sources in the [ReVanced Manager Compose](https://github.com/ReVanced/revanced-manager/tree/compose-dev). Use these links to set your patch bundles inside the ReVanced Manager Compose. Choose between latest dev releases, latest stable releases and overall latest (this includes prerealses & regular releases) for the patch bundle sources. The links will import the patch bundles (integrations & patches) into the manager which should update the bundles every time these links have a change in their code. *If you have any other working ReVanced alternative patch and integration repositories that aren't already included in this repository, please create an [issue](https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues) to let me know.*
 > [!IMPORTANT]
-> **Latest:** The latest patch & integrations with prerelases included. Meaning if the latest release is a prerelease, it will update to that. If it's a regular release, it will also update to that,.
+> **Latest:** The latest patch & integrations with prerelases included. Meaning if the latest release is a prerelease, it will update to that. If it's a regular release, it will also update to that.
 >
 >**Stable:** The latest stable patch & integrations with does prereleases excluded. Meaning it will just update to the latest regular releases and skip over prereleases.
 >
@@ -16,6 +16,17 @@ This repository automatically checks for patch and integration updates from the 
 
 > [!WARNING]  
 > Some of the dev-patch-bundle sources will not be working. This is due to some of the repositories having never created a prerelease. Those sources will have "N/A" in the repsective patch-bundle.json files. The current dev-patch-bundle sources that have this issue are BiliRoamingX, Rufusin and ReX.
+### 📦 ReVanced-Patches-Bundle:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/revanced-latest-patches-bundle.json```
+
+**Stable:** ```N/A (No need for this, already built in to all ReVanced Managers)```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/revanced-dev-patches-bundle.json```
+</details>
+
 ### 📦 Anddea-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
