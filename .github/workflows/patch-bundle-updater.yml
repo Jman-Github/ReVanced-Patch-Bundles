@@ -19,25 +19,25 @@ jobs:
       cancel_workflow: ${{ steps.run_generate_bundles.outputs.cancel_workflow }}
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
           persist-credentials: false
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
       - name: Install Python development headers
-        run: |
-          sudo apt install python3-dev  # Replace with appropriate command for your system
+        run: sudo apt install python3-dev
+
+      - name: Create build directory
+        run: mkdir build
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r requirements.txt --target build
         working-directory: ${{ github.workspace }}
 
       - name: List installed packages
