@@ -85,7 +85,10 @@ async def fetch_release_data(source, repo):
             json.dump(info_dict, file, indent=2)
         print(f"Latest release information saved to {source}-patches-bundle.json")
         
-        subprocess.run(["git", "add", f"{source}-patches-bundle.json"])
+        result = subprocess.run(["git", "add", f"{source}-patches-bundle.json"], capture_output=True, text=True)
+        if result.returncode != 0:
+            print(f"Failed to add {source}-patches-bundle.json to git: {result.stderr}")
+            return False
         return True
     else:
         print(f"Error: Unable to fetch release information for {source}. Check if the releases contain .jar and .apk assets.")
@@ -95,8 +98,15 @@ async def main():
     with open('bundle-sources.json') as file:
         sources = json.load(file)
 
-    subprocess.run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"])
-    subprocess.run(["git", "config", "user.name", "github-actions[bot]"])
+    result = subprocess.run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], capture_output=True, text=True)
+    if result.returncode != 0:
+        print(f"Failed to set git user email: {result.stderr}")
+        return
+
+    result = subprocess.run(["git", "config", "user.name", "github-actions[bot]"], capture_output=True, text=True)
+    if result.returncode != 0:
+        print(f"Failed to set git user name: {result.stderr}")
+        return
 
     any_changes = False
     for source, repo in sources.items():
@@ -106,8 +116,15 @@ async def main():
         await asyncio.sleep(0)  # Add a cooldown of (seconds) seconds between requests
 
     if any_changes:
-        subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
-        subprocess.run(["git", "push", "origin", "bundles"])
+        result = subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"], capture_output=True, text=True)
+        if result.returncode != 0:
+            print(f"Failed to commit changes: {result.stderr}")
+            return
+        
+        result = subprocess.run(["git", "push", "origin", "bundles"], capture_output=True, text=True)
+        if result.returncode != 0:
+            print(f"Failed to push changes: {result.stderr}")
+            return
     else:
         print("No changes to commit. Exiting...")
 
