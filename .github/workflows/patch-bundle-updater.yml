@@ -50,6 +50,7 @@ jobs:
             if [ -n "$(git status --porcelain)" ]; then
               git commit -m "Update patch-bundle.json to latest"
               git push origin HEAD:${{ github.ref }} --follow-tags
+              echo "::set-output name=has_changes::true"
             else
               echo "No changes to commit. Exiting..."
               echo "::set-output name=has_changes::false"
