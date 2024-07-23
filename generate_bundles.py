@@ -96,7 +96,7 @@ async def main():
 
     for source, repo in sources.items():
         await fetch_release_data(source, repo)
-        await asyncio.sleep(5)  # Add a cooldown of 5 seconds between requests
+        await asyncio.sleep(0)  # Add a cooldown of (seconds) seconds between requests
     
     subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
 
