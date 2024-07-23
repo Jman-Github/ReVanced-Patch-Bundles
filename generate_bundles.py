@@ -2,10 +2,10 @@ import asyncio
 import json
 import os
 import random
-import requests
-import logging
 import aiohttp
+import logging
 import time
+
 from aiohttp import ClientSession
 from requests.exceptions import RequestException, Timeout
 
@@ -42,14 +42,14 @@ async def fetch_release_data(session, source, repo_data):
 
             if release_url:
                 headers = {'Authorization': f'token {get_github_pat()}'}
+                start_time = time.time()
                 async with session.get(release_url, headers=headers, timeout=timeout) as response:
-                    start_time = time.time()
                     response.raise_for_status()  # Raise an exception for error HTTP status codes
                     release_data = await response.json()
                     logging.info(f"Fetched release data for {source} in {time.time() - start_time} seconds")
 
                     # Assuming the release data structure is similar to PyGithub
-                    latest_release = release_data[0]  # Assuming latest release is the first in the list
+                    latest_release = release_data  # Use the full response data
                     patches_url = None
                     integrations_url = None
                     for asset in latest_release['assets']:
@@ -59,6 +59,7 @@ async def fetch_release_data(session, source, repo_data):
                             integrations_url = asset['browser_download_url']
 
                     # ... rest of the logic to process patches_url and integrations_url
+                    logging.info(f"Processed release data for {source}")
 
                     break
             else:
@@ -91,4 +92,6 @@ async def main():
         await asyncio.gather(*tasks)
 
 if __name__ == "__main__":
+    start_time = time.time()
     asyncio.run(main())
+    logging.info(f"Total execution time: {time.time() - start_time} seconds")
