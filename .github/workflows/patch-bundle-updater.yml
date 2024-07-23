@@ -42,20 +42,14 @@ jobs:
           python -m pip install requests httpx
           output=$(python generate_bundles.py 2>&1)
           echo "$output"
-          if echo "$output" | grep -q "No changes to commit. Exiting..."; then
-            echo "No changes detected."
-            echo "::set-output name=cancel_workflow::true"
+          git add '*.json'
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Update patch-bundle.json to latest"
+            git push origin HEAD:${{ github.ref }} --follow-tags
+            echo "::set-output name=has_changes::true"
           else
-            git add '*.json'
-            if [ -n "$(git status --porcelain)" ]; then
-              git commit -m "Update patch-bundle.json to latest"
-              git push origin HEAD:${{ github.ref }} --follow-tags
-              echo "::set-output name=has_changes::true"
-            else
-              echo "No changes to commit after running git add. Exiting..."
-              echo "::set-output name=has_changes::false"
-            fi
-          fi
+            echo "No changes to commit after running git add. Exiting..."
+            echo "::set-output name=has_changes::false"
         working-directory: ${{ github.workspace }}
         continue-on-error: true
 
