@@ -29,17 +29,33 @@ async def fetch_release_data(source, repo_data):
 
     while attempt < max_retries:
         try:
-            print(f"Fetching release data for source: {source}")
             release_url = None
-            # ... (rest of your release URL logic)
+            if "latest" in repo_data:
+                release_url = f"{repo_data['patches']}/releases/latest"
+            elif "prerelease" in repo_data and repo_data["prerelease"]:
+                # Handle logic for fetching pre-releases (if applicable)
+                # You might need to add specific logic for the repository's pre-release strategy
+                logging.warning(f"Pre-release fetching not implemented for {source}")
+            else:
+                release_url = f"{repo_data['patches']}/releases/tags/{repo_data.get('tag')}"  # Use 'tag' key if provided
 
             if release_url:
-                print(f"Making request to: {release_url}")
                 response = requests.get(release_url, headers={'Authorization': f'token {get_github_pat()}'})
                 response.raise_for_status()  # Raise an exception for error HTTP status codes
                 release_data = response.json()
 
-                # ... (rest of your release data processing)
+                # Assuming the release data structure is similar to PyGithub
+                # You might need to adapt the following logic based on the actual response
+                latest_release = release_data[0]  # Assuming latest release is the first in the list
+                patches_url = None
+                integrations_url = None
+                for asset in latest_release['assets']:
+                    if asset['name'].endswith(".jar"):
+                        patches_url = asset['browser_download_url']
+                    elif asset['name'].endswith(".apk"):
+                        integrations_url = asset['browser_download_url']
+
+                # ... rest of the logic to process patches_url and integrations_url
 
                 break
             else:
@@ -62,10 +78,8 @@ async def main():
     with open('bundle-sources.json') as file:
         sources = json.load(file)
 
-    print("Starting to fetch release data")
     tasks = [fetch_release_data(source, repo_data) for source, repo_data in sources.items()]
     await asyncio.gather(*tasks)
-    print("Finished fetching release data")
 
 if __name__ == "__main__":
     asyncio.run(main())
