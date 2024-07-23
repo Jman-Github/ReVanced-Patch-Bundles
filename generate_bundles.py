@@ -86,8 +86,10 @@ async def fetch_release_data(source, repo):
         print(f"Latest release information saved to {source}-patches-bundle.json")
         
         subprocess.run(["git", "add", f"{source}-patches-bundle.json"])
+        return True
     else:
         print(f"Error: Unable to fetch release information for {source}. Check if the releases contain .jar and .apk assets.")
+        return False
 
 async def main():
     with open('bundle-sources.json') as file:
@@ -96,12 +98,18 @@ async def main():
     subprocess.run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"])
     subprocess.run(["git", "config", "user.name", "github-actions[bot]"])
 
+    any_changes = False
     for source, repo in sources.items():
-        await fetch_release_data(source, repo)
+        success = await fetch_release_data(source, repo)
+        if success:
+            any_changes = True
         await asyncio.sleep(0)  # Add a cooldown of (seconds) seconds between requests
-    
-    subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
-    subprocess.run(["git", "push", "origin", "bundles"])
+
+    if any_changes:
+        subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
+        subprocess.run(["git", "push", "origin", "bundles"])
+    else:
+        print("No changes to commit. Exiting...")
 
 if __name__ == "__main__":
     asyncio.run(main())
