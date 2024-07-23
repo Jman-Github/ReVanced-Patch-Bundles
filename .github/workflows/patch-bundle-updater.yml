@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
-      cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+      cancel-in-progress: ${{ github.ref != 'refs/heads/bundles' }}
 
     outputs:
       has_changes: ${{ steps.check_changes.outputs.has_changes }}
@@ -37,11 +37,9 @@ jobs:
 
       - name: Run generate_bundles.py
         id: run_generate_bundles
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          python -m venv venv
-          source venv/bin/activate
-          python -m pip install --upgrade pip
-          python -m pip install PyGithub
           output=$(python generate_bundles.py 2>&1)
           echo "$output"
           if echo "$output" | grep -q "Your branch is up to date with 'origin/bundles'."; then
@@ -84,7 +82,7 @@ jobs:
         if: steps.check_changes.outputs.has_changes == 'true'
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_PAT }}
           branch: bundles
 
       - name: Create artifact of changed files
