@@ -40,22 +40,17 @@ jobs:
           source venv/bin/activate
           python -m pip install --upgrade pip
           python -m pip install requests httpx
-          output=$(python generate_bundles.py 2>&1)
+          set -o pipefail
+          output=$(python generate_bundles.py 2>&1 | tee /dev/tty)
+          exit_code=$?
           echo "$output"
-          git add '*.json'
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Update patch-bundle.json to latest"
-            git push origin HEAD:${{ github.ref }} --follow-tags
-            echo "::set-output name=has_changes::true"
-          else
-            echo "No changes to commit after running git add. Exiting..."
-            echo "::set-output name=has_changes::false"
+          echo "::set-output name=script_output::$output"
+          exit $exit_code
         working-directory: ${{ github.workspace }}
         continue-on-error: true
 
       - name: Check for changes
         id: check_changes
-        if: steps.run_generate_bundles.outputs.has_changes != 'true'
         run: |
           echo "Checking for changes..."
           if git diff --quiet HEAD HEAD^ -- '*.json'; then
@@ -63,7 +58,7 @@ jobs:
           else
             echo "::set-output name=has_changes::true"
           fi
-          
+
       - name: Find commit for changed files
         id: find_commit
         if: steps.check_changes.outputs.has_changes == 'true'
@@ -76,7 +71,7 @@ jobs:
             echo "$changed_files" > changed_files.txt
             echo "::set-output name=changed_files::changed_files.txt"
           fi
-          
+
       - name: Push changes
         if: steps.check_changes.outputs.has_changes == 'true'
         uses: ad-m/github-push-action@master
