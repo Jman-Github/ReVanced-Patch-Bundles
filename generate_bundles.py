@@ -9,6 +9,16 @@ import os
 def get_github_pat():
     return os.getenv('GITHUB_PAT')  # Ensure you have set this environment variable
 
+# Function to print rate limit status
+async def print_rate_limit_status(client):
+    rate_limit_url = "https://api.github.com/rate_limit"
+    response = await client.get(rate_limit_url)
+    if response.status_code == 200:
+        rate_limit = response.json()
+        print(f"Rate limit: {rate_limit['rate']['remaining']} remaining out of {rate_limit['rate']['limit']}")
+    else:
+        print(f"Failed to fetch rate limit status: {response.status_code}")
+
 async def get_latest_release(repo_url, prerelease, latest_flag=False):
     async def get_version_urls(release):
         version = release['tag_name']
@@ -25,6 +35,7 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
     timeout = Timeout(connect=None, read=None, write=None, pool=None)  # No timeouts
     headers = {"Authorization": f"token {get_github_pat()}"}
     async with AsyncClient(timeout=timeout, headers=headers) as client:
+        await print_rate_limit_status(client)  # Print rate limit status
         response = await client.get(api_url)
     if response.status_code == 200:
         releases = response.json()
