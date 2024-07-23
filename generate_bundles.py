@@ -2,7 +2,6 @@ import asyncio
 import json
 import subprocess
 from httpx import AsyncClient, Timeout
-import time
 import os
 
 # Function to get the PAT from an environment variable or a secure location
@@ -17,7 +16,7 @@ async def print_rate_limit_status(client):
         rate_limit = response.json()
         print(f"Rate limit: {rate_limit['rate']['remaining']} remaining out of {rate_limit['rate']['limit']}")
     else:
-        print(f"Failed to fetch rate limit status: {response.status_code}")
+        print(f"Failed to fetch rate limit status: {response.status_code} - {response.text}")
 
 async def get_latest_release(repo_url, prerelease, latest_flag=False):
     async def get_version_urls(release):
@@ -38,6 +37,7 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
     async with AsyncClient(timeout=timeout, headers=headers) as client:
         await print_rate_limit_status(client)  # Print rate limit status
         response = await client.get(api_url)
+        print(f"API response status: {response.status_code} - {response.text}")  # Print API response status and text
     if response.status_code == 200:
         releases = response.json()
         if latest_flag:
@@ -53,7 +53,7 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
             print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
             return None, None, None
     else:
-        print(f"Failed to fetch releases from {repo_url}")
+        print(f"Failed to fetch releases from {repo_url} - {response.text}")
         return None, None, None
 
 async def fetch_release_data(source, repo):
