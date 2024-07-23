@@ -27,7 +27,8 @@ async def fetch_release_data(source, repo_url):
 
     while attempt < max_retries:
         try:
-            response = requests.get(repo_url + '/releases', headers={'Authorization': f'token {get_github_pat()}'})
+            release_url = f"{repo_url}/releases"
+            response = requests.get(release_url, headers={'Authorization': f'token {get_github_pat()}'})
             response.raise_for_status()  # Raise an exception for error HTTP status codes
             release_data = response.json()
 
@@ -59,7 +60,7 @@ async def main():
     with open('bundle-sources.json') as file:
         sources = json.load(file)
 
-    tasks = [fetch_release_data(source, repo.get('patches') + '/releases') for source, repo in sources.items()]
+    tasks = [fetch_release_data(source, repo.get('patches')) for source, repo in sources.items()]
     await asyncio.gather(*tasks)
 
 if __name__ == "__main__":
