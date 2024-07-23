@@ -7,7 +7,7 @@ import os
 
 # Function to get the PAT from an environment variable or a secure location
 def get_github_pat():
-    return os.getenv('GITHUB_PAT')  # Ensure you have set this environment variable
+    return os.getenv('GH_PAT')  # Ensure you have set this environment variable
 
 # Function to print rate limit status
 async def print_rate_limit_status(client):
