@@ -2,7 +2,7 @@ import asyncio
 import json
 import os
 import random
-from github import Github
+from github import Github, GithubException
 import logging
 
 # Configure logging
@@ -27,42 +27,36 @@ async def get_version_urls(release):
     integrations_url = None
     for asset in release.assets:
         if asset.name.endswith(".jar"):
-            patches_url = asset.url
+            patches_url = asset.browser_download_url
         elif asset.name.endswith(".apk"):
-            integrations_url = asset.url
+            integrations_url = asset.browser_download_url
     return version, patches_url, integrations_url
 
-async def get_latest_release(repo_url, prerelease, latest_flag=False):
-    # Ensure the URL ends with /releases
-    if not repo_url.endswith("/releases"):
-        repo_url += "/releases"
+async def get_latest_release(repo, prerelease, latest_flag=False):
+    try:
+        releases = repo.get_releases()
+    except GithubException as e:
+        logging.error(f"Error fetching releases for {repo.full_name}: {e}")
+        return None, None, None
 
-    with Github(get_github_pat()) as github:
-        repo = github.get_repo(repo_url)
-        try:
-            releases = repo.get_releases()
-        except Exception as e:
-            logging.error(f"Error fetching releases for {repo_url}: {e}")
-            return None, None, None
+    if not releases:
+        logging.warning(f"No releases found for {repo.full_name}")
+        return None, None, None
 
-        if not releases:
-            logging.warning(f"No releases found for {repo_url}")
-            return None, None, None
+    if latest_flag:
+        target_release = max(releases, key=lambda x: x.created_at)
+    elif prerelease:
+        target_release = max((release for release in releases if release.prerelease), key=lambda x: x.created_at, default=None)
+    else:
+        target_release = max((release for release in releases if not release.prerelease), key=lambda x: x.created_at, default=None)
 
-        if latest_flag:
-            target_release = max(releases, key=lambda x: x.created_at)
-        elif prerelease:
-            target_release = max((release for release in releases if release.prerelease), key=lambda x: x.created_at, default=None)
-        else:
-            target_release = max((release for release in releases if not release.prerelease), key=lambda x: x.created_at, default=None)
+    if target_release:
+        return await get_version_urls(target_release)
+    else:
+        logging.warning(f"No {'pre' if prerelease else ''}release found for {repo.full_name}")
+        return None, None, None
 
-        if target_release:
-            return await get_version_urls(target_release)
-        else:
-            logging.warning(f"No {'pre' if prerelease else ''}release found for {repo_url}")
-            return None, None, None
-
-async def fetch_release_data(source, repo):
+async def fetch_release_data(github, source, repo):
     prerelease = repo.get('prerelease', False)
     latest_flag = repo.get('latest', False)
     attempt = 0
@@ -70,8 +64,11 @@ async def fetch_release_data(source, repo):
 
     while attempt < max_retries:
         try:
-            patches_version, patches_asset_url, integrations_url = await get_latest_release(repo.get('patches'), prerelease, latest_flag)
-            integrations_version, integrations_asset_url, _ = await get_latest_release(repo.get('integration'), prerelease, latest_flag)
+            patches_repo = github.get_repo(repo.get('patches').replace("https://github.com/", ""))
+            integrations_repo = github.get_repo(repo.get('integration').replace("https://github.com/", ""))
+
+            patches_version, patches_asset_url, integrations_url = await get_latest_release(patches_repo, prerelease, latest_flag)
+            integrations_version, integrations_asset_url, _ = await get_latest_release(integrations_repo, prerelease, latest_flag)
             break
         except Exception as e:
             logging.error(f"Error fetching release data for {source}: {e}")
@@ -104,7 +101,9 @@ async def main():
     with open('bundle-sources.json') as file:
         sources = json.load(file)
 
-    tasks = [fetch_release_data(source, repo) for source, repo in sources.items()]
+    github = Github(get_github_pat())
+
+    tasks = [fetch_release_data(github, source, repo) for source, repo in sources.items()]
     await asyncio.gather(*tasks)
 
 if __name__ == "__main__":
