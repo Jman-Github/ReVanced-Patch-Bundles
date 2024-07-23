@@ -32,6 +32,7 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
         return version, patches_url, integrations_url
 
     api_url = f"{repo_url}/releases"
+    print(f"Fetching from URL: {api_url}")  # Print the constructed API URL
     timeout = Timeout(connect=None, read=None, write=None, pool=None)  # No timeouts
     headers = {"Authorization": f"token {get_github_pat()}"}
     async with AsyncClient(timeout=timeout, headers=headers) as client:
