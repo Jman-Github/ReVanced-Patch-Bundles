@@ -4,11 +4,9 @@ import subprocess
 from httpx import AsyncClient, Timeout
 import os
 
-# Function to get the PAT from an environment variable or a secure location
 def get_gh_pat():
-    return os.getenv('GH_PAT')  # Ensure you have set this environment variable
+    return os.getenv('GH_PAT')
 
-# Function to print rate limit status
 async def print_rate_limit_status(client):
     rate_limit_url = "https://api.github.com/rate_limit"
     response = await client.get(rate_limit_url)
@@ -31,13 +29,13 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
         return version, patches_url, integrations_url
 
     api_url = f"{repo_url}/releases"
-    print(f"Fetching from URL: {api_url}")  # Print the constructed API URL
-    timeout = Timeout(connect=None, read=None, write=None, pool=None)  # No timeouts
+    print(f"Fetching from URL: {api_url}")
+    timeout = Timeout(connect=None, read=None, write=None, pool=None)
     headers = {"Authorization": f"token {get_gh_pat()}"}
     async with AsyncClient(timeout=timeout, headers=headers) as client:
-        await print_rate_limit_status(client)  # Print rate limit status
+        await print_rate_limit_status(client)
         response = await client.get(api_url)
-        print(f"API response status: {response.status_code} - {response.text}")  # Print API response status and text
+        print(f"API response status: {response.status_code} - {response.text}")
 
     if response.status_code == 200:
         releases = response.json()
@@ -81,7 +79,6 @@ async def fetch_release_data(source, repo):
             json.dump(info_dict, file, indent=2)
         print(f"Latest release information saved to {source}-patches-bundle.json")
         
-        # Stage the changes made to the JSON file
         subprocess.run(["git", "add", f"{source}-patches-bundle.json"])
     else:
         print(f"Error: Unable to fetch release information for {source}. Check if the releases contain .jar and .apk assets.")
@@ -90,15 +87,13 @@ async def main():
     with open('bundle-sources.json') as file:
         sources = json.load(file)
 
-    # Configure Git user name and email
     subprocess.run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"])
     subprocess.run(["git", "config", "user.name", "github-actions[bot]"])
 
     for source, repo in sources.items():
         await fetch_release_data(source, repo)
-        await asyncio.sleep(0)  # Add a cooldown of (seconds) seconds between requests
+        await asyncio.sleep(5)  # Add a cooldown of 5 seconds between requests
     
-    # Commit the changes
     subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
 
 if __name__ == "__main__":
