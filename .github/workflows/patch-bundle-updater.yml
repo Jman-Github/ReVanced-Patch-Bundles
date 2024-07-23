@@ -13,11 +13,6 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
-    outputs:
-      has_changes: ${{ steps.check_changes.outputs.has_changes }}
-      changed_files: ${{ steps.find_commit.outputs.changed_files }}
-      cancel_workflow: ${{ steps.run_generate_bundles.outputs.cancel_workflow }}
-
     steps:
       - name: Checkout code
         uses: actions/checkout@main
@@ -47,8 +42,8 @@ jobs:
           python -m pip install requests httpx
           output=$(python generate_bundles.py 2>&1)
           echo "$output"
-          if echo "$output" | grep -q "Your branch is up to date with 'origin/bundles'."; then
-            echo "Branch is up to date with 'origin/bundles'. Exiting..."
+          if echo "$output" | grep -q "No changes to commit. Exiting..."; then
+            echo "No changes detected."
             echo "::set-output name=cancel_workflow::true"
           else
             git add '*.json'
@@ -57,7 +52,7 @@ jobs:
               git push origin HEAD:${{ github.ref }} --follow-tags
               echo "::set-output name=has_changes::true"
             else
-              echo "No changes to commit. Exiting..."
+              echo "No changes to commit after running git add. Exiting..."
               echo "::set-output name=has_changes::false"
             fi
           fi
