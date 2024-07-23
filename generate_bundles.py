@@ -43,8 +43,9 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
 
     if response.status_code == 200:
         releases = response.json()
+        target_release = None
         if latest_flag:
-            target_release = max(releases, key=lambda x: x["published_at"])
+            target_release = max(releases, key=lambda x: x["published_at"], default=None)
         elif prerelease:
             target_release = max((release for release in releases if release["prerelease"]), key=lambda x: x["published_at"], default=None)
         else:
