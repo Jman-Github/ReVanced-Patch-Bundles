@@ -21,18 +21,18 @@ def exponential_backoff(attempt):
     delay = min(base ** attempt * random.uniform(1 - jitter, 1 + jitter), max_delay)
     return delay
 
-def get_latest_release(repo_url, prerelease, latest_flag=False):
-    async def get_version_urls(release):
-        version = release.tag_name
-        patches_url = None
-        integrations_url = None
-        for asset in release.assets:
-            if asset.name.endswith(".jar"):
-                patches_url = asset.url
-            elif asset.name.endswith(".apk"):
-                integrations_url = asset.url
-        return version, patches_url, integrations_url
+async def get_version_urls(release):
+    version = release.tag_name
+    patches_url = None
+    integrations_url = None
+    for asset in release.assets:
+        if asset.name.endswith(".jar"):
+            patches_url = asset.url
+        elif asset.name.endswith(".apk"):
+            integrations_url = asset.url
+    return version, patches_url, integrations_url
 
+async def get_latest_release(repo_url, prerelease, latest_flag=False):
     # Ensure the URL ends with /releases
     if not repo_url.endswith("/releases"):
         repo_url += "/releases"
@@ -57,7 +57,7 @@ def get_latest_release(repo_url, prerelease, latest_flag=False):
             target_release = max((release for release in releases if not release.prerelease), key=lambda x: x.created_at, default=None)
 
         if target_release:
-            return get_version_urls(target_release)
+            return await get_version_urls(target_release)
         else:
             logging.warning(f"No {'pre' if prerelease else ''}release found for {repo_url}")
             return None, None, None
@@ -70,8 +70,8 @@ async def fetch_release_data(source, repo):
 
     while attempt < max_retries:
         try:
-            patches_version, patches_asset_url, integrations_url = get_latest_release(repo.get('patches'), prerelease, latest_flag)
-            integrations_version, integrations_asset_url, _ = get_latest_release(repo.get('integration'), prerelease, latest_flag)
+            patches_version, patches_asset_url, integrations_url = await get_latest_release(repo.get('patches'), prerelease, latest_flag)
+            integrations_version, integrations_asset_url, _ = await get_latest_release(repo.get('integration'), prerelease, latest_flag)
             break
         except Exception as e:
             logging.error(f"Error fetching release data for {source}: {e}")
@@ -104,13 +104,8 @@ async def main():
     with open('bundle-sources.json') as file:
         sources = json.load(file)
 
-    # No need for configuring Git user as PyGithub handles authentication
-
-    for source, repo in sources.items():
-        await fetch_release_data(source, repo)
-        await asyncio.sleep(5)  # Add a cooldown of 0 seconds between requests
-
-    # No need for manual commit as PyGithub can manage commits
+    tasks = [fetch_release_data(source, repo) for source, repo in sources.items()]
+    await asyncio.gather(*tasks)
 
 if __name__ == "__main__":
     asyncio.run(main())
