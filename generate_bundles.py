@@ -108,7 +108,7 @@ async def main():
 
     for source, repo in sources.items():
         await fetch_release_data(source, repo)
-        await asyncio.sleep(5)  # Add a cooldown of 5 seconds between requests
+        await asyncio.sleep(5)  # Add a cooldown of 0 seconds between requests
 
     # No need for manual commit as PyGithub can manage commits
 
