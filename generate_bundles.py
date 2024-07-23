@@ -4,7 +4,7 @@ from github import Github, GithubException
 from ratelimit import limits, sleep_and_retry
 
 # Define your GitHub token
-GITHUB_TOKEN = 'your_github_token'
+GITHUB_TOKEN = 'GH_PAT'
 
 # Initialize the GitHub client
 g = Github(GITHUB_TOKEN)
