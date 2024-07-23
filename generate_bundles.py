@@ -21,11 +21,15 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
         version = release['tag_name']
         patches_url = None
         integrations_url = None
+        print(f"Assets for release {version}: {release['assets']}")
         for asset in release["assets"]:
+            print(f"Checking asset {asset['name']}: {asset['browser_download_url']}")
             if asset["browser_download_url"].endswith(".jar"):
                 patches_url = asset['browser_download_url']
+                print(f"Found .jar asset: {patches_url}")
             elif asset["browser_download_url"].endswith(".apk"):
                 integrations_url = asset['browser_download_url']
+                print(f"Found .apk asset: {integrations_url}")
         return version, patches_url, integrations_url
 
     api_url = f"{repo_url}/releases"
@@ -92,7 +96,7 @@ async def main():
 
     for source, repo in sources.items():
         await fetch_release_data(source, repo)
-        await asyncio.sleep(0)  # Add a cooldown of (seconds) seconds between requests
+        await asyncio.sleep(5)  # Add a cooldown of 5 seconds between requests
     
     subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
 
