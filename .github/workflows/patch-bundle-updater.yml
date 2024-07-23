@@ -3,11 +3,43 @@ name: Patch bundle updater
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/120 * * * *'
+  - cron: '*/120 * * * *'
 
 jobs:
+  generate_bundles:
+    name: Generate Bundles
+    runs-on: ubuntu-latest
+    outputs:
+      has_changes: ${{ steps.check_changes.outputs.has_changes }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install PyGithub
+
+      - name: Run generate_bundles.py
+        run: python generate_bundles.py
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet HEAD HEAD^ -- '*.json'; then
+            echo "::set-output name=has_changes::false"
+          else
+            echo "::set-output name=has_changes::true"
+          fi
+
   check_for_updates:
     name: Check for bundle updates
+    needs: generate_bundles
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
@@ -19,14 +51,12 @@ jobs:
       cancel_workflow: ${{ steps.run_generate_bundles.outputs.cancel_workflow }}
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@main
+      - uses: actions/checkout@v3
         with:
-          persist-credentials: false
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@main
+        uses: actions/setup-python@v3
         with:
           python-version: '3.x'
 
