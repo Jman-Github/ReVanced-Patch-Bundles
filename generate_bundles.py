@@ -64,9 +64,14 @@ async def fetch_release_data(github, source, repo):
 
   while attempt < max_retries:
     try:
-      # Add "/release" to the end of the URL
-      patches_repo = github.get_repo(repo.get('patches') + "/release")
-      integrations_repo = github.get_repo(repo.get('integration') + "/release")
+      patches_repo_url = repo.get('patches')
+      integrations_repo_url = repo.get('integration')
+
+      print(f"Patches Repo URL: {patches_repo_url}")
+      print(f"Integrations Repo URL: {integrations_repo_url}")
+
+      patches_repo = github.get_repo(patches_repo_url)
+      integrations_repo = github.get_repo(integrations_repo_url)
 
       patches_version, patches_asset_url, integrations_url = await get_latest_release(patches_repo, prerelease, latest_flag)
       integrations_version, integrations_asset_url, _ = await get_latest_release(integrations_repo, prerelease, latest_flag)
