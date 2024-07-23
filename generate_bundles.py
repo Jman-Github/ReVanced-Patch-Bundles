@@ -38,6 +38,7 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
         await print_rate_limit_status(client)  # Print rate limit status
         response = await client.get(api_url)
         print(f"API response status: {response.status_code} - {response.text}")  # Print API response status and text
+
     if response.status_code == 200:
         releases = response.json()
         if latest_flag:
@@ -48,7 +49,10 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
             target_release = max((release for release in releases if not release["prerelease"]), key=lambda x: x["published_at"], default=None)
         
         if target_release:
-            return await get_version_urls(target_release)
+            version, patches_url, integrations_url = await get_version_urls(target_release)
+            if not patches_url or not integrations_url:
+                print(f"Release {target_release['tag_name']} does not contain required assets (.jar or .apk)")
+            return version, patches_url, integrations_url
         else:
             print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
             return None, None, None
@@ -80,7 +84,7 @@ async def fetch_release_data(source, repo):
         # Stage the changes made to the JSON file
         subprocess.run(["git", "add", f"{source}-patches-bundle.json"])
     else:
-        print(f"Error: Unable to fetch release information for {source}")
+        print(f"Error: Unable to fetch release information for {source}. Check if the releases contain .jar and .apk assets.")
 
 async def main():
     with open('bundle-sources.json') as file:
@@ -92,7 +96,7 @@ async def main():
 
     for source, repo in sources.items():
         await fetch_release_data(source, repo)
-        await asyncio.sleep(0)  # Add a cooldown of (number) seconds between requests
+        await asyncio.sleep(0)  # Add a cooldown of (seconds) seconds between requests
     
     # Commit the changes
     subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
