@@ -54,6 +54,7 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
             version, patches_url, integrations_url = await get_version_urls(target_release)
             if not patches_url or not integrations_url:
                 print(f"Release {target_release['tag_name']} does not contain required assets (.jar or .apk)")
+                return None, None, None
             return version, patches_url, integrations_url
         else:
             print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
@@ -99,6 +100,7 @@ async def main():
         await asyncio.sleep(0)  # Add a cooldown of (seconds) seconds between requests
     
     subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
+    subprocess.run(["git", "push", "origin", "bundles"])
 
 if __name__ == "__main__":
     asyncio.run(main())
