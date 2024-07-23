@@ -67,6 +67,7 @@ jobs:
         id: check_changes
         if: steps.run_generate_bundles.outputs.cancel_workflow != 'true'
         run: |
+          echo "Checking for changes..."
           if git diff --quiet HEAD HEAD^ -- '*.json'; then
             echo "::set-output name=has_changes::false"
           else
@@ -77,6 +78,7 @@ jobs:
         id: find_commit
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
+          echo "Finding commit for changed files..."
           changed_files=$(git diff --name-only HEAD^ -- '*.json')
           if [ -z "$changed_files" ]; then
             echo "::set-output name=changed_files::"
