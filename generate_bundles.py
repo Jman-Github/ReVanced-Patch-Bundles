@@ -1,6 +1,7 @@
 import asyncio
 import json
 import os
+import random
 from github import Github
 import logging
 
@@ -10,6 +11,15 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # Function to get the PAT from an environment variable
 def get_github_pat():
     return os.getenv('GITHUB_PAT')
+
+def exponential_backoff(attempt):
+    """Implements exponential backoff with jitter."""
+    base = 2
+    max_delay = 60  # Maximum delay in seconds
+    jitter = 0.2  # Jitter factor
+
+    delay = min(base ** attempt * random.uniform(1 - jitter, 1 + jitter), max_delay)
+    return delay
 
 def get_latest_release(repo_url, prerelease, latest_flag=False):
     async def get_version_urls(release):
@@ -55,13 +65,23 @@ def get_latest_release(repo_url, prerelease, latest_flag=False):
 async def fetch_release_data(source, repo):
     prerelease = repo.get('prerelease', False)
     latest_flag = repo.get('latest', False)
+    attempt = 0
+    max_retries = 3  # Maximum retry attempts
 
-    try:
-        patches_version, patches_asset_url, integrations_url = get_latest_release(repo.get('patches'), prerelease, latest_flag)
-        integrations_version, integrations_asset_url, _ = get_latest_release(repo.get('integration'), prerelease, latest_flag)
-    except Exception as e:
-        logging.error(f"Error fetching release data for {source}: {e}")
-        return
+    while attempt < max_retries:
+        try:
+            patches_version, patches_asset_url, integrations_url = get_latest_release(repo.get('patches'), prerelease, latest_flag)
+            integrations_version, integrations_asset_url, _ = get_latest_release(repo.get('integration'), prerelease, latest_flag)
+            break
+        except Exception as e:
+            logging.error(f"Error fetching release data for {source}: {e}")
+            attempt += 1
+            if attempt >= max_retries:
+                logging.error(f"Max retries reached for {source}")
+                return
+            delay = exponential_backoff(attempt)
+            logging.warning(f"Retrying in {delay} seconds due to error")
+            await asyncio.sleep(delay)
 
     if patches_version and patches_asset_url and integrations_version and integrations_asset_url:
         info_dict = {
