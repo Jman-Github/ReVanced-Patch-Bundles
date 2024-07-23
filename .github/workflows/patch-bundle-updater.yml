@@ -40,8 +40,12 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
+          start_time=$(date +%s)
           output=$(python generate_bundles.py 2>&1)
+          end_time=$(date +%s)
+          elapsed=$((end_time - start_time))
           echo "$output"
+          echo "generate_bundles.py execution time: $elapsed seconds"
           if echo "$output" | grep -q "Your branch is up to date with 'origin/bundles'."; then
             echo "Branch is up to date with 'origin/bundles'. Exiting..."
             echo "::set-output name=cancel_workflow::true"
