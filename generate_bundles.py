@@ -34,7 +34,7 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
     api_url = f"{repo_url}/releases"
     print(f"Fetching from URL: {api_url}")  # Print the constructed API URL
     timeout = Timeout(connect=None, read=None, write=None, pool=None)  # No timeouts
-    headers = {"Authorization": f"token {get_github_pat()}"}
+    headers = {"Authorization": f"token {get_gh_pat()}"}
     async with AsyncClient(timeout=timeout, headers=headers) as client:
         await print_rate_limit_status(client)  # Print rate limit status
         response = await client.get(api_url)
