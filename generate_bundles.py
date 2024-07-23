@@ -5,7 +5,7 @@ import random
 import requests
 import logging
 
-from requests.exceptions import RequestException
+from requests.exceptions import RequestException, Timeout
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -26,6 +26,7 @@ def exponential_backoff(attempt):
 async def fetch_release_data(source, repo_data):
     attempt = 0
     max_retries = 3  # Maximum retry attempts
+    timeout = 10  # Timeout for requests in seconds
 
     while attempt < max_retries:
         try:
@@ -33,19 +34,16 @@ async def fetch_release_data(source, repo_data):
             if "latest" in repo_data:
                 release_url = f"{repo_data['patches']}/releases/latest"
             elif "prerelease" in repo_data and repo_data["prerelease"]:
-                # Handle logic for fetching pre-releases (if applicable)
-                # You might need to add specific logic for the repository's pre-release strategy
                 logging.warning(f"Pre-release fetching not implemented for {source}")
             else:
-                release_url = f"{repo_data['patches']}/releases/tags/{repo_data.get('tag')}"  # Use 'tag' key if provided
+                release_url = f"{repo_data['patches']}/releases/tags/{repo_data.get('tag')}"
 
             if release_url:
-                response = requests.get(release_url, headers={'Authorization': f'token {get_github_pat()}'})
+                response = requests.get(release_url, headers={'Authorization': f'token {get_github_pat()}'}, timeout=timeout)
                 response.raise_for_status()  # Raise an exception for error HTTP status codes
                 release_data = response.json()
 
                 # Assuming the release data structure is similar to PyGithub
-                # You might need to adapt the following logic based on the actual response
                 latest_release = release_data[0]  # Assuming latest release is the first in the list
                 patches_url = None
                 integrations_url = None
@@ -61,7 +59,7 @@ async def fetch_release_data(source, repo_data):
             else:
                 logging.warning(f"No appropriate URL found for {source}")
 
-        except RequestException as e:
+        except (RequestException, Timeout) as e:
             logging.error(f"Error fetching release data for {source}: {e}")
             logging.error(f"Request URL: {release_url}")
             logging.error(f"Response status code: {e.response.status_code if hasattr(e, 'response') else 'N/A'}")
