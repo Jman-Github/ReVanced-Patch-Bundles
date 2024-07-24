@@ -1,0 +1,47 @@
+name: Check for compose manager updates
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Python dependencies
+        run: |
+          sudo apt-get install jq -y
+          python -m pip install requests
+
+      - name: Get artifact URL
+        id: get_artifact
+        run: |
+          ARTIFACT_URL=$(curl -sS -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/ReVanced/revanced-manager/actions/workflows/pr-build.yml/runs?event=pull_request&status=success" | jq -r '.workflow_runs[0].artifacts_url')
+          if [ -z "$ARTIFACT_URL" ]; then
+            echo "Failed to fetch artifact URL."
+            exit 1
+          fi
+          RUN_ID=$(curl -sS -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/ReVanced/revanced-manager/actions/workflows/pr-build.yml/runs?event=pull_request&status=success" | jq -r '.workflow_runs[0].id')
+          ARTIFACT_ID=$(curl -sS "$ARTIFACT_URL" | jq -r '.artifacts[] | select(.name == "revanced-manager") | .id')
+          if [ -z "$ARTIFACT_ID" ]; then
+            echo "Failed to fetch artifact ID."
+            exit 1
+          fi
+          ARTIFACT_DOWNLOAD_URL="https://github.com/ReVanced/revanced-manager/actions/runs/${RUN_ID}/artifacts/${ARTIFACT_ID}"
+          echo "::set-output name=artifact_url::$ARTIFACT_DOWNLOAD_URL"
+          echo "ARTIFACT_DOWNLOAD_URL: $ARTIFACT_DOWNLOAD_URL"
+          echo "ARTIFACT_ID: $ARTIFACT_ID"
+        env:
+          GITHUB_RUN_ID: ${{ github.run_id }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update README
+        run: |
+          python update_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
+        env:
+          GITHUB_RUN_ID: ${{ github.run_id }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
