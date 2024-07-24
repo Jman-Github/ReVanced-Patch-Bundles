@@ -57,14 +57,14 @@ jobs:
       - name: Check if README needs update
         id: check_readme
         run: |
-          python path/to/check_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
+          python check_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
 
       - name: Update README
         if: steps.check_readme.outputs.needs_update == 'true'
         run: |
-          python path/to/update_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
+          python update_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
         env:
           GITHUB_RUN_ID: ${{ github.run_id }}
           GH_PAT: ${{ secrets.GH_PAT }}
