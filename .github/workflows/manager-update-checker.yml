@@ -1,10 +1,8 @@
 name: Check for compose manager updates
-
 on:
   workflow_dispatch:
   schedule:
     - cron: "*/10 * * * *"
-
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -39,9 +37,21 @@ jobs:
           GITHUB_RUN_ID: ${{ github.run_id }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Update README
+      - name: Check for changes in artifact URL
         run: |
-          python update_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
-        env:
-          GITHUB_RUN_ID: ${{ github.run_id }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NEW_ARTIFACT_URL=$(echo "${{ steps.get_artifact.outputs.artifact_url }}" | grep -oP '(?<=https://github.com/ReVanced/revanced-manager/actions/runs/)[^/]+')
+          if [ "$NEW_ARTIFACT_URL" != "$ARTIFACT_URL" ]; then
+            echo "New artifact URL found: $NEW_ARTIFACT_URL"
+            ARTIFACT_URL=$NEW_ARTIFACT_URL
+          else
+            echo "No changes in artifact URL."
+            skipUpdate=true
+          fi
+
+      - name: Update README file (if necessary)
+        run: |
+          if [ "$skipUpdate" != true ]; then
+            python /path/to/update_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
+          else
+            echo "Skipping update of README file."
+          fi
