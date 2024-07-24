@@ -51,7 +51,7 @@ jobs:
       - name: Update README file (if necessary)
         run: |
           if [ "$skipUpdate" != true ]; then
-            python /path/to/update_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
+            python update_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
           else
             echo "Skipping update of README file."
           fi
