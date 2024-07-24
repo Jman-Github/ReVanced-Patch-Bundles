@@ -20,32 +20,44 @@ jobs:
       - name: Get artifact URL
         id: get_artifact
         run: |
-          ARTIFACT_URL=$(curl -sS -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/ReVanced/revanced-manager/actions/work
-          workflows/pr-build.yml/runs?event=pull_request&status=success" | jq -r '.workflow_runs[0].artifacts_url')
+          WORKFLOW_RUNS=$(curl -sS -H "Authorization: Bearer ${{ secrets.GH_PAT }}" "https://api.github.com/repos/ReVanced/revanced-manager/actions/workflows/pr-build.yml/runs?event=pull_request&status=success")
+          if [ -z "$WORKFLOW_RUNS" ]; then
+            echo "Failed to fetch workflow runs."
+            exit 1
+          fi
+
+          ARTIFACT_URL=$(echo $WORKFLOW_RUNS | jq -r '.workflow_runs[0].artifacts_url')
           if [ -z "$ARTIFACT_URL" ]; then
             echo "Failed to fetch artifact URL."
             exit 1
           fi
-          RUN_ID=$(curl -sS -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/ReVanced/revanced-manager/actions/workflows/pr-build.yml/runs?event=pull_request&status=success" | jq -r '.workflow_runs[0].id')
-          ARTIFACT_ID=$(curl -sS "$ARTIFACT_URL" | jq -r '.artifacts[] | select(.name == "revanced-manager") | .id')
+
+          ARTIFACTS=$(curl -sS "$ARTIFACT_URL")
+          if [ -z "$ARTIFACTS" ]; then
+            echo "Failed to fetch artifacts."
+            exit 1
+          fi
+
+          RUN_ID=$(echo $WORKFLOW_RUNS | jq -r '.workflow_runs[0].id')
+          ARTIFACT_ID=$(echo $ARTIFACTS | jq -r '.artifacts[] | select(.name == "revanced-manager") | .id')
           if [ -z "$ARTIFACT_ID" ]; then
             echo "Failed to fetch artifact ID."
             exit 1
           fi
+
           ARTIFACT_DOWNLOAD_URL="https://github.com/ReVanced/revanced-manager/actions/runs/${RUN_ID}/artifacts/${ARTIFACT_ID}"
           echo "::set-output name=artifact_url::$ARTIFACT_DOWNLOAD_URL"
           echo "ARTIFACT_DOWNLOAD_URL: $ARTIFACT_DOWNLOAD_URL"
-          echo "ARTIFACT_ID: $ARTIFACT_ID"
         env:
           GITHUB_RUN_ID: ${{ github.run_id }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
 
       - name: Check if README needs update
         id: check_readme
         run: |
           python check_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
 
       - name: Update README
         if: steps.check_readme.outputs.needs_update == 'true'
@@ -53,4 +65,4 @@ jobs:
           python update_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
         env:
           GITHUB_RUN_ID: ${{ github.run_id }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
