@@ -20,7 +20,8 @@ jobs:
       - name: Get artifact URL
         id: get_artifact
         run: |
-          ARTIFACT_URL=$(curl -sS -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/ReVanced/revanced-manager/actions/workflows/pr-build.yml/runs?event=pull_request&status=success" | jq -r '.workflow_runs[0].artifacts_url')
+          ARTIFACT_URL=$(curl -sS -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/ReVanced/revanced-manager/actions/work
+          workflows/pr-build.yml/runs?event=pull_request&status=success" | jq -r '.workflow_runs[0].artifacts_url')
           if [ -z "$ARTIFACT_URL" ]; then
             echo "Failed to fetch artifact URL."
             exit 1
@@ -39,19 +40,17 @@ jobs:
           GITHUB_RUN_ID: ${{ github.run_id }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Check if download link has been updated
-        id: check_download_link
+      - name: Check if README needs update
+        id: check_readme
         run: |
-          readme_path = os.path.join(os.environ["GITHUB_WORKSPACE"], "README.md")
-          with open(readme_path, 'r') as f:
-            readme_content = f.read()
-          if ARTIFACT_DOWNLOAD_URL in readme_content:
-            print("Download link has already been updated.")
-            exit(0)
+          python check_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Update download link
-        if: steps.check_download_link.outputs.result == 'success'
+      - name: Update README
+        if: steps.check_readme.outputs.needs_update == 'true'
         run: |
-          python update-readme.py "$ARTIFACT_DOWNLOAD_URL"
+          python update_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
+        env:
+          GITHUB_RUN_ID: ${{ github.run_id }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
