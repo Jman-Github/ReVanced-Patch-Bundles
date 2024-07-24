@@ -186,6 +186,18 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/1fexd-dev-patches-bundle.json```
 </details>
 
+### 📦 Pufferffish-Patches-Bundle:
+
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/pufferffish-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/pufferffish-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/pufferffish-dev-patches-bundle.json```
+</details>
+
 # 📱 ReVanced Manager Compose:
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
@@ -223,6 +235,8 @@ https://github.com/ReVanced/revanced-manager/actions/runs/10032463688/artifacts/
 
 #### 🏷️ [1fexd-Patches-Bundle](https://github.com/1fexd/revanced-patches)
 
+#### 🏷️ [Pufferffish-Patches-Bundle](https://github.com/pufferffish/revanced-patches-repo)
+
 
 # 🖇 Intergrations Repositorys In Use
 #### ⛓ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-integrations)
@@ -254,6 +268,8 @@ https://github.com/ReVanced/revanced-manager/actions/runs/10032463688/artifacts/
 #### ⛓ [Andronedev-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 #### ⛓ [1fexd-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
+
+#### ⛓ [Pufferffish-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 ## 🤝 Contributors
 ##### [indrastorms](https://github.com/indrastorms)
