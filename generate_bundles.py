@@ -3,7 +3,6 @@ import json
 import subprocess
 import os
 from httpx import AsyncClient, Timeout
-import time
 
 GH_PAT = os.getenv('GH_PAT')
 
@@ -59,12 +58,18 @@ async def fetch_release_data(source, repo):
                 "url": integration_asset_url
             }
         }
-        with open(f'{source}-patches-bundle.json', 'w') as file:
+
+        directory = source.replace('-dev', '').replace('-latest', '').replace('-stable', '') + '-patch-bundles'
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+        
+        filepath = os.path.join(directory, f'{source}-patches-bundle.json')
+        with open(filepath, 'w') as file:
             json.dump(info_dict, file, indent=2)
-        print(f"Latest release information saved to {source}-patches-bundle.json")
+        print(f"Latest release information saved to {filepath}")
         
         # Stage the changes made to the JSON file
-        subprocess.run(["git", "add", f"{source}-patches-bundle.json"])
+        subprocess.run(["git", "add", filepath])
     else:
         print(f"Error: Unable to fetch release information for {source}")
 
