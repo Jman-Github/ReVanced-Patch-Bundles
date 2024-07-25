@@ -59,7 +59,8 @@ async def fetch_release_data(source, repo):
             }
         }
 
-        directory = source.replace('-dev', '').replace('-latest', '').replace('-stable', '') + '-patch-bundles'
+        base_source = source.replace('-dev', '').replace('-latest', '').replace('-stable', '')
+        directory = os.path.join('patch-bundles', f"{base_source}-patch-bundles")
         if not os.path.exists(directory):
             os.makedirs(directory)
         
