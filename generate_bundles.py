@@ -82,12 +82,18 @@ async def main():
     subprocess.run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"])
     subprocess.run(["git", "config", "user.name", "github-actions[bot]"])
 
+    # Pull the latest changes from the remote branch
+    subprocess.run(["git", "pull", "origin", "bundles"])
+
     for source, repo in sources.items():
         await fetch_release_data(source, repo)
         await asyncio.sleep(0)  # Add a cooldown of (seconds) seconds between requests
     
     # Commit the changes
     subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"])
+    
+    # Push the changes to the remote branch
+    subprocess.run(["git", "push", "origin", "bundles"])
 
 if __name__ == "__main__":
     asyncio.run(main())
