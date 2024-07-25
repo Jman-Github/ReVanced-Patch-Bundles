@@ -207,7 +207,7 @@ https://github.com/ReVanced/revanced-manager/tree/compose-dev
 #### 📩 Latest Download:
 
 https://github.com/ReVanced/revanced-manager/actions/runs/10102426446/artifacts/1741717072
-# 🩹 Patch Repositorys In Use
+https://github.com/ReVanced/revanced-manager/actions/runs/10103064432/artifacts/1741874735
 #### 🏷️ [Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
 
 #### 🏷️ [Experimental-Patches-Bundle](https://github.com/Aunali321/ReVancedExperiments)
