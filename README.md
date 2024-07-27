@@ -19,6 +19,8 @@ This repository automatically checks for patch and integration updates from the 
 
 > [!WARNING]  
 > Some of the dev-patch-bundle sources will not be working. This is due to some of the repositories having never created a prerelease. Those sources will have "N/A" in the repsective patch-bundle.json files. The current dev-patch-bundle sources that have this issue are BiliRoamingX, Rufusin and ReX.
+
+# 📋 Patch Bundles URLs 
 ### 📦 ReVanced-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
