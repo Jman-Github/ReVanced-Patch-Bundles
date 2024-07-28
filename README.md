@@ -205,8 +205,7 @@ This repository automatically checks for patch and integration updates from the 
 
 # 📱 ReVanced Manager Compose:
 #### 📋 Source:
-https://github.com/ReVanced/revanced-manager/tree/compose-dev
-https://github.com/ReVanced/revanced-manager/actions/runs/10126495641/artifacts/1747188575
+#### 📩 Latest Download:
 https://github.com/ReVanced/revanced-manager/actions/runs/10116498279/artifacts/1745231087
 # 🩹 Patch Repositorys In Use
 #### 🏷️ [Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
