@@ -5,7 +5,7 @@ import base64
 
 def check_readme(artifact_url):
     headers = {
-        "Authorization": f"Bearer {os.environ['GH_PAT']}",
+        "Authorization": f"Bearer {os.environ['GIT_TOKEN']}",
         "Content-Type": "application/json"
     }
     response = requests.get(
