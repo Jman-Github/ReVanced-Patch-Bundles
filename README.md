@@ -207,7 +207,7 @@ This repository automatically checks for patch and integration updates from the 
 <details>
 <summary><i>Expand For Links</i></summary>
 
-https://github.com/ReVanced/revanced-manager/actions/runs/10267661938/artifacts/1781153713
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xrogers-patch-bundles/xrogers-latest-patches-bundle.json```
 
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xrogers-patch-bundles/xrogers-stable-patches-bundle.json```
 
