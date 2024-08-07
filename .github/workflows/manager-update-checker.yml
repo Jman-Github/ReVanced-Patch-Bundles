@@ -22,7 +22,7 @@ jobs:
       - name: Get artifact URL
         id: get_artifact
         run: |
-          WORKFLOW_RUNS=$(curl -sS -H "Authorization: Bearer ${{ secrets.GH_PAT }}" "https://api.github.com/repos/ReVanced/revanced-manager/actions/workflows/pr-build.yml/runs?event=pull_request&status=success")
+          WORKFLOW_RUNS=$(curl -sS -H "Authorization: Bearer ${{ secrets.GIT_TOKEN }}" "https://api.github.com/repos/ReVanced/revanced-manager/actions/workflows/pr-build.yml/runs?event=pull_request&status=success")
           if [ -z "$WORKFLOW_RUNS" ]; then
             echo "Failed to fetch workflow runs."
             exit 1
@@ -52,14 +52,14 @@ jobs:
           echo "ARTIFACT_DOWNLOAD_URL: $ARTIFACT_DOWNLOAD_URL"
         env:
           GITHUB_RUN_ID: ${{ github.run_id }}
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
 
       - name: Check if README needs update
         id: check_readme
         run: |
           python check_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
 
       - name: Update README
         if: steps.check_readme.outputs.needs_update == 'true'
@@ -67,4 +67,4 @@ jobs:
           python update_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
         env:
           GITHUB_RUN_ID: ${{ github.run_id }}
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}

@@ -203,11 +203,22 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pufferffish-patch-bundles/pufferffish-dev-patches-bundle.json```
 </details>
 
+### 📦 Xrogers-Patches-Bundle:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xrogers-patch-bundles/xrogers-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xrogers-patch-bundles/xrogers-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xrogers-patch-bundles/xrogers-dev-patches-bundle.json```
+</details>
+
 # 📱 ReVanced Manager Compose:
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
 #### 📩 Latest Download:
-https://github.com/ReVanced/revanced-manager/actions/runs/10267661938/artifacts/1781153713
+placeholder
 # 🩹 Patch Repositorys In Use
 #### 🏷️ [Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
 
@@ -239,6 +250,7 @@ https://github.com/ReVanced/revanced-manager/actions/runs/10267661938/artifacts/
 
 #### 🏷️ [Pufferffish-Patches-Bundle](https://github.com/pufferffish/revanced-patches-repo)
 
+#### 🏷️ [Xrogers-Patches-Bundle](https://github.com/xrogers/revanced-patches-galaxy)
 
 # 🖇 Intergrations Repositorys In Use
 #### ⛓ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-integrations)
@@ -272,6 +284,8 @@ https://github.com/ReVanced/revanced-manager/actions/runs/10267661938/artifacts/
 #### ⛓ [1fexd-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 #### ⛓ [Pufferffish-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
+
+#### ⛓ [Xrogers-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 ## 🤝 Contributors
 ##### [indrastorms](https://github.com/indrastorms)

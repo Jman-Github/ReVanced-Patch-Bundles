@@ -74,6 +74,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "xrogers-stable": {
+        "patches": "https://api.github.com/repos/xrogers/revanced-patches-galaxy",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -154,6 +159,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
+    "xrogers-dev": {
+        "patches": "https://api.github.com/repos/xrogers/revanced-patches-galaxy",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
     "piko-latest": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -231,6 +241,11 @@
     },
     "pufferffish-latest": {
         "patches": "https://api.github.com/repos/pufferffish/revanced-patches-repo",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "xrogers-latest": {
+        "patches": "https://api.github.com/repos/xrogers/revanced-patches-galaxy",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }
