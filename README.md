@@ -8,6 +8,8 @@
 # 📋 Suggestions, Questions & Issues
 If you have any issues, suggestions, and/or questions please don't be affraid to create a [issue](https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues/new)! You can also communicate with me in [discussions](https://github.com/Jman-Github/ReVanced-Patch-Bundles/discussions). For contributors, see information about that [here](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/CONTRIBUTING.md).
 
+Check out [Awesome-ReVanced](https://github.com/Jman-Github/Awesome-ReVanced) if you want more ReVanced related projects and resources!
+
 # ❓ About 
 This repository automatically checks for patch and integration updates from the repositorys listed [below](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-patch-bundles-urls) every 30 minutes. These repositories are alternative ReVanced patch and integration sources for users who want extended patch sources with ReVanced. The links listed below are used for the patch bundle sources in the [ReVanced Manager Compose](https://github.com/ReVanced/revanced-manager/tree/compose-dev). Use these links to set your patch bundle(s) inside the ReVanced Manager Compose. Choose between dev, stable and latest (this includes prerealses & regular releases) releases for the patch bundle sources. The links will import the patch bundle(s) (integrations & patches) into the manager which should update the bundle(s) every time these links have a change in there code. *If you have any other working ReVanced alternative patch and integration repositories that aren't already included in this repository, please create an [issue](https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues) to let me know.*
 > [!IMPORTANT]
