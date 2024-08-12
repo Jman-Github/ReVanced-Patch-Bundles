@@ -18,8 +18,7 @@ This repository automatically checks for patch and integration updates from the 
 >**Dev:** The latest dev patch & integrations with regular releases excluded. Meaning it will just update to the latest prerelease and skip over the regular releases.
 
 > [!WARNING]  
-> Some of the dev-patch-bundle sources will not be working. This is due to some of the repositories having never created a prerelease. Those sources will have "N/A" in the repsective patch-bundle.json files. The current dev-patch-bundle sources that have this issue are BiliRoamingX, Rufusin and ReX.
-
+> Some of the dev-patch-bundle sources will not be working. This is due to some of the repositories having never created a prerelease. Those sources will have "N/A" in the repsective patch-bundle.json files.
 # 📋 Patch Bundles URLs 
 ### 📦 ReVanced-Patches-Bundle:
 <details>
