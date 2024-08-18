@@ -215,6 +215,17 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xrogers-patch-bundles/xrogers-dev-patches-bundle.json```
 </details>
 
+### 📦 Slenderman00-Patches-Bundle:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/slenderman00-patch-bundles/slenderman00-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/slenderman00-patch-bundles/slenderman00-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/slenderman00-patch-bundles/slenderman00-dev-patches-bundle.json```
+</details>
+
 # 📱 ReVanced Manager Compose:
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
@@ -255,6 +266,8 @@ https://github.com/ReVanced/revanced-manager/actions/runs/10438614474/artifacts/
 
 #### 🏷️ [Xrogers-Patches-Bundle](https://github.com/xrogers/revanced-patches-galaxy)
 
+#### 🏷️ [Slenderman00-Patches-Bundle](https://github.com/Slenderman00/revanced-patches-grindr)
+
 # 🖇 Intergrations Repositorys In Use
 #### ⛓ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-integrations)
 
@@ -289,6 +302,8 @@ https://github.com/ReVanced/revanced-manager/actions/runs/10438614474/artifacts/
 #### ⛓ [Pufferffish-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 #### ⛓ [Xrogers-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
+
+#### ⛓ [Slenderman00-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 ## 🤝 Contributors
 ##### [indrastorms](https://github.com/indrastorms)
