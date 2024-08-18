@@ -219,7 +219,7 @@ This repository automatically checks for patch and integration updates from the 
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
 #### 📩 Latest Download:
-https://github.com/ReVanced/revanced-manager/actions/runs/10406703145/artifacts/1816419368
+https://github.com/ReVanced/revanced-manager/actions/runs/10438378239/artifacts/1824110665
 # 🩹 Patch Repositorys In Use
 #### 🏷️ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-patches)
 
