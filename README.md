@@ -231,7 +231,7 @@ This repository automatically checks for patch and integration updates from the 
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
 #### 📩 Latest Download:
 https://github.com/ReVanced/revanced-manager/actions/runs/10438614474/artifacts/1824186607
-# 🩹 Patch Repositorys In Use
+# 🩹 Patch Repositories In Use
 #### 🏷️ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-patches)
 
 #### 🏷️ [Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
@@ -268,7 +268,7 @@ https://github.com/ReVanced/revanced-manager/actions/runs/10438614474/artifacts/
 
 #### 🏷️ [Slenderman00-Patches-Bundle](https://github.com/Slenderman00/revanced-patches-grindr)
 
-# 🖇 Intergrations Repositorys In Use
+# 🖇 Intergrations Repositories In Use
 #### ⛓ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-integrations)
 
 #### ⛓ [Anddea-Patches-Bundle](https://github.com/anddea/revanced-integrations)
