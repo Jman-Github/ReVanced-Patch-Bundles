@@ -248,6 +248,17 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kitadai31-patch-bundles/kitadai31-dev-patches-bundle.json```
 </details>
 
+### 📦 ayushTNM-Patches-Bundle:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ayushtnm-patch-bundles/ayushtnm-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ayushtnm-patch-bundles/ayushtnm-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ayushtnm-patch-bundles/ayushtnm-dev-patches-bundle.json```
+</details>
+
 # 📱 ReVanced Manager Compose:
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
@@ -294,6 +305,8 @@ https://github.com/ReVanced/revanced-manager/actions/runs/10492864097/artifacts/
 
 #### 🏷️ [Kitadai31-Patches-Bundle](https://github.com/kitadai31/revanced-patches-android6-7)
 
+#### 🏷️ [ayushTNM-Patches-Bundle](https://github.com/ayushTNM/gmscore-patches)
+
 # 🖇 Intergrations Repositories In Use
 #### ⛓ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-integrations)
 
@@ -334,6 +347,8 @@ https://github.com/ReVanced/revanced-manager/actions/runs/10492864097/artifacts/
 #### ⛓ [D4n3436-Patches-Bundle](https://github.com/d4n3436/revanced-integrations)
 
 #### ⛓ [Kitadai31-Patches-Bundle](https://github.com/kitadai31/revanced-integrations)
+
+#### ⛓ [ayushTNM-Patches-Bundle](https://github.com/kitadai31/revanced-integrations)
 
 ## 🤝 Contributors
 ##### [indrastorms](https://github.com/indrastorms)
