@@ -259,6 +259,18 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ayushtnm-patch-bundles/ayushtnm-dev-patches-bundle.json```
 </details>
 
+### 📦 Arsclib-Patches-Bundle:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/arsclib-patch-bundles/arsclib-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/arsclib-patch-bundles/arsclib-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/arsclib-patch-bundles/arsclib-dev-patches-bundle.json```
+</details>
+
+
 # 📱 ReVanced Manager Compose:
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
@@ -307,6 +319,8 @@ https://github.com/ReVanced/revanced-manager/actions/runs/10509663770/artifacts/
 
 #### 🏷️ [ayushTNM-Patches-Bundle](https://github.com/ayushTNM/gmscore-patches)
 
+#### 🏷️ [Arsclib-Patches-Bundle](https://github.com/inotia00/revanced-patches-arsclib)
+
 # 🖇 Intergrations Repositories In Use
 #### ⛓ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-integrations)
 
@@ -349,6 +363,8 @@ https://github.com/ReVanced/revanced-manager/actions/runs/10509663770/artifacts/
 #### ⛓ [Kitadai31-Patches-Bundle](https://github.com/kitadai31/revanced-integrations)
 
 #### ⛓ [ayushTNM-Patches-Bundle](https://github.com/kitadai31/revanced-integrations)
+
+#### ⛓ [Arsclib-Patches-Bundle](https://github.com/inotia00/revanced-integrations)
 
 ## 🤝 Contributors
 ##### [indrastorms](https://github.com/indrastorms)

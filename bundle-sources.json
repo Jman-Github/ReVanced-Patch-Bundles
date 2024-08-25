@@ -99,6 +99,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "arsclib-stable": {
+        "patches": "https://api.github.com/repos/inotia00/revanced-patches-arsclib",
+        "integration": "https://api.github.com/repos/inotia00/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -202,6 +207,11 @@
     "ayushtnm-dev": {
         "patches": "https://api.github.com/repos/ayushtnm/gmscore-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+            },
+    "arsclib-dev": {
+        "patches": "https://api.github.com/repos/inotia00/revanced-patches-arsclib",
+        "integration": "https://api.github.com/repos/inotia00/revanced-integrations",
         "prerelease": true
     },
     "piko-latest": {
@@ -307,6 +317,11 @@
     "ayushtnm-latest": {
         "patches": "https://api.github.com/repos/ayushtnm/gmscore-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "arsclib-latest": {
+        "patches": "https://api.github.com/repos/inotia00/revanced-patches-arsclib",
+        "integration": "https://api.github.com/repos/inotia00/revanced-integrations",
         "latest": true
     }
 }
