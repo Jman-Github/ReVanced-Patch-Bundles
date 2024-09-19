@@ -16,12 +16,16 @@ def check_readme(artifact_url):
         readme_content = response.json()
         readme_content_decoded = base64.b64decode(readme_content["content"]).decode("utf-8")
         if artifact_url in readme_content_decoded:
-            print("::set-output name=needs_update::false")
+            needs_update = 'false'
         else:
-            print("::set-output name=needs_update::true")
+            needs_update = 'true'
     else:
-        print("::set-output name=needs_update::true")
+        needs_update = 'true'
         print(f"Failed to fetch README. Status code: {response.status_code}")
+
+    # Write the output to GITHUB_OUTPUT
+    with open(os.environ['GITHUB_OUTPUT'], 'a') as output_file:
+        output_file.write(f"needs_update={needs_update}\n")
 
 if __name__ == "__main__":
     artifact_url = sys.argv[1]
