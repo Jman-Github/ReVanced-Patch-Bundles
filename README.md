@@ -248,7 +248,7 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kitadai31-patch-bundles/kitadai31-dev-patches-bundle.json```
 </details>
 
-### 📦 ayushTNM-Patches-Bundle:
+### 📦 AyushTNM-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -268,6 +268,17 @@ This repository automatically checks for patch and integration updates from the 
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/arsclib-patch-bundles/arsclib-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/arsclib-patch-bundles/arsclib-dev-patches-bundle.json```
+</details>
+
+### 📦 LennyRBLX-Patches-Bundle:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lennyRBLX-patch-bundles/lennyRBLX-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lennyRBLX-patch-bundles/lennyRBLX-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lennyRBLX-patch-bundles/lennyRBLX-dev-patches-bundle.json```
 </details>
 
 
@@ -317,9 +328,11 @@ https://github.com/ReVanced/revanced-manager/actions/runs/10910148790/artifacts/
 
 #### 🏷️ [Kitadai31-Patches-Bundle](https://github.com/kitadai31/revanced-patches-android6-7)
 
-#### 🏷️ [ayushTNM-Patches-Bundle](https://github.com/ayushTNM/gmscore-patches)
+#### 🏷️ [AyushTNM-Patches-Bundle](https://github.com/ayushTNM/gmscore-patches)
 
 #### 🏷️ [Arsclib-Patches-Bundle](https://github.com/inotia00/revanced-patches-arsclib)
+
+#### 🏷️ [LennyRBLX-Patches-Bundle](https://github.com/lennyRBLX/apk-patches)
 
 # 🖇 Intergrations Repositories In Use
 #### ⛓ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-integrations)
@@ -365,6 +378,8 @@ https://github.com/ReVanced/revanced-manager/actions/runs/10910148790/artifacts/
 #### ⛓ [ayushTNM-Patches-Bundle](https://github.com/kitadai31/revanced-integrations)
 
 #### ⛓ [Arsclib-Patches-Bundle](https://github.com/inotia00/revanced-integrations)
+
+#### ⛓ [LennyRBLX-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 ## 🤝 Contributors
 ##### [indrastorms](https://github.com/indrastorms)
