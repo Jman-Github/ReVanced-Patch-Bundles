@@ -12,7 +12,7 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
         patches_url = None
         integrations_url = None
         for asset in release["assets"]:
-            if asset["browser_download_url"].endswith(".jar"):
+            if asset["browser_download_url"].endswith(".jar") or asset["browser_download_url"].endswith(".rvp"):
                 patches_url = asset['browser_download_url']
             elif asset["browser_download_url"].endswith(".apk"):
                 integrations_url = asset['browser_download_url']
