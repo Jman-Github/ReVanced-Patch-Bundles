@@ -42,45 +42,47 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           python -m venv venv
-          . venv/bin/activate || . venv/Scripts/activate
+          source venv/bin/activate
           python -m pip install --upgrade pip
           python -m pip install requests httpx
           output=$(python generate_bundles.py 2>&1)
           echo "$output"
           if echo "$output" | grep -q "Your branch is up to date with 'origin/bundles'."; then
-            echo "cancel_workflow=true" >> $GITHUB_OUTPUT
+            echo "Branch is up to date with 'origin/bundles'. Exiting..."
+            echo "::set-output name=cancel_workflow::true"
           else
             git add '*.json'
             if [ -n "$(git status --porcelain)" ]; then
               git commit -m "Update patch-bundle.json to latest"
               git push origin HEAD:${{ github.ref }} --follow-tags
             else
-              echo "has_changes=false" >> $GITHUB_OUTPUT
+              echo "No changes to commit. Exiting..."
+              echo "::set-output name=has_changes::false"
             fi
           fi
         working-directory: ${{ github.workspace }}
-        continue-on-error: false  # Temporarily set to false for debugging
+        continue-on-error: true
 
       - name: Check for changes
         id: check_changes
         if: steps.run_generate_bundles.outputs.cancel_workflow != 'true'
         run: |
           if git diff --quiet HEAD HEAD^ -- '*.json'; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "::set-output name=has_changes::false"
           else
-            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "::set-output name=has_changes::true"
           fi
-          
+
       - name: Find commit for changed files
         id: find_commit
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           changed_files=$(git diff --name-only HEAD^ -- '*.json')
           if [ -z "$changed_files" ]; then
-            echo "changed_files=" >> $GITHUB_OUTPUT
+            echo "::set-output name=changed_files::"
           else
             echo "$changed_files" > changed_files.txt
-            echo "changed_files=changed_files.txt" >> $GITHUB_OUTPUT
+            echo "::set-output name=changed_files::changed_files.txt"
           fi
           
       - name: Push changes
