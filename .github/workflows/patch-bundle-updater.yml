@@ -22,7 +22,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@main
         with:
-          persist-credentials: false  # We will set up Git credentials manually
+          persist-credentials: false
           fetch-depth: 0
 
       - name: Set up Python
@@ -35,14 +35,6 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install requests httpx
         working-directory: ${{ github.workspace }}
-
-      - name: Configure Git for GitHub Actions
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run generate_bundles.py
         id: run_generate_bundles
@@ -62,6 +54,7 @@ jobs:
             git add '*.json'
             if [ -n "$(git status --porcelain)" ]; then
               git commit -m "Update patch-bundle.json to latest"
+              git push origin HEAD:${{ github.ref }} --follow-tags
             else
               echo "No changes to commit. Exiting..."
               echo "::set-output name=has_changes::false"
@@ -69,13 +62,6 @@ jobs:
           fi
         working-directory: ${{ github.workspace }}
         continue-on-error: true
-
-      - name: Push changes
-        if: steps.run_generate_bundles.outputs.cancel_workflow != 'true'
-        run: |
-          git push origin HEAD:${{ github.ref }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Check for changes
         id: check_changes
@@ -99,6 +85,13 @@ jobs:
             echo "::set-output name=changed_files::changed_files.txt"
           fi
           
+      - name: Push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: bundles
+
       - name: Create artifact of changed files
         if: steps.check_changes.outputs.has_changes == 'true' && steps.find_commit.outputs.changed_files != ''
         uses: actions/upload-artifact@main
