@@ -20,13 +20,13 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@main
         with:
           persist-credentials: false  # We will set up Git credentials manually
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@main
         with:
           python-version: '3.x'
 
@@ -101,7 +101,7 @@ jobs:
           
       - name: Create artifact of changed files
         if: steps.check_changes.outputs.has_changes == 'true' && steps.find_commit.outputs.changed_files != ''
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@main
         with:
           name: changed_files
           path: changed_files.txt
