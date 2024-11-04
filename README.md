@@ -132,16 +132,16 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/inotia00-patch-bundles/inotia00-dev-patches-bundle.json```
 </details>
 
-### 📦 BiliRoamingX-Patches-Bundle:
+### 📦 BiliRoamingM-Patches-Bundle:
 
 <details>
 <summary><i>Expand For Links</i></summary>
 
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/biliroamingx-patch-bundles/biliroamingx-latest-patches-bundle.json```
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/biliroamingm-patch-bundles/biliroamingm-latest-patches-bundle.json```
 
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/biliroamingx-patch-bundles/biliroamingx-stable-patches-bundle.json```
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/biliroamingm-patch-bundles/biliroamingm-stable-patches-bundle.json```
 
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/biliroamingx-patch-bundles/biliroamingx-dev-patches-bundle.json```
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/biliroamingm-patch-bundles/biliroamingm-dev-patches-bundle.json```
 </details>
 
 ### 📦 Wyse--Patches-Bundle:
@@ -308,7 +308,7 @@ https://github.com/ReVanced/revanced-manager/actions/runs/11117905339/artifacts/
 
 #### 🏷️ [Inotia00-Patches-Bundle](https://github.com/inotia00/revanced-Patches)
 
-#### 🏷️ [BiliRoamingX-Patches-Bundle](https://github.com/BiliRoamingX/BiliRoamingX)
+#### 🏷️ [BiliRoamingM-Patches-Bundle](https://github.com/sakarie9/BiliRoamingM)
 
 #### 🏷️ [Wyse--Patches-Bundle](https://github.com/Wyse-/revanced-patches)
 
@@ -355,7 +355,7 @@ https://github.com/ReVanced/revanced-manager/actions/runs/11117905339/artifacts/
 
 #### ⛓ [Inotia00-Patches-Bundle](https://github.com/inotia00/revanced-integrations)
 
-#### ⛓ [BiliRoamingX-Patches-Bundle](https://github.com/BiliRoamingX/BiliRoamingX)
+#### ⛓ [BiliRoamingM-Patches-Bundle](https://github.com/sakarie9/BiliRoamingM)
 
 #### ⛓ [Wyse--Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
