@@ -91,8 +91,8 @@ async def main():
         for source, repo in sources.items():
             await fetch_release_data(source, repo)
             await asyncio.sleep(0)
-        
-        # Check if there are any changes to commit
+
+        # Check if there are any staged changes before committing
         result = subprocess.run(["git", "status", "--porcelain"], stdout=subprocess.PIPE, text=True)
         if result.stdout.strip():
             # Commit the changes
