@@ -92,11 +92,13 @@ async def main():
             await fetch_release_data(source, repo)
             await asyncio.sleep(0)
         
-        # Commit the changes
-        subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"], check=True)
-        
-        # Push the changes to the remote branch
-        subprocess.run(["git", "push", "origin", "bundles"], check=True)
+        # Check if there are any changes to commit
+        result = subprocess.run(["git", "status", "--porcelain"], stdout=subprocess.PIPE, text=True)
+        if result.stdout.strip():
+            # Commit the changes
+            subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"], check=True)
+        else:
+            print("No changes detected, skipping commit.")
     except subprocess.CalledProcessError as e:
         print(f"Subprocess failed: {e}")
     except Exception as e:
