@@ -47,14 +47,18 @@ jobs:
           python -m pip install requests httpx
           output=$(python generate_bundles.py 2>&1)
           echo "$output"
-          if echo "$output" | grep -q "No changes detected, skipping commit."; then
-            echo "No changes to commit. Exiting..."
-            echo "::set-output name=has_changes::false"
-            exit 0
-          elif echo "$output" | grep -q "Branch is up to date with 'origin/bundles'."; then
+          if echo "$output" | grep -q "Your branch is up to date with 'origin/bundles'."; then
             echo "Branch is up to date with 'origin/bundles'. Exiting..."
             echo "::set-output name=cancel_workflow::true"
-            exit 0
+          else
+            git add '*.json'
+            if [ -n "$(git status --porcelain)" ]; then
+              git commit -m "Update patch-bundle.json to latest"
+              git push origin HEAD:${{ github.ref }} --follow-tags
+            else
+              echo "No changes to commit. Exiting..."
+              echo "::set-output name=has_changes::false"
+            fi
           fi
         working-directory: ${{ github.workspace }}
         continue-on-error: true
