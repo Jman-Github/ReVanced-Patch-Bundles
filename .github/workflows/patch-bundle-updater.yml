@@ -1,4 +1,4 @@
-name: Patch Bundle Updater
+name: Patch bundle updater
 
 on:
   workflow_dispatch:
@@ -7,28 +7,28 @@ on:
 
 jobs:
   check_for_updates:
-    name: Check for Bundle Updates
+    name: Check for bundle updates
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
-      cancel-in-progress: true
+      cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
     steps:
-      - name: Checkout Code
+      - name: Checkout code
         uses: actions/checkout@main
         with:
           persist-credentials: false
           fetch-depth: 0
 
-      - name: Set Up Python
-        uses: actions/setup-python@v4
+      - name: Set up Python
+        uses: actions/setup-python@main
         with:
-          python-version: "3.x"
+          python-version: '3.x'
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install httpx
+          python -m pip install requests httpx
         working-directory: ${{ github.workspace }}
 
       - name: Run generate_bundles.py
@@ -36,53 +36,23 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          python generate_bundles.py
-          git status
-        working-directory: ${{ github.workspace }}
-
-      - name: Check for Changes
-        id: check_changes
-        run: |
-          if git diff --quiet HEAD HEAD^ -- '*.json'; then
-            echo "No changes detected."
+          python -m venv venv
+          source venv/bin/activate
+          python -m pip install --upgrade pip
+          python -m pip install requests httpx
+          output=$(python generate_bundles.py 2>&1)
+          echo "$output"
+          if echo "$output" | grep -q "No changes to commit."; then
+            echo "No changes to commit. Exiting..."
             echo "::set-output name=has_changes::false"
           else
-            echo "Changes detected."
             echo "::set-output name=has_changes::true"
           fi
+        working-directory: ${{ github.workspace }}
 
-      - name: Find Commit for Changed Files
-        id: find_commit
-        if: steps.check_changes.outputs.has_changes == 'true'
-        run: |
-          changed_files=$(git diff --name-only HEAD HEAD^ -- '*.json')
-          if [ -z "$changed_files" ]; then
-            echo "No changed files found."
-            echo "::set-output name=changed_files::"
-          else
-            echo "Changed files:"
-            echo "$changed_files"
-            echo "$changed_files" > changed_files.txt
-            echo "::set-output name=changed_files::changed_files.txt"
-          fi
-
-      - name: Push Changes
-        if: steps.check_changes.outputs.has_changes == 'true'
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: bundles
-
-      - name: Create Artifact of Changed Files
-        if: steps.check_changes.outputs.has_changes == 'true' && steps.find_commit.outputs.changed_files != ''
+      - name: Create artifact of changed files
+        if: steps.run_generate_bundles.outputs.has_changes == 'true'
         uses: actions/upload-artifact@main
         with:
           name: changed_files
           path: changed_files.txt
-
-      - name: Debug Git State (Optional)
-        if: failure()
-        run: |
-          echo "Debugging Git State"
-          git status
-          git log --oneline

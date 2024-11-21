@@ -1,133 +1,123 @@
 import asyncio
 import json
-import os
 import subprocess
-from pathlib import Path
-from httpx import AsyncClient, Timeout, HTTPStatusError
+import os
+from httpx import AsyncClient, Timeout
 
-GH_PAT = os.getenv("GH_PAT")
-HEADERS = {"Authorization": f"token {GH_PAT}"}
-TIMEOUT = Timeout(connect=10, read=10, write=10, pool=10)
+GH_PAT = os.getenv('GH_PAT')
 
-
-async def fetch_api(url: str) -> dict:
-    """Fetch data from the GitHub API with error handling."""
-    async with AsyncClient(timeout=TIMEOUT, headers=HEADERS) as client:
-        response = await client.get(url)
-        try:
-            response.raise_for_status()
-            return response.json()
-        except HTTPStatusError as e:
-            print(f"Failed to fetch {url}: {e.response.status_code} - {e.response.text}")
-            return {}
-
-
-async def get_latest_release(repo_url: str, prerelease: bool = False, latest: bool = False) -> tuple:
-    """
-    Fetch the latest or prerelease version details from a GitHub repository.
-    Returns a tuple of (version, patches_url, integrations_url).
-    """
-    releases = await fetch_api(f"{repo_url}/releases")
-    if not releases:
-        return None, None, None
-
-    filtered_releases = (
-        [r for r in releases if r["prerelease"]] if prerelease else [r for r in releases if not r["prerelease"]]
-    )
-    if latest:
-        target_release = max(releases, key=lambda x: x["published_at"], default=None)
-    else:
-        target_release = max(filtered_releases, key=lambda x: x["published_at"], default=None)
-
-    if not target_release:
-        print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
-        return None, None, None
-
-    version = target_release["tag_name"]
-    patches_url = next((a["browser_download_url"] for a in target_release["assets"] if a["name"].endswith(".jar")), None)
-    integrations_url = next((a["browser_download_url"] for a in target_release["assets"] if a["name"].endswith(".apk")), None)
-
-    return version, patches_url, integrations_url
-
-
-async def process_source(source: str, repo: dict, base_dir: Path):
-    """
-    Process a single source by fetching the latest release data
-    and saving it to a JSON file if there are updates.
-    """
-    try:
-        patches_version, patches_url, _ = await get_latest_release(repo["patches"], repo.get("prerelease", False))
-        integrations_version, _, integrations_url = await get_latest_release(
-            repo["integration"], repo.get("prerelease", False)
+async def get_latest_release(repo_url, prerelease=False, latest_flag=False):
+    """Fetch the latest release information from a GitHub repository."""
+    async def get_version_urls(release):
+        version = release.get('tag_name')
+        patches_url = next(
+            (asset['browser_download_url'] for asset in release['assets'] if asset['browser_download_url'].endswith('.jar')), None
         )
+        integrations_url = next(
+            (asset['browser_download_url'] for asset in release['assets'] if asset['browser_download_url'].endswith('.apk')), None
+        )
+        return version, patches_url, integrations_url
 
-        if not (patches_version and patches_url and integrations_version and integrations_url):
-            print(f"Skipping {source}: Incomplete release data.")
-            return
+    api_url = f"{repo_url}/releases"
+    headers = {'Authorization': f'token {GH_PAT}'}
+    timeout = Timeout(connect=60, read=60)
+    
+    async with AsyncClient(timeout=timeout, headers=headers) as client:
+        response = await client.get(api_url)
+    
+    if response.status_code == 200:
+        releases = response.json()
+        if latest_flag:
+            target_release = max(releases, key=lambda x: x.get("published_at", ""))
+        elif prerelease:
+            target_release = max(
+                (release for release in releases if release.get("prerelease", False)),
+                key=lambda x: x.get("published_at", ""),
+                default=None,
+            )
+        else:
+            target_release = max(
+                (release for release in releases if not release.get("prerelease", False)),
+                key=lambda x: x.get("published_at", ""),
+                default=None,
+            )
 
-        # Build data structure
-        bundle_data = {
-            "patches": {"version": patches_version, "url": patches_url},
-            "integrations": {"version": integrations_version, "url": integrations_url},
-        }
+        if target_release:
+            return await get_version_urls(target_release)
+        print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
+    else:
+        print(f"Failed to fetch releases from {repo_url}. HTTP status: {response.status_code}")
+    
+    return None, None, None
 
-        # Prepare output directory and file
-        sanitized_source = source.replace("-dev", "").replace("-latest", "").replace("-stable", "")
-        output_dir = base_dir / f"{sanitized_source}-patch-bundles"
-        output_dir.mkdir(parents=True, exist_ok=True)
-        output_file = output_dir / f"{source}-patches-bundle.json"
+async def fetch_release_data(source, repo):
+    """Fetch and save release data for a given source and repository."""
+    try:
+        prerelease = repo.get('prerelease', False)
+        latest_flag = repo.get('latest', False)
 
-        # Avoid overwriting files if content is unchanged
-        if output_file.exists():
-            with output_file.open("r") as existing_file:
-                if json.load(existing_file) == bundle_data:
-                    print(f"No changes detected for {output_file}. Skipping...")
+        patches_version, patches_asset_url, _ = await get_latest_release(repo.get('patches'), prerelease, latest_flag)
+        integrations_version, _, integration_asset_url = await get_latest_release(repo.get('integration'), prerelease, latest_flag)
+
+        if patches_version and patches_asset_url and integrations_version and integration_asset_url:
+            info_dict = {
+                "patches": {"version": patches_version, "url": patches_asset_url},
+                "integrations": {"version": integrations_version, "url": integration_asset_url},
+            }
+
+            base_source = source.replace('-dev', '').replace('-latest', '').replace('-stable', '')
+            directory = os.path.join('patch-bundles', f"{base_source}-patch-bundles")
+            os.makedirs(directory, exist_ok=True)
+
+            filepath = os.path.join(directory, f'{source}-patches-bundle.json')
+
+            if os.path.exists(filepath):
+                with open(filepath, 'r') as file:
+                    existing_data = json.load(file)
+                if info_dict == existing_data:
+                    print(f"No changes detected for {source}, skipping...")
                     return
 
-        # Save updated content
-        with output_file.open("w") as new_file:
-            json.dump(bundle_data, new_file, indent=2)
+            with open(filepath, 'w') as file:
+                json.dump(info_dict, file, indent=2)
+            print(f"Latest release information saved to {filepath}")
 
-        print(f"Updated bundle for {source}: {output_file}")
-
-        # Stage changes in Git
-        subprocess.run(["git", "add", str(output_file)], check=True)
-
+            subprocess.run(["git", "add", filepath], check=True)
+        else:
+            print(f"Error: Missing release information for {source}")
     except Exception as e:
-        print(f"Error processing {source}: {e}")
-
+        print(f"Error in fetch_release_data for {source}: {e}")
 
 async def main():
-    base_dir = Path("patch-bundles")
-    base_dir.mkdir(exist_ok=True)
-
+    """Main entry point for the script."""
     try:
-        # Load sources from JSON
-        with open("bundle-sources.json", "r") as f:
-            sources = json.load(f)
+        with open('bundle-sources.json') as file:
+            sources = json.load(file)
 
-        # Configure Git
+        # Configure Git user name and email
         subprocess.run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], check=True)
         subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
 
-        # Pull latest changes
+        # Pull the latest changes from the remote branch
         subprocess.run(["git", "pull", "origin", "bundles"], check=True)
 
-        # Process each source asynchronously
-        await asyncio.gather(*(process_source(source, repo, base_dir) for source, repo in sources.items()))
+        for source, repo in sources.items():
+            await fetch_release_data(source, repo)
+            await asyncio.sleep(0)
 
-        # Commit and push changes if any
-        if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode != 0:
-            subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"], check=True)
-            subprocess.run(["git", "push", "origin", "bundles"], check=True)
-        else:
+        # Commit the changes if any files were staged
+        commit_result = subprocess.run(
+            ["git", "commit", "-m", "Update patch-bundle.json to latest"], capture_output=True, text=True
+        )
+        if "nothing to commit" in commit_result.stdout:
             print("No changes to commit.")
-
+        else:
+            # Push the changes to the remote branch
+            subprocess.run(["git", "push", "origin", "bundles"], check=True)
     except subprocess.CalledProcessError as e:
-        print(f"Git command failed: {e}")
+        print(f"Git subprocess failed: {e}")
     except Exception as e:
         print(f"Error in main: {e}")
-
 
 if __name__ == "__main__":
     asyncio.run(main())
