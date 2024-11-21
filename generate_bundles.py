@@ -20,8 +20,8 @@ async def get_latest_release(repo_url, prerelease=False, latest_flag=False):
 
     api_url = f"{repo_url}/releases"
     headers = {'Authorization': f'token {GH_PAT}'}
-    timeout = Timeout(connect=60, read=60)
-    
+    timeout = Timeout(30.0)  # Set a 30-second timeout for all operations
+
     async with AsyncClient(timeout=timeout, headers=headers) as client:
         response = await client.get(api_url)
     
