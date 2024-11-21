@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
-      cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+      cancel-in-progress: false
 
     steps:
       - name: Checkout code
@@ -42,16 +42,53 @@ jobs:
           python -m pip install requests httpx
           output=$(python generate_bundles.py 2>&1)
           echo "$output"
-          if echo "$output" | grep -q "No changes to commit."; then
-            echo "No changes to commit. Exiting..."
-            echo "::set-output name=has_changes::false"
+          if echo "$output" | grep -q "Your branch is up to date with 'origin/bundles'."; then
+            echo "Branch is up to date with 'origin/bundles'. Exiting..."
+            echo "cancel_workflow=true" >> $GITHUB_ENV
           else
-            echo "::set-output name=has_changes::true"
+            git add '*.json'
+            if [ -n "$(git status --porcelain)" ]; then
+              git commit -m "Update patch-bundle.json to latest"
+              git push origin HEAD:${{ github.ref }} --follow-tags
+            else
+              echo "No changes to commit. Exiting..."
+              echo "has_changes=false" >> $GITHUB_ENV
+            fi
           fi
         working-directory: ${{ github.workspace }}
+        continue-on-error: true
+
+      - name: Check for changes
+        id: check_changes
+        if: env.cancel_workflow != 'true'
+        run: |
+          if git diff --quiet HEAD HEAD^ -- '*.json'; then
+            echo "has_changes=false" >> $GITHUB_ENV
+          else
+            echo "has_changes=true" >> $GITHUB_ENV
+          fi
+
+      - name: Find commit for changed files
+        id: find_commit
+        if: env.has_changes == 'true'
+        run: |
+          changed_files=$(git diff --name-only HEAD^ -- '*.json')
+          if [ -z "$changed_files" ]; then
+            echo "changed_files=" >> $GITHUB_ENV
+          else
+            echo "$changed_files" > changed_files.txt
+            echo "changed_files=changed_files.txt" >> $GITHUB_ENV
+          fi
+
+      - name: Push changes
+        if: env.has_changes == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: bundles
 
       - name: Create artifact of changed files
-        if: steps.run_generate_bundles.outputs.has_changes == 'true'
+        if: env.has_changes == 'true' && env.changed_files != ''
         uses: actions/upload-artifact@main
         with:
           name: changed_files
