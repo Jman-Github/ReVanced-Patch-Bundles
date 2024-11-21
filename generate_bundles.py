@@ -38,7 +38,7 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
             print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
             return None, None, None
     else:
-        print(f"Failed to fetch releases from {repo_url}")
+        print(f"Failed to fetch releases from {repo_url}: {response.text}")
         return None, None, None
 
 async def fetch_release_data(source, repo):
@@ -65,6 +65,15 @@ async def fetch_release_data(source, repo):
             os.makedirs(directory, exist_ok=True)
             
             filepath = os.path.join(directory, f'{source}-patches-bundle.json')
+            
+            # Check for existing content
+            if os.path.exists(filepath):
+                with open(filepath, 'r') as file:
+                    existing_data = file.read()
+                if json.dumps(info_dict, indent=2) == existing_data:
+                    print(f"No changes detected for {filepath}. Skipping write.")
+                    return
+
             with open(filepath, 'w') as file:
                 json.dump(info_dict, file, indent=2)
             print(f"Latest release information saved to {filepath}")

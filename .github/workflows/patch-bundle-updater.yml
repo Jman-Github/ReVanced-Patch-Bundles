@@ -13,11 +13,6 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
-    outputs:
-      has_changes: ${{ steps.check_changes.outputs.has_changes }}
-      changed_files: ${{ steps.find_commit.outputs.changed_files }}
-      cancel_workflow: ${{ steps.run_generate_bundles.outputs.cancel_workflow }}
-
     steps:
       - name: Checkout code
         uses: actions/checkout@main
@@ -45,20 +40,13 @@ jobs:
           source venv/bin/activate
           python -m pip install --upgrade pip
           python -m pip install requests httpx
-          output=$(python generate_bundles.py 2>&1)
-          echo "$output"
-          if echo "$output" | grep -q "Your branch is up to date with 'origin/bundles'."; then
-            echo "Branch is up to date with 'origin/bundles'. Exiting..."
-            echo "::set-output name=cancel_workflow::true"
+          python generate_bundles.py
+          git status  # Debugging
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Update patch-bundle.json to latest"
+            git push origin HEAD:${{ github.ref }} --follow-tags
           else
-            git add '*.json'
-            if [ -n "$(git status --porcelain)" ]; then
-              git commit -m "Update patch-bundle.json to latest"
-              git push origin HEAD:${{ github.ref }} --follow-tags
-            else
-              echo "No changes to commit. Exiting..."
-              echo "::set-output name=has_changes::false"
-            fi
+            echo "No changes detected. Exiting..."
           fi
         working-directory: ${{ github.workspace }}
         continue-on-error: true
