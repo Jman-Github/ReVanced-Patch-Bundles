@@ -7,17 +7,21 @@ from httpx import AsyncClient, Timeout
 GH_PAT = os.getenv('GH_PAT')
 
 async def get_latest_release(repo_url, prerelease, latest_flag=False):
-    async def get_version_urls(release):
+    async def get_version_urls(release, file_types):
         version = release['tag_name']
-        patches_url = None
-        integrations_url = None
+        created_at = release['published_at']
+        description = release['body']
+        download_urls = {ext: None for ext in file_types}
+        signature_url = None
+
         for asset in release["assets"]:
-            # Explicitly ignore .rvp files and only consider .jar files
-            if asset["browser_download_url"].endswith(".jar"):
-                patches_url = asset['browser_download_url']
-            elif asset["browser_download_url"].endswith(".apk"):
-                integrations_url = asset['browser_download_url']
-        return version, patches_url, integrations_url
+            for ext in file_types:
+                if asset["browser_download_url"].endswith(ext):
+                    download_urls[ext] = asset['browser_download_url']
+            if asset["browser_download_url"].endswith(".rvp.asc"):
+                signature_url = asset['browser_download_url']
+
+        return version, created_at, description, download_urls, signature_url
 
     api_url = f"{repo_url}/releases"
     headers = {'Authorization': f'token {GH_PAT}'}
@@ -34,47 +38,62 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
             target_release = max((release for release in releases if not release["prerelease"]), key=lambda x: x["published_at"], default=None)
         
         if target_release:
-            return await get_version_urls(target_release)
+            file_types = [".jar", ".apk", ".rvp"]
+            return await get_version_urls(target_release, file_types)
         else:
             print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
-            return None, None, None
+            return None, None, None, None, None
     else:
         print(f"Failed to fetch releases from {repo_url}")
-        return None, None, None
+        return None, None, None, None, None
 
 async def fetch_release_data(source, repo):
     try:
         prerelease = repo.get('prerelease', False)
         latest_flag = repo.get('latest', False)
-        patches_version, patches_asset_url, _ = await get_latest_release(repo.get('patches'), prerelease, latest_flag)
-        integrations_version, _, integration_asset_url = await get_latest_release(repo.get('integration'), prerelease, latest_flag)
         
-        if patches_version and patches_asset_url and integrations_version and integration_asset_url:
+        patches_version, created_at, description, download_urls, signature_url = await get_latest_release(repo.get('patches'), prerelease, latest_flag)
+
+        if download_urls[".rvp"]:
+            # Create .rvp-specific JSON format
+            info_dict = {
+                "createdAt": {
+                    "value": created_at
+                },
+                "description": description or "",
+                "downloadUrl": download_urls[".rvp"],
+                "signatureDownloadUrl": signature_url if signature_url else "null",
+                "version": patches_version
+            }
+        elif download_urls[".jar"] or download_urls[".apk"]:
+            # Create .jar/.apk-specific JSON format
+            integrations_version, _, integration_asset_url = await get_latest_release(repo.get('integration'), prerelease, latest_flag)
             info_dict = {
                 "patches": {
                     "version": patches_version,
-                    "url": patches_asset_url
+                    "url": download_urls[".jar"]
                 },
                 "integrations": {
                     "version": integrations_version,
                     "url": integration_asset_url
                 }
             }
-
-            base_source = source.replace('-dev', '').replace('-latest', '').replace('-stable', '')
-            directory = os.path.join('patch-bundles', f"{base_source}-patch-bundles")
-            os.makedirs(directory, exist_ok=True)
-            
-            filepath = os.path.join(directory, f'{source}-patches-bundle.json')
-            with open(filepath, 'w') as file:
-                json.dump(info_dict, file, indent=2)
-            print(f"Latest release information saved to {filepath}")
-            
-            # Stage the changes made to the JSON file
-            subprocess.run(["git", "add", filepath], check=True)
-            print(f"File {filepath} staged for commit.")
         else:
-            print(f"Error: Unable to fetch release information for {source}")
+            print(f"No relevant assets found for {source}")
+            return
+
+        base_source = source.replace('-dev', '').replace('-latest', '').replace('-stable', '')
+        directory = os.path.join('patch-bundles', f"{base_source}-patch-bundles")
+        os.makedirs(directory, exist_ok=True)
+        
+        filepath = os.path.join(directory, f'{source}-patches-bundle.json')
+        with open(filepath, 'w') as file:
+            json.dump(info_dict, file, indent=2)
+        print(f"Latest release information saved to {filepath}")
+        
+        # Stage the changes made to the JSON file
+        subprocess.run(["git", "add", filepath], check=True)
+        print(f"File {filepath} staged for commit.")
     except Exception as e:
         print(f"Error in fetch_release_data for {source}: {e}")
 
