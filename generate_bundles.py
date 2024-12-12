@@ -57,9 +57,7 @@ async def fetch_release_data(source, repo):
         if download_urls[".rvp"]:
             # Create .rvp-specific JSON format
             info_dict = {
-                "createdAt": {
-                    "value": created_at
-                },
+                "createdAt": created_at
                 "description": description or "",
                 "downloadUrl": download_urls[".rvp"],
                 "signatureDownloadUrl": signature_url if signature_url else "null",
