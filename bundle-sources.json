@@ -69,11 +69,6 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
-    "pufferffish-stable": {
-        "patches": "https://api.github.com/repos/pufferffish/revanced-patches-repo",
-        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
-        "prerelease": false
-    },
     "xrogers-stable": {
         "patches": "https://api.github.com/repos/xrogers/revanced-patches-galaxy",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
@@ -106,6 +101,21 @@
     },
     "lennyRBLX-stable": {
         "patches": "https://api.github.com/repos/lennyRBLX/apk-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "korhelyleves-stable": {
+        "patches": "https://api.github.com/repos/korhelyleves/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "Taknok-stable": {
+        "patches": "https://api.github.com/repos/Taknok/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "pufferffish-stable": {
+        "patches": "https://api.github.com/repos/pufferffish/revanced-patches-repo",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
@@ -216,6 +226,16 @@
     },
     "lennyRBLX-dev": {
         "patches": "https://api.github.com/repos/lennyRBLX/apk-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "korhelyleves-dev": {
+        "patches": "https://api.github.com/repos/korhelyleves/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "Taknok-dev": {
+        "patches": "https://api.github.com/repos/Taknok/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -331,6 +351,16 @@
     },
     "lennyRBLX-latest": {
         "patches": "https://api.github.com/repos/lennyRBLX/apk-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "korhelyleves-latest": {
+        "patches": "https://api.github.com/repos/korhelyleves/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "Taknok-latest": {
+        "patches": "https://api.github.com/repos/Taknok/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

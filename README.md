@@ -281,6 +281,27 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lennyRBLX-patch-bundles/lennyRBLX-dev-patches-bundle.json```
 </details>
 
+### 📦 Korhelyleves-Patches-Bundle:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/korhelyleves-patch-bundles/korhelyleves-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/korhelyleves-patch-bundles/korhelyleves-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/korhelyleves-patch-bundles/korhelyleves-dev-patches-bundle.json```
+</details>
+
+### 📦 Taknok-Patches-Bundle:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Taknok-patch-bundles/Taknok-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Taknok-patch-bundles/Taknok-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Taknok-patch-bundles/Taknok-dev-patches-bundle.json```
+</details>
 
 # 📱 ReVanced Manager Compose:
 #### 📋 Source:
@@ -334,12 +355,17 @@ https://github.com/ReVanced/revanced-manager/actions/runs/12260783381/artifacts/
 
 #### 🏷️ [LennyRBLX-Patches-Bundle](https://github.com/lennyRBLX/apk-patches)
 
-# 🖇 Intergrations Repositories In Use
-#### ⛓ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-integrations)
+#### 🏷️ [Taknok-Patches-Bundle](https://github.com/Taknok/revanced-patches)
 
-#### ⛓ [Anddea-Patches-Bundle](https://github.com/anddea/revanced-integrations)
+#### 🏷️ [Korhelyleves-Patches-Bundle](https://github.com/korhelyleves/revanced-patches)
 
-#### ⛓ [Experimental-Patches-Bundle](https://github.com/revanced/revanced-integrations)
+# 🖇 Intergrations/Extensions Repositories In Use
+__*NOTICE:*__ *Patch bundles in this section that link to the same repositories in the patch repositories section means that those patch bundles are using API v4.*
+#### ⛓ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-patches)
+
+#### ⛓ [Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
+
+#### ⛓ [Experimental-Patches-Bundle](https://github.com/Aunali321/ReVancedExperiments)
 
 #### ⛓ [Piko-Patches-Bundle](https://github.com/crimera/revanced-integrations)
 
@@ -351,15 +377,15 @@ https://github.com/ReVanced/revanced-manager/actions/runs/12260783381/artifacts/
 
 #### ⛓ [Twitter-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
-#### ⛓ [Dropped-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
+#### ⛓ [Dropped-Patches-Bundle](https://github.com/indrastorms/Dropped-Patches)
 
-#### ⛓ [Inotia00-Patches-Bundle](https://github.com/inotia00/revanced-integrations)
+#### ⛓ [Inotia00-Patches-Bundle](https://github.com/inotia00/revanced-patches)
 
 #### ⛓ [BiliRoamingM-Patches-Bundle](https://github.com/sakarie9/BiliRoamingM)
 
 #### ⛓ [Wyse--Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
-#### ⛓ [BholeyKaBhakt-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
+#### ⛓ [BholeyKaBhakt-Patches-Bundle](https://github.com/BholeyKaBhakt/revanced-patches-xtra)
 
 #### ⛓ [Andronedev-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
@@ -380,6 +406,10 @@ https://github.com/ReVanced/revanced-manager/actions/runs/12260783381/artifacts/
 #### ⛓ [Arsclib-Patches-Bundle](https://github.com/inotia00/revanced-integrations)
 
 #### ⛓ [LennyRBLX-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
+
+#### ⛓ [Taknok-Patches-Bundle](https://github.com/Taknok/revanced-patches)
+
+#### ⛓ [Korhelyleves-Patches-Bundle](https://github.com/korhelyleves/revanced-patches)
 
 ## 🤝 Contributors
 ##### [indrastorms](https://github.com/indrastorms)
