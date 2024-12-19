@@ -119,6 +119,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "sti-233-stable": {
+        "patches": "https://api.github.com/repos/sti-233/BiliRoamingX",
+        "integration": "https://api.github.com/repos/sti-233/BiliRoamingX",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -237,6 +242,11 @@
     "Taknok-dev": {
         "patches": "https://api.github.com/repos/Taknok/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "sti-233-dev": {
+        "patches": "https://api.github.com/repos/sti-233/BiliRoamingX",
+        "integration": "https://api.github.com/repos/sti-233/BiliRoamingX",
         "prerelease": true
     },
     "piko-latest": {
@@ -362,6 +372,11 @@
     "Taknok-latest": {
         "patches": "https://api.github.com/repos/Taknok/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "sti-233-latest": {
+        "patches": "https://api.github.com/repos/sti-233/BiliRoamingX",
+        "integration": "https://api.github.com/repos/sti-233/BiliRoamingX",
         "latest": true
     }
 }

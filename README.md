@@ -303,6 +303,17 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Taknok-patch-bundles/Taknok-dev-patches-bundle.json```
 </details>
 
+### 📦 Sti-233-Patches-Bundle:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sti-233-patch-bundles/sti-233-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sti-233-patch-bundles/sti-233-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sti-233-patch-bundles/sti-233-dev-patches-bundle.json```
+</details>
+
 # 📱 ReVanced Manager Compose:
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
@@ -359,6 +370,8 @@ https://github.com/ReVanced/revanced-manager/actions/runs/12260783381/artifacts/
 
 #### 🏷️ [Korhelyleves-Patches-Bundle](https://github.com/korhelyleves/revanced-patches)
 
+#### 🏷️ [Sti-233-Patches-Bundle](https://github.com/sti-233/BiliRoamingX)
+
 # 🖇 Intergrations/Extensions Repositories In Use
 __*NOTICE:*__ *Patch bundles in this section that link to the same repositories in the patch repositories section means that those patch bundles are using API v4.*
 #### ⛓ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-patches)
@@ -410,6 +423,8 @@ __*NOTICE:*__ *Patch bundles in this section that link to the same repositories 
 #### ⛓ [Taknok-Patches-Bundle](https://github.com/Taknok/revanced-patches)
 
 #### ⛓ [Korhelyleves-Patches-Bundle](https://github.com/korhelyleves/revanced-patches)
+
+#### ⛓ [Sti-233-Patches-Bundle](https://github.com/sti-233/BiliRoamingX)
 
 ## 🤝 Contributors
 ##### [indrastorms](https://github.com/indrastorms)
