@@ -7,17 +7,10 @@ from httpx import AsyncClient, Timeout
 GH_PAT = os.getenv('GH_PAT')
 
 async def get_latest_release(repo_url, prerelease, latest_flag=False):
-    """
-    Fetch the latest or prerelease or 'latest_flag' release from a given GitHub
-    repo URL. The function returns a tuple of 5 elements:
-      version, created_at, description, download_urls, signature_url
-
-    where download_urls is a dict {".jar": url_or_None, ".apk": url_or_None, ".rvp": url_or_None}.
-    """
     async def get_version_urls(release, file_types):
         version = release['tag_name']
         created_at = release['published_at']
-        description = release['body']
+        description = release.get('body', '')
         download_urls = {ext: None for ext in file_types}
         signature_url = None
 
@@ -44,40 +37,36 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
             return None, None, None, None, None
 
         if latest_flag:
-            target_release = max(releases, key=lambda x: x["published_at"])
+            filtered_releases = sorted(releases, key=lambda x: x["published_at"], reverse=True)
         elif prerelease:
-            target_release = max(
-                (release for release in releases if release["prerelease"]),
+            filtered_releases = sorted(
+                (r for r in releases if r["prerelease"]),
                 key=lambda x: x["published_at"],
-                default=None
+                reverse=True
             )
         else:
-            target_release = max(
-                (release for release in releases if not release["prerelease"]),
+            filtered_releases = sorted(
+                (r for r in releases if not r["prerelease"]),
                 key=lambda x: x["published_at"],
-                default=None
+                reverse=True
             )
-        
-        if target_release:
-            file_types = [".jar", ".apk", ".rvp"]
-            return await get_version_urls(target_release, file_types)
-        else:
-            print(f"No {'pre' if prerelease else ''}release found for {repo_url}")
-            return None, None, None, None, None
+
+        file_types = [".jar", ".apk", ".rvp"]
+
+        for release in filtered_releases:
+            version, created_at, description, download_urls, signature_url = await get_version_urls(release, file_types)
+            if any(download_urls[ext] for ext in file_types):
+                return version, created_at, description, download_urls, signature_url
+
+        print(f"No suitable release with .jar, .apk, or .rvp assets found for {repo_url}")
+        return None, None, None, None, None
+
     else:
         print(f"Failed to fetch releases from {repo_url}")
         return None, None, None, None, None
 
 
 async def fetch_release_data(source, repo):
-    """
-    Given a 'source' (like 'piko-stable') and a 'repo' dict that has 'patches' and 'integration' fields,
-    fetch the appropriate release from GitHub and save a JSON.
-    
-    Handling logic:
-      - .rvp => Single JSON for ReVanced patch
-      - If not .rvp, then assume .jar from patches + .apk from integration.
-    """
     try:
         prerelease = repo.get('prerelease', False)
         latest_flag = repo.get('latest', False)
