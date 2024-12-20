@@ -2,6 +2,7 @@ import asyncio
 import json
 import subprocess
 import os
+import re
 from httpx import AsyncClient, Timeout
 
 GH_PAT = os.getenv('GH_PAT')
@@ -9,7 +10,7 @@ GH_PAT = os.getenv('GH_PAT')
 async def get_latest_release(repo_url, prerelease, latest_flag=False):
     async def get_version_urls(release, file_types):
         version = release['tag_name']
-        created_at = release['published_at']
+        published_at = re.sub(r'[A-Za-z]+$', '', release['published_at'])
         description = release.get('body', '')
         download_urls = {ext: None for ext in file_types}
         signature_url = None
@@ -21,7 +22,7 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
             if asset["browser_download_url"].endswith(".rvp.asc"):
                 signature_url = asset['browser_download_url']
 
-        return version, created_at, description, download_urls, signature_url
+        return version, published_at, description, download_urls, signature_url
 
     api_url = f"{repo_url}/releases"
     headers = {'Authorization': f'token {GH_PAT}'}
