@@ -85,10 +85,10 @@ async def fetch_release_data(source, repo):
 
         if patches_download_urls[".rvp"]:
             info_dict = {
-                "createdAt": patches_created_at,
+                "created_at": patches_created_at,
                 "description": patches_description or "",
-                "downloadUrl": patches_download_urls[".rvp"],
-                "signatureDownloadUrl": patches_signature_url if patches_signature_url else "null",
+                "download_url": patches_download_urls[".rvp"],
+                "signature_download_url": patches_signature_url if patches_signature_url else "null",
                 "version": patches_version
             }
         
