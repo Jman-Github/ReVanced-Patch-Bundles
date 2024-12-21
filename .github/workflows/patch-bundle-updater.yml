@@ -48,7 +48,7 @@ jobs:
           else
             git add '*.json'
             if [ -n "$(git status --porcelain)" ]; then
-              git commit -m "Update patch-bundle.json to latest"
+              git commit -m "feat: `patch-bundles` update"
               git push origin HEAD:${{ github.ref }} --follow-tags
             else
               echo "No changes to commit. Exiting..."

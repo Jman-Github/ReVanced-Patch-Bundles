@@ -7,115 +7,6 @@ from httpx import AsyncClient, Timeout
 
 GH_PAT = os.getenv('GH_PAT')
 
-def is_empty(value):
-    return value is None or (isinstance(value, str) and not value.strip())
-
-def values_differ(old_val, new_val):
-    if is_empty(old_val) and is_empty(new_val):
-        return False
-    if is_empty(old_val) and not is_empty(new_val):
-        return True
-
-    if not is_empty(old_val) and is_empty(new_val):
-        return True
-    return old_val != new_val
-
-def get_nested_value(d, key_path):
-    keys = key_path.split('.')
-    for k in keys:
-        if isinstance(d, dict) and k in d:
-            d = d[k]
-        else:
-            return None
-    return d
-
-def set_nested_value(d, key_path, value):
-    keys = key_path.split('.')
-    for k in keys[:-1]:
-        if k not in d or not isinstance(d[k], dict):
-            d[k] = {}
-        d = d[k]
-    d[keys[-1]] = value
-
-def scenario_fields(info_dict):
-
-    if all(key in info_dict for key in ["created_at", "description", "download_url", "signature_download_url", "version"]):
-        return "rvp", ["created_at", "description", "download_url", "signature_download_url", "version"]
-
-    elif "patches" in info_dict and "integrations" in info_dict:
-        return "apkjar", ["patches.version", "patches.url", "integrations.version", "integrations.url"]
-    else:
-
-        return "rvp", ["created_at", "description", "download_url", "signature_download_url", "version"]
-
-def get_value(d, field, scenario):
-    if scenario == "rvp":
-        return d.get(field, None)
-    else:
-        return get_nested_value(d, field)
-
-def set_value(d, field, scenario, value):
-    if scenario == "rvp":
-        d[field] = value
-    else:
-        set_nested_value(d, field, value)
-
-def determine_updates(old_data, new_data, fields, scenario):
-
-    for field in fields:
-        old_val = get_value(old_data, field, scenario)
-        new_val = get_value(new_data, field, scenario)
-        if values_differ(old_val, new_val):
-            return True
-    return False
-
-def merge_data(old_data, new_data, scenario, fields):
-    updates = determine_updates(old_data, new_data, fields, scenario)
-
-    print(f"[DEBUG] Scenario: {scenario}")
-    print(f"[DEBUG] Fields: {fields}")
-    print(f"[DEBUG] Updates detected? {updates}")
-    for field in fields:
-        old_val = get_value(old_data, field, scenario)
-        new_val = get_value(new_data, field, scenario)
-        print(f"[DEBUG] Field: {field}, Old: {old_val}, New: {new_val}")
-
-    for field in fields:
-        old_val = get_value(old_data, field, scenario)
-        new_val = get_value(new_data, field, scenario)
-        differs = values_differ(old_val, new_val)
-
-        if updates:
-
-            if differs:
-
-                if is_empty(new_val):
-                    set_value(new_data, field, scenario, "N/A")
-                    print(f"[DEBUG] Updates=true; {field} differs but new_val empty => N/A")
-                else:
-                    set_value(new_data, field, scenario, new_val)
-                    print(f"[DEBUG] Updates=true; {field} differs => {new_val}")
-            else:
-                set_value(new_data, field, scenario, "N/A")
-                print(f"[DEBUG] Updates=true; {field} no difference => N/A")
-        else:
-            if is_empty(new_val):
-                if is_empty(old_val):
-                    set_value(new_data, field, scenario, "N/A")
-                    print(f"[DEBUG] Updates=false; {field} new empty, old empty => N/A")
-                else:
-                    set_value(new_data, field, scenario, old_val)
-                    print(f"[DEBUG] Updates=false; {field} new empty, old not empty => keep old {old_val}")
-            else:
-                set_value(new_data, field, scenario, new_val)
-                print(f"[DEBUG] Updates=false; {field} new not empty => {new_val}")
-
-    for field in fields:
-        final_val = get_value(new_data, field, scenario)
-        print(f"[DEBUG] Final {field}: {final_val}")
-
-    return new_data
-
 async def get_latest_release(repo_url, prerelease, latest_flag=False):
     async def get_version_urls(release, file_types):
         version = release['tag_name']
@@ -195,12 +86,12 @@ async def fetch_release_data(source, repo):
         if patches_download_urls[".rvp"]:
             info_dict = {
                 "created_at": patches_created_at,
-                "description": patches_description,
+                "description": patches_description or "",
                 "download_url": patches_download_urls[".rvp"],
-                "signature_download_url": patches_signature_url,
+                "signature_download_url": patches_signature_url if patches_signature_url else "null",
                 "version": patches_version
             }
-
+        
         else:
             jar_url = patches_download_urls[".jar"]
             if jar_url:
@@ -230,28 +121,17 @@ async def fetch_release_data(source, repo):
             else:
                 print(f"No relevant .rvp or .jar assets found for {source}")
                 return
-
+        
         base_source = source.replace('-dev', '').replace('-latest', '').replace('-stable', '')
         directory = os.path.join('patch-bundles', f"{base_source}-patch-bundles")
         os.makedirs(directory, exist_ok=True)
 
         filepath = os.path.join(directory, f'{source}-patches-bundle.json')
-
-        if os.path.exists(filepath):
-            with open(filepath, 'r') as f:
-                old_data = json.load(f)
-        else:
-            old_data = {}
-
-        scenario, fields = scenario_fields(info_dict)
-
-        print(f"[DEBUG] Processing {filepath}")
-        final_data = merge_data(old_data, info_dict, scenario, fields)
-
         with open(filepath, 'w') as file:
-            json.dump(final_data, file, indent=2)
+            json.dump(info_dict, file, indent=2)
         print(f"Latest release information saved to {filepath}")
 
+        # Stage the changes
         subprocess.run(["git", "add", filepath], check=True)
         print(f"File {filepath} staged for commit.")
 
@@ -273,7 +153,7 @@ async def main():
             await fetch_release_data(source, repo)
             await asyncio.sleep(0)
         
-        subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"], check=True)
+        subprocess.run(["git", "commit", "-m", "feat: `patch-bundles` update"], check=True)
         
         subprocess.run(["git", "push", "origin", "bundles"], check=True)
     except subprocess.CalledProcessError as e:
