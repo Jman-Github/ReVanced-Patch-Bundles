@@ -10,18 +10,19 @@ GH_PAT = os.getenv('GH_PAT')
 def fix_empty_fields(obj):
     if isinstance(obj, dict):
         for key, value in obj.items():
-            if isinstance(value, dict) or isinstance(value, list):
+            if isinstance(value, (dict, list)):
                 fix_empty_fields(value)
             else:
                 if value is None or (isinstance(value, str) and value.strip() == ""):
                     obj[key] = "N/A"
     elif isinstance(obj, list):
         for i, item in enumerate(obj):
-            if isinstance(item, dict) or isinstance(item, list):
+            if isinstance(item, (dict, list)):
                 fix_empty_fields(item)
             else:
                 if item is None or (isinstance(item, str) and item.strip() == ""):
                     obj[i] = "N/A"
+
 
 async def get_latest_release(repo_url, prerelease, latest_flag=False):
     async def get_version_urls(release, file_types):
@@ -99,7 +100,6 @@ async def fetch_release_data(source, repo):
         if not patches_download_urls:
             return
 
-        # Check for .rvp first
         if patches_download_urls[".rvp"]:
             info_dict = {
                 "created_at": patches_created_at,
@@ -172,7 +172,6 @@ async def main():
             await asyncio.sleep(0)
         
         subprocess.run(["git", "commit", "-m", "Update patch-bundle.json to latest"], check=True)
-        
         subprocess.run(["git", "push", "origin", "bundles"], check=True)
     except subprocess.CalledProcessError as e:
         print(f"Subprocess failed: {e}")
