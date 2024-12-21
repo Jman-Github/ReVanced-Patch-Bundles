@@ -7,6 +7,22 @@ from httpx import AsyncClient, Timeout
 
 GH_PAT = os.getenv('GH_PAT')
 
+def fix_empty_fields(obj):
+    if isinstance(obj, dict):
+        for key, value in obj.items():
+            if isinstance(value, dict) or isinstance(value, list):
+                fix_empty_fields(value)
+            else:
+                if value is None or (isinstance(value, str) and value.strip() == ""):
+                    obj[key] = "N/A"
+    elif isinstance(obj, list):
+        for i, item in enumerate(obj):
+            if isinstance(item, dict) or isinstance(item, list):
+                fix_empty_fields(item)
+            else:
+                if item is None or (isinstance(item, str) and item.strip() == ""):
+                    obj[i] = "N/A"
+
 async def get_latest_release(repo_url, prerelease, latest_flag=False):
     async def get_version_urls(release, file_types):
         version = release['tag_name']
@@ -83,15 +99,16 @@ async def fetch_release_data(source, repo):
         if not patches_download_urls:
             return
 
+        # Check for .rvp first
         if patches_download_urls[".rvp"]:
             info_dict = {
                 "created_at": patches_created_at,
-                "description": patches_description or "",
+                "description": patches_description,
                 "download_url": patches_download_urls[".rvp"],
-                "signature_download_url": patches_signature_url if patches_signature_url else "null",
+                "signature_download_url": patches_signature_url,
                 "version": patches_version
             }
-        
+
         else:
             jar_url = patches_download_urls[".jar"]
             if jar_url:
@@ -122,6 +139,8 @@ async def fetch_release_data(source, repo):
                 print(f"No relevant .rvp or .jar assets found for {source}")
                 return
         
+        fix_empty_fields(info_dict)
+
         base_source = source.replace('-dev', '').replace('-latest', '').replace('-stable', '')
         directory = os.path.join('patch-bundles', f"{base_source}-patch-bundles")
         os.makedirs(directory, exist_ok=True)
@@ -131,7 +150,6 @@ async def fetch_release_data(source, repo):
             json.dump(info_dict, file, indent=2)
         print(f"Latest release information saved to {filepath}")
 
-        # Stage the changes
         subprocess.run(["git", "add", filepath], check=True)
         print(f"File {filepath} staged for commit.")
 
