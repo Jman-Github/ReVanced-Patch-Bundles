@@ -35,13 +35,6 @@ def scenario_fields(info_dict):
     else:
         return "rvp", ["created_at", "description", "download_url", "signature_download_url", "version"]
 
-def determine_updates(info_dict, fields, scenario):
-    for field in fields:
-        new_val = get_value(info_dict, field, scenario)
-        if not is_empty(new_val):
-            return True
-    return False
-
 def get_value(d, field, scenario):
     if scenario == "rvp":
         return d.get(field, None)
@@ -54,8 +47,23 @@ def set_value(d, field, scenario, value):
     else:
         set_nested_value(d, field, value)
 
+def determine_updates(new_data, fields, scenario):
+    for field in fields:
+        new_val = get_value(new_data, field, scenario)
+        if not is_empty(new_val):
+            return True
+    return False
+
 def merge_data(old_data, new_data, scenario, fields):
     updates = determine_updates(new_data, fields, scenario)
+
+    print(f"[DEBUG] Scenario: {scenario}")
+    print(f"[DEBUG] Fields: {fields}")
+    print(f"[DEBUG] Updates detected? {updates}")
+    for field in fields:
+        old_val = get_value(old_data, field, scenario)
+        new_val = get_value(new_data, field, scenario)
+        print(f"[DEBUG] Field: {field}, Old: {old_val}, New: {new_val}")
 
     for field in fields:
         old_val = get_value(old_data, field, scenario)
@@ -64,16 +72,25 @@ def merge_data(old_data, new_data, scenario, fields):
         if updates:
             if is_empty(new_val):
                 set_value(new_data, field, scenario, "N/A")
+                print(f"[DEBUG] Updates=true; {field} empty => N/A")
             else:
                 set_value(new_data, field, scenario, new_val)
+                print(f"[DEBUG] Updates=true; {field} non-empty => {new_val}")
         else:
             if is_empty(new_val):
                 if is_empty(old_val):
                     set_value(new_data, field, scenario, "N/A")
+                    print(f"[DEBUG] Updates=false; {field} new empty, old empty => N/A")
                 else:
                     set_value(new_data, field, scenario, old_val)
+                    print(f"[DEBUG] Updates=false; {field} new empty, old not empty => keep old {old_val}")
             else:
                 set_value(new_data, field, scenario, new_val)
+                print(f"[DEBUG] Updates=false; {field} new not empty => {new_val}")
+
+    for field in fields:
+        final_val = get_value(new_data, field, scenario)
+        print(f"[DEBUG] Final {field}: {final_val}")
 
     return new_data
 
@@ -153,7 +170,9 @@ async def fetch_release_data(source, repo):
         if not patches_download_urls:
             return
 
+        # Construct info_dict based on what we have
         if patches_download_urls[".rvp"]:
+            # RVP scenario
             info_dict = {
                 "created_at": patches_created_at,
                 "description": patches_description,
@@ -206,6 +225,7 @@ async def fetch_release_data(source, repo):
 
         scenario, fields = scenario_fields(info_dict)
 
+        print(f"[DEBUG] Processing {filepath}")
         final_data = merge_data(old_data, info_dict, scenario, fields)
 
         with open(filepath, 'w') as file:
