@@ -10,6 +10,16 @@ GH_PAT = os.getenv('GH_PAT')
 def is_empty(value):
     return value is None or (isinstance(value, str) and not value.strip())
 
+def values_differ(old_val, new_val):
+    if is_empty(old_val) and is_empty(new_val):
+        return False
+    if is_empty(old_val) and not is_empty(new_val):
+        return True
+
+    if not is_empty(old_val) and is_empty(new_val):
+        return True
+    return old_val != new_val
+
 def get_nested_value(d, key_path):
     keys = key_path.split('.')
     for k in keys:
@@ -28,11 +38,14 @@ def set_nested_value(d, key_path, value):
     d[keys[-1]] = value
 
 def scenario_fields(info_dict):
+
     if all(key in info_dict for key in ["created_at", "description", "download_url", "signature_download_url", "version"]):
         return "rvp", ["created_at", "description", "download_url", "signature_download_url", "version"]
+
     elif "patches" in info_dict and "integrations" in info_dict:
         return "apkjar", ["patches.version", "patches.url", "integrations.version", "integrations.url"]
     else:
+
         return "rvp", ["created_at", "description", "download_url", "signature_download_url", "version"]
 
 def get_value(d, field, scenario):
@@ -47,15 +60,17 @@ def set_value(d, field, scenario, value):
     else:
         set_nested_value(d, field, value)
 
-def determine_updates(new_data, fields, scenario):
+def determine_updates(old_data, new_data, fields, scenario):
+
     for field in fields:
+        old_val = get_value(old_data, field, scenario)
         new_val = get_value(new_data, field, scenario)
-        if not is_empty(new_val):
+        if values_differ(old_val, new_val):
             return True
     return False
 
 def merge_data(old_data, new_data, scenario, fields):
-    updates = determine_updates(new_data, fields, scenario)
+    updates = determine_updates(old_data, new_data, fields, scenario)
 
     print(f"[DEBUG] Scenario: {scenario}")
     print(f"[DEBUG] Fields: {fields}")
@@ -68,14 +83,21 @@ def merge_data(old_data, new_data, scenario, fields):
     for field in fields:
         old_val = get_value(old_data, field, scenario)
         new_val = get_value(new_data, field, scenario)
+        differs = values_differ(old_val, new_val)
 
         if updates:
-            if is_empty(new_val):
-                set_value(new_data, field, scenario, "N/A")
-                print(f"[DEBUG] Updates=true; {field} empty => N/A")
+
+            if differs:
+
+                if is_empty(new_val):
+                    set_value(new_data, field, scenario, "N/A")
+                    print(f"[DEBUG] Updates=true; {field} differs but new_val empty => N/A")
+                else:
+                    set_value(new_data, field, scenario, new_val)
+                    print(f"[DEBUG] Updates=true; {field} differs => {new_val}")
             else:
-                set_value(new_data, field, scenario, new_val)
-                print(f"[DEBUG] Updates=true; {field} non-empty => {new_val}")
+                set_value(new_data, field, scenario, "N/A")
+                print(f"[DEBUG] Updates=true; {field} no difference => N/A")
         else:
             if is_empty(new_val):
                 if is_empty(old_val):
@@ -170,9 +192,7 @@ async def fetch_release_data(source, repo):
         if not patches_download_urls:
             return
 
-        # Construct info_dict based on what we have
         if patches_download_urls[".rvp"]:
-            # RVP scenario
             info_dict = {
                 "created_at": patches_created_at,
                 "description": patches_description,
