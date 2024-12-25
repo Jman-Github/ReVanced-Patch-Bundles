@@ -19,7 +19,7 @@ def update_readme(artifact_url):
         lines[320] = f"{artifact_url}"
         new_content = "\n".join(lines)
         update_data = {
-            "message": "feat: Update `'API v4` manager download link to latest",
+            "message": "feat: Update manager download link to latest",
             "content": base64.b64encode(new_content.encode()).decode("utf-8"),
             "sha": readme_content["sha"],
             "committer": {
