@@ -1,10 +1,7 @@
 {
-  "patches": {
-    "version": "v2.160.12",
-    "url": "https://github.com/kitadai31/revanced-patches-android6-7/releases/download/v2.160.12/revanced-patches-2.160.12.jar"
-  },
-  "integrations": {
-    "version": "v0.96.12",
-    "url": "https://github.com/kitadai31/revanced-integrations/releases/download/v0.96.12/revanced-integrations-0.96.12.apk"
-  }
+  "created_at": "2024-12-01T12:09:26",
+  "description": "### Bug Fixes\r\n- **Fixed playback error [400] problem**\r\n  - Removed `spoof-client` patch and added **`spoof-streaming-data`** patch\r\n- Adjusted external downloader presets\r\n  - Removed outdated PowerTube preset\r\n- Fixed \"Custom seekbar color\" is not working\r\n- Fixed RVX Builder cannot select default patches by \"Select All\" button\r\n\r\n### Features\r\n- Removed `force-vp9-codec` patch as it is not working\r\n- **custom-seekbar-color**: Support light mode and seekbars on video thumbnails\r\n- **custom-seekbar-color**: Add an option to hide thumbnail seekbar\r\n- **shorts-seek**: If camera button is appeared, replace camera button with skip button instead of menu button\r\n- **SponsorBlock**: Match default settings to RVX, improved toast\r\n  - Previous default settings were too aggressive. (Example: MV intro was always force skipped.)\r\n  - Toast messages now have \"SponsorBlock:\" prefix.\r\n- Improve patching performance of XML handling\r\n\r\n\u203b Compatible ReVanced Manager: [ReVanced Manager for Android 5-7 (fork)](https://github.com/kitadai31/revanced-manager-android5-7)\r\n\u203b Compatible ReVanced CLI: [fork](https://github.com/kitadai31/rvcli/releases)\r\n\r\n**This update introduces a whole new strategy for Spoof client patch that called \"Spoof streaming data\".\r\nAll non-root users should update!**\r\n\r\n---\r\n\r\n### For users who are using this on Android 8.0+: [Read this](https://github.com/kitadai31/revanced-patches-android6-7#warning-do-not-use-this-on-android-80)",
+  "download_url": "https://github.com/kitadai31/revanced-patches-android6-7/releases/download/v2.160.12/test.rvp",
+  "signature_download_url": "N/A",
+  "version": "v2.160.12"
 }
