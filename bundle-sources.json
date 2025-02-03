@@ -124,6 +124,11 @@
         "integration": "https://api.github.com/repos/sti-233/BiliRoamingX",
         "prerelease": false
     },
+    "vpsone-stable": {
+        "patches": "https://github.com/vpsone/revanced-patch",
+        "integration": "https://github.com/vpsone/revanced-patch",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -247,6 +252,11 @@
     "sti-233-dev": {
         "patches": "https://api.github.com/repos/sti-233/BiliRoamingX",
         "integration": "https://api.github.com/repos/sti-233/BiliRoamingX",
+        "prerelease": true
+    },
+    "vpsone-dev": {
+        "patches": "https://github.com/vpsone/revanced-patch",
+        "integration": "https://github.com/vpsone/revanced-patch",
         "prerelease": true
     },
     "piko-latest": {
@@ -377,6 +387,11 @@
     "sti-233-latest": {
         "patches": "https://api.github.com/repos/sti-233/BiliRoamingX",
         "integration": "https://api.github.com/repos/sti-233/BiliRoamingX",
+        "latest": true
+    },
+    "vpsone-latest": {
+        "patches": "https://github.com/vpsone/revanced-patch",
+        "integration": "https://github.com/vpsone/revanced-patch",
         "latest": true
     }
 }

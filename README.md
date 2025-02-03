@@ -314,6 +314,17 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sti-233-patch-bundles/sti-233-dev-patches-bundle.json```
 </details>
 
+### 📦 Vpsone-Patches-Bundle:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vpsone-patch-bundles/vpsone-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vpsone-patch-bundles/vpsone-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vpsone-patch-bundles/vpsone-dev-patches-bundle.json```
+</details>
+
 # 📱 ReVanced Manager Compose:
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
@@ -373,6 +384,8 @@ https://github.com/ReVanced/revanced-manager/actions/runs/13096157819/artifacts/
 
 #### 🏷️ [Sti-233-Patches-Bundle](https://github.com/sti-233/BiliRoamingX)
 
+#### 🏷️ [Vpsone-Patches-Bundle](https://github.com/vpsone/revanced-patch)
+
 # 🖇 Intergrations/Extensions Repositories In Use
 __*NOTICE:*__ *Patch bundles in this section that link to the same repositories in the patch repositories section means that those patch bundles are using API v4.*
 #### ⛓ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-patches)
@@ -383,9 +396,9 @@ __*NOTICE:*__ *Patch bundles in this section that link to the same repositories 
 
 #### ⛓ [Piko-Patches-Bundle](https://github.com/crimera/revanced-integrations)
 
-#### ⛓ [Privacy-Patches-Bundle](https://github.com/jkennethcarino/privacy-revanced-integrations)
+#### ⛓ [Privacy-Patches-Bundle](https://github.com/jkennethcarino/privacy-revanced-patches)
 
-#### ⛓ [ReX-Patches-Bundle](https://github.com/YT-Advanced/ReX-integrations)
+#### ⛓ [ReX-Patches-Bundle](https://github.com/YT-Advanced/ReX-patches)
 
 #### ⛓ [Rufusin-Patches-Bundle](https://github.com/rufusin/revanced-integrations)
 
@@ -413,9 +426,9 @@ __*NOTICE:*__ *Patch bundles in this section that link to the same repositories 
 
 #### ⛓ [D4n3436-Patches-Bundle](https://github.com/d4n3436/revanced-integrations)
 
-#### ⛓ [Kitadai31-Patches-Bundle](https://github.com/kitadai31/revanced-integrations)
+#### ⛓ [Kitadai31-Patches-Bundle](https://github.com/kitadai31/revanced-patches-android6-7)
 
-#### ⛓ [ayushTNM-Patches-Bundle](https://github.com/kitadai31/revanced-integrations)
+#### ⛓ [ayushTNM-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 #### ⛓ [Arsclib-Patches-Bundle](https://github.com/inotia00/revanced-integrations)
 
@@ -426,6 +439,8 @@ __*NOTICE:*__ *Patch bundles in this section that link to the same repositories 
 #### ⛓ [Korhelyleves-Patches-Bundle](https://github.com/korhelyleves/revanced-patches)
 
 #### ⛓ [Sti-233-Patches-Bundle](https://github.com/sti-233/BiliRoamingX)
+
+#### ⛓ [Vpsone-Patches-Bundle](https://github.com/vpsone/revanced-patch)
 
 ## 🤝 Contributors
 ##### [indrastorms](https://github.com/indrastorms)
