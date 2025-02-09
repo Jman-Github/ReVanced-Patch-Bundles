@@ -296,11 +296,11 @@ This repository automatically checks for patch and integration updates from the 
 <details>
 <summary><i>Expand For Links</i></summary>
 
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Taknok-patch-bundles/Taknok-latest-patches-bundle.json```
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/taknok-patch-bundles/taknok-latest-patches-bundle.json```
 
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Taknok-patch-bundles/Taknok-stable-patches-bundle.json```
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/taknok-patch-bundles/taknok-stable-patches-bundle.json```
 
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Taknok-patch-bundles/Taknok-dev-patches-bundle.json```
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/taknok-patch-bundles/taknok-dev-patches-bundle.json```
 </details>
 
 ### 📦 Sti-233-Patches-Bundle:
@@ -312,6 +312,28 @@ This repository automatically checks for patch and integration updates from the 
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sti-233-patch-bundles/sti-233-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sti-233-patch-bundles/sti-233-dev-patches-bundle.json```
+</details>
+
+### 📦 Faith001-Patches-Bundle:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/faith001-patch-bundles/faith001-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/faith001-patch-bundles/faith001-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/faith001-patch-bundles/faith001-dev-patches-bundle.json```
+</details>
+
+### 📦 Forsyth47-Patches-Bundle:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/forsyth47-patch-bundles/forsyth47-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/forsyth47-patch-bundles/forsyth47-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/forsyth47-patch-bundles/forsyth47-dev-patches-bundle.json```
 </details>
 
 # 📱 ReVanced Manager Compose:
@@ -373,6 +395,10 @@ https://github.com/ReVanced/revanced-manager/actions/runs/13096157819/artifacts/
 
 #### 🏷️ [Sti-233-Patches-Bundle](https://github.com/sti-233/BiliRoamingX)
 
+#### 🏷️ [Faith001-Patches-Bundle](https://github.com/Faith001/revanced-molten-glass)
+
+#### 🏷️ [Forsyth47-Patches-Bundle](https://github.com/forsyth47/revanced-patches)
+
 # 🖇 Intergrations/Extensions Repositories In Use
 __*NOTICE:*__ *Patch bundles in this section that link to the same repositories in the patch repositories section means that those patch bundles are using API v4.*
 #### ⛓ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-patches)
@@ -426,6 +452,10 @@ __*NOTICE:*__ *Patch bundles in this section that link to the same repositories 
 #### ⛓ [Korhelyleves-Patches-Bundle](https://github.com/korhelyleves/revanced-patches)
 
 #### ⛓ [Sti-233-Patches-Bundle](https://github.com/sti-233/BiliRoamingX)
+
+#### ⛓ [Faith001-Patches-Bundle](https://github.com/Faith001/revanced-molten-glass)
+
+#### ⛓ [Forsyth47-Patches-Bundle](https://github.com/forsyth47/revanced-patches)
 
 ## 🤝 Contributors
 ##### [indrastorms](https://github.com/indrastorms)
