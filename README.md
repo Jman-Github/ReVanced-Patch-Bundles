@@ -318,7 +318,7 @@ This repository automatically checks for patch and integration updates from the 
 <details>
 <summary><i>Expand For Links</i></summary>
 
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/faith001-patch-bundles/faith001-latest-patches-bundle.json```
+https://github.com/ReVanced/revanced-manager/actions/runs/13285697385/artifacts/2578469013
 
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/faith001-patch-bundles/faith001-stable-patches-bundle.json```
 
