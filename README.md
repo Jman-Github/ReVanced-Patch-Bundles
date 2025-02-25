@@ -318,7 +318,7 @@ This repository automatically checks for patch and integration updates from the 
 <details>
 <summary><i>Expand For Links</i></summary>
 
-https://github.com/ReVanced/revanced-manager/actions/runs/13288429366/artifacts/2579363579
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/faith001-patch-bundles/faith001-latest-patches-bundle.json```
 
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/faith001-patch-bundles/faith001-stable-patches-bundle.json```
 
@@ -340,7 +340,7 @@ https://github.com/ReVanced/revanced-manager/actions/runs/13288429366/artifacts/
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
 #### 📩 Latest Download:
-https://github.com/ReVanced/revanced-manager/actions/runs/13096157819/artifacts/2522632649
+https://github.com/ReVanced/revanced-manager/actions/runs/13288429366/artifacts/2579363579
 
 # 🩹 Patch Repositories In Use
 #### 🏷️ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-patches)
