@@ -134,6 +134,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "brosssh-stable": {
+        "patches": "https://api.github.com/repos/brosssh/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -266,6 +271,11 @@
     },
     "forsyth47-dev": {
         "patches": "https://api.github.com/repos/forsyth47/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "brosssh-dev": {
+        "patches": "https://api.github.com/repos/brosssh/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -406,6 +416,11 @@
     },
     "forsyth47-latest": {
         "patches": "https://api.github.com/repos/forsyth47/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "brosssh-latest": {
+        "patches": "https://api.github.com/repos/brosssh/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

@@ -22,7 +22,7 @@ This repository automatically checks for patch and integration updates from the 
 > [!WARNING]  
 > Some of the dev-patch-bundle sources will not be working. This is due to some of the repositories having never created a prerelease. Those sources will have "N/A" in the repsective patch-bundle.json files.
 # 📋 Patch Bundles URLs 
-### 📦 ReVanced-Patches-Bundle:
+### 📦 ReVanced-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -33,7 +33,18 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/revanced-patch-bundles/revanced-dev-patches-bundle.json```
 </details>
 
-### 📦 Anddea-Patches-Bundle:
+### 📦 Inotia00-Patches-Bundle [API v4]:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/inotia00-patch-bundles/inotia00-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/inotia00-patch-bundles/inotia00-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/inotia00-patch-bundles/inotia00-dev-patches-bundle.json```
+</details>
+
+### 📦 Anddea-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -42,17 +53,6 @@ This repository automatically checks for patch and integration updates from the 
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anddea-patch-bundles/anddea-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anddea-patch-bundles/anddea-dev-patches-bundle.json```
-</details>
-
-### 📦 Experimental-Patches-Bundle:
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/experimental-patch-bundles/experimental-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/experimental-patch-bundles/experimental-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/experimental-patch-bundles/experimental-dev-patches-bundle.json```
 </details>
 
 ### 📦 Piko-Patches-Bundle:
@@ -66,7 +66,30 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/piko-patch-bundles/piko-dev-patches-bundle.json```
 </details>
 
-#### 📦 Privacy-Patches-Bundle:
+### 📦 BiliRoamingM-Patches-Bundle:
+
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/biliroamingm-patch-bundles/biliroamingm-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/biliroamingm-patch-bundles/biliroamingm-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/biliroamingm-patch-bundles/biliroamingm-dev-patches-bundle.json```
+</details>
+
+### 📦 Slenderman00-Patches-Bundle:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/slenderman00-patch-bundles/slenderman00-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/slenderman00-patch-bundles/slenderman00-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/slenderman00-patch-bundles/slenderman00-dev-patches-bundle.json```
+</details>
+
+#### 📦 Privacy-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -75,6 +98,63 @@ This repository automatically checks for patch and integration updates from the 
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/privacy-patch-bundles/privacy-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/privacy-patch-bundles/privacy-dev-patches-bundle.json```
+</details>
+
+### 📦 Experimental-Patches-Bundle [API v4]:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/experimental-patch-bundles/experimental-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/experimental-patch-bundles/experimental-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/experimental-patch-bundles/experimental-dev-patches-bundle.json```
+</details>
+
+### 📦 Dropped-Patches-Bundle [API v4]:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dropped-patch-bundles/dropped-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dropped-patch-bundles/dropped-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dropped-patch-bundles/dropped-dev-patches-bundle.json```
+</details>
+
+### 📦 Kitadai31-Patches-Bundle [API v4]:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kitadai31-patch-bundles/kitadai31-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kitadai31-patch-bundles/kitadai31-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kitadai31-patch-bundles/kitadai31-dev-patches-bundle.json```
+</details>
+
+### 📦 BholeyKaBhakt-Patches-Bundle [API v4]:
+
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bholeykabhakt-patch-bundles/bholeykabhakt-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bholeykabhakt-patch-bundles/bholeykabhakt-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bholeykabhakt-patch-bundles/bholeykabhakt-dev-patches-bundle.json```
+</details>
+
+### 📦 Andronedev-Patches-Bundle:
+
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/andronedev-patch-bundles/andronedev-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/andronedev-patch-bundles/andronedev-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/andronedev-patch-bundles/andronedev-dev-patches-bundle.json```
 </details>
 
 ### 📦 ReX-Patches-Bundle:
@@ -110,40 +190,6 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/twitter-patch-bundles/twitter-dev-patches-bundle.json```
 </details>
 
-### 📦 Dropped-Patches-Bundle:
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dropped-patch-bundles/dropped-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dropped-patch-bundles/dropped-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dropped-patch-bundles/dropped-dev-patches-bundle.json```
-</details>
-
-### 📦 Inotia00-Patches-Bundle:
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/inotia00-patch-bundles/inotia00-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/inotia00-patch-bundles/inotia00-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/inotia00-patch-bundles/inotia00-dev-patches-bundle.json```
-</details>
-
-### 📦 BiliRoamingM-Patches-Bundle:
-
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/biliroamingm-patch-bundles/biliroamingm-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/biliroamingm-patch-bundles/biliroamingm-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/biliroamingm-patch-bundles/biliroamingm-dev-patches-bundle.json```
-</details>
-
 ### 📦 Wyse--Patches-Bundle:
 
 <details>
@@ -154,30 +200,6 @@ This repository automatically checks for patch and integration updates from the 
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/wyse--patch-bundles/wyse--stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/wyse--patch-bundles/wyse--dev-patches-bundle.json```
-</details>
-
-### 📦 BholeyKaBhakt-Patches-Bundle:
-
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bholeykabhakt-patch-bundles/bholeykabhakt-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bholeykabhakt-patch-bundles/bholeykabhakt-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bholeykabhakt-patch-bundles/bholeykabhakt-dev-patches-bundle.json```
-</details>
-
-### 📦 Andronedev-Patches-Bundle:
-
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/andronedev-patch-bundles/andronedev-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/andronedev-patch-bundles/andronedev-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/andronedev-patch-bundles/andronedev-dev-patches-bundle.json```
 </details>
 
 ### 📦 1fexd-Patches-Bundle:
@@ -215,17 +237,6 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xrogers-patch-bundles/xrogers-dev-patches-bundle.json```
 </details>
 
-### 📦 Slenderman00-Patches-Bundle:
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/slenderman00-patch-bundles/slenderman00-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/slenderman00-patch-bundles/slenderman00-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/slenderman00-patch-bundles/slenderman00-dev-patches-bundle.json```
-</details>
-
 ### 📦 D4n3436-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -235,17 +246,6 @@ This repository automatically checks for patch and integration updates from the 
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/d4n3436-patch-bundles/d4n3436-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/d4n3436-patch-bundles/d4n3436-dev-patches-bundle.json```
-</details>
-
-### 📦 Kitadai31-Patches-Bundle:
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kitadai31-patch-bundles/kitadai31-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kitadai31-patch-bundles/kitadai31-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kitadai31-patch-bundles/kitadai31-dev-patches-bundle.json```
 </details>
 
 ### 📦 AyushTNM-Patches-Bundle:
@@ -270,7 +270,7 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/arsclib-patch-bundles/arsclib-dev-patches-bundle.json```
 </details>
 
-### 📦 LennyRBLX-Patches-Bundle:
+### 📦 LennyRBLX-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -281,7 +281,7 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lennyRBLX-patch-bundles/lennyRBLX-dev-patches-bundle.json```
 </details>
 
-### 📦 Korhelyleves-Patches-Bundle:
+### 📦 Korhelyleves-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -292,7 +292,7 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/korhelyleves-patch-bundles/korhelyleves-dev-patches-bundle.json```
 </details>
 
-### 📦 Taknok-Patches-Bundle:
+### 📦 Taknok-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -314,7 +314,7 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sti-233-patch-bundles/sti-233-dev-patches-bundle.json```
 </details>
 
-### 📦 Faith001-Patches-Bundle:
+### 📦 Faith001-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -325,7 +325,7 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/faith001-patch-bundles/faith001-dev-patches-bundle.json```
 </details>
 
-### 📦 Forsyth47-Patches-Bundle:
+### 📦 Forsyth47-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -336,6 +336,17 @@ This repository automatically checks for patch and integration updates from the 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/forsyth47-patch-bundles/forsyth47-dev-patches-bundle.json```
 </details>
 
+### 📦 Brosssh-Patches-Bundle [API v4]:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/brosssh-patch-bundles/brosssh-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/brosssh-patch-bundles/brosssh-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/brosssh-patch-bundles/forsybrossshh47-dev-patches-bundle.json```
+</details>
+
 # 📱 ReVanced Manager Compose:
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
@@ -344,13 +355,29 @@ https://github.com/ReVanced/revanced-manager/actions/runs/13600578173/artifacts/
 # 🩹 Patch Repositories In Use
 #### 🏷️ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-patches)
 
-#### 🏷️ [Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
+#### 🏷️ [Inotia00-Patches-Bundle](https://github.com/inotia00/revanced-Patches)
 
-#### 🏷️ [Experimental-Patches-Bundle](https://github.com/Aunali321/ReVancedExperiments)
+#### 🏷️ [Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
 
 #### 🏷️ [Piko-Patches-Bundle](https://github.com/crimera/piko)
 
+#### 🏷️ [BiliRoamingM-Patches-Bundle](https://github.com/sakarie9/BiliRoamingM)
+
+#### 🏷️ [Slenderman00-Patches-Bundle](https://github.com/Slenderman00/revanced-patches-grindr)
+
 #### 🏷️ [Privacy-Patches-Bundle](https://github.com/jkennethcarino/privacy-revanced-patches)
+
+#### 🏷️ [Experimental-Patches-Bundle](https://github.com/Aunali321/ReVancedExperiments)
+
+#### 🏷️ [Dropped-Patches-Bundle](https://github.com/indrastorms/Dropped-Patches)
+
+#### 🏷️ [Kitadai31-Patches-Bundle](https://github.com/kitadai31/revanced-patches-android6-7)
+
+#### 🏷️ [BholeyKaBhakt-Patches-Bundle](https://github.com/BholeyKaBhakt/revanced-patches-xtra)
+
+#### 🏷️ [Andronedev-Patches-Bundle](https://github.com/andronedev/revanced-patches)
+
+#### 🏷️ [Korhelyleves-Patches-Bundle](https://github.com/korhelyleves/revanced-patches)
 
 #### 🏷️ [ReX-Patches-Bundle](https://github.com/YT-Advanced/ReX-patches)
 
@@ -358,17 +385,7 @@ https://github.com/ReVanced/revanced-manager/actions/runs/13600578173/artifacts/
 
 #### 🏷️ [Twitter-Patches-Bundle](https://github.com/IndusAryan/twitter-patches)
 
-#### 🏷️ [Dropped-Patches-Bundle](https://github.com/indrastorms/Dropped-Patches)
-
-#### 🏷️ [Inotia00-Patches-Bundle](https://github.com/inotia00/revanced-Patches)
-
-#### 🏷️ [BiliRoamingM-Patches-Bundle](https://github.com/sakarie9/BiliRoamingM)
-
 #### 🏷️ [Wyse--Patches-Bundle](https://github.com/Wyse-/revanced-patches)
-
-#### 🏷️ [BholeyKaBhakt-Patches-Bundle](https://github.com/BholeyKaBhakt/revanced-patches-xtra)
-
-#### 🏷️ [Andronedev-Patches-Bundle](https://github.com/andronedev/revanced-patches)
 
 #### 🏷️ [1fexd-Patches-Bundle](https://github.com/1fexd/revanced-patches)
 
@@ -376,11 +393,7 @@ https://github.com/ReVanced/revanced-manager/actions/runs/13600578173/artifacts/
 
 #### 🏷️ [Xrogers-Patches-Bundle](https://github.com/xrogers/revanced-patches-galaxy)
 
-#### 🏷️ [Slenderman00-Patches-Bundle](https://github.com/Slenderman00/revanced-patches-grindr)
-
 #### 🏷️ [D4n3436-Patches-Bundle](https://github.com/d4n3436/revanced-patches-android5)
-
-#### 🏷️ [Kitadai31-Patches-Bundle](https://github.com/kitadai31/revanced-patches-android6-7)
 
 #### 🏷️ [AyushTNM-Patches-Bundle](https://github.com/ayushTNM/gmscore-patches)
 
@@ -390,25 +403,24 @@ https://github.com/ReVanced/revanced-manager/actions/runs/13600578173/artifacts/
 
 #### 🏷️ [Taknok-Patches-Bundle](https://github.com/Taknok/revanced-patches)
 
-#### 🏷️ [Korhelyleves-Patches-Bundle](https://github.com/korhelyleves/revanced-patches)
-
 #### 🏷️ [Sti-233-Patches-Bundle](https://github.com/sti-233/BiliRoamingX)
 
 #### 🏷️ [Faith001-Patches-Bundle](https://github.com/Faith001/revanced-molten-glass)
 
 #### 🏷️ [Forsyth47-Patches-Bundle](https://github.com/forsyth47/revanced-patches)
 
-# 🖇 Intergrations/Extensions Repositories In Use
-__*NOTICE:*__ *Patch bundles in this section that link to the same repositories in the patch repositories section means that those patch bundles are using API v4.*
-#### ⛓ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-patches)
+#### 🏷️ [Brosssh-Patches-Bundle](https://github.com/brosssh/revanced-patches)
 
-#### ⛓ [Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
-
-#### ⛓ [Experimental-Patches-Bundle](https://github.com/Aunali321/ReVancedExperiments)
+# 🖇 Intergrations Repositories In Use
+__*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*
 
 #### ⛓ [Piko-Patches-Bundle](https://github.com/crimera/revanced-integrations)
 
-#### ⛓ [Privacy-Patches-Bundle](https://github.com/jkennethcarino/privacy-revanced-patches)
+#### ⛓ [BiliRoamingM-Patches-Bundle](https://github.com/sakarie9/BiliRoamingM)
+
+#### ⛓ [Slenderman00-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
+
+#### ⛓ [Andronedev-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 #### ⛓ [ReX-Patches-Bundle](https://github.com/YT-Advanced/ReX-patches)
 
@@ -416,17 +428,7 @@ __*NOTICE:*__ *Patch bundles in this section that link to the same repositories 
 
 #### ⛓ [Twitter-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
-#### ⛓ [Dropped-Patches-Bundle](https://github.com/indrastorms/Dropped-Patches)
-
-#### ⛓ [Inotia00-Patches-Bundle](https://github.com/inotia00/revanced-patches)
-
-#### ⛓ [BiliRoamingM-Patches-Bundle](https://github.com/sakarie9/BiliRoamingM)
-
 #### ⛓ [Wyse--Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
-
-#### ⛓ [BholeyKaBhakt-Patches-Bundle](https://github.com/BholeyKaBhakt/revanced-patches-xtra)
-
-#### ⛓ [Andronedev-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 #### ⛓ [1fexd-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
@@ -434,27 +436,11 @@ __*NOTICE:*__ *Patch bundles in this section that link to the same repositories 
 
 #### ⛓ [Xrogers-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
-#### ⛓ [Slenderman00-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
-
 #### ⛓ [D4n3436-Patches-Bundle](https://github.com/d4n3436/revanced-integrations)
-
-#### ⛓ [Kitadai31-Patches-Bundle](https://github.com/kitadai31/revanced-patches-android6-7)
 
 #### ⛓ [ayushTNM-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 #### ⛓ [Arsclib-Patches-Bundle](https://github.com/inotia00/revanced-integrations)
-
-#### ⛓ [LennyRBLX-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
-
-#### ⛓ [Taknok-Patches-Bundle](https://github.com/Taknok/revanced-patches)
-
-#### ⛓ [Korhelyleves-Patches-Bundle](https://github.com/korhelyleves/revanced-patches)
-
-#### ⛓ [Sti-233-Patches-Bundle](https://github.com/sti-233/BiliRoamingX)
-
-#### ⛓ [Faith001-Patches-Bundle](https://github.com/Faith001/revanced-molten-glass)
-
-#### ⛓ [Forsyth47-Patches-Bundle](https://github.com/forsyth47/revanced-patches)
 
 ## 🤝 Contributors
 ##### [indrastorms](https://github.com/indrastorms)
