@@ -123,6 +123,17 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dropped-patch-bundles/dropped-dev-patches-bundle.json```
 </details>
 
+### 📦 Wchill-Patches-Bundle [API v4]:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/wchill-patch-bundles/wchill-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/wchill-patch-bundles/wchill-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/wchill-patch-bundles/wchill-dev-patches-bundle.json```
+</details>
+
 ### 📦 Kitadai31-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -371,6 +382,8 @@ https://github.com/ReVanced/revanced-manager/actions/runs/13600578173/artifacts/
 #### 🏷️ [Experimental-Patches-Bundle](https://github.com/Aunali321/ReVancedExperiments)
 
 #### 🏷️ [Dropped-Patches-Bundle](https://github.com/indrastorms/Dropped-Patches)
+
+#### 🏷️ [Wchill-Patches-Bundle](https://github.com/wchill/revanced-patches)
 
 #### 🏷️ [Kitadai31-Patches-Bundle](https://github.com/kitadai31/revanced-patches-android6-7)
 
