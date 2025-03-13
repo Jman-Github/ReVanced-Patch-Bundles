@@ -90,7 +90,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/slenderman00-patch-bundles/slenderman00-dev-patches-bundle.json```
 </details>
 
-#### 📦 Privacy-Patches-Bundle [API v4]:
+### 📦 Privacy-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
 
