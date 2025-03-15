@@ -226,7 +226,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/1fexd-patch-bundles/1fexd-dev-patches-bundle.json```
 </details>
 
-### 📦 Pufferffish-Patches-Bundle:
+### 📦 Whyvl-Patches-Bundle:
 
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -446,7 +446,7 @@ __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be incl
 
 #### ⛓ [1fexd-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
-#### ⛓ [Pufferffish-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
+#### ⛓ [Whyvl-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 #### ⛓ [Xrogers-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
