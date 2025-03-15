@@ -231,11 +231,11 @@ This repository automatically checks for patch and integration (or patches & ext
 <details>
 <summary><i>Expand For Links</i></summary>
 
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pufferffish-patch-bundles/pufferffish-latest-patches-bundle.json```
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/whyvl-patch-bundles/whyvl-latest-patches-bundle.json```
 
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pufferffish-patch-bundles/pufferffish-stable-patches-bundle.json```
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/whyvl-patch-bundles/whyvl-stable-patches-bundle.json```
 
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pufferffish-patch-bundles/pufferffish-dev-patches-bundle.json```
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/whyvl-patch-bundles/whyvl-dev-patches-bundle.json```
 </details>
 
 ### 📦 Xrogers-Patches-Bundle:
@@ -403,7 +403,7 @@ https://github.com/ReVanced/revanced-manager/actions/runs/13600578173/artifacts/
 
 #### 🏷️ [1fexd-Patches-Bundle](https://github.com/1fexd/revanced-patches)
 
-#### 🏷️ [Pufferffish-Patches-Bundle](https://github.com/pufferffish/revanced-patches-repo)
+#### 🏷️ [Whyvl-Patches-Bundle](https://github.com/whyvl/revanced-patches-repo)
 
 #### 🏷️ [Xrogers-Patches-Bundle](https://github.com/xrogers/revanced-patches-galaxy)
 
