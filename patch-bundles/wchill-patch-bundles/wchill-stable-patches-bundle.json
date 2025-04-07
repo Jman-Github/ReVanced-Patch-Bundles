@@ -1,7 +1,7 @@
 {
-  "created_at": "2025-03-25T14:46:50",
-  "description": "**Full Changelog**: https://github.com/wchill/revanced-patches/compare/v5.14.1...v5.15.1\r\n\r\nRebased onto official patch set [v5.16.0-dev.1](https://github.com/ReVanced/revanced-patches/releases/tag/v5.16.0-dev.1) (commit bae8020).\r\n\r\nSeparated client ID/redirect URI and user agent patches.\r\n\r\nAdded support for automatic undeletion of removed Reddit posts/comments using Project Arctic Shift. See updated README.md for more details.",
-  "download_url": "https://github.com/wchill/revanced-patches/releases/download/v5.15.1/patches-5.15.1.rvp",
-  "signature_download_url": "https://github.com/wchill/revanced-patches/releases/download/v5.15.1/patches-5.15.1.rvp.asc",
-  "version": "v5.15.1"
+  "created_at": "2025-04-07T06:15:22",
+  "description": "**Full Changelog**: https://github.com/wchill/revanced-patches/compare/v5.15.1...v5.18.1\r\n\r\nSee https://github.com/ReVanced/revanced-patches/releases for official changelog.\r\n\r\nUnofficial patch changelog:\r\n* Refactored Boost patches to use OkHttp3 interceptors. This should make it easier to make future changes to API-related patches. (0b406550f1efd717f37864667b9742141d4a243c)\r\n* Add support for undeleting Imgur and Reddit images/albums using Wayback Machine. (ef5415236f8017334328be98c194e112e38ae81c)\r\n* Add long-press context menu options to open a link in Wayback Machine or Archive.is. (c192601bd9d676dd9f591247f18dcc048cfe4e51)",
+  "download_url": "https://github.com/wchill/revanced-patches/releases/download/v5.18.1/patches-5.18.1.rvp",
+  "signature_download_url": "https://github.com/wchill/revanced-patches/releases/download/v5.18.1/patches-5.18.1.rvp.asc",
+  "version": "v5.18.1"
 }
