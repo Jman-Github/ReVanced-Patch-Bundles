@@ -68,7 +68,6 @@ This repository automatically checks for patch and integration (or patches & ext
 </details>
 
 ### 📦 BiliRoamingM-Patches-Bundle:
-
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -146,7 +145,6 @@ This repository automatically checks for patch and integration (or patches & ext
 </details>
 
 ### 📦 BholeyKaBhakt-Patches-Bundle [API v4]:
-
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -158,7 +156,6 @@ This repository automatically checks for patch and integration (or patches & ext
 </details>
 
 ### 📦 Andronedev-Patches-Bundle:
-
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -167,6 +164,17 @@ This repository automatically checks for patch and integration (or patches & ext
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/andronedev-patch-bundles/andronedev-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/andronedev-patch-bundles/andronedev-dev-patches-bundle.json```
+</details>
+
+### 📦 JeffJankowski-Patches-Bundle [API v4]:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jeffjankowski-patch-bundles/jeffjankowski-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jeffjankowski-patch-bundles/jeffjankowski-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jeffjankowski-patch-bundles/jeffjankowski-dev-patches-bundle.json```
 </details>
 
 ### 📦 ReX-Patches-Bundle:
@@ -203,7 +211,6 @@ This repository automatically checks for patch and integration (or patches & ext
 </details>
 
 ### 📦 Wyse--Patches-Bundle:
-
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -215,7 +222,6 @@ This repository automatically checks for patch and integration (or patches & ext
 </details>
 
 ### 📦 1fexd-Patches-Bundle:
-
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -227,7 +233,6 @@ This repository automatically checks for patch and integration (or patches & ext
 </details>
 
 ### 📦 Whyvl-Patches-Bundle:
-
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -390,6 +395,8 @@ https://github.com/ReVanced/revanced-manager/actions/runs/14186454930/artifacts/
 #### 🏷️ [BholeyKaBhakt-Patches-Bundle](https://github.com/BholeyKaBhakt/revanced-patches-xtra)
 
 #### 🏷️ [Andronedev-Patches-Bundle](https://github.com/andronedev/revanced-patches)
+
+#### 🏷️ [JeffJankowski-Patches-Bundle](https://github.com/JeffJankowski/revanced-custom-patches)
 
 #### 🏷️ [Korhelyleves-Patches-Bundle](https://github.com/korhelyleves/revanced-patches)
 
