@@ -149,6 +149,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "hoo-dles-stable": {
+        "patches": "https://api.github.com/repos/hoo-dles/revanced-custom-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -296,6 +301,11 @@
     },
     "jeffjankowski-dev": {
         "patches": "https://api.github.com/repos/jeffjankowski/revanced-custom-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "hoo-dles-dev": {
+        "patches": "https://api.github.com/repos/hoo-dles/revanced-custom-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -451,6 +461,11 @@
     },
     "jeffjankowski-latest": {
         "patches": "https://api.github.com/repos/jeffjankowski/revanced-custom-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "hoo-dles-latest": {
+        "patches": "https://api.github.com/repos/hoo-dles/revanced-custom-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }
