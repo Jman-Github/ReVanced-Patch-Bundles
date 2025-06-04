@@ -16,7 +16,20 @@ def update_readme(artifact_url):
         readme_content = response.json()
         readme_content_decoded = base64.b64decode(readme_content["content"]).decode("utf-8")
         lines = readme_content_decoded.split("\n")
-        lines[392] = f"{artifact_url}"
+
+        try:
+            marker_index = lines.index("#### 📩 Latest Download:") + 1
+        except ValueError:
+            marker_index = None
+
+        if marker_index is not None and marker_index < len(lines):
+            lines[marker_index] = artifact_url
+        elif marker_index is not None:
+            lines.append(artifact_url)
+        else:
+            print("Marker for latest download not found, appending section.")
+            lines.append("#### 📩 Latest Download:")
+            lines.append(artifact_url)
         new_content = "\n".join(lines)
         update_data = {
             "message": "feat: Update manager download link to latest",
