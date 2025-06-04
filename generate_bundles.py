@@ -5,6 +5,26 @@ import os
 import re
 from httpx import AsyncClient, Timeout
 
+ETAG_CACHE_FILE = "etag_cache.json"
+
+
+def _load_etag_cache():
+    if os.path.exists(ETAG_CACHE_FILE):
+        try:
+            with open(ETAG_CACHE_FILE, "r") as cache_file:
+                return json.load(cache_file)
+        except Exception:
+            return {}
+    return {}
+
+
+def _save_etag_cache(cache):
+    with open(ETAG_CACHE_FILE, "w") as cache_file:
+        json.dump(cache, cache_file, indent=2)
+
+
+ETAG_CACHE = _load_etag_cache()
+
 GH_PAT = os.getenv('GH_PAT')
 
 async def get_latest_release(repo_url, prerelease, latest_flag=False):
@@ -26,12 +46,22 @@ async def get_latest_release(repo_url, prerelease, latest_flag=False):
 
     api_url = f"{repo_url}/releases"
     headers = {'Authorization': f'token {GH_PAT}'}
+    etag = ETAG_CACHE.get(api_url)
+    if etag:
+        headers['If-None-Match'] = etag
     timeout = Timeout(connect=None, read=None, write=None, pool=None)
 
     async with AsyncClient(timeout=timeout, headers=headers) as client:
         response = await client.get(api_url)
 
+    if response.status_code == 304:
+        print(f"No changes for {repo_url}; skipping.")
+        return None, None, None, None, None
     if response.status_code == 200:
+        etag_value = response.headers.get('ETag')
+        if etag_value:
+            ETAG_CACHE[api_url] = etag_value
+            _save_etag_cache(ETAG_CACHE)
         releases = response.json()
         if not releases:
             print(f"No releases found for {repo_url}")
