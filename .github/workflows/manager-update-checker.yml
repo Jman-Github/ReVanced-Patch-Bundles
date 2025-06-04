@@ -77,7 +77,7 @@ jobs:
           content: '||@everyone||'
           embed-title: 'Manager README Updated'
           embed-description: |
-            The manager download link in the README has been updated by the [Manager Update Checker Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/manager-update-checker.yml).
+            The manager download link has been updated by the [Manager Update Checker Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/manager-update-checker.yml).
 
             [Latest Download](${{ steps.get_artifact.outputs.artifact_url }})
           embed-color: '65280'
