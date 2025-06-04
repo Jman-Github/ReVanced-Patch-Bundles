@@ -159,6 +159,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "sticknodes-stable": {
+        "patches": "https://api.github.com/repos/sticknodes-patches/sticknodes-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -316,6 +321,11 @@
         },
     "scrazzz-dev": {
         "patches": "https://api.github.com/repos/scrazzz/my-revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "sticknodes-dev": {
+        "patches": "https://api.github.com/repos/sticknodes-patches/sticknodes-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -478,9 +488,14 @@
         "patches": "https://api.github.com/repos/hoo-dles/revanced-custom-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
-        },
+    },
     "scrazzz-latest": {
         "patches": "https://api.github.com/repos/scrazzz/my-revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "sticknodes-latest": {
+        "patches": "https://api.github.com/repos/sticknodes-patches/sticknodes-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

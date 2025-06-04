@@ -386,6 +386,17 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/scrazzz-patch-bundles/scrazzz-dev-patches-bundle.json```
 </details>
 
+### 📦 VinceTheProgrammer-Patches-Bundle [API v4]:
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vinceTheProgrammer-patch-bundles/vinceTheProgrammer-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vinceTheProgrammer-patch-bundles/vinceTheProgrammer-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vinceTheProgrammer-patch-bundles/vinceTheProgrammer-dev-patches-bundle.json```
+</details>
+
 # 📱 ReVanced Manager Compose:
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
@@ -457,6 +468,8 @@ https://github.com/ReVanced/revanced-manager/actions/runs/14974647803/artifacts/
 #### 🏷️ [Hoo-dles-Patches-Bundle](https://github.com/hoo-dles/revanced-custom-patches)
 
 #### 🏷️ [Scrazzz-Patches-Bundle](https://github.com/scrazzz/my-revanced-patches)
+
+#### 🏷️ [vinceTheProgrammer-Patches-Bundle](https://github.com/vinceTheProgrammer/sticknodes-patches)
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*
