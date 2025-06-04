@@ -469,7 +469,7 @@ https://github.com/ReVanced/revanced-manager/actions/runs/14974647803/artifacts/
 
 #### 🏷️ [Scrazzz-Patches-Bundle](https://github.com/scrazzz/my-revanced-patches)
 
-#### 🏷️ [vinceTheProgrammer-Patches-Bundle](https://github.com/vinceTheProgrammer/sticknodes-patches)
+#### 🏷️ [VinceTheProgrammer-Patches-Bundle](https://github.com/vinceTheProgrammer/sticknodes-patches)
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*
