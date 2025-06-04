@@ -40,15 +40,22 @@ jobs:
           source venv/bin/activate
           python -m pip install --upgrade pip
           python -m pip install requests httpx
-          python generate_bundles.py
-          git add '*.json'
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m 'feat: `patch-bundles` update'
-            git push origin HEAD:${{ github.ref }} --follow-tags
-            echo "has_changes=true" >> $GITHUB_ENV
-          else
-            echo "No changes to commit. Exiting..."
+          output=$(python generate_bundles.py 2>&1)
+          echo "$output"
+          if echo "$output" | grep -q "Your branch is up to date with 'origin/bundles'."; then
+            echo "Branch is up to date with 'origin/bundles'. Exiting..."
+            echo "cancel_workflow=true" >> $GITHUB_ENV
             echo "has_changes=false" >> $GITHUB_ENV
+          else
+            git add '*.json'
+            if [ -n "$(git status --porcelain)" ]; then
+              git commit -m "feat: `patch-bundles` update"
+              git push origin HEAD:${{ github.ref }} --follow-tags
+              echo "has_changes=true" >> $GITHUB_ENV
+            else
+              echo "No changes to commit. Exiting..."
+              echo "has_changes=false" >> $GITHUB_ENV
+            fi
           fi
         working-directory: ${{ github.workspace }}
         continue-on-error: true
