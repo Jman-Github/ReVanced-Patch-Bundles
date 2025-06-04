@@ -6,22 +6,22 @@
 [![Patch bundle updater](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml/badge.svg)](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml)
 
 # 📋 Suggestions, Questions & Issues
-If you have any issues, suggestions, and/or questions please don't be affraid to create a [issue](https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues/new)! You can also communicate with me in [discussions](https://github.com/Jman-Github/ReVanced-Patch-Bundles/discussions). For contributors, see information about that [here](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/CONTRIBUTING.md).
+If you have any issues, suggestions, and/or questions please don't be afraid to create a [issue](https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues/new)! You can also communicate with me in [discussions](https://github.com/Jman-Github/ReVanced-Patch-Bundles/discussions). For contributors, see information about that [here](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/CONTRIBUTING.md).
 
 Check out [Awesome-ReVanced](https://github.com/Jman-Github/Awesome-ReVanced) if you want more ReVanced related projects and resources!
 
 # ❓ About 
-This repository automatically checks for patch and integration (or patches & extensions; depends on API version) updates from the repositorys listed [below](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-patch-bundles-urls) every 30 minutes. These repositories are alternative ReVanced patch and integration/extension sources for users who want extended patch sources with ReVanced. The links listed below are used for the patch bundle sources in the [ReVanced Manager Compose](https://github.com/ReVanced/revanced-manager/tree/compose-dev). Use these links to set your patch bundle(s) inside the ReVanced Manager Compose. Choose between dev, stable and latest (this includes prerealses & regular releases) releases for the patch bundle sources. The links will import the patch bundle(s) (integrations & patches or patches & extensions; depends on API version) into the manager which should update the bundle(s) every time these links have a change in there code. The patch bundles with the "[API v4]" label signify whether the patch bundle uses the old API (API v3) or the new one (being API v4). Currently, the [ReVanced Manager Compose](https://github.com/ReVanced/revanced-manager/tree/compose-dev) only supports API v4 bundles, so any bundle without the "API v4" label will not be usable in the manager. 
+This repository automatically checks for patch and integration (or patches & extensions; depends on API version) updates from the repositories listed [below](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-patch-bundles-urls) every 30 minutes. These repositories are alternative ReVanced patch and integration/extension sources for users who want extended patch sources with ReVanced. The links listed below are used for the patch bundle sources in the [ReVanced Manager Compose](https://github.com/ReVanced/revanced-manager/tree/compose-dev). Use these links to set your patch bundle(s) inside the ReVanced Manager Compose. Choose between dev, stable and latest (this includes prereleases & regular releases) releases for the patch bundle sources. The links will import the patch bundle(s) (integrations & patches or patches & extensions; depends on API version) into the manager which should update the bundle(s) every time these links have a change in their code. The patch bundles with the "[API v4]" label signify whether the patch bundle uses the old API (API v3) or the new one (being API v4). Currently, the [ReVanced Manager Compose](https://github.com/ReVanced/revanced-manager/tree/compose-dev) only supports API v4 bundles, so any bundle without the "API v4" label will not be usable in the manager. 
 *If you have any other working ReVanced alternative patch and integration/extension repositories that aren't already included in this repository, please create an [issue](https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues) to let me know.*
 > [!IMPORTANT]
-> **Latest:** The latest patch & integrations with prerelases included. Meaning if the latest release is a prerelease, it will update to that. If it's a regular release, it will also update to that.
+> **Latest:** The latest patch & integrations with prereleases included. Meaning if the latest release is a prerelease, it will update to that. If it's a regular release, it will also update to that.
 >
->**Stable:** The latest stable patch & integrations with does prereleases excluded. Meaning it will just update to the latest regular releases and skip over prereleases.
+>**Stable:** The latest stable patch & integrations with prereleases excluded. Meaning it will just update to the latest regular releases and skip over prereleases.
 >
 >**Dev:** The latest dev patch & integrations with regular releases excluded. Meaning it will just update to the latest prerelease and skip over the regular releases.
 
 > [!WARNING]  
-> Some of the dev-patch-bundle sources will not be working. This is due to some of the repositories having never created a prerelease. Those sources will have "N/A" in the repsective patch-bundle.json files.
+> Some of the dev-patch-bundle sources will not be working. This is due to some of the repositories having never created a prerelease. Those sources will have "N/A" in the respective patch-bundle.json files.
 # 📋 Patch Bundles URLs 
 ### 📦 ReVanced-Patches-Bundle [API v4]:
 <details>
@@ -458,7 +458,7 @@ https://github.com/ReVanced/revanced-manager/actions/runs/14974647803/artifacts/
 
 #### 🏷️ [Scrazzz-Patches-Bundle](https://github.com/scrazzz/my-revanced-patches)
 
-# 🖇 Intergrations Repositories In Use
+# 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*
 
 #### ⛓ [Piko-Patches-Bundle](https://github.com/crimera/revanced-integrations)
