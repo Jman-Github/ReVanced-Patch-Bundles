@@ -23,6 +23,19 @@ jobs:
           download_path: 'ReVanced-Patch-Bundles'
           download_filename: 'changed_files.zip'
 
+      - name: Download Summary Artifact from Patch bundle updater
+        id: download_patch_bundle_summary_artifact
+        uses: benday-inc/download-latest-artifact@main
+        with:
+          token: ${{ secrets.GIT_TOKEN }}
+          repository_owner: 'Jman-Github'
+          repository_name: 'ReVanced-Patch-Bundles'
+          branch_name: 'bundles'
+          artifact_name: 'updated_bundles'
+          workflow_name: 'Patch bundle updater'
+          download_path: 'ReVanced-Patch-Bundles'
+          download_filename: 'updated-bundles.zip'
+
       - name: Download Artifact from Commit puller
         id: download_commit_puller_artifact
         uses: benday-inc/download-latest-artifact@main
@@ -44,6 +57,9 @@ jobs:
 
       - name: Unzip Patch bundle updater artifact
         run: unzip ReVanced-Patch-Bundles/changed_files.zip -d ReVanced-Patch-Bundles/patch_bundle_updater_artifact
+
+      - name: Unzip Summary artifact
+        run: unzip ReVanced-Patch-Bundles/updated-bundles.zip -d ReVanced-Patch-Bundles/patch_bundle_updater_artifact
 
       - name: Unzip Commit puller artifact
         run: unzip ReVanced-Patch-Bundles/commit-link.zip -d ReVanced-Patch-Bundles/commit_puller_artifact
@@ -68,6 +84,12 @@ jobs:
           changes_json+="]"
           echo "::set-output name=changes_json::$changes_json"
 
+          summary=$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt)
+          if [ -z "$summary" ]; then
+            summary="{}"
+          fi
+          echo "::set-output name=summary::${summary}"
+
           commit_link=$(cat ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt)
           
           if [ -z "$commit_link" ]; then
@@ -87,6 +109,10 @@ jobs:
             **Changes:**
             ```
             ${{ join(fromJson(steps.set_changes.outputs.changes_json), '') }}
+            ```
+            **Summary:**
+            ```
+            ${{ steps.set_changes.outputs.summary }}
             ```
             ${{ steps.set_changes.outputs.commit_link }}
             
