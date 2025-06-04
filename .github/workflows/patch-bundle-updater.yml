@@ -49,7 +49,7 @@ jobs:
           else
             git add '*.json'
             if [ -n "$(git status --porcelain)" ]; then
-              git commit -m 'feat: `patch-bundles` update'
+              git commit -m "feat: `patch-bundles` update"
               git push origin HEAD:${{ github.ref }} --follow-tags
               echo "has_changes=true" >> $GITHUB_ENV
             else

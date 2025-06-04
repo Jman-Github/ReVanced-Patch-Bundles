@@ -186,8 +186,20 @@ async def main():
             if isinstance(result, Exception):
                 print(f"Task for {source} failed: {result}")
         
-        # Let the calling workflow handle committing and pushing any staged
-        # changes. This script only stages modified bundle files.
+        status_result = subprocess.run(
+            ["git", "status", "--porcelain"],
+            stdout=subprocess.PIPE,
+            text=True,
+            check=True,
+        )
+
+        if status_result.stdout.strip():
+            subprocess.run(
+                ["git", "commit", "-m", "feat: `patch-bundles` update"],
+                check=True,
+            )
+        else:
+            print("No changes detected. Skipping commit.")
     except subprocess.CalledProcessError as e:
         print(f"Subprocess failed: {e}")
     except Exception as e:
