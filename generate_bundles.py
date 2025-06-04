@@ -177,7 +177,8 @@ async def main():
         subprocess.run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], check=True)
         subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
 
-        subprocess.run(["git", "pull", "origin", "bundles"], check=True)
+        # The calling workflow already checks out the latest commits.
+        # Avoid pulling here to prevent authentication issues in CI.
 
         tasks = [fetch_release_data(source, repo) for source, repo in sources.items()]
         results = await asyncio.gather(*tasks, return_exceptions=True)
@@ -186,20 +187,8 @@ async def main():
             if isinstance(result, Exception):
                 print(f"Task for {source} failed: {result}")
         
-        status_result = subprocess.run(
-            ["git", "status", "--porcelain"],
-            stdout=subprocess.PIPE,
-            text=True,
-            check=True,
-        )
-
-        if status_result.stdout.strip():
-            subprocess.run(
-                ["git", "commit", "-m", "feat: `patch-bundles` update"],
-                check=True,
-            )
-        else:
-            print("No changes detected. Skipping commit.")
+        # Let the calling workflow handle committing and pushing any staged
+        # changes. This script only stages modified bundle files.
     except subprocess.CalledProcessError as e:
         print(f"Subprocess failed: {e}")
     except Exception as e:
