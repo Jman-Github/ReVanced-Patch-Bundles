@@ -68,3 +68,21 @@ jobs:
         env:
           GITHUB_RUN_ID: ${{ github.run_id }}
           GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+
+      - name: Send Discord Notification
+        if: steps.check_readme.outputs.needs_update == 'true'
+        uses: tsickert/discord-webhook@master
+        with:
+          webhook-url: ${{ secrets.WEBHOOK_URL }}
+          content: '||@everyone||'
+          embed-title: 'Manager README Updated'
+          embed-description: |
+            The manager download link in the README has been updated by the [Manager Update Checker Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/manager-update-checker.yml).
+
+            [Latest Download](${{ steps.get_artifact.outputs.artifact_url }})
+          embed-color: '65280'
+          embed-author-name: 'Manager Update Checker Workflow'
+          embed-author-icon-url: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
+          embed-thumbnail-url: 'https://cdn-icons-png.flaticon.com/512/5278/5278658.png'
+          username: 'ReVanced-Patch-Bundles'
+          avatar-url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUECg_ITr7YkE2pYiVdHqTxlg3wLwXKXIQrcxEBKd7Q&s'
