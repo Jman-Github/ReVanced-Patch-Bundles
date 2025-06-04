@@ -75,7 +75,7 @@ jobs:
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
           content: '||@everyone||'
-          embed-title: 'Manager README Updated'
+          embed-title: 'ReVanced Manager Compose Update'
           embed-description: |
             The manager download link has been updated by the [Manager Update Checker Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/manager-update-checker.yml).
 
