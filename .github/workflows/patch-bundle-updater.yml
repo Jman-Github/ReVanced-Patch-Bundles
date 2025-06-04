@@ -45,11 +45,13 @@ jobs:
           if echo "$output" | grep -q "Your branch is up to date with 'origin/bundles'."; then
             echo "Branch is up to date with 'origin/bundles'. Exiting..."
             echo "cancel_workflow=true" >> $GITHUB_ENV
+            echo "has_changes=false" >> $GITHUB_ENV
           else
             git add '*.json'
             if [ -n "$(git status --porcelain)" ]; then
               git commit -m "feat: `patch-bundles` update"
               git push origin HEAD:${{ github.ref }} --follow-tags
+              echo "has_changes=true" >> $GITHUB_ENV
             else
               echo "No changes to commit. Exiting..."
               echo "has_changes=false" >> $GITHUB_ENV
@@ -57,16 +59,6 @@ jobs:
           fi
         working-directory: ${{ github.workspace }}
         continue-on-error: true
-
-      - name: Check for changes
-        id: check_changes
-        if: env.cancel_workflow != 'true'
-        run: |
-          if git diff --quiet HEAD HEAD^ -- '*.json'; then
-            echo "has_changes=false" >> $GITHUB_ENV
-          else
-            echo "has_changes=true" >> $GITHUB_ENV
-          fi
 
       - name: Find commit for changed files
         id: find_commit
