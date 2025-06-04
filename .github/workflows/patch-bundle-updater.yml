@@ -80,6 +80,11 @@ jobs:
             echo "changed_files=changed_files.txt" >> $GITHUB_ENV
           fi
 
+      - name: Build summary of updated bundles
+        if: env.has_changes == 'true' && env.changed_files != ''
+        run: |
+          python build_summary.py
+
       - name: Push changes
         if: env.has_changes == 'true'
         uses: ad-m/github-push-action@master
@@ -93,3 +98,10 @@ jobs:
         with:
           name: changed_files
           path: changed_files.txt
+
+      - name: Create artifact of updated bundles
+        if: env.has_changes == 'true' && env.changed_files != ''
+        uses: actions/upload-artifact@main
+        with:
+          name: updated_bundles
+          path: updated-bundles.txt
