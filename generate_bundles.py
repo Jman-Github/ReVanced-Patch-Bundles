@@ -149,9 +149,12 @@ async def main():
 
         subprocess.run(["git", "pull", "origin", "bundles"], check=True)
 
-        for source, repo in sources.items():
-            await fetch_release_data(source, repo)
-            await asyncio.sleep(0)
+        tasks = [fetch_release_data(source, repo) for source, repo in sources.items()]
+        results = await asyncio.gather(*tasks, return_exceptions=True)
+
+        for (source, _), result in zip(sources.items(), results):
+            if isinstance(result, Exception):
+                print(f"Task for {source} failed: {result}")
         
         subprocess.run(["git", "commit", "-m", "feat: `patch-bundles` update"], check=True)
         
