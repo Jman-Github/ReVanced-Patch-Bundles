@@ -34,8 +34,8 @@ def main():
             summary[bundle_name] = version
 
     with open('updated-bundles.txt', 'w') as f:
-        json.dump(summary, f, indent=2)
-    print(json.dumps(summary, indent=2))
+        json.dump(summary, f, separators=(",", ":"))
+    print(json.dumps(summary, separators=(",", ":")))
 
 
 if __name__ == '__main__':
