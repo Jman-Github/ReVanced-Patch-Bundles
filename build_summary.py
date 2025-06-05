@@ -50,9 +50,12 @@ def main():
             display_old = old_version if old_version else 'N/A'
             summary[bundle_name] = f"{display_old} ---> {version}"
 
+    summary_lines = [f"{name}: {info}" for name, info in summary.items()]
+
     with open('updated-bundles.txt', 'w') as f:
-        json.dump(summary, f, separators=(",", ":"))
-    print(json.dumps(summary, separators=(",", ":")))
+        f.write("\n".join(summary_lines))
+
+    print("\n".join(summary_lines))
 
 
 if __name__ == '__main__':
