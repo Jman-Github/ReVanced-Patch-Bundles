@@ -166,17 +166,6 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/andronedev-patch-bundles/andronedev-dev-patches-bundle.json```
 </details>
 
-### 📦 JeffJankowski-Patches-Bundle [API v4]:
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jeffjankowski-patch-bundles/jeffjankowski-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jeffjankowski-patch-bundles/jeffjankowski-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jeffjankowski-patch-bundles/jeffjankowski-dev-patches-bundle.json```
-</details>
-
 ### 📦 ReX-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -427,8 +416,6 @@ https://github.com/ReVanced/revanced-manager/actions/runs/14974647803/artifacts/
 #### 🏷️ [BholeyKaBhakt-Patches-Bundle](https://github.com/BholeyKaBhakt/revanced-patches-xtra)
 
 #### 🏷️ [Andronedev-Patches-Bundle](https://github.com/andronedev/revanced-patches)
-
-#### 🏷️ [JeffJankowski-Patches-Bundle](https://github.com/JeffJankowski/revanced-custom-patches)
 
 #### 🏷️ [Korhelyleves-Patches-Bundle](https://github.com/korhelyleves/revanced-patches)
 
