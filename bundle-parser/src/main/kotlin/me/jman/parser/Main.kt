@@ -45,7 +45,7 @@ data class PatchBundleJson(
 fun main(args: Array<String>) {
     val bundleJson = Json.decodeFromString<PatchBundleJson>(
         fetchJsonText(
-            URI("https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/revanced-patch-bundles/revanced-latest-patches-bundle.json")
+            URI("")
         )
     )
     val output = File("patches.jar")
@@ -54,9 +54,12 @@ fun main(args: Array<String>) {
         URI(bundleJson.download_url).toURL(),
         output
     )
+
     println("Downloaded to: ${output.absolutePath}")
 
     val bundle = loadPatchesFromJar(setOf(output))
+
+    println("Converted")
 
     bundle.forEach {
         println("Patch ${it.name}, compatible with package ${it.compatiblePackages.toString()} and description ${it.description}")
