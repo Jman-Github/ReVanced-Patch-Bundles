@@ -1,8 +1,10 @@
 package me.jman.parser
 
+import app.revanced.library.serializeTo
 import app.revanced.patcher.patch.loadPatchesFromJar
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
+import java.io.ByteArrayOutputStream
 import java.io.File
 import java.io.InputStream
 import java.net.URI
@@ -45,23 +47,21 @@ data class PatchBundleJson(
 fun main(args: Array<String>) {
     val bundleJson = Json.decodeFromString<PatchBundleJson>(
         fetchJsonText(
-            URI("")
+            URI("https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/revanced-patch-bundles/revanced-latest-patches-bundle.json")
         )
     )
-    val output = File("patches.jar")
+    val patchesFile = File("patches.jar")
 
     downloadToFile(
         URI(bundleJson.download_url).toURL(),
-        output
+        patchesFile
     )
 
-    println("Downloaded to: ${output.absolutePath}")
+    println("Downloaded to: ${patchesFile.absolutePath}")
 
-    val bundle = loadPatchesFromJar(setOf(output))
+    val serializedJson = ByteArrayOutputStream().apply(
+        loadPatchesFromJar(setOf(patchesFile))::serializeTo
+    )
 
-    println("Converted")
-
-    bundle.forEach {
-        println("Patch ${it.name}, compatible with package ${it.compatiblePackages.toString()} and description ${it.description}")
-    }
+    println(serializedJson)
 }
