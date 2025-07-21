@@ -1,67 +1,91 @@
 package me.jman.parser
 
-import app.revanced.library.serializeTo
-import app.revanced.patcher.patch.loadPatchesFromJar
-import kotlinx.serialization.Serializable
+import kotlinx.serialization.SerializationException
+import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
-import java.io.ByteArrayOutputStream
+import kotlinx.serialization.json.jsonArray
 import java.io.File
-import java.io.InputStream
+import java.io.FileNotFoundException
 import java.net.URI
-import java.net.URL
-import java.net.http.HttpClient
-import java.net.http.HttpRequest
-import java.net.http.HttpResponse
 
-fun fetchJsonText(uri: URI): String {
-    val client = HttpClient.newHttpClient()
-    val request = HttpRequest.newBuilder()
-        .uri(uri)
-        .build()
+fun main() {
+    val fileSuffix = "patches-list.json"
 
-    val response = client.send(request, HttpResponse.BodyHandlers.ofString())
+    fun processBundle(bundleFolder: File) {
+        val bundleName = bundleFolder.name.substringBefore("-patch-bundles")
 
-    if (response.statusCode() == 200) {
-        return response.body()
-    } else {
-        error("Failed to fetch JSON: ${response.statusCode()}")
-    }
-}
+        bundleFolder.listFiles()?.forEachGroupLogged(
+            { "Processing file ${it.name}" }
+        ) processFile@{ bundleJsonFile ->
+            try {
+                if (bundleJsonFile.name.endsWith(fileSuffix)) return@processFile
 
-fun downloadToFile(url: URL, outputFile: File) =
-        url.openStream().use { input: InputStream ->
-            outputFile.outputStream().use { fileOut ->
-                input.copyTo(fileOut)
+                val releaseTag = bundleJsonFile.name
+                    .substringAfter("$bundleName-")
+                    .substringBefore("-")
+
+                val parsedJsonContent: BundleFile
+
+                try {
+                    Logger.info("Processing $releaseTag release...")
+                    parsedJsonContent = Json.decodeFromString<BundleFile>(
+                        bundleJsonFile.readText()
+                    ).also {
+                        if (it.version == "N/A") {
+                            Logger.warning("Version is invalid.")
+                            return@processFile
+                        }
+                    }
+                } catch (_: SerializationException) {
+                    Logger.warning("Bundle is not supported.")
+                    return
+                }
+
+                try {
+                    val outputPatchesFile = File(bundleFolder, "$bundleName-$releaseTag-$fileSuffix")
+
+                    var latestProcessedPatchesVersion: String? = null
+
+                    if (outputPatchesFile.exists()) {
+                        latestProcessedPatchesVersion = Json.decodeFromString<LocalPatchesFile>(
+                            outputPatchesFile.readText()
+                        ).version.also {
+                            if (it == parsedJsonContent.version) {
+                                Logger.info("Patches are up to date.")
+                                return@processFile
+                            }
+                        }
+                    }
+
+                    if (latestProcessedPatchesVersion != null)
+                        Logger.info("Version $latestProcessedPatchesVersion -> ${parsedJsonContent.version}")
+                    else
+                        Logger.info("No previous version found. Processing for the first time...")
+
+                    Logger.info("Downloading .rvp from ${parsedJsonContent.downloadUrl}...")
+                    generatePatchesFromUrl(
+                        URI(parsedJsonContent.downloadUrl)
+                    ).also {
+                        Logger.info("Writing to ${outputPatchesFile.name}...")
+                        outputPatchesFile.writeText(
+                            Json.encodeToString(
+                                LocalPatchesFile(parsedJsonContent.version, Json.parseToJsonElement(it).jsonArray)
+                            )
+                        )
+                    }
+
+                } catch (_: FileNotFoundException) {
+                    Logger.warning("The .rvp file was not found.")
+                    return@processFile
+                }
+            } catch (e: Exception) {
+                Logger.error("Something went wrong. ${e.message}, ${e.stackTrace}")
+                return@processFile
             }
         }
+    }
 
-@Serializable
-data class PatchBundleJson(
-    val created_at: String,
-    val description: String,
-    val download_url: String,
-    val signature_download_url: String,
-    val version: String
-)
-
-fun main(args: Array<String>) {
-    val bundleJson = Json.decodeFromString<PatchBundleJson>(
-        fetchJsonText(
-            URI("https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/revanced-patch-bundles/revanced-latest-patches-bundle.json")
-        )
-    )
-    val patchesFile = File("patches.jar")
-
-    downloadToFile(
-        URI(bundleJson.download_url).toURL(),
-        patchesFile
-    )
-
-    println("Downloaded to: ${patchesFile.absolutePath}")
-
-    val serializedJson = ByteArrayOutputStream().apply(
-        loadPatchesFromJar(setOf(patchesFile))::serializeTo
-    )
-
-    println(serializedJson)
+    File("patch-bundles").listFiles()?.forEachGroupLogged( {"Fetching bundle ${it.name}"} ) {
+        processBundle(it)
+    }
 }
