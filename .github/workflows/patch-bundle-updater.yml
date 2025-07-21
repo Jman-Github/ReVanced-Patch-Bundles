@@ -50,14 +50,6 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install requests httpx
           python generate_bundles.py
-          git add '*.json'
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m 'feat: `patch-bundles` update'
-            echo "has_changes=true" >> $GITHUB_ENV
-          else
-            echo "No changes to commit. Exiting..."
-            echo "has_changes=false" >> $GITHUB_ENV
-          fi
         working-directory: ${{ github.workspace }}
         continue-on-error: true
 
@@ -68,6 +60,17 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: ./bundle-parser/gradlew --project-dir bundle-parser run
+
+      - name: Commit new files
+        run: |
+          git add '*.json'
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m 'feat: `patch-bundles` update'
+            echo "has_changes=true" >> $GITHUB_ENV
+          else
+            echo "No changes to commit. Exiting..."
+            echo "has_changes=false" >> $GITHUB_ENV
+          fi
 
       - name: Find commit for changed files
         id: find_commit
