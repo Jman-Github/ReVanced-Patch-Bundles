@@ -65,6 +65,8 @@ jobs:
         run: chmod +x ./bundle-parser/gradlew
 
       - name: Generate patches list
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: ./bundle-parser/gradlew --project-dir bundle-parser run
 
       - name: Find commit for changed files
