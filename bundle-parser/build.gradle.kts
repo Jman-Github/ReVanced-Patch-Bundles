@@ -3,6 +3,7 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 plugins {
     alias(libs.plugins.kotlin)
     alias(libs.plugins.kotlin.serialization)
+    application
 }
 
 repositories {
@@ -34,4 +35,8 @@ kotlin {
 
 java {
     targetCompatibility = JavaVersion.VERSION_11
+}
+
+application {
+    mainClass.set("me.jman.parser.MainKt")
 }

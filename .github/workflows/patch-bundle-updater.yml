@@ -25,11 +25,20 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           python -m pip install requests httpx
         working-directory: ${{ github.workspace }}
+
+      - name: Cache Gradle
+        uses: burrunan/gradle-cache-action@v3
 
       - name: Run generate_bundles.py
         id: run_generate_bundles
@@ -51,6 +60,12 @@ jobs:
           fi
         working-directory: ${{ github.workspace }}
         continue-on-error: true
+
+      - name: Grant execute permission
+        run: chmod +x ./bundle-parser/gradlew
+
+      - name: Generate patches list
+        run: ./bundle-parser/gradlew --project-dir bundle-parser run
 
       - name: Find commit for changed files
         id: find_commit
