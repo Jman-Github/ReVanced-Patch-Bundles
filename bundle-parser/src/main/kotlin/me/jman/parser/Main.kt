@@ -85,7 +85,8 @@ fun main() {
         }
     }
 
-    File("..", "patch-bundles").listFiles()!!.forEachGroupLogged({ "Fetching bundle ${it.name}" }) {
+    File("..", "patch-bundles").listFiles()!!.forEach {
+        Logger.info("Fetching bundle ${it.name}")
         processBundle(it)
     }
 }
