@@ -8,7 +8,7 @@ import java.io.InputStream
 import java.net.URI
 import java.net.URL
 
-inline fun <T> Array<T>.forEachGroupLogged(groupName: (T) -> String, action: (T) -> Unit) {
+inline fun <T> List<T>.forEachGroupLogged(groupName: (T) -> String, action: (T) -> Unit) {
     for (item in this) {
         println("::group::${groupName(item)}")
         try {

@@ -18,76 +18,77 @@ fun main() {
     fun processBundle(bundleFolder: File) {
         val bundleName = bundleFolder.name.substringBefore("-patch-bundles")
 
-        bundleFolder.listFiles()?.forEachGroupLogged(
-            { "Processing file ${it.name}" }
-        ) processFile@{ bundleJsonFile ->
-            try {
-                if (bundleJsonFile.name.endsWith(fileSuffix)) return@processFile
-
-                val releaseTag = bundleJsonFile.name
-                    .substringAfter("$bundleName-")
-                    .substringBefore("-")
-
-                val parsedJsonContent: BundleFile
-
+        bundleFolder
+            .listFiles()
+            ?.filterNot { it.name.endsWith(fileSuffix) }
+            ?.forEachGroupLogged(
+                { "Processing file ${it.name}" }
+            ) processFile@{ bundleJsonFile ->
                 try {
-                    Logger.info("Processing $releaseTag release...")
-                    parsedJsonContent = Json.decodeFromString<BundleFile>(
-                        bundleJsonFile.readText()
-                    ).also {
-                        if (it.version == "N/A") {
-                            Logger.warning("Version is invalid.")
-                            return@processFile
-                        }
-                    }
-                } catch (_: SerializationException) {
-                    Logger.warning("Bundle is not supported.")
-                    return
-                }
+                    val releaseTag = bundleJsonFile.name
+                        .substringAfter("$bundleName-")
+                        .substringBefore("-")
 
-                try {
-                    val outputPatchesFile = File(bundleFolder, "$bundleName-$releaseTag-$fileSuffix")
+                    val parsedJsonContent: BundleFile
 
-                    var latestProcessedPatchesVersion: String? = null
-
-                    if (outputPatchesFile.exists()) {
-                        latestProcessedPatchesVersion = Json.decodeFromString<LocalPatchesFile>(
-                            outputPatchesFile.readText()
-                        ).version.also {
-                            if (it == parsedJsonContent.version) {
-                                Logger.info("Patches are up to date.")
+                    try {
+                        Logger.info("Processing $releaseTag release...")
+                        parsedJsonContent = Json.decodeFromString<BundleFile>(
+                            bundleJsonFile.readText()
+                        ).also {
+                            if (it.version == "N/A") {
+                                Logger.warning("Version is invalid.")
                                 return@processFile
                             }
                         }
+                    } catch (_: SerializationException) {
+                        Logger.warning("Bundle is not supported.")
+                        return
                     }
 
-                    if (latestProcessedPatchesVersion != null)
-                        Logger.info("Version $latestProcessedPatchesVersion -> ${parsedJsonContent.version}")
-                    else
-                        Logger.info("No previous version found. Processing for the first time...")
+                    try {
+                        val outputPatchesFile = File(bundleFolder, "$bundleName-$releaseTag-$fileSuffix")
 
-                    Logger.info("Downloading .rvp from ${parsedJsonContent.downloadUrl}...")
-                    generatePatchesFromUrl(
-                        URI(parsedJsonContent.downloadUrl)
-                    ).also {
-                        Logger.info("Writing to ${outputPatchesFile.name}...")
+                        var latestProcessedPatchesVersion: String? = null
 
-                        outputPatchesFile.writeText(
-                            prettyJson.encodeToString(
-                                LocalPatchesFile(parsedJsonContent.version, Json.parseToJsonElement(it).jsonArray)
+                        if (outputPatchesFile.exists()) {
+                            latestProcessedPatchesVersion = Json.decodeFromString<LocalPatchesFile>(
+                                outputPatchesFile.readText()
+                            ).version.also {
+                                if (it == parsedJsonContent.version) {
+                                    Logger.info("Patches are up to date.")
+                                    return@processFile
+                                }
+                            }
+                        }
+
+                        if (latestProcessedPatchesVersion != null)
+                            Logger.info("Version $latestProcessedPatchesVersion -> ${parsedJsonContent.version}")
+                        else
+                            Logger.info("No previous version found. Processing for the first time...")
+
+                        Logger.info("Downloading .rvp from ${parsedJsonContent.downloadUrl}...")
+                        generatePatchesFromUrl(
+                            URI(parsedJsonContent.downloadUrl)
+                        ).also {
+                            Logger.info("Writing to ${outputPatchesFile.name}...")
+
+                            outputPatchesFile.writeText(
+                                prettyJson.encodeToString(
+                                    LocalPatchesFile(parsedJsonContent.version, Json.parseToJsonElement(it).jsonArray)
+                                )
                             )
-                        )
-                    }
+                        }
 
-                } catch (_: FileNotFoundException) {
-                    Logger.warning("The .rvp file was not found.")
+                    } catch (_: FileNotFoundException) {
+                        Logger.warning("The .rvp file was not found.")
+                        return@processFile
+                    }
+                } catch (e: Exception) {
+                    Logger.error("Something went wrong. ${e.message}, ${e.stackTrace}")
                     return@processFile
                 }
-            } catch (e: Exception) {
-                Logger.error("Something went wrong. ${e.message}, ${e.stackTrace}")
-                return@processFile
             }
-        }
     }
 
     File("..", "patch-bundles").listFiles()!!.forEach {
