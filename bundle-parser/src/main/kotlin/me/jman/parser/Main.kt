@@ -11,6 +11,10 @@ import java.net.URI
 fun main() {
     val fileSuffix = "patches-list.json"
 
+    val prettyJson = Json {
+        prettyPrint = true
+    }
+
     fun processBundle(bundleFolder: File) {
         val bundleName = bundleFolder.name.substringBefore("-patch-bundles")
 
@@ -67,8 +71,9 @@ fun main() {
                         URI(parsedJsonContent.downloadUrl)
                     ).also {
                         Logger.info("Writing to ${outputPatchesFile.name}...")
+
                         outputPatchesFile.writeText(
-                            Json.encodeToString(
+                            prettyJson.encodeToString(
                                 LocalPatchesFile(parsedJsonContent.version, Json.parseToJsonElement(it).jsonArray)
                             )
                         )

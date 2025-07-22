@@ -64,12 +64,12 @@ jobs:
       - name: Commit new files
         run: |
           git add '*.json'
-          if [ -n "$(git status --porcelain)" ]; then
+          if git diff --cached --quiet; then
+            echo "No .json changes to commit. Exiting..."
+            echo "has_changes=false" >> $GITHUB_ENV
+          else
             git commit -m 'feat: `patch-bundles` update'
             echo "has_changes=true" >> $GITHUB_ENV
-          else
-            echo "No changes to commit. Exiting..."
-            echo "has_changes=false" >> $GITHUB_ENV
           fi
 
       - name: Find commit for changed files
