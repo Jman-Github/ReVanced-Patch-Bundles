@@ -28,7 +28,7 @@ jobs:
             exit 1
           fi
 
-          ARTIFACT_URL=$(echo $WORKFLOW_RUNS | jq -r '.workflow_runs[0].artifacts_url')
+          ARTIFACT_URL=$(echo $WORKFLOW_RUNS | jq -r '.workflow_runs[0].artifacts_url // empty')
           if [ -z "$ARTIFACT_URL" ]; then
             echo "Failed to fetch artifact URL."
             exit 1
@@ -41,7 +41,7 @@ jobs:
           fi
 
           RUN_ID=$(echo $WORKFLOW_RUNS | jq -r '.workflow_runs[0].id')
-          ARTIFACT_ID=$(echo $ARTIFACTS | jq -r '.artifacts[] | select(.name == "revanced-manager") | .id')
+          ARTIFACT_ID=$(echo $ARTIFACTS | jq -r '.artifacts[]? | select(.name == "revanced-manager") | .id' | head -n 1)
           if [ -z "$ARTIFACT_ID" ]; then
             echo "Failed to fetch artifact ID."
             exit 1
