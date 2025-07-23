@@ -1,0 +1,18 @@
+[versions]
+kotlin = "2.1.10"
+revanced-patcher = "21.0.0"
+revanced-library = "3.1.0"
+serialization = "1.6.3"
+# Tracking https://github.com/google/smali/issues/64.
+#noinspection GradleDependency
+smali = "3.0.5"
+
+[libraries]
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
+revanced-patcher = { group = "app.revanced", name = "revanced-patcher", version.ref = "revanced-patcher" }
+revanced-library = { module = "app.revanced:revanced-library-jvm", version.ref = "revanced-library" }
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }

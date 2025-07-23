@@ -491,3 +491,7 @@ __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be incl
 ## 🤝 Contributors
 ##### [indrastorms](https://github.com/indrastorms)
 Helped with the automation of this repository by using Github Actions.
+
+##### [brosssh](https://github.com/brosssh)
+Implemented a patch serializer for all `.rvp` (API v4) patch bundles in this
+[PR](https://github.com/Jman-Github/ReVanced-Patch-Bundles/pull/85).
