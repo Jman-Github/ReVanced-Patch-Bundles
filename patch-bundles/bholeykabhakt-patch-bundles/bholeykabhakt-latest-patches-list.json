@@ -1,0 +1,73 @@
+{
+    "version": "v1.6.0",
+    "patches": [
+        {
+            "name": "Disable Logging(analytics) Patch",
+            "description": null,
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "org.zwanoo.android.speedtest": null
+            },
+            "options": []
+        },
+        {
+            "name": "AdFree Account Patch",
+            "description": null,
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "org.zwanoo.android.speedtest": null
+            },
+            "options": []
+        },
+        {
+            "name": "Disable Firebase(Google) Analytics",
+            "description": null,
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": null,
+            "options": []
+        },
+        {
+            "name": "Disable Temper Detection",
+            "description": null,
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.ttxapps.autosync": null
+            },
+            "options": []
+        },
+        {
+            "name": "Purchase All Items",
+            "description": null,
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.ttxapps.autosync": null
+            },
+            "options": []
+        },
+        {
+            "name": "Disable Folder Pair Deletion",
+            "description": null,
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.ttxapps.autosync": null
+            },
+            "options": []
+        },
+        {
+            "name": "Bypass Blocks Limit",
+            "description": null,
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.llamalab.automate": null
+            },
+            "options": []
+        }
+    ]
+}

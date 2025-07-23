@@ -1,0 +1,15 @@
+{
+    "version": "v1.0.5",
+    "patches": [
+        {
+            "name": "Unlock subscription",
+            "description": "Unlocks the app.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.sbs.diet": null
+            },
+            "options": []
+        }
+    ]
+}

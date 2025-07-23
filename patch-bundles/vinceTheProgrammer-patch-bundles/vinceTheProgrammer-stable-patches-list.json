@@ -1,0 +1,20 @@
+{
+    "version": "v1.1.0",
+    "patches": [
+        {
+            "name": "Remove Node Limit v1.1.0",
+            "description": "Removes the node limit.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "org.fortheloss.sticknodes": [
+                    "4.2.3"
+                ],
+                "org.fortheloss.sticknodespro": [
+                    "4.2.3"
+                ]
+            },
+            "options": []
+        }
+    ]
+}

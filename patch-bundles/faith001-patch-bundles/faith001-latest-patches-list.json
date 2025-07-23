@@ -1,0 +1,13 @@
+{
+    "version": "mg-1.0.0",
+    "patches": [
+        {
+            "name": "Trust User Certs",
+            "description": "This patch enables an app to trust user-added CAs",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": null,
+            "options": []
+        }
+    ]
+}

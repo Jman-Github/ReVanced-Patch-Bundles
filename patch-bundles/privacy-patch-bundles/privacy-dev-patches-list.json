@@ -1,0 +1,334 @@
+{
+    "version": "v4.2.0-dev.4",
+    "patches": [
+        {
+            "name": "Disable mobile ads",
+            "description": "Disables banner, interstitial, and other ad formats.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": null,
+            "options": [
+                {
+                    "key": "disableAppLovinMax",
+                    "title": "AppLovin MAX",
+                    "description": "Disable App Open, Banner & MREC, Interstitial, Native, and Rewarded ad formats.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                },
+                {
+                    "key": "disableBigo",
+                    "title": "BIGO",
+                    "description": "Disable Banner, Native, Interstitial, Pop-up, Rewarded, and Splash ad formats.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                },
+                {
+                    "key": "disableGoogleAdMob",
+                    "title": "Google AdMob",
+                    "description": "Disable Banner, Interstitial, Native, Rewarded, Rewarded Interstitial, and App Open ad formats.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                },
+                {
+                    "key": "disableMetaAudienceNetwork",
+                    "title": "Meta Audience Network",
+                    "description": "Disable Banner, Medium rectangle, Interstitial, Native, Native Banner, Rewarded Video, and Rewarded Interstitial ad formats.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                },
+                {
+                    "key": "disableMintegral",
+                    "title": "Mintegral",
+                    "description": "Disable Banner, Interstitial, Rewarded Video, Native, and Splash ad formats.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                },
+                {
+                    "key": "disableMyTarget",
+                    "title": "myTarget",
+                    "description": "Disable Banner, Interstitial, Rewarded, Native, Native Banner, In-Stream Video and Audio, and Carousel ad formats.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                },
+                {
+                    "key": "disablePangle",
+                    "title": "Pangle",
+                    "description": "Disable Banner, Interstitial, Native, Rewarded Video, and App Open ad formats.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                },
+                {
+                    "key": "disableTopOn",
+                    "title": "TopOn",
+                    "description": "Disable Banner, Interstitial, Native, Rewarded, and App Open ad formats.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                },
+                {
+                    "key": "disableUnity",
+                    "title": "Unity",
+                    "description": "Disable Banner, Interstitial, Native, and Rewarded Video ad formats.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                },
+                {
+                    "key": "disableVungle",
+                    "title": "Liftoff Monetize",
+                    "description": "Disable Banner, Interstitial, Native, Rewarded, and App Open ad formats.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                },
+                {
+                    "key": "disableYandex",
+                    "title": "Yandex Advertising Network",
+                    "description": "Disable Banner, Interstitial, Native, Rewarded, App Open, InStream, and Feed ad formats.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Block ads, trackers, and analytics",
+            "description": "Blocks ads, trackers, analytics, and unwanted content in apps and games using a hosts file.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": null,
+            "options": [
+                {
+                    "key": "hosts",
+                    "title": "Hosts file",
+                    "description": "The hosts file containing hosts or domains you want to block, one per line.",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": null,
+                    "values": null
+                },
+                {
+                    "key": "redirectionIp",
+                    "title": "Redirection IP",
+                    "description": "The IP address to redirect blocked domains to. This will be used with your hosts list to block content.",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": "0.0.0.0",
+                    "values": {
+                        "Default": "0.0.0.0",
+                        "localhost": "127.0.0.1"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Bypass signature verification checks",
+            "description": "Bypasses the signature verification checks when the app starts up. It is recommended to use the unmodified app to work properly.",
+            "use": false,
+            "dependencies": [
+                "ResourcePatch",
+                "RawResourcePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": null,
+            "options": [
+                {
+                    "key": "packageName",
+                    "title": "Package name",
+                    "description": "The package name of the app, if modified. This must match the package name defined when the 'Change package name' patch is selected or as defined in the AndroidManifest.xml.",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": "Default",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "key": "signature",
+                    "title": "Base64-encoded signature",
+                    "description": "The base64-encoded signature from the original, unmodified APK. This extracts the certificate/signature in the APK by default.",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": "Default",
+                    "values": {
+                        "Default": "Default"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Deactivate Firebase Analytics",
+            "description": "Deactivates Firebase Analytics and removes its associated broadcast receivers and services.",
+            "use": false,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": null,
+            "options": []
+        },
+        {
+            "name": "Deactivate Firebase Performance Monitoring",
+            "description": "Deactivates the collection of performance data on app start up time, network requests, and other related metrics.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": null,
+            "options": []
+        },
+        {
+            "name": "Spoof Advertising ID",
+            "description": "Spoofs the device's advertising ID with a string of zeros.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": null,
+            "options": []
+        },
+        {
+            "name": "Remove internet permission",
+            "description": "Removes unnecessary internet permission from apps that can still work without internet access.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": null,
+            "options": []
+        },
+        {
+            "name": "Change package name",
+            "description": "Appends \".revanced\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": null,
+            "options": [
+                {
+                    "key": "packageName",
+                    "title": "Package name",
+                    "description": "The name of the package to rename the app to.",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": "Default",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "key": "updatePermissions",
+                    "title": "Update permissions",
+                    "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": false,
+                    "values": null
+                },
+                {
+                    "key": "updateOtherPermissions",
+                    "title": "Update other permissions",
+                    "description": "Update other permissions declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": false,
+                    "values": null
+                },
+                {
+                    "key": "updateProviders",
+                    "title": "Update content providers",
+                    "description": "Update content provider URI authorities. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": false,
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Disable metrics collection in WebView",
+            "description": "Disables the collection of diagnostic data or usage statistics that are uploaded to Google.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": null,
+            "options": []
+        },
+        {
+            "name": "Disable Google Safe Browsing in WebView",
+            "description": "Disables the Google Safe Browsing checks in WebView. This doesn't apply to WebView within the SDK Runtime.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": null,
+            "options": []
+        },
+        {
+            "name": "Apply workaround",
+            "description": "Applies workaround for patcher to fix missing or unsupported resources. This only applies to versions 14.1.x.x and later.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": null
+            },
+            "options": []
+        },
+        {
+            "name": "Always-incognito mode for Gboard",
+            "description": "Always opens Gboard in incognito mode to disable typing history collection and personalization.",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": null
+            },
+            "options": []
+        },
+        {
+            "name": "Enable OCR feature for Gboard",
+            "description": "Enables OCR feature to extract text from images and insert it into text fields.",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": null
+            },
+            "options": []
+        },
+        {
+            "name": "Enable Undo feature for Gboard",
+            "description": "Enables undo feature to quickly undo or correct typing mistakes.",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": null
+            },
+            "options": []
+        },
+        {
+            "name": "Remove ads, annoyances, and telemetry",
+            "description": "Removes ads, annoyances, and telemetry from Home, Popular, Watch, Latest, All, Custom feeds, Search, and Subreddits, including comments.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
+            "options": []
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "version": "v1.7.0-dev.1",
+    "patches": [
+        {
+            "name": "Unlock Pro",
+            "description": null,
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.calistree.calistree": [
+                    "4.17.8"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Unlock Premium features",
+            "description": "WARNING: This only works via mount install (root required). Lists are still locked as they are server sided.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.groundspeak.geocaching.intro": null
+            },
+            "options": []
+        },
+        {
+            "name": "Unlock PRO",
+            "description": "Unlocks PRO Subscription.",
+            "use": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "compatiblePackages": {
+                "com.hevy": [
+                    "2.0.0"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Unlock the routing and the maps download",
+            "description": null,
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "de.komoot.android": [
+                    "2024.29.3"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Unlock Premium",
+            "description": "Unlock weather forecasting and multi-days planning (not possible to save a multi-day tour, however)",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "de.komoot.android": [
+                    "2024.29.3"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Bypass signature check",
+            "description": null,
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "cz.seznam.mapy": null
+            },
+            "options": []
+        },
+        {
+            "name": "Unlock premium features",
+            "description": null,
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "cz.seznam.mapy": null
+            },
+            "options": []
+        }
+    ]
+}
