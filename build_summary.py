@@ -18,6 +18,9 @@ def main():
         if not file_path.is_file():
             print(f'File not found: {line}')
             continue
+        if file_path.name.endswith("patches-list.json"):
+            print(f'Skipping since it\'s a patches file: {line}')
+            continue
         try:
             with open(file_path) as f:
                 data = json.load(f)
