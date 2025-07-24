@@ -21,7 +21,7 @@ def load_patch_info(bundle_dir: Path):
             comp = patch.get("compatiblePackages")
             if not comp:
                 apps = "Universal"
-                versions_str = "all versions"
+                versions_str = "All versions"
             else:
                 apps = ", ".join(comp.keys())
                 version_parts: List[str] = []
@@ -33,7 +33,7 @@ def load_patch_info(bundle_dir: Path):
                     else:
                         version_parts.append(str(versions))
                 versions_str = (
-                    ", ".join(version_parts) if version_parts else "all versions"
+                    ", ".join(version_parts) if version_parts else "All versions"
                 )
             patches[name] = {
                 "description": description,
@@ -44,16 +44,19 @@ def load_patch_info(bundle_dir: Path):
 
 
 def format_patch_lines(order, patches) -> List[str]:
+    """Return a list of lines representing a Markdown table for all patches."""
     lines: List[str] = []
+    # Table header with bolded column names
+    lines.append("| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |")
+    lines.append("|----------|---------------|---------------------|-------------------------|")
+    # One row per patch
     for name in order:
         info = patches[name]
-        lines.append(f"<ins>**Name:**</ins> {name}  ")
-        lines.append(f"<ins>**Description:**</ins> {info['description']}  ")
-        lines.append(f"<ins>**Compatible Apps:**</ins> {info['apps']}  ")
-        lines.append(f"<ins>**Compatible Versions:**</ins> {info['versions']}  ")
-        lines.append("")
-    if lines and lines[-1] != "":
-        lines.append("")
+        lines.append(
+            f"| {name} | {info['description']} | {info['apps']} | {info['versions']} |"
+        )
+    # Blank line after the table
+    lines.append("")
     return lines
 
 
@@ -77,13 +80,13 @@ def inject_patch_lines(
     manner and replaces the text between the summary line and the closing
     ``</details>`` tag.
     """
-
     header_regex = re.compile(
         rf"^### 🧩 {re.escape(bundle_name)} Bundle Patch List:", re.IGNORECASE
     )
 
     for i, line in enumerate(catalog_lines):
         if header_regex.match(line.strip()):
+            # Find the summary line
             j = i + 1
             while (
                 j < len(catalog_lines)
@@ -94,14 +97,15 @@ def inject_patch_lines(
             if j == len(catalog_lines):
                 return False
             start = j + 1
+            # Find the closing </details>
             k = start
             while k < len(catalog_lines) and catalog_lines[k].strip() != "</details>":
                 k += 1
             if k == len(catalog_lines):
                 return False
 
-            patch_block = ["", *patch_lines]
-            catalog_lines[start:k] = patch_block
+            # Inject the new table
+            catalog_lines[start:k] = ["", *patch_lines]
             return True
     return False
 
