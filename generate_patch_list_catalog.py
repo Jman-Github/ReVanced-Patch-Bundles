@@ -135,17 +135,16 @@ def main() -> int:
         new_patch_names.update(order)
 
     old_patch_names = read_catalog_patch_names(catalog_path)
-    if new_patch_names.issubset(old_patch_names):
-        print("Catalog already contains all patches.")
-        return 1
 
     new_text = "\n".join(catalog_lines).rstrip() + "\n"
+
     if new_text == catalog_text:
-        print("Catalog already contains all patches.")
-        return 1
+        if new_patch_names.issubset(old_patch_names):
+            print("Catalog already contains all patches.")
+            return 1
 
     catalog_path.write_text(new_text, encoding="utf-8")
-    print("Catalog updated with new patches.")
+    print("Catalog updated.")
     return 0
 
 
