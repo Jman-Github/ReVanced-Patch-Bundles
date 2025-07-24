@@ -1,4 +1,4 @@
-name: Generate Patch List Catalog
+name: Generate patch list catalog
 
 on:
   workflow_dispatch:
@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          persist-credentials: false
+          persist-credentials: true   # ← enable GITHUB_TOKEN in .git/config
           ref: bundles
 
       - name: Set up Python
@@ -42,4 +42,3 @@ jobs:
           git add patch-bundles/PATCH-LIST-CATALOG.md
           git commit -m "docs: update patch list catalog" patch-bundles/PATCH-LIST-CATALOG.md
           git push origin bundles
-
