@@ -35,18 +35,11 @@ jobs:
       - name: Lint
         run: black --check generate_patch_list_catalog.py
 
-      - name: Detect catalog changes
-        run: |
-          git add patch-bundles/PATCH-LIST-CATALOG.md
-          if git diff --cached --quiet; then
-            echo "No changes to catalog. Failing." >&2
-            exit 1
-          fi
-
       - name: Commit and push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
+          git add patch-bundles/PATCH-LIST-CATALOG.md
           git commit -m "docs: update patch list catalog" patch-bundles/PATCH-LIST-CATALOG.md
           git push origin bundles
 

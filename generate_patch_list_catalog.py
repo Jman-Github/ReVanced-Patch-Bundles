@@ -62,9 +62,21 @@ def format_bundle_section(bundle_name: str, order, patches):
     return "\n".join(lines)
 
 
-def main():
+def read_catalog_patch_names(catalog_path: Path) -> set[str]:
+    """Return patch names currently present in the catalog file."""
+    names: set[str] = set()
+    if not catalog_path.exists():
+        return names
+    for line in catalog_path.read_text(encoding="utf-8").splitlines():
+        if line.startswith("Name: "):
+            names.add(line[len("Name: ") :].strip())
+    return names
+
+
+def main() -> int:
     bundle_root = Path("patch-bundles")
     lines = [HEADER.strip(), ""]
+    new_patch_names: set[str] = set()
     for bundle_dir in sorted(bundle_root.glob("*-patch-bundles")):
         if not bundle_dir.is_dir():
             continue
@@ -76,9 +88,16 @@ def main():
         bundle_name = bundle_dir.name.replace("-patch-bundles", "")
         lines.append(format_bundle_section(bundle_name, order, patches))
         lines.append("\n---")
+        new_patch_names.update(order)
     catalog_path = bundle_root / "PATCH-LIST-CATALOG.md"
+    old_patch_names = read_catalog_patch_names(catalog_path)
+    if new_patch_names.issubset(old_patch_names):
+        print("Catalog already contains all patches.")
+        return 1
     catalog_path.write_text("\n".join(lines).strip() + "\n", encoding="utf-8")
+    print("Catalog updated with new patches.")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
