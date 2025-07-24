@@ -2,6 +2,10 @@ name: Generate Patch List Catalog
 
 on:
   workflow_dispatch:
+    inputs:
+      run_reason:
+        description: 'Optional reason for manual run'
+        required: false
 
 jobs:
   generate:
