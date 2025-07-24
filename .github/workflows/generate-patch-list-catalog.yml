@@ -11,6 +11,7 @@ jobs:
   generate:
     if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -32,10 +33,22 @@ jobs:
       - name: Generate catalog
         run: python generate_patch_list_catalog.py
 
+      - name: Auto‑format with Black
+        run: |
+          black generate_patch_list_catalog.py
+
+      - name: Commit formatted code
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add generate_patch_list_catalog.py
+          git commit -m "chore: Black‑format generate_patch_list_catalog.py" || echo "No changes to commit"
+          git push origin bundles || echo "Nothing to push"
+
       - name: Lint
         run: black --check generate_patch_list_catalog.py
 
-      - name: Commit and push
+      - name: Commit and push catalog
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
