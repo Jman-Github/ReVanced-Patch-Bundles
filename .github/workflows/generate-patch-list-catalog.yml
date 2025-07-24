@@ -1,0 +1,31 @@
+name: Generate Patch List Catalog
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install black
+
+      - name: Generate catalog
+        run: python generate_patch_list_catalog.py
+
+      - name: Lint
+        run: black --check generate_patch_list_catalog.py
+
