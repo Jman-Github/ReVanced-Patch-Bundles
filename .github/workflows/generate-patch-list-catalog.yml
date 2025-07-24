@@ -2,9 +2,14 @@ name: Generate Patch List Catalog
 
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Patch bundle updater"]
+    types:
+      - completed
 
 jobs:
   generate:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -12,6 +17,7 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
+          ref: bundles
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,4 +34,19 @@ jobs:
 
       - name: Lint
         run: black --check generate_patch_list_catalog.py
+
+      - name: Detect catalog changes
+        run: |
+          git add patch-bundles/PATCH-LIST-CATALOG.md
+          if git diff --cached --quiet; then
+            echo "No changes to catalog. Failing." >&2
+            exit 1
+          fi
+
+      - name: Commit and push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git commit -m "docs: update patch list catalog" patch-bundles/PATCH-LIST-CATALOG.md
+          git push origin bundles
 
