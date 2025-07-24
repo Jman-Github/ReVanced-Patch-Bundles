@@ -8,9 +8,11 @@ def check_readme(artifact_url):
         "Authorization": f"Bearer {os.environ['GIT_TOKEN']}",
         "Content-Type": "application/json"
     }
+    branch = os.environ.get("GITHUB_REF_NAME", "bundles")
     response = requests.get(
         f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/contents/README.md",
-        headers=headers
+        headers=headers,
+        params={"ref": branch}
     )
     if response.status_code == 200:
         readme_content = response.json()

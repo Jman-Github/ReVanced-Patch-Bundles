@@ -34,7 +34,7 @@ jobs:
             exit 1
           fi
 
-          ARTIFACTS=$(curl -sS "$ARTIFACT_URL")
+          ARTIFACTS=$(curl -sS -H "Authorization: Bearer ${{ secrets.GIT_TOKEN }}" "$ARTIFACT_URL")
           if [ -z "$ARTIFACTS" ]; then
             echo "Failed to fetch artifacts."
             exit 1
