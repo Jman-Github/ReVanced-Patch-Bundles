@@ -26,13 +26,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<small>
-  <small>
-    <span style="color: #ff7f7f;">
-    <em>API v3 patch bundle. Patch list is unavailable!</em>
-  </span>
-  </small>
-</small>
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
 
 </details>
 
@@ -41,13 +35,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<small>
-  <small>
-    <span style="color: #ff7f7f;">
-    <em>API v3 patch bundle. Patch list is unavailable!</em>
-  </span>
-  </small>
-</small>
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
 
 </details>
 
@@ -56,13 +44,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<small>
-  <small>
-    <span style="color: #ff7f7f;">
-    <em>API v3 patch bundle. Patch list is unavailable!</em>
-  </span>
-  </small>
-</small>
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
 
 </details>
 
@@ -113,13 +95,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<small>
-  <small>
-    <span style="color: #ff7f7f;">
-    <em>API v3 patch bundle. Patch list is unavailable!</em>
-  </span>
-  </small>
-</small>
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
 
 </details>
 
@@ -128,13 +104,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<small>
-  <small>
-    <span style="color: #ff7f7f;">
-    <em>API v3 patch bundle. Patch list is unavailable!</em>
-  </span>
-  </small>
-</small>
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
 
 </details>
 
@@ -143,13 +113,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<small>
-  <small>
-    <span style="color: #ff7f7f;">
-    <em>API v3 patch bundle. Patch list is unavailable!</em>
-  </span>
-  </small>
-</small>
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
 
 </details>
 
@@ -158,13 +122,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<small>
-  <small>
-    <span style="color: #ff7f7f;">
-    <em>API v3 patch bundle. Patch list is unavailable!</em>
-  </span>
-  </small>
-</small>
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
 
 </details>
 
@@ -173,13 +131,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<small>
-  <small>
-    <span style="color: #ff7f7f;">
-    <em>API v3 patch bundle. Patch list is unavailable!</em>
-  </span>
-  </small>
-</small>
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
 
 </details>
 
@@ -188,13 +140,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<small>
-  <small>
-    <span style="color: #ff7f7f;">
-    <em>API v3 patch bundle. Patch list is unavailable!</em>
-  </span>
-  </small>
-</small>
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
 
 </details>
 
@@ -203,13 +149,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<small>
-  <small>
-    <span style="color: #ff7f7f;">
-    <em>API v3 patch bundle. Patch list is unavailable!</em>
-  </span>
-  </small>
-</small>
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
 
 </details>
 
@@ -218,13 +158,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<small>
-  <small>
-    <span style="color: #ff7f7f;">
-    <em>API v3 patch bundle. Patch list is unavailable!</em>
-  </span>
-  </small>
-</small>
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
 
 </details>
 
@@ -233,13 +167,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<small>
-  <small>
-    <span style="color: #ff7f7f;">
-    <em>API v3 patch bundle. Patch list is unavailable!</em>
-  </span>
-  </small>
-</small>
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
 
 </details>
 
@@ -248,13 +176,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<small>
-  <small>
-    <span style="color: #ff7f7f;">
-    <em>API v3 patch bundle. Patch list is unavailable!</em>
-  </span>
-  </small>
-</small>
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
 
 </details>
 
@@ -263,13 +185,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<small>
-  <small>
-    <span style="color: #ff7f7f;">
-    <em>API v3 patch bundle. Patch list is unavailable!</em>
-  </span>
-  </small>
-</small>
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
 
 </details>
 
@@ -299,13 +215,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<small>
-  <small>
-    <span style="color: #ff7f7f;">
-    <em>API v3 patch bundle. Patch list is unavailable!</em>
-  </span>
-  </small>
-</small>
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
 
 </details>
 
