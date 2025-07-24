@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.1",
+    "version": "v1.8.0",
     "patches": [
         {
             "name": "Unlock Pro",
@@ -78,6 +78,18 @@
             "dependencies": [],
             "compatiblePackages": {
                 "cz.seznam.mapy": null
+            },
+            "options": []
+        },
+        {
+            "name": "Unlock Pro features",
+            "description": "Unlock Pro features (park4night +)",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.tramb.park4night": [
+                    "7.1.11"
+                ]
             },
             "options": []
         }
