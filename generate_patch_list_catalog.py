@@ -6,40 +6,48 @@ from typing import List
 
 def load_patch_info(bundle_dir: Path):
     bundle_name = bundle_dir.name.replace("-patch-bundles", "")
-    pattern = f"{bundle_name}-*-patches-list.json"
     patch_order: List[str] = []
     patches: dict[str, dict[str, str]] = {}
-    for list_file in bundle_dir.glob(pattern):
+
+    patch_files: list[tuple[str, Path]] = []
+    for release in ("stable", "dev"):
+        pattern = f"{bundle_name}-{release}-patches-list.json"
+        for path in bundle_dir.glob(pattern):
+            patch_files.append((release, path))
+
+    for release, list_file in patch_files:
         with list_file.open(encoding="utf-8") as f:
             data = json.load(f)
         for patch in data.get("patches", []):
             name = patch.get("name", "N/A")
             if name not in patches:
                 patch_order.append(name)
-            description = patch.get("description")
-            description = description if description is not None else "None"
-            comp = patch.get("compatiblePackages")
-            if not comp:
-                apps = "Universal"
-                versions_str = "All versions"
-            else:
-                apps = ", ".join(comp.keys())
-                version_parts: List[str] = []
-                for versions in comp.values():
-                    if not versions:
-                        continue
-                    if isinstance(versions, list):
-                        version_parts.extend(str(v) for v in versions)
-                    else:
-                        version_parts.append(str(versions))
-                versions_str = (
-                    ", ".join(version_parts) if version_parts else "All versions"
-                )
-            patches[name] = {
-                "description": description,
-                "apps": apps,
-                "versions": versions_str,
-            }
+                description = patch.get("description") or "None"
+                comp = patch.get("compatiblePackages")
+                if not comp:
+                    apps = "Universal"
+                    versions_str = "All versions"
+                else:
+                    apps = ", ".join(comp.keys())
+                    version_parts: List[str] = []
+                    for versions in comp.values():
+                        if not versions:
+                            continue
+                        if isinstance(versions, list):
+                            version_parts.extend(str(v) for v in versions)
+                        else:
+                            version_parts.append(str(versions))
+                    versions_str = (
+                        ", ".join(version_parts) if version_parts else "All versions"
+                    )
+                patches[name] = {
+                    "description": description,
+                    "apps": apps,
+                    "versions": versions_str,
+                    "stable": False,
+                    "dev": False,
+                }
+            patches[name][release] = True
     return patch_order, patches
 
 
@@ -48,16 +56,17 @@ def format_patch_lines(order, patches) -> List[str]:
     lines: List[str] = []
     # Table header with bolded column names
     lines.append(
-        "| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |"
+        "| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** | **Release Type** |"
     )
     lines.append(
-        "|----------|---------------|---------------------|-------------------------|"
+        "|----------|---------------|---------------------|-------------------------|---------------|"
     )
     # One row per patch
     for name in order:
         info = patches[name]
+        icon = "🟢" if info.get("stable") else "🟡"
         lines.append(
-            f"| {name} | {info['description']} | {info['apps']} | {info['versions']} |"
+            f"| {name} | {info['description']} | {info['apps']} | {info['versions']} | {icon} |"
         )
     # Blank line after the table
     lines.append("")
