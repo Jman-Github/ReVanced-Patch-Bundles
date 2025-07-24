@@ -47,8 +47,12 @@ def format_patch_lines(order, patches) -> List[str]:
     """Return a list of lines representing a Markdown table for all patches."""
     lines: List[str] = []
     # Table header with bolded column names
-    lines.append("| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |")
-    lines.append("|----------|---------------|---------------------|-------------------------|")
+    lines.append(
+        "| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |"
+    )
+    lines.append(
+        "|----------|---------------|---------------------|-------------------------|"
+    )
     # One row per patch
     for name in order:
         info = patches[name]
