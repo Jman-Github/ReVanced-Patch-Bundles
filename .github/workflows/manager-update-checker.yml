@@ -60,6 +60,7 @@ jobs:
           python check_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
         env:
           GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+          TARGET_BRANCH: bundles
 
       - name: Update README
         if: steps.check_readme.outputs.needs_update == 'true'
@@ -68,6 +69,7 @@ jobs:
         env:
           GITHUB_RUN_ID: ${{ github.run_id }}
           GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+          TARGET_BRANCH: bundles
 
       - name: Send Discord Notification
         if: steps.check_readme.outputs.needs_update == 'true'

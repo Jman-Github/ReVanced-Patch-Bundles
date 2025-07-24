@@ -8,7 +8,7 @@ def update_readme(artifact_url):
         "Authorization": f"Bearer {os.environ['GIT_TOKEN']}",
         "Content-Type": "application/json"
     }
-    branch = os.environ.get("GITHUB_REF_NAME", "bundles")
+    branch = os.environ.get("TARGET_BRANCH") or os.environ.get("GITHUB_REF_NAME", "bundles")
     response = requests.get(
         f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/contents/README.md",
         headers=headers,
