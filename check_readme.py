@@ -1,34 +1,60 @@
-import sys
-import os
-import requests
-import base64
+"""Check if the README contains the provided artifact URL.
 
-def check_readme(artifact_url):
-    headers = {
+This script writes ``needs_update=true`` to ``GITHUB_OUTPUT`` when the URL in the
+README does not match ``artifact_url``.
+"""
+
+from __future__ import annotations
+
+import base64
+import os
+import sys
+from typing import Tuple
+
+import requests
+
+
+def _get_headers() -> dict[str, str]:
+    return {
         "Authorization": f"Bearer {os.environ['GIT_TOKEN']}",
-        "Content-Type": "application/json"
+        "Accept": "application/vnd.github+json",
     }
+
+
+def _fetch_readme() -> Tuple[str, str]:
     branch = os.environ.get("TARGET_BRANCH") or os.environ.get("GITHUB_REF_NAME", "bundles")
     response = requests.get(
         f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/contents/README.md",
-        headers=headers,
-        params={"ref": branch}
+        headers=_get_headers(),
+        params={"ref": branch},
+        timeout=30,
     )
-    if response.status_code == 200:
-        readme_content = response.json()
-        readme_content_decoded = base64.b64decode(readme_content["content"]).decode("utf-8")
-        if artifact_url in readme_content_decoded:
-            needs_update = 'false'
-        else:
-            needs_update = 'true'
-    else:
-        needs_update = 'true'
-        print(f"Failed to fetch README. Status code: {response.status_code}")
+    response.raise_for_status()
+    data = response.json()
+    return base64.b64decode(data["content"]).decode("utf-8"), data["sha"]
 
-    # Write the output to GITHUB_OUTPUT
-    with open(os.environ['GITHUB_OUTPUT'], 'a') as output_file:
+
+def _extract_current_url(readme: str) -> str:
+    lines = readme.splitlines()
+    try:
+        idx = lines.index("#### 📩 Latest Download:") + 1
+        return lines[idx] if idx < len(lines) else ""
+    except ValueError:
+        return ""
+
+
+def check_readme(artifact_url: str) -> None:
+    try:
+        readme, _ = _fetch_readme()
+        current_url = _extract_current_url(readme)
+        needs_update = "true" if current_url != artifact_url else "false"
+    except Exception as exc:  # noqa: BLE001
+        print(f"Failed to check README: {exc}")
+        needs_update = "true"
+
+    with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output_file:
         output_file.write(f"needs_update={needs_update}\n")
 
+
 if __name__ == "__main__":
-    artifact_url = sys.argv[1]
-    check_readme(artifact_url)
+    check_readme(sys.argv[1])

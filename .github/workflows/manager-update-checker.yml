@@ -28,7 +28,7 @@ jobs:
             exit 1
           fi
 
-          ARTIFACT_URL=$(echo $WORKFLOW_RUNS | jq -r '.workflow_runs[0].artifacts_url // empty')
+          ARTIFACT_URL=$(jq -r '.workflow_runs[0].artifacts_url // empty' <<<"$WORKFLOW_RUNS")
           if [ -z "$ARTIFACT_URL" ]; then
             echo "Failed to fetch artifact URL."
             exit 1
@@ -40,15 +40,15 @@ jobs:
             exit 1
           fi
 
-          RUN_ID=$(echo $WORKFLOW_RUNS | jq -r '.workflow_runs[0].id')
-          ARTIFACT_ID=$(echo $ARTIFACTS | jq -r '.artifacts[]? | select(.name == "revanced-manager") | .id' | head -n 1)
+          RUN_ID=$(jq -r '.workflow_runs[0].id' <<<"$WORKFLOW_RUNS")
+          ARTIFACT_ID=$(jq -r '.artifacts[]? | select(.name == "revanced-manager") | .id' <<<"$ARTIFACTS" | head -n 1)
           if [ -z "$ARTIFACT_ID" ]; then
             echo "Failed to fetch artifact ID."
             exit 1
           fi
 
           ARTIFACT_DOWNLOAD_URL="https://github.com/ReVanced/revanced-manager/actions/runs/${RUN_ID}/artifacts/${ARTIFACT_ID}"
-          echo "artifact_url=$ARTIFACT_DOWNLOAD_URL" >> $GITHUB_OUTPUT
+          echo "artifact_url=$ARTIFACT_DOWNLOAD_URL" >> "$GITHUB_OUTPUT"
           echo "ARTIFACT_DOWNLOAD_URL: $ARTIFACT_DOWNLOAD_URL"
         env:
           GITHUB_RUN_ID: ${{ github.run_id }}
