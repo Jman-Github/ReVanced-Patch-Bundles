@@ -8,9 +8,11 @@ def update_readme(artifact_url):
         "Authorization": f"Bearer {os.environ['GIT_TOKEN']}",
         "Content-Type": "application/json"
     }
+    branch = os.environ.get("GITHUB_REF_NAME", "bundles")
     response = requests.get(
         f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/contents/README.md",
-        headers=headers
+        headers=headers,
+        params={"ref": branch}
     )
     if response.status_code == 200:
         readme_content = response.json()
@@ -35,6 +37,7 @@ def update_readme(artifact_url):
             "message": "feat: Update manager download link to latest",
             "content": base64.b64encode(new_content.encode()).decode("utf-8"),
             "sha": readme_content["sha"],
+            "branch": branch,
             "committer": {
                 "name": "github-actions[bot]",
                 "email": "41898282+github-actions[bot]@users.noreply.github.com"
