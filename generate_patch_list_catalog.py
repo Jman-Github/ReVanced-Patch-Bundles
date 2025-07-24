@@ -47,10 +47,10 @@ def format_patch_lines(order, patches) -> List[str]:
     lines: List[str] = []
     for name in order:
         info = patches[name]
-        lines.append(f"**Name:** {name}")
-        lines.append(f"**Description:** {info['description']}")
-        lines.append(f"**Compatible Apps:** {info['apps']}")
-        lines.append(f"**Compatible Versions:** {info['versions']}")
+        lines.append(f"**Name:** {name}  ")
+        lines.append(f"**Description:** {info['description']}  ")
+        lines.append(f"**Compatible Apps:** {info['apps']}  ")
+        lines.append(f"**Compatible Versions:** {info['versions']}  ")
         lines.append("")
     if lines and lines[-1] != "":
         lines.append("")
