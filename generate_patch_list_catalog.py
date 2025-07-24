@@ -1,4 +1,5 @@
 import json
+import re
 from pathlib import Path
 from typing import List
 
@@ -70,10 +71,19 @@ def read_catalog_patch_names(catalog_path: Path) -> set[str]:
 def inject_patch_lines(
     catalog_lines: List[str], bundle_name: str, patch_lines: List[str]
 ) -> bool:
-    header = f"### 🧩 {bundle_name.title()} Bundle Patch List:"
-    i = 0
-    while i < len(catalog_lines):
-        if catalog_lines[i].strip() == header:
+    """Inject patch lines for a bundle into the catalog.
+
+    This searches for a heading matching the bundle name in a case-insensitive
+    manner and replaces the text between the summary line and the closing
+    ``</details>`` tag.
+    """
+
+    header_regex = re.compile(
+        rf"^### 🧩 {re.escape(bundle_name)} Bundle Patch List:", re.IGNORECASE
+    )
+
+    for i, line in enumerate(catalog_lines):
+        if header_regex.match(line.strip()):
             j = i + 1
             while (
                 j < len(catalog_lines)
@@ -89,26 +99,16 @@ def inject_patch_lines(
                 k += 1
             if k == len(catalog_lines):
                 return False
-            catalog_lines[start:k] = patch_lines
+
+            patch_block = ["", *patch_lines]
+            catalog_lines[start:k] = patch_block
             return True
-        i += 1
     return False
 
 
-def append_bundle_section(
-    catalog_lines: List[str], bundle_name: str, patch_lines: List[str]
-) -> None:
-    catalog_lines.extend(
-        [
-            f"### 🧩 {bundle_name.title()} Bundle Patch List:",
-            "<details open>",
-            "<summary><b>Click To Collapse Patch List</b></summary>",
-            *patch_lines,
-            "</details>",
-            "",
-            "---",
-        ]
-    )
+def append_bundle_section(*_: List[str]) -> None:
+    """Deprecated helper kept for backward compatibility."""
+    raise RuntimeError("Bundle section headings must already exist in the catalog")
 
 
 def main() -> int:
@@ -130,7 +130,8 @@ def main() -> int:
         bundle_name = bundle_dir.name.replace("-patch-bundles", "")
         patch_lines = format_patch_lines(order, patches)
         if not inject_patch_lines(catalog_lines, bundle_name, patch_lines):
-            append_bundle_section(catalog_lines, bundle_name, patch_lines)
+            print(f"Warning: section for '{bundle_name}' not found; skipping.")
+            continue
         new_patch_names.update(order)
 
     old_patch_names = read_catalog_patch_names(catalog_path)
