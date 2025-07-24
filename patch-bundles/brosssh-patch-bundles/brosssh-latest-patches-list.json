@@ -1,9 +1,9 @@
 {
-    "version": "v1.8.0",
+    "version": "v1.8.1-dev.1",
     "patches": [
         {
-            "name": "Unlock Pro",
-            "description": null,
+            "name": "Unlock Pro features",
+            "description": "Unlock Pro features. Sometimes the app forget about my patches and a popup screen asking to subscribe will be shown. In this screen, just swipe down to refresh and the app will have Pro features again.",
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
@@ -15,7 +15,7 @@
         },
         {
             "name": "Unlock Premium features",
-            "description": "WARNING: This only works via mount install (root required). Lists are still locked as they are server sided.",
+            "description": "WARNING: This only works via mount install (root required). Unlock Premium features. Lists are still locked as they are server sided.",
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
@@ -24,8 +24,8 @@
             "options": []
         },
         {
-            "name": "Unlock PRO",
-            "description": "Unlocks PRO Subscription.",
+            "name": "Unlock Pro features",
+            "description": "Unlocks Pro features. Most features in this app are server sided, so they can't be patched. This should unlock everything which is possible to patch.",
             "use": true,
             "dependencies": [
                 "RawResourcePatch"
@@ -38,20 +38,8 @@
             "options": []
         },
         {
-            "name": "Unlock the routing and the maps download",
-            "description": null,
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "de.komoot.android": [
-                    "2024.29.3"
-                ]
-            },
-            "options": []
-        },
-        {
-            "name": "Unlock Premium",
-            "description": "Unlock weather forecasting and multi-days planning (not possible to save a multi-day tour, however)",
+            "name": "Unlock Premium features",
+            "description": "Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.",
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
@@ -83,7 +71,7 @@
         },
         {
             "name": "Unlock Pro features",
-            "description": "Unlock Pro features (park4night +)",
+            "description": "Unlock Pro features (park4night +). You have be logged in with an account.",
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
