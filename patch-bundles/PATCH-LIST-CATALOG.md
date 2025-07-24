@@ -3811,6 +3811,11 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 **Compatible Apps:** cz.seznam.mapy  
 **Compatible Versions:** all versions  
 
+**Name:** Unlock Pro features  
+**Description:** Unlock Pro features (park4night +)  
+**Compatible Apps:** fr.tramb.park4night  
+**Compatible Versions:** 7.1.11  
+
 </details>
 
 ---
