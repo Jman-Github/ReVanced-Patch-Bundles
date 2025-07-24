@@ -1,11 +1,8 @@
-# 📋 Suggestions, Questions & Issues
-If you have any issues, suggestions, and/or questions please don't be afraid to create a [issue](https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues/new)! You can also communicate with me in [discussions](https://github.com/Jman-Github/ReVanced-Patch-Bundles/discussions). For contributors, see information about that [here](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/CONTRIBUTING.md).
-
-Check out [Awesome-ReVanced](https://github.com/Jman-Github/Awesome-ReVanced) if you want more ReVanced related projects and resources!
-
 # ❓ About 
 This repository automatically checks for patch and integration (or patches & extensions; depends on API version) updates from the repositories listed [below](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-patch-bundles-urls) every 30 minutes. These repositories are alternative ReVanced patch and integration/extension sources for users who want extended patch sources with ReVanced. The links listed below are used for the patch bundle sources in the [ReVanced Manager Compose](https://github.com/ReVanced/revanced-manager/tree/compose-dev). Use these links to set your patch bundle(s) inside the ReVanced Manager Compose. Choose between dev, stable and latest (this includes prereleases & regular releases) releases for the patch bundle sources. The links will import the patch bundle(s) (integrations & patches or patches & extensions; depends on API version) into the manager which should update the bundle(s) every time these links have a change in their code. The patch bundles with the "[API v4]" label signify whether the patch bundle uses the old API (API v3) or the new one (being API v4). Currently, the [ReVanced Manager Compose](https://github.com/ReVanced/revanced-manager/tree/compose-dev) only supports API v4 bundles, so any bundle without the "API v4" label will not be usable in the manager. 
 *If you have any other working ReVanced alternative patch and integration/extension repositories that aren't already included in this repository, please create an [issue](https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues) to let me know.*
+
+If you would like to see what patches the patch bundles tracked in this repository have to offer, check out the [Patch List Catalog](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md). It lists all the patches contained within all the API v4 patch bundles that are tracked here.
 > [!IMPORTANT]
 > **Latest:** The latest patch & integrations with prereleases included. Meaning if the latest release is a prerelease, it will update to that. If it's a regular release, it will also update to that.
 >
@@ -417,6 +414,8 @@ This repository automatically checks for patch and integration (or patches & ext
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
 #### 📩 Latest Download:
 https://github.com/ReVanced/revanced-manager/actions/runs/14974647803/artifacts/3124968262
+
+# 🩹 Patch Repositories In Use
 #### 🏷️ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-patches)
 
 #### 🏷️ [Inotia00-Patches-Bundle](https://github.com/inotia00/revanced-Patches)
@@ -513,6 +512,11 @@ __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be incl
 #### ⛓ [ayushTNM-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 #### ⛓ [Arsclib-Patches-Bundle](https://github.com/inotia00/revanced-integrations)
+
+# 📋 Suggestions, Questions & Issues
+If you have any issues, suggestions, and/or questions please don't be afraid to create a [issue](https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues/new)! You can also communicate with me in [discussions](https://github.com/Jman-Github/ReVanced-Patch-Bundles/discussions). For contributors, see information about that [here](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/CONTRIBUTING.md).
+
+Check out [Awesome-ReVanced](https://github.com/Jman-Github/Awesome-ReVanced) if you want more ReVanced related projects and resources!
 
 ## 🤝 Contributors
 ##### [indrastorms](https://github.com/indrastorms)
