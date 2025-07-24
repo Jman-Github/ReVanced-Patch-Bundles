@@ -1,10 +1,3 @@
-# 🚨 Status
-#### 📃 Schedule Status‎
-[![Patch bundle updater](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml/badge.svg?event=schedule)](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml)
-
-#### 🎬 Action Status
-[![Patch bundle updater](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml/badge.svg)](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml)
-
 # 📋 Suggestions, Questions & Issues
 If you have any issues, suggestions, and/or questions please don't be afraid to create a [issue](https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues/new)! You can also communicate with me in [discussions](https://github.com/Jman-Github/ReVanced-Patch-Bundles/discussions). For contributors, see information about that [here](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/CONTRIBUTING.md).
 
@@ -21,7 +14,7 @@ This repository automatically checks for patch and integration (or patches & ext
 >**Dev:** The latest dev patch & integrations with regular releases excluded. Meaning it will just update to the latest prerelease and skip over the regular releases.
 
 > [!WARNING]  
-> Some of the dev-patch-bundle sources will not be working. This is due to some of the repositories having never created a prerelease. Those sources will have "N/A" in the respective patch-bundle.json files.
+> Some of the dev-patch-bundle/stable-patch-bundles sources will not be working. This is due to some of the repositories having never created a prerelease/release. Those sources will have "N/A" in the respective patch-bundle.json files.
 # 📋 Patch Bundles URLs 
 ### 📦 ReVanced-Patches-Bundle [API v4]:
 <details>
@@ -34,6 +27,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/revanced-patch-bundles/revanced-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Inotia00-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -45,6 +39,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/inotia00-patch-bundles/inotia00-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Anddea-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -56,6 +51,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anddea-patch-bundles/anddea-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Piko-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -67,6 +63,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/piko-patch-bundles/piko-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 BiliRoamingM-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -78,6 +75,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/biliroamingm-patch-bundles/biliroamingm-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Slenderman00-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -89,6 +87,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/slenderman00-patch-bundles/slenderman00-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Privacy-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -100,6 +99,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/privacy-patch-bundles/privacy-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Experimental-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -111,6 +111,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/experimental-patch-bundles/experimental-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Dropped-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -122,6 +123,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dropped-patch-bundles/dropped-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Wchill-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -133,6 +135,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/wchill-patch-bundles/wchill-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Kitadai31-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -144,6 +147,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kitadai31-patch-bundles/kitadai31-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 BholeyKaBhakt-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -155,6 +159,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bholeykabhakt-patch-bundles/bholeykabhakt-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Andronedev-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -166,6 +171,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/andronedev-patch-bundles/andronedev-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 ReX-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -177,6 +183,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rex-patch-bundles/rex-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Rufusin-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -188,6 +195,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rufusin-patch-bundles/rufusin-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Twitter-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -199,6 +207,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/twitter-patch-bundles/twitter-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Wyse--Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -210,6 +219,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/wyse--patch-bundles/wyse--dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 1fexd-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -221,6 +231,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/1fexd-patch-bundles/1fexd-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Whyvl-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -232,6 +243,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/whyvl-patch-bundles/whyvl-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Xrogers-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -243,6 +255,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xrogers-patch-bundles/xrogers-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 D4n3436-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -254,6 +267,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/d4n3436-patch-bundles/d4n3436-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 AyushTNM-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -265,6 +279,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ayushtnm-patch-bundles/ayushtnm-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Arsclib-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -276,6 +291,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/arsclib-patch-bundles/arsclib-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 LennyRBLX-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -287,6 +303,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lennyRBLX-patch-bundles/lennyRBLX-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Korhelyleves-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -298,6 +315,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/korhelyleves-patch-bundles/korhelyleves-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Taknok-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -309,6 +327,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/taknok-patch-bundles/taknok-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Sti-233-Patches-Bundle:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -320,6 +339,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sti-233-patch-bundles/sti-233-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Faith001-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -331,6 +351,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/faith001-patch-bundles/faith001-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Forsyth47-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -342,6 +363,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/forsyth47-patch-bundles/forsyth47-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Brosssh-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -353,6 +375,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/brosssh-patch-bundles/brossshh47-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Hoo-dles-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -364,6 +387,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hoo-dles-patch-bundles/hoo-dles-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 Scrazzz-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -375,6 +399,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/scrazzz-patch-bundles/scrazzz-dev-patches-bundle.json```
 </details>
 
+---
 ### 📦 VinceTheProgrammer-Patches-Bundle [API v4]:
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -386,6 +411,7 @@ This repository automatically checks for patch and integration (or patches & ext
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vinceTheProgrammer-patch-bundles/vinceTheProgrammer-dev-patches-bundle.json```
 </details>
 
+---
 # 📱 ReVanced Manager Compose:
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
