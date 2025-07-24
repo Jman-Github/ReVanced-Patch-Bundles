@@ -5,905 +5,188 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<ins>**Name:**</ins> Export all activities  
-<ins>**Description:**</ins> Makes all app activities exportable.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide ADB status  
-<ins>**Description:**</ins> Hides enabled development settings and/or ADB.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide app icon  
-<ins>**Description:**</ins> Hides the app icon from the Android launcher.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Spoof build info  
-<ins>**Description:**</ins> Spoofs the information about the current build.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide mock location  
-<ins>**Description:**</ins> Prevents the app from knowing the device location is being mocked by a third party app.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Spoof SIM country  
-<ins>**Description:**</ins> Spoofs country information returned by the SIM card provider.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Spoof Wi-Fi connection  
-<ins>**Description:**</ins> Spoofs an existing Wi-Fi connection.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Enable Android debugging  
-<ins>**Description:**</ins> Enables Android debugging capabilities. This can slow down the app.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Export internal data documents provider  
-<ins>**Description:**</ins> Exports a documents provider that grants access to the internal data directory of this app to file managers and other apps that support the Storage Access Framework.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hex  
-<ins>**Description:**</ins> Replaces a hexadecimal patterns of bytes of files in an APK.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Predictive back gesture  
-<ins>**Description:**</ins> Enables the predictive back gesture introduced on Android 13.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Override certificate pinning  
-<ins>**Description:**</ins> Overrides certificate pinning, allowing to inspect traffic via a proxy.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Change package name  
-<ins>**Description:**</ins> Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove screen capture restriction  
-<ins>**Description:**</ins> Removes the restriction of capturing audio from apps that normally wouldn't allow it.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove screenshot restriction  
-<ins>**Description:**</ins> Removes the restriction of taking screenshots in apps that normally wouldn't allow it.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove share targets  
-<ins>**Description:**</ins> Removes share targets like directly sharing to a frequent contact.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Enable ROM signature spoofing  
-<ins>**Description:**</ins> Spoofs the signature via the manifest meta-data "fake-signature". This patch only works with ROMs that support signature spoofing.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Set target SDK version 34  
-<ins>**Description:**</ins> Changes the target SDK to version 34 (Android 14). For devices running Android 15+, this will disable edge-to-edge display.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Change version code  
-<ins>**Description:**</ins> Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Always allow deep-linking  
-<ins>**Description:**</ins> Open Amazon links, even if the app is not set to handle Amazon links.  
-<ins>**Compatible Apps:**</ins> com.amazon.mShop.android.shopping  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide ads  
-<ins>**Description:**</ins> Adds options to remove general ads.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Pro unlock  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.backdrops.wallpapers  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove play limits  
-<ins>**Description:**</ins> Disables purchase nagging and playback limits of not purchased tracks.  
-<ins>**Compatible Apps:**</ins> com.bandcamp.android  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Bypass root checks  
-<ins>**Description:**</ins> Removes the restriction to use the app with root permissions or on a custom ROM.  
-<ins>**Compatible Apps:**</ins> it.ipzs.cieid  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable ads  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> io.syncapps.lemmy_sync  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Enable debug menu  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.duolingo  
-<ins>**Compatible Versions:**</ins> 5.158.4  
-
-<ins>**Name:**</ins> Hide 'Sponsored Stories'  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.facebook.katana  
-<ins>**Compatible Versions:**</ins> 490.0.0.63.82  
-
-<ins>**Name:**</ins> Hide story ads  
-<ins>**Description:**</ins> Hides the ads in the Facebook app stories.  
-<ins>**Compatible Apps:**</ins> com.facebook.katana  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove bootloader detection  
-<ins>**Description:**</ins> Removes the check for an unlocked bootloader.  
-<ins>**Compatible Apps:**</ins> at.gv.bmf.bmf2go  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove root detection  
-<ins>**Description:**</ins> Removes the check for root permissions and unlocked bootloader.  
-<ins>**Compatible Apps:**</ins> at.gv.bka.serviceportal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Enable CustomTabs  
-<ins>**Description:**</ins> Enables CustomTabs to open articles in your default browser.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.magazines  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> GmsCore support  
-<ins>**Description:**</ins> Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Enable DCIM folders backup control  
-<ins>**Description:**</ins> Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.photos  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Spoof features  
-<ins>**Description:**</ins> Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.photos  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove device restrictions  
-<ins>**Description:**</ins> Removes restrictions from using the app on any device. Requires mounting patched app over original.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.recorder  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock pro  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> tv.trakt.trakt  
-<ins>**Compatible Versions:**</ins> 1.1.1  
-
-<ins>**Name:**</ins> Spoof signature  
-<ins>**Description:**</ins> Spoofs the signature of the app.  
-<ins>**Compatible Apps:**</ins> at.gv.oe.app  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable signature check  
-<ins>**Description:**</ins> Disables the signature check that causes the app to crash on startup.  
-<ins>**Compatible Apps:**</ins> com.instagram.android  
-<ins>**Compatible Versions:**</ins> 378.0.0.52.68  
-
-<ins>**Name:**</ins> Remove ads  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> net.binarymode.android.irplus  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable mandatory login  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.adobe.lrmobile  
-<ins>**Compatible Versions:**</ins> 9.3.0  
-
-<ins>**Name:**</ins> Unlock Premium  
-<ins>**Description:**</ins> Unlocks Spotify Premium features. Server-sided features like downloading songs are still locked.  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide inbox ads  
-<ins>**Description:**</ins> Hides ads in inbox.  
-<ins>**Compatible Apps:**</ins> com.facebook.orca  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide inbox subtabs  
-<ins>**Description:**</ins> Hides Home and Channels tabs between active now tray and chats.  
-<ins>**Compatible Apps:**</ins> com.facebook.orca  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable typing indicator  
-<ins>**Description:**</ins> Disables the indicator while typing a message.  
-<ins>**Compatible Apps:**</ins> com.facebook.orca  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide Facebook button  
-<ins>**Description:**</ins> Hides the Facebook button in the top toolbar.  
-<ins>**Compatible Apps:**</ins> com.facebook.orca  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove Meta AI  
-<ins>**Description:**</ins> Removes UI elements related to Meta AI.  
-<ins>**Compatible Apps:**</ins> com.facebook.orca  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Force English locale  
-<ins>**Description:**</ins> Forces wearable devices to use the English locale.  
-<ins>**Compatible Apps:**</ins> com.xiaomi.wearable  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Fix login  
-<ins>**Description:**</ins> Fixes login for uncertified Mi Fitness app  
-<ins>**Compatible Apps:**</ins> com.xiaomi.wearable  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide music video ads  
-<ins>**Description:**</ins> Hides ads that appear while listening to or streaming music videos, podcasts, or songs.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 7.16.53, 8.05.51  
-
-<ins>**Name:**</ins> Enable exclusive audio playback  
-<ins>**Description:**</ins> Enables the option to play audio without video.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 7.16.53, 8.05.51  
-
-<ins>**Name:**</ins> Permanent repeat  
-<ins>**Description:**</ins> Permanently remember your repeating preference even if the playlist ends or another track is played.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 7.16.53, 8.05.51  
-
-<ins>**Name:**</ins> Hide category bar  
-<ins>**Description:**</ins> Hides the category bar at the top of the homepage.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 7.16.53, 8.05.51  
-
-<ins>**Name:**</ins> Hide 'Get Music Premium' label  
-<ins>**Description:**</ins> Hides the "Get Music Premium" label from the account menu and settings.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 7.16.53, 8.05.51  
-
-<ins>**Name:**</ins> Remove upgrade button  
-<ins>**Description:**</ins> Removes the upgrade tab from the pivot bar.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 7.16.53, 8.05.51  
-
-<ins>**Name:**</ins> Bypass certificate checks  
-<ins>**Description:**</ins> Bypasses certificate checks which prevent YouTube Music from working on Android Auto.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 7.16.53, 8.05.51  
-
-<ins>**Name:**</ins> Remove background playback restrictions  
-<ins>**Description:**</ins> Removes restrictions on background playback, including playing kids videos in the background.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Spoof client  
-<ins>**Description:**</ins> Spoofs the client to fix various functions of the app.  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove broadcasts restriction  
-<ins>**Description:**</ins> Enables starting/stopping NetGuard via broadcasts.  
-<ins>**Compatible Apps:**</ins> eu.faircode.netguard  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Spoof certificate  
-<ins>**Description:**</ins> Spoofs the X-Android-Cert header to allow push messages.  
-<ins>**Compatible Apps:**</ins> nl.sanomamedia.android.nu  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Fix crash  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> de.simon.openinghours  
-<ins>**Compatible Versions:**</ins> 1.0  
-
-<ins>**Name:**</ins> Disable audio ads  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.pandora.android  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Enable unlimited skips  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.pandora.android  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Spoof device ID  
-<ins>**Description:**</ins> Spoofs device ID to mitigate manual bans by developers.  
-<ins>**Compatible Apps:**</ins> com.microblink.photomath  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide update popup  
-<ins>**Description:**</ins> Prevents the update popup from showing up.  
-<ins>**Compatible Apps:**</ins> com.microblink.photomath  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock plus  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.microblink.photomath  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Spoof Android device ID  
-<ins>**Description:**</ins> Spoofs the Android device ID used by the app for account authentication.This can be used to copy the account to another device.  
-<ins>**Compatible Apps:**</ins> com.piccomaeurope.fr  
-<ins>**Compatible Versions:**</ins> 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2  
-
-<ins>**Name:**</ins> Disable tracking  
-<ins>**Description:**</ins> Disables tracking by replacing tracking URLs with example.com.  
-<ins>**Compatible Apps:**</ins> com.piccomaeurope.fr  
-<ins>**Compatible Versions:**</ins> 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2  
-
-<ins>**Name:**</ins> Skip ads  
-<ins>**Description:**</ins> Automatically skips video stream ads.  
-<ins>**Compatible Apps:**</ins> com.amazon.avod.thirdpartyclient  
-<ins>**Compatible Versions:**</ins> 3.0.412.2947  
-
-<ins>**Name:**</ins> Rename shared permissions  
-<ins>**Description:**</ins> Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.  
-<ins>**Compatible Apps:**</ins> com.amazon.avod.thirdpartyclient  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Playback speed  
-<ins>**Description:**</ins> Adds options to customize available playback speeds, set default a playback speed, and show a speed dialog button in the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Remove free accounts limit  
-<ins>**Description:**</ins> Removes the limit for maximum free accounts logged in.  
-<ins>**Compatible Apps:**</ins> ch.protonmail.android  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove 'Sent from' signature  
-<ins>**Description:**</ins> Removes the 'Sent from Proton Mail mobile' signature from emails.  
-<ins>**Compatible Apps:**</ins> ch.protonmail.android  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide purchase reminder  
-<ins>**Description:**</ins> Hides the popup that reminds you to purchase the app.  
-<ins>**Compatible Apps:**</ins> com.rarlab.rar  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Fix missing audio in video downloads  
-<ins>**Description:**</ins> Fixes audio missing in videos downloaded from v.redd.it.  
-<ins>**Compatible Apps:**</ins> com.rubenmayayo.reddit  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Fix /s/ links  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock subscription  
-<ins>**Description:**</ins> Unlocks the subscription feature but requires a custom client ID.  
-<ins>**Compatible Apps:**</ins> ml.docilealligator.infinityforreddit, ml.docilealligator.infinityforreddit.plus, ml.docilealligator.infinityforreddit.patreon  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable Sync for Lemmy bottom sheet  
-<ins>**Description:**</ins> Disables the bottom sheet at the startup that asks you to signup to "Sync for Lemmy".  
-<ins>**Compatible Apps:**</ins> com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev  
-<ins>**Compatible Versions:**</ins> v23.06.30-13:39  
-
-<ins>**Name:**</ins> Fix post thumbnails  
-<ins>**Description:**</ins> Fixes loading post thumbnails by correcting their URLs.  
-<ins>**Compatible Apps:**</ins> com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Use /user/ endpoint  
-<ins>**Description:**</ins> Replaces the deprecated endpoint for viewing user profiles /u with /user, that used to fix a bug.  
-<ins>**Compatible Apps:**</ins> com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Fix video downloads  
-<ins>**Description:**</ins> Fixes a bug in Sync's MPD parser resulting in only the audio-track being saved.  
-<ins>**Compatible Apps:**</ins> com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable screenshot popup  
-<ins>**Description:**</ins> Disables the popup that shows up when taking a screenshot.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock Premium icons  
-<ins>**Description:**</ins> Unlocks the Reddit Premium icons.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Sanitize sharing links  
-<ins>**Description:**</ins> Removes the tracking query parameters from links before they are shared.  
-<ins>**Compatible Apps:**</ins> com.twitter.android  
-<ins>**Compatible Versions:**</ins> 10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0  
-
-<ins>**Name:**</ins> Disable Pairip license check  
-<ins>**Description:**</ins> Disables Play Integrity API (Pairip) client-side license check.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove file size limit  
-<ins>**Description:**</ins> Allows opening files larger than 2 MB in the text editor.  
-<ins>**Compatible Apps:**</ins> pl.solidexplorer2  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove badge tab  
-<ins>**Description:**</ins> Removes the badge tab from the activity tab.  
-<ins>**Compatible Apps:**</ins> com.sony.songpal.mdr  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove notification badge  
-<ins>**Description:**</ins> Removes the red notification badge from the activity tab.  
-<ins>**Compatible Apps:**</ins> com.sony.songpal.mdr  
-<ins>**Compatible Versions:**</ins> 10.1.0  
-
-<ins>**Name:**</ins> Disable telemetry  
-<ins>**Description:**</ins> Disables SoundCloud's telemetry system.  
-<ins>**Compatible Apps:**</ins> com.soundcloud.android  
-<ins>**Compatible Versions:**</ins> 2025.05.27-release  
-
-<ins>**Name:**</ins> Enable offline sync  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.soundcloud.android  
-<ins>**Compatible Versions:**</ins> 2025.05.27-release  
-
-<ins>**Name:**</ins> Hide Create button  
-<ins>**Description:**</ins> Hides the "Create" button in the navigation bar.  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Custom theme  
-<ins>**Description:**</ins> Applies a custom theme (defaults to amoled black)  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Fix Facebook login  
-<ins>**Description:**</ins> Fix logging in with Facebook when the app is patched by always opening the login in a web browser window.  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Change lyrics provider  
-<ins>**Description:**</ins> Changes the lyrics provider to a custom one.  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Fix third party launchers widgets  
-<ins>**Description:**</ins> Fixes Spotify widgets not working in third party launchers, like Nova Launcher.  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide offers tab  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> de.stocard.stocard  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide story bubbles  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> de.stocard.stocard  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock subscription features  
-<ins>**Description:**</ins> Unlocks "Routes", "Matched Runs" and "Segment Efforts".  
-<ins>**Compatible Apps:**</ins> com.strava  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable subscription suggestions  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.strava  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove Google Play Integrity check  
-<ins>**Description:**</ins> Removes the Google Play Integrity check. With this it's possible to use SwissID on custom ROMS.If the device is rooted, root permissions must be hidden from the app.  
-<ins>**Compatible Apps:**</ins> com.swisssign.swissid.mobile  
-<ins>**Compatible Versions:**</ins> 5.2.9  
-
-<ins>**Name:**</ins> Unlock themes  
-<ins>**Description:**</ins> Unlocks all themes that are inaccessible until a certain level is reached.  
-<ins>**Compatible Apps:**</ins> com.ticktick.task  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Feed filter  
-<ins>**Description:**</ins> Removes ads, livestreams, stories, image videos and videos with a specific amount of views or likes from the feed.  
-<ins>**Compatible Apps:**</ins> com.ss.android.ugc.trill, com.zhiliaoapp.musically  
-<ins>**Compatible Versions:**</ins> 36.5.4, 36.5.4  
-
-<ins>**Name:**</ins> Remember clear display  
-<ins>**Description:**</ins> Remembers the clear display configurations in between videos.  
-<ins>**Compatible Apps:**</ins> com.ss.android.ugc.trill, com.zhiliaoapp.musically  
-<ins>**Compatible Versions:**</ins> 36.5.4, 36.5.4  
-
-<ins>**Name:**</ins> Downloads  
-<ins>**Description:**</ins> Adds support to download videos with an external downloader app using the in-app download button or a video player action button.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Show seekbar  
-<ins>**Description:**</ins> Shows progress bar for all video.  
-<ins>**Compatible Apps:**</ins> com.ss.android.ugc.trill, com.zhiliaoapp.musically  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable login requirement  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.ss.android.ugc.trill, com.zhiliaoapp.musically  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Fix Google login  
-<ins>**Description:**</ins> Allows logging in with a Google account.  
-<ins>**Compatible Apps:**</ins> com.ss.android.ugc.trill, com.zhiliaoapp.musically  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Settings  
-<ins>**Description:**</ins> Adds settings menu to Twitch.  
-<ins>**Compatible Apps:**</ins> tv.twitch.android.app  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> SIM spoof  
-<ins>**Description:**</ins> Spoofs the information which is retrieved from the SIM card.  
-<ins>**Compatible Apps:**</ins> com.ss.android.ugc.trill, com.zhiliaoapp.musically  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Show on lockscreen  
-<ins>**Description:**</ins> Shows student id and student ticket on lockscreen.  
-<ins>**Compatible Apps:**</ins> de.tudortmund.app  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable dashboard ads  
-<ins>**Description:**</ins> Disables ads in the dashboard.  
-<ins>**Compatible Apps:**</ins> com.tumblr  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable Ad-Free Banner  
-<ins>**Description:**</ins> Disables the banner with a frog, prompting you to buy Tumblr Ad-Free.  
-<ins>**Compatible Apps:**</ins> com.tumblr  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable in-app update  
-<ins>**Description:**</ins> Disables the in-app update check and update prompt.  
-<ins>**Compatible Apps:**</ins> com.tumblr  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable blog notification reminder  
-<ins>**Description:**</ins> Disables the reminder to enable notifications for blogs you visit.  
-<ins>**Compatible Apps:**</ins> com.tumblr  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable gift message popup  
-<ins>**Description:**</ins> Disables the popup suggesting to buy TumblrMart items for other people.  
-<ins>**Compatible Apps:**</ins> com.tumblr  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Fix old versions  
-<ins>**Description:**</ins> Fixes old versions of the app (v33.2 and earlier) breaking due to Tumblr removing remnants of Tumblr Live from the API, which causes many requests to fail. This patch has no effect on newer versions of the app.  
-<ins>**Compatible Apps:**</ins> com.tumblr  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Block audio ads  
-<ins>**Description:**</ins> Blocks audio ads in streams and VODs.  
-<ins>**Compatible Apps:**</ins> tv.twitch.android.app  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Block embedded ads  
-<ins>**Description:**</ins> Blocks embedded stream ads using services like Luminous or PurpleAdBlocker.  
-<ins>**Compatible Apps:**</ins> tv.twitch.android.app  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Block video ads  
-<ins>**Description:**</ins> Blocks video ads in streams and VODs.  
-<ins>**Compatible Apps:**</ins> tv.twitch.android.app  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Show deleted messages  
-<ins>**Description:**</ins> Shows deleted chat messages behind a clickable spoiler.  
-<ins>**Compatible Apps:**</ins> tv.twitch.android.app  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Auto claim channel points  
-<ins>**Description:**</ins> Automatically claim Channel Points.  
-<ins>**Compatible Apps:**</ins> tv.twitch.android.app  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Debug mode  
-<ins>**Description:**</ins> Enables Twitch's internal debugging mode.  
-<ins>**Compatible Apps:**</ins> tv.twitch.android.app  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock downloads  
-<ins>**Description:**</ins> Unlocks the ability to download any video. GIFs can be downloaded via the menu on long press.  
-<ins>**Compatible Apps:**</ins> com.twitter.android  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide view count  
-<ins>**Description:**</ins> Hides the view count of Posts.  
-<ins>**Compatible Apps:**</ins> com.twitter.android  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Dynamic color  
-<ins>**Description:**</ins> Replaces the default X (Formerly Twitter) Blue with the user's Material You palette.  
-<ins>**Compatible Apps:**</ins> com.twitter.android  
-<ins>**Compatible Versions:**</ins> 10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0  
-
-<ins>**Name:**</ins> Hide recommended users  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.twitter.android  
-<ins>**Compatible Versions:**</ins> 10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0  
-
-<ins>**Name:**</ins> Change link sharing domain  
-<ins>**Description:**</ins> Replaces the domain name of Twitter links when sharing them.  
-<ins>**Compatible Apps:**</ins> com.twitter.android  
-<ins>**Compatible Versions:**</ins> 10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0  
-
-<ins>**Name:**</ins> Open links with app chooser  
-<ins>**Description:**</ins> Instead of opening links directly, open them with an app chooser. As a result you can select a browser to open the link with.  
-<ins>**Compatible Apps:**</ins> com.twitter.android  
-<ins>**Compatible Versions:**</ins> 10.48.0-release.0  
-
-<ins>**Name:**</ins> Promo code unlock  
-<ins>**Description:**</ins> Disables the validation of promo code. Any code will work to unlock all features.  
-<ins>**Compatible Apps:**</ins> de.dwd.warnapp  
-<ins>**Compatible Versions:**</ins> 4.2.2  
-
-<ins>**Name:**</ins> Video ads  
-<ins>**Description:**</ins> Adds an option to remove ads in the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Copy video URL  
-<ins>**Description:**</ins> Adds options to display buttons in the video player to copy video URLs.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Remove viewer discretion dialog  
-<ins>**Description:**</ins> Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Disable double tap actions  
-<ins>**Description:**</ins> Adds an option to disable player double tap gestures.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Seekbar  
-<ins>**Description:**</ins> Adds options to disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, and hiding the video player seekbar.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Swipe controls  
-<ins>**Description:**</ins> Adds options to enable and configure volume and brightness swipe controls.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Disable auto captions  
-<ins>**Description:**</ins> Adds an option to disable captions from being automatically enabled.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Custom branding  
-<ins>**Description:**</ins> Applies a custom app name and icon. Defaults to "YouTube ReVanced" and the ReVanced logo.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Change header  
-<ins>**Description:**</ins> Adds an option to change the header logo in the top left corner of the app.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Hide video action buttons  
-<ins>**Description:**</ins> Adds options to hide action buttons (such as the Download button) under videos.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Navigation buttons  
-<ins>**Description:**</ins> Adds options to hide and change navigation buttons (such as the Shorts button).  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Hide player overlay buttons  
-<ins>**Description:**</ins> Adds options to hide the player Cast, Autoplay, Captions, Previous & Next buttons, and the player control buttons background.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Change form factor  
-<ins>**Description:**</ins> Adds an option to change the UI appearance to a phone, tablet, or automotive device.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Hide end screen cards  
-<ins>**Description:**</ins> Adds an option to hide suggested video cards at the end of videos.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Hide end screen suggested video  
-<ins>**Description:**</ins> Adds an option to hide the suggested video at the end of videos.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Disable fullscreen ambient mode  
-<ins>**Description:**</ins> Adds an option to disable the ambient mode when in fullscreen.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Hide layout components  
-<ins>**Description:**</ins> Adds options to hide general layout components.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Hide info cards  
-<ins>**Description:**</ins> Adds an option to hide info cards that creators add in the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Hide player flyout menu items  
-<ins>**Description:**</ins> Adds options to hide menu items that appear when pressing the gear icon in the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Hide related video overlay  
-<ins>**Description:**</ins> Adds an option to hide the related video overlay shown when swiping up in fullscreen.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Disable rolling number animations  
-<ins>**Description:**</ins> Adds an option to disable rolling number animations of video view count, user likes, and upload time.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Hide Shorts components  
-<ins>**Description:**</ins> Adds options to hide components related to Shorts.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Hide timestamp  
-<ins>**Description:**</ins> Adds an option to hide the timestamp in the bottom left of the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Miniplayer  
-<ins>**Description:**</ins> Adds options to change the in-app minimized player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Disable player popup panels  
-<ins>**Description:**</ins> Adds an option to disable panels (such as live chat) from opening automatically.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Exit fullscreen mode  
-<ins>**Description:**</ins> Adds options to automatically exit fullscreen mode when a video reaches the end.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Open videos fullscreen  
-<ins>**Description:**</ins> Adds an option to open videos in full screen portrait mode.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Custom player overlay opacity  
-<ins>**Description:**</ins> Adds an option to change the opacity of the video player background when player controls are visible.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Return YouTube Dislike  
-<ins>**Description:**</ins> Adds an option to show the dislike count of videos with Return YouTube Dislike.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Wide search bar  
-<ins>**Description:**</ins> Adds an option to replace the search icon with a wide search bar. This will hide the YouTube logo when active.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Shorts autoplay  
-<ins>**Description:**</ins> Adds options to automatically play the next Short.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Open Shorts in regular player  
-<ins>**Description:**</ins> Adds options to open Shorts in the regular video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> SponsorBlock  
-<ins>**Description:**</ins> Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Spoof app version  
-<ins>**Description:**</ins> Adds an option to trick YouTube into thinking you are running an older version of the app. This can be used to restore old UI elements and features.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Change start page  
-<ins>**Description:**</ins> Adds an option to set which page the app opens in instead of the homepage.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Disable resuming Shorts on startup  
-<ins>**Description:**</ins> Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Theme  
-<ins>**Description:**</ins> Adds options for theming and applies a custom background theme (dark background theme defaults to amoled black).  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Alternative thumbnails  
-<ins>**Description:**</ins> Adds options to replace video thumbnails using the DeArrow API or image captures from the video.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Bypass image region restrictions  
-<ins>**Description:**</ins> Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Announcements  
-<ins>**Description:**</ins> Adds an option to show announcements from ReVanced on app startup.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Always repeat  
-<ins>**Description:**</ins> Adds an option to always repeat videos when they end.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Enable debugging  
-<ins>**Description:**</ins> Adds options for debugging and exporting ReVanced logs to the clipboard.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Spoof device dimensions  
-<ins>**Description:**</ins> Adds an option to spoof the device dimensions which can unlock higher video qualities.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Check watch history domain name resolution  
-<ins>**Description:**</ins> Checks if the device DNS server is preventing user watch history from being saved.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Disable haptic feedback  
-<ins>**Description:**</ins> Adds an option to disable haptic feedback in the player for various actions.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Bypass URL redirects  
-<ins>**Description:**</ins> Adds an option to bypass URL redirects and open the original URL directly.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Open links externally  
-<ins>**Description:**</ins> Adds an option to always open links in your browser instead of the in-app browser.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Remove tracking query parameter  
-<ins>**Description:**</ins> Adds an option to remove the tracking parameter from links you share.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Spoof video streams  
-<ins>**Description:**</ins> Adds options to spoof the client video streams to fix playback.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Force original audio  
-<ins>**Description:**</ins> Adds an option to always use the original audio track.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Disable HDR video  
-<ins>**Description:**</ins> Adds an option to disable video HDR.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
-
-<ins>**Name:**</ins> Video quality  
-<ins>**Description:**</ins> Adds options to use the advanced video quality menu and set default video qualities.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41  
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| Export all activities | Makes all app activities exportable. | Universal | All versions |
+| Hide ADB status | Hides enabled development settings and/or ADB. | Universal | All versions |
+| Hide app icon | Hides the app icon from the Android launcher. | Universal | All versions |
+| Spoof build info | Spoofs the information about the current build. | Universal | All versions |
+| Hide mock location | Prevents the app from knowing the device location is being mocked by a third party app. | Universal | All versions |
+| Spoof SIM country | Spoofs country information returned by the SIM card provider. | Universal | All versions |
+| Spoof Wi-Fi connection | Spoofs an existing Wi-Fi connection. | Universal | All versions |
+| Enable Android debugging | Enables Android debugging capabilities. This can slow down the app. | Universal | All versions |
+| Export internal data documents provider | Exports a documents provider that grants access to the internal data directory of this app to file managers and other apps that support the Storage Access Framework. | Universal | All versions |
+| Hex | Replaces a hexadecimal patterns of bytes of files in an APK. | Universal | All versions |
+| Predictive back gesture | Enables the predictive back gesture introduced on Android 13. | Universal | All versions |
+| Override certificate pinning | Overrides certificate pinning, allowing to inspect traffic via a proxy. | Universal | All versions |
+| Change package name | Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues. | Universal | All versions |
+| Remove screen capture restriction | Removes the restriction of capturing audio from apps that normally wouldn't allow it. | Universal | All versions |
+| Remove screenshot restriction | Removes the restriction of taking screenshots in apps that normally wouldn't allow it. | Universal | All versions |
+| Remove share targets | Removes share targets like directly sharing to a frequent contact. | Universal | All versions |
+| Enable ROM signature spoofing | Spoofs the signature via the manifest meta-data "fake-signature". This patch only works with ROMs that support signature spoofing. | Universal | All versions |
+| Set target SDK version 34 | Changes the target SDK to version 34 (Android 14). For devices running Android 15+, this will disable edge-to-edge display. | Universal | All versions |
+| Change version code | Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version. | Universal | All versions |
+| Always allow deep-linking | Open Amazon links, even if the app is not set to handle Amazon links. | com.amazon.mShop.android.shopping | All versions |
+| Hide ads | Adds options to remove general ads. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Pro unlock | None | com.backdrops.wallpapers | All versions |
+| Remove play limits | Disables purchase nagging and playback limits of not purchased tracks. | com.bandcamp.android | All versions |
+| Bypass root checks | Removes the restriction to use the app with root permissions or on a custom ROM. | it.ipzs.cieid | All versions |
+| Disable ads | None | io.syncapps.lemmy_sync | All versions |
+| Enable debug menu | None | com.duolingo | 5.158.4 |
+| Hide 'Sponsored Stories' | None | com.facebook.katana | 490.0.0.63.82 |
+| Hide story ads | Hides the ads in the Facebook app stories. | com.facebook.katana | All versions |
+| Remove bootloader detection | Removes the check for an unlocked bootloader. | at.gv.bmf.bmf2go | All versions |
+| Remove root detection | Removes the check for root permissions and unlocked bootloader. | at.gv.bka.serviceportal | All versions |
+| Enable CustomTabs | Enables CustomTabs to open articles in your default browser. | com.google.android.apps.magazines | All versions |
+| GmsCore support | Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Enable DCIM folders backup control | Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up. | com.google.android.apps.photos | All versions |
+| Spoof features | Spoofs the device to enable Google Pixel exclusive features, including unlimited storage. | com.google.android.apps.photos | All versions |
+| Remove device restrictions | Removes restrictions from using the app on any device. Requires mounting patched app over original. | com.google.android.apps.recorder | All versions |
+| Unlock pro | None | tv.trakt.trakt | 1.1.1 |
+| Spoof signature | Spoofs the signature of the app. | at.gv.oe.app | All versions |
+| Disable signature check | Disables the signature check that causes the app to crash on startup. | com.instagram.android | 378.0.0.52.68 |
+| Remove ads | None | net.binarymode.android.irplus | All versions |
+| Disable mandatory login | None | com.adobe.lrmobile | 9.3.0 |
+| Unlock Premium | Unlocks Spotify Premium features. Server-sided features like downloading songs are still locked. | com.spotify.music | All versions |
+| Hide inbox ads | Hides ads in inbox. | com.facebook.orca | All versions |
+| Hide inbox subtabs | Hides Home and Channels tabs between active now tray and chats. | com.facebook.orca | All versions |
+| Disable typing indicator | Disables the indicator while typing a message. | com.facebook.orca | All versions |
+| Hide Facebook button | Hides the Facebook button in the top toolbar. | com.facebook.orca | All versions |
+| Remove Meta AI | Removes UI elements related to Meta AI. | com.facebook.orca | All versions |
+| Force English locale | Forces wearable devices to use the English locale. | com.xiaomi.wearable | All versions |
+| Fix login | Fixes login for uncertified Mi Fitness app | com.xiaomi.wearable | All versions |
+| Hide music video ads | Hides ads that appear while listening to or streaming music videos, podcasts, or songs. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
+| Enable exclusive audio playback | Enables the option to play audio without video. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
+| Permanent repeat | Permanently remember your repeating preference even if the playlist ends or another track is played. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
+| Hide category bar | Hides the category bar at the top of the homepage. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
+| Hide 'Get Music Premium' label | Hides the "Get Music Premium" label from the account menu and settings. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
+| Remove upgrade button | Removes the upgrade tab from the pivot bar. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
+| Bypass certificate checks | Bypasses certificate checks which prevent YouTube Music from working on Android Auto. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
+| Remove background playback restrictions | Removes restrictions on background playback, including playing kids videos in the background. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Spoof client | Spoofs the client to fix various functions of the app. | com.spotify.music | All versions |
+| Remove broadcasts restriction | Enables starting/stopping NetGuard via broadcasts. | eu.faircode.netguard | All versions |
+| Spoof certificate | Spoofs the X-Android-Cert header to allow push messages. | nl.sanomamedia.android.nu | All versions |
+| Fix crash | None | de.simon.openinghours | 1.0 |
+| Disable audio ads | None | com.pandora.android | All versions |
+| Enable unlimited skips | None | com.pandora.android | All versions |
+| Spoof device ID | Spoofs device ID to mitigate manual bans by developers. | com.microblink.photomath | All versions |
+| Hide update popup | Prevents the update popup from showing up. | com.microblink.photomath | All versions |
+| Unlock plus | None | com.microblink.photomath | All versions |
+| Spoof Android device ID | Spoofs the Android device ID used by the app for account authentication.This can be used to copy the account to another device. | com.piccomaeurope.fr | 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2 |
+| Disable tracking | Disables tracking by replacing tracking URLs with example.com. | com.piccomaeurope.fr | 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2 |
+| Skip ads | Automatically skips video stream ads. | com.amazon.avod.thirdpartyclient | 3.0.412.2947 |
+| Rename shared permissions | Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps. | com.amazon.avod.thirdpartyclient | All versions |
+| Playback speed | Adds options to customize available playback speeds, set default a playback speed, and show a speed dialog button in the video player. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Remove free accounts limit | Removes the limit for maximum free accounts logged in. | ch.protonmail.android | All versions |
+| Remove 'Sent from' signature | Removes the 'Sent from Proton Mail mobile' signature from emails. | ch.protonmail.android | All versions |
+| Hide purchase reminder | Hides the popup that reminds you to purchase the app. | com.rarlab.rar | All versions |
+| Fix missing audio in video downloads | Fixes audio missing in videos downloaded from v.redd.it. | com.rubenmayayo.reddit | All versions |
+| Fix /s/ links | None | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
+| Unlock subscription | Unlocks the subscription feature but requires a custom client ID. | ml.docilealligator.infinityforreddit, ml.docilealligator.infinityforreddit.plus, ml.docilealligator.infinityforreddit.patreon | All versions |
+| Disable Sync for Lemmy bottom sheet | Disables the bottom sheet at the startup that asks you to signup to "Sync for Lemmy". | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | v23.06.30-13:39 |
+| Fix post thumbnails | Fixes loading post thumbnails by correcting their URLs. | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
+| Use /user/ endpoint | Replaces the deprecated endpoint for viewing user profiles /u with /user, that used to fix a bug. | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
+| Fix video downloads | Fixes a bug in Sync's MPD parser resulting in only the audio-track being saved. | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
+| Disable screenshot popup | Disables the popup that shows up when taking a screenshot. | com.reddit.frontpage | All versions |
+| Unlock Premium icons | Unlocks the Reddit Premium icons. | com.reddit.frontpage | All versions |
+| Sanitize sharing links | Removes the tracking query parameters from links before they are shared. | com.twitter.android | 10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
+| Disable Pairip license check | Disables Play Integrity API (Pairip) client-side license check. | Universal | All versions |
+| Remove file size limit | Allows opening files larger than 2 MB in the text editor. | pl.solidexplorer2 | All versions |
+| Remove badge tab | Removes the badge tab from the activity tab. | com.sony.songpal.mdr | All versions |
+| Remove notification badge | Removes the red notification badge from the activity tab. | com.sony.songpal.mdr | 10.1.0 |
+| Disable telemetry | Disables SoundCloud's telemetry system. | com.soundcloud.android | 2025.05.27-release |
+| Enable offline sync | None | com.soundcloud.android | 2025.05.27-release |
+| Hide Create button | Hides the "Create" button in the navigation bar. | com.spotify.music | All versions |
+| Custom theme | Applies a custom theme (defaults to amoled black) | com.spotify.music | All versions |
+| Fix Facebook login | Fix logging in with Facebook when the app is patched by always opening the login in a web browser window. | com.spotify.music | All versions |
+| Change lyrics provider | Changes the lyrics provider to a custom one. | com.spotify.music | All versions |
+| Fix third party launchers widgets | Fixes Spotify widgets not working in third party launchers, like Nova Launcher. | com.spotify.music | All versions |
+| Hide offers tab | None | de.stocard.stocard | All versions |
+| Hide story bubbles | None | de.stocard.stocard | All versions |
+| Unlock subscription features | Unlocks "Routes", "Matched Runs" and "Segment Efforts". | com.strava | All versions |
+| Disable subscription suggestions | None | com.strava | All versions |
+| Remove Google Play Integrity check | Removes the Google Play Integrity check. With this it's possible to use SwissID on custom ROMS.If the device is rooted, root permissions must be hidden from the app. | com.swisssign.swissid.mobile | 5.2.9 |
+| Unlock themes | Unlocks all themes that are inaccessible until a certain level is reached. | com.ticktick.task | All versions |
+| Feed filter | Removes ads, livestreams, stories, image videos and videos with a specific amount of views or likes from the feed. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | 36.5.4, 36.5.4 |
+| Remember clear display | Remembers the clear display configurations in between videos. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | 36.5.4, 36.5.4 |
+| Downloads | Adds support to download videos with an external downloader app using the in-app download button or a video player action button. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Show seekbar | Shows progress bar for all video. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
+| Disable login requirement | None | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
+| Fix Google login | Allows logging in with a Google account. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
+| Settings | Adds settings menu to Twitch. | tv.twitch.android.app | All versions |
+| SIM spoof | Spoofs the information which is retrieved from the SIM card. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
+| Show on lockscreen | Shows student id and student ticket on lockscreen. | de.tudortmund.app | All versions |
+| Disable dashboard ads | Disables ads in the dashboard. | com.tumblr | All versions |
+| Disable Ad-Free Banner | Disables the banner with a frog, prompting you to buy Tumblr Ad-Free. | com.tumblr | All versions |
+| Disable in-app update | Disables the in-app update check and update prompt. | com.tumblr | All versions |
+| Disable blog notification reminder | Disables the reminder to enable notifications for blogs you visit. | com.tumblr | All versions |
+| Disable gift message popup | Disables the popup suggesting to buy TumblrMart items for other people. | com.tumblr | All versions |
+| Fix old versions | Fixes old versions of the app (v33.2 and earlier) breaking due to Tumblr removing remnants of Tumblr Live from the API, which causes many requests to fail. This patch has no effect on newer versions of the app. | com.tumblr | All versions |
+| Block audio ads | Blocks audio ads in streams and VODs. | tv.twitch.android.app | All versions |
+| Block embedded ads | Blocks embedded stream ads using services like Luminous or PurpleAdBlocker. | tv.twitch.android.app | All versions |
+| Block video ads | Blocks video ads in streams and VODs. | tv.twitch.android.app | All versions |
+| Show deleted messages | Shows deleted chat messages behind a clickable spoiler. | tv.twitch.android.app | All versions |
+| Auto claim channel points | Automatically claim Channel Points. | tv.twitch.android.app | All versions |
+| Debug mode | Enables Twitch's internal debugging mode. | tv.twitch.android.app | All versions |
+| Unlock downloads | Unlocks the ability to download any video. GIFs can be downloaded via the menu on long press. | com.twitter.android | All versions |
+| Hide view count | Hides the view count of Posts. | com.twitter.android | All versions |
+| Dynamic color | Replaces the default X (Formerly Twitter) Blue with the user's Material You palette. | com.twitter.android | 10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
+| Hide recommended users | None | com.twitter.android | 10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
+| Change link sharing domain | Replaces the domain name of Twitter links when sharing them. | com.twitter.android | 10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
+| Open links with app chooser | Instead of opening links directly, open them with an app chooser. As a result you can select a browser to open the link with. | com.twitter.android | 10.48.0-release.0 |
+| Promo code unlock | Disables the validation of promo code. Any code will work to unlock all features. | de.dwd.warnapp | 4.2.2 |
+| Video ads | Adds an option to remove ads in the video player. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Copy video URL | Adds options to display buttons in the video player to copy video URLs. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Remove viewer discretion dialog | Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Disable double tap actions | Adds an option to disable player double tap gestures. | com.google.android.youtube | 20.07.39, 20.12.46, 20.13.41 |
+| Seekbar | Adds options to disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, and hiding the video player seekbar. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Swipe controls | Adds options to enable and configure volume and brightness swipe controls. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Disable auto captions | Adds an option to disable captions from being automatically enabled. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Custom branding | Applies a custom app name and icon. Defaults to "YouTube ReVanced" and the ReVanced logo. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Change header | Adds an option to change the header logo in the top left corner of the app. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Hide video action buttons | Adds options to hide action buttons (such as the Download button) under videos. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Navigation buttons | Adds options to hide and change navigation buttons (such as the Shorts button). | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Hide player overlay buttons | Adds options to hide the player Cast, Autoplay, Captions, Previous & Next buttons, and the player control buttons background. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Change form factor | Adds an option to change the UI appearance to a phone, tablet, or automotive device. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Hide end screen cards | Adds an option to hide suggested video cards at the end of videos. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Hide end screen suggested video | Adds an option to hide the suggested video at the end of videos. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Disable fullscreen ambient mode | Adds an option to disable the ambient mode when in fullscreen. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Hide layout components | Adds options to hide general layout components. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Hide info cards | Adds an option to hide info cards that creators add in the video player. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Hide player flyout menu items | Adds options to hide menu items that appear when pressing the gear icon in the video player. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Hide related video overlay | Adds an option to hide the related video overlay shown when swiping up in fullscreen. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Disable rolling number animations | Adds an option to disable rolling number animations of video view count, user likes, and upload time. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Hide Shorts components | Adds options to hide components related to Shorts. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Hide timestamp | Adds an option to hide the timestamp in the bottom left of the video player. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Miniplayer | Adds options to change the in-app minimized player. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Disable player popup panels | Adds an option to disable panels (such as live chat) from opening automatically. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Exit fullscreen mode | Adds options to automatically exit fullscreen mode when a video reaches the end. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Open videos fullscreen | Adds an option to open videos in full screen portrait mode. | com.google.android.youtube | 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Custom player overlay opacity | Adds an option to change the opacity of the video player background when player controls are visible. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Return YouTube Dislike | Adds an option to show the dislike count of videos with Return YouTube Dislike. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Wide search bar | Adds an option to replace the search icon with a wide search bar. This will hide the YouTube logo when active. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Shorts autoplay | Adds options to automatically play the next Short. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Open Shorts in regular player | Adds options to open Shorts in the regular video player. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| SponsorBlock | Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Spoof app version | Adds an option to trick YouTube into thinking you are running an older version of the app. This can be used to restore old UI elements and features. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Change start page | Adds an option to set which page the app opens in instead of the homepage. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Disable resuming Shorts on startup | Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Theme | Adds options for theming and applies a custom background theme (dark background theme defaults to amoled black). | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Alternative thumbnails | Adds options to replace video thumbnails using the DeArrow API or image captures from the video. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Bypass image region restrictions | Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Announcements | Adds an option to show announcements from ReVanced on app startup. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Always repeat | Adds an option to always repeat videos when they end. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Enable debugging | Adds options for debugging and exporting ReVanced logs to the clipboard. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Spoof device dimensions | Adds an option to spoof the device dimensions which can unlock higher video qualities. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Check watch history domain name resolution | Checks if the device DNS server is preventing user watch history from being saved. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Disable haptic feedback | Adds an option to disable haptic feedback in the player for various actions. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Bypass URL redirects | Adds an option to bypass URL redirects and open the original URL directly. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Open links externally | Adds an option to always open links in your browser instead of the in-app browser. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Remove tracking query parameter | Adds an option to remove the tracking parameter from links you share. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Spoof video streams | Adds options to spoof the client video streams to fix playback. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Force original audio | Adds an option to always use the original audio track. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Disable HDR video | Adds an option to disable video HDR. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Video quality | Adds options to use the advanced video quality menu and set default video qualities. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 
 </details>
 
@@ -912,510 +195,109 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<ins>**Name:**</ins> Spoof Wi-Fi connection  
-<ins>**Description:**</ins> Spoofs an existing Wi-Fi connection.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable edge-to-edge display  
-<ins>**Description:**</ins> Disable forced edge-to-edge display on Android 15+ by changing the app's target SDK version. This patch does not work if the app is installed by mounting.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Change version code  
-<ins>**Description:**</ins> Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide account components  
-<ins>**Description:**</ins> Adds options to hide components related to the account menu.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Hide action bar components  
-<ins>**Description:**</ins> Adds options to hide action bar components and replace the offline download button with an external download button.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Hide ads  
-<ins>**Description:**</ins> Adds options to hide ads.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Flyout menu components  
-<ins>**Description:**</ins> Adds options to hide or change flyout menu components.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Disable forced auto captions  
-<ins>**Description:**</ins> Adds an option to disable captions from being automatically enabled.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide layout components  
-<ins>**Description:**</ins> Adds options to hide general layout components.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Remove viewer discretion dialog  
-<ins>**Description:**</ins> Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Enable landscape mode  
-<ins>**Description:**</ins> Adds an option to enable landscape mode when rotating the screen on phones.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Restore old style library shelf  
-<ins>**Description:**</ins> Adds an option to return the Library tab to the old style.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Disable dislike redirection  
-<ins>**Description:**</ins> Adds an option to disable redirection to the next track when clicking the Dislike button.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Spoof app version  
-<ins>**Description:**</ins> Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Change start page  
-<ins>**Description:**</ins> Adds an option to set which page the app opens in instead of the homepage.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Custom branding icon for YouTube Music  
-<ins>**Description:**</ins> Changes the YouTube Music app icon to the icon specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Custom branding name for YouTube Music  
-<ins>**Description:**</ins> Changes the YouTube Music app name to the name specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Custom header for YouTube Music  
-<ins>**Description:**</ins> Applies a custom header in the top left corner within the app.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Hide overlay filter  
-<ins>**Description:**</ins> Removes, at compile time, the dark overlay that appears when player flyout menus are open.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Hide player overlay filter  
-<ins>**Description:**</ins> Removes, at compile time, the dark overlay that appears when single-tapping in the player.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Dark theme  
-<ins>**Description:**</ins> Changes the app's dark theme to the values specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Translations for YouTube Music  
-<ins>**Description:**</ins> Add translations or remove string resources.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Visual preferences icons for YouTube Music  
-<ins>**Description:**</ins> Adds icons to specific preferences in the settings.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Disable music video in album  
-<ins>**Description:**</ins> Adds option to redirect music videos from albums for non-premium users.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Remove background playback restrictions  
-<ins>**Description:**</ins> Removes restrictions on background playback, including for music and kids videos.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Bitrate default value  
-<ins>**Description:**</ins> Sets the audio quality to 'Always High' when you first install the app.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Enable OPUS codec  
-<ins>**Description:**</ins> Adds an option to enable the OPUS audio codec if the player response includes it.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Enable debug logging  
-<ins>**Description:**</ins> Adds an option for debugging and exporting RVX logs to the clipboard.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Disable DRC audio  
-<ins>**Description:**</ins> Adds an option to disable DRC (Dynamic Range Compression) audio.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Disable QUIC protocol  
-<ins>**Description:**</ins> Adds an option to disable CronetEngine's QUIC protocol.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Change share sheet  
-<ins>**Description:**</ins> Adds an option to change the in-app share sheet to the system share sheet.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Disable Cairo splash animation  
-<ins>**Description:**</ins> Adds an option to disable Cairo splash animation.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 7.06.54, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Bypass image region restrictions  
-<ins>**Description:**</ins> Adds an option to use a different host for static images, so that images blocked in some countries can be received.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Sanitize sharing links  
-<ins>**Description:**</ins> Adds an option to sanitize sharing links by removing tracking query parameters.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Watch history  
-<ins>**Description:**</ins> Adds an option to change the domain of the watch history or check its status.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Navigation bar components  
-<ins>**Description:**</ins> Adds options to hide or change components related to the navigation bar.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Player components  
-<ins>**Description:**</ins> Adds options to hide or change components related to the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Certificate spoof  
-<ins>**Description:**</ins> Enables YouTube Music to work with Android Auto by spoofing the YouTube Music certificate.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Spoof player parameter  
-<ins>**Description:**</ins> Adds options to spoof player parameter to allow playback.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> GmsCore support  
-<ins>**Description:**</ins> Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Return YouTube Dislike  
-<ins>**Description:**</ins> Adds an option to show the dislike count of videos using the Return YouTube Dislike API.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Return YouTube Username  
-<ins>**Description:**</ins> Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Settings for YouTube Music  
-<ins>**Description:**</ins> Applies mandatory patches to implement ReVanced Extended settings into the application.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> SponsorBlock  
-<ins>**Description:**</ins> Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Video playback  
-<ins>**Description:**</ins> Adds options to customize settings related to video playback, such as default video quality and playback speed.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Custom branding name for Reddit  
-<ins>**Description:**</ins> Changes the Reddit app name to the name specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Change package name  
-<ins>**Description:**</ins> Changes the package name for Reddit to the name specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Hide recommended communities shelf  
-<ins>**Description:**</ins> Adds an option to hide the recommended communities shelves in subreddits.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Hide navigation buttons  
-<ins>**Description:**</ins> Adds options to hide buttons in the navigation bar.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Premium icon  
-<ins>**Description:**</ins> Unlocks premium app icons.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Hide Recently Visited shelf  
-<ins>**Description:**</ins> Adds an option to hide the Recently Visited shelf in the sidebar.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Disable screenshot popup  
-<ins>**Description:**</ins> Adds an option to disable the popup that appears when taking a screenshot.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Remove subreddit dialog  
-<ins>**Description:**</ins> Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Open links directly  
-<ins>**Description:**</ins> Adds an option to skip over redirection URLs in external links.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Open links externally  
-<ins>**Description:**</ins> Adds an option to always open links in your browser instead of the in-app browser.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Settings for Reddit  
-<ins>**Description:**</ins> Applies mandatory patches to implement ReVanced Extended settings into the application.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Alternative thumbnails  
-<ins>**Description:**</ins> Adds options to replace video thumbnails using the DeArrow API or image captures from the video.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide feed components  
-<ins>**Description:**</ins> Adds options to hide components related to feeds.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide feed flyout menu  
-<ins>**Description:**</ins> Adds the ability to hide feed flyout menu components using a custom filter.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Disable forced auto audio tracks  
-<ins>**Description:**</ins> Adds an option to disable audio tracks from being automatically enabled.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hook download actions  
-<ins>**Description:**</ins> Adds support to download videos with an external downloader app using the in-app download button.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Change form factor  
-<ins>**Description:**</ins> Adds an option to change the UI appearance to a phone, tablet, or automotive device.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Change live ring click action  
-<ins>**Description:**</ins> Adds an option to open the channel instead of the live stream when clicking on the live ring.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Enable gradient loading screen  
-<ins>**Description:**</ins> Adds an option to enable the gradient loading screen.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hook YouTube Music actions  
-<ins>**Description:**</ins> Adds support for opening music in RVX Music using the in-app YouTube Music button.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Snack bar components  
-<ins>**Description:**</ins> Adds options to hide or change components related to the snack bar.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Disable splash animation  
-<ins>**Description:**</ins> Adds an option to disable the splash animation on app startup.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Toolbar components  
-<ins>**Description:**</ins> Adds options to hide or change components located on the toolbar, such as the search bar, header, and toolbar buttons.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Disable layout updates  
-<ins>**Description:**</ins> Adds an option to disable layout updates by server.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Custom Shorts action buttons  
-<ins>**Description:**</ins> Changes, at compile time, the icon of the action buttons of the Shorts player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Custom branding icon for YouTube  
-<ins>**Description:**</ins> Changes the YouTube app icon to the icon specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Custom branding name for YouTube  
-<ins>**Description:**</ins> Changes the YouTube app name to the name specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide Shorts dimming  
-<ins>**Description:**</ins> Removes, at compile time, the dimming effect at the top and bottom of Shorts videos.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Custom double tap length  
-<ins>**Description:**</ins> Adds Double-tap to seek values that are specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Custom header for YouTube  
-<ins>**Description:**</ins> Applies a custom header in the top left corner within the app.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Force hide player buttons background  
-<ins>**Description:**</ins> Removes, at compile time, the dark background surrounding the video player controls.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide shortcuts  
-<ins>**Description:**</ins> Remove, at compile time, the app shortcuts that appears when the app icon is long pressed.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> MaterialYou  
-<ins>**Description:**</ins> Applies the MaterialYou theme for Android 12+ devices.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Theme  
-<ins>**Description:**</ins> Changes the app's themes to the values specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Translations for YouTube  
-<ins>**Description:**</ins> Add translations or remove string resources.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Visual preferences icons for YouTube  
-<ins>**Description:**</ins> Adds icons to specific preferences in the settings.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide accessibility controls dialog  
-<ins>**Description:**</ins> Removes, at compile time, accessibility controls dialog 'Turn on accessibility controls for the video player?'.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Bypass URL redirects  
-<ins>**Description:**</ins> Adds an option to bypass URL redirects and open the original URL directly.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide action buttons  
-<ins>**Description:**</ins> Adds options to hide action buttons under videos.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Ambient mode control  
-<ins>**Description:**</ins> Adds options to disable Ambient mode and to bypass Ambient mode restrictions.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide player buttons  
-<ins>**Description:**</ins> Adds options to hide buttons in the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide comments components  
-<ins>**Description:**</ins> Adds options to hide components related to comments.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Description components  
-<ins>**Description:**</ins> Adds options to hide and disable description components.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide player flyout menu  
-<ins>**Description:**</ins> Adds options to hide player flyout menu components.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Change player flyout menu toggles  
-<ins>**Description:**</ins> Adds an option to use text toggles instead of switch toggles within the additional settings menu.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Fullscreen components  
-<ins>**Description:**</ins> Adds options to hide or change components related to fullscreen.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Disable haptic feedback  
-<ins>**Description:**</ins> Adds options to disable haptic feedback when swiping in the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Miniplayer  
-<ins>**Description:**</ins> Adds options to change the in-app minimized player, and if patching target 19.16+ adds options to use modern miniplayers.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Disable resuming Miniplayer on startup  
-<ins>**Description:**</ins> Adds an option to disable the Miniplayer 'Continue watching' from resuming on app startup.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Overlay buttons  
-<ins>**Description:**</ins> Adds options to display useful overlay buttons in the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Seekbar components  
-<ins>**Description:**</ins> Adds options to hide or change components related to the seekbar.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Shorts components  
-<ins>**Description:**</ins> Adds options to hide or change components related to YouTube Shorts.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Disable resuming Shorts on startup  
-<ins>**Description:**</ins> Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Swipe controls  
-<ins>**Description:**</ins> Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Spoof streaming data  
-<ins>**Description:**</ins> Adds options to spoof the streaming data to allow playback.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Settings for YouTube  
-<ins>**Description:**</ins> Applies mandatory patches to implement ReVanced Extended settings into the application.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| Spoof Wi-Fi connection | Spoofs an existing Wi-Fi connection. | Universal | All versions |
+| Disable edge-to-edge display | Disable forced edge-to-edge display on Android 15+ by changing the app's target SDK version. This patch does not work if the app is installed by mounting. | Universal | All versions |
+| Change version code | Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set. | Universal | All versions |
+| Hide account components | Adds options to hide components related to the account menu. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Hide action bar components | Adds options to hide action bar components and replace the offline download button with an external download button. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Hide ads | Adds options to hide ads. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Flyout menu components | Adds options to hide or change flyout menu components. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Disable forced auto captions | Adds an option to disable captions from being automatically enabled. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide layout components | Adds options to hide general layout components. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Remove viewer discretion dialog | Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Enable landscape mode | Adds an option to enable landscape mode when rotating the screen on phones. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Restore old style library shelf | Adds an option to return the Library tab to the old style. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Disable dislike redirection | Adds an option to disable redirection to the next track when clicking the Dislike button. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Spoof app version | Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Change start page | Adds an option to set which page the app opens in instead of the homepage. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Custom branding icon for YouTube Music | Changes the YouTube Music app icon to the icon specified in patch options. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Custom branding name for YouTube Music | Changes the YouTube Music app name to the name specified in patch options. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Custom header for YouTube Music | Applies a custom header in the top left corner within the app. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Hide overlay filter | Removes, at compile time, the dark overlay that appears when player flyout menus are open. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Hide player overlay filter | Removes, at compile time, the dark overlay that appears when single-tapping in the player. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Dark theme | Changes the app's dark theme to the values specified in patch options. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Translations for YouTube Music | Add translations or remove string resources. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Visual preferences icons for YouTube Music | Adds icons to specific preferences in the settings. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Disable music video in album | Adds option to redirect music videos from albums for non-premium users. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Remove background playback restrictions | Removes restrictions on background playback, including for music and kids videos. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Bitrate default value | Sets the audio quality to 'Always High' when you first install the app. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Enable OPUS codec | Adds an option to enable the OPUS audio codec if the player response includes it. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Enable debug logging | Adds an option for debugging and exporting RVX logs to the clipboard. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable DRC audio | Adds an option to disable DRC (Dynamic Range Compression) audio. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Disable QUIC protocol | Adds an option to disable CronetEngine's QUIC protocol. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Change share sheet | Adds an option to change the in-app share sheet to the system share sheet. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable Cairo splash animation | Adds an option to disable Cairo splash animation. | com.google.android.apps.youtube.music | 7.06.54, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Bypass image region restrictions | Adds an option to use a different host for static images, so that images blocked in some countries can be received. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Sanitize sharing links | Adds an option to sanitize sharing links by removing tracking query parameters. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Watch history | Adds an option to change the domain of the watch history or check its status. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Navigation bar components | Adds options to hide or change components related to the navigation bar. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Player components | Adds options to hide or change components related to the video player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Certificate spoof | Enables YouTube Music to work with Android Auto by spoofing the YouTube Music certificate. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Spoof player parameter | Adds options to spoof player parameter to allow playback. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| GmsCore support | Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Return YouTube Dislike | Adds an option to show the dislike count of videos using the Return YouTube Dislike API. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Return YouTube Username | Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Settings for YouTube Music | Applies mandatory patches to implement ReVanced Extended settings into the application. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| SponsorBlock | Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Video playback | Adds options to customize settings related to video playback, such as default video quality and playback speed. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Custom branding name for Reddit | Changes the Reddit app name to the name specified in patch options. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Change package name | Changes the package name for Reddit to the name specified in patch options. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Hide recommended communities shelf | Adds an option to hide the recommended communities shelves in subreddits. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Hide navigation buttons | Adds options to hide buttons in the navigation bar. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Premium icon | Unlocks premium app icons. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Hide Recently Visited shelf | Adds an option to hide the Recently Visited shelf in the sidebar. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Disable screenshot popup | Adds an option to disable the popup that appears when taking a screenshot. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Remove subreddit dialog | Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Open links directly | Adds an option to skip over redirection URLs in external links. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Open links externally | Adds an option to always open links in your browser instead of the in-app browser. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Settings for Reddit | Applies mandatory patches to implement ReVanced Extended settings into the application. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Alternative thumbnails | Adds options to replace video thumbnails using the DeArrow API or image captures from the video. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide feed components | Adds options to hide components related to feeds. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide feed flyout menu | Adds the ability to hide feed flyout menu components using a custom filter. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable forced auto audio tracks | Adds an option to disable audio tracks from being automatically enabled. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hook download actions | Adds support to download videos with an external downloader app using the in-app download button. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Change form factor | Adds an option to change the UI appearance to a phone, tablet, or automotive device. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Change live ring click action | Adds an option to open the channel instead of the live stream when clicking on the live ring. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Enable gradient loading screen | Adds an option to enable the gradient loading screen. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hook YouTube Music actions | Adds support for opening music in RVX Music using the in-app YouTube Music button. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Snack bar components | Adds options to hide or change components related to the snack bar. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable splash animation | Adds an option to disable the splash animation on app startup. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Toolbar components | Adds options to hide or change components located on the toolbar, such as the search bar, header, and toolbar buttons. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable layout updates | Adds an option to disable layout updates by server. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Custom Shorts action buttons | Changes, at compile time, the icon of the action buttons of the Shorts player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Custom branding icon for YouTube | Changes the YouTube app icon to the icon specified in patch options. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Custom branding name for YouTube | Changes the YouTube app name to the name specified in patch options. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide Shorts dimming | Removes, at compile time, the dimming effect at the top and bottom of Shorts videos. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Custom double tap length | Adds Double-tap to seek values that are specified in patch options. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Custom header for YouTube | Applies a custom header in the top left corner within the app. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Force hide player buttons background | Removes, at compile time, the dark background surrounding the video player controls. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide shortcuts | Remove, at compile time, the app shortcuts that appears when the app icon is long pressed. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| MaterialYou | Applies the MaterialYou theme for Android 12+ devices. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Theme | Changes the app's themes to the values specified in patch options. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Translations for YouTube | Add translations or remove string resources. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Visual preferences icons for YouTube | Adds icons to specific preferences in the settings. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide accessibility controls dialog | Removes, at compile time, accessibility controls dialog 'Turn on accessibility controls for the video player?'. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Bypass URL redirects | Adds an option to bypass URL redirects and open the original URL directly. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide action buttons | Adds options to hide action buttons under videos. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Ambient mode control | Adds options to disable Ambient mode and to bypass Ambient mode restrictions. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide player buttons | Adds options to hide buttons in the video player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide comments components | Adds options to hide components related to comments. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Description components | Adds options to hide and disable description components. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide player flyout menu | Adds options to hide player flyout menu components. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Change player flyout menu toggles | Adds an option to use text toggles instead of switch toggles within the additional settings menu. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Fullscreen components | Adds options to hide or change components related to fullscreen. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable haptic feedback | Adds options to disable haptic feedback when swiping in the video player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Miniplayer | Adds options to change the in-app minimized player, and if patching target 19.16+ adds options to use modern miniplayers. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable resuming Miniplayer on startup | Adds an option to disable the Miniplayer 'Continue watching' from resuming on app startup. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Overlay buttons | Adds options to display useful overlay buttons in the video player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Seekbar components | Adds options to hide or change components related to the seekbar. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Shorts components | Adds options to hide or change components related to YouTube Shorts. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable resuming Shorts on startup | Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Swipe controls | Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Spoof streaming data | Adds options to spoof the streaming data to allow playback. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Settings for YouTube | Applies mandatory patches to implement ReVanced Extended settings into the application. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 
 </details>
 
@@ -1424,560 +306,119 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<ins>**Name:**</ins> Spoof Wi-Fi connection  
-<ins>**Description:**</ins> Spoofs an existing Wi-Fi connection.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable edge-to-edge display  
-<ins>**Description:**</ins> Disable forced edge-to-edge display on Android 15+ by changing the app's target SDK version. This patch does not work if the app is installed by mounting.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Change version code  
-<ins>**Description:**</ins> Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide account components  
-<ins>**Description:**</ins> Adds options to hide components related to the account menu.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Hide action bar components  
-<ins>**Description:**</ins> Adds options to hide action bar components and replace the offline download button with an external download button.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Hide ads  
-<ins>**Description:**</ins> Adds options to hide ads.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Flyout menu components  
-<ins>**Description:**</ins> Adds options to hide or change flyout menu components.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Disable forced auto captions  
-<ins>**Description:**</ins> Adds an option to disable captions from being automatically enabled.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide layout components  
-<ins>**Description:**</ins> Adds options to hide general layout components.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Remove viewer discretion dialog  
-<ins>**Description:**</ins> Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Enable landscape mode  
-<ins>**Description:**</ins> Adds an option to enable landscape mode when rotating the screen on phones.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Restore old style library shelf  
-<ins>**Description:**</ins> Adds an option to return the Library tab to the old style.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Disable dislike redirection  
-<ins>**Description:**</ins> Adds an option to disable redirection to the next track when clicking the Dislike button.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Spoof app version  
-<ins>**Description:**</ins> Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Change start page  
-<ins>**Description:**</ins> Adds an option to set which page the app opens in instead of the homepage.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Custom branding icon for YouTube Music  
-<ins>**Description:**</ins> Changes the YouTube Music app icon to the icon specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Custom branding name for YouTube Music  
-<ins>**Description:**</ins> Changes the YouTube Music app name to the name specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Custom header for YouTube Music  
-<ins>**Description:**</ins> Applies a custom header in the top left corner within the app.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Hide overlay filter  
-<ins>**Description:**</ins> Removes, at compile time, the dark overlay that appears when player flyout menus are open.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Hide player overlay filter  
-<ins>**Description:**</ins> Removes, at compile time, the dark overlay that appears when single-tapping in the player.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Dark theme  
-<ins>**Description:**</ins> Changes the app's dark theme to the values specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Translations for YouTube Music  
-<ins>**Description:**</ins> Add translations or remove string resources.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Visual preferences icons for YouTube Music  
-<ins>**Description:**</ins> Adds icons to specific preferences in the settings.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Disable music video in album  
-<ins>**Description:**</ins> Adds option to redirect music videos from albums for non-premium users.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Remove background playback restrictions  
-<ins>**Description:**</ins> Removes restrictions on background playback, including for music and kids videos.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Bitrate default value  
-<ins>**Description:**</ins> Sets the audio quality to 'Always High' when you first install the app.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Enable OPUS codec  
-<ins>**Description:**</ins> Adds an option to enable the OPUS audio codec if the player response includes it.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Enable debug logging  
-<ins>**Description:**</ins> Adds an option for debugging and exporting RVX logs to the clipboard.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Disable DRC audio  
-<ins>**Description:**</ins> Adds an option to disable DRC (Dynamic Range Compression) audio.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Disable QUIC protocol  
-<ins>**Description:**</ins> Adds an option to disable CronetEngine's QUIC protocol.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Change share sheet  
-<ins>**Description:**</ins> Adds an option to change the in-app share sheet to the system share sheet.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Disable Cairo splash animation  
-<ins>**Description:**</ins> Adds an option to disable Cairo splash animation.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 7.06.54, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Bypass image region restrictions  
-<ins>**Description:**</ins> Adds an option to use a different host for static images, so that images blocked in some countries can be received.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Sanitize sharing links  
-<ins>**Description:**</ins> Adds an option to sanitize sharing links by removing tracking query parameters.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Watch history  
-<ins>**Description:**</ins> Adds an option to change the domain of the watch history or check its status.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Navigation bar components  
-<ins>**Description:**</ins> Adds options to hide or change components related to the navigation bar.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Player components  
-<ins>**Description:**</ins> Adds options to hide or change components related to the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Certificate spoof  
-<ins>**Description:**</ins> Enables YouTube Music to work with Android Auto by spoofing the YouTube Music certificate.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> Spoof player parameter  
-<ins>**Description:**</ins> Adds options to spoof player parameter to allow playback.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> GmsCore support  
-<ins>**Description:**</ins> Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Return YouTube Dislike  
-<ins>**Description:**</ins> Adds an option to show the dislike count of videos using the Return YouTube Dislike API.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Return YouTube Username  
-<ins>**Description:**</ins> Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Settings for YouTube Music  
-<ins>**Description:**</ins> Applies mandatory patches to implement ReVanced Extended settings into the application.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53  
-
-<ins>**Name:**</ins> SponsorBlock  
-<ins>**Description:**</ins> Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Video playback  
-<ins>**Description:**</ins> Adds options to customize settings related to video playback, such as default video quality and playback speed.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Custom branding name for Reddit  
-<ins>**Description:**</ins> Changes the Reddit app name to the name specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Change package name  
-<ins>**Description:**</ins> Changes the package name for Reddit to the name specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Hide recommended communities shelf  
-<ins>**Description:**</ins> Adds an option to hide the recommended communities shelves in subreddits.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Hide navigation buttons  
-<ins>**Description:**</ins> Adds options to hide buttons in the navigation bar.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Premium icon  
-<ins>**Description:**</ins> Unlocks premium app icons.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Hide Recently Visited shelf  
-<ins>**Description:**</ins> Adds an option to hide the Recently Visited shelf in the sidebar.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Disable screenshot popup  
-<ins>**Description:**</ins> Adds an option to disable the popup that appears when taking a screenshot.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Remove subreddit dialog  
-<ins>**Description:**</ins> Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Open links directly  
-<ins>**Description:**</ins> Adds an option to skip over redirection URLs in external links.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Open links externally  
-<ins>**Description:**</ins> Adds an option to always open links in your browser instead of the in-app browser.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Settings for Reddit  
-<ins>**Description:**</ins> Applies mandatory patches to implement ReVanced Extended settings into the application.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> 2024.17.0, 2025.05.1, 2025.12.1  
-
-<ins>**Name:**</ins> Lyrics search  
-<ins>**Description:**</ins> Displays a "Search Lyrics" panel in the Main Activity that searches for lyrics on Google, and song meanings on Songtell. The activity is set to SpotifyMainActivity, so the "Search Lyrics" panel won't be shown in NowPlayingActivity (Player view) or possibly other activities.  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Custom branding name for Spotify  
-<ins>**Description:**</ins> Changes the Spotify app name to the name specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide Create button  
-<ins>**Description:**</ins> Hides the "Create" button in the navigation bar.  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Custom theme  
-<ins>**Description:**</ins> Applies a custom theme (defaults to amoled black)  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock Premium  
-<ins>**Description:**</ins> Unlocks Spotify Premium features. Server-sided features like downloading songs are still locked.  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Spoof client  
-<ins>**Description:**</ins> Spoofs the client to fix various functions of the app.  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Fix Facebook login  
-<ins>**Description:**</ins> Fix logging in with Facebook when the app is patched by always opening the login in a web browser window.  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Change lyrics provider  
-<ins>**Description:**</ins> Changes the lyrics provider to a custom one.  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Fix third party launchers widgets  
-<ins>**Description:**</ins> Fixes Spotify widgets not working in third party launchers, like Nova Launcher.  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Alternative thumbnails  
-<ins>**Description:**</ins> Adds options to replace video thumbnails using the DeArrow API or image captures from the video.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide feed components  
-<ins>**Description:**</ins> Adds options to hide components related to feeds.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide feed flyout menu  
-<ins>**Description:**</ins> Adds the ability to hide feed flyout menu components using a custom filter.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Disable forced auto audio tracks  
-<ins>**Description:**</ins> Adds an option to disable audio tracks from being automatically enabled.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hook download actions  
-<ins>**Description:**</ins> Adds support to download videos with an external downloader app using the in-app download button.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Change form factor  
-<ins>**Description:**</ins> Adds an option to change the UI appearance to a phone, tablet, or automotive device.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Change live ring click action  
-<ins>**Description:**</ins> Adds an option to open the channel instead of the live stream when clicking on the live ring.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Enable gradient loading screen  
-<ins>**Description:**</ins> Adds an option to enable the gradient loading screen.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hook YouTube Music actions  
-<ins>**Description:**</ins> Adds support for opening music in RVX Music using the in-app YouTube Music button.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Snack bar components  
-<ins>**Description:**</ins> Adds options to hide or change components related to the snack bar.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Disable splash animation  
-<ins>**Description:**</ins> Adds an option to disable the splash animation on app startup.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Toolbar components  
-<ins>**Description:**</ins> Adds options to hide or change components located on the toolbar, such as the search bar, header, and toolbar buttons.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Disable layout updates  
-<ins>**Description:**</ins> Adds an option to disable layout updates by server.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Custom Shorts action buttons  
-<ins>**Description:**</ins> Changes, at compile time, the icon of the action buttons of the Shorts player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Custom branding icon for YouTube  
-<ins>**Description:**</ins> Changes the YouTube app icon to the icon specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Custom branding name for YouTube  
-<ins>**Description:**</ins> Changes the YouTube app name to the name specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide Shorts dimming  
-<ins>**Description:**</ins> Removes, at compile time, the dimming effect at the top and bottom of Shorts videos.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Custom double tap length  
-<ins>**Description:**</ins> Adds Double-tap to seek values that are specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Custom header for YouTube  
-<ins>**Description:**</ins> Applies a custom header in the top left corner within the app.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Force player buttons background  
-<ins>**Description:**</ins> Changes the dark background surrounding the video player controls at compile time.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide shortcuts  
-<ins>**Description:**</ins> Remove, at compile time, the app shortcuts that appears when the app icon is long pressed.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> MaterialYou  
-<ins>**Description:**</ins> Applies the MaterialYou theme for Android 12+ devices.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Theme  
-<ins>**Description:**</ins> Changes the app's themes to the values specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Translations for YouTube  
-<ins>**Description:**</ins> Add translations or remove string resources.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Visual preferences icons for YouTube  
-<ins>**Description:**</ins> Adds icons to specific preferences in the settings.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide accessibility controls dialog  
-<ins>**Description:**</ins> Removes, at compile time, accessibility controls dialog 'Turn on accessibility controls for the video player?'.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Bypass URL redirects  
-<ins>**Description:**</ins> Adds an option to bypass URL redirects and open the original URL directly.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Spoof watch history  
-<ins>**Description:**</ins> Adds an option to change the domain of the watch history or check its status.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide action buttons  
-<ins>**Description:**</ins> Adds options to hide action buttons under videos.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Ambient mode control  
-<ins>**Description:**</ins> Adds options to disable Ambient mode and to bypass Ambient mode restrictions.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide player buttons  
-<ins>**Description:**</ins> Adds options to hide buttons in the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide comments components  
-<ins>**Description:**</ins> Adds options to hide components related to comments.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Description components  
-<ins>**Description:**</ins> Adds options to hide and disable description components.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Hide player flyout menu  
-<ins>**Description:**</ins> Adds options to hide player flyout menu components.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Change player flyout menu toggles  
-<ins>**Description:**</ins> Adds an option to use text toggles instead of switch toggles within the additional settings menu.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Fullscreen components  
-<ins>**Description:**</ins> Adds options to hide or change components related to fullscreen.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Disable haptic feedback  
-<ins>**Description:**</ins> Adds options to disable haptic feedback when swiping in the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Miniplayer  
-<ins>**Description:**</ins> Adds options to change the in-app minimized player, and if patching target 19.16+ adds options to use modern miniplayers.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Disable resuming Miniplayer on startup  
-<ins>**Description:**</ins> Adds an option to disable the Miniplayer 'Continue watching' from resuming on app startup.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Overlay buttons  
-<ins>**Description:**</ins> Adds options to display useful overlay buttons in the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Seekbar components  
-<ins>**Description:**</ins> Adds options to hide or change components related to the seekbar.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Shorts components  
-<ins>**Description:**</ins> Adds options to hide or change components related to YouTube Shorts.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Disable resuming Shorts on startup  
-<ins>**Description:**</ins> Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Swipe controls  
-<ins>**Description:**</ins> Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Spoof streaming data  
-<ins>**Description:**</ins> Adds options to spoof the streaming data to allow playback.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
-
-<ins>**Name:**</ins> Settings for YouTube  
-<ins>**Description:**</ins> Applies mandatory patches to implement ReVanced Extended settings into the application.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53  
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| Spoof Wi-Fi connection | Spoofs an existing Wi-Fi connection. | Universal | All versions |
+| Disable edge-to-edge display | Disable forced edge-to-edge display on Android 15+ by changing the app's target SDK version. This patch does not work if the app is installed by mounting. | Universal | All versions |
+| Change version code | Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set. | Universal | All versions |
+| Hide account components | Adds options to hide components related to the account menu. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Hide action bar components | Adds options to hide action bar components and replace the offline download button with an external download button. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Hide ads | Adds options to hide ads. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Flyout menu components | Adds options to hide or change flyout menu components. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Disable forced auto captions | Adds an option to disable captions from being automatically enabled. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide layout components | Adds options to hide general layout components. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Remove viewer discretion dialog | Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Enable landscape mode | Adds an option to enable landscape mode when rotating the screen on phones. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Restore old style library shelf | Adds an option to return the Library tab to the old style. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Disable dislike redirection | Adds an option to disable redirection to the next track when clicking the Dislike button. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Spoof app version | Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Change start page | Adds an option to set which page the app opens in instead of the homepage. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Custom branding icon for YouTube Music | Changes the YouTube Music app icon to the icon specified in patch options. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Custom branding name for YouTube Music | Changes the YouTube Music app name to the name specified in patch options. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Custom header for YouTube Music | Applies a custom header in the top left corner within the app. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Hide overlay filter | Removes, at compile time, the dark overlay that appears when player flyout menus are open. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Hide player overlay filter | Removes, at compile time, the dark overlay that appears when single-tapping in the player. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Dark theme | Changes the app's dark theme to the values specified in patch options. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Translations for YouTube Music | Add translations or remove string resources. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Visual preferences icons for YouTube Music | Adds icons to specific preferences in the settings. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Disable music video in album | Adds option to redirect music videos from albums for non-premium users. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Remove background playback restrictions | Removes restrictions on background playback, including for music and kids videos. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Bitrate default value | Sets the audio quality to 'Always High' when you first install the app. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Enable OPUS codec | Adds an option to enable the OPUS audio codec if the player response includes it. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Enable debug logging | Adds an option for debugging and exporting RVX logs to the clipboard. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable DRC audio | Adds an option to disable DRC (Dynamic Range Compression) audio. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Disable QUIC protocol | Adds an option to disable CronetEngine's QUIC protocol. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Change share sheet | Adds an option to change the in-app share sheet to the system share sheet. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable Cairo splash animation | Adds an option to disable Cairo splash animation. | com.google.android.apps.youtube.music | 7.06.54, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Bypass image region restrictions | Adds an option to use a different host for static images, so that images blocked in some countries can be received. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Sanitize sharing links | Adds an option to sanitize sharing links by removing tracking query parameters. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Watch history | Adds an option to change the domain of the watch history or check its status. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Navigation bar components | Adds options to hide or change components related to the navigation bar. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Player components | Adds options to hide or change components related to the video player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Certificate spoof | Enables YouTube Music to work with Android Auto by spoofing the YouTube Music certificate. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Spoof player parameter | Adds options to spoof player parameter to allow playback. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| GmsCore support | Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Return YouTube Dislike | Adds an option to show the dislike count of videos using the Return YouTube Dislike API. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Return YouTube Username | Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Settings for YouTube Music | Applies mandatory patches to implement ReVanced Extended settings into the application. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| SponsorBlock | Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Video playback | Adds options to customize settings related to video playback, such as default video quality and playback speed. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Custom branding name for Reddit | Changes the Reddit app name to the name specified in patch options. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Change package name | Changes the package name for Reddit to the name specified in patch options. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Hide recommended communities shelf | Adds an option to hide the recommended communities shelves in subreddits. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Hide navigation buttons | Adds options to hide buttons in the navigation bar. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Premium icon | Unlocks premium app icons. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Hide Recently Visited shelf | Adds an option to hide the Recently Visited shelf in the sidebar. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Disable screenshot popup | Adds an option to disable the popup that appears when taking a screenshot. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Remove subreddit dialog | Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Open links directly | Adds an option to skip over redirection URLs in external links. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Open links externally | Adds an option to always open links in your browser instead of the in-app browser. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Settings for Reddit | Applies mandatory patches to implement ReVanced Extended settings into the application. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Lyrics search | Displays a "Search Lyrics" panel in the Main Activity that searches for lyrics on Google, and song meanings on Songtell. The activity is set to SpotifyMainActivity, so the "Search Lyrics" panel won't be shown in NowPlayingActivity (Player view) or possibly other activities. | com.spotify.music | All versions |
+| Custom branding name for Spotify | Changes the Spotify app name to the name specified in patch options. | com.spotify.music | All versions |
+| Hide Create button | Hides the "Create" button in the navigation bar. | com.spotify.music | All versions |
+| Custom theme | Applies a custom theme (defaults to amoled black) | com.spotify.music | All versions |
+| Unlock Premium | Unlocks Spotify Premium features. Server-sided features like downloading songs are still locked. | com.spotify.music | All versions |
+| Spoof client | Spoofs the client to fix various functions of the app. | com.spotify.music | All versions |
+| Fix Facebook login | Fix logging in with Facebook when the app is patched by always opening the login in a web browser window. | com.spotify.music | All versions |
+| Change lyrics provider | Changes the lyrics provider to a custom one. | com.spotify.music | All versions |
+| Fix third party launchers widgets | Fixes Spotify widgets not working in third party launchers, like Nova Launcher. | com.spotify.music | All versions |
+| Alternative thumbnails | Adds options to replace video thumbnails using the DeArrow API or image captures from the video. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide feed components | Adds options to hide components related to feeds. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide feed flyout menu | Adds the ability to hide feed flyout menu components using a custom filter. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable forced auto audio tracks | Adds an option to disable audio tracks from being automatically enabled. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hook download actions | Adds support to download videos with an external downloader app using the in-app download button. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Change form factor | Adds an option to change the UI appearance to a phone, tablet, or automotive device. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Change live ring click action | Adds an option to open the channel instead of the live stream when clicking on the live ring. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Enable gradient loading screen | Adds an option to enable the gradient loading screen. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hook YouTube Music actions | Adds support for opening music in RVX Music using the in-app YouTube Music button. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Snack bar components | Adds options to hide or change components related to the snack bar. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable splash animation | Adds an option to disable the splash animation on app startup. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Toolbar components | Adds options to hide or change components located on the toolbar, such as the search bar, header, and toolbar buttons. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable layout updates | Adds an option to disable layout updates by server. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Custom Shorts action buttons | Changes, at compile time, the icon of the action buttons of the Shorts player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Custom branding icon for YouTube | Changes the YouTube app icon to the icon specified in patch options. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Custom branding name for YouTube | Changes the YouTube app name to the name specified in patch options. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide Shorts dimming | Removes, at compile time, the dimming effect at the top and bottom of Shorts videos. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Custom double tap length | Adds Double-tap to seek values that are specified in patch options. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Custom header for YouTube | Applies a custom header in the top left corner within the app. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Force player buttons background | Changes the dark background surrounding the video player controls at compile time. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide shortcuts | Remove, at compile time, the app shortcuts that appears when the app icon is long pressed. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| MaterialYou | Applies the MaterialYou theme for Android 12+ devices. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Theme | Changes the app's themes to the values specified in patch options. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Translations for YouTube | Add translations or remove string resources. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Visual preferences icons for YouTube | Adds icons to specific preferences in the settings. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide accessibility controls dialog | Removes, at compile time, accessibility controls dialog 'Turn on accessibility controls for the video player?'. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Bypass URL redirects | Adds an option to bypass URL redirects and open the original URL directly. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Spoof watch history | Adds an option to change the domain of the watch history or check its status. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide action buttons | Adds options to hide action buttons under videos. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Ambient mode control | Adds options to disable Ambient mode and to bypass Ambient mode restrictions. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide player buttons | Adds options to hide buttons in the video player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide comments components | Adds options to hide components related to comments. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Description components | Adds options to hide and disable description components. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide player flyout menu | Adds options to hide player flyout menu components. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Change player flyout menu toggles | Adds an option to use text toggles instead of switch toggles within the additional settings menu. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Fullscreen components | Adds options to hide or change components related to fullscreen. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable haptic feedback | Adds options to disable haptic feedback when swiping in the video player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Miniplayer | Adds options to change the in-app minimized player, and if patching target 19.16+ adds options to use modern miniplayers. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable resuming Miniplayer on startup | Adds an option to disable the Miniplayer 'Continue watching' from resuming on app startup. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Overlay buttons | Adds options to display useful overlay buttons in the video player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Seekbar components | Adds options to hide or change components related to the seekbar. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Shorts components | Adds options to hide or change components related to YouTube Shorts. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable resuming Shorts on startup | Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Swipe controls | Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Spoof streaming data | Adds options to spoof the streaming data to allow playback. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Settings for YouTube | Applies mandatory patches to implement ReVanced Extended settings into the application. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 
 </details>
 
@@ -2013,80 +454,23 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<ins>**Name:**</ins> Disable mobile ads  
-<ins>**Description:**</ins> Disables banner, interstitial, and other ad formats.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Block ads, trackers, and analytics  
-<ins>**Description:**</ins> Blocks ads, trackers, analytics, and unwanted content in apps and games using a hosts file.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Bypass signature verification checks  
-<ins>**Description:**</ins> Bypasses the signature verification checks when the app starts up. It is recommended to use the unmodified app to work properly.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Deactivate Firebase Analytics  
-<ins>**Description:**</ins> Deactivates Firebase Analytics and removes its associated broadcast receivers and services.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Deactivate Firebase Performance Monitoring  
-<ins>**Description:**</ins> Deactivates the collection of performance data on app start up time, network requests, and other related metrics.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Spoof Advertising ID  
-<ins>**Description:**</ins> Spoofs the device's advertising ID with a string of zeros.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove internet permission  
-<ins>**Description:**</ins> Removes unnecessary internet permission from apps that can still work without internet access.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Change package name  
-<ins>**Description:**</ins> Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable metrics collection in WebView  
-<ins>**Description:**</ins> Disables the collection of diagnostic data or usage statistics that are uploaded to Google.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable Google Safe Browsing in WebView  
-<ins>**Description:**</ins> Disables the Google Safe Browsing checks in WebView. This doesn't apply to WebView within the SDK Runtime.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Apply workaround  
-<ins>**Description:**</ins> Applies workaround for patcher to fix missing or unsupported resources. This only applies to versions 14.1.x.x and later.  
-<ins>**Compatible Apps:**</ins> com.google.android.inputmethod.latin  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Always-incognito mode for Gboard  
-<ins>**Description:**</ins> Always opens Gboard in incognito mode to disable typing history collection and personalization.  
-<ins>**Compatible Apps:**</ins> com.google.android.inputmethod.latin  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Enable OCR feature for Gboard  
-<ins>**Description:**</ins> Enables OCR feature to extract text from images and insert it into text fields.  
-<ins>**Compatible Apps:**</ins> com.google.android.inputmethod.latin  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Enable Undo feature for Gboard  
-<ins>**Description:**</ins> Enables undo feature to quickly undo or correct typing mistakes.  
-<ins>**Compatible Apps:**</ins> com.google.android.inputmethod.latin  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove ads, annoyances, and telemetry  
-<ins>**Description:**</ins> Removes ads, annoyances, and telemetry from Home, Popular, Watch, Latest, All, Custom feeds, Search, and Subreddits, including comments.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> all versions  
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| Disable mobile ads | Disables banner, interstitial, and other ad formats. | Universal | All versions |
+| Block ads, trackers, and analytics | Blocks ads, trackers, analytics, and unwanted content in apps and games using a hosts file. | Universal | All versions |
+| Bypass signature verification checks | Bypasses the signature verification checks when the app starts up. It is recommended to use the unmodified app to work properly. | Universal | All versions |
+| Deactivate Firebase Analytics | Deactivates Firebase Analytics and removes its associated broadcast receivers and services. | Universal | All versions |
+| Deactivate Firebase Performance Monitoring | Deactivates the collection of performance data on app start up time, network requests, and other related metrics. | Universal | All versions |
+| Spoof Advertising ID | Spoofs the device's advertising ID with a string of zeros. | Universal | All versions |
+| Remove internet permission | Removes unnecessary internet permission from apps that can still work without internet access. | Universal | All versions |
+| Change package name | Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues. | Universal | All versions |
+| Disable metrics collection in WebView | Disables the collection of diagnostic data or usage statistics that are uploaded to Google. | Universal | All versions |
+| Disable Google Safe Browsing in WebView | Disables the Google Safe Browsing checks in WebView. This doesn't apply to WebView within the SDK Runtime. | Universal | All versions |
+| Apply workaround | Applies workaround for patcher to fix missing or unsupported resources. This only applies to versions 14.1.x.x and later. | com.google.android.inputmethod.latin | All versions |
+| Always-incognito mode for Gboard | Always opens Gboard in incognito mode to disable typing history collection and personalization. | com.google.android.inputmethod.latin | All versions |
+| Enable OCR feature for Gboard | Enables OCR feature to extract text from images and insert it into text fields. | com.google.android.inputmethod.latin | All versions |
+| Enable Undo feature for Gboard | Enables undo feature to quickly undo or correct typing mistakes. | com.google.android.inputmethod.latin | All versions |
+| Remove ads, annoyances, and telemetry | Removes ads, annoyances, and telemetry from Home, Popular, Watch, Latest, All, Custom feeds, Search, and Subreddits, including comments. | com.reddit.frontpage | All versions |
 
 </details>
 
@@ -2095,80 +479,23 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<ins>**Name:**</ins> Change package name  
-<ins>**Description:**</ins> Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide Ads  
-<ins>**Description:**</ins> Hides ads in stories, discover, profile, etc. An ad can still appear once when refreshing the home feed.  
-<ins>**Compatible Apps:**</ins> com.instagram.android, com.instagram.barcelona  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Selectable Bio  
-<ins>**Description:**</ins> Makes user's bio selectable.  
-<ins>**Compatible Apps:**</ins> com.instagram.android  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Enable Developer Menu  
-<ins>**Description:**</ins> Enables the developer menu.  
-<ins>**Compatible Apps:**</ins> com.instagram.android  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Max Media Quality  
-<ins>**Description:**</ins> Enable max media quality.  
-<ins>**Compatible Apps:**</ins> com.instagram.android  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock Pro  
-<ins>**Description:**</ins> Unlock client-side Pro features  
-<ins>**Compatible Apps:**</ins> org.telegram.messenger, org.telegram.messenger.web, uz.unnarsx.cherrygram  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide sponsored ads  
-<ins>**Description:**</ins> Hides sponsored ads in channels  
-<ins>**Compatible Apps:**</ins> org.telegram.messenger, org.telegram.messenger.web, uz.unnarsx.cherrygram  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Bypass Integrity  
-<ins>**Description:**</ins> Bypass integrity check to allow login  
-<ins>**Compatible Apps:**</ins> org.telegram.messenger, org.telegram.messenger.web, uz.unnarsx.cherrygram  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable Auto Update  
-<ins>**Description:**</ins> Disable Auto Update  
-<ins>**Compatible Apps:**</ins> org.telegram.messenger, org.telegram.messenger.web, uz.unnarsx.cherrygram  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Download Speed Boost  
-<ins>**Description:**</ins> Boosts download speed  
-<ins>**Compatible Apps:**</ins> org.telegram.messenger, org.telegram.messenger.web, uz.unnarsx.cherrygram  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide typing indicator  
-<ins>**Description:**</ins> Hides your typing indicator from other users  
-<ins>**Compatible Apps:**</ins> org.telegram.messenger, org.telegram.messenger.web, uz.unnarsx.cherrygram  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide subtitle toast  
-<ins>**Description:**</ins> Hides the subtitle toast when toggling subtitles on/off and when changing subtitles  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube, app.revanced.android.youtube  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Large pause button  
-<ins>**Description:**</ins> Adds a large pause button to the player  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube, app.revanced.android.youtube  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Deobfuscate Smob  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable signature check  
-<ins>**Description:**</ins> Disables the signature check that causes the app to crash on startup.  
-<ins>**Compatible Apps:**</ins> com.instagram.android  
-<ins>**Compatible Versions:**</ins> 378.0.0.52.68  
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| Change package name | Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues. | Universal | All versions |
+| Hide Ads | Hides ads in stories, discover, profile, etc. An ad can still appear once when refreshing the home feed. | com.instagram.android, com.instagram.barcelona | All versions |
+| Selectable Bio | Makes user's bio selectable. | com.instagram.android | All versions |
+| Enable Developer Menu | Enables the developer menu. | com.instagram.android | All versions |
+| Max Media Quality | Enable max media quality. | com.instagram.android | All versions |
+| Unlock Pro | Unlock client-side Pro features | org.telegram.messenger, org.telegram.messenger.web, uz.unnarsx.cherrygram | All versions |
+| Hide sponsored ads | Hides sponsored ads in channels | org.telegram.messenger, org.telegram.messenger.web, uz.unnarsx.cherrygram | All versions |
+| Bypass Integrity | Bypass integrity check to allow login | org.telegram.messenger, org.telegram.messenger.web, uz.unnarsx.cherrygram | All versions |
+| Disable Auto Update | Disable Auto Update | org.telegram.messenger, org.telegram.messenger.web, uz.unnarsx.cherrygram | All versions |
+| Download Speed Boost | Boosts download speed | org.telegram.messenger, org.telegram.messenger.web, uz.unnarsx.cherrygram | All versions |
+| Hide typing indicator | Hides your typing indicator from other users | org.telegram.messenger, org.telegram.messenger.web, uz.unnarsx.cherrygram | All versions |
+| Hide subtitle toast | Hides the subtitle toast when toggling subtitles on/off and when changing subtitles | com.google.android.youtube, app.revanced.android.youtube | All versions |
+| Large pause button | Adds a large pause button to the player | com.google.android.youtube, app.revanced.android.youtube | All versions |
+| Deobfuscate Smob | None | Universal | All versions |
+| Disable signature check | Disables the signature check that causes the app to crash on startup. | com.instagram.android | 378.0.0.52.68 |
 
 </details>
 
@@ -2177,20 +504,11 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<ins>**Name:**</ins> Unlock FX Plus  
-<ins>**Description:**</ins> Unlock features like 'Web Access', 'Network' and 'FX Connect'.  
-<ins>**Compatible Apps:**</ins> nextapp.fx  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock prime  
-<ins>**Description:**</ins> Unlocks Nova Prime and all functions of the app.  
-<ins>**Compatible Apps:**</ins> com.teslacoilsw.launcher  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock trial  
-<ins>**Description:**</ins> Unlocks the trial version.  
-<ins>**Compatible Apps:**</ins> net.dinglisch.android.taskerm  
-<ins>**Compatible Versions:**</ins> all versions  
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| Unlock FX Plus | Unlock features like 'Web Access', 'Network' and 'FX Connect'. | nextapp.fx | All versions |
+| Unlock prime | Unlocks Nova Prime and all functions of the app. | com.teslacoilsw.launcher | All versions |
+| Unlock trial | Unlocks the trial version. | net.dinglisch.android.taskerm | All versions |
 
 </details>
 
@@ -2199,870 +517,181 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<ins>**Name:**</ins> Export all activities  
-<ins>**Description:**</ins> Makes all app activities exportable.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Spoof build info  
-<ins>**Description:**</ins> Spoof the information about the current build.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide mock location  
-<ins>**Description:**</ins> Prevents the app from knowing the device location is being mocked by a third party app.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Spoof SIM country  
-<ins>**Description:**</ins> Spoofs country information returned by the SIM card provider.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Spoof Wi-Fi connection  
-<ins>**Description:**</ins> Spoofs an existing Wi-Fi connection.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Enable Android debugging  
-<ins>**Description:**</ins> Enables Android debugging capabilities. This can slow down the app.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Export internal data documents provider  
-<ins>**Description:**</ins> Exports a documents provider that grants access to the internal data directory of this app to file managers and other apps that support the Storage Access Framework.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hex  
-<ins>**Description:**</ins> Replaces a hexadecimal patterns of bytes of files in an APK.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Predictive back gesture  
-<ins>**Description:**</ins> Enables the predictive back gesture introduced on Android 13.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Override certificate pinning  
-<ins>**Description:**</ins> Overrides certificate pinning, allowing to inspect traffic via a proxy.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Change package name  
-<ins>**Description:**</ins> Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove screen capture restriction  
-<ins>**Description:**</ins> Removes the restriction of capturing audio from apps that normally wouldn't allow it.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove screenshot restriction  
-<ins>**Description:**</ins> Removes the restriction of taking screenshots in apps that normally wouldn't allow it.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove share targets  
-<ins>**Description:**</ins> Removes share targets like directly sharing to a frequent contact.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Change version code  
-<ins>**Description:**</ins> Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Always allow deep-linking  
-<ins>**Description:**</ins> Open Amazon links, even if the app is not set to handle Amazon links.  
-<ins>**Compatible Apps:**</ins> com.amazon.mShop.android.shopping  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Pro unlock  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.backdrops.wallpapers  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove play limits  
-<ins>**Description:**</ins> Disables purchase nagging and playback limits of not purchased tracks.  
-<ins>**Compatible Apps:**</ins> com.bandcamp.android  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Bypass root checks  
-<ins>**Description:**</ins> Removes the restriction to use the app with root permissions or on a custom ROM.  
-<ins>**Compatible Apps:**</ins> it.ipzs.cieid  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable ads  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> io.syncapps.lemmy_sync  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Enable debug menu  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.duolingo  
-<ins>**Compatible Versions:**</ins> 5.158.4  
-
-<ins>**Name:**</ins> Hide 'Sponsored Stories'  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.facebook.katana  
-<ins>**Compatible Versions:**</ins> 490.0.0.63.82  
-
-<ins>**Name:**</ins> Hide story ads  
-<ins>**Description:**</ins> Hides the ads in the Facebook app stories.  
-<ins>**Compatible Apps:**</ins> com.facebook.katana  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove bootloader detection  
-<ins>**Description:**</ins> Removes the check for an unlocked bootloader.  
-<ins>**Compatible Apps:**</ins> at.gv.bmf.bmf2go  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove root detection  
-<ins>**Description:**</ins> Removes the check for root permissions and unlocked bootloader.  
-<ins>**Compatible Apps:**</ins> at.gv.bka.serviceportal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Enable CustomTabs  
-<ins>**Description:**</ins> Enables CustomTabs to open articles in your default browser.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.magazines  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> GmsCore support  
-<ins>**Description:**</ins> Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Spoof features  
-<ins>**Description:**</ins> Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.photos  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Restore hidden 'Back up while charging' toggle  
-<ins>**Description:**</ins> Restores a hidden toggle to only run backups when the device is charging.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.photos  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove device restrictions  
-<ins>**Description:**</ins> Removes restrictions from using the app on any device. Requires mounting patched app over original.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.recorder  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock pro  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> tv.trakt.trakt  
-<ins>**Compatible Versions:**</ins> 1.1.1  
-
-<ins>**Name:**</ins> Spoof signature  
-<ins>**Description:**</ins> Spoofs the signature of the app to fix various functions of the app.  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide ads  
-<ins>**Description:**</ins> Adds options to remove general ads.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Remove ads  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> net.binarymode.android.irplus  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable mandatory login  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.adobe.lrmobile  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock premium  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> io.yuka.android  
-<ins>**Compatible Versions:**</ins> 4.29  
-
-<ins>**Name:**</ins> Hide inbox ads  
-<ins>**Description:**</ins> Hides ads in inbox.  
-<ins>**Compatible Apps:**</ins> com.facebook.orca  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide inbox subtabs  
-<ins>**Description:**</ins> Hides Home and Channels tabs between active now tray and chats.  
-<ins>**Compatible Apps:**</ins> com.facebook.orca  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable switching emoji to sticker  
-<ins>**Description:**</ins> Disables switching from emoji to sticker search mode in message input field.  
-<ins>**Compatible Apps:**</ins> com.facebook.orca  
-<ins>**Compatible Versions:**</ins> 439.0.0.29.119  
-
-<ins>**Name:**</ins> Disable typing indicator  
-<ins>**Description:**</ins> Disables the indicator while typing a message.  
-<ins>**Compatible Apps:**</ins> com.facebook.orca  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Force English locale  
-<ins>**Description:**</ins> Forces wearable devices to use the English locale.  
-<ins>**Compatible Apps:**</ins> com.xiaomi.wearable  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Fix login  
-<ins>**Description:**</ins> Fixes login for uncertified Mi Fitness app  
-<ins>**Compatible Apps:**</ins> com.xiaomi.wearable  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide music video ads  
-<ins>**Description:**</ins> Hides ads that appear while listening to or streaming music videos, podcasts, or songs.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 7.16.53, 8.05.51  
-
-<ins>**Name:**</ins> Enable exclusive audio playback  
-<ins>**Description:**</ins> Enables the option to play audio without video.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 7.16.53, 8.05.51  
-
-<ins>**Name:**</ins> Permanent repeat  
-<ins>**Description:**</ins> Permanently remember your repeating preference even if the playlist ends or another track is played.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 7.16.53, 8.05.51  
-
-<ins>**Name:**</ins> Hide category bar  
-<ins>**Description:**</ins> Hides the category bar at the top of the homepage.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 7.16.53, 8.05.51  
-
-<ins>**Name:**</ins> Hide 'Get Music Premium' label  
-<ins>**Description:**</ins> Hides the "Get Music Premium" label from the account menu and settings.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 7.16.53, 8.05.51  
-
-<ins>**Name:**</ins> Remove upgrade button  
-<ins>**Description:**</ins> Removes the upgrade tab from the pivot bar.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 7.16.53, 8.05.51  
-
-<ins>**Name:**</ins> Bypass certificate checks  
-<ins>**Description:**</ins> Bypasses certificate checks which prevent YouTube Music from working on Android Auto.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 7.16.53, 8.05.51  
-
-<ins>**Name:**</ins> Remove background playback restrictions  
-<ins>**Description:**</ins> Removes restrictions on background playback, including playing kids videos in the background.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Spoof client  
-<ins>**Description:**</ins> Restores functionality of the app by using custom client ID.  
-<ins>**Compatible Apps:**</ins> com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove broadcasts restriction  
-<ins>**Description:**</ins> Enables starting/stopping NetGuard via broadcasts.  
-<ins>**Compatible Apps:**</ins> eu.faircode.netguard  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Spoof certificate  
-<ins>**Description:**</ins> Spoofs the X-Android-Cert header to allow push messages.  
-<ins>**Compatible Apps:**</ins> nl.sanomamedia.android.nu  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Fix crash  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> de.simon.openinghours  
-<ins>**Compatible Versions:**</ins> 1.0  
-
-<ins>**Name:**</ins> Spoof device ID  
-<ins>**Description:**</ins> Spoofs device ID to mitigate manual bans by developers.  
-<ins>**Compatible Apps:**</ins> com.microblink.photomath  
-<ins>**Compatible Versions:**</ins> 8.37.0  
-
-<ins>**Name:**</ins> Hide update popup  
-<ins>**Description:**</ins> Prevents the update popup from showing up.  
-<ins>**Compatible Apps:**</ins> com.microblink.photomath  
-<ins>**Compatible Versions:**</ins> 8.32.0  
-
-<ins>**Name:**</ins> Unlock plus  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.microblink.photomath  
-<ins>**Compatible Versions:**</ins> 8.37.0  
-
-<ins>**Name:**</ins> Spoof Android device ID  
-<ins>**Description:**</ins> Spoofs the Android device ID used by the app for account authentication.This can be used to copy the account to another device.  
-<ins>**Compatible Apps:**</ins> com.piccomaeurope.fr  
-<ins>**Compatible Versions:**</ins> 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2  
-
-<ins>**Name:**</ins> Disable tracking  
-<ins>**Description:**</ins> Disables tracking by replacing tracking URLs with example.com.  
-<ins>**Compatible Apps:**</ins> com.piccomaeurope.fr  
-<ins>**Compatible Versions:**</ins> 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2  
-
-<ins>**Name:**</ins> Hide purchase reminder  
-<ins>**Description:**</ins> Hides the popup that reminds you to purchase the app.  
-<ins>**Compatible Apps:**</ins> com.rarlab.rar  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Spoof user agent  
-<ins>**Description:**</ins> Restores functionality of the app by using custom user agent.  
-<ins>**Compatible Apps:**</ins> com.rubenmayayo.reddit  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hook exception handler  
-<ins>**Description:**</ins> Hook the exception handler in Boost. Don't enable except for development purposes  
-<ins>**Compatible Apps:**</ins> com.rubenmayayo.reddit  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Fix missing audio in video downloads  
-<ins>**Description:**</ins> Fixes audio missing in videos downloaded from v.redd.it.  
-<ins>**Compatible Apps:**</ins> com.rubenmayayo.reddit  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Fix /s/ links  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Intercept HTTP requests  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.rubenmayayo.reddit  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Add archive links to context menu  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.rubenmayayo.reddit  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Automatically undelete Imgur images  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.rubenmayayo.reddit  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Automatically undelete Reddit content  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.rubenmayayo.reddit  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock subscription  
-<ins>**Description:**</ins> Unlocks the subscription feature but requires a custom client ID.  
-<ins>**Compatible Apps:**</ins> ml.docilealligator.infinityforreddit, ml.docilealligator.infinityforreddit.plus, ml.docilealligator.infinityforreddit.patreon  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable Sync for Lemmy bottom sheet  
-<ins>**Description:**</ins> Disables the bottom sheet at the startup that asks you to signup to "Sync for Lemmy".  
-<ins>**Compatible Apps:**</ins> com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev  
-<ins>**Compatible Versions:**</ins> v23.06.30-13:39  
-
-<ins>**Name:**</ins> Use /user/ endpoint  
-<ins>**Description:**</ins> Replaces the deprecated endpoint for viewing user profiles /u with /user, that used to fix a bug.  
-<ins>**Compatible Apps:**</ins> com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Fix video downloads  
-<ins>**Description:**</ins> Fixes a bug in Sync's MPD parser resulting in only the audio-track being saved.  
-<ins>**Compatible Apps:**</ins> com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable screenshot popup  
-<ins>**Description:**</ins> Disables the popup that shows up when taking a screenshot.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock premium Reddit icons  
-<ins>**Description:**</ins> Unlocks the premium Reddit icons.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Sanitize sharing links  
-<ins>**Description:**</ins> Removes the tracking query parameters from links before they are shared.  
-<ins>**Compatible Apps:**</ins> com.twitter.android  
-<ins>**Compatible Versions:**</ins> 10.84.0-release.0, 10.60.0-release.0, 10.48.0-release.0  
-
-<ins>**Name:**</ins> Remove file size limit  
-<ins>**Description:**</ins> Allows opening files larger than 2 MB in the text editor.  
-<ins>**Compatible Apps:**</ins> pl.solidexplorer2  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove badge tab  
-<ins>**Description:**</ins> Removes the badge tab from the activity tab.  
-<ins>**Compatible Apps:**</ins> com.sony.songpal.mdr  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove notification badge  
-<ins>**Description:**</ins> Removes the red notification badge from the activity tab.  
-<ins>**Compatible Apps:**</ins> com.sony.songpal.mdr  
-<ins>**Compatible Versions:**</ins> 10.1.0  
-
-<ins>**Name:**</ins> Disable telemetry  
-<ins>**Description:**</ins> Disables SoundCloud's telemetry system.  
-<ins>**Compatible Apps:**</ins> com.soundcloud.android  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Enable offline sync  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.soundcloud.android  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Custom theme  
-<ins>**Description:**</ins> Applies a custom theme.  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Enable on demand  
-<ins>**Description:**</ins> Enables listening to songs on-demand, allowing to play any song from playlists, albums or artists without limitations. This does not remove ads.  
-<ins>**Compatible Apps:**</ins> com.spotify.lite  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock Spotify Premium  
-<ins>**Description:**</ins> Unlocks Spotify Premium features. Server-sided features like downloading songs are still locked.  
-<ins>**Compatible Apps:**</ins> com.spotify.music  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide offers tab  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> de.stocard.stocard  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide story bubbles  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> de.stocard.stocard  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock subscription features  
-<ins>**Description:**</ins> Unlocks "Routes", "Matched Runs" and "Segment Efforts".  
-<ins>**Compatible Apps:**</ins> com.strava  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable subscription suggestions  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.strava  
-<ins>**Compatible Versions:**</ins> 320.12  
-
-<ins>**Name:**</ins> Remove Google Play Integrity check  
-<ins>**Description:**</ins> Removes the Google Play Integrity check. With this it's possible to use SwissID on custom ROMS.If the device is rooted, root permissions must be hidden from the app.  
-<ins>**Compatible Apps:**</ins> com.swisssign.swissid.mobile  
-<ins>**Compatible Versions:**</ins> 5.2.9  
-
-<ins>**Name:**</ins> Unlock themes  
-<ins>**Description:**</ins> Unlocks all themes that are inaccessible until a certain level is reached.  
-<ins>**Compatible Apps:**</ins> com.ticktick.task  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Feed filter  
-<ins>**Description:**</ins> Removes ads, livestreams, stories, image videos and videos with a specific amount of views or likes from the feed.  
-<ins>**Compatible Apps:**</ins> com.ss.android.ugc.trill, com.zhiliaoapp.musically  
-<ins>**Compatible Versions:**</ins> 36.5.4, 36.5.4  
-
-<ins>**Name:**</ins> Remember clear display  
-<ins>**Description:**</ins> Remembers the clear display configurations in between videos.  
-<ins>**Compatible Apps:**</ins> com.ss.android.ugc.trill, com.zhiliaoapp.musically  
-<ins>**Compatible Versions:**</ins> 36.5.4, 36.5.4  
-
-<ins>**Name:**</ins> Downloads  
-<ins>**Description:**</ins> Adds support to download videos with an external downloader app using the in-app download button or a video player action button.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Show seekbar  
-<ins>**Description:**</ins> Shows progress bar for all video.  
-<ins>**Compatible Apps:**</ins> com.ss.android.ugc.trill, com.zhiliaoapp.musically  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Playback speed  
-<ins>**Description:**</ins> Adds options to customize available playback speeds, set default a playback speed, and show a speed dialog button in the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Disable login requirement  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.ss.android.ugc.trill, com.zhiliaoapp.musically  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Fix Google login  
-<ins>**Description:**</ins> Allows logging in with a Google account.  
-<ins>**Compatible Apps:**</ins> com.ss.android.ugc.trill, com.zhiliaoapp.musically  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Settings  
-<ins>**Description:**</ins> Adds settings menu to Twitch.  
-<ins>**Compatible Apps:**</ins> tv.twitch.android.app  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> SIM spoof  
-<ins>**Description:**</ins> Spoofs the information which is retrieved from the SIM card.  
-<ins>**Compatible Apps:**</ins> com.ss.android.ugc.trill, com.zhiliaoapp.musically  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Show on lockscreen  
-<ins>**Description:**</ins> Shows student id and student ticket on lockscreen.  
-<ins>**Compatible Apps:**</ins> de.tudortmund.app  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable dashboard ads  
-<ins>**Description:**</ins> Disables ads in the dashboard.  
-<ins>**Compatible Apps:**</ins> com.tumblr  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable Ad-Free Banner  
-<ins>**Description:**</ins> Disables the banner with a frog, prompting you to buy Tumblr Ad-Free.  
-<ins>**Compatible Apps:**</ins> com.tumblr  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable in-app update  
-<ins>**Description:**</ins> Disables the in-app update check and update prompt.  
-<ins>**Compatible Apps:**</ins> com.tumblr  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable blog notification reminder  
-<ins>**Description:**</ins> Disables the reminder to enable notifications for blogs you visit.  
-<ins>**Compatible Apps:**</ins> com.tumblr  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable gift message popup  
-<ins>**Description:**</ins> Disables the popup suggesting to buy TumblrMart items for other people.  
-<ins>**Compatible Apps:**</ins> com.tumblr  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Fix old versions  
-<ins>**Description:**</ins> Fixes old versions of the app (v33.2 and earlier) breaking due to Tumblr removing remnants of Tumblr Live from the API, which causes many requests to fail. This patch has no effect on newer versions of the app.  
-<ins>**Compatible Apps:**</ins> com.tumblr  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Block audio ads  
-<ins>**Description:**</ins> Blocks audio ads in streams and VODs.  
-<ins>**Compatible Apps:**</ins> tv.twitch.android.app  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Block embedded ads  
-<ins>**Description:**</ins> Blocks embedded stream ads using services like Luminous or PurpleAdBlocker.  
-<ins>**Compatible Apps:**</ins> tv.twitch.android.app  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Block video ads  
-<ins>**Description:**</ins> Blocks video ads in streams and VODs.  
-<ins>**Compatible Apps:**</ins> tv.twitch.android.app  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Show deleted messages  
-<ins>**Description:**</ins> Shows deleted chat messages behind a clickable spoiler.  
-<ins>**Compatible Apps:**</ins> tv.twitch.android.app  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Auto claim channel points  
-<ins>**Description:**</ins> Automatically claim Channel Points.  
-<ins>**Compatible Apps:**</ins> tv.twitch.android.app  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Debug mode  
-<ins>**Description:**</ins> Enables Twitch's internal debugging mode.  
-<ins>**Compatible Apps:**</ins> tv.twitch.android.app  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock downloads  
-<ins>**Description:**</ins> Unlocks the ability to download any video. GIFs can be downloaded via the menu on long press.  
-<ins>**Compatible Apps:**</ins> com.twitter.android  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide view count  
-<ins>**Description:**</ins> Hides the view count of Posts.  
-<ins>**Compatible Apps:**</ins> com.twitter.android  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Dynamic color  
-<ins>**Description:**</ins> Replaces the default X (Formerly Twitter) Blue with the user's Material You palette.  
-<ins>**Compatible Apps:**</ins> com.twitter.android  
-<ins>**Compatible Versions:**</ins> 10.84.0-release.0, 10.60.0-release.0, 10.48.0-release.0  
-
-<ins>**Name:**</ins> Hide recommended users  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.twitter.android  
-<ins>**Compatible Versions:**</ins> 10.84.0-release.0, 10.60.0-release.0, 10.48.0-release.0  
-
-<ins>**Name:**</ins> Change link sharing domain  
-<ins>**Description:**</ins> Replaces the domain name of Twitter links when sharing them.  
-<ins>**Compatible Apps:**</ins> com.twitter.android  
-<ins>**Compatible Versions:**</ins> 10.84.0-release.0, 10.60.0-release.0, 10.48.0-release.0  
-
-<ins>**Name:**</ins> Open links with app chooser  
-<ins>**Description:**</ins> Instead of opening links directly, open them with an app chooser. As a result you can select a browser to open the link with.  
-<ins>**Compatible Apps:**</ins> com.twitter.android  
-<ins>**Compatible Versions:**</ins> 10.48.0-release.0  
-
-<ins>**Name:**</ins> Promo code unlock  
-<ins>**Description:**</ins> Disables the validation of promo code. Any code will work to unlock all features.  
-<ins>**Compatible Apps:**</ins> de.dwd.warnapp  
-<ins>**Compatible Versions:**</ins> 4.2.2  
-
-<ins>**Name:**</ins> Video ads  
-<ins>**Description:**</ins> Adds an option to remove ads in the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Copy video URL  
-<ins>**Description:**</ins> Adds options to display buttons in the video player to copy video URLs.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Remove viewer discretion dialog  
-<ins>**Description:**</ins> Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Disable precise seeking gesture  
-<ins>**Description:**</ins> Adds an option to disable precise seeking when swiping up on the seekbar.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Enable tap to seek  
-<ins>**Description:**</ins> Adds an option to enable tap to seek on the seekbar of the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Enable slide to seek  
-<ins>**Description:**</ins> Adds an option to enable slide to seek instead of playing at 2x speed when pressing and holding in the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Seekbar thumbnails  
-<ins>**Description:**</ins> Adds an option to use high quality fullscreen seekbar thumbnails. Patching 19.16.39 adds an option to restore old seekbar thumbnails.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Swipe controls  
-<ins>**Description:**</ins> Adds options to enable and configure volume and brightness swipe controls.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Disable auto captions  
-<ins>**Description:**</ins> Adds an option to disable captions from being automatically enabled.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Custom branding  
-<ins>**Description:**</ins> Applies a custom app name and icon. Defaults to "YouTube ReVanced" and the ReVanced logo.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Change header  
-<ins>**Description:**</ins> Applies a custom header in the top left corner within the app. Defaults to the ReVanced header.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Hide video action buttons  
-<ins>**Description:**</ins> Adds options to hide action buttons (such as the Download button) under videos.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Navigation buttons  
-<ins>**Description:**</ins> Adds options to hide and change navigation buttons (such as the Shorts button).  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Hide player overlay buttons  
-<ins>**Description:**</ins> Adds options to hide the player Cast, Autoplay, Captions, and Previous & Next buttons.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Change form factor  
-<ins>**Description:**</ins> Adds an option to change the UI appearance to a phone, tablet, or automotive device.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Hide end screen cards  
-<ins>**Description:**</ins> Adds an option to hide suggested video cards at the end of videos.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Hide end screen suggested video  
-<ins>**Description:**</ins> Adds an option to hide the suggested video at the end of videos.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Disable fullscreen ambient mode  
-<ins>**Description:**</ins> Adds an option to disable the ambient mode when in fullscreen.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Hide layout components  
-<ins>**Description:**</ins> Adds options to hide general layout components.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.45.38, 19.46.42, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Hide info cards  
-<ins>**Description:**</ins> Adds an option to hide info cards that creators add in the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Hide player flyout menu items  
-<ins>**Description:**</ins> Adds options to hide menu items that appear when pressing the gear icon in the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Disable rolling number animations  
-<ins>**Description:**</ins> Adds an option to disable rolling number animations of video view count, user likes, and upload time.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Hide seekbar  
-<ins>**Description:**</ins> Adds an option to hide the seekbar.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Hide Shorts components  
-<ins>**Description:**</ins> Adds options to hide components related to Shorts.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Hide timestamp  
-<ins>**Description:**</ins> Adds an option to hide the timestamp in the bottom left of the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Miniplayer  
-<ins>**Description:**</ins> Adds options to change the in-app minimized player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.45.38, 19.46.42, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Disable player popup panels  
-<ins>**Description:**</ins> Adds an option to disable panels (such as live chat) from opening automatically.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Remove player controls background  
-<ins>**Description:**</ins> Removes the dark background surrounding the video player controls.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Exit fullscreen mode  
-<ins>**Description:**</ins> Adds options to automatically exit fullscreen mode when a video reaches the end.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Open videos fullscreen  
-<ins>**Description:**</ins> Adds an option to open videos in full screen portrait mode.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.46.42, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Custom player overlay opacity  
-<ins>**Description:**</ins> Adds an option to change the opacity of the video player background when player controls are visible.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Return YouTube Dislike  
-<ins>**Description:**</ins> Adds an option to show the dislike count of videos with Return YouTube Dislike.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Wide search bar  
-<ins>**Description:**</ins> Adds an option to replace the search icon with a wide search bar. This will hide the YouTube logo when active.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Shorts autoplay  
-<ins>**Description:**</ins> Adds options to automatically play the next Short.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Open Shorts in regular player  
-<ins>**Description:**</ins> Adds options to open Shorts in the regular video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> SponsorBlock  
-<ins>**Description:**</ins> Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Spoof app version  
-<ins>**Description:**</ins> Adds an option to trick YouTube into thinking you are running an older version of the app. This can be used to restore old UI elements and features.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Change start page  
-<ins>**Description:**</ins> Adds an option to set which page the app opens in instead of the homepage.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Disable resuming Shorts on startup  
-<ins>**Description:**</ins> Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.45.38, 19.46.42, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Theme  
-<ins>**Description:**</ins> Adds options for theming and applies a custom background theme (dark background theme defaults to amoled black).  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Alternative thumbnails  
-<ins>**Description:**</ins> Adds options to replace video thumbnails using the DeArrow API or image captures from the video.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Bypass image region restrictions  
-<ins>**Description:**</ins> Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Announcements  
-<ins>**Description:**</ins> Adds an option to show announcements from ReVanced on app startup.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Always repeat  
-<ins>**Description:**</ins> Adds an option to always repeat videos when they end.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Enable debugging  
-<ins>**Description:**</ins> Adds options for debugging.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Spoof device dimensions  
-<ins>**Description:**</ins> Adds an option to spoof the device dimensions which can unlock higher video qualities.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Check watch history domain name resolution  
-<ins>**Description:**</ins> Checks if the device DNS server is preventing user watch history from being saved.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Bypass URL redirects  
-<ins>**Description:**</ins> Adds an option to bypass URL redirects and open the original URL directly.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.45.38, 19.46.42, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Open links externally  
-<ins>**Description:**</ins> Adds an option to always open links in your browser instead of the in-app browser.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Remove tracking query parameter  
-<ins>**Description:**</ins> Adds an option to remove the tracking parameter from links you share.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Spoof video streams  
-<ins>**Description:**</ins> Adds options to spoof the client video streams to fix playback.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Disable zoom haptics  
-<ins>**Description:**</ins> Adds an option to disable haptics when zooming.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Force original audio  
-<ins>**Description:**</ins> Adds an option to always use the original audio track.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Disable HDR video  
-<ins>**Description:**</ins> Adds an option to disable video HDR.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
-
-<ins>**Name:**</ins> Video quality  
-<ins>**Description:**</ins> Adds options to use the advanced video quality menu and set default video qualities.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39  
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| Export all activities | Makes all app activities exportable. | Universal | All versions |
+| Spoof build info | Spoof the information about the current build. | Universal | All versions |
+| Hide mock location | Prevents the app from knowing the device location is being mocked by a third party app. | Universal | All versions |
+| Spoof SIM country | Spoofs country information returned by the SIM card provider. | Universal | All versions |
+| Spoof Wi-Fi connection | Spoofs an existing Wi-Fi connection. | Universal | All versions |
+| Enable Android debugging | Enables Android debugging capabilities. This can slow down the app. | Universal | All versions |
+| Export internal data documents provider | Exports a documents provider that grants access to the internal data directory of this app to file managers and other apps that support the Storage Access Framework. | Universal | All versions |
+| Hex | Replaces a hexadecimal patterns of bytes of files in an APK. | Universal | All versions |
+| Predictive back gesture | Enables the predictive back gesture introduced on Android 13. | Universal | All versions |
+| Override certificate pinning | Overrides certificate pinning, allowing to inspect traffic via a proxy. | Universal | All versions |
+| Change package name | Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues. | Universal | All versions |
+| Remove screen capture restriction | Removes the restriction of capturing audio from apps that normally wouldn't allow it. | Universal | All versions |
+| Remove screenshot restriction | Removes the restriction of taking screenshots in apps that normally wouldn't allow it. | Universal | All versions |
+| Remove share targets | Removes share targets like directly sharing to a frequent contact. | Universal | All versions |
+| Change version code | Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version. | Universal | All versions |
+| Always allow deep-linking | Open Amazon links, even if the app is not set to handle Amazon links. | com.amazon.mShop.android.shopping | All versions |
+| Pro unlock | None | com.backdrops.wallpapers | All versions |
+| Remove play limits | Disables purchase nagging and playback limits of not purchased tracks. | com.bandcamp.android | All versions |
+| Bypass root checks | Removes the restriction to use the app with root permissions or on a custom ROM. | it.ipzs.cieid | All versions |
+| Disable ads | None | io.syncapps.lemmy_sync | All versions |
+| Enable debug menu | None | com.duolingo | 5.158.4 |
+| Hide 'Sponsored Stories' | None | com.facebook.katana | 490.0.0.63.82 |
+| Hide story ads | Hides the ads in the Facebook app stories. | com.facebook.katana | All versions |
+| Remove bootloader detection | Removes the check for an unlocked bootloader. | at.gv.bmf.bmf2go | All versions |
+| Remove root detection | Removes the check for root permissions and unlocked bootloader. | at.gv.bka.serviceportal | All versions |
+| Enable CustomTabs | Enables CustomTabs to open articles in your default browser. | com.google.android.apps.magazines | All versions |
+| GmsCore support | Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Spoof features | Spoofs the device to enable Google Pixel exclusive features, including unlimited storage. | com.google.android.apps.photos | All versions |
+| Restore hidden 'Back up while charging' toggle | Restores a hidden toggle to only run backups when the device is charging. | com.google.android.apps.photos | All versions |
+| Remove device restrictions | Removes restrictions from using the app on any device. Requires mounting patched app over original. | com.google.android.apps.recorder | All versions |
+| Unlock pro | None | tv.trakt.trakt | 1.1.1 |
+| Spoof signature | Spoofs the signature of the app to fix various functions of the app. | com.spotify.music | All versions |
+| Hide ads | Adds options to remove general ads. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Remove ads | None | net.binarymode.android.irplus | All versions |
+| Disable mandatory login | None | com.adobe.lrmobile | All versions |
+| Unlock premium | None | io.yuka.android | 4.29 |
+| Hide inbox ads | Hides ads in inbox. | com.facebook.orca | All versions |
+| Hide inbox subtabs | Hides Home and Channels tabs between active now tray and chats. | com.facebook.orca | All versions |
+| Disable switching emoji to sticker | Disables switching from emoji to sticker search mode in message input field. | com.facebook.orca | 439.0.0.29.119 |
+| Disable typing indicator | Disables the indicator while typing a message. | com.facebook.orca | All versions |
+| Force English locale | Forces wearable devices to use the English locale. | com.xiaomi.wearable | All versions |
+| Fix login | Fixes login for uncertified Mi Fitness app | com.xiaomi.wearable | All versions |
+| Hide music video ads | Hides ads that appear while listening to or streaming music videos, podcasts, or songs. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
+| Enable exclusive audio playback | Enables the option to play audio without video. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
+| Permanent repeat | Permanently remember your repeating preference even if the playlist ends or another track is played. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
+| Hide category bar | Hides the category bar at the top of the homepage. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
+| Hide 'Get Music Premium' label | Hides the "Get Music Premium" label from the account menu and settings. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
+| Remove upgrade button | Removes the upgrade tab from the pivot bar. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
+| Bypass certificate checks | Bypasses certificate checks which prevent YouTube Music from working on Android Auto. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
+| Remove background playback restrictions | Removes restrictions on background playback, including playing kids videos in the background. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Spoof client | Restores functionality of the app by using custom client ID. | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
+| Remove broadcasts restriction | Enables starting/stopping NetGuard via broadcasts. | eu.faircode.netguard | All versions |
+| Spoof certificate | Spoofs the X-Android-Cert header to allow push messages. | nl.sanomamedia.android.nu | All versions |
+| Fix crash | None | de.simon.openinghours | 1.0 |
+| Spoof device ID | Spoofs device ID to mitigate manual bans by developers. | com.microblink.photomath | 8.37.0 |
+| Hide update popup | Prevents the update popup from showing up. | com.microblink.photomath | 8.32.0 |
+| Unlock plus | None | com.microblink.photomath | 8.37.0 |
+| Spoof Android device ID | Spoofs the Android device ID used by the app for account authentication.This can be used to copy the account to another device. | com.piccomaeurope.fr | 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2 |
+| Disable tracking | Disables tracking by replacing tracking URLs with example.com. | com.piccomaeurope.fr | 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2 |
+| Hide purchase reminder | Hides the popup that reminds you to purchase the app. | com.rarlab.rar | All versions |
+| Spoof user agent | Restores functionality of the app by using custom user agent. | com.rubenmayayo.reddit | All versions |
+| Hook exception handler | Hook the exception handler in Boost. Don't enable except for development purposes | com.rubenmayayo.reddit | All versions |
+| Fix missing audio in video downloads | Fixes audio missing in videos downloaded from v.redd.it. | com.rubenmayayo.reddit | All versions |
+| Fix /s/ links | None | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
+| Intercept HTTP requests | None | com.rubenmayayo.reddit | All versions |
+| Add archive links to context menu | None | com.rubenmayayo.reddit | All versions |
+| Automatically undelete Imgur images | None | com.rubenmayayo.reddit | All versions |
+| Automatically undelete Reddit content | None | com.rubenmayayo.reddit | All versions |
+| Unlock subscription | Unlocks the subscription feature but requires a custom client ID. | ml.docilealligator.infinityforreddit, ml.docilealligator.infinityforreddit.plus, ml.docilealligator.infinityforreddit.patreon | All versions |
+| Disable Sync for Lemmy bottom sheet | Disables the bottom sheet at the startup that asks you to signup to "Sync for Lemmy". | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | v23.06.30-13:39 |
+| Use /user/ endpoint | Replaces the deprecated endpoint for viewing user profiles /u with /user, that used to fix a bug. | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
+| Fix video downloads | Fixes a bug in Sync's MPD parser resulting in only the audio-track being saved. | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
+| Disable screenshot popup | Disables the popup that shows up when taking a screenshot. | com.reddit.frontpage | All versions |
+| Unlock premium Reddit icons | Unlocks the premium Reddit icons. | com.reddit.frontpage | All versions |
+| Sanitize sharing links | Removes the tracking query parameters from links before they are shared. | com.twitter.android | 10.84.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
+| Remove file size limit | Allows opening files larger than 2 MB in the text editor. | pl.solidexplorer2 | All versions |
+| Remove badge tab | Removes the badge tab from the activity tab. | com.sony.songpal.mdr | All versions |
+| Remove notification badge | Removes the red notification badge from the activity tab. | com.sony.songpal.mdr | 10.1.0 |
+| Disable telemetry | Disables SoundCloud's telemetry system. | com.soundcloud.android | All versions |
+| Enable offline sync | None | com.soundcloud.android | All versions |
+| Custom theme | Applies a custom theme. | com.spotify.music | All versions |
+| Enable on demand | Enables listening to songs on-demand, allowing to play any song from playlists, albums or artists without limitations. This does not remove ads. | com.spotify.lite | All versions |
+| Unlock Spotify Premium | Unlocks Spotify Premium features. Server-sided features like downloading songs are still locked. | com.spotify.music | All versions |
+| Hide offers tab | None | de.stocard.stocard | All versions |
+| Hide story bubbles | None | de.stocard.stocard | All versions |
+| Unlock subscription features | Unlocks "Routes", "Matched Runs" and "Segment Efforts". | com.strava | All versions |
+| Disable subscription suggestions | None | com.strava | 320.12 |
+| Remove Google Play Integrity check | Removes the Google Play Integrity check. With this it's possible to use SwissID on custom ROMS.If the device is rooted, root permissions must be hidden from the app. | com.swisssign.swissid.mobile | 5.2.9 |
+| Unlock themes | Unlocks all themes that are inaccessible until a certain level is reached. | com.ticktick.task | All versions |
+| Feed filter | Removes ads, livestreams, stories, image videos and videos with a specific amount of views or likes from the feed. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | 36.5.4, 36.5.4 |
+| Remember clear display | Remembers the clear display configurations in between videos. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | 36.5.4, 36.5.4 |
+| Downloads | Adds support to download videos with an external downloader app using the in-app download button or a video player action button. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Show seekbar | Shows progress bar for all video. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
+| Playback speed | Adds options to customize available playback speeds, set default a playback speed, and show a speed dialog button in the video player. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Disable login requirement | None | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
+| Fix Google login | Allows logging in with a Google account. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
+| Settings | Adds settings menu to Twitch. | tv.twitch.android.app | All versions |
+| SIM spoof | Spoofs the information which is retrieved from the SIM card. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
+| Show on lockscreen | Shows student id and student ticket on lockscreen. | de.tudortmund.app | All versions |
+| Disable dashboard ads | Disables ads in the dashboard. | com.tumblr | All versions |
+| Disable Ad-Free Banner | Disables the banner with a frog, prompting you to buy Tumblr Ad-Free. | com.tumblr | All versions |
+| Disable in-app update | Disables the in-app update check and update prompt. | com.tumblr | All versions |
+| Disable blog notification reminder | Disables the reminder to enable notifications for blogs you visit. | com.tumblr | All versions |
+| Disable gift message popup | Disables the popup suggesting to buy TumblrMart items for other people. | com.tumblr | All versions |
+| Fix old versions | Fixes old versions of the app (v33.2 and earlier) breaking due to Tumblr removing remnants of Tumblr Live from the API, which causes many requests to fail. This patch has no effect on newer versions of the app. | com.tumblr | All versions |
+| Block audio ads | Blocks audio ads in streams and VODs. | tv.twitch.android.app | All versions |
+| Block embedded ads | Blocks embedded stream ads using services like Luminous or PurpleAdBlocker. | tv.twitch.android.app | All versions |
+| Block video ads | Blocks video ads in streams and VODs. | tv.twitch.android.app | All versions |
+| Show deleted messages | Shows deleted chat messages behind a clickable spoiler. | tv.twitch.android.app | All versions |
+| Auto claim channel points | Automatically claim Channel Points. | tv.twitch.android.app | All versions |
+| Debug mode | Enables Twitch's internal debugging mode. | tv.twitch.android.app | All versions |
+| Unlock downloads | Unlocks the ability to download any video. GIFs can be downloaded via the menu on long press. | com.twitter.android | All versions |
+| Hide view count | Hides the view count of Posts. | com.twitter.android | All versions |
+| Dynamic color | Replaces the default X (Formerly Twitter) Blue with the user's Material You palette. | com.twitter.android | 10.84.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
+| Hide recommended users | None | com.twitter.android | 10.84.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
+| Change link sharing domain | Replaces the domain name of Twitter links when sharing them. | com.twitter.android | 10.84.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
+| Open links with app chooser | Instead of opening links directly, open them with an app chooser. As a result you can select a browser to open the link with. | com.twitter.android | 10.48.0-release.0 |
+| Promo code unlock | Disables the validation of promo code. Any code will work to unlock all features. | de.dwd.warnapp | 4.2.2 |
+| Video ads | Adds an option to remove ads in the video player. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Copy video URL | Adds options to display buttons in the video player to copy video URLs. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Remove viewer discretion dialog | Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Disable precise seeking gesture | Adds an option to disable precise seeking when swiping up on the seekbar. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Enable tap to seek | Adds an option to enable tap to seek on the seekbar of the video player. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Enable slide to seek | Adds an option to enable slide to seek instead of playing at 2x speed when pressing and holding in the video player. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Seekbar thumbnails | Adds an option to use high quality fullscreen seekbar thumbnails. Patching 19.16.39 adds an option to restore old seekbar thumbnails. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Swipe controls | Adds options to enable and configure volume and brightness swipe controls. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Disable auto captions | Adds an option to disable captions from being automatically enabled. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Custom branding | Applies a custom app name and icon. Defaults to "YouTube ReVanced" and the ReVanced logo. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Change header | Applies a custom header in the top left corner within the app. Defaults to the ReVanced header. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Hide video action buttons | Adds options to hide action buttons (such as the Download button) under videos. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Navigation buttons | Adds options to hide and change navigation buttons (such as the Shorts button). | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Hide player overlay buttons | Adds options to hide the player Cast, Autoplay, Captions, and Previous & Next buttons. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Change form factor | Adds an option to change the UI appearance to a phone, tablet, or automotive device. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Hide end screen cards | Adds an option to hide suggested video cards at the end of videos. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Hide end screen suggested video | Adds an option to hide the suggested video at the end of videos. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Disable fullscreen ambient mode | Adds an option to disable the ambient mode when in fullscreen. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Hide layout components | Adds options to hide general layout components. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.45.38, 19.46.42, 19.47.53, 20.07.39 |
+| Hide info cards | Adds an option to hide info cards that creators add in the video player. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Hide player flyout menu items | Adds options to hide menu items that appear when pressing the gear icon in the video player. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Disable rolling number animations | Adds an option to disable rolling number animations of video view count, user likes, and upload time. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Hide seekbar | Adds an option to hide the seekbar. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Hide Shorts components | Adds options to hide components related to Shorts. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Hide timestamp | Adds an option to hide the timestamp in the bottom left of the video player. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Miniplayer | Adds options to change the in-app minimized player. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.45.38, 19.46.42, 19.47.53, 20.07.39 |
+| Disable player popup panels | Adds an option to disable panels (such as live chat) from opening automatically. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Remove player controls background | Removes the dark background surrounding the video player controls. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Exit fullscreen mode | Adds options to automatically exit fullscreen mode when a video reaches the end. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Open videos fullscreen | Adds an option to open videos in full screen portrait mode. | com.google.android.youtube | 19.46.42, 19.47.53, 20.07.39 |
+| Custom player overlay opacity | Adds an option to change the opacity of the video player background when player controls are visible. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Return YouTube Dislike | Adds an option to show the dislike count of videos with Return YouTube Dislike. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Wide search bar | Adds an option to replace the search icon with a wide search bar. This will hide the YouTube logo when active. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Shorts autoplay | Adds options to automatically play the next Short. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Open Shorts in regular player | Adds options to open Shorts in the regular video player. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| SponsorBlock | Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Spoof app version | Adds an option to trick YouTube into thinking you are running an older version of the app. This can be used to restore old UI elements and features. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Change start page | Adds an option to set which page the app opens in instead of the homepage. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Disable resuming Shorts on startup | Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.45.38, 19.46.42, 19.47.53, 20.07.39 |
+| Theme | Adds options for theming and applies a custom background theme (dark background theme defaults to amoled black). | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Alternative thumbnails | Adds options to replace video thumbnails using the DeArrow API or image captures from the video. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Bypass image region restrictions | Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Announcements | Adds an option to show announcements from ReVanced on app startup. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Always repeat | Adds an option to always repeat videos when they end. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Enable debugging | Adds options for debugging. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Spoof device dimensions | Adds an option to spoof the device dimensions which can unlock higher video qualities. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Check watch history domain name resolution | Checks if the device DNS server is preventing user watch history from being saved. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Bypass URL redirects | Adds an option to bypass URL redirects and open the original URL directly. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.45.38, 19.46.42, 19.47.53, 20.07.39 |
+| Open links externally | Adds an option to always open links in your browser instead of the in-app browser. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Remove tracking query parameter | Adds an option to remove the tracking parameter from links you share. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Spoof video streams | Adds options to spoof the client video streams to fix playback. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Disable zoom haptics | Adds an option to disable haptics when zooming. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Force original audio | Adds an option to always use the original audio track. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Disable HDR video | Adds an option to disable video HDR. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Video quality | Adds options to use the advanced video quality menu and set default video qualities. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
 
 </details>
 
@@ -3078,40 +707,15 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<ins>**Name:**</ins> Disable Logging(analytics) Patch  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> org.zwanoo.android.speedtest  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> AdFree Account Patch  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> org.zwanoo.android.speedtest  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable Firebase(Google) Analytics  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable Temper Detection  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.ttxapps.autosync  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Purchase All Items  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.ttxapps.autosync  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable Folder Pair Deletion  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.ttxapps.autosync  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Bypass Blocks Limit  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.llamalab.automate  
-<ins>**Compatible Versions:**</ins> all versions  
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| Disable Logging(analytics) Patch | None | org.zwanoo.android.speedtest | All versions |
+| AdFree Account Patch | None | org.zwanoo.android.speedtest | All versions |
+| Disable Firebase(Google) Analytics | None | Universal | All versions |
+| Disable Temper Detection | None | com.ttxapps.autosync | All versions |
+| Purchase All Items | None | com.ttxapps.autosync | All versions |
+| Disable Folder Pair Deletion | None | com.ttxapps.autosync | All versions |
+| Bypass Blocks Limit | None | com.llamalab.automate | All versions |
 
 </details>
 
@@ -3129,475 +733,102 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<ins>**Name:**</ins> Change version code  
-<ins>**Description:**</ins> Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide account components  
-<ins>**Description:**</ins> Adds options to hide components related to the account menu.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> Hide action bar components  
-<ins>**Description:**</ins> Adds options to hide action bar components and replace the offline download button with an external download button.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> Hide ads  
-<ins>**Description:**</ins> Adds options to hide ads.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Flyout menu components  
-<ins>**Description:**</ins> Adds options to hide or change flyout menu components.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> Amoled  
-<ins>**Description:**</ins> Applies a pure black theme to some components.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> Disable auto captions  
-<ins>**Description:**</ins> Adds an option to disable captions from being automatically enabled.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Hide layout components  
-<ins>**Description:**</ins> Adds options to hide general layout components.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Remove viewer discretion dialog  
-<ins>**Description:**</ins> Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Enable landscape mode  
-<ins>**Description:**</ins> Adds an option to enable landscape mode when rotating the screen on phones.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> Restore old style library shelf  
-<ins>**Description:**</ins> Adds an option to return the Library tab to the old style.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> Disable dislike redirection  
-<ins>**Description:**</ins> Adds an option to disable redirection to the next track when clicking the Dislike button.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> Spoof app version  
-<ins>**Description:**</ins> Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Change start page  
-<ins>**Description:**</ins> Adds an option to set which page the app opens in instead of the homepage.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Custom branding icon for YouTube Music  
-<ins>**Description:**</ins> Changes the YouTube Music app icon to the icon specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> Custom branding name for YouTube Music  
-<ins>**Description:**</ins> Renames the YouTube Music app to the name specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> Custom header for YouTube Music  
-<ins>**Description:**</ins> Applies a custom header in the top left corner within the app.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> Hide overlay filter  
-<ins>**Description:**</ins> Removes, at compile time, the dark overlay that appears when player flyout menus are open.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> Hide player overlay filter  
-<ins>**Description:**</ins> Removes, at compile time, the dark overlay that appears when single-tapping in the player.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> Translations for YouTube Music  
-<ins>**Description:**</ins> Add translations or remove string resources.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> Visual preferences icons for YouTube Music  
-<ins>**Description:**</ins> Adds icons to specific preferences in the settings.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> Remove background playback restrictions  
-<ins>**Description:**</ins> Removes restrictions on background playback, including for music and kids videos.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Bitrate default value  
-<ins>**Description:**</ins> Sets the audio quality to 'Always High' when you first install the app.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> Enable OPUS codec  
-<ins>**Description:**</ins> Adds an options to enable the OPUS audio codec if the player response includes.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Enable debug logging  
-<ins>**Description:**</ins> Adds an option to enable debug logging.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Disable DRC audio  
-<ins>**Description:**</ins> Adds an option to disable DRC (Dynamic Range Compression) audio.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> Change share sheet  
-<ins>**Description:**</ins> Add option to change from in-app share sheet to system share sheet.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Disable Cairo splash animation  
-<ins>**Description:**</ins> Adds an option to disable Cairo splash animation.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 7.06.54, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> Bypass image region restrictions  
-<ins>**Description:**</ins> Adds an option to use a different host for static images, so that images blocked in some countries can be received.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Sanitize sharing links  
-<ins>**Description:**</ins> Adds an option to remove tracking query parameters from URLs when sharing links.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Navigation bar components  
-<ins>**Description:**</ins> Adds options to hide or change components related to the navigation bar.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Player components  
-<ins>**Description:**</ins> Adds options to hide or change components related to the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Certificate spoof  
-<ins>**Description:**</ins> Enables YouTube Music to work with Android Auto by spoofing the YouTube Music certificate.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> Spoof client  
-<ins>**Description:**</ins> Adds options to spoof the client to allow playback.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53  
-
-<ins>**Name:**</ins> Spoof streaming data  
-<ins>**Description:**</ins> Adds options to spoof the streaming data to allow playback.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> GmsCore support  
-<ins>**Description:**</ins> Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Return YouTube Dislike  
-<ins>**Description:**</ins> Adds an option to show the dislike count of videos using the Return YouTube Dislike API.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Return YouTube Username  
-<ins>**Description:**</ins> Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Settings for YouTube Music  
-<ins>**Description:**</ins> Applies mandatory patches to implement ReVanced Extended settings into the application.  
-<ins>**Compatible Apps:**</ins> com.google.android.apps.youtube.music  
-<ins>**Compatible Versions:**</ins> 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53  
-
-<ins>**Name:**</ins> SponsorBlock  
-<ins>**Description:**</ins> Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Video playback  
-<ins>**Description:**</ins> Adds options to customize settings related to video playback, such as default video quality and playback speed.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Custom branding name for Reddit  
-<ins>**Description:**</ins> Renames the Reddit app to the name specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Change package name  
-<ins>**Description:**</ins> Changes the package name for Reddit to the name specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide recommended communities shelf  
-<ins>**Description:**</ins> Adds an option to hide the recommended communities shelves in subreddits.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide navigation buttons  
-<ins>**Description:**</ins> Adds options to hide buttons in the navigation bar.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Premium icon  
-<ins>**Description:**</ins> Unlocks premium app icons.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Hide Recently Visited shelf  
-<ins>**Description:**</ins> Adds an option to hide the Recently Visited shelf in the sidebar.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable screenshot popup  
-<ins>**Description:**</ins> Adds an option to disable the popup that appears when taking a screenshot.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Remove subreddit dialog  
-<ins>**Description:**</ins> Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Open links directly  
-<ins>**Description:**</ins> Adds an option to skip over redirection URLs in external links.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Open links externally  
-<ins>**Description:**</ins> Adds an option to always open links in your browser instead of in the in-app-browser.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Settings for Reddit  
-<ins>**Description:**</ins> Applies mandatory patches to implement ReVanced Extended settings into the application.  
-<ins>**Compatible Apps:**</ins> com.reddit.frontpage  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Alternative thumbnails  
-<ins>**Description:**</ins> Adds options to replace video thumbnails using the DeArrow API or image captures from the video.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Hide feed components  
-<ins>**Description:**</ins> Adds options to hide components related to feeds.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Hide feed flyout menu  
-<ins>**Description:**</ins> Adds the ability to hide feed flyout menu components using a custom filter.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Disable auto audio tracks  
-<ins>**Description:**</ins> Adds an option to disable audio tracks from being automatically enabled.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Hook download actions  
-<ins>**Description:**</ins> Adds support to download videos with an external downloader app using the in-app download button.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Layout switch  
-<ins>**Description:**</ins> Adds an option to spoof the dpi in order to use a tablet or phone layout.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Enable gradient loading screen  
-<ins>**Description:**</ins> Adds an option to enable the gradient loading screen.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Miniplayer  
-<ins>**Description:**</ins> Adds options to change the in app minimized player, and if patching target 19.16+ adds options to use modern miniplayers.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Hook YouTube Music actions  
-<ins>**Description:**</ins> Adds support for opening music in RVX Music using the in-app YouTube Music button.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Disable splash animation  
-<ins>**Description:**</ins> Adds an option to disable the splash animation on app startup.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Toolbar components  
-<ins>**Description:**</ins> Adds options to hide or change components located on the toolbar, such as toolbar buttons, search bar, and header.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Custom Shorts action buttons  
-<ins>**Description:**</ins> Changes, at compile time, the icon of the action buttons of the Shorts player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Custom branding icon for YouTube  
-<ins>**Description:**</ins> Changes the YouTube app icon to the icon specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Custom branding name for YouTube  
-<ins>**Description:**</ins> Renames the YouTube app to the name specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Hide Shorts dimming  
-<ins>**Description:**</ins> Removes, at compile time, the dimming effect at the top and bottom of Shorts videos.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Custom double tap length  
-<ins>**Description:**</ins> Adds Double-tap to seek values that are specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Custom header for YouTube  
-<ins>**Description:**</ins> Applies a custom header in the top left corner within the app.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Force hide player buttons background  
-<ins>**Description:**</ins> Removes, at compile time, the dark background surrounding the video player controls.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Hide shortcuts  
-<ins>**Description:**</ins> Remove, at compile time, the app shortcuts that appears when app icon is long pressed.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> MaterialYou  
-<ins>**Description:**</ins> Applies the MaterialYou theme for Android 12+ devices.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Theme  
-<ins>**Description:**</ins> Changes the app's theme to the values specified in patch options.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Translations for YouTube  
-<ins>**Description:**</ins> Add translations or remove string resources.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Visual preferences icons for YouTube  
-<ins>**Description:**</ins> Adds icons to specific preferences in the settings.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Enable external browser  
-<ins>**Description:**</ins> Adds an option to always open links in your browser instead of in the in-app-browser.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Enable open links directly  
-<ins>**Description:**</ins> Adds an option to skip over redirection URLs in external links.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Disable QUIC protocol  
-<ins>**Description:**</ins> Adds an option to disable CronetEngine's QUIC protocol.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Watch history  
-<ins>**Description:**</ins> Adds an option to change the domain of the watch history or check its status.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Hide action buttons  
-<ins>**Description:**</ins> Adds options to hide action buttons under videos.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Ambient mode control  
-<ins>**Description:**</ins> Adds options to disable Ambient mode and to bypass Ambient mode restrictions.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Hide player buttons  
-<ins>**Description:**</ins> Adds options to hide buttons in the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Hide comments components  
-<ins>**Description:**</ins> Adds options to hide components related to comments.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Description components  
-<ins>**Description:**</ins> Adds options to hide and disable description components.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Hide player flyout menu  
-<ins>**Description:**</ins> Adds options to hide player flyout menu components.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Change player flyout menu toggles  
-<ins>**Description:**</ins> Adds an option to use text toggles instead of switch toggles within the additional settings menu.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Fullscreen components  
-<ins>**Description:**</ins> Adds options to hide or change components related to fullscreen.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Disable haptic feedback  
-<ins>**Description:**</ins> Adds options to disable haptic feedback when swiping in the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Overlay buttons  
-<ins>**Description:**</ins> Adds options to display overlay buttons in the video player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Seekbar components  
-<ins>**Description:**</ins> Adds options to hide or change components related to the seekbar.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Shorts components  
-<ins>**Description:**</ins> Adds options to hide or change components related to YouTube Shorts.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Disable resuming Shorts on startup  
-<ins>**Description:**</ins> Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Swipe controls  
-<ins>**Description:**</ins> Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
-
-<ins>**Name:**</ins> Settings for YouTube  
-<ins>**Description:**</ins> Applies mandatory patches to implement ReVanced Extended settings into the application.  
-<ins>**Compatible Apps:**</ins> com.google.android.youtube  
-<ins>**Compatible Versions:**</ins> 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39  
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| Change version code | Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set. | Universal | All versions |
+| Hide account components | Adds options to hide components related to the account menu. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| Hide action bar components | Adds options to hide action bar components and replace the offline download button with an external download button. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| Hide ads | Adds options to hide ads. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Flyout menu components | Adds options to hide or change flyout menu components. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| Amoled | Applies a pure black theme to some components. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| Disable auto captions | Adds an option to disable captions from being automatically enabled. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Hide layout components | Adds options to hide general layout components. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Remove viewer discretion dialog | Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Enable landscape mode | Adds an option to enable landscape mode when rotating the screen on phones. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| Restore old style library shelf | Adds an option to return the Library tab to the old style. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| Disable dislike redirection | Adds an option to disable redirection to the next track when clicking the Dislike button. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| Spoof app version | Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Change start page | Adds an option to set which page the app opens in instead of the homepage. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Custom branding icon for YouTube Music | Changes the YouTube Music app icon to the icon specified in patch options. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| Custom branding name for YouTube Music | Renames the YouTube Music app to the name specified in patch options. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| Custom header for YouTube Music | Applies a custom header in the top left corner within the app. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| Hide overlay filter | Removes, at compile time, the dark overlay that appears when player flyout menus are open. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| Hide player overlay filter | Removes, at compile time, the dark overlay that appears when single-tapping in the player. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| Translations for YouTube Music | Add translations or remove string resources. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| Visual preferences icons for YouTube Music | Adds icons to specific preferences in the settings. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| Remove background playback restrictions | Removes restrictions on background playback, including for music and kids videos. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Bitrate default value | Sets the audio quality to 'Always High' when you first install the app. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| Enable OPUS codec | Adds an options to enable the OPUS audio codec if the player response includes. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Enable debug logging | Adds an option to enable debug logging. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Disable DRC audio | Adds an option to disable DRC (Dynamic Range Compression) audio. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| Change share sheet | Add option to change from in-app share sheet to system share sheet. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Disable Cairo splash animation | Adds an option to disable Cairo splash animation. | com.google.android.apps.youtube.music | 7.06.54, 7.16.53, 7.25.53 |
+| Bypass image region restrictions | Adds an option to use a different host for static images, so that images blocked in some countries can be received. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Sanitize sharing links | Adds an option to remove tracking query parameters from URLs when sharing links. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Navigation bar components | Adds options to hide or change components related to the navigation bar. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Player components | Adds options to hide or change components related to the video player. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Certificate spoof | Enables YouTube Music to work with Android Auto by spoofing the YouTube Music certificate. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| Spoof client | Adds options to spoof the client to allow playback. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53 |
+| Spoof streaming data | Adds options to spoof the streaming data to allow playback. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| GmsCore support | Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Return YouTube Dislike | Adds an option to show the dislike count of videos using the Return YouTube Dislike API. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Return YouTube Username | Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Settings for YouTube Music | Applies mandatory patches to implement ReVanced Extended settings into the application. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| SponsorBlock | Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Video playback | Adds options to customize settings related to video playback, such as default video quality and playback speed. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Custom branding name for Reddit | Renames the Reddit app to the name specified in patch options. | com.reddit.frontpage | All versions |
+| Change package name | Changes the package name for Reddit to the name specified in patch options. | com.reddit.frontpage | All versions |
+| Hide recommended communities shelf | Adds an option to hide the recommended communities shelves in subreddits. | com.reddit.frontpage | All versions |
+| Hide navigation buttons | Adds options to hide buttons in the navigation bar. | com.reddit.frontpage | All versions |
+| Premium icon | Unlocks premium app icons. | com.reddit.frontpage | All versions |
+| Hide Recently Visited shelf | Adds an option to hide the Recently Visited shelf in the sidebar. | com.reddit.frontpage | All versions |
+| Disable screenshot popup | Adds an option to disable the popup that appears when taking a screenshot. | com.reddit.frontpage | All versions |
+| Remove subreddit dialog | Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically. | com.reddit.frontpage | All versions |
+| Open links directly | Adds an option to skip over redirection URLs in external links. | com.reddit.frontpage | All versions |
+| Open links externally | Adds an option to always open links in your browser instead of in the in-app-browser. | com.reddit.frontpage | All versions |
+| Settings for Reddit | Applies mandatory patches to implement ReVanced Extended settings into the application. | com.reddit.frontpage | All versions |
+| Alternative thumbnails | Adds options to replace video thumbnails using the DeArrow API or image captures from the video. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Hide feed components | Adds options to hide components related to feeds. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Hide feed flyout menu | Adds the ability to hide feed flyout menu components using a custom filter. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Disable auto audio tracks | Adds an option to disable audio tracks from being automatically enabled. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Hook download actions | Adds support to download videos with an external downloader app using the in-app download button. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Layout switch | Adds an option to spoof the dpi in order to use a tablet or phone layout. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Enable gradient loading screen | Adds an option to enable the gradient loading screen. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Miniplayer | Adds options to change the in app minimized player, and if patching target 19.16+ adds options to use modern miniplayers. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Hook YouTube Music actions | Adds support for opening music in RVX Music using the in-app YouTube Music button. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Disable splash animation | Adds an option to disable the splash animation on app startup. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Toolbar components | Adds options to hide or change components located on the toolbar, such as toolbar buttons, search bar, and header. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Custom Shorts action buttons | Changes, at compile time, the icon of the action buttons of the Shorts player. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Custom branding icon for YouTube | Changes the YouTube app icon to the icon specified in patch options. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Custom branding name for YouTube | Renames the YouTube app to the name specified in patch options. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Hide Shorts dimming | Removes, at compile time, the dimming effect at the top and bottom of Shorts videos. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Custom double tap length | Adds Double-tap to seek values that are specified in patch options. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Custom header for YouTube | Applies a custom header in the top left corner within the app. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Force hide player buttons background | Removes, at compile time, the dark background surrounding the video player controls. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Hide shortcuts | Remove, at compile time, the app shortcuts that appears when app icon is long pressed. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| MaterialYou | Applies the MaterialYou theme for Android 12+ devices. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Theme | Changes the app's theme to the values specified in patch options. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Translations for YouTube | Add translations or remove string resources. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Visual preferences icons for YouTube | Adds icons to specific preferences in the settings. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Enable external browser | Adds an option to always open links in your browser instead of in the in-app-browser. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Enable open links directly | Adds an option to skip over redirection URLs in external links. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Disable QUIC protocol | Adds an option to disable CronetEngine's QUIC protocol. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Watch history | Adds an option to change the domain of the watch history or check its status. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Hide action buttons | Adds options to hide action buttons under videos. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Ambient mode control | Adds options to disable Ambient mode and to bypass Ambient mode restrictions. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Hide player buttons | Adds options to hide buttons in the video player. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Hide comments components | Adds options to hide components related to comments. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Description components | Adds options to hide and disable description components. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Hide player flyout menu | Adds options to hide player flyout menu components. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Change player flyout menu toggles | Adds an option to use text toggles instead of switch toggles within the additional settings menu. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Fullscreen components | Adds options to hide or change components related to fullscreen. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Disable haptic feedback | Adds options to disable haptic feedback when swiping in the video player. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Overlay buttons | Adds options to display overlay buttons in the video player. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Seekbar components | Adds options to hide or change components related to the seekbar. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Shorts components | Adds options to hide or change components related to YouTube Shorts. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Disable resuming Shorts on startup | Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Swipe controls | Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Settings for YouTube | Applies mandatory patches to implement ReVanced Extended settings into the application. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 
 </details>
 
@@ -3687,10 +918,9 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<ins>**Name:**</ins> Unlock subscription  
-<ins>**Description:**</ins> Unlocks the app.  
-<ins>**Compatible Apps:**</ins> com.sbs.diet  
-<ins>**Compatible Versions:**</ins> all versions  
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| Unlock subscription | Unlocks the app. | com.sbs.diet | All versions |
 
 </details>
 
@@ -3699,15 +929,10 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<ins>**Name:**</ins> Bypass root checks  
-<ins>**Description:**</ins> Removes the restriction to use the app with root permissions or on a custom ROM.  
-<ins>**Compatible Apps:**</ins> hu.gov.dap.app  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Example Patch  
-<ins>**Description:**</ins> This is an example patch to start with.  
-<ins>**Compatible Apps:**</ins> com.example.app  
-<ins>**Compatible Versions:**</ins> 1.0.0  
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| Bypass root checks | Removes the restriction to use the app with root permissions or on a custom ROM. | hu.gov.dap.app | All versions |
+| Example Patch | This is an example patch to start with. | com.example.app | 1.0.0 |
 
 </details>
 
@@ -3716,10 +941,9 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<ins>**Name:**</ins> Call recording announcements remover  
-<ins>**Description:**</ins> Remove the announcements when starting or stopping a call recording  
-<ins>**Compatible Apps:**</ins> com.google.android.dialer  
-<ins>**Compatible Versions:**</ins> all versions  
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| Call recording announcements remover | Remove the announcements when starting or stopping a call recording | com.google.android.dialer | All versions |
 
 </details>
 
@@ -3737,10 +961,9 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<ins>**Name:**</ins> Trust User Certs  
-<ins>**Description:**</ins> This patch enables an app to trust user-added CAs  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| Trust User Certs | This patch enables an app to trust user-added CAs | Universal | All versions |
 
 </details>
 
@@ -3749,25 +972,12 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<ins>**Name:**</ins> Make Device Admin App  
-<ins>**Description:**</ins> Modifies an app to request Device Admin privileges by adding a DeviceAdminReceiver and necessary XML.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable Root Detection  
-<ins>**Description:**</ins> Modifies the isRooted() method in the Smali file to always return false.  
-<ins>**Compatible Apps:**</ins> app.zophop  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Change package name  
-<ins>**Description:**</ins> Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Change version code  
-<ins>**Description:**</ins> Changes the version code of the app. By default the highest version code is set. This allows older versions of an app to be installed if their version code is set to the same or a higher value and can stop app stores to update the app.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| Make Device Admin App | Modifies an app to request Device Admin privileges by adding a DeviceAdminReceiver and necessary XML. | Universal | All versions |
+| Disable Root Detection | Modifies the isRooted() method in the Smali file to always return false. | app.zophop | All versions |
+| Change package name | Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues. | Universal | All versions |
+| Change version code | Changes the version code of the app. By default the highest version code is set. This allows older versions of an app to be installed if their version code is set to the same or a higher value and can stop app stores to update the app. | Universal | All versions |
 
 </details>
 
@@ -3776,25 +986,12 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<ins>**Name:**</ins> Unlock Pro features  
-<ins>**Description:**</ins> Unlock Pro features (park4night +). You have be logged in with an account.  
-<ins>**Compatible Apps:**</ins> fr.tramb.park4night  
-<ins>**Compatible Versions:**</ins> 7.1.11  
-
-<ins>**Name:**</ins> Unlock Premium features  
-<ins>**Description:**</ins> Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.  
-<ins>**Compatible Apps:**</ins> de.komoot.android  
-<ins>**Compatible Versions:**</ins> 2024.29.3  
-
-<ins>**Name:**</ins> Bypass signature check  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> cz.seznam.mapy  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock premium features  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> cz.seznam.mapy  
-<ins>**Compatible Versions:**</ins> all versions  
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| Unlock Pro features | Unlock Pro features (park4night +). You have be logged in with an account. | fr.tramb.park4night | 7.1.11 |
+| Unlock Premium features | Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike. | de.komoot.android | 2024.29.3 |
+| Bypass signature check | None | cz.seznam.mapy | All versions |
+| Unlock premium features | None | cz.seznam.mapy | All versions |
 
 </details>
 
@@ -3803,50 +1000,17 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<ins>**Name:**</ins> Change package name  
-<ins>**Description:**</ins> Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues.  
-<ins>**Compatible Apps:**</ins> Universal  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Enable Premium  
-<ins>**Description:**</ins> Enables premium paid subscription.  
-<ins>**Compatible Apps:**</ins> net.teuida.teuida  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Enable debug mode  
-<ins>**Description:**</ins> Enables hidden debug menu in settings.  
-<ins>**Compatible Apps:**</ins> com.duolingo  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock licensed songs  
-<ins>**Description:**</ins> Allows playing the full version of licensed music instead of the 30-second preview.  
-<ins>**Compatible Apps:**</ins> com.duolingo  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Disable practice reminder nag  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.duolingo  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Enable Super  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.duolingo  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock Pro  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> org.totschnig.myexpenses  
-<ins>**Compatible Versions:**</ins> 3.9.8  
-
-<ins>**Name:**</ins> GmsCore support  
-<ins>**Description:**</ins> Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services.  
-<ins>**Compatible Apps:**</ins> net.teuida.teuida  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock Premium  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.merriamwebster  
-<ins>**Compatible Versions:**</ins> all versions  
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| Change package name | Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues. | Universal | All versions |
+| Enable Premium | Enables premium paid subscription. | net.teuida.teuida | All versions |
+| Enable debug mode | Enables hidden debug menu in settings. | com.duolingo | All versions |
+| Unlock licensed songs | Allows playing the full version of licensed music instead of the 30-second preview. | com.duolingo | All versions |
+| Disable practice reminder nag | None | com.duolingo | All versions |
+| Enable Super | None | com.duolingo | All versions |
+| Unlock Pro | None | org.totschnig.myexpenses | 3.9.8 |
+| GmsCore support | Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services. | net.teuida.teuida | All versions |
+| Unlock Premium | None | com.merriamwebster | All versions |
 
 </details>
 
@@ -3855,30 +1019,13 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<ins>**Name:**</ins> Unlock AZ Screen Recorder VIP patch  
-<ins>**Description:**</ins> Unlocks the option labelled as 'Pro' in AZ Screen Recorder  
-<ins>**Compatible Apps:**</ins> com.hecorat.screenrecorder.free  
-<ins>**Compatible Versions:**</ins> 6.4.3  
-
-<ins>**Name:**</ins> Unlock Developer Assistant Pro License patch  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.appsisle.developerassistant  
-<ins>**Compatible Versions:**</ins> 1.2.2  
-
-<ins>**Name:**</ins> Unlock SCRL Premium patch  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.appostrophe.scrl  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock Solid Explorer full version patch  
-<ins>**Description:**</ins> Unlock Solid Explorer full version + remove ads.  
-<ins>**Compatible Apps:**</ins> pl.solidexplorer2  
-<ins>**Compatible Versions:**</ins> all versions  
-
-<ins>**Name:**</ins> Unlock Sponge Premium patch  
-<ins>**Description:**</ins> None  
-<ins>**Compatible Apps:**</ins> com.prismtree.sponge  
-<ins>**Compatible Versions:**</ins> all versions  
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| Unlock AZ Screen Recorder VIP patch | Unlocks the option labelled as 'Pro' in AZ Screen Recorder | com.hecorat.screenrecorder.free | 6.4.3 |
+| Unlock Developer Assistant Pro License patch | None | com.appsisle.developerassistant | 1.2.2 |
+| Unlock SCRL Premium patch | None | com.appostrophe.scrl | All versions |
+| Unlock Solid Explorer full version patch | Unlock Solid Explorer full version + remove ads. | pl.solidexplorer2 | All versions |
+| Unlock Sponge Premium patch | None | com.prismtree.sponge | All versions |
 
 </details>
 
@@ -3887,10 +1034,9 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-<ins>**Name:**</ins> Remove Node Limit v1.1.0  
-<ins>**Description:**</ins> Removes the node limit.  
-<ins>**Compatible Apps:**</ins> org.fortheloss.sticknodes, org.fortheloss.sticknodespro  
-<ins>**Compatible Versions:**</ins> 4.2.3, 4.2.3  
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| Remove Node Limit v1.1.0 | Removes the node limit. | org.fortheloss.sticknodes, org.fortheloss.sticknodespro | 4.2.3, 4.2.3 |
 
 </details>
 
