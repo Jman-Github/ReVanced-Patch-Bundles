@@ -64,13 +64,13 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Set target SDK version 34 | Changes the target SDK to version 34 (Android 14). For devices running Android 15+, this will disable edge-to-edge display. | Universal | All versions |
 | Change version code | Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version. | Universal | All versions |
 | Always allow deep-linking | Open Amazon links, even if the app is not set to handle Amazon links. | com.amazon.mShop.android.shopping | All versions |
-| Hide ads | None | com.drinkplusplus.angulus | All versions |
-| Pro unlock | None | com.backdrops.wallpapers | All versions |
+| Hide ads | N/A | com.drinkplusplus.angulus | All versions |
+| Pro unlock | N/A | com.backdrops.wallpapers | All versions |
 | Remove play limits | Disables purchase nagging and playback limits of not purchased tracks. | com.bandcamp.android | All versions |
 | Bypass root checks | Removes the restriction to use the app with root permissions or on a custom ROM. | it.ipzs.cieid | All versions |
-| Disable ads | None | com.duolingo | All versions |
-| Enable debug menu | None | com.duolingo | 5.158.4 |
-| Hide 'Sponsored Stories' | None | com.facebook.katana | 490.0.0.63.82 |
+| Disable ads | N/A | com.duolingo | All versions |
+| Enable debug menu | N/A | com.duolingo | 5.158.4 |
+| Hide 'Sponsored Stories' | N/A | com.facebook.katana | 490.0.0.63.82 |
 | Hide story ads | Hides the ads in the Facebook app stories. | com.facebook.katana | All versions |
 | Remove bootloader detection | Removes the check for an unlocked bootloader. | at.gv.bmf.bmf2go | All versions |
 | Remove root detection | Removes the check for root permissions. | at.gv.bmf.bmf2go | All versions |
@@ -79,12 +79,12 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Enable DCIM folders backup control | Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up. | com.google.android.apps.photos | All versions |
 | Spoof features | Spoofs the device to enable Google Pixel exclusive features, including unlimited storage. | com.google.android.apps.photos | All versions |
 | Remove device restrictions | Removes restrictions from using the app on any device. Requires mounting patched app over original. | com.google.android.apps.recorder | All versions |
-| Unlock pro | None | ginlemon.iconpackstudio | 2.2 build 016 |
+| Unlock pro | N/A | ginlemon.iconpackstudio | 2.2 build 016 |
 | Spoof signature | Spoofs the signature of the app. | at.gv.oe.app | All versions |
 | Disable signature check | Disables the signature check that causes the app to crash on startup. | com.instagram.android | 378.0.0.52.68 |
-| Remove ads | None | net.binarymode.android.irplus | All versions |
-| Disable mandatory login | None | com.adobe.lrmobile | 9.3.0 |
-| Unlock Premium | None | com.adobe.lrmobile | 9.3.0 |
+| Remove ads | N/A | net.binarymode.android.irplus | All versions |
+| Disable mandatory login | N/A | com.adobe.lrmobile | 9.3.0 |
+| Unlock Premium | N/A | com.adobe.lrmobile | 9.3.0 |
 | Hide inbox ads | Hides ads in inbox. | com.facebook.orca | All versions |
 | Hide inbox subtabs | Hides Home and Channels tabs between active now tray and chats. | com.facebook.orca | All versions |
 | Disable typing indicator | Disables the indicator while typing a message. | com.facebook.orca | All versions |
@@ -103,12 +103,12 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Spoof client | Spoofs the client to fix playback. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
 | Remove broadcasts restriction | Enables starting/stopping NetGuard via broadcasts. | eu.faircode.netguard | All versions |
 | Spoof certificate | Spoofs the X-Android-Cert header to allow push messages. | nl.sanomamedia.android.nu | All versions |
-| Fix crash | None | de.simon.openinghours | 1.0 |
-| Disable audio ads | None | com.pandora.android | All versions |
-| Enable unlimited skips | None | com.pandora.android | All versions |
+| Fix crash | N/A | de.simon.openinghours | 1.0 |
+| Disable audio ads | N/A | com.pandora.android | All versions |
+| Enable unlimited skips | N/A | com.pandora.android | All versions |
 | Spoof device ID | Spoofs device ID to mitigate manual bans by developers. | com.microblink.photomath | All versions |
 | Hide update popup | Prevents the update popup from showing up. | com.microblink.photomath | All versions |
-| Unlock plus | None | com.microblink.photomath | All versions |
+| Unlock plus | N/A | com.microblink.photomath | All versions |
 | Spoof Android device ID | Spoofs the Android device ID used by the app for account authentication.This can be used to copy the account to another device. | com.piccomaeurope.fr | 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2 |
 | Disable tracking | Disables tracking by replacing tracking URLs with example.com. | com.piccomaeurope.fr | 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2 |
 | Skip ads | Automatically skips video stream ads. | com.amazon.avod.thirdpartyclient | 3.0.412.2947 |
@@ -118,7 +118,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Remove 'Sent from' signature | Removes the 'Sent from Proton Mail mobile' signature from emails. | ch.protonmail.android | All versions |
 | Hide purchase reminder | Hides the popup that reminds you to purchase the app. | com.rarlab.rar | All versions |
 | Fix missing audio in video downloads | Fixes audio missing in videos downloaded from v.redd.it. | com.rubenmayayo.reddit | All versions |
-| Fix /s/ links | None | com.rubenmayayo.reddit | All versions |
+| Fix /s/ links | N/A | com.rubenmayayo.reddit | All versions |
 | Unlock subscription | Unlocks the subscription feature but requires a custom client ID. | ml.docilealligator.infinityforreddit, ml.docilealligator.infinityforreddit.plus, ml.docilealligator.infinityforreddit.patreon | All versions |
 | Disable Sync for Lemmy bottom sheet | Disables the bottom sheet at the startup that asks you to signup to "Sync for Lemmy". | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | v23.06.30-13:39 |
 | Fix post thumbnails | Fixes loading post thumbnails by correcting their URLs. | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
@@ -132,23 +132,23 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Remove badge tab | Removes the badge tab from the activity tab. | com.sony.songpal.mdr | All versions |
 | Remove notification badge | Removes the red notification badge from the activity tab. | com.sony.songpal.mdr | 10.1.0 |
 | Disable telemetry | Disables SoundCloud's telemetry system. | com.soundcloud.android | 2025.05.27-release |
-| Enable offline sync | None | com.soundcloud.android | 2025.05.27-release |
+| Enable offline sync | N/A | com.soundcloud.android | 2025.05.27-release |
 | Hide Create button | Hides the "Create" button in the navigation bar. | com.spotify.music | All versions |
 | Custom theme | Applies a custom theme (defaults to amoled black) | com.spotify.music | All versions |
 | Fix Facebook login | Fix logging in with Facebook when the app is patched by always opening the login in a web browser window. | com.spotify.music | All versions |
 | Change lyrics provider | Changes the lyrics provider to a custom one. | com.spotify.music | All versions |
 | Fix third party launchers widgets | Fixes Spotify widgets not working in third party launchers, like Nova Launcher. | com.spotify.music | All versions |
-| Hide offers tab | None | de.stocard.stocard | All versions |
-| Hide story bubbles | None | de.stocard.stocard | All versions |
+| Hide offers tab | N/A | de.stocard.stocard | All versions |
+| Hide story bubbles | N/A | de.stocard.stocard | All versions |
 | Unlock subscription features | Unlocks "Routes", "Matched Runs" and "Segment Efforts". | com.strava | All versions |
-| Disable subscription suggestions | None | com.strava | All versions |
+| Disable subscription suggestions | N/A | com.strava | All versions |
 | Remove Google Play Integrity check | Removes the Google Play Integrity check. With this it's possible to use SwissID on custom ROMS.If the device is rooted, root permissions must be hidden from the app. | com.swisssign.swissid.mobile | 5.2.9 |
 | Unlock themes | Unlocks all themes that are inaccessible until a certain level is reached. | com.ticktick.task | All versions |
 | Feed filter | Removes ads, livestreams, stories, image videos and videos with a specific amount of views or likes from the feed. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | 36.5.4, 36.5.4 |
 | Remember clear display | Remembers the clear display configurations in between videos. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | 36.5.4, 36.5.4 |
 | Downloads | Removes download restrictions and changes the default path to download to. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | 36.5.4, 36.5.4 |
 | Show seekbar | Shows progress bar for all video. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
-| Disable login requirement | None | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
+| Disable login requirement | N/A | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
 | Fix Google login | Allows logging in with a Google account. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
 | Settings | Adds ReVanced settings to TikTok. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | 36.5.4, 36.5.4 |
 | SIM spoof | Spoofs the information which is retrieved from the SIM card. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
@@ -168,7 +168,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Unlock downloads | Unlocks the ability to download any video. GIFs can be downloaded via the menu on long press. | com.twitter.android | All versions |
 | Hide view count | Hides the view count of Posts. | com.twitter.android | All versions |
 | Dynamic color | Replaces the default X (Formerly Twitter) Blue with the user's Material You palette. | com.twitter.android | 10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
-| Hide recommended users | None | com.twitter.android | 10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
+| Hide recommended users | N/A | com.twitter.android | 10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
 | Change link sharing domain | Replaces the domain name of Twitter links when sharing them. | com.twitter.android | 10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
 | Open links with app chooser | Instead of opening links directly, open them with an app chooser. As a result you can select a browser to open the link with. | com.twitter.android | 10.48.0-release.0 |
 | Promo code unlock | Disables the validation of promo code. Any code will work to unlock all features. | de.dwd.warnapp | 4.2.2 |
@@ -519,7 +519,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | Change package name | Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues. | Universal | All versions |
-| Deobfuscate Smob | None | Universal | All versions |
+| Deobfuscate Smob | N/A | Universal | All versions |
 | Hide Ads | Hides ads in stories, discover, profile, etc. An ad can still appear once when refreshing the home feed. | com.instagram.android, com.instagram.barcelona | All versions |
 | Selectable Bio | Makes user's bio selectable. | com.instagram.android | All versions |
 | Enable Developer Menu | Enables the developer menu. | com.instagram.android | All versions |
@@ -572,12 +572,12 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Remove share targets | Removes share targets like directly sharing to a frequent contact. | Universal | All versions |
 | Change version code | Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version. | Universal | All versions |
 | Always allow deep-linking | Open Amazon links, even if the app is not set to handle Amazon links. | com.amazon.mShop.android.shopping | All versions |
-| Pro unlock | None | com.backdrops.wallpapers | All versions |
+| Pro unlock | N/A | com.backdrops.wallpapers | All versions |
 | Remove play limits | Disables purchase nagging and playback limits of not purchased tracks. | com.bandcamp.android | All versions |
 | Bypass root checks | Removes the restriction to use the app with root permissions or on a custom ROM. | it.ipzs.cieid | All versions |
-| Disable ads | None | com.duolingo | All versions |
-| Enable debug menu | None | com.duolingo | 5.158.4 |
-| Hide 'Sponsored Stories' | None | com.facebook.katana | 490.0.0.63.82 |
+| Disable ads | N/A | com.duolingo | All versions |
+| Enable debug menu | N/A | com.duolingo | 5.158.4 |
+| Hide 'Sponsored Stories' | N/A | com.facebook.katana | 490.0.0.63.82 |
 | Hide story ads | Hides the ads in the Facebook app stories. | com.facebook.katana | All versions |
 | Remove bootloader detection | Removes the check for an unlocked bootloader. | at.gv.bmf.bmf2go | All versions |
 | Remove root detection | Removes the check for root permissions. | at.gv.bmf.bmf2go | All versions |
@@ -586,12 +586,12 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Spoof features | Spoofs the device to enable Google Pixel exclusive features, including unlimited storage. | com.google.android.apps.photos | All versions |
 | Restore hidden 'Back up while charging' toggle | Restores a hidden toggle to only run backups when the device is charging. | com.google.android.apps.photos | All versions |
 | Remove device restrictions | Removes restrictions from using the app on any device. Requires mounting patched app over original. | com.google.android.apps.recorder | All versions |
-| Unlock pro | None | ginlemon.iconpackstudio | 2.2 build 016 |
+| Unlock pro | N/A | ginlemon.iconpackstudio | 2.2 build 016 |
 | Spoof signature | Spoofs the signature of the app. | at.gv.oe.app | All versions |
-| Hide ads | None | com.nis.app | All versions |
-| Remove ads | None | net.binarymode.android.irplus | All versions |
-| Disable mandatory login | None | com.adobe.lrmobile | All versions |
-| Unlock premium | None | com.adobe.lrmobile | All versions |
+| Hide ads | N/A | com.nis.app | All versions |
+| Remove ads | N/A | net.binarymode.android.irplus | All versions |
+| Disable mandatory login | N/A | com.adobe.lrmobile | All versions |
+| Unlock premium | N/A | com.adobe.lrmobile | All versions |
 | Hide inbox ads | Hides ads in inbox. | com.facebook.orca | All versions |
 | Hide inbox subtabs | Hides Home and Channels tabs between active now tray and chats. | com.facebook.orca | All versions |
 | Disable switching emoji to sticker | Disables switching from emoji to sticker search mode in message input field. | com.facebook.orca | 439.0.0.29.119 |
@@ -609,21 +609,21 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Spoof client | Spoofs the client to fix playback. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
 | Remove broadcasts restriction | Enables starting/stopping NetGuard via broadcasts. | eu.faircode.netguard | All versions |
 | Spoof certificate | Spoofs the X-Android-Cert header to allow push messages. | nl.sanomamedia.android.nu | All versions |
-| Fix crash | None | de.simon.openinghours | 1.0 |
+| Fix crash | N/A | de.simon.openinghours | 1.0 |
 | Spoof device ID | Spoofs device ID to mitigate manual bans by developers. | com.microblink.photomath | 8.37.0 |
 | Hide update popup | Prevents the update popup from showing up. | com.microblink.photomath | 8.32.0 |
-| Unlock plus | None | com.microblink.photomath | 8.37.0 |
+| Unlock plus | N/A | com.microblink.photomath | 8.37.0 |
 | Spoof Android device ID | Spoofs the Android device ID used by the app for account authentication.This can be used to copy the account to another device. | com.piccomaeurope.fr | 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2 |
 | Disable tracking | Disables tracking by replacing tracking URLs with example.com. | com.piccomaeurope.fr | 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2 |
 | Hide purchase reminder | Hides the popup that reminds you to purchase the app. | com.rarlab.rar | All versions |
 | Spoof user agent | Restores functionality of the app by using custom user agent. | com.rubenmayayo.reddit | All versions |
 | Hook exception handler | Hook the exception handler in Boost. Don't enable except for development purposes | com.rubenmayayo.reddit | All versions |
 | Fix missing audio in video downloads | Fixes audio missing in videos downloaded from v.redd.it. | com.rubenmayayo.reddit | All versions |
-| Fix /s/ links | None | com.rubenmayayo.reddit | All versions |
-| Intercept HTTP requests | None | com.rubenmayayo.reddit | All versions |
-| Add archive links to context menu | None | com.rubenmayayo.reddit | All versions |
-| Automatically undelete Imgur images | None | com.rubenmayayo.reddit | All versions |
-| Automatically undelete Reddit content | None | com.rubenmayayo.reddit | All versions |
+| Fix /s/ links | N/A | com.rubenmayayo.reddit | All versions |
+| Intercept HTTP requests | N/A | com.rubenmayayo.reddit | All versions |
+| Add archive links to context menu | N/A | com.rubenmayayo.reddit | All versions |
+| Automatically undelete Imgur images | N/A | com.rubenmayayo.reddit | All versions |
+| Automatically undelete Reddit content | N/A | com.rubenmayayo.reddit | All versions |
 | Unlock subscription | Unlocks the subscription feature but requires a custom client ID. | ml.docilealligator.infinityforreddit, ml.docilealligator.infinityforreddit.plus, ml.docilealligator.infinityforreddit.patreon | All versions |
 | Disable Sync for Lemmy bottom sheet | Disables the bottom sheet at the startup that asks you to signup to "Sync for Lemmy". | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | v23.06.30-13:39 |
 | Use /user/ endpoint | Replaces the deprecated endpoint for viewing user profiles /u with /user, that used to fix a bug. | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
@@ -635,14 +635,14 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Remove badge tab | Removes the badge tab from the activity tab. | com.sony.songpal.mdr | All versions |
 | Remove notification badge | Removes the red notification badge from the activity tab. | com.sony.songpal.mdr | 10.1.0 |
 | Disable telemetry | Disables SoundCloud's telemetry system. | com.soundcloud.android | All versions |
-| Enable offline sync | None | com.soundcloud.android | All versions |
+| Enable offline sync | N/A | com.soundcloud.android | All versions |
 | Custom theme | Applies a custom theme. | com.spotify.music | All versions |
 | Enable on demand | Enables listening to songs on-demand, allowing to play any song from playlists, albums or artists without limitations. This does not remove ads. | com.spotify.lite | All versions |
 | Unlock Spotify Premium | Unlocks Spotify Premium features. Server-sided features like downloading songs are still locked. | com.spotify.music | All versions |
-| Hide offers tab | None | de.stocard.stocard | All versions |
-| Hide story bubbles | None | de.stocard.stocard | All versions |
+| Hide offers tab | N/A | de.stocard.stocard | All versions |
+| Hide story bubbles | N/A | de.stocard.stocard | All versions |
 | Unlock subscription features | Unlocks "Routes", "Matched Runs" and "Segment Efforts". | com.strava | All versions |
-| Disable subscription suggestions | None | com.strava | 320.12 |
+| Disable subscription suggestions | N/A | com.strava | 320.12 |
 | Remove Google Play Integrity check | Removes the Google Play Integrity check. With this it's possible to use SwissID on custom ROMS.If the device is rooted, root permissions must be hidden from the app. | com.swisssign.swissid.mobile | 5.2.9 |
 | Unlock themes | Unlocks all themes that are inaccessible until a certain level is reached. | com.ticktick.task | All versions |
 | Feed filter | Removes ads, livestreams, stories, image videos and videos with a specific amount of views or likes from the feed. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | 36.5.4, 36.5.4 |
@@ -650,7 +650,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Downloads | Removes download restrictions and changes the default path to download to. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | 36.5.4, 36.5.4 |
 | Show seekbar | Shows progress bar for all video. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
 | Playback speed | Enables the playback speed option for all videos and retains the speed configurations in between videos. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | 36.5.4, 36.5.4 |
-| Disable login requirement | None | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
+| Disable login requirement | N/A | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
 | Fix Google login | Allows logging in with a Google account. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
 | Settings | Adds ReVanced settings to TikTok. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | 36.5.4, 36.5.4 |
 | SIM spoof | Spoofs the information which is retrieved from the SIM card. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
@@ -670,7 +670,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Unlock downloads | Unlocks the ability to download any video. GIFs can be downloaded via the menu on long press. | com.twitter.android | All versions |
 | Hide view count | Hides the view count of Posts. | com.twitter.android | All versions |
 | Dynamic color | Replaces the default X (Formerly Twitter) Blue with the user's Material You palette. | com.twitter.android | 10.84.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
-| Hide recommended users | None | com.twitter.android | 10.84.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
+| Hide recommended users | N/A | com.twitter.android | 10.84.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
 | Change link sharing domain | Replaces the domain name of Twitter links when sharing them. | com.twitter.android | 10.84.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
 | Open links with app chooser | Instead of opening links directly, open them with an app chooser. As a result you can select a browser to open the link with. | com.twitter.android | 10.48.0-release.0 |
 | Promo code unlock | Disables the validation of promo code. Any code will work to unlock all features. | de.dwd.warnapp | 4.2.2 |
@@ -746,13 +746,13 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| Disable Logging(analytics) Patch | None | org.zwanoo.android.speedtest | All versions |
-| AdFree Account Patch | None | org.zwanoo.android.speedtest | All versions |
-| Disable Firebase(Google) Analytics | None | Universal | All versions |
-| Disable Temper Detection | None | com.ttxapps.autosync | All versions |
-| Purchase All Items | None | com.ttxapps.autosync | All versions |
-| Disable Folder Pair Deletion | None | com.ttxapps.autosync | All versions |
-| Bypass Blocks Limit | None | com.llamalab.automate | All versions |
+| Disable Logging(analytics) Patch | N/A | org.zwanoo.android.speedtest | All versions |
+| AdFree Account Patch | N/A | org.zwanoo.android.speedtest | All versions |
+| Disable Firebase(Google) Analytics | N/A | Universal | All versions |
+| Disable Temper Detection | N/A | com.ttxapps.autosync | All versions |
+| Purchase All Items | N/A | com.ttxapps.autosync | All versions |
+| Disable Folder Pair Deletion | N/A | com.ttxapps.autosync | All versions |
+| Bypass Blocks Limit | N/A | com.llamalab.automate | All versions |
 
 </details>
 
@@ -1027,8 +1027,8 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 |----------|---------------|---------------------|-------------------------|
 | Unlock Pro features | Unlock Pro features. Sometimes the app forget about my patches and a popup screen asking to subscribe will be shown. In this screen, just swipe down to refresh and the app will have Pro features again. | com.calistree.calistree | 4.17.8 |
 | Unlock Premium features | WARNING: This only works via mount install (root required). Unlock Premium features. Lists are still locked as they are server sided. | com.groundspeak.geocaching.intro | All versions |
-| Bypass signature check | None | cz.seznam.mapy | All versions |
-| Unlock premium features | None | cz.seznam.mapy | All versions |
+| Bypass signature check | N/A | cz.seznam.mapy | All versions |
+| Unlock premium features | N/A | cz.seznam.mapy | All versions |
 
 </details>
 
@@ -1040,14 +1040,14 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | Change package name | Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues. | Universal | All versions |
-| Enable Premium | None | com.crunchyroll.crunchyroid | All versions |
+| Enable Premium | N/A | com.crunchyroll.crunchyroid | All versions |
 | Enable debug mode | Enables hidden debug menu in settings. | com.duolingo | All versions |
 | Unlock licensed songs | Allows playing the full version of licensed music instead of the 30-second preview. | com.duolingo | All versions |
-| Disable practice reminder nag | None | com.duolingo | All versions |
-| Enable Super | None | com.duolingo | All versions |
-| Unlock Pro | None | org.totschnig.myexpenses | 3.9.8 |
+| Disable practice reminder nag | N/A | com.duolingo | All versions |
+| Enable Super | N/A | com.duolingo | All versions |
+| Unlock Pro | N/A | org.totschnig.myexpenses | 3.9.8 |
 | GmsCore support | Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services. | net.teuida.teuida | All versions |
-| Unlock Premium | None | com.merriamwebster | All versions |
+| Unlock Premium | N/A | com.merriamwebster | All versions |
 
 </details>
 
@@ -1059,10 +1059,10 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | Unlock AZ Screen Recorder VIP patch | Unlocks the option labelled as 'Pro' in AZ Screen Recorder | com.hecorat.screenrecorder.free | 6.4.3 |
-| Unlock Developer Assistant Pro License patch | None | com.appsisle.developerassistant | 1.2.2 |
-| Unlock SCRL Premium patch | None | com.appostrophe.scrl | All versions |
+| Unlock Developer Assistant Pro License patch | N/A | com.appsisle.developerassistant | 1.2.2 |
+| Unlock SCRL Premium patch | N/A | com.appostrophe.scrl | All versions |
 | Unlock Solid Explorer full version patch | Unlock Solid Explorer full version + remove ads. | pl.solidexplorer2 | All versions |
-| Unlock Sponge Premium patch | None | com.prismtree.sponge | All versions |
+| Unlock Sponge Premium patch | N/A | com.prismtree.sponge | All versions |
 
 </details>
 
