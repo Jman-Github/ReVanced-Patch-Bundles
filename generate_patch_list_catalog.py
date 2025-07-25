@@ -1,68 +1,80 @@
 import json
 import re
 from pathlib import Path
-from typing import List
+from typing import List, Tuple, Dict
 
 
-def load_patch_info(bundle_dir: Path):
+def load_patch_info(bundle_dir: Path) -> Tuple[List[str], Dict[str, dict]]:
     bundle_name = bundle_dir.name.replace("-patch-bundles", "")
     patch_order: List[str] = []
-    patches: dict[str, dict[str, str]] = {}
+    patches: Dict[str, dict] = {}
 
-    patch_files: list[tuple[str, Path]] = []
-    for release in ("stable", "dev"):
-        pattern = f"{bundle_name}-{release}-patches-list.json"
-        for path in bundle_dir.glob(pattern):
-            patch_files.append((release, path))
+    # 1. Load the 'latest' list to get the master order + metadata
+    latest_path = next(bundle_dir.glob(f"{bundle_name}-latest-patch-list.json"), None)
+    if not latest_path:
+        print(f"Warning: no latest-patch-list.json for {bundle_name}; skipping")
+        return [], {}
+    text = latest_path.read_text(encoding="utf-8").strip()
+    if not text:
+        print(f"Warning: {latest_path} is empty; skipping")
+        return [], {}
+    try:
+        latest_data = json.loads(text)
+    except json.JSONDecodeError as e:
+        print(f"Warning: invalid JSON in {latest_path}: {e}; skipping")
+        return [], {}
 
-    for release, list_file in patch_files:
-        text = list_file.read_text(encoding="utf-8").strip()
-        if not text:
-            print(f"Warning: {list_file} is empty; skipping")
-            continue
-
-        try:
-            data = json.loads(text)
-        except json.JSONDecodeError as e:
-            print(f"Warning: invalid JSON in {list_file}: {e}; skipping")
-            continue
-
-        for patch in data.get("patches", []):
-            name = patch.get("name", "N/A")
-            if name not in patches:
-                patch_order.append(name)
-                description = patch.get("description") or "None"
-                comp = patch.get("compatiblePackages")
-                if not comp:
-                    apps = "Universal"
-                    versions_str = "All versions"
+    for patch in latest_data.get("patches", []):
+        name = patch.get("name") or "N/A"
+        description = patch.get("description") or "N/A"
+        comp = patch.get("compatiblePackages")
+        if not comp:
+            apps = "Universal"
+            versions_str = "All versions"
+        else:
+            apps = ", ".join(comp.keys())
+            version_parts = []
+            for vs in comp.values():
+                if not vs:
+                    continue
+                if isinstance(vs, list):
+                    version_parts.extend(str(v) for v in vs)
                 else:
-                    apps = ", ".join(comp.keys())
-                    version_parts: List[str] = []
-                    for versions in comp.values():
-                        if not versions:
-                            continue
-                        if isinstance(versions, list):
-                            version_parts.extend(str(v) for v in versions)
-                        else:
-                            version_parts.append(str(versions))
-                    versions_str = (
-                        ", ".join(version_parts) if version_parts else "All versions"
-                    )
-                patches[name] = {
-                    "description": description,
-                    "apps": apps,
-                    "versions": versions_str,
-                    "stable": False,
-                    "dev": False,
-                }
-            patches[name][release] = True
+                    version_parts.append(str(vs))
+            versions_str = ", ".join(version_parts) if version_parts else "All versions"
+
+        patches[name] = {
+            "description": description,
+            "apps": apps,
+            "versions": versions_str,
+            "stable": False,
+            "dev": False,
+        }
+        patch_order.append(name)
+
+    # 2. Mark which of those master patches appear in stable/dev
+    for release in ("stable", "dev"):
+        for path in bundle_dir.glob(f"{bundle_name}-{release}-patches-list.json"):
+            text = path.read_text(encoding="utf-8").strip()
+            if not text:
+                print(f"Warning: {path} is empty; skipping")
+                continue
+            try:
+                data = json.loads(text)
+            except json.JSONDecodeError as e:
+                print(f"Warning: invalid JSON in {path}: {e}; skipping")
+                continue
+
+            for patch in data.get("patches", []):
+                name = patch.get("name") or "N/A"
+                # only mark those that exist in latest
+                if name in patches:
+                    patches[name][release] = True
 
     return patch_order, patches
 
 
-def format_patch_lines(order, patches) -> List[str]:
-    """Return a list of lines representing a Markdown table for all patches."""
+def format_patch_lines(order: List[str], patches: Dict[str, dict]) -> List[str]:
     lines: List[str] = []
     lines.append(
         "| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** | **Release Type** |"
@@ -70,18 +82,28 @@ def format_patch_lines(order, patches) -> List[str]:
     lines.append(
         "|----------|---------------|---------------------|-------------------------|---------------|"
     )
+
     for name in order:
         info = patches[name]
-        icon = "🟢" if info.get("stable") else "🟡"
+        stable = bool(info.get("stable"))
+        dev = bool(info.get("dev"))
+
+        # Decide icon:
+        if not stable and dev:
+            icon = "🟡"    # missing from stable
+        elif not dev or stable:
+            icon = "🟢"    # missing from dev OR present in stable
+        else:
+            icon = "N/A"   # fallback
+
         lines.append(
             f"| {name} | {info['description']} | {info['apps']} | {info['versions']} | {icon} |"
         )
-    lines.append("")
+    lines.append("")  # trailing newline
     return lines
 
 
 def read_catalog_patch_names(catalog_path: Path) -> set[str]:
-    """Return patch names currently present in the catalog file."""
     names: set[str] = set()
     if not catalog_path.exists():
         return names
@@ -94,13 +116,12 @@ def read_catalog_patch_names(catalog_path: Path) -> set[str]:
 def inject_patch_lines(
     catalog_lines: List[str], bundle_name: str, patch_lines: List[str]
 ) -> bool:
-    """Inject patch lines for a bundle into the catalog."""
     header_regex = re.compile(
         rf"^### 🧩 {re.escape(bundle_name)} Bundle Patch List:", re.IGNORECASE
     )
-
     for i, line in enumerate(catalog_lines):
         if header_regex.match(line.strip()):
+            # find the end of the <summary> block
             j = i + 1
             while (
                 j < len(catalog_lines)
@@ -111,6 +132,7 @@ def inject_patch_lines(
             if j == len(catalog_lines):
                 return False
             start = j + 1
+            # find </details>
             k = start
             while k < len(catalog_lines) and catalog_lines[k].strip() != "</details>":
                 k += 1
@@ -133,12 +155,11 @@ def main() -> int:
     for bundle_dir in sorted(bundle_root.glob("*-patch-bundles")):
         if not bundle_dir.is_dir():
             continue
-        if bundle_dir.name == "PATCH-LIST-CATALOG.md":
-            continue
+        bundle_name = bundle_dir.name.replace("-patch-bundles", "")
         order, patches = load_patch_info(bundle_dir)
         if not order:
             continue
-        bundle_name = bundle_dir.name.replace("-patch-bundles", "")
+
         patch_lines = format_patch_lines(order, patches)
         if not inject_patch_lines(catalog_lines, bundle_name, patch_lines):
             print(f"Warning: section for '{bundle_name}' not found; skipping.")
@@ -146,13 +167,11 @@ def main() -> int:
         new_patch_names.update(order)
 
     old_patch_names = read_catalog_patch_names(catalog_path)
-
     new_text = "\n".join(catalog_lines).rstrip() + "\n"
 
-    if new_text == catalog_text:
-        if new_patch_names.issubset(old_patch_names):
-            print("Catalog already contains all patches.")
-            return 1
+    if new_text == catalog_text and new_patch_names.issubset(old_patch_names):
+        print("Catalog already contains all patches.")
+        return 1
 
     catalog_path.write_text(new_text, encoding="utf-8")
     print("Catalog updated.")
