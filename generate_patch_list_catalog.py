@@ -9,13 +9,9 @@ def load_patch_info(bundle_dir: Path):
     patch_order: List[str] = []
     patches: dict[str, dict[str, str]] = {}
 
-    patch_files: list[tuple[str, Path]] = []
-    for release in ("stable", "dev"):
-        pattern = f"{bundle_name}-{release}-patches-list.json"
-        for path in bundle_dir.glob(pattern):
-            patch_files.append((release, path))
-
-    for release, list_file in patch_files:
+    # Only load the latest-patch-lists.json for this bundle
+    pattern = f"{bundle_name}-latest-patch-lists.json"
+    for list_file in bundle_dir.glob(pattern):
         text = list_file.read_text(encoding="utf-8").strip()
         if not text:
             print(f"Warning: {list_file} is empty; skipping")
@@ -53,10 +49,7 @@ def load_patch_info(bundle_dir: Path):
                     "description": description,
                     "apps": apps,
                     "versions": versions_str,
-                    "stable": False,
-                    "dev": False,
                 }
-            patches[name][release] = True
 
     return patch_order, patches
 
@@ -65,16 +58,15 @@ def format_patch_lines(order, patches) -> List[str]:
     """Return a list of lines representing a Markdown table for all patches."""
     lines: List[str] = []
     lines.append(
-        "| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** | **Release Type** |"
+        "| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |"
     )
     lines.append(
-        "|----------|---------------|---------------------|-------------------------|---------------|"
+        "|----------|---------------|---------------------|-------------------------|"
     )
     for name in order:
         info = patches[name]
-        icon = "🟢" if info.get("stable") else "🟡"
         lines.append(
-            f"| {name} | {info['description']} | {info['apps']} | {info['versions']} | {icon} |"
+            f"| {name} | {info['description']} | {info['apps']} | {info['versions']} |"
         )
     lines.append("")
     return lines
@@ -131,28 +123,26 @@ def main() -> int:
     new_patch_names: set[str] = set()
 
     for bundle_dir in sorted(bundle_root.glob("*-patch-bundles")):
-        if not bundle_dir.is_dir():
-            continue
-        if bundle_dir.name == "PATCH-LIST-CATALOG.md":
+        if not bundle_dir.is_dir() or bundle_dir.name == "PATCH-LIST-CATALOG.md":
             continue
         order, patches = load_patch_info(bundle_dir)
         if not order:
             continue
+
         bundle_name = bundle_dir.name.replace("-patch-bundles", "")
         patch_lines = format_patch_lines(order, patches)
         if not inject_patch_lines(catalog_lines, bundle_name, patch_lines):
             print(f"Warning: section for '{bundle_name}' not found; skipping.")
             continue
+
         new_patch_names.update(order)
 
     old_patch_names = read_catalog_patch_names(catalog_path)
-
     new_text = "\n".join(catalog_lines).rstrip() + "\n"
 
-    if new_text == catalog_text:
-        if new_patch_names.issubset(old_patch_names):
-            print("Catalog already contains all patches.")
-            return 1
+    if new_text == catalog_text and new_patch_names.issubset(old_patch_names):
+        print("Catalog already contains all patches.")
+        return 1
 
     catalog_path.write_text(new_text, encoding="utf-8")
     print("Catalog updated.")
