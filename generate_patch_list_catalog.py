@@ -40,9 +40,7 @@ def load_patch_info(bundle_dir: Path) -> Tuple[List[str], Dict[str, dict]]:
                     version_parts.extend(str(v) for v in versions)
                 else:
                     version_parts.append(str(versions))
-            versions_str = (
-                ", ".join(version_parts) if version_parts else "All versions"
-            )
+            versions_str = ", ".join(version_parts) if version_parts else "All versions"
 
         patches[name] = {
             "description": description,
@@ -104,30 +102,87 @@ def format_patch_lines(order: List[str], patches: Dict[str, dict]) -> List[str]:
 def inject_patch_lines(
     catalog_lines: List[str], bundle_name: str, patch_lines: List[str]
 ) -> bool:
+    """Inject or update the patch table for a bundle.
+
+    In addition to replacing the table rows, this function normalizes the
+    surrounding markdown formatting so minor differences are also detected.
+    """
+
     header_regex = re.compile(
         rf"^### 🧩 {re.escape(bundle_name)} Bundle Patch List:", re.IGNORECASE
     )
+
+    canonical_header = f"### 🧩 {bundle_name} Bundle Patch List:"
+    canonical_details = "<details open>"
+    canonical_summary = "<summary><b>Click To Collapse Patch List</b></summary>"
+    canonical_close = "</details>"
+
     for i, line in enumerate(catalog_lines):
         if header_regex.match(line.strip()):
+            changed = False
+
+            # Ensure preceding separator line
+            if i > 0 and catalog_lines[i - 1].strip() != "---":
+                catalog_lines[i - 1] = "---"
+                changed = True
+
+            if catalog_lines[i] != canonical_header:
+                catalog_lines[i] = canonical_header
+                changed = True
+
             j = i + 1
-            while (
-                j < len(catalog_lines)
-                and catalog_lines[j].strip()
-                != "<summary><b>Click To Collapse Patch List</b></summary>"
-            ):
-                j += 1
-            if j == len(catalog_lines):
-                return False
+            if j >= len(catalog_lines) or catalog_lines[j].strip() != canonical_details:
+                if j < len(catalog_lines):
+                    catalog_lines[j] = canonical_details
+                else:
+                    catalog_lines.append(canonical_details)
+                changed = True
+
+            j += 1
+            if j >= len(catalog_lines) or catalog_lines[j].strip() != canonical_summary:
+                if j < len(catalog_lines):
+                    catalog_lines[j] = canonical_summary
+                else:
+                    catalog_lines.append(canonical_summary)
+                changed = True
+
+            j += 1
+            if j >= len(catalog_lines) or catalog_lines[j].strip() != "":
+                if j < len(catalog_lines):
+                    catalog_lines[j] = ""
+                else:
+                    catalog_lines.append("")
+                changed = True
+
             start = j + 1
 
             k = start
-            while k < len(catalog_lines) and catalog_lines[k].strip() != "</details>":
+            while (
+                k < len(catalog_lines) and catalog_lines[k].strip() != canonical_close
+            ):
                 k += 1
             if k == len(catalog_lines):
                 return False
 
-            catalog_lines[start:k] = ["", *patch_lines]
-            return True
+            existing_lines = [l.rstrip() for l in catalog_lines[start:k]]
+            if existing_lines != [l.rstrip() for l in patch_lines]:
+                catalog_lines[start:k] = patch_lines
+                changed = True
+
+            if catalog_lines[k] != canonical_close:
+                catalog_lines[k] = canonical_close
+                changed = True
+
+            end = k + 1
+            if end >= len(catalog_lines) or catalog_lines[end].strip() != "":
+                if end < len(catalog_lines):
+                    catalog_lines[end] = ""
+                else:
+                    catalog_lines.append("")
+                changed = True
+
+            return changed
+
     return False
 
 
