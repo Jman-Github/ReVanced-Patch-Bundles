@@ -7,7 +7,7 @@ from typing import List
 def load_patch_info(bundle_dir: Path):
     bundle_name = bundle_dir.name.replace("-patch-bundles", "")
     patch_order: List[str] = []
-    patches: dict[str, dict[str, str]] = {}
+    patches: dict[str, dict[str, object]] = {}
 
     pattern = f"{bundle_name}-latest-patches-list.json"
     for list_file in bundle_dir.glob(pattern):
@@ -24,33 +24,56 @@ def load_patch_info(bundle_dir: Path):
 
         for patch in data.get("patches", []):
             name = patch.get("name") or "N/A"
-            if name not in patches:
-                patch_order.append(name)
-                description = patch.get("description") or "N/A"
-                comp = patch.get("compatiblePackages")
-                if not comp:
-                    apps = "Universal"
-                    versions_str = "All versions"
-                else:
-                    apps = ", ".join(comp.keys())
-                    version_parts: List[str] = []
-                    for versions in comp.values():
-                        if not versions:
-                            continue
-                        if isinstance(versions, list):
-                            version_parts.extend(str(v) for v in versions)
-                        else:
-                            version_parts.append(str(versions))
-                    versions_str = (
-                        ", ".join(version_parts) if version_parts else "All versions"
-                    )
-                patches[name] = {
-                    "description": description,
-                    "apps": apps,
-                    "versions": versions_str,
-                }
+            entry = patches.setdefault(
+                name,
+                {
+                    "description": patch.get("description") or "N/A",
+                    "apps": set(),
+                    "versions": set(),
+                },
+            )
 
-    return patch_order, patches
+            if name not in patch_order:
+                patch_order.append(name)
+
+            if entry["description"] == "N/A" and patch.get("description"):
+                entry["description"] = patch["description"]
+
+            comp = patch.get("compatiblePackages")
+            if not comp:
+                entry["apps"].add("Universal")
+                entry["versions"].add("All versions")
+            else:
+                for app, versions in comp.items():
+                    entry["apps"].add(app)
+                    if not versions:
+                        entry["versions"].add("All versions")
+                    elif isinstance(versions, list):
+                        entry["versions"].update(str(v) for v in versions)
+                    else:
+                        entry["versions"].add(str(versions))
+
+    formatted: dict[str, dict[str, str]] = {}
+    for name, info in patches.items():
+        apps = sorted(info["apps"])
+        if "Universal" in apps:
+            apps_str = "Universal"
+        else:
+            apps_str = ", ".join(apps)
+
+        versions = sorted(info["versions"], key=str)
+        if "All versions" in versions:
+            versions_str = "All versions"
+        else:
+            versions_str = ", ".join(versions)
+
+        formatted[name] = {
+            "description": info["description"],
+            "apps": apps_str,
+            "versions": versions_str,
+        }
+
+    return patch_order, formatted
 
 
 def format_patch_lines(order, patches) -> List[str]:
