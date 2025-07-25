@@ -2,7 +2,7 @@
 This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list of patches, including their names, descriptions, supported applications, and compatible versions. The patches listed are the latest available patches, including prereleases. You can search the catalog using CTRL + F (Windows) or Command + F (Mac). **Currently, API v3 (.jar) bundles patch lists aren't available here.** Support for API v3 patch bundles may be added in the future.
 ## 🔑 Patch List Catalog Key
 #### Patch Bundle Shortcuts
-<small><small>Click the bundle patch list of your choice to be directed to the corresponding section in the catalog.</small></small>  
+*Click the bundle patch list of your choice to be directed to the corresponding section in the catalog.*  
 [🧩 ReVanced Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-revanced-bundle-patch-list)  
 [🧩 Inotia00 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-inotia00-bundle-patch-list)  
 [🧩 Anddea Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-anddea-bundle-patch-list)  
