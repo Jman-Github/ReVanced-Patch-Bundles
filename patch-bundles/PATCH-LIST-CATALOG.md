@@ -41,6 +41,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ### 🧩 ReVanced Bundle Patch List:
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
+
 ***225 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -276,6 +277,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ### 🧩 Inotia00 Bundle Patch List:
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
+
 ***125 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -411,6 +413,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ### 🧩 Anddea Bundle Patch List:
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
+
 ***135 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -583,6 +586,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ### 🧩 Privacy Bundle Patch List:
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
+
 ***15 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -608,6 +612,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ### 🧩 Experimental Bundle Patch List:
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
+
 ***16 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -634,6 +639,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ### 🧩 Dropped Bundle Patch List:
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
+
 ***3 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -647,6 +653,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ### 🧩 Wchill Bundle Patch List:
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
+
 ***212 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -876,6 +883,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ### 🧩 BholeyKaBhakt Bundle Patch List:
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
+
 ***7 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -902,6 +910,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ### 🧩 ReX Bundle Patch List:
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
+
 ***116 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1109,6 +1118,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ### 🧩 LennyRBLX Bundle Patch List:
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
+
 ***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1120,6 +1130,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ### 🧩 Korhelyleves Bundle Patch List:
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
+
 ***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1132,6 +1143,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ### 🧩 Taknok Bundle Patch List:
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
+
 ***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1152,6 +1164,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ### 🧩 Faith001 Bundle Patch List:
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
+
 ***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1163,6 +1176,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ### 🧩 Forsyth47 Bundle Patch List:
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
+
 ***4 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1177,6 +1191,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ### 🧩 Brosssh Bundle Patch List:
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
+
 ***7 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1194,6 +1209,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ### 🧩 Hoo-dles Bundle Patch List:
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
+
 ***11 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1215,6 +1231,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ### 🧩 Scrazzz Bundle Patch List:
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
+
 ***5 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
