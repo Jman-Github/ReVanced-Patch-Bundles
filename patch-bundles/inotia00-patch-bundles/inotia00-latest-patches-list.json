@@ -1,5 +1,5 @@
 {
-    "version": "v5.8.1-dev.1",
+    "version": "v5.8.1-dev.2",
     "patches": [
         {
             "name": "Spoof Wi-Fi connection",
@@ -947,6 +947,7 @@
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "compatiblePackages": {
@@ -1523,6 +1524,7 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "Settings for YouTube",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch"
@@ -2651,7 +2653,8 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
@@ -3019,6 +3022,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch",
