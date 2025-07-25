@@ -55,7 +55,9 @@ def load_patch_info(bundle_dir: Path):
 
 def format_patch_lines(order, patches) -> List[str]:
     """Return a list of lines representing a Markdown table for all patches."""
-    lines: List[str] = []
+    count = len(order)
+    patch_word = "Patch" if count == 1 else "Patches"
+    lines: List[str] = [f"***{count} {patch_word}***"]
     lines.append(
         "| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |"
     )
