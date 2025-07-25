@@ -6,60 +6,76 @@ from typing import List
 
 def load_patch_info(bundle_dir: Path):
     bundle_name = bundle_dir.name.replace("-patch-bundles", "")
-    pattern = f"{bundle_name}-*-patches-list.json"
     patch_order: List[str] = []
     patches: dict[str, dict[str, str]] = {}
-    for list_file in bundle_dir.glob(pattern):
-        with list_file.open(encoding="utf-8") as f:
-            data = json.load(f)
+
+    patch_files: list[tuple[str, Path]] = []
+    for release in ("stable", "dev"):
+        pattern = f"{bundle_name}-{release}-patches-list.json"
+        for path in bundle_dir.glob(pattern):
+            patch_files.append((release, path))
+
+    for release, list_file in patch_files:
+        text = list_file.read_text(encoding="utf-8").strip()
+        if not text:
+            print(f"Warning: {list_file} is empty; skipping")
+            continue
+
+        try:
+            data = json.loads(text)
+        except json.JSONDecodeError as e:
+            print(f"Warning: invalid JSON in {list_file}: {e}; skipping")
+            continue
+
         for patch in data.get("patches", []):
             name = patch.get("name", "N/A")
             if name not in patches:
                 patch_order.append(name)
-            description = patch.get("description")
-            description = description if description is not None else "None"
-            comp = patch.get("compatiblePackages")
-            if not comp:
-                apps = "Universal"
-                versions_str = "All versions"
-            else:
-                apps = ", ".join(comp.keys())
-                version_parts: List[str] = []
-                for versions in comp.values():
-                    if not versions:
-                        continue
-                    if isinstance(versions, list):
-                        version_parts.extend(str(v) for v in versions)
-                    else:
-                        version_parts.append(str(versions))
-                versions_str = (
-                    ", ".join(version_parts) if version_parts else "All versions"
-                )
-            patches[name] = {
-                "description": description,
-                "apps": apps,
-                "versions": versions_str,
-            }
+                description = patch.get("description") or "None"
+                comp = patch.get("compatiblePackages")
+                if not comp:
+                    apps = "Universal"
+                    versions_str = "All versions"
+                else:
+                    apps = ", ".join(comp.keys())
+                    version_parts: List[str] = []
+                    for versions in comp.values():
+                        if not versions:
+                            continue
+                        if isinstance(versions, list):
+                            version_parts.extend(str(v) for v in versions)
+                        else:
+                            version_parts.append(str(versions))
+                    versions_str = (
+                        ", ".join(version_parts) if version_parts else "All versions"
+                    )
+                patches[name] = {
+                    "description": description,
+                    "apps": apps,
+                    "versions": versions_str,
+                    "stable": False,
+                    "dev": False,
+                }
+            patches[name][release] = True
+
     return patch_order, patches
 
 
 def format_patch_lines(order, patches) -> List[str]:
     """Return a list of lines representing a Markdown table for all patches."""
     lines: List[str] = []
-    # Table header with bolded column names
     lines.append(
-        "| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |"
+        "| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** | **Release Type** |"
     )
     lines.append(
-        "|----------|---------------|---------------------|-------------------------|"
+        "|----------|---------------|---------------------|-------------------------|---------------|"
     )
-    # One row per patch
     for name in order:
         info = patches[name]
+        icon = "🟢" if info.get("stable") else "🟡"
         lines.append(
-            f"| {name} | {info['description']} | {info['apps']} | {info['versions']} |"
+            f"| {name} | {info['description']} | {info['apps']} | {info['versions']} | {icon} |"
         )
-    # Blank line after the table
     lines.append("")
     return lines
 
@@ -78,19 +94,13 @@ def read_catalog_patch_names(catalog_path: Path) -> set[str]:
 def inject_patch_lines(
     catalog_lines: List[str], bundle_name: str, patch_lines: List[str]
 ) -> bool:
-    """Inject patch lines for a bundle into the catalog.
-
-    This searches for a heading matching the bundle name in a case-insensitive
-    manner and replaces the text between the summary line and the closing
-    ``</details>`` tag.
-    """
+    """Inject patch lines for a bundle into the catalog."""
     header_regex = re.compile(
         rf"^### 🧩 {re.escape(bundle_name)} Bundle Patch List:", re.IGNORECASE
     )
 
     for i, line in enumerate(catalog_lines):
         if header_regex.match(line.strip()):
-            # Find the summary line
             j = i + 1
             while (
                 j < len(catalog_lines)
@@ -101,22 +111,15 @@ def inject_patch_lines(
             if j == len(catalog_lines):
                 return False
             start = j + 1
-            # Find the closing </details>
             k = start
             while k < len(catalog_lines) and catalog_lines[k].strip() != "</details>":
                 k += 1
             if k == len(catalog_lines):
                 return False
 
-            # Inject the new table
             catalog_lines[start:k] = ["", *patch_lines]
             return True
     return False
-
-
-def append_bundle_section(*_: List[str]) -> None:
-    """Deprecated helper kept for backward compatibility."""
-    raise RuntimeError("Bundle section headings must already exist in the catalog")
 
 
 def main() -> int:
