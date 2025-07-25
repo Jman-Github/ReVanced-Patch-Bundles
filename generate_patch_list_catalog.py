@@ -1,13 +1,13 @@
 import json
 import re
 from pathlib import Path
-from typing import List
+from typing import List, Dict
 
 
-def load_patch_info(bundle_dir: Path):
+def load_patch_info(bundle_dir: Path) -> List[Dict[str, str]]:
+    """Return a list of patch metadata dictionaries for a bundle."""
     bundle_name = bundle_dir.name.replace("-patch-bundles", "")
-    patch_order: List[str] = []
-    patches: dict[str, dict[str, str]] = {}
+    patches: List[Dict[str, str]] = []
 
     pattern = f"{bundle_name}-latest-patches-list.json"
     for list_file in bundle_dir.glob(pattern):
@@ -24,38 +24,40 @@ def load_patch_info(bundle_dir: Path):
 
         for patch in data.get("patches", []):
             name = patch.get("name") or "N/A"
-            if name not in patches:
-                patch_order.append(name)
-                description = patch.get("description") or "N/A"
-                comp = patch.get("compatiblePackages")
-                if not comp:
-                    apps = "Universal"
-                    versions_str = "All versions"
-                else:
-                    apps = ", ".join(comp.keys())
-                    version_parts: List[str] = []
-                    for versions in comp.values():
-                        if not versions:
-                            continue
-                        if isinstance(versions, list):
-                            version_parts.extend(str(v) for v in versions)
-                        else:
-                            version_parts.append(str(versions))
-                    versions_str = (
-                        ", ".join(version_parts) if version_parts else "All versions"
-                    )
-                patches[name] = {
+            description = patch.get("description") or "N/A"
+            comp = patch.get("compatiblePackages")
+            if not comp:
+                apps = "Universal"
+                versions_str = "All versions"
+            else:
+                apps = ", ".join(comp.keys())
+                version_parts: List[str] = []
+                for versions in comp.values():
+                    if not versions:
+                        continue
+                    if isinstance(versions, list):
+                        version_parts.extend(str(v) for v in versions)
+                    else:
+                        version_parts.append(str(versions))
+                versions_str = (
+                    ", ".join(version_parts) if version_parts else "All versions"
+                )
+
+            patches.append(
+                {
+                    "name": name,
                     "description": description,
                     "apps": apps,
                     "versions": versions_str,
                 }
+            )
 
-    return patch_order, patches
+    return patches
 
 
-def format_patch_lines(order, patches) -> List[str]:
+def format_patch_lines(patches: List[Dict[str, str]]) -> List[str]:
     """Return a list of lines representing a Markdown table for all patches."""
-    count = len(order)
+    count = len(patches)
     patch_word = "Patch" if count == 1 else "Patches"
     lines: List[str] = [f"***{count} {patch_word}***"]
     lines.append(
@@ -64,10 +66,9 @@ def format_patch_lines(order, patches) -> List[str]:
     lines.append(
         "|----------|---------------|---------------------|-------------------------|"
     )
-    for name in order:
-        info = patches[name]
+    for info in patches:
         lines.append(
-            f"| {name} | {info['description']} | {info['apps']} | {info['versions']} |"
+            f"| {info['name']} | {info['description']} | {info['apps']} | {info['versions']} |"
         )
     lines.append("")
     return lines
@@ -133,17 +134,17 @@ def main() -> int:
     for bundle_dir in sorted(bundle_root.glob("*-patch-bundles")):
         if not bundle_dir.is_dir() or bundle_dir.name == "PATCH-LIST-CATALOG.md":
             continue
-        order, patches = load_patch_info(bundle_dir)
-        if not order:
+        patches = load_patch_info(bundle_dir)
+        if not patches:
             continue
 
         bundle_name = bundle_dir.name.replace("-patch-bundles", "")
-        patch_lines = format_patch_lines(order, patches)
+        patch_lines = format_patch_lines(patches)
         if not inject_patch_lines(catalog_lines, bundle_name, patch_lines):
             print(f"Warning: section for '{bundle_name}' not found; skipping.")
             continue
 
-        new_patch_names.update(order)
+        new_patch_names.update(p["name"] for p in patches)
 
     old_patch_names = read_catalog_patch_names(catalog_path)
     new_text = "\n".join(catalog_lines).rstrip() + "\n"
