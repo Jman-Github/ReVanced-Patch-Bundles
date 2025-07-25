@@ -9,7 +9,6 @@ def load_patch_info(bundle_dir: Path):
     patch_order: List[str] = []
     patches: dict[str, dict[str, str]] = {}
 
-    # Only load the latest-patches-list.json for this bundle
     pattern = f"{bundle_name}-latest-patches-list.json"
     for list_file in bundle_dir.glob(pattern):
         text = list_file.read_text(encoding="utf-8").strip()
@@ -24,10 +23,10 @@ def load_patch_info(bundle_dir: Path):
             continue
 
         for patch in data.get("patches", []):
-            name = patch.get("name", "N/A")
+            name = patch.get("name") or "N/A"
             if name not in patches:
                 patch_order.append(name)
-                description = patch.get("description") or "None"
+                description = patch.get("description") or "N/A"
                 comp = patch.get("compatiblePackages")
                 if not comp:
                     apps = "Universal"
