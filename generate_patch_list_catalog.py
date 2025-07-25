@@ -56,7 +56,7 @@ def load_patch_info(bundle_dir: Path) -> List[Dict[str, str]]:
 
 
 def format_patch_lines(patches: List[Dict[str, str]]) -> List[str]:
-    """Return a list of lines representing a Markdown table for all patches."""
+    """Return a list of lines representing a Markdown table for all patches, wrapping each cell value in triple backticks."""
     count = len(patches)
     patch_word = "Patch" if count == 1 else "Patches"
     lines: List[str] = [f"***{count} {patch_word}***"]
@@ -67,8 +67,12 @@ def format_patch_lines(patches: List[Dict[str, str]]) -> List[str]:
         "|----------|---------------|---------------------|-------------------------|"
     )
     for info in patches:
+        name_cell = f"```{info['name']}```"
+        desc_cell = f"```{info['description']}```"
+        apps_cell = f"```{info['apps']}```"
+        vers_cell = f"```{info['versions']}```"
         lines.append(
-            f"| {info['name']} | {info['description']} | {info['apps']} | {info['versions']} |"
+            f"| {name_cell} | {desc_cell} | {apps_cell} | {vers_cell} |"
         )
     lines.append("")
     return lines
@@ -118,7 +122,7 @@ def inject_patch_lines(
             if k == len(catalog_lines):
                 return False
 
-            catalog_lines[start:k] = ["", *patch_lines]
+            catalog_lines[start:k] = patch_lines
             return True
     return False
 
