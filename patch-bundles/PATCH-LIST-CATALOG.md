@@ -42,7 +42,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***180 Patches***
+***225 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | Export all activities | Makes all app activities exportable. | Universal | All versions |
@@ -69,6 +69,8 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Pro unlock | N/A | com.backdrops.wallpapers | All versions |
 | Remove play limits | Disables purchase nagging and playback limits of not purchased tracks. | com.bandcamp.android | All versions |
 | Bypass root checks | Removes the restriction to use the app with root permissions or on a custom ROM. | it.ipzs.cieid | All versions |
+| Hide ads | N/A | com.cricbuzz.android | 6.24.01 |
+| Hide ads | N/A | com.crunchyroll.crunchyroid | All versions |
 | Disable ads | N/A | com.duolingo | All versions |
 | Enable debug menu | N/A | com.duolingo | 5.158.4 |
 | Hide 'Sponsored Stories' | N/A | com.facebook.katana | 490.0.0.63.82 |
@@ -79,13 +81,19 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | GmsCore support | Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services. | com.google.android.apps.magazines | 5.108.0.644447823 |
 | Enable DCIM folders backup control | Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up. | com.google.android.apps.photos | All versions |
 | Spoof features | Spoofs the device to enable Google Pixel exclusive features, including unlimited storage. | com.google.android.apps.photos | All versions |
+| GmsCore support | Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services. | com.google.android.apps.photos | All versions |
 | Remove device restrictions | Removes restrictions from using the app on any device. Requires mounting patched app over original. | com.google.android.apps.recorder | All versions |
+| Disable ads | N/A | com.myprog.hexedit | All versions |
 | Unlock pro | N/A | ginlemon.iconpackstudio | 2.2 build 016 |
+| Remove root detection | Removes the check for root permissions and unlocked bootloader. | at.gv.oe.app | All versions |
 | Spoof signature | Spoofs the signature of the app. | at.gv.oe.app | All versions |
+| Hide ads | N/A | com.nis.app | All versions |
+| Hide ads | N/A | com.instagram.android | All versions |
 | Disable signature check | Disables the signature check that causes the app to crash on startup. | com.instagram.android | 378.0.0.52.68 |
 | Remove ads | N/A | net.binarymode.android.irplus | All versions |
 | Disable mandatory login | N/A | com.adobe.lrmobile | 9.3.0 |
 | Unlock Premium | N/A | com.adobe.lrmobile | 9.3.0 |
+| Unlock pro | N/A | com.zombodroid.MemeGenerator | 4.6364, 4.6370, 4.6375, 4.6377 |
 | Hide inbox ads | Hides ads in inbox. | com.facebook.orca | All versions |
 | Hide inbox subtabs | Hides Home and Channels tabs between active now tray and chats. | com.facebook.orca | All versions |
 | Disable typing indicator | Disables the indicator while typing a message. | com.facebook.orca | All versions |
@@ -101,8 +109,13 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Remove upgrade button | Removes the upgrade tab from the pivot bar. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
 | Bypass certificate checks | Bypasses certificate checks which prevent YouTube Music from working on Android Auto. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
 | Remove background playback restrictions | Removes restrictions on background playback, including playing kids videos in the background. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
+| GmsCore support | Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services. | com.google.android.apps.youtube.music | All versions |
 | Spoof client | Spoofs the client to fix playback. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
+| Unlock pro | N/A | org.totschnig.myexpenses | 3.4.9 |
+| Hide ads | Hides most of the ads across the app. | com.myfitnesspal.android | 24.14.2 |
 | Remove broadcasts restriction | Enables starting/stopping NetGuard via broadcasts. | eu.faircode.netguard | All versions |
+| Unlock pro | N/A | com.wakdev.apps.nfctools.se | All versions |
+| Hide ads | Hide ads and sponsored articles in list pages and remove pre-roll ads on videos. | nl.sanomamedia.android.nu | 11.3.0 |
 | Spoof certificate | Spoofs the X-Android-Cert header to allow push messages. | nl.sanomamedia.android.nu | All versions |
 | Fix crash | N/A | de.simon.openinghours | 1.0 |
 | Disable audio ads | N/A | com.pandora.android | All versions |
@@ -112,47 +125,70 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Unlock plus | N/A | com.microblink.photomath | All versions |
 | Spoof Android device ID | Spoofs the Android device ID used by the app for account authentication.This can be used to copy the account to another device. | com.piccomaeurope.fr | 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2 |
 | Disable tracking | Disables tracking by replacing tracking URLs with example.com. | com.piccomaeurope.fr | 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2 |
+| Hide ads | N/A | jp.pxv.android | All versions |
 | Skip ads | Automatically skips video stream ads. | com.amazon.avod.thirdpartyclient | 3.0.412.2947 |
 | Rename shared permissions | Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps. | com.amazon.avod.thirdpartyclient | All versions |
 | Playback speed | Adds playback speed controls to the video player. | com.amazon.avod.thirdpartyclient | 3.0.412.2947 |
 | Remove free accounts limit | Removes the limit for maximum free accounts logged in. | ch.protonmail.android | All versions |
 | Remove 'Sent from' signature | Removes the 'Sent from Proton Mail mobile' signature from emails. | ch.protonmail.android | All versions |
 | Hide purchase reminder | Hides the popup that reminds you to purchase the app. | com.rarlab.rar | All versions |
+| Hide ads | N/A | com.reddit.frontpage | 2024.17.0 |
+| Spoof client | Restores functionality of the app by using custom client ID. | com.onelouder.baconreader, com.onelouder.baconreader.premium | All versions |
+| Disable ads | N/A | com.rubenmayayo.reddit | All versions |
+| Spoof client | Restores functionality of the app by using custom client ID. | com.rubenmayayo.reddit | All versions |
 | Fix missing audio in video downloads | Fixes audio missing in videos downloaded from v.redd.it. | com.rubenmayayo.reddit | All versions |
 | Fix /s/ links | N/A | com.rubenmayayo.reddit | All versions |
+| Spoof client | Restores functionality of the app by using custom client ID. | ml.docilealligator.infinityforreddit, ml.docilealligator.infinityforreddit.plus, ml.docilealligator.infinityforreddit.patreon | All versions |
 | Unlock subscription | Unlocks the subscription feature but requires a custom client ID. | ml.docilealligator.infinityforreddit, ml.docilealligator.infinityforreddit.plus, ml.docilealligator.infinityforreddit.patreon | All versions |
+| Disable ads | N/A | o.o.joey | All versions |
+| Spoof client | Restores functionality of the app by using custom client ID. | o.o.joey, o.o.joey.pro, o.o.joey.dev | All versions |
+| Spoof client | Restores functionality of the app by using custom client ID. | com.andrewshu.android.reddit, com.andrewshu.android.redditdonation | All versions |
+| Spoof client | Restores functionality of the app by using custom client ID. | free.reddit.news, reddit.news | All versions |
+| Spoof client | Restores functionality of the app by using custom client ID. | me.ccrama.redditslide | All versions |
+| Disable ads | N/A | com.laurencedawson.reddit_sync | All versions |
+| Disable ads | N/A | io.syncapps.lemmy_sync | All versions |
 | Disable Sync for Lemmy bottom sheet | Disables the bottom sheet at the startup that asks you to signup to "Sync for Lemmy". | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | v23.06.30-13:39 |
+| Spoof client | Restores functionality of the app by using custom client ID. | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
+| Fix /s/ links | N/A | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
 | Fix post thumbnails | Fixes loading post thumbnails by correcting their URLs. | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
 | Use /user/ endpoint | Replaces the deprecated endpoint for viewing user profiles /u with /user, that used to fix a bug. | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
 | Fix video downloads | Fixes a bug in Sync's MPD parser resulting in only the audio-track being saved. | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
 | Disable screenshot popup | Disables the popup that shows up when taking a screenshot. | com.reddit.frontpage | All versions |
 | Unlock Premium icons | Unlocks the Reddit Premium icons. | com.reddit.frontpage | All versions |
 | Sanitize sharing links | Removes (tracking) query parameters from the URLs when sharing links. | com.reddit.frontpage | All versions |
+| Remove root detection | Removes the check for root permissions and unlocked bootloader. | at.gv.bka.serviceportal | All versions |
 | Disable Pairip license check | Disables Play Integrity API (Pairip) client-side license check. | Universal | All versions |
 | Remove file size limit | Allows opening files larger than 2 MB in the text editor. | pl.solidexplorer2 | All versions |
 | Remove badge tab | Removes the badge tab from the activity tab. | com.sony.songpal.mdr | All versions |
 | Remove notification badge | Removes the red notification badge from the activity tab. | com.sony.songpal.mdr | 10.1.0 |
+| Hide ads | N/A | com.soundcloud.android | 2025.05.27-release |
 | Disable telemetry | Disables SoundCloud's telemetry system. | com.soundcloud.android | 2025.05.27-release |
 | Enable offline sync | N/A | com.soundcloud.android | 2025.05.27-release |
 | Hide Create button | Hides the "Create" button in the navigation bar. | com.spotify.music | All versions |
 | Custom theme | Applies a custom theme (defaults to amoled black) | com.spotify.music | All versions |
+| Unlock Premium | Unlocks Spotify Premium features. Server-sided features like downloading songs are still locked. | com.spotify.music | All versions |
+| Spoof client | Spoofs the client to fix various functions of the app. | com.spotify.music | All versions |
 | Fix Facebook login | Fix logging in with Facebook when the app is patched by always opening the login in a web browser window. | com.spotify.music | All versions |
 | Change lyrics provider | Changes the lyrics provider to a custom one. | com.spotify.music | All versions |
+| Sanitize sharing links | Removes the tracking query parameters from links before they are shared. | com.spotify.music | All versions |
 | Fix third party launchers widgets | Fixes Spotify widgets not working in third party launchers, like Nova Launcher. | com.spotify.music | All versions |
 | Hide offers tab | N/A | de.stocard.stocard | All versions |
 | Hide story bubbles | N/A | de.stocard.stocard | All versions |
 | Unlock subscription features | Unlocks "Routes", "Matched Runs" and "Segment Efforts". | com.strava | All versions |
 | Disable subscription suggestions | N/A | com.strava | All versions |
 | Remove Google Play Integrity check | Removes the Google Play Integrity check. With this it's possible to use SwissID on custom ROMS.If the device is rooted, root permissions must be hidden from the app. | com.swisssign.swissid.mobile | 5.2.9 |
+| Hide ads | N/A | com.instagram.barcelona | 382.0.0.51.85 |
 | Unlock themes | Unlocks all themes that are inaccessible until a certain level is reached. | com.ticktick.task | All versions |
 | Feed filter | Removes ads, livestreams, stories, image videos and videos with a specific amount of views or likes from the feed. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | 36.5.4, 36.5.4 |
 | Remember clear display | Remembers the clear display configurations in between videos. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | 36.5.4, 36.5.4 |
 | Downloads | Removes download restrictions and changes the default path to download to. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | 36.5.4, 36.5.4 |
 | Show seekbar | Shows progress bar for all video. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
+| Playback speed | Enables the playback speed option for all videos and retains the speed configurations in between videos. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | 36.5.4, 36.5.4 |
 | Disable login requirement | N/A | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
 | Fix Google login | Allows logging in with a Google account. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
 | Settings | Adds ReVanced settings to TikTok. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | 36.5.4, 36.5.4 |
 | SIM spoof | Spoofs the information which is retrieved from the SIM card. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
+| Unlock pro | N/A | tv.trakt.trakt | 1.1.1 |
 | Show on lockscreen | Shows student id and student ticket on lockscreen. | de.tudortmund.app | All versions |
 | Disable dashboard ads | Disables ads in the dashboard. | com.tumblr | All versions |
 | Disable Ad-Free Banner | Disables the banner with a frog, prompting you to buy Tumblr Ad-Free. | com.tumblr | All versions |
@@ -166,17 +202,23 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Show deleted messages | Shows deleted chat messages behind a clickable spoiler. | tv.twitch.android.app | All versions |
 | Auto claim channel points | Automatically claim Channel Points. | tv.twitch.android.app | All versions |
 | Debug mode | Enables Twitch's internal debugging mode. | tv.twitch.android.app | All versions |
+| Settings | Adds settings menu to Twitch. | tv.twitch.android.app | All versions |
 | Unlock downloads | Unlocks the ability to download any video. GIFs can be downloaded via the menu on long press. | com.twitter.android | All versions |
 | Hide view count | Hides the view count of Posts. | com.twitter.android | All versions |
 | Dynamic color | Replaces the default X (Formerly Twitter) Blue with the user's Material You palette. | com.twitter.android | 10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
+| Hide ads | N/A | com.twitter.android | 10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
 | Hide recommended users | N/A | com.twitter.android | 10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
 | Change link sharing domain | Replaces the domain name of Twitter links when sharing them. | com.twitter.android | 10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
 | Open links with app chooser | Instead of opening links directly, open them with an app chooser. As a result you can select a browser to open the link with. | com.twitter.android | 10.48.0-release.0 |
+| Sanitize sharing links | Removes the tracking query parameters from links before they are shared. | com.twitter.android | 10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
 | Promo code unlock | Disables the validation of promo code. Any code will work to unlock all features. | de.dwd.warnapp | 4.2.2 |
+| Hide ads | Hides all in-app ads. | at.willhaben | All versions |
+| Hide ads | Adds options to remove general ads. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 | Video ads | Adds an option to remove ads in the video player. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 | Copy video URL | Adds options to display buttons in the video player to copy video URLs. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 | Remove viewer discretion dialog | Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 | Disable double tap actions | Adds an option to disable player double tap gestures. | com.google.android.youtube | 20.07.39, 20.12.46, 20.13.41 |
+| Downloads | Adds support to download videos with an external downloader app using the in-app download button or a video player action button. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 | Seekbar | Adds options to disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, and hiding the video player seekbar. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 | Swipe controls | Adds options to enable and configure volume and brightness swipe controls. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 | Disable auto captions | Adds an option to disable captions from being automatically enabled. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
@@ -214,9 +256,11 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Bypass image region restrictions | Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 | Announcements | Adds an option to show announcements from ReVanced on app startup. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 | Always repeat | Adds an option to always repeat videos when they end. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Remove background playback restrictions | Removes restrictions on background playback, including playing kids videos in the background. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 | Enable debugging | Adds options for debugging and exporting ReVanced logs to the clipboard. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 | Spoof device dimensions | Adds an option to spoof the device dimensions which can unlock higher video qualities. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 | Check watch history domain name resolution | Checks if the device DNS server is preventing user watch history from being saved. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| GmsCore support | Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 | Disable haptic feedback | Adds an option to disable haptic feedback in the player for various actions. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 | Bypass URL redirects | Adds an option to bypass URL redirects and open the original URL directly. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 | Open links externally | Adds an option to always open links in your browser instead of the in-app browser. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
@@ -225,6 +269,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Force original audio | Adds an option to always use the original audio track. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 | Disable HDR video | Adds an option to disable video HDR. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 | Video quality | Adds options to use the advanced video quality menu and set default video qualities. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
+| Playback speed | Adds options to customize available playback speeds, set default a playback speed, and show a speed dialog button in the video player. | com.google.android.youtube | 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41 |
 
 </details>
 
@@ -233,7 +278,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***101 Patches***
+***125 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | Spoof Wi-Fi connection | Spoofs an existing Wi-Fi connection. | Universal | All versions |
@@ -281,6 +326,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Settings for YouTube Music | Applies mandatory patches to implement ReVanced Extended settings into the application. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
 | SponsorBlock | Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as non-music sections. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
 | Video playback | Adds options to customize settings related to video playback, such as default video quality and playback speed. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Hide ads | Adds options to hide ads. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
 | Custom branding name for Reddit | Changes the Reddit app name to the name specified in patch options. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
 | Change package name | Changes the package name for Reddit to the name specified in patch options. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
 | Hide recommended communities shelf | Adds an option to hide the recommended communities shelves in subreddits. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
@@ -291,18 +337,27 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Remove subreddit dialog | Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
 | Open links directly | Adds an option to skip over redirection URLs in external links. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
 | Open links externally | Adds an option to always open links in your browser instead of in the in-app-browser. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Sanitize sharing links | Adds an option to sanitize sharing links by removing tracking query parameters. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
 | Settings for Reddit | Applies mandatory patches to implement ReVanced Extended settings into the application. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Hide ads | Adds options to hide ads. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Alternative thumbnails | Adds options to replace video thumbnails using the DeArrow API or image captures from the video. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Bypass image region restrictions | Adds an option to use a different host for static images, so that images blocked in some countries can be received. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Hide feed components | Adds options to hide components related to feeds. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Hide feed flyout menu | Adds the ability to hide feed flyout menu components using a custom filter. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Disable forced auto audio tracks | Adds an option to disable audio tracks from being automatically enabled. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable forced auto captions | Adds an option to disable captions from being automatically enabled. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide layout components | Adds options to hide general layout components. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Remove viewer discretion dialog | Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Hook download actions | Adds support to download videos with an external downloader app using the in-app download button. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Change form factor | Adds an option to change the UI appearance to a phone, tablet, or automotive device. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Change live ring click action | Adds an option to open the channel instead of the live stream when clicking on the live ring. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Enable gradient loading screen | Adds an option to enable the gradient loading screen. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Hook YouTube Music actions | Adds support for opening music in RVX Music using the in-app YouTube Music button. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Navigation bar components | Adds options to hide or change components related to the navigation bar. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Snack bar components | Adds options to hide or change components related to the snack bar. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Disable splash animation | Adds an option to disable the splash animation on app startup. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Spoof app version | Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Change start page | Adds an option to set which page the app opens in instead of the homepage. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Toolbar components | Adds options to hide or change components located on the toolbar, such as the search bar, header, and toolbar buttons. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Disable layout updates | Adds an option to disable layout updates by server. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Custom Shorts action buttons | Changes, at compile time, the icon of the action buttons of the Shorts player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
@@ -318,11 +373,20 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Translations for YouTube | Add translations or remove string resources. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Visual preferences icons for YouTube | Adds icons to specific preferences in the settings. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Hide accessibility controls dialog | Removes, at compile time, accessibility controls dialog 'Turn on accessibility controls for the video player?'. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Remove background playback restrictions | Removes restrictions on background playback, including for music and kids videos. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Enable OPUS codec | Adds an option to enable the OPUS audio codec if the player response includes it. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Enable debug logging | Adds an option for debugging and exporting RVX logs to the clipboard. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Bypass URL redirects | Adds an option to bypass URL redirects and open the original URL directly. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Open links externally | Adds an option to always open links in your browser instead of the in-app browser. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable QUIC protocol | Adds an option to disable CronetEngine's QUIC protocol. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Change share sheet | Adds an option to change the in-app share sheet to the system share sheet. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Sanitize sharing links | Adds an option to sanitize sharing links by removing tracking query parameters. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Watch history | Adds an option to change the domain of the watch history or check its status. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Hide action buttons | Adds options to hide action buttons under videos. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Ambient mode control | Adds options to disable Ambient mode and to bypass Ambient mode restrictions. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Hide player buttons | Adds options to hide buttons in the video player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Hide comments components | Adds options to hide components related to comments. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Player components | Adds options to hide or change components related to the video player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Description components | Adds options to hide and disable description components. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Hide player flyout menu | Adds options to hide player flyout menu components. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Change player flyout menu toggles | Adds an option to use text toggles instead of switch toggles within the additional settings menu. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
@@ -336,7 +400,12 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Disable resuming Shorts on startup | Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Swipe controls | Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Spoof streaming data | Adds options to spoof the streaming data to allow playback. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| GmsCore support | Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Return YouTube Dislike | Adds an option to show the dislike count of videos using the Return YouTube Dislike API. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Return YouTube Username | Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Settings for YouTube | Applies mandatory patches to implement ReVanced Extended settings into the application. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| SponsorBlock | Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Video playback | Adds options to customize settings related to video playback, such as default video quality and playback speed. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 
 </details>
 
@@ -345,7 +414,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***111 Patches***
+***135 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | Spoof Wi-Fi connection | Spoofs an existing Wi-Fi connection. | Universal | All versions |
@@ -393,6 +462,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Settings for YouTube Music | Applies mandatory patches to implement ReVanced Extended settings into the application. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
 | SponsorBlock | Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as non-music sections. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
 | Video playback | Adds options to customize settings related to video playback, such as default video quality and playback speed. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53 |
+| Hide ads | Adds options to hide ads. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
 | Custom branding name for Reddit | Changes the Reddit app name to the name specified in patch options. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
 | Change package name | Changes the package name for Reddit to the name specified in patch options. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
 | Hide recommended communities shelf | Adds an option to hide the recommended communities shelves in subreddits. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
@@ -403,6 +473,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Remove subreddit dialog | Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
 | Open links directly | Adds an option to skip over redirection URLs in external links. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
 | Open links externally | Adds an option to always open links in your browser instead of in the in-app-browser. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
+| Sanitize sharing links | Adds an option to sanitize sharing links by removing tracking query parameters. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
 | Settings for Reddit | Applies mandatory patches to implement ReVanced Extended settings into the application. | com.reddit.frontpage | 2024.17.0, 2025.05.1, 2025.12.1 |
 | Lyrics search | Displays a "Search Lyrics" panel in the Main Activity that searches for lyrics on Google, and song meanings on Songtell. The activity is set to SpotifyMainActivity, so the "Search Lyrics" panel won't be shown in NowPlayingActivity (Player view) or possibly other activities. | com.spotify.music | All versions |
 | Custom branding name for Spotify | Changes the Spotify app name to the name specified in patch options. | com.spotify.music | All versions |
@@ -412,18 +483,27 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Spoof client | Spoofs the client to fix various functions of the app. | com.spotify.music | All versions |
 | Fix Facebook login | Fix logging in with Facebook when the app is patched by always opening the login in a web browser window. | com.spotify.music | All versions |
 | Change lyrics provider | Changes the lyrics provider to a custom one. | com.spotify.music | All versions |
+| Sanitize sharing links | Removes the tracking query parameters from links before they are shared. | com.spotify.music | All versions |
 | Fix third party launchers widgets | Fixes Spotify widgets not working in third party launchers, like Nova Launcher. | com.spotify.music | All versions |
+| Hide ads | Adds options to hide ads. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Alternative thumbnails | Adds options to replace video thumbnails using the DeArrow API or image captures from the video. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Bypass image region restrictions | Adds an option to use a different host for static images, so that images blocked in some countries can be received. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Hide feed components | Adds options to hide components related to feeds. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Hide feed flyout menu | Adds the ability to hide feed flyout menu components using a custom filter. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Disable forced auto audio tracks | Adds an option to disable audio tracks from being automatically enabled. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable forced auto captions | Adds an option to disable captions from being automatically enabled. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Hide layout components | Adds options to hide general layout components. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Remove viewer discretion dialog | Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Hook download actions | Adds support to download videos with an external downloader app using the in-app download button. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Change form factor | Adds an option to change the UI appearance to a phone, tablet, or automotive device. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Change live ring click action | Adds an option to open the channel instead of the live stream when clicking on the live ring. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Enable gradient loading screen | Adds an option to enable the gradient loading screen. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Hook YouTube Music actions | Adds support for opening music in RVX Music using the in-app YouTube Music button. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Navigation bar components | Adds options to hide or change components related to the navigation bar. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Snack bar components | Adds options to hide or change components related to the snack bar. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Disable splash animation | Adds an option to disable the splash animation on app startup. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Spoof app version | Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Change start page | Adds an option to set which page the app opens in instead of the homepage. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Toolbar components | Adds options to hide or change components located on the toolbar, such as the search bar, header, and toolbar buttons. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Disable layout updates | Adds an option to disable layout updates by server. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Custom Shorts action buttons | Changes, at compile time, the icon of the action buttons of the Shorts player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
@@ -439,12 +519,20 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Translations for YouTube | Add translations or remove string resources. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Visual preferences icons for YouTube | Adds icons to specific preferences in the settings. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Hide accessibility controls dialog | Removes, at compile time, accessibility controls dialog 'Turn on accessibility controls for the video player?'. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Remove background playback restrictions | Removes restrictions on background playback, including for music and kids videos. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Enable OPUS codec | Adds an option to enable the OPUS audio codec if the player response includes it. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Enable debug logging | Adds an option for debugging and exporting RVX logs to the clipboard. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Bypass URL redirects | Adds an option to bypass URL redirects and open the original URL directly. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Open links externally | Adds an option to always open links in your browser instead of the in-app browser. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Disable QUIC protocol | Adds an option to disable CronetEngine's QUIC protocol. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Change share sheet | Adds an option to change the in-app share sheet to the system share sheet. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Sanitize sharing links | Adds an option to sanitize sharing links by removing tracking query parameters. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Spoof watch history | Adds an option to change the domain of the watch history or check its status. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Hide action buttons | Adds options to hide action buttons under videos. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Ambient mode control | Adds options to disable Ambient mode and to bypass Ambient mode restrictions. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Hide player buttons | Adds options to hide buttons in the video player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Hide comments components | Adds options to hide components related to comments. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Player components | Adds options to hide or change components related to the video player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Description components | Adds options to hide and disable description components. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Hide player flyout menu | Adds options to hide player flyout menu components. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Change player flyout menu toggles | Adds an option to use text toggles instead of switch toggles within the additional settings menu. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
@@ -458,7 +546,12 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Disable resuming Shorts on startup | Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Swipe controls | Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Spoof streaming data | Adds options to spoof the streaming data to allow playback. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| GmsCore support | Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Return YouTube Dislike | Adds an option to show the dislike count of videos using the Return YouTube Dislike API. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Return YouTube Username | Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 | Settings for YouTube | Applies mandatory patches to implement ReVanced Extended settings into the application. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| SponsorBlock | Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
+| Video playback | Adds options to customize settings related to video playback, such as default video quality and playback speed. | com.google.android.youtube | 19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53 |
 
 </details>
 
@@ -520,7 +613,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***15 Patches***
+***16 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | Change package name | Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues. | Universal | All versions |
@@ -535,6 +628,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Bypass Integrity | Bypass integrity check to allow login | org.telegram.messenger, org.telegram.messenger.web, uz.unnarsx.cherrygram | All versions |
 | Disable Auto Update | Disable Auto Update | org.telegram.messenger, org.telegram.messenger.web, uz.unnarsx.cherrygram | All versions |
 | Download Speed Boost | Boosts download speed | org.telegram.messenger, org.telegram.messenger.web, uz.unnarsx.cherrygram | All versions |
+| Unlock Pro | Unlock client-side Pro features | org.telegram.messenger, org.telegram.messenger.web, uz.unnarsx.cherrygram | All versions |
 | Hide typing indicator | Hides your typing indicator from other users | org.telegram.messenger, org.telegram.messenger.web, uz.unnarsx.cherrygram | All versions |
 | Hide subtitle toast | Hides the subtitle toast when toggling subtitles on/off and when changing subtitles | com.google.android.youtube, app.revanced.android.youtube | All versions |
 | Large pause button | Adds a large pause button to the player | com.google.android.youtube, app.revanced.android.youtube | All versions |
@@ -560,7 +654,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***173 Patches***
+***212 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | Export all activities | Makes all app activities exportable. | Universal | All versions |
@@ -591,14 +685,19 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Enable CustomTabs | Enables CustomTabs to open articles in your default browser. | com.google.android.apps.magazines | All versions |
 | GmsCore support | Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services. | com.google.android.apps.magazines | 5.108.0.644447823 |
 | Spoof features | Spoofs the device to enable Google Pixel exclusive features, including unlimited storage. | com.google.android.apps.photos | All versions |
+| GmsCore support | Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services. | com.google.android.apps.photos | All versions |
 | Restore hidden 'Back up while charging' toggle | Restores a hidden toggle to only run backups when the device is charging. | com.google.android.apps.photos | All versions |
 | Remove device restrictions | Removes restrictions from using the app on any device. Requires mounting patched app over original. | com.google.android.apps.recorder | All versions |
+| Disable ads | N/A | com.myprog.hexedit | All versions |
 | Unlock pro | N/A | ginlemon.iconpackstudio | 2.2 build 016 |
+| Remove root detection | Removes the check for root permissions and unlocked bootloader. | at.gv.oe.app | All versions |
 | Spoof signature | Spoofs the signature of the app. | at.gv.oe.app | All versions |
 | Hide ads | N/A | com.nis.app | All versions |
+| Hide ads | Hides ads in stories, discover, profile, etc. An ad can still appear once when refreshing the home feed. | com.instagram.android | All versions |
 | Remove ads | N/A | net.binarymode.android.irplus | All versions |
 | Disable mandatory login | N/A | com.adobe.lrmobile | All versions |
 | Unlock premium | N/A | com.adobe.lrmobile | All versions |
+| Unlock pro | N/A | com.zombodroid.MemeGenerator | 4.6364, 4.6370, 4.6375, 4.6377 |
 | Hide inbox ads | Hides ads in inbox. | com.facebook.orca | All versions |
 | Hide inbox subtabs | Hides Home and Channels tabs between active now tray and chats. | com.facebook.orca | All versions |
 | Disable switching emoji to sticker | Disables switching from emoji to sticker search mode in message input field. | com.facebook.orca | 439.0.0.29.119 |
@@ -613,8 +712,13 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Remove upgrade button | Removes the upgrade tab from the pivot bar. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
 | Bypass certificate checks | Bypasses certificate checks which prevent YouTube Music from working on Android Auto. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
 | Remove background playback restrictions | Removes restrictions on background playback, including playing kids videos in the background. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
+| GmsCore support | Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services. | com.google.android.apps.youtube.music | All versions |
 | Spoof client | Spoofs the client to fix playback. | com.google.android.apps.youtube.music | 7.16.53, 8.05.51 |
+| Unlock pro | N/A | org.totschnig.myexpenses | 3.4.9 |
+| Hide ads | Hides most of the ads across the app. | com.myfitnesspal.android | 24.14.2 |
 | Remove broadcasts restriction | Enables starting/stopping NetGuard via broadcasts. | eu.faircode.netguard | All versions |
+| Unlock pro | N/A | com.wakdev.apps.nfctools.se | All versions |
+| Hide ads | Hide ads and sponsored articles in list pages and remove pre-roll ads on videos. | nl.sanomamedia.android.nu | 11.0.0, 11.0.1, 11.1.0 |
 | Spoof certificate | Spoofs the X-Android-Cert header to allow push messages. | nl.sanomamedia.android.nu | All versions |
 | Fix crash | N/A | de.simon.openinghours | 1.0 |
 | Spoof device ID | Spoofs device ID to mitigate manual bans by developers. | com.microblink.photomath | 8.37.0 |
@@ -622,7 +726,12 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Unlock plus | N/A | com.microblink.photomath | 8.37.0 |
 | Spoof Android device ID | Spoofs the Android device ID used by the app for account authentication.This can be used to copy the account to another device. | com.piccomaeurope.fr | 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2 |
 | Disable tracking | Disables tracking by replacing tracking URLs with example.com. | com.piccomaeurope.fr | 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2 |
+| Hide ads | N/A | jp.pxv.android | All versions |
 | Hide purchase reminder | Hides the popup that reminds you to purchase the app. | com.rarlab.rar | All versions |
+| Hide ads | N/A | com.reddit.frontpage | 2024.17.0 |
+| Spoof client | Restores functionality of the app by using custom client ID. | com.onelouder.baconreader, com.onelouder.baconreader.premium | All versions |
+| Disable ads | N/A | com.rubenmayayo.reddit | All versions |
+| Spoof client | Restores functionality of the app by using custom client ID. | com.rubenmayayo.reddit | All versions |
 | Spoof user agent | Restores functionality of the app by using custom user agent. | com.rubenmayayo.reddit | All versions |
 | Hook exception handler | Hook the exception handler in Boost. Don't enable except for development purposes | com.rubenmayayo.reddit | All versions |
 | Fix missing audio in video downloads | Fixes audio missing in videos downloaded from v.redd.it. | com.rubenmayayo.reddit | All versions |
@@ -631,21 +740,34 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Add archive links to context menu | N/A | com.rubenmayayo.reddit | All versions |
 | Automatically undelete Imgur images | N/A | com.rubenmayayo.reddit | All versions |
 | Automatically undelete Reddit content | N/A | com.rubenmayayo.reddit | All versions |
+| Spoof client | Restores functionality of the app by using custom client ID. | ml.docilealligator.infinityforreddit, ml.docilealligator.infinityforreddit.plus, ml.docilealligator.infinityforreddit.patreon | All versions |
 | Unlock subscription | Unlocks the subscription feature but requires a custom client ID. | ml.docilealligator.infinityforreddit, ml.docilealligator.infinityforreddit.plus, ml.docilealligator.infinityforreddit.patreon | All versions |
+| Disable ads | N/A | o.o.joey | All versions |
+| Spoof client | Restores functionality of the app by using custom client ID. | o.o.joey, o.o.joey.pro, o.o.joey.dev | All versions |
+| Spoof client | Restores functionality of the app by using custom client ID. | com.andrewshu.android.reddit, com.andrewshu.android.redditdonation | All versions |
+| Spoof client | Restores functionality of the app by using custom client ID. | free.reddit.news, reddit.news | All versions |
+| Spoof client | Restores functionality of the app by using custom client ID. | me.ccrama.redditslide | All versions |
+| Disable ads | N/A | com.laurencedawson.reddit_sync | All versions |
+| Disable ads | N/A | io.syncapps.lemmy_sync | All versions |
 | Disable Sync for Lemmy bottom sheet | Disables the bottom sheet at the startup that asks you to signup to "Sync for Lemmy". | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | v23.06.30-13:39 |
+| Spoof client | Restores functionality of the app by using custom client ID. | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
+| Fix /s/ links | N/A | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
 | Use /user/ endpoint | Replaces the deprecated endpoint for viewing user profiles /u with /user, that used to fix a bug. | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
 | Fix video downloads | Fixes a bug in Sync's MPD parser resulting in only the audio-track being saved. | com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev | All versions |
 | Disable screenshot popup | Disables the popup that shows up when taking a screenshot. | com.reddit.frontpage | All versions |
 | Unlock premium Reddit icons | Unlocks the premium Reddit icons. | com.reddit.frontpage | All versions |
 | Sanitize sharing links | Removes (tracking) query parameters from the URLs when sharing links. | com.reddit.frontpage | All versions |
+| Remove root detection | Removes the check for root permissions and unlocked bootloader. | at.gv.bka.serviceportal | All versions |
 | Remove file size limit | Allows opening files larger than 2 MB in the text editor. | pl.solidexplorer2 | All versions |
 | Remove badge tab | Removes the badge tab from the activity tab. | com.sony.songpal.mdr | All versions |
 | Remove notification badge | Removes the red notification badge from the activity tab. | com.sony.songpal.mdr | 10.1.0 |
+| Hide ads | N/A | com.soundcloud.android | All versions |
 | Disable telemetry | Disables SoundCloud's telemetry system. | com.soundcloud.android | All versions |
 | Enable offline sync | N/A | com.soundcloud.android | All versions |
 | Custom theme | Applies a custom theme. | com.spotify.music | All versions |
 | Enable on demand | Enables listening to songs on-demand, allowing to play any song from playlists, albums or artists without limitations. This does not remove ads. | com.spotify.lite | All versions |
 | Unlock Spotify Premium | Unlocks Spotify Premium features. Server-sided features like downloading songs are still locked. | com.spotify.music | All versions |
+| Spoof signature | Spoofs the signature of the app to fix various functions of the app. | com.spotify.music | All versions |
 | Hide offers tab | N/A | de.stocard.stocard | All versions |
 | Hide story bubbles | N/A | de.stocard.stocard | All versions |
 | Unlock subscription features | Unlocks "Routes", "Matched Runs" and "Segment Efforts". | com.strava | All versions |
@@ -661,6 +783,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Fix Google login | Allows logging in with a Google account. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
 | Settings | Adds ReVanced settings to TikTok. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | 36.5.4, 36.5.4 |
 | SIM spoof | Spoofs the information which is retrieved from the SIM card. | com.ss.android.ugc.trill, com.zhiliaoapp.musically | All versions |
+| Unlock pro | N/A | tv.trakt.trakt | 1.1.1 |
 | Show on lockscreen | Shows student id and student ticket on lockscreen. | de.tudortmund.app | All versions |
 | Disable dashboard ads | Disables ads in the dashboard. | com.tumblr | All versions |
 | Disable Ad-Free Banner | Disables the banner with a frog, prompting you to buy Tumblr Ad-Free. | com.tumblr | All versions |
@@ -674,16 +797,22 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Show deleted messages | Shows deleted chat messages behind a clickable spoiler. | tv.twitch.android.app | All versions |
 | Auto claim channel points | Automatically claim Channel Points. | tv.twitch.android.app | All versions |
 | Debug mode | Enables Twitch's internal debugging mode. | tv.twitch.android.app | All versions |
+| Settings | Adds settings menu to Twitch. | tv.twitch.android.app | All versions |
 | Unlock downloads | Unlocks the ability to download any video. GIFs can be downloaded via the menu on long press. | com.twitter.android | All versions |
 | Hide view count | Hides the view count of Posts. | com.twitter.android | All versions |
 | Dynamic color | Replaces the default X (Formerly Twitter) Blue with the user's Material You palette. | com.twitter.android | 10.84.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
+| Hide ads | N/A | com.twitter.android | 10.84.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
 | Hide recommended users | N/A | com.twitter.android | 10.84.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
 | Change link sharing domain | Replaces the domain name of Twitter links when sharing them. | com.twitter.android | 10.84.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
 | Open links with app chooser | Instead of opening links directly, open them with an app chooser. As a result you can select a browser to open the link with. | com.twitter.android | 10.48.0-release.0 |
+| Sanitize sharing links | Removes the tracking query parameters from links before they are shared. | com.twitter.android | 10.84.0-release.0, 10.60.0-release.0, 10.48.0-release.0 |
 | Promo code unlock | Disables the validation of promo code. Any code will work to unlock all features. | de.dwd.warnapp | 4.2.2 |
+| Hide ads | Hides all in-app ads. | at.willhaben | All versions |
+| Hide ads | Adds options to remove general ads. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
 | Video ads | Adds an option to remove ads in the video player. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
 | Copy video URL | Adds options to display buttons in the video player to copy video URLs. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
 | Remove viewer discretion dialog | Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Downloads | Adds support to download videos with an external downloader app using the in-app download button or a video player action button. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
 | Disable precise seeking gesture | Adds an option to disable precise seeking when swiping up on the seekbar. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
 | Enable tap to seek | Adds an option to enable tap to seek on the seekbar of the video player. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
 | Enable slide to seek | Adds an option to enable slide to seek instead of playing at 2x speed when pressing and holding in the video player. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
@@ -725,9 +854,11 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Bypass image region restrictions | Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
 | Announcements | Adds an option to show announcements from ReVanced on app startup. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
 | Always repeat | Adds an option to always repeat videos when they end. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Remove background playback restrictions | Removes restrictions on background playback, including playing kids videos in the background. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
 | Enable debugging | Adds options for debugging. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
 | Spoof device dimensions | Adds an option to spoof the device dimensions which can unlock higher video qualities. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
 | Check watch history domain name resolution | Checks if the device DNS server is preventing user watch history from being saved. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| GmsCore support | Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
 | Bypass URL redirects | Adds an option to bypass URL redirects and open the original URL directly. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.45.38, 19.46.42, 19.47.53, 20.07.39 |
 | Open links externally | Adds an option to always open links in your browser instead of the in-app browser. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
 | Remove tracking query parameter | Adds an option to remove the tracking parameter from links you share. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
@@ -736,6 +867,8 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Force original audio | Adds an option to always use the original audio track. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
 | Disable HDR video | Adds an option to disable video HDR. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
 | Video quality | Adds options to use the advanced video quality menu and set default video qualities. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Playback speed | Adds options to customize available playback speeds, set default a playback speed, and show a speed dialog button in the video player. | com.google.android.youtube | 19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39 |
+| Unlock premium | N/A | io.yuka.android | 4.29 |
 
 </details>
 
@@ -778,7 +911,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***94 Patches***
+***116 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | Change version code | Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set. | Universal | All versions |
@@ -822,6 +955,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Settings for YouTube Music | Applies mandatory patches to implement ReVanced Extended settings into the application. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
 | SponsorBlock | Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as non-music sections. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
 | Video playback | Adds options to customize settings related to video playback, such as default video quality and playback speed. | com.google.android.apps.youtube.music | 6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53 |
+| Hide ads | Adds options to hide ads. | com.reddit.frontpage | All versions |
 | Custom branding name for Reddit | Renames the Reddit app to the name specified in patch options. | com.reddit.frontpage | All versions |
 | Change package name | Changes the package name for Reddit to the name specified in patch options. | com.reddit.frontpage | All versions |
 | Hide recommended communities shelf | Adds an option to hide the recommended communities shelves in subreddits. | com.reddit.frontpage | All versions |
@@ -832,17 +966,26 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Remove subreddit dialog | Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically. | com.reddit.frontpage | All versions |
 | Open links directly | Adds an option to skip over redirection URLs in external links. | com.reddit.frontpage | All versions |
 | Open links externally | Adds an option to always open links in your browser instead of in the in-app-browser. | com.reddit.frontpage | All versions |
+| Sanitize sharing links | Adds an option to remove tracking query parameters from URLs when sharing links. | com.reddit.frontpage | All versions |
 | Settings for Reddit | Applies mandatory patches to implement ReVanced Extended settings into the application. | com.reddit.frontpage | All versions |
+| Hide ads | Adds options to hide ads. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Alternative thumbnails | Adds options to replace video thumbnails using the DeArrow API or image captures from the video. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Bypass image region restrictions | Adds an option to use a different host for static images, so that images blocked in some countries can be received. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Hide feed components | Adds options to hide components related to feeds. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Hide feed flyout menu | Adds the ability to hide feed flyout menu components using a custom filter. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Disable auto audio tracks | Adds an option to disable audio tracks from being automatically enabled. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Disable auto captions | Adds an option to disable captions from being automatically enabled. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Hide layout components | Adds options to hide general layout components. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Remove viewer discretion dialog | Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Hook download actions | Adds support to download videos with an external downloader app using the in-app download button. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Layout switch | Adds an option to spoof the dpi in order to use a tablet or phone layout. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Enable gradient loading screen | Adds an option to enable the gradient loading screen. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Miniplayer | Adds options to change the in app minimized player, and if patching target 19.16+ adds options to use modern miniplayers. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Hook YouTube Music actions | Adds support for opening music in RVX Music using the in-app YouTube Music button. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Navigation bar components | Adds options to hide or change components related to the navigation bar. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Disable splash animation | Adds an option to disable the splash animation on app startup. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Spoof app version | Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Change start page | Adds an option to set which page the app opens in instead of the homepage. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Toolbar components | Adds options to hide or change components located on the toolbar, such as toolbar buttons, search bar, and header. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Custom Shorts action buttons | Changes, at compile time, the icon of the action buttons of the Shorts player. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Custom branding icon for YouTube | Changes the YouTube app icon to the icon specified in patch options. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
@@ -856,14 +999,20 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Theme | Changes the app's theme to the values specified in patch options. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Translations for YouTube | Add translations or remove string resources. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Visual preferences icons for YouTube | Adds icons to specific preferences in the settings. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Remove background playback restrictions | Removes restrictions on background playback, including for music and kids videos. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Enable OPUS codec | Adds an options to enable the OPUS audio codec if the player response includes. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Enable debug logging | Adds an option to enable debug logging. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Enable external browser | Adds an option to always open links in your browser instead of in the in-app-browser. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Enable open links directly | Adds an option to skip over redirection URLs in external links. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Disable QUIC protocol | Adds an option to disable CronetEngine's QUIC protocol. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Change share sheet | Add option to change from in-app share sheet to system share sheet. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Sanitize sharing links | Adds an option to remove tracking query parameters from URLs when sharing links. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Watch history | Adds an option to change the domain of the watch history or check its status. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Hide action buttons | Adds options to hide action buttons under videos. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Ambient mode control | Adds options to disable Ambient mode and to bypass Ambient mode restrictions. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Hide player buttons | Adds options to hide buttons in the video player. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Hide comments components | Adds options to hide components related to comments. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Player components | Adds options to hide or change components related to the video player. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Description components | Adds options to hide and disable description components. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Hide player flyout menu | Adds options to hide player flyout menu components. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Change player flyout menu toggles | Adds an option to use text toggles instead of switch toggles within the additional settings menu. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
@@ -874,7 +1023,13 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Shorts components | Adds options to hide or change components related to YouTube Shorts. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Disable resuming Shorts on startup | Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Swipe controls | Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Spoof streaming data | Adds options to spoof the streaming data to allow playback. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| GmsCore support | Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Return YouTube Dislike | Adds an option to show the dislike count of videos using the Return YouTube Dislike API. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Return YouTube Username | Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 | Settings for YouTube | Applies mandatory patches to implement ReVanced Extended settings into the application. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| SponsorBlock | Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
+| Video playback | Adds options to customize settings related to video playback, such as default video quality and playback speed. | com.google.android.youtube | 18.29.38, 18.33.40, 18.38.44, 18.48.39, 19.05.36, 19.16.39, 19.44.39 |
 
 </details>
 
@@ -1037,13 +1192,16 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***4 Patches***
+***7 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | Unlock Pro features | Unlock Pro features. Sometimes the app forget about my patches and a popup screen asking to subscribe will be shown. In this screen, just swipe down to refresh and the app will have Pro features again. | com.calistree.calistree | 4.17.8 |
 | Unlock Premium features | WARNING: This only works via mount install (root required). Unlock Premium features. Lists are still locked as they are server sided. | com.groundspeak.geocaching.intro | All versions |
+| Unlock Pro features | Unlocks Pro features. Most features in this app are server sided, so they can't be patched. This should unlock everything which is possible to patch. | com.hevy | 2.0.0 |
+| Unlock Premium features | Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike. | de.komoot.android | 2024.29.3 |
 | Bypass signature check | N/A | cz.seznam.mapy | All versions |
 | Unlock premium features | N/A | cz.seznam.mapy | All versions |
+| Unlock Pro features | Unlock Pro features (park4night +). You have be logged in with an account. | fr.tramb.park4night | 7.1.11 |
 
 </details>
 
@@ -1052,7 +1210,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***9 Patches***
+***11 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | Change package name | Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues. | Universal | All versions |
@@ -1061,8 +1219,10 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | Unlock licensed songs | Allows playing the full version of licensed music instead of the 30-second preview. | com.duolingo | All versions |
 | Disable practice reminder nag | N/A | com.duolingo | All versions |
 | Enable Super | N/A | com.duolingo | All versions |
+| Enable Premium | N/A | com.qbis.guessthecountry | All versions |
 | Unlock Pro | N/A | org.totschnig.myexpenses | 3.9.8 |
 | GmsCore support | Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services. | net.teuida.teuida | All versions |
+| Enable Premium | Enables premium paid subscription. | net.teuida.teuida | All versions |
 | Unlock Premium | N/A | com.merriamwebster | All versions |
 
 </details>
