@@ -71,9 +71,7 @@ def format_patch_lines(patches: List[Dict[str, str]]) -> List[str]:
         desc_cell = f"```{info['description']}```"
         apps_cell = f"```{info['apps']}```"
         vers_cell = f"```{info['versions']}```"
-        lines.append(
-            f"| {name_cell} | {desc_cell} | {apps_cell} | {vers_cell} |"
-        )
+        lines.append(f"| {name_cell} | {desc_cell} | {apps_cell} | {vers_cell} |")
     lines.append("")
     return lines
 
