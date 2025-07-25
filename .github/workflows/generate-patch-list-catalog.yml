@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          persist-credentials: true   # ← enable GITHUB_TOKEN in .git/config
+          persist-credentials: true
           ref: bundles
 
       - name: Set up Python
@@ -29,6 +29,20 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install black
+
+      - name: Debug patch‑bundles contents
+        run: |
+          echo "Listing patch‑bundles directory:"
+          ls -R patch-bundles
+          echo
+          for d in patch-bundles/*-patch-bundles; do
+            if [ -d "$d" ]; then
+              echo "=== $d ==="
+              ls -l "$d"
+              echo "First few lines of any .json files:"
+              head -n5 "$d"/*.json || echo "  (no .json files or they are empty)"
+            fi
+          done
 
       - name: Generate catalog
         run: python generate_patch_list_catalog.py
