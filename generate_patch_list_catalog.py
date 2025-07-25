@@ -9,8 +9,8 @@ def load_patch_info(bundle_dir: Path):
     patch_order: List[str] = []
     patches: dict[str, dict[str, str]] = {}
 
-    # Only load the latest-patch-lists.json for this bundle
-    pattern = f"{bundle_name}-latest-patch-lists.json"
+    # Only load the latest-patches-list.json for this bundle
+    pattern = f"{bundle_name}-latest-patches-list.json"
     for list_file in bundle_dir.glob(pattern):
         text = list_file.read_text(encoding="utf-8").strip()
         if not text:
@@ -78,8 +78,15 @@ def read_catalog_patch_names(catalog_path: Path) -> set[str]:
     if not catalog_path.exists():
         return names
     for line in catalog_path.read_text(encoding="utf-8").splitlines():
-        if line.startswith("**Name:** "):
-            names.add(line[len("**Name:** ") :].strip())
+        if not line.startswith("|"):
+            continue
+        parts = [p.strip() for p in line.strip().split("|")]
+        if len(parts) < 3:
+            continue
+        name = parts[1]
+        if not name or name in {"**Name**", "----------"}:
+            continue
+        names.add(name)
     return names
 
 
