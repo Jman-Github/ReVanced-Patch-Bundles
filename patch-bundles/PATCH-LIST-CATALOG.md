@@ -101,16 +101,16 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Remove Meta AI``` | ```Removes UI elements related to Meta AI.``` | ```com.facebook.orca``` | ```All versions``` |
 | ```Force English locale``` | ```Forces wearable devices to use the English locale.``` | ```com.xiaomi.wearable``` | ```All versions``` |
 | ```Fix login``` | ```Fixes login for uncertified Mi Fitness app``` | ```com.xiaomi.wearable``` | ```All versions``` |
-| ```Hide music video ads``` | ```Hides ads that appear while listening to or streaming music videos, podcasts, or songs.``` | ```com.google.android.apps.youtube.music``` | ```7.16.53, 8.05.51``` |
-| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```com.google.android.apps.youtube.music``` | ```7.16.53, 8.05.51``` |
-| ```Permanent repeat``` | ```Permanently remember your repeating preference even if the playlist ends or another track is played.``` | ```com.google.android.apps.youtube.music``` | ```7.16.53, 8.05.51``` |
-| ```Hide category bar``` | ```Hides the category bar at the top of the homepage.``` | ```com.google.android.apps.youtube.music``` | ```7.16.53, 8.05.51``` |
-| ```Hide 'Get Music Premium' label``` | ```Hides the "Get Music Premium" label from the account menu and settings.``` | ```com.google.android.apps.youtube.music``` | ```7.16.53, 8.05.51``` |
-| ```Remove upgrade button``` | ```Removes the upgrade tab from the pivot bar.``` | ```com.google.android.apps.youtube.music``` | ```7.16.53, 8.05.51``` |
-| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```7.16.53, 8.05.51``` |
-| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```com.google.android.apps.youtube.music``` | ```7.16.53, 8.05.51``` |
+| ```Hide music video ads``` | ```Hides ads that appear while listening to or streaming music videos, podcasts, or songs.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
+| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
+| ```Permanent repeat``` | ```Permanently remember your repeating preference even if the playlist ends or another track is played.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
+| ```Hide category bar``` | ```Hides the category bar at the top of the homepage.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
+| ```Hide 'Get Music Premium' label``` | ```Hides the "Get Music Premium" label from the account menu and settings.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
+| ```Remove upgrade button``` | ```Removes the upgrade tab from the pivot bar.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
+| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
+| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
-| ```Spoof client``` | ```Spoofs the client to fix playback.``` | ```com.google.android.apps.youtube.music``` | ```7.16.53, 8.05.51``` |
+| ```Spoof client``` | ```Spoofs the client to fix playback.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
 | ```Unlock pro``` | ```N/A``` | ```org.totschnig.myexpenses``` | ```3.4.9``` |
 | ```Hide ads``` | ```Hides most of the ads across the app.``` | ```com.myfitnesspal.android``` | ```24.14.2``` |
 | ```Remove broadcasts restriction``` | ```Enables starting/stopping NetGuard via broadcasts.``` | ```eu.faircode.netguard``` | ```All versions``` |
