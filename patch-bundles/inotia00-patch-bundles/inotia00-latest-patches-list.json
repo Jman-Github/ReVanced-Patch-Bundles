@@ -1,5 +1,5 @@
 {
-    "version": "v5.8.1-dev.2",
+    "version": "v5.8.1-dev.3",
     "patches": [
         {
             "name": "Spoof Wi-Fi connection",
@@ -1527,6 +1527,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
             "compatiblePackages": {
@@ -2852,6 +2853,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
                 "ResourcePatch",
@@ -3018,6 +3020,7 @@
             "description": "Adds options to spoof the streaming data to allow playback.",
             "use": true,
             "dependencies": [
+                "RawResourcePatch",
                 "Settings for YouTube",
                 "BytecodePatch",
                 "BytecodePatch",
