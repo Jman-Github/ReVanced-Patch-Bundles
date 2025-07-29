@@ -1131,11 +1131,10 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***2 Patches***
+***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass root checks``` | ```Removes the restriction to use the app with root permissions or on a custom ROM.``` | ```hu.gov.dap.app``` | ```All versions``` |
-| ```Example Patch``` | ```This is an example patch to start with.``` | ```com.example.app``` | ```1.0.0``` |
 
 </details>
 
@@ -1247,6 +1246,11 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ### 🧩 VinceTheProgrammer Bundle Patch List:
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
+
+***1 Patch***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Remove Node Limit v1.1.0``` | ```Removes the node limit.``` | ```org.fortheloss.sticknodes, org.fortheloss.sticknodespro``` | ```4.2.3, 4.2.3``` |
 
 </details>
 
