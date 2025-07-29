@@ -9,48 +9,59 @@ def load_patch_info(bundle_dir: Path) -> List[Dict[str, str]]:
     bundle_name = bundle_dir.name.replace("-patch-bundles", "")
     patches: List[Dict[str, str]] = []
 
-    pattern = f"{bundle_name}-latest-patches-list.json"
-    for list_file in bundle_dir.glob(pattern):
-        text = list_file.read_text(encoding="utf-8").strip()
-        if not text:
-            print(f"Warning: {list_file} is empty; skipping")
+    list_file = None
+    for suffix in ("latest", "stable", "dev"):
+        candidate = bundle_dir / f"{bundle_name}-{suffix}-patches-list.json"
+        if candidate.exists():
+            list_file = candidate
+            break
+    if not list_file:
+        return patches
+
+    text = list_file.read_text(encoding="utf-8").strip()
+    if not text:
+        print(f"Warning: {list_file} is empty; skipping")
+        return patches
+
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError as e:
+        print(f"Warning: invalid JSON in {list_file}: {e}; skipping")
+        return patches
+
+    for patch in data.get("patches", []):
+        if (
+            patch.get("name") == "Example Patch"
+            and patch.get("description") == "This is an example patch to start with."
+        ):
             continue
 
-        try:
-            data = json.loads(text)
-        except json.JSONDecodeError as e:
-            print(f"Warning: invalid JSON in {list_file}: {e}; skipping")
-            continue
+        name = patch.get("name") or "N/A"
+        description = patch.get("description") or "N/A"
+        comp = patch.get("compatiblePackages")
+        if not comp:
+            apps = "Universal"
+            versions_str = "All versions"
+        else:
+            apps = ", ".join(comp.keys())
+            version_parts: List[str] = []
+            for versions in comp.values():
+                if not versions:
+                    continue
+                if isinstance(versions, list):
+                    version_parts.extend(str(v) for v in versions)
+                else:
+                    version_parts.append(str(versions))
+            versions_str = ", ".join(version_parts) if version_parts else "All versions"
 
-        for patch in data.get("patches", []):
-            name = patch.get("name") or "N/A"
-            description = patch.get("description") or "N/A"
-            comp = patch.get("compatiblePackages")
-            if not comp:
-                apps = "Universal"
-                versions_str = "All versions"
-            else:
-                apps = ", ".join(comp.keys())
-                version_parts: List[str] = []
-                for versions in comp.values():
-                    if not versions:
-                        continue
-                    if isinstance(versions, list):
-                        version_parts.extend(str(v) for v in versions)
-                    else:
-                        version_parts.append(str(versions))
-                versions_str = (
-                    ", ".join(version_parts) if version_parts else "All versions"
-                )
-
-            patches.append(
-                {
-                    "name": name,
-                    "description": description,
-                    "apps": apps,
-                    "versions": versions_str,
-                }
-            )
+        patches.append(
+            {
+                "name": name,
+                "description": description,
+                "apps": apps,
+                "versions": versions_str,
+            }
+        )
 
     return patches
 
