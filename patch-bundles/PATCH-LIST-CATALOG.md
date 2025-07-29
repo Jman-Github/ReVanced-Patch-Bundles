@@ -43,7 +43,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***225 Patches***
+***226 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Export all activities``` | ```Makes all app activities exportable.``` | ```Universal``` | ```All versions``` |
@@ -119,6 +119,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Hide ads``` | ```Hide ads and sponsored articles in list pages and remove pre-roll ads on videos.``` | ```nl.sanomamedia.android.nu``` | ```11.3.0``` |
 | ```Spoof certificate``` | ```Spoofs the X-Android-Cert header to allow push messages.``` | ```nl.sanomamedia.android.nu``` | ```All versions``` |
 | ```Fix crash``` | ```N/A``` | ```de.simon.openinghours``` | ```1.0``` |
+| ```Remove root detection``` | ```Removes the check for root permissions.``` | ```com.nousguide.android.orftvthek``` | ```All versions``` |
 | ```Disable audio ads``` | ```N/A``` | ```com.pandora.android``` | ```All versions``` |
 | ```Enable unlimited skips``` | ```N/A``` | ```com.pandora.android``` | ```All versions``` |
 | ```Spoof device ID``` | ```Spoofs device ID to mitigate manual bans by developers.``` | ```com.microblink.photomath``` | ```All versions``` |
