@@ -3,42 +3,43 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ## 🔑 Patch List Catalog Key
 #### Patch Bundle Shortcuts
 *Click the bundle patch list of your choice to be directed to the corresponding section in the catalog.*  
-[🧩 ReVanced Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-revanced-bundle-patch-list)  
-[🧩 Inotia00 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-inotia00-bundle-patch-list)  
-[🧩 Anddea Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-anddea-bundle-patch-list)  
-[🧩 Piko Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-piko-bundle-patch-list)  
-[🧩 BiliRoamingM Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-biliroamingm-bundle-patch-list)  
-[🧩 Slenderman00 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-slenderman00-bundle-patch-list)  
-[🧩 Privacy Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-privacy-bundle-patch-list)  
-[🧩 Experimental Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-experimental-bundle-patch-list)  
-[🧩 Dropped Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-dropped-bundle-patch-list)  
-[🧩 Wchill Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-wchill-bundle-patch-list)  
-[🧩 Kitadai31 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-kitadai31-bundle-patch-list)  
-[🧩 BholeyKaBhakt Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-bholeykabhakt-bundle-patch-list)  
-[🧩 Andronedev Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-andronedev-bundle-patch-list)  
-[🧩 ReX Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-rex-bundle-patch-list)  
-[🧩 Rufusin Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-rufusin-bundle-patch-list)  
-[🧩 Twitter Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-twitter-bundle-patch-list)  
-[🧩 Wyse- Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-wyse--bundle-patch-list)  
-[🧩 1fexd Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-1fexd-bundle-patch-list)  
-[🧩 Whyvl Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-whyvl-bundle-patch-list)  
-[🧩 Xrogers Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-xrogers-bundle-patch-list)  
-[🧩 D4n3436 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-d4n3436-bundle-patch-list)  
-[🧩 AyushTNM Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ayushtnm-bundle-patch-list)  
-[🧩 Arsclib Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-arsclib-bundle-patch-list)  
-[🧩 LennyRBLX Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-lennyrblx-bundle-patch-list)  
-[🧩 Korhelyleves Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-korhelyleves-bundle-patch-list)  
-[🧩 Taknok Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-taknok-bundle-patch-list)  
-[🧩 Sti-233 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-sti-233-bundle-patch-list)  
-[🧩 Faith001 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-faith001-bundle-patch-list)  
-[🧩 Forsyth47 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-forsyth47-bundle-patch-list)  
-[🧩 Brosssh Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-brosssh-bundle-patch-list)  
-[🧩 Hoo-dles Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hoo-dles-bundle-patch-list)  
-[🧩 Scrazzz Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-scrazzz-bundle-patch-list)  
-[🧩 VinceTheProgrammer Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-vincetheprogrammer-bundle-patch-list)  
+[🧩 ReVanced Bundle Patch List](#-revanced-bundle-patch-list)  
+[🧩 Inotia00 Bundle Patch List](#-inotia00-bundle-patch-list)  
+[🧩 Anddea Bundle Patch List](#-anddea-bundle-patch-list)  
+[🧩 Piko Bundle Patch List](#-piko-bundle-patch-list)  
+[🧩 BiliRoamingM Bundle Patch List](#-biliroamingm-bundle-patch-list)  
+[🧩 Slenderman00 Bundle Patch List](#-slenderman00-bundle-patch-list)  
+[🧩 Privacy Bundle Patch List](#-privacy-bundle-patch-list)  
+[🧩 Experimental Bundle Patch List](#-experimental-bundle-patch-list)  
+[🧩 Dropped Bundle Patch List](#-dropped-bundle-patch-list)  
+[🧩 Wchill Bundle Patch List](#-wchill-bundle-patch-list)  
+[🧩 Kitadai31 Bundle Patch List](#-kitadai31-bundle-patch-list)  
+[🧩 BholeyKaBhakt Bundle Patch List](#-bholeykabhakt-bundle-patch-list)  
+[🧩 Andronedev Bundle Patch List](#-andronedev-bundle-patch-list)  
+[🧩 ReX Bundle Patch List](#-rex-bundle-patch-list)  
+[🧩 Rufusin Bundle Patch List](#-rufusin-bundle-patch-list)  
+[🧩 Twitter Bundle Patch List](#-twitter-bundle-patch-list)  
+[🧩 Wyse- Bundle Patch List](#-wyse--bundle-patch-list)  
+[🧩 1fexd Bundle Patch List](#-1fexd-bundle-patch-list)  
+[🧩 Whyvl Bundle Patch List](#-whyvl-bundle-patch-list)  
+[🧩 Xrogers Bundle Patch List](#-xrogers-bundle-patch-list)  
+[🧩 D4n3436 Bundle Patch List](#-d4n3436-bundle-patch-list)  
+[🧩 AyushTNM Bundle Patch List](#-ayushtnm-bundle-patch-list)  
+[🧩 Arsclib Bundle Patch List](#-arsclib-bundle-patch-list)  
+[🧩 LennyRBLX Bundle Patch List](#-lennyrblx-bundle-patch-list)  
+[🧩 Korhelyleves Bundle Patch List](#-korhelyleves-bundle-patch-list)  
+[🧩 Taknok Bundle Patch List](#-taknok-bundle-patch-list)  
+[🧩 Sti-233 Bundle Patch List](#-sti-233-bundle-patch-list)  
+[🧩 Faith001 Bundle Patch List](#-faith001-bundle-patch-list)  
+[🧩 Forsyth47 Bundle Patch List](#-forsyth47-bundle-patch-list)  
+[🧩 Brosssh Bundle Patch List](#-brosssh-bundle-patch-list)  
+[🧩 Hoo-dles Bundle Patch List](#-hoo-dles-bundle-patch-list)  
+[🧩 Scrazzz Bundle Patch List](#-scrazzz-bundle-patch-list)  
+[🧩 VinceTheProgrammer Bundle Patch List](#-vincetheprogrammer-bundle-patch-list)  
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
+[📦 ReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-revanced-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -275,6 +276,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Inotia00 Bundle Patch List:
+[📦 Inotia00-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-inotia00-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -411,6 +413,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Anddea Bundle Patch List:
+[📦 Anddea-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-anddea-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -557,6 +560,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Piko Bundle Patch List:
+[📦 Piko-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-patches-bundle)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -566,6 +570,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 BiliRoamingM Bundle Patch List:
+[📦 BiliRoamingM-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-biliroamingm-patches-bundle)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -575,6 +580,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Slenderman00 Bundle Patch List:
+[📦 Slenderman00-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-slenderman00-patches-bundle)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -584,6 +590,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Privacy Bundle Patch List:
+[📦 Privacy-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-privacy-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -610,6 +617,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Experimental Bundle Patch List:
+[📦 Experimental-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-experimental-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -637,6 +645,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Dropped Bundle Patch List:
+[📦 Dropped-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dropped-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -651,6 +660,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Wchill Bundle Patch List:
+[📦 Wchill-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-wchill-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -874,6 +884,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Kitadai31 Bundle Patch List:
+[📦 Kitadai31-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kitadai31-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -881,6 +892,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 BholeyKaBhakt Bundle Patch List:
+[📦 BholeyKaBhakt-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bholeykabhakt-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -899,6 +911,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Andronedev Bundle Patch List:
+[📦 Andronedev-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-andronedev-patches-bundle)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -908,6 +921,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 ReX Bundle Patch List:
+[📦 ReX-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rex-patches-bundle)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1035,6 +1049,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Rufusin Bundle Patch List:
+[📦 Rufusin-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rufusin-patches-bundle)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1044,6 +1059,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Twitter Bundle Patch List:
+[📦 Twitter-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-twitter-patches-bundle)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1053,6 +1069,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Wyse- Bundle Patch List:
+[📦 Wyse--Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-wyse--patches-bundle)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1062,6 +1079,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 1fexd Bundle Patch List:
+[📦 1fexd-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-1fexd-patches-bundle)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1071,6 +1089,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Whyvl Bundle Patch List:
+[📦 Whyvl-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-whyvl-patches-bundle)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1080,6 +1099,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Xrogers Bundle Patch List:
+[📦 Xrogers-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-xrogers-patches-bundle)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1089,6 +1109,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 D4n3436 Bundle Patch List:
+[📦 D4n3436-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-d4n3436-patches-bundle)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1098,6 +1119,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 AyushTNM Bundle Patch List:
+[📦 AyushTNM-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ayushtnm-patches-bundle)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1107,6 +1129,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Arsclib Bundle Patch List:
+[📦 Arsclib-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-arsclib-patches-bundle)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1116,6 +1139,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 LennyRBLX Bundle Patch List:
+[📦 LennyRBLX-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lennyrblx-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1128,6 +1152,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Korhelyleves Bundle Patch List:
+[📦 Korhelyleves-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-korhelyleves-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1140,6 +1165,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Taknok Bundle Patch List:
+[📦 Taknok-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-taknok-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1152,6 +1178,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Sti-233 Bundle Patch List:
+[📦 Sti-233-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-sti-233-patches-bundle)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1161,6 +1188,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Faith001 Bundle Patch List:
+[📦 Faith001-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-faith001-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1173,6 +1201,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Forsyth47 Bundle Patch List:
+[📦 Forsyth47-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-forsyth47-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1188,6 +1217,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Brosssh Bundle Patch List:
+[📦 Brosssh-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-brosssh-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1206,6 +1236,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Hoo-dles Bundle Patch List:
+[📦 Hoo-dles-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoo-dles-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1228,6 +1259,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Scrazzz Bundle Patch List:
+[📦 Scrazzz-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-scrazzz-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1244,6 +1276,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 VinceTheProgrammer Bundle Patch List:
+[📦 VinceTheProgrammer-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-vincetheprogrammer-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
