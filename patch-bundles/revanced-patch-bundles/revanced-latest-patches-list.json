@@ -1,5 +1,5 @@
 {
-    "version": "v5.33.0-dev.1",
+    "version": "v5.33.0-dev.2",
     "patches": [
         {
             "name": "Export all activities",
@@ -1645,6 +1645,16 @@
                 "de.simon.openinghours": [
                     "1.0"
                 ]
+            },
+            "options": []
+        },
+        {
+            "name": "Remove root detection",
+            "description": "Removes the check for root permissions.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.nousguide.android.orftvthek": null
             },
             "options": []
         },
