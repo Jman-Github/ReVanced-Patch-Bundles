@@ -14,6 +14,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 > Some of the dev-patch-bundle/stable-patch-bundles sources will not be working. This is due to some of the repositories having never created a prerelease/release. Those sources will have "N/A" in the respective patch-bundle.json files.
 # 📋 Patch Bundles URLs 
 ### 📦 ReVanced-Patches-Bundle [API v4]:
+[🧩 ReVanced Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-revanced-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -26,6 +27,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Inotia00-Patches-Bundle [API v4]:
+[🧩 Inotia00 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-inotia00-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -38,6 +40,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Anddea-Patches-Bundle [API v4]:
+[🧩 Anddea Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-anddea-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -50,6 +53,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Piko-Patches-Bundle:
+[🧩 Piko Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-piko-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -62,6 +66,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 BiliRoamingM-Patches-Bundle:
+[🧩 BiliRoamingM Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-biliroamingm-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -74,6 +79,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Slenderman00-Patches-Bundle:
+[🧩 Slenderman00 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-slenderman00-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -86,6 +92,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Privacy-Patches-Bundle [API v4]:
+[🧩 Privacy Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-privacy-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -98,6 +105,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Experimental-Patches-Bundle [API v4]:
+[🧩 Experimental Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-experimental-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -110,6 +118,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Dropped-Patches-Bundle [API v4]:
+[🧩 Dropped Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-dropped-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -122,6 +131,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Wchill-Patches-Bundle [API v4]:
+[🧩 Wchill Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-wchill-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -134,6 +144,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Kitadai31-Patches-Bundle [API v4]:
+[🧩 Kitadai31 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-kitadai31-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -146,6 +157,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 BholeyKaBhakt-Patches-Bundle [API v4]:
+[🧩 BholeyKaBhakt Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-bholeykabhakt-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -158,6 +170,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Andronedev-Patches-Bundle:
+[🧩 Andronedev Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-andronedev-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -170,6 +183,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 ReX-Patches-Bundle:
+[🧩 ReX Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-rex-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -182,6 +196,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Rufusin-Patches-Bundle:
+[🧩 Rufusin Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-rufusin-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -194,6 +209,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Twitter-Patches-Bundle:
+[🧩 Twitter Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-twitter-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -206,6 +222,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Wyse--Patches-Bundle:
+[🧩 Wyse- Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-wyse--bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -218,6 +235,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 1fexd-Patches-Bundle:
+[🧩 1fexd Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-1fexd-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -230,6 +248,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Whyvl-Patches-Bundle:
+[🧩 Whyvl Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-whyvl-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -242,6 +261,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Xrogers-Patches-Bundle:
+[🧩 Xrogers Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-xrogers-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -254,6 +274,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 D4n3436-Patches-Bundle:
+[🧩 D4n3436 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-d4n3436-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -266,6 +287,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 AyushTNM-Patches-Bundle:
+[🧩 AyushTNM Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ayushtnm-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -278,6 +300,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Arsclib-Patches-Bundle:
+[🧩 Arsclib Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-arsclib-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -290,6 +313,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 LennyRBLX-Patches-Bundle [API v4]:
+[🧩 LennyRBLX Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-lennyrblx-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -302,6 +326,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Korhelyleves-Patches-Bundle [API v4]:
+[🧩 Korhelyleves Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-korhelyleves-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -314,6 +339,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Taknok-Patches-Bundle [API v4]:
+[🧩 Taknok Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-taknok-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -326,6 +352,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Sti-233-Patches-Bundle:
+[🧩 Sti-233 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-sti-233-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -338,6 +365,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Faith001-Patches-Bundle [API v4]:
+[🧩 Faith001 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-faith001-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -350,6 +378,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Forsyth47-Patches-Bundle [API v4]:
+[🧩 Forsyth47 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-forsyth47-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -362,6 +391,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Brosssh-Patches-Bundle [API v4]:
+[🧩 Brosssh Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-brosssh-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -374,6 +404,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Hoo-dles-Patches-Bundle [API v4]:
+[🧩 Hoo-dles Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hoo-dles-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -386,6 +417,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Scrazzz-Patches-Bundle [API v4]:
+[🧩 Scrazzz Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-scrazzz-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -398,6 +430,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 VinceTheProgrammer-Patches-Bundle [API v4]:
+[🧩 VinceTheProgrammer Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-vincetheprogrammer-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
