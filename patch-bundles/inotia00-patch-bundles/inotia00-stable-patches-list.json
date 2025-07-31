@@ -1,5 +1,5 @@
 {
-    "version": "v5.7.1",
+    "version": "v5.8.1",
     "patches": [
         {
             "name": "Spoof Wi-Fi connection",
@@ -947,6 +947,7 @@
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "compatiblePackages": {
@@ -1523,6 +1524,8 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "Settings for YouTube",
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch"
@@ -2585,6 +2588,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "compatiblePackages": {
@@ -2648,7 +2652,10 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
@@ -2672,8 +2679,8 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
                 "BytecodePatch",
+                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
@@ -2846,7 +2853,8 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
                 "Settings for YouTube"
@@ -2873,28 +2881,6 @@
                         "Rounded": "rounded",
                         "Thin": "thin"
                     }
-                },
-                {
-                    "key": "bottomMargin",
-                    "title": "Bottom margin",
-                    "description": "The bottom margin for the overlay buttons and timestamp.",
-                    "required": true,
-                    "type": "kotlin.String",
-                    "default": "2.5dip",
-                    "values": {
-                        "Default": "2.5dip",
-                        "Minimum": "0.1dip",
-                        "Wider": "5.0dip"
-                    }
-                },
-                {
-                    "key": "widerButtonsSpace",
-                    "title": "Wider between-buttons space",
-                    "description": "Prevent adjacent button presses by increasing the horizontal spacing between buttons.",
-                    "required": true,
-                    "type": "kotlin.Boolean",
-                    "default": false,
-                    "values": null
                 },
                 {
                     "key": "changeTopButtons",
@@ -2937,6 +2923,7 @@
             "use": true,
             "dependencies": [
                 "Settings for YouTube",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3011,12 +2998,14 @@
             "description": "Adds options to spoof the streaming data to allow playback.",
             "use": true,
             "dependencies": [
+                "RawResourcePatch",
                 "Settings for YouTube",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3240,7 +3229,7 @@
             "description": "Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content.",
             "use": true,
             "dependencies": [
-                "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "Settings for YouTube"
             ],
