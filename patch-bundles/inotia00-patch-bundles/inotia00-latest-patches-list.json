@@ -1,5 +1,5 @@
 {
-    "version": "v5.8.1",
+    "version": "v5.9.1-dev.1",
     "patches": [
         {
             "name": "Spoof Wi-Fi connection",
@@ -2883,6 +2883,28 @@
                     }
                 },
                 {
+                    "key": "bottomMargin",
+                    "title": "Bottom margin",
+                    "description": "The bottom margin for the overlay buttons and timestamp.",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": "2.5dip",
+                    "values": {
+                        "Default": "2.5dip",
+                        "Minimum": "0.1dip",
+                        "Wider": "5.0dip"
+                    }
+                },
+                {
+                    "key": "widerButtonsSpace",
+                    "title": "Wider between-buttons space",
+                    "description": "Prevent adjacent button presses by increasing the horizontal spacing between buttons.",
+                    "required": true,
+                    "type": "kotlin.Boolean",
+                    "default": false,
+                    "values": null
+                },
+                {
                     "key": "changeTopButtons",
                     "title": "Change top buttons",
                     "description": "Change the icons at the top of the player.",
@@ -3002,7 +3024,6 @@
                 "Settings for YouTube",
                 "BytecodePatch",
                 "BytecodePatch",
-                "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch",
@@ -3027,15 +3048,6 @@
                     "title": "Outline icons",
                     "description": "Apply the outline icon.",
                     "required": true,
-                    "type": "kotlin.Boolean",
-                    "default": false,
-                    "values": null
-                },
-                {
-                    "key": "useIOSClient",
-                    "title": "Use iOS client",
-                    "description": "Add setting to set iOS client (Deprecated) as default client.",
-                    "required": false,
                     "type": "kotlin.Boolean",
                     "default": false,
                     "values": null
@@ -3163,7 +3175,6 @@
             "use": true,
             "dependencies": [
                 "BytecodePatch",
-                "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch"
