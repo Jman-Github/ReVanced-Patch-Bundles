@@ -1,5 +1,5 @@
 {
-    "version": "v5.33.0-dev.6",
+    "version": "v5.33.0-dev.7",
     "patches": [
         {
             "name": "Export all activities",
@@ -4325,6 +4325,7 @@
             "description": "Adds options to use the advanced video quality menu and set default video qualities.",
             "use": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
