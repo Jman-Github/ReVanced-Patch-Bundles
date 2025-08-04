@@ -1,5 +1,5 @@
 {
-    "version": "v5.33.0-dev.8",
+    "version": "v5.33.0-dev.9",
     "patches": [
         {
             "name": "Export all activities",
@@ -4275,6 +4275,7 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "compatiblePackages": {
