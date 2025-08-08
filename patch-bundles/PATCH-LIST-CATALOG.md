@@ -90,7 +90,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Spoof signature``` | ```Spoofs the signature of the app.``` | ```at.gv.oe.app``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.nis.app``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.instagram.android``` | ```All versions``` |
-| ```Disable signature check``` | ```Disables the signature check that causes the app to crash on startup.``` | ```com.instagram.android``` | ```378.0.0.52.68``` |
+| ```Disable signature check``` | ```Disables the signature check that causes the app to crash on startup.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Remove ads``` | ```N/A``` | ```net.binarymode.android.irplus``` | ```All versions``` |
 | ```Disable mandatory login``` | ```N/A``` | ```com.adobe.lrmobile``` | ```9.3.0``` |
 | ```Unlock Premium``` | ```N/A``` | ```com.adobe.lrmobile``` | ```9.3.0``` |
@@ -197,13 +197,13 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Disable blog notification reminder``` | ```Disables the reminder to enable notifications for blogs you visit.``` | ```com.tumblr``` | ```All versions``` |
 | ```Disable gift message popup``` | ```Disables the popup suggesting to buy TumblrMart items for other people.``` | ```com.tumblr``` | ```All versions``` |
 | ```Fix old versions``` | ```Fixes old versions of the app (v33.2 and earlier) breaking due to Tumblr removing remnants of Tumblr Live from the API, which causes many requests to fail. This patch has no effect on newer versions of the app.``` | ```com.tumblr``` | ```All versions``` |
-| ```Block audio ads``` | ```Blocks audio ads in streams and VODs.``` | ```tv.twitch.android.app``` | ```All versions``` |
-| ```Block embedded ads``` | ```Blocks embedded stream ads using services like Luminous or PurpleAdBlocker.``` | ```tv.twitch.android.app``` | ```All versions``` |
-| ```Block video ads``` | ```Blocks video ads in streams and VODs.``` | ```tv.twitch.android.app``` | ```All versions``` |
-| ```Show deleted messages``` | ```Shows deleted chat messages behind a clickable spoiler.``` | ```tv.twitch.android.app``` | ```All versions``` |
-| ```Auto claim channel points``` | ```Automatically claim Channel Points.``` | ```tv.twitch.android.app``` | ```All versions``` |
-| ```Debug mode``` | ```Enables Twitch's internal debugging mode.``` | ```tv.twitch.android.app``` | ```All versions``` |
-| ```Settings``` | ```Adds settings menu to Twitch.``` | ```tv.twitch.android.app``` | ```All versions``` |
+| ```Block audio ads``` | ```Blocks audio ads in streams and VODs.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
+| ```Block embedded ads``` | ```Blocks embedded stream ads using services like Luminous or PurpleAdBlocker.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
+| ```Block video ads``` | ```Blocks video ads in streams and VODs.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
+| ```Show deleted messages``` | ```Shows deleted chat messages behind a clickable spoiler.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
+| ```Auto claim channel points``` | ```Automatically claim Channel Points.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
+| ```Debug mode``` | ```Enables Twitch's internal debugging mode.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
+| ```Settings``` | ```Adds settings menu to Twitch.``` | ```tv.twitch.android.app``` | ```16.9.1``` |
 | ```Unlock downloads``` | ```Unlocks the ability to download any video. GIFs can be downloaded via the menu on long press.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Hide view count``` | ```Hides the view count of Posts.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Dynamic color``` | ```Replaces the default X (Formerly Twitter) Blue with the user's Material You palette.``` | ```com.twitter.android``` | ```10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0``` |
