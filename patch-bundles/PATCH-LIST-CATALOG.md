@@ -125,7 +125,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Unlock plus``` | ```N/A``` | ```com.microblink.photomath``` | ```All versions``` |
 | ```Spoof Android device ID``` | ```Spoofs the Android device ID used by the app for account authentication.This can be used to copy the account to another device.``` | ```com.piccomaeurope.fr``` | ```6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2``` |
 | ```Disable tracking``` | ```Disables tracking by replacing tracking URLs with example.com.``` | ```com.piccomaeurope.fr``` | ```6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2``` |
-| ```Hide ads``` | ```N/A``` | ```jp.pxv.android``` | ```All versions``` |
+| ```Hide ads``` | ```N/A``` | ```jp.pxv.android``` | ```6.141.1``` |
 | ```Skip ads``` | ```Automatically skips video stream ads.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.412.2947``` |
 | ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```com.amazon.avod.thirdpartyclient``` | ```All versions``` |
 | ```Playback speed``` | ```Adds playback speed controls to the video player.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.412.2947``` |
