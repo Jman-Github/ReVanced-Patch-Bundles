@@ -43,7 +43,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***225 Patches***
+***224 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Export all activities``` | ```Makes all app activities exportable.``` | ```Universal``` | ```All versions``` |
@@ -67,7 +67,6 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```Universal``` | ```All versions``` |
 | ```Always allow deep-linking``` | ```Open Amazon links, even if the app is not set to handle Amazon links.``` | ```com.amazon.mShop.android.shopping``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.drinkplusplus.angulus``` | ```All versions``` |
-| ```Pro unlock``` | ```N/A``` | ```com.backdrops.wallpapers``` | ```All versions``` |
 | ```Remove play limits``` | ```Disables purchase nagging and playback limits of not purchased tracks.``` | ```com.bandcamp.android``` | ```All versions``` |
 | ```Bypass root checks``` | ```Removes the restriction to use the app with root permissions or on a custom ROM.``` | ```it.ipzs.cieid``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.cricbuzz.android``` | ```6.24.01``` |
