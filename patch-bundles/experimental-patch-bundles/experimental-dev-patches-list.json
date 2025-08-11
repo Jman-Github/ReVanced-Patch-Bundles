@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0-dev.4",
+    "version": "v1.10.0-dev.1",
     "patches": [
         {
             "name": "Change package name",
@@ -22,12 +22,21 @@
             ]
         },
         {
+            "name": "Deobfuscate Smob",
+            "description": null,
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": null,
+            "options": []
+        },
+        {
             "name": "Hide Ads",
             "description": "Hides ads in stories, discover, profile, etc. An ad can still appear once when refreshing the home feed.",
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "com.instagram.android": null
+                "com.instagram.android": null,
+                "com.instagram.barcelona": null
             },
             "options": []
         },
@@ -44,6 +53,16 @@
         {
             "name": "Enable Developer Menu",
             "description": "Enables the developer menu.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "options": []
+        },
+        {
+            "name": "Disable signature check",
+            "description": "Disables the signature check that causes the app to crash on startup.",
             "use": true,
             "dependencies": [],
             "compatiblePackages": {

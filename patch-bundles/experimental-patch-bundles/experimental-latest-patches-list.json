@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0",
+    "version": "v1.10.0-dev.1",
     "patches": [
         {
             "name": "Change package name",
@@ -66,9 +66,7 @@
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "com.instagram.android": [
-                    "378.0.0.52.68"
-                ]
+                "com.instagram.android": null
             },
             "options": []
         },
