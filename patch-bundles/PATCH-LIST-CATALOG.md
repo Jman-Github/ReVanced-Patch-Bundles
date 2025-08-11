@@ -634,7 +634,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Hide Ads``` | ```Hides ads in stories, discover, profile, etc. An ad can still appear once when refreshing the home feed.``` | ```com.instagram.android, com.instagram.barcelona``` | ```All versions``` |
 | ```Selectable Bio``` | ```Makes user's bio selectable.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Enable Developer Menu``` | ```Enables the developer menu.``` | ```com.instagram.android``` | ```All versions``` |
-| ```Disable signature check``` | ```Disables the signature check that causes the app to crash on startup.``` | ```com.instagram.android``` | ```378.0.0.52.68``` |
+| ```Disable signature check``` | ```Disables the signature check that causes the app to crash on startup.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Max Media Quality``` | ```Enable max media quality.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlock Pro features``` | ```org.kustom.wallpaper, org.kustom.widget, org.kustom.lockscreen``` | ```3.73b314511, 3.73b314511, 3.73b314511``` |
 | ```Hide sponsored ads``` | ```Hides sponsored ads in channels``` | ```org.telegram.messenger, org.telegram.messenger.web, uz.unnarsx.cherrygram``` | ```All versions``` |
