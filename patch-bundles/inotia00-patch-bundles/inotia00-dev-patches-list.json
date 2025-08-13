@@ -1,5 +1,5 @@
 {
-    "version": "v5.9.1-dev.1",
+    "version": "v5.9.1-dev.2",
     "patches": [
         {
             "name": "Spoof Wi-Fi connection",
@@ -299,6 +299,7 @@
             ],
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
+                    "6.42.55",
                     "6.51.53",
                     "7.16.53",
                     "7.25.53",
@@ -984,6 +985,29 @@
             "options": []
         },
         {
+            "name": "Spoof client",
+            "description": "Adds options to spoof the client to allow playback.",
+            "use": false,
+            "dependencies": [
+                "Settings for YouTube Music",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "6.20.51",
+                    "6.29.59",
+                    "6.42.55",
+                    "6.51.53",
+                    "7.16.53",
+                    "7.25.53",
+                    "8.05.51",
+                    "8.12.53"
+                ]
+            },
+            "options": []
+        },
+        {
             "name": "Spoof player parameter",
             "description": "Adds options to spoof player parameter to allow playback.",
             "use": true,
@@ -1190,6 +1214,7 @@
             "dependencies": [
                 "BytecodePatch",
                 "Settings for YouTube Music",
+                "ResourcePatch",
                 "BytecodePatch"
             ],
             "compatiblePackages": {
@@ -1362,6 +1387,22 @@
             "dependencies": [
                 "Settings for Reddit",
                 "ResourcePatch"
+            ],
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2024.17.0",
+                    "2025.05.1",
+                    "2025.12.1"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Hide Trending Today shelf",
+            "description": "Adds an option to hide the Trending Today shelf from search suggestions.",
+            "use": true,
+            "dependencies": [
+                "Settings for Reddit"
             ],
             "compatiblePackages": {
                 "com.reddit.frontpage": [
@@ -2528,7 +2569,8 @@
                 "Settings for YouTube",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
@@ -2732,6 +2774,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
             "compatiblePackages": {
@@ -3271,6 +3314,8 @@
             "use": true,
             "dependencies": [
                 "Settings for YouTube",
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
