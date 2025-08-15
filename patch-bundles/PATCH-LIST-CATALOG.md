@@ -43,7 +43,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***224 Patches***
+***225 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Export all activities``` | ```Makes all app activities exportable.``` | ```Universal``` | ```All versions``` |
@@ -114,7 +114,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Unlock pro``` | ```N/A``` | ```org.totschnig.myexpenses``` | ```3.4.9``` |
 | ```Hide ads``` | ```Hides most of the ads across the app.``` | ```com.myfitnesspal.android``` | ```24.14.2``` |
 | ```Remove broadcasts restriction``` | ```Enables starting/stopping NetGuard via broadcasts.``` | ```eu.faircode.netguard``` | ```All versions``` |
-| ```Hide ads``` | ```Hide ads and sponsored articles in list pages and remove pre-roll ads on videos.``` | ```nl.sanomamedia.android.nu``` | ```11.3.0``` |
+| ```Hide ads``` | ```Hide ads and sponsored articles in list pages and remove pre-roll ads on videos.``` | ```nl.sanomamedia.android.nu``` | ```All versions``` |
 | ```Spoof certificate``` | ```Spoofs the X-Android-Cert header to allow push messages.``` | ```nl.sanomamedia.android.nu``` | ```All versions``` |
 | ```Fix crash``` | ```N/A``` | ```de.simon.openinghours``` | ```1.0``` |
 | ```Remove root detection``` | ```Removes the check for root permissions.``` | ```com.nousguide.android.orftvthek``` | ```All versions``` |
@@ -237,6 +237,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Hide related video overlay``` | ```Adds an option to hide the related video overlay shown when swiping up in fullscreen.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41``` |
 | ```Disable rolling number animations``` | ```Adds an option to disable rolling number animations of video view count, user likes, and upload time.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41``` |
 | ```Hide Shorts components``` | ```Adds options to hide components related to Shorts.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41``` |
+| ```Disable sign in to TV popup``` | ```Adds an option to disable the popup asking to sign into a TV on the same local network.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41``` |
 | ```Hide timestamp``` | ```Adds an option to hide the timestamp in the bottom left of the video player.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41``` |
 | ```Miniplayer``` | ```Adds options to change the in-app minimized player.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41``` |
 | ```Disable player popup panels``` | ```Adds an option to disable panels (such as live chat) from opening automatically.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41``` |
