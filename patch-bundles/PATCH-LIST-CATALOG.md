@@ -280,7 +280,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***127 Patches***
+***126 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Spoof Wi-Fi connection``` | ```Spoofs an existing Wi-Fi connection.``` | ```Universal``` | ```All versions``` |
@@ -296,6 +296,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Enable landscape mode``` | ```Adds an option to enable landscape mode when rotating the screen on phones.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
 | ```Restore old style library shelf``` | ```Adds an option to return the Library tab to the old style.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
 | ```Disable dislike redirection``` | ```Adds an option to disable redirection to the next track when clicking the Dislike button.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Disable Cairo splash animation``` | ```Adds an option to disable Cairo splash animation.``` | ```com.google.android.apps.youtube.music``` | ```7.06.54, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
 | ```Spoof app version``` | ```Adds options to spoof the YouTube Music client version. This can be used to restore old UI elements and features.``` | ```com.google.android.apps.youtube.music``` | ```6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
 | ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
 | ```Custom branding icon for YouTube Music``` | ```Changes the YouTube Music app icon to the icon specified in patch options.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
@@ -314,15 +315,13 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
 | ```Disable QUIC protocol``` | ```Adds an option to disable CronetEngine's QUIC protocol.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
 | ```Change share sheet``` | ```Adds an option to change the in-app share sheet to the system share sheet.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
-| ```Disable Cairo splash animation``` | ```Adds an option to disable Cairo splash animation.``` | ```com.google.android.apps.youtube.music``` | ```7.06.54, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
 | ```Bypass image region restrictions``` | ```Adds an option to use a different host for static images, so that images blocked in some countries can be received.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
 | ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
 | ```Watch history``` | ```Adds an option to change the domain of the watch history or check its status.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
 | ```Navigation bar components``` | ```Adds options to hide or change components related to the navigation bar.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
 | ```Player components``` | ```Adds options to hide or change components related to the player.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
 | ```Certificate spoof``` | ```Enables YouTube Music to work with Android Auto by spoofing the YouTube Music certificate.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
-| ```Spoof client``` | ```Adds options to spoof the client to allow playback.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
-| ```Spoof player parameter``` | ```Adds options to spoof player parameter to allow playback.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Fix playback``` | ```Adds options to fix playback issues.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
 | ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of songs using the Return YouTube Dislike API.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
 | ```Return YouTube Username``` | ```Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
