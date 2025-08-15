@@ -1,5 +1,5 @@
 {
-    "version": "v5.9.1-dev.2",
+    "version": "v5.9.1-dev.3",
     "patches": [
         {
             "name": "Spoof Wi-Fi connection",
@@ -280,6 +280,26 @@
                     "6.29.59",
                     "6.42.55",
                     "6.51.53",
+                    "7.16.53",
+                    "7.25.53",
+                    "8.05.51",
+                    "8.12.53"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Disable Cairo splash animation",
+            "description": "Adds an option to disable Cairo splash animation.",
+            "use": true,
+            "dependencies": [
+                "Settings for YouTube Music",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.06.54",
                     "7.16.53",
                     "7.25.53",
                     "8.05.51",
@@ -827,26 +847,6 @@
             "options": []
         },
         {
-            "name": "Disable Cairo splash animation",
-            "description": "Adds an option to disable Cairo splash animation.",
-            "use": true,
-            "dependencies": [
-                "Settings for YouTube Music",
-                "ResourcePatch",
-                "ResourcePatch"
-            ],
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "7.06.54",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.05.51",
-                    "8.12.53"
-                ]
-            },
-            "options": []
-        },
-        {
             "name": "Bypass image region restrictions",
             "description": "Adds an option to use a different host for static images, so that images blocked in some countries can be received.",
             "use": true,
@@ -985,34 +985,12 @@
             "options": []
         },
         {
-            "name": "Spoof client",
-            "description": "Adds options to spoof the client to allow playback.",
-            "use": false,
-            "dependencies": [
-                "Settings for YouTube Music",
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.05.51",
-                    "8.12.53"
-                ]
-            },
-            "options": []
-        },
-        {
-            "name": "Spoof player parameter",
-            "description": "Adds options to spoof player parameter to allow playback.",
+            "name": "Fix playback",
+            "description": "Adds options to fix playback issues.",
             "use": true,
             "dependencies": [
                 "Settings for YouTube Music",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -1028,7 +1006,35 @@
                     "8.12.53"
                 ]
             },
-            "options": []
+            "options": [
+                {
+                    "key": "spoofClient",
+                    "title": "Spoof client",
+                    "description": "Includes the 'Spoof client' patch.\n\nSide effect:\n• Action buttons may always be hidden in YouTube Music 7.17+.\n• Audio may intermittently stutter during playback.\n• Player flyout menu may not show properly.",
+                    "required": true,
+                    "type": "kotlin.Boolean",
+                    "default": false,
+                    "values": null
+                },
+                {
+                    "key": "spoofPlayerParameter",
+                    "title": "Spoof player parameter",
+                    "description": "Includes the 'Spoof player parameter' patch.\n\nSide effect:\n• Sometimes the subtitles are located at the top of the player instead of the bottom.\n• This may not work for some users.",
+                    "required": true,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                },
+                {
+                    "key": "spoofVideoStreams",
+                    "title": "Spoof video streams",
+                    "description": "Includes the 'Spoof video streams' patch.\n\nSide effect:\n• App may be forced to close when using a DNS or VPN.\n• Audio may intermittently stutter during playback on adaptive bitrate streaming clients.",
+                    "required": true,
+                    "type": "kotlin.Boolean",
+                    "default": false,
+                    "values": null
+                }
+            ]
         },
         {
             "name": "GmsCore support",
@@ -1069,6 +1075,15 @@
                     "required": true,
                     "type": "kotlin.Boolean",
                     "default": true,
+                    "values": null
+                },
+                {
+                    "key": "disableCoreServices",
+                    "title": "Disable Core Services",
+                    "description": "To reproduce the playback issue, several core services, including PoToken, are disabled.\n\nDo not enable this option unless you are testing at a low level.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": false,
                     "values": null
                 },
                 {
@@ -1156,7 +1171,8 @@
             "description": "Applies mandatory patches to implement ReVanced Extended settings into the application.",
             "use": true,
             "dependencies": [
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
@@ -1171,6 +1187,26 @@
                 ]
             },
             "options": [
+                {
+                    "key": "insertPosition",
+                    "title": "Insert position",
+                    "description": "The settings menu name that the RVX settings menu should be above.",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": "pref_key_parent_tools",
+                    "values": {
+                        "Parent settings": "pref_key_parent_tools",
+                        "General": "settings_header_general",
+                        "Playback": "settings_header_playback",
+                        "Data saving": "settings_header_data_saving",
+                        "Downloads & storage": "settings_header_downloads_and_storage",
+                        "Notifications": "settings_header_notifications",
+                        "Privacy & data": "settings_header_privacy_and_location",
+                        "Recommendations": "settings_header_recommendations",
+                        "Paid memberships": "settings_header_paid_memberships",
+                        "About YouTube Music": "settings_header_about_youtube_music"
+                    }
+                },
                 {
                     "key": "rvxSettingsLabel",
                     "title": "RVX settings label",
@@ -3133,6 +3169,15 @@
                     "required": true,
                     "type": "kotlin.Boolean",
                     "default": true,
+                    "values": null
+                },
+                {
+                    "key": "disableCoreServices",
+                    "title": "Disable Core Services",
+                    "description": "To reproduce the playback issue, several core services, including PoToken, are disabled.\n\nDo not enable this option unless you are testing at a low level.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": false,
                     "values": null
                 },
                 {
