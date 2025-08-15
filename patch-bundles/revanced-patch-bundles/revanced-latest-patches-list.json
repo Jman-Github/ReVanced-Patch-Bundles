@@ -1,5 +1,5 @@
 {
-    "version": "v5.34.0-dev.7",
+    "version": "v5.34.0-dev.8",
     "patches": [
         {
             "name": "Export all activities",
@@ -1598,9 +1598,7 @@
                 "BytecodePatch"
             ],
             "compatiblePackages": {
-                "nl.sanomamedia.android.nu": [
-                    "11.3.0"
-                ]
+                "nl.sanomamedia.android.nu": null
             },
             "options": []
         },
@@ -3592,6 +3590,28 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "name": "Disable sign in to TV popup",
+            "description": "Adds an option to disable the popup asking to sign into a TV on the same local network.",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.34.42",
+                    "19.43.41",
+                    "19.47.53",
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
+                ]
+            },
+            "options": []
         },
         {
             "name": "Hide timestamp",
