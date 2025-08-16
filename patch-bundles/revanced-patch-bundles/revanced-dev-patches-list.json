@@ -1,5 +1,5 @@
 {
-    "version": "v5.34.0-dev.9",
+    "version": "v5.34.0-dev.10",
     "patches": [
         {
             "name": "Export all activities",
@@ -4327,7 +4327,8 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
