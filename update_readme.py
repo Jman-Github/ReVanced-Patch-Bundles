@@ -1,5 +1,3 @@
-"""Update the manager download URL in the README."""
-
 from __future__ import annotations
 
 import base64

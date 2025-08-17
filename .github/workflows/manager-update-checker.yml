@@ -12,64 +12,102 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          ref: bundles  # Checkout the 'bundles' branch
+          ref: bundles
 
       - name: Install Python dependencies
         run: |
-          sudo apt-get install jq -y
+          sudo apt-get update
+          sudo apt-get install -y jq
+          python -m pip install --upgrade pip
           python -m pip install requests
 
-      - name: Get artifact URL
+      - name: Get artifact URL (latest successful run from a branch containing "compose")
         id: get_artifact
+        env:
+          GITHUB_RUN_ID: ${{ github.run_id }}
+          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
         run: |
-          WORKFLOW_RUNS=$(curl -sS -H "Authorization: Bearer ${{ secrets.GIT_TOKEN }}" "https://api.github.com/repos/ReVanced/revanced-manager/actions/workflows/pr-build.yml/runs?event=pull_request&status=success")
-          if [ -z "$WORKFLOW_RUNS" ]; then
+          set -euo pipefail
+
+          # Fetch latest workflow runs across the repository (no event filter).
+          RUNS_JSON=$(curl -sS \
+            -H "Authorization: Bearer ${GIT_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/ReVanced/revanced-manager/actions/runs?per_page=100")
+
+          if [ -z "$RUNS_JSON" ]; then
             echo "Failed to fetch workflow runs."
             exit 1
           fi
 
-          ARTIFACT_URL=$(jq -r '.workflow_runs[0].artifacts_url // empty' <<<"$WORKFLOW_RUNS")
-          if [ -z "$ARTIFACT_URL" ]; then
-            echo "Failed to fetch artifact URL."
+          # Select newest COMPLETED+SUCCESS run where branch name contains "compose" (case-insensitive).
+          # Match either .head_branch or any PR head ref.
+          SELECTOR='
+            .workflow_runs
+            | map(select(
+                (
+                  ((.head_branch // "") | test("compose"; "i")) or
+                  (((.pull_requests // []) | map((.head.ref // "") | test("compose"; "i")) | any) // false)
+                )
+                and
+                ((.status // "") == "completed")
+                and
+                ((.conclusion // "") == "success")
+              ))
+            | sort_by(.created_at) | reverse | .[0]
+          '
+
+          RUN_ID=$(jq -r "$SELECTOR | .id // empty" <<<"$RUNS_JSON")
+          ARTIFACTS_URL=$(jq -r "$SELECTOR | .artifacts_url // empty" <<<"$RUNS_JSON")
+
+          if [ -z "${RUN_ID}" ] || [ -z "${ARTIFACTS_URL}" ] || [ "${RUN_ID}" = "null" ] || [ "${ARTIFACTS_URL}" = "null" ]; then
+            echo "No successful workflow runs found from branches containing 'compose'."
             exit 1
           fi
 
-          ARTIFACTS=$(curl -sS -H "Authorization: Bearer ${{ secrets.GIT_TOKEN }}" "$ARTIFACT_URL")
+          # Fetch artifacts for that run
+          ARTIFACTS=$(curl -sS \
+            -H "Authorization: Bearer ${GIT_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "${ARTIFACTS_URL}")
+
           if [ -z "$ARTIFACTS" ]; then
             echo "Failed to fetch artifacts."
             exit 1
           fi
 
-          RUN_ID=$(jq -r '.workflow_runs[0].id' <<<"$WORKFLOW_RUNS")
+          # Find the artifact named 'revanced-manager'
           ARTIFACT_ID=$(jq -r '.artifacts[]? | select(.name == "revanced-manager") | .id' <<<"$ARTIFACTS" | head -n 1)
-          if [ -z "$ARTIFACT_ID" ]; then
-            echo "Failed to fetch artifact ID."
+          if [ -z "$ARTIFACT_ID" ] || [ "$ARTIFACT_ID" = "null" ]; then
+            echo "Failed to find 'revanced-manager' artifact in the selected run (${RUN_ID})."
+            echo "Artifacts payload:"
+            echo "$ARTIFACTS" | jq .
             exit 1
           fi
 
           ARTIFACT_DOWNLOAD_URL="https://github.com/ReVanced/revanced-manager/actions/runs/${RUN_ID}/artifacts/${ARTIFACT_ID}"
-          echo "artifact_url=$ARTIFACT_DOWNLOAD_URL" >> "$GITHUB_OUTPUT"
-          echo "ARTIFACT_DOWNLOAD_URL: $ARTIFACT_DOWNLOAD_URL"
-        env:
-          GITHUB_RUN_ID: ${{ github.run_id }}
-          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+
+          echo "artifact_url=${ARTIFACT_DOWNLOAD_URL}" >> "$GITHUB_OUTPUT"
+          echo "ARTIFACT_DOWNLOAD_URL: ${ARTIFACT_DOWNLOAD_URL}"
 
       - name: Check if README needs update
         id: check_readme
-        run: |
-          python check_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
         env:
           GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
           TARGET_BRANCH: bundles
+        run: |
+          set -euo pipefail
+          python check_readme.py "${{ steps.get_artifact.outputs.artifact_url }}"
 
       - name: Update README
         if: steps.check_readme.outputs.needs_update == 'true'
-        run: |
-          python update_readme.py ${{ steps.get_artifact.outputs.artifact_url }}
         env:
           GITHUB_RUN_ID: ${{ github.run_id }}
           GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
           TARGET_BRANCH: bundles
+        run: |
+          set -euo pipefail
+          python update_readme.py "${{ steps.get_artifact.outputs.artifact_url }}"
 
       - name: Send Discord Notification
         if: steps.check_readme.outputs.needs_update == 'true'
