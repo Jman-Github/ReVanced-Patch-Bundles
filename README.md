@@ -446,7 +446,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
 #### 📩 Latest Download:
-https://github.com/ReVanced/revanced-manager/actions/runs/14974647803/artifacts/3124968262
+https://github.com/ReVanced/revanced-manager/actions/runs/16705573829/artifacts/3676252465
 
 # 🩹 Patch Repositories In Use
 #### 🏷️ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-patches)
