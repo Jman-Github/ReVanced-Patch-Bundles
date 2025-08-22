@@ -129,8 +129,8 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Skip ads``` | ```Automatically skips video stream ads.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.412.2947``` |
 | ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```com.amazon.avod.thirdpartyclient``` | ```All versions``` |
 | ```Playback speed``` | ```Adds playback speed controls to the video player.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.412.2947``` |
-| ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```ch.protonmail.android``` | ```All versions``` |
-| ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail mobile' signature from emails.``` | ```ch.protonmail.android``` | ```All versions``` |
+| ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```ch.protonmail.android``` | ```4.15.0``` |
+| ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail mobile' signature from emails.``` | ```ch.protonmail.android``` | ```4.15.0``` |
 | ```Hide purchase reminder``` | ```Hides the popup that reminds you to purchase the app.``` | ```com.rarlab.rar``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.reddit.frontpage``` | ```2024.17.0``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.onelouder.baconreader, com.onelouder.baconreader.premium``` | ```All versions``` |
