@@ -1,5 +1,5 @@
 {
-    "version": "v5.9.1-dev.4",
+    "version": "v5.9.1-dev.5",
     "patches": [
         {
             "name": "Spoof Wi-Fi connection",
@@ -990,9 +990,9 @@
             "use": true,
             "dependencies": [
                 "Settings for YouTube Music",
+                "Remove background playback restrictions",
                 "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch"
+                "ResourcePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
@@ -1011,15 +1011,6 @@
                     "key": "spoofClient",
                     "title": "Spoof client",
                     "description": "Includes the 'Spoof client' patch.\n\nSide effect:\n• Action buttons may always be hidden in YouTube Music 7.17+.\n• Audio may intermittently stutter during playback.\n• Player flyout menu may not show properly.",
-                    "required": true,
-                    "type": "kotlin.Boolean",
-                    "default": false,
-                    "values": null
-                },
-                {
-                    "key": "spoofPlayerParameter",
-                    "title": "Spoof player parameter",
-                    "description": "Includes the 'Spoof player parameter' patch.\n\nSide effect:\n• Sometimes the subtitles are located at the top of the player instead of the bottom.\n• This may not work for some users.",
                     "required": true,
                     "type": "kotlin.Boolean",
                     "default": true,
