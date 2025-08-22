@@ -1,5 +1,5 @@
 {
-    "version": "v3.12.0-dev.5",
+    "version": "v3.12.0-dev.6",
     "patches": [
         {
             "name": "Spoof Wi-Fi connection",
@@ -1008,9 +1008,9 @@
             "use": true,
             "dependencies": [
                 "Settings for YouTube Music",
+                "Remove background playback restrictions",
                 "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch"
+                "ResourcePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
@@ -1029,15 +1029,6 @@
                     "key": "spoofClient",
                     "title": "Spoof client",
                     "description": "Includes the 'Spoof client' patch.\n\nSide effect:\n• Action buttons may always be hidden in YouTube Music 7.17+.\n• Audio may intermittently stutter during playback.\n• Player flyout menu may not show properly.\n\nNot supported in YouTube Music 8.20+.",
-                    "required": true,
-                    "type": "kotlin.Boolean",
-                    "default": true,
-                    "values": null
-                },
-                {
-                    "key": "spoofPlayerParameter",
-                    "title": "Spoof player parameter",
-                    "description": "Includes the 'Spoof player parameter' patch.\n\nSide effect:\n• Sometimes the subtitles are located at the top of the player instead of the bottom.\n• This may not work for some users.",
                     "required": true,
                     "type": "kotlin.Boolean",
                     "default": true,
@@ -1876,9 +1867,6 @@
                 "ResourcePatch",
                 "Settings for YouTube",
                 "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
                 "ResourcePatch"
             ],
             "compatiblePackages": {
@@ -2113,6 +2101,25 @@
             "options": []
         },
         {
+            "name": "Disable sign in to TV popup",
+            "description": "Adds an option to disable the popup asking to sign into a TV on the same local network.",
+            "use": true,
+            "dependencies": [
+                "Settings for YouTube",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.05.36",
+                    "19.16.39",
+                    "19.43.41",
+                    "19.44.39",
+                    "19.47.53"
+                ]
+            },
+            "options": []
+        },
+        {
             "name": "Snack bar components",
             "description": "Adds options to hide or change components related to the snack bar.",
             "use": true,
@@ -2232,8 +2239,6 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53"
@@ -2979,6 +2984,8 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "compatiblePackages": {
@@ -3070,11 +3077,13 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
-                "BytecodePatch"
+                "ResourcePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
@@ -3093,6 +3102,7 @@
             "use": true,
             "dependencies": [
                 "Settings for YouTube",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3692,7 +3702,6 @@
             "use": true,
             "dependencies": [
                 "Settings for YouTube",
-                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
