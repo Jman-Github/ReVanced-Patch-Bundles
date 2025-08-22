@@ -1,5 +1,5 @@
 {
-    "version": "v5.34.1-dev.1",
+    "version": "v5.34.1-dev.2",
     "patches": [
         {
             "name": "Export all activities",
@@ -1807,7 +1807,9 @@
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "ch.protonmail.android": null
+                "ch.protonmail.android": [
+                    "4.15.0"
+                ]
             },
             "options": []
         },
@@ -1817,7 +1819,9 @@
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "ch.protonmail.android": null
+                "ch.protonmail.android": [
+                    "4.15.0"
+                ]
             },
             "options": []
         },
