@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.1",
+    "version": "v1.9.0-dev.1",
     "patches": [
         {
             "name": "Unlock Pro features",
@@ -9,6 +9,18 @@
             "compatiblePackages": {
                 "com.calistree.calistree": [
                     "4.17.8"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Unlock Premium features",
+            "description": "Unlock Premium features. You have to be logged in with an account.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.chargeprice.app": [
+                    "3.3.0"
                 ]
             },
             "options": []
@@ -71,7 +83,7 @@
         },
         {
             "name": "Unlock Pro features",
-            "description": "Unlock Pro features (park4night +). You have be logged in with an account.",
+            "description": "Unlock Pro features (park4night +). You have to be logged in with an account.",
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
