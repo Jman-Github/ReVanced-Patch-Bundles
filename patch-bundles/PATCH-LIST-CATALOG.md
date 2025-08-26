@@ -1231,16 +1231,17 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***7 Patches***
+***8 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Pro features``` | ```Unlock Pro features. Sometimes the app forget about my patches and a popup screen asking to subscribe will be shown. In this screen, just swipe down to refresh and the app will have Pro features again.``` | ```com.calistree.calistree``` | ```4.17.8``` |
+| ```Unlock Premium features``` | ```Unlock Premium features. You have to be logged in with an account.``` | ```fr.chargeprice.app``` | ```3.3.0``` |
 | ```Unlock Premium features``` | ```WARNING: This only works via mount install (root required). Unlock Premium features. Lists are still locked as they are server sided.``` | ```com.groundspeak.geocaching.intro``` | ```All versions``` |
 | ```Unlock Pro features``` | ```Unlocks Pro features. Most features in this app are server sided, so they can't be patched. This should unlock everything which is possible to patch.``` | ```com.hevy``` | ```2.0.0``` |
 | ```Unlock Premium features``` | ```Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.``` | ```de.komoot.android``` | ```2024.29.3``` |
 | ```Bypass signature check``` | ```N/A``` | ```cz.seznam.mapy``` | ```All versions``` |
 | ```Unlock premium features``` | ```N/A``` | ```cz.seznam.mapy``` | ```All versions``` |
-| ```Unlock Pro features``` | ```Unlock Pro features (park4night +). You have be logged in with an account.``` | ```fr.tramb.park4night``` | ```7.1.11``` |
+| ```Unlock Pro features``` | ```Unlock Pro features (park4night +). You have to be logged in with an account.``` | ```fr.tramb.park4night``` | ```7.1.11``` |
 
 </details>
 
