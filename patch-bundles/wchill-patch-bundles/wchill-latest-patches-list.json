@@ -1,5 +1,5 @@
 {
-    "version": "v5.34.1",
+    "version": "v5.34.2",
     "patches": [
         {
             "name": "Disable ads",
@@ -3694,6 +3694,68 @@
             "options": []
         },
         {
+            "name": "Fix Redgifs API",
+            "description": null,
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": null
+            },
+            "options": []
+        },
+        {
+            "name": "Add archive links to context menu",
+            "description": null,
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": null
+            },
+            "options": []
+        },
+        {
+            "name": "Automatically undelete Imgur images",
+            "description": null,
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "Intercept HTTP requests"
+            ],
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": null
+            },
+            "options": []
+        },
+        {
+            "name": "Intercept HTTP requests",
+            "description": null,
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": null
+            },
+            "options": []
+        },
+        {
+            "name": "Automatically undelete Reddit content",
+            "description": null,
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "Intercept HTTP requests"
+            ],
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": null
+            },
+            "options": []
+        },
+        {
             "name": "Fix /s/ links",
             "description": null,
             "use": true,
@@ -3770,56 +3832,6 @@
             "use": false,
             "dependencies": [
                 "BytecodePatch"
-            ],
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": null
-            },
-            "options": []
-        },
-        {
-            "name": "Add archive links to context menu",
-            "description": null,
-            "use": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": null
-            },
-            "options": []
-        },
-        {
-            "name": "Automatically undelete Imgur images",
-            "description": null,
-            "use": true,
-            "dependencies": [
-                "BytecodePatch",
-                "Intercept HTTP requests"
-            ],
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": null
-            },
-            "options": []
-        },
-        {
-            "name": "Intercept HTTP requests",
-            "description": null,
-            "use": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": null
-            },
-            "options": []
-        },
-        {
-            "name": "Automatically undelete Reddit content",
-            "description": null,
-            "use": true,
-            "dependencies": [
-                "BytecodePatch",
-                "Intercept HTTP requests"
             ],
             "compatiblePackages": {
                 "com.rubenmayayo.reddit": null
