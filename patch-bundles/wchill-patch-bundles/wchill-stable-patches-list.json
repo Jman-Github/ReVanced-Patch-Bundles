@@ -1,5 +1,5 @@
 {
-    "version": "v5.18.1",
+    "version": "v5.34.2",
     "patches": [
         {
             "name": "Export all activities",
@@ -10,8 +10,26 @@
             "options": []
         },
         {
+            "name": "Hide ADB status",
+            "description": "Hides enabled development settings and/or ADB.",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": null,
+            "options": []
+        },
+        {
+            "name": "Hide app icon",
+            "description": "Hides the app icon from the Android launcher.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": null,
+            "options": []
+        },
+        {
             "name": "Spoof build info",
-            "description": "Spoof the information about the current build.",
+            "description": "Spoofs the information about the current build.",
             "use": false,
             "dependencies": [
                 "BytecodePatch"
@@ -182,7 +200,7 @@
                 },
                 {
                     "key": "soc-manufacturer",
-                    "title": "SOC Manufacturer",
+                    "title": "SOC manufacturer",
                     "description": "The manufacturer of the device's primary system-on-chip.",
                     "required": false,
                     "type": "kotlin.String",
@@ -191,7 +209,7 @@
                 },
                 {
                     "key": "soc-model",
-                    "title": "SOC Model",
+                    "title": "SOC model",
                     "description": "The model name of the device's primary system-on-chip.",
                     "required": false,
                     "type": "kotlin.String",
@@ -257,7 +275,7 @@
             "options": [
                 {
                     "key": "networkCountryIso",
-                    "title": "Network ISO Country Code",
+                    "title": "Network ISO country code",
                     "description": "ISO-3166-1 alpha-2 country code equivalent for the SIM provider's country code.",
                     "required": false,
                     "type": "kotlin.String",
@@ -516,7 +534,7 @@
                 },
                 {
                     "key": "simCountryIso",
-                    "title": "Sim ISO Country Code",
+                    "title": "SIM ISO country code",
                     "description": "ISO-3166-1 alpha-2 country code equivalent for the SIM provider's country code.",
                     "required": false,
                     "type": "kotlin.String",
@@ -815,7 +833,7 @@
                 {
                     "key": "replacements",
                     "title": "Replacements",
-                    "description": "Hexadecimal patterns to search for and replace with another in a target file.\n\nA pattern is a sequence of case insensitive strings, each representing hexadecimal bytes, separated by spaces.\nAn example pattern is 'aa 01 02 FF'.\n\nEvery pattern must be followed by a pipe ('|'), the replacement pattern,\nanother pipe ('|'), and the path to the file to make the changes in relative to the APK root. \nThe replacement pattern must have the same length as the original pattern.\n\nFull example of a valid input:\n'aa 01 02 FF|00 00 00 00|path/to/file'",
+                    "description": "Hexadecimal patterns to search for and replace with another in a target file.\n\nA pattern is a sequence of case insensitive strings, each representing hexadecimal bytes, separated by spaces.\nAn example pattern is 'aa 01 02 FF'.\n\nEvery pattern must be followed by a pipe ('|'), the replacement pattern,\nanother pipe ('|'), and the path to the file to make the changes in relative to the APK root. \nThe replacement pattern must be shorter or equal in length to the pattern.\n\nFull example of a valid replacement:\n'01 02 aa FF|03 04|path/to/file'",
                     "required": true,
                     "type": "kotlin.collections.List<kotlin.String>",
                     "default": null,
@@ -910,6 +928,32 @@
             "options": []
         },
         {
+            "name": "Enable ROM signature spoofing",
+            "description": "Spoofs the signature via the manifest meta-data \"fake-signature\". This patch only works with ROMs that support signature spoofing.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": null,
+            "options": [
+                {
+                    "key": "signatureOrApkFilePath",
+                    "title": "Signature or APK file path",
+                    "description": "The hex-encoded signature or path to an APK file with the desired signature.",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": null,
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Set target SDK version 34",
+            "description": "Changes the target SDK to version 34 (Android 14). For devices running Android 15+, this will disable edge-to-edge display.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": null,
+            "options": []
+        },
+        {
             "name": "Change version code",
             "description": "Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.",
             "use": false,
@@ -941,12 +985,14 @@
             "options": []
         },
         {
-            "name": "Pro unlock",
+            "name": "Hide ads",
             "description": null,
             "use": true,
-            "dependencies": [],
+            "dependencies": [
+                "Disable Pairip license check"
+            ],
             "compatiblePackages": {
-                "com.backdrops.wallpapers": null
+                "com.drinkplusplus.angulus": null
             },
             "options": []
         },
@@ -967,6 +1013,30 @@
             "dependencies": [],
             "compatiblePackages": {
                 "it.ipzs.cieid": null
+            },
+            "options": []
+        },
+        {
+            "name": "Hide ads",
+            "description": null,
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.cricbuzz.android": [
+                    "6.24.01"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Hide ads",
+            "description": null,
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.crunchyroll.crunchyroid": null
             },
             "options": []
         },
@@ -1046,7 +1116,7 @@
         },
         {
             "name": "GmsCore support",
-            "description": "Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services.",
+            "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
             "use": true,
             "dependencies": [
                 "Change package name",
@@ -1071,6 +1141,16 @@
                     }
                 }
             ]
+        },
+        {
+            "name": "Enable DCIM folders backup control",
+            "description": "Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.google.android.apps.photos": null
+            },
+            "options": []
         },
         {
             "name": "Spoof features",
@@ -1124,7 +1204,7 @@
         },
         {
             "name": "GmsCore support",
-            "description": "Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services.",
+            "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
             "use": true,
             "dependencies": [
                 "Change package name",
@@ -1147,16 +1227,6 @@
                     }
                 }
             ]
-        },
-        {
-            "name": "Restore hidden 'Back up while charging' toggle",
-            "description": "Restores a hidden toggle to only run backups when the device is charging.",
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "com.google.android.apps.photos": null
-            },
-            "options": []
         },
         {
             "name": "Remove device restrictions",
@@ -1222,7 +1292,17 @@
         },
         {
             "name": "Hide ads",
-            "description": "Hides ads in stories, discover, profile, etc. An ad can still appear once when refreshing the home feed.",
+            "description": null,
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "options": []
+        },
+        {
+            "name": "Disable signature check",
+            "description": "Disables the signature check that causes the app to crash on startup.",
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
@@ -1246,17 +1326,21 @@
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "com.adobe.lrmobile": null
+                "com.adobe.lrmobile": [
+                    "9.3.0"
+                ]
             },
             "options": []
         },
         {
-            "name": "Unlock premium",
+            "name": "Unlock Premium",
             "description": null,
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "com.adobe.lrmobile": null
+                "com.adobe.lrmobile": [
+                    "9.3.0"
+                ]
             },
             "options": []
         },
@@ -1299,22 +1383,32 @@
             "options": []
         },
         {
-            "name": "Disable switching emoji to sticker",
-            "description": "Disables switching from emoji to sticker search mode in message input field.",
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "com.facebook.orca": [
-                    "439.0.0.29.119"
-                ]
-            },
-            "options": []
-        },
-        {
             "name": "Disable typing indicator",
             "description": "Disables the indicator while typing a message.",
             "use": true,
             "dependencies": [],
+            "compatiblePackages": {
+                "com.facebook.orca": null
+            },
+            "options": []
+        },
+        {
+            "name": "Hide Facebook button",
+            "description": "Hides the Facebook button in the top toolbar.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.facebook.orca": null
+            },
+            "options": []
+        },
+        {
+            "name": "Remove Meta AI",
+            "description": "Removes UI elements related to Meta AI.",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "compatiblePackages": {
                 "com.facebook.orca": null
             },
@@ -1348,10 +1442,7 @@
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "7.16.53",
-                    "8.05.51"
-                ]
+                "com.google.android.apps.youtube.music": null
             },
             "options": []
         },
@@ -1361,10 +1452,7 @@
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "7.16.53",
-                    "8.05.51"
-                ]
+                "com.google.android.apps.youtube.music": null
             },
             "options": []
         },
@@ -1374,10 +1462,7 @@
             "use": false,
             "dependencies": [],
             "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "7.16.53",
-                    "8.05.51"
-                ]
+                "com.google.android.apps.youtube.music": null
             },
             "options": []
         },
@@ -1387,10 +1472,7 @@
             "use": false,
             "dependencies": [],
             "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "7.16.53",
-                    "8.05.51"
-                ]
+                "com.google.android.apps.youtube.music": null
             },
             "options": []
         },
@@ -1400,10 +1482,7 @@
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "7.16.53",
-                    "8.05.51"
-                ]
+                "com.google.android.apps.youtube.music": null
             },
             "options": []
         },
@@ -1413,10 +1492,7 @@
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "7.16.53",
-                    "8.05.51"
-                ]
+                "com.google.android.apps.youtube.music": null
             },
             "options": []
         },
@@ -1426,10 +1502,7 @@
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "7.16.53",
-                    "8.05.51"
-                ]
+                "com.google.android.apps.youtube.music": null
             },
             "options": []
         },
@@ -1439,16 +1512,13 @@
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "7.16.53",
-                    "8.05.51"
-                ]
+                "com.google.android.apps.youtube.music": null
             },
             "options": []
         },
         {
             "name": "GmsCore support",
-            "description": "Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services.",
+            "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
             "use": true,
             "dependencies": [
                 "Change package name",
@@ -1482,10 +1552,7 @@
                 "BytecodePatch"
             ],
             "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "7.16.53",
-                    "8.05.51"
-                ]
+                "com.google.android.apps.youtube.music": null
             },
             "options": []
         },
@@ -1524,16 +1591,6 @@
             "options": []
         },
         {
-            "name": "Unlock pro",
-            "description": null,
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "com.wakdev.apps.nfctools.se": null
-            },
-            "options": []
-        },
-        {
             "name": "Hide ads",
             "description": "Hide ads and sponsored articles in list pages and remove pre-roll ads on videos.",
             "use": true,
@@ -1541,11 +1598,7 @@
                 "BytecodePatch"
             ],
             "compatiblePackages": {
-                "nl.sanomamedia.android.nu": [
-                    "11.0.0",
-                    "11.0.1",
-                    "11.1.0"
-                ]
+                "nl.sanomamedia.android.nu": null
             },
             "options": []
         },
@@ -1572,6 +1625,36 @@
             "options": []
         },
         {
+            "name": "Remove root detection",
+            "description": "Removes the check for root permissions.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.nousguide.android.orftvthek": null
+            },
+            "options": []
+        },
+        {
+            "name": "Disable audio ads",
+            "description": null,
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.pandora.android": null
+            },
+            "options": []
+        },
+        {
+            "name": "Enable unlimited skips",
+            "description": null,
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.pandora.android": null
+            },
+            "options": []
+        },
+        {
             "name": "Spoof device ID",
             "description": "Spoofs device ID to mitigate manual bans by developers.",
             "use": true,
@@ -1579,9 +1662,7 @@
                 "BytecodePatch"
             ],
             "compatiblePackages": {
-                "com.microblink.photomath": [
-                    "8.37.0"
-                ]
+                "com.microblink.photomath": null
             },
             "options": []
         },
@@ -1593,9 +1674,7 @@
                 "BytecodePatch"
             ],
             "compatiblePackages": {
-                "com.microblink.photomath": [
-                    "8.32.0"
-                ]
+                "com.microblink.photomath": null
             },
             "options": []
         },
@@ -1608,9 +1687,7 @@
                 "BytecodePatch"
             ],
             "compatiblePackages": {
-                "com.microblink.photomath": [
-                    "8.37.0"
-                ]
+                "com.microblink.photomath": null
             },
             "options": []
         },
@@ -1680,7 +1757,67 @@
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "jp.pxv.android": null
+                "jp.pxv.android": [
+                    "6.141.1"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Skip ads",
+            "description": "Automatically skips video stream ads.",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.amazon.avod.thirdpartyclient": [
+                    "3.0.412.2947"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Rename shared permissions",
+            "description": "Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.amazon.avod.thirdpartyclient": null
+            },
+            "options": []
+        },
+        {
+            "name": "Playback speed",
+            "description": "Adds playback speed controls to the video player.",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.amazon.avod.thirdpartyclient": [
+                    "3.0.412.2947"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Remove free accounts limit",
+            "description": "Removes the limit for maximum free accounts logged in.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "ch.protonmail.android": null
+            },
+            "options": []
+        },
+        {
+            "name": "Remove 'Sent from' signature",
+            "description": "Removes the 'Sent from Proton Mail mobile' signature from emails.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "ch.protonmail.android": null
             },
             "options": []
         },
@@ -1714,7 +1851,9 @@
             "name": "Spoof client",
             "description": "Restores functionality of the app by using custom client ID.",
             "use": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "compatiblePackages": {
                 "com.onelouder.baconreader": null,
                 "com.onelouder.baconreader.premium": null
@@ -1868,6 +2007,18 @@
             "dependencies": [
                 "BytecodePatch",
                 "Intercept HTTP requests"
+            ],
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": null
+            },
+            "options": []
+        },
+        {
+            "name": "Fix Redgifs API",
+            "description": null,
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
             ],
             "compatiblePackages": {
                 "com.rubenmayayo.reddit": null
@@ -2049,6 +2200,7 @@
             "description": "Restores functionality of the app by using custom client ID.",
             "use": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "compatiblePackages": {
@@ -2075,6 +2227,18 @@
             "dependencies": [
                 "BytecodePatch"
             ],
+            "compatiblePackages": {
+                "com.laurencedawson.reddit_sync": null,
+                "com.laurencedawson.reddit_sync.pro": null,
+                "com.laurencedawson.reddit_sync.dev": null
+            },
+            "options": []
+        },
+        {
+            "name": "Fix post thumbnails",
+            "description": "Fixes loading post thumbnails by correcting their URLs.",
+            "use": true,
+            "dependencies": [],
             "compatiblePackages": {
                 "com.laurencedawson.reddit_sync": null,
                 "com.laurencedawson.reddit_sync.pro": null,
@@ -2119,8 +2283,8 @@
             "options": []
         },
         {
-            "name": "Unlock premium Reddit icons",
-            "description": "Unlocks the premium Reddit icons.",
+            "name": "Unlock Premium icons",
+            "description": "Unlocks the Reddit Premium icons.",
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
@@ -2146,6 +2310,14 @@
             "compatiblePackages": {
                 "at.gv.bka.serviceportal": null
             },
+            "options": []
+        },
+        {
+            "name": "Disable Pairip license check",
+            "description": "Disables Play Integrity API (Pairip) client-side license check.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": null,
             "options": []
         },
         {
@@ -2186,7 +2358,9 @@
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "com.soundcloud.android": null
+                "com.soundcloud.android": [
+                    "2025.05.27-release"
+                ]
             },
             "options": []
         },
@@ -2196,7 +2370,9 @@
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "com.soundcloud.android": null
+                "com.soundcloud.android": [
+                    "2025.05.27-release"
+                ]
             },
             "options": []
         },
@@ -2206,15 +2382,31 @@
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "com.soundcloud.android": null
+                "com.soundcloud.android": [
+                    "2025.05.27-release"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Hide Create button",
+            "description": "Hides the \"Create\" button in the navigation bar.",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.spotify.music": null
             },
             "options": []
         },
         {
             "name": "Custom theme",
-            "description": "Applies a custom theme.",
+            "description": "Applies a custom theme (defaults to amoled black)",
             "use": false,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "compatiblePackages": {
                 "com.spotify.music": null
             },
@@ -2229,12 +2421,21 @@
                     "values": null
                 },
                 {
+                    "key": "overridePlayerGradientColor",
+                    "title": "Override player gradient color",
+                    "description": "Apply primary background color to the player gradient color, which changes dynamically with the song.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": false,
+                    "values": null
+                },
+                {
                     "key": "backgroundColorSecondary",
                     "title": "Secondary background color",
-                    "description": "The secondary background color. (e.g. search box, artist & podcast). Can be a hex color or a resource reference.",
+                    "description": "The secondary background color. (e.g. playlist list in home, player artist, song credits). Can be a hex color or a resource reference.\",",
                     "required": true,
                     "type": "kotlin.String",
-                    "default": "#ff282828",
+                    "default": "#FF121212",
                     "values": null
                 },
                 {
@@ -2243,32 +2444,22 @@
                     "description": "The accent color ('Spotify green' by default). Can be a hex color or a resource reference.",
                     "required": true,
                     "type": "kotlin.String",
-                    "default": "#ff1ed760",
+                    "default": "#FF1ED760",
                     "values": null
                 },
                 {
                     "key": "accentColorPressed",
-                    "title": "Pressed dark theme accent color",
+                    "title": "Pressed accent color",
                     "description": "The color when accented buttons are pressed, by default slightly darker than accent. Can be a hex color or a resource reference.",
                     "required": true,
                     "type": "kotlin.String",
-                    "default": "#ff169c46",
+                    "default": "#FF1ABC54",
                     "values": null
                 }
             ]
         },
         {
-            "name": "Enable on demand",
-            "description": "Enables listening to songs on-demand, allowing to play any song from playlists, albums or artists without limitations. This does not remove ads.",
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "com.spotify.lite": null
-            },
-            "options": []
-        },
-        {
-            "name": "Unlock Spotify Premium",
+            "name": "Unlock Premium",
             "description": "Unlocks Spotify Premium features. Server-sided features like downloading songs are still locked.",
             "use": true,
             "dependencies": [
@@ -2280,8 +2471,100 @@
             "options": []
         },
         {
-            "name": "Spoof signature",
-            "description": "Spoofs the signature of the app to fix various functions of the app.",
+            "name": "Spoof client",
+            "description": "Spoofs the client to fix various functions of the app.",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "RawResourcePatch"
+            ],
+            "compatiblePackages": {
+                "com.spotify.music": null
+            },
+            "options": [
+                {
+                    "key": "requestListenerPort",
+                    "title": "Request listener port",
+                    "description": "The port to use for the listener that intercepts and handles spoofed requests. Port must be between 0 and 65535. Do not change this option, if you do not know what you are doing.",
+                    "required": false,
+                    "type": "kotlin.Int",
+                    "default": 4345,
+                    "values": null
+                },
+                {
+                    "key": "clientVersion",
+                    "title": "Client version",
+                    "description": "The client version used for spoofing the client token. Do not change this option, if you do not know what you are doing.",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "iphone-9.0.58.558.g200011c",
+                    "values": null
+                },
+                {
+                    "key": "hardwareMachine",
+                    "title": "Hardware machine",
+                    "description": "The hardware machine used for spoofing the client token. Do not change this option, if you do not know what you are doing.",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "iPhone16,1",
+                    "values": null
+                },
+                {
+                    "key": "systemVersion",
+                    "title": "System version",
+                    "description": "The system version used for spoofing the client token. Do not change this option, if you do not know what you are doing.",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "17.7.2",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Fix Facebook login",
+            "description": "Fix logging in with Facebook when the app is patched by always opening the login in a web browser window.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.spotify.music": null
+            },
+            "options": []
+        },
+        {
+            "name": "Change lyrics provider",
+            "description": "Changes the lyrics provider to a custom one.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.spotify.music": null
+            },
+            "options": [
+                {
+                    "key": "lyricsProviderHost",
+                    "title": "Lyrics provider host",
+                    "description": "The domain name or IP address of a custom lyrics provider.",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "lyrics.natanchiodi.fr",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Sanitize sharing links",
+            "description": "Removes the tracking query parameters from links before they are shared.",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.spotify.music": null
+            },
+            "options": []
+        },
+        {
+            "name": "Fix third party launchers widgets",
+            "description": "Fixes Spotify widgets not working in third party launchers, like Nova Launcher.",
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
@@ -2325,9 +2608,7 @@
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "com.strava": [
-                    "320.12"
-                ]
+                "com.strava": null
             },
             "options": []
         },
@@ -2339,6 +2620,18 @@
             "compatiblePackages": {
                 "com.swisssign.swissid.mobile": [
                     "5.2.9"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Hide ads",
+            "description": null,
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.instagram.barcelona": [
+                    "382.0.0.51.85"
                 ]
             },
             "options": []
@@ -2583,7 +2876,10 @@
                 "ResourcePatch"
             ],
             "compatiblePackages": {
-                "tv.twitch.android.app": null
+                "tv.twitch.android.app": [
+                    "16.9.1",
+                    "25.3.0"
+                ]
             },
             "options": []
         },
@@ -2597,7 +2893,10 @@
                 "Settings"
             ],
             "compatiblePackages": {
-                "tv.twitch.android.app": null
+                "tv.twitch.android.app": [
+                    "16.9.1",
+                    "25.3.0"
+                ]
             },
             "options": []
         },
@@ -2612,7 +2911,10 @@
                 "BytecodePatch"
             ],
             "compatiblePackages": {
-                "tv.twitch.android.app": null
+                "tv.twitch.android.app": [
+                    "16.9.1",
+                    "25.3.0"
+                ]
             },
             "options": []
         },
@@ -2626,7 +2928,10 @@
                 "ResourcePatch"
             ],
             "compatiblePackages": {
-                "tv.twitch.android.app": null
+                "tv.twitch.android.app": [
+                    "16.9.1",
+                    "25.3.0"
+                ]
             },
             "options": []
         },
@@ -2639,7 +2944,10 @@
                 "ResourcePatch"
             ],
             "compatiblePackages": {
-                "tv.twitch.android.app": null
+                "tv.twitch.android.app": [
+                    "16.9.1",
+                    "25.3.0"
+                ]
             },
             "options": []
         },
@@ -2653,7 +2961,10 @@
                 "ResourcePatch"
             ],
             "compatiblePackages": {
-                "tv.twitch.android.app": null
+                "tv.twitch.android.app": [
+                    "16.9.1",
+                    "25.3.0"
+                ]
             },
             "options": []
         },
@@ -2667,7 +2978,9 @@
                 "ResourcePatch"
             ],
             "compatiblePackages": {
-                "tv.twitch.android.app": null
+                "tv.twitch.android.app": [
+                    "16.9.1"
+                ]
             },
             "options": []
         },
@@ -2698,7 +3011,7 @@
             "dependencies": [],
             "compatiblePackages": {
                 "com.twitter.android": [
-                    "10.84.0-release.0",
+                    "10.86.0-release.0",
                     "10.60.0-release.0",
                     "10.48.0-release.0"
                 ]
@@ -2714,7 +3027,7 @@
             ],
             "compatiblePackages": {
                 "com.twitter.android": [
-                    "10.84.0-release.0",
+                    "10.86.0-release.0",
                     "10.60.0-release.0",
                     "10.48.0-release.0"
                 ]
@@ -2730,7 +3043,7 @@
             ],
             "compatiblePackages": {
                 "com.twitter.android": [
-                    "10.84.0-release.0",
+                    "10.86.0-release.0",
                     "10.60.0-release.0",
                     "10.48.0-release.0"
                 ]
@@ -2747,7 +3060,7 @@
             ],
             "compatiblePackages": {
                 "com.twitter.android": [
-                    "10.84.0-release.0",
+                    "10.86.0-release.0",
                     "10.60.0-release.0",
                     "10.48.0-release.0"
                 ]
@@ -2785,7 +3098,7 @@
             "dependencies": [],
             "compatiblePackages": {
                 "com.twitter.android": [
-                    "10.84.0-release.0",
+                    "10.86.0-release.0",
                     "10.60.0-release.0",
                     "10.48.0-release.0"
                 ]
@@ -2828,12 +3141,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -2849,12 +3162,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -2870,12 +3183,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -2891,12 +3204,30 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Disable double tap actions",
+            "description": "Adds an option to disable player double tap gestures.",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -2912,97 +3243,35 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
         },
         {
-            "name": "Disable precise seeking gesture",
-            "description": "Adds an option to disable precise seeking when swiping up on the seekbar.",
+            "name": "Seekbar",
+            "description": "Adds options to disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, and hiding the video player seekbar.",
             "use": true,
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
-                ]
-            },
-            "options": []
-        },
-        {
-            "name": "Enable tap to seek",
-            "description": "Adds an option to enable tap to seek on the seekbar of the video player.",
-            "use": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
-                    "19.34.42",
-                    "19.43.41",
-                    "19.47.53",
-                    "20.07.39"
-                ]
-            },
-            "options": []
-        },
-        {
-            "name": "Enable slide to seek",
-            "description": "Adds an option to enable slide to seek instead of playing at 2x speed when pressing and holding in the video player.",
-            "use": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch",
-                "ResourcePatch"
-            ],
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
-                    "19.34.42",
-                    "19.43.41",
-                    "19.47.53",
-                    "20.07.39"
-                ]
-            },
-            "options": []
-        },
-        {
-            "name": "Seekbar thumbnails",
-            "description": "Adds an option to use high quality fullscreen seekbar thumbnails. Patching 19.16.39 adds an option to restore old seekbar thumbnails.",
-            "use": true,
-            "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch",
-                "ResourcePatch"
-            ],
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
-                    "19.34.42",
-                    "19.43.41",
-                    "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3018,12 +3287,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3039,12 +3308,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3058,12 +3327,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": [
@@ -3096,35 +3365,31 @@
         },
         {
             "name": "Change header",
-            "description": "Applies a custom header in the top left corner within the app. Defaults to the ReVanced header.",
-            "use": false,
+            "description": "Adds an option to change the header logo in the top left corner of the app.",
+            "use": true,
             "dependencies": [
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": [
                 {
-                    "key": "header",
-                    "title": "Header",
-                    "description": "The header to apply to the app.\n\nIf a path to a folder is provided, the folder must contain one or more of the following folders, depending on the DPI of the device:\n\n- drawable-xxxhdpi\n- drawable-xxhdpi\n- drawable-xhdpi\n- drawable-hdpi\n- drawable-mdpi\n\nEach of the folders must contain all of the following files:\n\n- yt_wordmark_header_light.png\n- yt_wordmark_header_dark.png\n\nThe image dimensions must be as follows:\n- drawable-xxxhdpi: 512px x 192px\n- drawable-xxhdpi: 387px x 144px\n- drawable-xhdpi: 258px x 96px\n- drawable-hdpi: 194px x 72px\n- drawable-mdpi: 129px x 48px",
-                    "required": true,
+                    "key": "custom",
+                    "title": "Custom header logo",
+                    "description": "Folder with images to use as a custom header logo.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- drawable-xxxhdpi\n- drawable-xxhdpi\n- drawable-xhdpi\n- drawable-hdpi\n- drawable-mdpi\n\nEach of the folders must contain all of the following files:\n- custom_header_light.png\n- custom_header_dark.png\n\nThe image dimensions must be as follows:\n- drawable-xxxhdpi: 512px x 192px\n- drawable-xxhdpi: 387px x 144px\n- drawable-xhdpi: 258px x 96px\n- drawable-hdpi: 194px x 72px\n- drawable-mdpi: 129px x 48px",
+                    "required": false,
                     "type": "kotlin.String",
-                    "default": "revanced*borderless",
-                    "values": {
-                        "YouTube": "header*",
-                        "YouTube Premium": "premium*header",
-                        "ReVanced": "revanced*",
-                        "ReVanced (borderless logo)": "revanced*borderless"
-                    }
+                    "default": null,
+                    "values": null
                 }
             ]
         },
@@ -3139,12 +3404,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3162,19 +3427,19 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
         },
         {
             "name": "Hide player overlay buttons",
-            "description": "Adds options to hide the player Cast, Autoplay, Captions, and Previous & Next buttons.",
+            "description": "Adds options to hide the player Cast, Autoplay, Captions, Previous & Next buttons, and the player control buttons background.",
             "use": true,
             "dependencies": [
                 "BytecodePatch",
@@ -3184,12 +3449,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3206,12 +3471,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3226,12 +3491,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3246,12 +3511,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3267,12 +3532,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3286,19 +3551,16 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch",
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
-                    "19.45.38",
-                    "19.46.42",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3314,12 +3576,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3336,12 +3598,34 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Hide related video overlay",
+            "description": "Adds an option to hide the related video overlay shown when swiping up in fullscreen.",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.34.42",
+                    "19.43.41",
+                    "19.47.53",
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3357,34 +3641,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
-                ]
-            },
-            "options": []
-        },
-        {
-            "name": "Hide seekbar",
-            "description": "Adds an option to hide the seekbar.",
-            "use": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
-                    "19.34.42",
-                    "19.43.41",
-                    "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3403,12 +3665,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": [
@@ -3433,6 +3695,28 @@
             ]
         },
         {
+            "name": "Disable sign in to TV popup",
+            "description": "Adds an option to disable the popup asking to sign into a TV on the same local network.",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.34.42",
+                    "19.43.41",
+                    "19.47.53",
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
+                ]
+            },
+            "options": []
+        },
+        {
             "name": "Hide timestamp",
             "description": "Adds an option to hide the timestamp in the bottom left of the video player.",
             "use": true,
@@ -3443,12 +3727,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3465,14 +3749,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
-                    "19.45.38",
-                    "19.46.42",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3488,29 +3770,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
-                ]
-            },
-            "options": []
-        },
-        {
-            "name": "Remove player controls background",
-            "description": "Removes the dark background surrounding the video player controls.",
-            "use": false,
-            "dependencies": [],
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
-                    "19.34.42",
-                    "19.43.41",
-                    "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3528,12 +3793,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3550,9 +3815,10 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.46.42",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3566,12 +3832,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3591,12 +3857,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3608,16 +3874,17 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3634,12 +3901,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3654,16 +3921,17 @@
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3682,12 +3950,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3705,12 +3973,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3726,12 +3994,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3747,14 +4015,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
-                    "19.45.38",
-                    "19.46.42",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3774,12 +4040,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": [
@@ -3837,12 +4103,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3859,12 +4125,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3879,12 +4145,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3899,12 +4165,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3918,23 +4184,24 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
         },
         {
             "name": "Enable debugging",
-            "description": "Adds options for debugging.",
+            "description": "Adds options for debugging and exporting ReVanced logs to the clipboard.",
             "use": true,
             "dependencies": [
                 "BytecodePatch",
@@ -3944,12 +4211,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3965,12 +4232,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -3985,19 +4252,19 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
         },
         {
             "name": "GmsCore support",
-            "description": "Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services.",
+            "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
             "use": true,
             "dependencies": [
                 "Change package name",
@@ -4008,12 +4275,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": [
@@ -4031,6 +4298,26 @@
             ]
         },
         {
+            "name": "Disable haptic feedback",
+            "description": "Adds an option to disable haptic feedback in the player for various actions.",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.34.42",
+                    "19.43.41",
+                    "19.47.53",
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
+                ]
+            },
+            "options": []
+        },
+        {
             "name": "Bypass URL redirects",
             "description": "Adds an option to bypass URL redirects and open the original URL directly.",
             "use": true,
@@ -4042,14 +4329,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
-                    "19.45.38",
-                    "19.46.42",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -4063,12 +4348,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -4084,12 +4369,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -4106,32 +4391,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
-                ]
-            },
-            "options": []
-        },
-        {
-            "name": "Disable zoom haptics",
-            "description": "Adds an option to disable haptics when zooming.",
-            "use": true,
-            "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
-                    "19.34.42",
-                    "19.43.41",
-                    "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -4143,16 +4408,17 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -4164,16 +4430,17 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -4184,16 +4451,17 @@
             "use": true,
             "dependencies": [
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
@@ -4209,24 +4477,12 @@
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.16.39",
-                    "19.25.37",
                     "19.34.42",
                     "19.43.41",
                     "19.47.53",
-                    "20.07.39"
-                ]
-            },
-            "options": []
-        },
-        {
-            "name": "Unlock premium",
-            "description": null,
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "io.yuka.android": [
-                    "4.29"
+                    "20.07.39",
+                    "20.12.46",
+                    "20.13.41"
                 ]
             },
             "options": []
