@@ -915,6 +915,132 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
+***122 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Spoof Wi-Fi connection``` | ```Spoofs an existing Wi-Fi connection.``` | ```Universal``` | ```All versions``` |
+| ```Disable edge-to-edge display``` | ```Disable forced edge-to-edge display on Android 15+ by changing the app's target SDK version. This patch does not work if the app is installed by mounting.``` | ```Universal``` | ```All versions``` |
+| ```Change version code``` | ```Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.``` | ```Universal``` | ```All versions``` |
+| ```Hide account components``` | ```Adds options to hide components related to the account menu.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Hide action bar components``` | ```Adds options to hide action bar components and replace the offline download button with an external download button.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Hide ads``` | ```Adds options to hide ads.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Flyout menu components``` | ```Adds options to hide or change flyout menu components.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Disable forced auto captions``` | ```Adds an option to disable captions from being automatically enabled.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Enable landscape mode``` | ```Adds an option to enable landscape mode when rotating the screen on phones.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Restore old style library shelf``` | ```Adds an option to return the Library tab to the old style.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Disable dislike redirection``` | ```Adds an option to disable redirection to the next track when clicking the Dislike button.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Spoof app version``` | ```Adds options to spoof the YouTube Music client version. This can be used to restore old UI elements and features.``` | ```com.dummy.dummyapp1``` | ```6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.10.52``` |
+| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Custom branding icon for YouTube Music``` | ```Changes the YouTube Music app icon to the icon specified in patch options.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Custom branding name for YouTube Music``` | ```Changes the YouTube Music app name to the name specified in patch options.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Custom header for YouTube Music``` | ```Applies a custom header in the top left corner within the app.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Hide overlay filter``` | ```Removes, at compile time, the dark overlay that appears when player flyout menus are open.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Hide player overlay filter``` | ```Removes, at compile time, the dark overlay that appears when single-tapping in the player.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Dark theme``` | ```Changes the app's dark theme to the values specified in patch options.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Translations for YouTube Music``` | ```Add translations or remove string resources.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Visual preferences icons for YouTube Music``` | ```Adds icons to specific preferences in the settings.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Disable music video in album``` | ```Adds option to redirect music videos from albums for non-premium users.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including for kids videos.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Bitrate default value``` | ```Sets the audio quality to 'Always High' when you first install the app.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Enable OPUS codec``` | ```Adds an option to enable the OPUS audio codec if the player response includes it.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Enable debug logging``` | ```Adds an option to enable debug logging.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Disable QUIC protocol``` | ```Adds an option to disable CronetEngine's QUIC protocol.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Change share sheet``` | ```Adds an option to change the in-app share sheet to the system share sheet.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Disable Cairo splash animation``` | ```Adds an option to disable Cairo splash animation.``` | ```com.dummy.dummyapp1``` | ```7.06.54, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Bypass image region restrictions``` | ```Adds an option to use a different host for static images, so that images blocked in some countries can be received.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Watch history``` | ```Adds an option to change the domain of the watch history or check its status.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Navigation bar components``` | ```Adds options to hide or change components related to the navigation bar.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Player components``` | ```Adds options to hide or change components related to the player.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Certificate spoof``` | ```Enables YouTube Music to work with Android Auto by spoofing the YouTube Music certificate.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Spoof player parameter``` | ```Adds options to spoof player parameter to allow playback.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```GmsCore support``` | ```Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of songs using the Return YouTube Dislike API.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Return YouTube Username``` | ```Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Settings for YouTube Music``` | ```Applies mandatory patches to implement ReVanced Extended settings into the application.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as non-music sections.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Video playback``` | ```Adds options to customize settings related to video playback, such as default video quality and playback speed.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
+| ```Hide ads``` | ```Adds options to hide ads.``` | ```com.dummy.dummyapp2``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
+| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```com.dummy.dummyapp2``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
+| ```Change package name``` | ```Changes the package name for Reddit to the name specified in patch options.``` | ```com.dummy.dummyapp2``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
+| ```Hide recommended communities shelf``` | ```Adds an option to hide the recommended communities shelves in subreddits.``` | ```com.dummy.dummyapp2``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
+| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```com.dummy.dummyapp2``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
+| ```Premium icon``` | ```Unlocks premium app icons.``` | ```com.dummy.dummyapp2``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
+| ```Hide Recently Visited shelf``` | ```Adds an option to hide the Recently Visited shelf in the sidebar.``` | ```com.dummy.dummyapp2``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
+| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```com.dummy.dummyapp2``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
+| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```com.dummy.dummyapp2``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
+| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```com.dummy.dummyapp2``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
+| ```Open links externally``` | ```Adds an option to always open links in your browser instead of in the in-app-browser.``` | ```com.dummy.dummyapp2``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
+| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```com.dummy.dummyapp2``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
+| ```Settings for Reddit``` | ```Applies mandatory patches to implement ReVanced Extended settings into the application.``` | ```com.dummy.dummyapp2``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
+| ```Hide ads``` | ```Adds options to hide ads.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Bypass image region restrictions``` | ```Adds an option to use a different host for static images, so that images blocked in some countries can be received.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Hide feed components``` | ```Adds options to hide components related to feeds.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Hide feed flyout menu``` | ```Adds the ability to hide feed flyout menu components using a custom filter.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Disable forced auto audio tracks``` | ```Adds an option to disable audio tracks from being automatically enabled.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Disable forced auto captions``` | ```Adds an option to disable captions from being automatically enabled.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Hook download actions``` | ```Adds support to download videos with an external downloader app using the in-app download button.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Change form factor``` | ```Adds an option to change the UI appearance to a phone, tablet, or automotive device.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Freeze layout updates``` | ```Freeze the current server-side layout. Mandatory for 17.34.36.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Change live ring click action``` | ```Adds an option to open the channel instead of the live stream when clicking on the live ring.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Hook YouTube Music actions``` | ```Adds support for opening music in RVX Music using the in-app YouTube Music button.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Navigation bar components``` | ```Adds options to hide or change components related to the navigation bar.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Snack bar components``` | ```Adds options to hide or change components related to the snack bar.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Spoof app version``` | ```Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Toolbar components``` | ```Adds options to hide or change components located on the toolbar, such as the search bar, header, and toolbar buttons.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Disable update screen``` | ```Disable the force update screen ("Switch to YouTube.com" or "Update your app")``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Custom Shorts action buttons``` | ```Changes, at compile time, the icon of the action buttons of the Shorts player.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Custom branding icon for YouTube``` | ```Changes the YouTube app icon to the icon specified in patch options.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Custom branding name for YouTube``` | ```Changes the YouTube app name to the name specified in patch options.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Hide Shorts dimming``` | ```Removes, at compile time, the dimming effect at the top and bottom of Shorts videos.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Custom double tap length``` | ```Adds Double-tap to seek values that are specified in patch options.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Custom header for YouTube``` | ```Applies a custom header in the top left corner within the app.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Force hide player buttons background``` | ```Removes, at compile time, the dark background surrounding the video player controls.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Hide shortcuts``` | ```Remove, at compile time, the app shortcuts that appears when the app icon is long pressed.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```MaterialYou``` | ```Applies the MaterialYou theme for Android 12+ devices.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Theme``` | ```Changes the app's themes to the values specified in patch options.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Translations for YouTube``` | ```Add translations or remove string resources.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Visual preferences icons for YouTube``` | ```Adds icons to specific preferences in the settings.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Hide accessibility controls dialog``` | ```Removes, at compile time, accessibility controls dialog 'Turn on accessibility controls for the video player?'.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including for music and kids videos.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Enable OPUS codec``` | ```Adds an option to enable the OPUS audio codec if the player response includes it.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Enable debug logging``` | ```Adds an option to enable debug logging.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Bypass URL redirects``` | ```Adds an option to bypass URL redirects and open the original URL directly.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Open links externally``` | ```Adds an option to always open links in your browser instead of the in-app browser.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Disable QUIC protocol``` | ```Adds an option to disable CronetEngine's QUIC protocol.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Watch history``` | ```Adds an option to change the domain of the watch history or check its status.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Hide action buttons``` | ```Adds options to hide action buttons under videos.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Hide player buttons``` | ```Adds options to hide buttons in the video player.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Hide comments components``` | ```Adds options to hide components related to comments.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Player components``` | ```Adds options to hide or change components related to the video player.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Description components``` | ```Adds options to hide and disable description components.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Hide player flyout menu``` | ```Adds options to hide player flyout menu components.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Fullscreen components``` | ```Adds options to hide or change components related to fullscreen.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Disable haptic feedback``` | ```Adds options to disable haptic feedback when swiping in the video player.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Miniplayer``` | ```Adds options to change the in-app minimized player, and if patching target 19.16+ adds options to use modern miniplayers.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Overlay buttons``` | ```Adds options to display useful overlay buttons in the video player.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Seekbar components``` | ```Adds options to hide or change components related to the seekbar.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Shorts components``` | ```Adds options to hide or change components related to YouTube Shorts.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Shorts seek``` | ```Adds an option to replace toolbar buttons in Shorts player with skip/rewind buttons.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Disable resuming Shorts on startup``` | ```Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Swipe controls``` | ```Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Spoof streaming data``` | ```Adds options to spoof the streaming data to allow playback.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```GmsCore support``` | ```Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Add missing resources``` | ```Add missing resources to prevent crashes in 17.34.36. Currently, only a few resources are supported. Also, replace missing drawables with a transparent image to prevent crashes.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of videos using the Return YouTube Dislike API.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Return YouTube Username``` | ```Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Settings for YouTube``` | ```Applies mandatory patches to implement ReVanced Extended settings into the application.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+| ```Video playback``` | ```Adds options to customize settings related to video playback, such as default video quality and playback speed.``` | ```com.google.android.youtube``` | ```17.34.36``` |
+
 </details>
 
 ---
