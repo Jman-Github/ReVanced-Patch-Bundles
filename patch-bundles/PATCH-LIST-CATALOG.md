@@ -1420,9 +1420,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock AZ Screen Recorder VIP patch``` | ```Unlocks the option labelled as 'Pro' in AZ Screen Recorder``` | ```com.hecorat.screenrecorder.free``` | ```6.4.3``` |
-| ```Unlock Developer Assistant Pro License patch``` | ```N/A``` | ```com.appsisle.developerassistant``` | ```1.2.2``` |
-| ```Unlock SCRL Premium patch``` | ```N/A``` | ```com.appostrophe.scrl``` | ```All versions``` |
-| ```Unlock Solid Explorer full version patch``` | ```Unlock Solid Explorer full version + remove ads.``` | ```pl.solidexplorer2``` | ```All versions``` |
+ock Solid Explorer full version + remove ads.``` | ```pl.solidexplorer2``` | ```All versions``` |
 | ```Unlock Sponge Premium patch``` | ```N/A``` | ```com.prismtree.sponge``` | ```All versions``` |
 
 </details>
