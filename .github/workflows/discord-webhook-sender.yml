@@ -95,29 +95,33 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          shopt -s nullglob
 
           pick_txt() {
             local prefer="$1"
             local dir="$2"
-            if [ -s "$prefer" ]; then
+            if [ -n "$prefer" ] && [ -s "$prefer" ]; then
               printf "%s" "$prefer"
               return 0
             fi
-            local first
-            first="$(printf "%s\n" "$dir"/**/*.txt "$dir"/*.txt 2>/dev/null | head -n1 || true)"
-            if [ -n "${first:-}" ] && [ -s "$first" ]; then
-              printf "%s" "$first"
-              return 0
+            if [ -d "$dir" ]; then
+              local first
+              first="$(find "$dir" -maxdepth 3 -type f -name '*.txt' -print | head -n1 || true)"
+              if [ -n "${first:-}" ] && [ -s "$first" ]; then
+                printf "%s" "$first"
+                return 0
+              fi
             fi
             return 1
           }
 
           read_trimmed() {
             local f="$1"
-            [ -s "$f" ] || { printf ""; return 0; }
+            if [ -z "$f" ] || [ ! -s "$f" ]; then
+              printf ""
+              return 0
+            fi
             awk 'BEGIN{start=0} { if(start==0){ if($0 ~ /[^[:space:]]/){start=1; print $0} } else { print $0 } }' "$f" \
-            | awk ' {buf[NR]=$0} END{ i=NR; while(i>0 && buf[i] ~ /^[[:space:]]*$/){i--} for(j=1;j<=i;j++) print buf[j] }'
+            | awk '{buf[NR]=$0} END{ i=NR; while(i>0 && buf[i] ~ /^[[:space:]]*$/){i--} for(j=1;j<=i;j++) print buf[j] }'
           }
 
           CHANGES_FILE="$(pick_txt 'ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt' 'ReVanced-Patch-Bundles/patch_bundle_updater_artifact' || true)"
@@ -128,7 +132,7 @@ jobs:
           summary_section=""
           commit_section=""
 
-          if [ -n "${CHANGES_FILE:-}" ]; then
+          if [ -n "${CHANGES_FILE:-}" ] && [ -s "$CHANGES_FILE" ]; then
             changes_content="$(read_trimmed "$CHANGES_FILE")"
             if [ -n "${changes_content:-}" ]; then
               changes_section="**Changes:**\n```\n${changes_content}\n```"
@@ -138,7 +142,7 @@ jobs:
             echo "::notice::No changes file found"
           fi
 
-          if [ -n "${SUMMARY_FILE:-}" ]; then
+          if [ -n "${SUMMARY_FILE:-}" ] && [ -s "$SUMMARY_FILE" ]; then
             summary_content="$(read_trimmed "$SUMMARY_FILE")"
             if [ -n "${summary_content:-}" ]; then
               summary_section="**Summary:**\n```\n${summary_content}\n```"
@@ -148,7 +152,7 @@ jobs:
             echo "::notice::No summary file found"
           fi
 
-          if [ -n "${COMMIT_FILE:-}" ]; then
+          if [ -n "${COMMIT_FILE:-}" ] && [ -s "$COMMIT_FILE" ]; then
             commit_link="$(read_trimmed "$COMMIT_FILE")"
             if [ -n "${commit_link:-}" ]; then
               commit_section="${commit_link}"
