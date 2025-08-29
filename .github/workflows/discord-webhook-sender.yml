@@ -96,74 +96,76 @@ jobs:
 
       - name: Set output variables
         id: set_changes
+        shell: bash
         run: |
-          if [ -f ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt ]; then
-            changes_json=$(jq -R -s -c 'split("\\n")[:-1] | map(. + "\\n")' ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt)
-          else
-            changes_json='[]'
+          # Initialize sections as empty
+          changes_section=""
+          summary_section=""
+          catalog_section=""
+          commit_section=""
+
+          # Build **Changes** section if file exists & non-empty
+          if [ -s ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt ]; then
+            changes_content="$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt)"
+            changes_section="**Changes:**\n```\n${changes_content}\n```"
           fi
 
-          if [ -f ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt ]; then
-            summary=$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt)
-          else
-            summary=""
+          # Build **Summary** section if file exists & non-empty
+          if [ -s ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt ]; then
+            summary_content="$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt)"
+            summary_section="**Summary:**\n```\n${summary_content}\n```"
           fi
 
-          if [ -f ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt ]; then
-            commit_link=$(cat ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt)
-          else
-            commit_link=""
+          # Build **Catalog Changes** section if file exists & non-empty
+          if [ -s ReVanced-Patch-Bundles/patch_list_catalog_artifact/changed_files.txt ]; then
+            catalog_content="$(cat ReVanced-Patch-Bundles/patch_list_catalog_artifact/changed_files.txt)"
+            catalog_section="**Catalog Changes:**\n```\n${catalog_content}\n```"
           fi
 
-          if [ -f ReVanced-Patch-Bundles/patch_list_catalog_artifact/changed_files.txt ]; then
-            catalog_section="**Catalog Changes:**\n```\n$(cat ReVanced-Patch-Bundles/patch_list_catalog_artifact/changed_files.txt)\n```"
-          else
-            catalog_section=""
+          # Add commit link if present
+          if [ -s ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt ]; then
+            commit_link="$(cat ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt)"
+            commit_section="${commit_link}"
           fi
 
           {
-            echo 'changes_json<<EOF'
-            echo "$changes_json"
+            echo 'changes_section<<EOF'
+            echo "$changes_section"
             echo 'EOF'
-          } >> $GITHUB_OUTPUT
+          } >> "$GITHUB_OUTPUT"
 
           {
-            echo 'summary<<EOF'
-            echo "$summary"
+            echo 'summary_section<<EOF'
+            echo "$summary_section"
             echo 'EOF'
-          } >> $GITHUB_OUTPUT
-
-          {
-            echo 'commit_link<<EOF'
-            echo "$commit_link"
-            echo 'EOF'
-          } >> $GITHUB_OUTPUT
+          } >> "$GITHUB_OUTPUT"
 
           {
             echo 'catalog_section<<EOF'
             echo "$catalog_section"
             echo 'EOF'
-          } >> $GITHUB_OUTPUT
+          } >> "$GITHUB_OUTPUT"
+
+          {
+            echo 'commit_section<<EOF'
+            echo "$commit_section"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
 
       - name: Send Discord Notification
-        uses: tsickert/discord-webhook@master
+        uses: tsickert/discord-webhook@v7.0.0
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
+          wait: true
           content: '||@everyone||'
           embed-title: 'Patch-Bundle.json File(s) Updated'
           embed-description: |
             Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml).
 
-            **Changes:**
-            ```
-            ${{ join(fromJson(steps.set_changes.outputs.changes_json), '') }}
-            ```
-            **Summary:**
-            ```
-            ${{ steps.set_changes.outputs.summary }}
-            ```
+            ${{ steps.set_changes.outputs.changes_section }}
+            ${{ steps.set_changes.outputs.summary_section }}
             ${{ steps.set_changes.outputs.catalog_section }}
-            ${{ steps.set_changes.outputs.commit_link }}
+            ${{ steps.set_changes.outputs.commit_section }}
           embed-color: '65280'
           embed-author-name: 'Patch Bundle Updater Workflow'
           embed-author-icon-url: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'

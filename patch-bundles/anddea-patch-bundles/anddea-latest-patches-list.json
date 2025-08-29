@@ -440,12 +440,7 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
+               
                     "8.28.54",
                     "8.30.54"
                 ]
@@ -453,7 +448,7 @@
             "options": [
                 {
                     "key": "appNameNotification",
-                    "title": "App name in notification panel",
+                    "title": "Anel",
                     "description": "The name of the app as it appears in the notification panel.",
                     "required": true,
                     "type": "kotlin.String",
@@ -467,7 +462,7 @@
                 },
                 {
                     "key": "appNameLauncher",
-                    "title": "App name in launcher",
+                    "title": "App naauncher",
                     "description": "The name of the app as it appears in the launcher.",
                     "required": true,
                     "type": "kotlin.String",
@@ -483,7 +478,7 @@
         },
         {
             "name": "Custom header for YouTube Music",
-            "description": "Applies a custom header in the top left corner within the app.",
+            "description": "Applies a ct corner within the app.",
             "use": false,
             "dependencies": [
                 "BytecodePatch",
