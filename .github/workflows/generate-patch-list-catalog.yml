@@ -38,7 +38,7 @@ jobs:
 
       - name: Collect changed files
         run: |
-          git status --porcelain | awk '{print $2}' > changed_files.txt
+          git status --porcelain | awk '{print $2}' | grep -v '^changed_files.txt$' > changed_files.txt
           if [ -s changed_files.txt ]; then
             echo has_changes=true >> $GITHUB_ENV
           else
@@ -53,8 +53,8 @@ jobs:
           git config user.name "$author_name"
           git config user.email "$author_email"
           xargs git add < changed_files.txt
-          git commit -m "docs: update patch list catalog"
-          git push origin bundles
+          git commit --amend --no-edit
+          git push origin bundles --force-with-lease
 
       - name: Lint
         run: black --check generate_patch_list_catalog.py

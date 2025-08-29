@@ -1,4 +1,4 @@
-name: Discord webhook sender
+name: Webhook sender
 
 on:
   workflow_dispatch:
@@ -8,14 +8,15 @@ on:
       - completed
 
 jobs:
-  check_and_update:
+  webhook_sender:
+    name: webhook sender
     runs-on: ubuntu-latest
     steps:
       - name: Download Artifact from Patch bundle updater
         id: download_patch_bundle_updater_artifact
         uses: benday-inc/download-latest-artifact@main
         with:
-          token: ${{ secrets.GIT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           repository_owner: 'Jman-Github'
           repository_name: 'ReVanced-Patch-Bundles'
           branch_name: 'bundles'
@@ -23,12 +24,13 @@ jobs:
           workflow_name: 'Patch bundle updater'
           download_path: 'ReVanced-Patch-Bundles'
           download_filename: 'changed_files.zip'
+        continue-on-error: true
 
       - name: Download Summary Artifact from Patch bundle updater
         id: download_patch_bundle_summary_artifact
         uses: benday-inc/download-latest-artifact@main
         with:
-          token: ${{ secrets.GIT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           repository_owner: 'Jman-Github'
           repository_name: 'ReVanced-Patch-Bundles'
           branch_name: 'bundles'
@@ -36,12 +38,13 @@ jobs:
           workflow_name: 'Patch bundle updater'
           download_path: 'ReVanced-Patch-Bundles'
           download_filename: 'updated-bundles.zip'
+        continue-on-error: true
 
       - name: Download Artifact from Generate patch list catalog
         id: download_patch_list_catalog_artifact
         uses: benday-inc/download-latest-artifact@main
         with:
-          token: ${{ secrets.GIT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           repository_owner: 'Jman-Github'
           repository_name: 'ReVanced-Patch-Bundles'
           branch_name: 'bundles'
@@ -55,7 +58,7 @@ jobs:
         id: download_commit_puller_artifact
         uses: benday-inc/download-latest-artifact@main
         with:
-          token: ${{ secrets.GIT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           repository_owner: 'Jman-Github'
           repository_name: 'ReVanced-Patch-Bundles'
           branch_name: 'bundles'
@@ -63,6 +66,7 @@ jobs:
           workflow_name: 'Commit puller'
           download_path: 'ReVanced-Patch-Bundles'
           download_filename: 'commit-link.zip'
+        continue-on-error: true
 
       - name: Create patch bundle updater artifact directory
         run: mkdir -p ReVanced-Patch-Bundles/patch_bundle_updater_artifact
@@ -75,55 +79,62 @@ jobs:
         run: mkdir -p ReVanced-Patch-Bundles/patch_list_catalog_artifact
 
       - name: Unzip Patch bundle updater artifact
+        if: steps.download_patch_bundle_updater_artifact.outputs.artifact_downloaded == 'true'
         run: unzip ReVanced-Patch-Bundles/changed_files.zip -d ReVanced-Patch-Bundles/patch_bundle_updater_artifact
 
       - name: Unzip Summary artifact
+        if: steps.download_patch_bundle_summary_artifact.outputs.artifact_downloaded == 'true'
         run: unzip ReVanced-Patch-Bundles/updated-bundles.zip -d ReVanced-Patch-Bundles/patch_bundle_updater_artifact
 
       - name: Unzip Commit puller artifact
+        if: steps.download_commit_puller_artifact.outputs.artifact_downloaded == 'true'
         run: unzip ReVanced-Patch-Bundles/commit-link.zip -d ReVanced-Patch-Bundles/commit_puller_artifact
 
       - name: Unzip Generate patch list catalog artifact
         if: steps.download_patch_list_catalog_artifact.outputs.artifact_downloaded == 'true'
         run: unzip ReVanced-Patch-Bundles/catalog-changed-files.zip -d ReVanced-Patch-Bundles/patch_list_catalog_artifact
 
-      - name: Set changes variable
+      - name: Set output variables
         id: set_changes
         run: |
-          changes=$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt)
-          if [ -z "$changes" ]; then
-            changes="No changes"
+          if [ -f ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt ]; then
+            mapfile -t changes_array < ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt
+            changes_json="["
+            for ((i=0; i<${#changes_array[@]}; i++)); do
+              changes_json+="\\\"${changes_array[$i]}\\\\n\\\","
+            done
+            changes_json="${changes_json%,}]"
+          else
+            changes_json="[]"
           fi
-          echo "::set-output name=changes::${changes}"
-          mapfile -t changes_array < ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt
-          changes_json="["
-          for ((i=0; i<${#changes_array[@]}; i++)); do
-            changes_json+="\"${changes_array[$i]}\\n\",""
-          done
-          changes_json="${changes_json%,}"
-          changes_json+="]"
-          echo "::set-output name=changes_json::$changes_json"
-          summary=$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt)
-          if [ -z "$summary" ]; then
+
+          if [ -f ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt ]; then
+            summary=$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt)
+          else
             summary="{}"
           fi
-          echo "::set-output name=summary::${summary}"
-          commit_link=$(cat ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt)
-          if [ -z "$commit_link" ]; then
+
+          if [ -f ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt ]; then
+            commit_link=$(cat ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt)
+          else
             commit_link="No commit link"
           fi
-          echo "::set-output name=commit_link::${commit_link}"
+
           if [ -f ReVanced-Patch-Bundles/patch_list_catalog_artifact/changed_files.txt ]; then
             mapfile -t catalog_changes_array < ReVanced-Patch-Bundles/patch_list_catalog_artifact/changed_files.txt
-            catalog_section="**Catalog Changes:**%0A```%0A"
+            catalog_section='**Catalog Changes:**%0A```%0A'
             for ((i=0; i<${#catalog_changes_array[@]}; i++)); do
               catalog_section+="${catalog_changes_array[$i]}%0A"
             done
-            catalog_section+="```"
-            echo "::set-output name=catalog_section::$catalog_section"
+            catalog_section+='```'
           else
-            echo "::set-output name=catalog_section::"
+            catalog_section=''
           fi
+
+          echo "changes_json=${changes_json}" >> $GITHUB_OUTPUT
+          echo "summary=${summary}" >> $GITHUB_OUTPUT
+          echo "commit_link=${commit_link}" >> $GITHUB_OUTPUT
+          echo "catalog_section=${catalog_section}" >> $GITHUB_OUTPUT
 
       - name: Send Discord Notification
         uses: tsickert/discord-webhook@master
@@ -132,7 +143,8 @@ jobs:
           content: '||@everyone||'
           embed-title: 'Patch-Bundle.json File(s) Updated'
           embed-description: |
-            Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml).
+            Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/J
+man-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml).
 
             **Changes:**
             ```
@@ -146,7 +158,8 @@ jobs:
             ${{ steps.set_changes.outputs.commit_link }}
           embed-color: '65280'
           embed-author-name: 'Patch Bundle Updater Workflow'
-          embed-author-icon-url: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
+          embed-author-icon-url: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/169401698
+4133/Microsoft.VisualStudio.Services.Icons.Default'
           embed-thumbnail-url: 'https://cdn-icons-png.flaticon.com/512/5278/5278658.png'
           username: 'ReVanced-Patch-Bundles'
           avatar-url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUECg_ITr7YkE2pYiVdHqTxlg3wLwXKXIQrcxEBKd7Q&s'
