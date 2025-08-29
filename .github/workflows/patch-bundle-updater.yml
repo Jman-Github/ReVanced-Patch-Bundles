@@ -34,7 +34,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install requests httpx
+          python -m pip install requests httpx black
         working-directory: ${{ github.workspace }}
 
       - name: Cache Gradle
@@ -61,11 +61,16 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: ./bundle-parser/gradlew --project-dir bundle-parser run
 
+      - name: Generate patch list catalog
+        run: |
+          python generate_patch_list_catalog.py
+          black generate_patch_list_catalog.py
+
       - name: Commit new files
         run: |
-          git add '*.json'
+          git add '*.json' patch-bundles/PATCH-LIST-CATALOG.md
           if git diff --cached --quiet; then
-            echo "No .json changes to commit. Exiting..."
+            echo "No changes to commit. Exiting..."
             echo "has_changes=false" >> $GITHUB_ENV
           else
             git commit -m 'feat: `patch-bundles` update'
