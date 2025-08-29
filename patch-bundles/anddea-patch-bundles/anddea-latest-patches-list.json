@@ -1,42 +1,7 @@
 {
     "version": "v3.12.0-dev.8",
     "patches": [
-        {
-            "name": "Spoof Wi-Fi connection",
-            "description": "Spoofs an existing Wi-Fi connection.",
-            "use": false,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": null,
-            "options": []
-        },
-        {
-            "name": "Disable edge-to-edge display",
-            "description": "Disable forced edge-to-edge display on Android 15+ by changing the app's target SDK version. This patch does not work if the app is installed by mounting.",
-            "use": false,
-            "dependencies": [],
-            "compatiblePackages": null,
-            "options": []
-        },
-        {
-            "name": "Change version code",
-            "description": "Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.",
-            "use": false,
-            "dependencies": [],
-            "compatiblePackages": null,
-            "options": [
-                {
-                    "key": "versionCode",
-                    "title": "Version code",
-                    "description": "The version code to use. (1 ~ 2147483647)",
-                    "required": true,
-                    "type": "kotlin.String",
-                    "default": "2147483647",
-                    "values": {
-                        "Lowest": "1",
-                        "Highest": "2147483647"
-                    }
+
                 }
             ]
         },
