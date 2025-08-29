@@ -1868,34 +1868,12 @@
             "options": []
         },
         {
-            "name": "Bypass image region restrictions",
-            "description": "Adds an option to use a different host for static images, so that images blocked in some countries can be received.",
-            "use": true,
-            "dependencies": [
-                "BytecodePatch",
-                "Settings for YouTube"
-            ],
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53"
-                ]
-            },
-            "options": []
-        },
-        {
             "name": "Hide feed components",
             "description": "Adds options to hide components related to feeds.",
             "use": true,
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch",
-                "Settings for YouTube",
+                "ByteYouTube",
                 "BytecodePatch",
                 "ResourcePatch"
             ],
