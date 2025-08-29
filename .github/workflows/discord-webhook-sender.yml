@@ -90,99 +90,66 @@ jobs:
           echo "=== Workspace tree ==="
           ls -R
 
-      - name: Set output variables
+      - name: Set output variables (Python, safe)
         id: set_changes
-        shell: bash
         run: |
-          set -euo pipefail
+          python3 - <<'PY'
+          import os, glob
 
-          pick_txt() {
-            local prefer="$1"
-            local dir="$2"
-            if [ -n "$prefer" ] && [ -s "$prefer" ]; then
-              printf "%s" "$prefer"
-              return 0
-            fi
-            if [ -d "$dir" ]; then
-              local first
-              first="$(find "$dir" -maxdepth 3 -type f -name '*.txt' -print | head -n1 || true)"
-              if [ -n "${first:-}" ] && [ -s "$first" ]; then
-                printf "%s" "$first"
-                return 0
-              fi
-            fi
-            return 1
-          }
+          def pick(prefer, directory):
+              if prefer and os.path.isfile(prefer) and os.path.getsize(prefer) > 0:
+                  return prefer
+              if directory and os.path.isdir(directory):
+                  for f in glob.iglob(os.path.join(directory, '**', '*.txt'), recursive=True):
+                      try:
+                          if os.path.getsize(f) > 0:
+                              return f
+                      except OSError:
+                          pass
+              return None
 
-          read_trimmed() {
-            local f="$1"
-            if [ -z "$f" ] || [ ! -s "$f" ]; then
-              printf ""
-              return 0
-            fi
-            awk 'BEGIN{start=0} { if(start==0){ if($0 ~ /[^[:space:]]/){start=1; print $0} } else { print $0 } }' "$f" \
-            | awk '{buf[NR]=$0} END{ i=NR; while(i>0 && buf[i] ~ /^[[:space:]]*$/){i--} for(j=1;j<=i;j++) print buf[j] }'
-          }
+          def read_trimmed(path):
+              if not path: return ''
+              try:
+                  with open(path, 'r', encoding='utf-8', errors='ignore') as fh:
+                      lines = fh.read().splitlines()
+                  while lines and not lines[0].strip(): lines.pop(0)
+                  while lines and not lines[-1].strip(): lines.pop()
+                  return '\n'.join(lines)
+              except OSError:
+                  return ''
 
-          CHANGES_FILE="$(pick_txt 'ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt' 'ReVanced-Patch-Bundles/patch_bundle_updater_artifact' || true)"
-          SUMMARY_FILE="$(pick_txt 'ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt' 'ReVanced-Patch-Bundles/patch_bundle_updater_artifact' || true)"
-          COMMIT_FILE="$(pick_txt 'ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt' 'ReVanced-Patch-Bundles/commit_puller_artifact' || true)"
+          changes_file = pick(
+              'ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt',
+              'ReVanced-Patch-Bundles/patch_bundle_updater_artifact'
+          )
+          summary_file = pick(
+              'ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt',
+              'ReVanced-Patch-Bundles/patch_bundle_updater_artifact'
+          )
+          commit_file = pick(
+              'ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt',
+              'ReVanced-Patch-Bundles/commit_puller_artifact'
+          )
 
-          changes_section=""
-          summary_section=""
-          commit_section=""
+          changes = read_trimmed(changes_file) if changes_file else ''
+          summary = read_trimmed(summary_file) if summary_file else ''
+          commit  = read_trimmed(commit_file)  if commit_file  else ''
 
-          if [ -n "${CHANGES_FILE:-}" ] && [ -s "$CHANGES_FILE" ]; then
-            changes_content="$(read_trimmed "$CHANGES_FILE")"
-            if [ -n "${changes_content:-}" ]; then
-              changes_section="**Changes:**\n```\n${changes_content}\n```"
-            fi
-            echo "::notice::changes bytes=$(printf "%s" "${changes_content:-}" | wc -c), file='${CHANGES_FILE:-none}'"
-          else
-            echo "::notice::No changes file found"
-          fi
+          changes_section = f"**Changes:**\n```\n{changes if changes else '(no changes found)'}\n```"
+          summary_section = f"**Summary:**\n```\n{summary if summary else '(no summary found)'}\n```"
+          commit_section  = commit if commit else "(no commit link found)"
 
-          if [ -n "${SUMMARY_FILE:-}" ] && [ -s "$SUMMARY_FILE" ]; then
-            summary_content="$(read_trimmed "$SUMMARY_FILE")"
-            if [ -n "${summary_content:-}" ]; then
-              summary_section="**Summary:**\n```\n${summary_content}\n```"
-            fi
-            echo "::notice::summary bytes=$(printf "%s" "${summary_content:-}" | wc -c), file='${SUMMARY_FILE:-none}'"
-          else
-            echo "::notice::No summary file found"
-          fi
+          out_path = os.environ['GITHUB_OUTPUT']
+          with open(out_path, 'a', encoding='utf-8') as out:
+              out.write('changes_section<<EOF\n' + changes_section + '\nEOF\n')
+              out.write('summary_section<<EOF\n' + summary_section + '\nEOF\n')
+              out.write('commit_section<<EOF\n'  + commit_section  + '\nEOF\n')
 
-          if [ -n "${COMMIT_FILE:-}" ] && [ -s "$COMMIT_FILE" ]; then
-            commit_link="$(read_trimmed "$COMMIT_FILE")"
-            if [ -n "${commit_link:-}" ]; then
-              commit_section="${commit_link}"
-            fi
-            echo "::notice::commit bytes=$(printf "%s" "${commit_link:-}" | wc -c), file='${COMMIT_FILE:-none}'"
-          else
-            echo "::notice::No commit file found"
-          fi
-
-          : "${changes_section:="**Changes:**\n```\n(no changes found)\n```"}"
-          : "${summary_section:="**Summary:**\n```\n(no summary found)\n```"}"
-          : "${commit_section:="(no commit link found)"}"
-
-          {
-            echo 'changes_section<<EOF'
-            printf "%s\n" "$changes_section"
-            echo 'EOF'
-          } >> "$GITHUB_OUTPUT"
-
-          {
-            echo 'summary_section<<EOF'
-            printf "%s\n" "$summary_section"
-            echo 'EOF'
-          } >> "$GITHUB_OUTPUT"
-
-          {
-            echo 'commit_section<<EOF'
-            printf "%s\n" "$commit_section"
-            echo 'EOF'
-          } >> "$GITHUB_OUTPUT"
+          print(f"::notice::changes file={changes_file or 'none'}, bytes={len(changes)}")
+          print(f"::notice::summary file={summary_file or 'none'}, bytes={len(summary)}")
+          print(f"::notice::commit  file={commit_file  or 'none'}, bytes={len(commit)}")
+          PY
 
       - name: Send Discord Notification
         uses: tsickert/discord-webhook@v7.0.0
