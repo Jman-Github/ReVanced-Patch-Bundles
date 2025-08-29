@@ -67,7 +67,8 @@ def load_patch_info(bundle_dir: Path) -> List[Dict[str, str]]:
 
 
 def format_patch_lines(patches: List[Dict[str, str]]) -> List[str]:
-    """Return a list of lines representing a Markdown table for all patches, wrapping each cell value in triple backticks, with a space before the patch counter."""
+    """Return a list of lines representing a Markdown table for all patches, wrapping each cell value in triple backticks, with
+a space before the patch counter."""
     count = len(patches)
     patch_word = "Patch" if count == 1 else "Patches"
     lines: List[str] = []
@@ -79,7 +80,6 @@ def format_patch_lines(patches: List[Dict[str, str]]) -> List[str]:
     lines.append(
         "|----------|---------------|---------------------|-------------------------|"
     )
-    # Table rows
     for info in patches:
         name_cell = f"```{info['name']}```"
         desc_cell = f"```{info['description']}```"
@@ -91,11 +91,11 @@ def format_patch_lines(patches: List[Dict[str, str]]) -> List[str]:
 
 
 def read_catalog_patch_names(catalog_path: Path) -> set[str]:
-    """Return patch names currently present in the catalog file."""
     names: set[str] = set()
     if not catalog_path.exists():
         return names
-    for line in catalog_path.read_text(encoding="utf-8").splitlines():
+    text = catalog_path.read_text(encoding="utf-8")
+    for line in text.splitlines():
         if not line.startswith("|"):
             continue
         parts = [p.strip() for p in line.strip().split("|")]
@@ -104,6 +104,8 @@ def read_catalog_patch_names(catalog_path: Path) -> set[str]:
         name = parts[1]
         if not name or name in {"**Name**", "----------"}:
             continue
+        if name.startswith("```") and name.endswith("```"):
+            name = name[3:-3]
         names.add(name)
     return names
 
