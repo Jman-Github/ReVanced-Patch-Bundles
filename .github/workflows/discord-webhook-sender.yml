@@ -101,7 +101,7 @@ jobs:
             mapfile -t changes_array < ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt
             changes_json="["
             for ((i=0; i<${#changes_array[@]}; i++)); do
-              changes_json+="\\\"${changes_array[$i]}\\\\n\\\","
+              changes_json+="\"${changes_array[$i]}\\n\","
             done
             changes_json="${changes_json%,}]"
           else
@@ -143,8 +143,7 @@ jobs:
           content: '||@everyone||'
           embed-title: 'Patch-Bundle.json File(s) Updated'
           embed-description: |
-            Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/J
-man-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml).
+            Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml).
 
             **Changes:**
             ```
@@ -158,8 +157,64 @@ man-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml).
             ${{ steps.set_changes.outputs.commit_link }}
           embed-color: '65280'
           embed-author-name: 'Patch Bundle Updater Workflow'
-          embed-author-icon-url: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/169401698
-4133/Microsoft.VisualStudio.Services.Icons.Default'
+          embed-author-icon-url: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
           embed-thumbnail-url: 'https://cdn-icons-png.flaticon.com/512/5278/5278658.png'
           username: 'ReVanced-Patch-Bundles'
           avatar-url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUECg_ITr7YkE2pYiVdHqTxlg3wLwXKXIQrcxEBKd7Q&s'
+.github/workflows/generate-patch-list-catalog.yml
++3
+-3
+
+@@ -16,52 +16,52 @@ jobs:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+          ref: bundles
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install black
+
+      - name: Generate catalog
+        run: python generate_patch_list_catalog.py
+
+      - name: Auto-format with Black
+        run: black generate_patch_list_catalog.py
+
+      - name: Collect changed files
+        run: |
+          git status --porcelain | awk '{print $2}' | grep -v '^changed_files.txt$' > changed_files.txt
+          if [ -s changed_files.txt ]; then
+            echo has_changes=true >> $GITHUB_ENV
+          else
+            echo has_changes=false >> $GITHUB_ENV
+          fi
+
+      - name: Commit and push
+        if: env.has_changes == 'true'
+        run: |
+          author_name=$(git log -1 --format='%an')
+          author_email=$(git log -1 --format='%ae')
+          git config user.name "$author_name"
+          git config user.email "$author_email"
+          xargs git add < changed_files.txt
+          git commit --amend --no-edit
+          git push origin bundles --force-with-lease
+
+      - name: Lint
+        run: black --check generate_patch_list_catalog.py
+
+      - name: Upload changed files
+        if: env.has_changes == 'true'
+        uses: actions/upload-artifact@main
+        with:
+          name: changed_files
+          path: changed_files.txt
