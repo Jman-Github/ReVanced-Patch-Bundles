@@ -98,9 +98,9 @@ jobs:
         id: set_changes
         run: |
           if [ -f ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt ]; then
-            changes=$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt)
+            changes_json=$(jq -R -s -c 'split("\\n")[:-1] | map(. + "\\n")' ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt)
           else
-            changes=""
+            changes_json='[]'
           fi
 
           if [ -f ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt ]; then
@@ -122,8 +122,8 @@ jobs:
           fi
 
           {
-            echo 'changes<<EOF'
-            echo "$changes"
+            echo 'changes_json<<EOF'
+            echo "$changes_json"
             echo 'EOF'
           } >> $GITHUB_OUTPUT
 
@@ -156,7 +156,7 @@ jobs:
 
             **Changes:**
             ```
-            ${{ steps.set_changes.outputs.changes }}
+            ${{ join(fromJson(steps.set_changes.outputs.changes_json), '') }}
             ```
             **Summary:**
             ```

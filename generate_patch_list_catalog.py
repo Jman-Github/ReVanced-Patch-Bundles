@@ -169,7 +169,7 @@ def main() -> int:
 
     if new_text == catalog_text and new_patch_names.issubset(old_patch_names):
         print("Catalog already contains all patches.")
-        return 1
+        return 0
 
     catalog_path.write_text(new_text, encoding="utf-8")
     print("Catalog updated.")
