@@ -115,7 +115,9 @@ jobs:
         id: set_changes
         shell: bash
         run: |
-          backticks='```'
+          trim() {
+            sed -E ':a;N;$!ba;s/^[[:space:]]+|[[:space:]]+$//g'
+          }
 
           changes_section=""
           summary_section=""
@@ -123,47 +125,47 @@ jobs:
           commit_section=""
 
           if [ -s ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt ]; then
-            changes_content="$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt)"
-            changes_section="**Changes:**\n${backticks}\n${changes_content}\n${backticks}"
+            changes_content="$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt | trim)"
+            changes_section="**Changes:**\n```\n${changes_content}\n```"
           fi
 
           if [ -s ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt ]; then
-            summary_content="$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt)"
-            summary_section="**Summary:**\n${backticks}\n${summary_content}\n${backticks}"
+            summary_content="$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt | trim)"
+            summary_section="**Summary:**\n```\n${summary_content}\n```"
           fi
 
           if [ -s ReVanced-Patch-Bundles/patch_list_catalog_artifact/changed_files.txt ]; then
-            catalog_content="$(cat ReVanced-Patch-Bundles/patch_list_catalog_artifact/changed_files.txt)"
-            catalog_section="**Catalog Changes:**\n${backticks}\n${catalog_content}\n${backticks}"
+            catalog_content="$(cat ReVanced-Patch-Bundles/patch_list_catalog_artifact/changed_files.txt | trim)"
+            catalog_section="**Catalog Changes:**\n```\n${catalog_content}\n```"
           fi
 
           if [ -s ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt ]; then
-            commit_link="$(cat ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt)"
+            commit_link="$(cat ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt | trim)"
             commit_section="${commit_link}"
           fi
 
           {
-            echo "changes_section<<EOF"
+            echo 'changes_section<<EOF'
             echo "$changes_section"
-            echo "EOF"
+            echo 'EOF'
           } >> "$GITHUB_OUTPUT"
 
           {
-            echo "summary_section<<EOF"
+            echo 'summary_section<<EOF'
             echo "$summary_section"
-            echo "EOF"
+            echo 'EOF'
           } >> "$GITHUB_OUTPUT"
 
           {
-            echo "catalog_section<<EOF"
+            echo 'catalog_section<<EOF'
             echo "$catalog_section"
-            echo "EOF"
+            echo 'EOF'
           } >> "$GITHUB_OUTPUT"
 
           {
-            echo "commit_section<<EOF"
+            echo 'commit_section<<EOF'
             echo "$commit_section"
-            echo "EOF"
+            echo 'EOF'
           } >> "$GITHUB_OUTPUT"
 
       - name: Send Discord Notification
