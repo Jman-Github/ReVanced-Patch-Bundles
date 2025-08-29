@@ -94,19 +94,13 @@ jobs:
         id: set_changes
         run: |
           python3 - <<'PY'
-          import os, glob
+          import os
 
-          def pick(prefer, directory):
-              if prefer and os.path.isfile(prefer) and os.path.getsize(prefer) > 0:
-                  return prefer
-              if directory and os.path.isdir(directory):
-                  for f in glob.iglob(os.path.join(directory, '**', '*.txt'), recursive=True):
-                      try:
-                          if os.path.getsize(f) > 0:
-                              return f
-                      except OSError:
-                          pass
-              return None
+          def pick_exact(path):
+              try:
+                  return path if os.path.isfile(path) and os.path.getsize(path) > 0 else None
+              except OSError:
+                  return None
 
           def read_trimmed(path):
               if not path:
@@ -122,46 +116,35 @@ jobs:
               except OSError:
                   return ''
 
-          changes_file = pick(
-              'ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt',
-              'ReVanced-Patch-Bundles/patch_bundle_updater_artifact'
-          )
-          summary_file = pick(
-              'ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt',
-              'ReVanced-Patch-Bundles/patch_bundle_updater_artifact'
-          )
-          commit_file = pick(
-              'ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt',
-              'ReVanced-Patch-Bundles/commit_puller_artifact'
-          )
+          changes_file = pick_exact('ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt')
+          summary_file = pick_exact('ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt')
+          commit_file  = pick_exact('ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt')
 
-          changes = read_trimmed(changes_file) if changes_file else ''
-          summary = read_trimmed(summary_file) if summary_file else ''
-          commit  = read_trimmed(commit_file)  if commit_file  else ''
+          changes = read_trimmed(changes_file)
+          summary = read_trimmed(summary_file)
+          commit  = read_trimmed(commit_file)
 
           changes_text = changes if changes else 'N/A'
           summary_text = summary if summary else 'N/A'
 
           changes_section = f"**Changes:**\n```\n{changes_text}\n```"
           summary_section = f"**Summary:**\n```\n{summary_text}\n```"
-          commit_section = commit.strip()
 
           parts = []
           parts.append("Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml).")
           parts.append(changes_section)
           parts.append(summary_section)
-          if commit_section:
-              parts.append(commit_section)
+          if commit.strip():
+              parts.append(commit.strip())
 
           embed_description = "\n\n".join(parts)
 
-          out_path = os.environ['GITHUB_OUTPUT']
-          with open(out_path, 'a', encoding='utf-8') as out:
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as out:
               out.write('embed_description<<EOF\n' + embed_description + '\nEOF\n')
 
           print(f"::notice::changes file={changes_file or 'none'}")
           print(f"::notice::summary file={summary_file or 'none'}")
-          print(f"::notice::commit  file={commit_file  or 'none'} present={'yes' if bool(commit_section) else 'no'}")
+          print(f"::notice::commit  file={commit_file  or 'none'} present={'yes' if bool(commit.strip()) else 'no'}")
           PY
 
       - name: Send Discord Notification
