@@ -1,6 +1,7 @@
 name: Commit puller
 
 on:
+  workflow_dispatch:
   workflow_run:
     workflows: ["Patch bundle updater"]
     types:

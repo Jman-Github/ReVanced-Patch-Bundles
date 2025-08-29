@@ -1,6 +1,7 @@
 name: Discord webhook sender
 
 on:
+  workflow_dispatch:
   workflow_run:
     workflows: ["Commit puller"]
     types:
