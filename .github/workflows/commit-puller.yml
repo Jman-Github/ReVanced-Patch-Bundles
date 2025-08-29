@@ -3,7 +3,7 @@ name: Commit puller
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["Patch bundle updater"]
+    workflows: ["Generate patch list catalog"]
     types:
       - completed
 

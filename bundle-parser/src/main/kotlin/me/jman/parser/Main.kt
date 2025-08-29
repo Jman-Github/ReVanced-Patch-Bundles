@@ -49,37 +49,41 @@ fun main() {
                     try {
                         val outputPatchesFile = File(bundleFolder, "$bundleName-$releaseTag-$fileSuffix")
 
-                        var latestProcessedPatchesVersion: String? = null
+                        var existingContent: LocalPatchesFile? = null
 
                         if (outputPatchesFile.exists()) {
-                            latestProcessedPatchesVersion = Json.decodeFromString<LocalPatchesFile>(
+                            existingContent = Json.decodeFromString<LocalPatchesFile>(
                                 outputPatchesFile.readText()
-                            ).version.also {
-                                if (it == parsedJsonContent.version) {
-                                    Logger.info("Patches are up to date.")
-                                    return@processFile
+                            ).also {
+                                if (it.version != parsedJsonContent.version) {
+                                    Logger.info("Version ${it.version} -> ${parsedJsonContent.version}")
+                                } else {
+                                    Logger.info("Version ${parsedJsonContent.version} exists; verifying content")
                                 }
                             }
-                        }
-
-                        if (latestProcessedPatchesVersion != null)
-                            Logger.info("Version $latestProcessedPatchesVersion -> ${parsedJsonContent.version}")
-                        else
+                        } else {
                             Logger.info("No previous version found. Processing for the first time...")
+                        }
 
                         Logger.info("Downloading .rvp from ${parsedJsonContent.downloadUrl}...")
-                        generatePatchesFromUrl(
-                            URI(parsedJsonContent.downloadUrl)
-                        ).also {
-                            Logger.info("Writing to ${outputPatchesFile.name}...")
-
-                            outputPatchesFile.writeText(
-                                prettyJson.encodeToString(
-                                    LocalPatchesFile(parsedJsonContent.version, Json.parseToJsonElement(it).jsonArray)
-                                )
+                        val generated = Json.parseToJsonElement(
+                            generatePatchesFromUrl(
+                                URI(parsedJsonContent.downloadUrl)
                             )
+                        ).jsonArray
+
+                        if (existingContent != null && existingContent.version == parsedJsonContent.version && existingContent.patches == generated) {
+                            Logger.info("Patches are up to date.")
+                            return@processFile
                         }
 
+                        Logger.info("Writing to ${outputPatchesFile.name}...")
+
+                        outputPatchesFile.writeText(
+                            prettyJson.encodeToString(
+                                LocalPatchesFile(parsedJsonContent.version, generated)
+                            )
+                        )
                     } catch (_: FileNotFoundException) {
                         Logger.warning("The .rvp file was not found.")
                         return@processFile
