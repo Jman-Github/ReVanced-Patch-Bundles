@@ -440,6 +440,13 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "6.20.51",
+                    "6.29.59",
+                    "6.42.55",
+                    "6.51.53",
+                    "7.16.53",
+                    "7.25.53",
+                    "8.12.54",
+                    "8.28.54",
                     "8.30.54"
                 ]
             },
@@ -1074,6 +1081,17 @@
                 ]
             },
             "options": [
+                {
+                    "key": "gmsCoreVendorGroupId",
+                    "title": "GmsCore vendor group ID",
+                    "description": "The vendor's group ID for GmsCore.",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": "app.revanced",
+                    "values": {
+                        "ReVanced": "app.revanced"
+                    }
+                },
                 {
                     "key": "checkGmsCore",
                     "title": "Check GmsCore",
@@ -3705,6 +3723,14 @@
             "use": true,
             "dependencies": [
                 "Settings for YouTube",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
