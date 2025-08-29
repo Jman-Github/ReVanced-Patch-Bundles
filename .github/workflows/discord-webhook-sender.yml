@@ -94,10 +94,18 @@ jobs:
         id: set_changes
         shell: bash
         run: |
-          strip_edges_file() {
-            local file="$1"
-            if [ -s "$file" ]; then
-              sed -E '1s/^\\n+//; s/\\n+$//' "$file"
+          set -euo pipefail
+
+          read_file_clean() {
+            local f="$1"
+            if [ -s "$f" ]; then
+              local raw
+              raw="$(cat "$f")"
+              local converted
+              converted="$(printf "%b" "$raw")"
+              converted="$(printf "%s" "$converted" | sed -E ':a;/^[[:space:]]*$/{$d;N;ba}1')"
+              converted="$(printf "%s" "$converted" | sed -E '1,/[^[:space:]]/ s/^[[:space:]]*$//')"
+              printf "%s" "$converted"
             fi
           }
 
@@ -105,36 +113,36 @@ jobs:
           summary_section=""
           commit_section=""
 
-          changes_content="$(strip_edges_file 'ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt')"
-          if [ -n "$changes_content" ]; then
+          changes_content="$(read_file_clean 'ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt' || true)"
+          if [ -n "${changes_content:-}" ]; then
             changes_section="**Changes:**\n```\n${changes_content}\n```"
           fi
 
-          summary_content="$(strip_edges_file 'ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt')"
-          if [ -n "$summary_content" ]; then
+          summary_content="$(read_file_clean 'ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt' || true)"
+          if [ -n "${summary_content:-}" ]; then
             summary_section="**Summary:**\n```\n${summary_content}\n```"
           fi
 
-          commit_link="$(strip_edges_file 'ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt')"
-          if [ -n "$commit_link" ]; then
+          commit_link="$(read_file_clean 'ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt' || true)"
+          if [ -n "${commit_link:-}" ]; then
             commit_section="${commit_link}"
           fi
 
           {
             echo 'changes_section<<EOF'
-            echo "$changes_section"
+            printf "%s\n" "$changes_section"
             echo 'EOF'
           } >> "$GITHUB_OUTPUT"
 
           {
             echo 'summary_section<<EOF'
-            echo "$summary_section"
+            printf "%s\n" "$summary_section"
             echo 'EOF'
           } >> "$GITHUB_OUTPUT"
 
           {
             echo 'commit_section<<EOF'
-            echo "$commit_section"
+            printf "%s\n" "$commit_section"
             echo 'EOF'
           } >> "$GITHUB_OUTPUT"
 
