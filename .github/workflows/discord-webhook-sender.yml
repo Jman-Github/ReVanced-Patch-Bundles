@@ -12,6 +12,19 @@ jobs:
     name: webhook sender
     runs-on: ubuntu-latest
     steps:
+      - name: Require "Commit puller" to have succeeded
+        if: ${{ github.event_name == 'workflow_run' }}
+        shell: bash
+        run: |
+          echo "Triggered by workflow_run:"
+          echo "  name='${{ github.event.workflow_run.name }}'"
+          echo "  id='${{ github.event.workflow_run.id }}'"
+          echo "  conclusion='${{ github.event.workflow_run.conclusion }}'"
+          if [ "${{ github.event.workflow_run.conclusion }}" != "success" ]; then
+            echo "::error::Commit puller workflow did not succeed (conclusion='${{ github.event.workflow_run.conclusion }}'). Failing this workflow."
+            exit 1
+          fi
+
       - name: Download Artifact from Patch bundle updater
         id: download_patch_bundle_updater_artifact
         uses: benday-inc/download-latest-artifact@main
@@ -98,31 +111,26 @@ jobs:
         id: set_changes
         shell: bash
         run: |
-          # Initialize sections as empty
           changes_section=""
           summary_section=""
           catalog_section=""
           commit_section=""
 
-          # Build **Changes** section if file exists & non-empty
           if [ -s ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt ]; then
             changes_content="$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt)"
             changes_section="**Changes:**\n```\n${changes_content}\n```"
           fi
 
-          # Build **Summary** section if file exists & non-empty
           if [ -s ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt ]; then
             summary_content="$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt)"
             summary_section="**Summary:**\n```\n${summary_content}\n```"
           fi
 
-          # Build **Catalog Changes** section if file exists & non-empty
           if [ -s ReVanced-Patch-Bundles/patch_list_catalog_artifact/changed_files.txt ]; then
             catalog_content="$(cat ReVanced-Patch-Bundles/patch_list_catalog_artifact/changed_files.txt)"
             catalog_section="**Catalog Changes:**\n```\n${catalog_content}\n```"
           fi
 
-          # Add commit link if present
           if [ -s ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt ]; then
             commit_link="$(cat ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt)"
             commit_section="${commit_link}"

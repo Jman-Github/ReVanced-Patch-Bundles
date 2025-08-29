@@ -7,7 +7,7 @@ on:
     types: [completed]
 
 permissions:
-  contents: write        # allow push/PR creation
+  contents: write
   pull-requests: write
 
 jobs:
@@ -42,12 +42,12 @@ jobs:
       - name: Detect changes
         id: changes
         run: |
-          git status --porcelain | awk '{print $2}' | grep -v '^changed_files.txt$' > changed_files.txt || true
-          if [ -s changed_files.txt ]; then
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-          else
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          fi
+            git status --porcelain | awk '{print $2}' | grep -v '^changed_files.txt$' > changed_files.txt || true
+            if [ -s changed_files.txt ]; then
+              echo "has_changes=true" >> $GITHUB_OUTPUT
+            else
+              echo "has_changes=false" >> $GITHUB_OUTPUT
+            fi
 
       - name: Configure git user
         if: steps.changes.outputs.has_changes == 'true'
@@ -55,30 +55,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit (no amend) and try to push
-        id: push
+      - name: Amend bundle commit with catalog
         if: steps.changes.outputs.has_changes == 'true'
         run: |
           xargs -a changed_files.txt git add
-          git commit -m "docs(catalog): update PATCH-LIST-CATALOG.md [skip ci]" || echo "Nothing to commit"
-          # Rebase to avoid non-FF
-          git pull --rebase origin bundles
-          # Try a normal push (no force)
-          if git push origin HEAD:bundles; then
-            echo "pushed=true" >> $GITHUB_OUTPUT
-          else
-            echo "pushed=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Create pull request (if direct push blocked)
-        if: steps.changes.outputs.has_changes == 'true' && steps.push.outputs.pushed == 'false'
-        uses: peter-evans/create-pull-request@v6
-        with:
-          commit-message: "docs(catalog): update PATCH-LIST-CATALOG.md"
-          title: "Update patch catalog"
-          body: "Automated catalog update."
-          branch: automation/update-catalog
-          base: bundles
+          git commit --amend --no-edit
+          git push origin HEAD:bundles --force-with-lease
 
       - name: Lint
         run: black --check generate_patch_list_catalog.py
