@@ -85,7 +85,7 @@ jobs:
           if [ -z "$changed_files" ]; then
             echo "changed_files=" >> $GITHUB_ENV
           else
-            echo "$changed_files" > changed_files.txt
+            printf "%s\n" "$changed_files" | awk -F/ '{print $NF}' > changed_files.txt
             echo "changed_files=changed_files.txt" >> $GITHUB_ENV
           fi
 

@@ -90,7 +90,7 @@ jobs:
           echo "=== Workspace tree ==="
           ls -R
 
-      - name: Set output variables (Python, safe)
+      - name: Build embed description
         id: set_changes
         run: |
           python3 - <<'PY'
@@ -109,12 +109,15 @@ jobs:
               return None
 
           def read_trimmed(path):
-              if not path: return ''
+              if not path:
+                  return ''
               try:
                   with open(path, 'r', encoding='utf-8', errors='ignore') as fh:
                       lines = fh.read().splitlines()
-                  while lines and not lines[0].strip(): lines.pop(0)
-                  while lines and not lines[-1].strip(): lines.pop()
+                  while lines and not lines[0].strip():
+                      lines.pop(0)
+                  while lines and not lines[-1].strip():
+                      lines.pop()
                   return '\n'.join(lines)
               except OSError:
                   return ''
@@ -136,19 +139,29 @@ jobs:
           summary = read_trimmed(summary_file) if summary_file else ''
           commit  = read_trimmed(commit_file)  if commit_file  else ''
 
-          changes_section = f"**Changes:**\n```\n{changes if changes else '(no changes found)'}\n```"
-          summary_section = f"**Summary:**\n```\n{summary if summary else '(no summary found)'}\n```"
-          commit_section  = commit if commit else "(no commit link found)"
+          changes_text = changes if changes else 'N/A'
+          summary_text = summary if summary else 'N/A'
+
+          changes_section = f"**Changes:**\n```\n{changes_text}\n```"
+          summary_section = f"**Summary:**\n```\n{summary_text}\n```"
+          commit_section = commit.strip()
+
+          parts = []
+          parts.append("Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml).")
+          parts.append(changes_section)
+          parts.append(summary_section)
+          if commit_section:
+              parts.append(commit_section)
+
+          embed_description = "\n\n".join(parts)
 
           out_path = os.environ['GITHUB_OUTPUT']
           with open(out_path, 'a', encoding='utf-8') as out:
-              out.write('changes_section<<EOF\n' + changes_section + '\nEOF\n')
-              out.write('summary_section<<EOF\n' + summary_section + '\nEOF\n')
-              out.write('commit_section<<EOF\n'  + commit_section  + '\nEOF\n')
+              out.write('embed_description<<EOF\n' + embed_description + '\nEOF\n')
 
-          print(f"::notice::changes file={changes_file or 'none'}, bytes={len(changes)}")
-          print(f"::notice::summary file={summary_file or 'none'}, bytes={len(summary)}")
-          print(f"::notice::commit  file={commit_file  or 'none'}, bytes={len(commit)}")
+          print(f"::notice::changes file={changes_file or 'none'}")
+          print(f"::notice::summary file={summary_file or 'none'}")
+          print(f"::notice::commit  file={commit_file  or 'none'} present={'yes' if bool(commit_section) else 'no'}")
           PY
 
       - name: Send Discord Notification
@@ -158,12 +171,7 @@ jobs:
           wait: true
           content: '||@everyone||'
           embed-title: 'Patch-Bundle.json File(s) Updated'
-          embed-description: |
-            Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml).
-
-            ${{ steps.set_changes.outputs.changes_section }}
-            ${{ steps.set_changes.outputs.summary_section }}
-            ${{ steps.set_changes.outputs.commit_section }}
+          embed-description: ${{ steps.set_changes.outputs.embed_description }}
           embed-color: '65280'
           embed-author-name: 'Patch Bundle Updater Workflow'
           embed-author-icon-url: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
