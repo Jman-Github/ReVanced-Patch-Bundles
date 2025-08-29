@@ -68,7 +68,7 @@ def load_patch_info(bundle_dir: Path) -> List[Dict[str, str]]:
 
 def format_patch_lines(patches: List[Dict[str, str]]) -> List[str]:
     """Return a list of lines representing a Markdown table for all patches, wrapping each cell value in triple backticks, with
-a space before the patch counter."""
+    a space before the patch counter."""
     count = len(patches)
     patch_word = "Patch" if count == 1 else "Patches"
     lines: List[str] = []
