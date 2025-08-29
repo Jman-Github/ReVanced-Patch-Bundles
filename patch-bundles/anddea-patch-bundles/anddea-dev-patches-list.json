@@ -2,8 +2,8 @@
     "version": "v3.12.0-dev.8",
     "patches": [
         {
-            "name": "",
-            "description": ".",
+            "name": "Spoof Wi-Fi connection",
+            "description": "Spoofs an existing Wi-Fi connection.",
             "use": false,
             "dependencies": [
                 "BytecodePatch"
