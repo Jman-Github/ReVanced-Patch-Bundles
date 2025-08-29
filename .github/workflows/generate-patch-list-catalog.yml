@@ -42,12 +42,12 @@ jobs:
       - name: Detect changes
         id: changes
         run: |
-            git status --porcelain | awk '{print $2}' | grep -v '^changed_files.txt$' > changed_files.txt || true
-            if [ -s changed_files.txt ]; then
-              echo "has_changes=true" >> $GITHUB_OUTPUT
-            else
-              echo "has_changes=false" >> $GITHUB_OUTPUT
-            fi
+          git status --porcelain | awk '{print $2}' | grep -v '^changed_files.txt$' > changed_files.txt || true
+          if [ -s changed_files.txt ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Configure git user
         if: steps.changes.outputs.has_changes == 'true'

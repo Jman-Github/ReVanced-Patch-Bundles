@@ -88,24 +88,28 @@ jobs:
         run: mkdir -p ReVanced-Patch-Bundles/commit_puller_artifact
 
       - name: Create patch list catalog artifact directory
-        if: steps.download_patch_list_catalog_artifact.outputs.artifact_downloaded == 'true'
         run: mkdir -p ReVanced-Patch-Bundles/patch_list_catalog_artifact
 
       - name: Unzip Patch bundle updater artifact
-        if: steps.download_patch_bundle_updater_artifact.outputs.artifact_downloaded == 'true'
-        run: unzip ReVanced-Patch-Bundles/changed_files.zip -d ReVanced-Patch-Bundles/patch_bundle_updater_artifact
+        if: ${{ steps.download_patch_bundle_updater_artifact.outcome == 'success' }}
+        run: unzip -o ReVanced-Patch-Bundles/changed_files.zip -d ReVanced-Patch-Bundles/patch_bundle_updater_artifact
 
       - name: Unzip Summary artifact
-        if: steps.download_patch_bundle_summary_artifact.outputs.artifact_downloaded == 'true'
-        run: unzip ReVanced-Patch-Bundles/updated-bundles.zip -d ReVanced-Patch-Bundles/patch_bundle_updater_artifact
+        if: ${{ steps.download_patch_bundle_summary_artifact.outcome == 'success' }}
+        run: unzip -o ReVanced-Patch-Bundles/updated-bundles.zip -d ReVanced-Patch-Bundles/patch_bundle_updater_artifact
 
       - name: Unzip Commit puller artifact
-        if: steps.download_commit_puller_artifact.outputs.artifact_downloaded == 'true'
-        run: unzip ReVanced-Patch-Bundles/commit-link.zip -d ReVanced-Patch-Bundles/commit_puller_artifact
+        if: ${{ steps.download_commit_puller_artifact.outcome == 'success' }}
+        run: unzip -o ReVanced-Patch-Bundles/commit-link.zip -d ReVanced-Patch-Bundles/commit_puller_artifact
 
       - name: Unzip Generate patch list catalog artifact
-        if: steps.download_patch_list_catalog_artifact.outputs.artifact_downloaded == 'true'
-        run: unzip ReVanced-Patch-Bundles/catalog-changed-files.zip -d ReVanced-Patch-Bundles/patch_list_catalog_artifact
+        if: ${{ steps.download_patch_list_catalog_artifact.outcome == 'success' }}
+        run: unzip -o ReVanced-Patch-Bundles/catalog-changed-files.zip -d ReVanced-Patch-Bundles/patch_list_catalog_artifact
+
+      - name: Debug — list what we have
+        run: |
+          echo "=== Workspace tree ==="
+          ls -R
 
       - name: Set output variables
         id: set_changes
