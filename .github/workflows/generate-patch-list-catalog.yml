@@ -53,8 +53,8 @@ jobs:
           git config user.name "$author_name"
           git config user.email "$author_email"
           xargs git add < changed_files.txt
-          GIT_AUTHOR_NAME="$author_name" GIT_AUTHOR_EMAIL="$author_email" GIT_COMMITTER_NAME="$author_name" GIT_COMMITTER_EMAIL="$author_email" git commit --amend --no-edit
-          git push --force origin bundles
+          git commit -m "docs: update patch list catalog"
+          git push origin bundles
 
       - name: Lint
         run: black --check generate_patch_list_catalog.py
