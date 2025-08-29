@@ -81,7 +81,7 @@ jobs:
         id: find_commit
         if: env.has_changes == 'true'
         run: |
-          changed_files=$(git diff --name-only HEAD^ -- '*.json')
+          changed_files=$(git diff --name-only HEAD^ -- '*.json' patch-bundles/PATCH-LIST-CATALOG.md)
           if [ -z "$changed_files" ]; then
             echo "changed_files=" >> $GITHUB_ENV
           else

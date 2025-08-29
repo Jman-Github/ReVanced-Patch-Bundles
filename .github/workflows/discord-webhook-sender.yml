@@ -53,20 +53,6 @@ jobs:
           download_filename: 'updated-bundles.zip'
         continue-on-error: true
 
-      - name: Download Artifact from Generate patch list catalog
-        id: download_patch_list_catalog_artifact
-        uses: benday-inc/download-latest-artifact@main
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository_owner: 'Jman-Github'
-          repository_name: 'ReVanced-Patch-Bundles'
-          branch_name: 'bundles'
-          artifact_name: 'changed_files'
-          workflow_name: 'Generate patch list catalog'
-          download_path: 'ReVanced-Patch-Bundles'
-          download_filename: 'catalog-changed-files.zip'
-        continue-on-error: true
-
       - name: Download Artifact from Commit puller
         id: download_commit_puller_artifact
         uses: benday-inc/download-latest-artifact@main
@@ -87,9 +73,6 @@ jobs:
       - name: Create commit puller artifact directory
         run: mkdir -p ReVanced-Patch-Bundles/commit_puller_artifact
 
-      - name: Create patch list catalog artifact directory
-        run: mkdir -p ReVanced-Patch-Bundles/patch_list_catalog_artifact
-
       - name: Unzip Patch bundle updater artifact
         if: ${{ steps.download_patch_bundle_updater_artifact.outcome == 'success' }}
         run: unzip -o ReVanced-Patch-Bundles/changed_files.zip -d ReVanced-Patch-Bundles/patch_bundle_updater_artifact
@@ -102,10 +85,6 @@ jobs:
         if: ${{ steps.download_commit_puller_artifact.outcome == 'success' }}
         run: unzip -o ReVanced-Patch-Bundles/commit-link.zip -d ReVanced-Patch-Bundles/commit_puller_artifact
 
-      - name: Unzip Generate patch list catalog artifact
-        if: ${{ steps.download_patch_list_catalog_artifact.outcome == 'success' }}
-        run: unzip -o ReVanced-Patch-Bundles/catalog-changed-files.zip -d ReVanced-Patch-Bundles/patch_list_catalog_artifact
-
       - name: Debug — list what we have
         run: |
           echo "=== Workspace tree ==="
@@ -115,32 +94,29 @@ jobs:
         id: set_changes
         shell: bash
         run: |
-          trim() {
-            sed -E ':a;N;$!ba;s/^[[:space:]]+|[[:space:]]+$//g'
+          strip_edges_file() {
+            local file="$1"
+            if [ -s "$file" ]; then
+              sed -E '1s/^\\n+//; s/\\n+$//' "$file"
+            fi
           }
 
           changes_section=""
           summary_section=""
-          catalog_section=""
           commit_section=""
 
-          if [ -s ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt ]; then
-            changes_content="$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt | trim)"
+          changes_content="$(strip_edges_file 'ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt')"
+          if [ -n "$changes_content" ]; then
             changes_section="**Changes:**\n```\n${changes_content}\n```"
           fi
 
-          if [ -s ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt ]; then
-            summary_content="$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt | trim)"
+          summary_content="$(strip_edges_file 'ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt')"
+          if [ -n "$summary_content" ]; then
             summary_section="**Summary:**\n```\n${summary_content}\n```"
           fi
 
-          if [ -s ReVanced-Patch-Bundles/patch_list_catalog_artifact/changed_files.txt ]; then
-            catalog_content="$(cat ReVanced-Patch-Bundles/patch_list_catalog_artifact/changed_files.txt | trim)"
-            catalog_section="**Catalog Changes:**\n```\n${catalog_content}\n```"
-          fi
-
-          if [ -s ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt ]; then
-            commit_link="$(cat ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt | trim)"
+          commit_link="$(strip_edges_file 'ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt')"
+          if [ -n "$commit_link" ]; then
             commit_section="${commit_link}"
           fi
 
@@ -153,12 +129,6 @@ jobs:
           {
             echo 'summary_section<<EOF'
             echo "$summary_section"
-            echo 'EOF'
-          } >> "$GITHUB_OUTPUT"
-
-          {
-            echo 'catalog_section<<EOF'
-            echo "$catalog_section"
             echo 'EOF'
           } >> "$GITHUB_OUTPUT"
 
@@ -180,7 +150,6 @@ jobs:
 
             ${{ steps.set_changes.outputs.changes_section }}
             ${{ steps.set_changes.outputs.summary_section }}
-            ${{ steps.set_changes.outputs.catalog_section }}
             ${{ steps.set_changes.outputs.commit_section }}
           embed-color: '65280'
           embed-author-name: 'Patch Bundle Updater Workflow'
