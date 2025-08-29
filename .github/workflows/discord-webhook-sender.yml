@@ -95,38 +95,72 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          shopt -s nullglob
 
-          read_file_clean() {
-            local f="$1"
-            if [ -s "$f" ]; then
-              local raw
-              raw="$(cat "$f")"
-              local converted
-              converted="$(printf "%b" "$raw")"
-              converted="$(printf "%s" "$converted" | sed -E ':a;/^[[:space:]]*$/{$d;N;ba}1')"
-              converted="$(printf "%s" "$converted" | sed -E '1,/[^[:space:]]/ s/^[[:space:]]*$//')"
-              printf "%s" "$converted"
+          pick_txt() {
+            local prefer="$1"
+            local dir="$2"
+            if [ -s "$prefer" ]; then
+              printf "%s" "$prefer"
+              return 0
             fi
+            local first
+            first="$(printf "%s\n" "$dir"/**/*.txt "$dir"/*.txt 2>/dev/null | head -n1 || true)"
+            if [ -n "${first:-}" ] && [ -s "$first" ]; then
+              printf "%s" "$first"
+              return 0
+            fi
+            return 1
           }
+
+          read_trimmed() {
+            local f="$1"
+            [ -s "$f" ] || { printf ""; return 0; }
+            awk 'BEGIN{start=0} { if(start==0){ if($0 ~ /[^[:space:]]/){start=1; print $0} } else { print $0 } }' "$f" \
+            | awk ' {buf[NR]=$0} END{ i=NR; while(i>0 && buf[i] ~ /^[[:space:]]*$/){i--} for(j=1;j<=i;j++) print buf[j] }'
+          }
+
+          CHANGES_FILE="$(pick_txt 'ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt' 'ReVanced-Patch-Bundles/patch_bundle_updater_artifact' || true)"
+          SUMMARY_FILE="$(pick_txt 'ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt' 'ReVanced-Patch-Bundles/patch_bundle_updater_artifact' || true)"
+          COMMIT_FILE="$(pick_txt 'ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt' 'ReVanced-Patch-Bundles/commit_puller_artifact' || true)"
 
           changes_section=""
           summary_section=""
           commit_section=""
 
-          changes_content="$(read_file_clean 'ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt' || true)"
-          if [ -n "${changes_content:-}" ]; then
-            changes_section="**Changes:**\n```\n${changes_content}\n```"
+          if [ -n "${CHANGES_FILE:-}" ]; then
+            changes_content="$(read_trimmed "$CHANGES_FILE")"
+            if [ -n "${changes_content:-}" ]; then
+              changes_section="**Changes:**\n```\n${changes_content}\n```"
+            fi
+            echo "::notice::changes bytes=$(printf "%s" "${changes_content:-}" | wc -c), file='${CHANGES_FILE:-none}'"
+          else
+            echo "::notice::No changes file found"
           fi
 
-          summary_content="$(read_file_clean 'ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt' || true)"
-          if [ -n "${summary_content:-}" ]; then
-            summary_section="**Summary:**\n```\n${summary_content}\n```"
+          if [ -n "${SUMMARY_FILE:-}" ]; then
+            summary_content="$(read_trimmed "$SUMMARY_FILE")"
+            if [ -n "${summary_content:-}" ]; then
+              summary_section="**Summary:**\n```\n${summary_content}\n```"
+            fi
+            echo "::notice::summary bytes=$(printf "%s" "${summary_content:-}" | wc -c), file='${SUMMARY_FILE:-none}'"
+          else
+            echo "::notice::No summary file found"
           fi
 
-          commit_link="$(read_file_clean 'ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt' || true)"
-          if [ -n "${commit_link:-}" ]; then
-            commit_section="${commit_link}"
+          if [ -n "${COMMIT_FILE:-}" ]; then
+            commit_link="$(read_trimmed "$COMMIT_FILE")"
+            if [ -n "${commit_link:-}" ]; then
+              commit_section="${commit_link}"
+            fi
+            echo "::notice::commit bytes=$(printf "%s" "${commit_link:-}" | wc -c), file='${COMMIT_FILE:-none}'"
+          else
+            echo "::notice::No commit file found"
           fi
+
+          : "${changes_section:="**Changes:**\n```\n(no changes found)\n```"}"
+          : "${summary_section:="**Summary:**\n```\n(no summary found)\n```"}"
+          : "${commit_section:="(no commit link found)"}"
 
           {
             echo 'changes_section<<EOF'
