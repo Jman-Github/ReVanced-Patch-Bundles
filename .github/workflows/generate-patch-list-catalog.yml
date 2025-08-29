@@ -30,42 +30,38 @@ jobs:
           python -m pip install --upgrade pip
           pip install black
 
-      - name: Debug patch‑bundles contents
-        run: |
-          echo "Listing patch‑bundles directory:"
-          ls -R patch-bundles
-          echo
-          for d in patch-bundles/*-patch-bundles; do
-            if [ -d "$d" ]; then
-              echo "=== $d ==="
-              ls -l "$d"
-              echo "First few lines of any .json files:"
-              head -n5 "$d"/*.json || echo "  (no .json files or they are empty)"
-            fi
-          done
-
       - name: Generate catalog
         run: python generate_patch_list_catalog.py
 
-      - name: Auto‑format with Black
-        run: |
-          black generate_patch_list_catalog.py
+      - name: Auto-format with Black
+        run: black generate_patch_list_catalog.py
 
-      - name: Commit formatted code
+      - name: Collect changed files
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add generate_patch_list_catalog.py
-          git commit -m "chore: Black‑format generate_patch_list_catalog.py" || echo "No changes to commit"
-          git push origin bundles || echo "Nothing to push"
+          git status --porcelain | awk '{print $2}' > changed_files.txt
+          if [ -s changed_files.txt ]; then
+            echo has_changes=true >> $GITHUB_ENV
+          else
+            echo has_changes=false >> $GITHUB_ENV
+          fi
+
+      - name: Commit and push
+        if: env.has_changes == 'true'
+        run: |
+          author_name=$(git log -1 --format='%an')
+          author_email=$(git log -1 --format='%ae')
+          git config user.name "$author_name"
+          git config user.email "$author_email"
+          xargs git add < changed_files.txt
+          GIT_AUTHOR_NAME="$author_name" GIT_AUTHOR_EMAIL="$author_email" GIT_COMMITTER_NAME="$author_name" GIT_COMMITTER_EMAIL="$author_email" git commit --amend --no-edit
+          git push --force origin bundles
 
       - name: Lint
         run: black --check generate_patch_list_catalog.py
 
-      - name: Commit and push catalog
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add patch-bundles/PATCH-LIST-CATALOG.md
-          git commit -m "docs: update patch list catalog" patch-bundles/PATCH-LIST-CATALOG.md
-          git push origin bundles
+      - name: Upload changed files
+        if: env.has_changes == 'true'
+        uses: actions/upload-artifact@main
+        with:
+          name: changed_files
+          path: changed_files.txt
