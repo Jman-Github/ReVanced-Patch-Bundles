@@ -98,43 +98,52 @@ jobs:
         id: set_changes
         run: |
           if [ -f ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt ]; then
-            mapfile -t changes_array < ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt
-            changes_json="["
-            for ((i=0; i<${#changes_array[@]}; i++)); do
-              changes_json+="\\\"${changes_array[$i]}\\\\n\\\","
-            done
-            changes_json="${changes_json%,}]"
+            changes=$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt)
           else
-            changes_json="[]"
+            changes=""
           fi
 
           if [ -f ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt ]; then
             summary=$(cat ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt)
           else
-            summary="{}"
+            summary=""
           fi
 
           if [ -f ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt ]; then
             commit_link=$(cat ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt)
           else
-            commit_link="No commit link"
+            commit_link=""
           fi
 
           if [ -f ReVanced-Patch-Bundles/patch_list_catalog_artifact/changed_files.txt ]; then
-            mapfile -t catalog_changes_array < ReVanced-Patch-Bundles/patch_list_catalog_artifact/changed_files.txt
-            catalog_section='**Catalog Changes:**%0A```%0A'
-            for ((i=0; i<${#catalog_changes_array[@]}; i++)); do
-              catalog_section+="${catalog_changes_array[$i]}%0A"
-            done
-            catalog_section+='```'
+            catalog_section="**Catalog Changes:**\n```\n$(cat ReVanced-Patch-Bundles/patch_list_catalog_artifact/changed_files.txt)\n```"
           else
-            catalog_section=''
+            catalog_section=""
           fi
 
-          echo "changes_json=${changes_json}" >> $GITHUB_OUTPUT
-          echo "summary=${summary}" >> $GITHUB_OUTPUT
-          echo "commit_link=${commit_link}" >> $GITHUB_OUTPUT
-          echo "catalog_section=${catalog_section}" >> $GITHUB_OUTPUT
+          {
+            echo 'changes<<EOF'
+            echo "$changes"
+            echo 'EOF'
+          } >> $GITHUB_OUTPUT
+
+          {
+            echo 'summary<<EOF'
+            echo "$summary"
+            echo 'EOF'
+          } >> $GITHUB_OUTPUT
+
+          {
+            echo 'commit_link<<EOF'
+            echo "$commit_link"
+            echo 'EOF'
+          } >> $GITHUB_OUTPUT
+
+          {
+            echo 'catalog_section<<EOF'
+            echo "$catalog_section"
+            echo 'EOF'
+          } >> $GITHUB_OUTPUT
 
       - name: Send Discord Notification
         uses: tsickert/discord-webhook@master
@@ -147,7 +156,7 @@ jobs:
 
             **Changes:**
             ```
-            ${{ join(fromJson(steps.set_changes.outputs.changes_json), '') }}
+            ${{ steps.set_changes.outputs.changes }}
             ```
             **Summary:**
             ```
