@@ -20,16 +20,6 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
 
-      - name: Disable commit signing
-        run: |
-          git config --global commit.gpgsign false
-          git config --local commit.gpgsign false
-
-      - name: Configure Git identity
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
       - name: Set up Python
         uses: actions/setup-python@main
         with:
@@ -83,7 +73,7 @@ jobs:
             echo "No changes to commit. Exiting..."
             echo "has_changes=false" >> $GITHUB_ENV
           else
-            git commit --no-gpg-sign -m 'feat: `patch-bundles` update'
+            git commit -m 'feat: `patch-bundles` update'
             echo "has_changes=true" >> $GITHUB_ENV
           fi
 
@@ -130,7 +120,7 @@ jobs:
                           return data[k]
               except Exception:
                   pass
-              m = re.search(r'"(?:version|Version|latestVersion)"\\s*:\\s*"([^"]+)"', s)
+              m = re.search(r'"(?:version|Version|latestVersion)"\s*:\s*"([^"]+)"', s)
               return m.group(1) if m else None
 
           try:
@@ -143,7 +133,7 @@ jobs:
 
           if not targets:
               with open(os.environ['GITHUB_ENV'],'a',encoding='utf-8') as env:
-                  env.write('has_bundle_updates=false\\n')
+                  env.write('has_bundle_updates=false\n')
               raise SystemExit(0)
 
           lines = []
@@ -159,16 +149,16 @@ jobs:
 
           if not lines:
               with open(os.environ['GITHUB_ENV'],'a',encoding='utf-8') as env:
-                  env.write('has_bundle_updates=false\\n')
+                  env.write('has_bundle_updates=false\n')
               raise SystemExit(0)
 
           with open('updated-bundles.txt','w',encoding='utf-8') as out:
-              out.write("\\n".join(lines))
+              out.write("\n".join(lines))
 
           with open(os.environ['GITHUB_ENV'],'a',encoding='utf-8') as env:
-              env.write('has_bundle_updates=true\\n')
+              env.write('has_bundle_updates=true\n')
 
-          print("\\n".join(lines))
+          print("\n".join(lines))
           PY
 
       - name: Push changes
