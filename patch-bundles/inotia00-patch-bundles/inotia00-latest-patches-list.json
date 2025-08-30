@@ -1,5 +1,5 @@
 {
-    "version": "v5.10.1-dev.2",
+    "version": "v5.10.1-dev.3",
     "patches": [
         {
             "name": "Spoof Wi-Fi connection",
@@ -1036,7 +1036,7 @@
                     "description": "Includes the 'Spoof video streams' patch.\n\nSide effect:\n• App may be forced to close when using a DNS or VPN.\n• Audio may intermittently stutter during playback on adaptive bitrate streaming clients.",
                     "required": true,
                     "type": "kotlin.Boolean",
-                    "default": false,
+                    "default": true,
                     "values": null
                 }
             ]
