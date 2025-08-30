@@ -5,6 +5,7 @@ import app.revanced.patcher.patch.loadPatchesFromJar
 import java.io.ByteArrayOutputStream
 import java.io.File
 import java.io.InputStream
+import java.net.HttpURLConnection
 import java.net.URI
 import java.net.URL
 
@@ -19,12 +20,18 @@ inline fun <T> List<T>.forEachGroupLogged(groupName: (T) -> String, action: (T) 
     }
 }
 
-fun downloadToFile(url: URL, outputFile: File) =
-    url.openStream().use { input: InputStream ->
+fun downloadToFile(url: URL, outputFile: File) {
+    val connection = url.openConnection() as HttpURLConnection
+    System.getenv("GITHUB_TOKEN")?.let {
+        connection.setRequestProperty("Authorization", "token $it")
+    }
+    connection.setRequestProperty("Accept", "application/octet-stream")
+    connection.inputStream.use { input: InputStream ->
         outputFile.outputStream().use { fileOut ->
             input.copyTo(fileOut)
         }
     }
+}
 
 fun generatePatchesFromUrl(uri: URI): String{
     val patchesFile = File.createTempFile("patches", ".jar")
