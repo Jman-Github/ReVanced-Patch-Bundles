@@ -1441,3 +1441,33 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 </details>
 
 ---
+### 🧩 Hepolise Bundle Patch List:
+[📦 Hepolise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-Hepolise-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
+
+</details>
+
+---
+### 🧩 Kangrio Bundle Patch List:
+[📦 Kangrio-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kangrio-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
+
+</details>
+
+---
+### 🧩 Nk521 Bundle Patch List:
+[📦 Nk521-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nk521-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
+
+</details>
+
+---

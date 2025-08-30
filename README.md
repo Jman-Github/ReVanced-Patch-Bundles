@@ -442,6 +442,45 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
+### 📦 Hepolise-Patches-Bundle:
+[🧩 Hepolise Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hepolise-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Hepolise-patch-bundles/Hepolise-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Hepolise-patch-bundles/Hepolise-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Hepolise-patch-bundles/Hepolise-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Kangrio-Patches-Bundle:
+[🧩 Kangrio Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-kangrio-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kangrio-patch-bundles/kangrio-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kangrio-patch-bundles/kangrio-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kangrioe-patch-bundles/kangrio-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Nk521-Patches-Bundle [API v4]:
+[🧩 Nk521 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-nk521-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nk521-patch-bundles/nk521-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nk521-patch-bundles/nk521-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nk521-patch-bundles/nk521-dev-patches-bundle.json```
+</details>
+
+---
 # 📱 ReVanced Manager Compose:
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
@@ -515,6 +554,12 @@ https://github.com/ReVanced/revanced-manager/actions/runs/16705573829/artifacts/
 
 #### 🏷️ [VinceTheProgrammer-Patches-Bundle](https://github.com/vinceTheProgrammer/sticknodes-patches)
 
+#### 🏷️ [Hepolise-Patches-Bundle](https://github.com/Hepolise/LuckyToolPatches)
+
+#### 🏷️ [Kangrio-Patches-Bundle](https://github.com/kangrio/MicroG-Patches-Re)
+
+#### 🏷️ [Nk521-Patches-Bundle](https://github.com/nk521/revanced-patches)
+
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*
 
@@ -545,6 +590,10 @@ __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be incl
 #### ⛓ [ayushTNM-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 #### ⛓ [Arsclib-Patches-Bundle](https://github.com/inotia00/revanced-integrations)
+
+#### ⛓ [Hepolise-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
+
+#### ⛓ [Kangrio-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 # 📋 Suggestions, Questions & Issues
 If you have any issues, suggestions, and/or questions please don't be afraid to create a [issue](https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues/new)! You can also communicate with me in [discussions](https://github.com/Jman-Github/ReVanced-Patch-Bundles/discussions). For contributors, see information about that [here](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/CONTRIBUTING.md).
