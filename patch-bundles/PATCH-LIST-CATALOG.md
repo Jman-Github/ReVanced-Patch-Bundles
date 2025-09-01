@@ -670,7 +670,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***232 Patches***
+***233 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Export all activities``` | ```Makes all app activities exportable.``` | ```Universal``` | ```All versions``` |
@@ -756,22 +756,22 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Skip ads``` | ```Automatically skips video stream ads.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.412.2947``` |
 | ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```com.amazon.avod.thirdpartyclient``` | ```All versions``` |
 | ```Playback speed``` | ```Adds playback speed controls to the video player.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.412.2947``` |
-| ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```ch.protonmail.android``` | ```All versions``` |
-| ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail mobile' signature from emails.``` | ```ch.protonmail.android``` | ```All versions``` |
+| ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```ch.protonmail.android``` | ```4.15.0``` |
+| ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail mobile' signature from emails.``` | ```ch.protonmail.android``` | ```4.15.0``` |
 | ```Hide purchase reminder``` | ```Hides the popup that reminds you to purchase the app.``` | ```com.rarlab.rar``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.reddit.frontpage``` | ```2024.17.0``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.onelouder.baconreader, com.onelouder.baconreader.premium``` | ```All versions``` |
 | ```Disable ads``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
-| ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Spoof user agent``` | ```Restores functionality of the app by using custom user agent.``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
+| ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Hook exception handler``` | ```Hook the exception handler in Boost. Don't enable except for development purposes``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Fix missing audio in video downloads``` | ```Fixes audio missing in videos downloaded from v.redd.it.``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
+| ```Fix Redgifs API``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Fix /s/ links``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Intercept HTTP requests``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Add archive links to context menu``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Automatically undelete Imgur images``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Automatically undelete Reddit content``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
-| ```Fix Redgifs API``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```ml.docilealligator.infinityforreddit, ml.docilealligator.infinityforreddit.plus, ml.docilealligator.infinityforreddit.patreon``` | ```All versions``` |
 | ```Unlock subscription``` | ```Unlocks the subscription feature but requires a custom client ID.``` | ```ml.docilealligator.infinityforreddit, ml.docilealligator.infinityforreddit.plus, ml.docilealligator.infinityforreddit.patreon``` | ```All versions``` |
 | ```Disable ads``` | ```N/A``` | ```o.o.joey``` | ```All versions``` |
@@ -783,6 +783,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Disable ads``` | ```N/A``` | ```io.syncapps.lemmy_sync``` | ```All versions``` |
 | ```Disable Sync for Lemmy bottom sheet``` | ```Disables the bottom sheet at the startup that asks you to signup to "Sync for Lemmy".``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev``` | ```v23.06.30-13:39``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev``` | ```All versions``` |
+| ```Fix Redgifs API``` | ```N/A``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev``` | ```All versions``` |
 | ```Fix /s/ links``` | ```N/A``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev``` | ```All versions``` |
 | ```Fix post thumbnails``` | ```Fixes loading post thumbnails by correcting their URLs.``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev``` | ```All versions``` |
 | ```Use /user/ endpoint``` | ```Replaces the deprecated endpoint for viewing user profiles /u with /user, that used to fix a bug.``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev``` | ```All versions``` |

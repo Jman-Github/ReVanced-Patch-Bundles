@@ -1,5 +1,5 @@
 {
-    "version": "v5.34.2",
+    "version": "v5.34.3",
     "patches": [
         {
             "name": "Export all activities",
@@ -1807,7 +1807,9 @@
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "ch.protonmail.android": null
+                "ch.protonmail.android": [
+                    "4.15.0"
+                ]
             },
             "options": []
         },
@@ -1817,7 +1819,9 @@
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "ch.protonmail.android": null
+                "ch.protonmail.android": [
+                    "4.15.0"
+                ]
             },
             "options": []
         },
@@ -1881,6 +1885,26 @@
             "options": []
         },
         {
+            "name": "Spoof user agent",
+            "description": "Restores functionality of the app by using custom user agent.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": null
+            },
+            "options": [
+                {
+                    "key": "user-agent",
+                    "title": "User agent",
+                    "description": "The app's user agent. User agent should be in the format \"<platform>:<app id>:<version> (by /u/<username>)\".",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": null,
+                    "values": null
+                }
+            ]
+        },
+        {
             "name": "Spoof client",
             "description": "Restores functionality of the app by using custom client ID.",
             "use": true,
@@ -1910,26 +1934,6 @@
             ]
         },
         {
-            "name": "Spoof user agent",
-            "description": "Restores functionality of the app by using custom user agent.",
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": null
-            },
-            "options": [
-                {
-                    "key": "user-agent",
-                    "title": "User agent",
-                    "description": "The app's user agent. User agent should be in the format \"<platform>:<app id>:<version> (by /u/<username>)\".",
-                    "required": true,
-                    "type": "kotlin.String",
-                    "default": null,
-                    "values": null
-                }
-            ]
-        },
-        {
             "name": "Hook exception handler",
             "description": "Hook the exception handler in Boost. Don't enable except for development purposes",
             "use": false,
@@ -1946,6 +1950,18 @@
             "description": "Fixes audio missing in videos downloaded from v.redd.it.",
             "use": true,
             "dependencies": [],
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": null
+            },
+            "options": []
+        },
+        {
+            "name": "Fix Redgifs API",
+            "description": null,
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "compatiblePackages": {
                 "com.rubenmayayo.reddit": null
             },
@@ -2007,18 +2023,6 @@
             "dependencies": [
                 "BytecodePatch",
                 "Intercept HTTP requests"
-            ],
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": null
-            },
-            "options": []
-        },
-        {
-            "name": "Fix Redgifs API",
-            "description": null,
-            "use": true,
-            "dependencies": [
-                "BytecodePatch"
             ],
             "compatiblePackages": {
                 "com.rubenmayayo.reddit": null
@@ -2219,6 +2223,20 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "name": "Fix Redgifs API",
+            "description": null,
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.laurencedawson.reddit_sync": null,
+                "com.laurencedawson.reddit_sync.pro": null,
+                "com.laurencedawson.reddit_sync.dev": null
+            },
+            "options": []
         },
         {
             "name": "Fix /s/ links",
