@@ -1,5 +1,5 @@
 {
-    "version": "v5.34.1-dev.3",
+    "version": "v5.35.0-dev.1",
     "patches": [
         {
             "name": "Export all activities",
@@ -1299,6 +1299,35 @@
                 "com.instagram.android": null
             },
             "options": []
+        },
+        {
+            "name": "Hide navigation buttons",
+            "description": "Hides navigation bar buttons, such as the Reels and Create button.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "options": [
+                {
+                    "key": "hideReels",
+                    "title": "Hide Reels",
+                    "description": null,
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                },
+                {
+                    "key": "hideCreate",
+                    "title": "Hide Create",
+                    "description": null,
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                }
+            ]
         },
         {
             "name": "Disable signature check",

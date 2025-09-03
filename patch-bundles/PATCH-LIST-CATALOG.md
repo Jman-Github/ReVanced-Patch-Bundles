@@ -43,7 +43,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***225 Patches***
+***226 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Export all activities``` | ```Makes all app activities exportable.``` | ```Universal``` | ```All versions``` |
@@ -89,6 +89,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Spoof signature``` | ```Spoofs the signature of the app.``` | ```at.gv.oe.app``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.nis.app``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.instagram.android``` | ```All versions``` |
+| ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Disable signature check``` | ```Disables the signature check that causes the app to crash on startup.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Remove ads``` | ```N/A``` | ```net.binarymode.android.irplus``` | ```All versions``` |
 | ```Disable mandatory login``` | ```N/A``` | ```com.adobe.lrmobile``` | ```9.3.0``` |
