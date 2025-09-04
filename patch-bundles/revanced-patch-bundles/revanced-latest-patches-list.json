@@ -1,5 +1,5 @@
 {
-    "version": "v5.35.0-dev.2",
+    "version": "v5.35.0-dev.3",
     "patches": [
         {
             "name": "Export all activities",
@@ -1312,7 +1312,7 @@
                 {
                     "key": "hideReels",
                     "title": "Hide Reels",
-                    "description": null,
+                    "description": "Permanently hides the Reels button.",
                     "required": false,
                     "type": "kotlin.Boolean",
                     "default": true,
@@ -1321,7 +1321,7 @@
                 {
                     "key": "hideCreate",
                     "title": "Hide Create",
-                    "description": null,
+                    "description": "Permanently hides the Create button.",
                     "required": false,
                     "type": "kotlin.Boolean",
                     "default": true,
