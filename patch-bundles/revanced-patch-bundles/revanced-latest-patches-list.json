@@ -1,5 +1,5 @@
 {
-    "version": "v5.35.0-dev.3",
+    "version": "v5.35.0-dev.4",
     "patches": [
         {
             "name": "Export all activities",
@@ -1944,6 +1944,18 @@
             "options": []
         },
         {
+            "name": "Fix Redgifs API",
+            "description": null,
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": null
+            },
+            "options": []
+        },
+        {
             "name": "Fix /s/ links",
             "description": null,
             "use": true,
@@ -2149,6 +2161,20 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "name": "Fix Redgifs API",
+            "description": null,
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.laurencedawson.reddit_sync": null,
+                "com.laurencedawson.reddit_sync.pro": null,
+                "com.laurencedawson.reddit_sync.dev": null
+            },
+            "options": []
         },
         {
             "name": "Fix /s/ links",

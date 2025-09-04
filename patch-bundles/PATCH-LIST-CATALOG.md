@@ -43,7 +43,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***226 Patches***
+***228 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Export all activities``` | ```Makes all app activities exportable.``` | ```Universal``` | ```All versions``` |
@@ -138,6 +138,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Disable ads``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Fix missing audio in video downloads``` | ```Fixes audio missing in videos downloaded from v.redd.it.``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
+| ```Fix Redgifs API``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Fix /s/ links``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```ml.docilealligator.infinityforreddit, ml.docilealligator.infinityforreddit.plus, ml.docilealligator.infinityforreddit.patreon``` | ```All versions``` |
 | ```Unlock subscription``` | ```Unlocks the subscription feature but requires a custom client ID.``` | ```ml.docilealligator.infinityforreddit, ml.docilealligator.infinityforreddit.plus, ml.docilealligator.infinityforreddit.patreon``` | ```All versions``` |
@@ -150,6 +151,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Disable ads``` | ```N/A``` | ```io.syncapps.lemmy_sync``` | ```All versions``` |
 | ```Disable Sync for Lemmy bottom sheet``` | ```Disables the bottom sheet at the startup that asks you to signup to "Sync for Lemmy".``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev``` | ```v23.06.30-13:39``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev``` | ```All versions``` |
+| ```Fix Redgifs API``` | ```N/A``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev``` | ```All versions``` |
 | ```Fix /s/ links``` | ```N/A``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev``` | ```All versions``` |
 | ```Fix post thumbnails``` | ```Fixes loading post thumbnails by correcting their URLs.``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev``` | ```All versions``` |
 | ```Use /user/ endpoint``` | ```Replaces the deprecated endpoint for viewing user profiles /u with /user, that used to fix a bug.``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.pro, com.laurencedawson.reddit_sync.dev``` | ```All versions``` |
