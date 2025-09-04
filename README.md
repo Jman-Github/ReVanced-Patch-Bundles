@@ -442,7 +442,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Hepolise-Patches-Bundle:
+### 📦 Hepolise-Patches-Bundle [API v4]:
 [🧩 Hepolise Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hepolise-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -455,7 +455,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Kangrio-Patches-Bundle:
+### 📦 Kangrio-Patches-Bundle [API v4]:
 [🧩 Kangrio Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-kangrio-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
