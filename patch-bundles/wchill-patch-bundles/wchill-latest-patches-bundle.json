@@ -1,7 +1,7 @@
 {
-  "created_at": "2025-09-01T07:30:43",
-  "description": "**Full Changelog**: https://github.com/wchill/revanced-patches/compare/v5.34.2...v5.34.3\r\n\r\n* Merged official patches up to 5.34.1-dev3 (88cbbf66b189327e7207cee524f8d6d6a2390035)\r\n* Fix Instruction.registersUsed returning 5 registers for 0 register instruction (55ddc3501493eb137de4cd6e5871dba4aa969dd6)\r\n* Use shared Redgifs patch for Boost (e363a6b854c8063d881ecfa703b83aea47b18262)\r\n* Port Redgifs patch to Sync for Reddit (fd4a5683983c0aaeac0b6f2cf849ce999f79df0d)",
-  "download_url": "https://github.com/wchill/revanced-patches/releases/download/v5.34.3/patches-5.34.3.rvp",
+  "created_at": "2025-09-05T06:05:52",
+  "description": "**Full Changelog**: https://github.com/wchill/revanced-patches/commits/v5.34.4\r\n\r\n* Rebased onto official patches up to 5.35.0-dev4 (which includes the Boost/Sync Redgifs patches in upstream) (c34856cba141fdb9ec266feda6284507e896692f)\r\n* Add BaconReader Redgifs API patch (30bcbfa39ff5d168b7ea3a694103b43badd6a636)\r\n* Cleanup of obsolete git commits",
+  "download_url": "https://github.com/wchill/revanced-patches/releases/download/v5.34.4/patches-5.34.4.rvp",
   "signature_download_url": "N/A",
-  "version": "v5.34.3"
+  "version": "v5.34.4"
 }

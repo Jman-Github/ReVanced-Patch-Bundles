@@ -673,7 +673,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***233 Patches***
+***235 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Export all activities``` | ```Makes all app activities exportable.``` | ```Universal``` | ```All versions``` |
@@ -719,6 +719,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Spoof signature``` | ```Spoofs the signature of the app.``` | ```at.gv.oe.app``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.nis.app``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.instagram.android``` | ```All versions``` |
+| ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Disable signature check``` | ```Disables the signature check that causes the app to crash on startup.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Remove ads``` | ```N/A``` | ```net.binarymode.android.irplus``` | ```All versions``` |
 | ```Disable mandatory login``` | ```N/A``` | ```com.adobe.lrmobile``` | ```9.3.0``` |
@@ -764,9 +765,10 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Hide purchase reminder``` | ```Hides the popup that reminds you to purchase the app.``` | ```com.rarlab.rar``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.reddit.frontpage``` | ```2024.17.0``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.onelouder.baconreader, com.onelouder.baconreader.premium``` | ```All versions``` |
+| ```Fix Redgifs API``` | ```N/A``` | ```com.onelouder.baconreader, com.onelouder.baconreader.premium``` | ```All versions``` |
 | ```Disable ads``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
-| ```Spoof user agent``` | ```Restores functionality of the app by using custom user agent.``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
+| ```Spoof user agent``` | ```Restores functionality of the app by using custom user agent.``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Hook exception handler``` | ```Hook the exception handler in Boost. Don't enable except for development purposes``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Fix missing audio in video downloads``` | ```Fixes audio missing in videos downloaded from v.redd.it.``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Fix Redgifs API``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |

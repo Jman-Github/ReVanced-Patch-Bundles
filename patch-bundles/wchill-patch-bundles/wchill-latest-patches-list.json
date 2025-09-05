@@ -1,5 +1,5 @@
 {
-    "version": "v5.34.3",
+    "version": "v5.34.4",
     "patches": [
         {
             "name": "Export all activities",
@@ -1301,6 +1301,35 @@
             "options": []
         },
         {
+            "name": "Hide navigation buttons",
+            "description": "Hides navigation bar buttons, such as the Reels and Create button.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "options": [
+                {
+                    "key": "hideReels",
+                    "title": "Hide Reels",
+                    "description": "Permanently hides the Reels button.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                },
+                {
+                    "key": "hideCreate",
+                    "title": "Hide Create",
+                    "description": "Permanently hides the Create button.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                }
+            ]
+        },
+        {
             "name": "Disable signature check",
             "description": "Disables the signature check that causes the app to crash on startup.",
             "use": true,
@@ -1875,6 +1904,19 @@
             ]
         },
         {
+            "name": "Fix Redgifs API",
+            "description": null,
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.onelouder.baconreader": null,
+                "com.onelouder.baconreader.premium": null
+            },
+            "options": []
+        },
+        {
             "name": "Disable ads",
             "description": null,
             "use": true,
@@ -1883,26 +1925,6 @@
                 "com.rubenmayayo.reddit": null
             },
             "options": []
-        },
-        {
-            "name": "Spoof user agent",
-            "description": "Restores functionality of the app by using custom user agent.",
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": null
-            },
-            "options": [
-                {
-                    "key": "user-agent",
-                    "title": "User agent",
-                    "description": "The app's user agent. User agent should be in the format \"<platform>:<app id>:<version> (by /u/<username>)\".",
-                    "required": true,
-                    "type": "kotlin.String",
-                    "default": null,
-                    "values": null
-                }
-            ]
         },
         {
             "name": "Spoof client",
@@ -1929,6 +1951,26 @@
                     "required": true,
                     "type": "kotlin.String",
                     "default": "http://127.0.0.1:8080",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Spoof user agent",
+            "description": "Restores functionality of the app by using custom user agent.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": null
+            },
+            "options": [
+                {
+                    "key": "user-agent",
+                    "title": "User agent",
+                    "description": "The app's user agent. User agent should be in the format \"<platform>:<app id>:<version> (by /u/<username>)\".",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": null,
                     "values": null
                 }
             ]
