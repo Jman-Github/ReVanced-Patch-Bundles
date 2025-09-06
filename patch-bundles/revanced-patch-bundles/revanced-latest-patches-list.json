@@ -1,5 +1,5 @@
 {
-    "version": "v5.35.0-dev.4",
+    "version": "v5.35.0-dev.5",
     "patches": [
         {
             "name": "Export all activities",
@@ -1330,6 +1330,16 @@
             ]
         },
         {
+            "name": "Hide Stories from Home",
+            "description": "Hides Stories from the main page, by removing the buttons.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "options": []
+        },
+        {
             "name": "Disable signature check",
             "description": "Disables the signature check that causes the app to crash on startup.",
             "use": true,
@@ -1902,6 +1912,19 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "name": "Fix Redgifs API",
+            "description": null,
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.onelouder.baconreader": null,
+                "com.onelouder.baconreader.premium": null
+            },
+            "options": []
         },
         {
             "name": "Disable ads",
