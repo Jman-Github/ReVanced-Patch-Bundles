@@ -1,5 +1,5 @@
 {
-    "version": "v3.12.0",
+    "version": "v3.13.0-dev.1",
     "patches": [
         {
             "name": "Spoof Wi-Fi connection",
@@ -14,6 +14,14 @@
         {
             "name": "Disable edge-to-edge display",
             "description": "Disable forced edge-to-edge display on Android 15+ by changing the app's target SDK version. This patch does not work if the app is installed by mounting.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": null,
+            "options": []
+        },
+        {
+            "name": "Override certificate pinning",
+            "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy.",
             "use": false,
             "dependencies": [],
             "compatiblePackages": null,
@@ -2317,6 +2325,26 @@
             "options": []
         },
         {
+            "name": "Set Transcript Cookies",
+            "description": "Adds an option to set Cookies in YouTube Transcript API requests.",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "Settings for YouTube",
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.05.36",
+                    "19.16.39",
+                    "19.43.41",
+                    "19.44.39",
+                    "19.47.53"
+                ]
+            },
+            "options": []
+        },
+        {
             "name": "Disable layout updates",
             "description": "Adds an option to disable layout updates by server.",
             "use": true,
@@ -2856,7 +2884,8 @@
             "description": "Adds an option for debugging and exporting RVX logs to the clipboard.",
             "use": true,
             "dependencies": [
-                "Settings for YouTube"
+                "Settings for YouTube",
+                "BytecodePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
