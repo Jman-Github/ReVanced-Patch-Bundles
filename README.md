@@ -399,7 +399,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/brosssh-patch-bundles/brosssh-stable-patches-bundle.json```
 
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/brosssh-patch-bundles/brossshh-dev-patches-bundle.json```
+**Dev:** ```ttps://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/brosssh-patch-bundles/brossshh-dev-patches-bundle.json```
 </details>
 
 ---
