@@ -1412,7 +1412,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Enable Premium``` | ```N/A``` | ```com.crunchyroll.crunchyroid``` | ```All versions``` |
 | ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```com.duolingo``` | ```All versions``` |
 | ```Unlock licensed songs``` | ```Allows playing the full version of licensed music instead of the 30-second preview.``` | ```com.duolingo``` | ```All versions``` |
-| ```Disable practice reminder nag``` | ```N/A``` | ```com.duolingo``` | ```All versions``` |
+| ```Disable practice reminder nag``` | ```N/A``` | ```com.duolingo``` | ```6.33.2``` |
 | ```Enable Super``` | ```N/A``` | ```com.duolingo``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.qbis.guessthecountry``` | ```All versions``` |
 | ```Unlock Pro``` | ```N/A``` | ```org.totschnig.myexpenses``` | ```3.9.8``` |
