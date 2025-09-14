@@ -1393,7 +1393,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Unlock Pro features``` | ```Unlocks Pro features. Most features in this app are server sided, so they can't be patched. This should unlock everything which is possible to patch.``` | ```com.hevy``` | ```2.0.0``` |
 | ```Unlock Premium features``` | ```Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.``` | ```de.komoot.android``` | ```2024.29.3``` |
 | ```Bypass signature check``` | ```N/A``` | ```cz.seznam.mapy``` | ```All versions``` |
-| ```Unlock premium features``` | ```N/A``` | ```cz.seznam.mapy``` | ```All versions``` |
+| ```Unlock premium features``` | ```N/A``` | ```cz.seznam.mapy``` | ```9.70.1``` |
 | ```Unlock Pro features``` | ```Unlock Pro features (park4night +). You have to be logged in with an account.``` | ```fr.tramb.park4night``` | ```7.1.11``` |
 
 </details>
