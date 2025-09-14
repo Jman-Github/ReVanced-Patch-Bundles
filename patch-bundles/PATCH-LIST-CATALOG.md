@@ -43,7 +43,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***230 Patches***
+***229 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Export all activities``` | ```Makes all app activities exportable.``` | ```Universal``` | ```All versions``` |
@@ -103,16 +103,16 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Remove Meta AI``` | ```Removes UI elements related to Meta AI.``` | ```com.facebook.orca``` | ```All versions``` |
 | ```Force English locale``` | ```Forces wearable devices to use the English locale.``` | ```com.xiaomi.wearable``` | ```All versions``` |
 | ```Fix login``` | ```Fixes login for uncertified Mi Fitness app``` | ```com.xiaomi.wearable``` | ```All versions``` |
-| ```Hide music video ads``` | ```Hides ads that appear while listening to or streaming music videos, podcasts, or songs.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
-| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
-| ```Permanent repeat``` | ```Permanently remember your repeating preference even if the playlist ends or another track is played.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
-| ```Hide category bar``` | ```Hides the category bar at the top of the homepage.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
-| ```Hide 'Get Music Premium' label``` | ```Hides the "Get Music Premium" label from the account menu and settings.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
-| ```Remove upgrade button``` | ```Removes the upgrade tab from the pivot bar.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
-| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
-| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
+| ```Hide music video ads``` | ```Hides ads that appear while listening to or streaming music videos, podcasts, or songs.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52``` |
+| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52``` |
+| ```Permanent repeat``` | ```Permanently remember your repeating preference even if the playlist ends or another track is played.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52``` |
+| ```Hide category bar``` | ```Hides the category bar at the top of the homepage.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52``` |
+| ```Hide 'Get Music Premium' label``` | ```Hides the "Get Music Premium" label from the account menu and settings.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52``` |
+| ```Remove upgrade button``` | ```Removes the upgrade tab from the pivot bar.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52``` |
+| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52``` |
+| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
-| ```Spoof client``` | ```Spoofs the client to fix playback.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
+| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52``` |
 | ```Unlock pro``` | ```N/A``` | ```org.totschnig.myexpenses``` | ```3.4.9``` |
 | ```Hide ads``` | ```Hides most of the ads across the app.``` | ```com.myfitnesspal.android``` | ```24.14.2``` |
 | ```Remove broadcasts restriction``` | ```Enables starting/stopping NetGuard via broadcasts.``` | ```eu.faircode.netguard``` | ```All versions``` |
@@ -171,7 +171,6 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Enable offline sync``` | ```N/A``` | ```com.soundcloud.android``` | ```2025.05.27-release``` |
 | ```Hide Create button``` | ```Hides the "Create" button in the navigation bar.``` | ```com.spotify.music``` | ```All versions``` |
 | ```Custom theme``` | ```Applies a custom theme (defaults to amoled black)``` | ```com.spotify.music``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks Spotify Premium features. Server-sided features like downloading songs are still locked.``` | ```com.spotify.music``` | ```All versions``` |
 | ```Spoof client``` | ```Spoofs the client to fix various functions of the app.``` | ```com.spotify.music``` | ```All versions``` |
 | ```Fix Facebook login``` | ```Fix logging in with Facebook when the app is patched by always opening the login in a web browser window.``` | ```com.spotify.music``` | ```All versions``` |
 | ```Change lyrics provider``` | ```Changes the lyrics provider to a custom one.``` | ```com.spotify.music``` | ```All versions``` |
