@@ -43,7 +43,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***230 Patches***
+***229 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Export all activities``` | ```Makes all app activities exportable.``` | ```Universal``` | ```All versions``` |
@@ -171,7 +171,6 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Enable offline sync``` | ```N/A``` | ```com.soundcloud.android``` | ```2025.05.27-release``` |
 | ```Hide Create button``` | ```Hides the "Create" button in the navigation bar.``` | ```com.spotify.music``` | ```All versions``` |
 | ```Custom theme``` | ```Applies a custom theme (defaults to amoled black)``` | ```com.spotify.music``` | ```All versions``` |
-| ```Spoof client``` | ```Spoofs the client to fix various functions of the app.``` | ```com.spotify.music``` | ```All versions``` |
 | ```Fix Facebook login``` | ```Fix logging in with Facebook when the app is patched by always opening the login in a web browser window.``` | ```com.spotify.music``` | ```All versions``` |
 | ```Change lyrics provider``` | ```Changes the lyrics provider to a custom one.``` | ```com.spotify.music``` | ```All versions``` |
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from links before they are shared.``` | ```com.spotify.music``` | ```All versions``` |
