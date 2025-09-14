@@ -43,7 +43,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***229 Patches***
+***230 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Export all activities``` | ```Makes all app activities exportable.``` | ```Universal``` | ```All versions``` |
@@ -215,6 +215,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Change link sharing domain``` | ```Replaces the domain name of Twitter links when sharing them.``` | ```com.twitter.android``` | ```10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0``` |
 | ```Open links with app chooser``` | ```Instead of opening links directly, open them with an app chooser. As a result you can select a browser to open the link with.``` | ```com.twitter.android``` | ```10.48.0-release.0``` |
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from links before they are shared.``` | ```com.twitter.android``` | ```10.86.0-release.0, 10.60.0-release.0, 10.48.0-release.0``` |
+| ```Hide Ads``` | ```Hides ad banners between chats.``` | ```com.viber.voip``` | ```All versions``` |
 | ```Promo code unlock``` | ```Disables the validation of promo code. Any code will work to unlock all features.``` | ```de.dwd.warnapp``` | ```4.2.2``` |
 | ```Hide ads``` | ```Hides all in-app ads.``` | ```at.willhaben``` | ```All versions``` |
 | ```Hide ads``` | ```Adds options to remove general ads.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46, 20.13.41``` |
