@@ -1,5 +1,5 @@
 {
-    "version": "v5.37.0-dev.4",
+    "version": "v5.37.0-dev.6",
     "patches": [
         {
             "name": "Export all activities",
@@ -1306,7 +1306,9 @@
             "use": false,
             "dependencies": [],
             "compatiblePackages": {
-                "com.instagram.android": null
+                "com.instagram.android": [
+                    "396.0.0.46.242"
+                ]
             },
             "options": [
                 {
@@ -3048,7 +3050,9 @@
             "use": true,
             "dependencies": [],
             "compatiblePackages": {
-                "com.viber.voip": null
+                "com.viber.voip": [
+                    "25.9.2.0"
+                ]
             },
             "options": []
         },
