@@ -1,5 +1,5 @@
 {
-    "version": "v5.37.0",
+    "version": "v5.38.0",
     "patches": [
         {
             "name": "Export all activities",
@@ -1301,13 +1301,23 @@
             "options": []
         },
         {
+            "name": "Hide explore feed",
+            "description": "Hides posts and reels from the explore/search page.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "options": []
+        },
+        {
             "name": "Hide navigation buttons",
             "description": "Hides navigation bar buttons, such as the Reels and Create button.",
             "use": false,
             "dependencies": [],
             "compatiblePackages": {
                 "com.instagram.android": [
-                    "396.0.0.46.242"
+                    "397.1.0.52.81"
                 ]
             },
             "options": [
@@ -1479,9 +1489,13 @@
         },
         {
             "name": "Hide music video ads",
-            "description": "Hides ads that appear while listening to or streaming music videos, podcasts, or songs.",
+            "description": "Adds an option to hide ads that appear while listening to or streaming music videos, podcasts, or songs.",
             "use": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52"
@@ -1493,7 +1507,10 @@
             "name": "Enable exclusive audio playback",
             "description": "Enables the option to play audio without video.",
             "use": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52"
@@ -1503,9 +1520,13 @@
         },
         {
             "name": "Permanent repeat",
-            "description": "Permanently remember your repeating preference even if the playlist ends or another track is played.",
-            "use": false,
-            "dependencies": [],
+            "description": "Adds an option to always repeat even if the playlist ends or another track is played.",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52"
@@ -1515,9 +1536,13 @@
         },
         {
             "name": "Hide category bar",
-            "description": "Hides the category bar at the top of the homepage.",
-            "use": false,
-            "dependencies": [],
+            "description": "Adds an option to hide the category bar at the top of the homepage.",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52"
@@ -1526,10 +1551,14 @@
             "options": []
         },
         {
-            "name": "Hide 'Get Music Premium' label",
-            "description": "Hides the \"Get Music Premium\" label from the account menu and settings.",
+            "name": "Hide 'Get Music Premium'",
+            "description": "Adds an option to hide the \"Get Music Premium\" label in the settings and account menu.",
             "use": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52"
@@ -1538,10 +1567,14 @@
             "options": []
         },
         {
-            "name": "Remove upgrade button",
-            "description": "Removes the upgrade tab from the pivot bar.",
+            "name": "Hide upgrade button",
+            "description": "Hides the upgrade tab from the pivot bar.",
             "use": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52"
@@ -1553,7 +1586,10 @@
             "name": "Bypass certificate checks",
             "description": "Bypasses certificate checks which prevent YouTube Music from working on Android Auto.",
             "use": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52"
@@ -1565,7 +1601,10 @@
             "name": "Remove background playback restrictions",
             "description": "Removes restrictions on background playback, including playing kids videos in the background.",
             "use": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52"
@@ -1606,9 +1645,10 @@
             "use": true,
             "dependencies": [
                 "BytecodePatch",
-                "ResourcePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
