@@ -1,5 +1,5 @@
 {
-    "version": "v5.10.1",
+    "version": "v5.11.1",
     "patches": [
         {
             "name": "Spoof Wi-Fi connection",
@@ -14,6 +14,14 @@
         {
             "name": "Disable edge-to-edge display",
             "description": "Disable forced edge-to-edge display on Android 15+ by changing the app's target SDK version. This patch does not work if the app is installed by mounting.",
+            "use": false,
+            "dependencies": [],
+            "compatiblePackages": null,
+            "options": []
+        },
+        {
+            "name": "Override certificate pinning",
+            "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy.",
             "use": false,
             "dependencies": [],
             "compatiblePackages": null,
@@ -783,29 +791,6 @@
             "options": []
         },
         {
-            "name": "Disable DRC audio",
-            "description": "Adds an option to disable DRC (Dynamic Range Compression) audio.",
-            "use": true,
-            "dependencies": [
-                "Settings for YouTube Music",
-                "ResourcePatch"
-            ],
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
-            "options": []
-        },
-        {
             "name": "Disable QUIC protocol",
             "description": "Adds an option to disable CronetEngine's QUIC protocol.",
             "use": true,
@@ -995,51 +980,6 @@
                 ]
             },
             "options": []
-        },
-        {
-            "name": "Fix playback",
-            "description": "Adds options to fix playback issues.",
-            "use": true,
-            "dependencies": [
-                "Settings for YouTube Music",
-                "Remove background playback restrictions",
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
-            "options": [
-                {
-                    "key": "spoofClient",
-                    "title": "Spoof client",
-                    "description": "Includes the 'Spoof client' patch.\n\nSide effect:\n• Action buttons or player flyout menus may not show properly.\n• These side effects may be resolved by clearing the app data and logging in again.\n\nSide effect (Block request):\n• App may be forced to close when using a VPN or DNS.",
-                    "required": true,
-                    "type": "kotlin.Boolean",
-                    "default": true,
-                    "values": null
-                },
-                {
-                    "key": "spoofVideoStreams",
-                    "title": "Spoof video streams",
-                    "description": "Includes the 'Spoof video streams' patch.\n\nSide effect:\n• App may be forced to close when using a DNS or VPN.\n• Audio may intermittently stutter during playback on adaptive bitrate streaming clients.",
-                    "required": true,
-                    "type": "kotlin.Boolean",
-                    "default": true,
-                    "values": null
-                }
-            ]
         },
         {
             "name": "GmsCore support",
@@ -1259,6 +1199,8 @@
             "use": true,
             "dependencies": [
                 "Settings for YouTube Music",
+                "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
@@ -2034,6 +1976,25 @@
             "options": []
         },
         {
+            "name": "Set Transcript Cookies",
+            "description": "Adds an option to set Cookies in YouTube Transcript API requests.",
+            "use": true,
+            "dependencies": [
+                "Settings for YouTube",
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.05.36",
+                    "19.16.39",
+                    "19.43.41",
+                    "19.44.39",
+                    "19.47.53"
+                ]
+            },
+            "options": []
+        },
+        {
             "name": "Disable layout updates",
             "description": "Adds an option to disable layout updates by server.",
             "use": true,
@@ -2535,7 +2496,8 @@
             "description": "Adds an option for debugging and exporting RVX logs to the clipboard.",
             "use": true,
             "dependencies": [
-                "Settings for YouTube"
+                "Settings for YouTube",
+                "BytecodePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
@@ -2966,7 +2928,7 @@
                     "description": "The icon type.",
                     "required": true,
                     "type": "kotlin.String",
-                    "default": "bold",
+                    "default": "thin",
                     "values": {
                         "Bold": "bold",
                         "Rounded": "rounded",
@@ -3001,7 +2963,7 @@
                     "description": "Change the icons at the top of the player.",
                     "required": true,
                     "type": "kotlin.Boolean",
-                    "default": false,
+                    "default": true,
                     "values": null
                 }
             ]
@@ -3105,55 +3067,6 @@
                 ]
             },
             "options": []
-        },
-        {
-            "name": "Spoof streaming data",
-            "description": "Adds options to spoof the streaming data to allow playback.",
-            "use": true,
-            "dependencies": [
-                "RawResourcePatch",
-                "Settings for YouTube",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch",
-                "ResourcePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53"
-                ]
-            },
-            "options": [
-                {
-                    "key": "outlineIcon",
-                    "title": "Outline icons",
-                    "description": "Apply the outline icon.",
-                    "required": true,
-                    "type": "kotlin.Boolean",
-                    "default": false,
-                    "values": null
-                },
-                {
-                    "key": "useMobileWebClient",
-                    "title": "Use Mobile Web client",
-                    "description": "Add Mobile Web to available clients.",
-                    "required": true,
-                    "type": "kotlin.Boolean",
-                    "default": false,
-                    "values": null
-                }
-            ]
         },
         {
             "name": "GmsCore support",
@@ -3363,17 +3276,7 @@
                     "19.47.53"
                 ]
             },
-            "options": [
-                {
-                    "key": "outlineIcon",
-                    "title": "Outline icons",
-                    "description": "Apply the outline icon.",
-                    "required": true,
-                    "type": "kotlin.Boolean",
-                    "default": false,
-                    "values": null
-                }
-            ]
+            "options": []
         },
         {
             "name": "Video playback",
@@ -3381,6 +3284,8 @@
             "use": true,
             "dependencies": [
                 "Settings for YouTube",
+                "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
