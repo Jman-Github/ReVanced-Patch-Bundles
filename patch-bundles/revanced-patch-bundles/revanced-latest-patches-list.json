@@ -1,5 +1,5 @@
 {
-    "version": "v5.40.0-dev.2",
+    "version": "v5.40.0-dev.3",
     "patches": [
         {
             "name": "Export all activities",
@@ -1303,7 +1303,7 @@
         {
             "name": "Limit feed to followed profiles",
             "description": "Filters the home feed to display only content from profiles you follow.",
-            "use": true,
+            "use": false,
             "dependencies": [
                 "BytecodePatch"
             ],
