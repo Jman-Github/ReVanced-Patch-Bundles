@@ -43,7 +43,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***232 Patches***
+***233 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Export all activities``` | ```Makes all app activities exportable.``` | ```Universal``` | ```All versions``` |
@@ -114,6 +114,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Hide 'Get Music Premium'``` | ```Adds an option to hide the "Get Music Premium" label in the settings and account menu.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52``` |
 | ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52``` |
 | ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52``` |
+| ```Enable debugging``` | ```Adds options for debugging and exporting ReVanced logs to the clipboard.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.youtube.music``` | ```All versions``` |
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52``` |
 | ```Unlock pro``` | ```N/A``` | ```org.totschnig.myexpenses``` | ```3.4.9``` |

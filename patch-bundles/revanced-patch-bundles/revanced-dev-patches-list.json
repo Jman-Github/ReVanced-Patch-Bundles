@@ -1,5 +1,5 @@
 {
-    "version": "v5.40.0-dev.5",
+    "version": "v5.40.0-dev.6",
     "patches": [
         {
             "name": "Export all activities",
@@ -1631,6 +1631,22 @@
             "description": "Removes restrictions on background playback, including playing kids videos in the background.",
             "use": true,
             "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Enable debugging",
+            "description": "Adds options for debugging and exporting ReVanced logs to the clipboard.",
+            "use": true,
+            "dependencies": [
+                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -4225,10 +4241,9 @@
             "description": "Adds options for debugging and exporting ReVanced logs to the clipboard.",
             "use": true,
             "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
                 "ResourcePatch",
-                "ResourcePatch"
+                "BytecodePatch",
+                "BytecodePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
