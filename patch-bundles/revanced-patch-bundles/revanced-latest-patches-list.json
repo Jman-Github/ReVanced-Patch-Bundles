@@ -1,5 +1,5 @@
 {
-    "version": "v5.40.0-dev.4",
+    "version": "v5.40.0-dev.5",
     "patches": [
         {
             "name": "Export all activities",
@@ -1547,6 +1547,22 @@
             "options": []
         },
         {
+            "name": "Hide cast button",
+            "description": "Adds an option to hide the cast button.",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52"
+                ]
+            },
+            "options": []
+        },
+        {
             "name": "Hide category bar",
             "description": "Adds an option to hide the category bar at the top of the homepage.",
             "use": true,
@@ -1563,10 +1579,11 @@
             "options": []
         },
         {
-            "name": "Hide 'Get Music Premium'",
-            "description": "Adds an option to hide the \"Get Music Premium\" label in the settings and account menu.",
+            "name": "Navigation bar",
+            "description": "Adds options to hide navigation bar, labels and buttons.",
             "use": true,
             "dependencies": [
+                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch"
@@ -1579,8 +1596,8 @@
             "options": []
         },
         {
-            "name": "Hide upgrade button",
-            "description": "Hides the upgrade tab from the pivot bar.",
+            "name": "Hide 'Get Music Premium'",
+            "description": "Adds an option to hide the \"Get Music Premium\" label in the settings and account menu.",
             "use": true,
             "dependencies": [
                 "BytecodePatch",
