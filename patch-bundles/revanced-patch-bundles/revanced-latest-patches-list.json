@@ -1,5 +1,5 @@
 {
-    "version": "v5.40.0",
+    "version": "v5.40.1-dev.1",
     "patches": [
         {
             "name": "Export all activities",
@@ -4459,7 +4459,7 @@
         },
         {
             "name": "Playback speed",
-            "description": "Adds options to customize available playback speeds, set default a playback speed, and show a speed dialog button in the video player.",
+            "description": "Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.",
             "use": true,
             "dependencies": [
                 "BytecodePatch",

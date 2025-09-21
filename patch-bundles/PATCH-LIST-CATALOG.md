@@ -278,7 +278,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Disable HDR video``` | ```Adds an option to disable video HDR.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Video quality``` | ```Adds options to use the advanced video quality menu and set default video qualities.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |
-| ```Playback speed``` | ```Adds options to customize available playback speeds, set default a playback speed, and show a speed dialog button in the video player.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |
+| ```Playback speed``` | ```Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |
 
 </details>
 
