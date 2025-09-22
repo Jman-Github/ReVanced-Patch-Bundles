@@ -265,7 +265,6 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Bypass image region restrictions``` | ```Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Announcements``` | ```Adds an option to show announcements from ReVanced on app startup.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |
-| ```Always repeat``` | ```Adds an option to always repeat videos when they end.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Enable debugging``` | ```Adds options for debugging and exporting ReVanced logs to the clipboard.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Spoof device dimensions``` | ```Adds an option to spoof the device dimensions which can unlock higher video qualities.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |
@@ -274,6 +273,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Disable haptic feedback``` | ```Adds an option to disable haptic feedback in the player for various actions.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Bypass URL redirects``` | ```Adds an option to bypass URL redirects and open the original URL directly.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Open links externally``` | ```Adds an option to always open links in your browser instead of the in-app browser.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |
+| ```Loop video``` | ```Adds an option to loop videos and display loop video button in the video player.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Sanitize sharing links``` | ```Adds an option to remove the tracking parameter from links you share.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```com.google.android.youtube``` | ```19.34.42, 19.43.41, 20.07.39, 20.13.41, 20.14.43``` |

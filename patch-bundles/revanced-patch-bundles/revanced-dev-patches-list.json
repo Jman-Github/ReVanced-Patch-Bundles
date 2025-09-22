@@ -1,5 +1,5 @@
 {
-    "version": "v5.41.0-dev.2",
+    "version": "v5.41.0-dev.3",
     "patches": [
         {
             "name": "Export all activities",
@@ -4179,25 +4179,6 @@
             "options": []
         },
         {
-            "name": "Always repeat",
-            "description": "Adds an option to always repeat videos when they end.",
-            "use": true,
-            "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.34.42",
-                    "19.43.41",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
-                ]
-            },
-            "options": []
-        },
-        {
             "name": "Remove background playback restrictions",
             "description": "Removes restrictions on background playback, including playing kids videos in the background.",
             "use": true,
@@ -4358,6 +4339,26 @@
             "description": "Adds an option to always open links in your browser instead of the in-app browser.",
             "use": true,
             "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.34.42",
+                    "19.43.41",
+                    "20.07.39",
+                    "20.13.41",
+                    "20.14.43"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Loop video",
+            "description": "Adds an option to loop videos and display loop video button in the video player.",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
                 "BytecodePatch"
             ],
             "compatiblePackages": {
