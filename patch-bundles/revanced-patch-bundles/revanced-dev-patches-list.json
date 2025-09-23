@@ -1,5 +1,5 @@
 {
-    "version": "v5.41.0-dev.7",
+    "version": "v5.41.0-dev.8",
     "patches": [
         {
             "name": "Export all activities",
@@ -1657,6 +1657,21 @@
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Check watch history domain name resolution",
+            "description": "Checks if the device DNS server is preventing user watch history from being saved.",
+            "use": true,
+            "dependencies": [
                 "BytecodePatch"
             ],
             "compatiblePackages": {
@@ -4217,8 +4232,7 @@
             "description": "Checks if the device DNS server is preventing user watch history from being saved.",
             "use": true,
             "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
