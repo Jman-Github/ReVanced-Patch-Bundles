@@ -1,5 +1,5 @@
 {
-    "version": "v5.41.0-dev.6",
+    "version": "v5.41.0-dev.7",
     "patches": [
         {
             "name": "Export all activities",
@@ -1678,7 +1678,10 @@
                 "Spoof video streams"
             ],
             "compatiblePackages": {
-                "com.google.android.apps.youtube.music": null
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52"
+                ]
             },
             "options": [
                 {
@@ -2903,6 +2906,18 @@
             "description": "Disables the popup suggesting to buy TumblrMart items for other people.",
             "use": true,
             "dependencies": [],
+            "compatiblePackages": {
+                "com.tumblr": null
+            },
+            "options": []
+        },
+        {
+            "name": "Disable Tumblr TV",
+            "description": "Removes the Tumblr TV navigation button from the bottom navigation bar.",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "compatiblePackages": {
                 "com.tumblr": null
             },
