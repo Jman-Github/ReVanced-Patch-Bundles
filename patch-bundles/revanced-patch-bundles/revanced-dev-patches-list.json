@@ -1,5 +1,5 @@
 {
-    "version": "v5.41.0-dev.10",
+    "version": "v5.41.0-dev.11",
     "patches": [
         {
             "name": "Export all activities",
@@ -4409,8 +4409,8 @@
             "options": []
         },
         {
-            "name": "Disable HDR video",
-            "description": "Adds an option to disable video HDR.",
+            "name": "disable video codecs",
+            "description": "Adds options to disable HDR and VP9 codecs.",
             "use": true,
             "dependencies": [
                 "BytecodePatch",
@@ -4430,7 +4430,7 @@
         },
         {
             "name": "Video quality",
-            "description": "Adds options to use the advanced video quality menu and set default video qualities.",
+            "description": "Adds options to use the advanced video quality menu, set default video qualities, and disable video codecs such as VP9/HDR.",
             "use": true,
             "dependencies": [
                 "BytecodePatch",
