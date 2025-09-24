@@ -14,6 +14,18 @@ data class BundleFile(
 )
 
 @Serializable
+data class LegacyBundleAsset(
+    val version: String? = null,
+    val url: String? = null
+)
+
+@Serializable
+data class LegacyBundleFile(
+    val patches: LegacyBundleAsset? = null,
+    val integrations: LegacyBundleAsset? = null
+)
+
+@Serializable
 data class LocalPatchesFile(
     val version: String,
     val patches: JsonArray
