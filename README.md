@@ -52,16 +52,16 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Piko-Patches-Bundle:
+### 📦 Piko-Patches-Bundle [API v4]:
 [🧩 Piko Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-piko-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/piko-patch-bundles/piko-latest-patches-bundle.json```
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/piko-patch-bundles/piko-latest-patches-bundle.json``` - API v4
 
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/piko-patch-bundles/piko-stable-patches-bundle.json```
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/piko-patch-bundles/piko-stable-patches-bundle.json``` - API v3
 
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/piko-patch-bundles/piko-dev-patches-bundle.json```
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/piko-patch-bundles/piko-dev-patches-bundle.json``` - API v4
 </details>
 
 ---
@@ -562,8 +562,6 @@ https://github.com/ReVanced/revanced-manager/actions/runs/17947285911/artifacts/
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*
-
-#### ⛓ [Piko-Patches-Bundle](https://github.com/crimera/revanced-integrations)
 
 #### ⛓ [BiliRoamingM-Patches-Bundle](https://github.com/sakarie9/BiliRoamingM)
 
