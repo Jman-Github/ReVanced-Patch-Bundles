@@ -107,12 +107,38 @@ jobs:
         if: env.has_changes == 'true' && env.changed_files != ''
         run: python build_updated_bundles.py
 
+      - name: Record commit SHA
+        if: env.has_changes == 'true'
+        id: record_sha
+        shell: bash
+        run: |
+          SHA="$(git rev-parse HEAD)"
+          SHORT_SHA="$(git rev-parse --short HEAD)"
+          URL="https://github.com/${{ github.repository }}/commit/$SHA"
+          {
+            echo "sha=$SHA"
+            echo "short_sha=$SHORT_SHA"
+            echo "url=$URL"
+          } > commit_info.txt
+          echo "$SHA" > commit_sha.txt
+          echo "commit_sha=$SHA" >> "$GITHUB_ENV"
+          echo "commit_url=$URL" >> "$GITHUB_ENV"
+
       - name: Push changes
         if: env.has_changes == 'true'
         uses: ad-m/github-push-action@v0.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: bundles
+
+      - name: Create artifact of commit SHA
+        if: env.has_changes == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: commit_sha
+          path: |
+            commit_sha.txt
+            commit_info.txt
 
       - name: Create artifact of changed files
         if: env.has_changes == 'true' && env.changed_files != ''
