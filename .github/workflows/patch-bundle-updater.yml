@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: '*/30 * * * *'
 
+permissions:
+  contents: write
+
 jobs:
   check_for_updates:
     name: Check for bundle updates
@@ -15,20 +18,21 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@main
+        uses: actions/checkout@v4
         with:
           persist-credentials: false
           fetch-depth: 0
+          ref: bundles
 
       - name: Set up Python
-        uses: actions/setup-python@main
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
+          distribution: temurin
           java-version: '17'
 
       - name: Install dependencies
@@ -66,6 +70,11 @@ jobs:
           python generate_patch_list_catalog.py
           black generate_patch_list_catalog.py
 
+      - name: Configure Git user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Commit new files
         run: |
           git add '*.json' patch-bundles/PATCH-LIST-CATALOG.md
@@ -80,109 +89,41 @@ jobs:
       - name: Find commit for changed files
         id: find_commit
         if: env.has_changes == 'true'
+        shell: bash
         run: |
-          changed_files=$(git diff --name-only HEAD^ HEAD -- '*.json' patch-bundles/PATCH-LIST-CATALOG.md)
+          if git rev-parse --verify HEAD~1 >/dev/null 2>&1; then
+            changed_files="$(git diff --name-only HEAD~1 HEAD -- '*.json' patch-bundles/PATCH-LIST-CATALOG.md)"
+          else
+            changed_files="$(git show --name-only --pretty='' HEAD -- '*.json' patch-bundles/PATCH-LIST-CATALOG.md)"
+          fi
           if [ -z "$changed_files" ]; then
-            echo "changed_files=" >> $GITHUB_ENV
+            echo "changed_files=" >> "$GITHUB_ENV"
           else
             printf "%s\n" "$changed_files" > changed_files.txt
-            echo "changed_files=changed_files.txt" >> $GITHUB_ENV
+            echo "changed_files=changed_files.txt" >> "$GITHUB_ENV"
           fi
 
       - name: Build summary of updated bundles
         if: env.has_changes == 'true' && env.changed_files != ''
-        shell: bash
-        run: |
-          python3 - <<'PY'
-import os, subprocess, json, re
-
-def read_git(rev, path):
-    try:
-        return subprocess.check_output(['git', 'show', f'{rev}:{path}'], text=True)
-    except subprocess.CalledProcessError:
-        return ''
-
-def resolve_path(path):
-    if '/' in path:
-        return path
-    try:
-        matches = subprocess.check_output(['git', 'ls-files', f'**/{path}'], text=True).splitlines()
-    except subprocess.CalledProcessError:
-        matches = []
-    if not matches:
-        return None
-    exact = [item for item in matches if item.endswith('/' + path)]
-    return exact[0] if exact else matches[0]
-
-def get_version(s):
-    if not s:
-        return None
-    try:
-        data = json.loads(s)
-        for k in ['version', 'Version', 'bundleVersion', 'patchesVersion', 'latestVersion']:
-            if isinstance(data, dict) and k in data and isinstance(data[k], str):
-                return data[k]
-    except Exception:
-        pass
-    m = re.search(r'"(?:version|Version|latestVersion)"\s*:\s*"([^"]+)"', s)
-    return m.group(1) if m else None
-
-try:
-    with open('changed_files.txt', 'r', encoding='utf-8') as fh:
-        changed = [l.strip() for l in fh if l.strip()]
-except OSError:
-    changed = []
-
-targets = [n for n in changed if n.endswith('-patches-bundle.json')]
-
-if not targets:
-    with open(os.environ['GITHUB_ENV'], 'a', encoding='utf-8') as env:
-        env.write('has_bundle_updates=false\n')
-    raise SystemExit(0)
-
-lines = []
-for path in targets:
-    repo_path = resolve_path(path)
-    if not repo_path:
-        continue
-    new = read_git('HEAD', repo_path)
-    old = read_git('HEAD^', repo_path)
-    v_new = get_version(new) or '?'
-    v_old = get_version(old) or '?'
-    name = repo_path.rsplit('/', 1)[-1]
-    lines.append(f"{name.replace('-patches-bundle.json','')}: {v_old} ---> {v_new}")
-
-if not lines:
-    with open(os.environ['GITHUB_ENV'], 'a', encoding='utf-8') as env:
-        env.write('has_bundle_updates=false\n')
-    raise SystemExit(0)
-
-with open('updated-bundles.txt', 'w', encoding='utf-8') as out:
-    out.write("\n".join(lines))
-
-with open(os.environ['GITHUB_ENV'], 'a', encoding='utf-8') as env:
-    env.write('has_bundle_updates=true\n')
-
-print("\n".join(lines))
-PY
+        run: python build_updated_bundles.py
 
       - name: Push changes
         if: env.has_changes == 'true'
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@v0.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: bundles
 
       - name: Create artifact of changed files
         if: env.has_changes == 'true' && env.changed_files != ''
-        uses: actions/upload-artifact@main
+        uses: actions/upload-artifact@v4
         with:
           name: changed_files
           path: changed_files.txt
 
       - name: Create artifact of updated bundles
         if: env.has_changes == 'true' && env.changed_files != '' && env.has_bundle_updates == 'true'
-        uses: actions/upload-artifact@main
+        uses: actions/upload-artifact@v4
         with:
           name: updated_bundles
           path: updated-bundles.txt
