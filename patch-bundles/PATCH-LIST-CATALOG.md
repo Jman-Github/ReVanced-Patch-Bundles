@@ -279,7 +279,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Sanitize sharing links``` | ```Adds an option to remove the tracking parameter from links you share.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
-| ```disable video codecs``` | ```Adds options to disable HDR and VP9 codecs.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
+| ```Disable video codecs``` | ```Adds options to disable HDR and VP9 codecs.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Video quality``` | ```Adds options to use the advanced video quality menu, set default video qualities, and disable video codecs such as VP9/HDR.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Playback speed``` | ```Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 

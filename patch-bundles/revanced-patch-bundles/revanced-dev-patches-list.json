@@ -1,5 +1,5 @@
 {
-    "version": "v5.41.0-dev.11",
+    "version": "v5.41.0-dev.12",
     "patches": [
         {
             "name": "Export all activities",
@@ -4409,7 +4409,7 @@
             "options": []
         },
         {
-            "name": "disable video codecs",
+            "name": "Disable video codecs",
             "description": "Adds options to disable HDR and VP9 codecs.",
             "use": true,
             "dependencies": [
