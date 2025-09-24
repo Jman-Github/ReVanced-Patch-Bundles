@@ -1927,26 +1927,6 @@
             "options": []
         },
         {
-            "name": "Spoof user agent",
-            "description": "Restores functionality of the app by using custom user agent.",
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": null
-            },
-            "options": [
-                {
-                    "key": "user-agent",
-                    "title": "User agent",
-                    "description": "The app's user agent. User agent should be in the format \"<platform>:<app id>:<version> (by /u/<username>)\".",
-                    "required": true,
-                    "type": "kotlin.String",
-                    "default": null,
-                    "values": null
-                }
-            ]
-        },
-        {
             "name": "Spoof client",
             "description": "Restores functionality of the app by using custom client ID.",
             "use": true,
@@ -1971,6 +1951,26 @@
                     "required": true,
                     "type": "kotlin.String",
                     "default": "http://127.0.0.1:8080",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Spoof user agent",
+            "description": "Restores functionality of the app by using custom user agent.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": null
+            },
+            "options": [
+                {
+                    "key": "user-agent",
+                    "title": "User agent",
+                    "description": "The app's user agent. User agent should be in the format \"<platform>:<app id>:<version> (by /u/<username>)\".",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": null,
                     "values": null
                 }
             ]
