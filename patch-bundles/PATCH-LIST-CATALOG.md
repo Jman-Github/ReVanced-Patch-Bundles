@@ -572,7 +572,64 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
+***55 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Remove Ads``` | ```Removed promoted posts, trends and google ads``` | ```com.twitter.android``` | ```All versions``` |
+| ```Hide timeline posts by category``` | ```Hides different post category like who to follow, news today etc from timeline.``` | ```com.twitter.android``` | ```All versions``` |
+| ```Disable chirp font``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Hide bookmark icon in timeline``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Hide FAB Menu Buttons``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Hide immersive player``` | ```Removes swipe up for more videos in video player``` | ```com.twitter.android``` | ```All versions``` |
+| ```Remove view count``` | ```Removes the view count from the bottom of tweets``` | ```com.twitter.android``` | ```All versions``` |
+| ```Hook feature flag``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Custom download folder``` | ```Change the download directory for video downloads``` | ```com.twitter.android``` | ```All versions``` |
+| ```Add ability to copy media link``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Clear tracking params``` | ```Removes tracking parameters when sharing links``` | ```com.twitter.android``` | ```All versions``` |
+| ```Custom sharing domain``` | ```Allows for using domains like fxtwitter when sharing tweets/posts.``` | ```com.twitter.android``` | ```All versions``` |
+| ```No shortened URL``` | ```Get rid of t.co short urls.``` | ```com.twitter.android``` | ```All versions``` |
+| ```Log server response``` | ```Log json responses received from server``` | ```com.twitter.android``` | ```All versions``` |
+| ```Bring back twitter``` | ```Bring back old twitter logo and name``` | ```com.twitter.android``` | ```All versions``` |
+| ```Customize explore tabs``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Customize Inline action Bar items``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Customize Navigation Bar items``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Customise post font size``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Customize profile tabs``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Customize default reply sorting``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Customize search tab items``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Customize side bar items``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Customize timeline top bar``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Customize search suggestions``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Hide FAB``` | ```Adds an option to hide Floating action button``` | ```com.twitter.android``` | ```All versions``` |
+| ```Hide Recommended Users``` | ```Hide recommended users that pops up when you follow someone``` | ```com.twitter.android``` | ```All versions``` |
+| ```Round off numbers``` | ```Enable or disable rounding off numbers``` | ```com.twitter.android``` | ```All versions``` |
+| ```Selectable Text``` | ```Makes bio and username selectable``` | ```com.twitter.android``` | ```All versions``` |
+| ```Enable debug menu for posts``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Custom downloader``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
+| ```Native reader mode``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
+| ```Custom translator``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
+| ```Enable PiP mode automatically``` | ```Enables PiP mode when you close the app``` | ```com.twitter.android``` | ```All versions``` |
+| ```Enable Undo Posts``` | ```Enables ability to undo posts before posting``` | ```com.twitter.android``` | ```All versions``` |
+| ```Download patch``` | ```Unlocks the ability to download videos and gifs from Twitter/X``` | ```com.twitter.android``` | ```All versions``` |
+| ```Hide Banner``` | ```Hide new post banner``` | ```com.twitter.android``` | ```All versions``` |
+| ```Delete from database``` | ```Delete entries from database(cache)``` | ```com.twitter.android``` | ```All versions``` |
+| ```Disable auto timeline scroll on launch``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Control video auto scroll``` | ```Control video auto scroll in immersive view``` | ```com.twitter.android``` | ```All versions``` |
+| ```Enable force HD videos``` | ```Videos will be played in highest quality always``` | ```com.twitter.android``` | ```All versions``` |
+| ```Hide community badges``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Hide hidden replies``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Hide nudge button``` | ```Hides follow/subscribe/follow back buttons on posts``` | ```com.twitter.android``` | ```All versions``` |
+| ```Hide followed by context``` | ```Hides followed by context under profile``` | ```com.twitter.android``` | ```All versions``` |
+| ```Hide Live Threads``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Remove premium upsell``` | ```Removes premium upsell in home timeline``` | ```com.twitter.android``` | ```All versions``` |
+| ```Show sensitive media``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Show post source label``` | ```Source label will be shown only on public posts``` | ```com.twitter.android``` | ```All versions``` |
+| ```Show poll results``` | ```Adds an option to show poll results without voting``` | ```com.twitter.android``` | ```All versions``` |
+| ```Force enable translate``` | ```Get translate option for all posts``` | ```com.twitter.android``` | ```All versions``` |
+| ```Hide Community Notes``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Hide promote button``` | ```Hides promote button under self posts``` | ```com.twitter.android``` | ```All versions``` |
+| ```Export all activities``` | ```Makes all app activities exportable.``` | ```Universal``` | ```All versions``` |
+| ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
