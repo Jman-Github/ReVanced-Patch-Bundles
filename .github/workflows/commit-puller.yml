@@ -9,6 +9,9 @@ on:
 
 jobs:
   get-artifact:
+    concurrency:
+      group: commit-puller-${{ github.ref }}
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     steps:
       - name: Download Prior Artifact
@@ -23,6 +26,7 @@ jobs:
           artifact_name: 'changed_files'
           download_path: 'ReVanced-Patch-Bundles'
           download_filename: 'changed_files.zip'
+        continue-on-error: true
 
       - name: Check if artifact was downloaded
         if: steps.download_artifact.outputs.artifact_downloaded != 'true'
@@ -31,19 +35,58 @@ jobs:
           exit 0
 
       - name: Install dependencies
+        if: steps.download_artifact.outputs.artifact_downloaded == 'true'
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          python -m pip install requests
 
       - name: Checkout repository
+        if: steps.download_artifact.outputs.artifact_downloaded == 'true'
         uses: actions/checkout@main
 
+      - name: Download processed commits artifact
+        if: steps.download_artifact.outputs.artifact_downloaded == 'true'
+        id: download_commit_state
+        uses: benday-inc/download-latest-artifact@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository_owner: 'Jman-Github'
+          repository_name: 'ReVanced-Patch-Bundles'
+          workflow_name: 'Commit puller'
+          branch_name: 'bundles'
+          artifact_name: 'commit-puller-state'
+          download_path: 'ReVanced-Patch-Bundles'
+          download_filename: 'commit-puller-state.zip'
+        continue-on-error: true
+
+      - name: Prepare commit state
+        if: steps.download_artifact.outputs.artifact_downloaded == 'true'
+        run: |
+          mkdir -p commit_state
+          if [ -f ReVanced-Patch-Bundles/commit-puller-state.zip ]; then
+            unzip -o ReVanced-Patch-Bundles/commit-puller-state.zip -d .
+          fi
+
       - name: Run find_commit.py script
+        if: steps.download_artifact.outputs.artifact_downloaded == 'true'
+        env:
+          COMMIT_STATE_FILE: commit_state/processed_commits.json
+          COMMIT_LINK_FILE: commit-link.txt
+          COMMIT_STATE_LIMIT: 256
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python find_commit.py
 
       - name: Create commit link artifact
+        if: steps.download_artifact.outputs.artifact_downloaded == 'true'
         uses: actions/upload-artifact@main
         with:
           name: commit-link
           path: commit-link.txt
+
+      - name: Upload processed commits artifact
+        if: steps.download_artifact.outputs.artifact_downloaded == 'true'
+        uses: actions/upload-artifact@main
+        with:
+          name: commit-puller-state
+          path: commit_state/processed_commits.json
