@@ -6,6 +6,10 @@ import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonArray
 import kotlinx.serialization.json.JsonElement
+import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.JsonPrimitive
+import kotlinx.serialization.json.buildJsonObject
+import kotlinx.serialization.json.contentOrNull
 import kotlinx.serialization.json.jsonArray
 import java.io.File
 import java.io.FileNotFoundException
@@ -199,11 +203,48 @@ private fun readExistingPatches(file: File): LocalPatchesFile? {
     }
 }
 
+private fun canonicalizeElement(element: JsonElement): JsonElement {
+    return when (element) {
+        is JsonObject -> {
+            val sortedKeys = element.keys.sorted()
+            buildJsonObject {
+                for (key in sortedKeys) {
+                    put(key, canonicalizeElement(element.getValue(key)))
+                }
+            }
+        }
+        is JsonArray -> JsonArray(element.map(::canonicalizeElement))
+        else -> element
+    }
+}
+
+private fun extractPatchName(element: JsonElement): String {
+    val obj = element as? JsonObject ?: return ""
+    val primitive = obj["name"] as? JsonPrimitive ?: return ""
+    return primitive.contentOrNull?.trim() ?: ""
+}
+
+private fun canonicalizePatchArray(patches: JsonArray): JsonArray {
+    val canonicalized = patches.mapIndexed { index, element ->
+        Triple(index, extractPatchName(element), canonicalizeElement(element))
+    }
+    val comparator = compareBy<Triple<Int, String, JsonElement>> { it.second.lowercase(Locale.ROOT) }
+        .thenBy { it.second }
+        .thenBy { it.first }
+    val sorted = canonicalized.sortedWith(comparator).map { it.third }
+    return JsonArray(sorted)
+}
+
 private fun generatePatchList(downloadUri: URI): JsonArray? {
     return try {
         val jsonText = generatePatchesFromUrl(downloadUri)
         val element: JsonElement = Json.parseToJsonElement(jsonText)
-        element.jsonArray
+        val array = element as? JsonArray
+        if (array == null) {
+            Logger.warning("Generated patches are not a JSON array.")
+            return null
+        }
+        canonicalizePatchArray(array)
     } catch (_: FileNotFoundException) {
         Logger.warning("The .rvp file was not found.")
         null
