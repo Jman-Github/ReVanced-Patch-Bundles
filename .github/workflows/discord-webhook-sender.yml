@@ -116,6 +116,37 @@ jobs:
               except OSError:
                   return ''
 
+          def shorten_paths(text):
+              lines = text.splitlines()
+              adjusted = []
+              for line in lines:
+                  if not line.strip():
+                      adjusted.append('')
+                      continue
+                  trimmed = line.lstrip()
+                  leading = line[: len(line) - len(trimmed)]
+                  marker = ''
+                  remainder = trimmed
+                  if remainder and remainder[0] in '-*•':
+                      marker = remainder[0]
+                      remainder = remainder[1:]
+                      if remainder.startswith(' '):
+                          remainder = remainder[1:]
+                          prefix = leading + marker + ' '
+                      else:
+                          prefix = leading + marker
+                  else:
+                      prefix = leading
+                  content = remainder.strip()
+                  if '/' in content:
+                      content = content.rsplit('/', 1)[-1]
+                  adjusted.append(prefix + content)
+              while adjusted and adjusted[0] == '':
+                  adjusted.pop(0)
+              while adjusted and adjusted[-1] == '':
+                  adjusted.pop()
+              return '\n'.join(adjusted)
+
           changes_file = pick_exact('ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt')
           summary_file = pick_exact('ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt')
           commit_file  = pick_exact('ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt')
@@ -124,7 +155,8 @@ jobs:
           summary = read_trimmed(summary_file)
           commit  = read_trimmed(commit_file)
 
-          changes_text = changes if changes else 'N/A'
+          formatted_changes = shorten_paths(changes) if changes else ''
+          changes_text = formatted_changes if formatted_changes.strip() else 'N/A'
           summary_text = summary if summary else 'N/A'
 
           changes_section = f"**Changes:**\n```\n{changes_text}\n```"
