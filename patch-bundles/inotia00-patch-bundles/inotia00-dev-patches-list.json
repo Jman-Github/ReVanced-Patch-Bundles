@@ -1,5 +1,5 @@
 {
-    "version": "v5.12.1-dev.1",
+    "version": "v5.12.1-dev.2",
     "patches": [
         {
             "name": "Spoof Wi-Fi connection",
@@ -1921,7 +1921,8 @@
             "use": true,
             "dependencies": [
                 "ResourcePatch",
-                "Settings for YouTube"
+                "Settings for YouTube",
+                "ResourcePatch"
             ],
             "compatiblePackages": {
                 "com.google.android.youtube": [
