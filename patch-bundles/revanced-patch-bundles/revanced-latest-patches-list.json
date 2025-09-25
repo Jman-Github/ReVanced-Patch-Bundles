@@ -1,5 +1,5 @@
 {
-    "version": "v5.41.0-dev.14",
+    "version": "v5.41.0-dev.15",
     "patches": [
         {
             "name": "Export all activities",
@@ -1712,7 +1712,7 @@
         },
         {
             "name": "Sanitize sharing links",
-            "description": "Adds an option to remove the tracking parameter from links you share.",
+            "description": "Adds an option to remove the tracking query parameter from shared links.",
             "use": true,
             "dependencies": [
                 "BytecodePatch",
@@ -4351,7 +4351,7 @@
         },
         {
             "name": "Sanitize sharing links",
-            "description": "Adds an option to remove the tracking parameter from links you share.",
+            "description": "Adds an option to remove the tracking query parameter from shared links.",
             "use": true,
             "dependencies": [
                 "BytecodePatch",
