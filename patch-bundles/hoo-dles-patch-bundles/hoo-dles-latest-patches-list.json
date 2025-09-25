@@ -2,163 +2,163 @@
     "version": "v1.4.1-dev.1",
     "patches": [
         {
-            "name": "Change package name",
-            "description": "Appends \".revanced\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
-            "use": false,
-            "dependencies": [],
             "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Appends \".revanced\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+            "name": "Change package name",
             "options": [
                 {
-                    "key": "packageName",
-                    "title": "Package name",
-                    "description": "The name of the package to rename the app to.",
-                    "required": true,
-                    "type": "kotlin.String",
                     "default": "Default",
+                    "description": "The name of the package to rename the app to.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
                     "values": {
                         "Default": "Default"
                     }
                 },
                 {
-                    "key": "updatePermissions",
-                    "title": "Update permissions",
-                    "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
-                    "required": false,
-                    "type": "kotlin.Boolean",
                     "default": false,
+                    "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "key": "updatePermissions",
+                    "required": false,
+                    "title": "Update permissions",
+                    "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
-                    "key": "updateProviders",
-                    "title": "Update providers",
-                    "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
-                    "required": false,
-                    "type": "kotlin.Boolean",
                     "default": false,
+                    "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "key": "updateProviders",
+                    "required": false,
+                    "title": "Update providers",
+                    "type": "kotlin.Boolean",
                     "values": null
                 }
-            ]
+            ],
+            "use": false
         },
         {
-            "name": "Enable Premium",
-            "description": null,
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "com.crunchyroll.crunchyroid": null
-            },
-            "options": []
-        },
-        {
-            "name": "Enable debug mode",
-            "description": "Enables hidden debug menu in settings.",
-            "use": false,
-            "dependencies": [],
-            "compatiblePackages": {
-                "com.duolingo": null
-            },
-            "options": []
-        },
-        {
-            "name": "Unlock licensed songs",
-            "description": "Allows playing the full version of licensed music instead of the 30-second preview.",
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "com.duolingo": null
-            },
-            "options": []
-        },
-        {
-            "name": "Disable practice reminder nag",
-            "description": null,
-            "use": true,
-            "dependencies": [],
             "compatiblePackages": {
                 "com.duolingo": [
                     "6.33.2"
                 ]
             },
-            "options": []
+            "dependencies": [],
+            "description": null,
+            "name": "Disable practice reminder nag",
+            "options": [],
+            "use": true
         },
         {
-            "name": "Enable Super",
-            "description": null,
-            "use": true,
-            "dependencies": [],
             "compatiblePackages": {
                 "com.duolingo": null
             },
-            "options": []
+            "dependencies": [],
+            "description": "Enables hidden debug menu in settings.",
+            "name": "Enable debug mode",
+            "options": [],
+            "use": false
         },
         {
-            "name": "Enable Premium",
-            "description": null,
-            "use": true,
+            "compatiblePackages": {
+                "com.crunchyroll.crunchyroid": null
+            },
             "dependencies": [],
+            "description": null,
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
             "compatiblePackages": {
                 "com.qbis.guessthecountry": null
             },
-            "options": []
-        },
-        {
-            "name": "Unlock Pro",
-            "description": null,
-            "use": true,
             "dependencies": [],
-            "compatiblePackages": {
-                "org.totschnig.myexpenses": [
-                    "3.9.8"
-                ]
-            },
-            "options": []
+            "description": null,
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
         },
         {
-            "name": "GmsCore support",
-            "description": "Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services.",
-            "use": true,
+            "compatiblePackages": {
+                "net.teuida.teuida": null
+            },
+            "dependencies": [],
+            "description": "Enables premium paid subscription.",
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.duolingo": null
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Enable Super",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "net.teuida.teuida": null
+            },
             "dependencies": [
                 "Change package name",
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "compatiblePackages": {
-                "net.teuida.teuida": null
-            },
+            "description": "Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services.",
+            "name": "GmsCore support",
             "options": [
                 {
-                    "key": "gmsCoreVendorGroupId",
-                    "title": "GmsCore vendor group ID",
-                    "description": "The vendor's group ID for GmsCore.",
-                    "required": true,
-                    "type": "kotlin.String",
                     "default": "app.revanced",
+                    "description": "The vendor's group ID for GmsCore.",
+                    "key": "gmsCoreVendorGroupId",
+                    "required": true,
+                    "title": "GmsCore vendor group ID",
+                    "type": "kotlin.String",
                     "values": {
                         "ReVanced": "app.revanced"
                     }
                 }
-            ]
+            ],
+            "use": true
         },
         {
-            "name": "Enable Premium",
-            "description": "Enables premium paid subscription.",
-            "use": true,
-            "dependencies": [],
             "compatiblePackages": {
-                "net.teuida.teuida": null
+                "com.duolingo": null
             },
-            "options": []
+            "dependencies": [],
+            "description": "Allows playing the full version of licensed music instead of the 30-second preview.",
+            "name": "Unlock licensed songs",
+            "options": [],
+            "use": true
         },
         {
-            "name": "Unlock Premium",
-            "description": null,
-            "use": true,
-            "dependencies": [],
             "compatiblePackages": {
                 "com.merriamwebster": null
             },
-            "options": []
+            "dependencies": [],
+            "description": null,
+            "name": "Unlock Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "org.totschnig.myexpenses": [
+                    "3.9.8"
+                ]
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Unlock Pro",
+            "options": [],
+            "use": true
         }
     ]
 }

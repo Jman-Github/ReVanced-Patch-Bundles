@@ -2,195 +2,195 @@
     "version": "v1.10.0-dev.1",
     "patches": [
         {
-            "name": "Change package name",
-            "description": "Appends \".revanced\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
-            "use": false,
+            "compatiblePackages": {
+                "org.telegram.messenger": null,
+                "org.telegram.messenger.web": null,
+                "uz.unnarsx.cherrygram": null
+            },
             "dependencies": [],
+            "description": "Bypass integrity check to allow login",
+            "name": "Bypass Integrity",
+            "options": [],
+            "use": true
+        },
+        {
             "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Appends \".revanced\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+            "name": "Change package name",
             "options": [
                 {
-                    "key": "packageName",
-                    "title": "Package name",
-                    "description": "The name of the package to rename the app to.",
-                    "required": true,
-                    "type": "kotlin.String",
                     "default": "Default",
+                    "description": "The name of the package to rename the app to.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
                     "values": {
                         "Default": "Default"
                     }
                 }
-            ]
+            ],
+            "use": false
         },
         {
-            "name": "Deobfuscate Smob",
-            "description": null,
-            "use": false,
-            "dependencies": [],
             "compatiblePackages": null,
-            "options": []
+            "dependencies": [],
+            "description": null,
+            "name": "Deobfuscate Smob",
+            "options": [],
+            "use": false
         },
         {
-            "name": "Hide Ads",
-            "description": "Hides ads in stories, discover, profile, etc. An ad can still appear once when refreshing the home feed.",
-            "use": true,
+            "compatiblePackages": {
+                "org.telegram.messenger": null,
+                "org.telegram.messenger.web": null,
+                "uz.unnarsx.cherrygram": null
+            },
             "dependencies": [],
+            "description": "Disable Auto Update",
+            "name": "Disable Auto Update",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [],
+            "description": "Disables the signature check that causes the app to crash on startup.",
+            "name": "Disable signature check",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "org.telegram.messenger": null,
+                "org.telegram.messenger.web": null,
+                "uz.unnarsx.cherrygram": null
+            },
+            "dependencies": [],
+            "description": "Boosts download speed",
+            "name": "Download Speed Boost",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [],
+            "description": "Enables the developer menu.",
+            "name": "Enable Developer Menu",
+            "options": [],
+            "use": true
+        },
+        {
             "compatiblePackages": {
                 "com.instagram.android": null,
                 "com.instagram.barcelona": null
             },
-            "options": []
+            "dependencies": [],
+            "description": "Hides ads in stories, discover, profile, etc. An ad can still appear once when refreshing the home feed.",
+            "name": "Hide Ads",
+            "options": [],
+            "use": true
         },
         {
-            "name": "Selectable Bio",
-            "description": "Makes user's bio selectable.",
-            "use": true,
+            "compatiblePackages": {
+                "org.telegram.messenger": null,
+                "org.telegram.messenger.web": null,
+                "uz.unnarsx.cherrygram": null
+            },
             "dependencies": [],
+            "description": "Hides sponsored ads in channels",
+            "name": "Hide sponsored ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "app.revanced.android.youtube": null,
+                "com.google.android.youtube": null
+            },
+            "dependencies": [],
+            "description": "Hides the subtitle toast when toggling subtitles on/off and when changing subtitles",
+            "name": "Hide subtitle toast",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "org.telegram.messenger": null,
+                "org.telegram.messenger.web": null,
+                "uz.unnarsx.cherrygram": null
+            },
+            "dependencies": [],
+            "description": "Hides your typing indicator from other users",
+            "name": "Hide typing indicator",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "app.revanced.android.youtube": null,
+                "com.google.android.youtube": null
+            },
+            "dependencies": [],
+            "description": "Adds a large pause button to the player",
+            "name": "Large pause button",
+            "options": [],
+            "use": true
+        },
+        {
             "compatiblePackages": {
                 "com.instagram.android": null
             },
-            "options": []
-        },
-        {
-            "name": "Enable Developer Menu",
-            "description": "Enables the developer menu.",
-            "use": true,
             "dependencies": [],
-            "compatiblePackages": {
-                "com.instagram.android": null
-            },
-            "options": []
-        },
-        {
-            "name": "Disable signature check",
-            "description": "Disables the signature check that causes the app to crash on startup.",
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "com.instagram.android": null
-            },
-            "options": []
-        },
-        {
-            "name": "Max Media Quality",
             "description": "Enable max media quality.",
-            "use": true,
-            "dependencies": [],
+            "name": "Max Media Quality",
+            "options": [],
+            "use": true
+        },
+        {
             "compatiblePackages": {
                 "com.instagram.android": null
             },
-            "options": []
+            "dependencies": [],
+            "description": "Makes user's bio selectable.",
+            "name": "Selectable Bio",
+            "options": [],
+            "use": true
         },
         {
-            "name": "Unlock Pro",
-            "description": "Unlock Pro features",
-            "use": true,
-            "dependencies": [],
             "compatiblePackages": {
+                "org.kustom.lockscreen": [
+                    "3.73b314511"
+                ],
                 "org.kustom.wallpaper": [
                     "3.73b314511"
                 ],
                 "org.kustom.widget": [
                     "3.73b314511"
-                ],
-                "org.kustom.lockscreen": [
-                    "3.73b314511"
                 ]
             },
-            "options": []
-        },
-        {
-            "name": "Hide sponsored ads",
-            "description": "Hides sponsored ads in channels",
-            "use": true,
             "dependencies": [],
-            "compatiblePackages": {
-                "org.telegram.messenger": null,
-                "org.telegram.messenger.web": null,
-                "uz.unnarsx.cherrygram": null
-            },
-            "options": []
-        },
-        {
-            "name": "Bypass Integrity",
-            "description": "Bypass integrity check to allow login",
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "org.telegram.messenger": null,
-                "org.telegram.messenger.web": null,
-                "uz.unnarsx.cherrygram": null
-            },
-            "options": []
-        },
-        {
-            "name": "Disable Auto Update",
-            "description": "Disable Auto Update",
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "org.telegram.messenger": null,
-                "org.telegram.messenger.web": null,
-                "uz.unnarsx.cherrygram": null
-            },
-            "options": []
-        },
-        {
-            "name": "Download Speed Boost",
-            "description": "Boosts download speed",
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "org.telegram.messenger": null,
-                "org.telegram.messenger.web": null,
-                "uz.unnarsx.cherrygram": null
-            },
-            "options": []
-        },
-        {
+            "description": "Unlock Pro features",
             "name": "Unlock Pro",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "org.telegram.messenger": null,
+                "org.telegram.messenger.web": null,
+                "uz.unnarsx.cherrygram": null
+            },
+            "dependencies": [],
             "description": "Unlock client-side Pro features",
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "org.telegram.messenger": null,
-                "org.telegram.messenger.web": null,
-                "uz.unnarsx.cherrygram": null
-            },
-            "options": []
-        },
-        {
-            "name": "Hide typing indicator",
-            "description": "Hides your typing indicator from other users",
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "org.telegram.messenger": null,
-                "org.telegram.messenger.web": null,
-                "uz.unnarsx.cherrygram": null
-            },
-            "options": []
-        },
-        {
-            "name": "Hide subtitle toast",
-            "description": "Hides the subtitle toast when toggling subtitles on/off and when changing subtitles",
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "com.google.android.youtube": null,
-                "app.revanced.android.youtube": null
-            },
-            "options": []
-        },
-        {
-            "name": "Large pause button",
-            "description": "Adds a large pause button to the player",
-            "use": true,
-            "dependencies": [],
-            "compatiblePackages": {
-                "com.google.android.youtube": null,
-                "app.revanced.android.youtube": null
-            },
-            "options": []
+            "name": "Unlock Pro",
+            "options": [],
+            "use": true
         }
     ]
 }
