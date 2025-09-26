@@ -1,6 +1,23 @@
 {
-    "version": "v3.14.0-dev.1",
+    "version": "v3.14.0-dev.2",
     "patches": [
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.05.36",
+                    "19.16.39",
+                    "19.43.41",
+                    "19.44.39",
+                    "19.47.53",
+                    "20.05.46"
+                ]
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Adds options to display useful overlay buttons in the video player.",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
@@ -1238,7 +1255,8 @@
             },
             "dependencies": [
                 "ResourcePatch",
-                "Settings for YouTube"
+                "Settings for YouTube",
+                "ResourcePatch"
             ],
             "description": "Adds an option to disable the splash animation on app startup.",
             "name": "Disable splash animation",
@@ -2368,6 +2386,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "Adds options to display useful overlay buttons in the video player.",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3015,6 +3034,7 @@
             },
             "dependencies": [
                 "Settings for YouTube",
+                "Adds options to display useful overlay buttons in the video player.",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
