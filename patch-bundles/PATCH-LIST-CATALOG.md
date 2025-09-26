@@ -428,10 +428,9 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***134 Patches***
+***133 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Adds options to display useful overlay buttons in the video player.``` | ```N/A``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Ambient mode control``` | ```Adds options to disable Ambient mode and to bypass Ambient mode restrictions.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Bitrate default value``` | ```Sets the audio quality to 'Always High' when you first install the app.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |

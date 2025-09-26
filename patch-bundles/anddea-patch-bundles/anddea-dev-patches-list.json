@@ -1,23 +1,6 @@
 {
-    "version": "v3.14.0-dev.2",
+    "version": "v3.14.0-dev.3",
     "patches": [
-        {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
-            "dependencies": [],
-            "description": null,
-            "name": "Adds options to display useful overlay buttons in the video player.",
-            "options": [],
-            "use": true
-        },
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
@@ -2386,7 +2369,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "Adds options to display useful overlay buttons in the video player.",
+                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3034,7 +3017,7 @@
             },
             "dependencies": [
                 "Settings for YouTube",
-                "Adds options to display useful overlay buttons in the video player.",
+                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
