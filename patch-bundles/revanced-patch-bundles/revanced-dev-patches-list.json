@@ -1,5 +1,5 @@
 {
-    "version": "v5.41.0-dev.15",
+    "version": "v5.41.0-dev.16",
     "patches": [
         {
             "compatiblePackages": {
@@ -2296,6 +2296,7 @@
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds options to hide navigation bar, labels and buttons.",
@@ -4202,6 +4203,44 @@
         },
         {
             "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).",
+            "name": "Theme",
+            "options": [
+                {
+                    "default": "@android:color/black",
+                    "description": "Can be a hex color (#RRGGBB) or a color resource reference.",
+                    "key": "darkThemeBackgroundColor",
+                    "required": false,
+                    "title": "Dark theme background color",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Catppuccin (Mocha)": "#181825",
+                        "Classic (old YouTube)": "#212121",
+                        "Dark blue": "#001029",
+                        "Dark green": "#002905",
+                        "Dark orange": "#291800",
+                        "Dark pink": "#290025",
+                        "Dark red": "#290000",
+                        "Dark yellow": "#282900",
+                        "Material You": "@android:color/system_neutral1_900",
+                        "Pure black": "@android:color/black"
+                    }
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
                     "20.07.39",
@@ -4214,48 +4253,48 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
-                "BytecodePatch",
                 "ResourcePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
-            "description": "Adds options for theming and applies a custom background theme (dark background theme defaults to amoled black).",
+            "description": "Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).",
             "name": "Theme",
             "options": [
                 {
                     "default": "@android:color/black",
-                    "description": "Can be a hex color (#AARRGGBB) or a color resource reference.",
+                    "description": "Can be a hex color (#RRGGBB) or a color resource reference.",
                     "key": "darkThemeBackgroundColor",
                     "required": false,
                     "title": "Dark theme background color",
                     "type": "kotlin.String",
                     "values": {
-                        "Amoled black": "@android:color/black",
-                        "Catppuccin (Mocha)": "#FF181825",
-                        "Classic (old YouTube)": "#FF212121",
-                        "Dark blue": "#FF001029",
-                        "Dark green": "#FF002905",
-                        "Dark orange": "#FF291800",
-                        "Dark pink": "#FF290025",
-                        "Dark red": "#FF290000",
-                        "Dark yellow": "#FF282900",
-                        "Material You": "@android:color/system_neutral1_900"
+                        "Catppuccin (Mocha)": "#181825",
+                        "Classic (old YouTube)": "#212121",
+                        "Dark blue": "#001029",
+                        "Dark green": "#002905",
+                        "Dark orange": "#291800",
+                        "Dark pink": "#290025",
+                        "Dark red": "#290000",
+                        "Dark yellow": "#282900",
+                        "Material You": "@android:color/system_neutral1_900",
+                        "Pure black": "@android:color/black"
                     }
                 },
                 {
                     "default": "@android:color/white",
-                    "description": "Can be a hex color (#AARRGGBB) or a color resource reference.",
+                    "description": "Can be a hex color (#RRGGBB) or a color resource reference.",
                     "key": "lightThemeBackgroundColor",
                     "required": false,
                     "title": "Light theme background color",
                     "type": "kotlin.String",
                     "values": {
-                        "Catppuccin (Latte)": "#FFE6E9EF",
-                        "Light blue": "#FFD1E0FF",
-                        "Light green": "#FFCCFFCC",
-                        "Light orange": "#FFFFE6CC",
-                        "Light pink": "#FFFCCFF3",
-                        "Light red": "#FFFFD6D6",
-                        "Light yellow": "#FFFDFFCC",
+                        "Catppuccin (Latte)": "#E6E9EF",
+                        "Light blue": "#D1E0FF",
+                        "Light green": "#CCFFCC",
+                        "Light orange": "#FFE6CC",
+                        "Light pink": "#FCCFF3",
+                        "Light red": "#FFD6D6",
+                        "Light yellow": "#FDFFCC",
                         "Material You": "@android:color/system_neutral1_50",
                         "White": "@android:color/white"
                     }

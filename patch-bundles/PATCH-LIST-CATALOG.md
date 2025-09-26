@@ -43,7 +43,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***236 Patches***
+***237 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
@@ -266,7 +266,8 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Spoof Wi-Fi connection``` | ```Spoofs an existing Wi-Fi connection.``` | ```Universal``` | ```All versions``` |
 | ```Swipe controls``` | ```Adds options to enable and configure volume and brightness swipe controls.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
-| ```Theme``` | ```Adds options for theming and applies a custom background theme (dark background theme defaults to amoled black).``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
+| ```Theme``` | ```Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
+| ```Theme``` | ```Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Unlock downloads``` | ```Unlocks the ability to download any video. GIFs can be downloaded via the menu on long press.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Unlock plus``` | ```N/A``` | ```com.microblink.photomath``` | ```All versions``` |
 | ```Unlock Premium``` | ```N/A``` | ```com.adobe.lrmobile``` | ```9.3.0``` |
