@@ -1,5 +1,5 @@
 {
-    "version": "v5.41.0-dev.18",
+    "version": "v5.41.1-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -1799,6 +1799,7 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds an option to hide the cast button.",
@@ -4480,7 +4481,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds options to use the advanced video quality menu, set default video qualities, and disable video codecs such as VP9/HDR.",
+            "description": "Adds options to set default video qualities and always use the advanced video quality menu.",
             "name": "Video quality",
             "options": [],
             "use": true
