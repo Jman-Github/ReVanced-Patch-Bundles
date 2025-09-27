@@ -1,5 +1,5 @@
 {
-    "version": "v5.42.0-dev.1",
+    "version": "v5.42.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -1983,7 +1983,9 @@
             "compatiblePackages": {
                 "com.instagram.android": null
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Hides navigation bar buttons, such as the Reels and Create button.",
             "name": "Hide navigation buttons",
             "options": [
