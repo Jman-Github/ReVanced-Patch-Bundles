@@ -1,11 +1,10 @@
 {
-    "version": "v5.40.0",
+    "version": "v5.41.0",
     "patches": [
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -37,26 +36,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
-            "description": "Adds an option to always repeat videos when they end.",
-            "name": "Always repeat",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -159,7 +138,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -190,7 +168,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -211,7 +188,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -232,7 +208,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -346,7 +321,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -385,17 +359,13 @@
         },
         {
             "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.34.42",
-                    "19.43.41",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52"
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Checks if the device DNS server is preventing user watch history from being saved.",
             "name": "Check watch history domain name resolution",
@@ -406,7 +376,23 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
+                    "20.07.39",
+                    "20.13.41",
+                    "20.14.43"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Checks if the device DNS server is preventing user watch history from being saved.",
+            "name": "Check watch history domain name resolution",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.34.42",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -426,7 +412,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -470,7 +455,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -649,7 +633,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -709,7 +692,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -739,7 +721,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -751,27 +732,6 @@
             ],
             "description": "Adds an option to disable haptic feedback in the player for various actions.",
             "name": "Disable haptic feedback",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.34.42",
-                    "19.43.41",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Adds an option to disable video HDR.",
-            "name": "Disable HDR video",
             "options": [],
             "use": true
         },
@@ -822,7 +782,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -842,7 +801,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -862,7 +820,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -892,7 +849,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -982,11 +938,43 @@
         },
         {
             "compatiblePackages": {
+                "com.tumblr": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes the Tumblr TV navigation button from the bottom navigation bar.",
+            "name": "Disable Tumblr TV",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.facebook.orca": null
             },
             "dependencies": [],
             "description": "Disables the indicator while typing a message.",
             "name": "Disable typing indicator",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.34.42",
+                    "20.07.39",
+                    "20.13.41",
+                    "20.14.43"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to disable HDR and VP9 codecs.",
+            "name": "Disable video codecs",
             "options": [],
             "use": true
         },
@@ -1012,7 +1000,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -1103,7 +1090,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -1179,7 +1165,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -1413,7 +1398,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -1486,7 +1470,10 @@
         },
         {
             "compatiblePackages": {
-                "com.google.android.apps.youtube.music": null
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52"
+                ]
             },
             "dependencies": [
                 "Change package name",
@@ -1515,7 +1502,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -1779,7 +1765,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -1854,7 +1839,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -1873,7 +1857,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -1932,7 +1915,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -1952,7 +1934,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -1999,9 +1980,7 @@
         },
         {
             "compatiblePackages": {
-                "com.instagram.android": [
-                    "397.1.0.52.81"
-                ]
+                "com.instagram.android": null
             },
             "dependencies": [],
             "description": "Hides navigation bar buttons, such as the Reels and Create button.",
@@ -2042,7 +2021,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -2063,7 +2041,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -2110,7 +2087,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -2131,7 +2107,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -2203,7 +2178,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -2235,7 +2209,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -2277,7 +2250,25 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
+                    "20.07.39",
+                    "20.13.41",
+                    "20.14.43"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to loop videos and display loop video button in the video player.",
+            "name": "Loop video",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.34.42",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -2305,6 +2296,7 @@
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds options to hide navigation bar, labels and buttons.",
@@ -2316,7 +2308,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -2338,7 +2329,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -2370,7 +2360,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -2469,7 +2458,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -2480,7 +2468,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds options to customize available playback speeds, set default a playback speed, and show a speed dialog button in the video player.",
+            "description": "Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.",
             "name": "Playback speed",
             "options": [],
             "use": true
@@ -2564,7 +2552,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -2765,27 +2752,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
-            "description": "Adds an option to remove the tracking parameter from links you share.",
-            "name": "Remove tracking query parameter",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -2815,7 +2781,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -2832,6 +2797,23 @@
             ],
             "description": "Adds an option to show the dislike count of videos with Return YouTube Dislike.",
             "name": "Return YouTube Dislike",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to remove the tracking query parameter from shared links.",
+            "name": "Sanitize sharing links",
             "options": [],
             "use": true
         },
@@ -2875,7 +2857,25 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
+                    "20.07.39",
+                    "20.13.41",
+                    "20.14.43"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to remove the tracking query parameter from shared links.",
+            "name": "Sanitize sharing links",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.34.42",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -2938,7 +2938,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -3027,7 +3026,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -3085,7 +3083,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -3520,7 +3517,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -4160,7 +4156,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -4191,7 +4186,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -4209,9 +4203,46 @@
         },
         {
             "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).",
+            "name": "Theme",
+            "options": [
+                {
+                    "default": "@android:color/black",
+                    "description": "Can be a hex color (#RRGGBB) or a color resource reference.",
+                    "key": "darkThemeBackgroundColor",
+                    "required": false,
+                    "title": "Dark theme background color",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Catppuccin (Mocha)": "#181825",
+                        "Classic (old YouTube)": "#212121",
+                        "Dark blue": "#001029",
+                        "Dark green": "#002905",
+                        "Dark orange": "#291800",
+                        "Dark pink": "#290025",
+                        "Dark red": "#290000",
+                        "Dark yellow": "#282900",
+                        "Material You": "@android:color/system_neutral1_900",
+                        "Pure black": "@android:color/black"
+                    }
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -4222,48 +4253,48 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
-                "BytecodePatch",
                 "ResourcePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
-            "description": "Adds options for theming and applies a custom background theme (dark background theme defaults to amoled black).",
+            "description": "Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).",
             "name": "Theme",
             "options": [
                 {
                     "default": "@android:color/black",
-                    "description": "Can be a hex color (#AARRGGBB) or a color resource reference.",
+                    "description": "Can be a hex color (#RRGGBB) or a color resource reference.",
                     "key": "darkThemeBackgroundColor",
                     "required": false,
                     "title": "Dark theme background color",
                     "type": "kotlin.String",
                     "values": {
-                        "Amoled black": "@android:color/black",
-                        "Catppuccin (Mocha)": "#FF181825",
-                        "Classic (old YouTube)": "#FF212121",
-                        "Dark blue": "#FF001029",
-                        "Dark green": "#FF002905",
-                        "Dark orange": "#FF291800",
-                        "Dark pink": "#FF290025",
-                        "Dark red": "#FF290000",
-                        "Dark yellow": "#FF282900",
-                        "Material You": "@android:color/system_neutral1_900"
+                        "Catppuccin (Mocha)": "#181825",
+                        "Classic (old YouTube)": "#212121",
+                        "Dark blue": "#001029",
+                        "Dark green": "#002905",
+                        "Dark orange": "#291800",
+                        "Dark pink": "#290025",
+                        "Dark red": "#290000",
+                        "Dark yellow": "#282900",
+                        "Material You": "@android:color/system_neutral1_900",
+                        "Pure black": "@android:color/black"
                     }
                 },
                 {
                     "default": "@android:color/white",
-                    "description": "Can be a hex color (#AARRGGBB) or a color resource reference.",
+                    "description": "Can be a hex color (#RRGGBB) or a color resource reference.",
                     "key": "lightThemeBackgroundColor",
                     "required": false,
                     "title": "Light theme background color",
                     "type": "kotlin.String",
                     "values": {
-                        "Catppuccin (Latte)": "#FFE6E9EF",
-                        "Light blue": "#FFD1E0FF",
-                        "Light green": "#FFCCFFCC",
-                        "Light orange": "#FFFFE6CC",
-                        "Light pink": "#FFFCCFF3",
-                        "Light red": "#FFFFD6D6",
-                        "Light yellow": "#FFFDFFCC",
+                        "Catppuccin (Latte)": "#E6E9EF",
+                        "Light blue": "#D1E0FF",
+                        "Light green": "#CCFFCC",
+                        "Light orange": "#FFE6CC",
+                        "Light pink": "#FCCFF3",
+                        "Light red": "#FFD6D6",
+                        "Light yellow": "#FDFFCC",
                         "Material You": "@android:color/system_neutral1_50",
                         "White": "@android:color/white"
                     }
@@ -4420,7 +4451,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -4440,7 +4470,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
@@ -4451,7 +4480,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds options to use the advanced video quality menu and set default video qualities.",
+            "description": "Adds options to use the advanced video quality menu, set default video qualities, and disable video codecs such as VP9/HDR.",
             "name": "Video quality",
             "options": [],
             "use": true
@@ -4460,7 +4489,6 @@
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
-                    "19.43.41",
                     "20.07.39",
                     "20.13.41",
                     "20.14.43"
