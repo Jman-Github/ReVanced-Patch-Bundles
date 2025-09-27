@@ -1,5 +1,5 @@
 {
-    "version": "v5.41.1-dev.2",
+    "version": "v5.42.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -2002,6 +2002,80 @@
                     "key": "hideCreate",
                     "required": false,
                     "title": "Hide Create",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.viber.voip": null
+            },
+            "dependencies": [],
+            "description": "Permanently hides navigation bar buttons, such as Explore and Marketplace.",
+            "name": "Hide navigation buttons",
+            "options": [
+                {
+                    "default": false,
+                    "description": "Permanently hides the Chats button.",
+                    "key": "hideChats",
+                    "required": false,
+                    "title": "Hide Chats",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Permanently hides the Calls button.",
+                    "key": "hideCalls",
+                    "required": false,
+                    "title": "Hide Calls",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Permanently hides the Explore button.",
+                    "key": "hideExplore",
+                    "required": false,
+                    "title": "Hide Explore",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Permanently hides the More button.",
+                    "key": "hideMore",
+                    "required": false,
+                    "title": "Hide More",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Permanently hides the Pay button.",
+                    "key": "hidePay",
+                    "required": false,
+                    "title": "Hide Pay",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Permanently hides the Camera button.",
+                    "key": "hideCamera",
+                    "required": false,
+                    "title": "Hide Camera",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Permanently hides the Marketplace button.",
+                    "key": "hideMarketplace",
+                    "required": false,
+                    "title": "Hide Marketplace",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
