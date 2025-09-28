@@ -1,5 +1,5 @@
 {
-    "version": "v5.42.0-dev.4",
+    "version": "v5.42.0-dev.5",
     "patches": [
         {
             "compatiblePackages": {
@@ -410,6 +410,47 @@
         },
         {
             "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Applies a custom app name and icon. Defaults to \"YT Music ReVanced\" and the ReVanced logo.",
+            "name": "Custom branding",
+            "options": [
+                {
+                    "default": "YT Music ReVanced",
+                    "description": "The name of the app.",
+                    "key": "appName",
+                    "required": false,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Music": "Music",
+                        "Music ReVanced": "Music ReVanced",
+                        "YT Music": "YT Music",
+                        "YT Music ReVanced": "YT Music ReVanced"
+                    }
+                },
+                {
+                    "default": "ReVanced*Logo",
+                    "description": "The icon to apply to the app.\n\nIf a path to a folder is provided, the folder must contain the following folders:\n\n- mipmap-xxxhdpi\n- mipmap-xxhdpi\n- mipmap-xhdpi\n- mipmap-hdpi\n- mipmap-mdpi\n\nEach of these folders must contain the following files:\n\n- adaptiveproduct_youtube_music_2024_q4_background_color_108.png\n- adaptiveproduct_youtube_music_2024_q4_foreground_color_108.png\n- ic_launcher_release.png",
+                    "key": "iconPath",
+                    "required": false,
+                    "title": "App icon",
+                    "type": "kotlin.String",
+                    "values": {
+                        "ReVanced Logo": "ReVanced*Logo"
+                    }
+                }
+            ],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
                     "20.07.39",
@@ -417,9 +458,7 @@
                     "20.14.43"
                 ]
             },
-            "dependencies": [
-                "ResourcePatch"
-            ],
+            "dependencies": [],
             "description": "Applies a custom app name and icon. Defaults to \"YouTube ReVanced\" and the ReVanced logo.",
             "name": "Custom branding",
             "options": [
