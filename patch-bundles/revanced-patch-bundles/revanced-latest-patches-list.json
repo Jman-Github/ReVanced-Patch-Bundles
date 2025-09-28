@@ -1,5 +1,5 @@
 {
-    "version": "v5.42.0-dev.2",
+    "version": "v5.42.0-dev.4",
     "patches": [
         {
             "compatiblePackages": {
@@ -1847,6 +1847,7 @@
             },
             "dependencies": [
                 "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds an option to hide suggested video cards at the end of videos.",
