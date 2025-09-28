@@ -1,5 +1,5 @@
 {
-    "version": "v3.14.0-dev.5",
+    "version": "v3.14.0-dev.6",
     "patches": [
         {
             "compatiblePackages": {
@@ -1472,13 +1472,14 @@
             "options": [
                 {
                     "default": "app.revanced",
-                    "description": "The vendor's group ID for GmsCore.",
+                    "description": "The vendor's group ID for GmsCore. Do not change this option, if you do not know what you are doing.",
                     "key": "gmsCoreVendorGroupId",
                     "required": true,
                     "title": "GmsCore vendor group ID",
                     "type": "kotlin.String",
                     "values": {
-                        "ReVanced": "app.revanced"
+                        "Original MicroG": "com.google",
+                        "ReVanced MicroG": "app.revanced"
                     }
                 },
                 {
@@ -1555,13 +1556,14 @@
             "options": [
                 {
                     "default": "app.revanced",
-                    "description": "The vendor's group ID for GmsCore.",
+                    "description": "The vendor's group ID for GmsCore. Do not change this option, if you do not know what you are doing.",
                     "key": "gmsCoreVendorGroupId",
                     "required": true,
                     "title": "GmsCore vendor group ID",
                     "type": "kotlin.String",
                     "values": {
-                        "ReVanced": "app.revanced"
+                        "Original MicroG": "com.google",
+                        "ReVanced MicroG": "app.revanced"
                     }
                 },
                 {
