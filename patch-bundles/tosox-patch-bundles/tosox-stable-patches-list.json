@@ -1,0 +1,25 @@
+{
+    "version": "v1.1.1",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "mega.privacy.android.app": null
+            },
+            "dependencies": [],
+            "description": "Hides ads across the app",
+            "name": "Hide Ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.wixsite.ut_app.utalarm": null
+            },
+            "dependencies": [],
+            "description": "Unlocks the Premium plan",
+            "name": "Unlock Premium",
+            "options": [],
+            "use": true
+        }
+    ]
+}
