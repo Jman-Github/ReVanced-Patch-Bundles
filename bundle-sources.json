@@ -183,6 +183,11 @@
         "patches": "https://api.github.com/repos/nk521/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
+            },
+    "tosox-stable": {
+        "patches": "https://api.github.com/repos/tosox/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
     },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
@@ -361,6 +366,11 @@
     },
     "nk521-dev": {
         "patches": "https://api.github.com/repos/nk521/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "tosox-dev": {
+        "patches": "https://api.github.com/repos/tosox/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -546,6 +556,11 @@
     },
     "nk521-latest": {
         "patches": "https://api.github.com/repos/nk521/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+        },
+    "tosox-latest": {
+        "patches": "https://api.github.com/repos/tosox/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

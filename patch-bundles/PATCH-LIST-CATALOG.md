@@ -3,39 +3,43 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ## 🔑 Patch List Catalog Key
 #### Patch Bundle Shortcuts
 *Click the bundle patch list of your choice to be directed to the corresponding section in the catalog.*  
-[🧩 ReVanced Bundle Patch List](#-revanced-bundle-patch-list)  
-[🧩 Inotia00 Bundle Patch List](#-inotia00-bundle-patch-list)  
-[🧩 Anddea Bundle Patch List](#-anddea-bundle-patch-list)  
-[🧩 Piko Bundle Patch List](#-piko-bundle-patch-list)  
-[🧩 BiliRoamingM Bundle Patch List](#-biliroamingm-bundle-patch-list)  
-[🧩 Slenderman00 Bundle Patch List](#-slenderman00-bundle-patch-list)  
-[🧩 Privacy Bundle Patch List](#-privacy-bundle-patch-list)  
-[🧩 Experimental Bundle Patch List](#-experimental-bundle-patch-list)  
-[🧩 Dropped Bundle Patch List](#-dropped-bundle-patch-list)  
-[🧩 Wchill Bundle Patch List](#-wchill-bundle-patch-list)  
-[🧩 Kitadai31 Bundle Patch List](#-kitadai31-bundle-patch-list)  
-[🧩 BholeyKaBhakt Bundle Patch List](#-bholeykabhakt-bundle-patch-list)  
-[🧩 Andronedev Bundle Patch List](#-andronedev-bundle-patch-list)  
-[🧩 ReX Bundle Patch List](#-rex-bundle-patch-list)  
-[🧩 Rufusin Bundle Patch List](#-rufusin-bundle-patch-list)  
-[🧩 Twitter Bundle Patch List](#-twitter-bundle-patch-list)  
-[🧩 Wyse- Bundle Patch List](#-wyse--bundle-patch-list)  
-[🧩 1fexd Bundle Patch List](#-1fexd-bundle-patch-list)  
-[🧩 Whyvl Bundle Patch List](#-whyvl-bundle-patch-list)  
-[🧩 Xrogers Bundle Patch List](#-xrogers-bundle-patch-list)  
-[🧩 D4n3436 Bundle Patch List](#-d4n3436-bundle-patch-list)  
-[🧩 AyushTNM Bundle Patch List](#-ayushtnm-bundle-patch-list)  
-[🧩 Arsclib Bundle Patch List](#-arsclib-bundle-patch-list)  
-[🧩 LennyRBLX Bundle Patch List](#-lennyrblx-bundle-patch-list)  
-[🧩 Korhelyleves Bundle Patch List](#-korhelyleves-bundle-patch-list)  
-[🧩 Taknok Bundle Patch List](#-taknok-bundle-patch-list)  
-[🧩 Sti-233 Bundle Patch List](#-sti-233-bundle-patch-list)  
-[🧩 Faith001 Bundle Patch List](#-faith001-bundle-patch-list)  
-[🧩 Forsyth47 Bundle Patch List](#-forsyth47-bundle-patch-list)  
-[🧩 Brosssh Bundle Patch List](#-brosssh-bundle-patch-list)  
-[🧩 Hoo-dles Bundle Patch List](#-hoo-dles-bundle-patch-list)  
-[🧩 Scrazzz Bundle Patch List](#-scrazzz-bundle-patch-list)  
-[🧩 VinceTheProgrammer Bundle Patch List](#-vincetheprogrammer-bundle-patch-list)  
+[🧩 ReVanced Bundle Patch List](#-revanced-bundle-patch-list)
+[🧩 Inotia00 Bundle Patch List](#-inotia00-bundle-patch-list)
+[🧩 Anddea Bundle Patch List](#-anddea-bundle-patch-list)
+[🧩 Piko Bundle Patch List](#-piko-bundle-patch-list)
+[🧩 BiliRoamingM Bundle Patch List](#-biliroamingm-bundle-patch-list)
+[🧩 Slenderman00 Bundle Patch List](#-slenderman00-bundle-patch-list)
+[🧩 Privacy Bundle Patch List](#-privacy-bundle-patch-list)
+[🧩 Experimental Bundle Patch List](#-experimental-bundle-patch-list)
+[🧩 Dropped Bundle Patch List](#-dropped-bundle-patch-list)
+[🧩 Wchill Bundle Patch List](#-wchill-bundle-patch-list)
+[🧩 Kitadai31 Bundle Patch List](#-kitadai31-bundle-patch-list)
+[🧩 BholeyKaBhakt Bundle Patch List](#-bholeykabhakt-bundle-patch-list)
+[🧩 Andronedev Bundle Patch List](#-andronedev-bundle-patch-list)
+[🧩 ReX Bundle Patch List](#-rex-bundle-patch-list)
+[🧩 Rufusin Bundle Patch List](#-rufusin-bundle-patch-list)
+[🧩 Twitter Bundle Patch List](#-twitter-bundle-patch-list)
+[🧩 Wyse- Bundle Patch List](#-wyse--bundle-patch-list)
+[🧩 1fexd Bundle Patch List](#-1fexd-bundle-patch-list)
+[🧩 Whyvl Bundle Patch List](#-whyvl-bundle-patch-list)
+[🧩 Xrogers Bundle Patch List](#-xrogers-bundle-patch-list)
+[🧩 D4n3436 Bundle Patch List](#-d4n3436-bundle-patch-list)
+[🧩 AyushTNM Bundle Patch List](#-ayushtnm-bundle-patch-list)
+[🧩 Arsclib Bundle Patch List](#-arsclib-bundle-patch-list)
+[🧩 LennyRBLX Bundle Patch List](#-lennyrblx-bundle-patch-list)
+[🧩 Korhelyleves Bundle Patch List](#-korhelyleves-bundle-patch-list)
+[🧩 Taknok Bundle Patch List](#-taknok-bundle-patch-list)
+[🧩 Sti-233 Bundle Patch List](#-sti-233-bundle-patch-list)
+[🧩 Faith001 Bundle Patch List](#-faith001-bundle-patch-list)
+[🧩 Forsyth47 Bundle Patch List](#-forsyth47-bundle-patch-list)
+[🧩 Brosssh Bundle Patch List](#-brosssh-bundle-patch-list)
+[🧩 Hoo-dles Bundle Patch List](#-hoo-dles-bundle-patch-list)
+[🧩 Scrazzz Bundle Patch List](#-scrazzz-bundle-patch-list)
+[🧩 VinceTheProgrammer Bundle Patch List](#-vincetheprogrammer-bundle-patch-list)
+[🧩 Hepolise Bundle Patch List](#-hepolise-bundle-patch-list)
+[🧩 Kangrio Bundle Patch List](#-kangrio-bundle-patch-list)
+[🧩 Nk521 Bundle Patch List](#-nk521-bundle-patch-list)
+[🧩 Tosox Bundle Patch List](#-tosox-bundle-patch-list)
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -1757,6 +1761,16 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Video ads``` | ```Adds an option to remove ads in the video player.``` | ```com.google.android.youtube``` | ```19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46``` |
 | ```Video quality``` | ```Adds options to use the advanced video quality menu and set default video qualities.``` | ```com.google.android.youtube``` | ```19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46``` |
 | ```Wide search bar``` | ```Adds an option to replace the search icon with a wide search bar. This will hide the YouTube logo when active.``` | ```com.google.android.youtube``` | ```19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.47.53, 20.07.39, 20.12.46``` |
+
+</details>
+
+---
+### 🧩 Tosox Bundle Patch List:
+[📦 Tosox-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-tosox-patches-bundle)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
 
 </details>
 

@@ -481,6 +481,19 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
+### 📦 Tosox-Patches-Bundle [API v4]:
+[🧩 Tosox Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-tosox-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tosox-patch-bundles/tosox-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tosox-patch-bundles/tosox-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tosox-patch-bundles/tosox-dev-patches-bundle.json```
+</details>
+
+---
 # 📱 ReVanced Manager Compose:
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/compose-dev
@@ -559,6 +572,8 @@ https://github.com/ReVanced/revanced-manager/actions/runs/17947285911/artifacts/
 #### 🏷️ [Kangrio-Patches-Bundle](https://github.com/kangrio/MicroG-Patches-Re)
 
 #### 🏷️ [Nk521-Patches-Bundle](https://github.com/nk521/revanced-patches)
+
+#### 🏷️ [Tosox-Patches-Bundle](https://github.com/Tosox/revanced-patches)
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*
