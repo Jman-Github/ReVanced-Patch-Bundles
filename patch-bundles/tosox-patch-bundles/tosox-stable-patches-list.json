@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.1",
+    "version": "v1.2.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -13,11 +13,33 @@
         },
         {
             "compatiblePackages": {
+                "com.ticktick.task": null
+            },
+            "dependencies": [],
+            "description": "Disables the integrity checks",
+            "name": "No Integrity Check",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.wixsite.ut_app.utalarm": null
             },
             "dependencies": [],
             "description": "Unlocks the Premium plan",
             "name": "Unlock Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.ticktick.task": null
+            },
+            "dependencies": [
+                "No Integrity Check"
+            ],
+            "description": "Unlocks the Pro plan",
+            "name": "Unlock Pro",
             "options": [],
             "use": true
         }
