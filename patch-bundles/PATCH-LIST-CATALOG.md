@@ -1770,11 +1770,13 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***2 Patches***
+***4 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Hide Ads``` | ```Hides ads across the app``` | ```mega.privacy.android.app``` | ```All versions``` |
+| ```No Integrity Check``` | ```Disables the integrity checks``` | ```com.ticktick.task``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks the Premium plan``` | ```com.wixsite.ut_app.utalarm``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks the Pro plan``` | ```com.ticktick.task``` | ```All versions``` |
 
 </details>
 
