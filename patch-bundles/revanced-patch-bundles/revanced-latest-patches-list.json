@@ -1,5 +1,5 @@
 {
-    "version": "v5.42.0-dev.5",
+    "version": "v5.42.0-dev.6",
     "patches": [
         {
             "compatiblePackages": {
@@ -235,9 +235,8 @@
         {
             "compatiblePackages": {
                 "com.twitter.android": [
-                    "10.86.0-release.0",
                     "10.60.0-release.0",
-                    "10.48.0-release.0"
+                    "10.86.0-release.0"
                 ]
             },
             "dependencies": [
@@ -1057,9 +1056,8 @@
         {
             "compatiblePackages": {
                 "com.twitter.android": [
-                    "10.86.0-release.0",
                     "10.60.0-release.0",
-                    "10.48.0-release.0"
+                    "10.86.0-release.0"
                 ]
             },
             "dependencies": [],
@@ -1777,9 +1775,8 @@
         {
             "compatiblePackages": {
                 "com.twitter.android": [
-                    "10.86.0-release.0",
                     "10.60.0-release.0",
-                    "10.48.0-release.0"
+                    "10.86.0-release.0"
                 ]
             },
             "dependencies": [
@@ -2187,9 +2184,8 @@
         {
             "compatiblePackages": {
                 "com.twitter.android": [
-                    "10.86.0-release.0",
                     "10.60.0-release.0",
-                    "10.48.0-release.0"
+                    "10.86.0-release.0"
                 ]
             },
             "dependencies": [
@@ -2458,20 +2454,6 @@
             "name": "Open links externally",
             "options": [],
             "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.twitter.android": [
-                    "10.48.0-release.0"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Instead of opening links directly, open them with an app chooser. As a result you can select a browser to open the link with.",
-            "name": "Open links with app chooser",
-            "options": [],
-            "use": false
         },
         {
             "compatiblePackages": {
@@ -2959,9 +2941,8 @@
         {
             "compatiblePackages": {
                 "com.twitter.android": [
-                    "10.86.0-release.0",
                     "10.60.0-release.0",
-                    "10.48.0-release.0"
+                    "10.86.0-release.0"
                 ]
             },
             "dependencies": [],
