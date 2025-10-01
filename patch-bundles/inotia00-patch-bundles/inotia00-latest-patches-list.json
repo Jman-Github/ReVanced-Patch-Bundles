@@ -1,5 +1,5 @@
 {
-    "version": "v5.12.1-dev.5",
+    "version": "v5.12.1-dev.6",
     "patches": [
         {
             "compatiblePackages": {
@@ -2948,6 +2948,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "Settings for YouTube Music",
                 "ResourcePatch"
