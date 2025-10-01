@@ -1,5 +1,5 @@
 {
-    "version": "v3.14.0-dev.6",
+    "version": "v3.14.0-dev.7",
     "patches": [
         {
             "compatiblePackages": {
@@ -2769,22 +2769,10 @@
             "compatiblePackages": {
                 "com.spotify.music": null
             },
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Removes the tracking query parameters from links before they are shared.",
             "name": "Sanitize sharing links",
-            "options": [
-                {
-                    "default": "context, pi, si, utm_source",
-                    "description": "A list of parameters to be removed from sharing links, separated by commas.",
-                    "key": "shareParameters",
-                    "required": true,
-                    "title": "Parameters to remove",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ],
+            "options": [],
             "use": true
         },
         {
@@ -3202,6 +3190,7 @@
             },
             "dependencies": [
                 "BytecodePatch",
+                "BytecodePatch",
                 "Settings for YouTube Music",
                 "ResourcePatch"
             ],
@@ -3463,6 +3452,18 @@
                     "values": null
                 }
             ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.ysy.app.firewall": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks NetWall Premium features once 'Unlock Premium Now' button is clicked.",
+            "name": "Unlock Premium",
+            "options": [],
             "use": true
         },
         {
