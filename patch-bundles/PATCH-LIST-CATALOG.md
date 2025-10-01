@@ -47,7 +47,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***238 Patches***
+***239 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
@@ -199,6 +199,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Miniplayer``` | ```Adds options to change the in-app minimized player.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
 | ```Navigation buttons``` | ```Adds options to hide and change navigation buttons (such as the Shorts button).``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
+| ```Open links externally``` | ```Changes links to always open in your external browser, instead of the in-app browser.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Open links externally``` | ```Adds an option to always open links in your browser instead of the in-app browser.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Open Shorts in regular player``` | ```Adds options to open Shorts in the regular video player.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Open videos fullscreen``` | ```Adds an option to open videos in full screen portrait mode.``` | ```com.google.android.youtube``` | ```20.07.39, 20.13.41, 20.14.43``` |

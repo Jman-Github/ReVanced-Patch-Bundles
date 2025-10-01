@@ -1,5 +1,5 @@
 {
-    "version": "v5.42.0-dev.6",
+    "version": "v5.42.0-dev.7",
     "patches": [
         {
             "compatiblePackages": {
@@ -2437,6 +2437,18 @@
             "name": "Navigation buttons",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Changes links to always open in your external browser, instead of the in-app browser.",
+            "name": "Open links externally",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
