@@ -1,5 +1,5 @@
 {
-    "version": "v5.42.0-dev.8",
+    "version": "v5.42.0-dev.9",
     "patches": [
         {
             "compatiblePackages": {
@@ -436,7 +436,7 @@
                 },
                 {
                     "default": "ReVanced*Logo",
-                    "description": "The icon to apply to the app.\n\nIf a path to a folder is provided, the folder must contain the following folders:\n\n- mipmap-xxxhdpi\n- mipmap-xxhdpi\n- mipmap-xhdpi\n- mipmap-hdpi\n- mipmap-mdpi\n\nEach of these folders must contain the following files:\n\n- adaptiveproduct_youtube_music_2024_q4_background_color_108.png\n- adaptiveproduct_youtube_music_2024_q4_foreground_color_108.png\n- ic_launcher_release.png",
+                    "description": "The icon to apply to the app.\n\nIf a path to a folder is provided, the folder must contain the following folders:\n\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of these folders must contain the following files:\n\n- adaptiveproduct_youtube_music_2024_q4_background_color_108.png\n- adaptiveproduct_youtube_music_2024_q4_foreground_color_108.png\n- ic_launcher_release.png\n\nOptionally, a 'drawable' folder with the monochrome icon files:\n\n- ic_app_icons_themed_youtube_music.xml",
                     "key": "iconPath",
                     "required": false,
                     "title": "App icon",
@@ -477,7 +477,7 @@
                 },
                 {
                     "default": "ReVanced*Logo",
-                    "description": "The icon to apply to the app.\n\nIf a path to a folder is provided, the folder must contain the following folders:\n\n- mipmap-xxxhdpi\n- mipmap-xxhdpi\n- mipmap-xhdpi\n- mipmap-hdpi\n- mipmap-mdpi\n\nEach of these folders must contain the following files:\n\n- adaptiveproduct_youtube_background_color_108.png\n- adaptiveproduct_youtube_foreground_color_108.png\n- ic_launcher.png\n- ic_launcher_round.png",
+                    "description": "The icon to apply to the app.\n\nIf a path to a folder is provided, the folder must contain the following folders:\n\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of these folders must contain the following files:\n\n- adaptiveproduct_youtube_background_color_108.png\n- adaptiveproduct_youtube_foreground_color_108.png\n- ic_launcher.png\n- ic_launcher_round.png\n\nOptionally, a 'drawable' folder with the monochrome icon files:\n\n- adaptive_monochrome_ic_youtube_launcher.xml\n- ringo2_adaptive_monochrome_ic_youtube_launcher.xml",
                     "key": "iconPath",
                     "required": false,
                     "title": "App icon",
