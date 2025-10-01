@@ -1,5 +1,5 @@
 {
-    "version": "v5.42.0-dev.7",
+    "version": "v5.42.0-dev.8",
     "patches": [
         {
             "compatiblePackages": {
@@ -1428,6 +1428,24 @@
             ],
             "description": "Forces wearable devices to use the English locale.",
             "name": "Force English locale",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to always use the original audio track.",
+            "name": "Force original audio",
             "options": [],
             "use": true
         },

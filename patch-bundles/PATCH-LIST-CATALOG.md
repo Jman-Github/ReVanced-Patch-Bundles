@@ -47,7 +47,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***239 Patches***
+***240 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
@@ -140,6 +140,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Fix third party launchers widgets``` | ```Fixes Spotify widgets not working in third party launchers, like Nova Launcher.``` | ```com.spotify.music``` | ```All versions``` |
 | ```Fix video downloads``` | ```Fixes a bug in Sync's MPD parser resulting in only the audio-track being saved.``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.dev, com.laurencedawson.reddit_sync.pro``` | ```All versions``` |
 | ```Force English locale``` | ```Forces wearable devices to use the English locale.``` | ```com.xiaomi.wearable``` | ```All versions``` |
+| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
 | ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.magazines``` | ```5.108.0.644447823``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.photos``` | ```All versions``` |
