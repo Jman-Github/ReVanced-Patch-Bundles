@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.3-dev.2",
+    "version": "v1.2.3-dev.4",
     "patches": [
         {
             "compatiblePackages": {
@@ -35,7 +35,9 @@
             "compatiblePackages": {
                 "com.ticktick.task": null
             },
-            "dependencies": [],
+            "dependencies": [
+                "No Integrity Check"
+            ],
             "description": "Unlocks the Pro plan",
             "name": "Unlock Pro",
             "options": [],
