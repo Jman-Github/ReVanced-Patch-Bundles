@@ -1510,9 +1510,10 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***1 Patch***
+***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Custom Filter slot``` | ```Adds a placeholder injection so patch project compiles; replace nop with real smali later.``` | ```org.fortheloss.sticknodes, org.fortheloss.sticknodesbeta, org.fortheloss.sticknodespro``` | ```4.2.5, 4.2.6, 4.2.5``` |
 | ```Remove Node Limit v1.1.0``` | ```Removes the node limit.``` | ```org.fortheloss.sticknodes, org.fortheloss.sticknodespro``` | ```4.2.3, 4.2.3``` |
 
 </details>
