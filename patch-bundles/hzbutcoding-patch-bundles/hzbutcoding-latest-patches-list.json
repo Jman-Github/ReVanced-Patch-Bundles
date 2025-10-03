@@ -1,0 +1,23 @@
+{
+    "version": "v1.9.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "org.fortheloss.sticknodes": [
+                    "4.2.5"
+                ],
+                "org.fortheloss.sticknodesbeta": [
+                    "4.2.6"
+                ],
+                "org.fortheloss.sticknodespro": [
+                    "4.2.5"
+                ]
+            },
+            "dependencies": [],
+            "description": "Adds a placeholder slot for now (debugging stage)",
+            "name": "Custom Filter slot",
+            "options": [],
+            "use": true
+        }
+    ]
+}
