@@ -1,5 +1,5 @@
 {
-    "version": "v5.42.0-dev.11",
+    "version": "v5.42.0-dev.12",
     "patches": [
         {
             "compatiblePackages": {
@@ -2931,6 +2931,18 @@
         },
         {
             "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes the tracking query parameters from shared links.",
+            "name": "Sanitize sharing links",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
                     "8.10.52"
@@ -2951,7 +2963,7 @@
                 "com.reddit.frontpage": null
             },
             "dependencies": [],
-            "description": "Removes (tracking) query parameters from the URLs when sharing links.",
+            "description": "Removes the tracking query parameters from shared links.",
             "name": "Sanitize sharing links",
             "options": [],
             "use": true
@@ -2963,7 +2975,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Removes the tracking query parameters from links before they are shared.",
+            "description": "Removes the tracking query parameters from shared links.",
             "name": "Sanitize sharing links",
             "options": [],
             "use": true
