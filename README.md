@@ -494,6 +494,19 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
+### 📦 HZbutcoding-Patches-Bundle [API v4]:
+[🧩 HZbutcoding Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hzbutcoding-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hzbutcoding-patch-bundles/hzbutcoding-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hzbutcoding-patch-bundles/hzbutcoding-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hzbutcoding-patch-bundles/hzbutcoding-dev-patches-bundle.json```
+</details>
+
+---
 # 📱 ReVanced Manager Compose:
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/dev
@@ -574,6 +587,8 @@ https://github.com/ReVanced/revanced-manager/releases
 #### 🏷️ [Nk521-Patches-Bundle](https://github.com/nk521/revanced-patches)
 
 #### 🏷️ [Tosox-Patches-Bundle](https://github.com/Tosox/revanced-patches)
+
+#### 🏷️ [HZbutcoding-Patches-Bundle](https://github.com/HZbutcoding/sn-patching
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*
