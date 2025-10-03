@@ -1,5 +1,5 @@
 {
-    "version": "v3.14.0-dev.7",
+    "version": "v3.14.0-dev.8",
     "patches": [
         {
             "compatiblePackages": {
@@ -3459,7 +3459,8 @@
                 "com.ysy.app.firewall": null
             },
             "dependencies": [
-                "BytecodePatch"
+                "BytecodePatch",
+                "RawResourcePatch"
             ],
             "description": "Unlocks NetWall Premium features once 'Unlock Premium Now' button is clicked.",
             "name": "Unlock Premium",
