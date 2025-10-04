@@ -301,7 +301,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***124 Patches***
+***125 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
@@ -334,6 +334,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Disable Cairo splash animation``` | ```Adds an option to disable Cairo splash animation.``` | ```com.google.android.apps.youtube.music``` | ```7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
 | ```Disable dislike redirection``` | ```Adds an option to disable redirection to the next track when clicking the Dislike button.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
 | ```Disable edge-to-edge display``` | ```Disable forced edge-to-edge display on Android 15+ by changing the app's target SDK version. This patch does not work if the app is installed by mounting.``` | ```Universal``` | ```All versions``` |
+| ```Disable forced auto audio tracks``` | ```Adds an option to disable audio tracks from being automatically enabled.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
 | ```Disable forced auto audio tracks``` | ```Adds an option to disable audio tracks from being automatically enabled.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Disable forced auto captions``` | ```Adds an option to disable captions from being automatically enabled.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
 | ```Disable forced auto captions``` | ```Adds an option to disable captions from being automatically enabled.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
