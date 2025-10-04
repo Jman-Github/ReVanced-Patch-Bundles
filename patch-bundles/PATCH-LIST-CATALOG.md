@@ -1799,7 +1799,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Custom Filter slot``` | ```Adds a placeholder slot for now (debugging stage)``` | ```org.fortheloss.sticknodes, org.fortheloss.sticknodesbeta, org.fortheloss.sticknodespro``` | ```4.2.5, 4.2.6, 4.2.5``` |
+| ```Custom Filter slot``` | ```Adds a placeholder slot for now (debugging stage 2)``` | ```org.fortheloss.sticknodes, org.fortheloss.sticknodesbeta, org.fortheloss.sticknodespro``` | ```4.2.5, 4.2.6, 4.2.5``` |
 
 </details>
 
