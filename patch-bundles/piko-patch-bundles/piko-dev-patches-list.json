@@ -1,5 +1,5 @@
 {
-    "version": "v2.0.0-dev.2",
+    "version": "v2.0.0-dev.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -354,6 +354,39 @@
             "description": "Get translate option for all posts",
             "name": "Force enable translate",
             "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds support for opening custom twitter links such as vxtwitter, fxtwitter, and fixupx within the app. These will have to be manually enabled under the \"Open by default\" section in the app info!",
+            "name": "Handle custom twitter links",
+            "options": [
+                {
+                    "default": [
+                        "vxtwitter.com",
+                        "fixvx.com",
+                        "fxtwitter.com",
+                        "fixupx.com",
+                        "twittpr.com",
+                        "hitlerx.com",
+                        "girlcockx.com",
+                        "stupidpenisx.com",
+                        "cunnyx.com",
+                        "autistic.kids"
+                    ],
+                    "description": "The custom sharing domains to register to be opened in Twitter",
+                    "key": "customLinkHosts",
+                    "required": true,
+                    "title": "Custom sharing domains",
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
+                }
+            ],
             "use": true
         },
         {
