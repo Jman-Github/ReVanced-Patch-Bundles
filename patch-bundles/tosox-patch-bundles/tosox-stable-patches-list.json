@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.2",
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -23,6 +23,16 @@
         },
         {
             "compatiblePackages": {
+                "com.netbiscuits.kicker": null
+            },
+            "dependencies": [],
+            "description": "Unlocks the Plus subscription",
+            "name": "Unlock Plus",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.wixsite.ut_app.utalarm": null
             },
             "dependencies": [],
@@ -40,6 +50,16 @@
             ],
             "description": "Unlocks the Pro plan",
             "name": "Unlock Pro",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.netbiscuits.kicker": null
+            },
+            "dependencies": [],
+            "description": "Unlocks the Pur subscription",
+            "name": "Unlock Pur",
             "options": [],
             "use": true
         }
