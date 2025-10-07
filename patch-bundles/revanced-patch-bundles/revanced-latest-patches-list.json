@@ -1,5 +1,5 @@
 {
-    "version": "v5.42.0-dev.13",
+    "version": "v5.42.0-dev.15",
     "patches": [
         {
             "compatiblePackages": {
@@ -234,6 +234,18 @@
         },
         {
             "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Replaces the domain name of shared links.",
+            "name": "Change link sharing domain",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
                 "com.twitter.android": [
                     "10.60.0-release.0",
                     "10.86.0-release.0"
@@ -243,7 +255,7 @@
                 "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Replaces the domain name of Twitter links when sharing them.",
+            "description": "Replaces the domain name of shared links.",
             "name": "Change link sharing domain",
             "options": [
                 {
@@ -1141,6 +1153,16 @@
             "name": "Enable debugging",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [],
+            "description": "Enables the developer menu, which can be found at the bottom of settings menu with name 'Internal Settings'.\n\nIt is recommended to use this patch with an alpha/beta Instagram release. Patching a stable release works, but the developer menu shows the developer flags as numbers and does not show a human readable description.",
+            "name": "Enable developer menu",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
