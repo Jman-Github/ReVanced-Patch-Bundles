@@ -1,5 +1,5 @@
 {
-    "version": "v5.42.0-dev.17",
+    "version": "v5.42.0-dev.18",
     "patches": [
         {
             "compatiblePackages": {
@@ -427,38 +427,33 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Applies a custom app name and icon. Defaults to \"YT Music ReVanced\" and the ReVanced logo.",
+            "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
             "name": "Custom branding",
             "options": [
                 {
-                    "default": "YT Music ReVanced",
-                    "description": "The name of the app.",
-                    "key": "appName",
+                    "default": null,
+                    "description": "Custom app name.",
+                    "key": "customName",
                     "required": false,
                     "title": "App name",
                     "type": "kotlin.String",
-                    "values": {
-                        "Music": "Music",
-                        "Music ReVanced": "Music ReVanced",
-                        "YT Music": "YT Music",
-                        "YT Music ReVanced": "YT Music ReVanced"
-                    }
+                    "values": null
                 },
                 {
-                    "default": "ReVanced*Logo",
-                    "description": "The icon to apply to the app.\n\nIf a path to a folder is provided, the folder must contain the following folders:\n\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of these folders must contain the following files:\n\n- adaptiveproduct_youtube_music_2024_q4_background_color_108.png\n- adaptiveproduct_youtube_music_2024_q4_foreground_color_108.png\n- ic_launcher_release.png\n\nOptionally, a 'drawable' folder with the monochrome icon files:\n\n- ic_app_icons_themed_youtube_music.xml",
-                    "key": "iconPath",
+                    "default": null,
+                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nOptionally, the path can contain a 'drawable' folder with the monochrome icon file:\nrevanced_adaptive_monochrome_custom.xml",
+                    "key": "customIcon",
                     "required": false,
-                    "title": "App icon",
+                    "title": "Custom icon",
                     "type": "kotlin.String",
-                    "values": {
-                        "ReVanced Logo": "ReVanced*Logo"
-                    }
+                    "values": null
                 }
             ],
-            "use": false
+            "use": true
         },
         {
             "compatiblePackages": {
@@ -469,37 +464,34 @@
                     "20.14.43"
                 ]
             },
-            "dependencies": [],
-            "description": "Applies a custom app name and icon. Defaults to \"YouTube ReVanced\" and the ReVanced logo.",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
             "name": "Custom branding",
             "options": [
                 {
-                    "default": "YouTube ReVanced",
-                    "description": "The name of the app.",
-                    "key": "appName",
+                    "default": null,
+                    "description": "Custom app name.",
+                    "key": "customName",
                     "required": false,
                     "title": "App name",
                     "type": "kotlin.String",
-                    "values": {
-                        "YT": "YT",
-                        "YT ReVanced": "YT ReVanced",
-                        "YouTube": "YouTube",
-                        "YouTube ReVanced": "YouTube ReVanced"
-                    }
+                    "values": null
                 },
                 {
-                    "default": "ReVanced*Logo",
-                    "description": "The icon to apply to the app.\n\nIf a path to a folder is provided, the folder must contain the following folders:\n\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of these folders must contain the following files:\n\n- adaptiveproduct_youtube_background_color_108.png\n- adaptiveproduct_youtube_foreground_color_108.png\n- ic_launcher.png\n- ic_launcher_round.png\n\nOptionally, a 'drawable' folder with the monochrome icon files:\n\n- adaptive_monochrome_ic_youtube_launcher.xml\n- ringo2_adaptive_monochrome_ic_youtube_launcher.xml",
-                    "key": "iconPath",
+                    "default": null,
+                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nOptionally, the path can contain a 'drawable' folder with the monochrome icon file:\nrevanced_adaptive_monochrome_custom.xml",
+                    "key": "customIcon",
                     "required": false,
-                    "title": "App icon",
+                    "title": "Custom icon",
                     "type": "kotlin.String",
-                    "values": {
-                        "ReVanced Logo": "ReVanced*Logo"
-                    }
+                    "values": null
                 }
             ],
-            "use": false
+            "use": true
         },
         {
             "compatiblePackages": {
