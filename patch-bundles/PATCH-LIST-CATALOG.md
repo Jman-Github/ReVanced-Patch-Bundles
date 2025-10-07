@@ -169,7 +169,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Hide app icon``` | ```Hides the app icon from the Android launcher.``` | ```Universal``` | ```All versions``` |
 | ```Hide cast button``` | ```Adds an option to hide the cast button.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
 | ```Hide category bar``` | ```Adds an option to hide the category bar at the top of the homepage.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
-| ```Hide Create button``` | ```Hides the "Create" button in the navigation bar.``` | ```com.spotify.music``` | ```All versions``` |
+| ```Hide Create button``` | ```Hides the "Create" button in the navigation bar. The latest app targets do not need this patch.``` | ```com.spotify.music``` | ```All versions``` |
 | ```Hide end screen cards``` | ```Adds an option to hide suggested video cards at the end of videos.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Hide end screen suggested video``` | ```Adds an option to hide the suggested video at the end of videos.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Hide explore feed``` | ```Hides posts and reels from the explore/search page.``` | ```com.instagram.android``` | ```All versions``` |
@@ -227,9 +227,9 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Remove Meta AI``` | ```Removes UI elements related to Meta AI.``` | ```com.facebook.orca``` | ```All versions``` |
 | ```Remove notification badge``` | ```Removes the red notification badge from the activity tab.``` | ```com.sony.songpal.mdr``` | ```10.1.0``` |
 | ```Remove play limits``` | ```Disables purchase nagging and playback limits of not purchased tracks.``` | ```com.bandcamp.android``` | ```All versions``` |
-| ```Remove root detection``` | ```Removes the check for root permissions.``` | ```at.gv.bmf.bmf2go``` | ```All versions``` |
+| ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.bmf.bmf2go``` | ```All versions``` |
 | ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.oe.app``` | ```All versions``` |
-| ```Remove root detection``` | ```Removes the check for root permissions.``` | ```com.nousguide.android.orftvthek``` | ```All versions``` |
+| ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```com.nousguide.android.orftvthek``` | ```All versions``` |
 | ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.bka.serviceportal``` | ```All versions``` |
 | ```Remove screen capture restriction``` | ```Removes the restriction of capturing audio from apps that normally wouldn't allow it.``` | ```Universal``` | ```All versions``` |
 | ```Remove screenshot restriction``` | ```Removes the restriction of taking screenshots in apps that normally wouldn't allow it.``` | ```Universal``` | ```All versions``` |
@@ -238,11 +238,11 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```com.amazon.avod.thirdpartyclient``` | ```All versions``` |
 | ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of videos with Return YouTube Dislike.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.instagram.android``` | ```All versions``` |
-| ```Sanitize sharing links``` | ```Adds an option to remove the tracking query parameter from shared links.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
+| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.spotify.music``` | ```All versions``` |
-| ```Sanitize sharing links``` | ```Removes the tracking query parameters from links before they are shared.``` | ```com.twitter.android``` | ```10.60.0-release.0, 10.86.0-release.0``` |
-| ```Sanitize sharing links``` | ```Adds an option to remove the tracking query parameter from shared links.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
+| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.twitter.android``` | ```10.60.0-release.0, 10.86.0-release.0``` |
+| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Seekbar``` | ```Adds options to disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, and hiding the video player seekbar.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Set target SDK version 34``` | ```Changes the target SDK to version 34 (Android 14). For devices running Android 15+, this will disable edge-to-edge display.``` | ```Universal``` | ```All versions``` |
 | ```Settings``` | ```Adds ReVanced settings to TikTok.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```36.5.4, 36.5.4``` |

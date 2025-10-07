@@ -1,5 +1,5 @@
 {
-    "version": "v5.42.0-dev.12",
+    "version": "v5.42.0-dev.13",
     "patches": [
         {
             "compatiblePackages": {
@@ -1885,10 +1885,10 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Hides the \"Create\" button in the navigation bar.",
+            "description": "Hides the \"Create\" button in the navigation bar. The latest app targets do not need this patch.",
             "name": "Hide Create button",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -2812,7 +2812,7 @@
                 "at.gv.bmf.bmf2go": null
             },
             "dependencies": [],
-            "description": "Removes the check for root permissions.",
+            "description": "Removes the check for root permissions and unlocked bootloader.",
             "name": "Remove root detection",
             "options": [],
             "use": true
@@ -2832,7 +2832,7 @@
                 "com.nousguide.android.orftvthek": null
             },
             "dependencies": [],
-            "description": "Removes the check for root permissions.",
+            "description": "Removes the check for root permissions and unlocked bootloader.",
             "name": "Remove root detection",
             "options": [],
             "use": true
@@ -2953,7 +2953,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds an option to remove the tracking query parameter from shared links.",
+            "description": "Removes the tracking query parameters from shared links.",
             "name": "Sanitize sharing links",
             "options": [],
             "use": true
@@ -2988,7 +2988,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Removes the tracking query parameters from links before they are shared.",
+            "description": "Removes the tracking query parameters from shared links.",
             "name": "Sanitize sharing links",
             "options": [],
             "use": true
@@ -3007,7 +3007,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds an option to remove the tracking query parameter from shared links.",
+            "description": "Removes the tracking query parameters from shared links.",
             "name": "Sanitize sharing links",
             "options": [],
             "use": true
