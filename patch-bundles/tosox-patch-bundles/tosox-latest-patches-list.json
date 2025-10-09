@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -34,6 +34,16 @@
         {
             "compatiblePackages": {
                 "com.wixsite.ut_app.utalarm": null
+            },
+            "dependencies": [],
+            "description": "Unlocks the Premium plan",
+            "name": "Unlock Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.flatastic.app": null
             },
             "dependencies": [],
             "description": "Unlocks the Premium plan",
