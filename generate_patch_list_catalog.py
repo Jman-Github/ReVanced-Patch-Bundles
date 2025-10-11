@@ -5,7 +5,6 @@ from typing import List, Dict
 
 
 def load_patch_info(bundle_dir: Path) -> List[Dict[str, str]]:
-    """Return a list of patch metadata dictionaries for a bundle."""
     bundle_name = bundle_dir.name.replace("-patch-bundles", "")
     patches: List[Dict[str, str]] = []
 
@@ -66,9 +65,13 @@ def load_patch_info(bundle_dir: Path) -> List[Dict[str, str]]:
     return patches
 
 
+def _squash_whitespace(value: str) -> str:
+    if value is None:
+        return "N/A"
+    return re.sub(r"\s+", " ", str(value)).strip()
+
+
 def format_patch_lines(patches: List[Dict[str, str]]) -> List[str]:
-    """Return a list of lines representing a Markdown table for all patches, wrapping each cell value in triple backticks, with
-    a space before the patch counter."""
     count = len(patches)
     patch_word = "Patch" if count == 1 else "Patches"
     lines: List[str] = []
@@ -81,10 +84,10 @@ def format_patch_lines(patches: List[Dict[str, str]]) -> List[str]:
         "|----------|---------------|---------------------|-------------------------|"
     )
     for info in patches:
-        name_cell = f"```{info['name']}```"
-        desc_cell = f"```{info['description']}```"
-        apps_cell = f"```{info['apps']}```"
-        vers_cell = f"```{info['versions']}```"
+        name_cell = f"```{_squash_whitespace(info.get('name', 'N/A'))}```"
+        desc_cell = f"```{_squash_whitespace(info.get('description', 'N/A'))}```"
+        apps_cell = f"```{_squash_whitespace(info.get('apps', 'N/A'))}```"
+        vers_cell = f"```{_squash_whitespace(info.get('versions', 'N/A'))}```"
         lines.append(f"| {name_cell} | {desc_cell} | {apps_cell} | {vers_cell} |")
     lines.append("")
     return lines
@@ -106,6 +109,7 @@ def read_catalog_patch_names(catalog_path: Path) -> set[str]:
             continue
         if name.startswith("```") and name.endswith("```"):
             name = name[3:-3]
+        name = _squash_whitespace(name)
         names.add(name)
     return names
 
@@ -113,7 +117,6 @@ def read_catalog_patch_names(catalog_path: Path) -> set[str]:
 def inject_patch_lines(
     catalog_lines: List[str], bundle_name: str, patch_lines: List[str]
 ) -> bool:
-    """Inject patch lines for a bundle into the catalog."""
     header_regex = re.compile(
         rf"^### 🧩 {re.escape(bundle_name)} Bundle Patch List:", re.IGNORECASE
     )
@@ -162,7 +165,7 @@ def main() -> int:
             print(f"Warning: section for '{bundle_name}' not found; skipping.")
             continue
 
-        new_patch_names.update(p["name"] for p in patches)
+        new_patch_names.update(_squash_whitespace(p["name"]) for p in patches)
 
     old_patch_names = read_catalog_patch_names(catalog_path)
     new_text = "\n".join(catalog_lines).rstrip() + "\n"
