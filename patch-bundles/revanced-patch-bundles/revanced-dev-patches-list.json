@@ -1,5 +1,5 @@
 {
-    "version": "v5.42.2-dev.2",
+    "version": "v5.42.2-dev.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -427,6 +427,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch"
