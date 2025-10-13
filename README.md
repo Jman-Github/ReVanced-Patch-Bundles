@@ -507,6 +507,20 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
+
+### 📦 Lluni-Patches-Bundle [API v4]:
+[🧩 Lluni Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-lluni-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lluni-patch-bundles/lluni-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lluni-patch-bundles/lluni-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lluni-patch-bundles/lluni-dev-patches-bundle.json```
+</details>
+
+---
 # 📱 ReVanced Manager Compose:
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/dev
