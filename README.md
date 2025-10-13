@@ -522,6 +522,14 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 # 📱 ReVanced Manager Compose:
+### 📍 Universal ReVanced Manager (my fork)
+*Highly suggested if you want to be unrestricted in the patch bundles you import!*
+#### 📋 Source:
+https://github.com/Jman-Github/universal-revanced-manager
+#### 📩 Latest Downloads:
+https://github.com/Jman-Github/universal-revanced-manager/releases
+
+### 🛠️ Official ReVanced Manager
 #### 📋 Source:
 https://github.com/ReVanced/revanced-manager/tree/dev
 #### 📩 Latest Downloads:
