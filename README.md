@@ -602,7 +602,9 @@ https://github.com/ReVanced/revanced-manager/releases
 
 #### 🏷️ [Tosox-Patches-Bundle](https://github.com/Tosox/revanced-patches)
 
-#### 🏷️ [HZbutcoding-Patches-Bundle](https://github.com/HZbutcoding/sn-patching
+#### 🏷️ [HZbutcoding-Patches-Bundle](https://github.com/HZbutcoding/sn-patching)
+
+#### 🏷️ [Lluni-Patches-Bundle](https://github.com/lluni/custom-revanced-patches)
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*
