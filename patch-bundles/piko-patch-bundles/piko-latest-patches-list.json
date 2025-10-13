@@ -1,5 +1,5 @@
 {
-    "version": "v2.0.0-dev.5",
+    "version": "v2.0.0-dev.4",
     "patches": [
         {
             "compatiblePackages": {
@@ -286,16 +286,6 @@
             "name": "Download patch",
             "options": [],
             "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.twitter.android": null
-            },
-            "dependencies": [],
-            "description": "Replaces the default X (Formerly Twitter) Blue with the user's Material You palette.",
-            "name": "Dynamic color",
-            "options": [],
-            "use": false
         },
         {
             "compatiblePackages": {
@@ -603,7 +593,6 @@
                 "com.twitter.android": null
             },
             "dependencies": [
-                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -684,18 +673,6 @@
             ],
             "description": "Makes bio and username selectable",
             "name": "Selectable Text",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.twitter.android": null
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Shows changelogs when new a patch is installed.",
-            "name": "Show changelogs",
             "options": [],
             "use": true
         },

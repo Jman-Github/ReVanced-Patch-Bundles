@@ -589,7 +589,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***58 Patches***
+***56 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add ability to copy media link``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
@@ -615,7 +615,6 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Disable auto timeline scroll on launch``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Disable chirp font``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Download patch``` | ```Unlocks the ability to download videos and gifs from Twitter/X``` | ```com.twitter.android``` | ```All versions``` |
-| ```Dynamic color``` | ```Replaces the default X (Formerly Twitter) Blue with the user's Material You palette.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Enable debug menu for posts``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Enable force HD videos``` | ```Videos will be played in highest quality always``` | ```com.twitter.android``` | ```All versions``` |
 | ```Enable PiP mode automatically``` | ```Enables PiP mode when you close the app``` | ```com.twitter.android``` | ```All versions``` |
@@ -646,7 +645,6 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Remove view count``` | ```Removes the view count from the bottom of tweets``` | ```com.twitter.android``` | ```All versions``` |
 | ```Round off numbers``` | ```Enable or disable rounding off numbers``` | ```com.twitter.android``` | ```All versions``` |
 | ```Selectable Text``` | ```Makes bio and username selectable``` | ```com.twitter.android``` | ```All versions``` |
-| ```Show changelogs``` | ```Shows changelogs when new a patch is installed.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Show poll results``` | ```Adds an option to show poll results without voting``` | ```com.twitter.android``` | ```All versions``` |
 | ```Show post source label``` | ```Source label will be shown only on public posts``` | ```com.twitter.android``` | ```All versions``` |
 | ```Show sensitive media``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
