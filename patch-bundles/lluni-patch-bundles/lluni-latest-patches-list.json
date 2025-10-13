@@ -1,0 +1,17 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "de.dwd.warnapp": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Disables the validation of promo code. Any code will work to unlock all features.",
+            "name": "Promo code unlock",
+            "options": [],
+            "use": true
+        }
+    ]
+}
