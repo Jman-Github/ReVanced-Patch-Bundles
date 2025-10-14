@@ -602,8 +602,6 @@ https://github.com/ReVanced/revanced-manager/releases
 
 #### 🏷️ [VinceTheProgrammer-Patches-Bundle](https://github.com/vinceTheProgrammer/sticknodes-patches)
 
-#### 🏷️ [Hepolise-Patches-Bundle](https://github.com/Hepolise/LuckyToolPatches)
-
 #### 🏷️ [Kangrio-Patches-Bundle](https://github.com/kangrio/MicroG-Patches-Re)
 
 #### 🏷️ [Nk521-Patches-Bundle](https://github.com/nk521/revanced-patches)
@@ -642,8 +640,6 @@ __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be incl
 #### ⛓ [ayushTNM-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 #### ⛓ [Arsclib-Patches-Bundle](https://github.com/inotia00/revanced-integrations)
-
-#### ⛓ [Hepolise-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 #### ⛓ [Kangrio-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
