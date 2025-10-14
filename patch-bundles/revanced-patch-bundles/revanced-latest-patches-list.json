@@ -1,5 +1,5 @@
 {
-    "version": "v5.43.0",
+    "version": "v5.43.1-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -267,8 +267,18 @@
             ],
             "description": "Replaces the domain name of shared links.",
             "name": "Change link sharing domain",
-            "options": [],
-            "use": true
+            "options": [
+                {
+                    "default": "fxtwitter.com",
+                    "description": "The domain name to use when sharing links.",
+                    "key": "domainName",
+                    "required": true,
+                    "title": "Domain name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": false
         },
         {
             "compatiblePackages": {
