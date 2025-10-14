@@ -14,7 +14,7 @@ jobs:
       - name: Download artifact from triggering run
         if: ${{ github.event_name == 'workflow_run' }}
         id: download_artifact
-        uses: dawidd6/action-download-artifact@v6
+        uses: dawidd6/action-download-artifact@bf251b5aa9c2f7eeb574a96ee720e24f801b7c11 # v6
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           repo: ${{ github.repository }}
@@ -55,13 +55,13 @@ jobs:
           fi
           echo "No explicit commit-sha.txt found (will search by time window)."
 
+      - name: Checkout repository
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
-
-      - name: Checkout repository
-        uses: actions/checkout@v4
+          python -m pip install -r requirements.txt
 
       - name: Run find_commit.py (strict to triggering run; fail if not found)
         env:
@@ -78,7 +78,7 @@ jobs:
           python find_commit.py
 
       - name: Create commit link artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: commit-link
           path: commit-link.txt

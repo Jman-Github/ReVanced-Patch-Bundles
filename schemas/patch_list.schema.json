@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Patch List",
+  "type": "object",
+  "required": ["version", "patches"],
+  "properties": {
+    "version": { "type": "string", "minLength": 1 },
+    "patches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "description": { "type": ["string", "null"] },
+          "compatiblePackages": {
+            "type": ["object", "null"],
+            "additionalProperties": {
+              "anyOf": [
+                { "type": "array", "items": { "type": ["string", "number"] } },
+                { "type": "string" },
+                { "type": "null" }
+              ]
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

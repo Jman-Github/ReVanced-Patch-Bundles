@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Patch Bundle",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": ["version"],
+      "properties": {
+        "version": { "type": "string", "minLength": 1 },
+        "download_url": { "type": "string", "minLength": 1 },
+        "signature_download_url": { "type": "string" },
+        "description": { "type": "string" },
+        "created_at": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": ["patches", "integrations"],
+      "properties": {
+        "patches": {
+          "type": "object",
+          "required": ["version", "url"],
+          "properties": {
+            "version": { "type": "string", "minLength": 1 },
+            "url": { "type": "string", "minLength": 1 }
+          },
+          "additionalProperties": false
+        },
+        "integrations": {
+          "type": "object",
+          "required": ["version", "url"],
+          "properties": {
+            "version": { "type": "string", "minLength": 1 },
+            "url": { "type": "string", "minLength": 1 }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  ]
+}

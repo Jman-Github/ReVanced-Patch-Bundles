@@ -1,12 +1,11 @@
 import json
 import re
 from pathlib import Path
-from typing import List, Dict
 
 
-def load_patch_info(bundle_dir: Path) -> List[Dict[str, str]]:
+def load_patch_info(bundle_dir: Path) -> list[dict[str, str]]:
     bundle_name = bundle_dir.name.replace("-patch-bundles", "")
-    patches: List[Dict[str, str]] = []
+    patches: list[dict[str, str]] = []
 
     list_file = None
     for suffix in ("latest", "stable", "dev"):
@@ -43,7 +42,7 @@ def load_patch_info(bundle_dir: Path) -> List[Dict[str, str]]:
             versions_str = "All versions"
         else:
             apps = ", ".join(comp.keys())
-            version_parts: List[str] = []
+            version_parts: list[str] = []
             for versions in comp.values():
                 if not versions:
                     continue
@@ -71,10 +70,10 @@ def _squash_whitespace(value: str) -> str:
     return re.sub(r"\s+", " ", str(value)).strip()
 
 
-def format_patch_lines(patches: List[Dict[str, str]]) -> List[str]:
+def format_patch_lines(patches: list[dict[str, str]]) -> list[str]:
     count = len(patches)
     patch_word = "Patch" if count == 1 else "Patches"
-    lines: List[str] = []
+    lines: list[str] = []
     lines.append("")
     lines.append(f"***{count} {patch_word}***")
     lines.append(
@@ -115,7 +114,7 @@ def read_catalog_patch_names(catalog_path: Path) -> set[str]:
 
 
 def inject_patch_lines(
-    catalog_lines: List[str], bundle_name: str, patch_lines: List[str]
+    catalog_lines: list[str], bundle_name: str, patch_lines: list[str]
 ) -> bool:
     header_regex = re.compile(
         rf"^### 🧩 {re.escape(bundle_name)} Bundle Patch List:", re.IGNORECASE

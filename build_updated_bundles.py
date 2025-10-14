@@ -1,8 +1,16 @@
-import os, subprocess, json, re, sys
+import json
+import os
+import re
+import subprocess
+import sys
+
 
 def read_git(rev, path):
     try:
-        return subprocess.check_output(["git", "show", f"{rev}:{path}"], text=True)
+        return subprocess.check_output(
+            ["git", "show", f"{rev}:{path}"],
+            text=True,
+        )
     except subprocess.CalledProcessError:
         return ""
 
@@ -10,7 +18,10 @@ def resolve_path(path):
     if "/" in path:
         return path
     try:
-        matches = subprocess.check_output(["git", "ls-files", f"**/{path}"], text=True).splitlines()
+        matches = subprocess.check_output(
+            ["git", "ls-files", f"**/{path}"],
+            text=True,
+        ).splitlines()
     except subprocess.CalledProcessError:
         matches = []
     if not matches:
@@ -26,8 +37,8 @@ def get_version(s):
         for k in ["version", "Version", "bundleVersion", "patchesVersion", "latestVersion"]:
             if isinstance(data, dict) and k in data and isinstance(data[k], str):
                 return data[k]
-    except Exception:
-        pass
+    except (json.JSONDecodeError, TypeError):
+        return None
     m = re.search(r'"(?:version|Version|latestVersion)"\s*:\s*"([^"]+)"', s)
     return m.group(1) if m else None
 
@@ -39,8 +50,8 @@ def write_env(key, value):
         f.write(f"{key}={value}\n")
 
 try:
-    with open("changed_files.txt", "r", encoding="utf-8") as fh:
-        changed = [l.strip() for l in fh if l.strip()]
+    with open("changed_files.txt", encoding="utf-8") as fh:
+        changed = [line.strip() for line in fh if line.strip()]
 except OSError:
     changed = []
 

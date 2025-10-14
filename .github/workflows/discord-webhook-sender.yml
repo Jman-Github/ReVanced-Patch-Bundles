@@ -27,7 +27,7 @@ jobs:
 
       - name: Download Artifact from Patch bundle updater
         id: download_patch_bundle_updater_artifact
-        uses: benday-inc/download-latest-artifact@main
+        uses: benday-inc/download-latest-artifact@6cfc43f319ff559266c55b27e17d581dbbd59cf8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           repository_owner: 'Jman-Github'
@@ -41,7 +41,7 @@ jobs:
 
       - name: Download Summary Artifact from Patch bundle updater
         id: download_patch_bundle_summary_artifact
-        uses: benday-inc/download-latest-artifact@main
+        uses: benday-inc/download-latest-artifact@6cfc43f319ff559266c55b27e17d581dbbd59cf8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           repository_owner: 'Jman-Github'
@@ -55,7 +55,7 @@ jobs:
 
       - name: Download Artifact from Commit puller
         id: download_commit_puller_artifact
-        uses: benday-inc/download-latest-artifact@main
+        uses: benday-inc/download-latest-artifact@6cfc43f319ff559266c55b27e17d581dbbd59cf8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           repository_owner: 'Jman-Github'
@@ -180,7 +180,7 @@ jobs:
           PY
 
       - name: Send Discord Notification
-        uses: tsickert/discord-webhook@v7.0.0
+        uses: tsickert/discord-webhook@b217a69502f52803de774ded2b1ab7c282e99645 # v7.0.0
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
           wait: true

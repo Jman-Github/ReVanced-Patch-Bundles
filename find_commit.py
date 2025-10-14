@@ -1,9 +1,13 @@
 import os
 import sys
-import requests
-from datetime import datetime, timedelta, timezone
+from collections.abc import Iterable, Mapping
+from datetime import UTC, datetime, timedelta
+from typing import Any
+
+import httpx
 
 API_VERSION = "2022-11-28"
+HTTP_TIMEOUT = httpx.Timeout(30.0)
 
 
 def _parse_iso_z(dt: str | None) -> datetime | None:
@@ -12,52 +16,56 @@ def _parse_iso_z(dt: str | None) -> datetime | None:
     try:
         if dt.endswith("Z"):
             dt = dt[:-1] + "+00:00"
-        return datetime.fromisoformat(dt).astimezone(timezone.utc)
+        return datetime.fromisoformat(dt).astimezone(UTC)
     except Exception:
         return None
 
 
 def _fmt_iso_z(dt: datetime) -> str:
     return (
-        dt.astimezone(timezone.utc)
+        dt.astimezone(UTC)
         .replace(microsecond=0)
         .isoformat()
         .replace("+00:00", "Z")
     )
 
 
-def _gh_get(url: str, token: str | None, params: dict | None = None):
+def _gh_get(
+    client: httpx.Client, url: str, token: str | None, params: Mapping[str, Any] | None = None
+) -> httpx.Response:
     headers = {
         "Accept": "application/vnd.github+json",
         "X-GitHub-Api-Version": API_VERSION,
     }
     if token:
         headers["Authorization"] = f"Bearer {token}"
-    resp = requests.get(url, headers=headers, params=params, timeout=30)
-    resp.raise_for_status()
-    return resp
+    response = client.get(url, headers=headers, params=params)
+    response.raise_for_status()
+    return response
 
 
-def _first_bot_commit_in(commits, actor_login: str) -> dict | None:
-    for c in commits:
-        author = c.get("author") or {}
-        commit_block = c.get("commit") or {}
-        committer_block = (commit_block.get("committer") or {})
-        name = (commit_block.get("author") or {}).get("name") or ""
+def _first_bot_commit_in(
+    commits: Iterable[Mapping[str, Any]], actor_login: str
+) -> Mapping[str, Any] | None:
+    for commit in commits:
+        author = commit.get("author") or {}
+        commit_block = commit.get("commit") or {}
+        committer_block = commit_block.get("committer") or {}
+        author_name = (commit_block.get("author") or {}).get("name") or ""
         committer_name = committer_block.get("name") or ""
         if (
             author.get("login") == actor_login
-            or name == actor_login
+            or author_name == actor_login
             or committer_name == actor_login
         ):
-            return c
+            return commit
     return None
 
 
-def _commit_timestamp(commit: dict) -> datetime | None:
-    cb = commit.get("commit") or {}
-    committer_block = cb.get("committer") or {}
-    author_block = cb.get("author") or {}
+def _commit_timestamp(commit: Mapping[str, Any]) -> datetime | None:
+    commit_block = commit.get("commit") or {}
+    committer_block = commit_block.get("committer") or {}
+    author_block = commit_block.get("author") or {}
     if committer_block.get("date"):
         return _parse_iso_z(committer_block.get("date"))
     if author_block.get("date"):
@@ -65,11 +73,17 @@ def _commit_timestamp(commit: dict) -> datetime | None:
     return None
 
 
-def _commit_message(commit: dict) -> str:
+def _commit_message(commit: Mapping[str, Any]) -> str:
     return ((commit.get("commit") or {}).get("message") or "").strip()
 
 
-def _commit_in_branch(repo: str, token: str | None, sha: str, branch: str) -> bool:
+def _commit_in_branch(
+    client: httpx.Client,
+    repo: str,
+    token: str | None,
+    sha: str,
+    branch: str,
+) -> bool:
     """
     Verify that `sha` is reachable from `branch` by using the compare API.
     If base=sha and head=branch, the commit is in branch if status is one of:
@@ -77,20 +91,140 @@ def _commit_in_branch(repo: str, token: str | None, sha: str, branch: str) -> bo
     """
     url = f"https://api.github.com/repos/{repo}/compare/{sha}...{branch}"
     try:
-        r = _gh_get(url, token)
-        data = r.json()
-        status = data.get("status", "")
-        return status in ("behind", "identical")
-    except requests.RequestException:
+        response = _gh_get(client, url, token)
+        payload = response.json()
+    except httpx.HTTPError:
         return False
+    if not isinstance(payload, Mapping):
+        return False
+    status = payload.get("status", "")
+    return status in ("behind", "identical")
 
 
-def _get_commit(repo: str, token: str | None, sha: str) -> dict:
+def _get_commit(client: httpx.Client, repo: str, token: str | None, sha: str) -> dict[str, Any]:
     url = f"https://api.github.com/repos/{repo}/commits/{sha}"
-    return _gh_get(url, token).json()
+    payload = _gh_get(client, url, token).json()
+    if not isinstance(payload, dict):
+        raise RuntimeError(f"Unexpected payload fetching commit {sha}.")
+    return payload
 
 
-def main():
+def _validate_commit(
+    client: httpx.Client,
+    commit: Mapping[str, Any],
+    *,
+    repo: str,
+    branch: str,
+    token: str | None,
+    required_prefix: str,
+    min_commit_time: datetime | None,
+    max_future_pad: datetime | None,
+    max_age_minutes: int,
+) -> Mapping[str, Any]:
+    if required_prefix and not _commit_message(commit).startswith(required_prefix):
+        raise RuntimeError("Commit message does not satisfy REQUIRED_COMMIT_MSG_PREFIX.")
+
+    commit_timestamp = _commit_timestamp(commit)
+    if not commit_timestamp:
+        raise RuntimeError("Commit is missing a timestamp; refusing to proceed.")
+    if min_commit_time and commit_timestamp < min_commit_time:
+        raise RuntimeError(
+            "Commit is older than "
+            f"{max_age_minutes} minutes relative to the run; refusing to proceed."
+        )
+    if max_future_pad and commit_timestamp > max_future_pad:
+        raise RuntimeError("Commit timestamp appears after allowable pad; refusing to proceed.")
+
+    sha = commit.get("sha")
+    if not sha:
+        raise RuntimeError("Commit is missing its SHA; refusing to proceed.")
+    if not _commit_in_branch(client, repo, token, sha, branch):
+        raise RuntimeError(f"Commit {sha} is not reachable from branch '{branch}'.")
+
+    return commit
+
+
+def _resolve_by_explicit_sha(
+    client: httpx.Client,
+    repo: str,
+    token: str | None,
+    branch: str,
+    actor_login: str,
+    required_prefix: str,
+    min_commit_time: datetime | None,
+    max_future_pad: datetime | None,
+    max_age_minutes: int,
+    explicit_sha: str,
+) -> Mapping[str, Any]:
+    try:
+        commit = _get_commit(client, repo, token, explicit_sha)
+    except httpx.HTTPError as exc:
+        raise RuntimeError(f"Failed to fetch commit {explicit_sha}: {exc}") from exc
+
+    if not _first_bot_commit_in([commit], actor_login):
+        raise RuntimeError("Explicit SHA is not authored by github-actions[bot].")
+
+    return _validate_commit(
+        client,
+        commit,
+        repo=repo,
+        branch=branch,
+        token=token,
+        required_prefix=required_prefix,
+        min_commit_time=min_commit_time,
+        max_future_pad=max_future_pad,
+        max_age_minutes=max_age_minutes,
+    )
+
+
+def _resolve_by_window(
+    client: httpx.Client,
+    repo: str,
+    token: str | None,
+    branch: str,
+    actor_login: str,
+    required_prefix: str,
+    min_commit_time: datetime | None,
+    max_future_pad: datetime | None,
+    max_age_minutes: int,
+    since_dt: datetime | None,
+    until_dt: datetime | None,
+) -> Mapping[str, Any]:
+    base_url = f"https://api.github.com/repos/{repo}/commits"
+
+    params: dict[str, Any] = {"sha": branch, "per_page": 100}
+    if since_dt:
+        params["since"] = _fmt_iso_z(since_dt)
+    if until_dt:
+        params["until"] = _fmt_iso_z(until_dt)
+
+    try:
+        payload = _gh_get(client, base_url, token, params=params).json()
+    except httpx.HTTPError as exc:
+        raise RuntimeError(f"Error fetching commits: {exc}") from exc
+
+    if not isinstance(payload, list):
+        raise RuntimeError("Unexpected payload while fetching commits.")
+    commits: list[dict[str, Any]] = [item for item in payload if isinstance(item, dict)]
+
+    match = _first_bot_commit_in(commits, actor_login)
+    if not match:
+        raise RuntimeError("No github-actions[bot] commit found for the triggering run window.")
+
+    return _validate_commit(
+        client,
+        match,
+        repo=repo,
+        branch=branch,
+        token=token,
+        required_prefix=required_prefix,
+        min_commit_time=min_commit_time,
+        max_future_pad=max_future_pad,
+        max_age_minutes=max_age_minutes,
+    )
+
+
+def main() -> None:
     repo = os.environ.get("GITHUB_REPOSITORY")
     if not repo or "/" not in repo:
         print("Invalid GITHUB_REPOSITORY", file=sys.stderr)
@@ -118,110 +252,67 @@ def main():
         )
         sys.exit(1)
 
-    since_dt = (run_started_at - timedelta(minutes=2)) if run_started_at else None
-    until_dt = (run_updated_at + timedelta(minutes=2)) if run_updated_at else None
+    since_dt = (
+        run_started_at - timedelta(minutes=2)
+        if run_started_at
+        else None
+    )
+    until_dt = (
+        run_updated_at + timedelta(minutes=2)
+        if run_updated_at
+        else None
+    )
+    min_commit_time = (
+        run_updated_at - timedelta(minutes=max_age_minutes)
+        if run_updated_at
+        else None
+    )
+    max_future_pad = (
+        run_updated_at + timedelta(minutes=5)
+        if run_updated_at
+        else None
+    )
 
-    min_commit_time = run_updated_at - timedelta(minutes=max_age_minutes) if run_updated_at else None
-    max_future_pad = run_updated_at + timedelta(minutes=5) if run_updated_at else None
+    try:
+        with httpx.Client(timeout=HTTP_TIMEOUT) as client:
+            if explicit_sha:
+                commit = _resolve_by_explicit_sha(
+                    client,
+                    repo=repo,
+                    token=token,
+                    branch=branch,
+                    actor_login=actor_login,
+                    required_prefix=required_prefix,
+                    min_commit_time=min_commit_time,
+                    max_future_pad=max_future_pad,
+                    max_age_minutes=max_age_minutes,
+                    explicit_sha=explicit_sha,
+                )
+            else:
+                commit = _resolve_by_window(
+                    client,
+                    repo=repo,
+                    token=token,
+                    branch=branch,
+                    actor_login=actor_login,
+                    required_prefix=required_prefix,
+                    min_commit_time=min_commit_time,
+                    max_future_pad=max_future_pad,
+                    max_age_minutes=max_age_minutes,
+                    since_dt=since_dt,
+                    until_dt=until_dt,
+                )
+    except RuntimeError as exc:
+        print(str(exc), file=sys.stderr)
+        sys.exit(1)
 
-    latest_commit_url = None
-    chosen_commit = None
-
-    if explicit_sha:
-        try:
-            c = _get_commit(repo, token, explicit_sha)
-        except requests.RequestException as e:
-            print(f"Failed to fetch commit {explicit_sha}: {e}", file=sys.stderr)
-            sys.exit(1)
-
-        if not _first_bot_commit_in([c], actor_login):
-            print("Explicit SHA is not authored by github-actions[bot].", file=sys.stderr)
-            sys.exit(1)
-
-        if not _commit_in_branch(repo, token, explicit_sha, branch):
-            print(f"Explicit SHA {explicit_sha} is not reachable from branch '{branch}'.", file=sys.stderr)
-            sys.exit(1)
-
-        if required_prefix and not _commit_message(c).startswith(required_prefix):
-            print("Commit message does not satisfy REQUIRED_COMMIT_MSG_PREFIX.", file=sys.stderr)
-            sys.exit(1)
-
-        cdt = _commit_timestamp(c)
-        if not cdt:
-            print("Explicit SHA has no timestamp; refusing to proceed.", file=sys.stderr)
-            sys.exit(1)
-
-        if min_commit_time and cdt < min_commit_time:
-            print(
-                f"Explicit SHA commit is older than {max_age_minutes} minutes relative to the run; refusing to proceed.",
-                file=sys.stderr,
-            )
-            sys.exit(1)
-
-        if max_future_pad and cdt > max_future_pad:
-            print("Explicit SHA commit timestamp appears after allowable pad; refusing to proceed.", file=sys.stderr)
-            sys.exit(1)
-
-        latest_commit_url = c.get("html_url")
-        chosen_commit = c
-
-    else:
-        base_url = f"https://api.github.com/repos/{repo}/commits"
-
-        def fetch_commits(since, until):
-            params = {"sha": branch, "per_page": 100}
-            if since:
-                params["since"] = _fmt_iso_z(since)
-            if until:
-                params["until"] = _fmt_iso_z(until)
-            return _gh_get(base_url, token, params=params).json()
-
-        try:
-            commits = fetch_commits(since_dt, until_dt)
-        except requests.RequestException as e:
-            print(f"Error fetching commits: {e}", file=sys.stderr)
-            sys.exit(1)
-
-        match = _first_bot_commit_in(commits, actor_login)
-        if not match:
-            print(
-                "No github-actions[bot] commit found for the triggering run window.",
-                file=sys.stderr,
-            )
-            sys.exit(1)
-
-        if required_prefix and not _commit_message(match).startswith(required_prefix):
-            print(
-                "Found bot commit but its message does not satisfy REQUIRED_COMMIT_MSG_PREFIX.",
-                file=sys.stderr,
-            )
-            sys.exit(1)
-
-        cdt = _commit_timestamp(match)
-        if not cdt:
-            print("Matched commit has no timestamp; refusing to proceed.", file=sys.stderr)
-            sys.exit(1)
-
-        if min_commit_time and cdt < min_commit_time:
-            print(
-                f"Found commit is older than {max_age_minutes} minutes relative to the run; refusing to proceed.",
-                file=sys.stderr,
-            )
-            sys.exit(1)
-
-        if max_future_pad and cdt > max_future_pad:
-            print("Found commit timestamp appears after allowable pad; refusing to proceed.", file=sys.stderr)
-            sys.exit(1)
-
-        latest_commit_url = match.get("html_url")
-        chosen_commit = match
-
+    latest_commit_url = commit.get("html_url")
     if not latest_commit_url:
         print("Matched commit has no html_url; refusing to proceed.", file=sys.stderr)
         sys.exit(1)
 
-    with open("commit-link.txt", "w", encoding="utf-8") as f:
-        f.write(f"[View Commit]({latest_commit_url})")
+    with open("commit-link.txt", "w", encoding="utf-8") as handle:
+        handle.write(f"[View Commit]({latest_commit_url})")
 
     print(f"Wrote commit link for triggering run: {latest_commit_url}")
 

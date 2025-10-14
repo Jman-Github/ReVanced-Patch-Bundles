@@ -3,8 +3,8 @@ import subprocess
 from pathlib import Path
 
 
-def main():
-    summary = {}
+def main() -> None:
+    summary: dict[str, str] = {}
     changed_path = Path('changed_files.txt')
     if not changed_path.is_file():
         print('changed_files.txt not found')
@@ -37,7 +37,7 @@ def main():
         old_version = None
         try:
             old_content = subprocess.check_output(
-                ['git', 'show', f'HEAD^:{str(file_path)}'], text=True
+                ['git', 'show', f'HEAD^:{file_path!s}'], text=True
             )
             old_data = json.loads(old_content)
             if isinstance(old_data, dict):
@@ -45,8 +45,8 @@ def main():
                     old_version = old_data['version']
                 elif 'patches' in old_data and isinstance(old_data['patches'], dict):
                     old_version = old_data['patches'].get('version')
-        except Exception:
-            pass
+        except Exception as exc:
+            print(f'Failed to inspect previous version for {line}: {exc}')
 
         if version:
             bundle_name = file_path.stem.replace('-patches-bundle', '')

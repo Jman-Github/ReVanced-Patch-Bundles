@@ -9,9 +9,8 @@ from __future__ import annotations
 import base64
 import os
 import sys
-from typing import Tuple
 
-import requests
+import httpx
 
 
 def _get_headers() -> dict[str, str]:
@@ -21,14 +20,14 @@ def _get_headers() -> dict[str, str]:
     }
 
 
-def _fetch_readme() -> Tuple[str, str]:
+def _fetch_readme() -> tuple[str, str]:
     branch = os.environ.get("TARGET_BRANCH") or os.environ.get("GITHUB_REF_NAME", "bundles")
-    response = requests.get(
-        f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/contents/README.md",
-        headers=_get_headers(),
-        params={"ref": branch},
-        timeout=30,
-    )
+    with httpx.Client(timeout=httpx.Timeout(30.0)) as client:
+        response = client.get(
+            f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/contents/README.md",
+            headers=_get_headers(),
+            params={"ref": branch},
+        )
     response.raise_for_status()
     data = response.json()
     return base64.b64decode(data["content"]).decode("utf-8"), data["sha"]
@@ -48,7 +47,7 @@ def check_readme(artifact_url: str) -> None:
         readme, _ = _fetch_readme()
         current_url = _extract_current_url(readme)
         needs_update = "true" if current_url != artifact_url else "false"
-    except Exception as exc:  # noqa: BLE001
+    except Exception as exc:
         print(f"Failed to check README: {exc}")
         needs_update = "true"
 
