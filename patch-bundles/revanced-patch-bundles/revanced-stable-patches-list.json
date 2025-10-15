@@ -1,5 +1,5 @@
 {
-    "version": "v5.42.1",
+    "version": "v5.43.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -241,7 +241,17 @@
             ],
             "description": "Replaces the domain name of shared links.",
             "name": "Change link sharing domain",
-            "options": [],
+            "options": [
+                {
+                    "default": "imginn.com",
+                    "description": "The domain name to use when sharing links.",
+                    "key": "domainName",
+                    "required": false,
+                    "title": "Domain name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
             "use": false
         },
         {
@@ -257,17 +267,7 @@
             ],
             "description": "Replaces the domain name of shared links.",
             "name": "Change link sharing domain",
-            "options": [
-                {
-                    "default": "fxtwitter.com",
-                    "description": "The domain name to use when sharing links.",
-                    "key": "domainName",
-                    "required": true,
-                    "title": "Domain name",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ],
+            "options": [],
             "use": true
         },
         {
@@ -428,6 +428,8 @@
             },
             "dependencies": [
                 "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch"
             ],
@@ -445,7 +447,7 @@
                 },
                 {
                     "default": null,
-                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nOptionally, the path can contain a 'drawable' folder with the monochrome icon file:\nrevanced_adaptive_monochrome_custom.xml",
+                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nrevanced_adaptive_monochrome_custom.xml\nrevanced_notification_icon_custom.xml",
                     "key": "customIcon",
                     "required": false,
                     "title": "Custom icon",
@@ -467,6 +469,7 @@
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
+                "ResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
@@ -483,7 +486,7 @@
                 },
                 {
                     "default": null,
-                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nOptionally, the path can contain a 'drawable' folder with the monochrome icon file:\nrevanced_adaptive_monochrome_custom.xml",
+                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nrevanced_adaptive_monochrome_custom.xml\nrevanced_notification_icon_custom.xml",
                     "key": "customIcon",
                     "required": false,
                     "title": "Custom icon",
@@ -2318,6 +2321,16 @@
             "name": "Hide story bubbles",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [],
+            "description": "Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).",
+            "name": "Hide suggested content",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
