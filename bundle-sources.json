@@ -153,7 +153,7 @@
         "patches": "https://api.github.com/repos/hoo-dles/revanced-custom-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
-        },
+    },
     "scrazzz-stable": {
         "patches": "https://api.github.com/repos/scrazzz/my-revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
@@ -178,19 +178,24 @@
         "patches": "https://api.github.com/repos/nk521/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
-            },
+    },
     "tosox-stable": {
         "patches": "https://api.github.com/repos/tosox/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
-            },
+    },
     "hzbutcoding-stable": {
         "patches": "https://api.github.com/repos/hzbutcoding/sn-patching",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
-                        },
+    },
     "lluni-stable": {
         "patches": "https://api.github.com/repos/lluni/custom-revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "zeldrisho-stable": {
+        "patches": "https://api.github.com/repos/zeldrisho/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
@@ -343,7 +348,7 @@
         "patches": "https://api.github.com/repos/hoo-dles/revanced-custom-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
-        },
+    },
     "scrazzz-dev": {
         "patches": "https://api.github.com/repos/scrazzz/my-revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
@@ -373,14 +378,19 @@
         "patches": "https://api.github.com/repos/tosox/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
-            },
+    },
     "hzbutcoding-dev": {
         "patches": "https://api.github.com/repos/hzbutcoding/sn-patching",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
-                },
+    },
     "lluni-dev": {
         "patches": "https://api.github.com/repos/lluni/custom-revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "zeldrisho-dev": {
+        "patches": "https://api.github.com/repos/zeldrisho/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -563,7 +573,7 @@
         "patches": "https://api.github.com/repos/nk521/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
-        },
+    },
     "tosox-latest": {
         "patches": "https://api.github.com/repos/tosox/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
@@ -573,9 +583,14 @@
         "patches": "https://api.github.com/repos/hzbutcoding/sn-patching",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
-                },
+    },
     "lluni-latest": {
         "patches": "https://api.github.com/repos/lluni/custom-revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "zeldrisho-latest": {
+        "patches": "https://api.github.com/repos/zeldrisho/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }
