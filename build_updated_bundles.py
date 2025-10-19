@@ -3,7 +3,7 @@ import os
 import re
 import subprocess
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 METADATA_PATH = Path("bundle-run-metadata.json")
@@ -57,7 +57,7 @@ def format_timestamp(value: str | None) -> str:
         dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
     except ValueError:
         return value
-    return dt.astimezone(datetime.UTC).isoformat().replace("+00:00", "Z")
+    return dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")  # noqa: UP017
 
 
 def read_git(rev, path):
@@ -176,7 +176,7 @@ if not lines:
 with open("updated-bundles.txt", "w", encoding="utf-8") as out:
     out.write("\n".join(lines))
 
-timestamp = datetime.now(datetime.UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+timestamp = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")  # noqa: UP017
 changelog_header = [
     "# Patch Bundle Updates",
     "",

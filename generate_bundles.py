@@ -6,7 +6,7 @@ import secrets
 import subprocess
 import time
 from collections.abc import Mapping
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Any
 
 from httpx import AsyncClient, HTTPError, Response, Timeout
@@ -322,7 +322,7 @@ async def main() -> None:
         for (source, _), result in zip(sources.items(), results, strict=False):
             if isinstance(result, Exception):
                 print(f"Task for {source} failed: {result}")
-        timestamp = datetime.now(datetime.UTC).isoformat()
+        timestamp = datetime.now(timezone.utc).isoformat()  # noqa: UP017
         metadata_payload = {
             "generated_at": timestamp,
             "bundles": BUNDLE_METADATA,
