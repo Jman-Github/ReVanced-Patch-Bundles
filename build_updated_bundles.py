@@ -3,6 +3,61 @@ import os
 import re
 import subprocess
 import sys
+from datetime import datetime
+from pathlib import Path
+
+METADATA_PATH = Path("bundle-run-metadata.json")
+CHANGELOG_PATH = Path("bundle-changelog.md")
+
+
+def load_metadata() -> dict[str, dict[str, str]]:
+    if not METADATA_PATH.is_file():
+        return {}
+    try:
+        payload = json.loads(METADATA_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        print(f"Failed to parse {METADATA_PATH}: {exc}")
+        return {}
+    bundles = payload.get("bundles")
+    if isinstance(bundles, dict):
+        return bundles
+    return {}
+
+
+def _clean_lines(text: str) -> list[str]:
+    return [line.strip() for line in text.splitlines() if line.strip()]
+
+
+def summarize_notes(notes: str, max_items: int = 3, max_chars: int = 300) -> str:
+    if not notes:
+        return "No release notes provided."
+    lines = _clean_lines(notes)
+    if not lines:
+        return "No release notes provided."
+    bullet_lines = [
+        line.lstrip("-*•").strip()
+        for line in lines
+        if line.startswith(("-", "*", "•"))
+    ]
+    if bullet_lines:
+        selected = bullet_lines[:max_items]
+        return "<br>".join(f"- {item}" for item in selected if item)
+
+    description = " ".join(lines)
+    if len(description) > max_chars:
+        description = description[: max_chars - 1].rstrip() + "…"
+    return description
+
+
+def format_timestamp(value: str | None) -> str:
+    if not value:
+        return "Unknown"
+    try:
+        # Attempt to normalise common timestamp formats and ensure UTC suffix.
+        dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return value
+    return dt.astimezone(datetime.UTC).isoformat().replace("+00:00", "Z")
 
 
 def read_git(rev, path):
@@ -61,7 +116,10 @@ if not targets:
     write_env("has_bundle_updates", "false")
     sys.exit(0)
 
-lines = []
+metadata = load_metadata()
+lines: list[str] = []
+changelog_rows: list[str] = []
+
 for path in targets:
     repo_path = resolve_path(path)
     if not repo_path:
@@ -71,7 +129,45 @@ for path in targets:
     v_new = get_version(new) or "?"
     v_old = get_version(old) or "?"
     name = repo_path.rsplit("/", 1)[-1]
-    lines.append(f"{name.replace('-patches-bundle.json','')}: {v_old} ---> {v_new}")
+    bundle_key = name.replace('-patches-bundle.json', '')
+    lines.append(f"{bundle_key}: {v_old} ---> {v_new}")
+
+    metadata_entry = metadata.get(bundle_key)
+    if isinstance(metadata_entry, dict):
+        patches_raw = metadata_entry.get("patches")
+        patches_meta = patches_raw if isinstance(patches_raw, dict) else {}
+        integrations_raw = metadata_entry.get("integrations")
+        integrations_meta = integrations_raw if isinstance(integrations_raw, dict) else {}
+
+        patch_summary = summarize_notes(str(patches_meta.get("notes") or ""))
+        published = format_timestamp(patches_meta.get("published_at"))
+        release_url = patches_meta.get("release_url") or ""
+
+        highlight_parts: list[str] = [patch_summary]
+        if release_url:
+            highlight_parts.append(f"[Full notes]({release_url})")
+
+        if integrations_meta:
+            integration_summary = summarize_notes(str(integrations_meta.get("notes") or ""))
+            if integration_summary:
+                integration_version = integrations_meta.get("version")
+                if integration_version:
+                    integration_prefix = f"<em>Integrations ({integration_version}):</em> "
+                else:
+                    integration_prefix = "<em>Integrations:</em> "
+                integration_link = integrations_meta.get("release_url") or ""
+                detail = f"{integration_prefix}{integration_summary}"
+                if integration_link:
+                    detail = f"{detail} ([details]({integration_link}))"
+                highlight_parts.append(detail)
+        highlight = "<br>".join(part for part in highlight_parts if part)
+    else:
+        published = "Unknown"
+        highlight = "No metadata captured for this bundle update."
+
+    changelog_rows.append(
+        f"| `{bundle_key}` | `{v_old} → {v_new}` | {published} | {highlight} |"
+    )
 
 if not lines:
     write_env("has_bundle_updates", "false")
@@ -79,6 +175,17 @@ if not lines:
 
 with open("updated-bundles.txt", "w", encoding="utf-8") as out:
     out.write("\n".join(lines))
+
+timestamp = datetime.now(datetime.UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+changelog_header = [
+    "# Patch Bundle Updates",
+    "",
+    f"Generated: {timestamp}",
+    "",
+    "| Bundle | Version | Released | Highlights |",
+    "|--------|---------|----------|------------|",
+]
+CHANGELOG_PATH.write_text("\n".join(changelog_header + changelog_rows) + "\n", encoding="utf-8")
 
 write_env("has_bundle_updates", "true")
 

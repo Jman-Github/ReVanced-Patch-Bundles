@@ -53,6 +53,20 @@ jobs:
           download_filename: 'updated-bundles.zip'
         continue-on-error: true
 
+      - name: Download Changelog Artifact from Patch bundle updater
+        id: download_patch_bundle_changelog_artifact
+        uses: benday-inc/download-latest-artifact@6cfc43f319ff559266c55b27e17d581dbbd59cf8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository_owner: 'Jman-Github'
+          repository_name: 'ReVanced-Patch-Bundles'
+          branch_name: 'bundles'
+          artifact_name: 'bundle_changelog'
+          workflow_name: 'Patch bundle updater'
+          download_path: 'ReVanced-Patch-Bundles'
+          download_filename: 'bundle-changelog.zip'
+        continue-on-error: true
+
       - name: Download Artifact from Commit puller
         id: download_commit_puller_artifact
         uses: benday-inc/download-latest-artifact@6cfc43f319ff559266c55b27e17d581dbbd59cf8
@@ -80,6 +94,10 @@ jobs:
       - name: Unzip Summary artifact
         if: ${{ steps.download_patch_bundle_summary_artifact.outcome == 'success' }}
         run: unzip -o ReVanced-Patch-Bundles/updated-bundles.zip -d ReVanced-Patch-Bundles/patch_bundle_updater_artifact
+
+      - name: Unzip Changelog artifact
+        if: ${{ steps.download_patch_bundle_changelog_artifact.outcome == 'success' }}
+        run: unzip -o ReVanced-Patch-Bundles/bundle-changelog.zip -d ReVanced-Patch-Bundles/patch_bundle_updater_artifact
 
       - name: Unzip Commit puller artifact
         if: ${{ steps.download_commit_puller_artifact.outcome == 'success' }}
@@ -147,17 +165,30 @@ jobs:
                   adjusted.pop()
               return '\n'.join(adjusted)
 
+          def trim_lines(text, max_lines=15):
+              if not text:
+                  return ''
+              lines = text.splitlines()
+              if len(lines) <= max_lines:
+                  return '\n'.join(lines)
+              trimmed = lines[:max_lines]
+              trimmed.append('...')
+              return '\n'.join(trimmed)
+
           changes_file = pick_exact('ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt')
           summary_file = pick_exact('ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt')
+          changelog_file = pick_exact('ReVanced-Patch-Bundles/patch_bundle_updater_artifact/bundle-changelog.md')
           commit_file  = pick_exact('ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt')
 
           changes = read_trimmed(changes_file)
           summary = read_trimmed(summary_file)
+          changelog = read_trimmed(changelog_file)
           commit  = read_trimmed(commit_file)
 
           formatted_changes = shorten_paths(changes) if changes else ''
           changes_text = formatted_changes if formatted_changes.strip() else 'N/A'
           summary_text = summary if summary else 'N/A'
+          changelog_text = trim_lines(changelog, max_lines=18) if changelog else ''
 
           changes_section = f"**Changes:**\n```\n{changes_text}\n```"
           summary_section = f"**Summary:**\n```\n{summary_text}\n```"
@@ -166,6 +197,8 @@ jobs:
           parts.append("Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml).")
           parts.append(changes_section)
           parts.append(summary_section)
+          if changelog_text:
+              parts.append(f"**Changelog:**\n```\n{changelog_text}\n```")
           if commit.strip():
               parts.append(commit.strip())
 
@@ -176,6 +209,7 @@ jobs:
 
           print(f"::notice::changes file={changes_file or 'none'}")
           print(f"::notice::summary file={summary_file or 'none'}")
+          print(f"::notice::changelog file={changelog_file or 'none'} present={'yes' if bool(changelog_text) else 'no'}")
           print(f"::notice::commit  file={commit_file  or 'none'} present={'yes' if bool(commit.strip()) else 'no'}")
           PY
 

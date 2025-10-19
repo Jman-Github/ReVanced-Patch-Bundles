@@ -6,11 +6,13 @@ import secrets
 import subprocess
 import time
 from collections.abc import Mapping
+from datetime import datetime
 from typing import Any
 
 from httpx import AsyncClient, HTTPError, Response, Timeout
 
 ETAG_CACHE_FILE = "etag_cache.json"
+METADATA_PATH = "bundle-run-metadata.json"
 
 def _load_etag_cache() -> dict[str, str]:
     if os.path.exists(ETAG_CACHE_FILE):
@@ -25,6 +27,7 @@ def _load_etag_cache() -> dict[str, str]:
     return {}
 
 ETAG_CACHE_LOCK = asyncio.Lock()
+METADATA_LOCK = asyncio.Lock()
 
 def _write_etag_cache_sync(cache: Mapping[str, str]) -> None:
     with open(ETAG_CACHE_FILE, "w", encoding="utf-8") as cache_file:
@@ -42,6 +45,8 @@ BOT_EMAIL = "41898282+github-actions[bot]@users.noreply.github.com"
 BOT_NAME = "github-actions[bot]"
 RepoConfig = Mapping[str, Any]
 ETAG_CACHE = _load_etag_cache()
+
+BUNDLE_METADATA: dict[str, Any] = {}
 
 GH_PAT = os.getenv('GH_PAT')
 
@@ -107,22 +112,30 @@ async def get_latest_release(
     repo_url: str,
     prerelease: bool,
     latest_flag: bool = False,
-) -> tuple[str | None, str | None, str | None, dict[str, str | None] | None, str | None]:
+) -> tuple[
+    str | None,
+    str | None,
+    str | None,
+    dict[str, str | None] | None,
+    str | None,
+    str | None,
+]:
     async def get_version_urls(
         release: Mapping[str, Any], file_types: tuple[str, ...]
-    ) -> tuple[str, str, str, dict[str, str | None], str | None]:
+    ) -> tuple[str, str, str, dict[str, str | None], str | None, str | None]:
         version = release['tag_name']
         published_at = re.sub(r'[A-Za-z]+$', '', release['published_at'])
         description = release.get('body', '')
         download_urls: dict[str, str | None] = {ext: None for ext in file_types}
         signature_url = None
+        release_url = release.get("html_url")
         for asset in release["assets"]:
             for ext in file_types:
                 if asset["browser_download_url"].endswith(ext):
                     download_urls[ext] = asset['browser_download_url']
             if asset["browser_download_url"].endswith(".rvp.asc"):
                 signature_url = asset['browser_download_url']
-        return version, published_at, description, download_urls, signature_url
+        return version, published_at, description, download_urls, signature_url, release_url
 
     api_url = f"{repo_url}/releases"
     headers = dict(BASE_HEADERS)
@@ -133,7 +146,7 @@ async def get_latest_release(
     response = await _get_with_retries(client, api_url, headers=headers)
     if response.status_code == 304:
         print(f"No changes for {repo_url}; skipping.")
-        return None, None, None, None, None
+        return None, None, None, None, None, None
     if response.status_code == 200:
         etag_value = response.headers.get('ETag')
         if etag_value:
@@ -143,7 +156,7 @@ async def get_latest_release(
         releases = response.json()
         if not releases:
             print(f"No releases found for {repo_url}")
-            return None, None, None, None, None
+            return None, None, None, None, None, None
         if latest_flag:
             filtered_releases = sorted(releases, key=lambda x: x["published_at"], reverse=True)
         elif prerelease:
@@ -166,14 +179,15 @@ async def get_latest_release(
                 description,
                 download_urls,
                 signature_url,
+                release_url,
             ) = await get_version_urls(release, file_types)
             if any(download_urls[ext] for ext in file_types):
-                return version, created_at, description, download_urls, signature_url
+                return version, created_at, description, download_urls, signature_url, release_url
         print(f"No suitable release with .jar, .apk, or .rvp assets found for {repo_url}")
-        return None, None, None, None, None
+        return None, None, None, None, None, None
     else:
         print(f"Failed to fetch releases from {repo_url}")
-        return None, None, None, None, None
+        return None, None, None, None, None, None
 
 async def fetch_release_data(client: AsyncClient, source: str, repo: Mapping[str, Any]) -> None:
     try:
@@ -188,11 +202,26 @@ async def fetch_release_data(client: AsyncClient, source: str, repo: Mapping[str
             patches_created_at,
             patches_description,
             patches_download_urls,
-            patches_signature_url
+            patches_signature_url,
+            patches_release_url,
         ) = await get_latest_release(client, patches_repo, prerelease, latest_flag)
         if not patches_download_urls:
             return
         info_dict: dict[str, Any]
+        metadata_entry: dict[str, Any] = {
+            "source": source,
+            "base_source": source.replace('-dev', '').replace('-latest', '').replace('-stable', ''),
+            "artifact_path": "",
+            "type": "",
+            "patches": {
+                "version": patches_version or "",
+                "published_at": patches_created_at or "",
+                "notes": patches_description or "",
+                "release_url": patches_release_url or "",
+                "download_url": "",
+                "signature_url": patches_signature_url or "",
+            },
+        }
         if patches_download_urls[".rvp"]:
             info_dict = {
                 "created_at": patches_created_at,
@@ -201,6 +230,8 @@ async def fetch_release_data(client: AsyncClient, source: str, repo: Mapping[str
                 "signature_download_url": patches_signature_url if patches_signature_url else "N/A",
                 "version": patches_version
             }
+            metadata_entry["type"] = "rvp"
+            metadata_entry["patches"]["download_url"] = patches_download_urls[".rvp"]
         else:
             jar_url = patches_download_urls[".jar"]
             if jar_url:
@@ -210,10 +241,11 @@ async def fetch_release_data(client: AsyncClient, source: str, repo: Mapping[str
                     return
                 (
                     integrations_version,
-                    _integrations_created_at,
-                    _integrations_description,
+                    integrations_created_at,
+                    integrations_description,
                     integrations_download_urls,
-                    _integrations_signature_url
+                    integrations_signature_url,
+                    integrations_release_url,
                 ) = await get_latest_release(client, integration_repo, prerelease, latest_flag)
                 if integrations_download_urls and integrations_download_urls[".apk"]:
                     apk_url = integrations_download_urls[".apk"]
@@ -226,6 +258,16 @@ async def fetch_release_data(client: AsyncClient, source: str, repo: Mapping[str
                             "version": integrations_version,
                             "url": apk_url
                         }
+                    }
+                    metadata_entry["type"] = "split"
+                    metadata_entry["patches"]["download_url"] = jar_url
+                    metadata_entry["integrations"] = {
+                        "version": integrations_version or "",
+                        "published_at": integrations_created_at or "",
+                        "notes": integrations_description or "",
+                        "release_url": integrations_release_url or "",
+                        "download_url": apk_url,
+                        "signature_url": integrations_signature_url or "",
                     }
                 else:
                     print(f"No relevant .apk asset found in integration repo for {source}")
@@ -241,6 +283,9 @@ async def fetch_release_data(client: AsyncClient, source: str, repo: Mapping[str
         print(f"Latest release information saved to {filepath}")
         await asyncio.to_thread(subprocess.run, ["git", "add", filepath], check=True)
         print(f"File {filepath} staged for commit.")
+        metadata_entry["artifact_path"] = filepath
+        async with METADATA_LOCK:
+            BUNDLE_METADATA[source] = metadata_entry
     except Exception as exc:
         print(f"Error in fetch_release_data for {source}: {exc}")
 
@@ -277,6 +322,12 @@ async def main() -> None:
         for (source, _), result in zip(sources.items(), results, strict=False):
             if isinstance(result, Exception):
                 print(f"Task for {source} failed: {result}")
+        timestamp = datetime.now(datetime.UTC).isoformat()
+        metadata_payload = {
+            "generated_at": timestamp,
+            "bundles": BUNDLE_METADATA,
+        }
+        await asyncio.to_thread(_dump_json_sync, METADATA_PATH, metadata_payload)
     except subprocess.CalledProcessError as exc:
         print(f"Subprocess failed: {exc}")
     except Exception as exc:

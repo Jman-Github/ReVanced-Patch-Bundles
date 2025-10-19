@@ -41,8 +41,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 [🧩 Nk521 Bundle Patch List](#-nk521-bundle-patch-list)  
 [🧩 Tosox Bundle Patch List](#-tosox-bundle-patch-list)  
 [🧩 HZbutcoding Bundle Patch List](#-hzbutcoding-bundle-patch-list)  
-[🧩 Lluni Bundle Patch List](#-lluni-bundle-patch-list)  
-[🧩 Zeldrisho Bundle Patch List](#-zeldrisho-bundle-patch-list)  
+[🧩 Lluni Bundle Patch List](#-lluni-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -1822,19 +1821,6 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Promo code unlock``` | ```Disables the validation of promo code. Any code will work to unlock all features.``` | ```de.dwd.warnapp``` | ```All versions``` |
-
-</details>
-
----
-### 🧩 Zeldrisho Bundle Patch List:
-[📦 Zeldrisho-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-zeldrisho-patches-bundle)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
-
-***1 Patch***
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Active RoX``` | ```Active RoX to remove ads on client.``` | ```com.rophim.android.mobile``` | ```1.0.5``` |
 
 </details>
 
