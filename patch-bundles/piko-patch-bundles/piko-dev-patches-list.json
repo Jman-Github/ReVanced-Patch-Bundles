@@ -1,5 +1,5 @@
 {
-    "version": "v2.0.0-dev.5",
+    "version": "v2.0.0-dev.6",
     "patches": [
         {
             "compatiblePackages": {
@@ -90,6 +90,32 @@
             ],
             "description": "Requires X 11.0.0-release.0 or higher.",
             "name": "Custom downloader",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": null
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Customise emoji font style",
+            "name": "Custom emoji font",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": null
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Customise font style",
+            "name": "Custom font",
             "options": [],
             "use": true
         },
@@ -292,7 +318,7 @@
                 "com.twitter.android": null
             },
             "dependencies": [],
-            "description": "Replaces the default X (Formerly Twitter) Blue with the user's Material You palette.",
+            "description": "Replaces the default Twitter Blue with the user's Material You palette.",
             "name": "Dynamic color",
             "options": [],
             "use": false
@@ -314,6 +340,7 @@
                 "com.twitter.android": null
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Videos will be played in highest quality always",

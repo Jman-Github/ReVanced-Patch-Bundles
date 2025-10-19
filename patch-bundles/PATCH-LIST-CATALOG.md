@@ -589,7 +589,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***58 Patches***
+***60 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add ability to copy media link``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
@@ -599,6 +599,8 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Control video auto scroll``` | ```Control video auto scroll in immersive view``` | ```com.twitter.android``` | ```All versions``` |
 | ```Custom download folder``` | ```Change the download directory for video downloads``` | ```com.twitter.android``` | ```All versions``` |
 | ```Custom downloader``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
+| ```Custom emoji font``` | ```Customise emoji font style``` | ```com.twitter.android``` | ```All versions``` |
+| ```Custom font``` | ```Customise font style``` | ```com.twitter.android``` | ```All versions``` |
 | ```Custom sharing domain``` | ```Allows for using domains like fxtwitter when sharing tweets/posts.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Custom translator``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Customise post font size``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
@@ -615,7 +617,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Disable auto timeline scroll on launch``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Disable chirp font``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Download patch``` | ```Unlocks the ability to download videos and gifs from Twitter/X``` | ```com.twitter.android``` | ```All versions``` |
-| ```Dynamic color``` | ```Replaces the default X (Formerly Twitter) Blue with the user's Material You palette.``` | ```com.twitter.android``` | ```All versions``` |
+| ```Dynamic color``` | ```Replaces the default Twitter Blue with the user's Material You palette.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Enable debug menu for posts``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Enable force HD videos``` | ```Videos will be played in highest quality always``` | ```com.twitter.android``` | ```All versions``` |
 | ```Enable PiP mode automatically``` | ```Enables PiP mode when you close the app``` | ```com.twitter.android``` | ```All versions``` |
