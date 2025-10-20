@@ -3,7 +3,6 @@ import os
 import re
 import subprocess
 import sys
-from datetime import datetime, timezone
 from pathlib import Path
 
 METADATA_PATH = Path("bundle-run-metadata.json")
@@ -40,24 +39,13 @@ def summarize_notes(notes: str, max_items: int = 3, max_chars: int = 300) -> str
         if line.startswith(("-", "*", "•"))
     ]
     if bullet_lines:
-        selected = bullet_lines[:max_items]
-        return "<br>".join(f"- {item}" for item in selected if item)
+        selected = [item for item in bullet_lines[:max_items] if item]
+        return "; ".join(selected)
 
     description = " ".join(lines)
     if len(description) > max_chars:
         description = description[: max_chars - 1].rstrip() + "…"
     return description
-
-
-def format_timestamp(value: str | None) -> str:
-    if not value:
-        return "Unknown"
-    try:
-        # Attempt to normalise common timestamp formats and ensure UTC suffix.
-        dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
-    except ValueError:
-        return value
-    return dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")  # noqa: UP017
 
 
 def read_git(rev, path):
@@ -118,7 +106,7 @@ if not targets:
 
 metadata = load_metadata()
 lines: list[str] = []
-changelog_rows: list[str] = []
+changelog_entries: list[tuple[str, str]] = []
 
 for path in targets:
     repo_path = resolve_path(path)
@@ -133,19 +121,20 @@ for path in targets:
     lines.append(f"{bundle_key}: {v_old} ---> {v_new}")
 
     metadata_entry = metadata.get(bundle_key)
+    highlight_text = ""
     if isinstance(metadata_entry, dict):
         patches_raw = metadata_entry.get("patches")
         patches_meta = patches_raw if isinstance(patches_raw, dict) else {}
         integrations_raw = metadata_entry.get("integrations")
         integrations_meta = integrations_raw if isinstance(integrations_raw, dict) else {}
 
-        patch_summary = summarize_notes(str(patches_meta.get("notes") or ""))
-        published = format_timestamp(patches_meta.get("published_at"))
+        patch_summary = summarize_notes(str(patches_meta.get("notes") or "")).lstrip("*")
         release_url = patches_meta.get("release_url") or ""
 
-        highlight_parts: list[str] = [patch_summary]
-        if release_url:
-            highlight_parts.append(f"[Full notes]({release_url})")
+        highlight_parts: list[str] = []
+        if patch_summary and patch_summary != "No release notes provided.":
+            highlight_parts.append(patch_summary)
+        release_link = f" ([Full notes]({release_url}))" if release_url else ""
 
         if integrations_meta:
             integration_summary = summarize_notes(str(integrations_meta.get("notes") or ""))
@@ -160,14 +149,19 @@ for path in targets:
                 if integration_link:
                     detail = f"{detail} ([details]({integration_link}))"
                 highlight_parts.append(detail)
-        highlight = "<br>".join(part for part in highlight_parts if part)
+        highlight_text = " ".join(part for part in highlight_parts if part).strip()
+        if release_link:
+            if highlight_text:
+                highlight_text = f"{highlight_text}{release_link}"
+            else:
+                highlight_text = release_link.strip()
     else:
-        published = "Unknown"
-        highlight = "No metadata captured for this bundle update."
+        highlight_text = "No release notes captured for this bundle update."
 
-    changelog_rows.append(
-        f"| `{bundle_key}` | `{v_old} → {v_new}` | {published} | {highlight} |"
-    )
+    if not highlight_text:
+        highlight_text = "No release notes captured for this bundle update."
+
+    changelog_entries.append((bundle_key, highlight_text))
 
 if not lines:
     write_env("has_bundle_updates", "false")
@@ -176,16 +170,13 @@ if not lines:
 with open("updated-bundles.txt", "w", encoding="utf-8") as out:
     out.write("\n".join(lines))
 
-timestamp = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")  # noqa: UP017
-changelog_header = [
-    "# Patch Bundle Updates",
-    "",
-    f"Generated: {timestamp}",
-    "",
-    "| Bundle | Version | Released | Highlights |",
-    "|--------|---------|----------|------------|",
-]
-CHANGELOG_PATH.write_text("\n".join(changelog_header + changelog_rows) + "\n", encoding="utf-8")
+changelog_lines: list[str] = []
+for bundle_name, summary in changelog_entries:
+    changelog_lines.append(f"- {bundle_name}:")
+    changelog_lines.append(summary)
+    changelog_lines.append("")
+
+CHANGELOG_PATH.write_text("\n".join(changelog_lines).rstrip() + "\n", encoding="utf-8")
 
 write_env("has_bundle_updates", "true")
 
