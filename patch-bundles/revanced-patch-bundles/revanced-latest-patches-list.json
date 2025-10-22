@@ -1,5 +1,5 @@
 {
-    "version": "v5.44.0-dev.1",
+    "version": "v5.44.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -3789,7 +3789,8 @@
                         "com.google.android.feature.PIXEL_2023_EXPERIENCE",
                         "com.google.android.feature.PIXEL_2024_MIDYEAR_EXPERIENCE",
                         "com.google.android.feature.PIXEL_2024_EXPERIENCE",
-                        "com.google.android.feature.PIXEL_2025_MIDYEAR_EXPERIENCE"
+                        "com.google.android.feature.PIXEL_2025_MIDYEAR_EXPERIENCE",
+                        "com.google.android.feature.PIXEL_2025_EXPERIENCE"
                     ],
                     "description": "Google Pixel exclusive features to disable.Features after Pixel XL may have to be disabled for unlimited storage depending on the device.",
                     "key": "featuresToDisable",
