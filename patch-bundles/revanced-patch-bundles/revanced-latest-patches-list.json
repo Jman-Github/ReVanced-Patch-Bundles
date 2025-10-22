@@ -1,5 +1,5 @@
 {
-    "version": "v5.43.2-dev.3",
+    "version": "v5.44.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -131,6 +131,20 @@
             ],
             "description": "Bypasses certificate checks which prevent YouTube Music from working on Android Auto.",
             "name": "Bypass certificate checks",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.sec.android.app.fm": [
+                    "12.4.00.7",
+                    "12.3.00.13",
+                    "12.3.00.11"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes firmware and region blacklisting. This patch will still not allow the app to run on devices that do not have the required hardware.",
+            "name": "Bypass device checks",
             "options": [],
             "use": true
         },
@@ -1316,6 +1330,23 @@
             "dependencies": [],
             "description": null,
             "name": "Fix crash",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.sec.android.app.fm": [
+                    "12.4.00.7",
+                    "12.3.00.13",
+                    "12.3.00.11"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "Bypass device checks"
+            ],
+            "description": "Prevents the app from crashing because of missing system permissions.",
+            "name": "Fix crashes",
             "options": [],
             "use": true
         },

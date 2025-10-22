@@ -49,7 +49,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***244 Patches***
+***246 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
@@ -60,6 +60,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Block embedded ads``` | ```Blocks embedded stream ads using services like Luminous or PurpleAdBlocker.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
 | ```Block video ads``` | ```Blocks video ads in streams and VODs.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
 | ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
+| ```Bypass device checks``` | ```Removes firmware and region blacklisting. This patch will still not allow the app to run on devices that do not have the required hardware.``` | ```com.sec.android.app.fm``` | ```12.4.00.7, 12.3.00.13, 12.3.00.11``` |
 | ```Bypass image region restrictions``` | ```Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Bypass root checks``` | ```Removes the restriction to use the app with root permissions or on a custom ROM.``` | ```it.ipzs.cieid``` | ```All versions``` |
 | ```Bypass URL redirects``` | ```Adds an option to bypass URL redirects and open the original URL directly.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
@@ -132,6 +133,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Fix /s/ links``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Fix /s/ links``` | ```N/A``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.dev, com.laurencedawson.reddit_sync.pro``` | ```All versions``` |
 | ```Fix crash``` | ```N/A``` | ```de.simon.openinghours``` | ```1.0``` |
+| ```Fix crashes``` | ```Prevents the app from crashing because of missing system permissions.``` | ```com.sec.android.app.fm``` | ```12.4.00.7, 12.3.00.13, 12.3.00.11``` |
 | ```Fix Facebook login``` | ```Fix logging in with Facebook when the app is patched by always opening the login in a web browser window.``` | ```com.spotify.music``` | ```All versions``` |
 | ```Fix Google login``` | ```Allows logging in with a Google account.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```All versions``` |
 | ```Fix login``` | ```Fixes login for uncertified Mi Fitness app``` | ```com.xiaomi.wearable``` | ```All versions``` |
