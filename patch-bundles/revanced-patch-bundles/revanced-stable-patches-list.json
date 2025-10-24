@@ -1,5 +1,5 @@
 {
-    "version": "v5.43.1",
+    "version": "v5.44.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -136,6 +136,20 @@
         },
         {
             "compatiblePackages": {
+                "com.sec.android.app.fm": [
+                    "12.4.00.7",
+                    "12.3.00.13",
+                    "12.3.00.11"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes firmware and region blacklisting. This patch will still not allow the app to run on devices that do not have the required hardware.",
+            "name": "Bypass device checks",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
                     "20.07.39",
@@ -262,10 +276,9 @@
                 ]
             },
             "dependencies": [
-                "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Replaces the domain name of shared links.",
+            "description": "Replaces the domain name of shared links. Including this patch can prevent making posts that quote other posts.",
             "name": "Change link sharing domain",
             "options": [
                 {
@@ -505,6 +518,80 @@
                 }
             ],
             "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Allows trusting custom certificate authorities for a specific domain.",
+            "name": "Custom network security",
+            "options": [
+                {
+                    "default": [
+                        "example.com"
+                    ],
+                    "description": "List of domains to which the custom trust configuration will be applied (one domain per entry).",
+                    "key": "targetDomains",
+                    "required": true,
+                    "title": "Target domains",
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Applies the configuration to all subdomains of the target domains.",
+                    "key": "includeSubdomains",
+                    "required": true,
+                    "title": "Include subdomains",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "List of paths to files in PEM or DER format (one file path per entry).\n\nMakes an app trust the provided custom certificate authorities (CAs),\nfor the specified domains, and if the option \"Include Subdomains\" is enabled then also the subdomains.\n\n\nCA files will be bundled in res/raw/ of resulting APK",
+                    "key": "customCAFilePaths",
+                    "required": false,
+                    "title": "Custom CA file paths",
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Makes an app trust certificates from the Android user store for the specified domains, and if the option \"Include Subdomains\" is enabled then also the subdomains.",
+                    "key": "allowUserCerts",
+                    "required": true,
+                    "title": "Trust user added CAs",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Makes an app trust certificates from the Android system store for the specified domains, and and if the option \"Include Subdomains\" is enabled then also the subdomains.",
+                    "key": "allowSystemCerts",
+                    "required": true,
+                    "title": "Trust system CAs",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Allows unencrypted HTTP traffic for the specified domains, and if \"Include Subdomains\" is enabled then also the subdomains.",
+                    "key": "allowCleartextTraffic",
+                    "required": true,
+                    "title": "Allow cleartext traffic (HTTP)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Overrides certificate pinning for the specified domains and their subdomains if the option \"Include Subdomains\" is enabled to allow inspecting app traffic via a proxy.",
+                    "key": "overridePins",
+                    "required": true,
+                    "title": "Override certificate pinning",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ],
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -1113,9 +1200,7 @@
         },
         {
             "compatiblePackages": {
-                "com.duolingo": [
-                    "5.158.4"
-                ]
+                "com.duolingo": null
             },
             "dependencies": [],
             "description": null,
@@ -1317,6 +1402,23 @@
             "dependencies": [],
             "description": null,
             "name": "Fix crash",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.sec.android.app.fm": [
+                    "12.4.00.7",
+                    "12.3.00.13",
+                    "12.3.00.11"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "Bypass device checks"
+            ],
+            "description": "Prevents the app from crashing because of missing system permissions.",
+            "name": "Fix crashes",
             "options": [],
             "use": true
         },
@@ -3201,6 +3303,16 @@
         },
         {
             "compatiblePackages": {
+                "com.duolingo": null
+            },
+            "dependencies": [],
+            "description": "Skips watching ads to recharge energy.",
+            "name": "Skip energy recharge ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
                     "20.07.39",
@@ -3759,7 +3871,8 @@
                         "com.google.android.feature.PIXEL_2023_EXPERIENCE",
                         "com.google.android.feature.PIXEL_2024_MIDYEAR_EXPERIENCE",
                         "com.google.android.feature.PIXEL_2024_EXPERIENCE",
-                        "com.google.android.feature.PIXEL_2025_MIDYEAR_EXPERIENCE"
+                        "com.google.android.feature.PIXEL_2025_MIDYEAR_EXPERIENCE",
+                        "com.google.android.feature.PIXEL_2025_EXPERIENCE"
                     ],
                     "description": "Google Pixel exclusive features to disable.Features after Pixel XL may have to be disabled for unlimited storage depending on the device.",
                     "key": "featuresToDisable",
