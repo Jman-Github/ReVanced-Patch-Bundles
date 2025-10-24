@@ -49,7 +49,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***246 Patches***
+***248 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
@@ -67,7 +67,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Change form factor``` | ```Adds an option to change the UI appearance to a phone, tablet, or automotive device.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Change link sharing domain``` | ```Replaces the domain name of shared links.``` | ```com.instagram.android``` | ```All versions``` |
-| ```Change link sharing domain``` | ```Replaces the domain name of shared links.``` | ```com.twitter.android``` | ```10.60.0-release.0, 10.86.0-release.0``` |
+| ```Change link sharing domain``` | ```Replaces the domain name of shared links. Including this patch can prevent making posts that quote other posts.``` | ```com.twitter.android``` | ```10.60.0-release.0, 10.86.0-release.0``` |
 | ```Change lyrics provider``` | ```Changes the lyrics provider to a custom one.``` | ```com.spotify.music``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
@@ -77,6 +77,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Copy video URL``` | ```Adds options to display buttons in the video player to copy video URLs.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Custom branding``` | ```Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
 | ```Custom branding``` | ```Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
+| ```Custom network security``` | ```Allows trusting custom certificate authorities for a specific domain.``` | ```Universal``` | ```All versions``` |
 | ```Custom player overlay opacity``` | ```Adds an option to change the opacity of the video player background when player controls are visible.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Custom theme``` | ```Applies a custom theme (defaults to amoled black)``` | ```com.spotify.music``` | ```All versions``` |
 | ```Debug mode``` | ```Enables Twitch's internal debugging mode.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
@@ -259,6 +260,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Show seekbar``` | ```Shows progress bar for all video.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```All versions``` |
 | ```SIM spoof``` | ```Spoofs the information which is retrieved from the SIM card.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```All versions``` |
 | ```Skip ads``` | ```Automatically skips video stream ads.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.412.2947``` |
+| ```Skip energy recharge ads``` | ```Skips watching ads to recharge energy.``` | ```com.duolingo``` | ```All versions``` |
 | ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Spoof Android device ID``` | ```Spoofs the Android device ID used by the app for account authentication.This can be used to copy the account to another device.``` | ```com.piccomaeurope.fr``` | ```6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2``` |
 | ```Spoof app version``` | ```Adds an option to trick YouTube into thinking you are running an older version of the app. This can be used to restore old UI elements and features.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
