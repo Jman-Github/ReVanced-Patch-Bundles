@@ -1,5 +1,5 @@
 {
-    "version": "v5.44.0-dev.4",
+    "version": "v5.45.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -3110,6 +3110,23 @@
         {
             "compatiblePackages": {
                 "com.spotify.music": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes the tracking query parameters from shared links.",
+            "name": "Sanitize sharing links",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "36.5.4"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "36.5.4"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
