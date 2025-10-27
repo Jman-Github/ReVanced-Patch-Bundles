@@ -1,5 +1,5 @@
 {
-    "version": "v5.45.0-dev.2",
+    "version": "v5.45.0-dev.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -236,7 +236,7 @@
             "options": [
                 {
                     "default": null,
-                    "description": "Folder with images to use as a custom header logo.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- drawable-xxxhdpi\n- drawable-xxhdpi\n- drawable-xhdpi\n- drawable-hdpi\n- drawable-mdpi\n\nEach of the folders must contain all of the following files:\n- custom_header_light.png\n- custom_header_dark.png\n\nThe image dimensions must be as follows:\n- drawable-xxxhdpi: 512px x 192px\n- drawable-xxhdpi: 387px x 144px\n- drawable-xhdpi: 258px x 96px\n- drawable-hdpi: 194px x 72px\n- drawable-mdpi: 129px x 48px",
+                    "description": "Folder with images to use as a custom header logo.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- drawable-hdpi\n- drawable-xhdpi\n- drawable-xxhdpi\n- drawable-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_header_custom_light.png\nrevanced_header_custom_dark.png \n\nThe image dimensions must be as follows:\n- drawable-hdpi: 194x72 px\n- drawable-xhdpi: 258x96 px\n- drawable-xxhdpi: 387x144 px\n- drawable-xxxhdpi: 512x192 px",
                     "key": "custom",
                     "required": false,
                     "title": "Custom header logo",
@@ -470,7 +470,7 @@
                 },
                 {
                     "default": null,
-                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nrevanced_adaptive_monochrome_custom.xml\nrevanced_notification_icon_custom.xml",
+                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nrevanced_adaptive_monochrome_custom.xml\nrevanced_notification_icon_custom.xml",
                     "key": "customIcon",
                     "required": false,
                     "title": "Custom icon",
@@ -509,7 +509,7 @@
                 },
                 {
                     "default": null,
-                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nrevanced_adaptive_monochrome_custom.xml\nrevanced_notification_icon_custom.xml",
+                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nrevanced_adaptive_monochrome_custom.xml\nrevanced_notification_icon_custom.xml",
                     "key": "customIcon",
                     "required": false,
                     "title": "Custom icon",
