@@ -1,5 +1,5 @@
 {
-    "version": "v5.45.0-dev.3",
+    "version": "v5.45.0-dev.4",
     "patches": [
         {
             "compatiblePackages": {
@@ -454,6 +454,7 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch",
+                "RawResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
@@ -493,6 +494,7 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch",
+                "RawResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
@@ -3207,7 +3209,8 @@
                 ]
             },
             "dependencies": [
-                "BytecodePatch"
+                "BytecodePatch",
+                "RawResourcePatch"
             ],
             "description": "Adds ReVanced settings to TikTok.",
             "name": "Settings",
