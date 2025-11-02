@@ -1,5 +1,5 @@
 {
-    "version": "v2.0.0-dev.7",
+    "version": "v2.0.0-dev.8",
     "patches": [
         {
             "compatiblePackages": {
@@ -203,6 +203,18 @@
             ],
             "description": null,
             "name": "Customize Navigation Bar items",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Customize notification tabs",
             "options": [],
             "use": true
         },

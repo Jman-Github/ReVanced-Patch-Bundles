@@ -594,7 +594,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***62 Patches***
+***63 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add ability to copy media link``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
@@ -613,6 +613,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Customize explore tabs``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Customize Inline action Bar items``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Customize Navigation Bar items``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Customize notification tabs``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Customize profile tabs``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Customize search suggestions``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Customize search tab items``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
