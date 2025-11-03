@@ -1393,9 +1393,10 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***1 Patch***
+***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Unlock pro``` | ```Unlocks the app.``` | ```com.debridstream.tv``` | ```All versions``` |
 | ```Unlock subscription``` | ```Unlocks the app.``` | ```com.sbs.diet``` | ```All versions``` |
 
 </details>
