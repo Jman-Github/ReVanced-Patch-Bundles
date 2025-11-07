@@ -49,7 +49,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***249 Patches***
+***248 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
@@ -82,7 +82,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Custom theme``` | ```Applies a custom theme (defaults to amoled black)``` | ```com.spotify.music``` | ```All versions``` |
 | ```Debug mode``` | ```Enables Twitch's internal debugging mode.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
 | ```Disable Ad-Free Banner``` | ```Disables the banner with a frog, prompting you to buy Tumblr Ad-Free.``` | ```com.tumblr``` | ```All versions``` |
-| ```Disable ads``` | ```N/A``` | ```com.duolingo``` | ```All versions``` |
+| ```Disable ads``` | ```N/A``` | ```com.duolingo``` | ```6.54.5``` |
 | ```Disable ads``` | ```N/A``` | ```com.myprog.hexedit``` | ```All versions``` |
 | ```Disable ads``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Disable ads``` | ```N/A``` | ```o.o.joey``` | ```All versions``` |
@@ -175,7 +175,6 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Hide app icon``` | ```Hides the app icon from the Android launcher.``` | ```Universal``` | ```All versions``` |
 | ```Hide cast button``` | ```Adds an option to hide the cast button.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
 | ```Hide category bar``` | ```Adds an option to hide the category bar at the top of the homepage.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
-| ```Hide Create button``` | ```Hides the "Create" button in the navigation bar. The latest app targets do not need this patch.``` | ```com.spotify.music``` | ```All versions``` |
 | ```Hide end screen cards``` | ```Adds an option to hide suggested video cards at the end of videos.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Hide end screen suggested video``` | ```Adds an option to hide the suggested video at the end of videos.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Hide explore feed``` | ```Hides posts and reels from the explore/search page.``` | ```com.instagram.android``` | ```All versions``` |
@@ -186,7 +185,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Hide mock location``` | ```Prevents the app from knowing the device location is being mocked by a third party app.``` | ```Universal``` | ```All versions``` |
 | ```Hide music video ads``` | ```Adds an option to hide ads that appear while listening to or streaming music videos, podcasts, or songs.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
-| ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button.``` | ```com.instagram.android``` | ```All versions``` |
+| ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button.``` | ```com.instagram.android``` | ```401.0.0.48.79``` |
 | ```Hide navigation buttons``` | ```Permanently hides navigation bar buttons, such as Explore and Marketplace.``` | ```com.viber.voip``` | ```All versions``` |
 | ```Hide offers tab``` | ```N/A``` | ```de.stocard.stocard``` | ```All versions``` |
 | ```Hide player flyout menu items``` | ```Adds options to hide menu items that appear when pressing the gear icon in the video player.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
