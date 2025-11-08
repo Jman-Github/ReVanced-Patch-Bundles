@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.5.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -23,6 +23,18 @@
         },
         {
             "compatiblePackages": {
+                "superadventure.mario.classic.bros.retrogame": null
+            },
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Blocks ads and tracking by forcing the app to be offline",
+            "name": "Offline Privacy",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.netbiscuits.kicker": null
             },
             "dependencies": [],
@@ -36,7 +48,7 @@
                 "com.wixsite.ut_app.utalarm": null
             },
             "dependencies": [],
-            "description": "Unlocks the Premium plan",
+            "description": "Unlocks the Premium subscription",
             "name": "Unlock Premium",
             "options": [],
             "use": true
@@ -46,7 +58,7 @@
                 "com.flatastic.app": null
             },
             "dependencies": [],
-            "description": "Unlocks the Premium plan",
+            "description": "Unlocks the Premium subscription",
             "name": "Unlock Premium",
             "options": [],
             "use": true
@@ -58,7 +70,7 @@
             "dependencies": [
                 "No Integrity Check"
             ],
-            "description": "Unlocks the Pro plan",
+            "description": "Unlocks the Pro subscription",
             "name": "Unlock Pro",
             "options": [],
             "use": true

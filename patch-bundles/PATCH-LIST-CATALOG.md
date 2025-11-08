@@ -49,7 +49,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***244 Patches***
+***248 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
@@ -60,13 +60,14 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Block embedded ads``` | ```Blocks embedded stream ads using services like Luminous or PurpleAdBlocker.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
 | ```Block video ads``` | ```Blocks video ads in streams and VODs.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
 | ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
+| ```Bypass device checks``` | ```Removes firmware and region blacklisting. This patch will still not allow the app to run on devices that do not have the required hardware.``` | ```com.sec.android.app.fm``` | ```12.4.00.7, 12.3.00.13, 12.3.00.11``` |
 | ```Bypass image region restrictions``` | ```Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Bypass root checks``` | ```Removes the restriction to use the app with root permissions or on a custom ROM.``` | ```it.ipzs.cieid``` | ```All versions``` |
 | ```Bypass URL redirects``` | ```Adds an option to bypass URL redirects and open the original URL directly.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Change form factor``` | ```Adds an option to change the UI appearance to a phone, tablet, or automotive device.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Change link sharing domain``` | ```Replaces the domain name of shared links.``` | ```com.instagram.android``` | ```All versions``` |
-| ```Change link sharing domain``` | ```Replaces the domain name of shared links.``` | ```com.twitter.android``` | ```10.60.0-release.0, 10.86.0-release.0``` |
+| ```Change link sharing domain``` | ```Replaces the domain name of shared links. Including this patch can prevent making posts that quote other posts.``` | ```com.twitter.android``` | ```10.60.0-release.0, 10.86.0-release.0``` |
 | ```Change lyrics provider``` | ```Changes the lyrics provider to a custom one.``` | ```com.spotify.music``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
@@ -76,11 +77,12 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Copy video URL``` | ```Adds options to display buttons in the video player to copy video URLs.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Custom branding``` | ```Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
 | ```Custom branding``` | ```Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
+| ```Custom network security``` | ```Allows trusting custom certificate authorities for a specific domain.``` | ```Universal``` | ```All versions``` |
 | ```Custom player overlay opacity``` | ```Adds an option to change the opacity of the video player background when player controls are visible.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Custom theme``` | ```Applies a custom theme (defaults to amoled black)``` | ```com.spotify.music``` | ```All versions``` |
 | ```Debug mode``` | ```Enables Twitch's internal debugging mode.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
 | ```Disable Ad-Free Banner``` | ```Disables the banner with a frog, prompting you to buy Tumblr Ad-Free.``` | ```com.tumblr``` | ```All versions``` |
-| ```Disable ads``` | ```N/A``` | ```com.duolingo``` | ```All versions``` |
+| ```Disable ads``` | ```N/A``` | ```com.duolingo``` | ```6.54.5``` |
 | ```Disable ads``` | ```N/A``` | ```com.myprog.hexedit``` | ```All versions``` |
 | ```Disable ads``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Disable ads``` | ```N/A``` | ```o.o.joey``` | ```All versions``` |
@@ -117,7 +119,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Enable Android debugging``` | ```Enables Android debugging capabilities. This can slow down the app.``` | ```Universal``` | ```All versions``` |
 | ```Enable CustomTabs``` | ```Enables CustomTabs to open articles in your default browser.``` | ```com.google.android.apps.magazines``` | ```All versions``` |
 | ```Enable DCIM folders backup control``` | ```Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.``` | ```com.google.android.apps.photos``` | ```All versions``` |
-| ```Enable debug menu``` | ```N/A``` | ```com.duolingo``` | ```5.158.4``` |
+| ```Enable debug menu``` | ```N/A``` | ```com.duolingo``` | ```All versions``` |
 | ```Enable debugging``` | ```Adds options for debugging and exporting ReVanced logs to the clipboard.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
 | ```Enable debugging``` | ```Adds options for debugging and exporting ReVanced logs to the clipboard.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Enable developer menu``` | ```Enables the developer menu, which can be found at the bottom of settings menu with name 'Internal Settings'. It is recommended to use this patch with an alpha/beta Instagram release. Patching a stable release works, but the developer menu shows the developer flags as numbers and does not show a human readable description.``` | ```com.instagram.android``` | ```All versions``` |
@@ -132,6 +134,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Fix /s/ links``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Fix /s/ links``` | ```N/A``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.dev, com.laurencedawson.reddit_sync.pro``` | ```All versions``` |
 | ```Fix crash``` | ```N/A``` | ```de.simon.openinghours``` | ```1.0``` |
+| ```Fix crashes``` | ```Prevents the app from crashing because of missing system permissions.``` | ```com.sec.android.app.fm``` | ```12.4.00.7, 12.3.00.13, 12.3.00.11``` |
 | ```Fix Facebook login``` | ```Fix logging in with Facebook when the app is patched by always opening the login in a web browser window.``` | ```com.spotify.music``` | ```All versions``` |
 | ```Fix Google login``` | ```Allows logging in with a Google account.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```All versions``` |
 | ```Fix login``` | ```Fixes login for uncertified Mi Fitness app``` | ```com.xiaomi.wearable``` | ```All versions``` |
@@ -172,7 +175,6 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Hide app icon``` | ```Hides the app icon from the Android launcher.``` | ```Universal``` | ```All versions``` |
 | ```Hide cast button``` | ```Adds an option to hide the cast button.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
 | ```Hide category bar``` | ```Adds an option to hide the category bar at the top of the homepage.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
-| ```Hide Create button``` | ```Hides the "Create" button in the navigation bar. The latest app targets do not need this patch.``` | ```com.spotify.music``` | ```All versions``` |
 | ```Hide end screen cards``` | ```Adds an option to hide suggested video cards at the end of videos.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Hide end screen suggested video``` | ```Adds an option to hide the suggested video at the end of videos.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Hide explore feed``` | ```Hides posts and reels from the explore/search page.``` | ```com.instagram.android``` | ```All versions``` |
@@ -183,7 +185,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Hide mock location``` | ```Prevents the app from knowing the device location is being mocked by a third party app.``` | ```Universal``` | ```All versions``` |
 | ```Hide music video ads``` | ```Adds an option to hide ads that appear while listening to or streaming music videos, podcasts, or songs.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
-| ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button.``` | ```com.instagram.android``` | ```All versions``` |
+| ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button.``` | ```com.instagram.android``` | ```401.0.0.48.79``` |
 | ```Hide navigation buttons``` | ```Permanently hides navigation bar buttons, such as Explore and Marketplace.``` | ```com.viber.voip``` | ```All versions``` |
 | ```Hide offers tab``` | ```N/A``` | ```de.stocard.stocard``` | ```All versions``` |
 | ```Hide player flyout menu items``` | ```Adds options to hide menu items that appear when pressing the gear icon in the video player.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
@@ -245,6 +247,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.spotify.music``` | ```All versions``` |
+| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```36.5.4, 36.5.4``` |
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.twitter.android``` | ```10.60.0-release.0, 10.86.0-release.0``` |
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Seekbar``` | ```Adds options to disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, and hiding the video player seekbar.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
@@ -257,6 +260,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Show seekbar``` | ```Shows progress bar for all video.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```All versions``` |
 | ```SIM spoof``` | ```Spoofs the information which is retrieved from the SIM card.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```All versions``` |
 | ```Skip ads``` | ```Automatically skips video stream ads.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.412.2947``` |
+| ```Skip energy recharge ads``` | ```Skips watching ads to recharge energy.``` | ```com.duolingo``` | ```All versions``` |
 | ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Spoof Android device ID``` | ```Spoofs the Android device ID used by the app for account authentication.This can be used to copy the account to another device.``` | ```com.piccomaeurope.fr``` | ```6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.4.5, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.6.0, 6.6.1, 6.6.2``` |
 | ```Spoof app version``` | ```Adds an option to trick YouTube into thinking you are running an older version of the app. This can be used to restore old UI elements and features.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
@@ -589,12 +593,12 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***60 Patches***
+***63 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add ability to copy media link``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Bring back twitter``` | ```Bring back old twitter logo and name``` | ```com.twitter.android``` | ```All versions``` |
-| ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```Universal``` | ```All versions``` |
+| ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Clear tracking params``` | ```Removes tracking parameters when sharing links``` | ```com.twitter.android``` | ```All versions``` |
 | ```Control video auto scroll``` | ```Control video auto scroll in immersive view``` | ```com.twitter.android``` | ```All versions``` |
 | ```Custom download folder``` | ```Change the download directory for video downloads``` | ```com.twitter.android``` | ```All versions``` |
@@ -608,6 +612,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Customize explore tabs``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Customize Inline action Bar items``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Customize Navigation Bar items``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Customize notification tabs``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Customize profile tabs``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Customize search suggestions``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Customize search tab items``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
@@ -643,8 +648,10 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Log server response``` | ```Log json responses received from server``` | ```com.twitter.android``` | ```All versions``` |
 | ```Native reader mode``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
 | ```No shortened URL``` | ```Get rid of t.co short urls.``` | ```com.twitter.android``` | ```All versions``` |
+| ```Pause search suggestions``` | ```Search suggestions will not be saved locally``` | ```com.twitter.android``` | ```All versions``` |
 | ```Remove Ads``` | ```Removed promoted posts, trends and google ads``` | ```com.twitter.android``` | ```All versions``` |
 | ```Remove premium upsell``` | ```Removes premium upsell in home timeline``` | ```com.twitter.android``` | ```All versions``` |
+| ```Remove search suggestions``` | ```Hide/Remove search suggestion in explore section``` | ```com.twitter.android``` | ```All versions``` |
 | ```Remove view count``` | ```Removes the view count from the bottom of tweets``` | ```com.twitter.android``` | ```All versions``` |
 | ```Round off numbers``` | ```Enable or disable rounding off numbers``` | ```com.twitter.android``` | ```All versions``` |
 | ```Selectable Text``` | ```Makes bio and username selectable``` | ```com.twitter.android``` | ```All versions``` |
@@ -1385,9 +1392,10 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***1 Patch***
+***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Unlock pro``` | ```Unlocks the app.``` | ```com.debridstream.tv``` | ```All versions``` |
 | ```Unlock subscription``` | ```Unlocks the app.``` | ```com.sbs.diet``` | ```All versions``` |
 
 </details>
@@ -1483,17 +1491,19 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***11 Patches***
+***13 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Change package name``` | ```Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable practice reminder nag``` | ```N/A``` | ```com.duolingo``` | ```6.33.2``` |
 | ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```com.duolingo``` | ```All versions``` |
+| ```Enable Plus``` | ```Enable Plus membership (not all features are available).``` | ```me.mycake``` | ```6.3.4``` |
 | ```Enable Premium``` | ```N/A``` | ```com.crunchyroll.crunchyroid``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.qbis.guessthecountry``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables premium paid subscription.``` | ```net.teuida.teuida``` | ```All versions``` |
 | ```Enable Super``` | ```N/A``` | ```com.duolingo``` | ```All versions``` |
 | ```GmsCore support``` | ```Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services.``` | ```net.teuida.teuida``` | ```All versions``` |
+| ```Hex``` | ```Replaces a hexadecimal patterns of bytes of files in an APK.``` | ```Universal``` | ```All versions``` |
 | ```Unlock licensed songs``` | ```Allows playing the full version of licensed music instead of the 30-second preview.``` | ```com.duolingo``` | ```All versions``` |
 | ```Unlock Premium``` | ```N/A``` | ```com.merriamwebster``` | ```All versions``` |
 | ```Unlock Pro``` | ```N/A``` | ```org.totschnig.myexpenses``` | ```3.9.8``` |
@@ -1786,15 +1796,16 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***7 Patches***
+***8 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Hide Ads``` | ```Hides ads across the app``` | ```mega.privacy.android.app``` | ```All versions``` |
 | ```No Integrity Check``` | ```Disables the integrity checks``` | ```com.ticktick.task``` | ```All versions``` |
+| ```Offline Privacy``` | ```Blocks ads and tracking by forcing the app to be offline``` | ```superadventure.mario.classic.bros.retrogame``` | ```All versions``` |
 | ```Unlock Plus``` | ```Unlocks the Plus subscription``` | ```com.netbiscuits.kicker``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks the Premium plan``` | ```com.wixsite.ut_app.utalarm``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks the Premium plan``` | ```com.flatastic.app``` | ```All versions``` |
-| ```Unlock Pro``` | ```Unlocks the Pro plan``` | ```com.ticktick.task``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks the Premium subscription``` | ```com.wixsite.ut_app.utalarm``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks the Premium subscription``` | ```com.flatastic.app``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks the Pro subscription``` | ```com.ticktick.task``` | ```All versions``` |
 | ```Unlock Pur``` | ```Unlocks the Pur subscription``` | ```com.netbiscuits.kicker``` | ```All versions``` |
 
 </details>

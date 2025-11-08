@@ -1,5 +1,5 @@
 {
-    "version": "v5.43.2-dev.3",
+    "version": "v5.46.0-dev.5",
     "patches": [
         {
             "compatiblePackages": {
@@ -136,6 +136,20 @@
         },
         {
             "compatiblePackages": {
+                "com.sec.android.app.fm": [
+                    "12.4.00.7",
+                    "12.3.00.13",
+                    "12.3.00.11"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes firmware and region blacklisting. This patch will still not allow the app to run on devices that do not have the required hardware.",
+            "name": "Bypass device checks",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
                     "20.07.39",
@@ -222,7 +236,7 @@
             "options": [
                 {
                     "default": null,
-                    "description": "Folder with images to use as a custom header logo.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- drawable-xxxhdpi\n- drawable-xxhdpi\n- drawable-xhdpi\n- drawable-hdpi\n- drawable-mdpi\n\nEach of the folders must contain all of the following files:\n- custom_header_light.png\n- custom_header_dark.png\n\nThe image dimensions must be as follows:\n- drawable-xxxhdpi: 512px x 192px\n- drawable-xxhdpi: 387px x 144px\n- drawable-xhdpi: 258px x 96px\n- drawable-hdpi: 194px x 72px\n- drawable-mdpi: 129px x 48px",
+                    "description": "Folder with images to use as a custom header logo.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- drawable-hdpi\n- drawable-xhdpi\n- drawable-xxhdpi\n- drawable-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_header_custom_light.png\nrevanced_header_custom_dark.png \n\nThe image dimensions must be as follows:\n- drawable-hdpi: 194x72 px\n- drawable-xhdpi: 258x96 px\n- drawable-xxhdpi: 387x144 px\n- drawable-xxxhdpi: 512x192 px",
                     "key": "custom",
                     "required": false,
                     "title": "Custom header logo",
@@ -264,7 +278,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Replaces the domain name of shared links.",
+            "description": "Replaces the domain name of shared links. Including this patch can prevent making posts that quote other posts.",
             "name": "Change link sharing domain",
             "options": [
                 {
@@ -440,6 +454,7 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch",
+                "RawResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
@@ -456,7 +471,7 @@
                 },
                 {
                     "default": null,
-                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nrevanced_adaptive_monochrome_custom.xml\nrevanced_notification_icon_custom.xml",
+                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nrevanced_adaptive_monochrome_custom.xml\nrevanced_notification_icon_custom.xml",
                     "key": "customIcon",
                     "required": false,
                     "title": "Custom icon",
@@ -479,6 +494,7 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch",
+                "RawResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
@@ -495,7 +511,7 @@
                 },
                 {
                     "default": null,
-                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nrevanced_adaptive_monochrome_custom.xml\nrevanced_notification_icon_custom.xml",
+                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nrevanced_adaptive_monochrome_custom.xml\nrevanced_notification_icon_custom.xml",
                     "key": "customIcon",
                     "required": false,
                     "title": "Custom icon",
@@ -504,6 +520,80 @@
                 }
             ],
             "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Allows trusting custom certificate authorities for a specific domain.",
+            "name": "Custom network security",
+            "options": [
+                {
+                    "default": [
+                        "example.com"
+                    ],
+                    "description": "List of domains to which the custom trust configuration will be applied (one domain per entry).",
+                    "key": "targetDomains",
+                    "required": true,
+                    "title": "Target domains",
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Applies the configuration to all subdomains of the target domains.",
+                    "key": "includeSubdomains",
+                    "required": true,
+                    "title": "Include subdomains",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "List of paths to files in PEM or DER format (one file path per entry).\n\nMakes an app trust the provided custom certificate authorities (CAs),\nfor the specified domains, and if the option \"Include Subdomains\" is enabled then also the subdomains.\n\n\nCA files will be bundled in res/raw/ of resulting APK",
+                    "key": "customCAFilePaths",
+                    "required": false,
+                    "title": "Custom CA file paths",
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Makes an app trust certificates from the Android user store for the specified domains, and if the option \"Include Subdomains\" is enabled then also the subdomains.",
+                    "key": "allowUserCerts",
+                    "required": true,
+                    "title": "Trust user added CAs",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Makes an app trust certificates from the Android system store for the specified domains, and and if the option \"Include Subdomains\" is enabled then also the subdomains.",
+                    "key": "allowSystemCerts",
+                    "required": true,
+                    "title": "Trust system CAs",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Allows unencrypted HTTP traffic for the specified domains, and if \"Include Subdomains\" is enabled then also the subdomains.",
+                    "key": "allowCleartextTraffic",
+                    "required": true,
+                    "title": "Allow cleartext traffic (HTTP)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Overrides certificate pinning for the specified domains and their subdomains if the option \"Include Subdomains\" is enabled to allow inspecting app traffic via a proxy.",
+                    "key": "overridePins",
+                    "required": true,
+                    "title": "Override certificate pinning",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ],
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -611,7 +701,9 @@
         },
         {
             "compatiblePackages": {
-                "com.duolingo": null
+                "com.duolingo": [
+                    "6.54.5"
+                ]
             },
             "dependencies": [],
             "description": null,
@@ -1112,9 +1204,7 @@
         },
         {
             "compatiblePackages": {
-                "com.duolingo": [
-                    "5.158.4"
-                ]
+                "com.duolingo": null
             },
             "dependencies": [],
             "description": null,
@@ -1316,6 +1406,23 @@
             "dependencies": [],
             "description": null,
             "name": "Fix crash",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.sec.android.app.fm": [
+                    "12.4.00.7",
+                    "12.3.00.13",
+                    "12.3.00.11"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "Bypass device checks"
+            ],
+            "description": "Prevents the app from crashing because of missing system permissions.",
+            "name": "Fix crashes",
             "options": [],
             "use": true
         },
@@ -1906,18 +2013,6 @@
         },
         {
             "compatiblePackages": {
-                "com.spotify.music": null
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Hides the \"Create\" button in the navigation bar. The latest app targets do not need this patch.",
-            "name": "Hide Create button",
-            "options": [],
-            "use": false
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
                     "20.07.39",
@@ -2062,7 +2157,9 @@
         },
         {
             "compatiblePackages": {
-                "com.instagram.android": null
+                "com.instagram.android": [
+                    "401.0.0.48.79"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -3018,6 +3115,23 @@
         },
         {
             "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "36.5.4"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "36.5.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes the tracking query parameters from shared links.",
+            "name": "Sanitize sharing links",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.twitter.android": [
                     "10.60.0-release.0",
                     "10.86.0-release.0"
@@ -3087,7 +3201,8 @@
                 ]
             },
             "dependencies": [
-                "BytecodePatch"
+                "BytecodePatch",
+                "RawResourcePatch"
             ],
             "description": "Adds ReVanced settings to TikTok.",
             "name": "Settings",
@@ -3195,6 +3310,16 @@
             ],
             "description": "Automatically skips video stream ads.",
             "name": "Skip ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.duolingo": null
+            },
+            "dependencies": [],
+            "description": "Skips watching ads to recharge energy.",
+            "name": "Skip energy recharge ads",
             "options": [],
             "use": true
         },
@@ -3758,7 +3883,8 @@
                         "com.google.android.feature.PIXEL_2023_EXPERIENCE",
                         "com.google.android.feature.PIXEL_2024_MIDYEAR_EXPERIENCE",
                         "com.google.android.feature.PIXEL_2024_EXPERIENCE",
-                        "com.google.android.feature.PIXEL_2025_MIDYEAR_EXPERIENCE"
+                        "com.google.android.feature.PIXEL_2025_MIDYEAR_EXPERIENCE",
+                        "com.google.android.feature.PIXEL_2025_EXPERIENCE"
                     ],
                     "description": "Google Pixel exclusive features to disable.Features after Pixel XL may have to be disabled for unlimited storage depending on the device.",
                     "key": "featuresToDisable",

@@ -1,5 +1,5 @@
 {
-    "version": "v2.0.0-dev.6",
+    "version": "v2.0.0-dev.9",
     "patches": [
         {
             "compatiblePackages": {
@@ -24,7 +24,9 @@
             "use": false
         },
         {
-            "compatiblePackages": null,
+            "compatiblePackages": {
+                "com.twitter.android": null
+            },
             "dependencies": [],
             "description": "Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.",
             "name": "Change version code",
@@ -201,6 +203,18 @@
             ],
             "description": null,
             "name": "Customize Navigation Bar items",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Customize notification tabs",
             "options": [],
             "use": true
         },
@@ -656,6 +670,18 @@
                 "com.twitter.android": null
             },
             "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Search suggestions will not be saved locally",
+            "name": "Pause search suggestions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": null
+            },
+            "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -673,6 +699,18 @@
             ],
             "description": "Removes premium upsell in home timeline",
             "name": "Remove premium upsell",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hide/Remove search suggestion in explore section",
+            "name": "Remove search suggestions",
             "options": [],
             "use": true
         },
