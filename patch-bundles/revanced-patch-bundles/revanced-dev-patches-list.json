@@ -1,5 +1,5 @@
 {
-    "version": "v5.46.0-dev.5",
+    "version": "v5.46.0-dev.6",
     "patches": [
         {
             "compatiblePackages": {
@@ -1221,6 +1221,7 @@
             },
             "dependencies": [
                 "ResourcePatch",
+                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -1239,6 +1240,7 @@
                 ]
             },
             "dependencies": [
+                "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch"
