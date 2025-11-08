@@ -42,6 +42,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 [🧩 Tosox Bundle Patch List](#-tosox-bundle-patch-list)  
 [🧩 HZbutcoding Bundle Patch List](#-hzbutcoding-bundle-patch-list)  
 [🧩 Lluni Bundle Patch List](#-lluni-bundle-patch-list)    
+[🧩 Lluni Bundle Patch List](#-bawr-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -1543,7 +1544,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Hepolise Bundle Patch List:
-[📦 Hepolise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-Hepolise-patches-bundle-api-v4)
+[📦 Hepolise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-Hepolise-patches-bundle)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1792,7 +1793,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 Tosox Bundle Patch List:
-[📦 Tosox-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-tosox-patches-bundle)
+[📦 Tosox-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-tosox-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1812,7 +1813,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 ---
 ### 🧩 HZbutcoding Bundle Patch List:
-[📦 HZbutcoding-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hzbutcoding-patches-bundle)
+[📦 HZbutcoding-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hzbutcoding-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1826,7 +1827,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 ---
 
 ### 🧩 Lluni Bundle Patch List:
-[📦 Lluni-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lluni-patches-bundle)
+[📦 Lluni-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lluni-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -1834,6 +1835,17 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Promo code unlock``` | ```Disables the validation of promo code. Any code will work to unlock all features.``` | ```de.dwd.warnapp``` | ```All versions``` |
+
+</details>
+
+---
+
+### 🧩 Bawr Bundle Patch List:
+[📦 Bawr-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bawr-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
 
 </details>
 
