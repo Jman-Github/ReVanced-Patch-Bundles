@@ -1,5 +1,5 @@
 {
-    "version": "v5.46.0-dev.7",
+    "version": "v5.46.0-dev.8",
     "patches": [
         {
             "compatiblePackages": {
@@ -1991,8 +1991,8 @@
                 "ResourcePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds an option to hide the cast button.",
-            "name": "Hide cast button",
+            "description": "Adds options to hide the cast, history, notification, and search buttons.",
+            "name": "Hide buttons",
             "options": [],
             "use": true
         },
