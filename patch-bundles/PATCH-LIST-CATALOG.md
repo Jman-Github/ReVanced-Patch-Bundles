@@ -50,7 +50,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***248 Patches***
+***249 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
@@ -70,6 +70,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Change link sharing domain``` | ```Replaces the domain name of shared links.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Change link sharing domain``` | ```Replaces the domain name of shared links. Including this patch can prevent making posts that quote other posts.``` | ```com.twitter.android``` | ```10.60.0-release.0, 10.86.0-release.0``` |
 | ```Change lyrics provider``` | ```Changes the lyrics provider to a custom one.``` | ```com.spotify.music``` | ```All versions``` |
+| ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
 | ```Change package name``` | ```Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```Universal``` | ```All versions``` |

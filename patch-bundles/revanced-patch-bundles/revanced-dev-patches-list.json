@@ -1,5 +1,5 @@
 {
-    "version": "v5.46.0-dev.8",
+    "version": "v5.46.0-dev.9",
     "patches": [
         {
             "compatiblePackages": {
@@ -312,6 +312,24 @@
                 }
             ],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to change the miniplayer background color to match the fullscreen player.",
+            "name": "Change miniplayer color",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": null,
