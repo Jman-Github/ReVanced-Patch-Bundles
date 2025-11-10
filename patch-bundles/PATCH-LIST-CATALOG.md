@@ -1500,12 +1500,12 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Disable practice reminder nag``` | ```N/A``` | ```com.duolingo``` | ```6.33.2``` |
 | ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```com.duolingo``` | ```All versions``` |
 | ```Enable Plus``` | ```Enable Plus membership (not all features are available).``` | ```me.mycake``` | ```6.3.4``` |
+| ```Enable Premium``` | ```N/A``` | ```com.avocards``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.crunchyroll.crunchyroid``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.qbis.guessthecountry``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables premium paid subscription.``` | ```net.teuida.teuida``` | ```All versions``` |
 | ```Enable Super``` | ```N/A``` | ```com.duolingo``` | ```All versions``` |
 | ```GmsCore support``` | ```Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services.``` | ```net.teuida.teuida``` | ```All versions``` |
-| ```Hex``` | ```Replaces a hexadecimal patterns of bytes of files in an APK.``` | ```Universal``` | ```All versions``` |
 | ```Unlock licensed songs``` | ```Allows playing the full version of licensed music instead of the 30-second preview.``` | ```com.duolingo``` | ```All versions``` |
 | ```Unlock Premium``` | ```N/A``` | ```com.merriamwebster``` | ```All versions``` |
 | ```Unlock Pro``` | ```N/A``` | ```org.totschnig.myexpenses``` | ```3.9.8``` |

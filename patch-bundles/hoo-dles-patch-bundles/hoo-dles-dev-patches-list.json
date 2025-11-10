@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.1",
+    "version": "v1.0.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -77,6 +77,16 @@
         },
         {
             "compatiblePackages": {
+                "com.avocards": null
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.crunchyroll.crunchyroid": null
             },
             "dependencies": [],
@@ -141,26 +151,6 @@
                 }
             ],
             "use": true
-        },
-        {
-            "compatiblePackages": null,
-            "dependencies": [
-                "RawResourcePatch"
-            ],
-            "description": "Replaces a hexadecimal patterns of bytes of files in an APK.",
-            "name": "Hex",
-            "options": [
-                {
-                    "default": null,
-                    "description": "Hexadecimal patterns to search for and replace with another in a target file.\n\nA pattern is a sequence of case insensitive strings, each representing hexadecimal bytes, separated by spaces.\nAn example pattern is 'aa 01 02 FF'.\n\nEvery pattern must be followed by a pipe ('|'), the replacement pattern,\nanother pipe ('|'), and the path to the file to make the changes in relative to the APK root. \nThe replacement pattern must be shorter or equal in length to the pattern.\n\nFull example of a valid replacement:\n'01 02 aa FF|03 04|path/to/file'",
-                    "key": "replacements",
-                    "required": true,
-                    "title": "Replacements",
-                    "type": "kotlin.collections.List<kotlin.String>",
-                    "values": null
-                }
-            ],
-            "use": false
         },
         {
             "compatiblePackages": {
