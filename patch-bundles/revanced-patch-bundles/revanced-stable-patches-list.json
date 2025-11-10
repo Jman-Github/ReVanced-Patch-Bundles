@@ -1,5 +1,5 @@
 {
-    "version": "v5.45.0",
+    "version": "v5.46.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -312,6 +312,24 @@
                 }
             ],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to change the miniplayer background color to match the fullscreen player.",
+            "name": "Change miniplayer color",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": null,
@@ -701,7 +719,9 @@
         },
         {
             "compatiblePackages": {
-                "com.duolingo": null
+                "com.duolingo": [
+                    "6.54.5"
+                ]
             },
             "dependencies": [],
             "description": null,
@@ -1219,6 +1239,7 @@
             },
             "dependencies": [
                 "ResourcePatch",
+                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -1237,6 +1258,7 @@
                 ]
             },
             "dependencies": [
+                "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch"
@@ -1987,8 +2009,8 @@
                 "ResourcePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds an option to hide the cast button.",
-            "name": "Hide cast button",
+            "description": "Adds options to hide the cast, history, notification, and search buttons.",
+            "name": "Hide buttons",
             "options": [],
             "use": true
         },
@@ -2008,18 +2030,6 @@
             "name": "Hide category bar",
             "options": [],
             "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.spotify.music": null
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Hides the \"Create\" button in the navigation bar. The latest app targets do not need this patch.",
-            "name": "Hide Create button",
-            "options": [],
-            "use": false
         },
         {
             "compatiblePackages": {
@@ -2167,7 +2177,9 @@
         },
         {
             "compatiblePackages": {
-                "com.instagram.android": null
+                "com.instagram.android": [
+                    "401.0.0.48.79"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
