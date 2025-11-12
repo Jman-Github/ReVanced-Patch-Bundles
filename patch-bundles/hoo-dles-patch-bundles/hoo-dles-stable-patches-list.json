@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0",
+    "version": "v1.6.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -41,6 +41,16 @@
         },
         {
             "compatiblePackages": {
+                "com.duolingo": null
+            },
+            "dependencies": [],
+            "description": "Removes Play Integrity device attestation from login request.",
+            "name": "Disable Login Integrity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.duolingo": [
                     "6.33.2"
                 ]
@@ -49,7 +59,7 @@
             "description": null,
             "name": "Disable practice reminder nag",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -77,12 +87,45 @@
         },
         {
             "compatiblePackages": {
+                "com.avocards": null
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.crunchyroll.crunchyroid": null
             },
             "dependencies": [],
             "description": null,
             "name": "Enable Premium",
             "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.duolingo": null
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Enable Premium",
+            "options": [
+                {
+                    "default": "SUPER",
+                    "description": null,
+                    "key": "premiumVariant",
+                    "required": true,
+                    "title": "Subscription type",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Duolingo MAX": "MAX",
+                        "Duolingo Super": "SUPER"
+                    }
+                }
+            ],
             "use": true
         },
         {
@@ -102,16 +145,6 @@
             "dependencies": [],
             "description": "Enables premium paid subscription.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.duolingo": null
-            },
-            "dependencies": [],
-            "description": null,
-            "name": "Enable Super",
             "options": [],
             "use": true
         },
@@ -143,26 +176,6 @@
             "use": true
         },
         {
-            "compatiblePackages": null,
-            "dependencies": [
-                "RawResourcePatch"
-            ],
-            "description": "Replaces a hexadecimal patterns of bytes of files in an APK.",
-            "name": "Hex",
-            "options": [
-                {
-                    "default": null,
-                    "description": "Hexadecimal patterns to search for and replace with another in a target file.\n\nA pattern is a sequence of case insensitive strings, each representing hexadecimal bytes, separated by spaces.\nAn example pattern is 'aa 01 02 FF'.\n\nEvery pattern must be followed by a pipe ('|'), the replacement pattern,\nanother pipe ('|'), and the path to the file to make the changes in relative to the APK root. \nThe replacement pattern must be shorter or equal in length to the pattern.\n\nFull example of a valid replacement:\n'01 02 aa FF|03 04|path/to/file'",
-                    "key": "replacements",
-                    "required": true,
-                    "title": "Replacements",
-                    "type": "kotlin.collections.List<kotlin.String>",
-                    "values": null
-                }
-            ],
-            "use": false
-        },
-        {
             "compatiblePackages": {
                 "com.duolingo": null
             },
@@ -170,7 +183,7 @@
             "description": "Allows playing the full version of licensed music instead of the 30-second preview.",
             "name": "Unlock licensed songs",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatiblePackages": {
