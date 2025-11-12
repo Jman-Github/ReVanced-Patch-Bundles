@@ -1,5 +1,5 @@
 {
-    "version": "v5.47.0-dev.2",
+    "version": "v5.47.0-dev.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -1046,6 +1046,16 @@
             "dependencies": [],
             "description": "Disables the signature check that can cause the app to crash on startup. Including this patch may cause issues with sharing or opening external Instagram links.",
             "name": "Disable signature check",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [],
+            "description": "Disable stories automatically flipping/skipping after some seconds.",
+            "name": "Disable story auto flipping",
             "options": [],
             "use": false
         },
