@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.1",
+    "version": "v1.6.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -41,6 +41,16 @@
         },
         {
             "compatiblePackages": {
+                "com.duolingo": null
+            },
+            "dependencies": [],
+            "description": "Removes Play Integrity device attestation from login request.",
+            "name": "Disable Login Integrity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.duolingo": [
                     "6.33.2"
                 ]
@@ -49,7 +59,7 @@
             "description": null,
             "name": "Disable practice reminder nag",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -97,6 +107,29 @@
         },
         {
             "compatiblePackages": {
+                "com.duolingo": null
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Enable Premium",
+            "options": [
+                {
+                    "default": "SUPER",
+                    "description": null,
+                    "key": "premiumVariant",
+                    "required": true,
+                    "title": "Subscription type",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Duolingo MAX": "MAX",
+                        "Duolingo Super": "SUPER"
+                    }
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.qbis.guessthecountry": null
             },
             "dependencies": [],
@@ -112,16 +145,6 @@
             "dependencies": [],
             "description": "Enables premium paid subscription.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.duolingo": null
-            },
-            "dependencies": [],
-            "description": null,
-            "name": "Enable Super",
             "options": [],
             "use": true
         },
@@ -160,7 +183,7 @@
             "description": "Allows playing the full version of licensed music instead of the 30-second preview.",
             "name": "Unlock licensed songs",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatiblePackages": {

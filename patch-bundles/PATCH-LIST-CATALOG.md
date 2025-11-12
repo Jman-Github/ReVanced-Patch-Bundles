@@ -1494,18 +1494,19 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***13 Patches***
+***14 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Change package name``` | ```Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
+| ```Disable Login Integrity``` | ```Removes Play Integrity device attestation from login request.``` | ```com.duolingo``` | ```All versions``` |
 | ```Disable practice reminder nag``` | ```N/A``` | ```com.duolingo``` | ```6.33.2``` |
 | ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```com.duolingo``` | ```All versions``` |
 | ```Enable Plus``` | ```Enable Plus membership (not all features are available).``` | ```me.mycake``` | ```6.3.4``` |
 | ```Enable Premium``` | ```N/A``` | ```com.avocards``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.crunchyroll.crunchyroid``` | ```All versions``` |
+| ```Enable Premium``` | ```N/A``` | ```com.duolingo``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.qbis.guessthecountry``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables premium paid subscription.``` | ```net.teuida.teuida``` | ```All versions``` |
-| ```Enable Super``` | ```N/A``` | ```com.duolingo``` | ```All versions``` |
 | ```GmsCore support``` | ```Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services.``` | ```net.teuida.teuida``` | ```All versions``` |
 | ```Unlock licensed songs``` | ```Allows playing the full version of licensed music instead of the 30-second preview.``` | ```com.duolingo``` | ```All versions``` |
 | ```Unlock Premium``` | ```N/A``` | ```com.merriamwebster``` | ```All versions``` |
