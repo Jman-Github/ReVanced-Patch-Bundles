@@ -50,12 +50,13 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***249 Patches***
+***250 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Always allow deep-linking``` | ```Open Amazon links, even if the app is not set to handle Amazon links.``` | ```com.amazon.mShop.android.shopping``` | ```All versions``` |
 | ```Announcements``` | ```Adds an option to show announcements from ReVanced on app startup.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
+| ```Anonymous story viewing``` | ```View stories without sending any information to the server. Your view will not appear in the story viewers list. Note: Since no data is sent, a story you have already viewed may appear as new on another device.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Auto claim channel points``` | ```Automatically claim Channel Points.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
 | ```Block audio ads``` | ```Blocks audio ads in streams and VODs.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
 | ```Block embedded ads``` | ```Blocks embedded stream ads using services like Luminous or PurpleAdBlocker.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |

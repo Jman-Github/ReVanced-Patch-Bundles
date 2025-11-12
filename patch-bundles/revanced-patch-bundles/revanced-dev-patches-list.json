@@ -1,5 +1,5 @@
 {
-    "version": "v5.46.0-dev.10",
+    "version": "v5.47.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -49,6 +49,16 @@
             "name": "Announcements",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [],
+            "description": "View stories without sending any information to the server. \nYour view will not appear in the story viewers list. \nNote: Since no data is sent, a story you have already viewed may appear as new on another device.",
+            "name": "Anonymous story viewing",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
