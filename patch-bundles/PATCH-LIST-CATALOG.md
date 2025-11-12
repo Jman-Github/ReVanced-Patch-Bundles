@@ -108,7 +108,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Disable rolling number animations``` | ```Adds an option to disable rolling number animations of video view count, user likes, and upload time.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Disable screenshot popup``` | ```Disables the popup that shows up when taking a screenshot.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Disable sign in to TV popup``` | ```Adds an option to disable the popup asking to sign into a TV on the same local network.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
-| ```Disable signature check``` | ```Disables the signature check that causes the app to crash on startup.``` | ```com.instagram.android``` | ```All versions``` |
+| ```Disable signature check``` | ```Disables the signature check that can cause the app to crash on startup. Including this patch may cause issues with sharing or opening external Instagram links.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Disable subscription suggestions``` | ```N/A``` | ```com.strava``` | ```All versions``` |
 | ```Disable Sync for Lemmy bottom sheet``` | ```Disables the bottom sheet at the startup that asks you to signup to "Sync for Lemmy".``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.dev, com.laurencedawson.reddit_sync.pro``` | ```v23.06.30-13:39``` |
 | ```Disable telemetry``` | ```Disables SoundCloud's telemetry system.``` | ```com.soundcloud.android``` | ```2025.05.27-release``` |
