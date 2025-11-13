@@ -597,11 +597,12 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***63 Patches***
+***64 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add ability to copy media link``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Bring back twitter``` | ```Bring back old twitter logo and name``` | ```com.twitter.android``` | ```All versions``` |
+| ```Change app icon``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Clear tracking params``` | ```Removes tracking parameters when sharing links``` | ```com.twitter.android``` | ```All versions``` |
 | ```Control video auto scroll``` | ```Control video auto scroll in immersive view``` | ```com.twitter.android``` | ```All versions``` |

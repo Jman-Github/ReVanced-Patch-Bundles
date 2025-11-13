@@ -1,5 +1,5 @@
 {
-    "version": "v2.0.0-dev.9",
+    "version": "v2.0.0-dev.10",
     "patches": [
         {
             "compatiblePackages": {
@@ -22,6 +22,19 @@
             "name": "Bring back twitter",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": null
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": null,
+            "name": "Change app icon",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
