@@ -1,9 +1,9 @@
 import json
 import os
-import re
-import subprocess
 import sys
 from pathlib import Path
+
+from bundle_updates import collect_bundle_updates
 
 METADATA_PATH = Path("bundle-run-metadata.json")
 CHANGELOG_PATH = Path("bundle-changelog.md")
@@ -48,43 +48,6 @@ def summarize_notes(notes: str, max_items: int = 3, max_chars: int = 300) -> str
     return description
 
 
-def read_git(rev, path):
-    try:
-        return subprocess.check_output(
-            ["git", "show", f"{rev}:{path}"],
-            text=True,
-        )
-    except subprocess.CalledProcessError:
-        return ""
-
-def resolve_path(path):
-    if "/" in path:
-        return path
-    try:
-        matches = subprocess.check_output(
-            ["git", "ls-files", f"**/{path}"],
-            text=True,
-        ).splitlines()
-    except subprocess.CalledProcessError:
-        matches = []
-    if not matches:
-        return None
-    exact = [item for item in matches if item.endswith("/" + path)]
-    return exact[0] if exact else matches[0]
-
-def get_version(s):
-    if not s:
-        return None
-    try:
-        data = json.loads(s)
-        for k in ["version", "Version", "bundleVersion", "patchesVersion", "latestVersion"]:
-            if isinstance(data, dict) and k in data and isinstance(data[k], str):
-                return data[k]
-    except (json.JSONDecodeError, TypeError):
-        return None
-    m = re.search(r'"(?:version|Version|latestVersion)"\s*:\s*"([^"]+)"', s)
-    return m.group(1) if m else None
-
 def write_env(key, value):
     path = os.environ.get("GITHUB_ENV")
     if not path:
@@ -92,33 +55,19 @@ def write_env(key, value):
     with open(path, "a", encoding="utf-8") as f:
         f.write(f"{key}={value}\n")
 
-try:
-    with open("changed_files.txt", encoding="utf-8") as fh:
-        changed = [line.strip() for line in fh if line.strip()]
-except OSError:
-    changed = []
+bundle_updates = collect_bundle_updates()
 
-targets = [n for n in changed if n.endswith("-patches-bundle.json")]
-
-if not targets:
+if not bundle_updates:
     write_env("has_bundle_updates", "false")
     sys.exit(0)
 
 metadata = load_metadata()
-lines: list[str] = []
 changelog_entries: list[tuple[str, str]] = []
 
-for path in targets:
-    repo_path = resolve_path(path)
-    if not repo_path:
-        continue
-    new = read_git("HEAD", repo_path)
-    old = read_git("HEAD~1", repo_path)
-    v_new = get_version(new) or "?"
-    v_old = get_version(old) or "?"
-    name = repo_path.rsplit("/", 1)[-1]
-    bundle_key = name.replace('-patches-bundle.json', '')
-    lines.append(f"{bundle_key}: {v_old} ---> {v_new}")
+lines = [update.format_line() for update in bundle_updates]
+
+for update in bundle_updates:
+    bundle_key = update.name
 
     metadata_entry = metadata.get(bundle_key)
     highlight_text = ""
@@ -152,9 +101,9 @@ for path in targets:
         highlight_text = " ".join(part for part in highlight_parts if part).strip()
         if release_link:
             if highlight_text:
-                highlight_text = f"{highlight_text}{release_link}"
-            else:
-                highlight_text = release_link.strip()
+            highlight_text = f"{highlight_text}{release_link}"
+        else:
+            highlight_text = release_link.strip()
     else:
         highlight_text = "No release notes captured for this bundle update."
 
