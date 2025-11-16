@@ -101,9 +101,9 @@ for update in bundle_updates:
         highlight_text = " ".join(part for part in highlight_parts if part).strip()
         if release_link:
             if highlight_text:
-            highlight_text = f"{highlight_text}{release_link}"
-        else:
-            highlight_text = release_link.strip()
+                highlight_text = f"{highlight_text}{release_link}"
+            else:
+                highlight_text = release_link.strip()
     else:
         highlight_text = "No release notes captured for this bundle update."
 

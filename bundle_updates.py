@@ -10,13 +10,17 @@ from __future__ import annotations
 
 import json
 import re
+import shutil
 import subprocess
+from collections.abc import Iterable
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Iterable
-
 
 CHANGED_FILES_PATH = Path("changed_files.txt")
+GIT_BIN = shutil.which("git")
+
+if GIT_BIN is None:  # pragma: no cover - environment issue
+    raise RuntimeError("git executable not found in PATH")
 
 
 @dataclass(slots=True)
@@ -39,12 +43,22 @@ class BundleUpdate:
 def _read_lines(path: Path) -> list[str]:
     if not path.is_file():
         return []
-    return [line.strip() for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+    return [
+        line.strip()
+        for line in path.read_text(encoding="utf-8").splitlines()
+        if line.strip()
+    ]
+
+
+def _git_output(*args: str) -> str:
+    """Return stdout for a git invocation using an absolute executable path."""
+
+    return subprocess.check_output([GIT_BIN, *args], text=True)  # noqa: S603
 
 
 def _read_git(rev: str, path: str) -> str:
     try:
-        return subprocess.check_output(["git", "show", f"{rev}:{path}"], text=True)
+        return _git_output("show", f"{rev}:{path}")
     except subprocess.CalledProcessError:
         return ""
 
@@ -53,7 +67,7 @@ def _resolve_path(path: str) -> str | None:
     if "/" in path:
         return path
     try:
-        matches = subprocess.check_output(["git", "ls-files", f"**/{path}"], text=True).splitlines()
+        matches = _git_output("ls-files", f"**/{path}").splitlines()
     except subprocess.CalledProcessError:
         matches = []
     if not matches:
@@ -85,7 +99,9 @@ def _iter_bundle_targets(changed_files: Iterable[str]) -> Iterable[str]:
             yield candidate
 
 
-def collect_bundle_updates(changed_files_path: Path | str = CHANGED_FILES_PATH) -> list[BundleUpdate]:
+def collect_bundle_updates(
+    changed_files_path: Path | str = CHANGED_FILES_PATH,
+) -> list[BundleUpdate]:
     """Return bundle updates discovered in the provided ``changed_files`` list."""
 
     path = Path(changed_files_path)
