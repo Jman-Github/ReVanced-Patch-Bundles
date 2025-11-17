@@ -54,9 +54,7 @@ def _read_lines(path: Path) -> list[str]:
 def _git_output(*args: str) -> str:
     """Return stdout for a git invocation using an absolute executable path."""
 
-    return subprocess.check_output(
-        [GIT_BIN, *args], text=True, cwd=str(PROJECT_ROOT)
-    )  # noqa: S603
+    return subprocess.check_output([GIT_BIN, *args], text=True, cwd=str(PROJECT_ROOT))
 
 
 def _read_git(rev: str, path: str) -> str:
