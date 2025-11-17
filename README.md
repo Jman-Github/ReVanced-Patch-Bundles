@@ -537,7 +537,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 ---
 
 ### 📦 Burgers1312-Patches-Bundle [API v4]:
-[🧩 Bawr Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-burgers1312-bundle-patch-list)
+[🧩 Burgers1312 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-burgers1312-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
