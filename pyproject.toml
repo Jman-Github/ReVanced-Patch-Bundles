@@ -11,10 +11,10 @@ select = ["E", "F", "W", "I", "B", "UP", "ASYNC", "S", "RUF"]
 ignore = ["S101"]
 
 [tool.ruff.lint.per-file-ignores]
-"generate_patch_list_catalog.py" = ["S603", "S607"]
-"build_updated_bundles.py" = ["S603", "S607"]
-"build_summary.py" = ["S603", "S607"]
-"generate_bundles.py" = ["S603", "S607"]
+"scripts/generate_patch_list_catalog.py" = ["S603", "S607"]
+"scripts/build_updated_bundles.py" = ["S603", "S607"]
+"scripts/build_summary.py" = ["S603", "S607"]
+"scripts/generate_bundles.py" = ["S603", "S607"]
 
 [tool.pytest.ini_options]
 addopts = "-ra"

@@ -2,6 +2,8 @@ import json
 import re
 from pathlib import Path
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
 
 def load_patch_info(bundle_dir: Path) -> list[dict[str, str]]:
     bundle_name = bundle_dir.name.replace("-patch-bundles", "")
@@ -144,7 +146,7 @@ def inject_patch_lines(
 
 
 def main() -> int:
-    bundle_root = Path("patch-bundles")
+    bundle_root = PROJECT_ROOT / "patch-bundles"
     catalog_path = bundle_root / "PATCH-LIST-CATALOG.md"
     catalog_text = catalog_path.read_text(encoding="utf-8")
     catalog_lines = catalog_text.splitlines()

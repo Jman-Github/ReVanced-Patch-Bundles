@@ -53,7 +53,7 @@ jobs:
           source venv/bin/activate
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
-          python generate_bundles.py
+          python scripts/generate_bundles.py
         working-directory: ${{ github.workspace }}
         continue-on-error: true
 
@@ -67,17 +67,17 @@ jobs:
 
       - name: Generate patch list catalog
         run: |
-          python generate_patch_list_catalog.py
-          black generate_patch_list_catalog.py
+          python scripts/generate_patch_list_catalog.py
+          black scripts/generate_patch_list_catalog.py
 
       - name: Validate generated JSON
-        run: python validate_json.py
+        run: python scripts/validate_json.py
 
       - name: Run Ruff
         run: python -m ruff check .
 
       - name: Run MyPy
-        run: python -m mypy generate_bundles.py check_readme.py find_commit.py validate_json.py
+        run: python -m mypy scripts/generate_bundles.py scripts/check_readme.py scripts/find_commit.py scripts/validate_json.py
 
       - name: Configure Git user
         run: |
@@ -114,7 +114,7 @@ jobs:
 
       - name: Build summary of updated bundles
         if: env.has_changes == 'true' && env.changed_files != ''
-        run: python build_updated_bundles.py
+        run: python scripts/build_updated_bundles.py
 
       - name: Record commit SHA
         if: env.has_changes == 'true'

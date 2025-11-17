@@ -16,7 +16,8 @@ from collections.abc import Iterable
 from dataclasses import dataclass
 from pathlib import Path
 
-CHANGED_FILES_PATH = Path("changed_files.txt")
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+CHANGED_FILES_PATH = PROJECT_ROOT / "changed_files.txt"
 GIT_BIN = shutil.which("git")
 
 if GIT_BIN is None:  # pragma: no cover - environment issue
@@ -53,7 +54,9 @@ def _read_lines(path: Path) -> list[str]:
 def _git_output(*args: str) -> str:
     """Return stdout for a git invocation using an absolute executable path."""
 
-    return subprocess.check_output([GIT_BIN, *args], text=True)  # noqa: S603
+    return subprocess.check_output(
+        [GIT_BIN, *args], text=True, cwd=str(PROJECT_ROOT)
+    )  # noqa: S603
 
 
 def _read_git(rev: str, path: str) -> str:

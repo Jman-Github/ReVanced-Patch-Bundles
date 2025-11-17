@@ -7,17 +7,22 @@ import subprocess
 import time
 from collections.abc import Mapping
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import Any
 
 from httpx import AsyncClient, HTTPError, Response, Timeout
 
-ETAG_CACHE_FILE = "etag_cache.json"
-METADATA_PATH = "bundle-run-metadata.json"
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PATCH_BUNDLES_DIR = PROJECT_ROOT / "patch-bundles"
+BUNDLE_SOURCES_PATH = PATCH_BUNDLES_DIR / "bundle-sources.json"
+ETAG_CACHE_FILE = PROJECT_ROOT / "etag_cache.json"
+METADATA_PATH = PROJECT_ROOT / "bundle-run-metadata.json"
+
 
 def _load_etag_cache() -> dict[str, str]:
-    if os.path.exists(ETAG_CACHE_FILE):
+    if ETAG_CACHE_FILE.exists():
         try:
-            with open(ETAG_CACHE_FILE, encoding="utf-8") as cache_file:
+            with ETAG_CACHE_FILE.open(encoding="utf-8") as cache_file:
                 data = json.load(cache_file)
                 if isinstance(data, dict):
                     return {str(key): str(value) for key, value in data.items()}
@@ -30,15 +35,16 @@ ETAG_CACHE_LOCK = asyncio.Lock()
 METADATA_LOCK = asyncio.Lock()
 
 def _write_etag_cache_sync(cache: Mapping[str, str]) -> None:
-    with open(ETAG_CACHE_FILE, "w", encoding="utf-8") as cache_file:
+    with ETAG_CACHE_FILE.open("w", encoding="utf-8") as cache_file:
         json.dump(cache, cache_file, indent=2)
 
 async def _save_etag_cache(cache: Mapping[str, str]) -> None:
     async with ETAG_CACHE_LOCK:
         await asyncio.to_thread(_write_etag_cache_sync, cache)
 
-def _dump_json_sync(path: str, payload: dict[str, Any]) -> None:
-    with open(path, "w", encoding="utf-8") as file:
+def _dump_json_sync(path: Path | str, payload: dict[str, Any]) -> None:
+    path_obj = Path(path)
+    with path_obj.open("w", encoding="utf-8") as file:
         json.dump(payload, file, indent=2)
 
 BOT_EMAIL = "41898282+github-actions[bot]@users.noreply.github.com"
@@ -276,21 +282,27 @@ async def fetch_release_data(client: AsyncClient, source: str, repo: Mapping[str
                 print(f"No relevant .rvp or .jar assets found for {source}")
                 return
         base_source = source.replace('-dev', '').replace('-latest', '').replace('-stable', '')
-        directory = os.path.join('patch-bundles', f"{base_source}-patch-bundles")
-        os.makedirs(directory, exist_ok=True)
-        filepath = os.path.join(directory, f'{source}-patches-bundle.json')
+        directory = PATCH_BUNDLES_DIR / f"{base_source}-patch-bundles"
+        directory.mkdir(parents=True, exist_ok=True)
+        filepath = directory / f'{source}-patches-bundle.json'
         await asyncio.to_thread(_dump_json_sync, filepath, info_dict)
-        print(f"Latest release information saved to {filepath}")
-        await asyncio.to_thread(subprocess.run, ["git", "add", filepath], check=True)
-        print(f"File {filepath} staged for commit.")
-        metadata_entry["artifact_path"] = filepath
+        relative_filepath = filepath.relative_to(PROJECT_ROOT)
+        print(f"Latest release information saved to {relative_filepath}")
+        await asyncio.to_thread(
+            subprocess.run,
+            ["git", "add", str(relative_filepath)],
+            check=True,
+            cwd=str(PROJECT_ROOT),
+        )
+        print(f"File {relative_filepath} staged for commit.")
+        metadata_entry["artifact_path"] = str(relative_filepath)
         async with METADATA_LOCK:
             BUNDLE_METADATA[source] = metadata_entry
     except Exception as exc:
         print(f"Error in fetch_release_data for {source}: {exc}")
 
 def _load_sources_sync() -> dict[str, Any]:
-    with open("bundle-sources.json", encoding="utf-8") as file:
+    with BUNDLE_SOURCES_PATH.open(encoding="utf-8") as file:
         data = json.load(file)
     if not isinstance(data, dict):
         raise ValueError("bundle-sources.json does not contain object data")
@@ -310,11 +322,13 @@ async def main() -> None:
             subprocess.run,
             ["git", "config", "user.email", BOT_EMAIL],
             check=True,
+            cwd=str(PROJECT_ROOT),
         )
         await asyncio.to_thread(
             subprocess.run,
             ["git", "config", "user.name", BOT_NAME],
             check=True,
+            cwd=str(PROJECT_ROOT),
         )
         async with AsyncClient(timeout=HTTP_TIMEOUT) as client:
             tasks = [fetch_release_data(client, source, repo) for source, repo in sources.items()]

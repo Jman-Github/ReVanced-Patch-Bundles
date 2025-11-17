@@ -75,7 +75,7 @@ jobs:
           REQUIRED_COMMIT_MSG_PREFIX: ""
           COMMIT_SHA: ${{ steps.read_sha.outputs.commit_sha }}
         run: |
-          python find_commit.py
+          python scripts/find_commit.py
 
       - name: Create commit link artifact
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2

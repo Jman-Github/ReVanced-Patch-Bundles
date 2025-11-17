@@ -5,8 +5,10 @@ from pathlib import Path
 
 from bundle_updates import collect_bundle_updates
 
-METADATA_PATH = Path("bundle-run-metadata.json")
-CHANGELOG_PATH = Path("bundle-changelog.md")
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+METADATA_PATH = PROJECT_ROOT / "bundle-run-metadata.json"
+CHANGELOG_PATH = PROJECT_ROOT / "bundle-changelog.md"
+UPDATED_BUNDLES_PATH = PROJECT_ROOT / "updated-bundles.txt"
 
 
 def load_metadata() -> dict[str, dict[str, str]]:
@@ -116,7 +118,7 @@ if not lines:
     write_env("has_bundle_updates", "false")
     sys.exit(0)
 
-with open("updated-bundles.txt", "w", encoding="utf-8") as out:
+with UPDATED_BUNDLES_PATH.open("w", encoding="utf-8") as out:
     out.write("\n".join(lines))
 
 changelog_lines: list[str] = []

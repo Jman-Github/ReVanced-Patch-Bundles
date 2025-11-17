@@ -11,7 +11,7 @@ from pathlib import Path
 
 from jsonschema import Draft202012Validator
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).resolve().parents[1]
 BUNDLE_DIR = ROOT / "patch-bundles"
 SCHEMA_DIR = ROOT / "schemas"
 
