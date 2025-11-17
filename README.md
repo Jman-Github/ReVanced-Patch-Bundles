@@ -644,7 +644,7 @@ https://github.com/ReVanced/revanced-manager/releases
 
 #### 🏷️ [Bawr-Patches-Bundle](https://github.com/bawr/revanced-patches)
 
-#### 🏷️ [Bawr-Patches-Bundle](https://github.com/burgers1312/revanced-patches)
+#### 🏷️ [Burgers1312-Patches-Bundle](https://github.com/burgers1312/revanced-patches)
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*
