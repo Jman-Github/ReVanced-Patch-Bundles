@@ -43,6 +43,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 [🧩 HZbutcoding Bundle Patch List](#-hzbutcoding-bundle-patch-list)  
 [🧩 Lluni Bundle Patch List](#-lluni-bundle-patch-list)    
 [🧩 Bawr Bundle Patch List](#-bawr-bundle-patch-list)    
+[🧩 Burgers1312 Bundle Patch List](#-burgers1312-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -1858,3 +1859,15 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 </details>
 
 ---
+
+### 🧩 Burgers1312 Bundle Patch List:
+[📦 Burgers1312-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-burgers1312-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
+
+</details>
+
+---
+

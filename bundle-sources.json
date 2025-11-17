@@ -199,6 +199,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "burgers1312-stable": {
+        "patches": "https://api.github.com/repos/burgers1312/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -391,6 +396,11 @@
     },
     "bawr-dev":  {
         "patches": "https://api.github.com/repos/bawr/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "burgers1312-dev": {
+        "patches": "https://api.github.com/repos/burgers1312/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -591,6 +601,11 @@
     },
     "lluni-latest": {
         "patches": "https://api.github.com/repos/lluni/custom-revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "burgers1312-latest": {
+        "patches": "https://api.github.com/repos/burgers1312/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }
