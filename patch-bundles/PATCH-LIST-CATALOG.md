@@ -1497,7 +1497,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***14 Patches***
+***15 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Change package name``` | ```Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
@@ -1508,6 +1508,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Enable Premium``` | ```N/A``` | ```com.avocards``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.crunchyroll.crunchyroid``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.duolingo``` | ```All versions``` |
+| ```Enable Premium``` | ```N/A``` | ```kr.eggbun.eggconvo``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.qbis.guessthecountry``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables premium paid subscription.``` | ```net.teuida.teuida``` | ```All versions``` |
 | ```GmsCore support``` | ```Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services.``` | ```net.teuida.teuida``` | ```All versions``` |
