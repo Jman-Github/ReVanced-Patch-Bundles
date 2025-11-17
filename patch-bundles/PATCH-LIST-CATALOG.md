@@ -42,7 +42,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 [🧩 Tosox Bundle Patch List](#-tosox-bundle-patch-list)  
 [🧩 HZbutcoding Bundle Patch List](#-hzbutcoding-bundle-patch-list)  
 [🧩 Lluni Bundle Patch List](#-lluni-bundle-patch-list)    
-[🧩 Lluni Bundle Patch List](#-bawr-bundle-patch-list)    
+[🧩 Bawr Bundle Patch List](#-bawr-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
