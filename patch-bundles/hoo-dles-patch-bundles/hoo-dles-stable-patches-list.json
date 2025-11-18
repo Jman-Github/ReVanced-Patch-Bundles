@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0",
+    "version": "v1.7.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -115,10 +115,10 @@
             "options": [
                 {
                     "default": "SUPER",
-                    "description": null,
+                    "description": "Choose which type of premium Duolingo subscription to enable.",
                     "key": "premiumVariant",
                     "required": true,
-                    "title": "Subscription type",
+                    "title": "Type",
                     "type": "kotlin.String",
                     "values": {
                         "Duolingo MAX": "MAX",
@@ -126,6 +126,16 @@
                     }
                 }
             ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "kr.eggbun.eggconvo": null
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Enable Premium",
+            "options": [],
             "use": true
         },
         {
