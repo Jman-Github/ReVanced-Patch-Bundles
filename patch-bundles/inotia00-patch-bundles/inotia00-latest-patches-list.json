@@ -1,5 +1,5 @@
 {
-    "version": "v5.13.1",
+    "version": "v5.14.1-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -160,6 +160,7 @@
             },
             "dependencies": [
                 "Settings for YouTube",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -1617,6 +1618,8 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds options to hide ads.",
@@ -2101,6 +2104,7 @@
                 "ResourcePatch",
                 "Settings for YouTube",
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch"
             ],
