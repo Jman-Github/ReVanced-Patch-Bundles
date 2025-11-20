@@ -463,7 +463,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Certificate spoof``` | ```Enables YouTube Music to work with Android Auto by spoofing the YouTube Music certificate.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
 | ```Change form factor``` | ```Adds an option to change the UI appearance to a phone, tablet, or automotive device.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Change live ring click action``` | ```Adds an option to open the channel instead of the live stream when clicking on the live ring.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
-| ```Change lyrics provider``` | ```Changes the lyrics provider to a custom one.``` | ```com.spotify.music``` | ```All versions``` |
+| ```Change lyrics provider``` | ```Changes the lyrics provider to a custom one.``` | ```com.spotify.music``` | ```9.0.90.1229``` |
 | ```Change package name``` | ```Changes the package name for Reddit to the name specified in patch options.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
 | ```Change player flyout menu toggles``` | ```Adds an option to use text toggles instead of switch toggles within the additional settings menu.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Change share sheet``` | ```Adds an option to change the in-app share sheet to the system share sheet.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
@@ -481,7 +481,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Custom header for YouTube``` | ```Applies a custom header in the top left corner within the app.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Custom header for YouTube Music``` | ```Applies a custom header in the top left corner within the app.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
 | ```Custom Shorts action buttons``` | ```Changes, at compile time, the icon of the action buttons of the Shorts player.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
-| ```Custom theme``` | ```Applies a custom theme (defaults to amoled black)``` | ```com.spotify.music``` | ```All versions``` |
+| ```Custom theme``` | ```Applies a custom theme (defaults to amoled black)``` | ```com.spotify.music``` | ```9.0.90.1229``` |
 | ```Dark theme``` | ```Changes the app's dark theme to the values specified in patch options.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
 | ```Description components``` | ```Adds options to hide and disable description components.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Disable Cairo splash animation``` | ```Adds an option to disable Cairo splash animation.``` | ```com.google.android.apps.youtube.music``` | ```7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
@@ -505,8 +505,8 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Enable debug logging``` | ```Adds an option for debugging and exporting RVX logs to the clipboard.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Enable gradient loading screen``` | ```Adds an option to enable the gradient loading screen.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Enable landscape mode``` | ```Adds an option to enable landscape mode when rotating the screen on phones.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
-| ```Fix Facebook login``` | ```Fix logging in with Facebook when the app is patched by always opening the login in a web browser window.``` | ```com.spotify.music``` | ```All versions``` |
-| ```Fix third party launchers widgets``` | ```Fixes Spotify widgets not working in third party launchers, like Nova Launcher.``` | ```com.spotify.music``` | ```All versions``` |
+| ```Fix Facebook login``` | ```Fix logging in with Facebook when the app is patched by always opening the login in a web browser window.``` | ```com.spotify.music``` | ```9.0.90.1229``` |
+| ```Fix third party launchers widgets``` | ```Fixes Spotify widgets not working in third party launchers, like Nova Launcher.``` | ```com.spotify.music``` | ```9.0.90.1229``` |
 | ```Flyout menu components``` | ```Adds options to hide or change flyout menu components.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
 | ```Force player buttons background``` | ```Changes the dark background surrounding the video player controls at compile time.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Fullscreen components``` | ```Adds options to hide or change components related to fullscreen.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
@@ -520,7 +520,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Hide ads``` | ```Adds options to hide ads.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
 | ```Hide ads``` | ```Adds options to hide ads.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Hide comments components``` | ```Adds options to hide components related to comments.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
-| ```Hide Create button``` | ```Hides the "Create" button in the navigation bar.``` | ```com.spotify.music``` | ```All versions``` |
+| ```Hide Create button``` | ```Hides the "Create" button in the navigation bar.``` | ```com.spotify.music``` | ```9.0.90.1229``` |
 | ```Hide feed components``` | ```Adds options to hide components related to feeds.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Hide feed flyout menu``` | ```Adds the ability to hide feed flyout menu components using a custom filter.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
@@ -537,7 +537,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Hide Trending Today shelf``` | ```Adds an option to hide the Trending Today shelf from search suggestions.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
 | ```Hook download actions``` | ```Adds support to download videos with an external downloader app using the in-app download button.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Hook YouTube Music actions``` | ```Adds support for opening music in RVX Music using the in-app YouTube Music button.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
-| ```Lyrics search``` | ```Displays a "Search Lyrics" panel in the Main Activity that searches for lyrics on Google, and song meanings on Songtell. The activity is set to SpotifyMainActivity, so the "Search Lyrics" panel won't be shown in NowPlayingActivity (Player view) or possibly other activities.``` | ```com.spotify.music``` | ```All versions``` |
+| ```Lyrics search``` | ```Displays a "Search Lyrics" panel in the Main Activity that searches for lyrics on Google, and song meanings on Songtell. The activity is set to SpotifyMainActivity, so the "Search Lyrics" panel won't be shown in NowPlayingActivity (Player view) or possibly other activities.``` | ```com.spotify.music``` | ```9.0.90.1229``` |
 | ```MaterialYou``` | ```Applies the MaterialYou theme for Android 12+ devices.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Miniplayer``` | ```Adds options to change the in-app minimized player, and if patching target 19.16+ adds options to use modern miniplayers.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Navigation bar components``` | ```Adds options to hide or change components related to the navigation bar.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
@@ -562,7 +562,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Return YouTube Username``` | ```Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
 | ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
-| ```Sanitize sharing links``` | ```Removes the tracking query parameters from links before they are shared.``` | ```com.spotify.music``` | ```All versions``` |
+| ```Sanitize sharing links``` | ```Removes the tracking query parameters from links before they are shared.``` | ```com.spotify.music``` | ```9.0.90.1229``` |
 | ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Seekbar components``` | ```Adds options to hide or change components related to the seekbar.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Set Transcript Cookies``` | ```Adds an option to set Cookies in YouTube Transcript API requests.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
@@ -582,8 +582,8 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 | ```Toolbar components``` | ```Adds options to hide or change components located on the toolbar, such as the search bar, header, and toolbar buttons.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Translations for YouTube``` | ```Add translations or remove string resources.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Translations for YouTube Music``` | ```Add translations or remove string resources.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
-| ```Unlock Premium``` | ```Unlocks NetWall Premium features once 'Unlock Premium Now' button is clicked.``` | ```com.ysy.app.firewall``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks Spotify Premium features. Server-sided features like downloading songs are still locked.``` | ```com.spotify.music``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks NetWall Premium features once 'Unlock Premium Now' button is clicked.``` | ```com.ysy.app.firewall``` | ```1.3.4``` |
+| ```Unlock Premium``` | ```Unlocks Spotify Premium features. Server-sided features like downloading songs are still locked.``` | ```com.spotify.music``` | ```9.0.90.1229``` |
 | ```Video playback``` | ```Adds options to customize settings related to video playback, such as default video quality and playback speed.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
 | ```Video playback``` | ```Adds options to customize settings related to video playback, such as default video quality and playback speed.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Visual preferences icons for YouTube``` | ```Adds icons to specific preferences in the settings.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |

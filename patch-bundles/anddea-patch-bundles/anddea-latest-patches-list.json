@@ -1,5 +1,5 @@
 {
-    "version": "v3.15.0-dev.2",
+    "version": "v3.15.0-dev.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -161,6 +161,7 @@
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to change the UI appearance to a phone, tablet, or automotive device.",
@@ -192,7 +193,9 @@
         },
         {
             "compatiblePackages": {
-                "com.spotify.music": null
+                "com.spotify.music": [
+                    "9.0.90.1229"
+                ]
             },
             "dependencies": [],
             "description": "Changes the lyrics provider to a custom one.",
@@ -770,7 +773,9 @@
         },
         {
             "compatiblePackages": {
-                "com.spotify.music": null
+                "com.spotify.music": [
+                    "9.0.90.1229"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -1356,7 +1361,9 @@
         },
         {
             "compatiblePackages": {
-                "com.spotify.music": null
+                "com.spotify.music": [
+                    "9.0.90.1229"
+                ]
             },
             "dependencies": [],
             "description": "Fix logging in with Facebook when the app is patched by always opening the login in a web browser window.",
@@ -1366,7 +1373,9 @@
         },
         {
             "compatiblePackages": {
-                "com.spotify.music": null
+                "com.spotify.music": [
+                    "9.0.90.1229"
+                ]
             },
             "dependencies": [],
             "description": "Fixes Spotify widgets not working in third party launchers, like Nova Launcher.",
@@ -1502,7 +1511,8 @@
                     "type": "kotlin.String",
                     "values": {
                         "Original MicroG": "com.google",
-                        "ReVanced MicroG": "app.revanced"
+                        "ReVanced MicroG": "app.revanced",
+                        "Vanced MicroG": "com.mgoogle"
                     }
                 },
                 {
@@ -1586,7 +1596,8 @@
                     "type": "kotlin.String",
                     "values": {
                         "Original MicroG": "com.google",
-                        "ReVanced MicroG": "app.revanced"
+                        "ReVanced MicroG": "app.revanced",
+                        "Vanced MicroG": "com.mgoogle"
                     }
                 },
                 {
@@ -1809,6 +1820,8 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds options to hide ads.",
@@ -1844,7 +1857,9 @@
         },
         {
             "compatiblePackages": {
-                "com.spotify.music": null
+                "com.spotify.music": [
+                    "9.0.90.1229"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -2225,7 +2240,9 @@
         },
         {
             "compatiblePackages": {
-                "com.spotify.music": null
+                "com.spotify.music": [
+                    "9.0.90.1229"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -2317,6 +2334,7 @@
                 "ResourcePatch",
                 "Settings for YouTube",
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch"
             ],
@@ -2790,7 +2808,9 @@
         },
         {
             "compatiblePackages": {
-                "com.spotify.music": null
+                "com.spotify.music": [
+                    "9.0.90.1229"
+                ]
             },
             "dependencies": [],
             "description": "Removes the tracking query parameters from links before they are shared.",
@@ -3479,7 +3499,9 @@
         },
         {
             "compatiblePackages": {
-                "com.ysy.app.firewall": null
+                "com.ysy.app.firewall": [
+                    "1.3.4"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -3492,7 +3514,9 @@
         },
         {
             "compatiblePackages": {
-                "com.spotify.music": null
+                "com.spotify.music": [
+                    "9.0.90.1229"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
