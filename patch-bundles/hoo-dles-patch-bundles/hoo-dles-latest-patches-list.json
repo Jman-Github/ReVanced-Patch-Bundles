@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.8.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -155,6 +155,16 @@
             "dependencies": [],
             "description": "Enables premium paid subscription.",
             "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "kr.eggbun.eggconvo": null
+            },
+            "dependencies": [],
+            "description": "When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.",
+            "name": "Force Native Keyboard",
             "options": [],
             "use": true
         },
