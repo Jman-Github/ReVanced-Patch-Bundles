@@ -1887,7 +1887,7 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 </details>
 
---
+---
 
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 Arsclib-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle)
@@ -1898,4 +1898,4 @@ This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list
 
 </details>
 
---
+---
