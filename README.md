@@ -549,6 +549,34 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
+
+### 📦 LisoUseInAIKyrios-Patches-Bundle [API v4]:
+[🧩 LisoUseInAIKyrios Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-lisouseInaikyrios-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lisouseInaikyrios-patch-bundles/lisouseInaikyrios-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lisouseInaikyrios-patch-bundles/lisouseInaikyrios-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lisouseInaikyrios-patch-bundles/lisouseInaikyrios-dev-patches-bundle.json```
+</details>
+
+---
+
+### 📦 AmpleReVanced-Patches-Bundle [API v4]:
+[🧩 AmpleReVanced Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-amplerevanced-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/amplerevanced-patch-bundles/amplerevanced-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/amplerevanced-patch-bundles/amplerevanced-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/amplerevanced-patch-bundles/amplerevanced-dev-patches-bundle.json```
+</details>
+
+---
 # 📱 ReVanced Manager Compose:
 ### 📍 Universal ReVanced Manager (my fork)
 *Highly suggested if you want to be unrestricted in the patch bundles you import!*
@@ -645,6 +673,10 @@ https://github.com/ReVanced/revanced-manager/releases
 #### 🏷️ [Bawr-Patches-Bundle](https://github.com/bawr/revanced-patches)
 
 #### 🏷️ [Burgers1312-Patches-Bundle](https://github.com/burgers1312/revanced-patches)
+
+#### 🏷️ [LisoUseInAIKyrios-Patches-Bundle](https://github.com/LisoUseInAIKyrios/revanced-patches)
+
+#### 🏷️ [AmpleReVanced-Patches-Bundle](https://github.com/AmpleReVanced/revanced-patches)
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*
