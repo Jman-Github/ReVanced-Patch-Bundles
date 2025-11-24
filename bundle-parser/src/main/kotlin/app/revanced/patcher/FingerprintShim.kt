@@ -16,6 +16,14 @@ fun fingerprint(
     block: FingerprintBuilder.() -> Unit,
 ): Fingerprint = fingerprint(0, block)
 
+fun fingerprint(
+    fuzzyPatternScanThreshold: Int,
+    block: Function1<FingerprintBuilder, Unit>,
+): Fingerprint {
+    val builderBlock: FingerprintBuilder.() -> Unit = { block.invoke(this) }
+    return fingerprint(fuzzyPatternScanThreshold, builderBlock)
+}
+
 @JvmName("fingerprint\$default")
 fun fingerprintDefault(
     fuzzyPatternScanThreshold: Int,
