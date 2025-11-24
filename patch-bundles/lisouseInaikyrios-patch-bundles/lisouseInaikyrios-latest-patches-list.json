@@ -1,13 +1,13 @@
 {
-    "version": "v5.47.0-dev.6",
+    "version": "v1.0.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -35,10 +35,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -161,10 +161,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -191,16 +191,15 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds an option to bypass URL redirects and open the original URL directly.",
@@ -211,10 +210,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -231,10 +230,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -382,10 +381,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -437,10 +436,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -454,10 +453,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -512,10 +511,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -626,13 +625,15 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds an option to change the opacity of the video player background when player controls are visible.",
@@ -806,10 +807,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -847,14 +848,15 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds an option to disable player double tap gestures.",
@@ -865,10 +867,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -894,10 +896,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -955,10 +957,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -974,15 +976,16 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.",
@@ -993,10 +996,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -1022,10 +1025,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -1134,21 +1137,11 @@
         },
         {
             "compatiblePackages": {
-                "com.facebook.orca": null
-            },
-            "dependencies": [],
-            "description": "Disables the indicator while typing a message.",
-            "name": "Disable typing indicator",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -1183,10 +1176,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -1271,10 +1264,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -1357,16 +1350,17 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -1625,10 +1619,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -1729,10 +1723,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -1889,16 +1883,6 @@
         },
         {
             "compatiblePackages": {
-                "com.letterboxd.letterboxd": null
-            },
-            "dependencies": [],
-            "description": null,
-            "name": "Hide ads",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.myfitnesspal.android": [
                     "24.14.2"
                 ]
@@ -2001,10 +1985,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -2064,10 +2048,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -2083,10 +2067,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -2141,14 +2125,16 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
                 "BytecodePatch",
                 "ResourcePatch"
             ],
@@ -2160,10 +2146,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -2171,7 +2157,9 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
             ],
             "description": "Adds options to hide general layout components.",
             "name": "Hide layout components",
@@ -2325,10 +2313,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -2345,15 +2333,16 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch",
                 "ResourcePatch"
             ],
@@ -2390,10 +2379,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -2410,10 +2399,9 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37"
                 ]
             },
             "dependencies": [
@@ -2491,10 +2479,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -2522,15 +2510,15 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37"
                 ]
             },
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds options to hide action buttons (such as the Download button) under videos.",
@@ -2563,15 +2551,16 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to loop videos and display loop video button in the video player.",
@@ -2582,10 +2571,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -2621,10 +2610,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -2654,10 +2643,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -2671,10 +2660,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -2694,15 +2683,16 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "19.47.53",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds an option to open videos in full screen portrait mode.",
@@ -2769,10 +2759,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -2863,13 +2853,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
+                "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3063,10 +3054,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -3092,10 +3083,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -3196,10 +3187,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -3215,10 +3206,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -3278,10 +3269,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -3376,14 +3367,15 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
+                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3433,10 +3425,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -3867,10 +3859,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -4507,10 +4499,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -4537,10 +4529,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -4594,10 +4586,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -4802,10 +4794,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -4821,10 +4813,10 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40"
                 ]
             },
             "dependencies": [
@@ -4840,15 +4832,15 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch",
                 "ResourcePatch"
             ],

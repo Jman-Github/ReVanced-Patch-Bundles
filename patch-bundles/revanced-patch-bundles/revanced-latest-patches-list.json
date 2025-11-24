@@ -1,5 +1,5 @@
 {
-    "version": "v5.47.0-dev.5",
+    "version": "v5.47.0-dev.6",
     "patches": [
         {
             "compatiblePackages": {
@@ -1880,6 +1880,16 @@
         {
             "compatiblePackages": {
                 "com.instagram.android": null
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.letterboxd.letterboxd": null
             },
             "dependencies": [],
             "description": null,

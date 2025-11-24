@@ -1,6 +1,104 @@
 {
-    "version": "v5.47.0-dev.6",
+    "version": "v5.46.0-ample.4",
     "patches": [
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds extension support to the app.",
+            "name": "Add extension",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": null
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Add extension",
+                "Add Pine Lib"
+            ],
+            "description": "Adding the Loco Packet Handler allows external applications to handle the app's packets, which may compromise security.\nConflicts may occur on some systems.",
+            "name": "Add Packet Handler",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": null
+            },
+            "dependencies": [],
+            "description": "add libpine.so to the app's native libraries",
+            "name": "Add Pine Lib",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [
+                "Add extension",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds a settings tab to the app.",
+            "name": "Add settings tab",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Adds or updates the sharedUserId attribute in the app's manifest. This allows multiple apps with the same sharedUserId to share data and run in the same process. Use with caution as this can affect app permissions and data isolation.",
+            "name": "Add shared user ID",
+            "options": [
+                {
+                    "default": "revanced",
+                    "description": "The shared user ID to add to the app's manifest.",
+                    "key": "sharedUserId",
+                    "required": true,
+                    "title": "Shared User ID",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "revanced"
+                    }
+                }
+            ],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Users with hiding privileges can hide any chat, including their own messages.",
+            "name": "Allow Hide on Any Chat",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Allows replying to feed messages",
+            "name": "Allow reply to feed",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
@@ -34,6 +132,18 @@
         },
         {
             "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Always shows the kick button in group member management.",
+            "name": "Always Show Kick Button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
                     "20.07.39",
@@ -49,16 +159,6 @@
             "name": "Announcements",
             "options": [],
             "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.instagram.android": null
-            },
-            "dependencies": [],
-            "description": "View stories without sending any information to the server. \nYour view will not appear in the story viewers list. \nNote: Since no data is sent, a story you have already viewed may appear as new on another device.",
-            "name": "Anonymous story viewing",
-            "options": [],
-            "use": false
         },
         {
             "compatiblePackages": {
@@ -160,6 +260,18 @@
         },
         {
             "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bypasses the integrity check for getText.",
+            "name": "Bypass getText",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
                     "20.07.39",
@@ -177,6 +289,30 @@
             "name": "Bypass image region restrictions",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bypass the limit of input mentions in non-multichat rooms",
+            "name": "Bypass input mention limit in non-multichat",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bypass Moat check that prevents the app from running.",
+            "name": "Bypass Moat check",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -342,6 +478,20 @@
             "use": true
         },
         {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Changes the device model to supporting subdevice features",
+            "name": "Change model",
+            "options": [],
+            "use": true
+        },
+        {
             "compatiblePackages": null,
             "dependencies": [],
             "description": "Appends \".revanced\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
@@ -469,6 +619,30 @@
             "name": "Copy video URL",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Customize app branding (name)",
+            "name": "Custom branding",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Custom app name",
+                    "key": "customName",
+                    "required": false,
+                    "title": "Custom app name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -717,6 +891,68 @@
         },
         {
             "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Sets the default external browser for KakaoTalk to the system's default browser.",
+            "name": "Default external browser",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.2"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "reassigns ad_minimum_height to 0dp to remove ads from the app.",
+            "name": "Dimens Patch",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Always show the real unread count instead of '300+' in chatroom list",
+            "name": "Disable 300+ unread limit",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Skip the 99-cap so unread count shows full value",
+            "name": "Disable 99 unread limit",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the ad controller that manages ads in the app.",
+            "name": "Disable ad controller",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.tumblr": null
             },
             "dependencies": [
@@ -834,6 +1070,42 @@
         },
         {
             "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disable the chat room list ad.",
+            "name": "Disable chat room list ad",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the ChatRoomAdController to prevent ads from being shown in chat room list",
+            "name": "Disable ChatRoomAdController",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the comment ad in the app.",
+            "name": "Disable Comment Ad",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.tumblr": null
             },
             "dependencies": [
@@ -859,6 +1131,30 @@
             ],
             "description": "Adds an option to disable player double tap gestures.",
             "name": "Disable double tap actions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the Friend Feed tab in KakaoTalk.",
+            "name": "Disable Friend Feed tab",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the Friend Lists ad in KakaoTalk.",
+            "name": "Disable Friend Lists ad",
             "options": [],
             "use": true
         },
@@ -906,6 +1202,18 @@
             ],
             "description": "Adds an option to disable haptic feedback in the player for various actions.",
             "name": "Disable haptic feedback",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the image ad in the app.",
+            "name": "Disable Image Ad",
             "options": [],
             "use": true
         },
@@ -1011,11 +1319,49 @@
         },
         {
             "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables Tracker",
+            "name": "Disable S2Event",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.reddit.frontpage": null
             },
             "dependencies": [],
             "description": "Disables the popup that shows up when taking a screenshot.",
             "name": "Disable screenshot popup",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Disables the SDK Tracker in KakaoTalk.",
+            "name": "Disable SDK Tracker",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables Sentry error reporting in KakaoTalk.",
+            "name": "Disable Sentry",
             "options": [],
             "use": true
         },
@@ -1044,20 +1390,10 @@
                 "com.instagram.android": null
             },
             "dependencies": [],
-            "description": "Disables the signature check that can cause the app to crash on startup. Including this patch may cause issues with sharing or opening external Instagram links.",
+            "description": "Disables the signature check that causes the app to crash on startup.",
             "name": "Disable signature check",
             "options": [],
-            "use": false
-        },
-        {
-            "compatiblePackages": {
-                "com.instagram.android": null
-            },
-            "dependencies": [],
-            "description": "Disable stories automatically flipping/skipping after some seconds.",
-            "name": "Disable story auto flipping",
-            "options": [],
-            "use": false
+            "use": true
         },
         {
             "compatiblePackages": {
@@ -1092,6 +1428,18 @@
             "dependencies": [],
             "description": "Disables SoundCloud's telemetry system.",
             "name": "Disable telemetry",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the tracker in KakaoTalk",
+            "name": "Disable tracker",
             "options": [],
             "use": true
         },
@@ -1139,6 +1487,30 @@
             "dependencies": [],
             "description": "Disables the indicator while typing a message.",
             "name": "Disable typing indicator",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the app's update check.",
+            "name": "Disable update check",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the signature verification check that prevents the app from running.",
+            "name": "Disable verifying signature",
             "options": [],
             "use": true
         },
@@ -1217,6 +1589,18 @@
             "dependencies": [],
             "description": "Enables Android debugging capabilities. This can slow down the app.",
             "name": "Enable Android debugging",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "An enable Chat Group Patch",
+            "name": "Enable Chat Group",
             "options": [],
             "use": false
         },
@@ -1327,6 +1711,42 @@
             "use": true
         },
         {
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enables the OneStore feature in DC Inside app.",
+            "name": "Enable OneStore feature",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enables the reaction mention flag in KakaoTalk chat logs.",
+            "name": "Enable reaction mention flag",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enable recording pause/resume feature in KakaoTalk",
+            "name": "Enable recording pause/resume feature",
+            "options": [],
+            "use": true
+        },
+        {
             "compatiblePackages": null,
             "dependencies": [],
             "description": "Spoofs the signature via the manifest meta-data \"fake-signature\". This patch only works with ROMs that support signature spoofing.",
@@ -1342,6 +1762,18 @@
                     "values": null
                 }
             ],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Allows sending big text messages in KakaoTalk.",
+            "name": "Enable send big text",
+            "options": [],
             "use": false
         },
         {
@@ -1594,6 +2026,30 @@
         },
         {
             "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enables debug mode in the app.",
+            "name": "Force enable debug mode",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Force enable emoticon plus feature (Unpurchased emoticon can be sent once per day)",
+            "name": "Force enable emoticon plus feature",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.xiaomi.wearable": null
             },
             "dependencies": [
@@ -1639,6 +2095,18 @@
             ],
             "description": "Adds an option to always use the original audio track.",
             "name": "Force original audio",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Don't expose your typing status to the other party.",
+            "name": "Ghost Mode",
             "options": [],
             "use": true
         },
@@ -1880,16 +2348,6 @@
         {
             "compatiblePackages": {
                 "com.instagram.android": null
-            },
-            "dependencies": [],
-            "description": null,
-            "name": "Hide ads",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.letterboxd.letterboxd": null
             },
             "dependencies": [],
             "description": null,
@@ -2175,6 +2633,18 @@
             ],
             "description": "Adds options to hide general layout components.",
             "name": "Hide layout components",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hides the main ad in the app.",
+            "name": "Hide Main Ad",
             "options": [],
             "use": true
         },
@@ -2550,6 +3020,34 @@
         },
         {
             "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [
+                "Add extension"
+            ],
+            "description": "Hooks the Package Manager to bypass integrity checks.",
+            "name": "Hook Package Manager",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [
+                "Change package name"
+            ],
+            "description": "Ignores the package name check to allow installation of modified versions.",
+            "name": "Ignore Check Package Name",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
                 "com.instagram.android": null
             },
             "dependencies": [
@@ -2722,6 +3220,20 @@
         },
         {
             "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [
+                "Add extension"
+            ],
+            "description": "Overrides the feature flag to enable the feature.",
+            "name": "Override feature flag",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
                     "8.10.52"
@@ -2734,6 +3246,18 @@
             ],
             "description": "Adds an option to always repeat even if the playlist ends or another track is played.",
             "name": "Permanent repeat",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Allows playing YouTube videos in KakaoTalk chat rooms.",
+            "name": "Play YouTube player in chat room",
             "options": [],
             "use": true
         },
@@ -2894,6 +3418,18 @@
         },
         {
             "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the BizBoard ad by forcing its dimensions to 0x0 and visibility to GONE in onMeasure.",
+            "name": "Remove BizBoard ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "at.gv.bmf.bmf2go": null
             },
             "dependencies": [],
@@ -2924,11 +3460,35 @@
         },
         {
             "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the feed ad from the app.",
+            "name": "Remove feed ad",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "pl.solidexplorer2": null
             },
             "dependencies": [],
             "description": "Allows opening files larger than 2 MB in the text editor.",
             "name": "Remove file size limit",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the focus ad from the app.",
+            "name": "Remove focus ad",
             "options": [],
             "use": true
         },
@@ -2970,6 +3530,30 @@
         },
         {
             "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the ad from the More tab.",
+            "name": "Remove More tab ad",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the native ad from the app.",
+            "name": "Remove native ad",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.sony.songpal.mdr": [
                     "10.1.0"
                 ]
@@ -2977,6 +3561,18 @@
             "dependencies": [],
             "description": "Removes the red notification badge from the activity tab.",
             "name": "Remove notification badge",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the OpenLink chat room list ad.",
+            "name": "Remove OpenLink chat room list ad",
             "options": [],
             "use": true
         },
@@ -3059,6 +3655,30 @@
             "name": "Remove share targets",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the shop tab from the bottom navigation bar.",
+            "name": "Remove shop tab",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the Short-form tab from the now fragment.",
+            "name": "Remove Short-form Tab",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
@@ -3314,6 +3934,22 @@
         },
         {
             "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [
+                "Add extension",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Allows you to see deleted/hidden messages in chat logs.",
+            "name": "Show deleted or hidden messages",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "de.tudortmund.app": null
             },
             "dependencies": [
@@ -3429,6 +4065,30 @@
                 }
             ],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Spoofs the apk checksums to pass integrity checks.",
+            "name": "Spoof apk checksums",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Spoofs the App ID to bypass integrity checks. (to bypass biometric auth etc.)",
+            "name": "Spoof App ID",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
@@ -3948,10 +4608,34 @@
         },
         {
             "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Spoofs the app signature to bypass integrity checks.",
+            "name": "Spoof Signature",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "at.gv.oe.app": null
             },
             "dependencies": [],
             "description": "Spoofs the signature of the app.",
+            "name": "Spoof signature",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Spoofs the app signature to pass integrity checks.",
             "name": "Spoof signature",
             "options": [],
             "use": true
@@ -4789,6 +5473,20 @@
         },
         {
             "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.2"
+                ]
+            },
+            "dependencies": [
+                "Change package name"
+            ],
+            "description": "It allows you to install the clone app just like the original.",
+            "name": "Update Provider Patch",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
                 "com.laurencedawson.reddit_sync": null,
                 "com.laurencedawson.reddit_sync.dev": null,
                 "com.laurencedawson.reddit_sync.pro": null
@@ -4798,6 +5496,18 @@
             "name": "Use /user/ endpoint",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "25.10.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Patches the version info to include '(ReVanced)' in the version string.",
+            "name": "Version info patch",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
