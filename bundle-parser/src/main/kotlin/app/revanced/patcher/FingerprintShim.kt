@@ -1,3 +1,4 @@
+@file:JvmName("FingerprintKt")
 @file:Suppress("unused")
 
 package app.revanced.patcher
