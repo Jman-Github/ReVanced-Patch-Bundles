@@ -16,7 +16,7 @@ fun fingerprint(
     block: FingerprintBuilder.() -> Unit,
 ): Fingerprint = fingerprint(0, block)
 
-@JvmName("fingerprint$default")
+@JvmName("fingerprint\$default")
 fun fingerprintDefault(
     fuzzyPatternScanThreshold: Int,
     block: Function1<FingerprintBuilder, Unit>,
