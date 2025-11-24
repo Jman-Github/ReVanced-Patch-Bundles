@@ -1,0 +1,11 @@
+* text=auto
+
+# Scripts
+*.sh text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+
+# Kotlin/Gradle sources should keep LF endings to avoid CRLF warnings.
+*.kt text eol=lf
+*.kts text eol=lf
+*.gradle text eol=lf
