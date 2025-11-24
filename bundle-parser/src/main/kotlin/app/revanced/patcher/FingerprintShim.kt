@@ -14,15 +14,12 @@ import kotlin.jvm.functions.Function1
  */
 fun fingerprint(
     block: FingerprintBuilder.() -> Unit,
-): Fingerprint = fingerprint(0, block)
+): Fingerprint = FingerprintBuilder(0).apply(block).build()
 
 fun fingerprint(
     fuzzyPatternScanThreshold: Int,
     block: Function1<FingerprintBuilder, Unit>,
-): Fingerprint {
-    val builderBlock: FingerprintBuilder.() -> Unit = { block.invoke(this) }
-    return fingerprint(fuzzyPatternScanThreshold, builderBlock)
-}
+): Fingerprint = FingerprintBuilder(fuzzyPatternScanThreshold).apply { block.invoke(this) }.build()
 
 @JvmName("fingerprint\$default")
 fun fingerprintDefault(
@@ -30,8 +27,7 @@ fun fingerprintDefault(
     block: Function1<FingerprintBuilder, Unit>,
     mask: Int,
     ignored: Any?,
-): Fingerprint {
-    val threshold = if (mask and 0x1 != 0) 0 else fuzzyPatternScanThreshold
-    val builderBlock: FingerprintBuilder.() -> Unit = { block.invoke(this) }
-    return fingerprint(threshold, builderBlock)
-}
+): Fingerprint = fingerprint(
+    if (mask and 0x1 != 0) 0 else fuzzyPatternScanThreshold,
+    block
+)
