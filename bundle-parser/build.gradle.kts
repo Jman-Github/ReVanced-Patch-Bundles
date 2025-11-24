@@ -4,6 +4,11 @@ plugins {
     application
 }
 
+val hardcodedGprUser = ""
+val hardcodedGprToken = ""
+val gprUser: String? = providers.gradleProperty("gpr.user").orNull
+val gprKey: String? = providers.gradleProperty("gpr.key").orNull
+
 repositories {
     mavenCentral()
     google()
@@ -12,8 +17,16 @@ repositories {
         name = "GitHubPackages"
         url = uri("https://maven.pkg.github.com/revanced/registry")
         credentials {
-            username = project.findProperty("gpr.user") as String? ?: System.getenv("GITHUB_ACTOR")
-            password = project.findProperty("gpr.key") as String? ?: System.getenv("GITHUB_TOKEN")
+            username = when {
+                hardcodedGprUser.isNotBlank() -> hardcodedGprUser
+                !gprUser.isNullOrBlank() -> gprUser
+                else -> System.getenv("GITHUB_ACTOR")
+            }
+            password = when {
+                hardcodedGprToken.isNotBlank() -> hardcodedGprToken
+                !gprKey.isNullOrBlank() -> gprKey
+                else -> System.getenv("GITHUB_TOKEN")
+            }
         }
     }
 }
@@ -24,6 +37,7 @@ dependencies {
     implementation(libs.revanced.patcher)
     implementation(libs.revanced.library)
     implementation(libs.smali)
+    compileOnly(libs.jsr305)
 }
 
 kotlin {
