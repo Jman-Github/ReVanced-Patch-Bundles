@@ -12,7 +12,7 @@ kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
 revanced-patcher = { group = "app.revanced", name = "revanced-patcher", version.ref = "revanced-patcher" }
 revanced-library = { module = "app.revanced:revanced-library-jvm", version.ref = "revanced-library" }
-dexlib2 = { module = "com.android.tools.smali:dexlib2", version.ref = "smali" }
+smali = { module = "com.android.tools.smali:smali", version.ref = "smali" }
 
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }

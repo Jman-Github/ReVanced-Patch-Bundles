@@ -23,7 +23,7 @@ dependencies {
     implementation(libs.kotlin.stdlib)
     implementation(libs.revanced.patcher)
     implementation(libs.revanced.library)
-    implementation(libs.dexlib2)
+    implementation(libs.smali)
 }
 
 kotlin {
