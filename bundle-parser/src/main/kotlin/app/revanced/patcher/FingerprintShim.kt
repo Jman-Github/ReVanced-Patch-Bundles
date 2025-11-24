@@ -10,7 +10,7 @@ private val fingerprintBuilderConstructor =
         isAccessible = true
     }
 private val fingerprintBuilderBuildMethod =
-    FingerprintBuilder::class.java.getDeclaredMethod("build").apply {
+    FingerprintBuilder::class.java.declaredMethods.first { it.name.startsWith("build") }.apply {
         isAccessible = true
     }
 
