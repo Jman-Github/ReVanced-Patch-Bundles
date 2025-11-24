@@ -225,7 +225,8 @@ private fun extractPatchName(element: JsonElement): String {
 }
 
 private fun canonicalizePatchArray(patches: JsonArray): JsonArray {
-    val canonicalized = patches.mapIndexed { index, element ->
+    val cleaned = sanitizeDependencies(patches)
+    val canonicalized = cleaned.mapIndexed { index, element ->
         Triple(index, extractPatchName(element), canonicalizeElement(element))
     }
     val comparator = compareBy<Triple<Int, String, JsonElement>> { it.second.lowercase(Locale.ROOT) }
@@ -233,6 +234,30 @@ private fun canonicalizePatchArray(patches: JsonArray): JsonArray {
         .thenBy { it.first }
     val sorted = canonicalized.sortedWith(comparator).map { it.third }
     return JsonArray(sorted)
+}
+
+private fun sanitizeDependencies(patches: JsonArray): JsonArray {
+    return JsonArray(
+        patches.map { element ->
+            val obj = element as? JsonObject ?: return@map element
+            val dependencies = obj["dependencies"] as? JsonArray ?: return@map element
+            val sanitized = JsonArray(
+                dependencies.map { dep ->
+                    val primitive = dep as? JsonPrimitive ?: return@map dep
+                    JsonPrimitive(primitive.content.substringBefore("@"))
+                }
+            )
+            buildJsonObject {
+                for ((key, value) in obj) {
+                    if (key == "dependencies") {
+                        put(key, sanitized)
+                    } else {
+                        put(key, value)
+                    }
+                }
+            }
+        }
+    )
 }
 
 private fun generatePatchList(downloadUri: URI): JsonArray? {

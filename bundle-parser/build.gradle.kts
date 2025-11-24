@@ -4,8 +4,8 @@ plugins {
     application
 }
 
-val hardcodedGprUser = ""
-val hardcodedGprToken = ""
+val hardcodedGprUser = System.getenv("GPR_USER") ?: ""
+val hardcodedGprToken = System.getenv("GPR_TOKEN") ?: ""
 val gprUser: String? = providers.gradleProperty("gpr.user").orNull
 val gprKey: String? = providers.gradleProperty("gpr.key").orNull
 
