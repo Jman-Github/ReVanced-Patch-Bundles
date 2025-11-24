@@ -5,6 +5,21 @@ package app.revanced.patcher
 
 import kotlin.jvm.functions.Function1
 
+private class CompatFingerprintBuilder(
+    private var fuzzyPatternScanThreshold: Int = 0,
+) : FingerprintBuilder() {
+    init {
+        fuzzyPatternScanThreshold(fuzzyPatternScanThreshold)
+    }
+
+    fun setFuzzyPatternScanThreshold(value: Int) {
+        fuzzyPatternScanThreshold = value
+        fuzzyPatternScanThreshold(value)
+    }
+
+    fun buildFingerprint(): Fingerprint = build()
+}
+
 /**
  * Compatibility shim for patches compiled against newer ReVanced Patcher builds
  * that added an overload without the fuzzyThreshold parameter.
@@ -14,12 +29,12 @@ import kotlin.jvm.functions.Function1
  */
 fun fingerprint(
     block: FingerprintBuilder.() -> Unit,
-): Fingerprint = FingerprintBuilder(0).apply(block).build()
+): Fingerprint = CompatFingerprintBuilder().apply(block).buildFingerprint()
 
 fun fingerprint(
     fuzzyPatternScanThreshold: Int,
     block: Function1<FingerprintBuilder, Unit>,
-): Fingerprint = FingerprintBuilder(fuzzyPatternScanThreshold).apply { block.invoke(this) }.build()
+): Fingerprint = CompatFingerprintBuilder(fuzzyPatternScanThreshold).apply { block.invoke(this) }.buildFingerprint()
 
 @JvmName("fingerprint\$default")
 fun fingerprintDefault(
