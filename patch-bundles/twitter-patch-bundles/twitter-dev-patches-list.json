@@ -1,0 +1,394 @@
+{
+    "version": "v1.12.0-dev.5",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "Black bird with white background.",
+            "name": "Black Bird icon",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "Removes tracking parameters when sharing links",
+            "name": "Clear tracking params",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "Change the download directory for video downloads",
+            "name": "Custom download folder",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
+            "name": "Disable chirp font",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "Unlocks the ability to download videos and gifs from Twitter/X",
+            "name": "Download patch",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "Replaces the default Twitter (X) Blue signature theme with the user's Material You palette.",
+            "name": "Dynamic color",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "Enables reader mode on long threads",
+            "name": "Enable Reader Mode",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "Enable ability to undo posts before it gets posted",
+            "name": "Enable Undo Posts",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "Replaces the Twitter Bluish Dim theme with the user's Material You 3 neutral palette.",
+            "name": "Full Monet Theme",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "Replaces the LightsOut (Amoled) Twitter theme with lighter Grey color.",
+            "name": "Grey Theme Patch",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "JsonHookPatch"
+            ],
+            "description": "DON'T USE WHEN PATCHING ALONG WITH CRIMERA PATCHES AND INTEGRATIONS (NOT NEEDED ANYWAYS THEN).",
+            "name": "Hide ads",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "Hide new post banner",
+            "name": "Hide Banner",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
+            "name": "Hide Community Notes",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "",
+            "name": "Hide FAB",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "",
+            "name": "Hide FAB Menu Buttons",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "Hides For You tab from timeline",
+            "name": "Hide For You",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
+            "name": "Hide Live Threads",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
+            "name": "Hide Promoted Trends",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "JsonHookPatch"
+            ],
+            "description": "DON'T USE WHEN PATCHING ALONG WITH CRIMERA PATCHES AND INTEGRATIONS (NOT NEEDED ANYWAYS THEN).",
+            "name": "Hide promoted users",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "Hide recommended users that pops up when you follow someone",
+            "name": "Hide Recommended Users",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "",
+            "name": "Hook for timeline entry",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "Get rid of t.co short urls.",
+            "name": "No shortened URL",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "Replaces the X icon with original Blue Twitter icon.",
+            "name": "OG Bird icon",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "Replaces the app name from nonsense X to Twitter and words like post to tweet, repost to retweet, etc.",
+            "name": "OG Twitter brand",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "SettingsPatch",
+                "Hook for timeline entry"
+            ],
+            "description": "",
+            "name": "Remove \"Communities to join\" Banner",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "SettingsPatch",
+                "Hook for timeline entry"
+            ],
+            "description": "",
+            "name": "Remove \"Creators to subscribe\" Banner",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "SettingsPatch",
+                "Hook for timeline entry"
+            ],
+            "description": "",
+            "name": "Remove \"Pinned posts by followers\" Banner",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "SettingsPatch",
+                "Hook for timeline entry"
+            ],
+            "description": "",
+            "name": "Remove \"Who to follow\" Banner",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "SettingsPatch",
+                "Hook for timeline entry"
+            ],
+            "description": "",
+            "name": "Remove Ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "SettingsPatch",
+                "Hook for timeline entry"
+            ],
+            "description": "Removes detailed posts in replies",
+            "name": "Remove Detailed posts",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "SettingsPatch",
+                "Hook for timeline entry"
+            ],
+            "description": "",
+            "name": "Remove Google Ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "Removes the view count from the bottom of tweets",
+            "name": "Remove view count",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "Makes bio and username selectable",
+            "name": "Selectable Text",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "Shows sensitive media",
+            "name": "Show sensitive media",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [],
+            "description": "Replaces the X icon with a white Bird keeping black background.",
+            "name": "White Bird icon",
+            "options": [],
+            "use": false
+        }
+    ]
+}

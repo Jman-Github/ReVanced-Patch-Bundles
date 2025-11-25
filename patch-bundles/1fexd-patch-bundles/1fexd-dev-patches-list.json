@@ -1,0 +1,37 @@
+{
+    "version": "v1.1.0-dev.1",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "at.gv.oe.app": [
+                    "3.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "",
+            "name": "Fix crash on Android 14+",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "at.gv.oe.app": []
+            },
+            "dependencies": [],
+            "description": "Removes the check for root permissions and unlocked bootloader.",
+            "name": "Remove root detection",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "at.gv.oe.app": []
+            },
+            "dependencies": [],
+            "description": "Spoofs the signature of the app.",
+            "name": "Spoof signature",
+            "options": [],
+            "use": true
+        }
+    ]
+}

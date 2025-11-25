@@ -1,0 +1,41 @@
+{
+    "version": "v1.3.2",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.grindrapp.android": [
+                    "24.9.0",
+                    "24.10.0",
+                    "24.11.0",
+                    "24.12.0",
+                    "24.13.0"
+                ]
+            },
+            "dependencies": [
+                "FirebaseGetCertPatchGrindr"
+            ],
+            "description": "Spoofs the grindr version number",
+            "name": "Spoof versions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.grindrapp.android": [
+                    "24.9.0",
+                    "24.10.0",
+                    "24.11.0",
+                    "24.12.0",
+                    "24.13.0"
+                ]
+            },
+            "dependencies": [
+                "FirebaseGetCertPatchGrindr"
+            ],
+            "description": "Unlocks unlimited features.",
+            "name": "Unlock unlimited",
+            "options": [],
+            "use": true
+        }
+    ]
+}

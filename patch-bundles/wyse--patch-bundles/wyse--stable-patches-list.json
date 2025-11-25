@@ -1,0 +1,25 @@
+{
+    "version": "v1.2.1",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.intesasanpaolo.isybank.mobile": []
+            },
+            "dependencies": [],
+            "description": "Removes all checks (certificate, debug key signature, emulator, installation origin).",
+            "name": "Remove all detections",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.latuabancaperandroid": []
+            },
+            "dependencies": [],
+            "description": "Removes all checks (certificate, debug key signature, emulator, installation origin).",
+            "name": "Remove all detections",
+            "options": [],
+            "use": true
+        }
+    ]
+}

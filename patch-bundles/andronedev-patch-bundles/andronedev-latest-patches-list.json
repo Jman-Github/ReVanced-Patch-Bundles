@@ -1,0 +1,37 @@
+{
+    "version": "v1.5.1",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.thetransitapp.droid": []
+            },
+            "dependencies": [],
+            "description": "Unlock all pro features in Transit",
+            "name": "Pro Features Unlock",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.yygg.note.app": []
+            },
+            "dependencies": [],
+            "description": "Unlock all pro features in Notewise",
+            "name": "Pro Features Unlock",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.thegrizzlylabs.geniusscan.free": [
+                    "7.17.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlock all pro features in Genius Scan",
+            "name": "Pro Features Unlock",
+            "options": [],
+            "use": true
+        }
+    ]
+}

@@ -1,0 +1,5941 @@
+{
+    "version": "v2.220.10",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [],
+            "description": "Adds old style splash animation.",
+            "name": "Add splash animation",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds options to replace video thumbnails using the DeArrow API or image captures from the video.",
+            "name": "Alternative thumbnails",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to bypass the restrictions of ambient mode or disable it completely.",
+            "name": "Ambient mode switch",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "LithoThemePatch"
+            ],
+            "description": "Applies a pure black theme to some components.",
+            "name": "Amoled",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "OverrideQualityHookPatch",
+                "OverrideSpeedHookPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to add the current video quality or playback speed in brackets next to the current time.",
+            "name": "Append time stamps information",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [],
+            "description": "Enables playing music in the background.",
+            "name": "Background play",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [],
+            "description": "Sets the audio quality to \"Always High\" when you first install the app.",
+            "name": "Bitrate default value",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [],
+            "description": "Enables YouTube Music to work with Android Auto by spoofing the YouTube Music certificate.",
+            "name": "Certificate spoof",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [],
+            "description": "Changes the package name for Reddit to the name specified in options.json.",
+            "name": "Change package name",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to use text toggles instead of switch toggles within the additional settings menu.",
+            "name": "Change player flyout panel toggles",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "IntentHookPatch",
+                "Settings"
+            ],
+            "description": "Adds an option to set which page the app opens in instead of the homepage.",
+            "name": "Change start page",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to set which page the app opens in instead of the homepage.",
+            "name": "Change start page",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Applies a custom heading in the top left corner within the app.",
+            "name": "Custom branding heading",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Change the YouTube launcher icon to the icon specified in options.json.",
+            "name": "Custom branding icon YouTube",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [],
+            "description": "Changes the YouTube Music app icon to the icon specified in options.json.",
+            "name": "Custom branding icon YouTube Music",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [],
+            "description": "Renames the Reddit app to the name specified in options.json.",
+            "name": "Custom branding name Reddit",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Rename the YouTube app to the name specified in options.json.",
+            "name": "Custom branding name YouTube",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [],
+            "description": "Renames the YouTube Music app to the name specified in options.json.",
+            "name": "Custom branding name YouTube Music",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Add 'double-tap to seek' value.",
+            "name": "Custom double tap length",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [],
+                "com.google.android.youtube": []
+            },
+            "dependencies": [],
+            "description": "Changes the package name for the non-root build of YouTube and YouTube Music to the name specified in options.json.",
+            "name": "Custom package name",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "IntentHookPatch"
+            ],
+            "description": "Adds an option to customize available playback speeds.",
+            "name": "Custom playback speed",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "OldSpeedLayoutPatch",
+                "OverrideSpeedHookPatch",
+                "Settings"
+            ],
+            "description": "Adds options to customize available playback speeds.",
+            "name": "Custom playback speed",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to change the opacity of the video player background when player controls are visible.",
+            "name": "Custom player overlay opacity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "LithoThemePatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to customize seekbar colors in video players and video thumbnails.",
+            "name": "Custom seekbar color",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "OverrideSpeedHookPatch",
+                "Settings",
+                "VideoCpnPatch"
+            ],
+            "description": "Adds an option to set the default playback speed.",
+            "name": "Default playback speed",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "OverrideQualityHookPatch",
+                "OverrideSpeedHookPatch",
+                "PlayerTypeHookPatch",
+                "Settings",
+                "VideoIdWithoutShortsPatch"
+            ],
+            "description": "Adds an option to set the default video quality.",
+            "name": "Default video quality",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings",
+                "VideoIdPatch"
+            ],
+            "description": "Adds an option to disable captions from being automatically enabled.",
+            "name": "Disable auto captions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "VideoIdPatch"
+            ],
+            "description": "Adds an option to disable captions from being automatically enabled.",
+            "name": "Disable auto captions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to disable haptic feedback when swiping the video player.",
+            "name": "Disable haptic feedback",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds options to disable HDR video.",
+            "name": "Disable HDR video",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to disable landscape mode when entering fullscreen.",
+            "name": "Disable landscape mode",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "OverlayFilterBytecodePatch"
+            ],
+            "description": "Removes the dark overlay when comment, share, save to playlist, and flyout panels are open.",
+            "name": "Disable overlay filter",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Disable pip notification when you first launch pip mode.",
+            "name": "Disable pip notification",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to disable CronetEngine's QUIC protocol.",
+            "name": "Disable QUIC protocol",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to disable rolling number animations of video view count, user likes, and upload time.",
+            "name": "Disable rolling number animations",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to disable the popup that shows up when taking a screenshot.",
+            "name": "Disable screenshot popup",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.",
+            "name": "Disable shorts on startup",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to disable 'Play at 2x speed' when pressing and holding in the video player.",
+            "name": "Disable speed overlay",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to disable the \"Update your app\" screen that appears when using an outdated client.",
+            "name": "Disable update screen",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to set the navigation bar color to black.",
+            "name": "Enable black navigation bar",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to enter fullscreen when swiping down below the video player.",
+            "name": "Enable bottom player gestures",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "6.21.52",
+                    "6.22.52",
+                    "6.23.56",
+                    "6.25.53",
+                    "6.26.51",
+                    "6.27.54",
+                    "6.28.53",
+                    "6.29.58",
+                    "6.31.55",
+                    "6.33.52"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to match the color of the miniplayer to the fullscreen player. Deprecated on YT Music 6.34.51+.",
+            "name": "Enable color match player",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to make the fullscreen controls compact.",
+            "name": "Enable compact controls overlay",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to enable the compact flyout menu on phones.",
+            "name": "Enable compact dialog",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
+            "description": "Adds a custom filter which can be used to hide layout components.",
+            "name": "Enable custom filter",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to enable debug logging.",
+            "name": "Enable debug logging",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to enable debug logging.",
+            "name": "Enable debug logging",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to always open links in your browser instead of in the in-app-browser.",
+            "name": "Enable external browser",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to keep the miniplayer minimized even when another track is played.",
+            "name": "Enable force minimized player",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to enable gradient loading screen.",
+            "name": "Enable gradient loading screen",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to enable landscape mode when rotating the screen on phones.",
+            "name": "Enable landscape mode",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to enable or disable language switching toggle.",
+            "name": "Enable language switch",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [],
+            "description": "Enables playback in miniplayer for Kids music.",
+            "name": "Enable minimized playback",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "IntegrationsPatch",
+                "PlayerTypeHookPatch"
+            ],
+            "description": "Enables minimized and background playback.",
+            "name": "Enable minimized playback",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "MainActivityResolvePatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to enable a new type of splash animation.",
+            "name": "Enable new splash animation",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to enables the new seekbar thumbnails preview.",
+            "name": "Enable new thumbnail preview",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "6.21.52",
+                    "6.22.52",
+                    "6.23.56",
+                    "6.25.53",
+                    "6.26.51",
+                    "6.27.54",
+                    "6.28.53",
+                    "6.29.58",
+                    "6.31.55",
+                    "6.33.52"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to return the player background to the old style. Deprecated on YT Music 6.34.51+.",
+            "name": "Enable old player background",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "6.21.52",
+                    "6.22.52",
+                    "6.23.56",
+                    "6.25.53",
+                    "6.26.51",
+                    "6.27.54",
+                    "6.28.53",
+                    "6.29.58",
+                    "6.31.55",
+                    "6.33.52"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to return the player layout to the old style. Deprecated on YT Music 6.31.55+.",
+            "name": "Enable old player layout",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "BottomSheetRecyclerViewPatch",
+                "LithoFilterPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to restore the old video quality menu with specific video resolution options.",
+            "name": "Enable old quality layout",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to return the library tab to the old style.",
+            "name": "Enable old style library shelf",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "6.21.52",
+                    "6.22.52",
+                    "6.23.56",
+                    "6.25.53",
+                    "6.26.51",
+                    "6.27.54",
+                    "6.28.53",
+                    "6.29.58",
+                    "6.31.55",
+                    "6.33.52",
+                    "6.34.52",
+                    "6.35.52",
+                    "6.36.54",
+                    "6.37.53",
+                    "6.39.50",
+                    "6.40.53",
+                    "6.41.59"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to return the miniplayer to the old style.",
+            "name": "Enable old style miniplayer",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to skip over redirection URLs in external links.",
+            "name": "Enable open links directly",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option use the opus audio codec instead of the mp4a audio codec.",
+            "name": "Enable opus codec",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "FlyoutButtonContainerPatch",
+                "OverrideSpeedHookPatch",
+                "Settings"
+            ],
+            "description": "Adds an option to add a playback speed button to the flyout panel.",
+            "name": "Enable playback speed",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to enable tap-to-seek on the seekbar of the video player.",
+            "name": "Enable seekbar tapping",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to enable song search in the voice search screen.",
+            "name": "Enable song search",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to enable the tablet mini player layout.",
+            "name": "Enable tablet mini player",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to enable the tablet navigation bar.",
+            "name": "Enable tablet navigation bar",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to replace the search icon with a wide search bar. This will hide the YouTube logo when active.",
+            "name": "Enable wide search bar",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "6.21.52",
+                    "6.22.52",
+                    "6.23.56",
+                    "6.25.53",
+                    "6.26.51",
+                    "6.27.54",
+                    "6.28.53",
+                    "6.29.58",
+                    "6.31.55",
+                    "6.33.52"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to change the player background to light grey to reduce eye strain. Deprecated on YT Music 6.34.51+.",
+            "name": "Enable zen mode",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [],
+            "description": "Unlocks the option to play music without video.",
+            "name": "Exclusive audio playback",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to forcefully open videos in fullscreen.",
+            "name": "Force fullscreen",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to force the opus audio codec instead of the mp4a audio codec.",
+            "name": "Force opus codec",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to force the video codec.",
+            "name": "Force video codec",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds the ability to hide account menu elements using a custom filter.",
+            "name": "Hide account menu",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds the ability to hide account menu elements using a custom filter in the account menu and You tab.",
+            "name": "Hide account menu",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "IntentHookPatch",
+                "Settings",
+                "SharedResourceIdPatch",
+                "VideoInformationPatch"
+            ],
+            "description": "Adds options to hide action bar components and replace the offline download button with an external download button.",
+            "name": "Hide action bar component",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [
+                "HideBannerPatch",
+                "HideCommentAdsPatch",
+                "Settings"
+            ],
+            "description": "Adds options to hide ads.",
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Hides the background of the pause and play animated buttons in the Shorts player.",
+            "name": "Hide animated button background",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to hide panels (such as live chat) from opening automatically.",
+            "name": "Hide auto player popup panels",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the autoplay button in the video player.",
+            "name": "Hide autoplay button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the autoplay preview container when in fullscreen.",
+            "name": "Hide autoplay preview",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
+            "description": "Adds options to hide action buttons below the video player.",
+            "name": "Hide button container",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
+            "description": "Adds an option to hide the button shelf from the homepage and explore tab.",
+            "name": "Hide button shelf",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the captions button in the video player.",
+            "name": "Hide captions button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
+            "description": "Adds an option to hide the carousel shelf from the homepage and explore tab.",
+            "name": "Hide carousel shelf",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the cast button.",
+            "name": "Hide cast button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to hide the cast button.",
+            "name": "Hide cast button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the category bar.",
+            "name": "Hide category bar",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the category bar in feeds.",
+            "name": "Hide category bar",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the channel avatar section of the subscription feed.",
+            "name": "Hide channel avatar section",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
+            "description": "Adds an option to hide the channel guidelines at the top of the comments section.",
+            "name": "Hide channel guidelines",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide channel profile components.",
+            "name": "Hide channel profile components",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
+            "description": "Adds an option to hide creator's watermarks in the video player.",
+            "name": "Hide channel watermark",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "PlayerButtonHookPatch",
+                "Settings"
+            ],
+            "description": "Adds an option to hide the collapse button in the video player.",
+            "name": "Hide collapse button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds options to hide components related to comments.",
+            "name": "Hide comment component",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the crowdfunding box between the player and video description.",
+            "name": "Hide crowdfunding box",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
+            "description": "Adds an option to hide description components.",
+            "name": "Hide description components",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [],
+            "description": "Removes the dark overlay when double-tapping to seek.",
+            "name": "Hide double tap overlay filter",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Hides the double tap dark filter layer.",
+            "name": "Hide double tap overlay filter",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Hides the like animations when double tap the screen in the Shorts player.",
+            "name": "Hide double tap to like animations",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
+            "description": "Adds an option to hide the emoji picker and time stamp when typing comments.",
+            "name": "Hide emoji picker and time stamp",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide suggested video cards at the end of the video in the video player.",
+            "name": "Hide end screen cards",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the overlay in fullscreen when swiping up and at the end of videos.",
+            "name": "Hide end screen overlay",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds the ability to hide feed flyout panel components using a custom filter.",
+            "name": "Hide feed flyout panel",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "DisableControlsOverlayConfigPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide filmstrip overlay in the video player.",
+            "name": "Hide filmstrip overlay",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the floating microphone button when searching.",
+            "name": "Hide floating microphone",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "FlyoutButtonContainerPatch",
+                "Settings"
+            ],
+            "description": "Adds options to hide flyout panel components.",
+            "name": "Hide flyout panel",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
+            "description": "Adds an option to hide the For You shelf from the homepage.",
+            "name": "Hide For You shelf",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Force to hide fullscreen button in player bottom UI container.",
+            "name": "Hide fullscreen button",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "QuickActionsHookPatch",
+                "Settings"
+            ],
+            "description": "Adds an option to hide panels such as live chat when in fullscreen.",
+            "name": "Hide fullscreen panels",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the share button in the fullscreen player.",
+            "name": "Hide fullscreen share button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "MusicAdsPatch",
+                "Hide navigation bar component",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds options to hide general ads.",
+            "name": "Hide general ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "DoubleBackToClosePatch",
+                "GeneralAdsBytecodePatch",
+                "HideGetPremiumPatch",
+                "LithoFilterPatch",
+                "Settings",
+                "SwipeRefreshPatch"
+            ],
+            "description": "Adds options to hide general ads.",
+            "name": "Hide general ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "SharedResourceIdPatch"
+            ],
+            "description": "Hides the \"Get Music Premium\" label from the account menu and settings.",
+            "name": "Hide get premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the handle in the account menu.",
+            "name": "Hide handle",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds options to hide the handle in the account switcher and You tab.",
+            "name": "Hide handle",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the history button in the toolbar.",
+            "name": "Hide history button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
+            "description": "Adds an option to hide info-cards in the video player.",
+            "name": "Hide info cards",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds options to hide latest videos button in home feed.",
+            "name": "Hide latest videos button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
+            "description": "Adds options to hide general layout components.",
+            "name": "Hide layout components",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the button under videos that loads similar videos.",
+            "name": "Hide load more button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
+            "description": "Adds an option to hide mix playlists in feed.",
+            "name": "Hide mix playlists",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the YouTube Music button in the video player.",
+            "name": "Hide music button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds options to hide navigation bar components.",
+            "name": "Hide navigation bar component",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds options to hide buttons in the navigation bar.",
+            "name": "Hide navigation buttons",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds options to hide and change navigation buttons (such as the Shorts button).",
+            "name": "Hide navigation buttons",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to hide navigation bar labels.",
+            "name": "Hide navigation label",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the \"New playlist\" button in the library.",
+            "name": "Hide new playlist button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Hides the dark background surrounding the video player controls.",
+            "name": "Hide player button background",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Forces to hides chapters in player bottom UI container.",
+            "name": "Hide player chapters",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "PlayerTypeHookPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds options to hide player flyout panel components.",
+            "name": "Hide player flyout panel",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [],
+            "description": "Removes the dark overlay when single-tapping player.",
+            "name": "Hide player overlay filter",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
+            "description": "Adds an option to hide the playlist card from the homepage.",
+            "name": "Hide playlist card",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to hide the previous and next buttons in the video player.",
+            "name": "Hide previous next button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to hide the recently visited shelf in the sidebar.",
+            "name": "Hide recently visited shelf",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to hide thumbnails in the search term history.",
+            "name": "Hide search term thumbnail",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "DisableControlsOverlayConfigPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the 'Slide left or right to seek' or 'Release to cancel' message container in the video player.",
+            "name": "Hide seek message",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Custom seekbar color",
+                "Settings"
+            ],
+            "description": "Adds an option to hide the seekbar in video player and video thumbnails.",
+            "name": "Hide seekbar",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings",
+                "SharedResourceIdPatch",
+                "ShortsNavigationBarPatch",
+                "ShortsSubscriptionsButtonPatch",
+                "ShortsToolBarPatch"
+            ],
+            "description": "Adds options to hide components related to YouTube Shorts.",
+            "name": "Hide shorts components",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to hide the snack bar action popup.",
+            "name": "Hide snack bar",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "PlayerTypeHookPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the suggested actions bar inside the player.",
+            "name": "Hide suggested actions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the suggested video overlay at the end of videos.",
+            "name": "Hide suggested video overlay",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "BrowseIdHookPatch",
+                "LithoFilterPatch",
+                "NavBarIndexHookPatch",
+                "Settings"
+            ],
+            "description": "Adds an option to hide the suggestions shelf in feed.",
+            "name": "Hide suggestions shelf",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to hide the tap to update button.",
+            "name": "Hide tap to update button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "SharedResourceIdPatch"
+            ],
+            "description": "Hides the \"Tell us which artists you like\" card from the homepage.",
+            "name": "Hide taste builder",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the terms of service container in the account menu.",
+            "name": "Hide terms container",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the timestamp in the bottom left of the video player.",
+            "name": "Hide time stamp",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide the r/place or Reddit recap button in the toolbar.",
+            "name": "Hide toolbar button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "ToolBarHookPatch"
+            ],
+            "description": "Adds an option to hide the button in the toolbar.",
+            "name": "Hide toolbar button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "SharedResourceIdPatch"
+            ],
+            "description": "Hides the tooltip box that appears when opening the app for the first time.",
+            "name": "Hide tooltip content",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Hides the tooltip box that appears on first install.",
+            "name": "Hide tooltip content",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds an option to hide trending searches in the search bar.",
+            "name": "Hide trending searches",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to hide ads in the video player.",
+            "name": "Hide video ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [],
+            "description": "Hides the voice search button in the search bar.",
+            "name": "Hide voice search button",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Hide voice search button in search bar.",
+            "name": "Hide voice search button",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to keep landscape mode when turning the screen off and on in fullscreen.",
+            "name": "Keep landscape mode",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to trick dpi to use tablet or phone layout.",
+            "name": "Layout switch",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "GeneralThemePatch",
+                "Settings"
+            ],
+            "description": "Enables MaterialYou theme for Android 12+",
+            "name": "MaterialYou",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "ClientSpoofPatch",
+                "MainActivityResolvePatch",
+                "MicroGResourcePatch",
+                "Custom package name",
+                "FileProviderPatch"
+            ],
+            "description": "Allows YouTube Music to run without root and under a different package name with MicroG.",
+            "name": "MicroG support",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "MicroGBytecodePatch",
+                "Custom package name",
+                "Settings"
+            ],
+            "description": "Allows ReVanced Extended to run without root and under a different package name with MicroG.",
+            "name": "MicroG support",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to skip over redirection URLs in external links.",
+            "name": "Open links directly",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to always open links in your browser instead of in the in-app-browser.",
+            "name": "Open links externally",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "AlwaysRepeatPatch",
+                "DisablePiPPatch",
+                "DownloadButtonHookPatch",
+                "MainActivityResolvePatch",
+                "OverrideSpeedHookPatch",
+                "PlayerButtonHookPatch",
+                "PlayerControlsPatch",
+                "Settings",
+                "SharedResourceIdPatch",
+                "VideoIdPatch",
+                "WhitelistPatch"
+            ],
+            "description": "Adds an option to display overlay buttons in the video player.",
+            "name": "Overlay buttons",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [],
+            "description": "Unlocks premium app icons.",
+            "name": "Premium icon",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "QuickActionsHookPatch",
+                "Settings"
+            ],
+            "description": "Adds options to hide and customize components below the seekbar in fullscreen.",
+            "name": "Quick actions components",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "OverrideSpeedHookPatch",
+                "Settings"
+            ],
+            "description": "Adds an option to remember the last playback speed selected.",
+            "name": "Remember playback speed",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to remember the state of the repeat toggle.",
+            "name": "Remember repeat state",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to remember the state of the shuffle toggle.",
+            "name": "Remember shuffle state",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "OverrideQualityHookPatch",
+                "Settings",
+                "VideoIdPatch"
+            ],
+            "description": "Adds an option to remember the last video quality selected.",
+            "name": "Remember video quality",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.",
+            "name": "Remove subreddit dialog",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.",
+            "name": "Remove viewer discretion dialog",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.",
+            "name": "Remove viewer discretion dialog",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "MainActivityResolvePatch",
+                "PlayerResponsePatch",
+                "Settings",
+                "SharedResourceIdPatch",
+                "VideoTypeHookPatch"
+            ],
+            "description": "Adds an option to replace the cast button in the player with the \"Open music\" button.",
+            "name": "Replace cast button",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings",
+                "VideoInformationPatch"
+            ],
+            "description": "Adds an option to replace \"Dismiss queue\" with \"Watch on YouTube\" in the flyout menu.",
+            "name": "Replace dismiss queue",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "ReturnYouTubeDislikeBytecodePatch",
+                "Settings"
+            ],
+            "description": "Adds an option to show the dislike count of songs using the Return YouTube Dislike API.",
+            "name": "Return YouTube Dislike",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "PlayerResponsePatch",
+                "ReturnYouTubeDislikeOldLayoutPatch",
+                "ReturnYouTubeDislikeRollingNumberPatch",
+                "ReturnYouTubeDislikeShortsPatch",
+                "Settings",
+                "VideoIdPatch"
+            ],
+            "description": "Shows the dislike count of videos using the Return YouTube Dislike API.",
+            "name": "Return YouTube Dislike",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to remove tracking query parameters from URLs when sharing links.",
+            "name": "Sanitize sharing links",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to remove tracking query parameters from URLs when sharing links.",
+            "name": "Sanitize sharing links",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to remove tracking query parameters from URLs when sharing links.",
+            "name": "Sanitize sharing links",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "SettingsBytecodePatch"
+            ],
+            "description": "Adds ReVanced Extended settings to YouTube Music.",
+            "name": "Settings",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [
+                "IntegrationsPatch",
+                "SettingsBytecodePatch"
+            ],
+            "description": "Adds ReVanced Extended settings to Reddit.",
+            "name": "Settings",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "IntegrationsPatch",
+                "ResourceMappingPatch",
+                "SharedResourceIdPatch",
+                "SettingsBytecodePatch"
+            ],
+            "description": "Applies mandatory patches to implement ReVanced Extended settings into the application.",
+            "name": "Settings",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Apply the outline icon to the action button of the Shorts player.",
+            "name": "Shorts outline button",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "IntentHookPatch",
+                "Settings",
+                "SponsorBlockBytecodePatch"
+            ],
+            "description": "Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as non-music sections.",
+            "name": "SponsorBlock",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "SponsorBlockBytecodePatch"
+            ],
+            "description": "Integrates SponsorBlock which allows skipping video segments such as sponsored content.",
+            "name": "SponsorBlock",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "IntentHookPatch",
+                "Enable old style library shelf",
+                "Settings"
+            ],
+            "description": "Adds options to spoof the YouTube Music client version. This can remove the radio mode restriction in Canadian regions or disable real-time lyrics.",
+            "name": "Spoof app version",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features.",
+            "name": "Spoof app version",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to spoof the device dimensions which unlocks higher video qualities if they aren't available on the device.",
+            "name": "Spoof device dimensions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "PlayerTypeHookPatch",
+                "PlayerResponsePatch",
+                "VideoIdPatch",
+                "Settings"
+            ],
+            "description": "Adds options to spoof player parameters to prevent playback issues.",
+            "name": "Spoof player parameters",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "LockModeStateHookPatch",
+                "MainActivityResolvePatch",
+                "PlayerTypeHookPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
+            "description": "Adds options to enable and configure volume and brightness swipe controls.",
+            "name": "Swipe controls",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "GeneralThemePatch",
+                "Settings"
+            ],
+            "description": "Change the app's theme to the values specified in options.json.",
+            "name": "Theme",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": []
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds Crowdin translations for YouTube Music.",
+            "name": "Translations",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "18.25.40",
+                    "18.27.36",
+                    "18.29.38",
+                    "18.30.37",
+                    "18.31.40",
+                    "18.32.39",
+                    "18.33.40",
+                    "18.34.38",
+                    "18.35.36",
+                    "18.36.39",
+                    "18.37.36",
+                    "18.38.44",
+                    "18.39.41",
+                    "18.40.34",
+                    "18.41.39",
+                    "18.42.41",
+                    "18.43.45",
+                    "18.44.41",
+                    "18.45.43",
+                    "18.46.45",
+                    "18.48.39",
+                    "18.49.37",
+                    "19.01.34",
+                    "19.02.39",
+                    "19.03.36",
+                    "19.04.38",
+                    "19.05.36",
+                    "19.06.39",
+                    "19.07.40"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Add Crowdin translations for YouTube.",
+            "name": "Translations",
+            "options": [],
+            "use": true
+        }
+    ]
+}

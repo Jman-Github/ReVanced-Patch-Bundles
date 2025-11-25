@@ -1,0 +1,15 @@
+{
+    "version": "latest",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.luckyzyx.luckytool": []
+            },
+            "dependencies": [],
+            "description": "This patch forces LuckyTool to start a USB tethering mode.",
+            "name": "Change Usb Config patch",
+            "options": [],
+            "use": true
+        }
+    ]
+}
