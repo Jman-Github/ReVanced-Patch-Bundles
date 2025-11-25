@@ -6,15 +6,21 @@ import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonArray
 import kotlinx.serialization.json.JsonElement
+import kotlinx.serialization.json.JsonNull
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.JsonPrimitive
 import kotlinx.serialization.json.buildJsonObject
 import kotlinx.serialization.json.contentOrNull
 import kotlinx.serialization.json.jsonArray
+import kotlinx.serialization.json.jsonObject
+import kotlinx.serialization.json.jsonPrimitive
+import kotlinx.serialization.json.booleanOrNull
 import java.io.File
 import java.io.FileNotFoundException
 import java.net.URI
+import java.net.HttpURLConnection
 import java.net.URISyntaxException
+import java.net.URL
 import java.util.Locale
 import kotlin.comparisons.compareBy
 
@@ -27,6 +33,9 @@ private val prettyJson = Json { prettyPrint = true }
 private val parsingJson = Json { ignoreUnknownKeys = true }
 
 private val patchCache = mutableMapOf<String, JsonArray>()
+private val githubAuthToken = System.getenv("GH_PAT")?.takeIf { it.isNotBlank() }
+private const val GITHUB_API_BASE = "https://api.github.com"
+private const val USER_AGENT = "revanced-patch-bundles/1.0 (+https://github.com/Jman-Github/ReVanced-Patch-Bundles)"
 
 private enum class ReleaseType(
     val priority: Int,
@@ -326,6 +335,18 @@ private fun generateLegacyPatchList(downloadUri: URI): JsonArray? {
     }
 }
 
+private fun generatePatchListFromReleaseAsset(downloadUri: URI): JsonArray? {
+    val location = parseReleaseLocation(downloadUri) ?: return null
+    val releaseJson = fetchReleaseMetadata(location) ?: return null
+    val assetUrl = findPatchMetadataAsset(releaseJson) ?: run {
+        Logger.warning("No patch metadata asset found in ${location.owner}/${location.repo} release ${location.tag}.")
+        return null
+    }
+    val payload = downloadPlainText(assetUrl) ?: return null
+    val parsed = convertPatchMetadataPayload(payload) ?: return null
+    return canonicalizePatchArray(parsed)
+}
+
 private fun writePatchList(outputFile: File, version: String, patches: JsonArray) {
     val payload = LocalPatchesFile(version, patches)
     outputFile.writeText(prettyJson.encodeToString(payload))
@@ -367,6 +388,11 @@ private fun processBundle(bundleFolder: File) {
             val created = when (parsedBundle.format) {
                 BundleFormat.MODERN -> generateModernPatchList(downloadUri)
                 BundleFormat.LEGACY -> generateLegacyPatchList(downloadUri)
+            } ?: if (parsedBundle.format == BundleFormat.LEGACY) {
+                Logger.info("Falling back to release metadata for ${parsedBundle.downloadUrl}...")
+                generatePatchListFromReleaseAsset(downloadUri)
+            } else {
+                null
             } ?: return@processVariant
             patchCache[cacheKey] = created
             created
@@ -396,4 +422,150 @@ fun main() {
                 Logger.error("Something went wrong. ${e.message}, ${e.stackTrace}")
             }
         }
+}
+
+private data class ReleaseLocation(
+    val owner: String,
+    val repo: String,
+    val tag: String
+)
+
+private val releaseDownloadRegex = Regex("^/([^/]+)/([^/]+)/releases/download/([^/]+)/.+$")
+
+private fun parseReleaseLocation(uri: URI): ReleaseLocation? {
+    if (!uri.host.equals("github.com", ignoreCase = true)) {
+        return null
+    }
+    val match = releaseDownloadRegex.matchEntire(uri.path) ?: return null
+    val (owner, repo, tag) = match.destructured
+    if (owner.isBlank() || repo.isBlank() || tag.isBlank()) {
+        return null
+    }
+    return ReleaseLocation(owner, repo, tag)
+}
+
+private fun fetchReleaseMetadata(location: ReleaseLocation): JsonObject? {
+    val apiUrl = "$GITHUB_API_BASE/repos/${location.owner}/${location.repo}/releases/tags/${location.tag}"
+    val connection = (URL(apiUrl).openConnection() as HttpURLConnection)
+    return try {
+        connection.requestMethod = "GET"
+        connection.setRequestProperty("Accept", "application/vnd.github+json")
+        connection.setRequestProperty("User-Agent", USER_AGENT)
+        githubAuthToken?.let { connection.setRequestProperty("Authorization", "Bearer $it") }
+        val code = connection.responseCode
+        if (code != HttpURLConnection.HTTP_OK) {
+            Logger.warning("Failed to fetch release metadata for ${location.owner}/${location.repo} ($code).")
+            null
+        } else {
+            val body = connection.inputStream.bufferedReader().use { it.readText() }
+            Json.parseToJsonElement(body).jsonObject
+        }
+    } catch (e: Exception) {
+        Logger.warning("Failed to fetch release metadata. ${e.message}")
+        null
+    } finally {
+        connection.disconnect()
+    }
+}
+
+private fun findPatchMetadataAsset(releaseJson: JsonObject): String? {
+    val assets = releaseJson["assets"]?.jsonArray ?: return null
+    val candidates = assets.mapNotNull { it as? JsonObject }
+    fun JsonObject.downloadUrl(): String? = this["browser_download_url"]?.jsonPrimitive?.contentOrNull
+    fun JsonObject.assetName(): String = this["name"]?.jsonPrimitive?.contentOrNull.orEmpty()
+
+    val prioritized = candidates.firstOrNull { it.assetName().equals("patches.json", ignoreCase = true) }
+        ?: candidates.firstOrNull {
+            val lower = it.assetName().lowercase(Locale.ROOT)
+            lower.endsWith("patches.json") || (lower.contains("patch") && lower.endsWith(".json"))
+        }
+    return prioritized?.downloadUrl()
+}
+
+private fun downloadPlainText(url: String): String? {
+    val connection = (URL(url).openConnection() as HttpURLConnection)
+    return try {
+        connection.requestMethod = "GET"
+        connection.setRequestProperty("User-Agent", USER_AGENT)
+        val code = connection.responseCode
+        if (code !in 200..299) {
+            Logger.warning("Failed to download $url ($code).")
+            null
+        } else {
+            connection.inputStream.bufferedReader().use { it.readText() }
+        }
+    } catch (e: Exception) {
+        Logger.warning("Failed to download $url. ${e.message}")
+        null
+    } finally {
+        connection.disconnect()
+    }
+}
+
+private fun convertPatchMetadataPayload(payload: String): JsonArray? {
+    val element = try {
+        Json.parseToJsonElement(payload)
+    } catch (e: SerializationException) {
+        Logger.warning("Patch metadata is not valid JSON. ${e.message}")
+        return null
+    } catch (e: IllegalArgumentException) {
+        Logger.warning("Patch metadata is not valid JSON. ${e.message}")
+        return null
+    }
+    val patches = when (element) {
+        is JsonArray -> element
+        is JsonObject -> element["patches"]?.jsonArray
+        else -> null
+    } ?: return null
+    val converted = patches.mapNotNull { convertExternalPatchObject(it) }
+    return JsonArray(converted)
+}
+
+private fun convertExternalPatchObject(element: JsonElement): JsonObject? {
+    val obj = element as? JsonObject ?: return null
+    val compatObject = convertCompatibilityArray(obj["compatiblePackages"] as? JsonArray)
+    val dependencies = (obj["dependencies"] as? JsonArray) ?: JsonArray(emptyList())
+    val options = (obj["options"] as? JsonArray) ?: JsonArray(emptyList())
+    val hasUseField = "use" in obj
+    return buildJsonObject {
+        for ((key, value) in obj) {
+            when (key) {
+                "compatiblePackages" -> put(key, compatObject)
+                "dependencies" -> put(key, dependencies)
+                "options" -> put(key, options)
+                else -> put(key, value ?: JsonNull)
+            }
+        }
+        if ("compatiblePackages" !in obj) {
+            put("compatiblePackages", compatObject)
+        }
+        if ("dependencies" !in obj) {
+            put("dependencies", dependencies)
+        }
+        if ("options" !in obj) {
+            put("options", options)
+        }
+        if (!hasUseField) {
+            val excluded = obj["excluded"]?.jsonPrimitive?.booleanOrNull ?: false
+            put("use", JsonPrimitive(!excluded))
+        }
+    }
+}
+
+private fun convertCompatibilityArray(array: JsonArray?): JsonObject {
+    if (array == null) {
+        return JsonObject(emptyMap())
+    }
+    val mapped = array.mapNotNull { entry ->
+        val compatObj = entry as? JsonObject ?: return@mapNotNull null
+        val packageName = compatObj["name"]?.jsonPrimitive?.contentOrNull ?: return@mapNotNull null
+        val versionsElement = compatObj["versions"]
+        val versions = when (versionsElement) {
+            is JsonArray -> versionsElement.mapNotNull { it.jsonPrimitive.contentOrNull }
+            is JsonPrimitive -> versionsElement.contentOrNull?.let { listOf(it) } ?: emptyList()
+            else -> emptyList()
+        }
+        packageName to JsonArray(versions.map(::JsonPrimitive))
+    }
+    return JsonObject(mapped.toMap())
 }
