@@ -1,5 +1,5 @@
 # 🗃️ Bundle Patch List Catalog
-This catalog includes all API v4 (.RVP) patch bundles, each with a detailed list of patches, including their names, descriptions, supported applications, and compatible versions. The patches listed are the latest available patches, including prereleases. You can search the catalog using CTRL + F (Windows) or Command + F (Mac). **Currently, API v3 (.jar) bundles patch lists aren't available here.** Support for API v3 patch bundles may be added in the future.
+This catalog includes all patch bundles, each with a detailed list of patches, including their names, descriptions, supported applications, and compatible versions. The patches listed are the latest available patches, including prereleases. You can search the catalog using CTRL + F (Windows) or Command + F (Mac).
 ## 🔑 Patch List Catalog Key
 #### Patch Bundle Shortcuts
 *Click the bundle patch list of your choice to be directed to the corresponding section in the catalog.*  

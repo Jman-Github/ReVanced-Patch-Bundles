@@ -36,6 +36,7 @@ dependencies {
     implementation(libs.kotlin.stdlib)
     implementation(libs.revanced.patcher)
     implementation(libs.revanced.library)
+    implementation(libs.asm)
     implementation(libs.smali)
     compileOnly(libs.jsr305)
 }

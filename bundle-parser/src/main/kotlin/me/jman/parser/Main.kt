@@ -57,9 +57,15 @@ private data class BundleVariant(
     val releaseType: ReleaseType
 )
 
+private enum class BundleFormat {
+    MODERN,
+    LEGACY
+}
+
 private data class ParsedBundle(
     val version: String,
-    val downloadUrl: String
+    val downloadUrl: String,
+    val format: BundleFormat
 )
 
 private fun extractReleaseTag(bundleName: String, fileName: String): String {
@@ -111,18 +117,26 @@ private fun parseBundleMetadata(variant: BundleVariant): ParsedBundle? {
     } catch (_: SerializationException) {
         null
     }
-    if (parsedModern != null) {
-        val version = normalizeMetadataValue(parsedModern.version)
+    parsedModern?.takeIf { modern ->
+        listOf(
+            modern.version,
+            modern.downloadUrl,
+            modern.signatureDownloadUrl,
+            modern.createdAt,
+            modern.description
+        ).any { !it.isNullOrBlank() }
+    }?.let { modern ->
+        val version = normalizeMetadataValue(modern.version)
         if (version == null) {
             Logger.warning("Version is invalid.")
             return null
         }
-        val downloadUrl = normalizeMetadataValue(parsedModern.downloadUrl)
+        val downloadUrl = normalizeMetadataValue(modern.downloadUrl)
         if (downloadUrl == null) {
             Logger.warning("Download URL is invalid.")
             return null
         }
-        return ParsedBundle(version, downloadUrl)
+        return ParsedBundle(version, downloadUrl, BundleFormat.MODERN)
     }
 
     val parsedLegacy = try {
@@ -130,8 +144,10 @@ private fun parseBundleMetadata(variant: BundleVariant): ParsedBundle? {
     } catch (_: SerializationException) {
         null
     }
-    if (parsedLegacy != null) {
-        val patches = parsedLegacy.patches
+    parsedLegacy?.takeIf { legacy ->
+        legacy.patches != null || legacy.integrations != null
+    }?.let { legacy ->
+        val patches = legacy.patches
         val version = normalizeMetadataValue(patches?.version)
         if (version == null) {
             Logger.warning("Version is invalid.")
@@ -142,7 +158,7 @@ private fun parseBundleMetadata(variant: BundleVariant): ParsedBundle? {
             Logger.warning("Download URL is invalid.")
             return null
         }
-        return ParsedBundle(version, downloadUrl)
+        return ParsedBundle(version, downloadUrl, BundleFormat.LEGACY)
     }
 
     Logger.warning("Bundle is not supported.")
@@ -260,7 +276,7 @@ private fun sanitizeDependencies(patches: JsonArray): JsonArray {
     )
 }
 
-private fun generatePatchList(downloadUri: URI): JsonArray? {
+private fun generateModernPatchList(downloadUri: URI): JsonArray? {
     return try {
         val jsonText = generatePatchesFromUrl(downloadUri)
         val element: JsonElement = Json.parseToJsonElement(jsonText)
@@ -271,7 +287,7 @@ private fun generatePatchList(downloadUri: URI): JsonArray? {
         }
         canonicalizePatchArray(array)
     } catch (_: FileNotFoundException) {
-        Logger.warning("The .rvp file was not found.")
+        Logger.warning("The patch bundle file was not found.")
         null
     } catch (_: SerializationException) {
         Logger.warning("Generated patches are not valid JSON.")
@@ -279,6 +295,34 @@ private fun generatePatchList(downloadUri: URI): JsonArray? {
     } catch (_: IllegalArgumentException) {
         Logger.warning("Generated patches are not valid JSON.")
         null
+    }
+}
+
+private fun generateLegacyPatchList(downloadUri: URI): JsonArray? {
+    val patchesFile = File.createTempFile("legacy-patches", ".jar")
+    return try {
+        downloadToFile(downloadUri.toURL(), patchesFile)
+        val parsed = parseLegacyPatchBundle(patchesFile)
+        if (parsed.isEmpty()) {
+            Logger.warning("No patches were found in the legacy patch bundle.")
+            null
+        } else {
+            canonicalizePatchArray(parsed)
+        }
+    } catch (_: FileNotFoundException) {
+        Logger.warning("The patch bundle file was not found.")
+        null
+    } catch (e: SerializationException) {
+        Logger.warning("Generated patches are not valid JSON. ${e.message}")
+        null
+    } catch (e: IllegalArgumentException) {
+        Logger.warning("Generated patches are not valid JSON. ${e.message}")
+        null
+    } catch (e: Exception) {
+        Logger.warning("Failed to parse legacy patch bundle. ${e.message}")
+        null
+    } finally {
+        patchesFile.delete()
     }
 }
 
@@ -319,8 +363,11 @@ private fun processBundle(bundleFolder: File) {
         val generated = patchCache[cacheKey]?.also {
             Logger.info("Reusing cached patches for ${parsedBundle.downloadUrl}.")
         } ?: run {
-            Logger.info("Downloading .rvp from ${parsedBundle.downloadUrl}...")
-            val created = generatePatchList(downloadUri) ?: return@processVariant
+            Logger.info("Downloading patch bundle from ${parsedBundle.downloadUrl}...")
+            val created = when (parsedBundle.format) {
+                BundleFormat.MODERN -> generateModernPatchList(downloadUri)
+                BundleFormat.LEGACY -> generateLegacyPatchList(downloadUri)
+            } ?: return@processVariant
             patchCache[cacheKey] = created
             created
         }

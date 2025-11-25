@@ -7,6 +7,7 @@ serialization = "1.6.3"
 #noinspection GradleDependency
 smali = "3.0.9"
 jsr305 = "3.0.2"
+asm = "9.7"
 
 [libraries]
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
@@ -15,6 +16,7 @@ revanced-patcher = { group = "app.revanced", name = "revanced-patcher", version.
 revanced-library = { module = "app.revanced:revanced-library-jvm", version.ref = "revanced-library" }
 smali = { module = "com.android.tools.smali:smali", version.ref = "smali" }
 jsr305 = { module = "com.google.code.findbugs:jsr305", version.ref = "jsr305" }
+asm = { module = "org.ow2.asm:asm", version.ref = "asm" }
 
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
