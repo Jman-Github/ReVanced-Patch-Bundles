@@ -1,0 +1,1057 @@
+{
+    "version": "v2.161.5",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "check-android-version-bytecode-patch",
+                "settings"
+            ],
+            "description": "If the device is Android 6.0 or higher, show a warning dialog.",
+            "excluded": false,
+            "name": "check-android-version",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "settings"
+            ],
+            "description": "Changes the YouTube launcher icon (Afn / Blue).",
+            "excluded": true,
+            "name": "custom-branding-icon-afn-blue",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "settings"
+            ],
+            "description": "Changes the YouTube launcher icon (Afn / Red).",
+            "excluded": false,
+            "name": "custom-branding-icon-afn-red",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "settings"
+            ],
+            "description": "Changes the YouTube launcher icon (Revancify).",
+            "excluded": true,
+            "name": "custom-branding-icon-revancify",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "patch-options",
+                "settings"
+            ],
+            "description": "Changes the YouTube launcher name to your choice (defaults to ReVanced Extended).",
+            "excluded": false,
+            "name": "custom-branding-name",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "custom-speed-bytecode-patch",
+                "patch-options",
+                "settings"
+            ],
+            "description": "Adds more video speed options.",
+            "excluded": false,
+            "name": "custom-video-speed",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "default-video-quality-bytecode-patch",
+                "settings"
+            ],
+            "description": "Adds ability to set default video quality settings.",
+            "excluded": false,
+            "name": "default-video-quality",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "default-video-speed-bytecode-patch",
+                "settings"
+            ],
+            "description": "Adds ability to set default video speed settings.",
+            "excluded": false,
+            "name": "default-video-speed",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "disable-haptic-feedback-bytecode-patch",
+                "settings"
+            ],
+            "description": "Disable haptic feedback when swiping.",
+            "excluded": false,
+            "name": "disable-haptic-feedback",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "LandScapeModeBytecodePatch",
+                "settings"
+            ],
+            "description": "Disable landscape mode when entering fullscreen.",
+            "excluded": true,
+            "name": "disable-landscape-mode",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "disable-update-screen-bytecode-patch",
+                "settings"
+            ],
+            "description": "Disables the app update screen.",
+            "excluded": false,
+            "name": "disable-update-screen",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "enable-external-browser-bytecode-patch",
+                "settings"
+            ],
+            "description": "Use an external browser to open the url.",
+            "excluded": false,
+            "name": "enable-external-browser",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "enable-minimized-playback-bytecode-patch",
+                "settings"
+            ],
+            "description": "Enables minimized and background playback.",
+            "excluded": false,
+            "name": "enable-minimized-playback",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "enable-old-quality-layout-bytecode-patch",
+                "settings"
+            ],
+            "description": "Enables the original quality flyout menu.",
+            "excluded": false,
+            "name": "enable-old-quality-layout",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "enable-open-links-directly-bytecode-patch",
+                "settings"
+            ],
+            "description": "Bypass URL redirects (youtube.com/redirect) when opening links in video descriptions.",
+            "excluded": false,
+            "name": "enable-open-links-directly",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "enable-seekbar-tapping-bytecode-patch",
+                "settings"
+            ],
+            "description": "Enables tap-to-seek on the seekbar of the video player.",
+            "excluded": false,
+            "name": "enable-seekbar-tapping",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "enable-tablet-miniplayer-bytecode-patch",
+                "settings"
+            ],
+            "description": "Enables the tablet mini player layout.",
+            "excluded": false,
+            "name": "enable-tablet-miniplayer",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "enable-wide-searchbar-bytecode-patch",
+                "settings"
+            ],
+            "description": "Replaces the search icon with a wide search bar. This will hide the YouTube logo when active.",
+            "excluded": false,
+            "name": "enable-wide-searchbar",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "settings"
+            ],
+            "description": "Forces premium heading on the home screen.",
+            "excluded": true,
+            "name": "force-premium-heading",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "force-vp9-codec-bytecode-patch",
+                "settings"
+            ],
+            "description": "Forces the VP9 codec for videos.",
+            "excluded": false,
+            "name": "force-vp9-codec",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "header-switch-bytecode-patch",
+                "settings"
+            ],
+            "description": "Add switch to change header.",
+            "excluded": false,
+            "name": "header-switch",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-auto-captions-bytecode-patch",
+                "settings"
+            ],
+            "description": "Hide captions from being automatically enabled.",
+            "excluded": false,
+            "name": "hide-auto-captions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-auto-player-popup-panels-bytecode-patch",
+                "settings"
+            ],
+            "description": "Hide automatic popup panels (playlist or live chat) on video player.",
+            "excluded": false,
+            "name": "hide-auto-player-popup-panels",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-autoplay-button-bytecode-patch",
+                "settings"
+            ],
+            "description": "Hides the autoplay button in the video player.",
+            "excluded": false,
+            "name": "hide-autoplay-button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-cast-button-bytecode-patch",
+                "settings"
+            ],
+            "description": "Hides the cast button in the video player.",
+            "excluded": false,
+            "name": "hide-cast-button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-channel-watermark-bytecode-patch",
+                "settings"
+            ],
+            "description": "Hides creator's watermarks on videos.",
+            "excluded": false,
+            "name": "hide-channel-watermark",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-general-ads-bytecode-patch",
+                "settings"
+            ],
+            "description": "Adds options to hide comment component under a video.",
+            "excluded": false,
+            "name": "hide-comment-component",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-create-button-bytecode-patch",
+                "settings"
+            ],
+            "description": "Hides the create button in the navigation bar.",
+            "excluded": false,
+            "name": "hide-create-button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-crowdfunding-box-bytecode-patch",
+                "settings"
+            ],
+            "description": "Hides the crowdfunding box between the player and video description.",
+            "excluded": false,
+            "name": "hide-crowdfunding-box",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-email-address-bytecode-patch",
+                "settings"
+            ],
+            "description": "Hides the email address in the account switcher.",
+            "excluded": false,
+            "name": "hide-email-address",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-endscreen-cards-bytecode-patch",
+                "settings"
+            ],
+            "description": "Hides the suggested video cards at the end of a video in fullscreen.",
+            "excluded": false,
+            "name": "hide-endscreen-cards",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-endscreen-overlay-bytecode-patch",
+                "settings"
+            ],
+            "description": "Hide endscreen overlay on swipe controls.",
+            "excluded": false,
+            "name": "hide-endscreen-overlay",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-pip-notification-bytecode-patch",
+                "settings"
+            ],
+            "description": "Disable notification when you launch background play for the first time.",
+            "excluded": false,
+            "name": "hide-firsttime-background-notification",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-fullscreen-buttoncontainer-bytecode-patch",
+                "hide-fullscreen-panels-bytecode-patch",
+                "settings"
+            ],
+            "description": "Hides video description and comments panel in fullscreen view.",
+            "excluded": false,
+            "name": "hide-fullscreen-panels",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-general-ads-bytecode-patch",
+                "hide-general-ads-secondary-bytecode-patch",
+                "LithoFilterPatch",
+                "settings"
+            ],
+            "description": "Hooks the method which parses the bytes into a ComponentContext to filter components.",
+            "excluded": false,
+            "name": "hide-general-ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-info-cards-bytecode-patch",
+                "settings"
+            ],
+            "description": "Hides info-cards in videos.",
+            "excluded": false,
+            "name": "hide-info-cards",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hook-player-button-patch",
+                "settings"
+            ],
+            "description": "Hides the live chat button in the video player.",
+            "excluded": false,
+            "name": "hide-live-chat-button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "hide-mix-playlists-bytecode-patch",
+                "settings"
+            ],
+            "description": "Removes mix playlists from home feed and video player.",
+            "excluded": false,
+            "name": "hide-mix-playlists",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hook-player-button-patch",
+                "settings"
+            ],
+            "description": "Hides the next prev button in the player controller.",
+            "excluded": false,
+            "name": "hide-next-prev-button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-captions-button-bytecode-patch",
+                "settings"
+            ],
+            "description": "Hides the captions button in the video player.",
+            "excluded": false,
+            "name": "hide-player-captions-button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "settings",
+                "hide-player-overlay-filter-bytecode-patch"
+            ],
+            "description": "Remove the dark filter layer from the player's background.",
+            "excluded": false,
+            "name": "hide-player-overlay-filter",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-shorts-button",
+                "settings"
+            ],
+            "description": "Hides the shorts button in the navigation bar.",
+            "excluded": false,
+            "name": "hide-shorts-button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "LithoFilterPatch",
+                "hide-shorts-component-bytecode-patch",
+                "settings"
+            ],
+            "description": "Hides other Shorts components.",
+            "excluded": false,
+            "name": "hide-shorts-component",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-snackbar-bytecode-patch",
+                "settings"
+            ],
+            "description": "Hides the snackbar action popup.",
+            "excluded": false,
+            "name": "hide-snackbar",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "settings",
+                "hide-suggested-actions-bytecode-patch"
+            ],
+            "description": "Hide the suggested actions bar inside the player.",
+            "excluded": false,
+            "name": "hide-suggested-actions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-time-and-seekbar-bytecode-patch",
+                "settings"
+            ],
+            "description": "Hides progress bar and time counter on videos.",
+            "excluded": false,
+            "name": "hide-time-and-seekbar",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-tooltip-content-bytecode-patch",
+                "settings"
+            ],
+            "description": "Hides the tooltip box that appears on first install.",
+            "excluded": false,
+            "name": "hide-tooltip-content",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "hide-video-ads-bytecode-patch",
+                "settings"
+            ],
+            "description": "Removes ads in the video player.",
+            "excluded": false,
+            "name": "hide-video-ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "layout-switch-bytecode-patch",
+                "settings"
+            ],
+            "description": "Tricks the dpi to use some tablet/phone layouts.",
+            "excluded": false,
+            "name": "layout-switch",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "general-theme",
+                "settings"
+            ],
+            "description": "Enables MaterialYou theme for Android 12+",
+            "excluded": true,
+            "name": "materialyou",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "settings",
+                "microg-support-bytecode-patch",
+                "patch-options",
+                "spoof-user-agent",
+                "spoof-client"
+            ],
+            "description": "Allows YouTube ReVanced to run without root and under a different package name with GmsCore. (\"GmsCore\" is new Vanced MicroG).",
+            "excluded": false,
+            "name": "microg-support",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "remove-duplicate-resource-patch",
+                "settings"
+            ],
+            "description": "Removes duplicate resources and adds missing translation files from YouTube.",
+            "excluded": false,
+            "name": "optimize-resource",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "always-autorepeat",
+                "overlay-buttons-bytecode-patch",
+                "patch-options",
+                "settings"
+            ],
+            "description": "Add overlay buttons for ReVanced Extended.",
+            "excluded": false,
+            "name": "overlay-buttons",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [],
+            "description": "Create an options.toml file.",
+            "excluded": false,
+            "name": "patch-options",
+            "options": [
+                {
+                    "choices": null,
+                    "description": "The name of the YouTube it will show on your home screen.",
+                    "key": "YouTube_AppName",
+                    "required": true,
+                    "title": "Application Name of YouTube"
+                },
+                {
+                    "choices": null,
+                    "description": "The package name of the YouTube. (NON-ROOT user only)",
+                    "key": "YouTube_PackageName",
+                    "required": true,
+                    "title": "Package Name of YouTube"
+                },
+                {
+                    "choices": null,
+                    "description": "A list of custom video speeds. Be sure to separate them with commas (,).",
+                    "key": "Custom_Speed_Arrays",
+                    "required": true,
+                    "title": "Custom Speed Values"
+                },
+                {
+                    "choices": null,
+                    "description": "Choose an overlay buttons icon (old/new)",
+                    "key": "Overlay_Buttons_Icon",
+                    "required": true,
+                    "title": "Overlay button icon selection"
+                },
+                {
+                    "choices": null,
+                    "description": "The background color of the dark theme. Can be a hex color or a resource reference.",
+                    "key": "darkThemeBackgroundColor",
+                    "required": true,
+                    "title": "Background color for the dark theme"
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "settings",
+                "return-youtube-dislike-bytecode-patch"
+            ],
+            "description": "Shows the dislike count of videos using the Return YouTube Dislike API.",
+            "excluded": false,
+            "name": "return-youtube-dislike",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "integrations",
+                "patch-options",
+                "shared-resource-id",
+                "settings-bytecode-patch"
+            ],
+            "description": "Applies mandatory patches to implement ReVanced settings into the application.",
+            "excluded": false,
+            "name": "settings",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "settings",
+                "sponsorblock-bytecode-patch",
+                "sponsorblock-secondary-bytecode-patch"
+            ],
+            "description": "Integrates SponsorBlock which allows skipping video segments such as sponsored content.",
+            "excluded": false,
+            "name": "sponsorblock",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "spoof-app-version-bytecode-patch",
+                "settings"
+            ],
+            "description": "Spoof the YouTube client version to enable the new layout or restore old layout.",
+            "excluded": false,
+            "name": "spoof-app-version",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "SpoofClientBytecodePatch",
+                "settings"
+            ],
+            "description": "Adds options to spoofs the client to allow video playback.",
+            "excluded": false,
+            "name": "spoof-client",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "settings",
+                "swipe-controls-bytecode-patch",
+                "enable-swipe-gesture-brightness-in-hdr-patch"
+            ],
+            "description": "Adds volume and brightness swipe controls.",
+            "excluded": false,
+            "name": "swipe-controls",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "switch-create-notification-bytecode-patch",
+                "settings"
+            ],
+            "description": "Switches the create button and notification button.",
+            "excluded": false,
+            "name": "switch-create-notification",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "general-theme",
+                "patch-options",
+                "settings"
+            ],
+            "description": "Applies a custom theme (default: amoled).",
+            "excluded": false,
+            "name": "theme",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "16.40.36"
+                ]
+            },
+            "dependencies": [
+                "settings"
+            ],
+            "description": "Add Crowdin Translations.",
+            "excluded": false,
+            "name": "translations",
+            "options": [],
+            "use": true
+        }
+    ]
+}

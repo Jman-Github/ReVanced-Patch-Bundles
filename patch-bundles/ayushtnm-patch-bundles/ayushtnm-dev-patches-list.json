@@ -1,0 +1,63 @@
+{
+    "version": "v1.0.0-dev.3",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "app.revanced.android.gms": []
+            },
+            "dependencies": [],
+            "description": "Changes the app icon to the icon specified in options.json.",
+            "name": "Custom branding icon",
+            "options": [
+                {
+                    "default": "revancify_blue",
+                    "description": "The icon to apply to the app.\n\nIf a path to a folder is provided, the folder must contain the following folders:\n\n- mipmap-xxxhdpi\n- mipmap-xxhdpi\n- mipmap-xhdpi\n- mipmap-hdpi\n- mipmap-mdpi\n\nEach of these folders must contain the following files:\n\n- ic_app.png\n- ic_app_round.png\n- ic_app_foreground.png\n- ic_app_foreground_mono.png\n- ic_app_background.png",
+                    "key": "AppIcon",
+                    "required": true,
+                    "title": "App icon",
+                    "values": {
+                        "MMT": "mmt",
+                        "Revancify Blue": "revancify_blue",
+                        "Revancify Red": "revancify_red"
+                    }
+                }
+            ],
+            "requiresIntegrations": false,
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "app.revanced.android.gms": []
+            },
+            "dependencies": [],
+            "description": "Renames GmsCore to the name specified in options.json.",
+            "name": "Custom branding name",
+            "options": [
+                {
+                    "default": "MicroG",
+                    "description": "The name of the app.",
+                    "key": "AppName",
+                    "required": true,
+                    "title": "App name",
+                    "values": {
+                        "GmsCore": "GmsCore",
+                        "MicroG": "MicroG"
+                    }
+                }
+            ],
+            "requiresIntegrations": false,
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "app.revanced.android.gms": []
+            },
+            "dependencies": [],
+            "description": "Hide GmsCore icon from launcher.",
+            "name": "Hide icon from launcher",
+            "options": [],
+            "requiresIntegrations": false,
+            "use": true
+        }
+    ]
+}

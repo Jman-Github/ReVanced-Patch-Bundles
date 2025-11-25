@@ -1,0 +1,282 @@
+{
+    "version": "v2.184.1",
+    "patches": [
+        {
+            "compatiblePackages": {},
+            "dependencies": [],
+            "description": "Changes the version code of the app. By default the highest version code is set. This allows older versions of an app to be installed if their version code is set to the same or a higher value and can stop app stores to update the app. This does not apply when installing with root install (mount).",
+            "excluded": false,
+            "name": "Change version code",
+            "options": [
+                {
+                    "choices": null,
+                    "description": "Changes the version code of the app.",
+                    "key": "ChangeVersionCode",
+                    "required": true,
+                    "title": "Change version code"
+                },
+                {
+                    "choices": null,
+                    "description": "The version code to use. (1 ~ 2147483647)",
+                    "key": "VersionCode",
+                    "required": true,
+                    "title": "Version code"
+                }
+            ],
+            "use": true,
+            "version": "0.0.0"
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Renames the Reddit app to the name specified in options.json.",
+            "excluded": false,
+            "name": "Custom branding name for Reddit",
+            "options": [
+                {
+                    "choices": null,
+                    "description": "The name of the app.",
+                    "key": "AppName",
+                    "required": true,
+                    "title": "App name"
+                }
+            ],
+            "use": true,
+            "version": "0.0.0"
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit"
+            ],
+            "description": "Adds an option to disable the popup that appears when taking a screenshot.",
+            "excluded": false,
+            "name": "Disable screenshot popup",
+            "options": [],
+            "use": true,
+            "version": "0.0.0"
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit",
+                "CommentAdsPatch"
+            ],
+            "description": "Adds options to hide ads.",
+            "excluded": false,
+            "name": "Hide ads",
+            "options": [],
+            "use": true,
+            "version": "0.0.0"
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit"
+            ],
+            "description": "Adds options to hide buttons in the navigation bar.",
+            "excluded": false,
+            "name": "Hide navigation buttons",
+            "options": [],
+            "use": true,
+            "version": "0.0.0"
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit"
+            ],
+            "description": "Adds an option to hide the recommended communities shelves in subreddits.",
+            "excluded": false,
+            "name": "Hide recommended communities shelf",
+            "options": [],
+            "use": true,
+            "version": "0.0.0"
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit"
+            ],
+            "description": "Adds options to hide the sidebar components.",
+            "excluded": false,
+            "name": "Hide sidebar components",
+            "options": [],
+            "use": true,
+            "version": "0.0.0"
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit"
+            ],
+            "description": "Adds an option to hide the Trending Today shelf from search suggestions.",
+            "excluded": false,
+            "name": "Hide Trending Today shelf",
+            "options": [],
+            "use": true,
+            "version": "0.0.0"
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit",
+                "ScreenNavigatorMethodResolverPatch"
+            ],
+            "description": "Adds an option to skip over redirection URLs in external links.",
+            "excluded": false,
+            "name": "Open links directly",
+            "options": [],
+            "use": true,
+            "version": "0.0.0"
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit",
+                "ScreenNavigatorMethodResolverPatch"
+            ],
+            "description": "Adds an option to always open links in your browser instead of in the in-app-browser.",
+            "excluded": false,
+            "name": "Open links externally",
+            "options": [],
+            "use": true,
+            "version": "0.0.0"
+        },
+        {
+            "compatiblePackages": {},
+            "dependencies": [],
+            "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy.",
+            "excluded": false,
+            "name": "Override certificate pinning",
+            "options": [
+                {
+                    "choices": null,
+                    "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy.",
+                    "key": "OverrideCertificatePinning",
+                    "required": true,
+                    "title": "Override certificate pinning"
+                }
+            ],
+            "use": true,
+            "version": "0.0.0"
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit"
+            ],
+            "description": "Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.",
+            "excluded": false,
+            "name": "Remove subreddit dialog",
+            "options": [],
+            "use": true,
+            "version": "0.0.0"
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit"
+            ],
+            "description": "Adds an option to remove tracking query parameters from URLs when sharing links.",
+            "excluded": false,
+            "name": "Sanitize sharing links",
+            "options": [],
+            "use": true,
+            "version": "0.0.0"
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0"
+                ]
+            },
+            "dependencies": [
+                "reddit-integrations",
+                "SettingsBytecodePatch"
+            ],
+            "description": "Applies mandatory patches to implement RVX settings into the application.",
+            "excluded": false,
+            "name": "Settings for Reddit",
+            "options": [
+                {
+                    "choices": null,
+                    "description": "The name of the RVX settings menu.",
+                    "key": "RVXSettingsMenuName",
+                    "required": true,
+                    "title": "RVX settings menu name"
+                }
+            ],
+            "use": true,
+            "version": "0.0.0"
+        }
+    ]
+}

@@ -1695,7 +1695,72 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
+***63 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```check-android-version``` | ```If the device is Android 6.0 or higher, show a warning dialog.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```custom-branding-icon-afn-blue``` | ```Changes the YouTube launcher icon (Afn / Blue).``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```custom-branding-icon-afn-red``` | ```Changes the YouTube launcher icon (Afn / Red).``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```custom-branding-icon-revancify``` | ```Changes the YouTube launcher icon (Revancify).``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```custom-branding-name``` | ```Changes the YouTube launcher name to your choice (defaults to ReVanced Extended).``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```custom-video-speed``` | ```Adds more video speed options.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```default-video-quality``` | ```Adds ability to set default video quality settings.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```default-video-speed``` | ```Adds ability to set default video speed settings.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```disable-haptic-feedback``` | ```Disable haptic feedback when swiping.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```disable-landscape-mode``` | ```Disable landscape mode when entering fullscreen.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```disable-update-screen``` | ```Disables the app update screen.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```enable-external-browser``` | ```Use an external browser to open the url.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```enable-minimized-playback``` | ```Enables minimized and background playback.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```enable-old-quality-layout``` | ```Enables the original quality flyout menu.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```enable-open-links-directly``` | ```Bypass URL redirects (youtube.com/redirect) when opening links in video descriptions.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```enable-seekbar-tapping``` | ```Enables tap-to-seek on the seekbar of the video player.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```enable-tablet-miniplayer``` | ```Enables the tablet mini player layout.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```enable-wide-searchbar``` | ```Replaces the search icon with a wide search bar. This will hide the YouTube logo when active.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```force-premium-heading``` | ```Forces premium heading on the home screen.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```force-vp9-codec``` | ```Forces the VP9 codec for videos.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```header-switch``` | ```Add switch to change header.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-auto-captions``` | ```Hide captions from being automatically enabled.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-auto-player-popup-panels``` | ```Hide automatic popup panels (playlist or live chat) on video player.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-autoplay-button``` | ```Hides the autoplay button in the video player.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-cast-button``` | ```Hides the cast button in the video player.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-channel-watermark``` | ```Hides creator's watermarks on videos.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-comment-component``` | ```Adds options to hide comment component under a video.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-create-button``` | ```Hides the create button in the navigation bar.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-crowdfunding-box``` | ```Hides the crowdfunding box between the player and video description.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-email-address``` | ```Hides the email address in the account switcher.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-endscreen-cards``` | ```Hides the suggested video cards at the end of a video in fullscreen.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-endscreen-overlay``` | ```Hide endscreen overlay on swipe controls.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-firsttime-background-notification``` | ```Disable notification when you launch background play for the first time.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-fullscreen-panels``` | ```Hides video description and comments panel in fullscreen view.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-general-ads``` | ```Hooks the method which parses the bytes into a ComponentContext to filter components.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-info-cards``` | ```Hides info-cards in videos.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-live-chat-button``` | ```Hides the live chat button in the video player.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-mix-playlists``` | ```Removes mix playlists from home feed and video player.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-next-prev-button``` | ```Hides the next prev button in the player controller.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-player-captions-button``` | ```Hides the captions button in the video player.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-player-overlay-filter``` | ```Remove the dark filter layer from the player's background.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-shorts-button``` | ```Hides the shorts button in the navigation bar.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-shorts-component``` | ```Hides other Shorts components.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-snackbar``` | ```Hides the snackbar action popup.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-suggested-actions``` | ```Hide the suggested actions bar inside the player.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-time-and-seekbar``` | ```Hides progress bar and time counter on videos.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-tooltip-content``` | ```Hides the tooltip box that appears on first install.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```hide-video-ads``` | ```Removes ads in the video player.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```layout-switch``` | ```Tricks the dpi to use some tablet/phone layouts.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```materialyou``` | ```Enables MaterialYou theme for Android 12+``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```microg-support``` | ```Allows YouTube ReVanced to run without root and under a different package name with GmsCore. ("GmsCore" is new Vanced MicroG).``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```optimize-resource``` | ```Removes duplicate resources and adds missing translation files from YouTube.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```overlay-buttons``` | ```Add overlay buttons for ReVanced Extended.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```patch-options``` | ```Create an options.toml file.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```return-youtube-dislike``` | ```Shows the dislike count of videos using the Return YouTube Dislike API.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```settings``` | ```Applies mandatory patches to implement ReVanced settings into the application.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```sponsorblock``` | ```Integrates SponsorBlock which allows skipping video segments such as sponsored content.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```spoof-app-version``` | ```Spoof the YouTube client version to enable the new layout or restore old layout.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```spoof-client``` | ```Adds options to spoofs the client to allow video playback.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```swipe-controls``` | ```Adds volume and brightness swipe controls.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```switch-create-notification``` | ```Switches the create button and notification button.``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```theme``` | ```Applies a custom theme (default: amoled).``` | ```com.google.android.youtube``` | ```16.40.36``` |
+| ```translations``` | ```Add Crowdin Translations.``` | ```com.google.android.youtube``` | ```16.40.36``` |
 
 </details>
 
@@ -1705,7 +1770,12 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
+***3 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Custom branding icon``` | ```Changes the app icon to the icon specified in options.json.``` | ```app.revanced.android.gms``` | ```All versions``` |
+| ```Custom branding name``` | ```Renames GmsCore to the name specified in options.json.``` | ```app.revanced.android.gms``` | ```All versions``` |
+| ```Hide icon from launcher``` | ```Hide GmsCore icon from launcher.``` | ```app.revanced.android.gms``` | ```All versions``` |
 
 </details>
 
@@ -1715,7 +1785,23 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-![API v3 patch bundle. Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
+***14 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Change version code``` | ```Changes the version code of the app. By default the highest version code is set. This allows older versions of an app to be installed if their version code is set to the same or a higher value and can stop app stores to update the app. This does not apply when installing with root install (mount).``` | ```Universal``` | ```All versions``` |
+| ```Custom branding name for Reddit``` | ```Renames the Reddit app to the name specified in options.json.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
+| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
+| ```Hide ads``` | ```Adds options to hide ads.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
+| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
+| ```Hide recommended communities shelf``` | ```Adds an option to hide the recommended communities shelves in subreddits.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
+| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
+| ```Hide Trending Today shelf``` | ```Adds an option to hide the Trending Today shelf from search suggestions.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
+| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
+| ```Open links externally``` | ```Adds an option to always open links in your browser instead of in the in-app-browser.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
+| ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
+| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
+| ```Sanitize sharing links``` | ```Adds an option to remove tracking query parameters from URLs when sharing links.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
+| ```Settings for Reddit``` | ```Applies mandatory patches to implement RVX settings into the application.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
 
 </details>
 
