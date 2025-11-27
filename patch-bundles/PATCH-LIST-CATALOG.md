@@ -600,7 +600,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***64 Patches***
+***65 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add ability to copy media link``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
@@ -638,6 +638,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Export all activities``` | ```Makes all app activities exportable.``` | ```Universal``` | ```All versions``` |
 | ```Force enable translate``` | ```Get translate option for all posts``` | ```com.twitter.android``` | ```All versions``` |
 | ```Handle custom twitter links``` | ```Adds support for opening custom twitter links such as vxtwitter, fxtwitter, and fixupx within the app. These will have to be manually enabled under the "Open by default" section in the app info!``` | ```com.twitter.android``` | ```All versions``` |
+| ```Hide badges from navigation bar icons``` | ```Hides notification nudges & counts from navigation bar icons``` | ```com.twitter.android``` | ```All versions``` |
 | ```Hide Banner``` | ```Hide new post banner``` | ```com.twitter.android``` | ```All versions``` |
 | ```Hide bookmark icon in timeline``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Hide community badges``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |

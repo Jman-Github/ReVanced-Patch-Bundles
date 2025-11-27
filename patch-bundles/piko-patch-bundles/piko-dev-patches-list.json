@@ -1,5 +1,5 @@
 {
-    "version": "v2.0.0-dev.12",
+    "version": "v2.0.0-dev.13",
     "patches": [
         {
             "compatiblePackages": {
@@ -451,6 +451,18 @@
                     "values": null
                 }
             ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides notification nudges & counts from navigation bar icons",
+            "name": "Hide badges from navigation bar icons",
+            "options": [],
             "use": true
         },
         {
