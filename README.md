@@ -559,19 +559,6 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 AmpleReVanced-Patches-Bundle [API v4]:
-[🧩 AmpleReVanced Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-amplerevanced-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/amplerevanced-patch-bundles/amplerevanced-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/amplerevanced-patch-bundles/amplerevanced-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/amplerevanced-patch-bundles/amplerevanced-dev-patches-bundle.json```
-</details>
-
----
 ### 📦 Liaralabs-Patches-Bundle [API v4]:
 [🧩 Liaralabs Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-liaralabs-bundle-patch-list)
 <details>
