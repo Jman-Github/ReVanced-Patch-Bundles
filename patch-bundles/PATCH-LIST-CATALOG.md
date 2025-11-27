@@ -2692,6 +2692,12 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
+***3 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Enable debugging``` | ```Enables Android debugging capabilities. This can slow down the app. Allows access to app data.``` | ```com.xiaoji.egggame``` | ```All versions``` |
+| ```Fix email login``` | ```Fixes null attribute errors during email logins in 5.3.x by bypassing non-null checks in login flow``` | ```com.xiaoji.egggame``` | ```All versions``` |
+| ```Front-end Export``` | ```Sets exported=true and adds intent-filter for GameDetailActivity, patches gameDetailActivity to avoid NumberFormatException``` | ```com.xiaoji.egggame``` | ```All versions``` |
 
 </details>
 

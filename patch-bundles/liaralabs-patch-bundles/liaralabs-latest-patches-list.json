@@ -1,0 +1,37 @@
+{
+    "version": "v1.1.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": null
+            },
+            "dependencies": [],
+            "description": "Enables Android debugging capabilities. This can slow down the app. Allows access to app data.",
+            "name": "Enable debugging",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": null
+            },
+            "dependencies": [],
+            "description": "Fixes null attribute errors during email logins in 5.3.x by bypassing non-null checks in login flow",
+            "name": "Fix email login",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": null
+            },
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Sets exported=true and adds intent-filter for GameDetailActivity, patches gameDetailActivity to avoid NumberFormatException",
+            "name": "Front-end Export",
+            "options": [],
+            "use": true
+        }
+    ]
+}
