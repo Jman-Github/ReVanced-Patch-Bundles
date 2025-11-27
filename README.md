@@ -351,19 +351,6 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Sti-233-Patches-Bundle:
-[🧩 Sti-233 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-sti-233-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sti-233-patch-bundles/sti-233-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sti-233-patch-bundles/sti-233-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sti-233-patch-bundles/sti-233-dev-patches-bundle.json```
-</details>
-
----
 ### 📦 Faith001-Patches-Bundle [API v4]:
 [🧩 Faith001 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-faith001-bundle-patch-list)
 <details>
@@ -507,7 +494,6 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-
 ### 📦 Lluni-Patches-Bundle [API v4]:
 [🧩 Lluni Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-lluni-bundle-patch-list)
 <details>
@@ -521,7 +507,6 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-
 ### 📦 Bawr-Patches-Bundle [API v4]:
 [🧩 Bawr Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-bawr-bundle-patch-list)
 <details>
@@ -535,7 +520,6 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-
 ### 📦 Burgers1312-Patches-Bundle [API v4]:
 [🧩 Burgers1312 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-burgers1312-bundle-patch-list)
 <details>
@@ -549,7 +533,6 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-
 ### 📦 LisoUseInAIKyrios-Patches-Bundle [API v4]:
 [🧩 LisoUseInAIKyrios Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-lisouseInaikyrios-bundle-patch-list)
 <details>
@@ -563,7 +546,6 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-
 ### 📦 AmpleReVanced-Patches-Bundle [API v4]:
 [🧩 AmpleReVanced Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-amplerevanced-bundle-patch-list)
 <details>
@@ -574,6 +556,32 @@ If you would like to see what patches the patch bundles tracked in this reposito
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/amplerevanced-patch-bundles/amplerevanced-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/amplerevanced-patch-bundles/amplerevanced-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 AmpleReVanced-Patches-Bundle [API v4]:
+[🧩 AmpleReVanced Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-amplerevanced-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/amplerevanced-patch-bundles/amplerevanced-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/amplerevanced-patch-bundles/amplerevanced-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/amplerevanced-patch-bundles/amplerevanced-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Liaralabs-Patches-Bundle [API v4]:
+[🧩 Liaralabs Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-liaralabs-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/liaralabs-patch-bundles/liaralabs-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/liaralabs-patch-bundles/liaralabs-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/liaralabs-patch-bundles/liaralabs-dev-patches-bundle.json```
 </details>
 
 ---
@@ -644,8 +652,6 @@ https://github.com/ReVanced/revanced-manager/releases
 
 #### 🏷️ [Taknok-Patches-Bundle](https://github.com/Taknok/revanced-patches)
 
-#### 🏷️ [Sti-233-Patches-Bundle](https://github.com/sti-233/BiliRoamingX)
-
 #### 🏷️ [Faith001-Patches-Bundle](https://github.com/Faith001/revanced-molten-glass)
 
 #### 🏷️ [Forsyth47-Patches-Bundle](https://github.com/forsyth47/revanced-patches)
@@ -677,6 +683,8 @@ https://github.com/ReVanced/revanced-manager/releases
 #### 🏷️ [LisoUseInAIKyrios-Patches-Bundle](https://github.com/LisoUseInAIKyrios/revanced-patches)
 
 #### 🏷️ [AmpleReVanced-Patches-Bundle](https://github.com/AmpleReVanced/revanced-patches)
+
+#### 🏷️ [Liaralabs-Patches-Bundle](https://github.com/liaralabs/revanced-patches)
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*

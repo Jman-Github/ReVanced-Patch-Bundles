@@ -214,6 +214,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "liaralabs-stable": {
+        "patches": "https://api.github.com/repos/liaralabs/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -421,6 +426,11 @@
     },
     "amplerevanced-dev": {
         "patches": "https://api.github.com/repos/amplerevanced/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "liaralabs-dev": {
+        "patches": "https://api.github.com/repos/liaralabs/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -636,6 +646,11 @@
     },
     "amplerevanced-latest": {
         "patches": "https://api.github.com/repos/amplerevanced/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "liaralabs-latest": {
+        "patches": "https://api.github.com/repos/liaralabs/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

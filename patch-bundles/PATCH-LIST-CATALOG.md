@@ -29,7 +29,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 LennyRBLX Bundle Patch List](#-lennyrblx-bundle-patch-list)  
 [🧩 Korhelyleves Bundle Patch List](#-korhelyleves-bundle-patch-list)  
 [🧩 Taknok Bundle Patch List](#-taknok-bundle-patch-list)  
-[🧩 Sti-233 Bundle Patch List](#-sti-233-bundle-patch-list)  
 [🧩 Faith001 Bundle Patch List](#-faith001-bundle-patch-list)  
 [🧩 Forsyth47 Bundle Patch List](#-forsyth47-bundle-patch-list)  
 [🧩 Brosssh Bundle Patch List](#-brosssh-bundle-patch-list)  
@@ -1846,16 +1845,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 </details>
 
 ---
-### 🧩 Sti-233 Bundle Patch List:
-[📦 Sti-233-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-sti-233-patches-bundle)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
-
-![Patch list is unavailable!](https://img.shields.io/badge/-API%20v3%20patch%20bundle.%20Patch%20list%20is%20unavailable!-960f0f?style=flat&labelColor=transparent&logoColor=960f0f)
-
-</details>
-
----
 ### 🧩 Faith001 Bundle Patch List:
 [📦 Faith001-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-faith001-patches-bundle-api-v4)
 <details open>
@@ -2694,6 +2683,15 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Video ads``` | ```Adds an option to remove ads in the video player.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Video quality``` | ```Adds options to set default video qualities and always use the advanced video quality menu.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Wide search bar``` | ```Adds an option to replace the search icon with a wide search bar. This will hide the YouTube logo when active.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
+
+</details>
+
+---
+### 🧩 Liaralabs Bundle Patch List:
+[📦 Liaralabs-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-liaralabs-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
 
 </details>
 
