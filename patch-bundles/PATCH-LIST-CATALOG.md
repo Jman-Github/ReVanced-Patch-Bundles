@@ -45,6 +45,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Burgers1312 Bundle Patch List](#-burgers1312-bundle-patch-list)    
 [🧩 LisoUseInAIKyrios Bundle Patch List](#-lisouseInaikyrios-bundle-patch-list)    
 [🧩 AmpleReVanced Bundle Patch List](#-amplerevanced-bundle-patch-list)    
+[🧩 Liaralabs Bundle Patch List](#-liaralabs-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
