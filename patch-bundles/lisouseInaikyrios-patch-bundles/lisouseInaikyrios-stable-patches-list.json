@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0.dev-5",
+    "version": "v1.0.0-dev.6",
     "patches": [
         {
             "compatiblePackages": {
@@ -119,6 +119,35 @@
             "description": "Adds an option to change the UI appearance to a phone, tablet, or automotive device.",
             "name": "Change form factor",
             "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40",
+                    "20.46.41"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to change the header logo in the top left corner of the app.",
+            "name": "Change header",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Folder with images to use as a custom header logo.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- drawable-hdpi\n- drawable-xhdpi\n- drawable-xxhdpi\n- drawable-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_header_custom_light.png\nrevanced_header_custom_dark.png \n\nThe image dimensions must be as follows:\n- drawable-hdpi: 194x72 px\n- drawable-xhdpi: 258x96 px\n- drawable-xxhdpi: 387x144 px\n- drawable-xxxhdpi: 512x192 px",
+                    "key": "custom",
+                    "required": false,
+                    "title": "Custom header logo",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
             "use": true
         },
         {
@@ -250,6 +279,87 @@
             "description": "Adds options to display buttons in the video player to copy video URLs.",
             "name": "Copy video URL",
             "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.46.57"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch",
+                "RawResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
+            "name": "Custom branding",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Custom app name.",
+                    "key": "customName",
+                    "required": false,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nrevanced_adaptive_monochrome_custom.xml\nrevanced_notification_icon_custom.xml",
+                    "key": "customIcon",
+                    "required": false,
+                    "title": "Custom icon",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.43.41",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.40",
+                    "20.46.41"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch",
+                "RawResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
+            "name": "Custom branding",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Custom app name.",
+                    "key": "customName",
+                    "required": false,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nrevanced_adaptive_monochrome_custom.xml\nrevanced_notification_icon_custom.xml",
+                    "key": "customIcon",
+                    "required": false,
+                    "title": "Custom icon",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
             "use": true
         },
         {
