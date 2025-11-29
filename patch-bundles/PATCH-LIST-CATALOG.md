@@ -2713,7 +2713,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***209 Patches***
+***207 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```com.google.android.youtube``` | ```19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.45.38, 19.46.42, 19.47.53``` |
@@ -2833,9 +2833,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide update popup``` | ```Prevents the update popup from showing up.``` | ```com.microblink.photomath``` | ```8.32.0``` |
 | ```Hide video action buttons``` | ```Adds options to hide action buttons (such as the Download button) under videos.``` | ```com.google.android.youtube``` | ```19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.45.38, 19.46.42, 19.47.53``` |
 | ```Hide view count``` | ```Hides the view count of Posts.``` | ```com.twitter.android``` | ```All versions``` |
-| ```LINE package string rewrite (DEX)``` | ```Rewrite all occurrences of LINE base package name strings in DEX const-string to a user-defined package name.``` | ```jp.naver.line.android, jp.naver.line.androidd``` | ```All versions``` |
-| ```LINE package string rewrite (Manifest)``` | ```Rewrite all occurrences of LINE base package name strings in AndroidManifest.xml to a user-defined package name.``` | ```Universal``` | ```All versions``` |
-| ```LINE remove unsupported attrs``` | ```Remove unsupported attributes like android:useLocalePreferredLineHeightForMinimum so that aapt2 can compile resources.``` | ```jp.naver.line.android, jp.naver.line.androidd``` | ```All versions``` |
+| ```LINE package string rewrite``` | ```Replace all occurrences of "jp.naver.line.android" in string literals with the specified package name.``` | ```jp.naver.line.android, jp.naver.line.androidd``` | ```All versions``` |
 | ```Miniplayer``` | ```Adds options to change the in-app minimized player.``` | ```com.google.android.youtube``` | ```19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.45.38, 19.46.42, 19.47.53``` |
 | ```Navigation buttons``` | ```Adds options to hide and change navigation buttons (such as the Shorts button).``` | ```com.google.android.youtube``` | ```19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.45.38, 19.46.42, 19.47.53``` |
 | ```Open links externally``` | ```Adds an option to always open links in your browser instead of the in-app browser.``` | ```com.google.android.youtube``` | ```19.16.39, 19.25.37, 19.34.42, 19.43.41, 19.45.38, 19.46.42, 19.47.53``` |

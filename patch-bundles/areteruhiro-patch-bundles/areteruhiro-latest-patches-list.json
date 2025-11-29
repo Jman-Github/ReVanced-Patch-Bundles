@@ -1,5 +1,5 @@
 {
-    "version": "v173",
+    "version": "v178",
     "patches": [
         {
             "compatiblePackages": {
@@ -1984,12 +1984,12 @@
                 "jp.naver.line.androidd": null
             },
             "dependencies": [],
-            "description": "Rewrite all occurrences of LINE base package name strings in DEX const-string to a user-defined package name.",
-            "name": "LINE package string rewrite (DEX)",
+            "description": "Replace all occurrences of \"jp.naver.line.android\" in string literals with the specified package name.",
+            "name": "LINE package string rewrite",
             "options": [
                 {
                     "default": "jp.naver.line.androidd",
-                    "description": "All occurrences of \"jp.naver.line.android\" in DEX string literals will be rewritten to this value.",
+                    "description": "All occurrences of \"jp.naver.line.android\" in string literals will be rewritten to this value.",
                     "key": "lineCustomPackageName",
                     "required": true,
                     "title": "Target LINE package name",
@@ -1997,35 +1997,6 @@
                     "values": null
                 }
             ],
-            "use": true
-        },
-        {
-            "compatiblePackages": null,
-            "dependencies": [],
-            "description": "Rewrite all occurrences of LINE base package name strings in AndroidManifest.xml to a user-defined package name.",
-            "name": "LINE package string rewrite (Manifest)",
-            "options": [
-                {
-                    "default": "jp.naver.line.androidd",
-                    "description": "All occurrences of \"jp.naver.line.android\" in AndroidManifest.xml will be rewritten to this value.",
-                    "key": "lineCustomPackageNameManifest",
-                    "required": true,
-                    "title": "Target LINE package name (Manifest)",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "jp.naver.line.android": null,
-                "jp.naver.line.androidd": null
-            },
-            "dependencies": [],
-            "description": "Remove unsupported attributes like android:useLocalePreferredLineHeightForMinimum so that aapt2 can compile resources.",
-            "name": "LINE remove unsupported attrs",
-            "options": [],
             "use": true
         },
         {
