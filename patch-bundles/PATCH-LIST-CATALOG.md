@@ -46,6 +46,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 LisoUseInAIKyrios Bundle Patch List](#-lisouseInaikyrios-bundle-patch-list)    
 [🧩 AmpleReVanced Bundle Patch List](#-amplerevanced-bundle-patch-list)    
 [🧩 Liaralabs Bundle Patch List](#-liaralabs-bundle-patch-list)    
+[🧩 Areteruhiro Bundle Patch List](#-areteruhiro-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -2284,7 +2285,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 
 ### 🧩 LisoUseInAIKyrios Bundle Patch List:
-[📦 Arsclib-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lisouseInaikyrios-patches-bundle)
+[📦 LisoUseInAIKyrios-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lisouseInaikyrios-patches-bundle)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -2374,7 +2375,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 
 ### 🧩 AmpleReVanced Bundle Patch List:
-[📦 Arsclib-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle)
+[📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -2703,6 +2704,14 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable debugging``` | ```Enables Android debugging capabilities. This can slow down the app. Allows access to app data.``` | ```com.xiaoji.egggame``` | ```All versions``` |
 | ```Fix email login``` | ```Fixes null attribute errors during email logins in 5.3.x by bypassing non-null checks in login flow``` | ```com.xiaoji.egggame``` | ```All versions``` |
 | ```Front-end Export``` | ```Sets exported=true and adds intent-filter for GameDetailActivity, patches gameDetailActivity to avoid NumberFormatException``` | ```com.xiaoji.egggame``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Areteruhiro Bundle Patch List:
+[📦 Areteruhiro-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-areteruhiro-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
 
 </details>
 

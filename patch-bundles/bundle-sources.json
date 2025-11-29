@@ -219,6 +219,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "areteruhiro-stable": {
+        "patches": "https://api.github.com/repos/areteruhiro/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -431,6 +436,11 @@
     },
     "liaralabs-dev": {
         "patches": "https://api.github.com/repos/liaralabs/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "areteruhiro-dev": {
+        "patches": "https://api.github.com/repos/areteruhiro/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -651,6 +661,11 @@
     },
     "liaralabs-latest": {
         "patches": "https://api.github.com/repos/liaralabs/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "areteruhiro-latest": {
+        "patches": "https://api.github.com/repos/areteruhiro/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }
