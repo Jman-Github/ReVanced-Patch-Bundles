@@ -72,6 +72,12 @@ def _squash_whitespace(value: str) -> str:
     return re.sub(r"\s+", " ", str(value)).strip()
 
 
+def _patch_sort_key(info: dict[str, str]) -> tuple[str, str]:
+    apps = _squash_whitespace(info.get("apps", "N/A")).lower()
+    name = _squash_whitespace(info.get("name", "N/A")).lower()
+    return apps, name
+
+
 def format_patch_lines(patches: list[dict[str, str]]) -> list[str]:
     count = len(patches)
     patch_word = "Patch" if count == 1 else "Patches"
@@ -84,7 +90,8 @@ def format_patch_lines(patches: list[dict[str, str]]) -> list[str]:
     lines.append(
         "|----------|---------------|---------------------|-------------------------|"
     )
-    for info in patches:
+    sorted_patches = sorted(patches, key=_patch_sort_key)
+    for info in sorted_patches:
         name_cell = f"```{_squash_whitespace(info.get('name', 'N/A'))}```"
         desc_cell = f"```{_squash_whitespace(info.get('description', 'N/A'))}```"
         apps_cell = f"```{_squash_whitespace(info.get('apps', 'N/A'))}```"
