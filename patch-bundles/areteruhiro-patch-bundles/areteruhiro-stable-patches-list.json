@@ -1,5 +1,5 @@
 {
-    "version": "v182",
+    "version": "v184",
     "patches": [
         {
             "compatiblePackages": {
@@ -2006,12 +2006,12 @@
                 "jp.naver.line.androidd": null
             },
             "dependencies": [],
-            "description": "Rewrite AndroidManifest.xml package name from jp.naver.line.android to the specified package name.",
+            "description": "Rewrite AndroidManifest.xml package name and related permissions.",
             "name": "LINE manifest package rewrite",
             "options": [
                 {
                     "default": "jp.naver.line.androidd",
-                    "description": "AndroidManifest.xml's package will be rewritten from \"jp.naver.line.android\" to this value.",
+                    "description": "AndroidManifest.xml's package and custom permissions will be rewritten.",
                     "key": "lineCustomPackageName",
                     "required": true,
                     "title": "Target LINE package name",

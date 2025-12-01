@@ -2890,7 +2890,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Bypass root checks``` | ```Removes the restriction to use the app with root permissions or on a custom ROM.``` | ```it.ipzs.cieid``` | ```All versions``` |
 | ```LINE Background Service Fix``` | ```Prevent LINE from stopping background service (fix notification delay)``` | ```jp.naver.line.android, jp.naver.line.androidd``` | ```All versions``` |
 | ```LINE Disable Doze``` | ```Force PowerManager.isDeviceIdleMode() to always return false.``` | ```jp.naver.line.android, jp.naver.line.androidd``` | ```All versions``` |
-| ```LINE manifest package rewrite``` | ```Rewrite AndroidManifest.xml package name from jp.naver.line.android to the specified package name.``` | ```jp.naver.line.android, jp.naver.line.androidd``` | ```All versions``` |
+| ```LINE manifest package rewrite``` | ```Rewrite AndroidManifest.xml package name and related permissions.``` | ```jp.naver.line.android, jp.naver.line.androidd``` | ```All versions``` |
 | ```LINE package string rewrite``` | ```Replace all "jp.naver.line.android" string literals with the specified package name.``` | ```jp.naver.line.android, jp.naver.line.androidd``` | ```All versions``` |
 | ```LINE remove unsupported attrs``` | ```Remove unsupported attributes like android:useLocalePreferredLineHeightForMinimum so that aapt2 can compile resources.``` | ```jp.naver.line.android, jp.naver.line.androidd``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```jp.pxv.android``` | ```All versions``` |
