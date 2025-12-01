@@ -2713,7 +2713,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***207 Patches***
+***210 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.bka.serviceportal``` | ```All versions``` |
@@ -2888,7 +2888,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable ads``` | ```N/A``` | ```io.syncapps.lemmy_sync``` | ```All versions``` |
 | ```Unlock premium``` | ```N/A``` | ```io.yuka.android``` | ```4.29``` |
 | ```Bypass root checks``` | ```Removes the restriction to use the app with root permissions or on a custom ROM.``` | ```it.ipzs.cieid``` | ```All versions``` |
-| ```LINE package string rewrite``` | ```Replace all occurrences of "jp.naver.line.android" in string literals with the specified package name.``` | ```jp.naver.line.android, jp.naver.line.androidd``` | ```All versions``` |
+| ```LINE Background Service Fix``` | ```Prevent LINE from stopping background service (fix notification delay)``` | ```jp.naver.line.android, jp.naver.line.androidd``` | ```All versions``` |
+| ```LINE Disable Doze``` | ```Force PowerManager.isDeviceIdleMode() to always return false.``` | ```jp.naver.line.android, jp.naver.line.androidd``` | ```All versions``` |
+| ```LINE package string rewrite``` | ```Replace all "jp.naver.line.android" string literals with the specified package name.``` | ```jp.naver.line.android, jp.naver.line.androidd``` | ```All versions``` |
+| ```LINE remove unsupported attrs``` | ```Remove unsupported attributes like android:useLocalePreferredLineHeightForMinimum so that aapt2 can compile resources.``` | ```jp.naver.line.android, jp.naver.line.androidd``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```jp.pxv.android``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```me.ccrama.redditslide``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```ml.docilealligator.infinityforreddit, ml.docilealligator.infinityforreddit.patreon, ml.docilealligator.infinityforreddit.plus``` | ```All versions``` |

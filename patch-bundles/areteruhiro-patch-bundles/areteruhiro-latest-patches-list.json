@@ -1,5 +1,5 @@
 {
-    "version": "v178",
+    "version": "v180",
     "patches": [
         {
             "compatiblePackages": {
@@ -1984,12 +1984,34 @@
                 "jp.naver.line.androidd": null
             },
             "dependencies": [],
-            "description": "Replace all occurrences of \"jp.naver.line.android\" in string literals with the specified package name.",
+            "description": "Prevent LINE from stopping background service (fix notification delay)",
+            "name": "LINE Background Service Fix",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "jp.naver.line.android": null,
+                "jp.naver.line.androidd": null
+            },
+            "dependencies": [],
+            "description": "Force PowerManager.isDeviceIdleMode() to always return false.",
+            "name": "LINE Disable Doze",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "jp.naver.line.android": null,
+                "jp.naver.line.androidd": null
+            },
+            "dependencies": [],
+            "description": "Replace all \"jp.naver.line.android\" string literals with the specified package name.",
             "name": "LINE package string rewrite",
             "options": [
                 {
                     "default": "jp.naver.line.androidd",
-                    "description": "All occurrences of \"jp.naver.line.android\" in string literals will be rewritten to this value.",
+                    "description": "All string literals exactly equal to \"jp.naver.line.android\" will be rewritten to this value.",
                     "key": "lineCustomPackageName",
                     "required": true,
                     "title": "Target LINE package name",
@@ -1997,6 +2019,17 @@
                     "values": null
                 }
             ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "jp.naver.line.android": null,
+                "jp.naver.line.androidd": null
+            },
+            "dependencies": [],
+            "description": "Remove unsupported attributes like android:useLocalePreferredLineHeightForMinimum so that aapt2 can compile resources.",
+            "name": "LINE remove unsupported attrs",
+            "options": [],
             "use": true
         },
         {
