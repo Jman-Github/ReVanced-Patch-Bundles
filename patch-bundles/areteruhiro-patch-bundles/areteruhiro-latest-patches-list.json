@@ -1,5 +1,5 @@
 {
-    "version": "v184",
+    "version": "v186",
     "patches": [
         {
             "compatiblePackages": {
@@ -1998,27 +1998,6 @@
             "description": "Force PowerManager.isDeviceIdleMode() to always return false.",
             "name": "LINE Disable Doze",
             "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "jp.naver.line.android": null,
-                "jp.naver.line.androidd": null
-            },
-            "dependencies": [],
-            "description": "Rewrite AndroidManifest.xml package name and related permissions.",
-            "name": "LINE manifest package rewrite",
-            "options": [
-                {
-                    "default": "jp.naver.line.androidd",
-                    "description": "AndroidManifest.xml's package and custom permissions will be rewritten.",
-                    "key": "lineCustomPackageName",
-                    "required": true,
-                    "title": "Target LINE package name",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ],
             "use": true
         },
         {
