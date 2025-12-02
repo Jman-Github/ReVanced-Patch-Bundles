@@ -1902,17 +1902,20 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***16 Patches***
+***19 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```com.amazon.avod.thirdpartyclient``` | ```All versions``` |
+| ```Skip ads``` | ```Automatically skips video stream ads.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.430.1747``` |
 | ```Enable Premium``` | ```N/A``` | ```com.avocards``` | ```All versions``` |
-| ```Enable Premium``` | ```N/A``` | ```com.crunchyroll.crunchyroid``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables client-side only premium features. Most functionality is absent as it is verified on the server.``` | ```com.crunchyroll.crunchyroid``` | ```All versions``` |
 | ```Disable Login Integrity``` | ```Removes Play Integrity device attestation from login request.``` | ```com.duolingo``` | ```All versions``` |
-| ```Disable practice reminder nag``` | ```N/A``` | ```com.duolingo``` | ```6.33.2``` |
 | ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```com.duolingo``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.duolingo``` | ```All versions``` |
 | ```Unlock licensed songs``` | ```Allows playing the full version of licensed music instead of the 30-second preview.``` | ```com.duolingo``` | ```All versions``` |
 | ```Unlock Premium``` | ```N/A``` | ```com.merriamwebster``` | ```All versions``` |
+| ```Disable audio ads``` | ```N/A``` | ```com.pandora.android``` | ```All versions``` |
+| ```Enable unlimited skips``` | ```N/A``` | ```com.pandora.android``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.qbis.guessthecountry``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```kr.eggbun.eggconvo``` | ```All versions``` |
 | ```Force Native Keyboard``` | ```When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.``` | ```kr.eggbun.eggconvo``` | ```All versions``` |
