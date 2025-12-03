@@ -1,5 +1,5 @@
 {
-    "version": "v5.47.0-dev.6",
+    "version": "v5.47.0-dev.7",
     "patches": [
         {
             "compatiblePackages": {
@@ -3961,8 +3961,8 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Spoofs country information returned by the SIM card provider.",
-            "name": "Spoof SIM country",
+            "description": "Spoofs information about the SIM card provider.",
+            "name": "Spoof SIM provider",
             "options": [
                 {
                     "default": null,
@@ -4225,6 +4225,24 @@
                 },
                 {
                     "default": null,
+                    "description": "The 5 or 6 digits MCC+MNC (Mobile Country Code + Mobile Network Code) of the network operator.",
+                    "key": "networkOperator",
+                    "required": false,
+                    "title": "MCC+MNC network operator code",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "The full name of the network operator.",
+                    "key": "networkOperatorName",
+                    "required": false,
+                    "title": "Network operator name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
                     "description": "ISO-3166-1 alpha-2 country code equivalent for the SIM provider's country code.",
                     "key": "simCountryIso",
                     "required": false,
@@ -4481,6 +4499,24 @@
                         "Zimbabwe": "ZW",
                         "Åland Islands": "AX"
                     }
+                },
+                {
+                    "default": null,
+                    "description": "The 5 or 6 digits MCC+MNC (Mobile Country Code + Mobile Network Code) of the SIM operator.",
+                    "key": "simOperator",
+                    "required": false,
+                    "title": "MCC+MNC SIM operator code",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "The full name of the SIM operator.",
+                    "key": "simOperatorName",
+                    "required": false,
+                    "title": "SIM operator name",
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ],
             "use": false
