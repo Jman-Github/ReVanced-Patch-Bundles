@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.8.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -41,6 +41,16 @@
         },
         {
             "compatiblePackages": {
+                "com.pandora.android": null
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Disable audio ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.duolingo": null
             },
             "dependencies": [],
@@ -48,18 +58,6 @@
             "name": "Disable Login Integrity",
             "options": [],
             "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.duolingo": [
-                    "6.33.2"
-                ]
-            },
-            "dependencies": [],
-            "description": null,
-            "name": "Disable practice reminder nag",
-            "options": [],
-            "use": false
         },
         {
             "compatiblePackages": {
@@ -100,6 +98,18 @@
                 "com.crunchyroll.crunchyroid": null
             },
             "dependencies": [],
+            "description": "Enables client-side only premium features. Most functionality is absent as it is verified on the server.",
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "kr.co.yjteam.dailypay": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": null,
             "name": "Enable Premium",
             "options": [],
@@ -160,6 +170,48 @@
         },
         {
             "compatiblePackages": {
+                "com.merriamwebster": null
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "org.totschnig.myexpenses": [
+                    "3.9.8"
+                ]
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Enable Pro",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.pandora.android": null
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Enable unlimited skips",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "kr.eggbun.eggconvo": null
+            },
+            "dependencies": [],
+            "description": "When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.",
+            "name": "Force Native Keyboard",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "net.teuida.teuida": null
             },
             "dependencies": [
@@ -187,6 +239,30 @@
         },
         {
             "compatiblePackages": {
+                "com.amazon.avod.thirdpartyclient": null
+            },
+            "dependencies": [],
+            "description": "Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.",
+            "name": "Rename shared permissions",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.amazon.avod.thirdpartyclient": [
+                    "3.0.430.1747"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Automatically skips video stream ads.",
+            "name": "Skip ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.duolingo": null
             },
             "dependencies": [],
@@ -194,28 +270,6 @@
             "name": "Unlock licensed songs",
             "options": [],
             "use": false
-        },
-        {
-            "compatiblePackages": {
-                "com.merriamwebster": null
-            },
-            "dependencies": [],
-            "description": null,
-            "name": "Unlock Premium",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "org.totschnig.myexpenses": [
-                    "3.9.8"
-                ]
-            },
-            "dependencies": [],
-            "description": null,
-            "name": "Unlock Pro",
-            "options": [],
-            "use": true
         }
     ]
 }
