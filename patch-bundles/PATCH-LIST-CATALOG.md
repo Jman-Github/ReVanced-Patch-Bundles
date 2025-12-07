@@ -602,7 +602,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***65 Patches***
+***66 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add ability to copy media link``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
@@ -651,6 +651,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide immersive player``` | ```Removes swipe up for more videos in video player``` | ```com.twitter.android``` | ```All versions``` |
 | ```Hide Live Threads``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Hide nudge button``` | ```Hides follow/subscribe/follow back buttons on posts``` | ```com.twitter.android``` | ```All versions``` |
+| ```Hide post metrics``` | ```Hides like, reposts etc counts.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Hide promote button``` | ```Hides promote button under self posts``` | ```com.twitter.android``` | ```All versions``` |
 | ```Hide Recommended Users``` | ```Hide recommended users that pops up when you follow someone``` | ```com.twitter.android``` | ```All versions``` |
 | ```Hide timeline posts by category``` | ```Hides different post category like who to follow, news today etc from timeline.``` | ```com.twitter.android``` | ```All versions``` |

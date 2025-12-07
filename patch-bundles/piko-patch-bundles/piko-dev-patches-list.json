@@ -1,5 +1,5 @@
 {
-    "version": "v2.0.0-dev.13",
+    "version": "v2.0.0-dev.14",
     "patches": [
         {
             "compatiblePackages": {
@@ -598,6 +598,18 @@
             ],
             "description": "Hides follow/subscribe/follow back buttons on posts",
             "name": "Hide nudge button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides like, reposts etc counts.",
+            "name": "Hide post metrics",
             "options": [],
             "use": true
         },
