@@ -54,7 +54,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***252 Patches***
+***254 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.bka.serviceportal``` | ```All versions``` |
@@ -65,6 +65,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide ads``` | ```Hides all in-app ads.``` | ```at.willhaben``` | ```All versions``` |
 | ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail mobile' signature from emails.``` | ```ch.protonmail.android``` | ```4.15.0``` |
 | ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```ch.protonmail.android``` | ```4.15.0``` |
+| ```Remove delay``` | ```Removes the delay when changing servers.``` | ```ch.protonvpn.android``` | ```All versions``` |
 | ```Disable mandatory login``` | ```N/A``` | ```com.adobe.lrmobile``` | ```9.3.0``` |
 | ```Unlock Premium``` | ```N/A``` | ```com.adobe.lrmobile``` | ```9.3.0``` |
 | ```Playback speed``` | ```Adds playback speed controls to the video player.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.412.2947``` |
@@ -170,6 +171,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Wide search bar``` | ```Adds an option to replace the search icon with a wide search bar. This will hide the YouTube logo when active.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Anonymous story viewing``` | ```View stories without sending any information to the server. Your view will not appear in the story viewers list. Note: Since no data is sent, a story you have already viewed may appear as new on another device.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Change link sharing domain``` | ```Replaces the domain name of shared links.``` | ```com.instagram.android``` | ```All versions``` |
+| ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Disable signature check``` | ```Disables the signature check that can cause the app to crash on startup. Including this patch may cause issues with sharing or opening external Instagram links.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Disable story auto flipping``` | ```Disable stories automatically flipping/skipping after some seconds.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Enable developer menu``` | ```Enables the developer menu, which can be found at the bottom of settings menu with name 'Internal Settings'. It is recommended to use this patch with an alpha/beta Instagram release. Patching a stable release works, but the developer menu shows the developer flags as numbers and does not show a human readable description.``` | ```com.instagram.android``` | ```All versions``` |
