@@ -1,5 +1,5 @@
 {
-    "version": "v5.47.0-dev.10",
+    "version": "v5.47.0-dev.11",
     "patches": [
         {
             "compatiblePackages": {
@@ -3368,6 +3368,16 @@
             "name": "SIM spoof",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.disney.disneyplus": null
+            },
+            "dependencies": [],
+            "description": "Automatically skips ads.",
+            "name": "Skip ads",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
