@@ -1,5 +1,5 @@
 {
-    "version": "v5.47.0-dev.12",
+    "version": "v5.47.0-dev.13",
     "patches": [
         {
             "compatiblePackages": {
@@ -1927,6 +1927,16 @@
                 "BytecodePatch"
             ],
             "description": "Hide ads and sponsored articles in list pages and remove pre-roll ads on videos.",
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.peacocktv.peacockandroid": null
+            },
+            "dependencies": [],
+            "description": "Hides all video ads.",
             "name": "Hide ads",
             "options": [],
             "use": true
