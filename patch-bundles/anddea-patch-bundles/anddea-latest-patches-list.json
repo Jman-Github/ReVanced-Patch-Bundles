@@ -1,5 +1,5 @@
 {
-    "version": "v3.15.0-dev.5",
+    "version": "v3.15.0-dev.6",
     "patches": [
         {
             "compatiblePackages": {
@@ -3399,6 +3399,50 @@
             "description": "Adds options to hide or change components located on the toolbar, such as the search bar, header, and toolbar buttons.",
             "name": "Toolbar components",
             "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2024.17.0",
+                    "2025.05.1",
+                    "2025.12.1"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit"
+            ],
+            "description": "Add translations for RVX settings.",
+            "name": "Translations for Reddit",
+            "options": [
+                {
+                    "default": "",
+                    "description": "The path to the 'strings.xml' file.\nPlease note that applying the 'strings.xml' file will overwrite all existing translations.",
+                    "key": "customTranslations",
+                    "required": true,
+                    "title": "Custom translations",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "ar, az-rAZ, bg-rBG, da-rDK, de-rDE, el-rGR, es-rES, fil-rPH, fr-rFR, hu-rHU, id-rID, in, it-rIT, iw-rIL, ja-rJP, ko-rKR, pl-rPL, pt-rBR, ru-rRU, tr-rTR, uk-rUA, vi-rVN, zh-rCN, zh-rTW",
+                    "description": "A list of translations to be added for the RVX settings, separated by commas.",
+                    "key": "selectedTranslations",
+                    "required": true,
+                    "title": "Translations to add",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "af, am, ar, ar-rXB, as, az, b+es+419, b+sr+Latn, be, bg, bn, bs, ca, cs, da, de, el, en-rAU, en-rCA, en-rGB, en-rIN, en-rXA, en-rXC, es, es-rUS, et, eu, fa, fi, fil-rPH, fr, fr-rCA, gl, gu, hi, hr, hu, hy, id, in, is, it, iw, ja, ka, kk, km, kn, ko, ky, lo, lt, lv, mk, ml, mn, mr, ms, my, nb, ne, nl, no, or, pa, pl, pt, pt-rBR, pt-rPT, ro, ru, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, uk, ur, uz, vi, zh, zh-rCN, zh-rHK, zh-rTW, zu",
+                    "description": "A list of string resources to be kept, separated by commas.\nString resources not in the list will be removed from the app.\n\nDefault string resource, English, is not removed.",
+                    "key": "selectedStringResources",
+                    "required": true,
+                    "title": "String resources to keep",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
             "use": true
         },
         {
