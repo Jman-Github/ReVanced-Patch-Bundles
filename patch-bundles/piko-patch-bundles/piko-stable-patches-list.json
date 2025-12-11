@@ -5,11 +5,12 @@
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
             "name": "Add ability to copy media link",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -20,7 +21,6 @@
             "description": "Bring back old twitter logo and name",
             "name": "Bring back twitter",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -31,183 +31,204 @@
             "description": "Removes tracking parameters when sharing links",
             "name": "Clear tracking params",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Control video auto scroll in immersive view",
             "name": "Control video auto scroll",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Change the download directory for video downloads",
             "name": "Custom download folder",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch",
+                "TweetEntityPatch",
+                "ExtMediaEntityPatch",
+                "ResourceMappingPatch"
+            ],
             "description": "Requires X 11.0.0-release.0 or higher.",
             "name": "Custom downloader",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Allows for using domains like fxtwitter when sharing tweets/posts.",
             "name": "Custom sharing domain",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch",
+                "TweetEntityPatch",
+                "TweetInfoEntityPatch",
+                "ResourceMappingPatch"
+            ],
             "description": "Requires X 11.0.0-release.0 or higher.",
             "name": "Custom translator",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
             "name": "Customise post font size",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
             "name": "Customize explore tabs",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
             "name": "Customize Inline action Bar items",
             "options": [],
-            "requiresIntegrations": true,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
             "name": "Customize Navigation Bar items",
             "options": [],
-            "requiresIntegrations": true,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
             "name": "Customize profile tabs",
             "options": [],
-            "requiresIntegrations": true,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
             "name": "Customize reply sort filter",
             "options": [],
-            "requiresIntegrations": true,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
             "name": "Customize search suggestions",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
             "name": "Customize search tab items",
             "options": [],
-            "requiresIntegrations": true,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
             "name": "Customize side bar items",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
             "name": "Customize timeline top bar",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Delete entries from database(cache)",
             "name": "Delete from database",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -215,21 +236,22 @@
                 "com.twitter.android": []
             },
             "dependencies": [],
-            "description": null,
+            "description": "",
             "name": "Disable auto timeline scroll on launch",
             "options": [],
-            "requiresIntegrations": true,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch",
+                "Hook feature flag"
+            ],
+            "description": "",
             "name": "Disable chirp font",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -240,7 +262,6 @@
             "description": "Unlocks the ability to download videos and gifs from Twitter/X",
             "name": "Download patch",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -251,7 +272,6 @@
             "description": "Replaces the default Blue accent with the user's Material You palette and Dim, Light Theme with Full Material Design.",
             "name": "Dynamic color",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -260,73 +280,78 @@
             "description": "Sets app version to a default value making installation of different versions possible",
             "name": "Enable app downgrading",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
             "name": "Enable app icons",
             "options": [],
-            "requiresIntegrations": true,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
             "name": "Enable debug menu for posts",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Videos will be played in highest quality always",
             "name": "Enable force HD videos",
             "options": [],
-            "requiresIntegrations": true,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Enables PiP mode when you close the app",
             "name": "Enable PiP mode automatically",
             "options": [],
-            "requiresIntegrations": true,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Enables \"Reader Mode\" on long threads. Requires X 10.72.2-release.0 or earlier.",
             "name": "Enable Reader Mode",
             "options": [],
-            "requiresIntegrations": true,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Enables ability to undo posts before posting",
             "name": "Enable Undo Posts",
             "options": [],
-            "requiresIntegrations": true,
             "use": true
         },
         {
@@ -335,264 +360,242 @@
             "description": "Makes all app activities exportable.",
             "name": "Export all activities",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch",
+                "TweetInfoHook"
+            ],
             "description": "Get translate option for all posts",
             "name": "Force enable translate",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "HandleCustomDeepLinksPatch"
+            ],
             "description": "Adds support for opening custom twitter links such as vxtwitter, fxtwitter, fixupx, etc. within the appThese will have to be manually enabled under the \"Verified Links\" section of the patched app's system settings!",
             "name": "Handle custom twitter links",
-            "options": [
-                {
-                    "default": [
-                        "vxtwitter.com",
-                        "m.vxtwitter.com",
-                        "g.vxtwitter.com",
-                        "t.vxtwitter.com",
-                        "o.vxtwitter.com",
-                        "mobile.vxtwitter.com",
-                        "fixvx.com",
-                        "m.fixvx.com",
-                        "g.fixvx.com",
-                        "t.fixvx.com",
-                        "o.fixvx.com",
-                        "mobile.fixvx.com",
-                        "fxtwitter.com",
-                        "m.fxtwitter.com",
-                        "g.fxtwitter.com",
-                        "t.fxtwitter.com",
-                        "o.fxtwitter.com",
-                        "fixupx.com",
-                        "m.fxtwitter.com",
-                        "g.fxtwitter.com",
-                        "t.fxtwitter.com",
-                        "o.fixupx.com",
-                        "twittpr.com",
-                        "m.twittpr.com",
-                        "g.twittpr.com",
-                        "t.twittpr.com",
-                        "hitlerx.com",
-                        "m.hitlerx.com",
-                        "g.hitlerx.com",
-                        "t.hitlerx.com",
-                        "o.hitlerx.com",
-                        "girlcockx.com",
-                        "m.girlcockx.com",
-                        "g.girlcockx.com",
-                        "t.girlcockx.com",
-                        "stupidpenisx.com",
-                        "cunnyx.com",
-                        "autistic.kids"
-                    ],
-                    "description": "The custom sharing domains to register to be opened in Twitter",
-                    "key": "customLinkHosts",
-                    "required": true,
-                    "title": "Custom sharing domains",
-                    "values": null
-                }
-            ],
-            "requiresIntegrations": false,
+            "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Hide new post banner",
             "name": "Hide Banner",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch",
+                "Hook feature flag"
+            ],
+            "description": "",
             "name": "Hide bookmark icon in timeline",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
             "name": "Hide community badges",
             "options": [],
-            "requiresIntegrations": true,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch",
+                "TweetInfoHook"
+            ],
+            "description": "",
             "name": "Hide Community Notes",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Adds an option to hide Floating action button",
             "name": "Hide FAB",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch",
+                "Hook feature flag"
+            ],
+            "description": "",
             "name": "Hide FAB Menu Buttons",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Hides followed by context under profile",
             "name": "Hide followed by context",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
             "name": "Hide hidden replies",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch",
+                "Hook feature flag"
+            ],
             "description": "Removes swipe up for more videos in video player",
             "name": "Hide immersive player",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
             "name": "Hide Live Threads",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Hides follow/subscribe/follow back buttons on posts",
             "name": "Hide nudge button",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch",
+                "TweetInfoHook"
+            ],
             "description": "Hides promote button under self posts",
             "name": "Hide promote button",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch"
+            ],
+            "description": "",
             "name": "Hide Promoted Trends",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Hide recommended users that pops up when you follow someone",
             "name": "Hide Recommended Users",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "FeatureFlagResourcePatch",
+                "SettingsPatch"
+            ],
+            "description": "",
             "name": "Hook feature flag",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Log json responses received from server",
             "name": "Log server response",
             "options": [],
-            "requiresIntegrations": true,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch",
+                "ResourceMappingPatch"
+            ],
             "description": "Requires X 11.0.0-release.0 or higher.",
             "name": "Native reader mode",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -603,238 +606,273 @@
             "description": "Get rid of t.co short urls.",
             "name": "No shortened URL",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch",
+                "TimelineEntryHookPatch"
+            ],
+            "description": "",
             "name": "Remove \"Communities to join\" Banner",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch",
+                "TimelineEntryHookPatch"
+            ],
+            "description": "",
             "name": "Remove \"Creators to subscribe\" Banner",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch",
+                "TimelineEntryHookPatch"
+            ],
+            "description": "",
             "name": "Remove \"Pinned posts by followers\" Banner",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch",
+                "TimelineEntryHookPatch"
+            ],
+            "description": "",
             "name": "Remove \"Revisit Bookmark\" Banner",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch",
+                "TimelineEntryHookPatch"
+            ],
+            "description": "",
             "name": "Remove \"Today's News\"",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch",
+                "TimelineEntryHookPatch"
+            ],
+            "description": "",
             "name": "Remove \"Who to follow\" Banner",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch",
+                "TimelineEntryHookPatch"
+            ],
+            "description": "",
             "name": "Remove Ads",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch",
+                "TimelineEntryHookPatch"
+            ],
             "description": "Removes related posts in replies",
             "name": "Remove Detailed posts",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch",
+                "TimelineEntryHookPatch"
+            ],
+            "description": "",
             "name": "Remove Google Ads",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch",
+                "TimelineEntryHookPatch"
+            ],
             "description": "Removes main event (Paris) from Explore page",
             "name": "Remove main event",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
-            "description": null,
+            "dependencies": [
+                "SettingsPatch",
+                "TimelineEntryHookPatch"
+            ],
+            "description": "",
             "name": "Remove message prompts Banner",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Removes premium upsell in home timeline",
             "name": "Remove premium upsell",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch",
+                "TimelineEntryHookPatch"
+            ],
             "description": "Removes superhero event from Explore page",
             "name": "Remove superhero event",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch",
+                "TimelineEntryHookPatch"
+            ],
             "description": "Removes people section after search",
             "name": "Remove top people in search",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch",
+                "TimelineModuleItemHookPatch"
+            ],
             "description": "Removes \"videos for you\" from explore",
             "name": "Remove videos for you",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch",
+                "Hook feature flag"
+            ],
             "description": "Removes the view count from the bottom of tweets",
             "name": "Remove view count",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Enable or disable rounding off numbers",
             "name": "Round off numbers",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Makes bio and username selectable",
             "name": "Selectable Text",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Adds an option to show poll results without voting",
             "name": "Show poll results",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Source label will be shown only on public posts",
             "name": "Show post source label",
             "options": [],
-            "requiresIntegrations": true,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsPatch"
+            ],
             "description": "Shows sensitive media",
             "name": "Show sensitive media",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         }
     ]
