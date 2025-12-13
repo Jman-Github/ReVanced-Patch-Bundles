@@ -1,5 +1,5 @@
 {
-    "version": "v5.14.1-dev.4",
+    "version": "v5.14.1-dev.5",
     "patches": [
         {
             "compatiblePackages": {
@@ -832,6 +832,49 @@
             "name": "Disable edge-to-edge display",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "6.20.51",
+                    "6.29.59",
+                    "6.42.55",
+                    "6.51.53",
+                    "7.16.53",
+                    "7.25.53",
+                    "8.12.54",
+                    "8.28.54",
+                    "8.30.54"
+                ]
+            },
+            "dependencies": [
+                "Settings for YouTube Music",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to disable audio tracks from being automatically enabled.",
+            "name": "Disable forced auto audio tracks",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.05.36",
+                    "19.16.39",
+                    "19.43.41",
+                    "19.44.39",
+                    "19.47.53",
+                    "20.05.46"
+                ]
+            },
+            "dependencies": [
+                "Settings for YouTube",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to disable audio tracks from being automatically enabled.",
+            "name": "Disable forced auto audio tracks",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
