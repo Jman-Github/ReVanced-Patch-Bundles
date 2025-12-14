@@ -1,5 +1,5 @@
 {
-    "version": "v2.0.0-dev.16",
+    "version": "v2.0.0-dev.17",
     "patches": [
         {
             "compatiblePackages": {
@@ -325,6 +325,18 @@
             ],
             "description": null,
             "name": "Disable chirp font",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Bring back legacy features like messages and share sheet.",
+            "name": "Disunify xchat system",
             "options": [],
             "use": true
         },

@@ -607,7 +607,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***66 Patches***
+***67 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add ability to copy media link``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
@@ -636,6 +636,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Delete from database``` | ```Delete entries from database(cache)``` | ```com.twitter.android``` | ```All versions``` |
 | ```Disable auto timeline scroll on launch``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Disable chirp font``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Disunify xchat system``` | ```Bring back legacy features like messages and share sheet.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Download patch``` | ```Unlocks the ability to download videos and gifs from Twitter/X``` | ```com.twitter.android``` | ```All versions``` |
 | ```Dynamic color``` | ```Replaces the default Twitter Blue with the user's Material You palette.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Enable debug menu for posts``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
