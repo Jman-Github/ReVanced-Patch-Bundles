@@ -1,5 +1,5 @@
 {
-    "version": "v3.15.0-dev.6",
+    "version": "v3.15.0-dev.7",
     "patches": [
         {
             "compatiblePackages": {
@@ -1003,7 +1003,7 @@
             },
             "dependencies": [
                 "Settings for YouTube Music",
-                "BytecodePatch"
+                "ResourcePatch"
             ],
             "description": "Adds an option to disable audio tracks from being automatically enabled.",
             "name": "Disable forced auto audio tracks",
@@ -1023,7 +1023,7 @@
             },
             "dependencies": [
                 "Settings for YouTube",
-                "BytecodePatch"
+                "ResourcePatch"
             ],
             "description": "Adds an option to disable audio tracks from being automatically enabled.",
             "name": "Disable forced auto audio tracks",
