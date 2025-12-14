@@ -1,5 +1,5 @@
 {
-    "version": "v5.46.2",
+    "version": "v5.46.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -1519,7 +1519,10 @@
             "compatiblePackages": {
                 "com.rubenmayayo.reddit": null
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch",
+                "Intercept HTTP requests"
+            ],
             "description": "Fixes audio missing in videos downloaded from v.redd.it.",
             "name": "Fix missing audio in video downloads",
             "options": [],
