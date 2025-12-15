@@ -1,5 +1,5 @@
 {
-    "version": "v5.47.0-dev.15",
+    "version": "v5.47.0-dev.16",
     "patches": [
         {
             "compatiblePackages": {
@@ -1149,6 +1149,18 @@
             "dependencies": [],
             "description": "Disables the indicator while typing a message.",
             "name": "Disable typing indicator",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.adobe.lrmobile": [
+                    "9.3.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the server-side version check that prevents the app from starting.",
+            "name": "Disable version check",
             "options": [],
             "use": true
         },
@@ -2944,6 +2956,16 @@
         },
         {
             "compatiblePackages": {
+                "at.gv.oe.app": null
+            },
+            "dependencies": [],
+            "description": "Removes the check for root permissions and unlocked bootloader.",
+            "name": "Remove device integrity checks",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.apps.recorder": null
             },
             "dependencies": [],
@@ -3023,16 +3045,6 @@
         {
             "compatiblePackages": {
                 "at.gv.bmf.bmf2go": null
-            },
-            "dependencies": [],
-            "description": "Removes the check for root permissions and unlocked bootloader.",
-            "name": "Remove root detection",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "at.gv.oe.app": null
             },
             "dependencies": [],
             "description": "Removes the check for root permissions and unlocked bootloader.",

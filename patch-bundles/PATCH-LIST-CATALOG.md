@@ -54,19 +54,20 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***256 Patches***
+***257 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.bka.serviceportal``` | ```All versions``` |
 | ```Remove bootloader detection``` | ```Removes the check for an unlocked bootloader.``` | ```at.gv.bmf.bmf2go``` | ```All versions``` |
 | ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.bmf.bmf2go``` | ```All versions``` |
-| ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.oe.app``` | ```All versions``` |
+| ```Remove device integrity checks``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.oe.app``` | ```All versions``` |
 | ```Spoof signature``` | ```Spoofs the signature of the app.``` | ```at.gv.oe.app``` | ```All versions``` |
 | ```Hide ads``` | ```Hides all in-app ads.``` | ```at.willhaben``` | ```All versions``` |
 | ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail mobile' signature from emails.``` | ```ch.protonmail.android``` | ```4.15.0``` |
 | ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```ch.protonmail.android``` | ```4.15.0``` |
 | ```Remove delay``` | ```Removes the delay when changing servers.``` | ```ch.protonvpn.android``` | ```All versions``` |
 | ```Disable mandatory login``` | ```N/A``` | ```com.adobe.lrmobile``` | ```9.3.0``` |
+| ```Disable version check``` | ```Disables the server-side version check that prevents the app from starting.``` | ```com.adobe.lrmobile``` | ```9.3.0``` |
 | ```Unlock Premium``` | ```N/A``` | ```com.adobe.lrmobile``` | ```9.3.0``` |
 | ```Playback speed``` | ```Adds playback speed controls to the video player.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.412.2947``` |
 | ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```com.amazon.avod.thirdpartyclient``` | ```All versions``` |
