@@ -812,7 +812,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable Undo feature for Gboard``` | ```Enables undo feature to quickly undo or correct typing mistakes.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
 | ```Disable screenshot banner``` | ```Disables the banner that shows up after taking a screenshot.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Hide upvote scores``` | ```Hides the scores on Reddit posts and comments.``` | ```com.reddit.frontpage``` | ```All versions``` |
-| ```Remove ads, annoyances, and telemetry``` | ```Removes ads, annoyances, and telemetry from Home, Popular, Watch, Latest, All, Custom feeds, Search, and Subreddits, including comments.``` | ```com.reddit.frontpage``` | ```All versions``` |
+| ```Remove ads and telemetry``` | ```Removes ads and telemetry from Home, Popular, Watch, Latest, All, Custom feeds, Search, and Subreddits, including comments.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Sanitize share links``` | ```Unshortens and removes the tracking query parameters from shared links.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Block ads, trackers, and analytics``` | ```Blocks ads, trackers, analytics, and unwanted content in apps and games using a hosts file.``` | ```Universal``` | ```All versions``` |
 | ```Bypass signature verification checks``` | ```Bypasses the signature verification checks when the app starts up. It is recommended to use the unmodified app to work properly.``` | ```Universal``` | ```All versions``` |
