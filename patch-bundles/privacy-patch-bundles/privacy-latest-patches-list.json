@@ -1,5 +1,5 @@
 {
-    "version": "v4.3.0",
+    "version": "v4.4.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -312,6 +312,35 @@
             "description": "Enables undo feature to quickly undo or correct typing mistakes.",
             "name": "Enable Undo feature for Gboard",
             "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
+            "dependencies": [],
+            "description": "Hides the scores on Reddit posts and comments.",
+            "name": "Hide upvote scores",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Removes scores from posts in feeds and search results.",
+                    "key": "hidePostScores",
+                    "required": false,
+                    "title": "Hide post scores",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes scores from comments in threads and search results.",
+                    "key": "hideCommentScores",
+                    "required": false,
+                    "title": "Hide comment scores",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ],
             "use": false
         },
         {
