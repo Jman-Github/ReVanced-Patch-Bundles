@@ -1,5 +1,5 @@
 {
-    "version": "v4.4.0-dev.3",
+    "version": "v4.4.0-dev.4",
     "patches": [
         {
             "compatiblePackages": {
@@ -311,6 +311,16 @@
             ],
             "description": "Enables undo feature to quickly undo or correct typing mistakes.",
             "name": "Enable Undo feature for Gboard",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
+            "dependencies": [],
+            "description": "Hides the share count on Reddit posts.",
+            "name": "Hide share count",
             "options": [],
             "use": false
         },
