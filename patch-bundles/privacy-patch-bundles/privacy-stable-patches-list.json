@@ -1,5 +1,5 @@
 {
-    "version": "v4.3.0",
+    "version": "v4.4.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -319,8 +319,47 @@
                 "com.reddit.frontpage": null
             },
             "dependencies": [],
-            "description": "Removes ads, annoyances, and telemetry from Home, Popular, Watch, Latest, All, Custom feeds, Search, and Subreddits, including comments.",
-            "name": "Remove ads, annoyances, and telemetry",
+            "description": "Hides the share count on Reddit posts.",
+            "name": "Hide share count",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
+            "dependencies": [],
+            "description": "Hides the scores on Reddit posts and comments.",
+            "name": "Hide upvote scores",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Removes scores from posts in feeds and search results.",
+                    "key": "hidePostScores",
+                    "required": false,
+                    "title": "Hide post scores",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes scores from comments in threads and search results.",
+                    "key": "hideCommentScores",
+                    "required": false,
+                    "title": "Hide comment scores",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
+            "dependencies": [],
+            "description": "Removes ads and telemetry from Home, Popular, Watch, Latest, All, Custom feeds, Search, and Subreddits, including comments.",
+            "name": "Remove ads and telemetry",
             "options": [],
             "use": true
         },
@@ -348,6 +387,37 @@
             "description": "Spoofs the device's advertising ID with a string of zeros.",
             "name": "Spoof Advertising ID",
             "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Toggles Gboard feature flags to enable or disable experimental or hidden features",
+            "name": "Toggle feature flags",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The Gboard feature flags to toggle, such as experimental or hidden features.",
+                    "key": "featureFlags",
+                    "required": true,
+                    "title": "Feature flags",
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Enables or disables all specified feature flags.",
+                    "key": "enableFlags",
+                    "required": false,
+                    "title": "Enable feature flags",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ],
             "use": false
         }
     ]
