@@ -1,5 +1,5 @@
 {
-    "version": "v5.47.0-dev.17",
+    "version": "v5.47.0-dev.18",
     "patches": [
         {
             "compatiblePackages": {
@@ -3390,7 +3390,9 @@
         },
         {
             "compatiblePackages": {
-                "com.disney.disneyplus": null
+                "com.disney.disneyplus": null,
+                "in.startv.hotstar": null,
+                "in.startv.hotstaronly": null
             },
             "dependencies": [],
             "description": "Automatically skips ads.",
