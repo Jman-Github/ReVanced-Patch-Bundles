@@ -1,5 +1,5 @@
 {
-    "version": "v5.47.0-dev.16",
+    "version": "v5.47.0-dev.17",
     "patches": [
         {
             "compatiblePackages": {
@@ -1967,12 +1967,9 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0"
-                ]
+                "com.reddit.frontpage": null
             },
             "dependencies": [
-                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
