@@ -1,10 +1,10 @@
 {
-    "version": "v5.46.0-ample.4",
+    "version": "v5.47.0-ample.1",
     "patches": [
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [
@@ -42,7 +42,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [
@@ -78,7 +78,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -90,7 +90,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -133,7 +133,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -159,6 +159,16 @@
             "name": "Announcements",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [],
+            "description": "View stories without sending any information to the server. \nYour view will not appear in the story viewers list. \nNote: Since no data is sent, a story you have already viewed may appear as new on another device.",
+            "name": "Anonymous story viewing",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -261,7 +271,7 @@
         {
             "compatiblePackages": {
                 "com.dcinside.app.android": [
-                    "5.2.2"
+                    "5.2.4"
                 ]
             },
             "dependencies": [],
@@ -293,7 +303,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -305,7 +315,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -480,7 +490,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [
@@ -623,7 +633,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [
@@ -892,7 +902,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -904,7 +914,7 @@
         {
             "compatiblePackages": {
                 "com.dcinside.app.android": [
-                    "5.2.2"
+                    "5.2.4"
                 ]
             },
             "dependencies": [
@@ -918,7 +928,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -930,7 +940,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -942,7 +952,7 @@
         {
             "compatiblePackages": {
                 "com.dcinside.app.android": [
-                    "5.2.2"
+                    "5.2.4"
                 ]
             },
             "dependencies": [],
@@ -1071,7 +1081,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -1083,7 +1093,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -1095,7 +1105,7 @@
         {
             "compatiblePackages": {
                 "com.dcinside.app.android": [
-                    "5.2.2"
+                    "5.2.4"
                 ]
             },
             "dependencies": [],
@@ -1137,7 +1147,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -1149,7 +1159,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -1208,7 +1218,7 @@
         {
             "compatiblePackages": {
                 "com.dcinside.app.android": [
-                    "5.2.2"
+                    "5.2.4"
                 ]
             },
             "dependencies": [],
@@ -1281,6 +1291,16 @@
         },
         {
             "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [],
+            "description": "Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.",
+            "name": "Disable Reels scrolling",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
                     "20.07.39",
@@ -1320,7 +1340,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -1342,7 +1362,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [
@@ -1356,7 +1376,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -1390,10 +1410,20 @@
                 "com.instagram.android": null
             },
             "dependencies": [],
-            "description": "Disables the signature check that causes the app to crash on startup.",
+            "description": "Disables the signature check that can cause the app to crash on startup. Including this patch may cause issues with sharing or opening external Instagram links.",
             "name": "Disable signature check",
             "options": [],
-            "use": true
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [],
+            "description": "Disable stories automatically flipping/skipping after some seconds.",
+            "name": "Disable story auto flipping",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -1434,7 +1464,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -1493,7 +1523,7 @@
         {
             "compatiblePackages": {
                 "com.dcinside.app.android": [
-                    "5.2.2"
+                    "5.2.4"
                 ]
             },
             "dependencies": [],
@@ -1505,12 +1535,24 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
             "description": "Disables the signature verification check that prevents the app from running.",
             "name": "Disable verifying signature",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.adobe.lrmobile": [
+                    "9.3.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the server-side version check that prevents the app from starting.",
+            "name": "Disable version check",
             "options": [],
             "use": true
         },
@@ -1595,7 +1637,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -1713,7 +1755,7 @@
         {
             "compatiblePackages": {
                 "com.dcinside.app.android": [
-                    "5.2.2"
+                    "5.2.4"
                 ]
             },
             "dependencies": [],
@@ -1725,7 +1767,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -1737,7 +1779,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -1767,7 +1809,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -2027,7 +2069,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -2039,7 +2081,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -2101,7 +2143,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -2357,6 +2399,16 @@
         },
         {
             "compatiblePackages": {
+                "com.letterboxd.letterboxd": null
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.myfitnesspal.android": [
                     "24.14.2"
                 ]
@@ -2381,6 +2433,16 @@
         },
         {
             "compatiblePackages": {
+                "com.peacocktv.peacockandroid": null
+            },
+            "dependencies": [],
+            "description": "Hides all video ads.",
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "jp.pxv.android": [
                     "6.141.1"
                 ]
@@ -2393,12 +2455,9 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0"
-                ]
+                "com.reddit.frontpage": null
             },
             "dependencies": [
-                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -2639,7 +2698,7 @@
         {
             "compatiblePackages": {
                 "com.dcinside.app.android": [
-                    "5.2.2"
+                    "5.2.4"
                 ]
             },
             "dependencies": [],
@@ -3021,7 +3080,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [
@@ -3035,7 +3094,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [
@@ -3221,7 +3280,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [
@@ -3252,7 +3311,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -3419,7 +3478,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -3450,6 +3509,26 @@
         },
         {
             "compatiblePackages": {
+                "ch.protonvpn.android": null
+            },
+            "dependencies": [],
+            "description": "Removes the delay when changing servers.",
+            "name": "Remove delay",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "at.gv.oe.app": null
+            },
+            "dependencies": [],
+            "description": "Removes the check for root permissions and unlocked bootloader.",
+            "name": "Remove device integrity checks",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.apps.recorder": null
             },
             "dependencies": [],
@@ -3461,7 +3540,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -3483,7 +3562,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -3531,7 +3610,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -3543,7 +3622,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -3567,7 +3646,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -3589,16 +3668,6 @@
         {
             "compatiblePackages": {
                 "at.gv.bmf.bmf2go": null
-            },
-            "dependencies": [],
-            "description": "Removes the check for root permissions and unlocked bootloader.",
-            "name": "Remove root detection",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "at.gv.oe.app": null
             },
             "dependencies": [],
             "description": "Removes the check for root permissions and unlocked bootloader.",
@@ -3659,7 +3728,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -3671,7 +3740,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -3935,7 +4004,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [
@@ -3984,6 +4053,18 @@
             "name": "SIM spoof",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.disney.disneyplus": null,
+                "in.startv.hotstar": null,
+                "in.startv.hotstaronly": null
+            },
+            "dependencies": [],
+            "description": "Automatically skips ads.",
+            "name": "Skip ads",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
@@ -4069,7 +4150,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -4081,7 +4162,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -4609,7 +4690,7 @@
         {
             "compatiblePackages": {
                 "com.dcinside.app.android": [
-                    "5.2.2"
+                    "5.2.4"
                 ]
             },
             "dependencies": [],
@@ -4631,7 +4712,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
@@ -4645,8 +4726,8 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Spoofs country information returned by the SIM card provider.",
-            "name": "Spoof SIM country",
+            "description": "Spoofs information about the SIM card provider.",
+            "name": "Spoof SIM provider",
             "options": [
                 {
                     "default": null,
@@ -4909,6 +4990,24 @@
                 },
                 {
                     "default": null,
+                    "description": "The 5 or 6 digits MCC+MNC (Mobile Country Code + Mobile Network Code) of the network operator.",
+                    "key": "networkOperator",
+                    "required": false,
+                    "title": "MCC+MNC network operator code",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "The full name of the network operator.",
+                    "key": "networkOperatorName",
+                    "required": false,
+                    "title": "Network operator name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
                     "description": "ISO-3166-1 alpha-2 country code equivalent for the SIM provider's country code.",
                     "key": "simCountryIso",
                     "required": false,
@@ -5165,6 +5264,24 @@
                         "Zimbabwe": "ZW",
                         "Åland Islands": "AX"
                     }
+                },
+                {
+                    "default": null,
+                    "description": "The 5 or 6 digits MCC+MNC (Mobile Country Code + Mobile Network Code) of the SIM operator.",
+                    "key": "simOperator",
+                    "required": false,
+                    "title": "MCC+MNC SIM operator code",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "The full name of the SIM operator.",
+                    "key": "simOperatorName",
+                    "required": false,
+                    "title": "SIM operator name",
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ],
             "use": false
@@ -5474,7 +5591,7 @@
         {
             "compatiblePackages": {
                 "com.dcinside.app.android": [
-                    "5.2.2"
+                    "5.2.4"
                 ]
             },
             "dependencies": [
@@ -5500,7 +5617,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.10.1"
+                    "25.11.0"
                 ]
             },
             "dependencies": [],
