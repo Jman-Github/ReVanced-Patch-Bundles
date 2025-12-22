@@ -810,7 +810,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Apply workaround``` | ```Applies workaround for patcher to fix missing or unsupported resources. This only applies to versions 14.1.x.x and later.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
 | ```Enable OCR feature for Gboard``` | ```Enables OCR feature to extract text from images and insert it into text fields.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
 | ```Enable Undo feature for Gboard``` | ```Enables undo feature to quickly undo or correct typing mistakes.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
-| ```Toggle feature flags``` | ```Toggles Gboard feature flags to enable or disable experimental or hidden features``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
+| ```Toggle feature flags``` | ```Toggles Gboard feature flags to enable or disable experimental or hidden features.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
 | ```Disable screenshot banner``` | ```Disables the banner that shows up after taking a screenshot.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Hide share count``` | ```Hides the share count on Reddit posts.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Hide upvote scores``` | ```Hides the scores on Reddit posts and comments.``` | ```com.reddit.frontpage``` | ```All versions``` |
