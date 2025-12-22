@@ -1,5 +1,5 @@
 {
-    "version": "v5.14.1-dev.5",
+    "version": "v5.14.1-dev.6",
     "patches": [
         {
             "compatiblePackages": {
@@ -1573,17 +1573,7 @@
             ],
             "description": "Adds options to hide ads.",
             "name": "Hide ads",
-            "options": [
-                {
-                    "default": false,
-                    "description": "Add an option to hide fullscreen ads.\n\nThis setting may not completely hide fullscreen ads due to server-side changes, and support for this is not provided.\n\nThis setting may cause the app to become unusable, and users may need to clear app data.",
-                    "key": "hideFullscreenAds",
-                    "required": true,
-                    "title": "Hide fullscreen ads",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ],
+            "options": [],
             "use": true
         },
         {
@@ -2271,7 +2261,17 @@
             ],
             "description": "Adds options to hide or change components related to the player.",
             "name": "Player components",
-            "options": [],
+            "options": [
+                {
+                    "default": true,
+                    "description": "Adds an option to enable swipe to dismiss the miniplayer.\n\nIf this patch option is enabled, the empty miniplayer may not show when the miniplayer is dismissed.",
+                    "key": "swipeToDismissMiniPlayer",
+                    "required": true,
+                    "title": "Swipe to dismiss miniplayer",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ],
             "use": true
         },
         {
@@ -2964,29 +2964,6 @@
         },
         {
             "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "Settings for YouTube Music",
-                "ResourcePatch"
-            ],
-            "description": "Adds options to spoof the YouTube Music client version. This can be used to restore old UI elements and features.",
-            "name": "Spoof app version",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.43.41",
                     "19.44.39",
@@ -3002,6 +2979,27 @@
             ],
             "description": "Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features.",
             "name": "Spoof app version",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "6.51.53",
+                    "7.16.53",
+                    "7.25.53",
+                    "8.12.54",
+                    "8.28.54",
+                    "8.30.54"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings for YouTube Music",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to spoof the YouTube Music client version. This can be used to restore old lyrics UI.",
+            "name": "Spoof app version for lyrics",
             "options": [],
             "use": true
         },
