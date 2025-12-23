@@ -54,7 +54,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***257 Patches***
+***259 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.bka.serviceportal``` | ```All versions``` |
@@ -66,6 +66,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail mobile' signature from emails.``` | ```ch.protonmail.android``` | ```4.15.0``` |
 | ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```ch.protonmail.android``` | ```4.15.0``` |
 | ```Remove delay``` | ```Removes the delay when changing servers.``` | ```ch.protonvpn.android``` | ```All versions``` |
+| ```Unlock split tunneling``` | ```N/A``` | ```ch.protonvpn.android``` | ```All versions``` |
 | ```Disable mandatory login``` | ```N/A``` | ```com.adobe.lrmobile``` | ```9.3.0``` |
 | ```Disable version check``` | ```Disables the server-side version check that prevents the app from starting.``` | ```com.adobe.lrmobile``` | ```9.3.0``` |
 | ```Unlock Premium``` | ```N/A``` | ```com.adobe.lrmobile``` | ```9.3.0``` |
@@ -219,6 +220,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Fix missing audio in video downloads``` | ```Fixes audio missing in videos downloaded from v.redd.it.``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Fix Redgifs API``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
+| ```Remove ads``` | ```Removes pre-roll, pause and on-demand advertisements from SBS On Demand TV.``` | ```com.sbs.ondemand.tv``` | ```All versions``` |
 | ```Bypass device checks``` | ```Removes firmware and region blacklisting. This patch will still not allow the app to run on devices that do not have the required hardware.``` | ```com.sec.android.app.fm``` | ```12.4.00.7, 12.3.00.13, 12.3.00.11``` |
 | ```Fix crashes``` | ```Prevents the app from crashing because of missing system permissions.``` | ```com.sec.android.app.fm``` | ```12.4.00.7, 12.3.00.13, 12.3.00.11``` |
 | ```Remove badge tab``` | ```Removes the badge tab from the activity tab.``` | ```com.sony.songpal.mdr``` | ```All versions``` |

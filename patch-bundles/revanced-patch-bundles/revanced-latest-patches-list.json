@@ -1,5 +1,5 @@
 {
-    "version": "v5.47.0",
+    "version": "v5.48.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -2865,6 +2865,18 @@
         },
         {
             "compatiblePackages": {
+                "com.sbs.ondemand.tv": null
+            },
+            "dependencies": [
+                "Disable Pairip license check"
+            ],
+            "description": "Removes pre-roll, pause and on-demand advertisements from SBS On Demand TV.",
+            "name": "Remove ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "net.binarymode.android.irplus": null
             },
             "dependencies": [],
@@ -4837,6 +4849,16 @@
             "dependencies": [],
             "description": null,
             "name": "Unlock pro",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "ch.protonvpn.android": null
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Unlock split tunneling",
             "options": [],
             "use": true
         },
