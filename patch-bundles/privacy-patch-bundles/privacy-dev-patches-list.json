@@ -1,5 +1,5 @@
 {
-    "version": "v4.4.1-dev.1",
+    "version": "v4.5.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -289,6 +289,18 @@
             "name": "Disable screenshot banner",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables clipboard support in incognito mode.",
+            "name": "Enable clipboard in incognito",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
