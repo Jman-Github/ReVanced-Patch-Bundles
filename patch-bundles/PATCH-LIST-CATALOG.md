@@ -621,7 +621,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Clear tracking params``` | ```Removes tracking parameters when sharing links``` | ```com.twitter.android``` | ```All versions``` |
 | ```Control video auto scroll``` | ```Control video auto scroll in immersive view``` | ```com.twitter.android``` | ```All versions``` |
 | ```Custom download folder``` | ```Change the download directory for video downloads``` | ```com.twitter.android``` | ```All versions``` |
-| ```Custom downloader``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Custom emoji font``` | ```Customise emoji font style``` | ```com.twitter.android``` | ```All versions``` |
 | ```Custom font``` | ```Customise font style``` | ```com.twitter.android``` | ```All versions``` |
 | ```Custom sharing domain``` | ```Allows for using domains like fxtwitter when sharing tweets/posts.``` | ```com.twitter.android``` | ```All versions``` |
@@ -667,6 +666,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide timeline posts by category``` | ```Hides different post category like who to follow, news today etc from timeline.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Hook feature flag``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Log server response``` | ```Log json responses received from server``` | ```com.twitter.android``` | ```All versions``` |
+| ```Native downloader``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Native reader mode``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
 | ```No shortened URL``` | ```Get rid of t.co short urls.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Pause search suggestions``` | ```Search suggestions will not be saved locally``` | ```com.twitter.android``` | ```All versions``` |

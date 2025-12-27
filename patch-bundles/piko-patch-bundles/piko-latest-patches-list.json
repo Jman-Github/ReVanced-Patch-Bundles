@@ -1,5 +1,5 @@
 {
-    "version": "v2.0.0-dev.18",
+    "version": "v2.0.0-dev.19",
     "patches": [
         {
             "compatiblePackages": {
@@ -92,19 +92,6 @@
             ],
             "description": "Change the download directory for video downloads",
             "name": "Custom download folder",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.twitter.android": null
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Requires X 11.0.0-release.0 or higher.",
-            "name": "Custom downloader",
             "options": [],
             "use": true
         },
@@ -685,6 +672,19 @@
             ],
             "description": "Log json responses received from server",
             "name": "Log server response",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": null
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Requires X 11.0.0-release.0 or higher.",
+            "name": "Native downloader",
             "options": [],
             "use": true
         },
