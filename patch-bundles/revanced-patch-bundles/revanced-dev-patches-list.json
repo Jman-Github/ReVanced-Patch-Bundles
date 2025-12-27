@@ -1,5 +1,5 @@
 {
-    "version": "v5.48.0-dev.1",
+    "version": "v5.48.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -1345,6 +1345,16 @@
             "dependencies": [],
             "description": null,
             "name": "Enable offline sync",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.strava": null
+            },
+            "dependencies": [],
+            "description": "Re-enables password login after having used an OTP code.",
+            "name": "Enable password login",
             "options": [],
             "use": true
         },
