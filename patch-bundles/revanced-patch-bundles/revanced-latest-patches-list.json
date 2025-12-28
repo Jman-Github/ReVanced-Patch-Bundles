@@ -1,5 +1,5 @@
 {
-    "version": "v5.48.0-dev.2",
+    "version": "v5.48.0-dev.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -2257,11 +2257,47 @@
             "name": "Hide navigation buttons",
             "options": [
                 {
+                    "default": false,
+                    "description": "Permanently hides the Home button. App starts at next available tab.",
+                    "key": "hideHome",
+                    "required": false,
+                    "title": "Hide Home",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
                     "default": true,
                     "description": "Permanently hides the Reels button.",
                     "key": "hideReels",
                     "required": false,
                     "title": "Hide Reels",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Permanently hides the Direct button.",
+                    "key": "hideDirect",
+                    "required": false,
+                    "title": "Hide Direct",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Permanently hides the Search button.",
+                    "key": "hideSearch",
+                    "required": false,
+                    "title": "Hide Search",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Permanently hides the Profile button.",
+                    "key": "hideProfile",
+                    "required": false,
+                    "title": "Hide Profile",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
