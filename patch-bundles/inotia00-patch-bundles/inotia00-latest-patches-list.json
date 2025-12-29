@@ -1,5 +1,5 @@
 {
-    "version": "v5.14.1-dev.8",
+    "version": "v5.14.1-dev.9",
     "patches": [
         {
             "compatiblePackages": {
@@ -170,6 +170,16 @@
             "use": true
         },
         {
+            "compatiblePackages": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Spoof the installer package name to make it appear that the app was installed from the Google Play Store.",
+            "name": "Change installer package name",
+            "options": [],
+            "use": false
+        },
+        {
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.05.36",
@@ -199,7 +209,9 @@
                     "2025.12.1"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Changes the package name for Reddit to the name specified in patch options.",
             "name": "Change package name",
             "options": [
@@ -469,7 +481,9 @@
                     "2025.12.1"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Changes the Reddit app name to the name specified in patch options.",
             "name": "Custom branding name for Reddit",
             "options": [
@@ -2313,7 +2327,9 @@
                     "2025.12.1"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Unlocks premium app icons.",
             "name": "Premium icon",
             "options": [],
@@ -2649,6 +2665,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -3002,6 +3019,35 @@
             "name": "Spoof app version for lyrics",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Spoofs the signature of the app.",
+            "name": "Spoof signature",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Package name.",
+                    "key": "packageName",
+                    "required": false,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Base64-encoded string of the certificate.",
+                    "key": "certificateData",
+                    "required": false,
+                    "title": "Certificate data",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": false
         },
         {
             "compatiblePackages": null,
