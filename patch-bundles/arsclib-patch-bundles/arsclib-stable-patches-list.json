@@ -1,6 +1,31 @@
 {
-    "version": "v2.184.1",
+    "version": "v2.185.1",
     "patches": [
+        {
+            "compatiblePackages": {},
+            "dependencies": [],
+            "description": "Spoof the installer package name to make it appear that the app was installed from the App Store.",
+            "excluded": false,
+            "name": "Change installer package name",
+            "options": [
+                {
+                    "choices": null,
+                    "description": "Spoof the installer package name.",
+                    "key": "ChangeInstallerPackageName",
+                    "required": true,
+                    "title": "Change installer package name"
+                },
+                {
+                    "choices": null,
+                    "description": "The package name from which the app was installed, such as 'com.android.vending'",
+                    "key": "InstallerPackageName",
+                    "required": true,
+                    "title": "Installer package name"
+                }
+            ],
+            "use": true,
+            "version": "0.0.0"
+        },
         {
             "compatiblePackages": {},
             "dependencies": [],
@@ -31,7 +56,8 @@
                 "com.reddit.frontpage": [
                     "2025.40.0",
                     "2025.43.0",
-                    "2025.45.0"
+                    "2025.45.0",
+                    "2025.52.0"
                 ]
             },
             "dependencies": [],
@@ -55,7 +81,8 @@
                 "com.reddit.frontpage": [
                     "2025.40.0",
                     "2025.43.0",
-                    "2025.45.0"
+                    "2025.45.0",
+                    "2025.52.0"
                 ]
             },
             "dependencies": [
@@ -73,7 +100,8 @@
                 "com.reddit.frontpage": [
                     "2025.40.0",
                     "2025.43.0",
-                    "2025.45.0"
+                    "2025.45.0",
+                    "2025.52.0"
                 ]
             },
             "dependencies": [
@@ -92,7 +120,8 @@
                 "com.reddit.frontpage": [
                     "2025.40.0",
                     "2025.43.0",
-                    "2025.45.0"
+                    "2025.45.0",
+                    "2025.52.0"
                 ]
             },
             "dependencies": [
@@ -110,7 +139,8 @@
                 "com.reddit.frontpage": [
                     "2025.40.0",
                     "2025.43.0",
-                    "2025.45.0"
+                    "2025.45.0",
+                    "2025.52.0"
                 ]
             },
             "dependencies": [
@@ -128,7 +158,8 @@
                 "com.reddit.frontpage": [
                     "2025.40.0",
                     "2025.43.0",
-                    "2025.45.0"
+                    "2025.45.0",
+                    "2025.52.0"
                 ]
             },
             "dependencies": [
@@ -146,7 +177,8 @@
                 "com.reddit.frontpage": [
                     "2025.40.0",
                     "2025.43.0",
-                    "2025.45.0"
+                    "2025.45.0",
+                    "2025.52.0"
                 ]
             },
             "dependencies": [
@@ -164,7 +196,8 @@
                 "com.reddit.frontpage": [
                     "2025.40.0",
                     "2025.43.0",
-                    "2025.45.0"
+                    "2025.45.0",
+                    "2025.52.0"
                 ]
             },
             "dependencies": [
@@ -183,7 +216,8 @@
                 "com.reddit.frontpage": [
                     "2025.40.0",
                     "2025.43.0",
-                    "2025.45.0"
+                    "2025.45.0",
+                    "2025.52.0"
                 ]
             },
             "dependencies": [
@@ -220,7 +254,8 @@
                 "com.reddit.frontpage": [
                     "2025.40.0",
                     "2025.43.0",
-                    "2025.45.0"
+                    "2025.45.0",
+                    "2025.52.0"
                 ]
             },
             "dependencies": [
@@ -238,7 +273,8 @@
                 "com.reddit.frontpage": [
                     "2025.40.0",
                     "2025.43.0",
-                    "2025.45.0"
+                    "2025.45.0",
+                    "2025.52.0"
                 ]
             },
             "dependencies": [
@@ -256,7 +292,8 @@
                 "com.reddit.frontpage": [
                     "2025.40.0",
                     "2025.43.0",
-                    "2025.45.0"
+                    "2025.45.0",
+                    "2025.52.0"
                 ]
             },
             "dependencies": [
@@ -275,6 +312,25 @@
                     "title": "RVX settings menu name"
                 }
             ],
+            "use": true,
+            "version": "0.0.0"
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0",
+                    "2025.52.0"
+                ]
+            },
+            "dependencies": [
+                "reddit-integrations"
+            ],
+            "description": "Spoofs the signature of the app.",
+            "excluded": false,
+            "name": "Spoof signature",
+            "options": [],
             "use": true,
             "version": "0.0.0"
         }

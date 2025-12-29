@@ -1824,21 +1824,23 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***14 Patches***
+***16 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Custom branding name for Reddit``` | ```Renames the Reddit app to the name specified in options.json.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
-| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
-| ```Hide ads``` | ```Adds options to hide ads.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
-| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
-| ```Hide recommended communities shelf``` | ```Adds an option to hide the recommended communities shelves in subreddits.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
-| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
-| ```Hide Trending Today shelf``` | ```Adds an option to hide the Trending Today shelf from search suggestions.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
-| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
-| ```Open links externally``` | ```Adds an option to always open links in your browser instead of in the in-app-browser.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
-| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
-| ```Sanitize sharing links``` | ```Adds an option to remove tracking query parameters from URLs when sharing links.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
-| ```Settings for Reddit``` | ```Applies mandatory patches to implement RVX settings into the application.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0``` |
+| ```Custom branding name for Reddit``` | ```Renames the Reddit app to the name specified in options.json.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0, 2025.52.0``` |
+| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0, 2025.52.0``` |
+| ```Hide ads``` | ```Adds options to hide ads.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0, 2025.52.0``` |
+| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0, 2025.52.0``` |
+| ```Hide recommended communities shelf``` | ```Adds an option to hide the recommended communities shelves in subreddits.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0, 2025.52.0``` |
+| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0, 2025.52.0``` |
+| ```Hide Trending Today shelf``` | ```Adds an option to hide the Trending Today shelf from search suggestions.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0, 2025.52.0``` |
+| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0, 2025.52.0``` |
+| ```Open links externally``` | ```Adds an option to always open links in your browser instead of in the in-app-browser.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0, 2025.52.0``` |
+| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0, 2025.52.0``` |
+| ```Sanitize sharing links``` | ```Adds an option to remove tracking query parameters from URLs when sharing links.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0, 2025.52.0``` |
+| ```Settings for Reddit``` | ```Applies mandatory patches to implement RVX settings into the application.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0, 2025.52.0``` |
+| ```Spoof signature``` | ```Spoofs the signature of the app.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0, 2025.52.0``` |
+| ```Change installer package name``` | ```Spoof the installer package name to make it appear that the app was installed from the App Store.``` | ```Universal``` | ```All versions``` |
 | ```Change version code``` | ```Changes the version code of the app. By default the highest version code is set. This allows older versions of an app to be installed if their version code is set to the same or a higher value and can stop app stores to update the app. This does not apply when installing with root install (mount).``` | ```Universal``` | ```All versions``` |
 | ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
 
