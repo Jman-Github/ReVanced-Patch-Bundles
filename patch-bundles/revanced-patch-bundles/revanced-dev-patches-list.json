@@ -1,5 +1,5 @@
 {
-    "version": "v5.48.0-dev.3",
+    "version": "v5.48.0-dev.4",
     "patches": [
         {
             "compatiblePackages": {
@@ -107,6 +107,16 @@
             ],
             "description": "Blocks embedded stream ads using services like Luminous or PurpleAdBlocker.",
             "name": "Block embedded ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.strava": null
+            },
+            "dependencies": [],
+            "description": "Blocks Snowplow analytics. See https://snowplow.io for more information.",
+            "name": "Block Snowplow tracking",
             "options": [],
             "use": true
         },
