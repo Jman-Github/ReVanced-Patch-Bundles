@@ -78,7 +78,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Remove play limits``` | ```Disables purchase nagging and playback limits of not purchased tracks.``` | ```com.bandcamp.android``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.cricbuzz.android``` | ```6.24.01``` |
 | ```Hide ads``` | ```N/A``` | ```com.crunchyroll.crunchyroid``` | ```All versions``` |
-| ```Skip ads``` | ```Automatically skips ads.``` | ```com.disney.disneyplus, in.startv.hotstar, in.startv.hotstaronly``` | ```All versions``` |
+| ```Skip ads``` | ```Automatically skips ads.``` | ```com.disney.disneyplus``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.drinkplusplus.angulus``` | ```All versions``` |
 | ```Disable ads``` | ```N/A``` | ```com.duolingo``` | ```6.54.5``` |
 | ```Enable debug menu``` | ```N/A``` | ```com.duolingo``` | ```All versions``` |
