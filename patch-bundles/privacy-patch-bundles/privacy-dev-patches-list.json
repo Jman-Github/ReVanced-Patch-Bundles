@@ -1,5 +1,5 @@
 {
-    "version": "v4.5.0-dev.1",
+    "version": "v4.5.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -364,6 +364,16 @@
                 }
             ],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
+            "dependencies": [],
+            "description": "Opens external links directly without going through out.reddit.com.",
+            "name": "Open external links directly",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {

@@ -809,7 +809,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***21 Patches***
+***22 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Always-incognito mode for Gboard``` | ```Always opens Gboard in incognito mode to disable typing history collection and personalization.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
@@ -821,6 +821,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable screenshot banner``` | ```Disables the banner that shows up after taking a screenshot.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Hide share count``` | ```Hides the share count on Reddit posts.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Hide upvote scores``` | ```Hides the scores on Reddit posts and comments.``` | ```com.reddit.frontpage``` | ```All versions``` |
+| ```Open external links directly``` | ```Opens external links directly without going through out.reddit.com.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Remove ads and telemetry``` | ```Removes ads and telemetry from Home, Popular, Watch, Latest, All, Custom feeds, Search, and Subreddits, including comments.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Sanitize share links``` | ```Unshortens and removes the tracking query parameters from shared links.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Block ads, trackers, and analytics``` | ```Blocks ads, trackers, analytics, and unwanted content in apps and games using a hosts file.``` | ```Universal``` | ```All versions``` |
