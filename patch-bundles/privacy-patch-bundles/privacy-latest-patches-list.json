@@ -1,5 +1,5 @@
 {
-    "version": "v4.5.0-dev.3",
+    "version": "v4.5.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -12,16 +12,6 @@
             "name": "Always-incognito mode for Gboard",
             "options": [],
             "use": false
-        },
-        {
-            "compatiblePackages": {
-                "com.google.android.inputmethod.latin": null
-            },
-            "dependencies": [],
-            "description": "Applies workaround for patcher to fix missing or unsupported resources. This only applies to versions 14.1.x.x and later.",
-            "name": "Apply workaround",
-            "options": [],
-            "use": true
         },
         {
             "compatiblePackages": null,
@@ -334,7 +324,7 @@
             "description": "Hides the community highlights section.",
             "name": "Hide community highlights",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatiblePackages": {

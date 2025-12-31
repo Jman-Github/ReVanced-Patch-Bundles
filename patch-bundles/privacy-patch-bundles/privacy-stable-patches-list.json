@@ -1,5 +1,5 @@
 {
-    "version": "v4.4.0",
+    "version": "v4.5.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -12,16 +12,6 @@
             "name": "Always-incognito mode for Gboard",
             "options": [],
             "use": false
-        },
-        {
-            "compatiblePackages": {
-                "com.google.android.inputmethod.latin": null
-            },
-            "dependencies": [],
-            "description": "Applies workaround for patcher to fix missing or unsupported resources. This only applies to versions 14.1.x.x and later.",
-            "name": "Apply workaround",
-            "options": [],
-            "use": true
         },
         {
             "compatiblePackages": null,
@@ -297,6 +287,18 @@
             "dependencies": [
                 "BytecodePatch"
             ],
+            "description": "Enables clipboard support in incognito mode.",
+            "name": "Enable clipboard in incognito",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Enables OCR feature to extract text from images and insert it into text fields.",
             "name": "Enable OCR feature for Gboard",
             "options": [],
@@ -311,6 +313,16 @@
             ],
             "description": "Enables undo feature to quickly undo or correct typing mistakes.",
             "name": "Enable Undo feature for Gboard",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
+            "dependencies": [],
+            "description": "Hides the community highlights section.",
+            "name": "Hide community highlights",
             "options": [],
             "use": false
         },
@@ -358,6 +370,16 @@
                 "com.reddit.frontpage": null
             },
             "dependencies": [],
+            "description": "Opens external links directly without going through out.reddit.com.",
+            "name": "Open external links directly",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
+            "dependencies": [],
             "description": "Removes ads and telemetry from Home, Popular, Watch, Latest, All, Custom feeds, Search, and Subreddits, including comments.",
             "name": "Remove ads and telemetry",
             "options": [],
@@ -396,7 +418,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Toggles Gboard feature flags to enable or disable experimental or hidden features",
+            "description": "Toggles Gboard feature flags to enable or disable experimental or hidden features.",
             "name": "Toggle feature flags",
             "options": [
                 {
