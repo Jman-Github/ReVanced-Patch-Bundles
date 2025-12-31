@@ -1,5 +1,5 @@
 {
-    "version": "v4.5.0-dev.2",
+    "version": "v4.5.0-dev.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -325,6 +325,16 @@
             "name": "Enable Undo feature for Gboard",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
+            "dependencies": [],
+            "description": "Hides the community highlights section.",
+            "name": "Hide community highlights",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
