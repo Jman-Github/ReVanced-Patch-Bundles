@@ -1,5 +1,5 @@
 {
-    "version": "v5.13.1",
+    "version": "v5.14.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -161,12 +161,23 @@
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to change the UI appearance to a phone, tablet, or automotive device.",
             "name": "Change form factor",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Spoof the installer package name to make it appear that the app was installed from the Google Play Store.",
+            "name": "Change installer package name",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -198,7 +209,9 @@
                     "2025.12.1"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Changes the package name for Reddit to the name specified in patch options.",
             "name": "Change package name",
             "options": [
@@ -468,7 +481,9 @@
                     "2025.12.1"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Changes the Reddit app name to the name specified in patch options.",
             "name": "Custom branding name for Reddit",
             "options": [
@@ -848,7 +863,7 @@
             },
             "dependencies": [
                 "Settings for YouTube Music",
-                "BytecodePatch"
+                "ResourcePatch"
             ],
             "description": "Adds an option to disable audio tracks from being automatically enabled.",
             "name": "Disable forced auto audio tracks",
@@ -868,7 +883,7 @@
             },
             "dependencies": [
                 "Settings for YouTube",
-                "BytecodePatch"
+                "ResourcePatch"
             ],
             "description": "Adds an option to disable audio tracks from being automatically enabled.",
             "name": "Disable forced auto audio tracks",
@@ -1572,17 +1587,7 @@
             ],
             "description": "Adds options to hide ads.",
             "name": "Hide ads",
-            "options": [
-                {
-                    "default": false,
-                    "description": "Add an option to hide fullscreen ads.\n\nThis setting may not completely hide fullscreen ads due to server-side changes, and support for this is not provided.\n\nThis setting may cause the app to become unusable, and users may need to clear app data.",
-                    "key": "hideFullscreenAds",
-                    "required": true,
-                    "title": "Hide fullscreen ads",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ],
+            "options": [],
             "use": true
         },
         {
@@ -1615,6 +1620,8 @@
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
                 "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch"
@@ -2102,6 +2109,7 @@
                 "Settings for YouTube",
                 "ResourcePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Adds options to hide or change components related to the navigation bar.",
@@ -2267,7 +2275,17 @@
             ],
             "description": "Adds options to hide or change components related to the player.",
             "name": "Player components",
-            "options": [],
+            "options": [
+                {
+                    "default": true,
+                    "description": "Adds an option to enable swipe to dismiss the miniplayer.\n\nIf this patch option is enabled, the empty miniplayer may not show when the miniplayer is dismissed.",
+                    "key": "swipeToDismissMiniPlayer",
+                    "required": true,
+                    "title": "Swipe to dismiss miniplayer",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ],
             "use": true
         },
         {
@@ -2309,7 +2327,9 @@
                     "2025.12.1"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Unlocks premium app icons.",
             "name": "Premium icon",
             "options": [],
@@ -2646,6 +2666,7 @@
             },
             "dependencies": [
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Applies mandatory patches to implement ReVanced Extended settings into the application.",
@@ -2960,29 +2981,6 @@
         },
         {
             "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "Settings for YouTube Music",
-                "ResourcePatch"
-            ],
-            "description": "Adds options to spoof the YouTube Music client version. This can be used to restore old UI elements and features.",
-            "name": "Spoof app version",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.43.41",
                     "19.44.39",
@@ -3000,6 +2998,56 @@
             "name": "Spoof app version",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "6.51.53",
+                    "7.16.53",
+                    "7.25.53",
+                    "8.12.54",
+                    "8.28.54",
+                    "8.30.54"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings for YouTube Music",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to spoof the YouTube Music client version. This can be used to restore old lyrics UI.",
+            "name": "Spoof app version for lyrics",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Spoofs the signature of the app.",
+            "name": "Spoof signature",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Package name.",
+                    "key": "packageName",
+                    "required": false,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Base64-encoded string of the certificate.",
+                    "key": "certificateData",
+                    "required": false,
+                    "title": "Certificate data",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": false
         },
         {
             "compatiblePackages": null,
@@ -3193,7 +3241,7 @@
                     "values": null
                 },
                 {
-                    "default": "bg-rBG, el-rGR, es-rES, fr-rFR, hu-rHU, id-rID, in, it-rIT, ja-rJP, ko-rKR, nl-rNL, pl-rPL, pt-rBR, ru-rRU, tr-rTR, uk-rUA, vi-rVN, zh-rCN, zh-rTW",
+                    "default": "el-rGR, es-rES, fr-rFR, hu-rHU, id-rID, in, it-rIT, ja-rJP, ko-rKR, pl-rPL, pt-rBR, ru-rRU, tr-rTR, uk-rUA, vi-rVN, zh-rCN, zh-rTW",
                     "description": "A list of translations to be added for the RVX settings, separated by commas.",
                     "key": "selectedTranslations",
                     "required": true,
