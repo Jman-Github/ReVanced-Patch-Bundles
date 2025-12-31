@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0-dev.5",
+    "version": "v1.9.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -72,7 +72,7 @@
         {
             "compatiblePackages": {
                 "me.mycake": [
-                    "6.3.4"
+                    "6.4.0"
                 ]
             },
             "dependencies": [
@@ -164,6 +164,20 @@
             },
             "dependencies": [],
             "description": "Enables premium paid subscription.",
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "app.ttmikstories.android": [
+                    "1.16.0"
+                ]
+            },
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": null,
             "name": "Enable Premium",
             "options": [],
             "use": true
