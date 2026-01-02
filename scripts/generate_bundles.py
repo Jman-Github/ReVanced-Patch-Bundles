@@ -139,7 +139,9 @@ async def get_latest_release(
             for ext in file_types:
                 if asset["browser_download_url"].endswith(ext):
                     download_urls[ext] = asset['browser_download_url']
-            if asset["browser_download_url"].endswith(".rvp.asc") or asset["browser_download_url"].endswith(".mpp.asc"):
+            if asset["browser_download_url"].endswith(".rvp.asc") or asset[
+                "browser_download_url"
+            ].endswith(".mpp.asc"):
                 signature_url = asset['browser_download_url']
         return version, published_at, description, download_urls, signature_url, release_url
 
