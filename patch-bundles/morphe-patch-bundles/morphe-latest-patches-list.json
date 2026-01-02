@@ -1,0 +1,1564 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to replace video thumbnails using the DeArrow API or image captures from the video.",
+            "name": "Alternative thumbnails",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.37.56"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Bypasses certificate checks which prevent YouTube Music from working on Android Auto.",
+            "name": "Bypass certificate checks",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.",
+            "name": "Bypass image region restrictions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to bypass URL redirects and open the original URL directly.",
+            "name": "Bypass URL redirects",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "Navigation buttons"
+            ],
+            "description": "Adds an option to change the UI appearance to a phone, tablet, or automotive device.",
+            "name": "Change form factor",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to change the header logo in the top left corner of the app.",
+            "name": "Change header",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Folder with images to use as a custom header logo.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- drawable-hdpi\n- drawable-xhdpi\n- drawable-xxhdpi\n- drawable-xxxhdpi\n\nEach of the folders must contain all of the following files:\nmorphe_header_custom_light.png\nmorphe_header_custom_dark.png \n\nThe image dimensions must be as follows:\n- drawable-hdpi: 194x72 px\n- drawable-xhdpi: 258x96 px\n- drawable-xxhdpi: 387x144 px\n- drawable-xxxhdpi: 512x192 px",
+                    "key": "custom",
+                    "required": false,
+                    "title": "Custom header logo",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.37.56"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to change the miniplayer background color to match the fullscreen player.",
+            "name": "Change miniplayer color",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+            "name": "Change package name",
+            "options": [
+                {
+                    "default": "Default",
+                    "description": "The name of the package to rename the app to.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "key": "updatePermissions",
+                    "required": false,
+                    "title": "Update permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "key": "updateProviders",
+                    "required": false,
+                    "title": "Update providers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to set which page the app opens in instead of the homepage.",
+            "name": "Change start page",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.37.56"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Checks if the device DNS server is preventing user watch history from being saved.",
+            "name": "Check watch history domain name resolution",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Checks if the device DNS server is preventing user watch history from being saved.",
+            "name": "Check watch history domain name resolution",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to display buttons in the video player to copy video URLs.",
+            "name": "Copy video URL",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.37.56"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
+            "name": "Custom branding",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Custom app name.",
+                    "key": "customName",
+                    "required": false,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nmorphe_adaptive_background_custom.png\nmorphe_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nmorphe_adaptive_monochrome_custom.xml\nmorphe_notification_icon_custom.xml",
+                    "key": "customIcon",
+                    "required": false,
+                    "title": "Custom icon",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
+            "name": "Custom branding",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Custom app name.",
+                    "key": "customName",
+                    "required": false,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nmorphe_adaptive_background_custom.png\nmorphe_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nmorphe_adaptive_monochrome_custom.xml\nmorphe_notification_icon_custom.xml",
+                    "key": "customIcon",
+                    "required": false,
+                    "title": "Custom icon",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to change the opacity of the video player background when player controls are visible.",
+            "name": "Custom player overlay opacity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to disable captions from being automatically enabled.",
+            "name": "Disable auto captions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to disable player double tap gestures.",
+            "name": "Disable double tap actions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to disable the ambient mode when in fullscreen.",
+            "name": "Disable fullscreen ambient mode",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to disable haptic feedback in the player for various actions.",
+            "name": "Disable haptic feedback",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to disable panels (such as live chat) from opening automatically.",
+            "name": "Disable player popup panels",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.",
+            "name": "Disable resuming Shorts on startup",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to disable rolling number animations of video view count, user likes, and upload time.",
+            "name": "Disable rolling number animations",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to disable the popup asking to sign into a TV on the same local network.",
+            "name": "Disable sign in to TV popup",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to disable HDR and VP9 codecs.",
+            "name": "Disable video codecs",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds support to download videos with an external downloader app using the in-app download button or a video player action button.",
+            "name": "Downloads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.37.56"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options for debugging and exporting Morphe logs to the clipboard.",
+            "name": "Enable debugging",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options for debugging and exporting Morphe logs to the clipboard.",
+            "name": "Enable debugging",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.37.56"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Enables the option to play audio without video.",
+            "name": "Enable exclusive audio playback",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to automatically exit fullscreen mode when a video reaches the end.",
+            "name": "Exit fullscreen mode",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.37.56"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to always use the original audio track.",
+            "name": "Force original audio",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to always use the original audio track.",
+            "name": "Force original audio",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.37.56"
+                ]
+            },
+            "dependencies": [
+                "Change package name",
+                "ResourcePatch",
+                "BytecodePatch",
+                "Spoof video streams"
+            ],
+            "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
+            "name": "GmsCore support",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "Change package name",
+                "ResourcePatch",
+                "BytecodePatch",
+                "Hide player overlay buttons",
+                "Spoof video streams"
+            ],
+            "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
+            "name": "GmsCore support",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.37.56"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to hide the \"Get Music Premium\" label in the settings and account menu.",
+            "name": "Hide 'Get Music Premium'",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to remove general ads.",
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.37.56"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to hide the cast, history, notification, and search buttons.",
+            "name": "Hide buttons",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.37.56"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to hide the category bar at the top of the homepage.",
+            "name": "Hide category bar",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to hide suggested video cards at the end of videos.",
+            "name": "Hide end screen cards",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to hide the suggested video at the end of videos.",
+            "name": "Hide end screen suggested video",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to hide info cards that creators add in the video player.",
+            "name": "Hide info cards",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to hide general layout components.",
+            "name": "Hide layout components",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.37.56"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to hide ads that appear while listening to or streaming music videos, podcasts, or songs.",
+            "name": "Hide music video ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to hide menu items that appear when pressing the gear icon in the video player.",
+            "name": "Hide player flyout menu items",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to hide the player Cast, Autoplay, Captions, Previous & Next buttons, and the player control buttons background.",
+            "name": "Hide player overlay buttons",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to hide the related video overlay shown when swiping up in fullscreen.",
+            "name": "Hide related video overlay",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to hide components related to Shorts. Patching version 20.21.37 or lower can hide more Shorts player button types.",
+            "name": "Hide Shorts components",
+            "options": [
+                {
+                    "default": false,
+                    "description": "Permanently hides the shortcut to open Shorts when long pressing the app icon in your launcher.",
+                    "key": "hideShortsAppShortcut",
+                    "required": false,
+                    "title": "Hide Shorts app shortcut",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Permanently hides the launcher widget Shorts button.",
+                    "key": "hideShortsWidget",
+                    "required": false,
+                    "title": "Hide Shorts widget",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to hide the timestamp in the bottom left of the video player.",
+            "name": "Hide timestamp",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to hide action buttons (such as the Download button) under videos. Patching version 20.21.37 or lower can hide more player button types.",
+            "name": "Hide video action buttons",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to loop videos and display loop video button in the video player.",
+            "name": "Loop video",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to change the in-app minimized player.",
+            "name": "Miniplayer",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.37.56"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to hide navigation bar, labels and buttons.",
+            "name": "Navigation bar",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to hide and change navigation buttons (such as the Shorts button).",
+            "name": "Navigation buttons",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to always open links in your browser instead of the in-app browser.",
+            "name": "Open links externally",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to open Shorts in the regular video player.",
+            "name": "Open Shorts in regular player",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to open videos in full screen portrait mode.",
+            "name": "Open videos fullscreen",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.37.56"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to always repeat even if the playlist ends or another track is played.",
+            "name": "Permanent repeat",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.",
+            "name": "Playback speed",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.37.56"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Removes restrictions on background playback, including playing kids videos in the background.",
+            "name": "Remove background playback restrictions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Removes restrictions on background playback, including playing kids videos in the background.",
+            "name": "Remove background playback restrictions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.",
+            "name": "Remove viewer discretion dialog",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to show the dislike count of videos with Return YouTube Dislike.",
+            "name": "Return YouTube Dislike",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.37.56"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Removes the tracking query parameters from shared links.",
+            "name": "Sanitize sharing links",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Removes the tracking query parameters from shared links.",
+            "name": "Sanitize sharing links",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, and hiding the video player seekbar.",
+            "name": "Seekbar",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to automatically play the next Short.",
+            "name": "Shorts autoplay",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content.",
+            "name": "SponsorBlock",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to trick YouTube into thinking you are running an older version of the app. This can be used to restore old UI elements and features.",
+            "name": "Spoof app version",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to spoof the device dimensions which can unlock higher video qualities.",
+            "name": "Spoof device dimensions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.37.56"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to spoof the client video streams to fix playback.",
+            "name": "Spoof video streams",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to spoof the client video streams to fix playback.",
+            "name": "Spoof video streams",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to enable and configure volume and brightness swipe controls.",
+            "name": "Swipe controls",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52",
+                    "8.37.56"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).",
+            "name": "Theme",
+            "options": [
+                {
+                    "default": "@android:color/black",
+                    "description": "Can be a hex color (#RRGGBB) or a color resource reference.",
+                    "key": "darkThemeBackgroundColor",
+                    "required": false,
+                    "title": "Dark theme background color",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Catppuccin (Mocha)": "#181825",
+                        "Classic (old YouTube)": "#212121",
+                        "Dark blue": "#001029",
+                        "Dark green": "#002905",
+                        "Dark orange": "#291800",
+                        "Dark pink": "#290025",
+                        "Dark red": "#290000",
+                        "Dark yellow": "#282900",
+                        "Material You": "@android:color/system_neutral1_900",
+                        "Pure black": "@android:color/black"
+                    }
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).",
+            "name": "Theme",
+            "options": [
+                {
+                    "default": "@android:color/black",
+                    "description": "Can be a hex color (#RRGGBB) or a color resource reference.",
+                    "key": "darkThemeBackgroundColor",
+                    "required": false,
+                    "title": "Dark theme background color",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Catppuccin (Mocha)": "#181825",
+                        "Classic (old YouTube)": "#212121",
+                        "Dark blue": "#001029",
+                        "Dark green": "#002905",
+                        "Dark orange": "#291800",
+                        "Dark pink": "#290025",
+                        "Dark red": "#290000",
+                        "Dark yellow": "#282900",
+                        "Material You": "@android:color/system_neutral1_900",
+                        "Pure black": "@android:color/black"
+                    }
+                },
+                {
+                    "default": "@android:color/white",
+                    "description": "Can be a hex color (#RRGGBB) or a color resource reference.",
+                    "key": "lightThemeBackgroundColor",
+                    "required": false,
+                    "title": "Light theme background color",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Catppuccin (Latte)": "#E6E9EF",
+                        "Light blue": "#D1E0FF",
+                        "Light green": "#CCFFCC",
+                        "Light orange": "#FFE6CC",
+                        "Light pink": "#FCCFF3",
+                        "Light red": "#FFD6D6",
+                        "Light yellow": "#FDFFCC",
+                        "Material You": "@android:color/system_neutral1_50",
+                        "White": "@android:color/white"
+                    }
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to remove ads in the video player.",
+            "name": "Video ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to set default video qualities and always use the advanced video quality menu.",
+            "name": "Video quality",
+            "options": [],
+            "use": true
+        }
+    ]
+}
