@@ -139,7 +139,7 @@ async def get_latest_release(
             for ext in file_types:
                 if asset["browser_download_url"].endswith(ext):
                     download_urls[ext] = asset['browser_download_url']
-            if asset["browser_download_url"].endswith(".rvp.asc"):
+            if asset["browser_download_url"].endswith(".rvp.asc") or asset["browser_download_url"].endswith(".mpp.asc"):
                 signature_url = asset['browser_download_url']
         return version, published_at, description, download_urls, signature_url, release_url
 
@@ -177,7 +177,7 @@ async def get_latest_release(
                 key=lambda x: x["published_at"],
                 reverse=True
             )
-        file_types = (".jar", ".apk", ".rvp")
+        file_types = (".jar", ".apk", ".rvp", ".mpp")
         for release in filtered_releases:
             (
                 version,
@@ -189,7 +189,7 @@ async def get_latest_release(
             ) = await get_version_urls(release, file_types)
             if any(download_urls[ext] for ext in file_types):
                 return version, created_at, description, download_urls, signature_url, release_url
-        print(f"No suitable release with .jar, .apk, or .rvp assets found for {repo_url}")
+        print(f"No suitable release with .jar, .apk, .rvp, or .mpp assets found for {repo_url}")
         return None, None, None, None, None, None
     else:
         print(f"Failed to fetch releases from {repo_url}")
@@ -228,7 +228,17 @@ async def fetch_release_data(client: AsyncClient, source: str, repo: Mapping[str
                 "signature_url": patches_signature_url or "",
             },
         }
-        if patches_download_urls[".rvp"]:
+        if patches_download_urls[".mpp"]:
+            info_dict = {
+                "created_at": patches_created_at,
+                "description": patches_description or "",
+                "download_url": patches_download_urls[".mpp"],
+                "signature_download_url": patches_signature_url if patches_signature_url else "N/A",
+                "version": patches_version
+            }
+            metadata_entry["type"] = "mpp"
+            metadata_entry["patches"]["download_url"] = patches_download_urls[".mpp"]
+        elif patches_download_urls[".rvp"]:
             info_dict = {
                 "created_at": patches_created_at,
                 "description": patches_description or "",
@@ -279,7 +289,7 @@ async def fetch_release_data(client: AsyncClient, source: str, repo: Mapping[str
                     print(f"No relevant .apk asset found in integration repo for {source}")
                     return
             else:
-                print(f"No relevant .rvp or .jar assets found for {source}")
+                print(f"No relevant .rvp, .mpp, or .jar assets found for {source}")
                 return
         base_source = source.replace('-dev', '').replace('-latest', '').replace('-stable', '')
         directory = PATCH_BUNDLES_DIR / f"{base_source}-patch-bundles"

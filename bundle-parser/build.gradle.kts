@@ -12,10 +12,27 @@ val gprKey: String? = providers.gradleProperty("gpr.key").orNull
 repositories {
     mavenCentral()
     google()
+    maven { url = uri("https://jitpack.io") }
 
     maven {
         name = "GitHubPackages"
         url = uri("https://maven.pkg.github.com/revanced/registry")
+        credentials {
+            username = when {
+                hardcodedGprUser.isNotBlank() -> hardcodedGprUser
+                !gprUser.isNullOrBlank() -> gprUser
+                else -> System.getenv("GITHUB_ACTOR")
+            }
+            password = when {
+                hardcodedGprToken.isNotBlank() -> hardcodedGprToken
+                !gprKey.isNullOrBlank() -> gprKey
+                else -> System.getenv("GITHUB_TOKEN")
+            }
+        }
+    }
+    maven {
+        name = "MorphePackages"
+        url = uri("https://maven.pkg.github.com/MorpheApp/registry")
         credentials {
             username = when {
                 hardcodedGprUser.isNotBlank() -> hardcodedGprUser
@@ -34,6 +51,7 @@ repositories {
 dependencies {
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.kotlin.stdlib)
+    implementation(libs.morphe.patcher)
     implementation(libs.revanced.patcher)
     implementation(libs.revanced.library)
     implementation(libs.asm)

@@ -20,7 +20,10 @@ inline fun <T> List<T>.forEachGroupLogged(groupName: (T) -> String, action: (T) 
 }
 
 fun downloadToFile(url: URL, outputFile: File) =
-    url.openStream().use { input: InputStream ->
+    url.openConnection().apply {
+        connectTimeout = 10_000
+        readTimeout = 30_000
+    }.getInputStream().use { input: InputStream ->
         outputFile.outputStream().use { fileOut ->
             input.copyTo(fileOut)
         }
@@ -33,7 +36,7 @@ fun generatePatchesFromUrl(uri: URI): String{
 
         val serializedJson = ByteArrayOutputStream().apply {
             loadPatchesFromJar(setOf(patchesFile)).serializeTo(this, false)
-        }.toString()
+        }.toString(Charsets.UTF_8)
 
         return serializedJson
     } finally {

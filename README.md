@@ -533,19 +533,6 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 LisoUseInAIKyrios-Patches-Bundle [API v4]:
-[🧩 LisoUseInAIKyrios Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-lisouseInaikyrios-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lisouseInaikyrios-patch-bundles/lisouseInaikyrios-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lisouseInaikyrios-patch-bundles/lisouseInaikyrios-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lisouseInaikyrios-patch-bundles/lisouseInaikyrios-dev-patches-bundle.json```
-</details>
-
----
 ### 📦 AmpleReVanced-Patches-Bundle [API v4]:
 [🧩 AmpleReVanced Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-amplerevanced-bundle-patch-list)
 <details>
@@ -582,6 +569,19 @@ If you would like to see what patches the patch bundles tracked in this reposito
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/areteruhiro-patch-bundles/areteruhiro-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/areteruhiro-patch-bundles/areteruhiro-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Morphe-Patches-Bundle [API v4]:
+[🧩 Morphe Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-morphe-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-patch-bundles/morphe-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-patch-bundles/morphe-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-patch-bundles/morphe-dev-patches-bundle.json```
 </details>
 
 ---
@@ -680,13 +680,13 @@ https://github.com/ReVanced/revanced-manager/releases
 
 #### 🏷️ [Burgers1312-Patches-Bundle](https://github.com/burgers1312/revanced-patches)
 
-#### 🏷️ [LisoUseInAIKyrios-Patches-Bundle](https://github.com/LisoUseInAIKyrios/revanced-patches)
-
 #### 🏷️ [AmpleReVanced-Patches-Bundle](https://github.com/AmpleReVanced/revanced-patches)
 
 #### 🏷️ [Liaralabs-Patches-Bundle](https://github.com/liaralabs/revanced-patches)
 
 #### 🏷️ [Areteruhiro-Patches-Bundle](https://github.com/areteruhiro/linegms)
+
+#### 🏷️ [Morphe-Patches-Bundle](https://github.com/MorpheApp/morphe-patches)
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*

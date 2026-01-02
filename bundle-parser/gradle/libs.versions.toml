@@ -1,5 +1,6 @@
 [versions]
 kotlin = "2.1.10"
+morphe-patcher = "1.0.0"
 revanced-patcher = "21.1.0-dev.5"
 revanced-library = "3.2.0-dev.1"
 serialization = "1.6.3"
@@ -12,6 +13,7 @@ asm = "9.7"
 [libraries]
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
+morphe-patcher = { module = "app.morphe:morphe-patcher", version.ref = "morphe-patcher" }
 revanced-patcher = { group = "app.revanced", name = "revanced-patcher", version.ref = "revanced-patcher" }
 revanced-library = { module = "app.revanced:revanced-library-jvm", version.ref = "revanced-library" }
 smali = { module = "com.android.tools.smali:smali", version.ref = "smali" }

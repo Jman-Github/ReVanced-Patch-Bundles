@@ -286,6 +286,19 @@ private fun sanitizeDependencies(patches: JsonArray): JsonArray {
 }
 
 private fun generateModernPatchList(downloadUri: URI): JsonArray? {
+    val patches = if (isMorphePatchBundle(downloadUri)) {
+        generateMorphePatchList(downloadUri)
+    } else {
+        generateRevancedPatchList(downloadUri)
+    } ?: return null
+    return canonicalizePatchArray(patches)
+}
+
+private fun isMorphePatchBundle(downloadUri: URI): Boolean {
+    return downloadUri.path.lowercase(Locale.ROOT).endsWith(".mpp")
+}
+
+private fun generateRevancedPatchList(downloadUri: URI): JsonArray? {
     return try {
         val jsonText = generatePatchesFromUrl(downloadUri)
         val element: JsonElement = Json.parseToJsonElement(jsonText)
@@ -294,7 +307,7 @@ private fun generateModernPatchList(downloadUri: URI): JsonArray? {
             Logger.warning("Generated patches are not a JSON array.")
             return null
         }
-        canonicalizePatchArray(array)
+        array
     } catch (_: FileNotFoundException) {
         Logger.warning("The patch bundle file was not found.")
         null
