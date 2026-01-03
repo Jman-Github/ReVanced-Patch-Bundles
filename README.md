@@ -130,19 +130,6 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Wchill-Patches-Bundle [API v4]:
-[🧩 Wchill Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-wchill-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/wchill-patch-bundles/wchill-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/wchill-patch-bundles/wchill-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/wchill-patch-bundles/wchill-dev-patches-bundle.json```
-</details>
-
----
 ### 📦 Kitadai31-Patches-Bundle [API v4]:
 [🧩 Kitadai31 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-kitadai31-bundle-patch-list)
 <details>
@@ -585,6 +572,19 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
+### 📦 PatchReddit-Patches-Bundle [API v4]:
+[🧩 PatchReddit Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-patchreddit-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/patchreddit-patch-bundles/patchreddit-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/patchreddit-patch-bundles/patchreddit-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/patchreddit-patch-bundles/patchreddit-dev-patches-bundle.json```
+</details>
+
+---
 # 📱 ReVanced Manager Compose:
 ### 📍 Universal ReVanced Manager (my fork)
 *Highly suggested if you want to be unrestricted in the patch bundles you import!*
@@ -617,8 +617,6 @@ https://github.com/ReVanced/revanced-manager/releases
 #### 🏷️ [Experimental-Patches-Bundle](https://github.com/Aunali321/ReVancedExperiments)
 
 #### 🏷️ [Dropped-Patches-Bundle](https://github.com/indrastorms/Dropped-Patches)
-
-#### 🏷️ [Wchill-Patches-Bundle](https://github.com/wchill/revanced-patches)
 
 #### 🏷️ [Kitadai31-Patches-Bundle](https://github.com/kitadai31/revanced-patches-android6-7)
 
@@ -687,6 +685,8 @@ https://github.com/ReVanced/revanced-manager/releases
 #### 🏷️ [Areteruhiro-Patches-Bundle](https://github.com/areteruhiro/linegms)
 
 #### 🏷️ [Morphe-Patches-Bundle](https://github.com/MorpheApp/morphe-patches)
+
+#### 🏷️ [PatchReddit-Patches-Bundle](https://github.com/wchill/patcheddit)
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*
