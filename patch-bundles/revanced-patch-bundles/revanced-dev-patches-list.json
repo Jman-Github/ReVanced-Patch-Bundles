@@ -1,5 +1,5 @@
 {
-    "version": "v5.48.0-dev.5",
+    "version": "v5.48.0-dev.7",
     "patches": [
         {
             "compatiblePackages": {
@@ -978,6 +978,16 @@
             ],
             "description": "Adds an option to disable panels (such as live chat) from opening automatically.",
             "name": "Disable player popup panels",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.strava": null
+            },
+            "dependencies": [],
+            "description": "Prevents the Quick Edit prompt from popping up.",
+            "name": "Disable Quick Edit",
             "options": [],
             "use": true
         },
@@ -2804,6 +2814,44 @@
             "name": "Override certificate pinning",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.strava": null
+            },
+            "dependencies": [],
+            "description": "Overwrites the compression, resize and trim media (images and videos) parameters returned by Strava's server before upload.",
+            "name": "Overwrite media upload parameters",
+            "options": [
+                {
+                    "default": null,
+                    "description": "This is used as the JPEG quality setting (≤ 100).",
+                    "key": "compressionQuality",
+                    "required": false,
+                    "title": "Compression quality (percent)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "The maximum length (≤ 3600) of a video before it gets trimmed.",
+                    "key": "maxDuration",
+                    "required": false,
+                    "title": "Max duration (seconds)",
+                    "type": "kotlin.Long",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "The image gets resized so that the smaller dimension (width/height) does not exceed this value (≤ 10000).",
+                    "key": "maxSize",
+                    "required": false,
+                    "title": "Max size (pixels)",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ],
+            "use": true
         },
         {
             "compatiblePackages": {

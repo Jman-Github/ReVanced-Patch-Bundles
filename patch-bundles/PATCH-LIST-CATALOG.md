@@ -53,7 +53,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***261 Patches***
+***263 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.bka.serviceportal``` | ```All versions``` |
@@ -243,8 +243,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Show seekbar``` | ```Shows progress bar for all video.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```All versions``` |
 | ```SIM spoof``` | ```Spoofs the information which is retrieved from the SIM card.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```All versions``` |
 | ```Block Snowplow tracking``` | ```Blocks Snowplow analytics. See https://snowplow.io for more information.``` | ```com.strava``` | ```All versions``` |
+| ```Disable Quick Edit``` | ```Prevents the Quick Edit prompt from popping up.``` | ```com.strava``` | ```All versions``` |
 | ```Disable subscription suggestions``` | ```N/A``` | ```com.strava``` | ```All versions``` |
 | ```Enable password login``` | ```Re-enables password login after having used an OTP code.``` | ```com.strava``` | ```All versions``` |
+| ```Overwrite media upload parameters``` | ```Overwrites the compression, resize and trim media (images and videos) parameters returned by Strava's server before upload.``` | ```com.strava``` | ```All versions``` |
 | ```Unlock subscription features``` | ```Unlocks "Routes", "Matched Runs" and "Segment Efforts".``` | ```com.strava``` | ```All versions``` |
 | ```Remove Google Play Integrity check``` | ```Removes the Google Play Integrity check. With this it's possible to use SwissID on custom ROMS.If the device is rooted, root permissions must be hidden from the app.``` | ```com.swisssign.swissid.mobile``` | ```5.2.9``` |
 | ```Unlock themes``` | ```Unlocks all themes that are inaccessible until a certain level is reached.``` | ```com.ticktick.task``` | ```All versions``` |
