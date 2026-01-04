@@ -1,5 +1,5 @@
 {
-    "version": "v5.48.0-dev.7",
+    "version": "v5.48.0-dev.8",
     "patches": [
         {
             "compatiblePackages": {
@@ -4853,6 +4853,16 @@
                     }
                 }
             ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.letterboxd.letterboxd": null
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Unlock app icons",
+            "options": [],
             "use": true
         },
         {
