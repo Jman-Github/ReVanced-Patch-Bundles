@@ -219,8 +219,13 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
-    "patchreddit-stable": {
-        "patches": "https://api.github.com/repos/wchill/patchreddit",
+    "patcheddit-stable": {
+        "patches": "https://api.github.com/repos/wchill/patcheddit",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "rvx-morphed-stable": {
+        "patches": "https://api.github.com/repos/wchill/rvx-morphed",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
@@ -439,8 +444,13 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
-    "patchreddit-dev": {
-        "patches": "https://api.github.com/repos/wchill/patchreddit",
+    "patcheddit-dev": {
+        "patches": "https://api.github.com/repos/wchill/patcheddit",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "rvx-morphed-dev": {
+        "patches": "https://api.github.com/repos/wchill/rvx-morphed",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -664,8 +674,13 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     },
-    "patchreddit-latest": {
-        "patches": "https://api.github.com/repos/wchill/patchreddit",
+    "patcheddit-latest": {
+        "patches": "https://api.github.com/repos/wchill/patcheddit",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "rvx-morphed-latest": {
+        "patches": "https://api.github.com/repos/wchill/rvx-morphed",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

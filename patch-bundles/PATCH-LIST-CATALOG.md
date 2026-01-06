@@ -45,7 +45,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 AmpleReVanced Bundle Patch List](#-amplerevanced-bundle-patch-list)    
 [🧩 Liaralabs Bundle Patch List](#-liaralabs-bundle-patch-list)    
 [🧩 Areteruhiro Bundle Patch List](#-areteruhiro-bundle-patch-list)    
-[🧩 Morphe Bundle Patch List](#-morphe-bundle-patch-list)    
+[🧩 Morphe Bundle Patch List](#-morphe-bundle-patch-list)  
+[🧩 Patcheddit Bundle Patch List](#-patcheddit-bundle-patch-list)    
+[🧩 RVX-Morphed Bundle Patch List](#-rvx-morphed-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -2759,8 +2761,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 </details>
 
 ---
-### 🧩 PatchReddit Bundle Patch List:
-[📦 Liaralabs-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-patchreddit-patches-bundle-api-v4)
+### 🧩 Patcheddit Bundle Patch List:
+[📦 Patcheddit-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-patcheddit-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
@@ -2769,3 +2771,14 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 </details>
 
 ---
+### 🧩 RVX-Morphed Bundle Patch List:
+[📦 RVX-Morphed-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rvx-morphed-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
+
+---
+
