@@ -1682,7 +1682,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***21 Patches***
+***23 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```N/A``` | ```app.ttmikstories.android``` | ```1.16.0``` |
@@ -1704,6 +1704,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable Plus``` | ```Enable Plus membership (not all features are available).``` | ```me.mycake``` | ```6.4.0``` |
 | ```Enable Premium``` | ```Enables premium paid subscription.``` | ```net.teuida.teuida``` | ```All versions``` |
 | ```GmsCore support``` | ```Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services.``` | ```net.teuida.teuida``` | ```All versions``` |
+| ```Block Permissions Request``` | ```Blocks the request of notification permissions on load of app.``` | ```org.languageapp.lingory``` | ```1.2.75``` |
+| ```Enable Premium``` | ```N/A``` | ```org.languageapp.lingory``` | ```1.2.75``` |
 | ```Enable Pro``` | ```N/A``` | ```org.totschnig.myexpenses``` | ```3.9.8``` |
 | ```Change package name``` | ```Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 
