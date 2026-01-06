@@ -1,0 +1,544 @@
+{
+    "version": "v1.0.0-dev.3",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Add archive links to context menu",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": []
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Intercept HTTP requests"
+            ],
+            "description": null,
+            "name": "Automatically undelete Imgur images",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": []
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Intercept HTTP requests"
+            ],
+            "description": null,
+            "name": "Automatically undelete Reddit content",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+            "name": "Change package name",
+            "options": [
+                {
+                    "default": "Default",
+                    "description": "The name of the package to rename the app to.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "key": "updatePermissions",
+                    "required": false,
+                    "title": "Update permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "key": "updateProviders",
+                    "required": false,
+                    "title": "Update providers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": []
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Disable ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "o.o.joey": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Disable ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.laurencedawson.reddit_sync": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Disable ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "io.syncapps.lemmy_sync": []
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Disable ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [],
+            "description": "Disables the popup that shows up when taking a screenshot.",
+            "name": "Disable screenshot popup",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.laurencedawson.reddit_sync": [
+                    "v23.06.30-13:39"
+                ],
+                "com.laurencedawson.reddit_sync.dev": [],
+                "com.laurencedawson.reddit_sync.pro": []
+            },
+            "dependencies": [],
+            "description": "Disables the bottom sheet at the startup that asks you to signup to \"Sync for Lemmy\".",
+            "name": "Disable Sync for Lemmy bottom sheet",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Fix /s/ links",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.laurencedawson.reddit_sync": [],
+                "com.laurencedawson.reddit_sync.dev": [],
+                "com.laurencedawson.reddit_sync.pro": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Fix /s/ links",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": []
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Intercept HTTP requests"
+            ],
+            "description": "Fixes audio missing in videos downloaded from v.redd.it.",
+            "name": "Fix missing audio in video downloads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.laurencedawson.reddit_sync": [],
+                "com.laurencedawson.reddit_sync.dev": [],
+                "com.laurencedawson.reddit_sync.pro": []
+            },
+            "dependencies": [],
+            "description": "Fixes loading post thumbnails by correcting their URLs.",
+            "name": "Fix post thumbnails",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.onelouder.baconreader": [],
+                "com.onelouder.baconreader.premium": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Fix Redgifs API",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Fix Redgifs API",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.laurencedawson.reddit_sync": [],
+                "com.laurencedawson.reddit_sync.dev": [],
+                "com.laurencedawson.reddit_sync.pro": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Fix Redgifs API",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.laurencedawson.reddit_sync": [],
+                "com.laurencedawson.reddit_sync.dev": [],
+                "com.laurencedawson.reddit_sync.pro": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Fixes a bug in Sync's MPD parser resulting in only the audio-track being saved.",
+            "name": "Fix video downloads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2024.17.0"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hook the exception handler in Boost. Don't enable except for development purposes",
+            "name": "Hook exception handler",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Intercept HTTP requests",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [],
+            "description": "Removes the tracking query parameters from shared links.",
+            "name": "Sanitize sharing links",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.onelouder.baconreader": [],
+                "com.onelouder.baconreader.premium": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Restores functionality of the app by using custom client ID.",
+            "name": "Spoof client",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"http://baconreader.com/auth\".",
+                    "key": "client-id",
+                    "required": true,
+                    "title": "OAuth client ID",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": []
+            },
+            "dependencies": [],
+            "description": "Restores functionality of the app by using custom client ID.",
+            "name": "Spoof client",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to match the value provided for the \"Redirect URI\" option.",
+                    "key": "client-id",
+                    "required": true,
+                    "title": "OAuth client ID",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "http://127.0.0.1:8080",
+                    "description": "The Reddit OAuth redirect URI. Should be a valid URI.",
+                    "key": "redirect-uri",
+                    "required": true,
+                    "title": "Redirect URI",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "ml.docilealligator.infinityforreddit": [],
+                "ml.docilealligator.infinityforreddit.patreon": [],
+                "ml.docilealligator.infinityforreddit.plus": []
+            },
+            "dependencies": [],
+            "description": "Restores functionality of the app by using custom client ID.",
+            "name": "Spoof client",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"infinity://localhost\".",
+                    "key": "client-id",
+                    "required": true,
+                    "title": "OAuth client ID",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "o.o.joey": [],
+                "o.o.joey.dev": [],
+                "o.o.joey.pro": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Restores functionality of the app by using custom client ID.",
+            "name": "Spoof client",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"https://127.0.0.1:65023/authorize_callback\".",
+                    "key": "client-id",
+                    "required": true,
+                    "title": "OAuth client ID",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.andrewshu.android.reddit": [],
+                "com.andrewshu.android.redditdonation": []
+            },
+            "dependencies": [],
+            "description": "Restores functionality of the app by using custom client ID.",
+            "name": "Spoof client",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"redditisfun://auth\".",
+                    "key": "client-id",
+                    "required": true,
+                    "title": "OAuth client ID",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "free.reddit.news": [],
+                "reddit.news": []
+            },
+            "dependencies": [],
+            "description": "Restores functionality of the app by using custom client ID.",
+            "name": "Spoof client",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"dbrady://relay\".",
+                    "key": "client-id",
+                    "required": true,
+                    "title": "OAuth client ID",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "me.ccrama.redditslide": []
+            },
+            "dependencies": [],
+            "description": "Restores functionality of the app by using custom client ID.",
+            "name": "Spoof client",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"http://www.ccrama.me\".",
+                    "key": "client-id",
+                    "required": true,
+                    "title": "OAuth client ID",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.laurencedawson.reddit_sync": [],
+                "com.laurencedawson.reddit_sync.dev": [],
+                "com.laurencedawson.reddit_sync.pro": []
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Restores functionality of the app by using custom client ID.",
+            "name": "Spoof client",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"http://redditsync/auth\".",
+                    "key": "client-id",
+                    "required": true,
+                    "title": "OAuth client ID",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": []
+            },
+            "dependencies": [],
+            "description": "Restores functionality of the app by using custom user agent.",
+            "name": "Spoof user agent",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The app's user agent. User agent should be in the format \"<platform>:<app id>:<version> (by /u/<username>)\".",
+                    "key": "user-agent",
+                    "required": true,
+                    "title": "User agent",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [],
+            "description": "Unlocks the Reddit Premium icons.",
+            "name": "Unlock Premium icons",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "ml.docilealligator.infinityforreddit": [],
+                "ml.docilealligator.infinityforreddit.patreon": [],
+                "ml.docilealligator.infinityforreddit.plus": []
+            },
+            "dependencies": [
+                "Spoof client"
+            ],
+            "description": "Unlocks the subscription feature but requires a custom client ID.",
+            "name": "Unlock subscription",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.laurencedawson.reddit_sync": [],
+                "com.laurencedawson.reddit_sync.dev": [],
+                "com.laurencedawson.reddit_sync.pro": []
+            },
+            "dependencies": [],
+            "description": "Replaces the deprecated endpoint for viewing user profiles /u with /user, that used to fix a bug.",
+            "name": "Use /user/ endpoint",
+            "options": [],
+            "use": false
+        }
+    ]
+}
