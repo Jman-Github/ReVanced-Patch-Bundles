@@ -33,6 +33,8 @@ def _load_etag_cache() -> dict[str, str]:
 
 ETAG_CACHE_LOCK = asyncio.Lock()
 METADATA_LOCK = asyncio.Lock()
+RELEASE_CACHE_LOCK = asyncio.Lock()
+RELEASE_CACHE: dict[str, list[dict[str, Any]]] = {}
 
 def _write_etag_cache_sync(cache: Mapping[str, str]) -> None:
     with ETAG_CACHE_FILE.open("w", encoding="utf-8") as cache_file:
@@ -146,56 +148,68 @@ async def get_latest_release(
         return version, published_at, description, download_urls, signature_url, release_url
 
     api_url = f"{repo_url}/releases"
-    headers = dict(BASE_HEADERS)
-    async with ETAG_CACHE_LOCK:
-        etag = ETAG_CACHE.get(api_url)
-    if etag:
-        headers['If-None-Match'] = etag
-    response = await _get_with_retries(client, api_url, headers=headers)
-    if response.status_code == 304:
-        print(f"No changes for {repo_url}; skipping.")
-        return None, None, None, None, None, None
-    if response.status_code == 200:
-        etag_value = response.headers.get('ETag')
-        if etag_value:
-            async with ETAG_CACHE_LOCK:
-                ETAG_CACHE[api_url] = etag_value
-            await _save_etag_cache(ETAG_CACHE)
-        releases = response.json()
-        if not releases:
-            print(f"No releases found for {repo_url}")
+    async with RELEASE_CACHE_LOCK:
+        cached_releases = RELEASE_CACHE.get(api_url)
+    if cached_releases is None:
+        headers = dict(BASE_HEADERS)
+        async with ETAG_CACHE_LOCK:
+            etag = ETAG_CACHE.get(api_url)
+        if etag:
+            headers['If-None-Match'] = etag
+        response = await _get_with_retries(client, api_url, headers=headers)
+        if response.status_code == 304:
+            async with RELEASE_CACHE_LOCK:
+                cached_releases = RELEASE_CACHE.get(api_url)
+            if cached_releases is None:
+                headers.pop('If-None-Match', None)
+                response = await _get_with_retries(client, api_url, headers=headers)
+        if response.status_code == 304:
+            print(f"No cached releases available for {repo_url}; skipping.")
             return None, None, None, None, None, None
-        if latest_flag:
-            filtered_releases = sorted(releases, key=lambda x: x["published_at"], reverse=True)
-        elif prerelease:
-            filtered_releases = sorted(
-                (r for r in releases if r["prerelease"]),
-                key=lambda x: x["published_at"],
-                reverse=True
-            )
+        if response.status_code == 200:
+            etag_value = response.headers.get('ETag')
+            if etag_value:
+                async with ETAG_CACHE_LOCK:
+                    ETAG_CACHE[api_url] = etag_value
+                await _save_etag_cache(ETAG_CACHE)
+            cached_releases = response.json()
+            async with RELEASE_CACHE_LOCK:
+                RELEASE_CACHE[api_url] = cached_releases
         else:
-            filtered_releases = sorted(
-                (r for r in releases if not r["prerelease"]),
-                key=lambda x: x["published_at"],
-                reverse=True
-            )
-        file_types = (".jar", ".apk", ".rvp", ".mpp")
-        for release in filtered_releases:
-            (
-                version,
-                created_at,
-                description,
-                download_urls,
-                signature_url,
-                release_url,
-            ) = await get_version_urls(release, file_types)
-            if any(download_urls[ext] for ext in file_types):
-                return version, created_at, description, download_urls, signature_url, release_url
-        print(f"No suitable release with .jar, .apk, .rvp, or .mpp assets found for {repo_url}")
+            print(f"Failed to fetch releases from {repo_url}")
+            return None, None, None, None, None, None
+    releases = cached_releases
+    if not releases:
+        print(f"No releases found for {repo_url}")
         return None, None, None, None, None, None
+    if latest_flag:
+        filtered_releases = sorted(releases, key=lambda x: x["published_at"], reverse=True)
+    elif prerelease:
+        filtered_releases = sorted(
+            (r for r in releases if r["prerelease"]),
+            key=lambda x: x["published_at"],
+            reverse=True
+        )
     else:
-        print(f"Failed to fetch releases from {repo_url}")
-        return None, None, None, None, None, None
+        filtered_releases = sorted(
+            (r for r in releases if not r["prerelease"]),
+            key=lambda x: x["published_at"],
+            reverse=True
+        )
+    file_types = (".jar", ".apk", ".rvp", ".mpp")
+    for release in filtered_releases:
+        (
+            version,
+            created_at,
+            description,
+            download_urls,
+            signature_url,
+            release_url,
+        ) = await get_version_urls(release, file_types)
+        if any(download_urls[ext] for ext in file_types):
+            return version, created_at, description, download_urls, signature_url, release_url
+    print(f"No suitable release with .jar, .apk, .rvp, or .mpp assets found for {repo_url}")
+    return None, None, None, None, None, None
 
 async def fetch_release_data(client: AsyncClient, source: str, repo: Mapping[str, Any]) -> None:
     try:
