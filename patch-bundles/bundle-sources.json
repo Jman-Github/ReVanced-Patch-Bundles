@@ -229,6 +229,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "blazskufca-stable": {
+        "patches": "https://api.github.com/repos/blazskufca/revanced-patch",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -451,6 +456,11 @@
     },
     "rvx-morphed-dev": {
         "patches": "https://api.github.com/repos/wchill/rvx-morphed",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "blazskufca-dev": {
+        "patches": "https://api.github.com/repos/blazskufca/revanced-patch",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -681,6 +691,11 @@
     },
     "rvx-morphed-latest": {
         "patches": "https://api.github.com/repos/wchill/rvx-morphed",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "blazskufca-latest": {
+        "patches": "https://api.github.com/repos/blazskufca/revanced-patch",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

@@ -48,6 +48,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Morphe Bundle Patch List](#-morphe-bundle-patch-list)  
 [🧩 Patcheddit Bundle Patch List](#-patcheddit-bundle-patch-list)    
 [🧩 RVX-Morphed Bundle Patch List](#-rvx-morphed-bundle-patch-list)    
+[🧩 Blazskufca Bundle Patch List](#-blazskufca-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -2938,6 +2939,16 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
 | ```Spoof signature``` | ```Spoofs the signature of the app.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Wi-Fi connection``` | ```Spoofs an existing Wi-Fi connection.``` | ```Universal``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Blazskufca Bundle Patch List:
+[📦 Blazskufca-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-blazskufca-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
 
 </details>
 
