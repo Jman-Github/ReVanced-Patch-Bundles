@@ -1,5 +1,5 @@
 {
-    "version": "v5.48.0-dev.8",
+    "version": "v5.48.0-dev.9",
     "patches": [
         {
             "compatiblePackages": {
@@ -963,6 +963,16 @@
             "use": false
         },
         {
+            "compatiblePackages": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Prevents apps from using Play Integrity by pretending it is not available.",
+            "name": "Disable Play Integrity",
+            "options": [],
+            "use": false
+        },
+        {
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
@@ -1048,6 +1058,14 @@
             "name": "Disable screenshot popup",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Disables Sentry telemetry. See https://sentry.io/for/android/ for more information.",
+            "name": "Disable Sentry telemetry",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
