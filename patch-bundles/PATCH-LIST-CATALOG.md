@@ -2799,7 +2799,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hook exception handler``` | ```Hook the exception handler in Boost. Don't enable except for development purposes``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
 | ```Intercept HTTP requests``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
-| ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```free.reddit.news, reddit.news``` | ```All versions``` |
+| ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```free.reddit.news, reddit.news``` | ```10.2.40, 10.2.40``` |
 | ```Disable ads``` | ```N/A``` | ```io.syncapps.lemmy_sync``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```me.ccrama.redditslide``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```ml.docilealligator.infinityforreddit, ml.docilealligator.infinityforreddit.patreon, ml.docilealligator.infinityforreddit.plus``` | ```All versions``` |
