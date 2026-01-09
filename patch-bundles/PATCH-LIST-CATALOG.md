@@ -2955,7 +2955,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Plus``` | ```Forces the app to report 'plus' permissions to the server.``` | ```com.audiorista.android, com.mladinska.mkplus``` | ```All versions``` |
-| ```Unlock Modules``` | ```Forces ModuleManager to report all modules as Available.``` | ```com.sovworks.projecteds``` | ```All versions``` |
+| ```Unlock Modules``` | ```Forces the app to consider all modules as Active.``` | ```com.sovworks.projecteds``` | ```All versions``` |
 
 </details>
 

@@ -1,12 +1,12 @@
 {
-    "version": "v1.1.1",
+    "version": "v1.2.0",
     "patches": [
         {
             "compatiblePackages": {
                 "com.sovworks.projecteds": null
             },
             "dependencies": [],
-            "description": "Forces ModuleManager to report all modules as Available.",
+            "description": "Forces the app to consider all modules as Active.",
             "name": "Unlock Modules",
             "options": [],
             "use": true
