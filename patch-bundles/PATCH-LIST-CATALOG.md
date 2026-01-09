@@ -2769,10 +2769,12 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***34 Patches***
+***35 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```All versions``` |
+| ```Fake reddit premium``` | ```Allows using pro features without ads.``` | ```com.andrewshu.android.reddit``` | ```5.6.22``` |
+| ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.andrewshu.android.reddit``` | ```5.6.22``` |
+| ```Use public imgur API``` | ```Fix imgur albums not loading.``` | ```com.andrewshu.android.reddit``` | ```5.6.22``` |
 | ```Disable ads``` | ```N/A``` | ```com.laurencedawson.reddit_sync``` | ```All versions``` |
 | ```Disable Sync for Lemmy bottom sheet``` | ```Disables the bottom sheet at the startup that asks you to signup to "Sync for Lemmy".``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.dev, com.laurencedawson.reddit_sync.pro``` | ```v23.06.30-13:39``` |
 | ```Fix /s/ links``` | ```N/A``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.dev, com.laurencedawson.reddit_sync.pro``` | ```All versions``` |
@@ -2787,17 +2789,16 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide ads``` | ```N/A``` | ```com.reddit.frontpage``` | ```2024.17.0``` |
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Unlock Premium icons``` | ```Unlocks the Reddit Premium icons.``` | ```com.reddit.frontpage``` | ```All versions``` |
-| ```Add archive links to context menu``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
-| ```Automatically undelete Imgur images``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
-| ```Automatically undelete Reddit content``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
-| ```Disable ads``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
-| ```Fix /s/ links``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
-| ```Fix missing audio in video downloads``` | ```Fixes audio missing in videos downloaded from v.redd.it.``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
-| ```Fix Redgifs API``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
-| ```Hook exception handler``` | ```Hook the exception handler in Boost. Don't enable except for development purposes``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
-| ```Intercept HTTP requests``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
-| ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
-| ```Spoof user agent``` | ```Restores functionality of the app by using custom user agent.``` | ```com.rubenmayayo.reddit``` | ```All versions``` |
+| ```Add archive links to context menu``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
+| ```Automatically undelete Imgur images``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
+| ```Automatically undelete Reddit content``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
+| ```Disable ads``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
+| ```Fix /s/ links``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
+| ```Fix missing audio in video downloads``` | ```Fixes audio missing in videos downloaded from v.redd.it.``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
+| ```Fix Redgifs API``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
+| ```Hook exception handler``` | ```Hook the exception handler in Boost. Don't enable except for development purposes``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
+| ```Intercept HTTP requests``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
+| ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```free.reddit.news, reddit.news``` | ```All versions``` |
 | ```Disable ads``` | ```N/A``` | ```io.syncapps.lemmy_sync``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```me.ccrama.redditslide``` | ```All versions``` |

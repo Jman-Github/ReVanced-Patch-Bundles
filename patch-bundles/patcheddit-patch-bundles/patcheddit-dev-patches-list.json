@@ -1,9 +1,11 @@
 {
-    "version": "v1.0.0-dev.3",
+    "version": "v1.1.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
-                "com.rubenmayayo.reddit": []
+                "com.rubenmayayo.reddit": [
+                    "1.12.12"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -15,7 +17,9 @@
         },
         {
             "compatiblePackages": {
-                "com.rubenmayayo.reddit": []
+                "com.rubenmayayo.reddit": [
+                    "1.12.12"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -28,7 +32,9 @@
         },
         {
             "compatiblePackages": {
-                "com.rubenmayayo.reddit": []
+                "com.rubenmayayo.reddit": [
+                    "1.12.12"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -79,7 +85,9 @@
         },
         {
             "compatiblePackages": {
-                "com.rubenmayayo.reddit": []
+                "com.rubenmayayo.reddit": [
+                    "1.12.12"
+                ]
             },
             "dependencies": [],
             "description": null,
@@ -147,7 +155,21 @@
         },
         {
             "compatiblePackages": {
-                "com.rubenmayayo.reddit": []
+                "com.andrewshu.android.reddit": [
+                    "5.6.22"
+                ]
+            },
+            "dependencies": [],
+            "description": "Allows using pro features without ads.",
+            "name": "Fake reddit premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": [
+                    "1.12.12"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -173,7 +195,9 @@
         },
         {
             "compatiblePackages": {
-                "com.rubenmayayo.reddit": []
+                "com.rubenmayayo.reddit": [
+                    "1.12.12"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -211,7 +235,9 @@
         },
         {
             "compatiblePackages": {
-                "com.rubenmayayo.reddit": []
+                "com.rubenmayayo.reddit": [
+                    "1.12.12"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -267,7 +293,9 @@
         },
         {
             "compatiblePackages": {
-                "com.rubenmayayo.reddit": []
+                "com.rubenmayayo.reddit": [
+                    "1.12.12"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -279,7 +307,9 @@
         },
         {
             "compatiblePackages": {
-                "com.rubenmayayo.reddit": []
+                "com.rubenmayayo.reddit": [
+                    "1.12.12"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -324,7 +354,9 @@
         },
         {
             "compatiblePackages": {
-                "com.rubenmayayo.reddit": []
+                "com.rubenmayayo.reddit": [
+                    "1.12.12"
+                ]
             },
             "dependencies": [],
             "description": "Restores functionality of the app by using custom client ID.",
@@ -332,19 +364,28 @@
             "options": [
                 {
                     "default": null,
-                    "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to match the value provided for the \"Redirect URI\" option.",
+                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing client ID.",
                     "key": "client-id",
-                    "required": true,
+                    "required": false,
                     "title": "OAuth client ID",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": "http://127.0.0.1:8080",
-                    "description": "The Reddit OAuth redirect URI. Should be a valid URI.",
+                    "default": null,
+                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing redirect URI.",
                     "key": "redirect-uri",
-                    "required": true,
+                    "required": false,
                     "title": "Redirect URI",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing user agent.",
+                    "key": "user-agent",
+                    "required": false,
+                    "title": "User agent",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -399,8 +440,9 @@
         },
         {
             "compatiblePackages": {
-                "com.andrewshu.android.reddit": [],
-                "com.andrewshu.android.redditdonation": []
+                "com.andrewshu.android.reddit": [
+                    "5.6.22"
+                ]
             },
             "dependencies": [],
             "description": "Restores functionality of the app by using custom client ID.",
@@ -408,10 +450,28 @@
             "options": [
                 {
                     "default": null,
-                    "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"redditisfun://auth\".",
+                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing client ID.",
                     "key": "client-id",
-                    "required": true,
+                    "required": false,
                     "title": "OAuth client ID",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing redirect URI.",
+                    "key": "redirect-uri",
+                    "required": false,
+                    "title": "Redirect URI",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing user agent.",
+                    "key": "user-agent",
+                    "required": false,
+                    "title": "User agent",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -486,26 +546,6 @@
         },
         {
             "compatiblePackages": {
-                "com.rubenmayayo.reddit": []
-            },
-            "dependencies": [],
-            "description": "Restores functionality of the app by using custom user agent.",
-            "name": "Spoof user agent",
-            "options": [
-                {
-                    "default": null,
-                    "description": "The app's user agent. User agent should be in the format \"<platform>:<app id>:<version> (by /u/<username>)\".",
-                    "key": "user-agent",
-                    "required": true,
-                    "title": "User agent",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.reddit.frontpage": []
             },
             "dependencies": [],
@@ -539,6 +579,20 @@
             "name": "Use /user/ endpoint",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.andrewshu.android.reddit": [
+                    "5.6.22"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Fix imgur albums not loading.",
+            "name": "Use public imgur API",
+            "options": [],
+            "use": true
         }
     ]
 }
