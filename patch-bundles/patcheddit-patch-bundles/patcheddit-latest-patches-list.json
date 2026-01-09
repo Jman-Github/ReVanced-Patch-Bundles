@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.3",
+    "version": "v1.1.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -446,10 +446,28 @@
             "options": [
                 {
                     "default": null,
-                    "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"https://127.0.0.1:65023/authorize_callback\".",
+                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing client ID.",
                     "key": "client-id",
-                    "required": true,
+                    "required": false,
                     "title": "OAuth client ID",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing redirect URI.",
+                    "key": "redirect-uri",
+                    "required": false,
+                    "title": "Redirect URI",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing user agent.",
+                    "key": "user-agent",
+                    "required": false,
+                    "title": "User agent",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -574,10 +592,28 @@
             "options": [
                 {
                     "default": null,
-                    "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"http://redditsync/auth\".",
+                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing client ID.",
                     "key": "client-id",
-                    "required": true,
+                    "required": false,
                     "title": "OAuth client ID",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing redirect URI.",
+                    "key": "redirect-uri",
+                    "required": false,
+                    "title": "Redirect URI",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing user agent.",
+                    "key": "user-agent",
+                    "required": false,
+                    "title": "User agent",
                     "type": "kotlin.String",
                     "values": null
                 }
