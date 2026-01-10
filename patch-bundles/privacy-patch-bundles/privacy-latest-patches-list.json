@@ -1,5 +1,5 @@
 {
-    "version": "v4.5.0",
+    "version": "v4.6.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -409,6 +409,26 @@
             "description": "Spoofs the device's advertising ID with a string of zeros.",
             "name": "Spoof Advertising ID",
             "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Spoofs the app's package certificate hash used by Firebase Installations so that push notifications, remote config, and other Firebase services continue to work as expected.",
+            "name": "Spoof Firebase certificate hash",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The SHA-1 hash of the app's package certificate.",
+                    "key": "certificateHash",
+                    "required": true,
+                    "title": "Certificate hash",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
             "use": false
         },
         {
