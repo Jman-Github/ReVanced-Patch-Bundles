@@ -1,5 +1,5 @@
 {
-    "version": "v4.6.0-dev.1",
+    "version": "v4.6.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -274,7 +274,9 @@
             "compatiblePackages": {
                 "com.reddit.frontpage": null
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Disables the banner that shows up after taking a screenshot.",
             "name": "Disable screenshot banner",
             "options": [],
@@ -320,7 +322,9 @@
             "compatiblePackages": {
                 "com.reddit.frontpage": null
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Hides the community highlights section.",
             "name": "Hide community highlights",
             "options": [],
@@ -330,7 +334,9 @@
             "compatiblePackages": {
                 "com.reddit.frontpage": null
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Hides the share count on Reddit posts.",
             "name": "Hide share count",
             "options": [],
@@ -340,7 +346,9 @@
             "compatiblePackages": {
                 "com.reddit.frontpage": null
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Hides the scores on Reddit posts and comments.",
             "name": "Hide upvote scores",
             "options": [
@@ -369,7 +377,9 @@
             "compatiblePackages": {
                 "com.reddit.frontpage": null
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Opens external links directly without going through out.reddit.com.",
             "name": "Open external links directly",
             "options": [],
@@ -379,7 +389,9 @@
             "compatiblePackages": {
                 "com.reddit.frontpage": null
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes ads and telemetry from Home, Popular, Watch, Latest, All, Custom feeds, Search, and Subreddits, including comments.",
             "name": "Remove ads and telemetry",
             "options": [],
@@ -397,7 +409,9 @@
             "compatiblePackages": {
                 "com.reddit.frontpage": null
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Unshortens and removes the tracking query parameters from shared links.",
             "name": "Sanitize share links",
             "options": [],
