@@ -2683,7 +2683,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***75 Patches***
+***76 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52, 8.37.56``` |
@@ -2723,6 +2723,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable rolling number animations``` | ```Adds an option to disable rolling number animations of video view count, user likes, and upload time.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48``` |
 | ```Disable sign in to TV popup``` | ```Adds an option to disable the popup asking to sign into a TV on the same local network.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48``` |
 | ```Disable video codecs``` | ```Adds options to disable HDR and VP9 codecs.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48``` |
+| ```Double tap to seek``` | ```Adds additional double-tap to seek values to the YouTube settings menu.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48``` |
 | ```Downloads``` | ```Adds support to download videos with an external downloader app using the in-app download button or a video player action button.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48``` |
 | ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48``` |
 | ```Exit fullscreen mode``` | ```Adds options to automatically exit fullscreen mode when a video reaches the end.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48``` |
