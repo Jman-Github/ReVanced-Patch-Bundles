@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.2",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -524,6 +524,24 @@
             ],
             "description": "Adds options to disable HDR and VP9 codecs.",
             "name": "Disable video codecs",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds additional double-tap to seek values to the YouTube settings menu.",
+            "name": "Double tap to seek",
             "options": [],
             "use": true
         },
