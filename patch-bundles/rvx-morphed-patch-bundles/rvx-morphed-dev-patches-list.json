@@ -1,5 +1,5 @@
 {
-    "version": "v5.15.0",
+    "version": "v5.15.2-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -1259,14 +1259,14 @@
             "name": "GmsCore support",
             "options": [
                 {
-                    "default": "app.morphe",
+                    "default": "app.revanced",
                     "description": "The vendor's group ID for GmsCore. Do not change this option, if you do not know what you are doing.",
                     "key": "gmsCoreVendorGroupId",
                     "required": true,
                     "title": "GmsCore vendor group ID",
                     "type": "kotlin.String",
                     "values": {
-                        "Morphe MicroG": "app.morphe",
+                        "Morphe MicroG": "app.revanced",
                         "Original MicroG": "com.google"
                     }
                 },
@@ -1343,14 +1343,14 @@
             "name": "GmsCore support",
             "options": [
                 {
-                    "default": "app.morphe",
+                    "default": "app.revanced",
                     "description": "The vendor's group ID for GmsCore. Do not change this option, if you do not know what you are doing.",
                     "key": "gmsCoreVendorGroupId",
                     "required": true,
                     "title": "GmsCore vendor group ID",
                     "type": "kotlin.String",
                     "values": {
-                        "Morphe MicroG": "app.morphe",
+                        "Morphe MicroG": "app.revanced",
                         "Original MicroG": "com.google"
                     }
                 },
