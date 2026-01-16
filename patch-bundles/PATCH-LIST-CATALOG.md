@@ -2621,7 +2621,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***76 Patches***
+***77 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52, 8.37.56``` |
@@ -2668,6 +2668,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48``` |
 | ```Hide ads``` | ```Adds options to remove general ads.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48``` |
+| ```Hide autoplay preview``` | ```Adds an option to hide the autoplay preview at the end of videos.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48``` |
 | ```Hide end screen cards``` | ```Adds an option to hide suggested video cards at the end of videos.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48``` |
 | ```Hide end screen suggested video``` | ```Adds an option to hide the suggested video at the end of videos.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48``` |
 | ```Hide info cards``` | ```Adds an option to hide info cards that creators add in the video player.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48``` |
