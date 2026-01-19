@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -412,20 +412,41 @@
         },
         {
             "compatiblePackages": {
-                "ml.docilealligator.infinityforreddit": [],
-                "ml.docilealligator.infinityforreddit.patreon": [],
-                "ml.docilealligator.infinityforreddit.plus": []
+                "org.cygnusx1.continuum": []
             },
-            "dependencies": [],
-            "description": "Restores functionality of the app by using custom client ID.",
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Allows modifying Continuum's client ID, redirect URI and user agent in API Keys settings menu. Patch options will modify default values.",
             "name": "Spoof client",
             "options": [
                 {
                     "default": null,
-                    "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"infinity://localhost\".",
+                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing client ID.",
                     "key": "client-id",
-                    "required": true,
+                    "required": false,
                     "title": "OAuth client ID",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing redirect URI.",
+                    "key": "redirect-uri",
+                    "required": false,
+                    "title": "Redirect URI",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing user agent.",
+                    "key": "user-agent",
+                    "required": false,
+                    "title": "User agent",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -627,20 +648,6 @@
             "dependencies": [],
             "description": "Unlocks the Reddit Premium icons.",
             "name": "Unlock Premium icons",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "ml.docilealligator.infinityforreddit": [],
-                "ml.docilealligator.infinityforreddit.patreon": [],
-                "ml.docilealligator.infinityforreddit.plus": []
-            },
-            "dependencies": [
-                "Spoof client"
-            ],
-            "description": "Unlocks the subscription feature but requires a custom client ID.",
-            "name": "Unlock subscription",
             "options": [],
             "use": true
         },

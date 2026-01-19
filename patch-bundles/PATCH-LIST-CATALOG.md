@@ -2716,7 +2716,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***35 Patches***
+***34 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Fake reddit premium``` | ```Allows using pro features without ads.``` | ```com.andrewshu.android.reddit``` | ```5.6.22``` |
@@ -2749,10 +2749,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```free.reddit.news, reddit.news``` | ```10.2.40, 10.2.40``` |
 | ```Disable ads``` | ```N/A``` | ```io.syncapps.lemmy_sync``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```me.ccrama.redditslide``` | ```All versions``` |
-| ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```ml.docilealligator.infinityforreddit, ml.docilealligator.infinityforreddit.patreon, ml.docilealligator.infinityforreddit.plus``` | ```All versions``` |
-| ```Unlock subscription``` | ```Unlocks the subscription feature but requires a custom client ID.``` | ```ml.docilealligator.infinityforreddit, ml.docilealligator.infinityforreddit.patreon, ml.docilealligator.infinityforreddit.plus``` | ```All versions``` |
 | ```Disable ads``` | ```N/A``` | ```o.o.joey``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```o.o.joey, o.o.joey.dev, o.o.joey.pro``` | ```All versions``` |
+| ```Spoof client``` | ```Allows modifying Continuum's client ID, redirect URI and user agent in API Keys settings menu. Patch options will modify default values.``` | ```org.cygnusx1.continuum``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 
 </details>
