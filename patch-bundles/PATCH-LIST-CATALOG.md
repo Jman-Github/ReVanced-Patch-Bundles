@@ -2748,7 +2748,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```free.reddit.news, reddit.news``` | ```10.2.40, 10.2.40``` |
 | ```Disable ads``` | ```N/A``` | ```io.syncapps.lemmy_sync``` | ```All versions``` |
-| ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```me.ccrama.redditslide``` | ```All versions``` |
+| ```Spoof client``` | ```Allows modifying Slide's client ID, redirect URI and user agent in settings. Patch options will modify default values.``` | ```me.edgan.redditslide``` | ```All versions``` |
 | ```Disable ads``` | ```N/A``` | ```o.o.joey``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```o.o.joey, o.o.joey.dev, o.o.joey.pro``` | ```All versions``` |
 | ```Spoof client``` | ```Allows modifying Continuum's client ID, redirect URI and user agent in API Keys settings menu. Patch options will modify default values.``` | ```org.cygnusx1.continuum``` | ```All versions``` |
