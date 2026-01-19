@@ -56,7 +56,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***266 Patches***
+***268 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.bka.serviceportal``` | ```All versions``` |
@@ -158,6 +158,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Open links externally``` | ```Adds an option to always open links in your browser instead of the in-app browser.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Open Shorts in regular player``` | ```Adds options to open Shorts in the regular video player.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Open videos fullscreen``` | ```Adds an option to open videos in full screen portrait mode.``` | ```com.google.android.youtube``` | ```20.07.39, 20.13.41, 20.14.43``` |
+| ```Pause on audio interrupt``` | ```Adds an option to pause playback instead of lowering volume when other audio plays.``` | ```com.google.android.youtube``` | ```20.14.43``` |
 | ```Playback speed``` | ```Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
@@ -246,6 +247,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Settings``` | ```Adds ReVanced settings to TikTok.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```36.5.4, 36.5.4``` |
 | ```Show seekbar``` | ```Shows progress bar for all video.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```All versions``` |
 | ```SIM spoof``` | ```Spoofs the information which is retrieved from the SIM card.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```All versions``` |
+| ```Add media download``` | ```Extends the full-screen media viewer menu with items to copy or open their URLs or download them directly.``` | ```com.strava``` | ```All versions``` |
 | ```Block Snowplow tracking``` | ```Blocks Snowplow analytics. See https://snowplow.io for more information.``` | ```com.strava``` | ```All versions``` |
 | ```Disable Quick Edit``` | ```Prevents the Quick Edit prompt from popping up.``` | ```com.strava``` | ```All versions``` |
 | ```Disable subscription suggestions``` | ```N/A``` | ```com.strava``` | ```All versions``` |

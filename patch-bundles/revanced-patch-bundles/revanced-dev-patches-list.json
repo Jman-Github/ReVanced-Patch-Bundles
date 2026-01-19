@@ -1,6 +1,19 @@
 {
-    "version": "v5.48.0-dev.9",
+    "version": "v5.48.0-dev.10",
     "patches": [
+        {
+            "compatiblePackages": {
+                "com.strava": null
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Extends the full-screen media viewer menu with items to copy or open their URLs or download them directly.",
+            "name": "Add media download",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
@@ -1009,7 +1022,7 @@
             "description": "Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.",
             "name": "Disable Reels scrolling",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -2869,6 +2882,22 @@
                     "values": null
                 }
             ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to pause playback instead of lowering volume when other audio plays.",
+            "name": "Pause on audio interrupt",
+            "options": [],
             "use": true
         },
         {
