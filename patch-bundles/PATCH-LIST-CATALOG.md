@@ -56,7 +56,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***271 Patches***
+***272 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.bka.serviceportal``` | ```All versions``` |
@@ -323,6 +323,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide mock location``` | ```Prevents the app from knowing the device location is being mocked by a third party app.``` | ```Universal``` | ```All versions``` |
 | ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
 | ```Predictive back gesture``` | ```Enables the predictive back gesture introduced on Android 13.``` | ```Universal``` | ```All versions``` |
+| ```Prevent screenshot detection``` | ```Removes the registration of all screen capture callbacks. This prevents the app from detecting screenshots.``` | ```Universal``` | ```All versions``` |
 | ```Remove screen capture restriction``` | ```Removes the restriction of capturing audio from apps that normally wouldn't allow it.``` | ```Universal``` | ```All versions``` |
 | ```Remove screenshot restriction``` | ```Removes the restriction of taking screenshots in apps that normally wouldn't allow it.``` | ```Universal``` | ```All versions``` |
 | ```Remove share targets``` | ```Removes share targets like directly sharing to a frequent contact.``` | ```Universal``` | ```All versions``` |

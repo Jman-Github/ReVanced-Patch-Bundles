@@ -1,5 +1,5 @@
 {
-    "version": "v5.48.0-dev.12",
+    "version": "v5.48.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -2994,6 +2994,16 @@
             "name": "Predictive back gesture",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes the registration of all screen capture callbacks. This prevents the app from detecting screenshots.",
+            "name": "Prevent screenshot detection",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
