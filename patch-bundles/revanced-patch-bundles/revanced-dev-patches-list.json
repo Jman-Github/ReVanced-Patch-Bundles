@@ -1,6 +1,18 @@
 {
-    "version": "v5.48.0-dev.10",
+    "version": "v5.48.0-dev.12",
     "patches": [
+        {
+            "compatiblePackages": {
+                "com.strava": null
+            },
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Adds a button that triggers the same action as shaking your phone would.",
+            "name": "Add 'Give Kudos' button to 'Group Activity'",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "com.strava": null
@@ -2210,6 +2222,16 @@
         },
         {
             "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [],
+            "description": "Hides the highlights tray in profile section.",
+            "name": "Hide highlights tray",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
                 "com.facebook.orca": null
             },
             "dependencies": [],
@@ -3101,6 +3123,16 @@
             "dependencies": [],
             "description": "Enables starting/stopping NetGuard via broadcasts.",
             "name": "Remove broadcasts restriction",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [],
+            "description": "Removes the popup that appears after a while, when the app version ages.",
+            "name": "Remove build expired popup",
             "options": [],
             "use": true
         },
