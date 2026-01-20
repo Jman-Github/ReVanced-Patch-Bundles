@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.3",
+    "version": "v1.2.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -172,6 +172,24 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Fix /s/ links",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "free.reddit.news": [
+                    "10.2.40"
+                ],
+                "reddit.news": [
+                    "10.2.40"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,

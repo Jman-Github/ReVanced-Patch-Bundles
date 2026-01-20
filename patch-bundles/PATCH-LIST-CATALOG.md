@@ -2716,7 +2716,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***34 Patches***
+***35 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Fake reddit premium``` | ```Allows using pro features without ads.``` | ```com.andrewshu.android.reddit``` | ```5.6.22``` |
@@ -2746,6 +2746,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hook exception handler``` | ```Hook the exception handler in Boost. Don't enable except for development purposes``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
 | ```Intercept HTTP requests``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
+| ```Fix /s/ links``` | ```N/A``` | ```free.reddit.news, reddit.news``` | ```10.2.40, 10.2.40``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```free.reddit.news, reddit.news``` | ```10.2.40, 10.2.40``` |
 | ```Disable ads``` | ```N/A``` | ```io.syncapps.lemmy_sync``` | ```All versions``` |
 | ```Spoof client``` | ```Allows modifying Slide's client ID, redirect URI and user agent in settings. Patch options will modify default values.``` | ```me.edgan.redditslide``` | ```All versions``` |
