@@ -1,5 +1,5 @@
 {
-    "version": "v5.48.0-dev.13",
+    "version": "v5.48.1-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -3003,7 +3003,7 @@
             "description": "Removes the registration of all screen capture callbacks. This prevents the app from detecting screenshots.",
             "name": "Prevent screenshot detection",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatiblePackages": {
