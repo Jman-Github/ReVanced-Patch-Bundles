@@ -1,5 +1,5 @@
 {
-    "version": "v5.48.1-dev.1",
+    "version": "v5.49.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -1343,10 +1343,10 @@
                 ]
             },
             "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
                 "BytecodePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
             ],
             "description": "Adds options for debugging and exporting ReVanced logs to the clipboard.",
             "name": "Enable debugging",
@@ -1363,10 +1363,10 @@
                 ]
             },
             "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
                 "BytecodePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
             ],
             "description": "Adds options for debugging and exporting ReVanced logs to the clipboard.",
             "name": "Enable debugging",
@@ -2271,6 +2271,23 @@
         },
         {
             "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to hide general layout components.",
+            "name": "Hide layout components",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
                     "20.07.39",
@@ -2282,8 +2299,8 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
-                "ResourcePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Adds options to hide general layout components.",
             "name": "Hide layout components",

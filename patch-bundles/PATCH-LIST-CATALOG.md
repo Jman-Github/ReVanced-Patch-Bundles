@@ -56,7 +56,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***272 Patches***
+***273 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.bka.serviceportal``` | ```All versions``` |
@@ -109,6 +109,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide 'Get Music Premium'``` | ```Adds an option to hide the "Get Music Premium" label in the settings and account menu.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
 | ```Hide buttons``` | ```Adds options to hide the cast, history, notification, and search buttons.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
 | ```Hide category bar``` | ```Adds an option to hide the category bar at the top of the homepage.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
+| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
 | ```Hide music video ads``` | ```Adds an option to hide ads that appear while listening to or streaming music videos, podcasts, or songs.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
 | ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
 | ```Permanent repeat``` | ```Adds an option to always repeat even if the playlist ends or another track is played.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52``` |
