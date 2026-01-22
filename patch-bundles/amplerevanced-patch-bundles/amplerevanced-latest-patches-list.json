@@ -1,10 +1,22 @@
 {
-    "version": "v5.47.0-ample.2",
+    "version": "v5.48.0-ample.1",
     "patches": [
         {
             "compatiblePackages": {
+                "com.strava": null
+            },
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Adds a button that triggers the same action as shaking your phone would.",
+            "name": "Add 'Give Kudos' button to 'Group Activity'",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [
@@ -12,6 +24,19 @@
             ],
             "description": "Adds extension support to the app.",
             "name": "Add extension",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.strava": null
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Extends the full-screen media viewer menu with items to copy or open their URLs or download them directly.",
+            "name": "Add media download",
             "options": [],
             "use": true
         },
@@ -42,7 +67,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [
@@ -53,7 +78,7 @@
             "description": "Adds a settings tab to the app.",
             "name": "Add settings tab",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatiblePackages": null,
@@ -78,7 +103,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -90,7 +115,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -133,7 +158,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -222,6 +247,16 @@
         },
         {
             "compatiblePackages": {
+                "com.strava": null
+            },
+            "dependencies": [],
+            "description": "Blocks Snowplow analytics. See https://snowplow.io for more information.",
+            "name": "Block Snowplow tracking",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "tv.twitch.android.app": [
                     "16.9.1",
                     "25.3.0"
@@ -303,7 +338,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -315,7 +350,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -490,7 +525,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [
@@ -633,7 +668,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [
@@ -902,7 +937,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -928,7 +963,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -940,7 +975,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -1081,7 +1116,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -1093,7 +1128,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -1147,7 +1182,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -1159,7 +1194,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -1271,6 +1306,16 @@
             "use": false
         },
         {
+            "compatiblePackages": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Prevents apps from using Play Integrity by pretending it is not available.",
+            "name": "Disable Play Integrity",
+            "options": [],
+            "use": false
+        },
+        {
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
@@ -1291,13 +1336,23 @@
         },
         {
             "compatiblePackages": {
+                "com.strava": null
+            },
+            "dependencies": [],
+            "description": "Prevents the Quick Edit prompt from popping up.",
+            "name": "Disable Quick Edit",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.instagram.android": null
             },
             "dependencies": [],
             "description": "Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.",
             "name": "Disable Reels scrolling",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -1340,7 +1395,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -1362,7 +1417,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [
@@ -1376,7 +1431,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -1384,6 +1439,14 @@
             "name": "Disable Sentry",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Disables Sentry telemetry. See https://sentry.io/for/android/ for more information.",
+            "name": "Disable Sentry telemetry",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -1464,7 +1527,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -1535,7 +1598,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -1754,8 +1817,18 @@
         },
         {
             "compatiblePackages": {
+                "com.strava": null
+            },
+            "dependencies": [],
+            "description": "Re-enables password login after having used an OTP code.",
+            "name": "Enable password login",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -1767,7 +1840,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -1797,7 +1870,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -2057,7 +2130,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -2069,7 +2142,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -2131,7 +2204,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -2625,6 +2698,16 @@
         },
         {
             "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [],
+            "description": "Hides the highlights tray in profile section.",
+            "name": "Hide highlights tray",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
                 "com.facebook.orca": null
             },
             "dependencies": [],
@@ -2735,11 +2818,47 @@
             "name": "Hide navigation buttons",
             "options": [
                 {
+                    "default": false,
+                    "description": "Permanently hides the Home button. App starts at next available tab.",
+                    "key": "hideHome",
+                    "required": false,
+                    "title": "Hide Home",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
                     "default": true,
                     "description": "Permanently hides the Reels button.",
                     "key": "hideReels",
                     "required": false,
                     "title": "Hide Reels",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Permanently hides the Direct button.",
+                    "key": "hideDirect",
+                    "required": false,
+                    "title": "Hide Direct",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Permanently hides the Search button.",
+                    "key": "hideSearch",
+                    "required": false,
+                    "title": "Hide Search",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Permanently hides the Profile button.",
+                    "key": "hideProfile",
+                    "required": false,
+                    "title": "Hide Profile",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -3068,7 +3187,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [
@@ -3082,7 +3201,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [
@@ -3268,7 +3387,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [
@@ -3278,6 +3397,60 @@
             "name": "Override feature flag",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.strava": null
+            },
+            "dependencies": [],
+            "description": "Overwrites the compression, resize and trim media (images and videos) parameters returned by Strava's server before upload.",
+            "name": "Overwrite media upload parameters",
+            "options": [
+                {
+                    "default": null,
+                    "description": "This is used as the JPEG quality setting (≤ 100).",
+                    "key": "compressionQuality",
+                    "required": false,
+                    "title": "Compression quality (percent)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "The maximum length (≤ 3600) of a video before it gets trimmed.",
+                    "key": "maxDuration",
+                    "required": false,
+                    "title": "Max duration (seconds)",
+                    "type": "kotlin.Long",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "The image gets resized so that the smaller dimension (width/height) does not exceed this value (≤ 10000).",
+                    "key": "maxSize",
+                    "required": false,
+                    "title": "Max size (pixels)",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to pause playback instead of lowering volume when other audio plays.",
+            "name": "Pause on audio interrupt",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
@@ -3299,7 +3472,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -3365,6 +3538,16 @@
             "use": false
         },
         {
+            "compatiblePackages": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes the registration of all screen capture callbacks. This prevents the app from detecting screenshots.",
+            "name": "Prevent screenshot detection",
+            "options": [],
+            "use": true
+        },
+        {
             "compatiblePackages": {
                 "de.dwd.warnapp": [
                     "4.2.2"
@@ -3402,6 +3585,18 @@
             "dependencies": [],
             "description": "Removes the 'Sent from Proton Mail mobile' signature from emails.",
             "name": "Remove 'Sent from' signature",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.sbs.ondemand.tv": null
+            },
+            "dependencies": [
+                "Disable Pairip license check"
+            ],
+            "description": "Removes pre-roll, pause and on-demand advertisements from SBS On Demand TV.",
+            "name": "Remove ads",
             "options": [],
             "use": true
         },
@@ -3466,7 +3661,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -3492,6 +3687,16 @@
             "dependencies": [],
             "description": "Enables starting/stopping NetGuard via broadcasts.",
             "name": "Remove broadcasts restriction",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [],
+            "description": "Removes the popup that appears after a while, when the app version ages.",
+            "name": "Remove build expired popup",
             "options": [],
             "use": true
         },
@@ -3528,7 +3733,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -3550,7 +3755,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -3598,7 +3803,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -3610,7 +3815,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -3634,7 +3839,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -3716,7 +3921,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -3728,7 +3933,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -3992,7 +4197,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [
@@ -4002,7 +4207,26 @@
             ],
             "description": "Allows you to see deleted/hidden messages in chat logs.",
             "name": "Show deleted or hidden messages",
-            "options": [],
+            "options": [
+                {
+                    "default": "0xFFFF4444",
+                    "description": "32-bit ARGB. Accepts 0xAARRGGBB or signed decimal.",
+                    "key": "deletedColor",
+                    "required": false,
+                    "title": "Deleted color",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "0xFF999999",
+                    "description": "32-bit ARGB. Accepts 0xAARRGGBB or signed decimal.",
+                    "key": "hiddenColor",
+                    "required": false,
+                    "title": "Hidden color",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
             "use": true
         },
         {
@@ -4044,9 +4268,7 @@
         },
         {
             "compatiblePackages": {
-                "com.disney.disneyplus": null,
-                "in.startv.hotstar": null,
-                "in.startv.hotstaronly": null
+                "com.disney.disneyplus": null
             },
             "dependencies": [],
             "description": "Automatically skips ads.",
@@ -4138,7 +4360,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -4150,7 +4372,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -4700,7 +4922,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
@@ -5445,6 +5667,16 @@
         },
         {
             "compatiblePackages": {
+                "com.letterboxd.letterboxd": null
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Unlock app icons",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.twitter.android": null
             },
             "dependencies": [],
@@ -5544,6 +5776,16 @@
         },
         {
             "compatiblePackages": {
+                "ch.protonvpn.android": null
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Unlock split tunneling",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "ml.docilealligator.infinityforreddit": null,
                 "ml.docilealligator.infinityforreddit.patreon": null,
                 "ml.docilealligator.infinityforreddit.plus": null
@@ -5605,7 +5847,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "25.11.2"
+                    "26.1.0"
                 ]
             },
             "dependencies": [],
