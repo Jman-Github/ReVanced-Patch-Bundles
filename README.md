@@ -611,6 +611,19 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
+### 📦 IMXEren-Patches-Bundle [API v4]:
+[🧩 IMXEren Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-imxeren-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/imxeren-patch-bundles/imxeren-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/imxeren-patch-bundles/imxeren-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/imxeren-patch-bundles/imxeren-dev-patches-bundle.json```
+</details>
+
+---
 # 📱 ReVanced Manager Compose:
 ### 📍 Universal ReVanced Manager (my fork)
 *Highly suggested if you want to be unrestricted in the patch bundles you import!*
@@ -717,6 +730,8 @@ https://github.com/ReVanced/revanced-manager/releases
 #### 🏷️ [RVX-Morphed-Patches-Bundle](https://github.com/wchill/rvx-morphed)
 
 #### 🏷️ [Blazskufca-Patches-Bundle](https://github.com/blazskufca/revanced-patch)
+
+#### 🏷️ [IMXEren-Patches-Bundle](https://github.com/IMXEren/mix-patches)
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*

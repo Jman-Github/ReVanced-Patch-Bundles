@@ -234,6 +234,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "imxeren-stable": {
+        "patches": "https://api.github.com/repos/imxeren/mix-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -461,6 +466,11 @@
     },
     "blazskufca-dev": {
         "patches": "https://api.github.com/repos/blazskufca/revanced-patch",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "imxeren-dev": {
+        "patches": "https://api.github.com/repos/imxeren/mix-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -696,6 +706,11 @@
     },
     "blazskufca-latest": {
         "patches": "https://api.github.com/repos/blazskufca/revanced-patch",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "imxeren-latest": {
+        "patches": "https://api.github.com/repos/imxeren/mix-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

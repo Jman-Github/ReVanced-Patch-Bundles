@@ -48,7 +48,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Morphe Bundle Patch List](#-morphe-bundle-patch-list)  
 [🧩 Patcheddit Bundle Patch List](#-patcheddit-bundle-patch-list)    
 [🧩 RVX-Morphed Bundle Patch List](#-rvx-morphed-bundle-patch-list)    
-[🧩 Blazskufca Bundle Patch List](#-blazskufca-bundle-patch-list)    
+[🧩 Blazskufca Bundle Patch List](#-blazskufca-bundle-patch-list)
+[🧩 IMXEren Bundle Patch List](#-imxeren-bundle-patch-list)
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -2919,6 +2920,16 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Plus``` | ```Forces the app to report 'plus' permissions to the server.``` | ```com.audiorista.android, com.mladinska.mkplus``` | ```All versions``` |
 | ```Unlock Modules``` | ```Forces the app to consider all modules as Active.``` | ```com.sovworks.projecteds``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 IMXEren Bundle Patch List:
+[📦 IMXEren-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-imxeren-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
 
 </details>
 
