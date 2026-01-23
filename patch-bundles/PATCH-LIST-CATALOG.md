@@ -2929,7 +2929,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***1 Patch***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock pro``` | ```N/A``` | ```tv.trakt.trakt``` | ```2.2.1``` |
 
 </details>
 
