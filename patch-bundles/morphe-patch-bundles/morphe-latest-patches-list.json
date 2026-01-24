@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0-dev.5",
+    "version": "v1.8.0-dev.7",
     "patches": [
         {
             "compatiblePackages": {
@@ -1180,7 +1180,8 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Adds options to hide and change navigation buttons (such as the Shorts button).",
             "name": "Navigation buttons",
@@ -1702,6 +1703,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
