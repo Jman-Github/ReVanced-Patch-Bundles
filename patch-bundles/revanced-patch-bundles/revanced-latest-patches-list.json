@@ -1,5 +1,5 @@
 {
-    "version": "v5.49.0-dev.1",
+    "version": "v5.50.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -160,22 +160,6 @@
             ],
             "description": "Blocks video ads in streams and VODs.",
             "name": "Block video ads",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "7.29.52",
-                    "8.10.52"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Bypasses certificate checks which prevent YouTube Music from working on Android Auto.",
-            "name": "Bypass certificate checks",
             "options": [],
             "use": true
         },
@@ -1136,7 +1120,9 @@
             "compatiblePackages": {
                 "com.strava": null
             },
-            "dependencies": [],
+            "dependencies": [
+                "Hide distractions"
+            ],
             "description": null,
             "name": "Disable subscription suggestions",
             "options": [],
@@ -2161,6 +2147,82 @@
             "description": "Adds an option to hide the category bar at the top of the homepage.",
             "name": "Hide category bar",
             "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.strava": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides elements that are not essential.",
+            "name": "Hide distractions",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Elements that suggest you subscribe.",
+                    "key": "upselling",
+                    "required": true,
+                    "title": "Upselling",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": null,
+                    "key": "promo",
+                    "required": true,
+                    "title": "Promotions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Popular athletes, followers, people near you etc.",
+                    "key": "followSuggestions",
+                    "required": true,
+                    "title": "Who to Follow",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Random challenges Strava wants you to join.",
+                    "key": "challengeSuggestions",
+                    "required": true,
+                    "title": "Suggested Challenges",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Challenges your follows have joined.",
+                    "key": "joinChallenge",
+                    "required": true,
+                    "title": "Join Challenge",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Clubs your follows have joined.",
+                    "key": "joinClub",
+                    "required": true,
+                    "title": "Joined a club",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "activityLookback",
+                    "required": true,
+                    "title": "Your activity from X years ago",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ],
             "use": true
         },
         {
@@ -3575,6 +3637,18 @@
         },
         {
             "compatiblePackages": {
+                "com.nothing.smartcenter": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Shows the K1 authentication token(s) in a dialog and logs it to logcat for pairing with GadgetBridge without requiring root access. After installing this patch, pair your watch  with the Nothing X app and use the token from the dialog or logcat.",
+            "name": "Show K1 token(s)",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "de.tudortmund.app": null
             },
             "dependencies": [
@@ -4959,6 +5033,19 @@
                     }
                 }
             ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks Android Auto Media Browser which enables the search function including speech to text.",
+            "name": "Unlock Android Auto Media Browser",
+            "options": [],
             "use": true
         },
         {
