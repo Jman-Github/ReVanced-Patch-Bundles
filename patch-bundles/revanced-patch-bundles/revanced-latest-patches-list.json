@@ -1,5 +1,5 @@
 {
-    "version": "v5.50.0-dev.2",
+    "version": "v5.50.0-dev.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -1964,6 +1964,16 @@
             },
             "dependencies": [],
             "description": null,
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.ebay.kleinanzeigen": null
+            },
+            "dependencies": [],
+            "description": "Hides sponsored ads and Google Ads. Also happens to disable Microsoft Clarity analytics.",
             "name": "Hide ads",
             "options": [],
             "use": true

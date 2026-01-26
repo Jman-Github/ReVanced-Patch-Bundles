@@ -57,7 +57,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***275 Patches***
+***276 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.bka.serviceportal``` | ```All versions``` |
@@ -86,6 +86,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable ads``` | ```N/A``` | ```com.duolingo``` | ```6.54.5``` |
 | ```Enable debug menu``` | ```N/A``` | ```com.duolingo``` | ```All versions``` |
 | ```Skip energy recharge ads``` | ```Skips watching ads to recharge energy.``` | ```com.duolingo``` | ```All versions``` |
+| ```Hide ads``` | ```Hides sponsored ads and Google Ads. Also happens to disable Microsoft Clarity analytics.``` | ```com.ebay.kleinanzeigen``` | ```All versions``` |
 | ```Hide 'Sponsored Stories'``` | ```N/A``` | ```com.facebook.katana``` | ```490.0.0.63.82``` |
 | ```Hide story ads``` | ```Hides the ads in the Facebook app stories.``` | ```com.facebook.katana``` | ```All versions``` |
 | ```Disable typing indicator``` | ```Disables the indicator while typing a message.``` | ```com.facebook.orca``` | ```All versions``` |
