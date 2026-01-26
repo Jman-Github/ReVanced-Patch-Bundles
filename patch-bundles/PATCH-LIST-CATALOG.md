@@ -2052,16 +2052,16 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Remove play limits``` | ```Disables purchase nagging and playback limits of not purchased tracks.``` | ```com.bandcamp.android``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.cricbuzz.android``` | ```6.24.01``` |
 | ```Hide ads``` | ```N/A``` | ```com.crunchyroll.crunchyroid``` | ```All versions``` |
-| ```Bypass getText``` | ```Bypasses the integrity check for getText.``` | ```com.dcinside.app.android``` | ```5.2.4``` |
-| ```Dimens Patch``` | ```reassigns ad_minimum_height to 0dp to remove ads from the app.``` | ```com.dcinside.app.android``` | ```5.2.4``` |
-| ```Disable ad controller``` | ```Disables the ad controller that manages ads in the app.``` | ```com.dcinside.app.android``` | ```5.2.4``` |
-| ```Disable Comment Ad``` | ```Disables the comment ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.4``` |
-| ```Disable Image Ad``` | ```Disables the image ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.4``` |
-| ```Disable update check``` | ```Disables the app's update check.``` | ```com.dcinside.app.android``` | ```5.2.4``` |
-| ```Enable OneStore feature``` | ```Enables the OneStore feature in DC Inside app.``` | ```com.dcinside.app.android``` | ```5.2.4``` |
-| ```Hide Main Ad``` | ```Hides the main ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.4``` |
-| ```Spoof Signature``` | ```Spoofs the app signature to bypass integrity checks.``` | ```com.dcinside.app.android``` | ```5.2.4``` |
-| ```Update Provider Patch``` | ```It allows you to install the clone app just like the original.``` | ```com.dcinside.app.android``` | ```5.2.4``` |
+| ```Bypass getText``` | ```Bypasses the integrity check for getText.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
+| ```Dimens Patch``` | ```reassigns ad_minimum_height to 0dp to remove ads from the app.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
+| ```Disable ad controller``` | ```Disables the ad controller that manages ads in the app.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
+| ```Disable Comment Ad``` | ```Disables the comment ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
+| ```Disable Image Ad``` | ```Disables the image ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
+| ```Disable update check``` | ```Disables the app's update check.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
+| ```Enable OneStore feature``` | ```Enables the OneStore feature in DC Inside app.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
+| ```Hide Main Ad``` | ```Hides the main ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
+| ```Spoof Signature``` | ```Spoofs the app signature to bypass integrity checks.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
+| ```Update Provider Patch``` | ```It allows you to install the clone app just like the original.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
 | ```Skip ads``` | ```Automatically skips ads.``` | ```com.disney.disneyplus``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.drinkplusplus.angulus``` | ```All versions``` |
 | ```Disable ads``` | ```N/A``` | ```com.duolingo``` | ```6.54.5``` |
