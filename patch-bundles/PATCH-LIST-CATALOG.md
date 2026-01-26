@@ -2648,7 +2648,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***77 Patches***
+***78 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```7.29.52, 8.10.52, 8.37.56, 8.40.54``` |
@@ -2715,6 +2715,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Playback speed``` | ```Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48, 20.40.45``` |
 | ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48, 20.40.45``` |
 | ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48, 20.40.45``` |
+| ```Restore old search filters``` | ```Adds an option to restore the old search filters.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48, 20.40.45``` |
 | ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of videos with Return YouTube Dislike.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48, 20.40.45``` |
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48, 20.40.45``` |
 | ```Seekbar``` | ```Adds options to disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, and hiding the video player seekbar.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48, 20.40.45``` |

@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0-dev.9",
+    "version": "v1.9.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -1349,6 +1349,28 @@
             ],
             "description": "Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.",
             "name": "Remove viewer discretion dialog",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to restore the old search filters.",
+            "name": "Restore old search filters",
             "options": [],
             "use": true
         },
