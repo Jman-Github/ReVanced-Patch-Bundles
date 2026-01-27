@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0-dev.1",
+    "version": "v1.9.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -116,8 +116,7 @@
             },
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch",
-                "Navigation buttons"
+                "BytecodePatch"
             ],
             "description": "Adds an option to change the UI appearance to a phone, tablet, or automotive device.",
             "name": "Change form factor",
@@ -136,7 +135,6 @@
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to change the header logo in the top left corner of the app.",
@@ -1181,10 +1179,11 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds options to hide and change navigation buttons (such as the Shorts button).",
-            "name": "Navigation buttons",
+            "description": "Adds options to hide and change the bottom navigation bar (such as the Shorts button)  and the upper navigation toolbar. Patching version 20.21.37 and lower also adds a setting to use a wide searchbar.",
+            "name": "Navigation bar",
             "options": [],
             "use": true
         },
