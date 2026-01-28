@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0-dev.1",
+    "version": "v1.1.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -18,7 +18,7 @@
         {
             "compatiblePackages": null,
             "dependencies": [],
-            "description": "Appends \".revanced\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+            "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
             "name": "Change package name",
             "options": [
                 {
@@ -55,7 +55,7 @@
         },
         {
             "compatiblePackages": {
-                "com.pandora.android": null
+                "com.pandora.android": []
             },
             "dependencies": [],
             "description": null,
@@ -65,7 +65,7 @@
         },
         {
             "compatiblePackages": {
-                "com.duolingo": null
+                "com.duolingo": []
             },
             "dependencies": [],
             "description": "Removes Play Integrity device attestation from login request.",
@@ -75,7 +75,7 @@
         },
         {
             "compatiblePackages": {
-                "com.duolingo": null
+                "com.duolingo": []
             },
             "dependencies": [],
             "description": "Enables hidden debug menu in settings.",
@@ -99,7 +99,7 @@
         },
         {
             "compatiblePackages": {
-                "com.avocards": null
+                "com.avocards": []
             },
             "dependencies": [],
             "description": null,
@@ -109,7 +109,7 @@
         },
         {
             "compatiblePackages": {
-                "com.crunchyroll.crunchyroid": null
+                "com.crunchyroll.crunchyroid": []
             },
             "dependencies": [],
             "description": "Enables client-side only premium features. Most functionality is absent as it is verified on the server.",
@@ -119,7 +119,7 @@
         },
         {
             "compatiblePackages": {
-                "kr.co.yjteam.dailypay": null
+                "kr.co.yjteam.dailypay": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -131,7 +131,7 @@
         },
         {
             "compatiblePackages": {
-                "com.duolingo": null
+                "com.duolingo": []
             },
             "dependencies": [],
             "description": null,
@@ -154,7 +154,7 @@
         },
         {
             "compatiblePackages": {
-                "kr.eggbun.eggconvo": null
+                "kr.eggbun.eggconvo": []
             },
             "dependencies": [],
             "description": null,
@@ -164,7 +164,7 @@
         },
         {
             "compatiblePackages": {
-                "com.qbis.guessthecountry": null
+                "com.qbis.guessthecountry": []
             },
             "dependencies": [],
             "description": null,
@@ -188,7 +188,7 @@
         },
         {
             "compatiblePackages": {
-                "net.teuida.teuida": null
+                "net.teuida.teuida": []
             },
             "dependencies": [],
             "description": "Enables premium paid subscription.",
@@ -212,11 +212,21 @@
         },
         {
             "compatiblePackages": {
-                "com.merriamwebster": null
+                "com.merriamwebster": []
             },
             "dependencies": [],
             "description": null,
             "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.myfitnesspal.android": []
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Enable Premium+",
             "options": [],
             "use": true
         },
@@ -234,7 +244,7 @@
         },
         {
             "compatiblePackages": {
-                "com.pandora.android": null
+                "com.pandora.android": []
             },
             "dependencies": [],
             "description": null,
@@ -244,7 +254,7 @@
         },
         {
             "compatiblePackages": {
-                "kr.eggbun.eggconvo": null
+                "kr.eggbun.eggconvo": []
             },
             "dependencies": [],
             "description": "When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.",
@@ -254,7 +264,7 @@
         },
         {
             "compatiblePackages": {
-                "net.teuida.teuida": null
+                "net.teuida.teuida": []
             },
             "dependencies": [
                 "Change package name",
@@ -262,26 +272,14 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Allows patched Google apps to run without root and under a different package name by using GmsCore instead of Google Play Services.",
+            "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
             "name": "GmsCore support",
-            "options": [
-                {
-                    "default": "app.revanced",
-                    "description": "The vendor's group ID for GmsCore.",
-                    "key": "gmsCoreVendorGroupId",
-                    "required": true,
-                    "title": "GmsCore vendor group ID",
-                    "type": "kotlin.String",
-                    "values": {
-                        "ReVanced": "app.revanced"
-                    }
-                }
-            ],
+            "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "com.amazon.avod.thirdpartyclient": null
+                "com.amazon.avod.thirdpartyclient": []
             },
             "dependencies": [],
             "description": "Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.",
@@ -305,7 +303,7 @@
         },
         {
             "compatiblePackages": {
-                "com.duolingo": null
+                "com.duolingo": []
             },
             "dependencies": [],
             "description": "Allows playing the full version of licensed music instead of the 30-second preview.",
