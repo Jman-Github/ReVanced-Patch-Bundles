@@ -1,5 +1,5 @@
 {
-    "version": "v3.15.0",
+    "version": "v3.16.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -3457,6 +3457,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "Settings for Reddit"
             ],
             "description": "Add translations for RVX settings.",
@@ -3504,6 +3505,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "Settings for YouTube"
             ],
             "description": "Add translations or remove string resources.",
@@ -3554,6 +3556,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "Settings for YouTube Music"
             ],
             "description": "Add translations or remove string resources.",
