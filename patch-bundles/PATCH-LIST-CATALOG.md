@@ -2963,6 +2963,11 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***3 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable scan counter``` | ```Disables the scan counter increment, preventing the scan count from increasing``` | ```com.application.pokecardex``` | ```8.7.2``` |
+| ```Increase scan limit``` | ```Increases the free scan limit from 30 to 50 scans``` | ```com.application.pokecardex``` | ```8.7.2``` |
+| ```Example Patch``` | ```Example patch to start with.``` | ```com.example.app``` | ```1.0.0``` |
 
 </details>

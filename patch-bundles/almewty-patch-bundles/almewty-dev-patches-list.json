@@ -1,0 +1,41 @@
+{
+    "version": "v1.0.0-dev.1",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.application.pokecardex": [
+                    "8.7.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the scan counter increment, preventing the scan count from increasing",
+            "name": "Disable scan counter",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.example.app": [
+                    "1.0.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Example patch to start with.",
+            "name": "Example Patch",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.application.pokecardex": [
+                    "8.7.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Increases the free scan limit from 30 to 50 scans",
+            "name": "Increase scan limit",
+            "options": [],
+            "use": true
+        }
+    ]
+}
