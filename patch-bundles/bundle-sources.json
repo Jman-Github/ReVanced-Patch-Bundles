@@ -239,6 +239,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "almewty-stable": {
+        "patches": "https://api.github.com/repos/almewty/my-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -471,6 +476,11 @@
     },
     "imxeren-dev": {
         "patches": "https://api.github.com/repos/imxeren/mix-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "almewty-dev": {
+        "patches": "https://api.github.com/repos/almewty/my-morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -711,6 +721,11 @@
     },
     "imxeren-latest": {
         "patches": "https://api.github.com/repos/imxeren/mix-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "almewty-latest": {
+        "patches": "https://api.github.com/repos/almewty/my-morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

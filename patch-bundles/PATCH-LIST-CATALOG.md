@@ -50,6 +50,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 RVX-Morphed Bundle Patch List](#-rvx-morphed-bundle-patch-list)    
 [🧩 Blazskufca Bundle Patch List](#-blazskufca-bundle-patch-list)
 [🧩 IMXEren Bundle Patch List](#-imxeren-bundle-patch-list)
+[🧩 Almewty Bundle Patch List](#-almewty-bundle-patch-list)
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -2957,3 +2958,11 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 </details>
 
 ---
+### 🧩 Almewty Bundle Patch List:
+[📦 Almewty-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-almewty-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
