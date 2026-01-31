@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0",
+    "version": "v1.9.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -116,8 +116,7 @@
             },
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch",
-                "Navigation buttons"
+                "BytecodePatch"
             ],
             "description": "Adds an option to change the UI appearance to a phone, tablet, or automotive device.",
             "name": "Change form factor",
@@ -136,7 +135,6 @@
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to change the header logo in the top left corner of the app.",
@@ -510,6 +508,26 @@
         },
         {
             "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0",
+                    "2025.52.0",
+                    "2026.01.0",
+                    "2026.02.0",
+                    "2026.03.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit"
+            ],
+            "description": "Adds an option to disable the popup that appears when taking a screenshot.",
+            "name": "Disable screenshot popup",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "20.14.43",
                     "20.21.37",
@@ -774,6 +792,26 @@
         },
         {
             "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0",
+                    "2025.52.0",
+                    "2026.01.0",
+                    "2026.02.0",
+                    "2026.03.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit"
+            ],
+            "description": "Adds options to hide ads.",
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "20.14.43",
                     "20.21.37",
@@ -957,6 +995,26 @@
         },
         {
             "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0",
+                    "2025.52.0",
+                    "2026.01.0",
+                    "2026.02.0",
+                    "2026.03.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit"
+            ],
+            "description": "Adds options to hide buttons in the navigation bar.",
+            "name": "Hide navigation buttons",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "20.14.43",
                     "20.21.37",
@@ -995,6 +1053,26 @@
             ],
             "description": "Adds options to hide the player Cast, Autoplay, Captions, Previous & Next buttons, and the player control buttons background.",
             "name": "Hide player overlay buttons",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0",
+                    "2025.52.0",
+                    "2026.01.0",
+                    "2026.02.0",
+                    "2026.03.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit"
+            ],
+            "description": "Adds an option to hide the recommended communities shelves in subreddits.",
+            "name": "Hide recommended communities shelf",
             "options": [],
             "use": true
         },
@@ -1064,6 +1142,26 @@
         },
         {
             "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0",
+                    "2025.52.0",
+                    "2026.01.0",
+                    "2026.02.0",
+                    "2026.03.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit"
+            ],
+            "description": "Adds options to hide the sidebar components.",
+            "name": "Hide sidebar components",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "20.14.43",
                     "20.21.37",
@@ -1079,6 +1177,26 @@
             ],
             "description": "Adds an option to hide the timestamp in the bottom left of the video player.",
             "name": "Hide timestamp",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0",
+                    "2025.52.0",
+                    "2026.01.0",
+                    "2026.02.0",
+                    "2026.03.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit"
+            ],
+            "description": "Adds an option to hide the Trending Today shelf from search suggestions.",
+            "name": "Hide Trending Today shelf",
             "options": [],
             "use": true
         },
@@ -1181,10 +1299,53 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds options to hide and change navigation buttons (such as the Shorts button).",
-            "name": "Navigation buttons",
+            "description": "Adds options to hide and change the bottom navigation bar (such as the Shorts button)  and the upper navigation toolbar. Patching version 20.21.37 and lower also adds a setting to use a wide searchbar.",
+            "name": "Navigation bar",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0",
+                    "2025.52.0",
+                    "2026.01.0",
+                    "2026.02.0",
+                    "2026.03.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to skip over redirection URLs in external links.",
+            "name": "Open links directly",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0",
+                    "2025.52.0",
+                    "2026.01.0",
+                    "2026.02.0",
+                    "2026.03.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to always open links in your browser instead of in the in-app-browser.",
+            "name": "Open links externally",
             "options": [],
             "use": true
         },
@@ -1334,6 +1495,26 @@
         },
         {
             "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0",
+                    "2025.52.0",
+                    "2026.01.0",
+                    "2026.02.0",
+                    "2026.03.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit"
+            ],
+            "description": "Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.",
+            "name": "Remove subreddit dialog",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "20.14.43",
                     "20.21.37",
@@ -1349,6 +1530,28 @@
             ],
             "description": "Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.",
             "name": "Remove viewer discretion dialog",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to restore the old search filters.",
+            "name": "Restore old search filters",
             "options": [],
             "use": true
         },
@@ -1396,6 +1599,26 @@
         },
         {
             "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0",
+                    "2025.52.0",
+                    "2026.01.0",
+                    "2026.02.0",
+                    "2026.03.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit"
+            ],
+            "description": "Adds an option to sanitize sharing links by removing tracking query parameters.",
+            "name": "Sanitize sharing links",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "20.14.43",
                     "20.21.37",
@@ -1433,6 +1656,27 @@
             ],
             "description": "Adds options to disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, and hiding the video player seekbar.",
             "name": "Seekbar",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2025.40.0",
+                    "2025.43.0",
+                    "2025.45.0",
+                    "2025.52.0",
+                    "2026.01.0",
+                    "2026.02.0",
+                    "2026.03.0"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Applies mandatory patches to implement Morphe settings into the application.",
+            "name": "Settings for Reddit",
             "options": [],
             "use": true
         },
@@ -1524,6 +1768,35 @@
             "name": "Spoof device dimensions",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Spoofs the signature of the app.",
+            "name": "Spoof signature",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Package name.",
+                    "key": "packageName",
+                    "required": false,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Base64-encoded string of the certificate.",
+                    "key": "certificateData",
+                    "required": false,
+                    "title": "Certificate data",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": false
         },
         {
             "compatiblePackages": {
