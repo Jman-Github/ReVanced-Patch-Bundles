@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0-dev.1",
+    "version": "v1.10.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -20,27 +20,6 @@
             ],
             "description": "Adds options to replace video thumbnails using the DeArrow API or image captures from the video.",
             "name": "Alternative thumbnails",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "20.14.43",
-                    "20.21.37",
-                    "20.26.46",
-                    "20.31.42",
-                    "20.37.48",
-                    "20.40.45"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
-            "description": "Adds an option to disable captions from being automatically enabled.",
-            "name": "Auto captions",
             "options": [],
             "use": true
         },
@@ -100,6 +79,27 @@
             ],
             "description": "Adds an option to bypass URL redirects and open the original URL directly.",
             "name": "Bypass URL redirects",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to disable captions from being automatically enabled or to set caption cookies.",
+            "name": "Captions",
             "options": [],
             "use": true
         },
