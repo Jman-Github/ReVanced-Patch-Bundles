@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.1",
+    "version": "v1.2.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -70,6 +70,16 @@
             "dependencies": [],
             "description": "Removes Play Integrity device attestation from login request.",
             "name": "Disable Login Integrity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "ginlemon.flowerfree": []
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Disable signature check",
             "options": [],
             "use": true
         },
@@ -237,6 +247,18 @@
                 ]
             },
             "dependencies": [],
+            "description": null,
+            "name": "Enable Pro",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "ginlemon.flowerfree": []
+            },
+            "dependencies": [
+                "Disable signature check"
+            ],
             "description": null,
             "name": "Enable Pro",
             "options": [],
