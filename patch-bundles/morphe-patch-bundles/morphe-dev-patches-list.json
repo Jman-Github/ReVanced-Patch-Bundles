@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0-dev.11",
+    "version": "v1.10.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -115,6 +115,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -1811,7 +1812,9 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "BytecodePatch",
+                "RawResourcePatch"
             ],
             "description": "Adds options to spoof the client video streams to fix playback.",
             "name": "Spoof video streams",
@@ -1832,7 +1835,9 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch",
+                "RawResourcePatch"
             ],
             "description": "Adds options to spoof the client video streams to fix playback.",
             "name": "Spoof video streams",
