@@ -1,5 +1,5 @@
 {
-    "version": "v5.16.0",
+    "version": "v5.16.1-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -170,16 +170,6 @@
             "use": true
         },
         {
-            "compatiblePackages": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Spoof the installer package name to make it appear that the app was installed from the Google Play Store.",
-            "name": "Change installer package name",
-            "options": [],
-            "use": false
-        },
-        {
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.05.36",
@@ -308,27 +298,6 @@
             "name": "Change start page",
             "options": [],
             "use": true
-        },
-        {
-            "compatiblePackages": null,
-            "dependencies": [],
-            "description": "Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.",
-            "name": "Change version code",
-            "options": [
-                {
-                    "default": "2147483647",
-                    "description": "The version code to use. (1 ~ 2147483647)",
-                    "key": "versionCode",
-                    "required": true,
-                    "title": "Version code",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Highest": "2147483647",
-                        "Lowest": "1"
-                    }
-                }
-            ],
-            "use": false
         },
         {
             "compatiblePackages": {
@@ -781,14 +750,6 @@
             "use": true
         },
         {
-            "compatiblePackages": null,
-            "dependencies": [],
-            "description": "Disable forced edge-to-edge display on Android 15+ by changing the app's target SDK version. This patch does not work if the app is installed by mounting.",
-            "name": "Disable edge-to-edge display",
-            "options": [],
-            "use": false
-        },
-        {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "6.20.51",
@@ -1016,26 +977,6 @@
             ],
             "description": "Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.",
             "name": "Disable resuming Shorts on startup",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2025.40.0",
-                    "2025.43.0",
-                    "2025.45.0",
-                    "2025.52.0",
-                    "2026.01.0",
-                    "2026.02.0",
-                    "2026.03.0"
-                ]
-            },
-            "dependencies": [
-                "Settings for Reddit"
-            ],
-            "description": "Adds an option to disable the popup that appears when taking a screenshot.",
-            "name": "Disable screenshot popup",
             "options": [],
             "use": true
         },
@@ -1537,26 +1478,6 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2025.40.0",
-                    "2025.43.0",
-                    "2025.45.0",
-                    "2025.52.0",
-                    "2026.01.0",
-                    "2026.02.0",
-                    "2026.03.0"
-                ]
-            },
-            "dependencies": [
-                "Settings for Reddit"
-            ],
-            "description": "Adds options to hide ads.",
-            "name": "Hide ads",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.05.36",
                     "19.16.39",
@@ -1795,26 +1716,6 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2025.40.0",
-                    "2025.43.0",
-                    "2025.45.0",
-                    "2025.52.0",
-                    "2026.01.0",
-                    "2026.02.0",
-                    "2026.03.0"
-                ]
-            },
-            "dependencies": [
-                "Settings for Reddit"
-            ],
-            "description": "Adds an option to hide the recommended communities shelves in subreddits.",
-            "name": "Hide recommended communities shelf",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.05.36",
                     "19.16.39",
@@ -1888,46 +1789,6 @@
             "name": "Hide Shorts dimming",
             "options": [],
             "use": false
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2025.40.0",
-                    "2025.43.0",
-                    "2025.45.0",
-                    "2025.52.0",
-                    "2026.01.0",
-                    "2026.02.0",
-                    "2026.03.0"
-                ]
-            },
-            "dependencies": [
-                "Settings for Reddit"
-            ],
-            "description": "Adds options to hide the sidebar components.",
-            "name": "Hide sidebar components",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2025.40.0",
-                    "2025.43.0",
-                    "2025.45.0",
-                    "2025.52.0",
-                    "2026.01.0",
-                    "2026.02.0",
-                    "2026.03.0"
-                ]
-            },
-            "dependencies": [
-                "Settings for Reddit"
-            ],
-            "description": "Adds an option to hide the Trending Today shelf from search suggestions.",
-            "name": "Hide Trending Today shelf",
-            "options": [],
-            "use": true
         },
         {
             "compatiblePackages": {
@@ -2064,48 +1925,6 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2025.40.0",
-                    "2025.43.0",
-                    "2025.45.0",
-                    "2025.52.0",
-                    "2026.01.0",
-                    "2026.02.0",
-                    "2026.03.0"
-                ]
-            },
-            "dependencies": [
-                "Settings for Reddit",
-                "BytecodePatch"
-            ],
-            "description": "Adds an option to skip over redirection URLs in external links.",
-            "name": "Open links directly",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2025.40.0",
-                    "2025.43.0",
-                    "2025.45.0",
-                    "2025.52.0",
-                    "2026.01.0",
-                    "2026.02.0",
-                    "2026.03.0"
-                ]
-            },
-            "dependencies": [
-                "Settings for Reddit",
-                "BytecodePatch"
-            ],
-            "description": "Adds an option to always open links in your browser instead of in the in-app-browser.",
-            "name": "Open links externally",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.05.36",
                     "19.16.39",
@@ -2194,14 +2013,6 @@
                 }
             ],
             "use": true
-        },
-        {
-            "compatiblePackages": null,
-            "dependencies": [],
-            "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy.",
-            "name": "Override certificate pinning",
-            "options": [],
-            "use": false
         },
         {
             "compatiblePackages": {
@@ -2312,26 +2123,6 @@
             ],
             "description": "Removes restrictions on background playback, including for music and kids videos.",
             "name": "Remove background playback restrictions",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2025.40.0",
-                    "2025.43.0",
-                    "2025.45.0",
-                    "2025.52.0",
-                    "2026.01.0",
-                    "2026.02.0",
-                    "2026.03.0"
-                ]
-            },
-            "dependencies": [
-                "Settings for Reddit"
-            ],
-            "description": "Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.",
-            "name": "Remove subreddit dialog",
             "options": [],
             "use": true
         },
@@ -2517,26 +2308,6 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2025.40.0",
-                    "2025.43.0",
-                    "2025.45.0",
-                    "2025.52.0",
-                    "2026.01.0",
-                    "2026.02.0",
-                    "2026.03.0"
-                ]
-            },
-            "dependencies": [
-                "Settings for Reddit"
-            ],
-            "description": "Adds an option to sanitize sharing links by removing tracking query parameters.",
-            "name": "Sanitize sharing links",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.05.36",
                     "19.16.39",
@@ -2598,40 +2369,6 @@
             "description": "Adds an option to set Cookies in YouTube Transcript API requests.",
             "name": "Set Transcript Cookies",
             "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2025.40.0",
-                    "2025.43.0",
-                    "2025.45.0",
-                    "2025.52.0",
-                    "2026.01.0",
-                    "2026.02.0",
-                    "2026.03.0"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Applies mandatory patches to implement RVX Morphed settings into the application.",
-            "name": "Settings for Reddit",
-            "options": [
-                {
-                    "default": "RVX",
-                    "description": "The name of the RVX settings menu.",
-                    "key": "rvxSettingsLabel",
-                    "required": true,
-                    "title": "RVX settings menu name",
-                    "type": "kotlin.String",
-                    "values": {
-                        "RVX": "RVX",
-                        "RVX Morphed": "RVX Morphed"
-                    }
-                }
-            ],
             "use": true
         },
         {
@@ -2966,45 +2703,6 @@
             "name": "Spoof app version for lyrics",
             "options": [],
             "use": true
-        },
-        {
-            "compatiblePackages": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Spoofs the signature of the app.",
-            "name": "Spoof signature",
-            "options": [
-                {
-                    "default": "",
-                    "description": "Package name.",
-                    "key": "packageName",
-                    "required": false,
-                    "title": "Package name",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "",
-                    "description": "Base64-encoded string of the certificate.",
-                    "key": "certificateData",
-                    "required": false,
-                    "title": "Certificate data",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ],
-            "use": false
-        },
-        {
-            "compatiblePackages": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Spoofs an existing Wi-Fi connection.",
-            "name": "Spoof Wi-Fi connection",
-            "options": [],
-            "use": false
         },
         {
             "compatiblePackages": {
