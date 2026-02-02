@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -70,6 +70,16 @@
             "dependencies": [],
             "description": "Removes Play Integrity device attestation from login request.",
             "name": "Disable Login Integrity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "ginlemon.flowerfree": []
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Disable signature check",
             "options": [],
             "use": true
         },
@@ -244,6 +254,18 @@
         },
         {
             "compatiblePackages": {
+                "ginlemon.flowerfree": []
+            },
+            "dependencies": [
+                "Disable signature check"
+            ],
+            "description": null,
+            "name": "Enable Pro",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.pandora.android": []
             },
             "dependencies": [],
@@ -264,9 +286,25 @@
         },
         {
             "compatiblePackages": {
+                "kr.co.yjteam.dailypay": []
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "Change package name",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
+            "name": "GmsCore support",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "net.teuida.teuida": []
             },
             "dependencies": [
+                "ResourcePatch",
                 "Change package name",
                 "ResourcePatch",
                 "BytecodePatch",
