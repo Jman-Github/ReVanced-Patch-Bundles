@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.0-dev.1",
+    "version": "v1.11.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -20,6 +20,26 @@
             ],
             "description": "Adds options to replace video thumbnails using the DeArrow API or image captures from the video.",
             "name": "Alternative thumbnails",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to bypass power saving restrictions for Ambient mode and disable it entirely or in fullscreen.",
+            "name": "Ambient mode",
             "options": [],
             "use": true
         },
@@ -404,26 +424,6 @@
             ],
             "description": "Adds an option to disable player double tap gestures.",
             "name": "Disable double tap actions",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "20.14.43",
-                    "20.21.37",
-                    "20.26.46",
-                    "20.31.42",
-                    "20.37.48",
-                    "20.40.45"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Adds an option to disable the ambient mode when in fullscreen.",
-            "name": "Disable fullscreen ambient mode",
             "options": [],
             "use": true
         },
