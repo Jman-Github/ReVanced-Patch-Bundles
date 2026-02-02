@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0-dev.5",
+    "version": "v1.10.0-dev.6",
     "patches": [
         {
             "compatiblePackages": {
@@ -642,7 +642,8 @@
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Adds options for debugging and exporting Morphe logs to the clipboard.",
             "name": "Enable debugging",
