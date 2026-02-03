@@ -2959,6 +2959,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Example Patch``` | ```Example patch to start with.``` | ```com.example.app``` | ```1.0.0``` |
 
 </details>
+
 ---
 ### 🧩 Anddea-Morphed Bundle Patch List:
 [📦 Anddea-Morphed-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-anddea-morphed-patches-bundle-api-v4)
