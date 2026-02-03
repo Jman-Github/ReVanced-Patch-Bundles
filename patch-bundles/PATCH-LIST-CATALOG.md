@@ -51,6 +51,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Blazskufca Bundle Patch List](#-blazskufca-bundle-patch-list)
 [🧩 IMXEren Bundle Patch List](#-imxeren-bundle-patch-list)
 [🧩 Almewty Bundle Patch List](#-almewty-bundle-patch-list)
+[🧩 Anddea-Morphed Bundle Patch List](#-anddea-morphed-bundle-patch-list)
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -2955,5 +2956,14 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable scan counter``` | ```Disables the scan counter increment, preventing the scan count from increasing``` | ```com.application.pokecardex``` | ```8.7.2``` |
 | ```Increase scan limit``` | ```Increases the free scan limit from 30 to 50 scans``` | ```com.application.pokecardex``` | ```8.7.2``` |
 | ```Example Patch``` | ```Example patch to start with.``` | ```com.example.app``` | ```1.0.0``` |
+
+</details>
+---
+### 🧩 Anddea-Morphed Bundle Patch List:
+[📦 Anddea-Morphed-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-anddea-morphed-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
 
 </details>

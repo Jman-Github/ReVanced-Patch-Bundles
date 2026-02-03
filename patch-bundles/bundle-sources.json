@@ -244,6 +244,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "anddea-morphed-stable": {
+        "patches": "https://api.github.com/repos/almewty/anddea-rvx-morphed",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -481,6 +486,11 @@
     },
     "almewty-dev": {
         "patches": "https://api.github.com/repos/almewty/my-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "anddea-morphed-dev": {
+        "patches": "https://api.github.com/repos/almewty/anddea-rvx-morphed",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -726,6 +736,11 @@
     },
     "almewty-latest": {
         "patches": "https://api.github.com/repos/almewty/my-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "anddea-morphed-latest": {
+        "patches": "https://api.github.com/repos/almewty/anddea-rvx-morphed",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }
