@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.2",
+    "version": "v1.3.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -237,6 +237,20 @@
             "dependencies": [],
             "description": null,
             "name": "Enable Premium+",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "jp.ne.ibis.ibispaintx.app": [
+                    "13.1.19"
+                ]
+            },
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": null,
+            "name": "Enable Prime Membership",
             "options": [],
             "use": true
         },
