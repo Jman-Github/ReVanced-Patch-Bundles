@@ -48,10 +48,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Morphe Bundle Patch List](#-morphe-bundle-patch-list)  
 [🧩 Patcheddit Bundle Patch List](#-patcheddit-bundle-patch-list)    
 [🧩 RVX-Morphed Bundle Patch List](#-rvx-morphed-bundle-patch-list)    
-[🧩 Blazskufca Bundle Patch List](#-blazskufca-bundle-patch-list)
-[🧩 IMXEren Bundle Patch List](#-imxeren-bundle-patch-list)
-[🧩 Almewty Bundle Patch List](#-almewty-bundle-patch-list)
-[🧩 Anddea-Morphed Bundle Patch List](#-anddea-morphed-bundle-patch-list)
+[🧩 Blazskufca Bundle Patch List](#-blazskufca-bundle-patch-list)    
+[🧩 IMXEren Bundle Patch List](#-imxeren-bundle-patch-list)    
+[🧩 Almewty Bundle Patch List](#-almewty-bundle-patch-list)    
+[🧩 Anddea-Morphed Bundle Patch List](#-anddea-morphed-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
