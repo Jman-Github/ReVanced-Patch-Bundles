@@ -2059,16 +2059,16 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Remove play limits``` | ```Disables purchase nagging and playback limits of not purchased tracks.``` | ```com.bandcamp.android``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.cricbuzz.android``` | ```6.24.01``` |
 | ```Hide ads``` | ```N/A``` | ```com.crunchyroll.crunchyroid``` | ```All versions``` |
-| ```Bypass getText``` | ```Bypasses the integrity check for getText.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
-| ```Dimens Patch``` | ```reassigns ad_minimum_height to 0dp to remove ads from the app.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
-| ```Disable ad controller``` | ```Disables the ad controller that manages ads in the app.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
-| ```Disable Comment Ad``` | ```Disables the comment ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
-| ```Disable Image Ad``` | ```Disables the image ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
-| ```Disable update check``` | ```Disables the app's update check.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
-| ```Enable OneStore feature``` | ```Enables the OneStore feature in DC Inside app.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
-| ```Hide Main Ad``` | ```Hides the main ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
-| ```Spoof Signature``` | ```Spoofs the app signature to bypass integrity checks.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
-| ```Update Provider Patch``` | ```It allows you to install the clone app just like the original.``` | ```com.dcinside.app.android``` | ```5.2.5``` |
+| ```Bypass getText``` | ```Bypasses the integrity check for getText.``` | ```com.dcinside.app.android``` | ```5.2.6``` |
+| ```Dimens Patch``` | ```reassigns ad_minimum_height to 0dp to remove ads from the app.``` | ```com.dcinside.app.android``` | ```5.2.6``` |
+| ```Disable ad controller``` | ```Disables the ad controller that manages ads in the app.``` | ```com.dcinside.app.android``` | ```5.2.6``` |
+| ```Disable Comment Ad``` | ```Disables the comment ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.6``` |
+| ```Disable Image Ad``` | ```Disables the image ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.6``` |
+| ```Disable update check``` | ```Disables the app's update check.``` | ```com.dcinside.app.android``` | ```5.2.6``` |
+| ```Enable OneStore feature``` | ```Enables the OneStore feature in DC Inside app.``` | ```com.dcinside.app.android``` | ```5.2.6``` |
+| ```Hide Main Ad``` | ```Hides the main ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.6``` |
+| ```Spoof Signature``` | ```Spoofs the app signature to bypass integrity checks.``` | ```com.dcinside.app.android``` | ```5.2.6``` |
+| ```Update Provider Patch``` | ```It allows you to install the clone app just like the original.``` | ```com.dcinside.app.android``` | ```5.2.6``` |
 | ```Skip ads``` | ```Automatically skips ads.``` | ```com.disney.disneyplus``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.drinkplusplus.angulus``` | ```All versions``` |
 | ```Disable ads``` | ```N/A``` | ```com.duolingo``` | ```6.54.5``` |
@@ -2181,54 +2181,54 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.instagram.barcelona``` | ```382.0.0.51.85``` |
-| ```Add extension``` | ```Adds extension support to the app.``` | ```com.kakao.talk``` | ```26.1.1``` |
+| ```Add extension``` | ```Adds extension support to the app.``` | ```com.kakao.talk``` | ```26.1.2``` |
 | ```Add Packet Handler``` | ```Adding the Loco Packet Handler allows external applications to handle the app's packets, which may compromise security. Conflicts may occur on some systems.``` | ```com.kakao.talk``` | ```All versions``` |
 | ```Add Pine Lib``` | ```add libpine.so to the app's native libraries``` | ```com.kakao.talk``` | ```All versions``` |
-| ```Add settings tab``` | ```Adds a settings tab to the app.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Allow Hide on Any Chat``` | ```Users with hiding privileges can hide any chat, including their own messages.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Allow reply to feed``` | ```Allows replying to feed messages``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Always Show Kick Button``` | ```Always shows the kick button in group member management.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Bypass input mention limit in non-multichat``` | ```Bypass the limit of input mentions in non-multichat rooms``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Bypass Moat check``` | ```Bypass Moat check that prevents the app from running.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Change model``` | ```Changes the device model to supporting subdevice features``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Custom branding``` | ```Customize app branding (name)``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Default external browser``` | ```Sets the default external browser for KakaoTalk to the system's default browser.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Disable 300+ unread limit``` | ```Always show the real unread count instead of '300+' in chatroom list``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Disable 99 unread limit``` | ```Skip the 99-cap so unread count shows full value``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Disable chat room list ad``` | ```Disable the chat room list ad.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Disable ChatRoomAdController``` | ```Disables the ChatRoomAdController to prevent ads from being shown in chat room list``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Disable Collapse Button``` | ```Disable collapse button on OpenChatList``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Disable Community Tab``` | ```Disables Community Tab``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Disable Friend Feed tab``` | ```Disables the Friend Feed tab in KakaoTalk.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Disable Friend Lists ad``` | ```Disables the Friend Lists ad in KakaoTalk.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Disable S2Event``` | ```Disables Tracker``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Disable SDK Tracker``` | ```Disables the SDK Tracker in KakaoTalk.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Disable Sentry``` | ```Disables Sentry error reporting in KakaoTalk.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Disable tracker``` | ```Disables the tracker in KakaoTalk``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Disable verifying signature``` | ```Disables the signature verification check that prevents the app from running.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Enable reaction mention flag``` | ```Enables the reaction mention flag in KakaoTalk chat logs.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Enable recording pause/resume feature``` | ```Enable recording pause/resume feature in KakaoTalk``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Enable send big text``` | ```Allows sending big text messages in KakaoTalk.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Force enable debug mode``` | ```Enables debug mode in the app.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Force enable emoticon plus feature``` | ```Force enable emoticon plus feature (Unpurchased emoticon can be sent once per day)``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Ghost Mode``` | ```Don't expose your typing status to the other party.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Hook Package Manager``` | ```Hooks the Package Manager to bypass integrity checks.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Ignore Check Package Name``` | ```Ignores the package name check to allow installation of modified versions.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Override feature flag``` | ```Overrides the feature flag to enable the feature.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Play YouTube player in chat room``` | ```Allows playing YouTube videos in KakaoTalk chat rooms.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Remove BizBoard ads``` | ```Removes the BizBoard ad by forcing its dimensions to 0x0 and visibility to GONE in onMeasure.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Remove feed ad``` | ```Removes the feed ad from the app.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Remove focus ad``` | ```Removes the focus ad from the app.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Remove More tab ad``` | ```Removes the ad from the More tab.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Remove native ad``` | ```Removes the native ad from the app.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Remove OpenLink chat room list ad``` | ```Removes the OpenLink chat room list ad.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Remove shop tab``` | ```Removes the shop tab from the bottom navigation bar.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Remove Short-form Tab``` | ```Removes the Short-form tab from the now fragment.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Show deleted or hidden messages``` | ```Allows you to see deleted/hidden messages in chat logs.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Spoof apk checksums``` | ```Spoofs the apk checksums to pass integrity checks.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Spoof App ID``` | ```Spoofs the App ID to bypass integrity checks. (to bypass biometric auth etc.)``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Spoof signature``` | ```Spoofs the app signature to pass integrity checks.``` | ```com.kakao.talk``` | ```26.1.1``` |
-| ```Version info patch``` | ```Patches the version info to include '(ReVanced)' in the version string.``` | ```com.kakao.talk``` | ```26.1.1``` |
+| ```Add settings tab``` | ```Adds a settings tab to the app.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Allow Hide on Any Chat``` | ```Users with hiding privileges can hide any chat, including their own messages.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Allow reply to feed``` | ```Allows replying to feed messages``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Always Show Kick Button``` | ```Always shows the kick button in group member management.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Bypass input mention limit in non-multichat``` | ```Bypass the limit of input mentions in non-multichat rooms``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Bypass Moat check``` | ```Bypass Moat check that prevents the app from running.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Change model``` | ```Changes the device model to supporting subdevice features``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Custom branding``` | ```Customize app branding (name)``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Default external browser``` | ```Sets the default external browser for KakaoTalk to the system's default browser.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Disable 300+ unread limit``` | ```Always show the real unread count instead of '300+' in chatroom list``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Disable 99 unread limit``` | ```Skip the 99-cap so unread count shows full value``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Disable chat room list ad``` | ```Disable the chat room list ad.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Disable ChatRoomAdController``` | ```Disables the ChatRoomAdController to prevent ads from being shown in chat room list``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Disable Collapse Button``` | ```Disable collapse button on OpenChatList``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Disable Community Tab``` | ```Disables Community Tab``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Disable Friend Feed tab``` | ```Disables the Friend Feed tab in KakaoTalk.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Disable Friend Lists ad``` | ```Disables the Friend Lists ad in KakaoTalk.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Disable S2Event``` | ```Disables Tracker``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Disable SDK Tracker``` | ```Disables the SDK Tracker in KakaoTalk.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Disable Sentry``` | ```Disables Sentry error reporting in KakaoTalk.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Disable tracker``` | ```Disables the tracker in KakaoTalk``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Disable verifying signature``` | ```Disables the signature verification check that prevents the app from running.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Enable reaction mention flag``` | ```Enables the reaction mention flag in KakaoTalk chat logs.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Enable recording pause/resume feature``` | ```Enable recording pause/resume feature in KakaoTalk``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Enable send big text``` | ```Allows sending big text messages in KakaoTalk.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Force enable debug mode``` | ```Enables debug mode in the app.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Force enable emoticon plus feature``` | ```Force enable emoticon plus feature (Unpurchased emoticon can be sent once per day)``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Ghost Mode``` | ```Don't expose your typing status to the other party.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Hook Package Manager``` | ```Hooks the Package Manager to bypass integrity checks.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Ignore Check Package Name``` | ```Ignores the package name check to allow installation of modified versions.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Override feature flag``` | ```Overrides the feature flag to enable the feature.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Play YouTube player in chat room``` | ```Allows playing YouTube videos in KakaoTalk chat rooms.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Remove BizBoard ads``` | ```Removes the BizBoard ad by forcing its dimensions to 0x0 and visibility to GONE in onMeasure.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Remove feed ad``` | ```Removes the feed ad from the app.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Remove focus ad``` | ```Removes the focus ad from the app.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Remove More tab ad``` | ```Removes the ad from the More tab.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Remove native ad``` | ```Removes the native ad from the app.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Remove OpenLink chat room list ad``` | ```Removes the OpenLink chat room list ad.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Remove shop tab``` | ```Removes the shop tab from the bottom navigation bar.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Remove Short-form Tab``` | ```Removes the Short-form tab from the now fragment.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Show deleted or hidden messages``` | ```Allows you to see deleted/hidden messages in chat logs.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Spoof apk checksums``` | ```Spoofs the apk checksums to pass integrity checks.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Spoof App ID``` | ```Spoofs the App ID to bypass integrity checks. (to bypass biometric auth etc.)``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Spoof signature``` | ```Spoofs the app signature to pass integrity checks.``` | ```com.kakao.talk``` | ```26.1.2``` |
+| ```Version info patch``` | ```Patches the version info to include '(ReVanced)' in the version string.``` | ```com.kakao.talk``` | ```26.1.2``` |
 | ```Disable ads``` | ```N/A``` | ```com.laurencedawson.reddit_sync``` | ```All versions``` |
 | ```Disable Sync for Lemmy bottom sheet``` | ```Disables the bottom sheet at the startup that asks you to signup to "Sync for Lemmy".``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.dev, com.laurencedawson.reddit_sync.pro``` | ```v23.06.30-13:39``` |
 | ```Fix /s/ links``` | ```N/A``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.dev, com.laurencedawson.reddit_sync.pro``` | ```All versions``` |
