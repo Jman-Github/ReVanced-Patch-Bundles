@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.0-dev.7",
+    "version": "v1.11.0-dev.8",
     "patches": [
         {
             "compatiblePackages": {
@@ -36,7 +36,8 @@
             },
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Adds options to bypass power saving restrictions for Ambient mode and disable it entirely or in fullscreen.",
             "name": "Ambient mode",

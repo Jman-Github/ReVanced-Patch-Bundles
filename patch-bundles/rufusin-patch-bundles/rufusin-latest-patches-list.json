@@ -1,5 +1,5 @@
 {
-    "version": "v3.15.0m",
+    "version": "v3.16.0m",
     "patches": [
         {
             "compatiblePackages": {
@@ -3457,6 +3457,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "Settings for Reddit"
             ],
             "description": "Add translations for RVX settings.",
@@ -3504,6 +3505,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "Settings for YouTube"
             ],
             "description": "Add translations or remove string resources.",
@@ -3554,6 +3556,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "Settings for YouTube Music"
             ],
             "description": "Add translations or remove string resources.",
@@ -3716,7 +3719,7 @@
                     }
                 },
                 {
-                    "default": true,
+                    "default": false,
                     "description": "Whether to apply Visual preferences icons to all settings menus.\n\nIf true: icons are applied to the parent PreferenceScreen of YouTube settings, the parent PreferenceScreen of RVX settings and the RVX sub-settings (if supported).\n\nIf false: icons are applied only to the parent PreferenceScreen of YouTube settings and RVX settings.",
                     "key": "applyToAll",
                     "required": true,
