@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.0-dev.13",
+    "version": "v1.11.0-dev.14",
     "patches": [
         {
             "compatiblePackages": {
@@ -196,7 +196,7 @@
         {
             "compatiblePackages": null,
             "dependencies": [],
-            "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+            "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues. This patch does not work with Reddit.",
             "name": "Change package name",
             "options": [
                 {

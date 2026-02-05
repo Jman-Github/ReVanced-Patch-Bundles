@@ -2747,7 +2747,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```com.reddit.frontpage``` | ```2026.03.0, 2026.02.0, 2026.01.0, 2025.52.0, 2025.45.0, 2025.40.0, 2025.43.0``` |
 | ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```com.reddit.frontpage``` | ```2026.03.0, 2026.02.0, 2026.01.0, 2025.52.0, 2025.45.0, 2025.40.0, 2025.43.0``` |
 | ```Settings for Reddit``` | ```Applies mandatory patches to implement Morphe settings into the application.``` | ```com.reddit.frontpage``` | ```2026.03.0, 2026.02.0, 2026.01.0, 2025.52.0, 2025.45.0, 2025.40.0, 2025.43.0``` |
-| ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
+| ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues. This patch does not work with Reddit.``` | ```Universal``` | ```All versions``` |
 | ```Spoof signature``` | ```Spoofs the signature of the app.``` | ```Universal``` | ```All versions``` |
 
 </details>
