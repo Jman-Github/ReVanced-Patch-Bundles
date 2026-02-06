@@ -59,7 +59,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***276 Patches***
+***277 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.bka.serviceportal``` | ```All versions``` |
@@ -210,6 +210,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide update popup``` | ```Prevents the update popup from showing up.``` | ```com.microblink.photomath``` | ```All versions``` |
 | ```Spoof device ID``` | ```Spoofs device ID to mitigate manual bans by developers.``` | ```com.microblink.photomath``` | ```All versions``` |
 | ```Unlock plus``` | ```N/A``` | ```com.microblink.photomath``` | ```All versions``` |
+| ```Hide ads``` | ```N/A``` | ```com.mobilefootie.wc2010``` | ```All versions``` |
 | ```Hide ads``` | ```Hides most of the ads across the app.``` | ```com.myfitnesspal.android``` | ```24.14.2``` |
 | ```Disable ads``` | ```N/A``` | ```com.myprog.hexedit``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.nis.app``` | ```All versions``` |
