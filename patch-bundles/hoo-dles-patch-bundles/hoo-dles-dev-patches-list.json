@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.1",
+    "version": "v1.4.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -191,6 +191,16 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
+            "description": null,
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.bambuna.podcastaddict": []
+            },
+            "dependencies": [],
             "description": null,
             "name": "Enable Premium",
             "options": [],
