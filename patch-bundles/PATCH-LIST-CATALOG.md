@@ -52,6 +52,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 IMXEren Bundle Patch List](#-imxeren-bundle-patch-list)    
 [🧩 Almewty Bundle Patch List](#-almewty-bundle-patch-list)    
 [🧩 Anddea-Morphed Bundle Patch List](#-anddea-morphed-bundle-patch-list)    
+[🧩 Penewold Bundle Patch List](#-penewold-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -3088,5 +3089,15 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from links before they are shared.``` | ```com.spotify.music``` | ```9.0.90.1229``` |
 | ```Unlock Premium``` | ```Unlocks Spotify Premium features. Server-sided features like downloading songs are still locked.``` | ```com.spotify.music``` | ```9.0.90.1229``` |
 | ```Unlock Premium``` | ```Unlocks NetWall Premium features once 'Unlock Premium Now' button is clicked.``` | ```com.ysy.app.firewall``` | ```1.3.4``` |
+
+</details>
+
+---
+### 🧩 Penewold Bundle Patch List:
+[📦 Penewold-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-penewold-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
 
 </details>
