@@ -1,0 +1,27 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Disables Play Integrity API (Pairip) client-side license check.",
+            "name": "Disable Pairip license check",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.totus_labs.lectio": [
+                    "2.2.49"
+                ]
+            },
+            "dependencies": [
+                "Disable Pairip license check"
+            ],
+            "description": "Unlocks Premium",
+            "name": "Unlock Premium",
+            "options": [],
+            "use": true
+        }
+    ]
+}
