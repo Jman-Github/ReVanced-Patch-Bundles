@@ -2658,7 +2658,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***90 Patches***
+***91 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
@@ -2693,6 +2693,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Custom player overlay opacity``` | ```Adds an option to change the opacity of the video player background when player controls are visible.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Disable double tap actions``` | ```Adds an option to disable player double tap gestures.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Disable haptic feedback``` | ```Adds an option to disable haptic feedback in the player for various actions.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
+| ```Disable layout updates``` | ```Adds an option to disable server side layout updates and use an older UI.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Disable player popup panels``` | ```Adds an option to disable panels (such as live chat) from opening automatically.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Disable resuming Shorts on startup``` | ```Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Disable rolling number animations``` | ```Adds an option to disable rolling number animations of video view count, user likes, and upload time.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |

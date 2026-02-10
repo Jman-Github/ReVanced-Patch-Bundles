@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0-dev.3",
+    "version": "v1.13.0-dev.4",
     "patches": [
         {
             "compatiblePackages": {
@@ -398,6 +398,23 @@
             ],
             "description": "Adds an option to disable haptic feedback in the player for various actions.",
             "name": "Disable haptic feedback",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.40.45",
+                    "20.31.42",
+                    "20.21.37"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to disable server side layout updates and use an older UI.",
+            "name": "Disable layout updates",
             "options": [],
             "use": true
         },
