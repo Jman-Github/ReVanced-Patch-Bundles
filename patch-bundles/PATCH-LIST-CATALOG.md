@@ -1641,7 +1641,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***29 Patches***
+***30 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```N/A``` | ```app.ttmikstories.android``` | ```1.16.0``` |
@@ -1672,6 +1672,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Block Permissions Request``` | ```Blocks the request of notification permissions on load of app.``` | ```org.languageapp.lingory``` | ```1.2.75``` |
 | ```Enable Premium``` | ```N/A``` | ```org.languageapp.lingory``` | ```1.2.75``` |
 | ```Enable Pro``` | ```N/A``` | ```org.totschnig.myexpenses``` | ```3.9.8``` |
+| ```Enable Premium Pro``` | ```N/A``` | ```pl.solidexplorer2``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 
 </details>
