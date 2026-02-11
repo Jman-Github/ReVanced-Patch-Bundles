@@ -1,5 +1,5 @@
 {
-    "version": "v5.16.1-dev.1",
+    "version": "v5.16.2-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -170,6 +170,16 @@
             "use": true
         },
         {
+            "compatiblePackages": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Spoof the installer package name to make it appear that the app was installed from the Google Play Store.",
+            "name": "Change installer package name",
+            "options": [],
+            "use": false
+        },
+        {
             "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.05.36",
@@ -298,6 +308,27 @@
             "name": "Change start page",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.",
+            "name": "Change version code",
+            "options": [
+                {
+                    "default": "2147483647",
+                    "description": "The version code to use. (1 ~ 2147483647)",
+                    "key": "versionCode",
+                    "required": true,
+                    "title": "Version code",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Highest": "2147483647",
+                        "Lowest": "1"
+                    }
+                }
+            ],
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -748,6 +779,14 @@
             "name": "Disable dislike redirection",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Disable forced edge-to-edge display on Android 15+ by changing the app's target SDK version. This patch does not work if the app is installed by mounting.",
+            "name": "Disable edge-to-edge display",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -2015,6 +2054,14 @@
             "use": true
         },
         {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy.",
+            "name": "Override certificate pinning",
+            "options": [],
+            "use": false
+        },
+        {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "6.20.51",
@@ -2703,6 +2750,45 @@
             "name": "Spoof app version for lyrics",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Spoofs the signature of the app.",
+            "name": "Spoof signature",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Package name.",
+                    "key": "packageName",
+                    "required": false,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Base64-encoded string of the certificate.",
+                    "key": "certificateData",
+                    "required": false,
+                    "title": "Certificate data",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": false
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Spoofs an existing Wi-Fi connection.",
+            "name": "Spoof Wi-Fi connection",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
