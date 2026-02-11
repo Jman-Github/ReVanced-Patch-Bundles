@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0-dev.10",
+    "version": "v1.13.0-dev.11",
     "patches": [
         {
             "compatiblePackages": {
@@ -747,7 +747,8 @@
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Adds options to remove general ads.",
             "name": "Hide ads",
