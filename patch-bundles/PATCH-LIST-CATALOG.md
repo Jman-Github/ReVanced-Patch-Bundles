@@ -2752,7 +2752,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Settings for Reddit``` | ```Applies mandatory patches to implement Morphe settings into the application.``` | ```com.reddit.frontpage``` | ```2026.03.0, 2025.43.0``` |
 | ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```com.reddit.frontpage``` | ```2026.03.0, 2025.43.0``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues. This patch does not work with Reddit.``` | ```Universal``` | ```All versions``` |
-| ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
+| ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy. This patch does not work with Reddit.``` | ```Universal``` | ```All versions``` |
 
 </details>
 

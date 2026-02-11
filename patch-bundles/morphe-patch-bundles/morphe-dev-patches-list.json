@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0-dev.12",
+    "version": "v1.13.0-dev.13",
     "patches": [
         {
             "compatiblePackages": {
@@ -1256,7 +1256,7 @@
         {
             "compatiblePackages": null,
             "dependencies": [],
-            "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy.",
+            "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy. This patch does not work with Reddit.",
             "name": "Override certificate pinning",
             "options": [],
             "use": false
@@ -1583,7 +1583,7 @@
             "description": "Adds options to spoof the client video streams to fix playback.",
             "name": "Spoof video streams",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -1603,7 +1603,7 @@
             "description": "Adds options to spoof the client video streams to fix playback.",
             "name": "Spoof video streams",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatiblePackages": {
