@@ -1063,9 +1063,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***1 Patch***
+***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Custom Maps API Key``` | ```Replace Transit Google Maps key with your own Android Maps SDK key for re-signed APKs.``` | ```com.thetransitapp.droid``` | ```All versions``` |
 | ```Pro Features Unlock``` | ```Unlock all pro features in Transit``` | ```com.thetransitapp.droid``` | ```All versions``` |
 
 </details>
