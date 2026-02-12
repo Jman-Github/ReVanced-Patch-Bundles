@@ -156,7 +156,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Andronedev-Patches-Bundle:
+### 📦 Andronedev-Patches-Bundle [API v4]:
 [🧩 Andronedev Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-andronedev-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -687,7 +687,7 @@ https://github.com/ReVanced/revanced-manager/releases
 
 #### 🏷️ [BholeyKaBhakt-Patches-Bundle](https://github.com/BholeyKaBhakt/revanced-patches-xtra)
 
-#### 🏷️ [Andronedev-Patches-Bundle](https://github.com/andronedev/revanced-patches)
+#### 🏷️ [Andronedev-Patches-Bundle](https://github.com/andronedev/morphe-patches)
 
 #### 🏷️ [Korhelyleves-Patches-Bundle](https://github.com/korhelyleves/revanced-patches)
 
@@ -769,8 +769,6 @@ __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be incl
 #### ⛓ [BiliRoamingM-Patches-Bundle](https://github.com/sakarie9/BiliRoamingM)
 
 #### ⛓ [Slenderman00-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
-
-#### ⛓ [Andronedev-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 #### ⛓ [ReX-Patches-Bundle](https://github.com/YT-Advanced/ReX-patches)
 

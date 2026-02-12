@@ -1059,7 +1059,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 
 ---
 ### 🧩 Andronedev Bundle Patch List:
-[📦 Andronedev-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-andronedev-patches-bundle)
+[📦 Andronedev-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-andronedev-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
