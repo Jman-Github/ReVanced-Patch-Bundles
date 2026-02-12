@@ -1063,12 +1063,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***3 Patches***
+***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Pro Features Unlock``` | ```Unlock all pro features in Genius Scan``` | ```com.thegrizzlylabs.geniusscan.free``` | ```7.17.2``` |
 | ```Pro Features Unlock``` | ```Unlock all pro features in Transit``` | ```com.thetransitapp.droid``` | ```All versions``` |
-| ```Pro Features Unlock``` | ```Unlock all pro features in Notewise``` | ```com.yygg.note.app``` | ```All versions``` |
 
 </details>
 
