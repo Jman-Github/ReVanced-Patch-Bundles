@@ -1,5 +1,5 @@
 {
-    "version": "v5.50.0-dev.6",
+    "version": "v5.50.0-dev.7",
     "patches": [
         {
             "compatiblePackages": {
@@ -809,6 +809,16 @@
             "dependencies": [],
             "description": null,
             "name": "Disable ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [],
+            "description": "Disables analytics that are sent periodically.",
+            "name": "Disable analytics",
             "options": [],
             "use": true
         },
@@ -2571,6 +2581,16 @@
         },
         {
             "compatiblePackages": {
+                "com.microsoft.office.officelens": null
+            },
+            "dependencies": [],
+            "description": "Hides the OneDrive migration prompt when opening Microsoft Office Lens.",
+            "name": "Hide OneDrive migration",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
                     "20.07.39",
@@ -2606,6 +2626,16 @@
             ],
             "description": "Adds options to hide the player Cast, Autoplay, Captions, Previous & Next buttons, and the player control buttons background.",
             "name": "Hide player overlay buttons",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.ebay.kleinanzeigen": null
+            },
+            "dependencies": [],
+            "description": "Hides Pur (Ad Free Subscription) from Settings Menu.",
+            "name": "Hide Pur",
             "options": [],
             "use": true
         },

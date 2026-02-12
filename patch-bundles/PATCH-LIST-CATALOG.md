@@ -59,7 +59,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***277 Patches***
+***280 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.bka.serviceportal``` | ```All versions``` |
@@ -89,6 +89,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable debug menu``` | ```N/A``` | ```com.duolingo``` | ```All versions``` |
 | ```Skip energy recharge ads``` | ```Skips watching ads to recharge energy.``` | ```com.duolingo``` | ```All versions``` |
 | ```Hide ads``` | ```Hides sponsored ads and Google Ads. Also happens to disable Microsoft Clarity analytics.``` | ```com.ebay.kleinanzeigen``` | ```All versions``` |
+| ```Hide Pur``` | ```Hides Pur (Ad Free Subscription) from Settings Menu.``` | ```com.ebay.kleinanzeigen``` | ```All versions``` |
 | ```Hide 'Sponsored Stories'``` | ```N/A``` | ```com.facebook.katana``` | ```490.0.0.63.82``` |
 | ```Hide story ads``` | ```Hides the ads in the Facebook app stories.``` | ```com.facebook.katana``` | ```All versions``` |
 | ```Disable typing indicator``` | ```Disables the indicator while typing a message.``` | ```com.facebook.orca``` | ```All versions``` |
@@ -182,6 +183,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Wide search bar``` | ```Adds an option to replace the search icon with a wide search bar. This will hide the YouTube logo when active.``` | ```com.google.android.youtube``` | ```19.34.42, 20.07.39, 20.13.41, 20.14.43``` |
 | ```Anonymous story viewing``` | ```View stories without sending any information to the server. Your view will not appear in the story viewers list. Note: Since no data is sent, a story you have already viewed may appear as new on another device.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Change link sharing domain``` | ```Replaces the domain name of shared links.``` | ```com.instagram.android``` | ```All versions``` |
+| ```Disable analytics``` | ```Disables analytics that are sent periodically.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Disable signature check``` | ```Disables the signature check that can cause the app to crash on startup. Including this patch may cause issues with sharing or opening external Instagram links.``` | ```com.instagram.android``` | ```All versions``` |
 | ```Disable story auto flipping``` | ```Disable stories automatically flipping/skipping after some seconds.``` | ```com.instagram.android``` | ```All versions``` |
@@ -210,6 +212,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide update popup``` | ```Prevents the update popup from showing up.``` | ```com.microblink.photomath``` | ```All versions``` |
 | ```Spoof device ID``` | ```Spoofs device ID to mitigate manual bans by developers.``` | ```com.microblink.photomath``` | ```All versions``` |
 | ```Unlock plus``` | ```N/A``` | ```com.microblink.photomath``` | ```All versions``` |
+| ```Hide OneDrive migration``` | ```Hides the OneDrive migration prompt when opening Microsoft Office Lens.``` | ```com.microsoft.office.officelens``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.mobilefootie.wc2010``` | ```All versions``` |
 | ```Hide ads``` | ```Hides most of the ads across the app.``` | ```com.myfitnesspal.android``` | ```24.14.2``` |
 | ```Disable ads``` | ```N/A``` | ```com.myprog.hexedit``` | ```All versions``` |
