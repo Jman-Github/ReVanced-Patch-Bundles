@@ -1,5 +1,5 @@
 {
-    "version": "v3.17.0-dev.1",
+    "version": "v4.0.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -200,28 +200,6 @@
             "name": "Change live ring click action",
             "options": [],
             "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.spotify.music": [
-                    "9.0.90.1229"
-                ]
-            },
-            "dependencies": [],
-            "description": "Changes the lyrics provider to a custom one.",
-            "name": "Change lyrics provider",
-            "options": [
-                {
-                    "default": "lyrics.natanchiodi.fr",
-                    "description": "The domain name or IP address of a custom lyrics provider.",
-                    "key": "lyricsProviderHost",
-                    "required": false,
-                    "title": "Lyrics provider host",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ],
-            "use": false
         },
         {
             "compatiblePackages": {
@@ -551,29 +529,6 @@
         },
         {
             "compatiblePackages": {
-                "com.spotify.music": null
-            },
-            "dependencies": [],
-            "description": "Changes the Spotify app name to the name specified in patch options.",
-            "name": "Custom branding name for Spotify",
-            "options": [
-                {
-                    "default": "Spotify",
-                    "description": "The name of the app.",
-                    "key": "appName",
-                    "required": true,
-                    "title": "App name",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Default": "RVX Spotify",
-                        "Original": "Spotify"
-                    }
-                }
-            ],
-            "use": false
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.05.36",
                     "19.16.39",
@@ -788,93 +743,6 @@
                 }
             ],
             "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.spotify.music": [
-                    "9.0.90.1229"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Applies a custom theme (defaults to amoled black)",
-            "name": "Custom theme",
-            "options": [
-                {
-                    "default": "@android:color/black",
-                    "description": "The background color. Can be a hex color or a resource reference.",
-                    "key": "backgroundColor",
-                    "required": true,
-                    "title": "Primary background color",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Apply primary background color to the player gradient color, which changes dynamically with the song.",
-                    "key": "overridePlayerGradientColor",
-                    "required": false,
-                    "title": "Override player gradient color",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "The option to enable the secondary background color.",
-                    "key": "enableBackgroundColorSecondary",
-                    "required": true,
-                    "title": "Enable secondary background color",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": "#FF121212",
-                    "description": "The secondary background color. (e.g. playlist list in home, player artist, song credits). Can be a hex color or a resource reference.\",",
-                    "key": "backgroundColorSecondary",
-                    "required": true,
-                    "title": "Secondary background color",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "#FF1ED760",
-                    "description": "The accent color ('Spotify green' by default). Can be a hex color or a resource reference.",
-                    "key": "accentColor",
-                    "required": true,
-                    "title": "Accent color",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "#FF1ABC54",
-                    "description": "The color when accented buttons are pressed, by default slightly darker than accent. Can be a hex color or a resource reference.",
-                    "key": "accentColorPressed",
-                    "required": true,
-                    "title": "Pressed accent color",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Apply the accent color to the launcher icon.",
-                    "key": "iconColor",
-                    "required": true,
-                    "title": "Icon color",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Apply alternative minimal launcher icon.",
-                    "key": "minimalIcon",
-                    "required": true,
-                    "title": "Minimal icon",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ],
-            "use": false
         },
         {
             "compatiblePackages": {
@@ -1379,30 +1247,6 @@
         },
         {
             "compatiblePackages": {
-                "com.spotify.music": [
-                    "9.0.90.1229"
-                ]
-            },
-            "dependencies": [],
-            "description": "Fix logging in with Facebook when the app is patched by always opening the login in a web browser window.",
-            "name": "Fix Facebook login",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.spotify.music": [
-                    "9.0.90.1229"
-                ]
-            },
-            "dependencies": [],
-            "description": "Fixes Spotify widgets not working in third party launchers, like Nova Launcher.",
-            "name": "Fix third party launchers widgets",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "6.20.51",
                     "6.29.59",
@@ -1865,20 +1709,6 @@
         },
         {
             "compatiblePackages": {
-                "com.spotify.music": [
-                    "9.0.90.1229"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Hides the \"Create\" button in the navigation bar.",
-            "name": "Hide Create button",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.05.36",
                     "19.16.39",
@@ -2243,20 +2073,6 @@
             ],
             "description": "Adds support for opening music in RVX Music using the in-app YouTube Music button.",
             "name": "Hook YouTube Music actions",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.spotify.music": [
-                    "9.0.90.1229"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Displays a \"Search Lyrics\" panel in the Main Activity that searches for lyrics on Google, and song meanings on Songtell. The activity is set to SpotifyMainActivity, so the \"Search Lyrics\" panel won't be shown in NowPlayingActivity (Player view) or possibly other activities.",
-            "name": "Lyrics search",
             "options": [],
             "use": true
         },
@@ -2822,18 +2638,6 @@
                 "Settings for Reddit"
             ],
             "description": "Adds an option to sanitize sharing links by removing tracking query parameters.",
-            "name": "Sanitize sharing links",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.spotify.music": [
-                    "9.0.90.1229"
-                ]
-            },
-            "dependencies": [],
-            "description": "Removes the tracking query parameters from links before they are shared.",
             "name": "Sanitize sharing links",
             "options": [],
             "use": true
@@ -3590,35 +3394,6 @@
                     "values": null
                 }
             ],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.ysy.app.firewall": [
-                    "1.3.4"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "RawResourcePatch"
-            ],
-            "description": "Unlocks NetWall Premium features once 'Unlock Premium Now' button is clicked.",
-            "name": "Unlock Premium",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.spotify.music": [
-                    "9.0.90.1229"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Unlocks Spotify Premium features. Server-sided features like downloading songs are still locked.",
-            "name": "Unlock Premium",
-            "options": [],
             "use": true
         },
         {

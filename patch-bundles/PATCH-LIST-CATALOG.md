@@ -490,7 +490,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***139 Patches***
+***129 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bitrate default value``` | ```Sets the audio quality to 'Always High' when you first install the app.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
@@ -616,16 +616,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
 | ```Settings for Reddit``` | ```Applies mandatory patches to implement ReVanced Extended settings into the application.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
 | ```Translations for Reddit``` | ```Add translations for RVX settings.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
-| ```Change lyrics provider``` | ```Changes the lyrics provider to a custom one.``` | ```com.spotify.music``` | ```9.0.90.1229``` |
-| ```Custom branding name for Spotify``` | ```Changes the Spotify app name to the name specified in patch options.``` | ```com.spotify.music``` | ```All versions``` |
-| ```Custom theme``` | ```Applies a custom theme (defaults to amoled black)``` | ```com.spotify.music``` | ```9.0.90.1229``` |
-| ```Fix Facebook login``` | ```Fix logging in with Facebook when the app is patched by always opening the login in a web browser window.``` | ```com.spotify.music``` | ```9.0.90.1229``` |
-| ```Fix third party launchers widgets``` | ```Fixes Spotify widgets not working in third party launchers, like Nova Launcher.``` | ```com.spotify.music``` | ```9.0.90.1229``` |
-| ```Hide Create button``` | ```Hides the "Create" button in the navigation bar.``` | ```com.spotify.music``` | ```9.0.90.1229``` |
-| ```Lyrics search``` | ```Displays a "Search Lyrics" panel in the Main Activity that searches for lyrics on Google, and song meanings on Songtell. The activity is set to SpotifyMainActivity, so the "Search Lyrics" panel won't be shown in NowPlayingActivity (Player view) or possibly other activities.``` | ```com.spotify.music``` | ```9.0.90.1229``` |
-| ```Sanitize sharing links``` | ```Removes the tracking query parameters from links before they are shared.``` | ```com.spotify.music``` | ```9.0.90.1229``` |
-| ```Unlock Premium``` | ```Unlocks Spotify Premium features. Server-sided features like downloading songs are still locked.``` | ```com.spotify.music``` | ```9.0.90.1229``` |
-| ```Unlock Premium``` | ```Unlocks NetWall Premium features once 'Unlock Premium Now' button is clicked.``` | ```com.ysy.app.firewall``` | ```1.3.4``` |
 | ```Change installer package name``` | ```Spoof the installer package name to make it appear that the app was installed from the Google Play Store.``` | ```Universal``` | ```All versions``` |
 | ```Change version code``` | ```Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.``` | ```Universal``` | ```All versions``` |
 | ```Disable edge-to-edge display``` | ```Disable forced edge-to-edge display on Android 15+ by changing the app's target SDK version. This patch does not work if the app is installed by mounting.``` | ```Universal``` | ```All versions``` |
@@ -1644,11 +1634,12 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***31 Patches***
+***32 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```N/A``` | ```app.ttmikstories.android``` | ```1.16.0``` |
-| ```Unlock Split Tunneling``` | ```N/A``` | ```ch.protonvpn.android``` | ```All versions``` |
+| ```Remove server change delay``` | ```N/A``` | ```ch.protonvpn.android``` | ```All versions``` |
+| ```Unlock split tunneling``` | ```N/A``` | ```ch.protonvpn.android``` | ```All versions``` |
 | ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```com.amazon.avod.thirdpartyclient``` | ```All versions``` |
 | ```Skip ads``` | ```Automatically skips video stream ads.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.430.1747``` |
 | ```Enable Premium``` | ```N/A``` | ```com.avocards``` | ```All versions``` |

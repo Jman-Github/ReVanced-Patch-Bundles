@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-dev.1",
+    "version": "v1.6.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -351,6 +351,16 @@
         },
         {
             "compatiblePackages": {
+                "ch.protonvpn.android": []
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Remove server change delay",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.amazon.avod.thirdpartyclient": []
             },
             "dependencies": [],
@@ -389,7 +399,7 @@
             },
             "dependencies": [],
             "description": null,
-            "name": "Unlock Split Tunneling",
+            "name": "Unlock split tunneling",
             "options": [],
             "use": true
         }
