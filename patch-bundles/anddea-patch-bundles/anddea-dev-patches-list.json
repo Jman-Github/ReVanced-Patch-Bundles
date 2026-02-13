@@ -1,5 +1,5 @@
 {
-    "version": "v3.16.0-dev.2",
+    "version": "v3.17.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -3778,6 +3778,27 @@
                     "values": null
                 }
             ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.05.36",
+                    "19.16.39",
+                    "19.43.41",
+                    "19.44.39",
+                    "19.47.53",
+                    "20.05.46"
+                ]
+            },
+            "dependencies": [
+                "Overlay buttons",
+                "BytecodePatch",
+                "Settings for YouTube"
+            ],
+            "description": "Adds an option to enable Yandex voice-over translation of video audio tracks.",
+            "name": "Voice Over Translation",
+            "options": [],
             "use": true
         },
         {
