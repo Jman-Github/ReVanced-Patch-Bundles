@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.1",
+    "version": "v1.6.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -382,6 +382,16 @@
             "name": "Unlock licensed songs",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "ch.protonvpn.android": []
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Unlock Split Tunneling",
+            "options": [],
+            "use": true
         }
     ]
 }
