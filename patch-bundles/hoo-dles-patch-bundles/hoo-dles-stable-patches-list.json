@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0",
+    "version": "v1.6.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -351,6 +351,16 @@
         },
         {
             "compatiblePackages": {
+                "ch.protonvpn.android": []
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Remove server change delay",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.amazon.avod.thirdpartyclient": []
             },
             "dependencies": [],
@@ -382,6 +392,16 @@
             "name": "Unlock licensed songs",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "ch.protonvpn.android": []
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Unlock split tunneling",
+            "options": [],
+            "use": true
         }
     ]
 }
