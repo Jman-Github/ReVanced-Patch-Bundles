@@ -1,5 +1,5 @@
 {
-    "version": "v5.50.0-dev.7",
+    "version": "v5.50.3-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -2200,7 +2200,7 @@
                 },
                 {
                     "default": true,
-                    "description": null,
+                    "description": "Elements that promote features, challenges, clubs, etc.",
                     "key": "promo",
                     "required": true,
                     "title": "Promotions",
@@ -2245,10 +2245,10 @@
                 },
                 {
                     "default": false,
-                    "description": null,
+                    "description": "Your activity from X years ago",
                     "key": "activityLookback",
                     "required": true,
-                    "title": "Your activity from X years ago",
+                    "title": "Activity lookback",
                     "type": "kotlin.Boolean",
                     "values": null
                 }

@@ -1,5 +1,5 @@
 {
-    "version": "v4.6.0-dev.2",
+    "version": "v4.6.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -325,10 +325,34 @@
             "dependencies": [
                 "BytecodePatch"
             ],
+            "description": "Hides the experimental Ask button (Reddit Answers) from the search bar.",
+            "name": "Hide Ask button from search bar",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Hides the community highlights section.",
             "name": "Hide community highlights",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the new experimental, prominent search bar on the main screen.",
+            "name": "Hide prominent search bar",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {

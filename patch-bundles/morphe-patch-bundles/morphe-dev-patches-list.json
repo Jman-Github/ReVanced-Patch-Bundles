@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.1-dev.1",
+    "version": "v1.14.0-dev.4",
     "patches": [
         {
             "compatiblePackages": {
@@ -382,6 +382,40 @@
             ],
             "description": "Adds an option to disable player double tap gestures.",
             "name": "Disable double tap actions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "8.40.54",
+                    "8.10.52",
+                    "7.29.52"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to disable dynamic range compression (DRC).",
+            "name": "Disable DRC audio",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.40.45",
+                    "20.31.42",
+                    "20.21.37"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to disable dynamic range compression (DRC).",
+            "name": "Disable DRC audio",
             "options": [],
             "use": true
         },
