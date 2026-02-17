@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0",
+    "version": "v1.7.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -52,6 +52,16 @@
                 }
             ],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "cn.wps.moffice_eng": []
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Disable anti-tamper checks",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
@@ -294,6 +304,18 @@
                 "Disable signature check"
             ],
             "description": null,
+            "name": "Enable Pro",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "cn.wps.moffice_eng": []
+            },
+            "dependencies": [
+                "Disable anti-tamper checks"
+            ],
+            "description": "Enable pro features (requires to be logged in).",
             "name": "Enable Pro",
             "options": [],
             "use": true

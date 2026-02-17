@@ -1636,12 +1636,14 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***32 Patches***
+***34 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```N/A``` | ```app.ttmikstories.android``` | ```1.16.0``` |
 | ```Remove server change delay``` | ```N/A``` | ```ch.protonvpn.android``` | ```All versions``` |
 | ```Unlock split tunneling``` | ```N/A``` | ```ch.protonvpn.android``` | ```All versions``` |
+| ```Disable anti-tamper checks``` | ```N/A``` | ```cn.wps.moffice_eng``` | ```All versions``` |
+| ```Enable Pro``` | ```Enable pro features (requires to be logged in).``` | ```cn.wps.moffice_eng``` | ```All versions``` |
 | ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```com.amazon.avod.thirdpartyclient``` | ```All versions``` |
 | ```Skip ads``` | ```Automatically skips video stream ads.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.430.1747``` |
 | ```Enable Premium``` | ```N/A``` | ```com.avocards``` | ```All versions``` |
