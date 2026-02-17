@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0-dev.1",
+    "version": "v1.7.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -315,7 +315,7 @@
             "dependencies": [
                 "Disable anti-tamper checks"
             ],
-            "description": "Enable pro features (requires to be logged in).",
+            "description": "Enables Pro subscription features. Login is required and AI functionality is unavailable.",
             "name": "Enable Pro",
             "options": [],
             "use": true
