@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.0-dev.6",
+    "version": "v1.14.0-dev.7",
     "patches": [
         {
             "compatiblePackages": {
@@ -712,7 +712,7 @@
                 "Change package name",
                 "ResourcePatch",
                 "BytecodePatch",
-                "Spoof video streams"
+                "BytecodePatch"
             ],
             "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
             "name": "GmsCore support",
@@ -732,7 +732,7 @@
                 "ResourcePatch",
                 "BytecodePatch",
                 "Hide player overlay buttons",
-                "Spoof video streams"
+                "BytecodePatch"
             ],
             "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
             "name": "GmsCore support",
@@ -1591,47 +1591,6 @@
             "name": "Spoof signature",
             "options": [],
             "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "8.40.54",
-                    "8.10.52",
-                    "7.29.52"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "RawResourcePatch"
-            ],
-            "description": "Adds options to spoof the client video streams to fix playback.",
-            "name": "Spoof video streams",
-            "options": [],
-            "use": false
-        },
-        {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "20.40.45",
-                    "20.31.42",
-                    "20.21.37"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch",
-                "BytecodePatch",
-                "RawResourcePatch"
-            ],
-            "description": "Adds options to spoof the client video streams to fix playback.",
-            "name": "Spoof video streams",
-            "options": [],
-            "use": false
         },
         {
             "compatiblePackages": {
