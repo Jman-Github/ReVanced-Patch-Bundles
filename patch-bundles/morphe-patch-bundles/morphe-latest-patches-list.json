@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.0-dev.7",
+    "version": "v1.14.0-dev.8",
     "patches": [
         {
             "compatiblePackages": {
@@ -912,7 +912,8 @@
                 "ResourcePatch",
                 "BytecodePatch",
                 "ResourcePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Adds options to hide general layout components.",
             "name": "Hide layout components",
