@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0",
+    "version": "v1.14.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -387,6 +387,40 @@
         },
         {
             "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "8.40.54",
+                    "8.10.52",
+                    "7.29.52"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to disable dynamic range compression (DRC).",
+            "name": "Disable DRC audio",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.40.45",
+                    "20.31.42",
+                    "20.21.37"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to disable dynamic range compression (DRC).",
+            "name": "Disable DRC audio",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "20.40.45",
                     "20.31.42",
@@ -473,8 +507,9 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
+                    "2026.04.0",
                     "2026.03.0",
-                    "2025.43.0"
+                    "2025.48.0"
                 ]
             },
             "dependencies": [
@@ -677,7 +712,7 @@
                 "Change package name",
                 "ResourcePatch",
                 "BytecodePatch",
-                "Spoof video streams"
+                "BytecodePatch"
             ],
             "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
             "name": "GmsCore support",
@@ -697,7 +732,7 @@
                 "ResourcePatch",
                 "BytecodePatch",
                 "Hide player overlay buttons",
-                "Spoof video streams"
+                "BytecodePatch"
             ],
             "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
             "name": "GmsCore support",
@@ -724,8 +759,9 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
+                    "2026.04.0",
                     "2026.03.0",
-                    "2025.43.0"
+                    "2025.48.0"
                 ]
             },
             "dependencies": [
@@ -876,7 +912,8 @@
                 "ResourcePatch",
                 "BytecodePatch",
                 "ResourcePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Adds options to hide general layout components.",
             "name": "Hide layout components",
@@ -903,8 +940,9 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
+                    "2026.04.0",
                     "2026.03.0",
-                    "2025.43.0"
+                    "2025.48.0"
                 ]
             },
             "dependencies": [
@@ -955,8 +993,9 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
+                    "2026.04.0",
                     "2026.03.0",
-                    "2025.43.0"
+                    "2025.48.0"
                 ]
             },
             "dependencies": [
@@ -1029,8 +1068,9 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
+                    "2026.04.0",
                     "2026.03.0",
-                    "2025.43.0"
+                    "2025.48.0"
                 ]
             },
             "dependencies": [
@@ -1061,8 +1101,9 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
+                    "2026.04.0",
                     "2026.03.0",
-                    "2025.43.0"
+                    "2025.48.0"
                 ]
             },
             "dependencies": [
@@ -1170,32 +1211,16 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
+                    "2026.04.0",
                     "2026.03.0",
-                    "2025.43.0"
+                    "2025.48.0"
                 ]
             },
             "dependencies": [
-                "Settings for Reddit",
-                "BytecodePatch"
+                "Settings for Reddit"
             ],
             "description": "Adds an option to skip over redirection URLs in external links.",
             "name": "Open links directly",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2026.03.0",
-                    "2025.43.0"
-                ]
-            },
-            "dependencies": [
-                "Settings for Reddit",
-                "BytecodePatch"
-            ],
-            "description": "Adds an option to always open links in your browser instead of in the in-app-browser.",
-            "name": "Open links externally",
             "options": [],
             "use": true
         },
@@ -1337,8 +1362,9 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
+                    "2026.04.0",
                     "2026.03.0",
-                    "2025.43.0"
+                    "2025.48.0"
                 ]
             },
             "dependencies": [
@@ -1407,8 +1433,9 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
+                    "2026.04.0",
                     "2026.03.0",
-                    "2025.43.0"
+                    "2025.48.0"
                 ]
             },
             "dependencies": [
@@ -1458,8 +1485,9 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
+                    "2026.04.0",
                     "2026.03.0",
-                    "2025.43.0"
+                    "2025.48.0"
                 ]
             },
             "dependencies": [
@@ -1552,8 +1580,9 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
+                    "2026.04.0",
                     "2026.03.0",
-                    "2025.43.0"
+                    "2025.48.0"
                 ]
             },
             "dependencies": [
@@ -1563,47 +1592,6 @@
             "name": "Spoof signature",
             "options": [],
             "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "8.40.54",
-                    "8.10.52",
-                    "7.29.52"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "RawResourcePatch"
-            ],
-            "description": "Adds options to spoof the client video streams to fix playback.",
-            "name": "Spoof video streams",
-            "options": [],
-            "use": false
-        },
-        {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "20.40.45",
-                    "20.31.42",
-                    "20.21.37"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch",
-                "BytecodePatch",
-                "RawResourcePatch"
-            ],
-            "description": "Adds options to spoof the client video streams to fix playback.",
-            "name": "Spoof video streams",
-            "options": [],
-            "use": false
         },
         {
             "compatiblePackages": {
