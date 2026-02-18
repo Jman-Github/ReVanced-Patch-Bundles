@@ -1636,7 +1636,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***34 Patches***
+***35 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```N/A``` | ```app.ttmikstories.android``` | ```1.16.0``` |
@@ -1658,6 +1658,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable audio ads``` | ```N/A``` | ```com.pandora.android``` | ```All versions``` |
 | ```Enable unlimited skips``` | ```N/A``` | ```com.pandora.android``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.qbis.guessthecountry``` | ```All versions``` |
+| ```Disable ads``` | ```N/A``` | ```com.sofascore.results``` | ```All versions``` |
 | ```Disable signature check``` | ```N/A``` | ```ginlemon.flowerfree``` | ```All versions``` |
 | ```Enable Pro``` | ```N/A``` | ```ginlemon.flowerfree``` | ```All versions``` |
 | ```Enable Prime Membership``` | ```N/A``` | ```jp.ne.ibis.ibispaintx.app``` | ```13.1.19``` |

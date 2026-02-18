@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.8.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -52,6 +52,16 @@
                 }
             ],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.sofascore.results": []
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Disable ads",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
