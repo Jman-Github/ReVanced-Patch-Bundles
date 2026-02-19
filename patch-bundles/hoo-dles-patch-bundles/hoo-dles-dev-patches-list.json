@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0-dev.1",
+    "version": "v1.8.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -92,6 +92,14 @@
             "name": "Disable Login Integrity",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Disables Play Integrity API (Pairip) client-side license check.",
+            "name": "Disable Pairip license check",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {

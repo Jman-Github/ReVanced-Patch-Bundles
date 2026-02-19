@@ -1636,7 +1636,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***35 Patches***
+***36 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```N/A``` | ```app.ttmikstories.android``` | ```1.16.0``` |
@@ -1674,6 +1674,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable Pro``` | ```N/A``` | ```org.totschnig.myexpenses``` | ```3.9.8``` |
 | ```Enable Premium Pro``` | ```N/A``` | ```pl.solidexplorer2``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
+| ```Disable Pairip license check``` | ```Disables Play Integrity API (Pairip) client-side license check.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
