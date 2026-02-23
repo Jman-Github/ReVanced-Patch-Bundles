@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.8.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -55,6 +55,16 @@
         },
         {
             "compatiblePackages": {
+                "com.sofascore.results": []
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Disable ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "cn.wps.moffice_eng": []
             },
             "dependencies": [],
@@ -82,6 +92,14 @@
             "name": "Disable Login Integrity",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Disables Play Integrity API (Pairip) client-side license check.",
+            "name": "Disable Pairip license check",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -281,6 +299,18 @@
             ],
             "description": null,
             "name": "Enable Prime Membership",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.pryshedko.mtisland": []
+            },
+            "dependencies": [
+                "Disable Pairip license check"
+            ],
+            "description": null,
+            "name": "Enable Pro",
             "options": [],
             "use": true
         },

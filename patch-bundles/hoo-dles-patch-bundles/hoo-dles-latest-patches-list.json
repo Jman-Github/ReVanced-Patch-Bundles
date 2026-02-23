@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0-dev.2",
+    "version": "v1.8.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -299,6 +299,18 @@
             ],
             "description": null,
             "name": "Enable Prime Membership",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.pryshedko.mtisland": []
+            },
+            "dependencies": [
+                "Disable Pairip license check"
+            ],
+            "description": null,
+            "name": "Enable Pro",
             "options": [],
             "use": true
         },
