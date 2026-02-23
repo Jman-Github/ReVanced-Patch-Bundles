@@ -1,5 +1,5 @@
 {
-    "version": "v3.0.0-dev.4",
+    "version": "v3.0.0-dev.5",
     "patches": [
         {
             "compatiblePackages": {
@@ -787,6 +787,19 @@
             ],
             "description": "Makes bio and username selectable",
             "name": "Selectable Text",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Share tweets as rendered image. Requires X 11.0.0-release.0 or higher.",
+            "name": "Share Tweet as Image",
             "options": [],
             "use": true
         },

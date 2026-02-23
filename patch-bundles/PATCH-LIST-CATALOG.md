@@ -631,7 +631,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***67 Patches***
+***68 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add ability to copy media link``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
@@ -696,6 +696,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Remove view count``` | ```Removes the view count from the bottom of tweets``` | ```com.twitter.android``` | ```All versions``` |
 | ```Round off numbers``` | ```Enable or disable rounding off numbers``` | ```com.twitter.android``` | ```All versions``` |
 | ```Selectable Text``` | ```Makes bio and username selectable``` | ```com.twitter.android``` | ```All versions``` |
+| ```Share Tweet as Image``` | ```Share tweets as rendered image. Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Show changelogs``` | ```Shows changelogs when new a patch is installed.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Show poll results``` | ```Adds an option to show poll results without voting``` | ```com.twitter.android``` | ```All versions``` |
 | ```Show post source label``` | ```Source label will be shown only on public posts``` | ```com.twitter.android``` | ```All versions``` |
