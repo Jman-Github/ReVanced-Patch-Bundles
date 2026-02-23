@@ -1,5 +1,5 @@
 {
-    "version": "v1.15.0-dev.7",
+    "version": "v1.15.0-dev.8",
     "patches": [
         {
             "compatiblePackages": {
@@ -428,6 +428,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to disable haptic feedback in the player for various actions.",
