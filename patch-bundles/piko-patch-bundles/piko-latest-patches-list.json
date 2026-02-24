@@ -1,5 +1,5 @@
 {
-    "version": "v3.0.0-dev.6",
+    "version": "v3.0.0-dev.7",
     "patches": [
         {
             "compatiblePackages": {
@@ -20,6 +20,19 @@
             "dependencies": [],
             "description": "Bring back old twitter logo and name",
             "name": "Bring back twitter",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to browse the tweet object in the share menu.",
+            "name": "Browse tweet object",
             "options": [],
             "use": false
         },
