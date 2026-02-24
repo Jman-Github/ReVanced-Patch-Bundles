@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0",
+    "version": "v1.9.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -309,6 +309,16 @@
             "dependencies": [
                 "Disable Pairip license check"
             ],
+            "description": null,
+            "name": "Enable Pro",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.zombodroid.MemeGenerator": []
+            },
+            "dependencies": [],
             "description": null,
             "name": "Enable Pro",
             "options": [],
