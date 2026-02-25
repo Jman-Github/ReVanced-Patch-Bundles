@@ -1,5 +1,5 @@
 {
-    "version": "v3.0.0-dev.7",
+    "version": "v3.0.0-dev.8",
     "patches": [
         {
             "compatiblePackages": {
@@ -17,7 +17,9 @@
             "compatiblePackages": {
                 "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": "Bring back old twitter logo and name",
             "name": "Bring back twitter",
             "options": [],
@@ -412,7 +414,9 @@
             "use": true
         },
         {
-            "compatiblePackages": null,
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
             "dependencies": [],
             "description": "Makes all app activities exportable.",
             "name": "Export all activities",

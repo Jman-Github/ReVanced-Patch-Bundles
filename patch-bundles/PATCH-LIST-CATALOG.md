@@ -667,6 +667,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable force HD videos``` | ```Videos will be played in highest quality always``` | ```com.twitter.android``` | ```All versions``` |
 | ```Enable PiP mode automatically``` | ```Enables PiP mode when you close the app``` | ```com.twitter.android``` | ```All versions``` |
 | ```Enable Undo Posts``` | ```Enables ability to undo posts before posting``` | ```com.twitter.android``` | ```All versions``` |
+| ```Export all activities``` | ```Makes all app activities exportable.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Force enable translate``` | ```Get translate option for all posts``` | ```com.twitter.android``` | ```All versions``` |
 | ```Handle custom twitter links``` | ```Adds support for opening custom twitter links such as vxtwitter, fxtwitter, and fixupx within the app. These will have to be manually enabled under the "Open by default" section in the app info!``` | ```com.twitter.android``` | ```All versions``` |
 | ```Hide badges from navigation bar icons``` | ```Hides notification nudges & counts from navigation bar icons``` | ```com.twitter.android``` | ```All versions``` |
@@ -702,7 +703,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Show poll results``` | ```Adds an option to show poll results without voting``` | ```com.twitter.android``` | ```All versions``` |
 | ```Show post source label``` | ```Source label will be shown only on public posts``` | ```com.twitter.android``` | ```All versions``` |
 | ```Show sensitive media``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Export all activities``` | ```Makes all app activities exportable.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
