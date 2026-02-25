@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0-dev.1",
+    "version": "v1.9.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -138,6 +138,16 @@
         {
             "compatiblePackages": {
                 "com.avocards": []
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.busuu.android.enc": []
             },
             "dependencies": [],
             "description": null,

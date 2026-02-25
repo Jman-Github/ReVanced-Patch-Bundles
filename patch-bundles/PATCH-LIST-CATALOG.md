@@ -1638,7 +1638,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***38 Patches***
+***39 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```N/A``` | ```app.ttmikstories.android``` | ```1.16.0``` |
@@ -1650,6 +1650,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Skip ads``` | ```Automatically skips video stream ads.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.430.1747``` |
 | ```Enable Premium``` | ```N/A``` | ```com.avocards``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.bambuna.podcastaddict``` | ```All versions``` |
+| ```Enable Premium``` | ```N/A``` | ```com.busuu.android.enc``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables client-side only premium features. Most functionality is absent as it is verified on the server.``` | ```com.crunchyroll.crunchyroid``` | ```All versions``` |
 | ```Disable Login Integrity``` | ```Removes Play Integrity device attestation from login request.``` | ```com.duolingo``` | ```All versions``` |
 | ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```com.duolingo``` | ```All versions``` |
