@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0",
+    "version": "v1.9.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -138,6 +138,16 @@
         {
             "compatiblePackages": {
                 "com.avocards": []
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.busuu.android.enc": []
             },
             "dependencies": [],
             "description": null,
@@ -309,6 +319,16 @@
             "dependencies": [
                 "Disable Pairip license check"
             ],
+            "description": null,
+            "name": "Enable Pro",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.zombodroid.MemeGenerator": []
+            },
+            "dependencies": [],
             "description": null,
             "name": "Enable Pro",
             "options": [],
