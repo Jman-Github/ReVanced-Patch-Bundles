@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.0",
+    "version": "v1.15.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -428,6 +428,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to disable haptic feedback in the player for various actions.",
@@ -466,6 +467,40 @@
             ],
             "description": "Adds an option to disable panels (such as live chat) from opening automatically.",
             "name": "Disable player popup panels",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "8.40.54",
+                    "8.10.52",
+                    "7.29.52"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to disable the QUIC (Quick UDP Internet Connections) network protocol.",
+            "name": "Disable QUIC protocol",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.40.45",
+                    "20.31.42",
+                    "20.21.37"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to disable the QUIC (Quick UDP Internet Connections) network protocol.",
+            "name": "Disable QUIC protocol",
             "options": [],
             "use": true
         },
