@@ -1,5 +1,5 @@
 {
-    "version": "v1.15.0",
+    "version": "v1.16.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -397,7 +397,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds an option to disable dynamic range compression (DRC).",
+            "description": "Adds an option to disable DRC (Dynamic Range Compression) audio.",
             "name": "Disable DRC audio",
             "options": [],
             "use": true
@@ -414,7 +414,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds an option to disable dynamic range compression (DRC).",
+            "description": "Adds an option to disable DRC (Dynamic Range Compression) audio.",
             "name": "Disable DRC audio",
             "options": [],
             "use": true
@@ -482,7 +482,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds an option to disable the QUIC (Quick UDP Internet Connections) network protocol.",
+            "description": "Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.",
             "name": "Disable QUIC protocol",
             "options": [],
             "use": true
@@ -499,7 +499,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds an option to disable the QUIC (Quick UDP Internet Connections) network protocol.",
+            "description": "Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.",
             "name": "Disable QUIC protocol",
             "options": [],
             "use": true
@@ -1235,6 +1235,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],

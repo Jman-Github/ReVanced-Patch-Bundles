@@ -2672,8 +2672,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
 | ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
 | ```Custom branding``` | ```Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
-| ```Disable DRC audio``` | ```Adds an option to disable dynamic range compression (DRC).``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
-| ```Disable QUIC protocol``` | ```Adds an option to disable the QUIC (Quick UDP Internet Connections) network protocol.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
+| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
+| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
 | ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
 | ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
 | ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
@@ -2700,11 +2700,11 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Custom branding``` | ```Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Custom player overlay opacity``` | ```Adds an option to change the opacity of the video player background when player controls are visible.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Disable double tap actions``` | ```Adds an option to disable player double tap gestures.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
-| ```Disable DRC audio``` | ```Adds an option to disable dynamic range compression (DRC).``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
+| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Disable haptic feedback``` | ```Adds an option to disable haptic feedback in the player for various actions.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Disable layout updates``` | ```Adds an option to disable server side layout updates and use an older UI.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Disable player popup panels``` | ```Adds an option to disable panels (such as live chat) from opening automatically.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
-| ```Disable QUIC protocol``` | ```Adds an option to disable the QUIC (Quick UDP Internet Connections) network protocol.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
+| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Disable resuming Shorts on startup``` | ```Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Disable rolling number animations``` | ```Adds an option to disable rolling number animations of video view count, user likes, and upload time.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Disable sign in to TV popup``` | ```Adds an option to disable the popup asking to sign into a TV on the same local network.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
