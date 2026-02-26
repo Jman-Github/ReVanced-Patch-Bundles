@@ -1,5 +1,5 @@
 {
-    "version": "v5.51.0-dev.1",
+    "version": "v5.51.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -1980,6 +1980,16 @@
         },
         {
             "compatiblePackages": {
+                "de.gmx.mobile.android.mail": null
+            },
+            "dependencies": [],
+            "description": "Hides sponsored ads.",
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.nis.app": null
             },
             "dependencies": [],
@@ -2636,6 +2646,16 @@
             ],
             "description": "Adds options to hide the player Cast, Autoplay, Captions, Previous & Next buttons, and the player control buttons background.",
             "name": "Hide player overlay buttons",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "de.gmx.mobile.android.mail": null
+            },
+            "dependencies": [],
+            "description": "Hides the Premium upgrade button in the navigation drawer.",
+            "name": "Hide Premium upgrade button",
             "options": [],
             "use": true
         },
