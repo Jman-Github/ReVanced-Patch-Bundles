@@ -1,5 +1,5 @@
 {
-    "version": "v5.50.3-dev.4",
+    "version": "v5.51.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -1680,6 +1680,16 @@
             ],
             "description": "Fixes a bug in Sync's MPD parser resulting in only the audio-track being saved.",
             "name": "Fix video downloads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "de.gmx.mobile.android.mail": null
+            },
+            "dependencies": [],
+            "description": "Enables the FreePhone menu in the navigation drawer even on devices that don't support eSIM.",
+            "name": "Force enable FreePhone",
             "options": [],
             "use": true
         },

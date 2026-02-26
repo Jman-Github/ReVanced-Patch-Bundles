@@ -59,7 +59,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***280 Patches***
+***281 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.bka.serviceportal``` | ```All versions``` |
@@ -290,6 +290,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Force English locale``` | ```Forces wearable devices to use the English locale.``` | ```com.xiaomi.wearable``` | ```All versions``` |
 | ```Unlock pro``` | ```N/A``` | ```com.zombodroid.MemeGenerator``` | ```4.6364, 4.6370, 4.6375, 4.6377``` |
 | ```Promo code unlock``` | ```Disables the validation of promo code. Any code will work to unlock all features.``` | ```de.dwd.warnapp``` | ```4.2.2``` |
+| ```Force enable FreePhone``` | ```Enables the FreePhone menu in the navigation drawer even on devices that don't support eSIM.``` | ```de.gmx.mobile.android.mail``` | ```All versions``` |
 | ```Fix crash``` | ```N/A``` | ```de.simon.openinghours``` | ```1.0``` |
 | ```Hide offers tab``` | ```N/A``` | ```de.stocard.stocard``` | ```All versions``` |
 | ```Hide story bubbles``` | ```N/A``` | ```de.stocard.stocard``` | ```All versions``` |
