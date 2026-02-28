@@ -1,5 +1,6 @@
 package me.jman.parser
 
+import app.revanced.library.serializeTo
 import app.revanced.patcher.patch.loadPatches
 import java.io.ByteArrayOutputStream
 import java.io.File
@@ -34,7 +35,9 @@ fun generatePatchesFromUrl(uri: URI): String{
         downloadToFile(uri.toURL(), patchesFile)
 
         val serializedJson = ByteArrayOutputStream().apply {
-            loadPatches(patchesFile).serializeTo(this, false)
+            loadPatches(patchesFile) { file, throwable ->
+                throw IllegalStateException("Failed to load patches from ${file.name}", throwable)
+            }.serializeTo(this, false)
         }.toString(Charsets.UTF_8)
 
         return serializedJson
