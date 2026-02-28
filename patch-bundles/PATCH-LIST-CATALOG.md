@@ -1639,13 +1639,12 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***40 Patches***
+***39 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```N/A``` | ```app.ttmikstories.android``` | ```1.16.0``` |
 | ```Remove server change delay``` | ```N/A``` | ```ch.protonvpn.android``` | ```All versions``` |
 | ```Unlock split tunneling``` | ```N/A``` | ```ch.protonvpn.android``` | ```All versions``` |
-| ```Unlock premium features``` | ```N/A``` | ```cn.ommiao.iconpacker``` | ```All versions``` |
 | ```Disable anti-tamper checks``` | ```N/A``` | ```cn.wps.moffice_eng``` | ```All versions``` |
 | ```Enable Pro``` | ```Enables Pro subscription features. Login is required and AI functionality is unavailable.``` | ```cn.wps.moffice_eng``` | ```All versions``` |
 | ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```com.amazon.avod.thirdpartyclient``` | ```All versions``` |
