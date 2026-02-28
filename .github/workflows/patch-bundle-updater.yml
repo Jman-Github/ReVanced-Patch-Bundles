@@ -61,11 +61,19 @@ jobs:
       - name: Grant execute permission
         run: chmod +x ./bundle-parser/gradlew
 
+      - name: Validate package token
+        shell: bash
+        run: |
+          if [ -z "${{ secrets.GH_PAT }}" ]; then
+            echo "::error::GH_PAT secret is missing. Set GH_PAT to a classic PAT with read:packages (and repo if needed), then rerun."
+            exit 1
+          fi
+
       - name: Generate patches list
         env:
-          GITHUB_ACTOR: ${{ github.actor }}
-          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
-        run: ./bundle-parser/gradlew --project-dir bundle-parser run
+          GITHUB_ACTOR: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: ./bundle-parser/gradlew --project-dir bundle-parser "-Pgpr.user=${{ github.repository_owner }}" "-Pgpr.key=${{ secrets.GH_PAT }}" run
 
       - name: Generate patch list catalog
         run: |
