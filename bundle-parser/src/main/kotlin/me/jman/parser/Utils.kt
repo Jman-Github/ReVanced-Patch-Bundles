@@ -1,7 +1,7 @@
 package me.jman.parser
 
 import app.revanced.library.serializeTo
-import app.revanced.patcher.patch.loadPatchesFromJar
+import app.revanced.patcher.patch.loadPatches
 import java.io.ByteArrayOutputStream
 import java.io.File
 import java.io.InputStream
@@ -35,7 +35,7 @@ fun generatePatchesFromUrl(uri: URI): String{
         downloadToFile(uri.toURL(), patchesFile)
 
         val serializedJson = ByteArrayOutputStream().apply {
-            loadPatchesFromJar(setOf(patchesFile)).serializeTo(this, false)
+            loadPatches(patchesFile).serializeTo(this, false)
         }.toString(Charsets.UTF_8)
 
         return serializedJson
