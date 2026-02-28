@@ -63,7 +63,8 @@ jobs:
 
       - name: Generate patches list
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ACTOR: ${{ github.actor }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: ./bundle-parser/gradlew --project-dir bundle-parser run
 
       - name: Generate patch list catalog

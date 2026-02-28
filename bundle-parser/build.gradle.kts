@@ -31,6 +31,38 @@ repositories {
         }
     }
     maven {
+        name = "ReVancedPatcherPackages"
+        url = uri("https://maven.pkg.github.com/revanced/revanced-patcher")
+        credentials {
+            username = when {
+                hardcodedGprUser.isNotBlank() -> hardcodedGprUser
+                !gprUser.isNullOrBlank() -> gprUser
+                else -> System.getenv("GITHUB_ACTOR")
+            }
+            password = when {
+                hardcodedGprToken.isNotBlank() -> hardcodedGprToken
+                !gprKey.isNullOrBlank() -> gprKey
+                else -> System.getenv("GITHUB_TOKEN")
+            }
+        }
+    }
+    maven {
+        name = "ReVancedLibraryPackages"
+        url = uri("https://maven.pkg.github.com/revanced/revanced-library")
+        credentials {
+            username = when {
+                hardcodedGprUser.isNotBlank() -> hardcodedGprUser
+                !gprUser.isNullOrBlank() -> gprUser
+                else -> System.getenv("GITHUB_ACTOR")
+            }
+            password = when {
+                hardcodedGprToken.isNotBlank() -> hardcodedGprToken
+                !gprKey.isNullOrBlank() -> gprKey
+                else -> System.getenv("GITHUB_TOKEN")
+            }
+        }
+    }
+    maven {
         name = "MorphePackages"
         url = uri("https://maven.pkg.github.com/MorpheApp/registry")
         credentials {
