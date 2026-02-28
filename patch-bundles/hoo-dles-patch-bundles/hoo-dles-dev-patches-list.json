@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0-dev.1",
+    "version": "v1.10.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -151,16 +151,6 @@
             },
             "dependencies": [],
             "description": null,
-            "name": "Enable Premium",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.crunchyroll.crunchyroid": []
-            },
-            "dependencies": [],
-            "description": "Enables client-side only premium features. Most functionality is absent as it is verified on the server.",
             "name": "Enable Premium",
             "options": [],
             "use": true
