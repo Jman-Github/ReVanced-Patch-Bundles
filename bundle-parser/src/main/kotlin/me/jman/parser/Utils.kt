@@ -1,6 +1,5 @@
 package me.jman.parser
 
-import app.revanced.library.serializeTo
 import app.revanced.patcher.patch.loadPatches
 import java.io.ByteArrayOutputStream
 import java.io.File

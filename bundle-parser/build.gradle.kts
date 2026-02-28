@@ -85,7 +85,7 @@ dependencies {
     implementation(libs.kotlin.stdlib)
     implementation(libs.morphe.patcher)
     implementation(libs.revanced.patcher)
-    implementation(libs.revanced.library)
+    runtimeOnly(libs.revanced.library)
     implementation(libs.asm)
     implementation(libs.smali)
     compileOnly(libs.jsr305)

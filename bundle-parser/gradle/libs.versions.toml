@@ -15,7 +15,7 @@ kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
 morphe-patcher = { module = "app.morphe:morphe-patcher", version.ref = "morphe-patcher" }
 revanced-patcher = { group = "app.revanced", name = "patcher", version.ref = "revanced-patcher" }
-revanced-library = { module = "app.revanced:library", version.ref = "revanced-library" }
+revanced-library = { module = "app.revanced:revanced-library-jvm", version.ref = "revanced-library" }
 smali = { module = "com.android.tools.smali:smali", version.ref = "smali" }
 jsr305 = { module = "com.google.code.findbugs:jsr305", version.ref = "jsr305" }
 asm = { module = "org.ow2.asm:asm", version.ref = "asm" }
