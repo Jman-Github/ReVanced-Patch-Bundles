@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0",
+    "version": "v1.10.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -443,9 +443,7 @@
         },
         {
             "compatiblePackages": {
-                "com.amazon.avod.thirdpartyclient": [
-                    "3.0.430.1747"
-                ]
+                "com.amazon.avod.thirdpartyclient": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -464,6 +462,18 @@
             "name": "Unlock licensed songs",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "cn.ommiao.iconpacker": []
+            },
+            "dependencies": [
+                "Disable Pairip license check"
+            ],
+            "description": null,
+            "name": "Unlock premium features",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {

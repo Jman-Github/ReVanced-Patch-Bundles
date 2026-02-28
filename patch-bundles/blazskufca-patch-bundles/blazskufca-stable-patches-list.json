@@ -1,26 +1,4 @@
 {
     "version": "v1.2.0",
-    "patches": [
-        {
-            "compatiblePackages": {
-                "com.sovworks.projecteds": null
-            },
-            "dependencies": [],
-            "description": "Forces the app to consider all modules as Active.",
-            "name": "Unlock Modules",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.audiorista.android": null,
-                "com.mladinska.mkplus": null
-            },
-            "dependencies": [],
-            "description": "Forces the app to report 'plus' permissions to the server.",
-            "name": "Unlock Plus",
-            "options": [],
-            "use": true
-        }
-    ]
+    "patches": []
 }

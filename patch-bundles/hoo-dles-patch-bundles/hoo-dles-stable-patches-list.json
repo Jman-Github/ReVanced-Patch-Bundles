@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0",
+    "version": "v1.9.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -443,9 +443,7 @@
         },
         {
             "compatiblePackages": {
-                "com.amazon.avod.thirdpartyclient": [
-                    "3.0.430.1747"
-                ]
+                "com.amazon.avod.thirdpartyclient": []
             },
             "dependencies": [
                 "BytecodePatch"

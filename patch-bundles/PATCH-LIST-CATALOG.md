@@ -1641,16 +1641,17 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***39 Patches***
+***40 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```N/A``` | ```app.ttmikstories.android``` | ```1.16.0``` |
 | ```Remove server change delay``` | ```N/A``` | ```ch.protonvpn.android``` | ```All versions``` |
 | ```Unlock split tunneling``` | ```N/A``` | ```ch.protonvpn.android``` | ```All versions``` |
+| ```Unlock premium features``` | ```N/A``` | ```cn.ommiao.iconpacker``` | ```All versions``` |
 | ```Disable anti-tamper checks``` | ```N/A``` | ```cn.wps.moffice_eng``` | ```All versions``` |
 | ```Enable Pro``` | ```Enables Pro subscription features. Login is required and AI functionality is unavailable.``` | ```cn.wps.moffice_eng``` | ```All versions``` |
 | ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```com.amazon.avod.thirdpartyclient``` | ```All versions``` |
-| ```Skip ads``` | ```Automatically skips video stream ads.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.430.1747``` |
+| ```Skip ads``` | ```Automatically skips video stream ads.``` | ```com.amazon.avod.thirdpartyclient``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.avocards``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.bambuna.podcastaddict``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.busuu.android.enc``` | ```All versions``` |
@@ -2668,7 +2669,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***92 Patches***
+***93 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
@@ -2735,6 +2736,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Navigation bar``` | ```Adds options to hide and change the bottom navigation bar (such as the Shorts button) and the upper navigation toolbar. Patching version 20.21.37 and lower also adds a setting to use a wide searchbar.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Open links externally``` | ```Adds an option to always open links in your browser instead of the in-app browser.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Open Shorts in regular player``` | ```Adds options to open Shorts in the regular video player.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
+| ```Open system share sheet``` | ```Adds an option to always open the system share sheet instead of the in-app share sheet.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Open videos fullscreen``` | ```Adds an option to open videos in full screen portrait mode.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Playback speed``` | ```Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
