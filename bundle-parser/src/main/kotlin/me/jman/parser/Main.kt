@@ -37,6 +37,21 @@ private val githubAuthToken = System.getenv("GH_PAT")?.takeIf { it.isNotBlank() 
 private const val GITHUB_API_BASE = "https://api.github.com"
 private const val USER_AGENT = "revanced-patch-bundles/1.0 (+https://github.com/Jman-Github/ReVanced-Patch-Bundles)"
 
+private fun Throwable.rootCause(): Throwable {
+    var cause = this
+    while (cause.cause != null && cause.cause !== cause) {
+        cause = cause.cause!!
+    }
+    return cause
+}
+
+private fun Throwable.formatForLog(): String {
+    val root = rootCause()
+    val type = root::class.simpleName ?: root::class.java.name
+    val message = root.message?.takeIf { it.isNotBlank() } ?: "no message"
+    return "$type: $message"
+}
+
 private enum class ReleaseType(
     val priority: Int,
     private vararg val aliases: String
@@ -317,6 +332,9 @@ private fun generateRevancedPatchList(downloadUri: URI): JsonArray? {
     } catch (_: IllegalArgumentException) {
         Logger.warning("Generated patches are not valid JSON.")
         null
+    } catch (e: Exception) {
+        Logger.warning("Failed to generate patches from ${downloadUri}. ${e.formatForLog()}")
+        null
     }
 }
 
@@ -370,54 +388,58 @@ private fun processBundle(bundleFolder: File) {
     val variants = loadBundleVariants(bundleFolder, bundleName)
 
     variants.forEachGroupLogged({ "Processing file ${it.file.name}" }) processVariant@{ variant ->
-        Logger.info("Processing ${variant.releaseTag} release...")
-        val parsedBundle = parseBundleMetadata(variant) ?: return@processVariant
+        try {
+            Logger.info("Processing ${variant.releaseTag} release...")
+            val parsedBundle = parseBundleMetadata(variant) ?: return@processVariant
 
-        val outputPatchesFile = File(bundleFolder, "$bundleName-${variant.releaseTag}-$PATCH_LIST_SUFFIX")
-        val existingContent = readExistingPatches(outputPatchesFile)
-        if (existingContent == null) {
-            Logger.info("No previous version found. Processing for the first time...")
-        } else if (existingContent.version != parsedBundle.version) {
-            Logger.info("Version ${existingContent.version} -> ${parsedBundle.version}")
-        } else {
-            Logger.info("Version ${parsedBundle.version} exists; verifying content")
-        }
-
-        val downloadUri = try {
-            URI(parsedBundle.downloadUrl)
-        } catch (_: URISyntaxException) {
-            Logger.warning("Download URL is invalid.")
-            return@processVariant
-        } catch (_: IllegalArgumentException) {
-            Logger.warning("Download URL is invalid.")
-            return@processVariant
-        }
-
-        val cacheKey = downloadUri.toString()
-        val generated = patchCache[cacheKey]?.also {
-            Logger.info("Reusing cached patches for ${parsedBundle.downloadUrl}.")
-        } ?: run {
-            Logger.info("Downloading patch bundle from ${parsedBundle.downloadUrl}...")
-            val created = when (parsedBundle.format) {
-                BundleFormat.MODERN -> generateModernPatchList(downloadUri)
-                BundleFormat.LEGACY -> generateLegacyPatchList(downloadUri)
-            } ?: if (parsedBundle.format == BundleFormat.LEGACY) {
-                Logger.info("Falling back to release metadata for ${parsedBundle.downloadUrl}...")
-                generatePatchListFromReleaseAsset(downloadUri)
+            val outputPatchesFile = File(bundleFolder, "$bundleName-${variant.releaseTag}-$PATCH_LIST_SUFFIX")
+            val existingContent = readExistingPatches(outputPatchesFile)
+            if (existingContent == null) {
+                Logger.info("No previous version found. Processing for the first time...")
+            } else if (existingContent.version != parsedBundle.version) {
+                Logger.info("Version ${existingContent.version} -> ${parsedBundle.version}")
             } else {
-                null
-            } ?: return@processVariant
-            patchCache[cacheKey] = created
-            created
-        }
+                Logger.info("Version ${parsedBundle.version} exists; verifying content")
+            }
 
-        if (existingContent != null && existingContent.version == parsedBundle.version && existingContent.patches == generated) {
-            Logger.info("Patches are up to date.")
-            return@processVariant
-        }
+            val downloadUri = try {
+                URI(parsedBundle.downloadUrl)
+            } catch (_: URISyntaxException) {
+                Logger.warning("Download URL is invalid.")
+                return@processVariant
+            } catch (_: IllegalArgumentException) {
+                Logger.warning("Download URL is invalid.")
+                return@processVariant
+            }
 
-        Logger.info("Writing to ${outputPatchesFile.name}...")
-        writePatchList(outputPatchesFile, parsedBundle.version, generated)
+            val cacheKey = downloadUri.toString()
+            val generated = patchCache[cacheKey]?.also {
+                Logger.info("Reusing cached patches for ${parsedBundle.downloadUrl}.")
+            } ?: run {
+                Logger.info("Downloading patch bundle from ${parsedBundle.downloadUrl}...")
+                val created = when (parsedBundle.format) {
+                    BundleFormat.MODERN -> generateModernPatchList(downloadUri)
+                    BundleFormat.LEGACY -> generateLegacyPatchList(downloadUri)
+                } ?: if (parsedBundle.format == BundleFormat.LEGACY) {
+                    Logger.info("Falling back to release metadata for ${parsedBundle.downloadUrl}...")
+                    generatePatchListFromReleaseAsset(downloadUri)
+                } else {
+                    null
+                } ?: return@processVariant
+                patchCache[cacheKey] = created
+                created
+            }
+
+            if (existingContent != null && existingContent.version == parsedBundle.version && existingContent.patches == generated) {
+                Logger.info("Patches are up to date.")
+                return@processVariant
+            }
+
+            Logger.info("Writing to ${outputPatchesFile.name}...")
+            writePatchList(outputPatchesFile, parsedBundle.version, generated)
+        } catch (e: Exception) {
+            Logger.error("Failed processing ${variant.file.name}. ${e.formatForLog()}")
+        }
     }
 }
 
@@ -432,7 +454,7 @@ fun main() {
             try {
                 processBundle(directory)
             } catch (e: Exception) {
-                Logger.error("Something went wrong. ${e.message}, ${e.stackTrace}")
+                Logger.error("Something went wrong while processing ${directory.name}. ${e.formatForLog()}")
             }
         }
 }
