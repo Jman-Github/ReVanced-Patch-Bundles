@@ -1657,8 +1657,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```com.duolingo``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.duolingo``` | ```All versions``` |
 | ```Unlock licensed songs``` | ```Allows playing the full version of licensed music instead of the 30-second preview.``` | ```com.duolingo``` | ```All versions``` |
-| ```Enable Premium``` | ```N/A``` | ```com.getmimo``` | ```All versions``` |
-| ```Spoof signature``` | ```N/A``` | ```com.getmimo``` | ```All versions``` |
+| ```Enable Pro``` | ```N/A``` | ```com.getmimo``` | ```All versions``` |
+| ```Spoof package signature``` | ```N/A``` | ```com.getmimo``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.merriamwebster``` | ```All versions``` |
 | ```Enable Premium+``` | ```N/A``` | ```com.myfitnesspal.android``` | ```All versions``` |
 | ```Disable audio ads``` | ```N/A``` | ```com.pandora.android``` | ```All versions``` |

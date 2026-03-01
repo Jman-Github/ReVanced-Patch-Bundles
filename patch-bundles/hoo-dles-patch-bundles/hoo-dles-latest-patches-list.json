@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0-dev.3",
+    "version": "v1.10.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -226,18 +226,6 @@
         },
         {
             "compatiblePackages": {
-                "com.getmimo": []
-            },
-            "dependencies": [
-                "Spoof signature"
-            ],
-            "description": null,
-            "name": "Enable Premium",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.bambuna.podcastaddict": []
             },
             "dependencies": [],
@@ -331,6 +319,18 @@
                 "com.zombodroid.MemeGenerator": []
             },
             "dependencies": [],
+            "description": null,
+            "name": "Enable Pro",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.getmimo": []
+            },
+            "dependencies": [
+                "Spoof package signature"
+            ],
             "description": null,
             "name": "Enable Pro",
             "options": [],
@@ -461,7 +461,7 @@
             },
             "dependencies": [],
             "description": null,
-            "name": "Spoof signature",
+            "name": "Spoof package signature",
             "options": [],
             "use": true
         },

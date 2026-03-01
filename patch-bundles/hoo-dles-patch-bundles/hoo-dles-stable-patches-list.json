@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.1",
+    "version": "v1.10.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -151,16 +151,6 @@
             },
             "dependencies": [],
             "description": null,
-            "name": "Enable Premium",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.crunchyroll.crunchyroid": []
-            },
-            "dependencies": [],
-            "description": "Enables client-side only premium features. Most functionality is absent as it is verified on the server.",
             "name": "Enable Premium",
             "options": [],
             "use": true
@@ -336,6 +326,18 @@
         },
         {
             "compatiblePackages": {
+                "com.getmimo": []
+            },
+            "dependencies": [
+                "Spoof package signature"
+            ],
+            "description": null,
+            "name": "Enable Pro",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "org.totschnig.myexpenses": [
                     "3.9.8"
                 ]
@@ -455,6 +457,16 @@
         },
         {
             "compatiblePackages": {
+                "com.getmimo": []
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Spoof package signature",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.duolingo": []
             },
             "dependencies": [],
@@ -462,6 +474,18 @@
             "name": "Unlock licensed songs",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "cn.ommiao.iconpacker": []
+            },
+            "dependencies": [
+                "Disable Pairip license check"
+            ],
+            "description": null,
+            "name": "Unlock premium features",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
