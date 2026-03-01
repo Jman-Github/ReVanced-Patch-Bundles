@@ -2668,12 +2668,13 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***94 Patches***
+***95 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
 | ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
 | ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
+| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
 | ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
 | ```Custom branding``` | ```Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
 | ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
