@@ -313,9 +313,8 @@ private fun isMorphePatchBundle(downloadUri: URI): Boolean {
     return downloadUri.path.lowercase(Locale.ROOT).endsWith(".mpp")
 }
 
-private fun generateRevancedPatchList(downloadUri: URI): JsonArray? {
+private fun parseGeneratedPatchArray(jsonText: String): JsonArray? {
     return try {
-        val jsonText = generatePatchesFromUrl(downloadUri)
         val element: JsonElement = Json.parseToJsonElement(jsonText)
         val array = element as? JsonArray
         if (array == null) {
@@ -323,18 +322,44 @@ private fun generateRevancedPatchList(downloadUri: URI): JsonArray? {
             return null
         }
         array
-    } catch (_: FileNotFoundException) {
-        Logger.warning("The patch bundle file was not found.")
-        null
     } catch (_: SerializationException) {
         Logger.warning("Generated patches are not valid JSON.")
         null
     } catch (_: IllegalArgumentException) {
         Logger.warning("Generated patches are not valid JSON.")
         null
-    } catch (e: Exception) {
-        Logger.warning("Failed to generate patches from ${downloadUri}. ${e.formatForLog()}")
+    }
+}
+
+private fun requireNonEmptyPatchArray(jsonText: String, source: String): JsonArray {
+    val parsed = parseGeneratedPatchArray(jsonText)
+        ?: throw IllegalStateException("$source did not produce a valid patch array.")
+    if (parsed.isEmpty()) {
+        throw IllegalStateException("$source produced an empty patch array.")
+    }
+    return parsed
+}
+
+private fun generateRevancedPatchList(downloadUri: URI): JsonArray? {
+    return try {
+        requireNonEmptyPatchArray(generatePatchesFromUrl(downloadUri), "Patcher 22")
+    } catch (_: FileNotFoundException) {
+        Logger.warning("The patch bundle file was not found.")
         null
+    } catch (e: Exception) {
+        Logger.warning("Failed to generate patches from ${downloadUri} with patcher 22. ${e.formatForLog()}")
+        try {
+            Logger.info("Retrying ${downloadUri} with legacy patcher 21.1.0-dev.5...")
+            requireNonEmptyPatchArray(
+                generatePatchesFromUrlWithLegacyPatcher(downloadUri),
+                "Legacy patcher 21.1.0-dev.5"
+            )
+        } catch (legacyError: Exception) {
+            Logger.warning(
+                "Legacy patcher fallback also failed for ${downloadUri}. ${legacyError.formatForLog()}"
+            )
+            null
+        }
     }
 }
 
@@ -420,11 +445,9 @@ private fun processBundle(bundleFolder: File) {
                 val created = when (parsedBundle.format) {
                     BundleFormat.MODERN -> generateModernPatchList(downloadUri)
                     BundleFormat.LEGACY -> generateLegacyPatchList(downloadUri)
-                } ?: if (parsedBundle.format == BundleFormat.LEGACY) {
+                } ?: run {
                     Logger.info("Falling back to release metadata for ${parsedBundle.downloadUrl}...")
                     generatePatchListFromReleaseAsset(downloadUri)
-                } else {
-                    null
                 } ?: return@processVariant
                 patchCache[cacheKey] = created
                 created

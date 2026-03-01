@@ -2,7 +2,9 @@
 kotlin = "2.3.10"
 morphe-patcher = "1.1.1"
 revanced-patcher = "22.0.0"
+revanced-patcher-legacy = "21.1.0-dev.5"
 revanced-library = "3.1.0"
+revanced-library-legacy = "3.2.0-dev.1"
 serialization = "1.6.3"
 # Tracking https://github.com/google/smali/issues/64.
 #noinspection GradleDependency
@@ -15,7 +17,9 @@ kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
 morphe-patcher = { module = "app.morphe:morphe-patcher", version.ref = "morphe-patcher" }
 revanced-patcher = { group = "app.revanced", name = "patcher", version.ref = "revanced-patcher" }
+revanced-patcher-legacy = { module = "app.revanced:revanced-patcher", version.ref = "revanced-patcher-legacy" }
 revanced-library = { module = "app.revanced:revanced-library-jvm", version.ref = "revanced-library" }
+revanced-library-legacy = { module = "app.revanced:revanced-library-jvm", version.ref = "revanced-library-legacy" }
 smali = { module = "com.android.tools.smali:smali", version.ref = "smali" }
 jsr305 = { module = "com.google.code.findbugs:jsr305", version.ref = "jsr305" }
 asm = { module = "org.ow2.asm:asm", version.ref = "asm" }
