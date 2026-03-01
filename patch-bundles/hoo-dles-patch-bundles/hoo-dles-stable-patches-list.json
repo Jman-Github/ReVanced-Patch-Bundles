@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0",
+    "version": "v1.10.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -441,7 +441,7 @@
             "description": "Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.",
             "name": "Rename shared permissions",
             "options": [],
-            "use": false
+            "use": true
         },
         {
             "compatiblePackages": {
