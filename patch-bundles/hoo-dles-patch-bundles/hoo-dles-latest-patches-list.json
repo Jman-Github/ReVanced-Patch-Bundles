@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0-dev.2",
+    "version": "v1.10.0-dev.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -226,6 +226,18 @@
         },
         {
             "compatiblePackages": {
+                "com.getmimo": []
+            },
+            "dependencies": [
+                "Spoof signature"
+            ],
+            "description": null,
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.bambuna.podcastaddict": []
             },
             "dependencies": [],
@@ -440,6 +452,16 @@
             ],
             "description": "Automatically skips video stream ads.",
             "name": "Skip ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.getmimo": []
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Spoof signature",
             "options": [],
             "use": true
         },

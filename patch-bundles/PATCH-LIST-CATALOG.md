@@ -1639,7 +1639,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***39 Patches***
+***41 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```N/A``` | ```app.ttmikstories.android``` | ```1.16.0``` |
@@ -1657,6 +1657,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```com.duolingo``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.duolingo``` | ```All versions``` |
 | ```Unlock licensed songs``` | ```Allows playing the full version of licensed music instead of the 30-second preview.``` | ```com.duolingo``` | ```All versions``` |
+| ```Enable Premium``` | ```N/A``` | ```com.getmimo``` | ```All versions``` |
+| ```Spoof signature``` | ```N/A``` | ```com.getmimo``` | ```All versions``` |
 | ```Enable Premium``` | ```N/A``` | ```com.merriamwebster``` | ```All versions``` |
 | ```Enable Premium+``` | ```N/A``` | ```com.myfitnesspal.android``` | ```All versions``` |
 | ```Disable audio ads``` | ```N/A``` | ```com.pandora.android``` | ```All versions``` |
