@@ -1,4 +1,35 @@
 {
     "version": "v1.5.1",
-    "patches": []
+    "patches": [
+        {
+            "compatiblePackages": {
+                "nextapp.fx": null
+            },
+            "dependencies": [],
+            "description": "Unlock features like 'Web Access', 'Network' and 'FX Connect'.",
+            "name": "Unlock FX Plus",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.teslacoilsw.launcher": null
+            },
+            "dependencies": [],
+            "description": "Unlocks Nova Prime and all functions of the app.",
+            "name": "Unlock prime",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "net.dinglisch.android.taskerm": null
+            },
+            "dependencies": [],
+            "description": "Unlocks the trial version.",
+            "name": "Unlock trial",
+            "options": [],
+            "use": true
+        }
+    ]
 }

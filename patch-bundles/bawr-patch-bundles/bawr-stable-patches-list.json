@@ -1,4 +1,17 @@
 {
     "version": "v1.0.0",
-    "patches": []
+    "patches": [
+        {
+            "compatiblePackages": {
+                "org.thoughtcrime.securesms": [
+                    "7.62.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Don't remove expired messages.",
+            "name": "SignalKeep",
+            "options": [],
+            "use": true
+        }
+    ]
 }

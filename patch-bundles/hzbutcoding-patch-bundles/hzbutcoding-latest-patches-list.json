@@ -1,4 +1,23 @@
 {
     "version": "v1.31.0",
-    "patches": []
+    "patches": [
+        {
+            "compatiblePackages": {
+                "org.fortheloss.sticknodes": [
+                    "4.2.5"
+                ],
+                "org.fortheloss.sticknodesbeta": [
+                    "4.2.6"
+                ],
+                "org.fortheloss.sticknodespro": [
+                    "4.2.5"
+                ]
+            },
+            "dependencies": [],
+            "description": "Adds a custom tint filter slot to Stick Nodes (debug 5)",
+            "name": "Custom Filter slot",
+            "options": [],
+            "use": true
+        }
+    ]
 }

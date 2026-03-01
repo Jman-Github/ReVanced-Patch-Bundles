@@ -1,4 +1,25 @@
 {
     "version": "v1.1.2",
-    "patches": []
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.debridstream.tv": null
+            },
+            "dependencies": [],
+            "description": "Unlocks the app.",
+            "name": "Unlock pro",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.sbs.diet": null
+            },
+            "dependencies": [],
+            "description": "Unlocks the app.",
+            "name": "Unlock subscription",
+            "options": [],
+            "use": true
+        }
+    ]
 }

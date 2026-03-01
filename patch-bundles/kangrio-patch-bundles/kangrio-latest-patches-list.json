@@ -1,4 +1,17 @@
 {
     "version": "1.1.3",
-    "patches": []
+    "patches": [
+        {
+            "compatiblePackages": null,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "MicroG Support",
+            "options": [],
+            "use": true
+        }
+    ]
 }

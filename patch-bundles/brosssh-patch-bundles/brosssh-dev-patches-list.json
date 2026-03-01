@@ -1,4 +1,99 @@
 {
     "version": "v1.9.2-dev.1",
-    "patches": []
+    "patches": [
+        {
+            "compatiblePackages": {
+                "cz.seznam.mapy": null
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Bypass signature check",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "fr.chargeprice.app": [
+                    "3.3.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlock Premium features. You have to be logged in with an account.",
+            "name": "Unlock Premium features",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.groundspeak.geocaching.intro": null
+            },
+            "dependencies": [],
+            "description": "WARNING: This only works via mount install (root required). Unlock Premium features. Lists are still locked as they are server sided.",
+            "name": "Unlock Premium features",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "de.komoot.android": [
+                    "2025.38.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.",
+            "name": "Unlock Premium features",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "cz.seznam.mapy": [
+                    "9.70.1"
+                ]
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Unlock premium features",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.calistree.calistree": [
+                    "4.17.8"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlock Pro features. Sometimes the app forget about my patches and a popup screen asking to subscribe will be shown. In this screen, just swipe down to refresh and the app will have Pro features again.",
+            "name": "Unlock Pro features",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.hevy": [
+                    "2.0.0"
+                ]
+            },
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Unlocks Pro features. Most features in this app are server sided, so they can't be patched. This should unlock everything which is possible to patch.",
+            "name": "Unlock Pro features",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "fr.tramb.park4night": [
+                    "7.1.11"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlock Pro features (park4night +). You have to be logged in with an account.",
+            "name": "Unlock Pro features",
+            "options": [],
+            "use": true
+        }
+    ]
 }

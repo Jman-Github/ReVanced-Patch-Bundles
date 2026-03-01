@@ -1,4 +1,27 @@
 {
     "version": "v1.0.4",
-    "patches": []
+    "patches": [
+        {
+            "compatiblePackages": {
+                "hu.gov.dap.app": null
+            },
+            "dependencies": [],
+            "description": "Removes the restriction to use the app with root permissions or on a custom ROM.",
+            "name": "Bypass root checks",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.example.app": [
+                    "1.0.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "This is an example patch to start with.",
+            "name": "Example Patch",
+            "options": [],
+            "use": true
+        }
+    ]
 }

@@ -1,4 +1,15 @@
 {
     "version": "v1.1.0",
-    "patches": []
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.google.android.dialer": null
+            },
+            "dependencies": [],
+            "description": "Remove the announcements when starting or stopping a call recording",
+            "name": "Call recording announcements remover",
+            "options": [],
+            "use": true
+        }
+    ]
 }

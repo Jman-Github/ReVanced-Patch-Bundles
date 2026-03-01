@@ -1,4 +1,38 @@
 {
     "version": "v1.2.0",
-    "patches": []
+    "patches": [
+        {
+            "compatiblePackages": {
+                "org.fortheloss.sticknodes": [
+                    "4.2.5"
+                ],
+                "org.fortheloss.sticknodesbeta": [
+                    "4.2.6"
+                ],
+                "org.fortheloss.sticknodespro": [
+                    "4.2.5"
+                ]
+            },
+            "dependencies": [],
+            "description": "Adds a placeholder injection so patch project compiles; replace nop with real smali later.",
+            "name": "Custom Filter slot",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "org.fortheloss.sticknodes": [
+                    "4.2.3"
+                ],
+                "org.fortheloss.sticknodespro": [
+                    "4.2.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the node limit.",
+            "name": "Remove Node Limit v1.1.0",
+            "options": [],
+            "use": true
+        }
+    ]
 }
