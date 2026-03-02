@@ -1644,47 +1644,47 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ***41 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Enable Premium``` | ```N/A``` | ```app.ttmikstories.android``` | ```1.16.0``` |
-| ```Remove server change delay``` | ```N/A``` | ```ch.protonvpn.android``` | ```All versions``` |
-| ```Unlock split tunneling``` | ```N/A``` | ```ch.protonvpn.android``` | ```All versions``` |
-| ```Unlock premium features``` | ```N/A``` | ```cn.ommiao.iconpacker``` | ```All versions``` |
-| ```Disable anti-tamper checks``` | ```N/A``` | ```cn.wps.moffice_eng``` | ```All versions``` |
-| ```Enable Pro``` | ```Enables Pro subscription features. Login is required and AI functionality is unavailable.``` | ```cn.wps.moffice_eng``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.``` | ```app.ttmikstories.android``` | ```1.16.0``` |
+| ```Remove delay``` | ```Removes the imposed delay when changing VPN servers.``` | ```ch.protonvpn.android``` | ```5.16.14.0``` |
+| ```Unlock split tunneling``` | ```Enables the split tunneling feature usually locked behind the Proton Plus paywall.``` | ```ch.protonvpn.android``` | ```5.16.14.0``` |
+| ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. Some UI elements may not show an active membership, but this does not effect functionality.``` | ```cn.ommiao.iconpacker``` | ```1.21.0-release``` |
+| ```Disable anti-tamper``` | ```Disables various anti-tamper checks that causes the app to force-close.``` | ```cn.wps.moffice_eng``` | ```18.24``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall. Login is required and AI functionality is unavailable.``` | ```cn.wps.moffice_eng``` | ```18.24``` |
 | ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```com.amazon.avod.thirdpartyclient``` | ```All versions``` |
-| ```Skip ads``` | ```Automatically skips video stream ads.``` | ```com.amazon.avod.thirdpartyclient``` | ```All versions``` |
-| ```Enable Premium``` | ```N/A``` | ```com.avocards``` | ```All versions``` |
-| ```Enable Premium``` | ```N/A``` | ```com.bambuna.podcastaddict``` | ```All versions``` |
-| ```Enable Premium``` | ```N/A``` | ```com.busuu.android.enc``` | ```All versions``` |
-| ```Disable Login Integrity``` | ```Removes Play Integrity device attestation from login request.``` | ```com.duolingo``` | ```All versions``` |
-| ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```com.duolingo``` | ```All versions``` |
-| ```Enable Premium``` | ```N/A``` | ```com.duolingo``` | ```All versions``` |
-| ```Unlock licensed songs``` | ```Allows playing the full version of licensed music instead of the 30-second preview.``` | ```com.duolingo``` | ```All versions``` |
-| ```Enable Pro``` | ```N/A``` | ```com.getmimo``` | ```All versions``` |
-| ```Spoof package signature``` | ```N/A``` | ```com.getmimo``` | ```All versions``` |
-| ```Enable Premium``` | ```N/A``` | ```com.merriamwebster``` | ```All versions``` |
-| ```Enable Premium+``` | ```N/A``` | ```com.myfitnesspal.android``` | ```All versions``` |
-| ```Disable audio ads``` | ```N/A``` | ```com.pandora.android``` | ```All versions``` |
-| ```Enable unlimited skips``` | ```N/A``` | ```com.pandora.android``` | ```All versions``` |
-| ```Enable Pro``` | ```N/A``` | ```com.pryshedko.mtisland``` | ```All versions``` |
-| ```Enable Premium``` | ```N/A``` | ```com.qbis.guessthecountry``` | ```All versions``` |
-| ```Disable ads``` | ```N/A``` | ```com.sofascore.results``` | ```All versions``` |
-| ```Enable Pro``` | ```N/A``` | ```com.zombodroid.MemeGenerator``` | ```All versions``` |
-| ```Disable signature check``` | ```N/A``` | ```ginlemon.flowerfree``` | ```All versions``` |
-| ```Enable Pro``` | ```N/A``` | ```ginlemon.flowerfree``` | ```All versions``` |
-| ```Enable Prime Membership``` | ```N/A``` | ```jp.ne.ibis.ibispaintx.app``` | ```13.1.19``` |
-| ```Enable Premium``` | ```N/A``` | ```kr.co.yjteam.dailypay``` | ```All versions``` |
+| ```Skip ads``` | ```Automatically skips ads baked into the video stream.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.443``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.avocards``` | ```3.0.18``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.bambuna.podcastaddict``` | ```2026.1``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.busuu.android.enc``` | ```32.30.0``` |
+| ```Disable Login Integrity``` | ```Removes Play Integrity device attestation from login request.``` | ```com.duolingo``` | ```6.66.5``` |
+| ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```com.duolingo``` | ```6.66.5``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.duolingo``` | ```6.66.5``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```com.getmimo``` | ```9.0``` |
+| ```Spoof package signature``` | ```Spoofs the SHA1 signature hash required for Firebase API calls.``` | ```com.getmimo``` | ```9.0``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.merriamwebster``` | ```All versions``` |
+| ```Enable Premium+``` | ```Enables app features locked behind the subscription paywall.``` | ```com.myfitnesspal.android``` | ```25.50.0``` |
+| ```Disable ads``` | ```Disables ads during audio streaming.``` | ```com.pandora.android``` | ```All versions``` |
+| ```Unlimited skips``` | ```Disables the limit for skipping songs during playback.``` | ```com.pandora.android``` | ```All versions``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```com.pryshedko.mtisland``` | ```10.3``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.qbis.guessthecountry``` | ```3.34.2``` |
+| ```Disable ads``` | ```Disables all ads contained within the UI.``` | ```com.sofascore.results``` | ```25.12.17``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```com.zombodroid.MemeGenerator``` | ```4.6670``` |
+| ```Disable signature check``` | ```Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.``` | ```ginlemon.flowerfree``` | ```6.6 build 002``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```ginlemon.flowerfree``` | ```6.6 build 002``` |
+| ```Enable Prime membership``` | ```Enables app features locked behind the subscription paywall.``` | ```jp.ne.ibis.ibispaintx.app``` | ```13.1.19``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```kr.co.yjteam.dailypay``` | ```6.0.7``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```kr.co.yjteam.dailypay``` | ```All versions``` |
-| ```Enable Premium``` | ```N/A``` | ```kr.eggbun.eggconvo``` | ```All versions``` |
-| ```Force Native Keyboard``` | ```When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.``` | ```kr.eggbun.eggconvo``` | ```All versions``` |
-| ```Enable Plus``` | ```Enable Plus membership (not all features are available).``` | ```me.mycake``` | ```6.4.0``` |
-| ```Enable Premium``` | ```Enables premium paid subscription.``` | ```net.teuida.teuida``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```kr.eggbun.eggconvo``` | ```4.12.19``` |
+| ```Force Native Keyboard``` | ```When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.``` | ```kr.eggbun.eggconvo``` | ```4.12.19``` |
+| ```Enable Plus``` | ```Enable Plus membership (not all features are available). There is a strict version requirement for this patch.``` | ```me.mycake``` | ```6.4.0``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```net.teuida.teuida``` | ```All versions``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```net.teuida.teuida``` | ```All versions``` |
 | ```Block Permissions Request``` | ```Blocks the request of notification permissions on load of app.``` | ```org.languageapp.lingory``` | ```1.2.75``` |
-| ```Enable Premium``` | ```N/A``` | ```org.languageapp.lingory``` | ```1.2.75``` |
-| ```Enable Pro``` | ```N/A``` | ```org.totschnig.myexpenses``` | ```3.9.8``` |
-| ```Enable Premium Pro``` | ```N/A``` | ```pl.solidexplorer2``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```org.languageapp.lingory``` | ```1.2.75``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```org.totschnig.myexpenses``` | ```3.9.8``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```pl.solidexplorer2``` | ```3.3.1``` |
+| ```Add resources``` | ```Add resources such as strings or arrays to the app.``` | ```Universal``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
-| ```Disable Pairip license check``` | ```Disables Play Integrity API (Pairip) client-side license check.``` | ```Universal``` | ```All versions``` |
+| ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
 
 </details>
 

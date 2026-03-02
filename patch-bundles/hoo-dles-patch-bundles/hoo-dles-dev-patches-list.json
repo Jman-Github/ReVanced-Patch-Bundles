@@ -1,6 +1,14 @@
 {
-    "version": "v1.10.1-dev.1",
+    "version": "v1.10.2-dev.1",
     "patches": [
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Add resources such as strings or arrays to the app.",
+            "name": "Add resources",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "org.languageapp.lingory": [
@@ -55,37 +63,43 @@
         },
         {
             "compatiblePackages": {
-                "com.sofascore.results": []
+                "com.pandora.android": []
             },
             "dependencies": [],
-            "description": null,
+            "description": "Disables ads during audio streaming.",
             "name": "Disable ads",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "cn.wps.moffice_eng": []
+                "com.sofascore.results": [
+                    "25.12.17"
+                ]
             },
             "dependencies": [],
-            "description": null,
-            "name": "Disable anti-tamper checks",
+            "description": "Disables all ads contained within the UI.",
+            "name": "Disable ads",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "com.pandora.android": []
+                "cn.wps.moffice_eng": [
+                    "18.24"
+                ]
             },
             "dependencies": [],
-            "description": null,
-            "name": "Disable audio ads",
+            "description": "Disables various anti-tamper checks that causes the app to force-close.",
+            "name": "Disable anti-tamper",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "com.duolingo": []
+                "com.duolingo": [
+                    "6.66.5"
+                ]
             },
             "dependencies": [],
             "description": "Removes Play Integrity device attestation from login request.",
@@ -96,24 +110,28 @@
         {
             "compatiblePackages": null,
             "dependencies": [],
-            "description": "Disables Play Integrity API (Pairip) client-side license check.",
+            "description": "Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.",
             "name": "Disable Pairip license check",
             "options": [],
             "use": false
         },
         {
             "compatiblePackages": {
-                "ginlemon.flowerfree": []
+                "ginlemon.flowerfree": [
+                    "6.6 build 002"
+                ]
             },
             "dependencies": [],
-            "description": null,
+            "description": "Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.",
             "name": "Disable signature check",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "com.duolingo": []
+                "com.duolingo": [
+                    "6.66.5"
+                ]
             },
             "dependencies": [],
             "description": "Enables hidden debug menu in settings.",
@@ -130,49 +148,57 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": "Enable Plus membership (not all features are available).",
+            "description": "Enable Plus membership (not all features are available). There is a strict version requirement for this patch.",
             "name": "Enable Plus",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "com.avocards": []
+                "com.avocards": [
+                    "3.0.18"
+                ]
             },
             "dependencies": [],
-            "description": null,
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "com.busuu.android.enc": []
+                "com.busuu.android.enc": [
+                    "32.30.0"
+                ]
             },
             "dependencies": [],
-            "description": null,
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "kr.co.yjteam.dailypay": []
+                "kr.co.yjteam.dailypay": [
+                    "6.0.7"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": null,
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "com.duolingo": []
+                "com.duolingo": [
+                    "6.66.5"
+                ]
             },
             "dependencies": [],
-            "description": null,
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": [
                 {
@@ -192,20 +218,24 @@
         },
         {
             "compatiblePackages": {
-                "kr.eggbun.eggconvo": []
+                "kr.eggbun.eggconvo": [
+                    "4.12.19"
+                ]
             },
             "dependencies": [],
-            "description": null,
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "com.qbis.guessthecountry": []
+                "com.qbis.guessthecountry": [
+                    "3.34.2"
+                ]
             },
             "dependencies": [],
-            "description": null,
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": [],
             "use": true
@@ -219,17 +249,19 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": null,
+            "description": "Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.",
             "name": "Enable Premium",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "com.bambuna.podcastaddict": []
+                "com.bambuna.podcastaddict": [
+                    "2026.1"
+                ]
             },
             "dependencies": [],
-            "description": null,
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": [],
             "use": true
@@ -239,7 +271,7 @@
                 "net.teuida.teuida": []
             },
             "dependencies": [],
-            "description": "Enables premium paid subscription.",
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": [],
             "use": true
@@ -253,7 +285,7 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": null,
+            "description": "Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.",
             "name": "Enable Premium",
             "options": [],
             "use": true
@@ -263,27 +295,19 @@
                 "com.merriamwebster": []
             },
             "dependencies": [],
-            "description": null,
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "pl.solidexplorer2": []
+                "com.myfitnesspal.android": [
+                    "25.50.0"
+                ]
             },
             "dependencies": [],
-            "description": null,
-            "name": "Enable Premium Pro",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.myfitnesspal.android": []
-            },
-            "dependencies": [],
-            "description": null,
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium+",
             "options": [],
             "use": true
@@ -297,41 +321,47 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": null,
-            "name": "Enable Prime Membership",
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Prime membership",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "com.pryshedko.mtisland": []
+                "com.pryshedko.mtisland": [
+                    "10.3"
+                ]
             },
             "dependencies": [
                 "Disable Pairip license check"
             ],
-            "description": null,
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Pro",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "com.zombodroid.MemeGenerator": []
+                "com.zombodroid.MemeGenerator": [
+                    "4.6670"
+                ]
             },
             "dependencies": [],
-            "description": null,
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Pro",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "com.getmimo": []
+                "com.getmimo": [
+                    "9.0"
+                ]
             },
             "dependencies": [
                 "Spoof package signature"
             ],
-            "description": null,
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Pro",
             "options": [],
             "use": true
@@ -343,48 +373,56 @@
                 ]
             },
             "dependencies": [],
-            "description": null,
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Pro",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "ginlemon.flowerfree": []
+                "ginlemon.flowerfree": [
+                    "6.6 build 002"
+                ]
             },
             "dependencies": [
                 "Disable signature check"
             ],
-            "description": null,
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Pro",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "cn.wps.moffice_eng": []
-            },
-            "dependencies": [
-                "Disable anti-tamper checks"
-            ],
-            "description": "Enables Pro subscription features. Login is required and AI functionality is unavailable.",
-            "name": "Enable Pro",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.pandora.android": []
+                "pl.solidexplorer2": [
+                    "3.3.1"
+                ]
             },
             "dependencies": [],
-            "description": null,
-            "name": "Enable unlimited skips",
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Pro",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "kr.eggbun.eggconvo": []
+                "cn.wps.moffice_eng": [
+                    "18.24"
+                ]
+            },
+            "dependencies": [
+                "Disable anti-tamper"
+            ],
+            "description": "Enables app features locked behind the subscription paywall. Login is required and AI functionality is unavailable.",
+            "name": "Enable Pro",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "kr.eggbun.eggconvo": [
+                    "4.12.19"
+                ]
             },
             "dependencies": [],
             "description": "When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.",
@@ -397,7 +435,7 @@
                 "kr.co.yjteam.dailypay": []
             },
             "dependencies": [
-                "ResourcePatch",
+                "Add resources",
                 "Change package name",
                 "ResourcePatch",
                 "BytecodePatch"
@@ -412,7 +450,7 @@
                 "net.teuida.teuida": []
             },
             "dependencies": [
-                "ResourcePatch",
+                "Add resources",
                 "Change package name",
                 "ResourcePatch",
                 "BytecodePatch",
@@ -425,11 +463,13 @@
         },
         {
             "compatiblePackages": {
-                "ch.protonvpn.android": []
+                "ch.protonvpn.android": [
+                    "5.16.14.0"
+                ]
             },
             "dependencies": [],
-            "description": null,
-            "name": "Remove server change delay",
+            "description": "Removes the imposed delay when changing VPN servers.",
+            "name": "Remove delay",
             "options": [],
             "use": true
         },
@@ -445,54 +485,62 @@
         },
         {
             "compatiblePackages": {
-                "com.amazon.avod.thirdpartyclient": []
+                "com.amazon.avod.thirdpartyclient": [
+                    "3.0.443"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Automatically skips video stream ads.",
+            "description": "Automatically skips ads baked into the video stream.",
             "name": "Skip ads",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "com.getmimo": []
+                "com.getmimo": [
+                    "9.0"
+                ]
             },
             "dependencies": [],
-            "description": null,
+            "description": "Spoofs the SHA1 signature hash required for Firebase API calls.",
             "name": "Spoof package signature",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "com.duolingo": []
+                "com.pandora.android": []
             },
             "dependencies": [],
-            "description": "Allows playing the full version of licensed music instead of the 30-second preview.",
-            "name": "Unlock licensed songs",
+            "description": "Disables the limit for skipping songs during playback.",
+            "name": "Unlimited skips",
             "options": [],
-            "use": false
+            "use": true
         },
         {
             "compatiblePackages": {
-                "cn.ommiao.iconpacker": []
+                "cn.ommiao.iconpacker": [
+                    "1.21.0-release"
+                ]
             },
             "dependencies": [
                 "Disable Pairip license check"
             ],
-            "description": null,
+            "description": "Enables app features locked behind the subscription paywall. Some UI elements may not show an active membership, but this does not effect functionality.",
             "name": "Unlock premium features",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "ch.protonvpn.android": []
+                "ch.protonvpn.android": [
+                    "5.16.14.0"
+                ]
             },
             "dependencies": [],
-            "description": null,
+            "description": "Enables the split tunneling feature usually locked behind the Proton Plus paywall.",
             "name": "Unlock split tunneling",
             "options": [],
             "use": true
