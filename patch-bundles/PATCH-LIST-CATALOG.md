@@ -3136,7 +3136,41 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***32 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail mobile' signature from emails.``` | ```ch.protonmail.android``` | ```4.15.0``` |
+| ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```ch.protonmail.android``` | ```4.15.0``` |
+| ```Hide ads``` | ```N/A``` | ```com.cricbuzz.android``` | ```6.24.01``` |
+| ```Skip ads``` | ```Automatically skips ads.``` | ```com.disney.disneyplus``` | ```All versions``` |
+| ```Enable CustomTabs``` | ```Enables CustomTabs to open articles in your default browser.``` | ```com.google.android.apps.magazines``` | ```All versions``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.magazines``` | ```5.108.0.644447823``` |
+| ```Enable DCIM folders backup control``` | ```Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.``` | ```com.google.android.apps.photos``` | ```All versions``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.photos``` | ```All versions``` |
+| ```Spoof features``` | ```Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.``` | ```com.google.android.apps.photos``` | ```All versions``` |
+| ```Hide ads``` | ```N/A``` | ```com.letterboxd.letterboxd``` | ```All versions``` |
+| ```Unlock app icons``` | ```N/A``` | ```com.letterboxd.letterboxd``` | ```All versions``` |
+| ```Hide update popup``` | ```Prevents the update popup from showing up.``` | ```com.microblink.photomath``` | ```All versions``` |
+| ```Spoof device ID``` | ```Spoofs device ID to mitigate manual bans by developers.``` | ```com.microblink.photomath``` | ```All versions``` |
+| ```Unlock plus``` | ```N/A``` | ```com.microblink.photomath``` | ```All versions``` |
+| ```Hide OneDrive migration``` | ```Hides the OneDrive migration prompt when opening Microsoft Office Lens.``` | ```com.microsoft.office.officelens``` | ```All versions``` |
+| ```Hide purchase reminder``` | ```Hides the popup that reminds you to purchase the app.``` | ```com.rarlab.rar``` | ```All versions``` |
+| ```Disable telemetry``` | ```Disables SoundCloud's telemetry system.``` | ```com.soundcloud.android``` | ```2025.05.27-release``` |
+| ```Enable offline sync``` | ```N/A``` | ```com.soundcloud.android``` | ```2025.05.27-release``` |
+| ```Hide ads``` | ```N/A``` | ```com.soundcloud.android``` | ```2025.05.27-release``` |
+| ```Add 'Give Kudos' button to 'Group Activity'``` | ```Adds a button that triggers the same action as shaking your phone would.``` | ```com.strava``` | ```All versions``` |
+| ```Add media download``` | ```Extends the full-screen media viewer menu with items to copy or open their URLs or download them directly.``` | ```com.strava``` | ```All versions``` |
+| ```Block Snowplow tracking``` | ```Blocks Snowplow analytics. See https://snowplow.io for more information.``` | ```com.strava``` | ```All versions``` |
+| ```Disable Quick Edit``` | ```Prevents the Quick Edit prompt from popping up.``` | ```com.strava``` | ```All versions``` |
+| ```Disable subscription suggestions``` | ```N/A``` | ```com.strava``` | ```All versions``` |
+| ```Enable password login``` | ```Re-enables password login after having used an OTP code.``` | ```com.strava``` | ```All versions``` |
+| ```Hide distractions``` | ```Hides elements that are not essential.``` | ```com.strava``` | ```All versions``` |
+| ```Overwrite media upload parameters``` | ```Overwrites the compression, resize and trim media (images and videos) parameters returned by Strava's server before upload.``` | ```com.strava``` | ```All versions``` |
+| ```Unlock subscription features``` | ```Unlocks "Routes", "Matched Runs" and "Segment Efforts".``` | ```com.strava``` | ```All versions``` |
+| ```Unlock pro``` | ```N/A``` | ```ginlemon.iconpackstudio``` | ```2.2 build 016``` |
+| ```Hide ads``` | ```N/A``` | ```jp.pxv.android``` | ```6.141.1``` |
+| ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues. This patch does not work with Reddit.``` | ```Universal``` | ```All versions``` |
+| ```Spoof build info``` | ```Spoofs the device build information to Google Pixel XL.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -3146,6 +3180,31 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***23 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Always-incognito mode``` | ```Always opens Gboard in incognito mode to disable typing history collection and personalization.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
+| ```Enable clipboard in incognito``` | ```Enables clipboard support in incognito mode.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
+| ```Enable OCR feature``` | ```Enables OCR feature to extract text from images and insert it into text fields.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
+| ```Enable Undo feature``` | ```Enables undo feature to quickly undo or correct typing mistakes.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
+| ```Toggle feature flags``` | ```Toggles Gboard feature flags to enable or disable experimental or hidden features.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
+| ```Disable screenshot banner``` | ```Disables the banner that shows up after taking a screenshot.``` | ```com.reddit.frontpage``` | ```All versions``` |
+| ```Hide community highlights``` | ```Hides the community highlights section.``` | ```com.reddit.frontpage``` | ```All versions``` |
+| ```Hide share count``` | ```Hides the share count on Reddit posts.``` | ```com.reddit.frontpage``` | ```All versions``` |
+| ```Hide upvote scores``` | ```Hides the scores on Reddit posts and comments.``` | ```com.reddit.frontpage``` | ```All versions``` |
+| ```Open external links directly``` | ```Opens external links directly without going through out.reddit.com.``` | ```com.reddit.frontpage``` | ```All versions``` |
+| ```Remove ads and telemetry``` | ```Removes ads and telemetry everywhere.``` | ```com.reddit.frontpage``` | ```All versions``` |
+| ```Sanitize share links``` | ```Unshortens and removes the tracking query parameters from shared links.``` | ```com.reddit.frontpage``` | ```All versions``` |
+| ```Block ads, trackers, and analytics``` | ```Blocks ads, trackers, analytics, and unwanted content in apps and games using a hosts file.``` | ```Universal``` | ```All versions``` |
+| ```Change package name``` | ```Appends ".adobo" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
+| ```Deactivate Firebase Analytics``` | ```Deactivates Firebase Analytics and removes its associated broadcast receivers and services.``` | ```Universal``` | ```All versions``` |
+| ```Deactivate Firebase Performance Monitoring``` | ```Deactivates the collection of performance data on app start up time, network requests, and other related metrics.``` | ```Universal``` | ```All versions``` |
+| ```Disable Google Safe Browsing in WebView``` | ```Disables the Google Safe Browsing checks in WebView. This doesn't apply to WebView within the SDK Runtime.``` | ```Universal``` | ```All versions``` |
+| ```Disable metrics collection in WebView``` | ```Disables the collection of diagnostic data or usage statistics that are sent to Google.``` | ```Universal``` | ```All versions``` |
+| ```Disable mobile ads``` | ```Disables banner, interstitial, and other ad formats.``` | ```Universal``` | ```All versions``` |
+| ```Remove internet permission``` | ```Removes unnecessary internet permission from apps that can still work without internet access.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Advertising ID``` | ```Spoofs the device's advertising ID with a string of zeros.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Firebase certificate hash``` | ```Spoofs the app's package certificate hash used by Firebase Installations so that push notifications, remote config, and other Firebase services continue to work as expected.``` | ```Universal``` | ```All versions``` |
+| ```Spoof signature verification``` | ```Spoofs the signature verification when the app starts up. It is recommended to use the unmodified app to work properly.``` | ```Universal``` | ```All versions``` |
 
 </details>
