@@ -249,6 +249,16 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "rookieenough-stable": {
+        "patches": "https://api.github.com/repos/RookieEnough/De-ReVanced",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "adobo-stable": {
+        "patches": "https://api.github.com/repos/jkennethcarino/adobo",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -491,6 +501,16 @@
     },
     "anddea-morphed-dev": {
         "patches": "https://api.github.com/repos/wchill/anddea-rvx-morphed",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "rookieenough-dev": {
+        "patches": "https://api.github.com/repos/RookieEnough/De-ReVanced",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "adobo-dev": {
+        "patches": "https://api.github.com/repos/jkennethcarino/adobo",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -739,8 +759,13 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     },
-    "anddea-morphed-latest": {
-        "patches": "https://api.github.com/repos/wchill/anddea-rvx-morphed",
+    "rookieenough-latest": {
+        "patches": "https://api.github.com/repos/RookieEnough/De-ReVanced",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "adobo-latest": {
+        "patches": "https://api.github.com/repos/jkennethcarino/adobo",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }
