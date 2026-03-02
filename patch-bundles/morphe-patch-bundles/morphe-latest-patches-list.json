@@ -1,5 +1,5 @@
 {
-    "version": "v1.16.0-dev.8",
+    "version": "v1.16.0-dev.9",
     "patches": [
         {
             "compatiblePackages": {
@@ -1383,6 +1383,23 @@
             "name": "Override certificate pinning",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.40.45",
+                    "20.31.42",
+                    "20.21.37"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Overrides the YouTube Music button to open Morphe Music directly.",
+            "name": "Override YouTube Music actions",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
