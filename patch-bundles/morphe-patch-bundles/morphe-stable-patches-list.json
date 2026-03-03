@@ -1,5 +1,5 @@
 {
-    "version": "v1.15.0",
+    "version": "v1.16.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -128,6 +128,32 @@
         },
         {
             "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "8.40.54",
+                    "8.10.52",
+                    "7.29.52"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to change the header logo in the top left corner of the app.",
+            "name": "Change header",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Folder with images to use as a custom header logo.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- drawable-hdpi\n- drawable-xhdpi\n- drawable-xxhdpi\n- drawable-xxxhdpi\n\nEach of the folders must contain the following file(s):\n- morphe_header_custom_dark.png\n\nRequired dimensions:\n- drawable-hdpi: 121x36 px\n- drawable-xhdpi: 160x48 px\n- drawable-xxhdpi: 240x72 px\n- drawable-xxxhdpi: 320x96 px",
+                    "key": "custom",
+                    "required": false,
+                    "title": "Custom header logo",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "20.40.45",
                     "20.31.42",
@@ -142,7 +168,7 @@
             "options": [
                 {
                     "default": null,
-                    "description": "Folder with images to use as a custom header logo.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- drawable-hdpi\n- drawable-xhdpi\n- drawable-xxhdpi\n- drawable-xxxhdpi\n\nEach of the folders must contain all of the following files:\nmorphe_header_custom_light.png\nmorphe_header_custom_dark.png \n\nThe image dimensions must be as follows:\n- drawable-hdpi: 194x72 px\n- drawable-xhdpi: 258x96 px\n- drawable-xxhdpi: 387x144 px\n- drawable-xxxhdpi: 512x192 px",
+                    "description": "Folder with images to use as a custom header logo.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- drawable-hdpi\n- drawable-xhdpi\n- drawable-xxhdpi\n- drawable-xxxhdpi\n\nEach of the folders must contain the following file(s):\n- morphe_header_custom_light.png\n- morphe_header_custom_dark.png\n\nRequired dimensions:\n- drawable-hdpi: 194x72 px\n- drawable-xhdpi: 258x96 px\n- drawable-xxhdpi: 387x144 px\n- drawable-xxxhdpi: 512x192 px",
                     "key": "custom",
                     "required": false,
                     "title": "Custom header logo",
@@ -207,6 +233,23 @@
                 }
             ],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "8.40.54",
+                    "8.10.52",
+                    "7.29.52"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to set which page the app opens in instead of the homepage.",
+            "name": "Change start page",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
@@ -397,7 +440,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds an option to disable dynamic range compression (DRC).",
+            "description": "Adds an option to disable DRC (Dynamic Range Compression) audio.",
             "name": "Disable DRC audio",
             "options": [],
             "use": true
@@ -414,7 +457,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds an option to disable dynamic range compression (DRC).",
+            "description": "Adds an option to disable DRC (Dynamic Range Compression) audio.",
             "name": "Disable DRC audio",
             "options": [],
             "use": true
@@ -482,7 +525,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds an option to disable the QUIC (Quick UDP Internet Connections) network protocol.",
+            "description": "Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.",
             "name": "Disable QUIC protocol",
             "options": [],
             "use": true
@@ -499,7 +542,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds an option to disable the QUIC (Quick UDP Internet Connections) network protocol.",
+            "description": "Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.",
             "name": "Disable QUIC protocol",
             "options": [],
             "use": true
@@ -1236,6 +1279,7 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds options to hide and change the bottom navigation bar (such as the Shorts button)  and the upper navigation toolbar. Patching version 20.21.37 and lower also adds a setting to use a wide searchbar.",
@@ -1306,6 +1350,25 @@
             },
             "dependencies": [
                 "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to always open the system share sheet instead of the in-app share sheet.",
+            "name": "Open system share sheet",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.40.45",
+                    "20.31.42",
+                    "20.21.37"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to open videos in full screen portrait mode.",
@@ -1320,6 +1383,23 @@
             "name": "Override certificate pinning",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.40.45",
+                    "20.31.42",
+                    "20.21.37"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Overrides the YouTube Music button to open Morphe Music directly.",
+            "name": "Override YouTube Music actions",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
