@@ -1,5 +1,5 @@
 {
-    "version": "v1.16.0-dev.9",
+    "version": "v1.16.1-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -991,6 +991,7 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds options to hide general layout components.",
@@ -1115,11 +1116,12 @@
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds options to hide components related to Shorts. Patching version 20.21.37 or lower can hide more Shorts player button types.",
+            "description": "Adds options to hide components related to Shorts.",
             "name": "Hide Shorts components",
             "options": [
                 {
@@ -1516,6 +1518,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
