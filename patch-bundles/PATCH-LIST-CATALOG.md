@@ -1641,12 +1641,13 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***41 Patches***
+***42 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.``` | ```app.ttmikstories.android``` | ```1.16.0``` |
-| ```Remove delay``` | ```Removes the imposed delay when changing VPN servers.``` | ```ch.protonvpn.android``` | ```5.16.14.0``` |
-| ```Unlock split tunneling``` | ```Enables the split tunneling feature usually locked behind the Proton Plus paywall.``` | ```ch.protonvpn.android``` | ```5.16.14.0``` |
+| ```Remove delay``` | ```Removes the imposed delay when changing VPN servers.``` | ```ch.protonvpn.android``` | ```5.16.83.0``` |
+| ```Unlock custom DNS``` | ```Enables the custom DNS feature usually locked behind the Proton Plus paywall.``` | ```ch.protonvpn.android``` | ```5.16.83.0``` |
+| ```Unlock split tunneling``` | ```Enables the split tunneling feature usually locked behind the Proton Plus paywall.``` | ```ch.protonvpn.android``` | ```5.16.83.0``` |
 | ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. Some UI elements may not show an active membership, but this does not effect functionality.``` | ```cn.ommiao.iconpacker``` | ```1.21.0-release``` |
 | ```Disable anti-tamper``` | ```Disables various anti-tamper checks that causes the app to force-close.``` | ```cn.wps.moffice_eng``` | ```18.24``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall. Login is required and AI functionality is unavailable.``` | ```cn.wps.moffice_eng``` | ```18.24``` |
@@ -1681,7 +1682,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Block Permissions Request``` | ```Blocks the request of notification permissions on load of app.``` | ```org.languageapp.lingory``` | ```1.2.75``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```org.languageapp.lingory``` | ```1.2.75``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```org.totschnig.myexpenses``` | ```3.9.8``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```pl.solidexplorer2``` | ```3.3.1``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```pl.solidexplorer2``` | ```3.4.1``` |
 | ```Add resources``` | ```Add resources such as strings or arrays to the app.``` | ```Universal``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
