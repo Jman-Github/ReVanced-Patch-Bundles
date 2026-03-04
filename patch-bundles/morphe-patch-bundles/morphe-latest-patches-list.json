@@ -1,5 +1,5 @@
 {
-    "version": "v1.16.1-dev.2",
+    "version": "v1.17.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -1100,6 +1100,24 @@
             ],
             "description": "Adds an option to hide the related video overlay shown when swiping up in fullscreen.",
             "name": "Hide related video overlay",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.40.45",
+                    "20.31.42",
+                    "20.21.37"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to hide related videos.",
+            "name": "Hide related videos",
             "options": [],
             "use": true
         },

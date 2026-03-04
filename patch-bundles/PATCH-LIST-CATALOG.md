@@ -2671,7 +2671,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***96 Patches***
+***97 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54, 8.10.52, 7.29.52``` |
@@ -2732,6 +2732,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide player flyout menu items``` | ```Adds options to hide menu items that appear when pressing the gear icon in the video player.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Hide player overlay buttons``` | ```Adds options to hide the player Cast, Autoplay, Captions, Previous & Next buttons, and the player control buttons background.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Hide related video overlay``` | ```Adds an option to hide the related video overlay shown when swiping up in fullscreen.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
+| ```Hide related videos``` | ```Adds options to hide related videos.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Hide Shorts components``` | ```Adds options to hide components related to Shorts.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Hide timestamp``` | ```Adds an option to hide the timestamp in the bottom left of the video player.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
 | ```Hide video action buttons``` | ```Adds options to hide action buttons (such as the Download button) under videos. Patching version 20.21.37 or lower can hide more player button types.``` | ```com.google.android.youtube``` | ```20.40.45, 20.31.42, 20.21.37``` |
