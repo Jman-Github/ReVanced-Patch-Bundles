@@ -1,5 +1,5 @@
 {
-    "version": "v1.17.0-dev.2",
+    "version": "v1.17.0-dev.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -330,7 +330,8 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
             "name": "Custom branding",
@@ -367,7 +368,8 @@
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
             "name": "Custom branding",
