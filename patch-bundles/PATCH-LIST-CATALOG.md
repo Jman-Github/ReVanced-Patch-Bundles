@@ -3228,6 +3228,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***1 Patch***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Enable UHD/4K``` | ```Enables UHD/4K streaming on all devices by bypassing all device support checks.``` | ```com.formulaone.production``` | ```All versions``` |
 
 </details>
