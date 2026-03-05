@@ -6,7 +6,8 @@
                 "com.strava": []
             },
             "dependencies": [
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Adds a button that triggers the same action as shaking your phone would.",
             "name": "Add 'Give Kudos' button to 'Group Activity'",
@@ -76,11 +77,57 @@
         },
         {
             "compatiblePackages": {
-                "com.strava": []
+                "com.tumblr": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Disables the banner with a frog, prompting you to buy Tumblr Ad-Free.",
+            "name": "Disable Ad-Free Banner",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.tumblr": []
             },
             "dependencies": [],
-            "description": "Prevents the Quick Edit prompt from popping up.",
-            "name": "Disable Quick Edit",
+            "description": "Disables the reminder to enable notifications for blogs you visit.",
+            "name": "Disable blog notification reminder",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.tumblr": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Disables ads in the dashboard.",
+            "name": "Disable dashboard ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.tumblr": []
+            },
+            "dependencies": [],
+            "description": "Disables the popup suggesting to buy TumblrMart items for other people.",
+            "name": "Disable gift message popup",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.tumblr": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Disables the in-app update check and update prompt.",
+            "name": "Disable in-app update",
             "options": [],
             "use": true
         },
@@ -88,11 +135,9 @@
             "compatiblePackages": {
                 "com.strava": []
             },
-            "dependencies": [
-                "Hide distractions"
-            ],
-            "description": null,
-            "name": "Disable subscription suggestions",
+            "dependencies": [],
+            "description": "Prevents the Quick Edit prompt from popping up.",
+            "name": "Disable Quick Edit",
             "options": [],
             "use": true
         },
@@ -105,6 +150,18 @@
             "dependencies": [],
             "description": "Disables SoundCloud's telemetry system.",
             "name": "Disable telemetry",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.tumblr": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes the Tumblr TV navigation button from the bottom navigation bar.",
+            "name": "Disable Tumblr TV",
             "options": [],
             "use": true
         },
@@ -152,9 +209,17 @@
         },
         {
             "compatiblePackages": {
-                "com.google.android.apps.magazines": [
-                    "5.108.0.644447823"
-                ]
+                "com.tumblr": []
+            },
+            "dependencies": [],
+            "description": "Fixes old versions of the app (v33.2 and earlier) breaking due to Tumblr removing remnants of Tumblr Live from the API, which causes many requests to fail. This patch has no effect on newer versions of the app.",
+            "name": "Fix old versions",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.magazines": []
             },
             "dependencies": [
                 "Change package name",
@@ -173,8 +238,7 @@
             "dependencies": [
                 "Change package name",
                 "ResourcePatch",
-                "BytecodePatch",
-                "Spoof features"
+                "BytecodePatch"
             ],
             "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
             "name": "GmsCore support",
@@ -187,9 +251,7 @@
                     "6.24.01"
                 ]
             },
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": null,
             "name": "Hide ads",
             "options": [],
@@ -338,6 +400,14 @@
             "use": true
         },
         {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy. This patch does not work with Reddit.",
+            "name": "Override certificate pinning",
+            "options": [],
+            "use": false
+        },
+        {
             "compatiblePackages": {
                 "com.strava": []
             },
@@ -410,14 +480,6 @@
             "use": true
         },
         {
-            "compatiblePackages": null,
-            "dependencies": [],
-            "description": "Spoofs the device build information to Google Pixel XL.",
-            "name": "Spoof build info",
-            "options": [],
-            "use": true
-        },
-        {
             "compatiblePackages": {
                 "com.microblink.photomath": []
             },
@@ -434,7 +496,7 @@
                 "com.google.android.apps.photos": []
             },
             "dependencies": [
-                "Spoof build info"
+                "BytecodePatch"
             ],
             "description": "Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.",
             "name": "Spoof features",

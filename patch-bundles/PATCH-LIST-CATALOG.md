@@ -3139,7 +3139,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***32 Patches***
+***38 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail mobile' signature from emails.``` | ```ch.protonmail.android``` | ```4.15.0``` |
@@ -3147,7 +3147,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide ads``` | ```N/A``` | ```com.cricbuzz.android``` | ```6.24.01``` |
 | ```Skip ads``` | ```Automatically skips ads.``` | ```com.disney.disneyplus``` | ```All versions``` |
 | ```Enable CustomTabs``` | ```Enables CustomTabs to open articles in your default browser.``` | ```com.google.android.apps.magazines``` | ```All versions``` |
-| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.magazines``` | ```5.108.0.644447823``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.magazines``` | ```All versions``` |
 | ```Enable DCIM folders backup control``` | ```Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.``` | ```com.google.android.apps.photos``` | ```All versions``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.photos``` | ```All versions``` |
 | ```Spoof features``` | ```Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.``` | ```com.google.android.apps.photos``` | ```All versions``` |
@@ -3165,15 +3165,21 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Add media download``` | ```Extends the full-screen media viewer menu with items to copy or open their URLs or download them directly.``` | ```com.strava``` | ```All versions``` |
 | ```Block Snowplow tracking``` | ```Blocks Snowplow analytics. See https://snowplow.io for more information.``` | ```com.strava``` | ```All versions``` |
 | ```Disable Quick Edit``` | ```Prevents the Quick Edit prompt from popping up.``` | ```com.strava``` | ```All versions``` |
-| ```Disable subscription suggestions``` | ```N/A``` | ```com.strava``` | ```All versions``` |
 | ```Enable password login``` | ```Re-enables password login after having used an OTP code.``` | ```com.strava``` | ```All versions``` |
 | ```Hide distractions``` | ```Hides elements that are not essential.``` | ```com.strava``` | ```All versions``` |
 | ```Overwrite media upload parameters``` | ```Overwrites the compression, resize and trim media (images and videos) parameters returned by Strava's server before upload.``` | ```com.strava``` | ```All versions``` |
 | ```Unlock subscription features``` | ```Unlocks "Routes", "Matched Runs" and "Segment Efforts".``` | ```com.strava``` | ```All versions``` |
+| ```Disable Ad-Free Banner``` | ```Disables the banner with a frog, prompting you to buy Tumblr Ad-Free.``` | ```com.tumblr``` | ```All versions``` |
+| ```Disable blog notification reminder``` | ```Disables the reminder to enable notifications for blogs you visit.``` | ```com.tumblr``` | ```All versions``` |
+| ```Disable dashboard ads``` | ```Disables ads in the dashboard.``` | ```com.tumblr``` | ```All versions``` |
+| ```Disable gift message popup``` | ```Disables the popup suggesting to buy TumblrMart items for other people.``` | ```com.tumblr``` | ```All versions``` |
+| ```Disable in-app update``` | ```Disables the in-app update check and update prompt.``` | ```com.tumblr``` | ```All versions``` |
+| ```Disable Tumblr TV``` | ```Removes the Tumblr TV navigation button from the bottom navigation bar.``` | ```com.tumblr``` | ```All versions``` |
+| ```Fix old versions``` | ```Fixes old versions of the app (v33.2 and earlier) breaking due to Tumblr removing remnants of Tumblr Live from the API, which causes many requests to fail. This patch has no effect on newer versions of the app.``` | ```com.tumblr``` | ```All versions``` |
 | ```Unlock pro``` | ```N/A``` | ```ginlemon.iconpackstudio``` | ```2.2 build 016``` |
 | ```Hide ads``` | ```N/A``` | ```jp.pxv.android``` | ```6.141.1``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues. This patch does not work with Reddit.``` | ```Universal``` | ```All versions``` |
-| ```Spoof build info``` | ```Spoofs the device build information to Google Pixel XL.``` | ```Universal``` | ```All versions``` |
+| ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy. This patch does not work with Reddit.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
