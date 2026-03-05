@@ -54,6 +54,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Anddea-Morphed Bundle Patch List](#-anddea-morphed-bundle-patch-list)    
 [🧩 RookieEnough Bundle Patch List](#-rookieenough-bundle-patch-list)    
 [🧩 Adobo Bundle Patch List](#-adobo-bundle-patch-list)    
+[🧩 Alexvbp Bundle Patch List](#-alexvbp-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -3218,5 +3219,15 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Spoof Advertising ID``` | ```Spoofs the device's advertising ID with a string of zeros.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Firebase certificate hash``` | ```Spoofs the app's package certificate hash used by Firebase Installations so that push notifications, remote config, and other Firebase services continue to work as expected.``` | ```Universal``` | ```All versions``` |
 | ```Spoof signature verification``` | ```Spoofs the signature verification when the app starts up. It is recommended to use the unmodified app to work properly.``` | ```Universal``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Alexvbp Bundle Patch List:
+[📦 Alexvbp-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-alexvbp-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
 
 </details>
