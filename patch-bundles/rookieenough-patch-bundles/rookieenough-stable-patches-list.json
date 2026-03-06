@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0",
+    "version": "v1.0.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -24,6 +24,16 @@
             ],
             "description": "Extends the full-screen media viewer menu with items to copy or open their URLs or download them directly.",
             "name": "Add media download",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.amazon.mShop.android.shopping": []
+            },
+            "dependencies": [],
+            "description": "Open Amazon links, even if the app is not set to handle Amazon links.",
+            "name": "Always allow deep-linking",
             "options": [],
             "use": true
         },
@@ -167,6 +177,16 @@
         },
         {
             "compatiblePackages": {
+                "com.facebook.orca": []
+            },
+            "dependencies": [],
+            "description": "Disables the indicator while typing a message.",
+            "name": "Disable typing indicator",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.apps.magazines": []
             },
             "dependencies": [],
@@ -250,6 +270,16 @@
                 "com.cricbuzz.android": [
                     "6.24.01"
                 ]
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.nis.app": []
             },
             "dependencies": [],
             "description": null,
@@ -369,6 +399,36 @@
         },
         {
             "compatiblePackages": {
+                "com.facebook.orca": []
+            },
+            "dependencies": [],
+            "description": "Hides the Facebook button in the top toolbar.",
+            "name": "Hide Facebook button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.facebook.orca": []
+            },
+            "dependencies": [],
+            "description": "Hides ads in inbox.",
+            "name": "Hide inbox ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.facebook.orca": []
+            },
+            "dependencies": [],
+            "description": "Hides Home and Channels tabs between active now tray and chats.",
+            "name": "Hide inbox subtabs",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.microsoft.office.officelens": []
             },
             "dependencies": [],
@@ -466,6 +526,18 @@
             "dependencies": [],
             "description": "Removes the limit for maximum free accounts logged in.",
             "name": "Remove free accounts limit",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.facebook.orca": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes UI elements related to Meta AI.",
+            "name": "Remove Meta AI",
             "options": [],
             "use": true
         },

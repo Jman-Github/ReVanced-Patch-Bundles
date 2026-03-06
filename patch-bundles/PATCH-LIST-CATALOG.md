@@ -3144,13 +3144,19 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***38 Patches***
+***45 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail mobile' signature from emails.``` | ```ch.protonmail.android``` | ```4.15.0``` |
 | ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```ch.protonmail.android``` | ```4.15.0``` |
+| ```Always allow deep-linking``` | ```Open Amazon links, even if the app is not set to handle Amazon links.``` | ```com.amazon.mShop.android.shopping``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.cricbuzz.android``` | ```6.24.01``` |
 | ```Skip ads``` | ```Automatically skips ads.``` | ```com.disney.disneyplus``` | ```All versions``` |
+| ```Disable typing indicator``` | ```Disables the indicator while typing a message.``` | ```com.facebook.orca``` | ```All versions``` |
+| ```Hide Facebook button``` | ```Hides the Facebook button in the top toolbar.``` | ```com.facebook.orca``` | ```All versions``` |
+| ```Hide inbox ads``` | ```Hides ads in inbox.``` | ```com.facebook.orca``` | ```All versions``` |
+| ```Hide inbox subtabs``` | ```Hides Home and Channels tabs between active now tray and chats.``` | ```com.facebook.orca``` | ```All versions``` |
+| ```Remove Meta AI``` | ```Removes UI elements related to Meta AI.``` | ```com.facebook.orca``` | ```All versions``` |
 | ```Enable CustomTabs``` | ```Enables CustomTabs to open articles in your default browser.``` | ```com.google.android.apps.magazines``` | ```All versions``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.magazines``` | ```All versions``` |
 | ```Enable DCIM folders backup control``` | ```Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.``` | ```com.google.android.apps.photos``` | ```All versions``` |
@@ -3162,6 +3168,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Spoof device ID``` | ```Spoofs device ID to mitigate manual bans by developers.``` | ```com.microblink.photomath``` | ```All versions``` |
 | ```Unlock plus``` | ```N/A``` | ```com.microblink.photomath``` | ```All versions``` |
 | ```Hide OneDrive migration``` | ```Hides the OneDrive migration prompt when opening Microsoft Office Lens.``` | ```com.microsoft.office.officelens``` | ```All versions``` |
+| ```Hide ads``` | ```N/A``` | ```com.nis.app``` | ```All versions``` |
 | ```Hide purchase reminder``` | ```Hides the popup that reminds you to purchase the app.``` | ```com.rarlab.rar``` | ```All versions``` |
 | ```Disable telemetry``` | ```Disables SoundCloud's telemetry system.``` | ```com.soundcloud.android``` | ```2025.05.27-release``` |
 | ```Enable offline sync``` | ```N/A``` | ```com.soundcloud.android``` | ```2025.05.27-release``` |
