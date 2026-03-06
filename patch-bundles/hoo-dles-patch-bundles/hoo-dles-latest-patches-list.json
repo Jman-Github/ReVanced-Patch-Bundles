@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.0-dev.2",
+    "version": "v1.12.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -359,20 +359,6 @@
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Prime membership",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.pryshedko.mtisland": [
-                    "10.3"
-                ]
-            },
-            "dependencies": [
-                "Disable Pairip license check"
-            ],
-            "description": "Enables app features locked behind the subscription paywall.",
-            "name": "Enable Pro",
             "options": [],
             "use": true
         },

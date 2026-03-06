@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.0",
+    "version": "v1.12.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -85,6 +85,18 @@
         },
         {
             "compatiblePackages": {
+                "nom.vrd": [
+                    "1.9.3-GooglePlay"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables anti-tamper checks including signature verification and purchase ID.",
+            "name": "Disable anti-tamper",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "cn.wps.moffice_eng": [
                     "18.24"
                 ]
@@ -124,6 +136,18 @@
             "dependencies": [],
             "description": "Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.",
             "name": "Disable signature check",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "nom.vrd": [
+                    "1.9.3-GooglePlay"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables event logging sent to the app's custom endpoint.",
+            "name": "Disable telemetry",
             "options": [],
             "use": true
         },
@@ -292,6 +316,18 @@
         },
         {
             "compatiblePackages": {
+                "com.wallpaperscraft.wallpaper": [
+                    "3.61.01"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.merriamwebster": []
             },
             "dependencies": [],
@@ -323,20 +359,6 @@
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Prime membership",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.pryshedko.mtisland": [
-                    "10.3"
-                ]
-            },
-            "dependencies": [
-                "Disable Pairip license check"
-            ],
-            "description": "Enables app features locked behind the subscription paywall.",
-            "name": "Enable Pro",
             "options": [],
             "use": true
         },
@@ -470,6 +492,20 @@
             "dependencies": [],
             "description": "Removes the imposed delay when changing VPN servers.",
             "name": "Remove delay",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "nom.vrd": [
+                    "1.9.3-GooglePlay"
+                ]
+            },
+            "dependencies": [
+                "Disable anti-tamper"
+            ],
+            "description": "Removes the imposed 6-hour trial usage limit.",
+            "name": "Remove trial limit",
             "options": [],
             "use": true
         },

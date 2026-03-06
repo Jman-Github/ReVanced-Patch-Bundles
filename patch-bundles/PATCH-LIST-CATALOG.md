@@ -1643,7 +1643,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***46 Patches***
+***45 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.``` | ```app.ttmikstories.android``` | ```1.16.0``` |
@@ -1667,7 +1667,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable Premium+``` | ```Enables app features locked behind the subscription paywall.``` | ```com.myfitnesspal.android``` | ```25.50.0``` |
 | ```Disable ads``` | ```Disables ads during audio streaming.``` | ```com.pandora.android``` | ```All versions``` |
 | ```Unlimited skips``` | ```Disables the limit for skipping songs during playback.``` | ```com.pandora.android``` | ```All versions``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```com.pryshedko.mtisland``` | ```10.3``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.qbis.guessthecountry``` | ```3.34.2``` |
 | ```Disable ads``` | ```Disables all ads contained within the UI.``` | ```com.sofascore.results``` | ```25.12.17``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.wallpaperscraft.wallpaper``` | ```3.61.01``` |
