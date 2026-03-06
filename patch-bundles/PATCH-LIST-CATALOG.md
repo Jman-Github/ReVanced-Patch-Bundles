@@ -1642,7 +1642,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***45 Patches***
+***46 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.``` | ```app.ttmikstories.android``` | ```1.16.0``` |
@@ -1669,6 +1669,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```com.pryshedko.mtisland``` | ```10.3``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.qbis.guessthecountry``` | ```3.34.2``` |
 | ```Disable ads``` | ```Disables all ads contained within the UI.``` | ```com.sofascore.results``` | ```25.12.17``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.wallpaperscraft.wallpaper``` | ```3.61.01``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```com.zombodroid.MemeGenerator``` | ```4.6670``` |
 | ```Disable signature check``` | ```Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.``` | ```ginlemon.flowerfree``` | ```6.6 build 002``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```ginlemon.flowerfree``` | ```6.6 build 002``` |

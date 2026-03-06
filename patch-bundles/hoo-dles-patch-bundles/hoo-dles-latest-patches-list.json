@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.0-dev.1",
+    "version": "v1.12.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -310,6 +310,18 @@
                 "RawResourcePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.",
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.wallpaperscraft.wallpaper": [
+                    "3.61.01"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": [],
             "use": true
