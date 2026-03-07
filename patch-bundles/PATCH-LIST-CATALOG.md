@@ -2676,7 +2676,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***97 Patches***
+***100 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
@@ -2689,6 +2689,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```com.google.android.apps.youtube.music``` | ```8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
 | ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```com.google.android.apps.youtube.music``` | ```8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
 | ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```com.google.android.apps.youtube.music``` | ```8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
+| ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```com.google.android.apps.youtube.music``` | ```8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
 | ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```com.google.android.apps.youtube.music``` | ```8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.youtube.music``` | ```8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
 | ```Hide 'Get Music Premium'``` | ```Adds an option to hide the "Get Music Premium" label in the settings and account menu.``` | ```com.google.android.apps.youtube.music``` | ```8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
@@ -2763,6 +2764,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Theme``` | ```Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).``` | ```com.google.android.youtube``` | ```20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Video ads``` | ```Adds an option to remove ads in the video player.``` | ```com.google.android.youtube``` | ```20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Video quality``` | ```Adds options to set default video qualities and always use the advanced video quality menu.``` | ```com.google.android.youtube``` | ```20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
+| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
 | ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
 | ```Hide ads``` | ```Adds options to hide ads.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
 | ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
@@ -2774,7 +2776,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
 | ```Settings for Reddit``` | ```Applies mandatory patches to implement Morphe settings into the application.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
 | ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
-| ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues. This patch does not work with Reddit.``` | ```Universal``` | ```All versions``` |
+| ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
+| ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch does not work if the app is installed by mounting and may cause unexpected issues with some apps.``` | ```Universal``` | ```All versions``` |
 | ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy. This patch does not work with Reddit.``` | ```Universal``` | ```All versions``` |
 
 </details>

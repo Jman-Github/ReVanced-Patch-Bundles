@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.0-dev.1",
+    "version": "v1.18.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -208,8 +208,10 @@
         },
         {
             "compatiblePackages": null,
-            "dependencies": [],
-            "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues. This patch does not work with Reddit.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
             "name": "Change package name",
             "options": [
                 {
@@ -238,6 +240,15 @@
                     "key": "updateProviders",
                     "required": false,
                     "title": "Update providers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Update additional provider names declared by the app in the strings.xml file. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "key": "updateProvidersStrings",
+                    "required": false,
+                    "title": "Update providers strings",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -347,6 +358,7 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
@@ -386,6 +398,7 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
@@ -411,6 +424,34 @@
                 }
             ],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2026.04.0",
+                    "2026.03.0",
+                    "2025.48.0"
+                ]
+            },
+            "dependencies": [
+                "Spoof signature"
+            ],
+            "description": "Changes the Reddit app name to the name specified in patch options.",
+            "name": "Custom branding name for Reddit",
+            "options": [
+                {
+                    "default": "Reddit Morphe",
+                    "description": "The name of the app.",
+                    "key": "appName",
+                    "required": true,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "Reddit Morphe"
+                    }
+                }
+            ],
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -520,6 +561,14 @@
             "name": "Disable layout updates",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Disables Play Store updates by setting the version code to the maximum allowed. This patch does not work if the app is installed by mounting and may cause unexpected issues with some apps.",
+            "name": "Disable Play Store updates",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -756,6 +805,24 @@
             ],
             "description": "Enables the option to play audio without video.",
             "name": "Enable exclusive audio playback",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "8.44.54",
+                    "8.40.54",
+                    "8.10.52",
+                    "7.29.52"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.",
+            "name": "Enable forced miniplayer",
             "options": [],
             "use": true
         },
@@ -1537,6 +1604,7 @@
             },
             "dependencies": [
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Removes restrictions on background playback, including playing kids videos in the background.",
@@ -1559,7 +1627,8 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Removes restrictions on background playback, including playing kids videos in the background.",
             "name": "Remove background playback restrictions",
@@ -1705,6 +1774,7 @@
             },
             "dependencies": [
                 "BytecodePatch",
+                "Disable Play Store updates",
                 "BytecodePatch"
             ],
             "description": "Applies mandatory patches to implement Morphe settings into the application.",
