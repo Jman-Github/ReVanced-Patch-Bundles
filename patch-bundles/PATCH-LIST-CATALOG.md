@@ -2750,7 +2750,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide related videos``` | ```Adds options to hide related videos.``` | ```com.google.android.youtube``` | ```20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Hide Shorts components``` | ```Adds options to hide components related to Shorts.``` | ```com.google.android.youtube``` | ```20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Hide timestamp``` | ```Adds an option to hide the timestamp in the bottom left of the video player.``` | ```com.google.android.youtube``` | ```20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
-| ```Hide video action buttons``` | ```Adds options to hide action buttons (such as the Download button) under videos. Patching version 20.21.37 or lower can hide more player button types.``` | ```com.google.android.youtube``` | ```20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
+| ```Hide video action buttons``` | ```Adds options to hide action buttons (such as the Download button) under videos.``` | ```com.google.android.youtube``` | ```20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Loop video``` | ```Adds an option to loop videos and display loop video button in the video player.``` | ```com.google.android.youtube``` | ```20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Miniplayer``` | ```Adds options to change the in-app minimized player.``` | ```com.google.android.youtube``` | ```20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Navigation bar``` | ```Adds options to hide and change the bottom navigation bar (such as the Shorts button) and the upper navigation toolbar. Patching version 20.21.37 and lower also adds a setting to use a wide searchbar.``` | ```com.google.android.youtube``` | ```20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
@@ -2787,7 +2787,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch does not work if the app is installed by mounting and may cause unexpected issues with some apps.``` | ```Universal``` | ```All versions``` |
-| ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy. This patch does not work with Reddit.``` | ```Universal``` | ```All versions``` |
+| ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
 
 </details>
 

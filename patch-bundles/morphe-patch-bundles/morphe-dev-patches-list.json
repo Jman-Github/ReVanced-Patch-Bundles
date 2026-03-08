@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.0-dev.2",
+    "version": "v1.18.0-dev.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -1347,11 +1347,14 @@
                 ]
             },
             "dependencies": [
-                "ResourcePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
             ],
-            "description": "Adds options to hide action buttons (such as the Download button) under videos. Patching version 20.21.37 or lower can hide more player button types.",
+            "description": "Adds options to hide action buttons (such as the Download button) under videos.",
             "name": "Hide video action buttons",
             "options": [],
             "use": true
@@ -1533,7 +1536,7 @@
         {
             "compatiblePackages": null,
             "dependencies": [],
-            "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy. This patch does not work with Reddit.",
+            "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy.",
             "name": "Override certificate pinning",
             "options": [],
             "use": false
