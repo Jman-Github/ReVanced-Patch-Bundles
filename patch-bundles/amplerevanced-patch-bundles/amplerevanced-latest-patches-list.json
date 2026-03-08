@@ -1,5 +1,5 @@
 {
-    "version": "v5.48.0-ample.4",
+    "version": "v5.50.2-ample.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -16,7 +16,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [
@@ -67,7 +67,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [
@@ -103,7 +103,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -115,7 +115,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -158,7 +158,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -275,22 +275,6 @@
         },
         {
             "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "7.29.52",
-                    "8.10.52"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Bypasses certificate checks which prevent YouTube Music from working on Android Auto.",
-            "name": "Bypass certificate checks",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.sec.android.app.fm": [
                     "12.4.00.7",
                     "12.3.00.13",
@@ -338,7 +322,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -350,10 +334,12 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Add extension"
+            ],
             "description": "Bypass Moat check that prevents the app from running.",
             "name": "Bypass Moat check",
             "options": [],
@@ -525,7 +511,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [
@@ -668,7 +654,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [
@@ -937,7 +923,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -963,7 +949,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -975,7 +961,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -1076,6 +1062,16 @@
         },
         {
             "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [],
+            "description": "Disables analytics that are sent periodically.",
+            "name": "Disable analytics",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.pandora.android": null
             },
             "dependencies": [],
@@ -1116,7 +1112,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -1128,7 +1124,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -1140,7 +1136,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -1164,7 +1160,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -1206,7 +1202,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -1218,7 +1214,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -1419,7 +1415,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -1441,7 +1437,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [
@@ -1455,7 +1451,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [
@@ -1518,7 +1514,9 @@
             "compatiblePackages": {
                 "com.strava": null
             },
-            "dependencies": [],
+            "dependencies": [
+                "Hide distractions"
+            ],
             "description": null,
             "name": "Disable subscription suggestions",
             "options": [],
@@ -1540,6 +1538,18 @@
         },
         {
             "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.2.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disable talk share log",
+            "name": "Disable Talk Share Log",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.soundcloud.android": [
                     "2025.05.27-release"
                 ]
@@ -1547,18 +1557,6 @@
             "dependencies": [],
             "description": "Disables SoundCloud's telemetry system.",
             "name": "Disable telemetry",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.kakao.talk": [
-                    "26.1.2"
-                ]
-            },
-            "dependencies": [],
-            "description": "Disables the tracker in KakaoTalk",
-            "name": "Disable tracker",
             "options": [],
             "use": true
         },
@@ -1624,7 +1622,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -1761,10 +1759,10 @@
                 ]
             },
             "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
                 "BytecodePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
             ],
             "description": "Adds options for debugging and exporting ReVanced logs to the clipboard.",
             "name": "Enable debugging",
@@ -1781,10 +1779,10 @@
                 ]
             },
             "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
                 "BytecodePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
             ],
             "description": "Adds options for debugging and exporting ReVanced logs to the clipboard.",
             "name": "Enable debugging",
@@ -1854,7 +1852,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -1866,7 +1864,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -1896,7 +1894,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -2156,7 +2154,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -2168,7 +2166,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -2230,7 +2228,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -2466,6 +2464,16 @@
         },
         {
             "compatiblePackages": {
+                "com.mobilefootie.wc2010": null
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.nis.app": null
             },
             "dependencies": [],
@@ -2480,6 +2488,16 @@
             },
             "dependencies": [],
             "description": null,
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.ebay.kleinanzeigen": null
+            },
+            "dependencies": [],
+            "description": "Hides sponsored ads and Google Ads. Also happens to disable Microsoft Clarity analytics.",
             "name": "Hide ads",
             "options": [],
             "use": true
@@ -2667,6 +2685,82 @@
         },
         {
             "compatiblePackages": {
+                "com.strava": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides elements that are not essential.",
+            "name": "Hide distractions",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Elements that suggest you subscribe.",
+                    "key": "upselling",
+                    "required": true,
+                    "title": "Upselling",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Elements that promote features, challenges, clubs, etc.",
+                    "key": "promo",
+                    "required": true,
+                    "title": "Promotions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Popular athletes, followers, people near you etc.",
+                    "key": "followSuggestions",
+                    "required": true,
+                    "title": "Who to Follow",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Random challenges Strava wants you to join.",
+                    "key": "challengeSuggestions",
+                    "required": true,
+                    "title": "Suggested Challenges",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Challenges your follows have joined.",
+                    "key": "joinChallenge",
+                    "required": true,
+                    "title": "Join Challenge",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Clubs your follows have joined.",
+                    "key": "joinClub",
+                    "required": true,
+                    "title": "Joined a club",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Your activity from X years ago",
+                    "key": "activityLookback",
+                    "required": true,
+                    "title": "Activity lookback",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
                     "20.07.39",
@@ -2773,6 +2867,23 @@
         },
         {
             "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to hide general layout components.",
+            "name": "Hide layout components",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
                     "20.07.39",
@@ -2784,8 +2895,8 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
-                "ResourcePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Adds options to hide general layout components.",
             "name": "Hide layout components",
@@ -2986,6 +3097,16 @@
         },
         {
             "compatiblePackages": {
+                "com.microsoft.office.officelens": null
+            },
+            "dependencies": [],
+            "description": "Hides the OneDrive migration prompt when opening Microsoft Office Lens.",
+            "name": "Hide OneDrive migration",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.34.42",
                     "20.07.39",
@@ -3021,6 +3142,16 @@
             ],
             "description": "Adds options to hide the player Cast, Autoplay, Captions, Previous & Next buttons, and the player control buttons background.",
             "name": "Hide player overlay buttons",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.ebay.kleinanzeigen": null
+            },
+            "dependencies": [],
+            "description": "Hides Pur (Ad Free Subscription) from Settings Menu.",
+            "name": "Hide Pur",
             "options": [],
             "use": true
         },
@@ -3213,7 +3344,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [
@@ -3227,7 +3358,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [
@@ -3413,7 +3544,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [
@@ -3498,7 +3629,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -3571,7 +3702,7 @@
             "description": "Removes the registration of all screen capture callbacks. This prevents the app from detecting screenshots.",
             "name": "Prevent screenshot detection",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -3687,7 +3818,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -3759,7 +3890,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -3781,7 +3912,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -3829,7 +3960,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -3841,7 +3972,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -3865,7 +3996,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -3947,7 +4078,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -3959,7 +4090,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -4223,7 +4354,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [
@@ -4253,6 +4384,18 @@
                     "values": null
                 }
             ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.nothing.smartcenter": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Shows the K1 authentication token(s) in a dialog and logs it to logcat for pairing with GadgetBridge without requiring root access. After installing this patch, pair your watch  with the Nothing X app and use the token from the dialog or logcat.",
+            "name": "Show K1 token(s)",
+            "options": [],
             "use": true
         },
         {
@@ -4386,7 +4529,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -4398,7 +4541,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -4948,7 +5091,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],
@@ -5693,6 +5836,19 @@
         },
         {
             "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "7.29.52",
+                    "8.10.52"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks Android Auto Media Browser which enables the search function including speech to text.",
+            "name": "Unlock Android Auto Media Browser",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.letterboxd.letterboxd": null
             },
             "dependencies": [],
@@ -5873,7 +6029,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.1.2"
+                    "26.2.0"
                 ]
             },
             "dependencies": [],

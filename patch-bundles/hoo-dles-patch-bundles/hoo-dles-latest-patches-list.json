@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.0",
+    "version": "v1.13.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -86,7 +86,8 @@
         {
             "compatiblePackages": {
                 "nom.vrd": [
-                    "1.9.3-GooglePlay"
+                    "1.9.3-GooglePlay",
+                    "1.9.3-storage"
                 ]
             },
             "dependencies": [],
@@ -142,7 +143,8 @@
         {
             "compatiblePackages": {
                 "nom.vrd": [
-                    "1.9.3-GooglePlay"
+                    "1.9.3-GooglePlay",
+                    "1.9.3-storage"
                 ]
             },
             "dependencies": [],
@@ -162,6 +164,18 @@
             "name": "Enable debug mode",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.mobilefootie.wc2010": [
+                    "226.16092.20260302"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable FobMob+",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
@@ -498,7 +512,8 @@
         {
             "compatiblePackages": {
                 "nom.vrd": [
-                    "1.9.3-GooglePlay"
+                    "1.9.3-GooglePlay",
+                    "1.9.3-storage"
                 ]
             },
             "dependencies": [

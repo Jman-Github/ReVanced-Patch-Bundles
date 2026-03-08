@@ -1,5 +1,5 @@
 {
-    "version": "v3.0.0-dev.9",
+    "version": "v3.0.0-dev.10",
     "patches": [
         {
             "compatiblePackages": {
@@ -340,7 +340,7 @@
             "description": "Bring back legacy features like messages and share sheet.",
             "name": "Disunify xchat system",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatiblePackages": {
