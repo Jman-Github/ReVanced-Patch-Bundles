@@ -1,5 +1,5 @@
 {
-    "version": "v6.0.0-dev.23",
+    "version": "v6.0.0-dev.24",
     "patches": [
         {
             "compatiblePackages": {
@@ -219,6 +219,16 @@
             ],
             "description": "Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.",
             "name": "Bypass image region restrictions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.adobe.photoshopmix": null
+            },
+            "dependencies": [],
+            "description": "Allows the use of the app after its discontinuation.",
+            "name": "Bypass login",
             "options": [],
             "use": true
         },
