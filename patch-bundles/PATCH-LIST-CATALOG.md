@@ -1681,8 +1681,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```kr.eggbun.eggconvo``` | ```4.12.19``` |
 | ```Force Native Keyboard``` | ```When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.``` | ```kr.eggbun.eggconvo``` | ```4.12.19``` |
 | ```Enable Plus``` | ```Enable Plus membership (not all features are available). There is a strict version requirement for this patch.``` | ```me.mycake``` | ```6.4.0``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```net.teuida.teuida``` | ```All versions``` |
-| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```net.teuida.teuida``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```net.teuida.teuida``` | ```1.21.16``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```net.teuida.teuida``` | ```1.21.16``` |
 | ```Disable anti-tamper``` | ```Disables anti-tamper checks including signature verification and purchase ID.``` | ```nom.vrd``` | ```1.9.3-GooglePlay, 1.9.3-storage``` |
 | ```Disable telemetry``` | ```Disables event logging sent to the app's custom endpoint.``` | ```nom.vrd``` | ```1.9.3-GooglePlay, 1.9.3-storage``` |
 | ```Remove trial limit``` | ```Removes the imposed 6-hour trial usage limit.``` | ```nom.vrd``` | ```1.9.3-GooglePlay, 1.9.3-storage``` |
