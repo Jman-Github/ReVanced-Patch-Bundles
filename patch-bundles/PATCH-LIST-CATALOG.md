@@ -3214,7 +3214,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***23 Patches***
+***26 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Always-incognito mode``` | ```Always opens Gboard in incognito mode to disable typing history collection and personalization.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
@@ -3223,7 +3223,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable Undo feature``` | ```Enables undo feature to quickly undo or correct typing mistakes.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
 | ```Toggle feature flags``` | ```Toggles Gboard feature flags to enable or disable experimental or hidden features.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
 | ```Disable screenshot banner``` | ```Disables the banner that shows up after taking a screenshot.``` | ```com.reddit.frontpage``` | ```All versions``` |
+| ```Hide Ask button from search bar``` | ```Hides the Ask button (Reddit Answers) from the search bar.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Hide community highlights``` | ```Hides the community highlights section.``` | ```com.reddit.frontpage``` | ```All versions``` |
+| ```Hide post view counts``` | ```Removes the "views" indicator from the post metadata.``` | ```com.reddit.frontpage``` | ```All versions``` |
+| ```Hide prominent search bar``` | ```Hides the new prominent search bar on the main screen.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Hide share count``` | ```Hides the share count on Reddit posts.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Hide upvote scores``` | ```Hides the scores on Reddit posts and comments.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Open external links directly``` | ```Opens external links directly without going through out.reddit.com.``` | ```com.reddit.frontpage``` | ```All versions``` |

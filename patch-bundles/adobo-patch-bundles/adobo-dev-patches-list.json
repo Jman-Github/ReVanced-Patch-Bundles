@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.1",
+    "version": "v1.1.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -290,8 +290,44 @@
             "dependencies": [
                 "BytecodePatch"
             ],
+            "description": "Hides the Ask button (Reddit Answers) from the search bar.",
+            "name": "Hide Ask button from search bar",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Hides the community highlights section.",
             "name": "Hide community highlights",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes the \"views\" indicator from the post metadata.",
+            "name": "Hide post view counts",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the new prominent search bar on the main screen.",
+            "name": "Hide prominent search bar",
             "options": [],
             "use": false
         },
