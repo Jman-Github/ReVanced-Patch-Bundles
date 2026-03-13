@@ -1,5 +1,5 @@
 {
-    "version": "v1.19.0-dev.1",
+    "version": "v1.19.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -124,6 +124,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
@@ -1331,7 +1332,8 @@
                 ]
             },
             "dependencies": [
-                "Settings for Reddit"
+                "Settings for Reddit",
+                "BytecodePatch"
             ],
             "description": "Adds an option to hide the Trending Today shelf from search suggestions.",
             "name": "Hide Trending Today shelf",
