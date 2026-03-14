@@ -1,5 +1,5 @@
 {
-    "version": "v5.50.2",
+    "version": "v6.0.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -29,10 +29,31 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Add more double tap to seek length options",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -60,10 +81,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -180,10 +203,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -194,6 +219,16 @@
             ],
             "description": "Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.",
             "name": "Bypass image region restrictions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.adobe.photoshopmix": null
+            },
+            "dependencies": [],
+            "description": "Allows the use of the app after its discontinuation.",
+            "name": "Bypass login",
             "options": [],
             "use": true
         },
@@ -210,16 +245,17 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds an option to bypass URL redirects and open the original URL directly.",
@@ -230,17 +266,19 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
-                "Navigation buttons"
+                "BytecodePatch"
             ],
             "description": "Adds an option to change the UI appearance to a phone, tablet, or automotive device.",
             "name": "Change form factor",
@@ -250,10 +288,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -266,9 +306,8 @@
                 {
                     "default": null,
                     "description": "Folder with images to use as a custom header logo.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- drawable-hdpi\n- drawable-xhdpi\n- drawable-xxhdpi\n- drawable-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_header_custom_light.png\nrevanced_header_custom_dark.png \n\nThe image dimensions must be as follows:\n- drawable-hdpi: 194x72 px\n- drawable-xhdpi: 258x96 px\n- drawable-xxhdpi: 387x144 px\n- drawable-xxxhdpi: 512x192 px",
-                    "key": "custom",
+                    "name": "Custom header logo",
                     "required": false,
-                    "title": "Custom header logo",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -288,9 +327,8 @@
                 {
                     "default": "imginn.com",
                     "description": "The domain name to use when sharing links.",
-                    "key": "domainName",
+                    "name": "Domain name",
                     "required": false,
-                    "title": "Domain name",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -307,15 +345,14 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Replaces the domain name of shared links. Including this patch can prevent making posts that quote other posts.",
+            "description": "Replaces the domain name of shared links. Using this patch can prevent making posts that quote other posts.",
             "name": "Change link sharing domain",
             "options": [
                 {
                     "default": "fxtwitter.com",
                     "description": "The domain name to use when sharing links.",
-                    "key": "domainName",
+                    "name": "Domain name",
                     "required": true,
-                    "title": "Domain name",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -333,9 +370,8 @@
                 {
                     "default": "lyrics.natanchiodi.fr",
                     "description": "The domain name or IP address of a custom lyrics provider.",
-                    "key": "lyricsProviderHost",
+                    "name": "Lyrics provider host",
                     "required": false,
-                    "title": "Lyrics provider host",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -346,7 +382,9 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [
@@ -369,9 +407,8 @@
                 {
                     "default": "Default",
                     "description": "The name of the package to rename the app to.",
-                    "key": "packageName",
+                    "name": "Package name",
                     "required": true,
-                    "title": "Package name",
                     "type": "kotlin.String",
                     "values": {
                         "Default": "Default"
@@ -380,18 +417,16 @@
                 {
                     "default": false,
                     "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
-                    "key": "updatePermissions",
+                    "name": "Update permissions",
                     "required": false,
-                    "title": "Update permissions",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
                     "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
-                    "key": "updateProviders",
+                    "name": "Update providers",
                     "required": false,
-                    "title": "Update providers",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -401,10 +436,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -426,9 +463,8 @@
                 {
                     "default": 2147483647,
                     "description": "The version code to use. Using the highest value turns off app store updates and allows downgrading an existing app install to an older app version.",
-                    "key": "versionCode",
+                    "name": "Version code",
                     "required": true,
-                    "title": "Version code",
                     "type": "kotlin.Int",
                     "values": {
                         "Highest": 2147483647,
@@ -442,7 +478,9 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [
@@ -456,10 +494,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -473,10 +513,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -493,7 +535,9 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [
@@ -501,7 +545,7 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch",
-                "RawResourcePatch",
+                "ResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
@@ -510,18 +554,16 @@
                 {
                     "default": null,
                     "description": "Custom app name.",
-                    "key": "customName",
+                    "name": "App name",
                     "required": false,
-                    "title": "App name",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nrevanced_adaptive_monochrome_custom.xml\nrevanced_notification_icon_custom.xml",
-                    "key": "customIcon",
+                    "name": "Custom icon",
                     "required": false,
-                    "title": "Custom icon",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -531,17 +573,19 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch",
-                "RawResourcePatch",
+                "ResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
@@ -550,18 +594,16 @@
                 {
                     "default": null,
                     "description": "Custom app name.",
-                    "key": "customName",
+                    "name": "App name",
                     "required": false,
-                    "title": "App name",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nrevanced_adaptive_monochrome_custom.xml\nrevanced_notification_icon_custom.xml",
-                    "key": "customIcon",
+                    "name": "Custom icon",
                     "required": false,
-                    "title": "Custom icon",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -579,63 +621,56 @@
                         "example.com"
                     ],
                     "description": "List of domains to which the custom trust configuration will be applied (one domain per entry).",
-                    "key": "targetDomains",
+                    "name": "Target domains",
                     "required": true,
-                    "title": "Target domains",
                     "type": "kotlin.collections.List<kotlin.String>",
                     "values": null
                 },
                 {
                     "default": false,
                     "description": "Applies the configuration to all subdomains of the target domains.",
-                    "key": "includeSubdomains",
+                    "name": "Include subdomains",
                     "required": true,
-                    "title": "Include subdomains",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "List of paths to files in PEM or DER format (one file path per entry).\n\nMakes an app trust the provided custom certificate authorities (CAs),\nfor the specified domains, and if the option \"Include Subdomains\" is enabled then also the subdomains.\n\n\nCA files will be bundled in res/raw/ of resulting APK",
-                    "key": "customCAFilePaths",
+                    "name": "Custom CA file paths",
                     "required": false,
-                    "title": "Custom CA file paths",
                     "type": "kotlin.collections.List<kotlin.String>",
                     "values": null
                 },
                 {
                     "default": false,
                     "description": "Makes an app trust certificates from the Android user store for the specified domains, and if the option \"Include Subdomains\" is enabled then also the subdomains.",
-                    "key": "allowUserCerts",
+                    "name": "Trust user added CAs",
                     "required": true,
-                    "title": "Trust user added CAs",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": true,
                     "description": "Makes an app trust certificates from the Android system store for the specified domains, and and if the option \"Include Subdomains\" is enabled then also the subdomains.",
-                    "key": "allowSystemCerts",
+                    "name": "Trust system CAs",
                     "required": true,
-                    "title": "Trust system CAs",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
                     "description": "Allows unencrypted HTTP traffic for the specified domains, and if \"Include Subdomains\" is enabled then also the subdomains.",
-                    "key": "allowCleartextTraffic",
+                    "name": "Allow cleartext traffic (HTTP)",
                     "required": true,
-                    "title": "Allow cleartext traffic (HTTP)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
                     "description": "Overrides certificate pinning for the specified domains and their subdomains if the option \"Include Subdomains\" is enabled to allow inspecting app traffic via a proxy.",
-                    "key": "overridePins",
+                    "name": "Override certificate pinning",
                     "required": true,
-                    "title": "Override certificate pinning",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -645,13 +680,17 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds an option to change the opacity of the video player background when player controls are visible.",
@@ -672,45 +711,40 @@
                 {
                     "default": "@android:color/black",
                     "description": "The background color. Can be a hex color or a resource reference.",
-                    "key": "backgroundColor",
+                    "name": "Primary background color",
                     "required": true,
-                    "title": "Primary background color",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": false,
                     "description": "Apply primary background color to the player gradient color, which changes dynamically with the song.",
-                    "key": "overridePlayerGradientColor",
+                    "name": "Override player gradient color",
                     "required": false,
-                    "title": "Override player gradient color",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": "#FF121212",
                     "description": "The secondary background color. (e.g. playlist list in home, player artist, song credits). Can be a hex color or a resource reference.\",",
-                    "key": "backgroundColorSecondary",
+                    "name": "Secondary background color",
                     "required": true,
-                    "title": "Secondary background color",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": "#FF1ED760",
                     "description": "The accent color ('Spotify green' by default). Can be a hex color or a resource reference.",
-                    "key": "accentColor",
+                    "name": "Accent color",
                     "required": true,
-                    "title": "Accent color",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": "#FF1ABC54",
                     "description": "The color when accented buttons are pressed, by default slightly darker than accent. Can be a hex color or a resource reference.",
-                    "key": "accentColorPressed",
+                    "name": "Pressed accent color",
                     "required": true,
-                    "title": "Pressed accent color",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -828,17 +862,19 @@
             },
             "dependencies": [],
             "description": null,
-            "name": "Disable audio ads",
+            "name": "Disable Audio Ads",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -876,14 +912,18 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds an option to disable player double tap gestures.",
@@ -894,10 +934,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -923,15 +965,18 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Adds an option to disable haptic feedback in the player for various actions.",
             "name": "Disable haptic feedback",
@@ -994,10 +1039,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -1025,6 +1072,16 @@
                 "com.instagram.android": null
             },
             "dependencies": [],
+            "description": "Removes the auto-scroll toggle and prevents Reels from scrolling automatically.",
+            "name": "Disable Reels auto-scroll",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [],
             "description": "Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.",
             "name": "Disable Reels scrolling",
             "options": [],
@@ -1033,15 +1090,18 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.",
@@ -1052,10 +1112,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -1089,10 +1151,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -1111,7 +1175,7 @@
                 "com.instagram.android": null
             },
             "dependencies": [],
-            "description": "Disables the signature check that can cause the app to crash on startup. Including this patch may cause issues with sharing or opening external Instagram links.",
+            "description": "Disables the signature check that can cause the app to crash on startup. Using this patch may cause issues with sharing or opening external Instagram links.",
             "name": "Disable signature check",
             "options": [],
             "use": false
@@ -1125,18 +1189,6 @@
             "name": "Disable story auto flipping",
             "options": [],
             "use": false
-        },
-        {
-            "compatiblePackages": {
-                "com.strava": null
-            },
-            "dependencies": [
-                "Hide distractions"
-            ],
-            "description": null,
-            "name": "Disable subscription suggestions",
-            "options": [],
-            "use": true
         },
         {
             "compatiblePackages": {
@@ -1203,16 +1255,6 @@
         },
         {
             "compatiblePackages": {
-                "com.facebook.orca": null
-            },
-            "dependencies": [],
-            "description": "Disables the indicator while typing a message.",
-            "name": "Disable typing indicator",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.adobe.lrmobile": [
                     "9.3.0"
                 ]
@@ -1226,10 +1268,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -1264,10 +1308,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -1335,14 +1381,15 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
                 "ResourcePatch",
-                "ResourcePatch"
+                "BytecodePatch",
+                "BytecodePatch"
             ],
             "description": "Adds options for debugging and exporting ReVanced logs to the clipboard.",
             "name": "Enable debugging",
@@ -1352,16 +1399,18 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Adds options for debugging and exporting ReVanced logs to the clipboard.",
@@ -1383,7 +1432,9 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [
@@ -1426,9 +1477,8 @@
                 {
                     "default": null,
                     "description": "The hex-encoded signature or path to an APK file with the desired signature.",
-                    "key": "signatureOrApkFilePath",
+                    "name": "Signature or APK file path",
                     "required": true,
-                    "title": "Signature or APK file path",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -1448,10 +1498,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -1459,10 +1511,11 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds options to automatically exit fullscreen mode when a video reaches the end.",
-            "name": "Exit fullscreen mode",
+            "name": "Exit fullscreen",
             "options": [],
             "use": true
         },
@@ -1535,7 +1588,7 @@
                 ]
             },
             "dependencies": [],
-            "description": null,
+            "description": "Fixes a crash when opening a place.",
             "name": "Fix crash",
             "options": [],
             "use": true
@@ -1685,6 +1738,16 @@
         },
         {
             "compatiblePackages": {
+                "de.gmx.mobile.android.mail": null
+            },
+            "dependencies": [],
+            "description": "Enables the FreePhone menu in the navigation drawer even on devices that don't support eSIM.",
+            "name": "Force enable FreePhone",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.xiaomi.wearable": null
             },
             "dependencies": [
@@ -1699,7 +1762,9 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [
@@ -1716,10 +1781,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -1750,9 +1817,8 @@
                 {
                     "default": "app.revanced",
                     "description": "The vendor's group ID for GmsCore.",
-                    "key": "gmsCoreVendorGroupId",
+                    "name": "gmsCoreVendorGroupId",
                     "required": true,
-                    "title": "GmsCore vendor group ID",
                     "type": "kotlin.String",
                     "values": {
                         "ReVanced": "app.revanced"
@@ -1776,9 +1842,8 @@
                 {
                     "default": "app.revanced",
                     "description": "The vendor's group ID for GmsCore.",
-                    "key": "gmsCoreVendorGroupId",
+                    "name": "gmsCoreVendorGroupId",
                     "required": true,
-                    "title": "GmsCore vendor group ID",
                     "type": "kotlin.String",
                     "values": {
                         "ReVanced": "app.revanced"
@@ -1791,14 +1856,15 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [
                 "Change package name",
                 "ResourcePatch",
-                "BytecodePatch",
-                "Spoof video streams"
+                "BytecodePatch"
             ],
             "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
             "name": "GmsCore support",
@@ -1806,9 +1872,8 @@
                 {
                     "default": "app.revanced",
                     "description": "The vendor's group ID for GmsCore.",
-                    "key": "gmsCoreVendorGroupId",
+                    "name": "gmsCoreVendorGroupId",
                     "required": true,
-                    "title": "GmsCore vendor group ID",
                     "type": "kotlin.String",
                     "values": {
                         "ReVanced": "app.revanced"
@@ -1820,10 +1885,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -1839,9 +1906,8 @@
                 {
                     "default": "app.revanced",
                     "description": "The vendor's group ID for GmsCore.",
-                    "key": "gmsCoreVendorGroupId",
+                    "name": "gmsCoreVendorGroupId",
                     "required": true,
-                    "title": "GmsCore vendor group ID",
                     "type": "kotlin.String",
                     "values": {
                         "ReVanced": "app.revanced"
@@ -1853,7 +1919,7 @@
         {
             "compatiblePackages": null,
             "dependencies": [
-                "RawResourcePatch"
+                "ResourcePatch"
             ],
             "description": "Replaces a hexadecimal patterns of bytes of files in an APK.",
             "name": "Hex",
@@ -1861,9 +1927,8 @@
                 {
                     "default": null,
                     "description": "Hexadecimal patterns to search for and replace with another in a target file.\n\nA pattern is a sequence of case insensitive strings, each representing hexadecimal bytes, separated by spaces.\nAn example pattern is 'aa 01 02 FF'.\n\nEvery pattern must be followed by a pipe ('|'), the replacement pattern,\nanother pipe ('|'), and the path to the file to make the changes in relative to the APK root. \nThe replacement pattern must be shorter or equal in length to the pattern.\n\nFull example of a valid replacement:\n'01 02 aa FF|03 04|path/to/file'",
-                    "key": "replacements",
+                    "name": "Replacements",
                     "required": true,
-                    "title": "Replacements",
                     "type": "kotlin.collections.List<kotlin.String>",
                     "values": null
                 }
@@ -1874,7 +1939,9 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [
@@ -1964,6 +2031,16 @@
             },
             "dependencies": [],
             "description": null,
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "de.gmx.mobile.android.mail": null
+            },
+            "dependencies": [],
+            "description": "Hides sponsored ads.",
             "name": "Hide ads",
             "options": [],
             "use": true
@@ -2119,17 +2196,19 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Adds options to remove general ads.",
             "name": "Hide ads",
@@ -2146,9 +2225,32 @@
         },
         {
             "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to hide the autoplay preview at the end of videos.",
+            "name": "Hide autoplay preview",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [
@@ -2166,7 +2268,9 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [
@@ -2192,63 +2296,56 @@
                 {
                     "default": true,
                     "description": "Elements that suggest you subscribe.",
-                    "key": "upselling",
+                    "name": "Upselling",
                     "required": true,
-                    "title": "Upselling",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": true,
                     "description": "Elements that promote features, challenges, clubs, etc.",
-                    "key": "promo",
+                    "name": "Promotions",
                     "required": true,
-                    "title": "Promotions",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": true,
                     "description": "Popular athletes, followers, people near you etc.",
-                    "key": "followSuggestions",
+                    "name": "Who to Follow",
                     "required": true,
-                    "title": "Who to Follow",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": true,
                     "description": "Random challenges Strava wants you to join.",
-                    "key": "challengeSuggestions",
+                    "name": "Suggested Challenges",
                     "required": true,
-                    "title": "Suggested Challenges",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
                     "description": "Challenges your follows have joined.",
-                    "key": "joinChallenge",
+                    "name": "Join Challenge",
                     "required": true,
-                    "title": "Join Challenge",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
                     "description": "Clubs your follows have joined.",
-                    "key": "joinClub",
+                    "name": "Joined a club",
                     "required": true,
-                    "title": "Joined a club",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
                     "description": "Your activity from X years ago",
-                    "key": "activityLookback",
+                    "name": "Activity lookback",
                     "required": true,
-                    "title": "Activity lookback",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -2258,10 +2355,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -2277,10 +2376,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -2345,14 +2446,18 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
                 "BytecodePatch",
                 "ResourcePatch"
             ],
@@ -2365,7 +2470,9 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [
@@ -2381,10 +2488,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -2392,6 +2501,9 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds options to hide general layout components.",
@@ -2413,7 +2525,9 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [
@@ -2441,54 +2555,48 @@
                 {
                     "default": false,
                     "description": "Permanently hides the Home button. App starts at next available tab.",
-                    "key": "hideHome",
+                    "name": "Hide Home",
                     "required": false,
-                    "title": "Hide Home",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": true,
                     "description": "Permanently hides the Reels button.",
-                    "key": "hideReels",
+                    "name": "Hide Reels",
                     "required": false,
-                    "title": "Hide Reels",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
                     "description": "Permanently hides the Direct button.",
-                    "key": "hideDirect",
+                    "name": "Hide Direct",
                     "required": false,
-                    "title": "Hide Direct",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
                     "description": "Permanently hides the Search button.",
-                    "key": "hideSearch",
+                    "name": "Hide Search",
                     "required": false,
-                    "title": "Hide Search",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
                     "description": "Permanently hides the Profile button.",
-                    "key": "hideProfile",
+                    "name": "Hide Profile",
                     "required": false,
-                    "title": "Hide Profile",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": true,
                     "description": "Permanently hides the Create button.",
-                    "key": "hideCreate",
+                    "name": "Hide Create",
                     "required": false,
-                    "title": "Hide Create",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -2506,63 +2614,56 @@
                 {
                     "default": false,
                     "description": "Permanently hides the Chats button.",
-                    "key": "hideChats",
+                    "name": "Hide Chats",
                     "required": false,
-                    "title": "Hide Chats",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
                     "description": "Permanently hides the Calls button.",
-                    "key": "hideCalls",
+                    "name": "Hide Calls",
                     "required": false,
-                    "title": "Hide Calls",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": true,
                     "description": "Permanently hides the Explore button.",
-                    "key": "hideExplore",
+                    "name": "Hide Explore",
                     "required": false,
-                    "title": "Hide Explore",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
                     "description": "Permanently hides the More button.",
-                    "key": "hideMore",
+                    "name": "Hide More",
                     "required": false,
-                    "title": "Hide More",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": true,
                     "description": "Permanently hides the Pay button.",
-                    "key": "hidePay",
+                    "name": "Hide Pay",
                     "required": false,
-                    "title": "Hide Pay",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": true,
                     "description": "Permanently hides the Camera button.",
-                    "key": "hideCamera",
+                    "name": "Hide Camera",
                     "required": false,
-                    "title": "Hide Camera",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": true,
                     "description": "Permanently hides the Marketplace button.",
-                    "key": "hideMarketplace",
+                    "name": "Hide Marketplace",
                     "required": false,
-                    "title": "Hide Marketplace",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -2592,10 +2693,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -2612,20 +2715,33 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds options to hide the player Cast, Autoplay, Captions, Previous & Next buttons, and the player control buttons background.",
             "name": "Hide player overlay buttons",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "de.gmx.mobile.android.mail": null
+            },
+            "dependencies": [],
+            "description": "Hides the Premium upgrade button in the navigation drawer.",
+            "name": "Hide Premium upgrade button",
             "options": [],
             "use": true
         },
@@ -2667,10 +2783,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -2687,10 +2805,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -2699,26 +2819,25 @@
                 "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds options to hide components related to Shorts.",
+            "description": "Adds options to hide components related to Shorts. Patching version 20.21.37 or lower can hide more Shorts player button types.",
             "name": "Hide Shorts components",
             "options": [
                 {
                     "default": false,
                     "description": "Permanently hides the shortcut to open Shorts when long pressing the app icon in your launcher.",
-                    "key": "hideShortsAppShortcut",
+                    "name": "Hide Shorts app shortcut",
                     "required": false,
-                    "title": "Hide Shorts app shortcut",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
                     "description": "Permanently hides the launcher widget Shorts button.",
-                    "key": "hideShortsWidget",
+                    "name": "Hide Shorts widget",
                     "required": false,
-                    "title": "Hide Shorts widget",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -2768,10 +2887,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -2799,18 +2920,21 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds options to hide action buttons (such as the Download button) under videos.",
+            "description": "Adds options to hide action buttons (such as the Download button) under videos. Patching version 20.21.37 or lower can hide more player button types.",
             "name": "Hide video action buttons",
             "options": [],
             "use": true
@@ -2840,15 +2964,18 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to loop videos and display loop video button in the video player.",
@@ -2859,10 +2986,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -2880,7 +3009,9 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [
@@ -2898,10 +3029,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -2909,10 +3042,12 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
             ],
-            "description": "Adds options to hide and change navigation buttons (such as the Shorts button).",
-            "name": "Navigation buttons",
+            "description": "Adds options to hide and change the bottom navigation bar (such as the Shorts button)  and the upper navigation toolbar. Patching version 20.21.37 and lower also adds a setting to use a wide searchbar.",
+            "name": "Navigation bar",
             "options": [],
             "use": true
         },
@@ -2931,10 +3066,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -2948,10 +3085,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -2971,15 +3110,18 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "19.47.53",
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds an option to open videos in full screen portrait mode.",
@@ -3008,27 +3150,24 @@
                 {
                     "default": null,
                     "description": "This is used as the JPEG quality setting (≤ 100).",
-                    "key": "compressionQuality",
+                    "name": "Compression quality (percent)",
                     "required": false,
-                    "title": "Compression quality (percent)",
                     "type": "kotlin.Int",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The maximum length (≤ 3600) of a video before it gets trimmed.",
-                    "key": "maxDuration",
+                    "name": "maxDuration",
                     "required": false,
-                    "title": "Max duration (seconds)",
                     "type": "kotlin.Long",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The image gets resized so that the smaller dimension (width/height) does not exceed this value (≤ 10000).",
-                    "key": "maxSize",
+                    "name": "Max size (pixels)",
                     "required": false,
-                    "title": "Max size (pixels)",
                     "type": "kotlin.Int",
                     "values": null
                 }
@@ -3038,7 +3177,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -3055,7 +3199,9 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [
@@ -3100,10 +3246,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -3201,7 +3349,9 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [
@@ -3216,13 +3366,16 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
+                "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3436,10 +3589,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -3465,10 +3620,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -3501,7 +3658,9 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [
@@ -3569,10 +3728,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -3588,14 +3749,15 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3625,7 +3787,7 @@
             },
             "dependencies": [
                 "BytecodePatch",
-                "RawResourcePatch"
+                "ResourcePatch"
             ],
             "description": "Adds ReVanced settings to TikTok.",
             "name": "Settings",
@@ -3651,10 +3813,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -3771,14 +3935,17 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
+                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3816,9 +3983,8 @@
                 {
                     "default": "0011223344556677",
                     "description": "The Android device ID to spoof to.",
-                    "key": "android-device-id",
+                    "name": "Android device ID",
                     "required": true,
-                    "title": "Android device ID",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -3828,10 +3994,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -3857,216 +4025,192 @@
                 {
                     "default": null,
                     "description": "The name of the underlying board, like \"goldfish\".",
-                    "key": "board",
+                    "name": "Board",
                     "required": false,
-                    "title": "Board",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The system bootloader version number.",
-                    "key": "bootloader",
+                    "name": "Bootloader",
                     "required": false,
-                    "title": "Bootloader",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The consumer-visible brand with which the product/hardware will be associated, if any.",
-                    "key": "brand",
+                    "name": "Brand",
                     "required": false,
-                    "title": "Brand",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "This field was deprecated in API level 21. Use SUPPORTED_ABIS instead.",
-                    "key": "cpu-abi",
+                    "name": "CPU ABI",
                     "required": false,
-                    "title": "CPU ABI",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "This field was deprecated in API level 21. Use SUPPORTED_ABIS instead.",
-                    "key": "cpu-abi-2",
+                    "name": "CPU ABI 2",
                     "required": false,
-                    "title": "CPU ABI 2",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The name of the industrial design.",
-                    "key": "device",
+                    "name": "Device",
                     "required": false,
-                    "title": "Device",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "A build ID string meant for displaying to the user.",
-                    "key": "display",
+                    "name": "Display",
                     "required": false,
-                    "title": "Display",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "A string that uniquely identifies this build.",
-                    "key": "fingerprint",
+                    "name": "Fingerprint",
                     "required": false,
-                    "title": "Fingerprint",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The name of the hardware (from the kernel command line or /proc).",
-                    "key": "hardware",
+                    "name": "Hardware",
                     "required": false,
-                    "title": "Hardware",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The host.",
-                    "key": "host",
+                    "name": "Host",
                     "required": false,
-                    "title": "Host",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "Either a changelist number, or a label like \"M4-rc20\".",
-                    "key": "id",
+                    "name": "ID",
                     "required": false,
-                    "title": "ID",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The manufacturer of the product/hardware.",
-                    "key": "manufacturer",
+                    "name": "Manufacturer",
                     "required": false,
-                    "title": "Manufacturer",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The end-user-visible name for the end product.",
-                    "key": "model",
+                    "name": "Model",
                     "required": false,
-                    "title": "Model",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The SKU of the device as set by the original design manufacturer (ODM).",
-                    "key": "odm-sku",
+                    "name": "ODM SKU",
                     "required": false,
-                    "title": "ODM SKU",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The name of the overall product.",
-                    "key": "product",
+                    "name": "Product",
                     "required": false,
-                    "title": "Product",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "This field was deprecated in API level 15. The radio firmware version is frequently not available when this class is initialized, leading to a blank or \"unknown\" value for this string. Use getRadioVersion() instead.",
-                    "key": "radio",
+                    "name": "Radio",
                     "required": false,
-                    "title": "Radio",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "This field was deprecated in API level 26. Use getSerial() instead.",
-                    "key": "serial",
+                    "name": "Serial",
                     "required": false,
-                    "title": "Serial",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The SKU of the hardware (from the kernel command line).",
-                    "key": "sku",
+                    "name": "SKU",
                     "required": false,
-                    "title": "SKU",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The manufacturer of the device's primary system-on-chip.",
-                    "key": "soc-manufacturer",
+                    "name": "SOC manufacturer",
                     "required": false,
-                    "title": "SOC manufacturer",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The model name of the device's primary system-on-chip.",
-                    "key": "soc-model",
+                    "name": "SOC model",
                     "required": false,
-                    "title": "SOC model",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "Comma-separated tags describing the build, like \"unsigned,debug\".",
-                    "key": "tags",
+                    "name": "Tags",
                     "required": false,
-                    "title": "Tags",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The time at which the build was produced, given in milliseconds since the UNIX epoch.",
-                    "key": "time",
+                    "name": "Time",
                     "required": false,
-                    "title": "Time",
                     "type": "kotlin.Long",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The type of build, like \"user\" or \"eng\".",
-                    "key": "type",
+                    "name": "Type",
                     "required": false,
-                    "title": "Type",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The user.",
-                    "key": "user",
+                    "name": "User",
                     "required": false,
-                    "title": "User",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -4097,9 +4241,8 @@
                 {
                     "default": null,
                     "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"http://baconreader.com/auth\".",
-                    "key": "client-id",
+                    "name": "OAuth client ID",
                     "required": true,
-                    "title": "OAuth client ID",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -4117,9 +4260,8 @@
                 {
                     "default": null,
                     "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"http://rubenmayayo.com\".",
-                    "key": "client-id",
+                    "name": "OAuth client ID",
                     "required": true,
-                    "title": "OAuth client ID",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -4139,9 +4281,8 @@
                 {
                     "default": null,
                     "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"infinity://localhost\".",
-                    "key": "client-id",
+                    "name": "OAuth client ID",
                     "required": true,
-                    "title": "OAuth client ID",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -4163,9 +4304,8 @@
                 {
                     "default": null,
                     "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"https://127.0.0.1:65023/authorize_callback\".",
-                    "key": "client-id",
+                    "name": "OAuth client ID",
                     "required": true,
-                    "title": "OAuth client ID",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -4184,9 +4324,8 @@
                 {
                     "default": null,
                     "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"redditisfun://auth\".",
-                    "key": "client-id",
+                    "name": "OAuth client ID",
                     "required": true,
-                    "title": "OAuth client ID",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -4205,9 +4344,8 @@
                 {
                     "default": null,
                     "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"dbrady://relay\".",
-                    "key": "client-id",
+                    "name": "OAuth client ID",
                     "required": true,
-                    "title": "OAuth client ID",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -4225,9 +4363,8 @@
                 {
                     "default": null,
                     "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"http://www.ccrama.me\".",
-                    "key": "client-id",
+                    "name": "OAuth client ID",
                     "required": true,
-                    "title": "OAuth client ID",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -4250,9 +4387,8 @@
                 {
                     "default": null,
                     "description": "The Reddit OAuth client ID. You can get your client ID from https://www.reddit.com/prefs/apps. The application type has to be \"Installed app\" and the redirect URI has to be set to \"http://redditsync/auth\".",
-                    "key": "client-id",
+                    "name": "OAuth client ID",
                     "required": true,
-                    "title": "OAuth client ID",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -4262,10 +4398,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -4306,9 +4444,8 @@
                         "com.google.android.apps.photos.nexus_preload"
                     ],
                     "description": "Google Pixel exclusive features to enable. Features up to Pixel XL enable the unlimited storage feature.",
-                    "key": "featuresToEnable",
+                    "name": "Features to enable",
                     "required": true,
-                    "title": "Features to enable",
                     "type": "kotlin.collections.List<kotlin.String>",
                     "values": null
                 },
@@ -4332,9 +4469,8 @@
                         "com.google.android.feature.PIXEL_2025_EXPERIENCE"
                     ],
                     "description": "Google Pixel exclusive features to disable.Features after Pixel XL may have to be disabled for unlimited storage depending on the device.",
-                    "key": "featuresToDisable",
+                    "name": "Features to disable",
                     "required": true,
-                    "title": "Features to disable",
                     "type": "kotlin.collections.List<kotlin.String>",
                     "values": null
                 }
@@ -4362,9 +4498,8 @@
                 {
                     "default": null,
                     "description": "ISO-3166-1 alpha-2 country code equivalent for the SIM provider's country code.",
-                    "key": "networkCountryIso",
+                    "name": "Network ISO country code",
                     "required": false,
-                    "title": "Network ISO country code",
                     "type": "kotlin.String",
                     "values": {
                         "Afghanistan": "AF",
@@ -4621,27 +4756,24 @@
                 {
                     "default": null,
                     "description": "The 5 or 6 digits MCC+MNC (Mobile Country Code + Mobile Network Code) of the network operator.",
-                    "key": "networkOperator",
+                    "name": "MCC+MNC network operator code",
                     "required": false,
-                    "title": "MCC+MNC network operator code",
                     "type": "kotlin.Int",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The full name of the network operator.",
-                    "key": "networkOperatorName",
+                    "name": "Network operator name",
                     "required": false,
-                    "title": "Network operator name",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "ISO-3166-1 alpha-2 country code equivalent for the SIM provider's country code.",
-                    "key": "simCountryIso",
+                    "name": "SIM ISO country code",
                     "required": false,
-                    "title": "SIM ISO country code",
                     "type": "kotlin.String",
                     "values": {
                         "Afghanistan": "AF",
@@ -4898,18 +5030,16 @@
                 {
                     "default": null,
                     "description": "The 5 or 6 digits MCC+MNC (Mobile Country Code + Mobile Network Code) of the SIM operator.",
-                    "key": "simOperator",
+                    "name": "MCC+MNC SIM operator code",
                     "required": false,
-                    "title": "MCC+MNC SIM operator code",
                     "type": "kotlin.Int",
                     "values": null
                 },
                 {
                     "default": null,
                     "description": "The full name of the SIM operator.",
-                    "key": "simOperatorName",
+                    "name": "SIM operator name",
                     "required": false,
-                    "title": "SIM operator name",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -4920,7 +5050,9 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [
@@ -4938,10 +5070,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -4968,10 +5102,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -4988,7 +5124,9 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [
@@ -5002,9 +5140,8 @@
                 {
                     "default": "@android:color/black",
                     "description": "Can be a hex color (#RRGGBB) or a color resource reference.",
-                    "key": "darkThemeBackgroundColor",
+                    "name": "Dark theme background color",
                     "required": false,
-                    "title": "Dark theme background color",
                     "type": "kotlin.String",
                     "values": {
                         "Catppuccin (Mocha)": "#181825",
@@ -5025,10 +5162,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -5036,6 +5175,7 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
+                "ResourcePatch",
                 "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch"
@@ -5046,9 +5186,8 @@
                 {
                     "default": "@android:color/black",
                     "description": "Can be a hex color (#RRGGBB) or a color resource reference.",
-                    "key": "darkThemeBackgroundColor",
+                    "name": "Dark theme background color",
                     "required": false,
-                    "title": "Dark theme background color",
                     "type": "kotlin.String",
                     "values": {
                         "Catppuccin (Mocha)": "#181825",
@@ -5066,9 +5205,8 @@
                 {
                     "default": "@android:color/white",
                     "description": "Can be a hex color (#RRGGBB) or a color resource reference.",
-                    "key": "lightThemeBackgroundColor",
+                    "name": "Light theme background color",
                     "required": false,
-                    "title": "Light theme background color",
                     "type": "kotlin.String",
                     "values": {
                         "Catppuccin (Latte)": "#E6E9EF",
@@ -5089,7 +5227,9 @@
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "7.29.52",
-                    "8.10.52"
+                    "8.10.52",
+                    "8.37.56",
+                    "8.40.54"
                 ]
             },
             "dependencies": [],
@@ -5266,10 +5406,12 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
@@ -5285,39 +5427,22 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
+                    "20.14.43",
+                    "20.21.37",
+                    "20.26.46",
+                    "20.31.42",
+                    "20.37.48",
+                    "20.40.45"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds options to set default video qualities and always use the advanced video quality menu.",
             "name": "Video quality",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.34.42",
-                    "20.07.39",
-                    "20.13.41",
-                    "20.14.43"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch",
-                "ResourcePatch"
-            ],
-            "description": "Adds an option to replace the search icon with a wide search bar. This will hide the YouTube logo when active.",
-            "name": "Wide search bar",
             "options": [],
             "use": true
         }
