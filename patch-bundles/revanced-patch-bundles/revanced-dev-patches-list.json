@@ -1,5 +1,5 @@
 {
-    "version": "v6.0.0-dev.24",
+    "version": "v6.0.0-dev.25",
     "patches": [
         {
             "compatiblePackages": {
@@ -1066,6 +1066,16 @@
             "name": "Disable Quick Edit",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [],
+            "description": "Removes the auto-scroll toggle and prevents Reels from scrolling automatically.",
+            "name": "Disable Reels auto-scroll",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
