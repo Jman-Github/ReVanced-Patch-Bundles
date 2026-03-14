@@ -637,7 +637,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***69 Patches***
+***70 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add ability to copy media link``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
@@ -693,6 +693,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide Recommended Users``` | ```Hide recommended users that pops up when you follow someone``` | ```com.twitter.android``` | ```All versions``` |
 | ```Hide timeline posts by category``` | ```Hides different post category like who to follow, news today etc from timeline.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Hook feature flag``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Legacy share links``` | ```Brings back username on post share links. Works post 11.4x.xx``` | ```com.twitter.android``` | ```All versions``` |
 | ```Log server response``` | ```Log json responses received from server``` | ```com.twitter.android``` | ```All versions``` |
 | ```Native downloader``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Native reader mode``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |

@@ -1,5 +1,5 @@
 {
-    "version": "v3.0.0-dev.10",
+    "version": "v3.0.0-dev.11",
     "patches": [
         {
             "compatiblePackages": {
@@ -141,6 +141,7 @@
                 "com.twitter.android": []
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Allows for using domains like fxtwitter when sharing tweets/posts.",
@@ -666,6 +667,19 @@
             ],
             "description": null,
             "name": "Hook feature flag",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Brings back username on post share links. Works post 11.4x.xx",
+            "name": "Legacy share links",
             "options": [],
             "use": true
         },
