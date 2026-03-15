@@ -1,5 +1,5 @@
 {
-    "version": "v1.19.0-dev.4",
+    "version": "v1.19.0-dev.5",
     "patches": [
         {
             "compatiblePackages": {
@@ -652,25 +652,6 @@
             },
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
-            "description": "Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.",
-            "name": "Disable resuming Shorts on startup",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "20.44.38",
-                    "20.40.45",
-                    "20.31.42",
-                    "20.21.37"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to disable rolling number animations of video view count, user likes, and upload time.",
@@ -691,6 +672,25 @@
             ],
             "description": "Adds an option to disable the popup that appears when taking a screenshot.",
             "name": "Disable screenshot popup",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.44.38",
+                    "20.40.45",
+                    "20.31.42",
+                    "20.21.37"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to disable Shorts from resuming on app startup when Shorts were last being watched.",
+            "name": "Disable Shorts resuming on startup",
             "options": [],
             "use": true
         },
