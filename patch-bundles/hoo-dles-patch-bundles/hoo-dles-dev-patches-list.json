@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.0-dev.1",
+    "version": "v1.13.1-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -60,18 +60,6 @@
                 }
             ],
             "use": false
-        },
-        {
-            "compatiblePackages": {
-                "all.in.one.calculator": [
-                    "3.2.4"
-                ]
-            },
-            "dependencies": [],
-            "description": "Disables all ads, although some layout placeholder elements may remain.",
-            "name": "Disable ads",
-            "options": [],
-            "use": true
         },
         {
             "compatiblePackages": {
