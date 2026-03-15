@@ -1,5 +1,5 @@
 {
-    "version": "v1.19.0-dev.3",
+    "version": "v1.19.0-dev.4",
     "patches": [
         {
             "compatiblePackages": {
@@ -560,6 +560,22 @@
             ],
             "description": "Adds an option to disable server side layout updates and use an older UI.",
             "name": "Disable layout updates",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2026.04.0",
+                    "2026.03.0",
+                    "2025.48.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit"
+            ],
+            "description": "Adds an option to disable the modern home UI.",
+            "name": "Disable modern home",
             "options": [],
             "use": true
         },
@@ -1805,6 +1821,23 @@
             ],
             "description": "Adds options to automatically play the next Short.",
             "name": "Shorts autoplay",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2026.04.0",
+                    "2026.03.0",
+                    "2025.48.0"
+                ]
+            },
+            "dependencies": [
+                "Settings for Reddit",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to show the view count of Posts.",
+            "name": "Show view count",
             "options": [],
             "use": true
         },

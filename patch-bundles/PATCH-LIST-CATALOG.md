@@ -2688,7 +2688,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***100 Patches***
+***102 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
@@ -2777,6 +2777,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Video ads``` | ```Adds an option to remove ads in the video player.``` | ```com.google.android.youtube``` | ```20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Video quality``` | ```Adds options to set default video qualities and always use the advanced video quality menu.``` | ```com.google.android.youtube``` | ```20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
+| ```Disable modern home``` | ```Adds an option to disable the modern home UI.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
 | ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
 | ```Hide ads``` | ```Adds options to hide ads.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
 | ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
@@ -2787,6 +2788,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
 | ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
 | ```Settings for Reddit``` | ```Applies mandatory patches to implement Morphe settings into the application.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
+| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
 | ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch does not work if the app is installed by mounting and may cause unexpected issues with some apps.``` | ```Universal``` | ```All versions``` |
