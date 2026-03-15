@@ -1,5 +1,5 @@
 {
-    "version": "v3.0.0-dev.11",
+    "version": "v3.0.0-dev.12",
     "patches": [
         {
             "compatiblePackages": {
@@ -700,6 +700,7 @@
                 "com.twitter.android": []
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
