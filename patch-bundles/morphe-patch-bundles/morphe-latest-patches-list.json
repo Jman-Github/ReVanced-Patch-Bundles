@@ -1,5 +1,5 @@
 {
-    "version": "v1.19.0",
+    "version": "v1.20.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -572,7 +572,7 @@
                 ]
             },
             "dependencies": [
-                "Settings for Reddit"
+                "BytecodePatch"
             ],
             "description": "Adds an option to disable the modern home UI.",
             "name": "Disable modern home",
@@ -668,7 +668,7 @@
                 ]
             },
             "dependencies": [
-                "Settings for Reddit"
+                "BytecodePatch"
             ],
             "description": "Adds an option to disable the popup that appears when taking a screenshot.",
             "name": "Disable screenshot popup",
@@ -970,7 +970,7 @@
                 ]
             },
             "dependencies": [
-                "Settings for Reddit"
+                "BytecodePatch"
             ],
             "description": "Adds options to hide ads.",
             "name": "Hide ads",
@@ -1162,7 +1162,7 @@
                 ]
             },
             "dependencies": [
-                "Settings for Reddit"
+                "BytecodePatch"
             ],
             "description": "Adds options to hide buttons in the navigation bar.",
             "name": "Hide navigation buttons",
@@ -1217,7 +1217,7 @@
                 ]
             },
             "dependencies": [
-                "Settings for Reddit"
+                "BytecodePatch"
             ],
             "description": "Adds an option to hide the recommended communities shelves in subreddits.",
             "name": "Hide recommended communities shelf",
@@ -1314,7 +1314,7 @@
                 ]
             },
             "dependencies": [
-                "Settings for Reddit"
+                "BytecodePatch"
             ],
             "description": "Adds options to hide the sidebar components.",
             "name": "Hide sidebar components",
@@ -1348,7 +1348,7 @@
                 ]
             },
             "dependencies": [
-                "Settings for Reddit",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to hide the Trending Today shelf from search suggestions.",
@@ -1468,7 +1468,7 @@
                 ]
             },
             "dependencies": [
-                "Settings for Reddit"
+                "BytecodePatch"
             ],
             "description": "Adds an option to skip over redirection URLs in external links.",
             "name": "Open links directly",
@@ -1666,7 +1666,7 @@
                 ]
             },
             "dependencies": [
-                "Settings for Reddit"
+                "BytecodePatch"
             ],
             "description": "Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.",
             "name": "Remove subreddit dialog",
@@ -1741,7 +1741,7 @@
                 ]
             },
             "dependencies": [
-                "Settings for Reddit"
+                "BytecodePatch"
             ],
             "description": "Adds an option to sanitize sharing links by removing tracking query parameters.",
             "name": "Sanitize sharing links",
@@ -1788,24 +1788,6 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2026.04.0",
-                    "2026.03.0",
-                    "2025.48.0"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "Disable Play Store updates",
-                "BytecodePatch"
-            ],
-            "description": "Applies mandatory patches to implement Morphe settings into the application.",
-            "name": "Settings for Reddit",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "20.44.38",
                     "20.40.45",
@@ -1833,7 +1815,7 @@
                 ]
             },
             "dependencies": [
-                "Settings for Reddit",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to show the view count of Posts.",

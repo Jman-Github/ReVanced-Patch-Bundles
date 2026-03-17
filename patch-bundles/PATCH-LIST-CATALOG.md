@@ -2690,7 +2690,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***102 Patches***
+***101 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
@@ -2789,7 +2789,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
 | ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
 | ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
-| ```Settings for Reddit``` | ```Applies mandatory patches to implement Morphe settings into the application.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
 | ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
 | ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2026.03.0, 2025.48.0``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
