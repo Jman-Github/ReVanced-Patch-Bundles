@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0",
+    "version": "v1.14.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -282,6 +282,20 @@
         },
         {
             "compatiblePackages": {
+                "com.hellochinese": [
+                    "7.9.25"
+                ]
+            },
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "org.languageapp.lingory": [
                     "1.2.75"
                 ]
@@ -308,7 +322,9 @@
         },
         {
             "compatiblePackages": {
-                "net.teuida.teuida": []
+                "net.teuida.teuida": [
+                    "1.21.16"
+                ]
             },
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
@@ -348,6 +364,20 @@
             },
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.windyty.android": [
+                    "49.0.1"
+                ]
+            },
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Enables some app features locked behind the subscription paywall. Not all premium functionality is available.",
             "name": "Enable Premium",
             "options": [],
             "use": true
@@ -485,13 +515,14 @@
         },
         {
             "compatiblePackages": {
-                "net.teuida.teuida": []
+                "net.teuida.teuida": [
+                    "1.21.16"
+                ]
             },
             "dependencies": [
                 "Add resources",
                 "Change package name",
                 "ResourcePatch",
-                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
