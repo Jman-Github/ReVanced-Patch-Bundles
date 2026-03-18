@@ -1,9 +1,9 @@
 {
-    "version": "v2.0.0",
+    "version": "v3.0.0",
     "patches": [
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -15,9 +15,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": "Bring back old twitter logo and name",
             "name": "Bring back twitter",
             "options": [],
@@ -25,7 +27,20 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to browse the tweet object in the share menu.",
+            "name": "Browse tweet object",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch",
@@ -38,7 +53,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [],
             "description": "Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.",
@@ -61,7 +76,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -73,7 +88,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -85,7 +100,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -97,7 +112,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch",
@@ -110,7 +125,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch",
@@ -123,9 +138,10 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Allows for using domains like fxtwitter when sharing tweets/posts.",
@@ -135,7 +151,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch",
@@ -148,7 +164,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -160,7 +176,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -172,7 +188,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -184,7 +200,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -196,7 +212,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -208,7 +224,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -220,7 +236,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -232,7 +248,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -244,7 +260,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -256,7 +272,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -268,7 +284,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -280,7 +296,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -292,7 +308,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -304,7 +320,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "Hook feature flag",
@@ -317,7 +333,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -325,11 +341,11 @@
             "description": "Bring back legacy features like messages and share sheet.",
             "name": "Disunify xchat system",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -341,7 +357,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [],
             "description": "Replaces the default Twitter Blue with the user's Material You palette.",
@@ -351,7 +367,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -363,7 +379,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch",
@@ -376,7 +392,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -388,7 +404,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -399,7 +415,9 @@
             "use": true
         },
         {
-            "compatiblePackages": null,
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
             "dependencies": [],
             "description": "Makes all app activities exportable.",
             "name": "Export all activities",
@@ -408,7 +426,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch",
@@ -421,7 +439,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -430,18 +448,7 @@
             "name": "Handle custom twitter links",
             "options": [
                 {
-                    "default": [
-                        "vxtwitter.com",
-                        "fixvx.com",
-                        "fxtwitter.com",
-                        "fixupx.com",
-                        "twittpr.com",
-                        "hitlerx.com",
-                        "girlcockx.com",
-                        "stupidpenisx.com",
-                        "cunnyx.com",
-                        "autistic.kids"
-                    ],
+                    "default": "[vxtwitter.com, fixvx.com, fxtwitter.com, fixupx.com, twittpr.com, hitlerx.com, girlcockx.com, stupidpenisx.com, cunnyx.com, autistic.kids]",
                     "description": "The custom sharing domains to register to be opened in Twitter",
                     "key": "customLinkHosts",
                     "required": true,
@@ -454,7 +461,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -466,7 +473,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -478,7 +485,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "Hook feature flag",
@@ -491,7 +498,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -503,7 +510,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch",
@@ -516,7 +523,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -528,7 +535,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "Hook feature flag",
@@ -541,7 +548,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -553,7 +560,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -565,7 +572,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "Hook feature flag",
@@ -578,7 +585,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -590,7 +597,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -602,7 +609,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -614,7 +621,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch",
@@ -627,7 +634,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -639,7 +646,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch",
@@ -652,7 +659,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "ResourcePatch",
@@ -665,7 +672,20 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Brings back username on post share links. Works post 11.4x.xx",
+            "name": "Legacy share links",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -677,9 +697,10 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -690,7 +711,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "ResourcePatch",
@@ -704,7 +725,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -716,7 +737,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -728,7 +749,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch",
@@ -741,7 +762,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -753,7 +774,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -765,7 +786,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "Hook feature flag",
@@ -778,7 +799,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -790,7 +811,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch",
@@ -803,7 +824,20 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Share tweets as rendered image. Requires X 11.0.0-release.0 or higher.",
+            "name": "Share Tweet as Image",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -815,7 +849,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -827,7 +861,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -839,7 +873,7 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": []
             },
             "dependencies": [
                 "BytecodePatch"
