@@ -1,5 +1,5 @@
 {
-    "version": "v6.0.1",
+    "version": "v6.1.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -1445,6 +1445,16 @@
             "name": "Enable exclusive audio playback",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [],
+            "description": "Unlocks the redesigned location sticker with additional style options.",
+            "name": "Enable location sticker redesign",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -4478,6 +4488,62 @@
             "use": true
         },
         {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Forces apps to see Keymaster and Attestation security levels as 'StrongBox' (Level 2).",
+            "name": "Spoof keystore security level",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Spoofs Google Play data about the user's age and verification status.",
+            "name": "Spoof Play Age Signals",
+            "options": [
+                {
+                    "default": 18,
+                    "description": "A positive integer.",
+                    "name": "Lower age bound",
+                    "required": false,
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": 2147483647,
+                    "description": "A positive integer. Must be greater than the lower age bound.",
+                    "name": "Upper age bound",
+                    "required": false,
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": 0,
+                    "description": "An integer representing the user status.",
+                    "name": "User status",
+                    "required": false,
+                    "type": "kotlin.Int",
+                    "values": {
+                        "DECLARED": 5,
+                        "SUPERVISED": 1,
+                        "SUPERVISED_APPROVAL_DENIED": 3,
+                        "SUPERVISED_APPROVAL_PENDING": 2,
+                        "UNKNOWN": 4,
+                        "VERIFIED": 0
+                    }
+                }
+            ],
+            "use": false
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Spoofs device integrity states (Locked Bootloader, Verified OS) for apps that perform local certificate attestation.",
+            "name": "Spoof root of trust",
+            "options": [],
+            "use": false
+        },
+        {
             "compatiblePackages": {
                 "at.gv.oe.app": null
             },
@@ -5039,6 +5105,46 @@
                     "default": null,
                     "description": "The full name of the SIM operator.",
                     "name": "SIM operator name",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "15-digit IMEI to spoof, blank to skip, or 'random'.",
+                    "name": "IMEI value",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "14-char hex MEID to spoof, blank to skip, or 'random'.",
+                    "name": "MEID value",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "15-digit IMSI to spoof, blank to skip, or 'random'.",
+                    "name": "IMSI (Subscriber ID)",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "19-digit ICCID to spoof, blank to skip, or 'random'.",
+                    "name": "ICCID (SIM Serial)",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "Phone number to spoof, blank to skip, or 'random'.",
+                    "name": "Phone number",
                     "required": false,
                     "type": "kotlin.String",
                     "values": null
