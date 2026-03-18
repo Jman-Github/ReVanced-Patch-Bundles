@@ -1,5 +1,5 @@
 {
-    "version": "v1.20.0-dev.1",
+    "version": "v1.20.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -1413,6 +1413,26 @@
             ],
             "description": "Adds options to change the in-app minimized player.",
             "name": "Miniplayer",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "8.44.54",
+                    "8.40.54",
+                    "8.10.52",
+                    "7.29.52"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to show previous and next track buttons in the miniplayer.",
+            "name": "Miniplayer previous and next buttons",
             "options": [],
             "use": true
         },
