@@ -1,5 +1,5 @@
 {
-    "version": "v1.20.0-dev.3",
+    "version": "v1.20.0-dev.4",
     "patches": [
         {
             "compatiblePackages": {
@@ -1017,8 +1017,6 @@
             },
             "dependencies": [
                 "ResourcePatch",
-                "BytecodePatch",
-                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Adds options to remove general ads.",
@@ -1156,7 +1154,6 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
                 "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch",
@@ -1684,6 +1681,26 @@
             ],
             "description": "Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.",
             "name": "Playback speed",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.45.36",
+                    "20.44.38",
+                    "20.40.45",
+                    "20.31.42",
+                    "20.21.37"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to display buttons in the video player to reload video.",
+            "name": "Reload video",
             "options": [],
             "use": true
         },
