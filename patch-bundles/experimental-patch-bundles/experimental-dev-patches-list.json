@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0-dev.1",
+    "version": "v2.0.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -22,9 +22,8 @@
                 {
                     "default": "Default",
                     "description": "The name of the package to rename the app to.",
-                    "key": "packageName",
+                    "name": "packageName",
                     "required": true,
-                    "title": "Package name",
                     "type": "kotlin.String",
                     "values": {
                         "Default": "Default"
