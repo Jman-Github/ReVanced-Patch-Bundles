@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.0",
+    "version": "v1.14.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -375,7 +375,7 @@
                 ]
             },
             "dependencies": [
-                "RawResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Enables some app features locked behind the subscription paywall. Not all premium functionality is available.",
             "name": "Enable Premium",
