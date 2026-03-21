@@ -1652,7 +1652,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***48 Patches***
+***49 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.``` | ```app.ttmikstories.android``` | ```1.16.0``` |
@@ -1687,12 +1687,12 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```ginlemon.flowerfree``` | ```6.6 build 002``` |
 | ```Enable Prime membership``` | ```Enables app features locked behind the subscription paywall.``` | ```jp.ne.ibis.ibispaintx.app``` | ```13.1.19``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```kr.co.yjteam.dailypay``` | ```6.0.7``` |
-| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```kr.co.yjteam.dailypay``` | ```All versions``` |
+| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```kr.co.yjteam.dailypay``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```kr.eggbun.eggconvo``` | ```4.12.19``` |
 | ```Force Native Keyboard``` | ```When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.``` | ```kr.eggbun.eggconvo``` | ```4.12.19``` |
 | ```Enable Plus``` | ```Enable Plus membership (not all features are available). There is a strict version requirement for this patch.``` | ```me.mycake``` | ```6.4.0``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```net.teuida.teuida``` | ```1.21.16``` |
-| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```net.teuida.teuida``` | ```1.21.16``` |
+| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```net.teuida.teuida``` | ```All versions``` |
 | ```Disable anti-tamper``` | ```Disables anti-tamper checks including signature verification and purchase ID.``` | ```nom.vrd``` | ```1.9.3-GooglePlay, 1.9.3-storage``` |
 | ```Disable telemetry``` | ```Disables event logging sent to the app's custom endpoint.``` | ```nom.vrd``` | ```1.9.3-GooglePlay, 1.9.3-storage``` |
 | ```Remove trial limit``` | ```Removes the imposed 6-hour trial usage limit.``` | ```nom.vrd``` | ```1.9.3-GooglePlay, 1.9.3-storage``` |
@@ -1700,6 +1700,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```org.languageapp.lingory``` | ```1.2.75``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```org.totschnig.myexpenses``` | ```3.9.8``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```pl.solidexplorer2``` | ```3.4.1``` |
+| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```pl.solidexplorer2``` | ```All versions``` |
 | ```Add resources``` | ```Add resources such as strings or arrays to the app.``` | ```Universal``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
