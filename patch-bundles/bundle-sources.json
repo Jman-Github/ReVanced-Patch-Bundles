@@ -264,6 +264,16 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "docbt-stable": {
+        "patches": "https://api.github.com/repos/docbt/patched-up",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "lov432-stable": {
+        "patches": "https://api.github.com/repos/lov432/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -521,6 +531,16 @@
     },
     "alexvbp-dev": {
         "patches": "https://api.github.com/repos/Alexvbp/f1tv-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "docbt-dev": {
+        "patches": "https://api.github.com/repos/docbt/patched-up",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "lov432-dev": {
+        "patches": "https://api.github.com/repos/lov432/revanced-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -783,5 +803,16 @@
         "patches": "https://api.github.com/repos/Alexvbp/f1tv-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
+    },
+    "docbt-latest": {
+        "patches": "https://api.github.com/repos/docbt/patched-up",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "lov432-latest": {
+        "patches": "https://api.github.com/repos/lov432/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
     }
+
 }

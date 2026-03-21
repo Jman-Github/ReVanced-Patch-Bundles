@@ -689,6 +689,32 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
+### 📦 Docbt-Patches-Bundle [API v4]:
+[🧩 Docbt Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-docbt-morphed-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/docbt-patch-bundles/docbt-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/docbt-patch-bundles/docbt-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/docbt-patch-bundles/docbt-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 LoV432-Patches-Bundle [API v4]:
+[🧩 LoV432 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-lov432-morphed-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lov432-patch-bundles/lov432-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lov432-patch-bundles/lov432-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lov432-patch-bundles/lov432-dev-patches-bundle.json```
+</details>
+
+---
 # 📱 ReVanced Manager Compose:
 ### 📍 Universal ReVanced Manager (my fork)
 *Highly suggested if you want to be unrestricted in the patch bundles you import!*
@@ -807,6 +833,10 @@ https://github.com/ReVanced/revanced-manager/releases
 #### 🏷️ [Adobo-Patches-Bundle](https://github.com/jkennethcarino/adobo)
 
 #### 🏷️ [Alexvbp-Patches-Bundle](https://github.com/Alexvbp/f1tv-patches)
+
+#### 🏷️ [Docbt-Patches-Bundle](https://github.com/Docbt/patched-up)
+
+#### 🏷️ [LoV432-Patches-Bundle](https://github.com/LoV432/revanced-patches)
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*

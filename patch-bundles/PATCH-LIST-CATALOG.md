@@ -55,6 +55,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 RookieEnough Bundle Patch List](#-rookieenough-bundle-patch-list)    
 [🧩 Adobo Bundle Patch List](#-adobo-bundle-patch-list)    
 [🧩 Alexvbp Bundle Patch List](#-alexvbp-bundle-patch-list)    
+[🧩 Docbt Bundle Patch List](#-docbt-bundle-patch-list)    
+[🧩 LoV432 Bundle Patch List](#-lov432-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -3267,5 +3269,25 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable UHD/4K``` | ```Enables UHD/4K streaming on all devices by bypassing all device support checks.``` | ```com.formulaone.production``` | ```All versions``` |
+
+</details>
+  
+---
+### 🧩 Docbt Bundle Patch List:
+[📦 Docbt-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-docbt-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
+
+---
+### 🧩 LoV432 Bundle Patch List:
+[📦 LoV432-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lov432-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
 
 </details>
