@@ -57,6 +57,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Alexvbp Bundle Patch List](#-alexvbp-bundle-patch-list)    
 [🧩 Docbt Bundle Patch List](#-docbt-bundle-patch-list)    
 [🧩 LoV432 Bundle Patch List](#-lov432-bundle-patch-list)    
+[🧩 PixelPusher247 Bundle Patch List](#-pixelpusher247-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -3300,5 +3301,14 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Pro``` | ```N/A``` | ```com.kevinforeman.nzb360``` | ```All versions``` |
+
+</details>
+---
+### 🧩 PixelPusher247 Bundle Patch List:
+[📦 PixelPusher247-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-pixelpusher247-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
 
 </details>
