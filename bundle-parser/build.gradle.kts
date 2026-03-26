@@ -71,6 +71,14 @@ repositories {
     }
     maven {
         name = "MorphePackages"
+        url = uri("https://maven.pkg.github.com/MorpheApp/morphe-patcher")
+        credentials {
+            username = resolvedGprUser
+            password = resolvedGprKey
+        }
+    }
+    maven {
+        name = "MorpheRegistryPackages"
         url = uri("https://maven.pkg.github.com/MorpheApp/registry")
         credentials {
             username = resolvedGprUser
