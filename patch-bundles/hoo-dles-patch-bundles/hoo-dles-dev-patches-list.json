@@ -1,5 +1,5 @@
 {
-    "version": "v1.15.0-dev.1",
+    "version": "v1.15.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -175,7 +175,19 @@
                 "BytecodePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
-            "name": "Enable FobMob+",
+            "name": "Enable FotMob+",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.alltrails.alltrails": [
+                    "26.3.20"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Peak membership",
             "options": [],
             "use": true
         },
@@ -500,7 +512,9 @@
         },
         {
             "compatiblePackages": {
-                "kr.co.yjteam.dailypay": []
+                "kr.co.yjteam.dailypay": [
+                    "6.0.7"
+                ]
             },
             "dependencies": [
                 "Add resources",
@@ -514,7 +528,9 @@
         },
         {
             "compatiblePackages": {
-                "pl.solidexplorer2": []
+                "pl.solidexplorer2": [
+                    "3.4.1"
+                ]
             },
             "dependencies": [
                 "Add resources",
@@ -528,7 +544,9 @@
         },
         {
             "compatiblePackages": {
-                "net.teuida.teuida": []
+                "net.teuida.teuida": [
+                    "1.21.16"
+                ]
             },
             "dependencies": [
                 "Add resources",
@@ -569,7 +587,9 @@
         },
         {
             "compatiblePackages": {
-                "com.amazon.avod.thirdpartyclient": []
+                "com.amazon.avod.thirdpartyclient": [
+                    "3.0.443"
+                ]
             },
             "dependencies": [],
             "description": "Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.",

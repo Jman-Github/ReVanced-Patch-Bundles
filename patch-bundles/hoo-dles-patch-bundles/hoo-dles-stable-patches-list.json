@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.1",
+    "version": "v1.15.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -175,7 +175,19 @@
                 "BytecodePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
-            "name": "Enable FobMob+",
+            "name": "Enable FotMob+",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.alltrails.alltrails": [
+                    "26.3.20"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Peak membership",
             "options": [],
             "use": true
         },
@@ -500,16 +512,33 @@
         },
         {
             "compatiblePackages": {
-                "kr.co.yjteam.dailypay": []
+                "kr.co.yjteam.dailypay": [
+                    "6.0.7"
+                ]
             },
             "dependencies": [
                 "Add resources",
-                "Change package name",
                 "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
-            "name": "GmsCore support",
+            "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
+            "name": "MicroG integration",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "pl.solidexplorer2": [
+                    "3.4.1"
+                ]
+            },
+            "dependencies": [
+                "Add resources",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
+            "name": "MicroG integration",
             "options": [],
             "use": true
         },
@@ -521,12 +550,11 @@
             },
             "dependencies": [
                 "Add resources",
-                "Change package name",
                 "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
-            "name": "GmsCore support",
+            "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
+            "name": "MicroG integration",
             "options": [],
             "use": true
         },
@@ -559,7 +587,9 @@
         },
         {
             "compatiblePackages": {
-                "com.amazon.avod.thirdpartyclient": []
+                "com.amazon.avod.thirdpartyclient": [
+                    "3.0.443"
+                ]
             },
             "dependencies": [],
             "description": "Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.",

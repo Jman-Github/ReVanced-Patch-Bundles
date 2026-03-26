@@ -1,5 +1,5 @@
 {
-    "version": "v1.20.0",
+    "version": "v1.22.0-dev.5",
     "patches": [
         {
             "compatiblePackages": {
@@ -35,7 +35,7 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Adds options to bypass power saving restrictions for Ambient mode and disable it entirely or in fullscreen.",
             "name": "Ambient mode",
@@ -386,7 +386,7 @@
                 },
                 {
                     "default": null,
-                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nmorphe_adaptive_background_custom.png\nmorphe_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nmorphe_adaptive_monochrome_custom.xml\nmorphe_notification_icon_custom.xml",
+                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nmorphe_adaptive_background_custom.png\nmorphe_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with a monochrome icon file:\nmorphe_adaptive_monochrome_custom.xml\n\nOptionally, the path contains a notification icon in one of the following formats:\n- XML vector drawable placed in 'drawable':\nmorphe_notification_icon_custom.xml\n- PNG raster images placed in the matching 'drawable-<dpi>' folders:\n- drawable-mdpi/morphe_notification_icon_custom.png (24x24 px)\n- drawable-hdpi/morphe_notification_icon_custom.png (36x36 px)\n- drawable-xhdpi/morphe_notification_icon_custom.png (48x48 px)\n- drawable-xxhdpi/morphe_notification_icon_custom.png (72x72 px)\n- drawable-xxxhdpi/morphe_notification_icon_custom.png (96x96 px)",
                     "key": "customIcon",
                     "required": false,
                     "title": "Custom icon",
@@ -427,7 +427,7 @@
                 },
                 {
                     "default": null,
-                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nmorphe_adaptive_background_custom.png\nmorphe_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nmorphe_adaptive_monochrome_custom.xml\nmorphe_notification_icon_custom.xml",
+                    "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nmorphe_adaptive_background_custom.png\nmorphe_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with a monochrome icon file:\nmorphe_adaptive_monochrome_custom.xml\n\nOptionally, the path contains a notification icon in one of the following formats:\n- XML vector drawable placed in 'drawable':\nmorphe_notification_icon_custom.xml\n- PNG raster images placed in the matching 'drawable-<dpi>' folders:\n- drawable-mdpi/morphe_notification_icon_custom.png (24x24 px)\n- drawable-hdpi/morphe_notification_icon_custom.png (36x36 px)\n- drawable-xhdpi/morphe_notification_icon_custom.png (48x48 px)\n- drawable-xxhdpi/morphe_notification_icon_custom.png (72x72 px)\n- drawable-xxxhdpi/morphe_notification_icon_custom.png (96x96 px)",
                     "key": "customIcon",
                     "required": false,
                     "title": "Custom icon",
@@ -497,7 +497,7 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Adds an option to disable player double tap gestures.",
             "name": "Disable double tap actions",
@@ -707,7 +707,7 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Adds an option to disable Shorts from resuming on app startup when Shorts were last being watched.",
             "name": "Disable Shorts resuming on startup",
@@ -825,7 +825,7 @@
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Adds options for debugging and exporting Morphe logs to the clipboard.",
             "name": "Enable debugging",
@@ -902,7 +902,7 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Adds an option to always use the original audio track.",
             "name": "Force original audio",
@@ -922,7 +922,7 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Adds an option to always use the original audio track.",
             "name": "Force original audio",
@@ -1017,7 +1017,7 @@
             },
             "dependencies": [
                 "ResourcePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Adds options to remove general ads.",
             "name": "Hide ads",
@@ -1094,7 +1094,7 @@
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Adds an option to hide suggested video cards at the end of videos.",
             "name": "Hide end screen cards",
@@ -1155,7 +1155,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
+                "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -1236,7 +1236,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Adds options to hide the player Cast, Autoplay, Captions, Previous & Next buttons, and the player control buttons background.",
             "name": "Hide player overlay buttons",
@@ -1317,7 +1317,7 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Adds options to hide components related to Shorts.",
             "name": "Hide Shorts components",
@@ -1512,7 +1512,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
@@ -1571,7 +1571,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Adds options to open Shorts in the regular video player.",
@@ -1739,7 +1739,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Removes restrictions on background playback, including playing kids videos in the background.",
@@ -1799,7 +1799,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Adds an option to show the dislike count of videos with Return YouTube Dislike.",
             "name": "Return YouTube Dislike",
@@ -1894,7 +1894,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Adds options to automatically play the next Short.",
             "name": "Shorts autoplay",
@@ -1956,7 +1956,7 @@
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to trick YouTube into thinking you are running an older version of the app. This can be used to restore old UI elements and features.",
@@ -2076,7 +2076,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
+                "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch"

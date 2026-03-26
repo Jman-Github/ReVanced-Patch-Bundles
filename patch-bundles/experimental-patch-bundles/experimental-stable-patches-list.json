@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0",
+    "version": "v2.0.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -22,9 +22,8 @@
                 {
                     "default": "Default",
                     "description": "The name of the package to rename the app to.",
-                    "key": "packageName",
+                    "name": "packageName",
                     "required": true,
-                    "title": "Package name",
                     "type": "kotlin.String",
                     "values": {
                         "Default": "Default"
@@ -55,9 +54,7 @@
         },
         {
             "compatiblePackages": {
-                "com.instagram.android": [
-                    "378.0.0.52.68"
-                ]
+                "com.instagram.android": null
             },
             "dependencies": [],
             "description": "Disables the signature check that causes the app to crash on startup.",

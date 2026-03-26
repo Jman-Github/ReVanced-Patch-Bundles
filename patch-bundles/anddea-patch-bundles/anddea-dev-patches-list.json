@@ -1,5 +1,5 @@
 {
-    "version": "v4.0.0-dev.8",
+    "version": "v4.0.0-dev.12",
     "patches": [
         {
             "compatiblePackages": {
@@ -181,28 +181,6 @@
         },
         {
             "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
-            "dependencies": [
-                "Settings for YouTube",
-                "ResourcePatch",
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
-            "description": "Adds an option to open the channel instead of the live stream when clicking on the live ring.",
-            "name": "Change live ring click action",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.reddit.frontpage": [
                     "2024.17.0",
                     "2025.05.1",
@@ -332,6 +310,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "Settings for YouTube"
             ],
             "description": "Adds an option to set which page the app opens in instead of the homepage.",
@@ -970,7 +949,8 @@
                 ]
             },
             "dependencies": [
-                "Settings for YouTube"
+                "Settings for YouTube",
+                "BytecodePatch"
             ],
             "description": "Adds options to disable haptic feedback when swiping in the video player.",
             "name": "Disable haptic feedback",
@@ -1604,6 +1584,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds options to hide action buttons under videos.",
@@ -1674,6 +1655,7 @@
                 "ResourcePatch",
                 "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Adds options to hide ads.",
@@ -2388,6 +2370,27 @@
         },
         {
             "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.05.36",
+                    "19.16.39",
+                    "19.43.41",
+                    "19.44.39",
+                    "19.47.53",
+                    "20.05.46"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to display a button in the video player to reload the current video.",
+            "name": "Reload video",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "6.20.51",
                     "6.29.59",
@@ -2700,10 +2703,11 @@
             },
             "dependencies": [
                 "Settings for YouTube",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to set Cookies in YouTube Transcript API requests.",
-            "name": "Set Transcript Cookies",
+            "name": "Set transcript cookies",
             "options": [],
             "use": true
         },
@@ -2875,6 +2879,7 @@
             "dependencies": [
                 "Settings for YouTube",
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",

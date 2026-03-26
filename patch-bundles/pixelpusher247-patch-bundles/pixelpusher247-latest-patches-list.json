@@ -1,0 +1,17 @@
+{
+    "version": "v1.1.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "tv.trakt.trakt": [
+                    "3.4.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the Upgrade to VIP upsell banner from the home screen.",
+            "name": "Hide VIP banner",
+            "options": [],
+            "use": true
+        }
+    ]
+}

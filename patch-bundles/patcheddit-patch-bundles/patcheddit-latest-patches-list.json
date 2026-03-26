@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.0-dev.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -23,7 +23,7 @@
             },
             "dependencies": [
                 "BytecodePatch",
-                "Intercept HTTP requests"
+                "BytecodePatch"
             ],
             "description": null,
             "name": "Automatically undelete Imgur images",
@@ -38,50 +38,12 @@
             },
             "dependencies": [
                 "BytecodePatch",
-                "Intercept HTTP requests"
+                "BytecodePatch"
             ],
             "description": null,
             "name": "Automatically undelete Reddit content",
             "options": [],
             "use": true
-        },
-        {
-            "compatiblePackages": null,
-            "dependencies": [],
-            "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
-            "name": "Change package name",
-            "options": [
-                {
-                    "default": "Default",
-                    "description": "The name of the package to rename the app to.",
-                    "key": "packageName",
-                    "required": true,
-                    "title": "Package name",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Default": "Default"
-                    }
-                },
-                {
-                    "default": false,
-                    "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
-                    "key": "updatePermissions",
-                    "required": false,
-                    "title": "Update permissions",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
-                    "key": "updateProviders",
-                    "required": false,
-                    "title": "Update providers",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ],
-            "use": false
         },
         {
             "compatiblePackages": {
@@ -109,7 +71,7 @@
         },
         {
             "compatiblePackages": {
-                "com.laurencedawson.reddit_sync": []
+                "io.syncapps.lemmy_sync": []
             },
             "dependencies": [
                 "BytecodePatch"
@@ -121,21 +83,13 @@
         },
         {
             "compatiblePackages": {
-                "io.syncapps.lemmy_sync": []
+                "com.laurencedawson.reddit_sync": [
+                    "v23.06.30-13:39"
+                ]
             },
             "dependencies": [],
             "description": null,
             "name": "Disable ads",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": []
-            },
-            "dependencies": [],
-            "description": "Disables the popup that shows up when taking a screenshot.",
-            "name": "Disable screenshot popup",
             "options": [],
             "use": true
         },
@@ -152,6 +106,14 @@
             "name": "Disable Sync for Lemmy bottom sheet",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Enables Android developer debugging capabilities. Including this patch can slow down the app.",
+            "name": "Enable Android debugging",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -199,7 +161,9 @@
         },
         {
             "compatiblePackages": {
-                "com.laurencedawson.reddit_sync": [],
+                "com.laurencedawson.reddit_sync": [
+                    "v23.06.30-13:39"
+                ],
                 "com.laurencedawson.reddit_sync.dev": [],
                 "com.laurencedawson.reddit_sync.pro": []
             },
@@ -219,7 +183,7 @@
             },
             "dependencies": [
                 "BytecodePatch",
-                "Intercept HTTP requests"
+                "BytecodePatch"
             ],
             "description": "Fixes audio missing in videos downloaded from v.redd.it.",
             "name": "Fix missing audio in video downloads",
@@ -228,7 +192,9 @@
         },
         {
             "compatiblePackages": {
-                "com.laurencedawson.reddit_sync": [],
+                "com.laurencedawson.reddit_sync": [
+                    "v23.06.30-13:39"
+                ],
                 "com.laurencedawson.reddit_sync.dev": [],
                 "com.laurencedawson.reddit_sync.pro": []
             },
@@ -258,6 +224,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,
@@ -267,7 +234,9 @@
         },
         {
             "compatiblePackages": {
-                "com.laurencedawson.reddit_sync": [],
+                "com.laurencedawson.reddit_sync": [
+                    "v23.06.30-13:39"
+                ],
                 "com.laurencedawson.reddit_sync.dev": [],
                 "com.laurencedawson.reddit_sync.pro": []
             },
@@ -281,7 +250,9 @@
         },
         {
             "compatiblePackages": {
-                "com.laurencedawson.reddit_sync": [],
+                "com.laurencedawson.reddit_sync": [
+                    "v23.06.30-13:39"
+                ],
                 "com.laurencedawson.reddit_sync.dev": [],
                 "com.laurencedawson.reddit_sync.pro": []
             },
@@ -290,22 +261,6 @@
             ],
             "description": "Fixes a bug in Sync's MPD parser resulting in only the audio-track being saved.",
             "name": "Fix video downloads",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch",
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": null,
-            "name": "Hide ads",
             "options": [],
             "use": true
         },
@@ -322,30 +277,6 @@
             "name": "Hook exception handler",
             "options": [],
             "use": false
-        },
-        {
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": [
-                    "1.12.12"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": null,
-            "name": "Intercept HTTP requests",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": []
-            },
-            "dependencies": [],
-            "description": "Removes the tracking query parameters from shared links.",
-            "name": "Sanitize sharing links",
-            "options": [],
-            "use": true
         },
         {
             "compatiblePackages": {
@@ -639,7 +570,9 @@
         },
         {
             "compatiblePackages": {
-                "com.laurencedawson.reddit_sync": [],
+                "com.laurencedawson.reddit_sync": [
+                    "v23.06.30-13:39"
+                ],
                 "com.laurencedawson.reddit_sync.dev": [],
                 "com.laurencedawson.reddit_sync.pro": []
             },
@@ -682,17 +615,9 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": []
-            },
-            "dependencies": [],
-            "description": "Unlocks the Reddit Premium icons.",
-            "name": "Unlock Premium icons",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.laurencedawson.reddit_sync": [],
+                "com.laurencedawson.reddit_sync": [
+                    "v23.06.30-13:39"
+                ],
                 "com.laurencedawson.reddit_sync.dev": [],
                 "com.laurencedawson.reddit_sync.pro": []
             },
