@@ -3299,6 +3299,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Unlock Pro``` | ```N/A``` | ```com.kevinforeman.nzb360``` | ```All versions``` |
 
 </details>
+
 ---
 ### 🧩 PixelPusher247 Bundle Patch List:
 [📦 PixelPusher247-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-pixelpusher247-patches-bundle-api-v4)
