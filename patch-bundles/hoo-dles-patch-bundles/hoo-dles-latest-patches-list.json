@@ -1,5 +1,5 @@
 {
-    "version": "v1.15.0",
+    "version": "v1.16.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -149,6 +149,18 @@
             },
             "dependencies": [],
             "description": "Disables event logging sent to the app's custom endpoint.",
+            "name": "Disable telemetry",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.03.20-release"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables SoundCloud's telemetry system.",
             "name": "Disable telemetry",
             "options": [],
             "use": true
@@ -423,7 +435,7 @@
         {
             "compatiblePackages": {
                 "com.zombodroid.MemeGenerator": [
-                    "4.6670"
+                    "4.6671"
                 ]
             },
             "dependencies": [],
@@ -495,6 +507,20 @@
             ],
             "description": "Enables app features locked behind the subscription paywall. Login is required and AI functionality is unavailable.",
             "name": "Enable Pro",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.03.20-release"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "",
+            "name": "Enable SoundCloud Go+",
             "options": [],
             "use": true
         },
