@@ -1,5 +1,5 @@
 {
-    "version": "v3.1.0-dev.2",
+    "version": "v3.1.0-dev.4",
     "patches": [
         {
             "compatiblePackages": {
@@ -10,6 +10,20 @@
             ],
             "description": null,
             "name": "Add ability to copy media link",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds settings to control preferences are patching",
+            "name": "Add settings",
             "options": [],
             "use": true
         },
@@ -53,6 +67,7 @@
         },
         {
             "compatiblePackages": {
+                "com.instagram.android": [],
                 "com.twitter.android": []
             },
             "dependencies": [],
@@ -171,6 +186,18 @@
             ],
             "description": null,
             "name": "Customise post font size",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings"
+            ],
+            "description": "Customise the timestamp that shows when the story was posted",
+            "name": "Customise story timestamp",
             "options": [],
             "use": true
         },
@@ -308,6 +335,31 @@
         },
         {
             "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings"
+            ],
+            "description": null,
+            "name": "Disable ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings",
+                "BytecodePatch"
+            ],
+            "description": "Block analytics that are sent to Instagram/Facebook servers.",
+            "name": "Disable analytics",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.twitter.android": []
             },
             "dependencies": [
@@ -333,6 +385,70 @@
         },
         {
             "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings",
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Disable comments",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings",
+                "BytecodePatch"
+            ],
+            "description": "Disables discover people section on user profile",
+            "name": "Disable discover people",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings",
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Disable explore",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings",
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Disable stories",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings"
+            ],
+            "description": "Disable automatic flipping/moving to next story",
+            "name": "Disable story flipping",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.twitter.android": []
             },
             "dependencies": [
@@ -342,6 +458,20 @@
             "name": "Disunify xchat system",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds ability to download posts, reels, stories and highlights",
+            "name": "Download media",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
@@ -423,6 +553,20 @@
             "name": "Export all activities",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds a label on the profile page, indicating whether a user is follows you back.",
+            "name": "Follow back indicator",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
@@ -646,6 +790,31 @@
         },
         {
             "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings",
+                "ResourcePatch"
+            ],
+            "description": "Hides stories tray from main feed.",
+            "name": "Hide stories tray",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings"
+            ],
+            "description": "Hides suggested stories, reels, threads (Suggested posts will still be shown).",
+            "name": "Hide suggested content",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.twitter.android": []
             },
             "dependencies": [
@@ -737,6 +906,18 @@
         },
         {
             "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings"
+            ],
+            "description": "Changes links to always open in your external browser, instead of the in-app browser.",
+            "name": "Open links externally",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.twitter.android": []
             },
             "dependencies": [
@@ -757,6 +938,18 @@
             ],
             "description": "Removed promoted posts, trends and google ads",
             "name": "Remove Ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings"
+            ],
+            "description": "Removes the popup that appears after a while, when the app version ages.",
+            "name": "Remove build expired popup",
             "options": [],
             "use": true
         },
@@ -806,6 +999,18 @@
             ],
             "description": "Enable or disable rounding off numbers",
             "name": "Round off numbers",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings"
+            ],
+            "description": null,
+            "name": "Sanitize share links",
             "options": [],
             "use": true
         },
@@ -880,6 +1085,72 @@
             ],
             "description": null,
             "name": "Show sensitive media",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings"
+            ],
+            "description": "Unlimited replays on view once, view twice media before they get expired",
+            "name": "Unlimited replays on ephemeral media",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings"
+            ],
+            "description": null,
+            "name": "Unlock developer options",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings",
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "View live anonymously",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings",
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "View stories anonymously",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": []
+            },
+            "dependencies": [
+                "Add settings",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Add option to view visible and hidden story mentions.",
+            "name": "View story mentions",
             "options": [],
             "use": true
         }

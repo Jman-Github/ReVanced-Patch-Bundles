@@ -645,14 +645,35 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***70 Patches***
+***91 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Add settings``` | ```Adds settings to control preferences are patching``` | ```com.instagram.android``` | ```All versions``` |
+| ```Customise story timestamp``` | ```Customise the timestamp that shows when the story was posted``` | ```com.instagram.android``` | ```All versions``` |
+| ```Disable ads``` | ```N/A``` | ```com.instagram.android``` | ```All versions``` |
+| ```Disable analytics``` | ```Block analytics that are sent to Instagram/Facebook servers.``` | ```com.instagram.android``` | ```All versions``` |
+| ```Disable comments``` | ```N/A``` | ```com.instagram.android``` | ```All versions``` |
+| ```Disable discover people``` | ```Disables discover people section on user profile``` | ```com.instagram.android``` | ```All versions``` |
+| ```Disable explore``` | ```N/A``` | ```com.instagram.android``` | ```All versions``` |
+| ```Disable stories``` | ```N/A``` | ```com.instagram.android``` | ```All versions``` |
+| ```Disable story flipping``` | ```Disable automatic flipping/moving to next story``` | ```com.instagram.android``` | ```All versions``` |
+| ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```com.instagram.android``` | ```All versions``` |
+| ```Follow back indicator``` | ```Adds a label on the profile page, indicating whether a user is follows you back.``` | ```com.instagram.android``` | ```All versions``` |
+| ```Hide stories tray``` | ```Hides stories tray from main feed.``` | ```com.instagram.android``` | ```All versions``` |
+| ```Hide suggested content``` | ```Hides suggested stories, reels, threads (Suggested posts will still be shown).``` | ```com.instagram.android``` | ```All versions``` |
+| ```Open links externally``` | ```Changes links to always open in your external browser, instead of the in-app browser.``` | ```com.instagram.android``` | ```All versions``` |
+| ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```com.instagram.android``` | ```All versions``` |
+| ```Sanitize share links``` | ```N/A``` | ```com.instagram.android``` | ```All versions``` |
+| ```Unlimited replays on ephemeral media``` | ```Unlimited replays on view once, view twice media before they get expired``` | ```com.instagram.android``` | ```All versions``` |
+| ```Unlock developer options``` | ```N/A``` | ```com.instagram.android``` | ```All versions``` |
+| ```View live anonymously``` | ```N/A``` | ```com.instagram.android``` | ```All versions``` |
+| ```View stories anonymously``` | ```N/A``` | ```com.instagram.android``` | ```All versions``` |
+| ```View story mentions``` | ```Add option to view visible and hidden story mentions.``` | ```com.instagram.android``` | ```All versions``` |
+| ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```com.instagram.android, com.twitter.android``` | ```All versions``` |
 | ```Add ability to copy media link``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Bring back twitter``` | ```Bring back old twitter logo and name``` | ```com.twitter.android``` | ```All versions``` |
 | ```Browse tweet object``` | ```Adds an option to browse the tweet object in the share menu.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Change app icon``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Clear tracking params``` | ```Removes tracking parameters when sharing links``` | ```com.twitter.android``` | ```All versions``` |
 | ```Control video auto scroll``` | ```Control video auto scroll in immersive view``` | ```com.twitter.android``` | ```All versions``` |
 | ```Custom download folder``` | ```Change the download directory for video downloads``` | ```com.twitter.android``` | ```All versions``` |
