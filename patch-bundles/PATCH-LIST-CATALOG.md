@@ -1612,10 +1612,12 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***1 Patch***
+***3 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Call recording announcements remover``` | ```Remove the announcements when starting or stopping a call recording``` | ```com.google.android.dialer``` | ```All versions``` |
+| ```Pause Patcher``` | ```Pause the patcher Xs bat the end of the process``` | ```Universal``` | ```All versions``` |
+| ```Start Pause Patcher``` | ```Notify the start of the pause.``` | ```Universal``` | ```All versions``` |
 
 </details>
 

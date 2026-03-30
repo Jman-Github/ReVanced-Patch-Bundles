@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -10,6 +10,33 @@
             "name": "Call recording announcements remover",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [
+                "Start Pause Patcher"
+            ],
+            "description": "Pause the patcher Xs bat the end of the process",
+            "name": "Pause Patcher",
+            "options": [
+                {
+                    "default": 120,
+                    "description": "The number of seconds tha patcher will wait.",
+                    "name": "Pause duration",
+                    "required": false,
+                    "type": "kotlin.Long",
+                    "values": null
+                }
+            ],
+            "use": false
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Notify the start of the pause.",
+            "name": "Start Pause Patcher",
+            "options": [],
+            "use": false
         }
     ]
 }
