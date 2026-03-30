@@ -1,6 +1,20 @@
 {
-    "version": "v1.0.0-dev.4",
+    "version": "v1.0.0-dev.5",
     "patches": [
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.7"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds a notification shortcut button above quick write in the post list.",
+            "name": "Add notification shortcut",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
@@ -26,6 +40,22 @@
             "dependencies": [],
             "description": "add libpine.so to the app's native libraries",
             "name": "Add Pine Lib",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.2.2"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds a settings tab to the app.",
+            "name": "Add settings tab",
             "options": [],
             "use": false
         },
@@ -369,7 +399,7 @@
             "description": "Disables the app's update check.",
             "name": "Disable update check",
             "options": [],
-            "use": false
+            "use": true
         },
         {
             "compatiblePackages": {
