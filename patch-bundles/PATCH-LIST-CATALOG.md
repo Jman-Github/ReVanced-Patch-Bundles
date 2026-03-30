@@ -2837,6 +2837,14 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***6 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Enable cleartext traffic``` | ```Sets usesCleartextTraffic to true in AndroidManifest and patches the network security config to allow cleartext HTTP traffic and user-installed CA certificates. This enables MITM proxy tools like mitmproxy, Charles, and HTTP Toolkit to intercept traffic.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
+| ```Enable debugging``` | ```Sets SecurityUtils.isDebug to true, which bypasses all security checks in PermissionActivity.D() (root, emulator, build validation). The very first check in that method is: if (!SecurityUtils.isDebug && (!isSupportedDevice || ...)) so setting isDebug=true skips the entire security gate.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
+| ```Remove certificate pinning``` | ```Removes SSL/TLS certificate pinning for tv.media.jio.com. The app uses OkHttp3 CertificatePinner with SHA-256 pins controlled by Firebase Remote Config (FirebaseConfig.isSslPining()). This patch disables the pinning toggle and also patches the OkHttp3 CertificatePinner.check() method to prevent pin validation failures.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
+| ```Remove emulator detection``` | ```Removes emulator and unsupported device detection checks in PermissionActivity. Bypasses Build.FINGERPRINT/MODEL/BRAND/HARDWARE checks, BlueStacks folder detection, Fire TV detection, and Android TV (leanback) feature checks.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
+| ```Remove Play Store license check``` | ```Removes Play Store/license enforcement (pairip + app-side updater redirects). Bypasses LicenseClient, SignatureCheck, StartupLauncher, and CommonUtils store/update gates.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
+| ```Remove root detection``` | ```Removes root detection checks. Bypasses Firebase CommonUtils.isRooted() which checks Build.TAGS for 'test-keys', /system/app/Superuser.apk, and /system/xbin/su. Also neutralizes SecurityUtils validation and the Xposed framework detection dialog.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
 
 </details>
