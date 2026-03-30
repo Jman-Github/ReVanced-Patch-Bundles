@@ -1,5 +1,5 @@
 {
-    "version": "v1.23.0-dev.1",
+    "version": "v1.23.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -1450,8 +1450,7 @@
             },
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Adds options to change the in-app minimized player.",
             "name": "Miniplayer",
@@ -1794,7 +1793,6 @@
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
