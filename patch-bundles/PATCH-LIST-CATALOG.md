@@ -58,6 +58,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Docbt Bundle Patch List](#-docbt-bundle-patch-list)    
 [🧩 LoV432 Bundle Patch List](#-lov432-bundle-patch-list)    
 [🧩 PixelPusher247 Bundle Patch List](#-pixelpusher247-bundle-patch-list)    
+[🧩 Rabilrbl Bundle Patch List](#-rabilrbl-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -2827,5 +2828,15 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Hide VIP banner``` | ```Removes the Upgrade to VIP upsell banner from the home screen.``` | ```tv.trakt.trakt``` | ```3.4.1``` |
+
+</details>
+
+---
+### 🧩 Rabilrbl Bundle Patch List:
+[📦 Rabilrbl-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rabilrbl-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
 
 </details>
