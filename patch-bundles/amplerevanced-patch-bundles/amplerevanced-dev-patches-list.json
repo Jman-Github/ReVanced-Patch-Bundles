@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.6",
+    "version": "v1.0.0-dev.8",
     "patches": [
         {
             "compatiblePackages": {
@@ -146,6 +146,34 @@
             "name": "Change model",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.7"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Appends \".revanced\" to the package name by default. For DCinside only",
+            "name": "Change package name",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.2.2"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Appends \".revanced\" to the package name by default. For KakaoTalk only",
+            "name": "Change package name",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -530,20 +558,6 @@
                 ]
             },
             "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Ignores the package name check to allow installation of modified versions.",
-            "name": "Ignore Check Package Name",
-            "options": [],
-            "use": false
-        },
-        {
-            "compatiblePackages": {
-                "com.kakao.talk": [
-                    "26.2.2"
-                ]
-            },
-            "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Overrides the feature flag to enable the feature.",
@@ -753,20 +767,6 @@
             "name": "Spoof signature",
             "options": [],
             "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.dcinside.app.android": [
-                    "5.2.7"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "It allows you to install the clone app just like the original.",
-            "name": "Update Provider Patch",
-            "options": [],
-            "use": false
         },
         {
             "compatiblePackages": {
