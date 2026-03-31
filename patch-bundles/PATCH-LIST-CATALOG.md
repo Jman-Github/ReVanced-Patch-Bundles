@@ -2096,11 +2096,12 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***59 Patches***
+***61 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add notification shortcut``` | ```Adds a notification shortcut button above quick write in the post list.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Bypass getText``` | ```Bypasses the integrity check for getText.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
+| ```Change package name``` | ```Appends ".revanced" to the package name by default. For DCinside only``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Dimens Patch``` | ```reassigns ad_minimum_height to 0dp to remove ads from the app.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Disable ad controller``` | ```Disables the ad controller that manages ads in the app.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Disable Comment Ad``` | ```Disables the comment ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
@@ -2109,9 +2110,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable OneStore feature``` | ```Enables the OneStore feature in DC Inside app.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Hide Main Ad``` | ```Hides the main ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Spoof Signature``` | ```Spoofs the app signature to bypass integrity checks.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
-| ```Update Provider Patch``` | ```It allows you to install the clone app just like the original.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Add Packet Handler``` | ```Adding the Loco Packet Handler allows external applications to handle the app's packets, which may compromise security. Conflicts may occur on some systems.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Add Pine Lib``` | ```add libpine.so to the app's native libraries``` | ```com.kakao.talk``` | ```26.2.2``` |
+| ```Add settings resources``` | ```Adds Morphe settings layout resources to the app.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Add settings tab``` | ```Adds a settings tab to the app.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Allow Hide on Any Chat``` | ```Users with hiding privileges can hide any chat, including their own messages.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Allow reply to feed``` | ```Allows replying to feed messages``` | ```com.kakao.talk``` | ```26.2.2``` |
@@ -2119,6 +2120,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Bypass input mention limit in non-multichat``` | ```Bypass the limit of input mentions in non-multichat rooms``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Bypass Moat check``` | ```Bypass Moat check that prevents the app from running.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Change model``` | ```Changes the device model to supporting subdevice features``` | ```com.kakao.talk``` | ```26.2.2``` |
+| ```Change package name``` | ```Appends ".revanced" to the package name by default. For KakaoTalk only``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Custom branding``` | ```Customize app branding (name)``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Default external browser``` | ```Sets the default external browser for KakaoTalk to the system's default browser.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Disable 300+ unread limit``` | ```Always show the real unread count instead of '300+' in chatroom list``` | ```com.kakao.talk``` | ```26.2.2``` |
@@ -2141,9 +2143,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Force enable emoticon plus feature``` | ```Force enable emoticon plus feature (Unpurchased emoticon can be sent once per day)``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Ghost Mode``` | ```Don't expose your typing status to the other party.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Hook Package Manager``` | ```Hooks the Package Manager to bypass integrity checks.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Ignore Check Package Name``` | ```Ignores the package name check to allow installation of modified versions.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Override feature flag``` | ```Overrides the feature flag to enable the feature.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Play YouTube player in chat room``` | ```Allows playing YouTube videos in KakaoTalk chat rooms.``` | ```com.kakao.talk``` | ```26.2.2``` |
+| ```Register settings activity``` | ```Registers the Morphe settings activity in the app manifest.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Remove BizBoard ads``` | ```Removes the BizBoard ad by forcing its dimensions to 0x0 and visibility to GONE in onMeasure.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Remove feed ad``` | ```Removes the feed ad from the app.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Remove focus ad``` | ```Removes the focus ad from the app.``` | ```com.kakao.talk``` | ```26.2.2``` |

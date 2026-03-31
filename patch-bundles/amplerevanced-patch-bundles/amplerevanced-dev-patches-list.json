@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.7",
+    "version": "v1.0.0-dev.8",
     "patches": [
         {
             "compatiblePackages": {
@@ -49,10 +49,24 @@
                     "26.2.2"
                 ]
             },
+            "dependencies": [],
+            "description": "Adds Morphe settings layout resources to the app.",
+            "name": "Add settings resources",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.2.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
-                "BytecodePatch"
+                "Add settings resources",
+                "BytecodePatch",
+                "Register settings activity"
             ],
             "description": "Adds a settings tab to the app.",
             "name": "Add settings tab",
@@ -149,6 +163,34 @@
         },
         {
             "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.7"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Appends \".revanced\" to the package name by default. For DCinside only",
+            "name": "Change package name",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.2.2"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Appends \".revanced\" to the package name by default. For KakaoTalk only",
+            "name": "Change package name",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
                 "com.kakao.talk": [
                     "26.2.2"
                 ]
@@ -177,7 +219,9 @@
                     "26.2.2"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Sets the default external browser for KakaoTalk to the system's default browser.",
             "name": "Default external browser",
             "options": [],
@@ -443,7 +487,9 @@
                     "26.2.2"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Enable recording pause/resume feature in KakaoTalk",
             "name": "Enable recording pause/resume feature",
             "options": [],
@@ -455,11 +501,13 @@
                     "26.2.2"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Allows sending big text messages in KakaoTalk.",
             "name": "Enable send big text",
             "options": [],
-            "use": false
+            "use": true
         },
         {
             "compatiblePackages": {
@@ -467,7 +515,9 @@
                     "26.2.2"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Enables debug mode in the app.",
             "name": "Force enable debug mode",
             "options": [],
@@ -491,7 +541,9 @@
                     "26.2.2"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Don't expose your typing status to the other party.",
             "name": "Ghost Mode",
             "options": [],
@@ -530,20 +582,6 @@
                 ]
             },
             "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Ignores the package name check to allow installation of modified versions.",
-            "name": "Ignore Check Package Name",
-            "options": [],
-            "use": false
-        },
-        {
-            "compatiblePackages": {
-                "com.kakao.talk": [
-                    "26.2.2"
-                ]
-            },
-            "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Overrides the feature flag to enable the feature.",
@@ -567,9 +605,23 @@
                     "26.2.2"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Allows playing YouTube videos in KakaoTalk chat rooms.",
             "name": "Play YouTube player in chat room",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.2.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Registers the Morphe settings activity in the app manifest.",
+            "name": "Register settings activity",
             "options": [],
             "use": true
         },
@@ -663,7 +715,9 @@
                     "26.2.2"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes the Short-form tab from the now fragment.",
             "name": "Remove Short-form Tab",
             "options": [],
@@ -753,20 +807,6 @@
             "name": "Spoof signature",
             "options": [],
             "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.dcinside.app.android": [
-                    "5.2.7"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "It allows you to install the clone app just like the original.",
-            "name": "Update Provider Patch",
-            "options": [],
-            "use": false
         },
         {
             "compatiblePackages": {
