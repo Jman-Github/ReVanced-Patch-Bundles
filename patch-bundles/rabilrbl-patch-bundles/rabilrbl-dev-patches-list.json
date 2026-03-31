@@ -1,12 +1,12 @@
 {
-    "version": "v1.5.0-dev.4",
+    "version": "v1.5.0-dev.5",
     "patches": [
         {
             "compatiblePackages": {
                 "com.jio.jioplay.tv": []
             },
             "dependencies": [],
-            "description": "Globally disables the pairip LicenseContentProvider in AndroidManifest so Android never initializes it, preventing all Play Store license checks.",
+            "description": "Globally disables the pairip LicenseContentProvider in AndroidManifest and changes application class to bypass pairip entirely.",
             "name": "Disable pairip license check (manifest)",
             "options": [],
             "use": true
