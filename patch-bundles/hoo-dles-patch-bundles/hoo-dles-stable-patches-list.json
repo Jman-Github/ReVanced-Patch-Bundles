@@ -1,5 +1,5 @@
 {
-    "version": "v1.16.0",
+    "version": "v1.17.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -526,6 +526,18 @@
         },
         {
             "compatiblePackages": {
+                "com.amazon.avod.thirdpartyclient": [
+                    "3.0.447.757"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enables experimental speed control to the video player.",
+            "name": "Enable speed control",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "kr.eggbun.eggconvo": [
                     "4.12.19"
                 ]
@@ -614,7 +626,7 @@
         {
             "compatiblePackages": {
                 "com.amazon.avod.thirdpartyclient": [
-                    "3.0.443"
+                    "3.0.447.757"
                 ]
             },
             "dependencies": [],
@@ -626,7 +638,7 @@
         {
             "compatiblePackages": {
                 "com.amazon.avod.thirdpartyclient": [
-                    "3.0.443"
+                    "3.0.447.757"
                 ]
             },
             "dependencies": [
