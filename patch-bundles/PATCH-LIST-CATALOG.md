@@ -2101,7 +2101,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 |----------|---------------|---------------------|-------------------------|
 | ```Add notification shortcut``` | ```Adds a notification shortcut button above quick write in the post list.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Bypass getText``` | ```Bypasses the integrity check for getText.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
-| ```Change package name``` | ```Appends ".revanced" to the package name by default. For DCinside only``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Dimens Patch``` | ```reassigns ad_minimum_height to 0dp to remove ads from the app.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Disable ad controller``` | ```Disables the ad controller that manages ads in the app.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Disable Comment Ad``` | ```Disables the comment ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
@@ -2110,6 +2109,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable OneStore feature``` | ```Enables the OneStore feature in DC Inside app.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Hide Main Ad``` | ```Hides the main ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Spoof Signature``` | ```Spoofs the app signature to bypass integrity checks.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
+| ```Update Provider Patch``` | ```It allows you to install the clone app just like the original.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Add Packet Handler``` | ```Adding the Loco Packet Handler allows external applications to handle the app's packets, which may compromise security. Conflicts may occur on some systems.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Add Pine Lib``` | ```add libpine.so to the app's native libraries``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Add settings tab``` | ```Adds a settings tab to the app.``` | ```com.kakao.talk``` | ```26.2.2``` |
@@ -2119,7 +2119,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Bypass input mention limit in non-multichat``` | ```Bypass the limit of input mentions in non-multichat rooms``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Bypass Moat check``` | ```Bypass Moat check that prevents the app from running.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Change model``` | ```Changes the device model to supporting subdevice features``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Change package name``` | ```Appends ".revanced" to the package name by default. For KakaoTalk only``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Custom branding``` | ```Customize app branding (name)``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Default external browser``` | ```Sets the default external browser for KakaoTalk to the system's default browser.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Disable 300+ unread limit``` | ```Always show the real unread count instead of '300+' in chatroom list``` | ```com.kakao.talk``` | ```26.2.2``` |
@@ -2142,6 +2141,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Force enable emoticon plus feature``` | ```Force enable emoticon plus feature (Unpurchased emoticon can be sent once per day)``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Ghost Mode``` | ```Don't expose your typing status to the other party.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Hook Package Manager``` | ```Hooks the Package Manager to bypass integrity checks.``` | ```com.kakao.talk``` | ```26.2.2``` |
+| ```Ignore Check Package Name``` | ```Ignores the package name check to allow installation of modified versions.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Override feature flag``` | ```Overrides the feature flag to enable the feature.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Play YouTube player in chat room``` | ```Allows playing YouTube videos in KakaoTalk chat rooms.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Remove BizBoard ads``` | ```Removes the BizBoard ad by forcing its dimensions to 0x0 and visibility to GONE in onMeasure.``` | ```com.kakao.talk``` | ```26.2.2``` |
@@ -2838,13 +2838,14 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***5 Patches***
+***6 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Disable pairip license check (manifest)``` | ```Globally disables the pairip LicenseContentProvider in AndroidManifest so Android never initializes it, preventing all Play Store license checks.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
 | ```Enable cleartext traffic``` | ```Sets usesCleartextTraffic to true in AndroidManifest and patches the network security config to allow cleartext HTTP traffic and user-installed CA certificates. This enables MITM proxy tools like mitmproxy, Charles, and HTTP Toolkit to intercept traffic.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
 | ```Remove certificate pinning``` | ```Removes SSL/TLS certificate pinning for tv.media.jio.com. The app uses OkHttp3 CertificatePinner with SHA-256 pins controlled by Firebase Remote Config (FirebaseConfig.isSslPining()). This patch disables the pinning toggle and also patches the OkHttp3 CertificatePinner.check() method to prevent pin validation failures.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
 | ```Remove emulator detection``` | ```Removes emulator and unsupported device detection checks in PermissionActivity. Bypasses Build.FINGERPRINT/MODEL/BRAND/HARDWARE checks, BlueStacks folder detection, Fire TV detection, and Android TV (leanback) feature checks.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
-| ```Remove Play Store license check``` | ```Removes Play Store/license enforcement (pairip + app-side updater redirects). Bypasses LicenseClient, SignatureCheck, StartupLauncher, and CommonUtils store/update gates.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
+| ```Remove Play Store license check``` | ```Neutralizes pairip native library loading, signature verification, VM bytecode execution, LicenseActivity paywall, and Play Store redirect helpers.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
 | ```Remove root detection``` | ```Removes root detection checks. Bypasses Firebase CommonUtils.isRooted() which checks Build.TAGS for 'test-keys', /system/app/Superuser.apk, and /system/xbin/su. Also neutralizes SecurityUtils validation and the Xposed framework detection dialog.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
 
 </details>
