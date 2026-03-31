@@ -2827,7 +2827,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Hide VIP banner``` | ```Removes the Upgrade to VIP upsell banner from the home screen.``` | ```tv.trakt.trakt``` | ```3.4.1``` |
+| ```Hide VIP banner``` | ```Removes the Upgrade to VIP upsell banner from the home screen.``` | ```tv.trakt.trakt``` | ```All versions``` |
 
 </details>
 
