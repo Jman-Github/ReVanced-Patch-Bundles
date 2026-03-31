@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.3",
+    "version": "v1.3.0-dev.4",
     "patches": [
         {
             "compatiblePackages": {
@@ -118,6 +118,9 @@
         {
             "compatiblePackages": {
                 "com.andrewshu.android.reddit": [
+                    "5.6.22"
+                ],
+                "com.andrewshu.android.redditdonation": [
                     "5.6.22"
                 ]
             },
@@ -291,27 +294,27 @@
             "options": [
                 {
                     "default": null,
-                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing client ID.",
+                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
                     "key": "client-id",
-                    "required": false,
+                    "required": true,
                     "title": "OAuth client ID",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": null,
-                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing redirect URI.",
+                    "default": "redreader://rr_oauth_redir",
+                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
                     "key": "redirect-uri",
-                    "required": false,
+                    "required": true,
                     "title": "Redirect URI",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": null,
-                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing user agent.",
+                    "default": "org.quantumbadger.redreader/1.25.1",
+                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
                     "key": "user-agent",
-                    "required": false,
+                    "required": true,
                     "title": "User agent",
                     "type": "kotlin.String",
                     "values": null
@@ -331,27 +334,27 @@
             "options": [
                 {
                     "default": null,
-                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing client ID.",
+                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
                     "key": "client-id",
-                    "required": false,
+                    "required": true,
                     "title": "OAuth client ID",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": null,
-                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing redirect URI.",
+                    "default": "redreader://rr_oauth_redir",
+                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
                     "key": "redirect-uri",
-                    "required": false,
+                    "required": true,
                     "title": "Redirect URI",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": null,
-                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing user agent.",
+                    "default": "org.quantumbadger.redreader/1.25.1",
+                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
                     "key": "user-agent",
-                    "required": false,
+                    "required": true,
                     "title": "User agent",
                     "type": "kotlin.String",
                     "values": null
@@ -364,37 +367,35 @@
                 "org.cygnusx1.continuum": []
             },
             "dependencies": [
-                "ResourcePatch",
                 "BytecodePatch",
-                "ResourcePatch",
-                "BytecodePatch"
+                "ResourcePatch"
             ],
             "description": "Allows modifying Continuum's client ID, redirect URI and user agent in API Keys settings menu. Patch options will modify default values.",
             "name": "Spoof client",
             "options": [
                 {
                     "default": null,
-                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing client ID.",
+                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
                     "key": "client-id",
-                    "required": false,
+                    "required": true,
                     "title": "OAuth client ID",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": null,
-                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing redirect URI.",
+                    "default": "redreader://rr_oauth_redir",
+                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
                     "key": "redirect-uri",
-                    "required": false,
+                    "required": true,
                     "title": "Redirect URI",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": null,
-                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing user agent.",
+                    "default": "org.quantumbadger.redreader/1.25.1",
+                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
                     "key": "user-agent",
-                    "required": false,
+                    "required": true,
                     "title": "User agent",
                     "type": "kotlin.String",
                     "values": null
@@ -416,27 +417,27 @@
             "options": [
                 {
                     "default": null,
-                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing client ID.",
+                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
                     "key": "client-id",
-                    "required": false,
+                    "required": true,
                     "title": "OAuth client ID",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": null,
-                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing redirect URI.",
+                    "default": "redreader://rr_oauth_redir",
+                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
                     "key": "redirect-uri",
-                    "required": false,
+                    "required": true,
                     "title": "Redirect URI",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": null,
-                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing user agent.",
+                    "default": "org.quantumbadger.redreader/1.25.1",
+                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
                     "key": "user-agent",
-                    "required": false,
+                    "required": true,
                     "title": "User agent",
                     "type": "kotlin.String",
                     "values": null
@@ -448,6 +449,9 @@
             "compatiblePackages": {
                 "com.andrewshu.android.reddit": [
                     "5.6.22"
+                ],
+                "com.andrewshu.android.redditdonation": [
+                    "5.6.22"
                 ]
             },
             "dependencies": [],
@@ -456,27 +460,27 @@
             "options": [
                 {
                     "default": null,
-                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing client ID.",
+                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
                     "key": "client-id",
-                    "required": false,
+                    "required": true,
                     "title": "OAuth client ID",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": null,
-                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing redirect URI.",
+                    "default": "redreader://rr_oauth_redir",
+                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
                     "key": "redirect-uri",
-                    "required": false,
+                    "required": true,
                     "title": "Redirect URI",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": null,
-                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing user agent.",
+                    "default": "org.quantumbadger.redreader/1.25.1",
+                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
                     "key": "user-agent",
-                    "required": false,
+                    "required": true,
                     "title": "User agent",
                     "type": "kotlin.String",
                     "values": null
@@ -499,27 +503,27 @@
             "options": [
                 {
                     "default": null,
-                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing client ID.",
+                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
                     "key": "client-id",
-                    "required": false,
+                    "required": true,
                     "title": "OAuth client ID",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": null,
-                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing redirect URI.",
+                    "default": "redreader://rr_oauth_redir",
+                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
                     "key": "redirect-uri",
-                    "required": false,
+                    "required": true,
                     "title": "Redirect URI",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": null,
-                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing user agent.",
+                    "default": "org.quantumbadger.redreader/1.25.1",
+                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
                     "key": "user-agent",
-                    "required": false,
+                    "required": true,
                     "title": "User agent",
                     "type": "kotlin.String",
                     "values": null
@@ -532,7 +536,6 @@
                 "me.edgan.redditslide": []
             },
             "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Allows modifying Slide's client ID, redirect URI and user agent in settings. Patch options will modify default values.",
@@ -540,27 +543,27 @@
             "options": [
                 {
                     "default": null,
-                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing client ID.",
+                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
                     "key": "client-id",
-                    "required": false,
+                    "required": true,
                     "title": "OAuth client ID",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": null,
-                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing redirect URI.",
+                    "default": "redreader://rr_oauth_redir",
+                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
                     "key": "redirect-uri",
-                    "required": false,
+                    "required": true,
                     "title": "Redirect URI",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": null,
-                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing user agent.",
+                    "default": "org.quantumbadger.redreader/1.25.1",
+                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
                     "key": "user-agent",
-                    "required": false,
+                    "required": true,
                     "title": "User agent",
                     "type": "kotlin.String",
                     "values": null
@@ -585,27 +588,27 @@
             "options": [
                 {
                     "default": null,
-                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing client ID.",
+                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
                     "key": "client-id",
-                    "required": false,
+                    "required": true,
                     "title": "OAuth client ID",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": null,
-                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing redirect URI.",
+                    "default": "redreader://rr_oauth_redir",
+                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
                     "key": "redirect-uri",
-                    "required": false,
+                    "required": true,
                     "title": "Redirect URI",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": null,
-                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. An empty value keeps the app's existing user agent.",
+                    "default": "org.quantumbadger.redreader/1.25.1",
+                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
                     "key": "user-agent",
-                    "required": false,
+                    "required": true,
                     "title": "User agent",
                     "type": "kotlin.String",
                     "values": null
@@ -630,6 +633,9 @@
         {
             "compatiblePackages": {
                 "com.andrewshu.android.reddit": [
+                    "5.6.22"
+                ],
+                "com.andrewshu.android.redditdonation": [
                     "5.6.22"
                 ]
             },
