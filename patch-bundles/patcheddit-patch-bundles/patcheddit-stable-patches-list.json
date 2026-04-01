@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.3.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -154,7 +154,6 @@
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,
@@ -209,8 +208,12 @@
         },
         {
             "compatiblePackages": {
-                "com.onelouder.baconreader": [],
-                "com.onelouder.baconreader.premium": []
+                "com.onelouder.baconreader": [
+                    "6.1.4"
+                ],
+                "com.onelouder.baconreader.premium": [
+                    "6.1.4"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -283,8 +286,12 @@
         },
         {
             "compatiblePackages": {
-                "com.onelouder.baconreader": [],
-                "com.onelouder.baconreader.premium": []
+                "com.onelouder.baconreader": [
+                    "6.1.4"
+                ],
+                "com.onelouder.baconreader.premium": [
+                    "6.1.4"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -671,7 +678,7 @@
             "description": "Replaces the deprecated endpoint for viewing user profiles /u with /user, that used to fix a bug.",
             "name": "Use /user/ endpoint",
             "options": [],
-            "use": false
+            "use": true
         },
         {
             "compatiblePackages": {
