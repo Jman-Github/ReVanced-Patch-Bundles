@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.4",
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -371,6 +371,49 @@
                 "ResourcePatch"
             ],
             "description": "Allows modifying Continuum's client ID, redirect URI and user agent in API Keys settings menu. Patch options will modify default values.",
+            "name": "Spoof client",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+                    "key": "client-id",
+                    "required": true,
+                    "title": "OAuth client ID",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "redreader://rr_oauth_redir",
+                    "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+                    "key": "redirect-uri",
+                    "required": true,
+                    "title": "Redirect URI",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "org.quantumbadger.redreader/1.25.1",
+                    "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+                    "key": "user-agent",
+                    "required": true,
+                    "title": "User agent",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "ml.docilealligator.infinityforreddit.patreon": [],
+                "ml.docilealligator.infinityforreddit.plus": []
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Restores functionality of the app by using custom client ID.",
             "name": "Spoof client",
             "options": [
                 {
