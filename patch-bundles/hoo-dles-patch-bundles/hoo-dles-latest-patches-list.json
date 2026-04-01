@@ -1,5 +1,5 @@
 {
-    "version": "v1.17.0",
+    "version": "v1.18.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -336,6 +336,18 @@
             "compatiblePackages": {
                 "com.bambuna.podcastaddict": [
                     "2026.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.snorelab.app": [
+                    "2.27.3.6291"
                 ]
             },
             "dependencies": [],
