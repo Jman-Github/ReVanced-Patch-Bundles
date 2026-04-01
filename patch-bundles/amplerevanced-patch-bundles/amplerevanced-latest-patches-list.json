@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.8",
+    "version": "v1.0.0-dev.9",
     "patches": [
         {
             "compatiblePackages": {
@@ -259,7 +259,9 @@
                     "26.2.2"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Skip the 99-cap so unread count shows full value",
             "name": "Disable 99 unread limit",
             "options": [],
@@ -454,6 +456,20 @@
             "dependencies": [],
             "description": "Disables the signature verification check that prevents the app from running.",
             "name": "Disable verifying signature",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.2.2"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Render plain text messages with markdown-style formatting.",
+            "name": "Enable Markdown",
             "options": [],
             "use": true
         },

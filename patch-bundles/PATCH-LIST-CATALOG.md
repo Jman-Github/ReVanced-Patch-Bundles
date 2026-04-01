@@ -2098,7 +2098,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***61 Patches***
+***62 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add notification shortcut``` | ```Adds a notification shortcut button above quick write in the post list.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
@@ -2138,6 +2138,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable Sentry``` | ```Disables Sentry error reporting in KakaoTalk.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Disable Talk Share Log``` | ```Disable talk share log``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Disable verifying signature``` | ```Disables the signature verification check that prevents the app from running.``` | ```com.kakao.talk``` | ```26.2.2``` |
+| ```Enable Markdown``` | ```Render plain text messages with markdown-style formatting.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Enable reaction mention flag``` | ```Enables the reaction mention flag in KakaoTalk chat logs.``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Enable recording pause/resume feature``` | ```Enable recording pause/resume feature in KakaoTalk``` | ```com.kakao.talk``` | ```26.2.2``` |
 | ```Enable send big text``` | ```Allows sending big text messages in KakaoTalk.``` | ```com.kakao.talk``` | ```26.2.2``` |
