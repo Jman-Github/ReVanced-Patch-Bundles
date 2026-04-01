@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.1-dev.3",
+    "version": "v1.3.1-dev.4",
     "patches": [
         {
             "compatiblePackages": {
@@ -208,8 +208,12 @@
         },
         {
             "compatiblePackages": {
-                "com.onelouder.baconreader": [],
-                "com.onelouder.baconreader.premium": []
+                "com.onelouder.baconreader": [
+                    "6.1.4"
+                ],
+                "com.onelouder.baconreader.premium": [
+                    "6.1.4"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -282,8 +286,12 @@
         },
         {
             "compatiblePackages": {
-                "com.onelouder.baconreader": [],
-                "com.onelouder.baconreader.premium": []
+                "com.onelouder.baconreader": [
+                    "6.1.4"
+                ],
+                "com.onelouder.baconreader.premium": [
+                    "6.1.4"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"

@@ -2351,8 +2351,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Fix video downloads``` | ```Fixes a bug in Sync's MPD parser resulting in only the audio-track being saved.``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.dev, com.laurencedawson.reddit_sync.pro``` | ```v23.06.30-13:39``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.dev, com.laurencedawson.reddit_sync.pro``` | ```v23.06.30-13:39``` |
 | ```Use /user/ endpoint``` | ```Replaces the deprecated endpoint for viewing user profiles /u with /user, that used to fix a bug.``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.dev, com.laurencedawson.reddit_sync.pro``` | ```v23.06.30-13:39``` |
-| ```Fix Redgifs API``` | ```N/A``` | ```com.onelouder.baconreader, com.onelouder.baconreader.premium``` | ```All versions``` |
-| ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.onelouder.baconreader, com.onelouder.baconreader.premium``` | ```All versions``` |
+| ```Fix Redgifs API``` | ```N/A``` | ```com.onelouder.baconreader, com.onelouder.baconreader.premium``` | ```6.1.4, 6.1.4``` |
+| ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.onelouder.baconreader, com.onelouder.baconreader.premium``` | ```6.1.4, 6.1.4``` |
 | ```Add archive links to context menu``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
 | ```Automatically undelete Imgur images``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
 | ```Automatically undelete Reddit content``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
