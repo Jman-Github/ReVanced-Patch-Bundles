@@ -2691,35 +2691,59 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***45 Patches***
+***83 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail mobile' signature from emails.``` | ```ch.protonmail.android``` | ```4.15.0``` |
 | ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```ch.protonmail.android``` | ```4.15.0``` |
+| ```Bypass login``` | ```Allows the use of the app after its discontinuation.``` | ```com.adobe.photoshopmix``` | ```All versions``` |
+| ```Prevent log upload``` | ```Avoid uploading logs when the application crashes.``` | ```com.amazon.mp3``` | ```All versions``` |
+| ```Skip ads``` | ```Skip ads between the tracks.``` | ```com.amazon.mp3``` | ```All versions``` |
+| ```Unlimited track skipping``` | ```Unlocks the ability to skip tracks without restriction.``` | ```com.amazon.mp3``` | ```All versions``` |
+| ```Unlock Unlimited``` | ```Unlock Music Unlimited features.``` | ```com.amazon.mp3``` | ```All versions``` |
 | ```Always allow deep-linking``` | ```Open Amazon links, even if the app is not set to handle Amazon links.``` | ```com.amazon.mShop.android.shopping``` | ```All versions``` |
+| ```Remove play limits``` | ```Disables purchase nagging and playback limits of not purchased tracks.``` | ```com.bandcamp.android``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.cricbuzz.android``` | ```6.24.01``` |
 | ```Skip ads``` | ```Automatically skips ads.``` | ```com.disney.disneyplus``` | ```All versions``` |
+| ```Hide ads``` | ```N/A``` | ```com.drinkplusplus.angulus``` | ```All versions``` |
+| ```Hide 'Sponsored Stories'``` | ```N/A``` | ```com.facebook.katana``` | ```490.0.0.63.82``` |
+| ```Hide story ads``` | ```Hides the ads in the Facebook app stories.``` | ```com.facebook.katana``` | ```All versions``` |
 | ```Disable typing indicator``` | ```Disables the indicator while typing a message.``` | ```com.facebook.orca``` | ```All versions``` |
 | ```Hide Facebook button``` | ```Hides the Facebook button in the top toolbar.``` | ```com.facebook.orca``` | ```All versions``` |
 | ```Hide inbox ads``` | ```Hides ads in inbox.``` | ```com.facebook.orca``` | ```All versions``` |
 | ```Hide inbox subtabs``` | ```Hides Home and Channels tabs between active now tray and chats.``` | ```com.facebook.orca``` | ```All versions``` |
 | ```Remove Meta AI``` | ```Removes UI elements related to Meta AI.``` | ```com.facebook.orca``` | ```All versions``` |
-| ```Enable CustomTabs``` | ```Enables CustomTabs to open articles in your default browser.``` | ```com.google.android.apps.magazines``` | ```All versions``` |
-| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.magazines``` | ```All versions``` |
+| ```Enable CustomTabs``` | ```Enables CustomTabs to open articles in your default browser.``` | ```com.google.android.apps.magazines``` | ```5.108.0.644447823``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.magazines``` | ```5.108.0.644447823``` |
 | ```Enable DCIM folders backup control``` | ```Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.``` | ```com.google.android.apps.photos``` | ```All versions``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.photos``` | ```All versions``` |
 | ```Spoof features``` | ```Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.``` | ```com.google.android.apps.photos``` | ```All versions``` |
+| ```Remove device restrictions``` | ```Removes restrictions from using the app on any device. Requires mounting patched app over original.``` | ```com.google.android.apps.recorder``` | ```All versions``` |
+| ```Hide ads``` | ```Hides sponsored content / ads in Threads.``` | ```com.instagram.barcelona``` | ```382.0.0.51.85``` |
 | ```Hide ads``` | ```N/A``` | ```com.letterboxd.letterboxd``` | ```All versions``` |
 | ```Unlock app icons``` | ```N/A``` | ```com.letterboxd.letterboxd``` | ```All versions``` |
 | ```Hide update popup``` | ```Prevents the update popup from showing up.``` | ```com.microblink.photomath``` | ```All versions``` |
 | ```Spoof device ID``` | ```Spoofs device ID to mitigate manual bans by developers.``` | ```com.microblink.photomath``` | ```All versions``` |
 | ```Unlock plus``` | ```N/A``` | ```com.microblink.photomath``` | ```All versions``` |
 | ```Hide OneDrive migration``` | ```Hides the OneDrive migration prompt when opening Microsoft Office Lens.``` | ```com.microsoft.office.officelens``` | ```All versions``` |
+| ```Disable ads``` | ```N/A``` | ```com.myprog.hexedit``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```com.nis.app``` | ```All versions``` |
+| ```Show K1 token(s)``` | ```Shows the K1 authentication token(s) in a dialog and logs it to logcat for pairing with GadgetBridge without requiring root access.``` | ```com.nothing.smartcenter``` | ```All versions``` |
+| ```Hide ads``` | ```Hides all video ads.``` | ```com.peacocktv.peacockandroid``` | ```All versions``` |
 | ```Hide purchase reminder``` | ```Hides the popup that reminds you to purchase the app.``` | ```com.rarlab.rar``` | ```All versions``` |
 | ```Disable telemetry``` | ```Disables SoundCloud's telemetry system.``` | ```com.soundcloud.android``` | ```2025.05.27-release``` |
 | ```Enable offline sync``` | ```N/A``` | ```com.soundcloud.android``` | ```2025.05.27-release``` |
 | ```Hide ads``` | ```N/A``` | ```com.soundcloud.android``` | ```2025.05.27-release``` |
+| ```Disable login requirement``` | ```Disables mandatory login for TikTok. (Version pin not specified in this build.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```All versions``` |
+| ```Downloads``` | ```Removes download restrictions and changes the default path to download to. (Supports TikTok 43.8.3 only.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
+| ```Enable Open Debug``` | ```Re-enables the hidden "Open debug" entry. Supported on TikTok 43.6.2 only (use the APK set from ReVanced MR !6535). Not compatible with 43.8.3. This port finds OpenDebug classes by bytecode shape (LLILLL / compose LIZ) so minor obfuscation differences still patch.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.6.2, 43.6.2``` |
+| ```Feed filter``` | ```Removes ads, livestreams, stories, image videos and videos with a specific amount of views or likes from the feed. (Supports TikTok 43.6.2 + 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.6.2, 43.8.3, 43.6.2, 43.8.3``` |
+| ```Fix Google login``` | ```Allows logging in with a Google account. (Version pin not specified in this build.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```All versions``` |
+| ```Playback speed``` | ```Enables the playback speed option for all videos and retains the speed configurations in between videos. (Disabled for TikTok 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
+| ```Remember clear display``` | ```Remembers the clear display configurations in between videos. (Supports TikTok 43.8.3 only.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
+| ```Sanitize sharing links``` | ```Remove tracking parameters from shared links. (Supports TikTok 43.8.3 only.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
+| ```Settings``` | ```Adds ReVanced settings to TikTok. Supported on 43.6.2 only (APK from ReVanced MR !6535). Not compatible with 43.8.3. Disabled by default.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.6.2, 43.6.2``` |
+| ```Show seekbar``` | ```Shows progress bar for all video. (Version pin not specified in this build.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```All versions``` |
 | ```Add 'Give Kudos' button to 'Group Activity'``` | ```Adds a button that triggers the same action as shaking your phone would.``` | ```com.strava``` | ```All versions``` |
 | ```Add media download``` | ```Extends the full-screen media viewer menu with items to copy or open their URLs or download them directly.``` | ```com.strava``` | ```All versions``` |
 | ```Block Snowplow tracking``` | ```Blocks Snowplow analytics. See https://snowplow.io for more information.``` | ```com.strava``` | ```All versions``` |
@@ -2735,8 +2759,22 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable in-app update``` | ```Disables the in-app update check and update prompt.``` | ```com.tumblr``` | ```All versions``` |
 | ```Disable Tumblr TV``` | ```Removes the Tumblr TV navigation button from the bottom navigation bar.``` | ```com.tumblr``` | ```All versions``` |
 | ```Fix old versions``` | ```Fixes old versions of the app (v33.2 and earlier) breaking due to Tumblr removing remnants of Tumblr Live from the API, which causes many requests to fail. This patch has no effect on newer versions of the app.``` | ```com.tumblr``` | ```All versions``` |
+| ```Hide Ads``` | ```Hides ad banners between chats.``` | ```com.viber.voip``` | ```25.9.2.0, 26.1.2.0``` |
+| ```Hide navigation buttons``` | ```Permanently hides navigation bar buttons, such as Explore and Marketplace.``` | ```com.viber.voip``` | ```All versions``` |
+| ```Force enable FreePhone``` | ```Enables the FreePhone menu in the navigation drawer even on devices that do not support eSIM.``` | ```de.gmx.mobile.android.mail``` | ```All versions``` |
+| ```Hide ads``` | ```Hides sponsored ads.``` | ```de.gmx.mobile.android.mail``` | ```All versions``` |
+| ```Hide Premium upgrade button``` | ```Hides the Premium upgrade button in the navigation drawer.``` | ```de.gmx.mobile.android.mail``` | ```All versions``` |
 | ```Unlock pro``` | ```N/A``` | ```ginlemon.iconpackstudio``` | ```2.2 build 016``` |
 | ```Hide ads``` | ```N/A``` | ```jp.pxv.android``` | ```6.141.1``` |
+| ```Remove ads``` | ```N/A``` | ```net.binarymode.android.irplus``` | ```All versions``` |
+| ```Hide ads``` | ```Hide ads and sponsored articles in list pages and remove pre-roll ads on videos.``` | ```nl.sanomamedia.android.nu``` | ```All versions``` |
+| ```Spoof certificate``` | ```Spoofs the X-Android-Cert header to allow push messages.``` | ```nl.sanomamedia.android.nu``` | ```All versions``` |
+| ```Auto claim channel points``` | ```Automatically claim Channel Points.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
+| ```Block audio ads``` | ```Blocks audio ads in streams and VODs.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
+| ```Block embedded ads``` | ```Blocks embedded stream ads using services like Luminous or PurpleAdBlocker.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
+| ```Block video ads``` | ```Blocks video ads in streams and VODs.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
+| ```Debug mode``` | ```Enables Twitch's internal debugging mode.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
+| ```Show deleted messages``` | ```Shows deleted chat messages behind a clickable spoiler.``` | ```tv.twitch.android.app``` | ```16.9.1, 25.3.0``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues. This patch does not work with Reddit.``` | ```Universal``` | ```All versions``` |
 | ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy. This patch does not work with Reddit.``` | ```Universal``` | ```All versions``` |
 
