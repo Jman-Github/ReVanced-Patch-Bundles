@@ -646,31 +646,32 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***91 Patches***
+***92 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Add settings``` | ```Adds settings to control preferences are patching``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```Customise story timestamp``` | ```Customise the timestamp that shows when the story was posted``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```Disable ads``` | ```N/A``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```Disable analytics``` | ```Block analytics that are sent to Instagram/Facebook servers.``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```Disable comments``` | ```N/A``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```Disable discover people``` | ```Disables discover people section on user profile``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```Disable explore``` | ```N/A``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```Disable stories``` | ```N/A``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```Disable story flipping``` | ```Disable automatic flipping/moving to next story``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```Follow back indicator``` | ```Adds a label on the profile page, indicating whether a user is follows you back.``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```Hide stories tray``` | ```Hides stories tray from main feed.``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```Hide suggested content``` | ```Hides suggested stories, reels, threads (Suggested posts will still be shown).``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```Open links externally``` | ```Changes links to always open in your external browser, instead of the in-app browser.``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```Sanitize share links``` | ```N/A``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```Unlimited replays on ephemeral media``` | ```Unlimited replays on view once, view twice media before they get expired``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```Unlock developer options``` | ```N/A``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```View live anonymously``` | ```N/A``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```View stories anonymously``` | ```N/A``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```View story mentions``` | ```Add option to view visible and hidden story mentions.``` | ```com.instagram.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
-| ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```com.instagram.android, com.twitter.android``` | ```422.0.0.44.64, 424.0.0.0.39``` |
+| ```Add settings``` | ```Adds settings to control preferences are patching``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Customise story timestamp``` | ```Customise the timestamp that shows when the story was posted``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Disable ads``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Disable analytics``` | ```Block analytics that are sent to Instagram/Facebook servers.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Disable comments``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Disable discover people``` | ```Disables discover people section on user profile``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Disable explore``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Disable stories``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Disable story flipping``` | ```Disable automatic flipping/moving to next story``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Follow back indicator``` | ```Adds a label on the profile page, indicating whether a user is follows you back.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Hide stories tray``` | ```Hides stories tray from main feed.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Hide suggested content``` | ```Hides suggested stories, reels, threads (Suggested posts will still be shown).``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Limit feed to following profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Open links externally``` | ```Changes links to always open in your external browser, instead of the in-app browser.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Sanitize share links``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Unlimited replays on ephemeral media``` | ```Unlimited replays on view once, view twice media before they get expired``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Unlock developer options``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```View live anonymously``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```View stories anonymously``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```View story mentions``` | ```Add option to view visible and hidden story mentions.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```com.instagram.android, com.twitter.android``` | ```423.0.0.47.66``` |
 | ```Add ability to copy media link``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Bring back twitter``` | ```Bring back old twitter logo and name``` | ```com.twitter.android``` | ```All versions``` |
 | ```Browse tweet object``` | ```Adds an option to browse the tweet object in the share menu.``` | ```com.twitter.android``` | ```All versions``` |
