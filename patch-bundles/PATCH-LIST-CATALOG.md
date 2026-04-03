@@ -2223,7 +2223,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***103 Patches***
+***105 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
@@ -2248,6 +2248,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Permanent repeat``` | ```Adds an option to always repeat even if the playlist ends or another track is played.``` | ```com.google.android.apps.youtube.music``` | ```8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
 | ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```com.google.android.apps.youtube.music``` | ```8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.google.android.apps.youtube.music``` | ```8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
+| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```com.google.android.apps.youtube.music``` | ```8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
 | ```Theme``` | ```Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).``` | ```com.google.android.apps.youtube.music``` | ```8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
 | ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```com.google.android.youtube``` | ```20.45.36, 20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Ambient mode``` | ```Adds options to bypass power saving restrictions for Ambient mode and disable it entirely or in fullscreen.``` | ```com.google.android.youtube``` | ```20.45.36, 20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
@@ -2309,6 +2310,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content.``` | ```com.google.android.youtube``` | ```20.45.36, 20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Spoof app version``` | ```Adds an option to trick YouTube into thinking you are running an older version of the app. This can be used to restore old UI elements and features.``` | ```com.google.android.youtube``` | ```20.45.36, 20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Spoof device dimensions``` | ```Adds an option to spoof the device dimensions which can unlock higher video qualities.``` | ```com.google.android.youtube``` | ```20.45.36, 20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
+| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```com.google.android.youtube``` | ```20.45.36, 20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Swipe controls``` | ```Adds options to enable and configure volume and brightness swipe controls.``` | ```com.google.android.youtube``` | ```20.45.36, 20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Theme``` | ```Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).``` | ```com.google.android.youtube``` | ```20.45.36, 20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Video ads``` | ```Adds an option to remove ads in the video player.``` | ```com.google.android.youtube``` | ```20.45.36, 20.44.38, 20.40.45, 20.31.42, 20.21.37``` |
