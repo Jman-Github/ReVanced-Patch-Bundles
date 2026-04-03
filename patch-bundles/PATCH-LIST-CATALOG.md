@@ -2790,13 +2790,14 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***26 Patches***
+***27 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Always-incognito mode``` | ```Always opens Gboard in incognito mode to disable typing history collection and personalization.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
 | ```Enable clipboard in incognito``` | ```Enables clipboard support in incognito mode.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
 | ```Enable OCR feature``` | ```Enables OCR feature to extract text from images and insert it into text fields.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
 | ```Enable Undo feature``` | ```Enables undo feature to quickly undo or correct typing mistakes.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
+| ```Enable voice typing in incognito``` | ```Enables voice typing in incognito mode.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
 | ```Toggle feature flags``` | ```Toggles Gboard feature flags to enable or disable experimental or hidden features.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
 | ```Disable screenshot banner``` | ```Disables the banner that shows up after taking a screenshot.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Hide Ask button from search bar``` | ```Hides the Ask button (Reddit Answers) from the search bar.``` | ```com.reddit.frontpage``` | ```All versions``` |

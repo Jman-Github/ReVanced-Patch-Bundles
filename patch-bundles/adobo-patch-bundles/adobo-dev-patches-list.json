@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.1",
+    "version": "v1.1.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -282,6 +282,18 @@
             "name": "Enable Undo feature",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables voice typing in incognito mode.",
+            "name": "Enable voice typing in incognito",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
