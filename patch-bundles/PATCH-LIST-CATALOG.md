@@ -1678,7 +1678,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***54 Patches***
+***55 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.``` | ```app.ttmikstories.android``` | ```1.16.0``` |
@@ -1694,13 +1694,14 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Skip ads``` | ```Automatically skips ads baked into the video stream.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.447.757``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.avocards``` | ```3.0.18``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.bambuna.podcastaddict``` | ```2026.1``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.busuu.android.enc``` | ```32.30.0``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.busuu.android.enc``` | ```32.30.0(1575420)``` |
 | ```Disable Login Integrity``` | ```Removes Play Integrity device attestation from login request.``` | ```com.duolingo``` | ```6.66.5``` |
 | ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```com.duolingo``` | ```6.66.5``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.duolingo``` | ```6.66.5``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```com.getmimo``` | ```9.0``` |
 | ```Spoof package signature``` | ```Spoofs the SHA1 signature hash required for Firebase API calls.``` | ```com.getmimo``` | ```9.0``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.hellochinese``` | ```7.9.25``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.lyfta``` | ```1.551``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.merriamwebster``` | ```All versions``` |
 | ```Enable FotMob+``` | ```Enables app features locked behind the subscription paywall.``` | ```com.mobilefootie.wc2010``` | ```226.16092.20260302``` |
 | ```Enable Premium+``` | ```Enables app features locked behind the subscription paywall.``` | ```com.myfitnesspal.android``` | ```25.50.0``` |

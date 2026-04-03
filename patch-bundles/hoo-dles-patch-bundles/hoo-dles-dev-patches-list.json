@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.0-dev.1",
+    "version": "v1.19.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -232,7 +232,7 @@
         {
             "compatiblePackages": {
                 "com.busuu.android.enc": [
-                    "32.30.0"
+                    "32.30.0(1575420)"
                 ]
             },
             "dependencies": [],
@@ -328,6 +328,20 @@
                 "RawResourcePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.",
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.lyfta": [
+                    "1.551"
+                ]
+            },
+            "dependencies": [
+                "Disable Pairip license check"
+            ],
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": [],
             "use": true
