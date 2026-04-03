@@ -2888,11 +2888,11 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ***6 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable pairip license check (manifest)``` | ```Globally disables the pairip LicenseContentProvider in AndroidManifest and changes application class to bypass pairip entirely.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
+| ```Disable pairip license check (manifest)``` | ```Removes the pairip LicenseContentProvider from AndroidManifest to prevent auto-initialization of license checking.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
 | ```Enable cleartext traffic``` | ```Sets usesCleartextTraffic to true in AndroidManifest and patches the network security config to allow cleartext HTTP traffic and user-installed CA certificates. This enables MITM proxy tools like mitmproxy, Charles, and HTTP Toolkit to intercept traffic.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
 | ```Remove certificate pinning``` | ```Removes SSL/TLS certificate pinning for tv.media.jio.com. The app uses OkHttp3 CertificatePinner with SHA-256 pins controlled by Firebase Remote Config. This patch disables the pinning toggle and also patches the OkHttp3 CertificatePinner.check() method.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
 | ```Remove emulator detection``` | ```Removes emulator and unsupported device detection checks in PermissionActivity. Bypasses Build.FINGERPRINT/MODEL/BRAND/HARDWARE checks, BlueStacks folder detection, Fire TV detection, and Android TV (leanback) feature checks.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
-| ```Remove Play Store license check``` | ```Neutralizes pairip native library loading, signature verification, VM bytecode execution, LicenseActivity paywall, and Play Store redirect helpers.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
+| ```Remove Play Store license check``` | ```Bypasses pairip APK signature verification, license checking, paywall, and Play Store redirect helpers. The VM execution itself is left intact since the app's code is encrypted in assets/.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
 | ```Remove root detection``` | ```Removes root detection checks. Bypasses Firebase CommonUtils.isRooted() which checks Build.TAGS for 'test-keys', /system/app/Superuser.apk, and /system/xbin/su. Also neutralizes SecurityUtils validation and the Xposed framework detection dialog.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
 
 </details>
