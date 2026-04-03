@@ -2844,8 +2844,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 |----------|---------------|---------------------|-------------------------|
 | ```Hide ads``` | ```Hides sponsored ads and Google Ads. Also disables Microsoft Clarity analytics.``` | ```com.ebay.kleinanzeigen``` | ```2026.14.0``` |
 | ```Hide Pur``` | ```Hides the Pur ad-free subscription option from the settings menu.``` | ```com.ebay.kleinanzeigen``` | ```2026.14.0``` |
-| ```Enable CustomTabs``` | ```Enables CustomTabs to open articles in your default browser.``` | ```com.google.android.apps.magazines``` | ```5.154.0.880997081``` |
-| ```GmsCore support``` | ```Allows Google News to sign in via MicroG (GmsCore) instead of Google Play Services when installed under a renamed package.``` | ```com.google.android.apps.magazines``` | ```5.154.0.880997081``` |
+| ```Enable CustomTabs``` | ```Enables CustomTabs to open articles in your default browser.``` | ```com.google.android.apps.magazines``` | ```5.155.0.885456612``` |
+| ```GmsCore support``` | ```Allows Google News to sign in via MicroG (GmsCore) instead of Google Play Services when installed under a renamed package.``` | ```com.google.android.apps.magazines``` | ```5.155.0.885456612``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 
 </details>
