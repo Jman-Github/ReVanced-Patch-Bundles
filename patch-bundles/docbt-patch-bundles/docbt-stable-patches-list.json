@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.5.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -93,6 +93,19 @@
             "dependencies": [],
             "description": "Hides the Pur ad-free subscription option from the settings menu.",
             "name": "Hide Pur",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.ebay.kleinanzeigen": [
+                    "2026.14.2",
+                    "2026.14.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Strips UTM tracking parameters from URLs shared via the in-app share function.",
+            "name": "Remove tracking parameters from share URLs",
             "options": [],
             "use": true
         }
