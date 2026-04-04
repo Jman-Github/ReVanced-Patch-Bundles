@@ -2792,7 +2792,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***27 Patches***
+***28 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Always-incognito mode``` | ```Always opens Gboard in incognito mode to disable typing history collection and personalization.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
@@ -2801,6 +2801,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable Undo feature``` | ```Enables undo feature to quickly undo or correct typing mistakes.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
 | ```Enable voice typing in incognito``` | ```Enables voice typing in incognito mode.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
 | ```Toggle feature flags``` | ```Toggles Gboard feature flags to enable or disable experimental or hidden features.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
+| ```Remove IMDb's ads, trackers, and analytics``` | ```Removes ads, trackers, and analytics in the IMDb app.``` | ```com.imdb.mobile``` | ```All versions``` |
 | ```Disable screenshot banner``` | ```Disables the banner that shows up after taking a screenshot.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Hide Ask button from search bar``` | ```Hides the Ask button (Reddit Answers) from the search bar.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Hide community highlights``` | ```Hides the community highlights section.``` | ```com.reddit.frontpage``` | ```All versions``` |

@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.3",
+    "version": "v1.1.0-dev.4",
     "patches": [
         {
             "compatiblePackages": {
@@ -15,7 +15,9 @@
         },
         {
             "compatiblePackages": null,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Blocks ads, trackers, analytics, and unwanted content in apps and games using a hosts file.",
             "name": "Block ads, trackers, and analytics",
             "options": [
@@ -407,6 +409,18 @@
             ],
             "description": "Removes ads and telemetry everywhere.",
             "name": "Remove ads and telemetry",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.imdb.mobile": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes ads, trackers, and analytics in the IMDb app.",
+            "name": "Remove IMDb's ads, trackers, and analytics",
             "options": [],
             "use": true
         },
