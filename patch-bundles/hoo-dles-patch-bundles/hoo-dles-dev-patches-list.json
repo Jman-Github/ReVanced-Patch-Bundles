@@ -1,5 +1,5 @@
 {
-    "version": "v1.20.0-dev.1",
+    "version": "v1.20.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -453,6 +453,18 @@
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium+",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.teslacoilsw.launcher": [
+                    "81042 (8.5.1)"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enable Nova Launcher Prime and app locked behind the subscription paywall.",
+            "name": "Enable Prime",
             "options": [],
             "use": true
         },
