@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.4",
+    "version": "v1.1.0-dev.5",
     "patches": [
         {
             "compatiblePackages": {
@@ -260,6 +260,18 @@
             "name": "Enable clipboard in incognito",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables an option to select a key shape from the theme.",
+            "name": "Enable key shape selection",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {

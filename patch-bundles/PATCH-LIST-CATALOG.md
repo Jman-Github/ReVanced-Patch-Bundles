@@ -2792,11 +2792,12 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***28 Patches***
+***29 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Always-incognito mode``` | ```Always opens Gboard in incognito mode to disable typing history collection and personalization.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
 | ```Enable clipboard in incognito``` | ```Enables clipboard support in incognito mode.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
+| ```Enable key shape selection``` | ```Enables an option to select a key shape from the theme.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
 | ```Enable OCR feature``` | ```Enables OCR feature to extract text from images and insert it into text fields.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
 | ```Enable Undo feature``` | ```Enables undo feature to quickly undo or correct typing mistakes.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
 | ```Enable voice typing in incognito``` | ```Enables voice typing in incognito mode.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
