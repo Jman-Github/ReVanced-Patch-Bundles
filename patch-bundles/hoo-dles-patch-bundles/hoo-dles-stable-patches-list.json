@@ -1,5 +1,5 @@
 {
-    "version": "v1.19.0",
+    "version": "v1.20.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -360,6 +360,18 @@
         },
         {
             "compatiblePackages": {
+                "ru.iiec.pydroid3": [
+                    "8.3_arm64"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.snorelab.app": [
                     "2.27.3.6291"
                 ]
@@ -441,6 +453,18 @@
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium+",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.teslacoilsw.launcher": [
+                    "81042 (8.5.1)"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enable Nova Launcher Prime and app locked behind the subscription paywall.",
+            "name": "Enable Prime",
             "options": [],
             "use": true
         },
