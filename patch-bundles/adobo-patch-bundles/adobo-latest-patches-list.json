@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.5",
+    "version": "v1.1.0-dev.6",
     "patches": [
         {
             "compatiblePackages": {
@@ -23,7 +23,7 @@
             "options": [
                 {
                     "default": null,
-                    "description": "The hosts file containing hosts or domains you want to block.",
+                    "description": "The hosts file containing hosts or domains you want to block. Select a file or paste the full file path.",
                     "key": "hosts",
                     "required": true,
                     "title": "Hosts file",
@@ -41,6 +41,15 @@
                         "Default": "0.0.0.0",
                         "localhost": "127.0.0.1"
                     }
+                },
+                {
+                    "default": true,
+                    "description": "When enabled, entries like \"example.com\" also block subdomains like \"www.example.com\" and \"sub.www.example.com\".",
+                    "key": "isWildcard",
+                    "required": false,
+                    "title": "Wildcard blocking",
+                    "type": "kotlin.Boolean",
+                    "values": null
                 }
             ],
             "use": false
