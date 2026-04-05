@@ -646,7 +646,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***92 Patches***
+***93 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add settings``` | ```Adds settings to control preferences are patching``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
@@ -682,7 +682,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Custom emoji font``` | ```Customise emoji font style``` | ```com.twitter.android``` | ```All versions``` |
 | ```Custom font``` | ```Customise font style``` | ```com.twitter.android``` | ```All versions``` |
 | ```Custom sharing domain``` | ```Allows for using domains like fxtwitter when sharing tweets/posts.``` | ```com.twitter.android``` | ```All versions``` |
-| ```Custom translator``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Customise post font size``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Customize default reply sorting``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Customize explore tabs``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
@@ -721,13 +720,15 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide nudge button``` | ```Hides follow/subscribe/follow back buttons on posts``` | ```com.twitter.android``` | ```All versions``` |
 | ```Hide post metrics``` | ```Hides like, reposts etc counts.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Hide promote button``` | ```Hides promote button under self posts``` | ```com.twitter.android``` | ```All versions``` |
+| ```Hide recommendation items``` | ```Adds options to hide recommendation items such as "Who to follow" and "Today's news" in timeline, search, and replies.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Hide Recommended Users``` | ```Hide recommended users that pops up when you follow someone``` | ```com.twitter.android``` | ```All versions``` |
-| ```Hide timeline posts by category``` | ```Hides different post category like who to follow, news today etc from timeline.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Hook feature flag``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Import/Export login token``` | ```Adds an feature to export and import the token of accounts. This is useful when logging in on your second device or when re-installing piko.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Legacy share links``` | ```Brings back username on post share links. Works post 11.4x.xx``` | ```com.twitter.android``` | ```All versions``` |
 | ```Log server response``` | ```Log json responses received from server``` | ```com.twitter.android``` | ```All versions``` |
 | ```Native downloader``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Native reader mode``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
+| ```Native translator``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
 | ```No shortened URL``` | ```Get rid of t.co short urls.``` | ```com.twitter.android``` | ```All versions``` |
 | ```Pause search suggestions``` | ```Search suggestions will not be saved locally``` | ```com.twitter.android``` | ```All versions``` |
 | ```Remove Ads``` | ```Removed promoted posts, trends and google ads``` | ```com.twitter.android``` | ```All versions``` |

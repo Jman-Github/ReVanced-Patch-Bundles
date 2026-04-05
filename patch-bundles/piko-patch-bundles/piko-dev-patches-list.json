@@ -1,5 +1,5 @@
 {
-    "version": "v3.2.0-dev.2",
+    "version": "v3.2.0-dev.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -165,19 +165,6 @@
             ],
             "description": "Allows for using domains like fxtwitter when sharing tweets/posts.",
             "name": "Custom sharing domain",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Requires X 11.0.0-release.0 or higher.",
-            "name": "Custom translator",
             "options": [],
             "use": true
         },
@@ -807,6 +794,19 @@
                 "com.twitter.android": []
             },
             "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to hide recommendation items such as \"Who to follow\" and \"Today's news\" in timeline, search, and replies.",
+            "name": "Hide recommendation items",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Hide recommended users that pops up when you follow someone",
@@ -848,11 +848,11 @@
                 "com.twitter.android": []
             },
             "dependencies": [
-                "BytecodePatch",
+                "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Hides different post category like who to follow, news today etc from timeline.",
-            "name": "Hide timeline posts by category",
+            "description": null,
+            "name": "Hook feature flag",
             "options": [],
             "use": true
         },
@@ -862,10 +862,11 @@
             },
             "dependencies": [
                 "ResourcePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
-            "description": null,
-            "name": "Hook feature flag",
+            "description": "Adds an feature to export and import the token of accounts. This is useful when logging in on your second device or when re-installing piko.",
+            "name": "Import/Export login token",
             "options": [],
             "use": true
         },
@@ -933,6 +934,19 @@
             ],
             "description": "Requires X 11.0.0-release.0 or higher.",
             "name": "Native reader mode",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": []
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Requires X 11.0.0-release.0 or higher.",
+            "name": "Native translator",
             "options": [],
             "use": true
         },
