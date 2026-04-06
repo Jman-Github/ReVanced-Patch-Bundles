@@ -2346,10 +2346,11 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***32 Patches***
+***39 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Fake reddit premium``` | ```Allows using pro features without ads.``` | ```com.andrewshu.android.reddit``` | ```5.6.22``` |
+| ```Modify login WebView``` | ```Modify the WebView used for logging into reddit to prevent login issues``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```5.6.22, 5.6.22``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```5.6.22, 5.6.22``` |
 | ```Use public imgur API``` | ```Fix imgur albums not loading.``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```5.6.22, 5.6.22``` |
 | ```Disable ads``` | ```N/A``` | ```com.laurencedawson.reddit_sync``` | ```v23.06.30-13:39``` |
@@ -2358,9 +2359,11 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Fix post thumbnails``` | ```Fixes loading post thumbnails by correcting their URLs.``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.dev, com.laurencedawson.reddit_sync.pro``` | ```v23.06.30-13:39``` |
 | ```Fix Redgifs API``` | ```N/A``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.dev, com.laurencedawson.reddit_sync.pro``` | ```v23.06.30-13:39``` |
 | ```Fix video downloads``` | ```Fixes a bug in Sync's MPD parser resulting in only the audio-track being saved.``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.dev, com.laurencedawson.reddit_sync.pro``` | ```v23.06.30-13:39``` |
+| ```Modify login WebView``` | ```Modify the WebView used for logging into reddit to prevent login issues``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.dev, com.laurencedawson.reddit_sync.pro``` | ```v23.06.30-13:39``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.dev, com.laurencedawson.reddit_sync.pro``` | ```v23.06.30-13:39``` |
 | ```Use /user/ endpoint``` | ```Replaces the deprecated endpoint for viewing user profiles /u with /user, that used to fix a bug.``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.dev, com.laurencedawson.reddit_sync.pro``` | ```v23.06.30-13:39``` |
 | ```Fix Redgifs API``` | ```N/A``` | ```com.onelouder.baconreader, com.onelouder.baconreader.premium``` | ```6.1.4, 6.1.4``` |
+| ```Modify login WebView``` | ```Modify the WebView used for logging into reddit to prevent login issues``` | ```com.onelouder.baconreader, com.onelouder.baconreader.premium``` | ```6.1.4, 6.1.4``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.onelouder.baconreader, com.onelouder.baconreader.premium``` | ```6.1.4, 6.1.4``` |
 | ```Add archive links to context menu``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
 | ```Automatically undelete Imgur images``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
@@ -2371,13 +2374,17 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Fix missing audio in video downloads``` | ```Fixes audio missing in videos downloaded from v.redd.it.``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
 | ```Fix Redgifs API``` | ```N/A``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
 | ```Hook exception handler``` | ```Hook the exception handler in Boost. Don't enable except for development purposes``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
+| ```Modify login WebView``` | ```Modify the WebView used for logging into reddit to prevent login issues``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.rubenmayayo.reddit``` | ```1.12.12``` |
 | ```Fix /s/ links``` | ```N/A``` | ```free.reddit.news, reddit.news``` | ```10.2.40, 10.2.40``` |
+| ```Modify login WebView``` | ```Modify the WebView used for logging into reddit to prevent login issues``` | ```free.reddit.news, reddit.news``` | ```10.2.40, 10.2.40``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```free.reddit.news, reddit.news``` | ```10.2.40, 10.2.40``` |
 | ```Disable ads``` | ```N/A``` | ```io.syncapps.lemmy_sync``` | ```All versions``` |
 | ```Spoof client``` | ```Allows modifying Slide's client ID, redirect URI and user agent in settings. Patch options will modify default values.``` | ```me.edgan.redditslide``` | ```All versions``` |
+| ```Modify login WebView``` | ```Modify the WebView used for logging into reddit to prevent login issues``` | ```ml.docilealligator.infinityforreddit.patreon, ml.docilealligator.infinityforreddit.plus``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```ml.docilealligator.infinityforreddit.patreon, ml.docilealligator.infinityforreddit.plus``` | ```All versions``` |
 | ```Disable ads``` | ```N/A``` | ```o.o.joey``` | ```All versions``` |
+| ```Modify login WebView``` | ```Modify the WebView used for logging into reddit to prevent login issues``` | ```o.o.joey, o.o.joey.dev, o.o.joey.pro``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```o.o.joey, o.o.joey.dev, o.o.joey.pro``` | ```All versions``` |
 | ```Spoof client``` | ```Allows modifying Continuum's client ID, redirect URI and user agent in API Keys settings menu. Patch options will modify default values.``` | ```org.cygnusx1.continuum``` | ```All versions``` |
 | ```Enable Android debugging``` | ```Enables Android developer debugging capabilities. Including this patch can slow down the app.``` | ```Universal``` | ```All versions``` |
