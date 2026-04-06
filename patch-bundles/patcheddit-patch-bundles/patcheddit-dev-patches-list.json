@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.1",
+    "version": "v1.4.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -134,6 +134,21 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Fix /r/all",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": [
+                    "1.12.12"
+                ]
+            },
+            "dependencies": [
                 "BytecodePatch"
             ],
             "description": null,
@@ -213,6 +228,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,
@@ -227,6 +243,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -244,6 +261,7 @@
                 "com.laurencedawson.reddit_sync.pro": []
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,
