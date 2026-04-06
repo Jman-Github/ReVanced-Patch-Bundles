@@ -1,5 +1,5 @@
 {
-    "version": "v1.23.0-dev.7",
+    "version": "v1.23.0-dev.6",
     "patches": [
         {
             "compatiblePackages": {
@@ -1676,27 +1676,6 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Adds an option to play all the videos from a channel and to display play all button in the video player.",
-            "name": "Play all",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "20.45.36",
-                    "20.44.38",
-                    "20.40.45",
-                    "20.31.42",
-                    "20.21.37"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.",
@@ -1720,7 +1699,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds an option to display reload video button in the video player.",
+            "description": "Adds options to display buttons in the video player to reload video.",
             "name": "Reload video",
             "options": [],
             "use": true
