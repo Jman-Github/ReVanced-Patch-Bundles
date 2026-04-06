@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.12",
+    "version": "v1.0.0-dev.13",
     "patches": [
         {
             "compatiblePackages": {
@@ -16,7 +16,7 @@
                 "com.jio.jioplay.tv": []
             },
             "dependencies": [],
-            "description": "Makes the 'Something went wrong - Check that Google Play is enabled' dialog dismissible by preventing the app from closing when the Close button is tapped.",
+            "description": "Prevents the 'Something went wrong - Check that Google Play is enabled' dialog from appearing when license check fails on devices without Play Store.",
             "name": "Dismiss Google Play error dialog",
             "options": [],
             "use": true

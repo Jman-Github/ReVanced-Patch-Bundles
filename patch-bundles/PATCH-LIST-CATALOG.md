@@ -2896,7 +2896,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable FirebaseInitProvider``` | ```Removes FirebaseInitProvider from AndroidManifest.xml to prevent crash when VM config data is missing.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
-| ```Dismiss Google Play error dialog``` | ```Makes the 'Something went wrong - Check that Google Play is enabled' dialog dismissible by preventing the app from closing when the Close button is tapped.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
+| ```Dismiss Google Play error dialog``` | ```Prevents the 'Something went wrong - Check that Google Play is enabled' dialog from appearing when license check fails on devices without Play Store.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
 | ```Enable cleartext traffic``` | ```Sets usesCleartextTraffic to true in AndroidManifest and patches the network security config to allow cleartext HTTP traffic and user-installed CA certificates.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
 | ```Remove certificate pinning``` | ```Removes SSL/TLS certificate pinning for tv.media.jio.com.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
 | ```Remove emulator detection``` | ```Removes emulator and unsupported device detection checks in PermissionActivity.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
