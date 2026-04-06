@@ -2347,7 +2347,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ***31 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Fake reddit premium``` | ```Allows using pro features without ads.``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```5.6.22, 5.6.22``` |
+| ```Fake reddit premium``` | ```Allows using pro features without ads.``` | ```com.andrewshu.android.reddit``` | ```5.6.22``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```5.6.22, 5.6.22``` |
 | ```Use public imgur API``` | ```Fix imgur albums not loading.``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```5.6.22, 5.6.22``` |
 | ```Disable ads``` | ```N/A``` | ```com.laurencedawson.reddit_sync``` | ```v23.06.30-13:39``` |
