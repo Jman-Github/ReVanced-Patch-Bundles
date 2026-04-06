@@ -1,5 +1,5 @@
 {
-    "version": "v1.21.0-dev.1",
+    "version": "v1.21.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -349,7 +349,7 @@
         {
             "compatiblePackages": {
                 "com.bambuna.podcastaddict": [
-                    "2026.1"
+                    "2026.4"
                 ]
             },
             "dependencies": [],
@@ -602,6 +602,22 @@
             "compatiblePackages": {
                 "kr.co.yjteam.dailypay": [
                     "6.0.7"
+                ]
+            },
+            "dependencies": [
+                "Add resources",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
+            "name": "MicroG integration",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.bambuna.podcastaddict": [
+                    "2026.4"
                 ]
             },
             "dependencies": [
