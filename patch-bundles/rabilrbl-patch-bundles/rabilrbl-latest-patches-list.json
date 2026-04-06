@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.11",
+    "version": "v1.0.0-dev.12",
     "patches": [
         {
             "compatiblePackages": {
@@ -16,8 +16,8 @@
                 "com.jio.jioplay.tv": []
             },
             "dependencies": [],
-            "description": "Removes the pairip LicenseContentProvider from AndroidManifest to prevent auto-initialization of license checking.",
-            "name": "Disable pairip license check (manifest)",
+            "description": "Makes the 'Something went wrong - Check that Google Play is enabled' dialog dismissible by preventing the app from closing when the Close button is tapped.",
+            "name": "Dismiss Google Play error dialog",
             "options": [],
             "use": true
         },
@@ -48,16 +48,6 @@
             "dependencies": [],
             "description": "Removes emulator and unsupported device detection checks in PermissionActivity.",
             "name": "Remove emulator detection",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.jio.jioplay.tv": []
-            },
-            "dependencies": [],
-            "description": "Removes the Play Store installation and license verification check (pairip).",
-            "name": "Remove Play Store license check",
             "options": [],
             "use": true
         },
