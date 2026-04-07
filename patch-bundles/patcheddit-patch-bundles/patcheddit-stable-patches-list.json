@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.1",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -119,14 +119,26 @@
             "compatiblePackages": {
                 "com.andrewshu.android.reddit": [
                     "5.6.22"
-                ],
-                "com.andrewshu.android.redditdonation": [
-                    "5.6.22"
                 ]
             },
             "dependencies": [],
             "description": "Allows using pro features without ads.",
             "name": "Fake reddit premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": [
+                    "1.12.12"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Fix /r/all",
             "options": [],
             "use": true
         },
@@ -216,6 +228,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,
@@ -230,6 +243,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -247,6 +261,7 @@
                 "com.laurencedawson.reddit_sync.pro": []
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,
@@ -283,6 +298,114 @@
             "name": "Hook exception handler",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.onelouder.baconreader": [
+                    "6.1.4"
+                ],
+                "com.onelouder.baconreader.premium": [
+                    "6.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Modify the WebView used for logging into reddit to prevent login issues",
+            "name": "Modify login WebView",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.rubenmayayo.reddit": [
+                    "1.12.12"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Modify the WebView used for logging into reddit to prevent login issues",
+            "name": "Modify login WebView",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "ml.docilealligator.infinityforreddit.patreon": [],
+                "ml.docilealligator.infinityforreddit.plus": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Modify the WebView used for logging into reddit to prevent login issues",
+            "name": "Modify login WebView",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "o.o.joey": [],
+                "o.o.joey.dev": [],
+                "o.o.joey.pro": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Modify the WebView used for logging into reddit to prevent login issues",
+            "name": "Modify login WebView",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.andrewshu.android.reddit": [
+                    "5.6.22"
+                ],
+                "com.andrewshu.android.redditdonation": [
+                    "5.6.22"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Modify the WebView used for logging into reddit to prevent login issues",
+            "name": "Modify login WebView",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "free.reddit.news": [
+                    "10.2.40"
+                ],
+                "reddit.news": [
+                    "10.2.40"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Modify the WebView used for logging into reddit to prevent login issues",
+            "name": "Modify login WebView",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.laurencedawson.reddit_sync": [
+                    "v23.06.30-13:39"
+                ],
+                "com.laurencedawson.reddit_sync.dev": [],
+                "com.laurencedawson.reddit_sync.pro": []
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Modify the WebView used for logging into reddit to prevent login issues",
+            "name": "Modify login WebView",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
