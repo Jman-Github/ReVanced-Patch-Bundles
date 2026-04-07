@@ -2032,7 +2032,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***8 Patches***
+***9 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Premium``` | ```Unlocks the Premium subscription``` | ```com.flatastic.app``` | ```All versions``` |
@@ -2041,6 +2041,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```No Integrity Check``` | ```Disables the integrity checks``` | ```com.ticktick.task``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks the Pro subscription``` | ```com.ticktick.task``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks the Premium subscription``` | ```com.wixsite.ut_app.utalarm``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks the Pro subscription``` | ```io.strongapp.strong``` | ```All versions``` |
 | ```Hide Ads``` | ```Hides ads across the app``` | ```mega.privacy.android.app``` | ```All versions``` |
 | ```Offline Privacy``` | ```Blocks ads and tracking by forcing the app to be offline``` | ```superadventure.mario.classic.bros.retrogame``` | ```All versions``` |
 
