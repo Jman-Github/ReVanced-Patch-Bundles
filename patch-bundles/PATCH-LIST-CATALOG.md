@@ -2940,3 +2940,13 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Zhuyin Slide Input``` | ```注音鍵盤支持上下滑輸入``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 
 </details>
+
+---
+### 🧩 RealCyberwash Bundle Patch List:
+[📦 RealCyberwash-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-realcyberwash-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
