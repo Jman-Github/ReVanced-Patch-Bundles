@@ -1,5 +1,5 @@
 {
-    "version": "v1.21.0",
+    "version": "v1.22.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -132,6 +132,18 @@
             "compatiblePackages": {
                 "ginlemon.flowerfree": [
                     "6.6 build 002"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.",
+            "name": "Disable signature check",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xodo.pdf.reader": [
+                    "10.13.0"
                 ]
             },
             "dependencies": [],
@@ -556,6 +568,20 @@
                 "Disable anti-tamper"
             ],
             "description": "Enables app features locked behind the subscription paywall. Login is required and AI functionality is unavailable.",
+            "name": "Enable Pro",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xodo.pdf.reader": [
+                    "10.13.0"
+                ]
+            },
+            "dependencies": [
+                "Disable signature check"
+            ],
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Pro",
             "options": [],
             "use": true

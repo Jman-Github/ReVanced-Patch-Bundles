@@ -2926,6 +2926,12 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***4 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```English QWERTY Slide Symbols``` | ```英文 QWERTY 鍵盤支持上下滑符號輸入``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
+| ```Package Rename``` | ```將套件名稱改成 com.google.android.inputmethod.latin.jason.dev 以便共存安裝``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
+| ```Zhuyin Quick Traditional/Simplified Toggle``` | ```依賴注音上下滑，在注音 ㄥ 上滑快速切換繁簡``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
+| ```Zhuyin Slide Input``` | ```注音鍵盤支持上下滑輸入``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 
 </details>
