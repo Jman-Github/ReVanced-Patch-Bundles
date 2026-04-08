@@ -59,6 +59,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 LoV432 Bundle Patch List](#-lov432-bundle-patch-list)    
 [🧩 PixelPusher247 Bundle Patch List](#-pixelpusher247-bundle-patch-list)    
 [🧩 Rabilrbl Bundle Patch List](#-rabilrbl-bundle-patch-list)    
+[🧩 Jasonwu1994 Bundle Patch List](#-jasonwu1994-bundle-patch-list)    
+
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -2915,5 +2917,15 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Remove emulator detection``` | ```Removes emulator and unsupported device detection checks in PermissionActivity.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
 | ```Remove pairip native library``` | ```Removes libpairipcore.so from all architectures to prevent native signature verification that crashes on patched APKs.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
 | ```Remove root detection``` | ```Removes root detection checks. Bypasses Firebase CommonUtils.isRooted() and Xposed framework detection.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Jasonwu1994 Bundle Patch List:
+[📦 Jasonwu1994-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jasonwu1994-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
 
 </details>

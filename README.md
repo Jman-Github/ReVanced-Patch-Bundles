@@ -39,7 +39,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Anddea-Patches-Bundle [API v4]:
+### 📦 Anddea-Patches-Bundle [Morphe]:
 [🧩 Anddea Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-anddea-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -52,7 +52,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Piko-Patches-Bundle [API v4]:
+### 📦 Piko-Patches-Bundle [Morphe]:
 [🧩 Piko Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-piko-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -364,7 +364,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Brosssh-Patches-Bundle [API v4]:
+### 📦 Brosssh-Patches-Bundle [Morphe]:
 [🧩 Brosssh Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-brosssh-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -377,7 +377,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Hoo-dles-Patches-Bundle [API v4]:
+### 📦 Hoo-dles-Patches-Bundle [Morphe]:
 [🧩 Hoo-dles Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hoo-dles-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -520,7 +520,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 AmpleReVanced-Patches-Bundle [API v4]:
+### 📦 AmpleReVanced-Patches-Bundle [Morphe]:
 [🧩 AmpleReVanced Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-amplerevanced-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -559,7 +559,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Morphe-Patches-Bundle [API v4]:
+### 📦 Morphe-Patches-Bundle [Morphe]:
 [🧩 Morphe Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-morphe-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -572,7 +572,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Patcheddit-Patches-Bundle [API v4]:
+### 📦 Patcheddit-Patches-Bundle [Morphe]:
 [🧩 Patcheddit Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-patcheddit-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -585,7 +585,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 RVX-Morphed-Patches-Bundle [API v4]:
+### 📦 RVX-Morphed-Patches-Bundle [Morphe]:
 [🧩 RVX-Morphed Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-rvx-morphed-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -611,7 +611,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 IMXEren-Patches-Bundle [API v4]:
+### 📦 IMXEren-Patches-Bundle [Morphe]:
 [🧩 IMXEren Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-imxeren-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -624,7 +624,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Almewty-Patches-Bundle [API v4]:
+### 📦 Almewty-Patches-Bundle [Morphe]:
 [🧩 Almewty Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-almewty-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -637,7 +637,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Anddea-Morphed-Patches-Bundle [API v4]:
+### 📦 Anddea-Morphed-Patches-Bundle [Morphe]:
 [🧩 Anddea-Morphed Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-anddea-morphed-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -650,7 +650,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 RookieEnough-Patches-Bundle [API v4]:
+### 📦 RookieEnough-Patches-Bundle [Morphe]:
 [🧩 RookieEnough Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-rookieenough-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -663,7 +663,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Adobo-Patches-Bundle [API v4]:
+### 📦 Adobo-Patches-Bundle [Morphe]:
 [🧩 Adobo Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-adobo-morphed-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -676,7 +676,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Alexvbp-Patches-Bundle [API v4]:
+### 📦 Alexvbp-Patches-Bundle [Morphe]:
 [🧩 Alexvbp Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-alexvbp-morphed-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -689,7 +689,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Docbt-Patches-Bundle [API v4]:
+### 📦 Docbt-Patches-Bundle [Morphe]:
 [🧩 Docbt Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-docbt-morphed-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -715,7 +715,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 PixelPusher247-Patches-Bundle [API v4]:
+### 📦 PixelPusher247-Patches-Bundle [Morphe]:
 [🧩 PixelPusher247 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-pixelpusher247-morphed-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -728,7 +728,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Rabilrbl-Patches-Bundle [API v4]:
+### 📦 Rabilrbl-Patches-Bundle [Morphe]:
 [🧩 Rabilrbl Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-rabilrbl-morphed-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -738,6 +738,19 @@ If you would like to see what patches the patch bundles tracked in this reposito
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rabilrbl-patch-bundles/rabilrbl-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rabilrbl-patch-bundles/rabilrbl-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Jasonwu1994-Patches-Bundle [Morphe]:
+[🧩 Jasonwu1994 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-jasonwu1994-morphed-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jasonwu1994-patch-bundles/jasonwu1994-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jasonwu1994-patch-bundles/jasonwu1994-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jasonwu1994-patch-bundles/jasonwu1994-dev-patches-bundle.json```
 </details>
 
 ---
@@ -867,6 +880,8 @@ https://github.com/ReVanced/revanced-manager/releases
 #### 🏷️ [PixelPusher247-Patches-Bundle](https://github.com/PixelPusher247/morphe-patches)
 
 #### 🏷️ [Rabilrbl-Patches-Bundle](https://github.com/rabilrbl/fluffy-patches)
+
+#### 🏷️ [Jasonwu1994-Patches-Bundle](https://github.com/jasonwu1994/Gboard-patches)
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*
