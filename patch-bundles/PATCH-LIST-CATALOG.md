@@ -2036,9 +2036,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***9 Patches***
+***10 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Unlock Premium``` | ```Unlocks the Premium subscription``` | ```com.duolingo``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks the Premium subscription``` | ```com.flatastic.app``` | ```All versions``` |
 | ```Unlock Plus``` | ```Unlocks the Plus subscription``` | ```com.netbiscuits.kicker``` | ```All versions``` |
 | ```Unlock Pur``` | ```Unlocks the Pur subscription``` | ```com.netbiscuits.kicker``` | ```All versions``` |
