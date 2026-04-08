@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.2",
+    "version": "v1.6.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -26,7 +26,7 @@
                 "superadventure.mario.classic.bros.retrogame": null
             },
             "dependencies": [
-                "ResourcePatch"
+                "Remove permissions"
             ],
             "description": "Blocks ads and tracking by forcing the app to be offline",
             "name": "Offline Privacy",
@@ -40,6 +40,16 @@
             "dependencies": [],
             "description": "Unlocks the Plus subscription",
             "name": "Unlock Plus",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.duolingo": null
+            },
+            "dependencies": [],
+            "description": "Unlocks the Premium subscription",
+            "name": "Unlock Premium",
             "options": [],
             "use": true
         },
@@ -60,6 +70,16 @@
             "dependencies": [],
             "description": "Unlocks the Premium subscription",
             "name": "Unlock Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "io.strongapp.strong": null
+            },
+            "dependencies": [],
+            "description": "Unlocks the Pro subscription",
+            "name": "Unlock Pro",
             "options": [],
             "use": true
         },
