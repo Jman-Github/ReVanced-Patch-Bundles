@@ -2947,6 +2947,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***1 Patch***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Bypass VPN Check``` | ```Forces you to check the IP address only on Yandex``` | ```ru.oneme.app``` | ```26.10.1, 26.11.3``` |
 
 </details>
