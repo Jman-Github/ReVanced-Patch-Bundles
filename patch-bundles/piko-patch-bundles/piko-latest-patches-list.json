@@ -1,5 +1,5 @@
 {
-    "version": "v3.2.0-dev.3",
+    "version": "v3.2.0-dev.4",
     "patches": [
         {
             "compatiblePackages": {
@@ -717,6 +717,20 @@
         },
         {
             "compatiblePackages": {
+                "com.instagram.android": [
+                    "423.0.0.47.66"
+                ]
+            },
+            "dependencies": [
+                "Add settings"
+            ],
+            "description": null,
+            "name": "Hide group creation button on sharesheet",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.twitter.android": []
             },
             "dependencies": [
@@ -749,6 +763,20 @@
             ],
             "description": null,
             "name": "Hide Live Threads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "423.0.0.47.66"
+                ]
+            },
+            "dependencies": [
+                "Add settings"
+            ],
+            "description": "Hides navigation bar buttons, such as the Reels and Create button.",
+            "name": "Hide navigation buttons",
             "options": [],
             "use": true
         },
@@ -821,6 +849,20 @@
                 ]
             },
             "dependencies": [
+                "Add settings"
+            ],
+            "description": "Hides the reshare button from both posts and reels.",
+            "name": "Hide reshare button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "423.0.0.47.66"
+                ]
+            },
+            "dependencies": [
                 "Add settings",
                 "ResourcePatch"
             ],
@@ -872,6 +914,20 @@
         },
         {
             "compatiblePackages": {
+                "com.instagram.android": [
+                    "423.0.0.47.66"
+                ]
+            },
+            "dependencies": [
+                "Add settings"
+            ],
+            "description": "Fetches max resolution images from server.",
+            "name": "Improve image viewing",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.twitter.android": []
             },
             "dependencies": [
@@ -906,6 +962,20 @@
             ],
             "description": "Log json responses received from server",
             "name": "Log server response",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "423.0.0.47.66"
+                ]
+            },
+            "dependencies": [
+                "Add settings"
+            ],
+            "description": "changes view once, view twice media to permanent view. Do note older ephemeral media might look blank.",
+            "name": "Make ephemeral media permanent",
             "options": [],
             "use": true
         },
@@ -1149,20 +1219,6 @@
             ],
             "description": null,
             "name": "Show sensitive media",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
-            "dependencies": [
-                "Add settings"
-            ],
-            "description": "Unlimited replays on view once, view twice media before they get expired",
-            "name": "Unlimited replays on ephemeral media",
             "options": [],
             "use": true
         },
