@@ -1,5 +1,5 @@
 {
-    "version": "v1.23.0-dev.9",
+    "version": "v1.23.0-dev.10",
     "patches": [
         {
             "compatiblePackages": {
@@ -1839,7 +1839,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds options to disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, hiding the video player seekbar, and enabling seeking in livestreams.",
+            "description": "Adds options to disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, hiding the video player seekbar, enabling seeking in livestreams, and expanding the livestream DVR duration.",
             "name": "Seekbar",
             "options": [],
             "use": true
