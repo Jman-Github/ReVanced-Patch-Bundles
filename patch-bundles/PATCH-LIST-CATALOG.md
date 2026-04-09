@@ -2976,6 +2976,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***2 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Increase Max Rounds``` | ```Changes the max value of the rounds SeekBar from 108 to 216.``` | ```Universal``` | ```All versions``` |
+| ```Unlock Premium``` | ```Forces the premium check to always return true.``` | ```Universal``` | ```All versions``` |
 
 </details>
