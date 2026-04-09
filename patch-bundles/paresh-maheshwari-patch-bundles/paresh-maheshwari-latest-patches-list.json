@@ -1,0 +1,17 @@
+{
+    "version": "v1.0.3",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "app.netmirror.netmirrornew": [
+                    "3.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Skips the startup support page that requires waiting ~20 seconds.",
+            "name": "Bypass support page",
+            "options": [],
+            "use": true
+        }
+    ]
+}
