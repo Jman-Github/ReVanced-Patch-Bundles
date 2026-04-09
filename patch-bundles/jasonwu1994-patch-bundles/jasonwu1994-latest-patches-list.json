@@ -1,6 +1,22 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.0",
     "patches": [
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "強制啟用中文語音",
+            "name": "Chinese Online Voice Input",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "com.google.android.inputmethod.latin": [
@@ -26,7 +42,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "將套件名稱改成 com.google.android.inputmethod.latin.jason.dev 以便共存安裝",
+            "description": "將套件名稱改成 dev.jason.com.google.android.inputmethod.latin 以便共存安裝",
             "name": "Package Rename",
             "options": [],
             "use": true
@@ -39,13 +55,10 @@
             },
             "dependencies": [
                 "Zhuyin Slide Input",
-                "ResourcePatch",
-                "ResourcePatch",
-                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "依賴注音上下滑，在注音 ㄥ 上滑快速切換繁簡",
+            "description": "注音 ㄥ 上滑快速切換繁簡",
             "name": "Zhuyin Quick Traditional/Simplified Toggle",
             "options": [],
             "use": true
