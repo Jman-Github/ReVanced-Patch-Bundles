@@ -60,7 +60,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 PixelPusher247 Bundle Patch List](#-pixelpusher247-bundle-patch-list)    
 [🧩 Rabilrbl Bundle Patch List](#-rabilrbl-bundle-patch-list)    
 [🧩 Jasonwu1994 Bundle Patch List](#-jasonwu1994-bundle-patch-list)    
-
+[🧩 Paresh-Maheshwari Bundle Patch List](#-paresh-maheshwari-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -2952,5 +2952,15 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass VPN Check``` | ```Forces you to check the IP address only on Yandex``` | ```ru.oneme.app``` | ```26.10.1, 26.11.3``` |
+
+</details>
+
+---
+### 🧩 Paresh-Maheshwari Bundle Patch List:
+[📦 Paresh-Maheshwari-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-paresh-maheshwari-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
 
 </details>

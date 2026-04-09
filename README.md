@@ -767,6 +767,19 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
+### 📦 Paresh-Maheshwari-Patches-Bundle [Morphe]:
+[🧩 Paresh-Maheshwari Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-paresh-maheshwari-morphed-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/paresh-maheshwari-patch-bundles/paresh-maheshwari-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/paresh-maheshwari-patch-bundles/paresh-maheshwari-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/paresh-maheshwari-patch-bundles/paresh-maheshwari-dev-patches-bundle.json```
+</details>
+
+---
 # 📱 ReVanced Manager Compose:
 ### 📍 Universal ReVanced Manager (my fork)
 *Highly suggested if you want to be unrestricted in the patch bundles you import!*
@@ -897,6 +910,8 @@ https://github.com/ReVanced/revanced-manager/releases
 #### 🏷️ [Jasonwu1994-Patches-Bundle](https://github.com/jasonwu1994/Gboard-patches)
 
 #### 🏷️ [RealCyberwash-Patches-Bundle](https://github.com/realcyberwash/max-patches)
+
+#### 🏷️ [Paresh-Maheshwari-Patches-Bundle](https://github.com/paresh-maheshwari/max-patches)
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*
