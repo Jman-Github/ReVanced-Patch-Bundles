@@ -61,6 +61,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Rabilrbl Bundle Patch List](#-rabilrbl-bundle-patch-list)    
 [🧩 Jasonwu1994 Bundle Patch List](#-jasonwu1994-bundle-patch-list)    
 [🧩 Paresh-Maheshwari Bundle Patch List](#-paresh-maheshwari-bundle-patch-list)    
+[🧩 Aniketshinde007 Bundle Patch List](#-aniketshinde007-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -2966,5 +2967,15 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass support page``` | ```Skips the startup support page that requires waiting ~20 seconds.``` | ```app.netmirror.netmirrornew``` | ```3.0``` |
+
+</details>
+
+---
+### 🧩 Aniketshinde007 Bundle Patch List:
+[📦 Aniketshinde007-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-aniketshinde007-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
 
 </details>
