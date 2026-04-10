@@ -1,5 +1,5 @@
 {
-    "version": "v1.24.0-dev.2",
+    "version": "v1.24.0-dev.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -1178,6 +1178,10 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
