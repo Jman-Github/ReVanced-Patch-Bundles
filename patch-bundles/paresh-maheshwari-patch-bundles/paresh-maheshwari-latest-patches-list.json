@@ -1,18 +1,6 @@
 {
-    "version": "v1.1.8",
+    "version": "v1.0.0",
     "patches": [
-        {
-            "compatiblePackages": {
-                "app.netmirror.netmirrornew": [
-                    "3.0"
-                ]
-            },
-            "dependencies": [],
-            "description": "Skips the startup ad/support page by pre-setting the ad cooldown timer.",
-            "name": "Bypass support page",
-            "options": [],
-            "use": true
-        },
         {
             "compatiblePackages": {
                 "com.solid.teleprompter": [
