@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.2",
+    "version": "v1.1.4",
     "patches": [
         {
             "compatiblePackages": {
@@ -16,10 +16,26 @@
         {
             "compatiblePackages": {
                 "com.solid.teleprompter": [
+                    "6.8.2",
                     "6.8.1"
                 ]
             },
             "dependencies": [],
+            "description": "Removes split APK requirement so the patched APK can be installed standalone.",
+            "name": "Remove split requirement",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.solid.teleprompter": [
+                    "6.8.2",
+                    "6.8.1"
+                ]
+            },
+            "dependencies": [
+                "Remove split requirement"
+            ],
             "description": "Unlocks premium features in Teleprompter Vlog & Scripts app.",
             "name": "Teleprompter Premium",
             "options": [],
