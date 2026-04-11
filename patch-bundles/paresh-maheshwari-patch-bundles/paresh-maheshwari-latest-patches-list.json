@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.3",
+    "version": "v1.1.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -10,6 +10,18 @@
             "dependencies": [],
             "description": "Skips the startup support page that requires waiting ~20 seconds.",
             "name": "Bypass support page",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.solid.teleprompter": [
+                    "6.8.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium features in Teleprompter Vlog & Scripts app.",
+            "name": "Teleprompter Premium",
             "options": [],
             "use": true
         }
