@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0",
+    "version": "v1.1.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -11,6 +11,18 @@
             "dependencies": [],
             "description": "Unlocks premium features in Teleprompter Vlog & Scripts app.",
             "name": "Teleprompter Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.frontrow.vlog": [
+                    "2.12.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium features in VN Video Editor.",
+            "name": "VN Premium",
             "options": [],
             "use": true
         }
