@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.5",
+    "version": "v1.1.8",
     "patches": [
         {
             "compatiblePackages": {
@@ -8,7 +8,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Skips the startup support page that requires waiting ~20 seconds.",
+            "description": "Skips the startup ad/support page by pre-setting the ad cooldown timer.",
             "name": "Bypass support page",
             "options": [],
             "use": true

@@ -2970,7 +2970,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Bypass support page``` | ```Skips the startup support page that requires waiting ~20 seconds.``` | ```app.netmirror.netmirrornew``` | ```3.0``` |
+| ```Bypass support page``` | ```Skips the startup ad/support page by pre-setting the ad cooldown timer.``` | ```app.netmirror.netmirrornew``` | ```3.0``` |
 | ```Teleprompter Premium``` | ```Unlocks premium features in Teleprompter Vlog & Scripts app.``` | ```com.solid.teleprompter``` | ```6.8.2, 6.8.1``` |
 
 </details>
