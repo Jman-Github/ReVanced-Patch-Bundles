@@ -1,6 +1,18 @@
 {
-    "version": "v1.1.1",
+    "version": "v1.2.0",
     "patches": [
+        {
+            "compatiblePackages": {
+                "com.cv.docscanner": [
+                    "6.8.18"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks all premium features, removes ads, and enables pro themes.",
+            "name": "Doc Scanner Premium",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "com.solid.teleprompter": [
