@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.13",
+    "version": "v1.2.0-dev.15",
     "patches": [
         {
             "compatiblePackages": null,
@@ -88,8 +88,23 @@
             "dependencies": [
                 "Add resources",
                 "ResourcePatch",
-                "BytecodePatch",
-                "Change package name"
+                "BytecodePatch"
+            ],
+            "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
+            "name": "MicroG integration",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.overlook.android.fing": [
+                    "12.11.9"
+                ]
+            },
+            "dependencies": [
+                "Add resources",
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
             "name": "MicroG integration",
