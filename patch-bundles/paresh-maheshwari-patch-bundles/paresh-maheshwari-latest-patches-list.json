@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.2.0-dev.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -10,6 +10,18 @@
             "dependencies": [],
             "description": "Unlocks all premium features, removes ads, and enables pro themes.",
             "name": "Doc Scanner Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.overlook.android.fing": [
+                    "12.11.9"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium network tools and features.",
+            "name": "Fing Premium",
             "options": [],
             "use": true
         },
