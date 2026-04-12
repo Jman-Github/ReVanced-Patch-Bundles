@@ -2819,7 +2819,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***29 Patches***
+***30 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Always-incognito mode``` | ```Always opens Gboard in incognito mode to disable typing history collection and personalization.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
@@ -2832,6 +2832,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Remove IMDb's ads, trackers, and analytics``` | ```Removes ads, trackers, and analytics in the IMDb app.``` | ```com.imdb.mobile``` | ```All versions``` |
 | ```Disable screenshot banner``` | ```Disables the banner that shows up after taking a screenshot.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Hide Ask button from search bar``` | ```Hides the Ask button (Reddit Answers) from the search bar.``` | ```com.reddit.frontpage``` | ```All versions``` |
+| ```Hide awards``` | ```Hides the awards on Reddit posts and comments.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Hide community highlights``` | ```Hides the community highlights section.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Hide post view counts``` | ```Removes the "views" indicator from the post metadata.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Hide prominent search bar``` | ```Hides the new prominent search bar on the main screen.``` | ```com.reddit.frontpage``` | ```All versions``` |
