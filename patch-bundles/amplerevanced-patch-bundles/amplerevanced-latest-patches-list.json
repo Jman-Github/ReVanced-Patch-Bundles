@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.10",
+    "version": "v1.0.0-dev.11",
     "patches": [
         {
             "compatiblePackages": {
@@ -168,11 +168,43 @@
                 ]
             },
             "dependencies": [
-                "ResourcePatch"
+                "ResourcePatch",
+                "Bypass getText",
+                "Spoof Signature"
             ],
             "description": "Appends \".revanced\" to the package name by default. For DCinside only",
             "name": "Change package name",
-            "options": [],
+            "options": [
+                {
+                    "default": "Default",
+                    "description": "The name of the package to rename the app to.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "key": "updatePermissions",
+                    "required": false,
+                    "title": "Update permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "key": "updateProviders",
+                    "required": false,
+                    "title": "Update providers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ],
             "use": false
         },
         {
@@ -182,11 +214,78 @@
                 ]
             },
             "dependencies": [
+                "ResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Appends \".revanced\" to the package name by default. For KakaoTalk only",
             "name": "Change package name",
-            "options": [],
+            "options": [
+                {
+                    "default": "Default",
+                    "description": "The name of the package to rename the app to.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "key": "updatePermissions",
+                    "required": false,
+                    "title": "Update permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "key": "updateProviders",
+                    "required": false,
+                    "title": "Update providers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.7"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Customize app branding (name and icon)",
+            "name": "Custom branding",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Custom app name",
+                    "key": "customName",
+                    "required": false,
+                    "title": "Custom app name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "Original",
+                    "description": "            App icon source.\n\n            Special values:\n            - Original: Keep the original app icon.\n            - Bundled: Use the bundled icon from patches/src/main/resources/custom-branding.\n\n            Any other value is treated as a folder path with custom DCinside launcher icons.\n\n            A custom icon folder must contain one or more of the following directories:\n            - mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\n            Each icon directory must contain exactly one launcher icon file:\n            - ic_launcher.png\n- ic_launcher.webp\n\n            The expected launcher icon sizes are:\n            - mipmap-mdpi: 48x48 px\n- mipmap-hdpi: 72x72 px\n- mipmap-xhdpi: 96x96 px\n- mipmap-xxhdpi: 144x144 px\n- mipmap-xxxhdpi: 192x192 px\n\n            Optionally, you can provide a notification icon as either:\n            - drawable/ic_symbol.xml\n            - drawable-<dpi>/ic_symbol.png or ic_symbol.webp with sizes:\n            - drawable-mdpi: 24x24 px\n- drawable-hdpi: 36x36 px\n- drawable-xhdpi: 48x48 px\n- drawable-xxhdpi: 72x72 px\n- drawable-xxxhdpi: 96x96 px",
+                    "key": "customIcon",
+                    "required": false,
+                    "title": "Custom app icon",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Bundled": "Bundled",
+                        "Original": "Original"
+                    }
+                }
+            ],
             "use": false
         },
         {

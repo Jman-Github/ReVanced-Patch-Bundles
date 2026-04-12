@@ -2116,12 +2116,13 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***62 Patches***
+***63 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add notification shortcut``` | ```Adds a notification shortcut button above quick write in the post list.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Bypass getText``` | ```Bypasses the integrity check for getText.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Change package name``` | ```Appends ".revanced" to the package name by default. For DCinside only``` | ```com.dcinside.app.android``` | ```5.2.7``` |
+| ```Custom branding``` | ```Customize app branding (name and icon)``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Dimens Patch``` | ```reassigns ad_minimum_height to 0dp to remove ads from the app.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Disable ad controller``` | ```Disables the ad controller that manages ads in the app.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Disable Comment Ad``` | ```Disables the comment ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
