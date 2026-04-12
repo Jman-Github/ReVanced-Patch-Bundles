@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -22,6 +22,18 @@
             "dependencies": [],
             "description": "Unlocks premium network tools and features.",
             "name": "Fing Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.arlosoft.macrodroid": [
+                    "5.62.11"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium features and removes macro limits.",
+            "name": "MacroDroid Premium",
             "options": [],
             "use": true
         },

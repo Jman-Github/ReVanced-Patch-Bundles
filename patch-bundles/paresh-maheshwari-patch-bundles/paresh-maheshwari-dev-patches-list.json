@@ -1,60 +1,6 @@
 {
-    "version": "v1.2.0-dev.15",
+    "version": "v1.4.0-dev.2",
     "patches": [
-        {
-            "compatiblePackages": null,
-            "dependencies": [],
-            "description": "Add resources such as strings or arrays to the app.",
-            "name": "Add resources",
-            "options": [],
-            "use": false
-        },
-        {
-            "compatiblePackages": null,
-            "dependencies": [],
-            "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
-            "name": "Change package name",
-            "options": [
-                {
-                    "default": "Default",
-                    "description": "The name of the package to rename the app to.",
-                    "key": "packageName",
-                    "required": true,
-                    "title": "Package name",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Default": "Default"
-                    }
-                },
-                {
-                    "default": false,
-                    "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
-                    "key": "updatePermissions",
-                    "required": false,
-                    "title": "Update permissions",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
-                    "key": "updateProviders",
-                    "required": false,
-                    "title": "Update providers",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ],
-            "use": false
-        },
-        {
-            "compatiblePackages": null,
-            "dependencies": [],
-            "description": "Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.",
-            "name": "Disable Pairip license check",
-            "options": [],
-            "use": false
-        },
         {
             "compatiblePackages": {
                 "com.cv.docscanner": [
@@ -81,33 +27,13 @@
         },
         {
             "compatiblePackages": {
-                "com.cv.docscanner": [
-                    "6.8.18"
+                "com.arlosoft.macrodroid": [
+                    "5.62.11"
                 ]
             },
-            "dependencies": [
-                "Add resources",
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
-            "name": "MicroG integration",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.overlook.android.fing": [
-                    "12.11.9"
-                ]
-            },
-            "dependencies": [
-                "Add resources",
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
-            "name": "MicroG integration",
+            "dependencies": [],
+            "description": "Unlocks premium features and removes macro limits.",
+            "name": "MacroDroid Premium",
             "options": [],
             "use": true
         },
