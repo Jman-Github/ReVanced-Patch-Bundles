@@ -61,6 +61,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Paresh-Maheshwari Bundle Patch List](#-paresh-maheshwari-bundle-patch-list)    
 [🧩 Aniketshinde007 Bundle Patch List](#-aniketshinde007-bundle-patch-list)    
 [🧩 Binarymend Bundle Patch List](#-binarymend-bundle-patch-list)    
+[🧩 Polka-Bear Bundle Patch List](#-polka-bear-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -2977,5 +2978,15 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Quick Cursor PRO``` | ```Unlock all PRO features``` | ```com.quickcursor``` | ```All versions``` |
 | ```Disable Telemetry``` | ```Disables AppStartTracker and other telemetry points.``` | ```com.truecaller``` | ```26.12.5``` |
 | ```Remove Ads``` | ```Disables all ad feature toggles globally.``` | ```com.truecaller``` | ```26.12.5``` |
+
+</details>
+
+---
+### 🧩 Polka-Bear Bundle Patch List:
+[📦 Polka-Bear-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-polka-bear-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
 
 </details>

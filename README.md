@@ -780,6 +780,19 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
+### 📦 Polka-Bear-Patches-Bundle [Morphe]:
+[🧩 Polka-Bear Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-polka-bear-morphed-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/polka-bear-patch-bundles/polka-bear-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/polka-bear-patch-bundles/polka-bear-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/polka-bear-patch-bundles/polka-bear-dev-patches-bundle.json```
+</details>
+
+---
 # 📱 ReVanced Manager Compose:
 ### 📍 Universal ReVanced Manager (my fork)
 *Highly suggested if you want to be unrestricted in the patch bundles you import!*
@@ -912,6 +925,8 @@ https://github.com/ReVanced/revanced-manager/releases
 #### 🏷️ [Aniketshinde007-Patches-Bundle](https://github.com/aniketshinde007/morphe-patches-ani)
 
 #### 🏷️ [Binarymend-Patches-Bundle](https://github.com/binarymend/morphe-patches)
+
+#### 🏷️ [Polka-Bear-Patches-Bundle](https://github.com/polka-bear/morphe-patches)
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*

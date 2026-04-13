@@ -309,6 +309,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "polka-bear-stable": {
+        "patches": "https://api.github.com/repos/polka-bear/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -614,6 +619,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
+    "polka-bear-dev": {
+        "patches": "https://api.github.com/repos/polka-bear/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
     "piko-latest": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -916,6 +926,11 @@
     },
     "binarymend-latest": {
         "patches": "https://api.github.com/repos/binarymend/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "polka-bear-latest": {
+        "patches": "https://api.github.com/repos/polka-bear/morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }
