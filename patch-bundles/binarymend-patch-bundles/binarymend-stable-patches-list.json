@@ -1,0 +1,39 @@
+{
+    "version": "v1.0.2",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.12.5"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables AppStartTracker and other telemetry points.",
+            "name": "Disable Telemetry",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.quickcursor": []
+            },
+            "dependencies": [],
+            "description": "Unlock all PRO features",
+            "name": "Quick Cursor PRO",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.12.5"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables all ad feature toggles globally.",
+            "name": "Remove Ads",
+            "options": [],
+            "use": true
+        }
+    ]
+}

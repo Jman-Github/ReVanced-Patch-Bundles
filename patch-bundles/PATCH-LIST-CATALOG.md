@@ -3001,7 +3001,14 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***6 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable Bugsnag Telemetry``` | ```Disables Bugsnag crash reporting and analytics.``` | ```com.pinterest``` | ```14.11.0``` |
+| ```Disable General Telemetry``` | ```Disables various analytics and tracking tasks.``` | ```com.pinterest``` | ```14.11.0``` |
+| ```Remove Promoted Pins``` | ```Disables ad detection logic globally. Safe for Home feed.``` | ```com.pinterest``` | ```14.11.0``` |
+| ```Quick Cursor PRO``` | ```Unlock all PRO features``` | ```com.quickcursor``` | ```All versions``` |
+| ```Disable Telemetry``` | ```Disables AppStartTracker and other telemetry points.``` | ```com.truecaller``` | ```26.12.5``` |
+| ```Remove Ads``` | ```Disables all ad feature toggles globally.``` | ```com.truecaller``` | ```26.12.5``` |
 
 </details>
-
