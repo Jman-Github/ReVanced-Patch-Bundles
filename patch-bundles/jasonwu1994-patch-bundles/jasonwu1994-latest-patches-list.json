@@ -1,6 +1,20 @@
 {
-    "version": "v1.3.1",
+    "version": "v1.4.0",
     "patches": [
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "攔截 Gboard 的簽章白名單檢查並強制通過。",
+            "name": "Add Gboard Signature Bypass",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "com.google.android.inputmethod.latin": [
@@ -34,6 +48,20 @@
             ],
             "description": "新增獨立的特殊符號分頁，長按逗號->愛心",
             "name": "Custom Symbols",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "啟用 Undo/Redo 功能",
+            "name": "Enable Undo/Redo feature",
             "options": [],
             "use": true
         },
