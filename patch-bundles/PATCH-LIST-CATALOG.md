@@ -2970,7 +2970,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***6 Patches***
+***7 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable Bugsnag Telemetry``` | ```Disables Bugsnag crash reporting and analytics.``` | ```com.pinterest``` | ```14.11.0``` |
@@ -2979,5 +2979,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Quick Cursor PRO``` | ```Unlock all PRO features``` | ```com.quickcursor``` | ```All versions``` |
 | ```Disable Telemetry``` | ```Disables AppStartTracker and other telemetry points.``` | ```com.truecaller``` | ```26.12.5``` |
 | ```Remove Ads``` | ```Disables all ad feature toggles globally.``` | ```com.truecaller``` | ```26.12.5``` |
+| ```Unlock aCalendar+``` | ```Unlocks all aCalendar+ features.``` | ```Universal``` | ```All versions``` |
 
 </details>
