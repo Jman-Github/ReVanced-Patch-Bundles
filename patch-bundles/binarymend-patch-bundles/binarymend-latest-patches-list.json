@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.1.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -72,7 +72,9 @@
             "use": true
         },
         {
-            "compatiblePackages": null,
+            "compatiblePackages": {
+                "org.withouthat.acalendar": []
+            },
             "dependencies": [],
             "description": "Unlocks all aCalendar+ features.",
             "name": "Unlock aCalendar+",

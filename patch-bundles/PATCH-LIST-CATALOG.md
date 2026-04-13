@@ -2979,6 +2979,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Quick Cursor PRO``` | ```Unlock all PRO features``` | ```com.quickcursor``` | ```All versions``` |
 | ```Disable Telemetry``` | ```Disables AppStartTracker and other telemetry points.``` | ```com.truecaller``` | ```26.12.5``` |
 | ```Remove Ads``` | ```Disables all ad feature toggles globally.``` | ```com.truecaller``` | ```26.12.5``` |
-| ```Unlock aCalendar+``` | ```Unlocks all aCalendar+ features.``` | ```Universal``` | ```All versions``` |
+| ```Unlock aCalendar+``` | ```Unlocks all aCalendar+ features.``` | ```org.withouthat.acalendar``` | ```All versions``` |
 
 </details>
