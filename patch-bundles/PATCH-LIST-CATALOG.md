@@ -20,7 +20,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Twitter Bundle Patch List](#-twitter-bundle-patch-list)  
 [🧩 Wyse- Bundle Patch List](#-wyse--bundle-patch-list)  
 [🧩 1fexd Bundle Patch List](#-1fexd-bundle-patch-list)  
-[🧩 Whyvl Bundle Patch List](#-whyvl-bundle-patch-list)  
 [🧩 Xrogers Bundle Patch List](#-xrogers-bundle-patch-list)  
 [🧩 D4n3436 Bundle Patch List](#-d4n3436-bundle-patch-list)  
 [🧩 AyushTNM Bundle Patch List](#-ayushtnm-bundle-patch-list)  
@@ -32,7 +31,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Forsyth47 Bundle Patch List](#-forsyth47-bundle-patch-list)  
 [🧩 Brosssh Bundle Patch List](#-brosssh-bundle-patch-list)  
 [🧩 Hoo-dles Bundle Patch List](#-hoo-dles-bundle-patch-list)  
-[🧩 Scrazzz Bundle Patch List](#-scrazzz-bundle-patch-list)  
 [🧩 VinceTheProgrammer Bundle Patch List](#-vincetheprogrammer-bundle-patch-list)  
 [🧩 Hepolise Bundle Patch List](#-hepolise-bundle-patch-list)  
 [🧩 Kangrio Bundle Patch List](#-kangrio-bundle-patch-list)  
@@ -1445,20 +1443,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 </details>
 
 ---
-### 🧩 Whyvl Bundle Patch List:
-[📦 Whyvl-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-whyvl-patches-bundle)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
-
-***2 Patches***
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```BOC Patch``` | ```Bypass BOC security restrictions.``` | ```com.bochk.app.aos``` | ```All versions``` |
-| ```HSBC HK Patch``` | ```Bypass HSBC security restrictions.``` | ```hk.com.hsbc.hsbchkmobilebanking``` | ```All versions``` |
-
-</details>
-
----
 ### 🧩 Xrogers Bundle Patch List:
 [📦 Xrogers-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-xrogers-patches-bundle)
 <details open>
@@ -1751,23 +1735,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Add resources``` | ```Add resources such as strings or arrays to the app.``` | ```Universal``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
-
-</details>
-
----
-### 🧩 Scrazzz Bundle Patch List:
-[📦 Scrazzz-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-scrazzz-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
-
-***5 Patches***
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Unlock SCRL Premium patch``` | ```N/A``` | ```com.appostrophe.scrl``` | ```All versions``` |
-| ```Unlock Developer Assistant Pro License patch``` | ```N/A``` | ```com.appsisle.developerassistant``` | ```1.2.2``` |
-| ```Unlock AZ Screen Recorder VIP patch``` | ```Unlocks the option labelled as 'Pro' in AZ Screen Recorder``` | ```com.hecorat.screenrecorder.free``` | ```6.4.3``` |
-| ```Unlock Sponge Premium patch``` | ```N/A``` | ```com.prismtree.sponge``` | ```All versions``` |
-| ```Unlock Solid Explorer full version patch``` | ```Unlock Solid Explorer full version + remove ads.``` | ```pl.solidexplorer2``` | ```All versions``` |
 
 </details>
 

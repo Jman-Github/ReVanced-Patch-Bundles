@@ -234,19 +234,6 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Whyvl-Patches-Bundle:
-[🧩 Whyvl Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-whyvl-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/whyvl-patch-bundles/whyvl-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/whyvl-patch-bundles/whyvl-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/whyvl-patch-bundles/whyvl-dev-patches-bundle.json```
-</details>
-
----
 ### 📦 Xrogers-Patches-Bundle:
 [🧩 Xrogers Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-xrogers-bundle-patch-list)
 <details>
@@ -387,19 +374,6 @@ If you would like to see what patches the patch bundles tracked in this reposito
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hoo-dles-patch-bundles/hoo-dles-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hoo-dles-patch-bundles/hoo-dles-dev-patches-bundle.json```
-</details>
-
----
-### 📦 Scrazzz-Patches-Bundle [API v4]:
-[🧩 Scrazzz Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-scrazzz-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/scrazzz-patch-bundles/scrazzz-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/scrazzz-patch-bundles/scrazzz-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/scrazzz-patch-bundles/scrazzz-dev-patches-bundle.json```
 </details>
 
 ---
@@ -857,8 +831,6 @@ https://github.com/ReVanced/revanced-manager/releases
 
 #### 🏷️ [1fexd-Patches-Bundle](https://github.com/1fexd/revanced-patches)
 
-#### 🏷️ [Whyvl-Patches-Bundle](https://github.com/whyvl/revanced-patches-repo)
-
 #### 🏷️ [Xrogers-Patches-Bundle](https://github.com/xrogers/revanced-patches-galaxy)
 
 #### 🏷️ [D4n3436-Patches-Bundle](https://github.com/d4n3436/revanced-patches-android5)
@@ -878,8 +850,6 @@ https://github.com/ReVanced/revanced-manager/releases
 #### 🏷️ [Brosssh-Patches-Bundle](https://github.com/brosssh/revanced-patches)
 
 #### 🏷️ [Hoo-dles-Patches-Bundle](https://github.com/hoo-dles/revanced-custom-patches)
-
-#### 🏷️ [Scrazzz-Patches-Bundle](https://github.com/scrazzz/my-revanced-patches)
 
 #### 🏷️ [VinceTheProgrammer-Patches-Bundle](https://github.com/vinceTheProgrammer/sticknodes-patches)
 
@@ -959,8 +929,6 @@ __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be incl
 #### ⛓ [Wyse--Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 #### ⛓ [1fexd-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
-
-#### ⛓ [Whyvl-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
 #### ⛓ [Xrogers-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
