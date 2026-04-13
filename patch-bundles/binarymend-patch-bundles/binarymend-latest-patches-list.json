@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.3-dev.1",
+    "version": "v1.1.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -68,6 +68,16 @@
             "dependencies": [],
             "description": "Disables ad detection logic globally. Safe for Home feed.",
             "name": "Remove Promoted Pins",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "org.withouthat.acalendar": []
+            },
+            "dependencies": [],
+            "description": "Unlocks all aCalendar+ features.",
+            "name": "Unlock aCalendar+",
             "options": [],
             "use": true
         }
