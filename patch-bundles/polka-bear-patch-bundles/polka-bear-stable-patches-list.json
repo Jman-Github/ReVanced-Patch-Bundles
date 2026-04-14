@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -9,30 +9,6 @@
             },
             "dependencies": [],
             "description": "Disables all ad purchase checks to hide ads globally.",
-            "name": "Remove Ads",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.snowcorp.stickerly.android": [
-                    "3.23.1"
-                ]
-            },
-            "dependencies": [],
-            "description": "Disables reward ad display by forcing the ad gatekeeper to always decline.",
-            "name": "Remove Ads",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.tradingview.tradingviewapp": [
-                    "1.20.71.1"
-                ]
-            },
-            "dependencies": [],
-            "description": "Disables banner ad loading on symbol pages.",
             "name": "Remove Ads",
             "options": [],
             "use": true
@@ -51,35 +27,11 @@
         },
         {
             "compatiblePackages": {
-                "com.microsoft.office.excel": []
+                "com.ipoji.app": []
             },
             "dependencies": [],
-            "description": "Unlocks all Microsoft 365 premium features and hides upsell prompts.",
+            "description": "Unlocks all premium features by forcing all RevenueCat entitlements to active.",
             "name": "Unlock Premium",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.snowcorp.stickerly.android": [
-                    "3.23.1"
-                ]
-            },
-            "dependencies": [],
-            "description": "Unlocks all premium features by forcing subscription state to active.",
-            "name": "Unlock Premium",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.tradingview.tradingviewapp": [
-                    "1.20.71.1"
-                ]
-            },
-            "dependencies": [],
-            "description": "Enables all Pro plan features by bypassing client-side feature gates.",
-            "name": "Unlock Pro Features",
             "options": [],
             "use": true
         }

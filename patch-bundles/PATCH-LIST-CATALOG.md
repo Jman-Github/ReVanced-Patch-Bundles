@@ -2991,14 +2991,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***7 Patches***
+***3 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Unlock Premium``` | ```Unlocks all Microsoft 365 premium features and hides upsell prompts.``` | ```com.microsoft.office.excel``` | ```All versions``` |
-| ```Remove Ads``` | ```Disables reward ad display by forcing the ad gatekeeper to always decline.``` | ```com.snowcorp.stickerly.android``` | ```3.23.1``` |
-| ```Unlock Premium``` | ```Unlocks all premium features by forcing subscription state to active.``` | ```com.snowcorp.stickerly.android``` | ```3.23.1``` |
-| ```Remove Ads``` | ```Disables banner ad loading on symbol pages.``` | ```com.tradingview.tradingviewapp``` | ```1.20.71.1``` |
-| ```Unlock Pro Features``` | ```Enables all Pro plan features by bypassing client-side feature gates.``` | ```com.tradingview.tradingviewapp``` | ```1.20.71.1``` |
+| ```Unlock Premium``` | ```Unlocks all premium features by forcing all RevenueCat entitlements to active.``` | ```com.ipoji.app``` | ```All versions``` |
 | ```Remove Ads``` | ```Disables all ad purchase checks to hide ads globally.``` | ```com.vladlee.easyblacklist``` | ```4.8.20``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```com.vladlee.easyblacklist``` | ```4.8.20``` |
 
