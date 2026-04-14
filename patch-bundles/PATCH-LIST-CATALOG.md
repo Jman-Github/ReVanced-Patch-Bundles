@@ -58,6 +58,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 PixelPusher247 Bundle Patch List](#-pixelpusher247-bundle-patch-list)    
 [🧩 Rabilrbl Bundle Patch List](#-rabilrbl-bundle-patch-list)    
 [🧩 Jasonwu1994 Bundle Patch List](#-jasonwu1994-bundle-patch-list)    
+[🧩 RealCyberwash Bundle Patch List](#-realcyberwash-bundle-patch-list)    
 [🧩 Paresh-Maheshwari Bundle Patch List](#-paresh-maheshwari-bundle-patch-list)    
 [🧩 Aniketshinde007 Bundle Patch List](#-aniketshinde007-bundle-patch-list)    
 [🧩 Binarymend Bundle Patch List](#-binarymend-bundle-patch-list)    
