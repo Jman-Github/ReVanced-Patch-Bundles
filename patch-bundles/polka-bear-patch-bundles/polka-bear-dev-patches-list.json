@@ -1,6 +1,16 @@
 {
-    "version": "v1.4.0-dev.1",
+    "version": "v1.4.1-dev.1",
     "patches": [
+        {
+            "compatiblePackages": {
+                "com.ipoji.app": []
+            },
+            "dependencies": [],
+            "description": "Disables PairIP signature verification and startup VM checks that crash re-signed APKs.",
+            "name": "Bypass Integrity Protection",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "com.vladlee.easyblacklist": [

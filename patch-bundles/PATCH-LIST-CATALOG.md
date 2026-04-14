@@ -2991,9 +2991,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***3 Patches***
+***4 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Bypass Integrity Protection``` | ```Disables PairIP signature verification and startup VM checks that crash re-signed APKs.``` | ```com.ipoji.app``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features by forcing all RevenueCat entitlements to active.``` | ```com.ipoji.app``` | ```All versions``` |
 | ```Remove Ads``` | ```Disables all ad purchase checks to hide ads globally.``` | ```com.vladlee.easyblacklist``` | ```4.8.20``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```com.vladlee.easyblacklist``` | ```4.8.20``` |
