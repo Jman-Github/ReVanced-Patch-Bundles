@@ -1,5 +1,5 @@
 {
-    "version": "v1.24.0-dev.6",
+    "version": "v1.24.0-dev.7",
     "patches": [
         {
             "compatiblePackages": {
@@ -1123,7 +1123,8 @@
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Adds an option to hide suggested video cards at the end of videos.",
             "name": "Hide end screen cards",
@@ -1161,8 +1162,8 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Adds an option to hide info cards that creators add in the video player.",
             "name": "Hide info cards",
@@ -1820,13 +1821,13 @@
                 ]
             },
             "dependencies": [
-                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Removes restrictions on background playback, including playing kids videos in the background.",
             "name": "Remove background playback restrictions",
