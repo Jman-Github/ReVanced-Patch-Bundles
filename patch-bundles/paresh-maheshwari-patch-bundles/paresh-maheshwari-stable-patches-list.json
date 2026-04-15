@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0",
+    "version": "v1.7.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -27,6 +27,30 @@
         },
         {
             "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hides the Assistant tab from the bottom navigation bar.",
+            "name": "Hide Assistant tab",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hides the Scams tab from the bottom navigation bar.",
+            "name": "Hide Scams tab",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.solid.teleprompter": [
                     "6.8.2",
                     "6.8.1"
@@ -35,6 +59,18 @@
             "dependencies": [],
             "description": "Unlocks premium features in Teleprompter Vlog & Scripts app.",
             "name": "Teleprompter Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium features.",
+            "name": "Truecaller Premium",
             "options": [],
             "use": true
         },

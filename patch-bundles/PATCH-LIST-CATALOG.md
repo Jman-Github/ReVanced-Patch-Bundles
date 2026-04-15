@@ -2943,10 +2943,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***8 Patches***
+***7 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```MacroDroid Premium``` | ```Unlocks premium features and removes macro limits.``` | ```com.arlosoft.macrodroid``` | ```5.62.11``` |
 | ```Doc Scanner Premium``` | ```Unlocks all premium features, removes ads, and enables pro themes.``` | ```com.cv.docscanner``` | ```6.8.18``` |
 | ```VN Premium``` | ```Unlocks premium features, removes watermark, and hides Pro tab.``` | ```com.frontrow.vlog``` | ```2.12.0``` |
 | ```Fing Premium``` | ```Unlocks premium network tools and features.``` | ```com.overlook.android.fing``` | ```12.11.9``` |
