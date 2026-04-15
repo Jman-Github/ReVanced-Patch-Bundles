@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.1",
+    "version": "v1.4.0-dev.21",
     "patches": [
         {
             "compatiblePackages": {
@@ -27,18 +27,6 @@
         },
         {
             "compatiblePackages": {
-                "com.arlosoft.macrodroid": [
-                    "5.62.11"
-                ]
-            },
-            "dependencies": [],
-            "description": "Unlocks premium features and removes macro limits.",
-            "name": "MacroDroid Premium",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.solid.teleprompter": [
                     "6.8.2",
                     "6.8.1"
@@ -47,6 +35,18 @@
             "dependencies": [],
             "description": "Unlocks premium features in Teleprompter Vlog & Scripts app.",
             "name": "Teleprompter Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium features.",
+            "name": "Truecaller Premium",
             "options": [],
             "use": true
         },

@@ -2946,11 +2946,11 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ***5 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```MacroDroid Premium``` | ```Unlocks premium features and removes macro limits.``` | ```com.arlosoft.macrodroid``` | ```5.62.11``` |
 | ```Doc Scanner Premium``` | ```Unlocks all premium features, removes ads, and enables pro themes.``` | ```com.cv.docscanner``` | ```6.8.18``` |
 | ```VN Premium``` | ```Unlocks premium features, removes watermark, and hides Pro tab.``` | ```com.frontrow.vlog``` | ```2.12.0``` |
 | ```Fing Premium``` | ```Unlocks premium network tools and features.``` | ```com.overlook.android.fing``` | ```12.11.9``` |
 | ```Teleprompter Premium``` | ```Unlocks premium features in Teleprompter Vlog & Scripts app.``` | ```com.solid.teleprompter``` | ```6.8.2, 6.8.1``` |
+| ```Truecaller Premium``` | ```Unlocks premium features.``` | ```com.truecaller``` | ```26.10.6``` |
 
 </details>
 
@@ -2974,9 +2974,13 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***7 Patches***
+***11 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Unlock Symfonium``` | ```Unlocks the trial version of Symfonium.``` | ```app.symfonik.music.player``` | ```14.0.0``` |
+| ```Unlock CalcNote Pro``` | ```Unlocks all Pro features and removes ads.``` | ```com.burton999.notecal``` | ```2.25.107``` |
+| ```Make UI look like Pro``` | ```Changes the app title to 'Moon+ Reader Pro' and removes the 'Remove Ads' button from the drawer.``` | ```com.flyersoft.moonreader``` | ```10.5``` |
+| ```Unlock Moon+ Reader Pro``` | ```Unlocks Pro features including PDF support, ad-free experience, and more.``` | ```com.flyersoft.moonreader``` | ```10.5``` |
 | ```Disable Bugsnag Telemetry``` | ```Disables Bugsnag crash reporting and analytics.``` | ```com.pinterest``` | ```14.11.0``` |
 | ```Disable General Telemetry``` | ```Disables various analytics and tracking tasks.``` | ```com.pinterest``` | ```14.11.0``` |
 | ```Remove Promoted Pins``` | ```Disables ad detection logic globally. Safe for Home feed.``` | ```com.pinterest``` | ```14.11.0``` |
