@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.24",
+    "version": "v1.4.0-dev.26",
     "patches": [
         {
             "compatiblePackages": {
@@ -22,6 +22,30 @@
             "dependencies": [],
             "description": "Unlocks premium network tools and features.",
             "name": "Fing Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hides the Assistant tab from the bottom navigation bar.",
+            "name": "Hide Assistant tab",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hides the Scams tab from the bottom navigation bar.",
+            "name": "Hide Scams tab",
             "options": [],
             "use": true
         },
