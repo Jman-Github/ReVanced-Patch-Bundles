@@ -1,5 +1,5 @@
 {
-    "version": "v1.24.0-dev.7",
+    "version": "v1.24.0-dev.8",
     "patches": [
         {
             "compatiblePackages": {
@@ -1704,8 +1704,8 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Overrides the YouTube Music button to open Morphe Music directly.",
-            "name": "Override YouTube Music actions",
+            "description": "Overrides YouTube Music buttons to open Morphe Music or any compatible third-party client.",
+            "name": "Override YouTube Music buttons",
             "options": [],
             "use": true
         },
