@@ -2213,7 +2213,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***109 Patches***
+***110 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```8.47.56, 8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
@@ -2240,6 +2240,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.google.android.apps.youtube.music``` | ```8.47.56, 8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```com.google.android.apps.youtube.music``` | ```8.47.56, 8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
 | ```Theme``` | ```Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).``` | ```com.google.android.apps.youtube.music``` | ```8.47.56, 8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
+| ```Track crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. This patch currently requires YouTube 8.x``` | ```com.google.android.apps.youtube.music``` | ```8.47.56, 8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
 | ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Ambient mode``` | ```Adds options to bypass power saving restrictions for Ambient mode and disable it entirely or in fullscreen.``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Bypass image region restrictions``` | ```Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
