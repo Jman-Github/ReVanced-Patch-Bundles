@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.28",
+    "version": "v1.4.0-dev.29",
     "patches": [
         {
             "compatiblePackages": {
@@ -34,6 +34,30 @@
             "dependencies": [],
             "description": "Hides the Assistant tab from the bottom navigation bar.",
             "name": "Hide Assistant tab",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hides the Premium options from the settings page.",
+            "name": "Hide Premium from settings",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hides the Premium tab from the bottom navigation bar.",
+            "name": "Hide Premium tab",
             "options": [],
             "use": true
         },

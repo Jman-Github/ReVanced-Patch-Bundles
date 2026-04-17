@@ -2944,7 +2944,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***8 Patches***
+***10 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```MacroDroid Premium``` | ```Unlocks premium features and removes macro limits.``` | ```com.arlosoft.macrodroid``` | ```5.62.11``` |
@@ -2953,6 +2953,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Fing Premium``` | ```Unlocks premium network tools and features.``` | ```com.overlook.android.fing``` | ```12.11.9``` |
 | ```Teleprompter Premium``` | ```Unlocks premium features in Teleprompter Vlog & Scripts app.``` | ```com.solid.teleprompter``` | ```6.8.2, 6.8.1``` |
 | ```Hide Assistant tab``` | ```Hides the Assistant tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
+| ```Hide Premium from settings``` | ```Hides the Premium options from the settings page.``` | ```com.truecaller``` | ```26.10.6``` |
+| ```Hide Premium tab``` | ```Hides the Premium tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Hide Scams tab``` | ```Hides the Scams tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Truecaller Premium``` | ```Unlocks premium features.``` | ```com.truecaller``` | ```26.10.6``` |
 
