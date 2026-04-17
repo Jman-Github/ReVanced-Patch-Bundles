@@ -2310,22 +2310,22 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Theme``` | ```Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Video ads``` | ```Adds an option to remove ads in the video player.``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Video quality``` | ```Adds options to set default video qualities and always use the advanced video quality menu.``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
-| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Disable modern home``` | ```Adds an option to disable the modern home UI.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Hide ads``` | ```Adds options to hide ads.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Hide recommended communities shelf``` | ```Adds an option to hide the recommended communities shelves in subreddits.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Hide Trending Today shelf``` | ```Adds an option to hide the Trending Today shelf from search suggestions.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
+| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0, 2025.48.0``` |
+| ```Disable modern home``` | ```Adds an option to disable the modern home UI.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0, 2025.48.0``` |
+| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0, 2025.48.0``` |
+| ```Hide ads``` | ```Adds options to hide ads.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0, 2025.48.0``` |
+| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0, 2025.48.0``` |
+| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0, 2025.48.0``` |
+| ```Hide recommended communities shelf``` | ```Adds an option to hide the recommended communities shelves in subreddits.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0, 2025.48.0``` |
+| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0, 2025.48.0``` |
+| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0, 2025.48.0``` |
+| ```Hide Trending Today shelf``` | ```Adds an option to hide the Trending Today shelf from search suggestions.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0, 2025.48.0``` |
+| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0, 2025.48.0``` |
+| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0, 2025.48.0``` |
+| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0, 2025.48.0``` |
+| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0, 2025.48.0``` |
+| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0, 2025.48.0``` |
+| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0, 2025.48.0``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch does not work if the app is installed by mounting and may cause unexpected issues with some apps.``` | ```Universal``` | ```All versions``` |
 | ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
