@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.29",
+    "version": "v1.4.0-dev.30",
     "patches": [
         {
             "compatiblePackages": {
@@ -82,6 +82,18 @@
             "dependencies": [],
             "description": "Unlocks premium features and removes macro limits.",
             "name": "MacroDroid Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.markOne.ss_app": [
+                    "6.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium features and removes ads.",
+            "name": "Mark Premium",
             "options": [],
             "use": true
         },
