@@ -1,6 +1,42 @@
 {
-    "version": "v1.4.0-dev.30",
+    "version": "v1.4.0-dev.31",
     "patches": [
+        {
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.6.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Allows copying, saving, and screenshots from restricted channels.",
+            "name": "Bypass content restrictions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.6.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bypasses integrity check to allow login on patched app.",
+            "name": "Bypass integrity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.6.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables automatic app update checks.",
+            "name": "Disable auto update",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "com.cv.docscanner": [
@@ -10,6 +46,18 @@
             "dependencies": [],
             "description": "Unlocks all premium features, removes ads, and enables pro themes.",
             "name": "Doc Scanner Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.6.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Increases download chunk size and max concurrent requests.",
+            "name": "Download speed boost",
             "options": [],
             "use": true
         },
@@ -75,6 +123,18 @@
         },
         {
             "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.6.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hides your typing indicator from other users.",
+            "name": "Hide typing indicator",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.arlosoft.macrodroid": [
                     "5.62.11"
                 ]
@@ -94,6 +154,30 @@
             "dependencies": [],
             "description": "Unlocks premium features and removes ads.",
             "name": "Mark Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.6.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes sponsored messages and video ads.",
+            "name": "Remove ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.6.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium features.",
+            "name": "Telegram Premium",
             "options": [],
             "use": true
         },

@@ -2947,7 +2947,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***11 Patches***
+***18 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```MacroDroid Premium``` | ```Unlocks premium features and removes macro limits.``` | ```com.arlosoft.macrodroid``` | ```5.62.11``` |
@@ -2961,6 +2961,13 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide Premium tab``` | ```Hides the Premium tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Hide Scams tab``` | ```Hides the Scams tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Truecaller Premium``` | ```Unlocks premium features.``` | ```com.truecaller``` | ```26.10.6``` |
+| ```Bypass content restrictions``` | ```Allows copying, saving, and screenshots from restricted channels.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
+| ```Bypass integrity``` | ```Bypasses integrity check to allow login on patched app.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
+| ```Disable auto update``` | ```Disables automatic app update checks.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
+| ```Download speed boost``` | ```Increases download chunk size and max concurrent requests.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
+| ```Hide typing indicator``` | ```Hides your typing indicator from other users.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
+| ```Remove ads``` | ```Removes sponsored messages and video ads.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
+| ```Telegram Premium``` | ```Unlocks premium features.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
 
 </details>
 

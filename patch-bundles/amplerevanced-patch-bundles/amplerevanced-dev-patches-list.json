@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.11",
+    "version": "v1.0.0-dev.12",
     "patches": [
         {
             "compatiblePackages": {
@@ -18,7 +18,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -34,7 +34,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -46,7 +46,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -58,7 +58,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -76,7 +76,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -88,7 +88,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -100,7 +100,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -126,7 +126,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -138,7 +138,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -150,7 +150,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -210,7 +210,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -291,7 +291,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -315,7 +315,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -343,7 +343,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -355,7 +355,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -381,7 +381,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -393,11 +393,11 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
-            "description": "Disables the ChatRoomAdController to prevent ads from being shown in chat room list",
+            "description": "Disables the open-link chat room BizBoard ad controller.",
             "name": "Disable ChatRoomAdController",
             "options": [],
             "use": true
@@ -405,7 +405,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -429,7 +429,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -441,7 +441,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -453,11 +453,11 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
-            "description": "Disables the Friend Lists ad in KakaoTalk.",
+            "description": "Disables the friend tab BizBoard ads in KakaoTalk.",
             "name": "Disable Friend Lists ad",
             "options": [],
             "use": true
@@ -477,7 +477,31 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the OpenChat tab feed ad load and render paths.",
+            "name": "Disable OpenChat feed ad",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the KakaoPay banner ad load and render paths.",
+            "name": "Disable Pay banner ad",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -489,7 +513,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -503,7 +527,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -525,7 +549,19 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the shortform ad load and render paths.",
+            "name": "Disable ShortForm ad",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -549,7 +585,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -561,7 +597,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -587,7 +623,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -599,7 +635,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -613,7 +649,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -627,7 +663,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -641,7 +677,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -653,7 +689,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -679,7 +715,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -693,7 +729,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -717,7 +753,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -731,7 +767,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -743,7 +779,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -755,7 +791,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -767,7 +803,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -779,7 +815,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -791,7 +827,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -803,7 +839,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -815,7 +851,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -827,7 +863,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -841,7 +877,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [
@@ -876,7 +912,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -888,7 +924,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -914,7 +950,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
@@ -926,7 +962,7 @@
         {
             "compatiblePackages": {
                 "com.kakao.talk": [
-                    "26.2.2"
+                    "26.3.1"
                 ]
             },
             "dependencies": [],
