@@ -1736,9 +1736,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```pl.solidexplorer2``` | ```3.4.1``` |
 | ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```pl.solidexplorer2``` | ```3.4.1``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```ru.iiec.pydroid3``` | ```8.3_arm64``` |
-| ```Add resources``` | ```Add resources such as strings or arrays to the app.``` | ```Universal``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
+| ```Hide app icon``` | ```Hides the app icon from the Android launcher.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
