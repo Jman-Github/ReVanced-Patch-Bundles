@@ -1673,7 +1673,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***63 Patches***
+***64 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.``` | ```app.ttmikstories.android``` | ```1.16.0``` |
@@ -1683,6 +1683,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. Some UI elements may not show an active membership, but this does not effect functionality.``` | ```cn.ommiao.iconpacker``` | ```1.21.0-release``` |
 | ```Disable anti-tamper``` | ```Disables various anti-tamper checks that causes the app to force-close.``` | ```cn.wps.moffice_eng``` | ```18.24``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall. Login is required and AI functionality is unavailable.``` | ```cn.wps.moffice_eng``` | ```18.24``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.adguard.android``` | ```4.12.81``` |
 | ```Enable Peak membership``` | ```Enables app features locked behind the subscription paywall.``` | ```com.alltrails.alltrails``` | ```26.3.20``` |
 | ```Enable speed control``` | ```Enables experimental speed control to the video player.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.447.757``` |
 | ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.447.757``` |
@@ -2991,13 +2992,15 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***11 Patches***
+***13 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Symfonium``` | ```Unlocks the trial version of Symfonium.``` | ```app.symfonik.music.player``` | ```14.0.0``` |
 | ```Unlock CalcNote Pro``` | ```Unlocks all Pro features and removes ads.``` | ```com.burton999.notecal``` | ```2.25.107``` |
 | ```Make UI look like Pro``` | ```Changes the app title to 'Moon+ Reader Pro' and removes the 'Remove Ads' button from the drawer.``` | ```com.flyersoft.moonreader``` | ```10.5``` |
 | ```Unlock Moon+ Reader Pro``` | ```Unlocks Pro features including PDF support, ad-free experience, and more.``` | ```com.flyersoft.moonreader``` | ```10.5``` |
+| ```Elon Musk Mode``` | ```Renames your account to 'Elon Musk' and sets your currency to Dogecoin.``` | ```com.paypal.android.p2pmobile``` | ```All versions``` |
+| ```Unlimited Money``` | ```Adds infinite funds to your PayPal account. Do you think it will work?``` | ```com.paypal.android.p2pmobile``` | ```All versions``` |
 | ```Disable Bugsnag Telemetry``` | ```Disables Bugsnag crash reporting and analytics.``` | ```com.pinterest``` | ```14.11.0``` |
 | ```Disable General Telemetry``` | ```Disables various analytics and tracking tasks.``` | ```com.pinterest``` | ```14.11.0``` |
 | ```Remove Promoted Pins``` | ```Disables ad detection logic globally. Safe for Home feed.``` | ```com.pinterest``` | ```14.11.0``` |
