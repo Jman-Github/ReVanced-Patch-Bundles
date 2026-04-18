@@ -2,16 +2,7 @@
     "version": "v3.16.0m",
     "patches": [
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -24,16 +15,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "ResourcePatch"
@@ -44,19 +26,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music"
             ],
@@ -66,19 +36,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music",
                 "BytecodePatch"
@@ -89,16 +47,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "Settings for YouTube"
@@ -109,16 +58,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube"
             ],
@@ -128,19 +68,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Enables YouTube Music to work with Android Auto by spoofing the YouTube Music certificate.",
             "name": "Certificate spoof",
@@ -148,16 +76,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch",
@@ -170,7 +89,7 @@
             "use": true
         },
         {
-            "compatiblePackages": null,
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -180,16 +99,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "ResourcePatch",
@@ -202,11 +112,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.spotify.music": [
-                    "9.0.90.1229"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Changes the lyrics provider to a custom one.",
             "name": "Change lyrics provider",
@@ -224,13 +130,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -254,16 +154,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube"
             ],
@@ -273,19 +164,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music",
                 "BytecodePatch",
@@ -297,16 +176,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch",
@@ -320,19 +190,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "ResourcePatch",
                 "Settings for YouTube Music"
@@ -343,16 +201,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube"
             ],
@@ -362,7 +211,7 @@
             "use": true
         },
         {
-            "compatiblePackages": null,
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.",
             "name": "Change version code",
@@ -383,16 +232,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "ResourcePatch"
@@ -454,19 +294,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music",
                 "ResourcePatch"
@@ -521,13 +349,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -550,9 +372,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.spotify.music": null
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Changes the Spotify app name to the name specified in patch options.",
             "name": "Custom branding name for Spotify",
@@ -573,16 +393,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube"
             ],
@@ -607,19 +418,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music"
             ],
@@ -658,16 +457,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube"
             ],
@@ -687,16 +477,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube"
             ],
@@ -718,19 +499,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "Settings for YouTube Music"
@@ -753,16 +522,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "ResourcePatch"
@@ -790,11 +550,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.spotify.music": [
-                    "9.0.90.1229"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -877,19 +633,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -927,16 +671,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch",
@@ -954,15 +689,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music",
                 "ResourcePatch",
@@ -974,19 +701,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music",
                 "ResourcePatch"
@@ -997,7 +712,7 @@
             "use": true
         },
         {
-            "compatiblePackages": null,
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Disable forced edge-to-edge display on Android 15+ by changing the app's target SDK version. This patch does not work if the app is installed by mounting.",
             "name": "Disable edge-to-edge display",
@@ -1005,19 +720,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music",
                 "ResourcePatch"
@@ -1028,16 +731,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "ResourcePatch"
@@ -1048,19 +742,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "Settings for YouTube Music"
@@ -1071,16 +753,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "Settings for YouTube"
@@ -1091,16 +764,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube"
             ],
@@ -1110,16 +774,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube"
             ],
@@ -1129,19 +784,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music",
                 "ResourcePatch",
@@ -1154,19 +797,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music",
                 "BytecodePatch"
@@ -1177,16 +808,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch"
@@ -1197,16 +819,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube"
             ],
@@ -1216,16 +829,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "ResourcePatch"
@@ -1236,13 +840,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for Reddit"
             ],
@@ -1252,16 +850,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "ResourcePatch"
@@ -1272,16 +861,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "ResourcePatch",
                 "Settings for YouTube",
@@ -1293,19 +873,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music"
             ],
@@ -1315,16 +883,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch",
@@ -1336,16 +895,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube"
             ],
@@ -1355,19 +905,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "ResourcePatch",
                 "Settings for YouTube Music"
@@ -1378,11 +916,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.spotify.music": [
-                    "9.0.90.1229"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Fix logging in with Facebook when the app is patched by always opening the login in a web browser window.",
             "name": "Fix Facebook login",
@@ -1390,11 +924,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.spotify.music": [
-                    "9.0.90.1229"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Fixes Spotify widgets not working in third party launchers, like Nova Launcher.",
             "name": "Fix third party launchers widgets",
@@ -1402,19 +932,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music",
                 "ResourcePatch",
@@ -1431,16 +949,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube"
             ],
@@ -1473,16 +982,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch",
@@ -1500,19 +1000,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch"
@@ -1588,16 +1076,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch"
@@ -1673,16 +1152,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube"
             ],
@@ -1692,19 +1162,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "ResourcePatch",
                 "Settings for YouTube Music"
@@ -1715,19 +1173,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music",
                 "BytecodePatch",
@@ -1742,16 +1188,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch",
@@ -1768,19 +1205,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music",
                 "BytecodePatch",
@@ -1797,13 +1222,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for Reddit"
             ],
@@ -1813,16 +1232,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch",
@@ -1838,16 +1248,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch",
@@ -1864,11 +1265,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.spotify.music": [
-                    "9.0.90.1229"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1878,16 +1275,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -1903,16 +1291,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "ResourcePatch",
                 "Settings for YouTube"
@@ -1923,19 +1302,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music",
                 "BytecodePatch",
@@ -1949,16 +1316,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch",
@@ -1974,13 +1332,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for Reddit"
             ],
@@ -1990,19 +1342,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music",
                 "BytecodePatch"
@@ -2013,16 +1353,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -2036,16 +1367,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch",
@@ -2061,19 +1383,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Removes, at compile time, the dark overlay that appears when single-tapping in the player.",
             "name": "Hide player overlay filter",
@@ -2081,13 +1391,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for Reddit"
             ],
@@ -2097,13 +1401,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for Reddit"
             ],
@@ -2113,16 +1411,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "ResourcePatch"
@@ -2170,16 +1459,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube"
             ],
@@ -2189,13 +1469,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for Reddit"
             ],
@@ -2205,16 +1479,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -2228,16 +1493,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube"
             ],
@@ -2247,11 +1503,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.spotify.music": [
-                    "9.0.90.1229"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -2261,16 +1513,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "ResourcePatch",
                 "Settings for YouTube"
@@ -2281,16 +1524,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "ResourcePatch",
                 "Settings for YouTube",
@@ -2302,19 +1536,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Change start page",
                 "ResourcePatch",
@@ -2328,16 +1550,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "ResourcePatch",
                 "Settings for YouTube",
@@ -2352,13 +1565,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for Reddit",
                 "BytecodePatch"
@@ -2369,13 +1576,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for Reddit",
                 "BytecodePatch"
@@ -2386,16 +1587,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "Settings for YouTube"
@@ -2406,16 +1598,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -2478,7 +1661,7 @@
             "use": true
         },
         {
-            "compatiblePackages": null,
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy.",
             "name": "Override certificate pinning",
@@ -2486,19 +1669,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music",
                 "ResourcePatch",
@@ -2524,16 +1695,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch",
@@ -2555,13 +1717,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -2571,19 +1727,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music"
             ],
@@ -2593,16 +1737,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "Settings for YouTube",
@@ -2614,13 +1749,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for Reddit",
                 "ResourcePatch"
@@ -2631,19 +1760,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "Settings for YouTube Music"
@@ -2654,16 +1771,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "Settings for YouTube"
@@ -2674,19 +1782,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music"
             ],
@@ -2696,19 +1792,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "Settings for YouTube Music"
@@ -2719,16 +1803,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch",
@@ -2743,19 +1818,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "Settings for YouTube Music",
@@ -2767,16 +1830,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "Settings for YouTube"
@@ -2787,19 +1841,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "Settings for YouTube Music",
@@ -2811,13 +1853,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for Reddit"
             ],
@@ -2827,11 +1863,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.spotify.music": [
-                    "9.0.90.1229"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Removes the tracking query parameters from links before they are shared.",
             "name": "Sanitize sharing links",
@@ -2839,16 +1871,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "Settings for YouTube"
@@ -2859,16 +1882,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -2884,16 +1898,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch"
@@ -2904,13 +1909,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -2935,16 +1934,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
@@ -3002,19 +1992,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch"
@@ -3058,16 +2036,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "ResourcePatch",
@@ -3094,16 +2063,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch"
@@ -3184,19 +2144,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "Settings for YouTube Music"
@@ -3207,16 +2155,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3241,14 +2180,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3261,16 +2193,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "Settings for YouTube Music",
@@ -3282,7 +2205,7 @@
             "use": true
         },
         {
-            "compatiblePackages": null,
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -3311,16 +2234,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "BytecodePatch"
@@ -3331,7 +2245,7 @@
             "use": true
         },
         {
-            "compatiblePackages": null,
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -3341,16 +2255,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3365,16 +2270,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "ResourcePatch",
                 "Settings for YouTube"
@@ -3426,16 +2322,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
@@ -3449,13 +2336,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "Settings for Reddit"
@@ -3494,16 +2375,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "Settings for YouTube"
@@ -3542,19 +2414,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "Settings for YouTube Music"
@@ -3593,11 +2453,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.ysy.app.firewall": [
-                    "1.3.4"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "RawResourcePatch"
@@ -3608,11 +2464,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.spotify.music": [
-                    "9.0.90.1229"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -3622,19 +2474,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music",
                 "ResourcePatch",
@@ -3650,16 +2490,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube",
                 "ResourcePatch",
@@ -3684,16 +2515,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube"
             ],
@@ -3731,19 +2553,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music"
             ],
@@ -3781,19 +2591,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.youtube.music": [
-                    "6.20.51",
-                    "6.29.59",
-                    "6.42.55",
-                    "6.51.53",
-                    "7.16.53",
-                    "7.25.53",
-                    "8.12.54",
-                    "8.28.54",
-                    "8.30.54"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "Settings for YouTube Music",
                 "BytecodePatch"
