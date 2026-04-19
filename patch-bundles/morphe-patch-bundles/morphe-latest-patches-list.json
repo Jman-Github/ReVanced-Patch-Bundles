@@ -1,5 +1,5 @@
 {
-    "version": "v1.24.0-dev.6",
+    "version": "v1.24.0-dev.11",
     "patches": [
         {
             "compatiblePackages": {
@@ -447,8 +447,8 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
-                    "2026.04.0",
-                    "2025.48.0"
+                    "2026.10.0",
+                    "2026.04.0"
                 ]
             },
             "dependencies": [
@@ -589,8 +589,8 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
-                    "2026.04.0",
-                    "2025.48.0"
+                    "2026.10.0",
+                    "2026.04.0"
                 ]
             },
             "dependencies": [
@@ -688,8 +688,8 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
-                    "2026.04.0",
-                    "2025.48.0"
+                    "2026.10.0",
+                    "2026.04.0"
                 ]
             },
             "dependencies": [
@@ -1003,11 +1003,12 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
-                    "2026.04.0",
-                    "2025.48.0"
+                    "2026.10.0",
+                    "2026.04.0"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds options to hide ads.",
@@ -1038,8 +1039,8 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
-                    "2026.04.0",
-                    "2025.48.0"
+                    "2026.10.0",
+                    "2026.04.0"
                 ]
             },
             "dependencies": [
@@ -1123,7 +1124,8 @@
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Adds an option to hide suggested video cards at the end of videos.",
             "name": "Hide end screen cards",
@@ -1161,8 +1163,8 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Adds an option to hide info cards that creators add in the video player.",
             "name": "Hide info cards",
@@ -1219,8 +1221,8 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
-                    "2026.04.0",
-                    "2025.48.0"
+                    "2026.10.0",
+                    "2026.04.0"
                 ]
             },
             "dependencies": [
@@ -1279,11 +1281,12 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
-                    "2026.04.0",
-                    "2025.48.0"
+                    "2026.10.0",
+                    "2026.04.0"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to hide the recommended communities shelves in subreddits.",
@@ -1294,8 +1297,8 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
-                    "2026.04.0",
-                    "2025.48.0"
+                    "2026.10.0",
+                    "2026.04.0"
                 ]
             },
             "dependencies": [
@@ -1393,8 +1396,8 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
-                    "2026.04.0",
-                    "2025.48.0"
+                    "2026.10.0",
+                    "2026.04.0"
                 ]
             },
             "dependencies": [
@@ -1427,8 +1430,8 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
-                    "2026.04.0",
-                    "2025.48.0"
+                    "2026.10.0",
+                    "2026.04.0"
                 ]
             },
             "dependencies": [
@@ -1571,8 +1574,8 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
-                    "2026.04.0",
-                    "2025.48.0"
+                    "2026.10.0",
+                    "2026.04.0"
                 ]
             },
             "dependencies": [
@@ -1587,8 +1590,8 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
-                    "2026.04.0",
-                    "2025.48.0"
+                    "2026.10.0",
+                    "2026.04.0"
                 ]
             },
             "dependencies": [
@@ -1703,8 +1706,8 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Overrides the YouTube Music button to open Morphe Music directly.",
-            "name": "Override YouTube Music actions",
+            "description": "Overrides YouTube Music buttons to open Morphe Music or any compatible third-party client.",
+            "name": "Override YouTube Music buttons",
             "options": [],
             "use": true
         },
@@ -1820,13 +1823,13 @@
                 ]
             },
             "dependencies": [
-                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Removes restrictions on background playback, including playing kids videos in the background.",
             "name": "Remove background playback restrictions",
@@ -1836,8 +1839,8 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
-                    "2026.04.0",
-                    "2025.48.0"
+                    "2026.10.0",
+                    "2026.04.0"
                 ]
             },
             "dependencies": [
@@ -1912,8 +1915,8 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
-                    "2026.04.0",
-                    "2025.48.0"
+                    "2026.10.0",
+                    "2026.04.0"
                 ]
             },
             "dependencies": [
@@ -1989,8 +1992,8 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
-                    "2026.04.0",
-                    "2025.48.0"
+                    "2026.10.0",
+                    "2026.04.0"
                 ]
             },
             "dependencies": [
@@ -2070,8 +2073,8 @@
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": [
-                    "2026.04.0",
-                    "2025.48.0"
+                    "2026.10.0",
+                    "2026.04.0"
                 ]
             },
             "dependencies": [
@@ -2259,6 +2262,26 @@
                     }
                 }
             ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "8.47.56",
+                    "8.44.54",
+                    "8.40.54",
+                    "8.10.52",
+                    "7.29.52"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds a true dual-player crossfade between consecutive tracks. This patch currently requires YouTube 8.x",
+            "name": "Track crossfade",
+            "options": [],
             "use": true
         },
         {

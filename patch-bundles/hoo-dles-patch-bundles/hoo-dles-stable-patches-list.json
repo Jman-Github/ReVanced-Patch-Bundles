@@ -1,14 +1,6 @@
 {
-    "version": "v1.23.0",
+    "version": "v1.25.0",
     "patches": [
-        {
-            "compatiblePackages": null,
-            "dependencies": [],
-            "description": "Add resources such as strings or arrays to the app.",
-            "name": "Add resources",
-            "options": [],
-            "use": false
-        },
         {
             "compatiblePackages": {
                 "org.languageapp.lingory": [
@@ -360,6 +352,24 @@
         },
         {
             "compatiblePackages": {
+                "com.sbs.diet": [
+                    "5.7.6"
+                ],
+                "com.sbs.train": [
+                    "1.1.7"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Spoof signature"
+            ],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.bambuna.podcastaddict": [
                     "2026.4"
                 ]
@@ -376,7 +386,9 @@
                     "8.3_arm64"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "RawResourcePatch"
+            ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": [],
@@ -637,13 +649,21 @@
             "use": true
         },
         {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Hides the app icon from the Android launcher.",
+            "name": "Hide app icon",
+            "options": [],
+            "use": false
+        },
+        {
             "compatiblePackages": {
                 "kr.co.yjteam.dailypay": [
                     "6.0.7"
                 ]
             },
             "dependencies": [
-                "Add resources",
+                "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch"
             ],
@@ -659,7 +679,7 @@
                 ]
             },
             "dependencies": [
-                "Add resources",
+                "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch"
             ],
@@ -675,7 +695,7 @@
                 ]
             },
             "dependencies": [
-                "Add resources",
+                "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch"
             ],
@@ -691,7 +711,7 @@
                 ]
             },
             "dependencies": [
-                "Add resources",
+                "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch"
             ],
@@ -762,6 +782,21 @@
             "dependencies": [],
             "description": "Spoofs the SHA1 signature hash required for Firebase API calls.",
             "name": "Spoof package signature",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.sbs.diet": [
+                    "5.7.6"
+                ],
+                "com.sbs.train": [
+                    "1.1.7"
+                ]
+            },
+            "dependencies": [],
+            "description": "Spoof package signature for Firebase app check.",
+            "name": "Spoof signature",
             "options": [],
             "use": true
         },

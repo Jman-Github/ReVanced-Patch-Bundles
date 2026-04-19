@@ -58,6 +58,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 PixelPusher247 Bundle Patch List](#-pixelpusher247-bundle-patch-list)    
 [🧩 Rabilrbl Bundle Patch List](#-rabilrbl-bundle-patch-list)    
 [🧩 Jasonwu1994 Bundle Patch List](#-jasonwu1994-bundle-patch-list)    
+[🧩 RealCyberwash Bundle Patch List](#-realcyberwash-bundle-patch-list)    
 [🧩 Paresh-Maheshwari Bundle Patch List](#-paresh-maheshwari-bundle-patch-list)    
 [🧩 Aniketshinde007 Bundle Patch List](#-aniketshinde007-bundle-patch-list)    
 [🧩 Binarymend Bundle Patch List](#-binarymend-bundle-patch-list)    
@@ -1673,7 +1674,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***61 Patches***
+***64 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.``` | ```app.ttmikstories.android``` | ```1.16.0``` |
@@ -1683,6 +1684,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. Some UI elements may not show an active membership, but this does not effect functionality.``` | ```cn.ommiao.iconpacker``` | ```1.21.0-release``` |
 | ```Disable anti-tamper``` | ```Disables various anti-tamper checks that causes the app to force-close.``` | ```cn.wps.moffice_eng``` | ```18.24``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall. Login is required and AI functionality is unavailable.``` | ```cn.wps.moffice_eng``` | ```18.24``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.adguard.android``` | ```4.12.81``` |
 | ```Enable Peak membership``` | ```Enables app features locked behind the subscription paywall.``` | ```com.alltrails.alltrails``` | ```26.3.20``` |
 | ```Enable speed control``` | ```Enables experimental speed control to the video player.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.447.757``` |
 | ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.447.757``` |
@@ -1704,6 +1706,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable ads``` | ```Disables ads during audio streaming.``` | ```com.pandora.android``` | ```All versions``` |
 | ```Unlimited skips``` | ```Disables the limit for skipping songs during playback.``` | ```com.pandora.android``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.qbis.guessthecountry``` | ```3.34.2``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.sbs.diet, com.sbs.train``` | ```5.7.6, 1.1.7``` |
+| ```Spoof signature``` | ```Spoof package signature for Firebase app check.``` | ```com.sbs.diet, com.sbs.train``` | ```5.7.6, 1.1.7``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.snorelab.app``` | ```2.27.3.6291``` |
 | ```Disable ads``` | ```Disables all ads contained within the UI.``` | ```com.sofascore.results``` | ```25.12.17``` |
 | ```Disable telemetry``` | ```Disables SoundCloud's telemetry system.``` | ```com.soundcloud.android``` | ```2026.03.20-release``` |
@@ -1734,9 +1738,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```pl.solidexplorer2``` | ```3.4.1``` |
 | ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```pl.solidexplorer2``` | ```3.4.1``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```ru.iiec.pydroid3``` | ```8.3_arm64``` |
-| ```Add resources``` | ```Add resources such as strings or arrays to the app.``` | ```Universal``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
+| ```Hide app icon``` | ```Hides the app icon from the Android launcher.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -2086,7 +2090,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***63 Patches***
+***66 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add notification shortcut``` | ```Adds a notification shortcut button above quick write in the post list.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
@@ -2101,56 +2105,59 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable OneStore feature``` | ```Enables the OneStore feature in DC Inside app.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Hide Main Ad``` | ```Hides the main ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
 | ```Spoof Signature``` | ```Spoofs the app signature to bypass integrity checks.``` | ```com.dcinside.app.android``` | ```5.2.7``` |
-| ```Add Packet Handler``` | ```Adding the Loco Packet Handler allows external applications to handle the app's packets, which may compromise security. Conflicts may occur on some systems.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Add Pine Lib``` | ```add libpine.so to the app's native libraries``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Add settings resources``` | ```Adds Morphe settings layout resources to the app.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Add settings tab``` | ```Adds a settings tab to the app.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Allow Hide on Any Chat``` | ```Users with hiding privileges can hide any chat, including their own messages.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Allow reply to feed``` | ```Allows replying to feed messages``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Always Show Kick Button``` | ```Always shows the kick button in group member management.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Bypass input mention limit in non-multichat``` | ```Bypass the limit of input mentions in non-multichat rooms``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Bypass Moat check``` | ```Bypass Moat check that prevents the app from running.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Change model``` | ```Changes the device model to supporting subdevice features``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Change package name``` | ```Appends ".revanced" to the package name by default. For KakaoTalk only``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Custom branding``` | ```Customize app branding (name)``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Default external browser``` | ```Sets the default external browser for KakaoTalk to the system's default browser.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Disable 300+ unread limit``` | ```Always show the real unread count instead of '300+' in chatroom list``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Disable 99 unread limit``` | ```Skip the 99-cap so unread count shows full value``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Disable chat room list ad``` | ```Disable the chat room list ad.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Disable ChatRoomAdController``` | ```Disables the ChatRoomAdController to prevent ads from being shown in chat room list``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Disable Collapse Button``` | ```Disable collapse button on OpenChatList``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Disable Community Tab``` | ```Disables Community Tab``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Disable Friend Feed tab``` | ```Disables the Friend Feed tab in KakaoTalk.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Disable Friend Lists ad``` | ```Disables the Friend Lists ad in KakaoTalk.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Disable S2Event``` | ```Disables Tracker``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Disable SDK Tracker``` | ```Disables the SDK Tracker in KakaoTalk.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Disable Sentry``` | ```Disables Sentry error reporting in KakaoTalk.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Disable Talk Share Log``` | ```Disable talk share log``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Disable verifying signature``` | ```Disables the signature verification check that prevents the app from running.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Enable Markdown``` | ```Render plain text messages with markdown-style formatting.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Enable reaction mention flag``` | ```Enables the reaction mention flag in KakaoTalk chat logs.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Enable recording pause/resume feature``` | ```Enable recording pause/resume feature in KakaoTalk``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Enable send big text``` | ```Allows sending big text messages in KakaoTalk.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Force enable debug mode``` | ```Enables debug mode in the app.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Force enable emoticon plus feature``` | ```Force enable emoticon plus feature (Unpurchased emoticon can be sent once per day)``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Ghost Mode``` | ```Don't expose your typing status to the other party.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Hook Package Manager``` | ```Hooks the Package Manager to bypass integrity checks.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Override feature flag``` | ```Overrides the feature flag to enable the feature.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Play YouTube player in chat room``` | ```Allows playing YouTube videos in KakaoTalk chat rooms.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Register settings activity``` | ```Registers the Morphe settings activity in the app manifest.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Remove BizBoard ads``` | ```Removes the BizBoard ad by forcing its dimensions to 0x0 and visibility to GONE in onMeasure.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Remove feed ad``` | ```Removes the feed ad from the app.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Remove focus ad``` | ```Removes the focus ad from the app.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Remove More tab ad``` | ```Removes the ad from the More tab.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Remove native ad``` | ```Removes the native ad from the app.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Remove OpenLink chat room list ad``` | ```Removes the OpenLink chat room list ad.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Remove shop tab``` | ```Removes the shop tab from the bottom navigation bar.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Remove Short-form Tab``` | ```Removes the Short-form tab from the now fragment.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Show deleted or hidden messages``` | ```Allows you to see deleted/hidden messages in chat logs.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Spoof apk checksums``` | ```Spoofs the apk checksums to pass integrity checks.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Spoof App ID``` | ```Spoofs the App ID to bypass integrity checks. (to bypass biometric auth etc.)``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Spoof signature``` | ```Spoofs the app signature to pass integrity checks.``` | ```com.kakao.talk``` | ```26.2.2``` |
-| ```Version info patch``` | ```Patches the version info to include '(ReVanced)' in the version string.``` | ```com.kakao.talk``` | ```26.2.2``` |
+| ```Add Packet Handler``` | ```Adding the Loco Packet Handler allows external applications to handle the app's packets, which may compromise security. Conflicts may occur on some systems.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Add Pine Lib``` | ```add libpine.so to the app's native libraries``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Add settings resources``` | ```Adds Morphe settings layout resources to the app.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Add settings tab``` | ```Adds a settings tab to the app.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Allow Hide on Any Chat``` | ```Users with hiding privileges can hide any chat, including their own messages.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Allow reply to feed``` | ```Allows replying to feed messages``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Always Show Kick Button``` | ```Always shows the kick button in group member management.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Bypass input mention limit in non-multichat``` | ```Bypass the limit of input mentions in non-multichat rooms``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Bypass Moat check``` | ```Bypass Moat check that prevents the app from running.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Change model``` | ```Changes the device model to supporting subdevice features``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Change package name``` | ```Appends ".revanced" to the package name by default. For KakaoTalk only``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Custom branding``` | ```Customize app branding (name)``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Default external browser``` | ```Sets the default external browser for KakaoTalk to the system's default browser.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Disable 300+ unread limit``` | ```Always show the real unread count instead of '300+' in chatroom list``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Disable 99 unread limit``` | ```Skip the 99-cap so unread count shows full value``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Disable chat room list ad``` | ```Disable the chat room list ad.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Disable ChatRoomAdController``` | ```Disables the open-link chat room BizBoard ad controller.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Disable Collapse Button``` | ```Disable collapse button on OpenChatList``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Disable Community Tab``` | ```Disables Community Tab``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Disable Friend Feed tab``` | ```Disables the Friend Feed tab in KakaoTalk.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Disable Friend Lists ad``` | ```Disables the friend tab BizBoard ads in KakaoTalk.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Disable OpenChat feed ad``` | ```Disables the OpenChat tab feed ad load and render paths.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Disable Pay banner ad``` | ```Disables the KakaoPay banner ad load and render paths.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Disable S2Event``` | ```Disables Tracker``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Disable SDK Tracker``` | ```Disables the SDK Tracker in KakaoTalk.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Disable Sentry``` | ```Disables Sentry error reporting in KakaoTalk.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Disable ShortForm ad``` | ```Disables the shortform ad load and render paths.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Disable Talk Share Log``` | ```Disable talk share log``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Disable verifying signature``` | ```Disables the signature verification check that prevents the app from running.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Enable Markdown``` | ```Render plain text messages with markdown-style formatting.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Enable reaction mention flag``` | ```Enables the reaction mention flag in KakaoTalk chat logs.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Enable recording pause/resume feature``` | ```Enable recording pause/resume feature in KakaoTalk``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Enable send big text``` | ```Allows sending big text messages in KakaoTalk.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Force enable debug mode``` | ```Enables debug mode in the app.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Force enable emoticon plus feature``` | ```Force enable emoticon plus feature (Unpurchased emoticon can be sent once per day)``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Ghost Mode``` | ```Don't expose your typing status to the other party.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Hook Package Manager``` | ```Hooks the Package Manager to bypass integrity checks.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Override feature flag``` | ```Overrides the feature flag to enable the feature.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Play YouTube player in chat room``` | ```Allows playing YouTube videos in KakaoTalk chat rooms.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Register settings activity``` | ```Registers the Morphe settings activity in the app manifest.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Remove BizBoard ads``` | ```Removes the BizBoard ad by forcing its dimensions to 0x0 and visibility to GONE in onMeasure.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Remove feed ad``` | ```Removes the feed ad from the app.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Remove focus ad``` | ```Removes the focus ad from the app.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Remove More tab ad``` | ```Removes the ad from the More tab.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Remove native ad``` | ```Removes the native ad from the app.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Remove OpenLink chat room list ad``` | ```Removes the OpenLink chat room list ad.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Remove shop tab``` | ```Removes the shop tab from the bottom navigation bar.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Remove Short-form Tab``` | ```Removes the Short-form tab from the now fragment.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Show deleted or hidden messages``` | ```Allows you to see deleted/hidden messages in chat logs.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Spoof apk checksums``` | ```Spoofs the apk checksums to pass integrity checks.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Spoof App ID``` | ```Spoofs the App ID to bypass integrity checks. (to bypass biometric auth etc.)``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Spoof signature``` | ```Spoofs the app signature to pass integrity checks.``` | ```com.kakao.talk``` | ```26.3.1``` |
+| ```Version info patch``` | ```Patches the version info to include '(ReVanced)' in the version string.``` | ```com.kakao.talk``` | ```26.3.1``` |
 | ```Disable Sentry telemetry``` | ```Disables Sentry telemetry. See https://sentry.io/for/android/ for more information.``` | ```Universal``` | ```All versions``` |
 
 </details>
@@ -2211,7 +2218,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***109 Patches***
+***110 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```com.google.android.apps.youtube.music``` | ```8.47.56, 8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
@@ -2238,6 +2245,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.google.android.apps.youtube.music``` | ```8.47.56, 8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```com.google.android.apps.youtube.music``` | ```8.47.56, 8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
 | ```Theme``` | ```Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).``` | ```com.google.android.apps.youtube.music``` | ```8.47.56, 8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
+| ```Track crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. This patch currently requires YouTube 8.x``` | ```com.google.android.apps.youtube.music``` | ```8.47.56, 8.44.54, 8.40.54, 8.10.52, 7.29.52``` |
 | ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Ambient mode``` | ```Adds options to bypass power saving restrictions for Ambient mode and disable it entirely or in fullscreen.``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Bypass image region restrictions``` | ```Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
@@ -2286,7 +2294,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Open Shorts in regular player``` | ```Adds options to open Shorts in the regular video player.``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Open system share sheet``` | ```Adds an option to always open the system share sheet instead of the in-app share sheet.``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Open videos fullscreen``` | ```Adds an option to open videos in full screen portrait mode.``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
-| ```Override YouTube Music actions``` | ```Overrides the YouTube Music button to open Morphe Music directly.``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
+| ```Override YouTube Music buttons``` | ```Overrides YouTube Music buttons to open Morphe Music or any compatible third-party client.``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Play all``` | ```Adds an option to play all the videos from a channel and to display play all button in the video player.``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Playback speed``` | ```Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Reload video``` | ```Adds an option to display reload video button in the video player.``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
@@ -2304,22 +2312,22 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Theme``` | ```Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Video ads``` | ```Adds an option to remove ads in the video player.``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
 | ```Video quality``` | ```Adds options to set default video qualities and always use the advanced video quality menu.``` | ```com.google.android.youtube``` | ```20.47.62, 20.45.36, 20.40.45, 20.31.42, 20.21.37``` |
-| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Disable modern home``` | ```Adds an option to disable the modern home UI.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Hide ads``` | ```Adds options to hide ads.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Hide recommended communities shelf``` | ```Adds an option to hide the recommended communities shelves in subreddits.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Hide Trending Today shelf``` | ```Adds an option to hide the Trending Today shelf from search suggestions.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
-| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```com.reddit.frontpage``` | ```2026.04.0, 2025.48.0``` |
+| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0``` |
+| ```Disable modern home``` | ```Adds an option to disable the modern home UI.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0``` |
+| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0``` |
+| ```Hide ads``` | ```Adds options to hide ads.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0``` |
+| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0``` |
+| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0``` |
+| ```Hide recommended communities shelf``` | ```Adds an option to hide the recommended communities shelves in subreddits.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0``` |
+| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0``` |
+| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0``` |
+| ```Hide Trending Today shelf``` | ```Adds an option to hide the Trending Today shelf from search suggestions.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0``` |
+| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0``` |
+| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0``` |
+| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0``` |
+| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0``` |
+| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0``` |
+| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```com.reddit.frontpage``` | ```2026.10.0, 2026.04.0``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch does not work if the app is installed by mounting and may cause unexpected issues with some apps.``` | ```Universal``` | ```All versions``` |
 | ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
@@ -2941,14 +2949,27 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***5 Patches***
+***18 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```MacroDroid Premium``` | ```Unlocks premium features and removes macro limits.``` | ```com.arlosoft.macrodroid``` | ```5.62.11``` |
 | ```Doc Scanner Premium``` | ```Unlocks all premium features, removes ads, and enables pro themes.``` | ```com.cv.docscanner``` | ```6.8.18``` |
 | ```VN Premium``` | ```Unlocks premium features, removes watermark, and hides Pro tab.``` | ```com.frontrow.vlog``` | ```2.12.0``` |
+| ```Mark Premium``` | ```Unlocks premium features and removes ads.``` | ```com.markOne.ss_app``` | ```6.6``` |
 | ```Fing Premium``` | ```Unlocks premium network tools and features.``` | ```com.overlook.android.fing``` | ```12.11.9``` |
 | ```Teleprompter Premium``` | ```Unlocks premium features in Teleprompter Vlog & Scripts app.``` | ```com.solid.teleprompter``` | ```6.8.2, 6.8.1``` |
+| ```Hide Assistant tab``` | ```Hides the Assistant tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
+| ```Hide Premium from settings``` | ```Hides the Premium options from the settings page.``` | ```com.truecaller``` | ```26.10.6``` |
+| ```Hide Premium tab``` | ```Hides the Premium tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
+| ```Hide Scams tab``` | ```Hides the Scams tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
+| ```Truecaller Premium``` | ```Unlocks premium features.``` | ```com.truecaller``` | ```26.10.6``` |
+| ```Bypass content restrictions``` | ```Allows copying, saving, and screenshots from restricted channels.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
+| ```Bypass integrity``` | ```Bypasses integrity check to allow login on patched app.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
+| ```Disable auto update``` | ```Disables automatic app update checks.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
+| ```Download speed boost``` | ```Increases download chunk size and max concurrent requests.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
+| ```Hide typing indicator``` | ```Hides your typing indicator from other users.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
+| ```Remove ads``` | ```Removes sponsored messages and video ads.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
+| ```Telegram Premium``` | ```Unlocks premium features.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
 
 </details>
 
@@ -2972,9 +2993,15 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***7 Patches***
+***13 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Unlock Symfonium``` | ```Unlocks the trial version of Symfonium.``` | ```app.symfonik.music.player``` | ```14.0.0``` |
+| ```Unlock CalcNote Pro``` | ```Unlocks all Pro features and removes ads.``` | ```com.burton999.notecal``` | ```2.25.107``` |
+| ```Make UI look like Pro``` | ```Changes the app title to 'Moon+ Reader Pro' and removes the 'Remove Ads' button from the drawer.``` | ```com.flyersoft.moonreader``` | ```10.5``` |
+| ```Unlock Moon+ Reader Pro``` | ```Unlocks Pro features including PDF support, ad-free experience, and more.``` | ```com.flyersoft.moonreader``` | ```10.5``` |
+| ```Elon Musk Mode``` | ```Renames your account to 'Elon Musk' and sets your currency to Dogecoin.``` | ```com.paypal.android.p2pmobile``` | ```All versions``` |
+| ```Unlimited Money``` | ```Adds infinite funds to your PayPal account. Do you think it will work?``` | ```com.paypal.android.p2pmobile``` | ```All versions``` |
 | ```Disable Bugsnag Telemetry``` | ```Disables Bugsnag crash reporting and analytics.``` | ```com.pinterest``` | ```14.11.0``` |
 | ```Disable General Telemetry``` | ```Disables various analytics and tracking tasks.``` | ```com.pinterest``` | ```14.11.0``` |
 | ```Remove Promoted Pins``` | ```Disables ad detection logic globally. Safe for Home feed.``` | ```com.pinterest``` | ```14.11.0``` |
@@ -2991,7 +3018,13 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***4 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Bypass Integrity Protection``` | ```Disables PairIP signature verification and startup VM checks that crash re-signed APKs.``` | ```com.ipoji.app``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium features by forcing all RevenueCat entitlements to active.``` | ```com.ipoji.app``` | ```All versions``` |
+| ```Remove Ads``` | ```Disables all ad purchase checks to hide ads globally.``` | ```com.vladlee.easyblacklist``` | ```4.8.20``` |
+| ```Unlock Premium``` | ```Unlocks all premium features.``` | ```com.vladlee.easyblacklist``` | ```4.8.20``` |
 
 </details>
 
