@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.32",
+    "version": "v1.4.0-dev.33",
     "patches": [
         {
             "compatiblePackages": {
@@ -82,6 +82,18 @@
             "dependencies": [],
             "description": "Increases download chunk size and max concurrent requests.",
             "name": "Download speed boost",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.eyecon.global": [
+                    "4.2026.04.05.1300"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium features.",
+            "name": "Eyecon Premium",
             "options": [],
             "use": true
         },
