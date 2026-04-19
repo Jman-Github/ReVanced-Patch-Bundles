@@ -64,6 +64,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Binarymend Bundle Patch List](#-binarymend-bundle-patch-list)    
 [🧩 Polka-Bear Bundle Patch List](#-polka-bear-bundle-patch-list)    
 [🧩 Ajstrick81 Bundle Patch List](#-ajstrick81-bundle-patch-list)    
+[🧩 Eyalm2000 Bundle Patch List](#-eyalm2000-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -3031,6 +3032,16 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Ajstrick81 Bundle Patch List:
 [📦 Ajstrick81-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ajstrick81-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
+
+---
+### 🧩 Eyalm2000 Bundle Patch List:
+[📦 Eyalm2000-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-eyalm2000-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
