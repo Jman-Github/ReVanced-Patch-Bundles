@@ -70,25 +70,31 @@ fun generatePatchesFromUrlWithLegacyPatcher(uri: URI): String {
         LEGACY_PATCHER_CLASSPATH_PROPERTY,
         "Legacy patcher classpath"
     )
+    val bridgeClasspathFiles = runtimeClasspathFiles(
+        PATCHER22_CLASSPATH_PROPERTY,
+        "Modern patcher 22 classpath"
+    )
     val patchesFile = File.createTempFile("patches-legacy", ".jar")
     try {
         downloadToFile(uri.toURL(), patchesFile)
 
         URLClassLoader(classpathFiles.map { it.toURI().toURL() }.toTypedArray(), null).use { classLoader ->
-            try {
-                val patches = loadLegacyPatchesFromJar(patchesFile, classLoader)
+            URLClassLoader(bridgeClasspathFiles.map { it.toURI().toURL() }.toTypedArray(), classLoader).use { bridgeClassLoader ->
+                try {
+                    val patches = loadLegacyPatchesFromJar(patchesFile, classLoader, bridgeClassLoader)
 
-                val serializationClass = Class.forName("app.revanced.library.SerializationKt", true, classLoader)
-                val serializeMethod = serializationClass.methods.firstOrNull {
-                    it.name == "serializeTo" && it.parameterCount == 3
-                } ?: throw NoSuchMethodException("serializeTo(Set, OutputStream, Boolean) not found in legacy library.")
+                    val serializationClass = Class.forName("app.revanced.library.SerializationKt", true, classLoader)
+                    val serializeMethod = serializationClass.methods.firstOrNull {
+                        it.name == "serializeTo" && it.parameterCount == 3
+                    } ?: throw NoSuchMethodException("serializeTo(Set, OutputStream, Boolean) not found in legacy library.")
 
-                val output = ByteArrayOutputStream()
-                serializeMethod.invoke(null, patches, output, false)
-                return output.toString(Charsets.UTF_8)
-            } catch (e: InvocationTargetException) {
-                val target = e.targetException ?: e
-                throw IllegalStateException("Legacy patcher failed to load ${patchesFile.name}", target)
+                    val output = ByteArrayOutputStream()
+                    serializeMethod.invoke(null, patches, output, false)
+                    return output.toString(Charsets.UTF_8)
+                } catch (e: InvocationTargetException) {
+                    val target = e.targetException ?: e
+                    throw IllegalStateException("Legacy patcher failed to load ${patchesFile.name}", target)
+                }
             }
         }
     } finally {
@@ -339,7 +345,8 @@ private fun findReflectiveAccessor(type: Class<*>, name: String): Method? {
 
 private fun loadLegacyPatchesFromJar(
     patchesFile: File,
-    legacyClassLoader: ClassLoader
+    legacyClassLoader: ClassLoader,
+    bundleDependencyClassLoader: ClassLoader
 ): Set<Any> {
     val patchClass = Class.forName("app.revanced.patcher.patch.Patch", true, legacyClassLoader)
     val getPatchName = patchClass.methods.firstOrNull { it.name == "getName" && it.parameterCount == 0 }
@@ -351,7 +358,7 @@ private fun loadLegacyPatchesFromJar(
             .map { it.name.substringBeforeLast('.').replace('/', '.') }
     }
 
-    URLClassLoader(arrayOf(patchesFile.toURI().toURL()), legacyClassLoader).use { bundleClassLoader ->
+    URLClassLoader(arrayOf(patchesFile.toURI().toURL()), bundleDependencyClassLoader).use { bundleClassLoader ->
         val patches = linkedSetOf<Any>()
 
         for (className in classNames) {
@@ -361,7 +368,13 @@ private fun loadLegacyPatchesFromJar(
                 continue
             }
 
-            loadedClass.methods
+            val publicMethods = try {
+                loadedClass.methods.toList()
+            } catch (_: LinkageError) {
+                continue
+            }
+
+            publicMethods
                 .filter { method ->
                     Modifier.isPublic(method.modifiers) &&
                         Modifier.isStatic(method.modifiers) &&
@@ -380,7 +393,13 @@ private fun loadLegacyPatchesFromJar(
                     }
                 }
 
-            loadedClass.fields
+            val publicFields = try {
+                loadedClass.fields.toList()
+            } catch (_: LinkageError) {
+                continue
+            }
+
+            publicFields
                 .filter { field ->
                     Modifier.isPublic(field.modifiers) &&
                         Modifier.isStatic(field.modifiers) &&
