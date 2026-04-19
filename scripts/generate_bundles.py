@@ -217,7 +217,7 @@ async def fetch_release_data(
         patches_repo = repo.get('patches')
         if not isinstance(patches_repo, str) or not patches_repo:
             print(f"Patch repository not defined for {source}; skipping.")
-            return
+            return None
         (
             patches_version,
             patches_created_at,
@@ -227,7 +227,7 @@ async def fetch_release_data(
             patches_release_url,
         ) = await get_latest_release(client, patches_repo, prerelease, latest_flag)
         if not patches_download_urls:
-            return
+            return None
         info_dict: dict[str, Any]
         metadata_entry: dict[str, Any] = {
             "source": source,
@@ -269,7 +269,7 @@ async def fetch_release_data(
                 integration_repo = repo.get('integration')
                 if not isinstance(integration_repo, str) or not integration_repo:
                     print(f"Integration repository not defined for {source}; skipping.")
-                    return
+                    return None
                 (
                     integrations_version,
                     integrations_created_at,
@@ -302,10 +302,10 @@ async def fetch_release_data(
                     }
                 else:
                     print(f"No relevant .apk asset found in integration repo for {source}")
-                    return
+                    return None
             else:
                 print(f"No relevant .rvp, .mpp, or .jar assets found for {source}")
-                return
+                return None
         base_source = source.replace('-dev', '').replace('-latest', '').replace('-stable', '')
         directory = PATCH_BUNDLES_DIR / f"{base_source}-patch-bundles"
         directory.mkdir(parents=True, exist_ok=True)
