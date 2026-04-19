@@ -652,32 +652,40 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***97 Patches***
+***105 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add settings``` | ```Adds settings to control preferences are patching``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Copy comment``` | ```Adds a button to copy comments on posts and reels.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Customise story timestamp``` | ```Customise the timestamp that shows when the story was posted``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Disable ads``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Disable analytics``` | ```Block analytics that are sent to Instagram/Facebook servers.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Disable comments``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Disable discover people``` | ```Disables discover people section on user profile``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Disable explore``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Disable screenshot detection``` | ```Disables screenshots detection in DM``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Disable stories``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Disable story flipping``` | ```Disable automatic flipping/moving to next story``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Disable typing status``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Follow back indicator``` | ```Adds a label on the profile page, indicating whether a user is follows you back.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Hide group creation button on sharesheet``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Hide notes tray``` | ```Hides notes tray in DM section``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Hide reshare button``` | ```Hides the reshare button from both posts and reels.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Hide stories tray``` | ```Hides stories tray from main feed.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Hide suggested content``` | ```Hides suggested stories, reels, threads (Suggested posts will still be shown).``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Improve image viewing``` | ```Fetches max resolution images from server.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Limit feed to following profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Make ephemeral media permanent``` | ```changes view once, view twice media to permanent view. Do note older ephemeral media might look blank.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Make ephemeral media permanent``` | ```Changes unexpired view once, view twice media to permanent view.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```More options on profile``` | ```Adds a new button to handle user related data like copy handle, download profile picture etc``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Open links externally``` | ```Changes links to always open in your external browser, instead of the in-app browser.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```Remove empty bottom space``` | ```Removes empty space below bottom navigation bar``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Sanitize share links``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```Unlock developer options``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
+| ```View DMs anonymously``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```View live anonymously``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```View stories anonymously``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
 | ```View story mentions``` | ```Add option to view visible and hidden story mentions.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
@@ -2950,10 +2958,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***21 Patches***
+***10 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```MacroDroid Premium``` | ```Unlocks premium features and removes macro limits.``` | ```com.arlosoft.macrodroid``` | ```5.62.11``` |
 | ```Doc Scanner Premium``` | ```Unlocks all premium features, removes ads, and enables pro themes.``` | ```com.cv.docscanner``` | ```6.8.18``` |
 | ```Eyecon Premium``` | ```Unlocks premium features.``` | ```com.eyecon.global``` | ```4.2026.04.05.1300``` |
 | ```VN Premium``` | ```Unlocks premium features, removes watermark, and hides Pro tab.``` | ```com.frontrow.vlog``` | ```2.12.0``` |
@@ -2961,19 +2968,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Fing Premium``` | ```Unlocks premium network tools and features.``` | ```com.overlook.android.fing``` | ```12.11.9``` |
 | ```Teleprompter Premium``` | ```Unlocks premium features in Teleprompter Vlog & Scripts app.``` | ```com.solid.teleprompter``` | ```6.8.2, 6.8.1``` |
 | ```Hide Assistant tab``` | ```Hides the Assistant tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
-| ```Hide Premium from settings``` | ```Hides the Premium options from the settings page.``` | ```com.truecaller``` | ```26.10.6``` |
-| ```Hide Premium tab``` | ```Hides the Premium tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Hide Scams tab``` | ```Hides the Scams tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Truecaller Premium``` | ```Unlocks premium features.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```CREX Premium``` | ```Unlocks premium features and removes ads.``` | ```in.cricketexchange.app.cricketexchange``` | ```26.04.05``` |
-| ```Bypass channel restrictions``` | ```Allows opening copyrighted, sensitive, and temporarily disabled channels.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
-| ```Bypass content restrictions``` | ```Allows copying, saving, forwarding, and screenshots from restricted channels.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
-| ```Bypass integrity``` | ```Bypasses integrity check to allow login on patched app.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
-| ```Disable auto update``` | ```Disables automatic app update checks.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
-| ```Download speed boost``` | ```Increases download chunk size and max concurrent requests.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
-| ```Hide typing indicator``` | ```Hides your typing indicator from other users.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
-| ```Remove ads``` | ```Removes sponsored messages and video ads.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
-| ```Telegram Premium``` | ```Unlocks premium features.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
 
 </details>
 
@@ -3041,7 +3038,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Hide ads and Ad-Break markers``` | ```Neutralizes ad insertion logic with non-blocking safety checks.``` | ```com.peacocktv.peacockandroid``` | ```All versions``` |
+| ```Hide ads and Ad-Break markers``` | ```Dual-Payload neutralization of ad-triggers and markers.``` | ```com.peacocktv.peacockandroid``` | ```All versions``` |
 
 </details>
 

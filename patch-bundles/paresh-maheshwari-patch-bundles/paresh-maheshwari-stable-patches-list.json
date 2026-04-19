@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0",
+    "version": "v1.9.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -22,6 +22,18 @@
             "dependencies": [],
             "description": "Unlocks all premium features, removes ads, and enables pro themes.",
             "name": "Doc Scanner Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.eyecon.global": [
+                    "4.2026.04.05.1300"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium features.",
+            "name": "Eyecon Premium",
             "options": [],
             "use": true
         },
