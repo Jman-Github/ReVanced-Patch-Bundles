@@ -3035,7 +3035,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***1 Patch***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Hide ads and Ad-Break markers``` | ```Neutralizes ad insertion logic with non-blocking safety checks.``` | ```com.peacocktv.peacockandroid``` | ```All versions``` |
 
 </details>
 
@@ -3045,6 +3048,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***2 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Export Debug Activity``` | ```Ensures the Tidal debug activity is exported in AndroidManifest.xml.``` | ```com.aspiro.tidal``` | ```All versions``` |
+| ```Unlock Debug Menu``` | ```Enables the internal debug menu in Tidal settings.``` | ```com.aspiro.tidal``` | ```All versions``` |
 
 </details>

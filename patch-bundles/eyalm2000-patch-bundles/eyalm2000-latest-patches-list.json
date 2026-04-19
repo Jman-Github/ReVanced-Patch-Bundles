@@ -1,0 +1,25 @@
+{
+    "version": "v1.2.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.aspiro.tidal": []
+            },
+            "dependencies": [],
+            "description": "Ensures the Tidal debug activity is exported in AndroidManifest.xml.",
+            "name": "Export Debug Activity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.aspiro.tidal": []
+            },
+            "dependencies": [],
+            "description": "Enables the internal debug menu in Tidal settings.",
+            "name": "Unlock Debug Menu",
+            "options": [],
+            "use": true
+        }
+    ]
+}
