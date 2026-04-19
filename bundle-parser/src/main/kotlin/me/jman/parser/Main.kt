@@ -418,7 +418,7 @@ private fun generateLegacyPatchList(downloadUri: URI): JsonArray? {
         Logger.warning("Generated patches are not valid JSON. ${e.message}")
         null
     } catch (e: Exception) {
-        Logger.warning("Failed to parse legacy patch bundle. ${e.message}")
+        Logger.warning("Failed to parse legacy patch bundle. ${e.formatForLog()}")
         null
     } finally {
         patchesFile.delete()

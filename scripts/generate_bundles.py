@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from httpx import AsyncClient, HTTPError, Response, Timeout
+from httpx import AsyncClient, HTTPError, HTTPStatusError, Response, Timeout
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 PATCH_BUNDLES_DIR = PROJECT_ROOT / "patch-bundles"
@@ -80,7 +80,7 @@ async def _get_with_retries(client: AsyncClient, url: str, headers: dict[str, st
     for attempt in range(MAX_RETRIES):
         try:
             async with HTTP_SEMAPHORE:
-                response = await client.get(url, headers=headers)
+                response = await client.get(url, headers=headers, follow_redirects=True)
         except HTTPError as exc:
             last_error = exc
             await _sleep_with_backoff(attempt)
@@ -317,6 +317,9 @@ async def fetch_release_data(
         async with METADATA_LOCK:
             BUNDLE_METADATA[source] = metadata_entry
         return True
+    except HTTPStatusError as exc:
+        print(f"Error in fetch_release_data for {source}: {exc}")
+        return False
     except Exception as exc:
         print(f"Error in fetch_release_data for {source}: {exc}")
         return False
