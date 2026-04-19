@@ -62,6 +62,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Aniketshinde007 Bundle Patch List](#-aniketshinde007-bundle-patch-list)    
 [🧩 Binarymend Bundle Patch List](#-binarymend-bundle-patch-list)    
 [🧩 Polka-Bear Bundle Patch List](#-polka-bear-bundle-patch-list)    
+[🧩 Ajstrick81 Bundle Patch List](#-ajstrick81-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -2987,6 +2988,16 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Polka-Bear Bundle Patch List:
 [📦 Polka-Bear-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-polka-bear-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
+
+---
+### 🧩 Ajstrick81 Bundle Patch List:
+[📦 Ajstrick81-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ajstrick81-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 

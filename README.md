@@ -793,6 +793,19 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
+### 📦 Ajstrick81-Patches-Bundle [Morphe]:
+[🧩 Ajstrick81 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ajstrick81-morphed-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ajstrick81-patch-bundles/ajstrick81-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ajstrick81-patch-bundles/ajstrick81-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ajstrick81-patch-bundles/ajstrick81-dev-patches-bundle.json```
+</details>
+
+---
 # 📱 ReVanced Manager Compose:
 ### 📍 Universal ReVanced Manager (my fork)
 *Highly suggested if you want to be unrestricted in the patch bundles you import!*
@@ -927,6 +940,8 @@ https://github.com/ReVanced/revanced-manager/releases
 #### 🏷️ [Binarymend-Patches-Bundle](https://github.com/binarymend/morphe-patches)
 
 #### 🏷️ [Polka-Bear-Patches-Bundle](https://github.com/polka-bear/morphe-patches)
+
+#### 🏷️ [Ajstrick81-Patches-Bundle](https://github.com/ajstrick81/peacock-atv-patches)
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*
