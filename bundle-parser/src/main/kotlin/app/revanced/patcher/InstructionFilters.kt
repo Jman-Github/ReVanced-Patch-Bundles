@@ -93,16 +93,6 @@ data class AnyInstruction(
     override val location: InstructionLocation,
 ) : InstructionFilter
 
-/**
- * The parser does not rely on the instruction DSL at runtime, so registering filters
- * is effectively a no-op for compatibility purposes.
- */
-fun FingerprintBuilder.instructions(vararg filters: InstructionFilter) {
-    if (filters.isEmpty()) return
-    // Intentionally left blank – fingerprints still work with the legacy
-    // configuration used by this project.
-}
-
 fun string(
     value: String,
     location: InstructionLocation = InstructionLocation.MatchFirst(),

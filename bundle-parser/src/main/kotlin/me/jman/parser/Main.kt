@@ -33,9 +33,20 @@ private val prettyJson = Json { prettyPrint = true }
 private val parsingJson = Json { ignoreUnknownKeys = true }
 
 private val patchCache = mutableMapOf<String, JsonArray>()
-private val githubAuthToken = System.getenv("GH_PAT")?.takeIf { it.isNotBlank() }
+private val githubAuthToken = sequenceOf(
+    System.getenv("GH_PAT"),
+    System.getenv("GITHUB_TOKEN")
+).filterNotNull().firstOrNull { it.isNotBlank() }
 private const val GITHUB_API_BASE = "https://api.github.com"
 private const val USER_AGENT = "revanced-patch-bundles/1.0 (+https://github.com/Jman-Github/ReVanced-Patch-Bundles)"
+
+private data class GitHubRateLimitInfo(
+    val limit: String?,
+    val remaining: String?,
+    val reset: String?,
+    val resource: String?,
+    val retryAfter: String?,
+)
 
 private fun Throwable.rootCause(): Throwable {
     var cause = this
@@ -50,6 +61,29 @@ private fun Throwable.formatForLog(): String {
     val type = root::class.simpleName ?: root::class.java.name
     val message = root.message?.takeIf { it.isNotBlank() } ?: "no message"
     return "$type: $message"
+}
+
+private fun HttpURLConnection.rateLimitInfo(): GitHubRateLimitInfo = GitHubRateLimitInfo(
+    limit = getHeaderField("x-ratelimit-limit"),
+    remaining = getHeaderField("x-ratelimit-remaining"),
+    reset = getHeaderField("x-ratelimit-reset"),
+    resource = getHeaderField("x-ratelimit-resource"),
+    retryAfter = getHeaderField("retry-after"),
+)
+
+private fun GitHubRateLimitInfo.formatForLog(): String {
+    val parts = buildList {
+        limit?.let { add("limit=$it") }
+        remaining?.let { add("remaining=$it") }
+        reset?.let { add("reset=$it") }
+        resource?.let { add("resource=$it") }
+        retryAfter?.let { add("retry-after=$it") }
+    }
+    return if (parts.isEmpty()) {
+        "no rate-limit headers"
+    } else {
+        parts.joinToString(", ")
+    }
 }
 
 private enum class ReleaseType(
@@ -504,26 +538,54 @@ private fun parseReleaseLocation(uri: URI): ReleaseLocation? {
 
 private fun fetchReleaseMetadata(location: ReleaseLocation): JsonObject? {
     val apiUrl = "$GITHUB_API_BASE/repos/${location.owner}/${location.repo}/releases/tags/${location.tag}"
-    val connection = (URL(apiUrl).openConnection() as HttpURLConnection)
-    return try {
-        connection.requestMethod = "GET"
-        connection.setRequestProperty("Accept", "application/vnd.github+json")
-        connection.setRequestProperty("User-Agent", USER_AGENT)
-        githubAuthToken?.let { connection.setRequestProperty("Authorization", "Bearer $it") }
-        val code = connection.responseCode
-        if (code != HttpURLConnection.HTTP_OK) {
-            Logger.warning("Failed to fetch release metadata for ${location.owner}/${location.repo} ($code).")
-            null
-        } else {
-            val body = connection.inputStream.bufferedReader().use { it.readText() }
-            Json.parseToJsonElement(body).jsonObject
+    val attemptAuthFirst = !githubAuthToken.isNullOrBlank()
+    val attempts = if (attemptAuthFirst) listOf(true, false) else listOf(false)
+
+    for (useAuth in attempts) {
+        val connection = (URL(apiUrl).openConnection() as HttpURLConnection)
+        try {
+            connection.requestMethod = "GET"
+            connection.setRequestProperty("Accept", "application/vnd.github+json")
+            connection.setRequestProperty("User-Agent", USER_AGENT)
+            if (useAuth) {
+                connection.setRequestProperty("Authorization", "Bearer $githubAuthToken")
+            }
+            val code = connection.responseCode
+            val rateLimitInfo = connection.rateLimitInfo()
+            if (code == HttpURLConnection.HTTP_OK) {
+                val body = connection.inputStream.bufferedReader().use { it.readText() }
+                if (useAuth) {
+                    Logger.info(
+                        "GitHub API rate limit for ${location.owner}/${location.repo}: ${rateLimitInfo.formatForLog()}"
+                    )
+                }
+                return Json.parseToJsonElement(body).jsonObject
+            }
+            if (code == HttpURLConnection.HTTP_UNAUTHORIZED && useAuth) {
+                Logger.warning(
+                    "GitHub token was rejected for ${location.owner}/${location.repo}; " +
+                        "retrying release metadata anonymously. ${rateLimitInfo.formatForLog()}"
+                )
+                continue
+            }
+            Logger.warning(
+                "Failed to fetch release metadata for ${location.owner}/${location.repo} ($code). " +
+                    rateLimitInfo.formatForLog()
+            )
+            return null
+        } catch (e: Exception) {
+            if (useAuth) {
+                Logger.warning("Authenticated release metadata fetch failed. ${e.message}")
+                continue
+            }
+            Logger.warning("Failed to fetch release metadata. ${e.message}")
+            return null
+        } finally {
+            connection.disconnect()
         }
-    } catch (e: Exception) {
-        Logger.warning("Failed to fetch release metadata. ${e.message}")
-        null
-    } finally {
-        connection.disconnect()
     }
+
+    return null
 }
 
 private fun findPatchMetadataAsset(releaseJson: JsonObject): String? {
@@ -546,11 +608,11 @@ private fun downloadPlainText(url: String): String? {
         connection.requestMethod = "GET"
         connection.setRequestProperty("User-Agent", USER_AGENT)
         val code = connection.responseCode
-        if (code !in 200..299) {
-            Logger.warning("Failed to download $url ($code).")
-            null
-        } else {
+        if (code in 200..299) {
             connection.inputStream.bufferedReader().use { it.readText() }
+        } else {
+            Logger.warning("Failed to download $url ($code). ${connection.rateLimitInfo().formatForLog()}")
+            null
         }
     } catch (e: Exception) {
         Logger.warning("Failed to download $url. ${e.message}")
@@ -591,7 +653,7 @@ private fun convertExternalPatchObject(element: JsonElement): JsonObject? {
                 "compatiblePackages" -> put(key, compatObject)
                 "dependencies" -> put(key, dependencies)
                 "options" -> put(key, options)
-                else -> put(key, value ?: JsonNull)
+                else -> put(key, value)
             }
         }
         if ("compatiblePackages" !in obj) {

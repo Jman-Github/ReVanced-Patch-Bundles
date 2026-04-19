@@ -8,6 +8,10 @@ bundle-run-metadata.json
 bundle-changelog.md
 .gradle/
 **/.gradle/
+.gradle-user-home/
+.gradle-user-home-*/
+.kotlin/
+**/.kotlin/
 bundle-parser/build/
 local.properties
 .idea/misc.xml
@@ -15,3 +19,4 @@ local.properties
 .idea/ReVanced-Patch-Bundles.iml
 .idea/vcs.xml
 .codex/environments/environment.toml
+.workflow-test-venv

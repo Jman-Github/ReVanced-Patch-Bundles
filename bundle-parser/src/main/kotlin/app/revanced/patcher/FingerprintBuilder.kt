@@ -6,7 +6,7 @@ import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.iface.ClassDef
 import com.android.tools.smali.dexlib2.iface.Method
-import kotlin.jvm.functions.Function2
+import kotlin.Function2
 
 /**
  * Lightweight re-implementation of the upstream [FingerprintBuilder]. This exists solely so the

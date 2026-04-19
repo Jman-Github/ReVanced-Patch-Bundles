@@ -3,7 +3,7 @@
 
 package app.revanced.patcher
 
-import kotlin.jvm.functions.Function1
+import kotlin.Function1
 
 private val fingerprintBuilderConstructor =
     FingerprintBuilder::class.java.getDeclaredConstructor(Int::class.javaPrimitiveType).apply {

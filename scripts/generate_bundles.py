@@ -3,7 +3,6 @@ import json
 import os
 import re
 import secrets
-import subprocess
 import time
 from collections.abc import Mapping
 from datetime import datetime, timezone
@@ -49,8 +48,6 @@ def _dump_json_sync(path: Path | str, payload: dict[str, Any]) -> None:
     with path_obj.open("w", encoding="utf-8") as file:
         json.dump(payload, file, indent=2)
 
-BOT_EMAIL = "41898282+github-actions[bot]@users.noreply.github.com"
-BOT_NAME = "github-actions[bot]"
 RepoConfig = Mapping[str, Any]
 ETAG_CACHE = _load_etag_cache()
 
@@ -211,7 +208,9 @@ async def get_latest_release(
     print(f"No suitable release with .jar, .apk, .rvp, or .mpp assets found for {repo_url}")
     return None, None, None, None, None, None
 
-async def fetch_release_data(client: AsyncClient, source: str, repo: Mapping[str, Any]) -> None:
+async def fetch_release_data(
+    client: AsyncClient, source: str, repo: Mapping[str, Any]
+) -> bool | None:
     try:
         prerelease = repo.get('prerelease', False)
         latest_flag = repo.get('latest', False)
@@ -314,18 +313,13 @@ async def fetch_release_data(client: AsyncClient, source: str, repo: Mapping[str
         await asyncio.to_thread(_dump_json_sync, filepath, info_dict)
         relative_filepath = filepath.relative_to(PROJECT_ROOT)
         print(f"Latest release information saved to {relative_filepath}")
-        await asyncio.to_thread(
-            subprocess.run,
-            ["git", "add", str(relative_filepath)],
-            check=True,
-            cwd=str(PROJECT_ROOT),
-        )
-        print(f"File {relative_filepath} staged for commit.")
         metadata_entry["artifact_path"] = str(relative_filepath)
         async with METADATA_LOCK:
             BUNDLE_METADATA[source] = metadata_entry
+        return True
     except Exception as exc:
         print(f"Error in fetch_release_data for {source}: {exc}")
+        return False
 
 def _load_sources_sync() -> dict[str, Any]:
     with BUNDLE_SOURCES_PATH.open(encoding="utf-8") as file:
@@ -337,40 +331,33 @@ def _load_sources_sync() -> dict[str, Any]:
 
 
 
-async def main() -> None:
+async def main() -> int:
     try:
         raw_sources = await asyncio.to_thread(_load_sources_sync)
         sources: dict[str, RepoConfig] = {
             str(name): value for name, value in raw_sources.items()
             if isinstance(value, Mapping)
         }
-        await asyncio.to_thread(
-            subprocess.run,
-            ["git", "config", "user.email", BOT_EMAIL],
-            check=True,
-            cwd=str(PROJECT_ROOT),
-        )
-        await asyncio.to_thread(
-            subprocess.run,
-            ["git", "config", "user.name", BOT_NAME],
-            check=True,
-            cwd=str(PROJECT_ROOT),
-        )
         async with AsyncClient(timeout=HTTP_TIMEOUT) as client:
             tasks = [fetch_release_data(client, source, repo) for source, repo in sources.items()]
             results = await asyncio.gather(*tasks, return_exceptions=True)
+        had_task_failure = False
         for (source, _), result in zip(sources.items(), results, strict=False):
             if isinstance(result, Exception):
                 print(f"Task for {source} failed: {result}")
+                had_task_failure = True
+            elif result is False:
+                had_task_failure = True
         timestamp = datetime.now(timezone.utc).isoformat()  # noqa: UP017
         metadata_payload = {
             "generated_at": timestamp,
             "bundles": BUNDLE_METADATA,
         }
         await asyncio.to_thread(_dump_json_sync, METADATA_PATH, metadata_payload)
-    except subprocess.CalledProcessError as exc:
-        print(f"Subprocess failed: {exc}")
+        return 1 if had_task_failure else 0
     except Exception as exc:
         print(f"Error in main: {exc}")
+        return 1
+
 if __name__ == "__main__":
-    asyncio.run(main())
+    raise SystemExit(asyncio.run(main()))
