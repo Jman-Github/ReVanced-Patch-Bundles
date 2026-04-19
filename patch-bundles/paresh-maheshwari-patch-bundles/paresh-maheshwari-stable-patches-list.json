@@ -1,6 +1,18 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.8.0",
     "patches": [
+        {
+            "compatiblePackages": {
+                "in.cricketexchange.app.cricketexchange": [
+                    "26.04.05"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium features and removes ads.",
+            "name": "CREX Premium",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "com.cv.docscanner": [
@@ -46,6 +58,18 @@
             "dependencies": [],
             "description": "Hides the Scams tab from the bottom navigation bar.",
             "name": "Hide Scams tab",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.markOne.ss_app": [
+                    "6.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium features and removes ads.",
+            "name": "Mark Premium",
             "options": [],
             "use": true
         },
