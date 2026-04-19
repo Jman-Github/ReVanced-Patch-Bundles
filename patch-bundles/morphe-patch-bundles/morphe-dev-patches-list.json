@@ -1,5 +1,5 @@
 {
-    "version": "v1.24.0-dev.11",
+    "version": "v1.24.0-dev.12",
     "patches": [
         {
             "compatiblePackages": {
@@ -993,10 +993,11 @@
             },
             "dependencies": [
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds an option to hide the \"Get Music Premium\" label in the settings and account menu.",
-            "name": "Hide 'Get Music Premium'",
+            "description": "Adds options to hide ads such as the fullscreen Premium popup and \"Get Music Premium\" label.",
+            "name": "Hide ads",
             "options": [],
             "use": true
         },
@@ -1028,6 +1029,7 @@
             },
             "dependencies": [
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -2119,6 +2121,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
