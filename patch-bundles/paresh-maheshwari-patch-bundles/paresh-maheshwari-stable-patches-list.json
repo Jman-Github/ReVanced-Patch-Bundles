@@ -1,6 +1,18 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.9.0",
     "patches": [
+        {
+            "compatiblePackages": {
+                "in.cricketexchange.app.cricketexchange": [
+                    "26.04.05"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium features and removes ads.",
+            "name": "CREX Premium",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "com.cv.docscanner": [
@@ -10,6 +22,18 @@
             "dependencies": [],
             "description": "Unlocks all premium features, removes ads, and enables pro themes.",
             "name": "Doc Scanner Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.eyecon.global": [
+                    "4.2026.04.05.1300"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium features.",
+            "name": "Eyecon Premium",
             "options": [],
             "use": true
         },
@@ -46,6 +70,18 @@
             "dependencies": [],
             "description": "Hides the Scams tab from the bottom navigation bar.",
             "name": "Hide Scams tab",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.markOne.ss_app": [
+                    "6.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium features and removes ads.",
+            "name": "Mark Premium",
             "options": [],
             "use": true
         },

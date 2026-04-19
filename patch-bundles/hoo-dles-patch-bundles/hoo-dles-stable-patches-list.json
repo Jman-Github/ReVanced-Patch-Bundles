@@ -1,5 +1,5 @@
 {
-    "version": "v1.25.0",
+    "version": "v1.26.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -218,6 +218,18 @@
             ],
             "description": "Enable Plus membership (not all features are available). There is a strict version requirement for this patch.",
             "name": "Enable Plus",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.adguard.android": [
+                    "4.12.81"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium",
             "options": [],
             "use": true
         },

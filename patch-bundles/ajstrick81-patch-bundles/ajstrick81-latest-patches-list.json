@@ -1,12 +1,10 @@
 {
-    "version": "v1.6.22",
+    "version": "v1.6.24",
     "patches": [
         {
-            "compatiblePackages": {
-                "com.peacocktv.peacockandroid": []
-            },
+            "compatiblePackages": null,
             "dependencies": [],
-            "description": "Neutralizes ad insertion logic with non-blocking safety checks.",
+            "description": "Dual-Payload neutralization of ad-triggers and markers.",
             "name": "Hide ads and Ad-Break markers",
             "options": [],
             "use": true

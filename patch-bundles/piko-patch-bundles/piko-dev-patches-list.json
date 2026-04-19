@@ -1,5 +1,5 @@
 {
-    "version": "v3.2.0-dev.5",
+    "version": "v3.3.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -22,6 +22,7 @@
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds settings to control preferences are patching",
@@ -114,6 +115,21 @@
             ],
             "description": "Control video auto scroll in immersive view",
             "name": "Control video auto scroll",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "423.0.0.47.66"
+                ]
+            },
+            "dependencies": [
+                "Add settings",
+                "ResourcePatch"
+            ],
+            "description": "Adds a button to copy comments on posts and reels.",
+            "name": "Copy comment",
             "options": [],
             "use": true
         },
@@ -431,6 +447,32 @@
                     "423.0.0.47.66"
                 ]
             },
+            "dependencies": [],
+            "description": "Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.",
+            "name": "Disable Reels scrolling",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "423.0.0.47.66"
+                ]
+            },
+            "dependencies": [
+                "Add settings"
+            ],
+            "description": "Disables screenshots detection in DM",
+            "name": "Disable screenshot detection",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "423.0.0.47.66"
+                ]
+            },
             "dependencies": [
                 "Add settings",
                 "BytecodePatch"
@@ -451,6 +493,20 @@
             ],
             "description": "Disable automatic flipping/moving to next story",
             "name": "Disable story flipping",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "423.0.0.47.66"
+                ]
+            },
+            "dependencies": [
+                "Add settings"
+            ],
+            "description": null,
+            "name": "Disable typing status",
             "options": [],
             "use": true
         },
@@ -605,7 +661,7 @@
             "name": "Handle custom twitter links",
             "options": [
                 {
-                    "default": "[vxtwitter.com, fixvx.com, fxtwitter.com, fixupx.com, twittpr.com, hitlerx.com, girlcockx.com, stupidpenisx.com, cunnyx.com, autistic.kids]",
+                    "default": "[vxtwitter.com, fixvx.com, fxtwitter.com, fixupx.com, twittpr.com, hitlerx.com, girlcockx.com, stupidpenisx.com, cunnyx.com, autistic.kids, gockx.com, yiffx.com, mpregx.com, skibidix.com, xcancel.com]",
                     "description": "The custom sharing domains to register to be opened in Twitter",
                     "key": "customLinkHosts",
                     "required": true,
@@ -777,6 +833,20 @@
             ],
             "description": "Hides navigation bar buttons, such as the Reels and Create button.",
             "name": "Hide navigation buttons",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "423.0.0.47.66"
+                ]
+            },
+            "dependencies": [
+                "Add settings"
+            ],
+            "description": "Hides notes tray in DM section",
+            "name": "Hide notes tray",
             "options": [],
             "use": true
         },
@@ -974,8 +1044,23 @@
             "dependencies": [
                 "Add settings"
             ],
-            "description": "changes view once, view twice media to permanent view. Do note older ephemeral media might look blank.",
+            "description": "Changes unexpired view once, view twice media to permanent view.",
             "name": "Make ephemeral media permanent",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "423.0.0.47.66"
+                ]
+            },
+            "dependencies": [
+                "Add settings",
+                "BytecodePatch"
+            ],
+            "description": "Adds a new button to handle user related data like copy handle, download profile picture etc",
+            "name": "More options on profile",
             "options": [],
             "use": true
         },
@@ -1082,6 +1167,20 @@
             ],
             "description": "Removes the popup that appears after a while, when the app version ages.",
             "name": "Remove build expired popup",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "423.0.0.47.66"
+                ]
+            },
+            "dependencies": [
+                "Add settings"
+            ],
+            "description": "Removes empty space below bottom navigation bar",
+            "name": "Remove empty bottom space",
             "options": [],
             "use": true
         },
@@ -1233,6 +1332,20 @@
             ],
             "description": null,
             "name": "Unlock developer options",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "423.0.0.47.66"
+                ]
+            },
+            "dependencies": [
+                "Add settings"
+            ],
+            "description": null,
+            "name": "View DMs anonymously",
             "options": [],
             "use": true
         },
