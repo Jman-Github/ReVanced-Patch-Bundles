@@ -3038,7 +3038,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Hide ads and Ad-Break markers``` | ```Dual-Payload neutralization of ad-triggers and markers.``` | ```com.peacocktv.peacockandroid``` | ```All versions``` |
+| ```Hide ads and Ad-Break markers``` | ```Dual-Payload neutralization of ad-triggers and markers.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
