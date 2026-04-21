@@ -965,7 +965,7 @@ https://github.com/ReVanced/revanced-manager/releases
 
 #### 🏷️ [Binarymend-Patches-Bundle](https://github.com/binarymend/morphe-patches)
 
-#### 🏷️ [Polka-Bear-Patches-Bundle](https://github.com/polka-bear/morphe-patches)www
+#### 🏷️ [Polka-Bear-Patches-Bundle](https://github.com/polka-bear/morphe-patches)
 
 #### 🏷️ [Ajstrick81-Patches-Bundle](https://github.com/ajstrick81/peacock-atv-patches)
 
