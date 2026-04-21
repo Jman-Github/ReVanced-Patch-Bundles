@@ -65,7 +65,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 BiliRoamingM-Patches-Bundle:
+### 📦 BiliRoamingM-Patches-Bundle [Legacy]:
 [🧩 BiliRoamingM Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-biliroamingm-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -156,7 +156,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Andronedev-Patches-Bundle [API v4]:
+### 📦 Andronedev-Patches-Bundle [Morphe]:
 [🧩 Andronedev Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-andronedev-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -182,7 +182,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Rufusin-Patches-Bundle:
+### 📦 Rufusin-Patches-Bundle [API v4]:
 [🧩 Rufusin Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-rufusin-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -195,7 +195,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Twitter-Patches-Bundle:
+### 📦 Twitter-Patches-Bundle [Legacy]:
 [🧩 Twitter Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-twitter-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -208,7 +208,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Wyse--Patches-Bundle:
+### 📦 Wyse--Patches-Bundle [Legacy]:
 [🧩 Wyse- Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-wyse--bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -221,7 +221,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 1fexd-Patches-Bundle:
+### 📦 1fexd-Patches-Bundle [Legacy]:
 [🧩 1fexd Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-1fexd-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -234,7 +234,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Xrogers-Patches-Bundle:
+### 📦 Xrogers-Patches-Bundle [Legacy]:
 [🧩 Xrogers Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-xrogers-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -247,7 +247,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 D4n3436-Patches-Bundle:
+### 📦 D4n3436-Patches-Bundle [Legacy]:
 [🧩 D4n3436 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-d4n3436-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -260,7 +260,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 AyushTNM-Patches-Bundle:
+### 📦 AyushTNM-Patches-Bundle [Legacy]:
 [🧩 AyushTNM Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ayushtnm-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -273,7 +273,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Arsclib-Patches-Bundle:
+### 📦 Arsclib-Patches-Bundle [Legacy]:
 [🧩 Arsclib Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-arsclib-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -390,7 +390,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Hepolise-Patches-Bundle:
+### 📦 Hepolise-Patches-Bundle [Legacy]:
 [🧩 Hepolise Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hepolise-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -412,7 +412,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kangrio-patch-bundles/kangrio-stable-patches-bundle.json```
 
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kangrioe-patch-bundles/kangrio-dev-patches-bundle.json```
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kangrio-patch-bundles/kangrio-dev-patches-bundle.json```
 </details>
 
 ---
@@ -638,7 +638,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Adobo-Patches-Bundle [Morphe]:
-[🧩 Adobo Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-adobo-morphed-bundle-patch-list)
+[🧩 Adobo Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-adobo-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -650,8 +650,8 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 Alexvbp-Patches-Bundle [Morphe]:
-[🧩 Alexvbp Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-alexvbp-morphed-bundle-patch-list)
+### 📦 Alexvbp-Patches-Bundle [API v4]:
+[🧩 Alexvbp Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-alexvbp-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -664,7 +664,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Docbt-Patches-Bundle [Morphe]:
-[🧩 Docbt Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-docbt-morphed-bundle-patch-list)
+[🧩 Docbt Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-docbt-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -677,7 +677,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 LoV432-Patches-Bundle [API v4]:
-[🧩 LoV432 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-lov432-morphed-bundle-patch-list)
+[🧩 LoV432 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-lov432-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -690,7 +690,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 PixelPusher247-Patches-Bundle [Morphe]:
-[🧩 PixelPusher247 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-pixelpusher247-morphed-bundle-patch-list)
+[🧩 PixelPusher247 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-pixelpusher247-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -703,7 +703,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Rabilrbl-Patches-Bundle [Morphe]:
-[🧩 Rabilrbl Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-rabilrbl-morphed-bundle-patch-list)
+[🧩 Rabilrbl Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-rabilrbl-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -716,7 +716,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Jasonwu1994-Patches-Bundle [Morphe]:
-[🧩 Jasonwu1994 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-jasonwu1994-morphed-bundle-patch-list)
+[🧩 Jasonwu1994 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-jasonwu1994-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -729,7 +729,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 RealCyberwash-Patches-Bundle [Morphe]:
-[🧩 RealCyberwash Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-realcyberwash-morphed-bundle-patch-list)
+[🧩 RealCyberwash Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-realcyberwash-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -742,7 +742,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Paresh-Maheshwari-Patches-Bundle [Morphe]:
-[🧩 Paresh-Maheshwari Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-paresh-maheshwari-morphed-bundle-patch-list)
+[🧩 Paresh-Maheshwari Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-paresh-maheshwari-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -755,7 +755,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Aniketshinde007-Patches-Bundle [Morphe]:
-[🧩 Aniketshinde007 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-aniketshinde007-morphed-bundle-patch-list)
+[🧩 Aniketshinde007 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-aniketshinde007-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -768,7 +768,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Binarymend-Patches-Bundle [Morphe]:
-[🧩 Binarymend Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-binarymend-morphed-bundle-patch-list)
+[🧩 Binarymend Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-binarymend-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -781,7 +781,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Polka-Bear-Patches-Bundle [Morphe]:
-[🧩 Polka-Bear Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-polka-bear-morphed-bundle-patch-list)
+[🧩 Polka-Bear Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-polka-bear-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -794,7 +794,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Ajstrick81-Patches-Bundle [Morphe]:
-[🧩 Ajstrick81 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ajstrick81-morphed-bundle-patch-list)
+[🧩 Ajstrick81 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ajstrick81-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -807,7 +807,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 
 ---
 ### 📦 Eyalm2000-Patches-Bundle [Morphe]:
-[🧩 Eyalm2000 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-eyalm2000-morphed-bundle-patch-list)
+[🧩 Eyalm2000 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-eyalm2000-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -816,6 +816,19 @@ If you would like to see what patches the patch bundles tracked in this reposito
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/eyalm2000-patch-bundles/eyalm2000-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/eyalm2000-patch-bundles/eyalm2000-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Vladon-Patches-Bundle [Morphe]:
+[🧩 Vladon Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-vladon-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vladon-patch-bundles/vladon-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vladon-patch-bundles/vladon-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vladon-patch-bundles/vladon-dev-patches-bundle.json```
 </details>
 
 ---
@@ -957,6 +970,8 @@ https://github.com/ReVanced/revanced-manager/releases
 #### 🏷️ [Ajstrick81-Patches-Bundle](https://github.com/ajstrick81/peacock-atv-patches)
 
 #### 🏷️ [Eyalm2000-Patches-Bundle](https://github.com/eyalm2000/tidal-debug-menu)
+
+#### 🏷️ [Vladon-Patches-Bundle](https://github.com/vladon/morphe-patches-navi)
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*
