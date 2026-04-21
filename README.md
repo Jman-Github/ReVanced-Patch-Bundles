@@ -959,7 +959,7 @@ https://github.com/ReVanced/revanced-manager/releases
 
 #### 🏷️ [RealCyberwash-Patches-Bundle](https://github.com/realcyberwash/max-patches)
 
-#### 🏷️ [Paresh-Maheshwari-Patches-Bundle](https://github.com/paresh-maheshwari/max-patches)
+#### 🏷️ [Paresh-Maheshwari-Patches-Bundle](https://github.com/paresh-maheshwari/paresh-patches)
 
 #### 🏷️ [Aniketshinde007-Patches-Bundle](https://github.com/aniketshinde007/morphe-patches-ani)
 
