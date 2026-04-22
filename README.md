@@ -832,6 +832,19 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
+### 📦 RaiuSky-Patches-Bundle [Morphe]:
+[🧩 RaiuSky Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-raiusky-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/raiusky-patch-bundles/raiusky-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/raiusky-patch-bundles/raiusky-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/raiusky-patch-bundles/raiusky-dev-patches-bundle.json```
+</details>
+
+---
 # 📱 ReVanced Manager Compose:
 ### 📍 Universal ReVanced Manager (my fork)
 *Highly suggested if you want to be unrestricted in the patch bundles you import!*
@@ -972,6 +985,8 @@ https://github.com/ReVanced/revanced-manager/releases
 #### 🏷️ [Eyalm2000-Patches-Bundle](https://github.com/eyalm2000/tidal-debug-menu)
 
 #### 🏷️ [Vladon-Patches-Bundle](https://github.com/vladon/morphe-patches-navi)
+
+#### 🏷️ [RaiuSky-Patches-Bundle](https://github.com/RaiuSky/patches-repo)
 
 # 🖇 Integrations Repositories In Use
 __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*

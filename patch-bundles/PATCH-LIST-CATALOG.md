@@ -66,6 +66,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Ajstrick81 Bundle Patch List](#-ajstrick81-bundle-patch-list)    
 [🧩 Eyalm2000 Bundle Patch List](#-eyalm2000-bundle-patch-list)    
 [🧩 Vladon Bundle Patch List](#-vladon-bundle-patch-list)    
+[🧩 RaiuSky Bundle Patch List](#-raiusky-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -3060,6 +3061,16 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Vladon Bundle Patch List:
 [📦 Vladon-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-vladon-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
+
+---
+### 🧩 RaiuSky Bundle Patch List:
+[📦 RaiuSky-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-raiusky-patches-bundle-morphe)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
