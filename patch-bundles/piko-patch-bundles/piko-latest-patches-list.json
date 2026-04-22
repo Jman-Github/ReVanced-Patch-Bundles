@@ -2,9 +2,7 @@
     "version": "v3.3.0-dev.1",
     "patches": [
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -14,11 +12,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
@@ -31,9 +25,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "ResourcePatch"
             ],
@@ -43,9 +35,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -56,9 +46,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch"
@@ -69,12 +57,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ],
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.",
             "name": "Change version code",
@@ -95,9 +78,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -107,9 +88,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -119,13 +98,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Adds a button to copy comments on posts and reels.",
@@ -134,9 +109,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -146,9 +119,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -159,9 +130,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -172,9 +141,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -185,9 +152,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -197,13 +162,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": "Customise the timestamp that shows when the story was posted",
             "name": "Customise story timestamp",
@@ -211,9 +172,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -223,9 +182,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -235,9 +192,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -247,9 +202,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -259,9 +212,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -271,9 +222,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -283,9 +232,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -295,9 +242,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -307,9 +252,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -319,9 +262,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -331,9 +272,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -343,13 +282,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": null,
             "name": "Disable ads",
@@ -357,13 +292,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Block analytics that are sent to Instagram/Facebook servers.",
@@ -372,9 +303,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -384,11 +313,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Hook feature flag",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,
@@ -397,13 +324,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,
@@ -412,13 +335,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Disables discover people section on user profile",
@@ -427,13 +346,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,
@@ -442,11 +357,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.",
             "name": "Disable Reels scrolling",
@@ -454,13 +365,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": "Disables screenshots detection in DM",
             "name": "Disable screenshot detection",
@@ -468,13 +375,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,
@@ -483,13 +386,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": "Disable automatic flipping/moving to next story",
             "name": "Disable story flipping",
@@ -497,13 +396,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": null,
             "name": "Disable typing status",
@@ -511,11 +406,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": [
-                    "11.69.0-release.0"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -525,13 +416,9 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -541,9 +428,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -553,9 +438,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Replaces the default Twitter Blue with the user's Material You palette.",
             "name": "Dynamic color",
@@ -563,9 +446,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -575,9 +456,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -588,9 +467,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -600,9 +477,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -612,9 +487,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Makes all app activities exportable.",
             "name": "Export all activities",
@@ -622,13 +495,9 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -638,9 +507,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -651,9 +518,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -661,7 +526,23 @@
             "name": "Handle custom twitter links",
             "options": [
                 {
-                    "default": "[vxtwitter.com, fixvx.com, fxtwitter.com, fixupx.com, twittpr.com, hitlerx.com, girlcockx.com, stupidpenisx.com, cunnyx.com, autistic.kids, gockx.com, yiffx.com, mpregx.com, skibidix.com, xcancel.com]",
+                    "default": [
+                        "vxtwitter.com",
+                        "fixvx.com",
+                        "fxtwitter.com",
+                        "fixupx.com",
+                        "twittpr.com",
+                        "hitlerx.com",
+                        "girlcockx.com",
+                        "stupidpenisx.com",
+                        "cunnyx.com",
+                        "autistic.kids",
+                        "gockx.com",
+                        "yiffx.com",
+                        "mpregx.com",
+                        "skibidix.com",
+                        "xcancel.com"
+                    ],
                     "description": "The custom sharing domains to register to be opened in Twitter",
                     "key": "customLinkHosts",
                     "required": true,
@@ -673,9 +554,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -685,9 +564,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -697,11 +574,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Hook feature flag",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,
@@ -710,9 +585,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -722,9 +595,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -735,9 +606,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -747,11 +616,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Hook feature flag",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,
@@ -760,9 +627,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -772,13 +637,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": null,
             "name": "Hide group creation button on sharesheet",
@@ -786,9 +647,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -798,11 +657,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Hook feature flag",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Removes swipe up for more videos in video player",
@@ -811,9 +668,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -823,13 +678,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": "Hides navigation bar buttons, such as the Reels and Create button.",
             "name": "Hide navigation buttons",
@@ -837,13 +688,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": "Hides notes tray in DM section",
             "name": "Hide notes tray",
@@ -851,9 +698,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -863,9 +708,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -875,9 +718,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -888,9 +729,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -901,9 +740,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -913,13 +750,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": "Hides the reshare button from both posts and reels.",
             "name": "Hide reshare button",
@@ -927,13 +760,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Hides stories tray from main feed.",
@@ -942,13 +771,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": "Hides suggested stories, reels, threads (Suggested posts will still be shown).",
             "name": "Hide suggested content",
@@ -956,9 +781,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch"
@@ -969,9 +792,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch",
@@ -983,13 +804,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": "Fetches max resolution images from server.",
             "name": "Improve image viewing",
@@ -997,9 +814,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -1010,13 +825,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": "Filters the home feed to display only content from profiles you follow.",
             "name": "Limit feed to following profiles",
@@ -1024,9 +835,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1036,13 +845,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": "Changes unexpired view once, view twice media to permanent view.",
             "name": "Make ephemeral media permanent",
@@ -1050,13 +855,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds a new button to handle user related data like copy handle, download profile picture etc",
@@ -1065,9 +866,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -1079,9 +878,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch",
@@ -1093,9 +890,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -1106,9 +901,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1118,13 +911,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": "Changes links to always open in your external browser, instead of the in-app browser.",
             "name": "Open links externally",
@@ -1132,9 +921,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1144,9 +931,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -1157,13 +942,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": "Removes the popup that appears after a while, when the app version ages.",
             "name": "Remove build expired popup",
@@ -1171,13 +952,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": "Removes empty space below bottom navigation bar",
             "name": "Remove empty bottom space",
@@ -1185,9 +962,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1197,9 +972,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1209,11 +982,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Hook feature flag",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Removes the view count from the bottom of tweets",
@@ -1222,9 +993,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1234,13 +1003,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": null,
             "name": "Sanitize share links",
@@ -1248,9 +1013,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch"
@@ -1261,9 +1024,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -1274,9 +1035,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1286,9 +1045,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1298,9 +1055,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1310,9 +1065,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.twitter.android": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1322,13 +1075,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": null,
             "name": "Unlock developer options",
@@ -1336,13 +1085,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings"
+                "BytecodePatch"
             ],
             "description": null,
             "name": "View DMs anonymously",
@@ -1350,13 +1095,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,
@@ -1365,13 +1106,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,
@@ -1380,13 +1117,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.instagram.android": [
-                    "423.0.0.47.66"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Add settings",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",

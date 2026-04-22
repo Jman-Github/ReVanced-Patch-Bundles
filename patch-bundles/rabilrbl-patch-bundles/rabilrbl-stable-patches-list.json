@@ -2,61 +2,49 @@
     "version": "v1.5.0",
     "patches": [
         {
-            "compatiblePackages": {
-                "com.jio.jioplay.tv": []
-            },
+            "compatiblePackages": {},
             "dependencies": [],
-            "description": "Globally disables the pairip LicenseContentProvider in AndroidManifest and changes application class to bypass pairip entirely.",
-            "name": "Disable pairip license check (manifest)",
+            "description": "Removes FirebaseInitProvider from AndroidManifest.xml as a research aid when VM-backed config data is missing.",
+            "name": "Disable FirebaseInitProvider",
             "options": [],
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.jio.jioplay.tv": []
-            },
+            "compatiblePackages": {},
             "dependencies": [],
-            "description": "Sets usesCleartextTraffic to true in AndroidManifest and patches the network security config to allow cleartext HTTP traffic and user-installed CA certificates. This enables MITM proxy tools like mitmproxy, Charles, and HTTP Toolkit to intercept traffic.",
+            "description": "Experimental JioTV 7.1.7 split-build patch. Suppresses LicenseClientV3 error handling only and does not disable VMRunner or StartupLauncher.",
+            "name": "Dismiss Google Play error dialog (371 split research)",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {},
+            "dependencies": [],
+            "description": "Sets usesCleartextTraffic to true in AndroidManifest and patches the network security config to allow cleartext HTTP traffic and user-installed CA certificates.",
             "name": "Enable cleartext traffic",
             "options": [],
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.jio.jioplay.tv": []
-            },
+            "compatiblePackages": {},
             "dependencies": [],
-            "description": "Removes SSL/TLS certificate pinning for tv.media.jio.com. The app uses OkHttp3 CertificatePinner with SHA-256 pins controlled by Firebase Remote Config (FirebaseConfig.isSslPining()). This patch disables the pinning toggle and also patches the OkHttp3 CertificatePinner.check() method to prevent pin validation failures.",
+            "description": "Research patch for SSL/TLS inspection against tv.media.jio.com.",
             "name": "Remove certificate pinning",
             "options": [],
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.jio.jioplay.tv": []
-            },
+            "compatiblePackages": {},
             "dependencies": [],
-            "description": "Removes emulator and unsupported device detection checks in PermissionActivity. Bypasses Build.FINGERPRINT/MODEL/BRAND/HARDWARE checks, BlueStacks folder detection, Fire TV detection, and Android TV (leanback) feature checks.",
+            "description": "Research patch for emulator and unsupported-device checks in PermissionActivity.",
             "name": "Remove emulator detection",
             "options": [],
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.jio.jioplay.tv": []
-            },
+            "compatiblePackages": {},
             "dependencies": [],
-            "description": "Neutralizes pairip native library loading, signature verification, VM bytecode execution, LicenseActivity paywall, and Play Store redirect helpers.",
-            "name": "Remove Play Store license check",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.jio.jioplay.tv": []
-            },
-            "dependencies": [],
-            "description": "Removes root detection checks. Bypasses Firebase CommonUtils.isRooted() which checks Build.TAGS for 'test-keys', /system/app/Superuser.apk, and /system/xbin/su. Also neutralizes SecurityUtils validation and the Xposed framework detection dialog.",
+            "description": "Research patch for root and integrity-related Java-side checks.",
             "name": "Remove root detection",
             "options": [],
             "use": true

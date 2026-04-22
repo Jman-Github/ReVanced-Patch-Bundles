@@ -2,109 +2,57 @@
     "version": "v1.4.0",
     "patches": [
         {
-            "compatiblePackages": {
-                "com.google.android.inputmethod.latin": [
-                    "17.0.10.880768217-release-arm64-v8a"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "compatiblePackages": {},
+            "dependencies": [],
             "description": "攔截 Gboard 的簽章白名單檢查並強制通過。",
             "name": "Add Gboard Signature Bypass",
             "options": [],
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.inputmethod.latin": [
-                    "17.0.10.880768217-release-arm64-v8a"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
+            "compatiblePackages": {},
+            "dependencies": [],
             "description": "強制啟用中文語音",
             "name": "Chinese Online Voice Input",
             "options": [],
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.inputmethod.latin": [
-                    "17.0.10.880768217-release-arm64-v8a"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
+            "compatiblePackages": {},
+            "dependencies": [],
             "description": "新增獨立的特殊符號分頁，長按逗號->愛心",
             "name": "Custom Symbols",
             "options": [],
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.inputmethod.latin": [
-                    "17.0.10.880768217-release-arm64-v8a"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "compatiblePackages": {},
+            "dependencies": [],
             "description": "啟用 Undo/Redo 功能",
             "name": "Enable Undo/Redo feature",
             "options": [],
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.inputmethod.latin": [
-                    "17.0.10.880768217-release-arm64-v8a"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
+            "compatiblePackages": {},
+            "dependencies": [],
             "description": "英文 QWERTY 鍵盤支持上下滑符號輸入",
             "name": "English QWERTY Slide Symbols",
             "options": [],
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.inputmethod.latin": [
-                    "17.0.10.880768217-release-arm64-v8a"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch"
-            ],
+            "compatiblePackages": {},
+            "dependencies": [],
             "description": "將套件名稱改成 dev.jason.com.google.android.inputmethod.latin 以便共存安裝",
             "name": "Package Rename",
             "options": [],
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.inputmethod.latin": [
-                    "17.0.10.880768217-release-arm64-v8a"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Zhuyin Slide Input",
-                "BytecodePatch",
-                "BytecodePatch"
+                "Zhuyin Slide Input"
             ],
             "description": "注音 ㄥ 上滑快速切換繁簡",
             "name": "Zhuyin Quick Traditional/Simplified Toggle",
@@ -112,16 +60,8 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.inputmethod.latin": [
-                    "17.0.10.880768217-release-arm64-v8a"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
+            "compatiblePackages": {},
+            "dependencies": [],
             "description": "注音鍵盤支持上下滑輸入",
             "name": "Zhuyin Slide Input",
             "options": [],
