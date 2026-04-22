@@ -1,11 +1,12 @@
 {
-    "version": "v1.6.24",
+    "version": "v1.6.40",
     "patches": [
         {
-            "compatiblePackages": null,
+            "compatibility": [],
+            "compatiblePackages": {},
             "dependencies": [],
-            "description": "Dual-Payload neutralization of ad-triggers and markers.",
-            "name": "Hide ads and Ad-Break markers",
+            "description": "Disables MediaTailor SSAI at bootstrap level on Android TV.",
+            "name": "Disable SSAI (MediaTailor)",
             "options": [],
             "use": true
         }

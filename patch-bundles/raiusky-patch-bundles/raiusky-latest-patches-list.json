@@ -1,13 +1,13 @@
 {
-    "version": "v1.0.0-dev.1",
+    "version": "v1.0.1",
     "patches": [
         {
             "compatiblePackages": {},
             "dependencies": [],
-            "description": "Disables the scan counter increment, preventing the scan count from increasing",
-            "name": "Disable scan counter",
+            "description": "Disables the splash screen. Used to verify the patcher is working.",
+            "name": "Disable Splash Screen",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatiblePackages": {},
@@ -20,8 +20,8 @@
         {
             "compatiblePackages": {},
             "dependencies": [],
-            "description": "Increases the free scan limit from 30 to 50 scans",
-            "name": "Increase scan limit",
+            "description": "Unlocks pro features by patching RevenueCat entitlement checks.",
+            "name": "Tracked Pro",
             "options": [],
             "use": true
         }

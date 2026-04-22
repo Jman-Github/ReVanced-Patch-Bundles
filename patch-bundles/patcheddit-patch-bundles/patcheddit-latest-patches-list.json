@@ -2,11 +2,7 @@
     "version": "v1.4.1-dev.1",
     "patches": [
         {
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": [
-                    "1.12.12"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -16,11 +12,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": [
-                    "1.12.12"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -31,11 +23,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": [
-                    "1.12.12"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -46,11 +34,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": [
-                    "1.12.12"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": null,
             "name": "Disable ads",
@@ -58,9 +42,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "o.o.joey": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -70,9 +52,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "io.syncapps.lemmy_sync": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -82,11 +62,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.laurencedawson.reddit_sync": [
-                    "v23.06.30-13:39"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": null,
             "name": "Disable ads",
@@ -94,13 +70,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.laurencedawson.reddit_sync": [
-                    "v23.06.30-13:39"
-                ],
-                "com.laurencedawson.reddit_sync.dev": [],
-                "com.laurencedawson.reddit_sync.pro": []
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Disables the bottom sheet at the startup that asks you to signup to \"Sync for Lemmy\".",
             "name": "Disable Sync for Lemmy bottom sheet",
@@ -108,7 +78,7 @@
             "use": true
         },
         {
-            "compatiblePackages": null,
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Enables Android developer debugging capabilities. Including this patch can slow down the app.",
             "name": "Enable Android debugging",
@@ -116,11 +86,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.andrewshu.android.reddit": [
-                    "5.6.22"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Allows using pro features without ads.",
             "name": "Fake reddit premium",
@@ -128,11 +94,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": [
-                    "1.12.12"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -143,11 +105,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": [
-                    "1.12.12"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -157,14 +115,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "free.reddit.news": [
-                    "10.2.40"
-                ],
-                "reddit.news": [
-                    "10.2.40"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -174,13 +125,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.laurencedawson.reddit_sync": [
-                    "v23.06.30-13:39"
-                ],
-                "com.laurencedawson.reddit_sync.dev": [],
-                "com.laurencedawson.reddit_sync.pro": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -190,11 +135,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": [
-                    "1.12.12"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -205,13 +146,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.laurencedawson.reddit_sync": [
-                    "v23.06.30-13:39"
-                ],
-                "com.laurencedawson.reddit_sync.dev": [],
-                "com.laurencedawson.reddit_sync.pro": []
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Fixes loading post thumbnails by correcting their URLs.",
             "name": "Fix post thumbnails",
@@ -219,14 +154,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.onelouder.baconreader": [
-                    "6.1.4"
-                ],
-                "com.onelouder.baconreader.premium": [
-                    "6.1.4"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -237,11 +165,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": [
-                    "1.12.12"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -253,13 +177,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.laurencedawson.reddit_sync": [
-                    "v23.06.30-13:39"
-                ],
-                "com.laurencedawson.reddit_sync.dev": [],
-                "com.laurencedawson.reddit_sync.pro": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -270,13 +188,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.laurencedawson.reddit_sync": [
-                    "v23.06.30-13:39"
-                ],
-                "com.laurencedawson.reddit_sync.dev": [],
-                "com.laurencedawson.reddit_sync.pro": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -286,11 +198,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": [
-                    "1.12.12"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -300,14 +208,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {
-                "com.onelouder.baconreader": [
-                    "6.1.4"
-                ],
-                "com.onelouder.baconreader.premium": [
-                    "6.1.4"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -317,11 +218,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": [
-                    "1.12.12"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -331,10 +228,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "ml.docilealligator.infinityforreddit.patreon": [],
-                "ml.docilealligator.infinityforreddit.plus": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -344,11 +238,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "o.o.joey": [],
-                "o.o.joey.dev": [],
-                "o.o.joey.pro": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -358,14 +248,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.andrewshu.android.reddit": [
-                    "5.6.22"
-                ],
-                "com.andrewshu.android.redditdonation": [
-                    "5.6.22"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -375,14 +258,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "free.reddit.news": [
-                    "10.2.40"
-                ],
-                "reddit.news": [
-                    "10.2.40"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -392,13 +268,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.laurencedawson.reddit_sync": [
-                    "v23.06.30-13:39"
-                ],
-                "com.laurencedawson.reddit_sync.dev": [],
-                "com.laurencedawson.reddit_sync.pro": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -408,14 +278,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.onelouder.baconreader": [
-                    "6.1.4"
-                ],
-                "com.onelouder.baconreader.premium": [
-                    "6.1.4"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -453,11 +316,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.rubenmayayo.reddit": [
-                    "1.12.12"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Restores functionality of the app by using custom client ID.",
             "name": "Spoof client",
@@ -493,9 +352,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "org.cygnusx1.continuum": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch"
@@ -534,10 +391,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "ml.docilealligator.infinityforreddit.patreon": [],
-                "ml.docilealligator.infinityforreddit.plus": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -577,11 +431,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "o.o.joey": [],
-                "o.o.joey.dev": [],
-                "o.o.joey.pro": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -619,14 +469,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.andrewshu.android.reddit": [
-                    "5.6.22"
-                ],
-                "com.andrewshu.android.redditdonation": [
-                    "5.6.22"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Restores functionality of the app by using custom client ID.",
             "name": "Spoof client",
@@ -662,14 +505,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "free.reddit.news": [
-                    "10.2.40"
-                ],
-                "reddit.news": [
-                    "10.2.40"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Restores functionality of the app by using custom client ID.",
             "name": "Spoof client",
@@ -705,9 +541,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "me.edgan.redditslide": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -745,13 +579,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.laurencedawson.reddit_sync": [
-                    "v23.06.30-13:39"
-                ],
-                "com.laurencedawson.reddit_sync.dev": [],
-                "com.laurencedawson.reddit_sync.pro": []
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -790,13 +618,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.laurencedawson.reddit_sync": [
-                    "v23.06.30-13:39"
-                ],
-                "com.laurencedawson.reddit_sync.dev": [],
-                "com.laurencedawson.reddit_sync.pro": []
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Replaces the deprecated endpoint for viewing user profiles /u with /user, that used to fix a bug.",
             "name": "Use /user/ endpoint",
@@ -804,14 +626,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.andrewshu.android.reddit": [
-                    "5.6.22"
-                ],
-                "com.andrewshu.android.redditdonation": [
-                    "5.6.22"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "BytecodePatch"
             ],

@@ -1,10 +1,8 @@
 {
-    "version": "v1.9.2-dev.1",
+    "version": "v2.5.0-dev.2",
     "patches": [
         {
-            "compatiblePackages": {
-                "cz.seznam.mapy": null
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": null,
             "name": "Bypass signature check",
@@ -12,11 +10,170 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "fr.chargeprice.app": [
-                    "3.3.0"
-                ]
-            },
+            "compatiblePackages": {},
+            "dependencies": [],
+            "description": "Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.",
+            "name": "Disable Reels scrolling",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {},
+            "dependencies": [],
+            "description": "Disable stories automatically flipping/skipping after some seconds.",
+            "name": "Disable story auto flipping",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {},
+            "dependencies": [],
+            "description": "Disable video autoplay from feed",
+            "name": "Disable video autoplay",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {},
+            "dependencies": [],
+            "description": null,
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {},
+            "dependencies": [],
+            "description": "Hides posts and reels from the explore/search page.",
+            "name": "Hide explore feed",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {},
+            "dependencies": [],
+            "description": "Hide the feed content, leaving only stories in the home page.",
+            "name": "Hide feed content",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {},
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides navigation bar buttons, such as the Reels and Create button. Choose what button to hide using the patch options.",
+            "name": "Hide navigation buttons",
+            "options": [
+                {
+                    "default": false,
+                    "description": "Permanently hides the Home button. App starts at next available tab.",
+                    "key": "hideHome",
+                    "required": false,
+                    "title": "Hide Home",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Permanently hides the Reels button.",
+                    "key": "hideReels",
+                    "required": false,
+                    "title": "Hide Reels",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Permanently hides the Direct button.",
+                    "key": "hideDirect",
+                    "required": false,
+                    "title": "Hide Direct",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Permanently hides the Search button.",
+                    "key": "hideSearch",
+                    "required": false,
+                    "title": "Hide Search",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Permanently hides the Profile button.",
+                    "key": "hideProfile",
+                    "required": false,
+                    "title": "Hide Profile",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Permanently hides the Create button.",
+                    "key": "hideCreate",
+                    "required": false,
+                    "title": "Hide Create",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {},
+            "dependencies": [],
+            "description": "Hides the notes tray from the direct tab.",
+            "name": "Hide notes tray",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {},
+            "dependencies": [],
+            "description": "Hides the reshare button from both posts and reels.",
+            "name": "Hide reshare button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {},
+            "dependencies": [],
+            "description": "Hides Stories from the main page, by removing the buttons.",
+            "name": "Hide Stories from Home",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {},
+            "dependencies": [],
+            "description": "Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).",
+            "name": "Hide suggested content",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {},
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Filters the home feed to display only content from profiles you follow.",
+            "name": "Limit feed to following profiles",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {},
+            "dependencies": [],
+            "description": "Removes the popup that appears after a while, when the app version ages.",
+            "name": "Remove build expired popup",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Unlock Premium features. You have to be logged in with an account.",
             "name": "Unlock Premium features",
@@ -24,21 +181,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.groundspeak.geocaching.intro": null
-            },
-            "dependencies": [],
-            "description": "WARNING: This only works via mount install (root required). Unlock Premium features. Lists are still locked as they are server sided.",
-            "name": "Unlock Premium features",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "de.komoot.android": [
-                    "2025.38.2"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.",
             "name": "Unlock Premium features",
@@ -46,11 +189,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "cz.seznam.mapy": [
-                    "9.70.1"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": null,
             "name": "Unlock premium features",
@@ -58,37 +197,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.calistree.calistree": [
-                    "4.17.8"
-                ]
-            },
-            "dependencies": [],
-            "description": "Unlock Pro features. Sometimes the app forget about my patches and a popup screen asking to subscribe will be shown. In this screen, just swipe down to refresh and the app will have Pro features again.",
-            "name": "Unlock Pro features",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.hevy": [
-                    "2.0.0"
-                ]
-            },
-            "dependencies": [
-                "RawResourcePatch"
-            ],
-            "description": "Unlocks Pro features. Most features in this app are server sided, so they can't be patched. This should unlock everything which is possible to patch.",
-            "name": "Unlock Pro features",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "fr.tramb.park4night": [
-                    "7.1.11"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Unlock Pro features (park4night +). You have to be logged in with an account.",
             "name": "Unlock Pro features",

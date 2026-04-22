@@ -2,7 +2,7 @@
     "version": "v1.7.0",
     "patches": [
         {
-            "compatiblePackages": null,
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
             "name": "Change package name",
@@ -40,13 +40,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.magazines": [
-                    "5.156.0.892791979"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
-                "Change package name"
+                "ResourcePatch"
             ],
             "description": "Enables CustomTabs to open articles in your default browser.",
             "name": "Enable CustomTabs",
@@ -54,14 +50,10 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.google.android.apps.magazines": [
-                    "5.156.0.892791979"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [
                 "ResourcePatch",
-                "Change package name"
+                "ResourcePatch"
             ],
             "description": "Allows Google News to sign in via MicroG (GmsCore) instead of Google Play Services when installed under a renamed package.",
             "name": "GmsCore support",
@@ -69,13 +61,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.ebay.kleinanzeigen": [
-                    "2026.16.1",
-                    "2026.14.2",
-                    "2026.14.0"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Hides sponsored ads and Google Ads. Also disables Microsoft Clarity analytics.",
             "name": "Hide ads",
@@ -83,13 +69,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.ebay.kleinanzeigen": [
-                    "2026.16.1",
-                    "2026.14.2",
-                    "2026.14.0"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Hides the Pur ad-free subscription option from the settings menu.",
             "name": "Hide Pur",
@@ -97,13 +77,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {
-                "com.ebay.kleinanzeigen": [
-                    "2026.16.1",
-                    "2026.14.2",
-                    "2026.14.0"
-                ]
-            },
+            "compatiblePackages": {},
             "dependencies": [],
             "description": "Strips UTM tracking parameters from URLs shared via the in-app share function.",
             "name": "Remove tracking parameters from share URLs",
