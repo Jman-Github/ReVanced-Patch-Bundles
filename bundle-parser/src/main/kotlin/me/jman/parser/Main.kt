@@ -428,15 +428,15 @@ private fun generateLegacyPatchList(downloadUri: URI): JsonArray? {
     }
 }
 
-private fun generatePatchListFromReleaseAsset(downloadUri: URI): JsonArray? {
+private fun generatePatchListFromReleaseAsset(downloadUri: URI, expectedVersion: String): JsonArray? {
     val location = parseReleaseLocation(downloadUri) ?: return null
-    val releaseJson = fetchReleaseMetadata(location) ?: return generatePatchListFromRepositoryFile(location)
+    val releaseJson = fetchReleaseMetadata(location) ?: return generatePatchListFromRepositoryFile(location, expectedVersion)
     val assetUrl = findPatchMetadataAsset(releaseJson) ?: run {
         Logger.warning("No patch metadata asset found in ${location.owner}/${location.repo} release ${location.tag}.")
-        return generatePatchListFromRepositoryFile(location)
+        return generatePatchListFromRepositoryFile(location, expectedVersion)
     }
-    val payload = downloadPlainText(assetUrl) ?: return generatePatchListFromRepositoryFile(location)
-    val parsed = convertPatchMetadataPayload(payload) ?: return generatePatchListFromRepositoryFile(location)
+    val payload = downloadPlainText(assetUrl) ?: return generatePatchListFromRepositoryFile(location, expectedVersion)
+    val parsed = convertPatchMetadataPayload(payload) ?: return generatePatchListFromRepositoryFile(location, expectedVersion)
     return canonicalizePatchArray(parsed)
 }
 
@@ -484,7 +484,7 @@ private fun processBundle(bundleFolder: File) {
                     BundleFormat.LEGACY -> generateLegacyPatchList(downloadUri)
                 } ?: run {
                     Logger.info("Falling back to release metadata for ${parsedBundle.downloadUrl}...")
-                    generatePatchListFromReleaseAsset(downloadUri)
+                    generatePatchListFromReleaseAsset(downloadUri, parsedBundle.version)
                 } ?: return@processVariant
                 patchCache[cacheKey] = created
                 created
@@ -605,42 +605,54 @@ private fun findPatchMetadataAsset(releaseJson: JsonObject): String? {
     return prioritized?.downloadUrl()
 }
 
-private data class RepositoryPatchMetadata(
-    val payload: String,
-    val sourceLabel: String
-)
-
-private fun generatePatchListFromRepositoryFile(location: ReleaseLocation): JsonArray? {
-    val metadata = fetchRepositoryPatchMetadata(location) ?: run {
-        Logger.warning("No repository patches-list.json found for ${location.owner}/${location.repo} release ${location.tag}.")
-        return null
-    }
-
-    val parsed = convertPatchMetadataPayload(metadata.payload) ?: run {
-        Logger.warning(
-            "Repository patches-list.json from ${location.owner}/${location.repo} (${metadata.sourceLabel}) " +
-                "is not usable."
-        )
-        return null
-    }
-
-    Logger.info(
-        "Using repository patches-list.json from ${location.owner}/${location.repo} (${metadata.sourceLabel})."
-    )
-    return canonicalizePatchArray(parsed)
-}
-
-private fun fetchRepositoryPatchMetadata(location: ReleaseLocation): RepositoryPatchMetadata? {
+private fun generatePatchListFromRepositoryFile(location: ReleaseLocation, expectedVersion: String): JsonArray? {
     val attempts = listOf(location.tag, null)
 
     for (ref in attempts) {
         val payload = downloadRepositoryFile(location, "patches-list.json", ref) ?: continue
         val sourceLabel = ref?.let { "ref $it" } ?: "default branch"
-        return RepositoryPatchMetadata(payload, sourceLabel)
+        val parsed = parseRepositoryPatchListPayload(payload, expectedVersion)
+        if (parsed == null) {
+            Logger.warning(
+                "Repository patches-list.json from ${location.owner}/${location.repo} ($sourceLabel) " +
+                    "is not usable for version $expectedVersion."
+            )
+            continue
+        }
+        Logger.info("Using repository patches-list.json from ${location.owner}/${location.repo} ($sourceLabel).")
+        return canonicalizePatchArray(parsed)
     }
 
+    Logger.warning("No usable repository patches-list.json found for ${location.owner}/${location.repo} release ${location.tag}.")
     return null
 }
+
+private fun parseRepositoryPatchListPayload(payload: String, expectedVersion: String): JsonArray? {
+    val parsed = try {
+        parsingJson.decodeFromString<LocalPatchesFile>(payload)
+    } catch (e: SerializationException) {
+        Logger.warning("Repository patches-list.json is not valid JSON. ${e.message}")
+        return null
+    } catch (e: IllegalArgumentException) {
+        Logger.warning("Repository patches-list.json is not valid JSON. ${e.message}")
+        return null
+    }
+
+    if (!versionsMatch(parsed.version, expectedVersion)) {
+        Logger.warning(
+            "Repository patches-list.json version ${parsed.version} does not match expected $expectedVersion."
+        )
+        return null
+    }
+
+    return parsed.patches
+}
+
+private fun versionsMatch(left: String, right: String): Boolean =
+    normalizeVersionForComparison(left) == normalizeVersionForComparison(right)
+
+private fun normalizeVersionForComparison(value: String): String =
+    value.trim().removePrefix("v").removePrefix("V").lowercase(Locale.ROOT)
 
 private fun downloadRepositoryFile(location: ReleaseLocation, path: String, ref: String?): String? {
     val encodedPath = path.split('/').joinToString("/") {
