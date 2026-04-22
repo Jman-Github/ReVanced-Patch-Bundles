@@ -2,7 +2,7 @@
     "version": "v1.3.1-dev.2",
     "patches": [
         {
-            "compatiblePackages": {},
+            "compatiblePackages": null,
             "dependencies": [],
             "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
             "name": "Change package name",
@@ -40,7 +40,11 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.apps.magazines": [
+                    "5.154.0.880997081"
+                ]
+            },
             "dependencies": [
                 "ResourcePatch"
             ],
@@ -50,7 +54,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.apps.magazines": [
+                    "5.154.0.880997081"
+                ]
+            },
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch"
@@ -61,7 +69,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.ebay.kleinanzeigen": [
+                    "2026.12.0"
+                ]
+            },
             "dependencies": [],
             "description": "Hides sponsored ads and Google Ads. Also disables Microsoft Clarity analytics.",
             "name": "Hide ads",
@@ -69,7 +81,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.ebay.kleinanzeigen": [
+                    "2026.12.0"
+                ]
+            },
             "dependencies": [],
             "description": "Hides the Pur ad-free subscription option from the settings menu.",
             "name": "Hide Pur",

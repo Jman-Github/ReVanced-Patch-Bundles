@@ -2,7 +2,11 @@
     "version": "v1.4.0-dev.36",
     "patches": [
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.6.4"
+                ]
+            },
             "dependencies": [],
             "description": "Allows opening copyrighted, sensitive, and temporarily disabled channels.",
             "name": "Bypass channel restrictions",
@@ -10,7 +14,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.6.4"
+                ]
+            },
             "dependencies": [],
             "description": "Allows copying, saving, forwarding, and screenshots from restricted channels.",
             "name": "Bypass content restrictions",
@@ -18,7 +26,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.6.4"
+                ]
+            },
             "dependencies": [],
             "description": "Bypasses integrity check to allow login on patched app.",
             "name": "Bypass integrity",
@@ -26,7 +38,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "in.cricketexchange.app.cricketexchange": [
+                    "26.04.05"
+                ]
+            },
             "dependencies": [],
             "description": "Unlocks premium features and removes ads.",
             "name": "CREX Premium",
@@ -34,7 +50,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.6.4"
+                ]
+            },
             "dependencies": [],
             "description": "Disables automatic app update checks.",
             "name": "Disable auto update",
@@ -42,7 +62,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
             "dependencies": [],
             "description": "Disables AppStartTracker and other telemetry points.",
             "name": "Disable telemetry",
@@ -50,7 +74,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
             "dependencies": [],
             "description": "Disables the in-app update check.",
             "name": "Disable update check",
@@ -58,7 +86,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.cv.docscanner": [
+                    "6.8.18"
+                ]
+            },
             "dependencies": [],
             "description": "Unlocks all premium features, removes ads, and enables pro themes.",
             "name": "Doc Scanner Premium",
@@ -66,7 +98,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.6.4"
+                ]
+            },
             "dependencies": [],
             "description": "Increases download chunk size and max concurrent requests.",
             "name": "Download speed boost",
@@ -74,7 +110,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.eyecon.global": [
+                    "4.2026.04.05.1300"
+                ]
+            },
             "dependencies": [],
             "description": "Unlocks premium features.",
             "name": "Eyecon Premium",
@@ -82,7 +122,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.overlook.android.fing": [
+                    "12.11.9"
+                ]
+            },
             "dependencies": [],
             "description": "Unlocks premium network tools and features.",
             "name": "Fing Premium",
@@ -90,7 +134,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
             "dependencies": [],
             "description": "Hides the Assistant tab from the bottom navigation bar.",
             "name": "Hide Assistant tab",
@@ -98,7 +146,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
             "dependencies": [],
             "description": "Hides the Premium options from the settings and user details pages.",
             "name": "Hide Premium from settings",
@@ -106,7 +158,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
             "dependencies": [],
             "description": "Hides the Premium tab from the bottom navigation bar.",
             "name": "Hide Premium tab",
@@ -114,7 +170,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
             "dependencies": [],
             "description": "Hides the Scams tab from the bottom navigation bar.",
             "name": "Hide Scams tab",
@@ -122,7 +182,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.6.4"
+                ]
+            },
             "dependencies": [],
             "description": "Hides your typing indicator from other users.",
             "name": "Hide typing indicator",
@@ -130,7 +194,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.arlosoft.macrodroid": [
+                    "5.62.11"
+                ]
+            },
             "dependencies": [],
             "description": "Unlocks premium features and removes macro limits.",
             "name": "MacroDroid Premium",
@@ -138,7 +206,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.markOne.ss_app": [
+                    "6.6"
+                ]
+            },
             "dependencies": [],
             "description": "Unlocks premium features and removes ads.",
             "name": "Mark Premium",
@@ -146,7 +218,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.6.4"
+                ]
+            },
             "dependencies": [],
             "description": "Removes sponsored messages and video ads.",
             "name": "Remove ads",
@@ -154,7 +230,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.6.4"
+                ]
+            },
             "dependencies": [],
             "description": "Unlocks premium features.",
             "name": "Telegram Premium",
@@ -162,7 +242,12 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.solid.teleprompter": [
+                    "6.8.2",
+                    "6.8.1"
+                ]
+            },
             "dependencies": [],
             "description": "Unlocks premium features in Teleprompter Vlog & Scripts app.",
             "name": "Teleprompter Premium",
@@ -170,7 +255,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.ticktick.task": [
+                    "8.0.6.1"
+                ]
+            },
             "dependencies": [],
             "description": "Unlocks premium features, removes limits, and enables AI tools.",
             "name": "TickTick Premium",
@@ -178,7 +267,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
             "dependencies": [],
             "description": "Unlocks premium features.",
             "name": "Truecaller Premium",
@@ -186,7 +279,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.frontrow.vlog": [
+                    "2.12.0"
+                ]
+            },
             "dependencies": [],
             "description": "Unlocks premium features, removes watermark, and hides Pro tab.",
             "name": "VN Premium",

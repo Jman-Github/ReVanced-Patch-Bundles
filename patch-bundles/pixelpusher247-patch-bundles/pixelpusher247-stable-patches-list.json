@@ -2,7 +2,9 @@
     "version": "v1.3.0",
     "patches": [
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "tv.trakt.trakt": []
+            },
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"

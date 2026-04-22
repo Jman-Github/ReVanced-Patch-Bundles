@@ -16,7 +16,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.strava": null
+            },
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch"
@@ -41,7 +43,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.strava": null
+            },
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch"
@@ -66,7 +70,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.amazon.mShop.android.shopping": null
+            },
             "dependencies": [],
             "description": "Open Amazon links, even if the app is not set to handle Amazon links.",
             "name": "Always allow deep-linking",
@@ -92,7 +98,12 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "tv.twitch.android.app": [
+                    "16.9.1",
+                    "25.3.0"
+                ]
+            },
             "dependencies": [],
             "description": "Automatically claim Channel Points.",
             "name": "Auto claim channel points",
@@ -118,7 +129,12 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "tv.twitch.android.app": [
+                    "16.9.1",
+                    "25.3.0"
+                ]
+            },
             "dependencies": [],
             "description": "Blocks audio ads in streams and VODs.",
             "name": "Block audio ads",
@@ -144,7 +160,12 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "tv.twitch.android.app": [
+                    "16.9.1",
+                    "25.3.0"
+                ]
+            },
             "dependencies": [],
             "description": "Blocks embedded stream ads using services like Luminous or PurpleAdBlocker.",
             "name": "Block embedded ads",
@@ -166,7 +187,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.strava": null
+            },
             "dependencies": [],
             "description": "Blocks Snowplow analytics. See https://snowplow.io for more information.",
             "name": "Block Snowplow tracking",
@@ -192,7 +215,12 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "tv.twitch.android.app": [
+                    "16.9.1",
+                    "25.3.0"
+                ]
+            },
             "dependencies": [],
             "description": "Blocks video ads in streams and VODs.",
             "name": "Block video ads",
@@ -214,7 +242,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.adobe.photoshopmix": null
+            },
             "dependencies": [],
             "description": "Allows the use of the app after its discontinuation.",
             "name": "Bypass login",
@@ -223,7 +253,7 @@
         },
         {
             "compatibility": [],
-            "compatiblePackages": {},
+            "compatiblePackages": null,
             "dependencies": [],
             "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues. This patch does not work with Reddit.",
             "name": "Change package name",
@@ -279,7 +309,12 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "tv.twitch.android.app": [
+                    "16.9.1",
+                    "25.3.0"
+                ]
+            },
             "dependencies": [],
             "description": "Enables Twitch's internal debugging mode.",
             "name": "Debug mode",
@@ -301,7 +336,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.tumblr": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -325,7 +362,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.myprog.hexedit": null
+            },
             "dependencies": [],
             "description": null,
             "name": "Disable ads",
@@ -347,7 +386,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.tumblr": null
+            },
             "dependencies": [],
             "description": "Disables the reminder to enable notifications for blogs you visit.",
             "name": "Disable blog notification reminder",
@@ -369,7 +410,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.tumblr": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -393,7 +436,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.tumblr": null
+            },
             "dependencies": [],
             "description": "Disables the popup suggesting to buy TumblrMart items for other people.",
             "name": "Disable gift message popup",
@@ -415,7 +460,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.tumblr": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -451,7 +498,10 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": null,
+                "com.zhiliaoapp.musically": null
+            },
             "dependencies": [],
             "description": "Disables mandatory login for TikTok. (Version pin not specified in this build.)",
             "name": "Disable login requirement",
@@ -473,7 +523,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.strava": null
+            },
             "dependencies": [],
             "description": "Prevents the Quick Edit prompt from popping up.",
             "name": "Disable Quick Edit",
@@ -495,7 +547,11 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2025.05.27-release"
+                ]
+            },
             "dependencies": [],
             "description": "Disables SoundCloud's telemetry system.",
             "name": "Disable telemetry",
@@ -517,7 +573,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.tumblr": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -541,7 +599,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.facebook.orca": null
+            },
             "dependencies": [],
             "description": "Disables the indicator while typing a message.",
             "name": "Disable typing indicator",
@@ -575,7 +635,14 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -599,7 +666,11 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.apps.magazines": [
+                    "5.108.0.644447823"
+                ]
+            },
             "dependencies": [],
             "description": "Enables CustomTabs to open articles in your default browser.",
             "name": "Enable CustomTabs",
@@ -621,7 +692,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.apps.photos": null
+            },
             "dependencies": [],
             "description": "Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.",
             "name": "Enable DCIM folders backup control",
@@ -643,7 +716,11 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2025.05.27-release"
+                ]
+            },
             "dependencies": [],
             "description": null,
             "name": "Enable offline sync",
@@ -677,7 +754,14 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "43.6.2"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.6.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -701,7 +785,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.strava": null
+            },
             "dependencies": [],
             "description": "Re-enables password login after having used an OTP code.",
             "name": "Enable password login",
@@ -743,7 +829,16 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "43.6.2",
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.6.2",
+                    "43.8.3"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -779,7 +874,10 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": null,
+                "com.zhiliaoapp.musically": null
+            },
             "dependencies": [],
             "description": "Allows logging in with a Google account. (Version pin not specified in this build.)",
             "name": "Fix Google login",
@@ -801,7 +899,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.tumblr": null
+            },
             "dependencies": [],
             "description": "Fixes old versions of the app (v33.2 and earlier) breaking due to Tumblr removing remnants of Tumblr Live from the API, which causes many requests to fail. This patch has no effect on newer versions of the app.",
             "name": "Fix old versions",
@@ -823,7 +923,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "de.gmx.mobile.android.mail": null
+            },
             "dependencies": [],
             "description": "Enables the FreePhone menu in the navigation drawer even on devices that do not support eSIM.",
             "name": "Force enable FreePhone",
@@ -845,7 +947,11 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.apps.magazines": [
+                    "5.108.0.644447823"
+                ]
+            },
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
@@ -871,7 +977,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.apps.photos": null
+            },
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
@@ -897,7 +1005,11 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "490.0.0.63.82"
+                ]
+            },
             "dependencies": [],
             "description": null,
             "name": "Hide 'Sponsored Stories'",
@@ -923,7 +1035,12 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.viber.voip": [
+                    "25.9.2.0",
+                    "26.1.2.0"
+                ]
+            },
             "dependencies": [],
             "description": "Hides ad banners between chats.",
             "name": "Hide Ads",
@@ -945,7 +1062,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.drinkplusplus.angulus": null
+            },
             "dependencies": [],
             "description": null,
             "name": "Hide ads",
@@ -967,7 +1086,11 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.cricbuzz.android": [
+                    "6.24.01"
+                ]
+            },
             "dependencies": [],
             "description": null,
             "name": "Hide ads",
@@ -989,7 +1112,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "de.gmx.mobile.android.mail": null
+            },
             "dependencies": [],
             "description": "Hides sponsored ads.",
             "name": "Hide ads",
@@ -1011,7 +1136,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.nis.app": null
+            },
             "dependencies": [],
             "description": null,
             "name": "Hide ads",
@@ -1033,7 +1160,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.letterboxd.letterboxd": null
+            },
             "dependencies": [],
             "description": null,
             "name": "Hide ads",
@@ -1055,7 +1184,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "nl.sanomamedia.android.nu": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1079,7 +1210,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.peacocktv.peacockandroid": null
+            },
             "dependencies": [],
             "description": "Hides all video ads.",
             "name": "Hide ads",
@@ -1101,7 +1234,11 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "jp.pxv.android": [
+                    "6.141.1"
+                ]
+            },
             "dependencies": [],
             "description": null,
             "name": "Hide ads",
@@ -1123,7 +1260,11 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2025.05.27-release"
+                ]
+            },
             "dependencies": [],
             "description": null,
             "name": "Hide ads",
@@ -1145,7 +1286,11 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.instagram.barcelona": [
+                    "382.0.0.51.85"
+                ]
+            },
             "dependencies": [],
             "description": "Hides sponsored content / ads in Threads.",
             "name": "Hide ads",
@@ -1167,7 +1312,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.strava": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1255,7 +1402,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.facebook.orca": null
+            },
             "dependencies": [],
             "description": "Hides the Facebook button in the top toolbar.",
             "name": "Hide Facebook button",
@@ -1277,7 +1426,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.facebook.orca": null
+            },
             "dependencies": [],
             "description": "Hides ads in inbox.",
             "name": "Hide inbox ads",
@@ -1299,7 +1450,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.facebook.orca": null
+            },
             "dependencies": [],
             "description": "Hides Home and Channels tabs between active now tray and chats.",
             "name": "Hide inbox subtabs",
@@ -1321,7 +1474,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.viber.voip": null
+            },
             "dependencies": [],
             "description": "Permanently hides navigation bar buttons, such as Explore and Marketplace.",
             "name": "Hide navigation buttons",
@@ -1380,7 +1535,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.microsoft.office.officelens": null
+            },
             "dependencies": [],
             "description": "Hides the OneDrive migration prompt when opening Microsoft Office Lens.",
             "name": "Hide OneDrive migration",
@@ -1402,7 +1559,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "de.gmx.mobile.android.mail": null
+            },
             "dependencies": [],
             "description": "Hides the Premium upgrade button in the navigation drawer.",
             "name": "Hide Premium upgrade button",
@@ -1424,7 +1583,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.rarlab.rar": null
+            },
             "dependencies": [],
             "description": "Hides the popup that reminds you to purchase the app.",
             "name": "Hide purchase reminder",
@@ -1446,7 +1607,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.facebook.katana": null
+            },
             "dependencies": [],
             "description": "Hides the ads in the Facebook app stories.",
             "name": "Hide story ads",
@@ -1468,7 +1631,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.microblink.photomath": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1479,7 +1644,7 @@
         },
         {
             "compatibility": [],
-            "compatiblePackages": {},
+            "compatiblePackages": null,
             "dependencies": [],
             "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy. This patch does not work with Reddit.",
             "name": "Override certificate pinning",
@@ -1501,7 +1666,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.strava": null
+            },
             "dependencies": [],
             "description": "Overwrites the compression, resize and trim media (images and videos) parameters returned by Strava's server before upload.",
             "name": "Overwrite media upload parameters",
@@ -1563,7 +1730,14 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1587,7 +1761,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.amazon.mp3": null
+            },
             "dependencies": [],
             "description": "Avoid uploading logs when the application crashes.",
             "name": "Prevent log upload",
@@ -1621,7 +1797,14 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
             "dependencies": [],
             "description": "Remembers the clear display configurations in between videos. (Supports TikTok 43.8.3 only.)",
             "name": "Remember clear display",
@@ -1643,7 +1826,11 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "ch.protonmail.android": [
+                    "4.15.0"
+                ]
+            },
             "dependencies": [],
             "description": "Removes the 'Sent from Proton Mail mobile' signature from emails.",
             "name": "Remove 'Sent from' signature",
@@ -1665,7 +1852,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "net.binarymode.android.irplus": null
+            },
             "dependencies": [],
             "description": null,
             "name": "Remove ads",
@@ -1687,7 +1876,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.apps.recorder": null
+            },
             "dependencies": [],
             "description": "Removes restrictions from using the app on any device. Requires mounting patched app over original.",
             "name": "Remove device restrictions",
@@ -1709,7 +1900,11 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "ch.protonmail.android": [
+                    "4.15.0"
+                ]
+            },
             "dependencies": [],
             "description": "Removes the limit for maximum free accounts logged in.",
             "name": "Remove free accounts limit",
@@ -1731,7 +1926,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.facebook.orca": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1755,7 +1952,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.bandcamp.android": null
+            },
             "dependencies": [],
             "description": "Disables purchase nagging and playback limits of not purchased tracks.",
             "name": "Remove play limits",
@@ -1789,7 +1988,14 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1825,7 +2031,14 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "43.6.2"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.6.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1853,7 +2066,12 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "tv.twitch.android.app": [
+                    "16.9.1",
+                    "25.3.0"
+                ]
+            },
             "dependencies": [],
             "description": "Shows deleted chat messages behind a clickable spoiler.",
             "name": "Show deleted messages",
@@ -1875,7 +2093,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.nothing.smartcenter": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1911,7 +2131,10 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": null,
+                "com.zhiliaoapp.musically": null
+            },
             "dependencies": [],
             "description": "Shows progress bar for all video. (Version pin not specified in this build.)",
             "name": "Show seekbar",
@@ -1933,7 +2156,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.amazon.mp3": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1957,7 +2182,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.disney.disneyplus": null
+            },
             "dependencies": [],
             "description": "Automatically skips ads.",
             "name": "Skip ads",
@@ -1979,7 +2206,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "nl.sanomamedia.android.nu": null
+            },
             "dependencies": [],
             "description": "Spoofs the X-Android-Cert header to allow push messages.",
             "name": "Spoof certificate",
@@ -2001,7 +2230,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.microblink.photomath": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -2025,7 +2256,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.apps.photos": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -2088,7 +2321,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.amazon.mp3": null
+            },
             "dependencies": [],
             "description": "Unlocks the ability to skip tracks without restriction.",
             "name": "Unlimited track skipping",
@@ -2110,7 +2345,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.letterboxd.letterboxd": null
+            },
             "dependencies": [],
             "description": null,
             "name": "Unlock app icons",
@@ -2132,7 +2369,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.microblink.photomath": null
+            },
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -2157,7 +2396,11 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "ginlemon.iconpackstudio": [
+                    "2.2 build 016"
+                ]
+            },
             "dependencies": [],
             "description": null,
             "name": "Unlock pro",
@@ -2179,7 +2422,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.strava": null
+            },
             "dependencies": [],
             "description": "Unlocks \"Routes\", \"Matched Runs\" and \"Segment Efforts\".",
             "name": "Unlock subscription features",
@@ -2201,7 +2446,9 @@
                     ]
                 }
             ],
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.amazon.mp3": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],

@@ -2,7 +2,11 @@
     "version": "v1.4.0",
     "patches": [
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
             "dependencies": [],
             "description": "攔截 Gboard 的簽章白名單檢查並強制通過。",
             "name": "Add Gboard Signature Bypass",
@@ -10,7 +14,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
             "dependencies": [],
             "description": "強制啟用中文語音",
             "name": "Chinese Online Voice Input",
@@ -18,7 +26,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
             "dependencies": [],
             "description": "新增獨立的特殊符號分頁，長按逗號->愛心",
             "name": "Custom Symbols",
@@ -26,7 +38,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
             "dependencies": [],
             "description": "啟用 Undo/Redo 功能",
             "name": "Enable Undo/Redo feature",
@@ -34,7 +50,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
             "dependencies": [],
             "description": "英文 QWERTY 鍵盤支持上下滑符號輸入",
             "name": "English QWERTY Slide Symbols",
@@ -42,7 +62,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
             "dependencies": [],
             "description": "將套件名稱改成 dev.jason.com.google.android.inputmethod.latin 以便共存安裝",
             "name": "Package Rename",
@@ -50,7 +74,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
             "dependencies": [
                 "Zhuyin Slide Input"
             ],
@@ -60,7 +88,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
             "dependencies": [],
             "description": "注音鍵盤支持上下滑輸入",
             "name": "Zhuyin Slide Input",

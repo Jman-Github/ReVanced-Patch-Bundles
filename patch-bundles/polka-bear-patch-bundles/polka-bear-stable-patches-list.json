@@ -2,7 +2,11 @@
     "version": "v1.4.0",
     "patches": [
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.vladlee.easyblacklist": [
+                    "4.8.20"
+                ]
+            },
             "dependencies": [],
             "description": "Disables all ad purchase checks to hide ads globally.",
             "name": "Remove Ads",
@@ -10,7 +14,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.vladlee.easyblacklist": [
+                    "4.8.20"
+                ]
+            },
             "dependencies": [],
             "description": "Unlocks all premium features.",
             "name": "Unlock Premium",
@@ -18,7 +26,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.ipoji.app": null
+            },
             "dependencies": [],
             "description": "Unlocks all premium features by forcing all RevenueCat entitlements to active.",
             "name": "Unlock Premium",

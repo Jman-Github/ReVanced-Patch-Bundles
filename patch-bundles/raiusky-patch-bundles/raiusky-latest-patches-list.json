@@ -2,7 +2,11 @@
     "version": "v1.0.1",
     "patches": [
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.tracked.mobile": [
+                    "6.5.1"
+                ]
+            },
             "dependencies": [],
             "description": "Disables the splash screen. Used to verify the patcher is working.",
             "name": "Disable Splash Screen",
@@ -10,7 +14,12 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.example.app": [
+                    "2.0.0",
+                    "1.0.2"
+                ]
+            },
             "dependencies": [],
             "description": "Example patch to start with.",
             "name": "Example Patch",
@@ -18,7 +27,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.tracked.mobile": [
+                    "6.5.1"
+                ]
+            },
             "dependencies": [],
             "description": "Unlocks pro features by patching RevenueCat entitlement checks.",
             "name": "Tracked Pro",

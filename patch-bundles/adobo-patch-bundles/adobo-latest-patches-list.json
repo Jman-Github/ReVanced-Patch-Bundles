@@ -2,7 +2,9 @@
     "version": "v1.1.0",
     "patches": [
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -12,7 +14,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": null,
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -53,7 +55,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": null,
             "dependencies": [],
             "description": "Appends \".adobo\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
             "name": "Change package name",
@@ -100,7 +102,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": null,
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
@@ -113,7 +115,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": null,
             "dependencies": [],
             "description": "Deactivates the collection of performance data on app start up time, network requests, and other related metrics.",
             "name": "Deactivate Firebase Performance Monitoring",
@@ -121,7 +123,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": null,
             "dependencies": [],
             "description": "Disables the Google Safe Browsing checks in WebView. This doesn't apply to WebView within the SDK Runtime.",
             "name": "Disable Google Safe Browsing in WebView",
@@ -129,7 +131,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": null,
             "dependencies": [],
             "description": "Disables the collection of diagnostic data or usage statistics that are sent to Google.",
             "name": "Disable metrics collection in WebView",
@@ -137,7 +139,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": null,
             "dependencies": [],
             "description": "Disables banner, interstitial, and other ad formats.",
             "name": "Disable mobile ads",
@@ -245,7 +247,9 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -255,7 +259,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -265,7 +271,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -275,7 +283,9 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -285,7 +295,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -295,7 +307,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -305,7 +319,9 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -315,7 +331,9 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -325,7 +343,9 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -335,7 +355,9 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -345,7 +367,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -355,7 +379,9 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -365,7 +391,9 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -394,7 +422,9 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -404,7 +434,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -414,7 +446,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.imdb.mobile": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -424,7 +458,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": null,
             "dependencies": [],
             "description": "Removes unnecessary internet permission from apps that can still work without internet access.",
             "name": "Remove internet permission",
@@ -432,7 +466,9 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -442,7 +478,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": null,
             "dependencies": [],
             "description": "Spoofs the device's advertising ID with a string of zeros.",
             "name": "Spoof Advertising ID",
@@ -450,7 +486,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": null,
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -470,7 +506,7 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": null,
             "dependencies": [
                 "ResourcePatch",
                 "RawResourcePatch",
@@ -505,7 +541,9 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": null
+            },
             "dependencies": [
                 "BytecodePatch"
             ],

@@ -2,7 +2,11 @@
     "version": "v1.0.0-dev.16",
     "patches": [
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.7"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -12,7 +16,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -24,7 +32,11 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "add libpine.so to the app's native libraries",
             "name": "Add Pine Lib",
@@ -32,7 +44,11 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Adds Morphe settings layout resources to the app.",
             "name": "Add settings resources",
@@ -40,7 +56,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
@@ -54,7 +74,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Users with hiding privileges can hide any chat, including their own messages.",
             "name": "Allow Hide on Any Chat",
@@ -62,7 +86,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Allows replying to feed messages",
             "name": "Allow reply to feed",
@@ -70,7 +98,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Always shows the kick button in group member management.",
             "name": "Always Show Kick Button",
@@ -78,7 +110,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.7"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -88,7 +124,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Bypass the limit of input mentions in non-multichat rooms",
             "name": "Bypass input mention limit in non-multichat",
@@ -96,7 +136,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Bypass Moat check that prevents the app from running.",
             "name": "Bypass Moat check",
@@ -104,7 +148,11 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -114,7 +162,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.7"
+                ]
+            },
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch",
@@ -156,7 +208,11 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch"
@@ -197,7 +253,11 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.7"
+                ]
+            },
             "dependencies": [
                 "ResourcePatch"
             ],
@@ -229,7 +289,11 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "ResourcePatch"
             ],
@@ -249,7 +313,11 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -259,7 +327,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.7"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -269,7 +341,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Always show the real unread count instead of '300+' in chatroom list",
             "name": "Disable 300+ unread limit",
@@ -277,7 +353,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -287,7 +367,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.7"
+                ]
+            },
             "dependencies": [],
             "description": "Disables the ad controller that manages ads in the app.",
             "name": "Disable ad controller",
@@ -295,7 +379,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Disable the chat room list ad.",
             "name": "Disable chat room list ad",
@@ -303,7 +391,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Disables the open-link chat room BizBoard ad controller.",
             "name": "Disable ChatRoomAdController",
@@ -311,7 +403,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Disable collapse button on OpenChatList",
             "name": "Disable Collapse Button",
@@ -319,7 +415,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.7"
+                ]
+            },
             "dependencies": [],
             "description": "Disables the comment ad in the app.",
             "name": "Disable Comment Ad",
@@ -327,7 +427,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Disables Community Tab",
             "name": "Disable Community Tab",
@@ -335,7 +439,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Disables the Friend Feed tab in KakaoTalk.",
             "name": "Disable Friend Feed tab",
@@ -343,7 +451,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Disables the friend tab BizBoard ads in KakaoTalk.",
             "name": "Disable Friend Lists ad",
@@ -351,7 +463,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.7"
+                ]
+            },
             "dependencies": [],
             "description": "Disables the image ad in the app.",
             "name": "Disable Image Ad",
@@ -359,7 +475,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -370,7 +490,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Disables the OpenChat tab feed ad load and render paths.",
             "name": "Disable OpenChat feed ad",
@@ -378,7 +502,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Disables the KakaoPay banner ad load and render paths.",
             "name": "Disable Pay banner ad",
@@ -386,7 +514,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Disables Tracker",
             "name": "Disable S2Event",
@@ -394,7 +526,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -404,7 +540,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "ResourcePatch"
             ],
@@ -414,7 +554,7 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": null,
             "dependencies": [],
             "description": "Disables Sentry telemetry. See https://sentry.io/for/android/ for more information.",
             "name": "Disable Sentry telemetry",
@@ -422,7 +562,11 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Disables the shortform ad load and render paths.",
             "name": "Disable ShortForm ad",
@@ -430,7 +574,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Disable talk share log",
             "name": "Disable Talk Share Log",
@@ -438,7 +586,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.7"
+                ]
+            },
             "dependencies": [],
             "description": "Disables the app's update check.",
             "name": "Disable update check",
@@ -446,7 +598,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Disables the signature verification check that prevents the app from running.",
             "name": "Disable verifying signature",
@@ -454,7 +610,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -464,7 +624,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.7"
+                ]
+            },
             "dependencies": [],
             "description": "Enables the OneStore feature in DC Inside app.",
             "name": "Enable OneStore feature",
@@ -472,7 +636,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Enables the reaction mention flag in KakaoTalk chat logs.",
             "name": "Enable reaction mention flag",
@@ -480,7 +648,11 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -490,7 +662,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -500,7 +676,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -510,7 +690,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Force enable emoticon plus feature (Unpurchased emoticon can be sent once per day)",
             "name": "Force enable emoticon plus feature",
@@ -518,7 +702,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -528,7 +716,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.7"
+                ]
+            },
             "dependencies": [],
             "description": "Hides the main ad in the app.",
             "name": "Hide Main Ad",
@@ -536,7 +728,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -546,7 +742,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -566,7 +766,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -576,7 +780,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Registers the Morphe settings activity in the app manifest.",
             "name": "Register settings activity",
@@ -584,7 +792,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Removes the BizBoard ad by forcing its dimensions to 0x0 and visibility to GONE in onMeasure.",
             "name": "Remove BizBoard ads",
@@ -592,7 +804,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Removes the feed ad from the app.",
             "name": "Remove feed ad",
@@ -600,7 +816,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Removes the focus ad from the app.",
             "name": "Remove focus ad",
@@ -608,7 +828,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Removes the ad from the More tab.",
             "name": "Remove More tab ad",
@@ -616,7 +840,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Removes the native ad from the app.",
             "name": "Remove native ad",
@@ -624,7 +852,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Removes the OpenLink chat room list ad.",
             "name": "Remove OpenLink chat room list ad",
@@ -632,7 +864,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Removes the shop tab from the bottom navigation bar.",
             "name": "Remove shop tab",
@@ -640,7 +876,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -650,7 +890,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
@@ -681,7 +925,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Spoofs the apk checksums to pass integrity checks.",
             "name": "Spoof apk checksums",
@@ -689,7 +937,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Spoofs the App ID to bypass integrity checks. (to bypass biometric auth etc.)",
             "name": "Spoof App ID",
@@ -697,7 +949,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.7"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -707,7 +963,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Spoofs the app signature to pass integrity checks.",
             "name": "Spoof signature",
@@ -715,7 +975,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.kakao.talk": [
+                    "26.3.2"
+                ]
+            },
             "dependencies": [],
             "description": "Patches the version info to include '(ReVanced)' in the version string.",
             "name": "Version info patch",

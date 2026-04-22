@@ -2,7 +2,12 @@
     "version": "v1.1.1",
     "patches": [
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "ru.oneme.app": [
+                    "26.10.1",
+                    "26.11.3"
+                ]
+            },
             "dependencies": [],
             "description": "Forces you to check the IP address only on Yandex",
             "name": "Bypass VPN Check",

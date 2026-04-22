@@ -2,7 +2,9 @@
     "version": "v1.0.0-dev.14",
     "patches": [
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.jio.jioplay.tv": null
+            },
             "dependencies": [],
             "description": "Neutralizes pairip license verification by preventing VMRunner execution and suppressing license check errors.",
             "name": "Bypass pairip license check",
@@ -10,7 +12,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.jio.jioplay.tv": null
+            },
             "dependencies": [],
             "description": "Removes FirebaseInitProvider from AndroidManifest.xml to prevent crash when VM config data is missing.",
             "name": "Disable FirebaseInitProvider",
@@ -18,7 +22,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.jio.jioplay.tv": null
+            },
             "dependencies": [],
             "description": "Sets usesCleartextTraffic to true in AndroidManifest and patches the network security config to allow cleartext HTTP traffic and user-installed CA certificates.",
             "name": "Enable cleartext traffic",
@@ -26,7 +32,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.jio.jioplay.tv": null
+            },
             "dependencies": [],
             "description": "Removes SSL/TLS certificate pinning for tv.media.jio.com.",
             "name": "Remove certificate pinning",
@@ -34,7 +42,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.jio.jioplay.tv": null
+            },
             "dependencies": [],
             "description": "Removes emulator and unsupported device detection checks in PermissionActivity.",
             "name": "Remove emulator detection",
@@ -42,7 +52,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.jio.jioplay.tv": null
+            },
             "dependencies": [],
             "description": "Removes libpairipcore.so from all architectures to prevent native signature verification that crashes on patched APKs.",
             "name": "Remove pairip native library",
@@ -50,7 +62,9 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.jio.jioplay.tv": null
+            },
             "dependencies": [],
             "description": "Removes root detection checks. Bypasses Firebase CommonUtils.isRooted() and Xposed framework detection.",
             "name": "Remove root detection",

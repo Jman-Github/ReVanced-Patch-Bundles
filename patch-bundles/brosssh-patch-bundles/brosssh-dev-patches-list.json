@@ -2,7 +2,11 @@
     "version": "v2.5.0-dev.2",
     "patches": [
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "424.0.0.49.64"
+                ]
+            },
             "dependencies": [],
             "description": null,
             "name": "Bypass signature check",
@@ -10,7 +14,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "424.0.0.49.64"
+                ]
+            },
             "dependencies": [],
             "description": "Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.",
             "name": "Disable Reels scrolling",
@@ -18,7 +26,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "424.0.0.49.64"
+                ]
+            },
             "dependencies": [],
             "description": "Disable stories automatically flipping/skipping after some seconds.",
             "name": "Disable story auto flipping",
@@ -26,7 +38,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "424.0.0.49.64"
+                ]
+            },
             "dependencies": [],
             "description": "Disable video autoplay from feed",
             "name": "Disable video autoplay",
@@ -34,7 +50,11 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "424.0.0.49.64"
+                ]
+            },
             "dependencies": [],
             "description": null,
             "name": "Hide ads",
@@ -42,7 +62,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "424.0.0.49.64"
+                ]
+            },
             "dependencies": [],
             "description": "Hides posts and reels from the explore/search page.",
             "name": "Hide explore feed",
@@ -50,7 +74,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "424.0.0.49.64"
+                ]
+            },
             "dependencies": [],
             "description": "Hide the feed content, leaving only stories in the home page.",
             "name": "Hide feed content",
@@ -58,7 +86,11 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "424.0.0.49.64"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -123,7 +155,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "424.0.0.49.64"
+                ]
+            },
             "dependencies": [],
             "description": "Hides the notes tray from the direct tab.",
             "name": "Hide notes tray",
@@ -131,7 +167,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "424.0.0.49.64"
+                ]
+            },
             "dependencies": [],
             "description": "Hides the reshare button from both posts and reels.",
             "name": "Hide reshare button",
@@ -139,7 +179,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "424.0.0.49.64"
+                ]
+            },
             "dependencies": [],
             "description": "Hides Stories from the main page, by removing the buttons.",
             "name": "Hide Stories from Home",
@@ -147,7 +191,11 @@
             "use": false
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "424.0.0.49.64"
+                ]
+            },
             "dependencies": [],
             "description": "Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).",
             "name": "Hide suggested content",
@@ -155,7 +203,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "424.0.0.49.64"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -165,7 +217,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "424.0.0.49.64"
+                ]
+            },
             "dependencies": [],
             "description": "Removes the popup that appears after a while, when the app version ages.",
             "name": "Remove build expired popup",
@@ -173,7 +229,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "fr.chargeprice.app": [
+                    "3.9.2"
+                ]
+            },
             "dependencies": [],
             "description": "Unlock Premium features. You have to be logged in with an account.",
             "name": "Unlock Premium features",
@@ -181,7 +241,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "de.komoot.android": [
+                    "2025.38.2"
+                ]
+            },
             "dependencies": [],
             "description": "Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.",
             "name": "Unlock Premium features",
@@ -189,7 +253,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "cz.seznam.mapy": [
+                    "26.3.1"
+                ]
+            },
             "dependencies": [],
             "description": null,
             "name": "Unlock premium features",
@@ -197,7 +265,11 @@
             "use": true
         },
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "fr.tramb.park4night": [
+                    "7.1.11"
+                ]
+            },
             "dependencies": [],
             "description": "Unlock Pro features (park4night +). You have to be logged in with an account.",
             "name": "Unlock Pro features",
