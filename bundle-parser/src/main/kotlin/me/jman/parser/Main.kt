@@ -20,8 +20,11 @@ import java.io.FileNotFoundException
 import java.net.URI
 import java.net.HttpURLConnection
 import java.net.URISyntaxException
+import java.net.URLEncoder
 import java.net.URL
+import java.nio.charset.StandardCharsets
 import java.util.Locale
+import java.util.Base64
 import kotlin.comparisons.compareBy
 
 private const val BUNDLE_FILE_STEM = "-patches-bundle"
@@ -427,13 +430,13 @@ private fun generateLegacyPatchList(downloadUri: URI): JsonArray? {
 
 private fun generatePatchListFromReleaseAsset(downloadUri: URI): JsonArray? {
     val location = parseReleaseLocation(downloadUri) ?: return null
-    val releaseJson = fetchReleaseMetadata(location) ?: return null
+    val releaseJson = fetchReleaseMetadata(location) ?: return generatePatchListFromRepositoryFile(location)
     val assetUrl = findPatchMetadataAsset(releaseJson) ?: run {
         Logger.warning("No patch metadata asset found in ${location.owner}/${location.repo} release ${location.tag}.")
-        return null
+        return generatePatchListFromRepositoryFile(location)
     }
-    val payload = downloadPlainText(assetUrl) ?: return null
-    val parsed = convertPatchMetadataPayload(payload) ?: return null
+    val payload = downloadPlainText(assetUrl) ?: return generatePatchListFromRepositoryFile(location)
+    val parsed = convertPatchMetadataPayload(payload) ?: return generatePatchListFromRepositoryFile(location)
     return canonicalizePatchArray(parsed)
 }
 
@@ -600,6 +603,124 @@ private fun findPatchMetadataAsset(releaseJson: JsonObject): String? {
             lower.endsWith("patches.json") || (lower.contains("patch") && lower.endsWith(".json"))
         }
     return prioritized?.downloadUrl()
+}
+
+private data class RepositoryPatchMetadata(
+    val payload: String,
+    val sourceLabel: String
+)
+
+private fun generatePatchListFromRepositoryFile(location: ReleaseLocation): JsonArray? {
+    val metadata = fetchRepositoryPatchMetadata(location) ?: run {
+        Logger.warning("No repository patches-list.json found for ${location.owner}/${location.repo} release ${location.tag}.")
+        return null
+    }
+
+    val parsed = convertPatchMetadataPayload(metadata.payload) ?: run {
+        Logger.warning(
+            "Repository patches-list.json from ${location.owner}/${location.repo} (${metadata.sourceLabel}) " +
+                "is not usable."
+        )
+        return null
+    }
+
+    Logger.info(
+        "Using repository patches-list.json from ${location.owner}/${location.repo} (${metadata.sourceLabel})."
+    )
+    return canonicalizePatchArray(parsed)
+}
+
+private fun fetchRepositoryPatchMetadata(location: ReleaseLocation): RepositoryPatchMetadata? {
+    val attempts = listOf(location.tag, null)
+
+    for (ref in attempts) {
+        val payload = downloadRepositoryFile(location, "patches-list.json", ref) ?: continue
+        val sourceLabel = ref?.let { "ref $it" } ?: "default branch"
+        return RepositoryPatchMetadata(payload, sourceLabel)
+    }
+
+    return null
+}
+
+private fun downloadRepositoryFile(location: ReleaseLocation, path: String, ref: String?): String? {
+    val encodedPath = path.split('/').joinToString("/") {
+        URLEncoder.encode(it, StandardCharsets.UTF_8).replace("+", "%20")
+    }
+    val refQuery = ref?.let {
+        "?ref=" + URLEncoder.encode(it, StandardCharsets.UTF_8).replace("+", "%20")
+    }.orEmpty()
+    val apiUrl = "$GITHUB_API_BASE/repos/${location.owner}/${location.repo}/contents/$encodedPath$refQuery"
+    val attemptAuthFirst = !githubAuthToken.isNullOrBlank()
+    val attempts = if (attemptAuthFirst) listOf(true, false) else listOf(false)
+
+    for (useAuth in attempts) {
+        val connection = (URL(apiUrl).openConnection() as HttpURLConnection)
+        try {
+            connection.requestMethod = "GET"
+            connection.setRequestProperty("Accept", "application/vnd.github+json")
+            connection.setRequestProperty("User-Agent", USER_AGENT)
+            if (useAuth) {
+                connection.setRequestProperty("Authorization", "Bearer $githubAuthToken")
+            }
+
+            val code = connection.responseCode
+            val rateLimitInfo = connection.rateLimitInfo()
+            when (code) {
+                HttpURLConnection.HTTP_OK -> {
+                    val body = connection.inputStream.bufferedReader().use { it.readText() }
+                    val response = Json.parseToJsonElement(body).jsonObject
+                    val downloadUrl = response["download_url"]?.jsonPrimitive?.contentOrNull
+                    if (!downloadUrl.isNullOrBlank()) {
+                        return downloadPlainText(downloadUrl)
+                    }
+
+                    val content = response["content"]?.jsonPrimitive?.contentOrNull
+                    val encoding = response["encoding"]?.jsonPrimitive?.contentOrNull
+                    if (!content.isNullOrBlank() && encoding.equals("base64", ignoreCase = true)) {
+                        val normalized = content.replace("\n", "").replace("\r", "")
+                        return String(Base64.getDecoder().decode(normalized), StandardCharsets.UTF_8)
+                    }
+
+                    Logger.warning(
+                        "Repository file response for ${location.owner}/${location.repo} did not include usable content."
+                    )
+                    return null
+                }
+
+                HttpURLConnection.HTTP_NOT_FOUND -> continue
+
+                HttpURLConnection.HTTP_UNAUTHORIZED -> {
+                    if (useAuth) {
+                        Logger.warning(
+                            "GitHub token was rejected for ${location.owner}/${location.repo}; " +
+                                "retrying repository file fetch anonymously. ${rateLimitInfo.formatForLog()}"
+                        )
+                        continue
+                    }
+                    return null
+                }
+
+                else -> {
+                    Logger.warning(
+                        "Failed to fetch repository file for ${location.owner}/${location.repo} ($code). " +
+                            rateLimitInfo.formatForLog()
+                    )
+                    return null
+                }
+            }
+        } catch (e: Exception) {
+            if (useAuth) {
+                Logger.warning("Authenticated repository file fetch failed. ${e.message}")
+                continue
+            }
+            Logger.warning("Failed to fetch repository file. ${e.message}")
+            return null
+        } finally {
+            connection.disconnect()
+        }
+    }
+
+    return null
 }
 
 private fun downloadPlainText(url: String): String? {

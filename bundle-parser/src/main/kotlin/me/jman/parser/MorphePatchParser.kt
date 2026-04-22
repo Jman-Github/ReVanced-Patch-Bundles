@@ -36,10 +36,28 @@ internal fun generateMorphePatchList(downloadUri: URI): JsonArray? {
         Logger.warning("The patch bundle file was not found.")
         null
     } catch (e: Exception) {
-        Logger.warning("Failed to parse Morphe patch bundle. ${e.message}")
+        Logger.warning("Failed to parse Morphe patch bundle. ${e.describeForLog()}")
         null
     } finally {
         patchesFile.delete()
+    }
+}
+
+private fun Throwable.describeForLog(): String {
+    val chain = generateSequence(this) { it.cause }
+        .take(5)
+        .map { throwable ->
+            val type = throwable::class.simpleName ?: throwable::class.java.name
+            val message = throwable.message?.takeIf { it.isNotBlank() } ?: "no message"
+            "$type: $message"
+        }
+        .toList()
+
+    return if (chain.isEmpty()) {
+        val type = this::class.simpleName ?: this::class.java.name
+        "$type: no message"
+    } else {
+        chain.joinToString(" <- ")
     }
 }
 
@@ -71,7 +89,12 @@ private fun loadMorphePatchesFromJar(
         loadMethod.invoke(null, setOf(patchesFile))
     } catch (e: InvocationTargetException) {
         val target = e.targetException ?: e
-        throw IllegalStateException("Morphe patcher failed to load ${patchesFile.name}", target)
+        val type = target::class.simpleName ?: target::class.java.name
+        val message = target.message?.takeIf { it.isNotBlank() } ?: "no message"
+        throw IllegalStateException(
+            "Morphe patcher failed to load ${patchesFile.name}. $type: $message",
+            target
+        )
     } ?: throw IllegalStateException("Morphe patcher returned no patches for ${patchesFile.name}.")
 
     val loaded = when (patches) {

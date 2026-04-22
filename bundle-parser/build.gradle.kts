@@ -159,3 +159,9 @@ tasks.named<JavaExec>("run") {
         systemProperty("morphe.patcher.classpath", morpheClasspath)
     }
 }
+
+tasks.register("assembleRelease") {
+    group = "build"
+    description = "Alias for assemble to support CI validation on this JVM application module."
+    dependsOn(tasks.named("assemble"))
+}
