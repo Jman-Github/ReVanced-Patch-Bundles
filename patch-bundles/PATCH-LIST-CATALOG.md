@@ -655,44 +655,48 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***105 Patches***
+***109 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Add settings``` | ```Adds settings to control preferences are patching``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Copy comment``` | ```Adds a button to copy comments on posts and reels.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Customise story timestamp``` | ```Customise the timestamp that shows when the story was posted``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Disable ads``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Disable analytics``` | ```Block analytics that are sent to Instagram/Facebook servers.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Disable comments``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Disable discover people``` | ```Disables discover people section on user profile``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Disable explore``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Disable screenshot detection``` | ```Disables screenshots detection in DM``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Disable stories``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Disable story flipping``` | ```Disable automatic flipping/moving to next story``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Disable typing status``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Follow back indicator``` | ```Adds a label on the profile page, indicating whether a user is follows you back.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Hide group creation button on sharesheet``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Hide notes tray``` | ```Hides notes tray in DM section``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Hide reshare button``` | ```Hides the reshare button from both posts and reels.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Hide stories tray``` | ```Hides stories tray from main feed.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Hide suggested content``` | ```Hides suggested stories, reels, threads (Suggested posts will still be shown).``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Improve image viewing``` | ```Fetches max resolution images from server.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Limit feed to following profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Make ephemeral media permanent``` | ```Changes unexpired view once, view twice media to permanent view.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```More options on profile``` | ```Adds a new button to handle user related data like copy handle, download profile picture etc``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Open links externally``` | ```Changes links to always open in your external browser, instead of the in-app browser.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Remove empty bottom space``` | ```Removes empty space below bottom navigation bar``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Sanitize share links``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Unlock developer options``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```View DMs anonymously``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```View live anonymously``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```View stories anonymously``` | ```N/A``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```View story mentions``` | ```Add option to view visible and hidden story mentions.``` | ```com.instagram.android``` | ```423.0.0.47.66``` |
-| ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```com.instagram.android, com.twitter.android``` | ```423.0.0.47.66``` |
+| ```Add settings``` | ```Adds settings to control preferences are patching``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Amoled theme``` | ```Replaces Instagram's dark-mode background greys with pure black for AMOLED displays.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Copy comment``` | ```Adds a button to copy comments on posts and reels.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Customise story timestamp``` | ```Customise the timestamp that shows when the story was posted``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Disable ads``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Disable analytics``` | ```Block analytics that are sent to Instagram/Facebook servers.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Disable comments``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Disable discover people``` | ```Disables discover people section on user profile``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Disable explore``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Disable highlights``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Disable screenshot detection``` | ```Disables screenshots detection in DM``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Disable stories``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Disable story flipping``` | ```Disable automatic flipping/moving to next story``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Disable typing status``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Disable video autoplay``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Follow back indicator``` | ```Adds a label on the profile page, indicating whether a user is follows you back.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Hide group creation button on sharesheet``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Hide notes tray``` | ```Hides notes tray in DM section``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Hide reshare button``` | ```Hides the reshare button from both posts and reels.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Hide stories tray``` | ```Hides stories tray from main feed.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Hide suggested content``` | ```Hides suggested stories, reels, threads (Suggested posts will still be shown).``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Improve image viewing``` | ```Fetches max resolution images from server.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Limit feed to following profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Make ephemeral media permanent``` | ```Changes unexpired view once, view twice media to permanent view.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```More options on profile``` | ```Adds a new button to handle user related data like copy handle, download profile picture etc``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Open links externally``` | ```Changes links to always open in your external browser, instead of the in-app browser.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Remove empty bottom space``` | ```Removes empty space below bottom navigation bar``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Sanitize share links``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Stories audio autoplay``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Unlock developer options``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```View DMs anonymously``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```View live anonymously``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```View stories anonymously``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```View story mentions``` | ```Add option to view visible and hidden story mentions.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```com.instagram.android, com.twitter.android``` | ```426.0.0.37.68``` |
 | ```Add ability to copy media link``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
 | ```Bring back twitter``` | ```Bring back old twitter logo and name``` | ```com.twitter.android``` | ```All versions``` |
 | ```Browse tweet object``` | ```Adds an option to browse the tweet object in the share menu.``` | ```com.twitter.android``` | ```All versions``` |
@@ -1743,7 +1747,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```cz.ackee.ventusky``` | ```52.0``` |
 | ```Disable signature check``` | ```Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.``` | ```ginlemon.flowerfree``` | ```6.6 build 002``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```ginlemon.flowerfree``` | ```6.6 build 002``` |
-| ```Enable Prime membership``` | ```Enables app features locked behind the subscription paywall.``` | ```jp.ne.ibis.ibispaintx.app``` | ```14.0.0``` |
+| ```Enable Prime membership``` | ```Enables app features locked behind the subscription paywall.``` | ```jp.ne.ibis.ibispaintx.app``` | ```14.0.1``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```kr.co.yjteam.dailypay``` | ```6.0.7``` |
 | ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```kr.co.yjteam.dailypay``` | ```6.0.7``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```kr.eggbun.eggconvo``` | ```4.12.19``` |
