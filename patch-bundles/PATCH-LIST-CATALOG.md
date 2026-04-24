@@ -1700,13 +1700,14 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***65 Patches***
+***66 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.``` | ```app.ttmikstories.android``` | ```1.16.0``` |
-| ```Remove delay``` | ```Removes the imposed delay when changing VPN servers.``` | ```ch.protonvpn.android``` | ```5.16.83.0``` |
-| ```Unlock custom DNS``` | ```Enables the custom DNS feature usually locked behind the Proton Plus paywall.``` | ```ch.protonvpn.android``` | ```5.16.83.0``` |
-| ```Unlock split tunneling``` | ```Enables the split tunneling feature usually locked behind the Proton Plus paywall.``` | ```ch.protonvpn.android``` | ```5.16.83.0``` |
+| ```Remove delay``` | ```Removes the imposed delay when changing VPN servers.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
+| ```Unlock custom DNS``` | ```Enables the custom DNS feature usually locked behind the Proton Plus paywall.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
+| ```Unlock LAN connections``` | ```Enables the LAN connections feature usually locked behind the Proton Plus paywall.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
+| ```Unlock split tunneling``` | ```Enables the split tunneling feature usually locked behind the Proton Plus paywall.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
 | ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. Some UI elements may not show an active membership, but this does not effect functionality.``` | ```cn.ommiao.iconpacker``` | ```1.21.0-release``` |
 | ```Disable anti-tamper``` | ```Disables various anti-tamper checks that causes the app to force-close.``` | ```cn.wps.moffice_eng``` | ```18.24``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall. Login is required and AI functionality is unavailable.``` | ```cn.wps.moffice_eng``` | ```18.24``` |
