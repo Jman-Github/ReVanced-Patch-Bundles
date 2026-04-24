@@ -67,6 +67,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Eyalm2000 Bundle Patch List](#-eyalm2000-bundle-patch-list)    
 [🧩 Vladon Bundle Patch List](#-vladon-bundle-patch-list)    
 [🧩 RaiuSky Bundle Patch List](#-raiusky-bundle-patch-list)    
+[🧩 Ariecos Bundle Patch List](#-ariecos-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -3098,5 +3099,15 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Example Patch``` | ```Example patch to start with.``` | ```com.example.app``` | ```2.0.0, 1.0.2``` |
 | ```Disable Splash Screen``` | ```Disables the splash screen. Used to verify the patcher is working.``` | ```com.tracked.mobile``` | ```6.5.1``` |
 | ```Tracked Pro``` | ```Unlocks pro features by patching RevenueCat entitlement checks.``` | ```com.tracked.mobile``` | ```6.5.1``` |
+
+</details>
+
+---
+### 🧩 Ariecos Bundle Patch List:
+[📦 Ariecos-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ariecos-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
 
 </details>
