@@ -1,6 +1,30 @@
 {
-    "version": "v1.4.0-dev.36",
+    "version": "v1.4.0-dev.37",
     "patches": [
+        {
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.6.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Prevents deleted messages from being removed locally.",
+            "name": "Anti-delete messages",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.6.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Keeps view-once and self-destructing media viewable forever.",
+            "name": "Anti-disappearing media",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "org.telegram.messenger.web": [
