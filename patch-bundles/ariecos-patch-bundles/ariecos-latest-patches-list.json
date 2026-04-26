@@ -1,19 +1,6 @@
 {
-    "version": "v1.1.2",
+    "version": "v1.1.5",
     "patches": [
-        {
-            "compatiblePackages": {
-                "com.example.app": [
-                    "2.0.0",
-                    "1.0.2"
-                ]
-            },
-            "dependencies": [],
-            "description": "Example patch to start with.",
-            "name": "Example Patch",
-            "options": [],
-            "use": true
-        },
         {
             "compatiblePackages": {
                 "com.google.android.apps.bard": null,
