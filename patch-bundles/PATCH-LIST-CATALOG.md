@@ -1102,7 +1102,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 
 ---
 ### 🧩 BholeyKaBhakt Bundle Patch List:
-[📦 BholeyKaBhakt-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bholeykabhakt-patches-bundle-api-v4)
+[📦 BholeyKaBhakt-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bholeykabhakt-patches-bundle-morphe)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
