@@ -1,9 +1,13 @@
 {
-    "version": "v3.3.0-dev.2",
+    "version": "v3.3.0-dev.3",
     "patches": [
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -45,7 +49,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "ResourcePatch"
@@ -57,7 +65,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -70,7 +82,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -85,8 +101,26 @@
             "compatiblePackages": {
                 "com.instagram.android": [
                     "426.0.0.37.68"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Change the animation to one from existing Rings like animations",
+            "name": "Change like animation",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "426.0.0.37.68"
                 ],
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [],
             "description": "Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.",
@@ -109,7 +143,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -121,7 +159,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -148,7 +190,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -160,7 +206,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -173,7 +223,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -186,7 +240,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -199,13 +257,31 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": null,
             "name": "Customise post font size",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "426.0.0.37.68"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Customise story ring size",
             "options": [],
             "use": true
         },
@@ -225,7 +301,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -237,7 +317,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -249,7 +333,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -261,7 +349,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -273,7 +365,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -285,7 +381,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -297,7 +397,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -309,7 +413,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -321,7 +429,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -333,7 +445,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -345,7 +461,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -386,7 +506,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -398,7 +522,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -586,7 +714,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -598,7 +730,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [],
             "description": "Replaces the default Twitter Blue with the user's Material You palette.",
@@ -608,7 +744,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -620,7 +760,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -633,7 +777,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -645,7 +793,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -657,7 +809,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [],
             "description": "Makes all app activities exportable.",
@@ -683,7 +839,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -696,7 +856,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -734,7 +898,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -746,7 +914,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -758,7 +930,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -771,7 +947,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -783,7 +963,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -796,7 +980,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -808,7 +996,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -821,7 +1013,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -847,7 +1043,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -859,7 +1059,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -872,7 +1076,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -912,7 +1120,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -924,7 +1136,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -936,7 +1152,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -949,7 +1169,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -962,7 +1186,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -1017,7 +1245,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "ResourcePatch",
@@ -1030,7 +1262,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "ResourcePatch",
@@ -1058,7 +1294,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -1085,7 +1325,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -1126,7 +1370,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -1140,7 +1388,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "ResourcePatch",
@@ -1154,7 +1406,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -1167,7 +1423,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -1193,7 +1453,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -1205,7 +1469,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -1246,7 +1514,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -1258,7 +1530,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -1270,7 +1546,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -1283,7 +1563,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -1309,7 +1593,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -1322,7 +1610,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch",
@@ -1335,7 +1627,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -1347,7 +1643,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -1359,7 +1659,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -1371,7 +1675,11 @@
         },
         {
             "compatiblePackages": {
-                "com.twitter.android": null
+                "com.twitter.android": [
+                    "11.80.0-alpha.1",
+                    "11.82.0-beta.1",
+                    "11.81.0-release.0"
+                ]
             },
             "dependencies": [
                 "BytecodePatch"
@@ -1406,6 +1714,20 @@
             ],
             "description": null,
             "name": "Unlock developer options",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "426.0.0.37.68"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks 'Plus' subscription benefits that are checked locally. USE IT AT YOUR OWN RISK",
+            "name": "Unlock Plus benefits",
             "options": [],
             "use": true
         },

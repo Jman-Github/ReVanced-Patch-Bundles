@@ -655,12 +655,14 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***109 Patches***
+***112 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add settings``` | ```Adds settings to control preferences are patching``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
 | ```Amoled theme``` | ```Replaces Instagram's dark-mode background greys with pure black for AMOLED displays.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Change like animation``` | ```Change the animation to one from existing Rings like animations``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
 | ```Copy comment``` | ```Adds a button to copy comments on posts and reels.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Customise story ring size``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
 | ```Customise story timestamp``` | ```Customise the timestamp that shows when the story was posted``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
 | ```Disable ads``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
 | ```Disable analytics``` | ```Block analytics that are sent to Instagram/Facebook servers.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
@@ -692,81 +694,82 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Sanitize share links``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
 | ```Stories audio autoplay``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
 | ```Unlock developer options``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
+| ```Unlock Plus benefits``` | ```Unlocks 'Plus' subscription benefits that are checked locally. USE IT AT YOUR OWN RISK``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
 | ```View DMs anonymously``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
 | ```View live anonymously``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
 | ```View stories anonymously``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
 | ```View story mentions``` | ```Add option to view visible and hidden story mentions.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```com.instagram.android, com.twitter.android``` | ```426.0.0.37.68``` |
-| ```Add ability to copy media link``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Bring back twitter``` | ```Bring back old twitter logo and name``` | ```com.twitter.android``` | ```All versions``` |
-| ```Browse tweet object``` | ```Adds an option to browse the tweet object in the share menu.``` | ```com.twitter.android``` | ```All versions``` |
-| ```Change app icon``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Clear tracking params``` | ```Removes tracking parameters when sharing links``` | ```com.twitter.android``` | ```All versions``` |
-| ```Control video auto scroll``` | ```Control video auto scroll in immersive view``` | ```com.twitter.android``` | ```All versions``` |
-| ```Custom download folder``` | ```Change the download directory for video downloads``` | ```com.twitter.android``` | ```All versions``` |
-| ```Custom emoji font``` | ```Customise emoji font style``` | ```com.twitter.android``` | ```All versions``` |
-| ```Custom font``` | ```Customise font style``` | ```com.twitter.android``` | ```All versions``` |
-| ```Custom sharing domain``` | ```Allows for using domains like fxtwitter when sharing tweets/posts.``` | ```com.twitter.android``` | ```All versions``` |
-| ```Customise post font size``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Customize default reply sorting``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Customize explore tabs``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Customize Inline action Bar items``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Customize Navigation Bar items``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Customize notification tabs``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Customize profile tabs``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Customize search suggestions``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Customize search tab items``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Customize side bar items``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Customize timeline top bar``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Delete from database``` | ```Delete entries from database(cache)``` | ```com.twitter.android``` | ```All versions``` |
-| ```Disable auto timeline scroll on launch``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Disable chirp font``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```com.instagram.android, com.twitter.android``` | ```426.0.0.37.68, 11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Add ability to copy media link``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Bring back twitter``` | ```Bring back old twitter logo and name``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Browse tweet object``` | ```Adds an option to browse the tweet object in the share menu.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Change app icon``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Clear tracking params``` | ```Removes tracking parameters when sharing links``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Control video auto scroll``` | ```Control video auto scroll in immersive view``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Custom download folder``` | ```Change the download directory for video downloads``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Custom emoji font``` | ```Customise emoji font style``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Custom font``` | ```Customise font style``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Custom sharing domain``` | ```Allows for using domains like fxtwitter when sharing tweets/posts.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Customise post font size``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Customize default reply sorting``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Customize explore tabs``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Customize Inline action Bar items``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Customize Navigation Bar items``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Customize notification tabs``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Customize profile tabs``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Customize search suggestions``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Customize search tab items``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Customize side bar items``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Customize timeline top bar``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Delete from database``` | ```Delete entries from database(cache)``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Disable auto timeline scroll on launch``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Disable chirp font``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
 | ```Disunify xchat system``` | ```Bring back legacy features like messages and share sheet.``` | ```com.twitter.android``` | ```11.69.0-release.0``` |
-| ```Download patch``` | ```Unlocks the ability to download videos and gifs from Twitter/X``` | ```com.twitter.android``` | ```All versions``` |
-| ```Dynamic color``` | ```Replaces the default Twitter Blue with the user's Material You palette.``` | ```com.twitter.android``` | ```All versions``` |
-| ```Enable debug menu for posts``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Enable force HD videos``` | ```Videos will be played in highest quality always``` | ```com.twitter.android``` | ```All versions``` |
-| ```Enable PiP mode automatically``` | ```Enables PiP mode when you close the app``` | ```com.twitter.android``` | ```All versions``` |
-| ```Enable Undo Posts``` | ```Enables ability to undo posts before posting``` | ```com.twitter.android``` | ```All versions``` |
-| ```Export all activities``` | ```Makes all app activities exportable.``` | ```com.twitter.android``` | ```All versions``` |
-| ```Force enable translate``` | ```Get translate option for all posts``` | ```com.twitter.android``` | ```All versions``` |
-| ```Handle custom twitter links``` | ```Adds support for opening custom twitter links such as vxtwitter, fxtwitter, and fixupx within the app. These will have to be manually enabled under the "Open by default" section in the app info!``` | ```com.twitter.android``` | ```All versions``` |
-| ```Hide badges from navigation bar icons``` | ```Hides notification nudges & counts from navigation bar icons``` | ```com.twitter.android``` | ```All versions``` |
-| ```Hide Banner``` | ```Hide new post banner``` | ```com.twitter.android``` | ```All versions``` |
-| ```Hide bookmark icon in timeline``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Hide community badges``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Hide Community Notes``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Hide FAB``` | ```Adds an option to hide Floating action button``` | ```com.twitter.android``` | ```All versions``` |
-| ```Hide FAB Menu Buttons``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Hide followed by context``` | ```Hides followed by context under profile``` | ```com.twitter.android``` | ```All versions``` |
-| ```Hide hidden replies``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Hide immersive player``` | ```Removes swipe up for more videos in video player``` | ```com.twitter.android``` | ```All versions``` |
-| ```Hide Live Threads``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Hide nudge button``` | ```Hides follow/subscribe/follow back buttons on posts``` | ```com.twitter.android``` | ```All versions``` |
-| ```Hide post metrics``` | ```Hides like, reposts etc counts.``` | ```com.twitter.android``` | ```All versions``` |
-| ```Hide promote button``` | ```Hides promote button under self posts``` | ```com.twitter.android``` | ```All versions``` |
-| ```Hide recommendation items``` | ```Adds options to hide recommendation items such as "Who to follow" and "Today's news" in timeline, search, and replies.``` | ```com.twitter.android``` | ```All versions``` |
-| ```Hide Recommended Users``` | ```Hide recommended users that pops up when you follow someone``` | ```com.twitter.android``` | ```All versions``` |
-| ```Hook feature flag``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
-| ```Import/Export login token``` | ```Adds an feature to export and import the token of accounts. This is useful when logging in on your second device or when re-installing piko.``` | ```com.twitter.android``` | ```All versions``` |
-| ```Legacy share links``` | ```Brings back username on post share links. Works post 11.4x.xx``` | ```com.twitter.android``` | ```All versions``` |
-| ```Log server response``` | ```Log json responses received from server``` | ```com.twitter.android``` | ```All versions``` |
-| ```Native downloader``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
-| ```Native reader mode``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
-| ```Native translator``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
-| ```No shortened URL``` | ```Get rid of t.co short urls.``` | ```com.twitter.android``` | ```All versions``` |
-| ```Pause search suggestions``` | ```Search suggestions will not be saved locally``` | ```com.twitter.android``` | ```All versions``` |
-| ```Remove Ads``` | ```Removed promoted posts, trends and google ads``` | ```com.twitter.android``` | ```All versions``` |
-| ```Remove premium upsell``` | ```Removes premium upsell in home timeline``` | ```com.twitter.android``` | ```All versions``` |
-| ```Remove search suggestions``` | ```Hide/Remove search suggestion in explore section``` | ```com.twitter.android``` | ```All versions``` |
-| ```Remove view count``` | ```Removes the view count from the bottom of tweets``` | ```com.twitter.android``` | ```All versions``` |
-| ```Round off numbers``` | ```Enable or disable rounding off numbers``` | ```com.twitter.android``` | ```All versions``` |
-| ```Selectable Text``` | ```Makes bio and username selectable``` | ```com.twitter.android``` | ```All versions``` |
-| ```Share Tweet as Image``` | ```Share tweets as rendered image. Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```All versions``` |
-| ```Show changelogs``` | ```Shows changelogs when new a patch is installed.``` | ```com.twitter.android``` | ```All versions``` |
-| ```Show poll results``` | ```Adds an option to show poll results without voting``` | ```com.twitter.android``` | ```All versions``` |
-| ```Show post source label``` | ```Source label will be shown only on public posts``` | ```com.twitter.android``` | ```All versions``` |
-| ```Show sensitive media``` | ```N/A``` | ```com.twitter.android``` | ```All versions``` |
+| ```Download patch``` | ```Unlocks the ability to download videos and gifs from Twitter/X``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Dynamic color``` | ```Replaces the default Twitter Blue with the user's Material You palette.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Enable debug menu for posts``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Enable force HD videos``` | ```Videos will be played in highest quality always``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Enable PiP mode automatically``` | ```Enables PiP mode when you close the app``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Enable Undo Posts``` | ```Enables ability to undo posts before posting``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Export all activities``` | ```Makes all app activities exportable.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Force enable translate``` | ```Get translate option for all posts``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Handle custom twitter links``` | ```Adds support for opening custom twitter links such as vxtwitter, fxtwitter, and fixupx within the app. These will have to be manually enabled under the "Open by default" section in the app info!``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Hide badges from navigation bar icons``` | ```Hides notification nudges & counts from navigation bar icons``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Hide Banner``` | ```Hide new post banner``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Hide bookmark icon in timeline``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Hide community badges``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Hide Community Notes``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Hide FAB``` | ```Adds an option to hide Floating action button``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Hide FAB Menu Buttons``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Hide followed by context``` | ```Hides followed by context under profile``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Hide hidden replies``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Hide immersive player``` | ```Removes swipe up for more videos in video player``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Hide Live Threads``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Hide nudge button``` | ```Hides follow/subscribe/follow back buttons on posts``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Hide post metrics``` | ```Hides like, reposts etc counts.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Hide promote button``` | ```Hides promote button under self posts``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Hide recommendation items``` | ```Adds options to hide recommendation items such as "Who to follow" and "Today's news" in timeline, search, and replies.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Hide Recommended Users``` | ```Hide recommended users that pops up when you follow someone``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Hook feature flag``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Import/Export login token``` | ```Adds an feature to export and import the token of accounts. This is useful when logging in on your second device or when re-installing piko.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Legacy share links``` | ```Brings back username on post share links. Works post 11.4x.xx``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Log server response``` | ```Log json responses received from server``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Native downloader``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Native reader mode``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Native translator``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```No shortened URL``` | ```Get rid of t.co short urls.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Pause search suggestions``` | ```Search suggestions will not be saved locally``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Remove Ads``` | ```Removed promoted posts, trends and google ads``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Remove premium upsell``` | ```Removes premium upsell in home timeline``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Remove search suggestions``` | ```Hide/Remove search suggestion in explore section``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Remove view count``` | ```Removes the view count from the bottom of tweets``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Round off numbers``` | ```Enable or disable rounding off numbers``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Selectable Text``` | ```Makes bio and username selectable``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Share Tweet as Image``` | ```Share tweets as rendered image. Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Show changelogs``` | ```Shows changelogs when new a patch is installed.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Show poll results``` | ```Adds an option to show poll results without voting``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Show post source label``` | ```Source label will be shown only on public posts``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Show sensitive media``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
 
 </details>
 
