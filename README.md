@@ -1,18 +1,48 @@
-# ❓ About 
-This repository automatically checks for patch and integration (or patches & extensions; depends on API version) updates from the repositories listed [below](#-patch-bundles-urls) every 30 minutes. These repositories are alternative ReVanced patch and integration/extension sources for users who want extended patch sources with ReVanced. The links listed below are used for the patch bundle sources in the [ReVanced Manager Compose](https://github.com/Jman-Github/ReVanced-Patch-Bundles/tree/bundles?tab=readme-ov-file#-revanced-manager-compose). Use these links to set your patch bundle(s) inside the ReVanced Manager Compose. Choose between dev, stable and latest (this includes prereleases & regular releases) releases for the patch bundle sources. The links import the patch bundle(s) (integrations & patches or patches & extensions; depends on API version) into the manager, which updates the bundle(s) whenever the linked code changes. The patch bundles with the "[API v4]" label signify whether the patch bundle uses the old API (API v3) or the new one (being API v4). Currently, the [ReVanced Manager Compose](https://github.com/Jman-Github/ReVanced-Patch-Bundles/tree/bundles?tab=readme-ov-file#-revanced-manager-compose) only supports API v4 bundles, so any bundle without the "API v4" label will not be usable in the manager. 
-*If you have any other working ReVanced alternative patch and integration/extension repositories that aren't already included in this repository, please create an [issue](https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues) to let me know.*
+# ReVanced Patch Bundles
 
-If you would like to see what patches the patch bundles tracked in this repository have to offer, check out the [Patch List Catalog](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md). It lists all the patches contained within all the patch bundles. Or check out the WebUI made by [Paresh-Maheshwari](https://github.com/Paresh-Maheshwari) called [Patch Explorer](https://paresh-maheshwari.github.io/patch-explorer/)!
-> [!IMPORTANT]
-> **Latest:** The latest patch & integrations with prereleases included. Meaning if the latest release is a prerelease, it will update to that. If it's a regular release, it will also update to that.
->
->**Stable:** The latest stable patch & integrations with prereleases excluded. Meaning it will just update to the latest regular releases and skip over prereleases.
->
->**Dev:** The latest dev patch & integrations with regular releases excluded. Meaning it will just update to the latest prerelease and skip over the regular releases.
+Patch bundle sources for ReVanced, Morphe, and related Android patching projects.
 
-> [!WARNING]  
-> Some of the dev-patch-bundle/stable-patch-bundles sources will not be working. This is due to some of the repositories having never created a prerelease/release. Those sources will have "N/A" in the respective patch-bundle.json files.
-# 📋 Patch Bundles URLs 
+## Quick Links
+
+- [Patch bundle URLs](#-patch-bundles-urls)
+- [Compatible managers](#-compatible-managers)
+- [Patch repositories](#-patch-repositories-in-use)
+- [Integration repositories](#-integrations-repositories-in-use)
+- [Suggestions, questions, and issues](#-suggestions-questions--issues)
+
+## ❓ Overview
+
+This repository tracks patch bundle sources for ReVanced, Morphe, and related patch ecosystems. It automatically checks the repositories listed [below](#-patch-bundles-urls) every 30 minutes and publishes bundle JSON links that can be imported into compatible managers.
+
+Each bundle link points at the current metadata for one source. Depending on the bundle format, that metadata may reference patches plus integrations, or patches plus extensions. Importing one of these links lets the manager refresh the bundle whenever the tracked source updates.
+
+## Bundle Labels
+
+| Label | Meaning |
+| --- | --- |
+| `API v4` | Uses the newer ReVanced patch bundle format. |
+| `Morphe` | Uses Morphe-compatible bundle metadata. |
+| `Legacy` | Uses the older integration-based format and may not work in managers that only support newer bundle formats. |
+
+## Patch Lists
+
+For the actual patch contents, use the [Patch List Catalog](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md) or [Patch Explorer](https://paresh-maheshwari.github.io/patch-explorer/) by [Paresh-Maheshwari](https://github.com/Paresh-Maheshwari).
+
+If you know of another working ReVanced or Morphe patch repository that is not listed here, please open an [issue](https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues).
+
+## Release Channels
+
+| Channel | Behavior |
+| --- | --- |
+| `Latest` | Tracks the newest release, including prereleases. If the newest release is a prerelease, this channel uses it. |
+| `Stable` | Tracks the newest regular release and skips prereleases. |
+| `Dev` | Tracks the newest prerelease and skips regular releases. |
+
+> [!WARNING]
+> Some stable or dev bundle links may be unavailable when the upstream repository has never published the matching release type. Those entries are marked as `N/A` in their respective `patch-bundle.json` files.
+
+## 📋 Patch Bundles URLs
+
 ### 📦 ReVanced-Patches-Bundle [API v4]:
 [🧩 ReVanced Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-revanced-bundle-patch-list)
 <details>
@@ -858,21 +888,19 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-# 📱 ReVanced Manager Compose:
-### 📍 Universal ReVanced Manager (my fork)
-*Highly suggested if you want to be unrestricted in the patch bundles you import!*
-#### 📋 Source:
-https://github.com/Jman-Github/universal-revanced-manager
-#### 📩 Latest Downloads:
-https://github.com/Jman-Github/universal-revanced-manager/releases
+## 📱 Compatible Managers
 
-### 🛠️ Official ReVanced Manager
-#### 📋 Source:
-https://github.com/ReVanced/revanced-manager/tree/dev
-#### 📩 Latest Downloads:
-https://github.com/ReVanced/revanced-manager/releases
+| Manager | Best For | Source | Downloads |
+| --- | --- | --- | --- |
+| Universal ReVanced Manager (my fork) | Importing ReVanced, Morphe, and other third-party patch bundle sources with fewer restrictions. | [Source](https://github.com/Jman-Github/universal-revanced-manager) | [Releases](https://github.com/Jman-Github/universal-revanced-manager/releases) |
+| Morphe Manager | Morphe patch bundles and the Morphe patching flow. | [Source](https://github.com/MorpheApp/morphe-manager) | [Releases](https://github.com/MorpheApp/morphe-manager/releases) |
+| Official ReVanced Manager | The official ReVanced flow and supported bundle formats. | [Source](https://github.com/ReVanced/revanced-manager) | [Releases](https://github.com/ReVanced/revanced-manager/releases) |
 
-# 🩹 Patch Repositories In Use
+## 🩹 Patch Repositories In Use
+
+<details>
+<summary>Expand patch repository links</summary>
+
 #### 🏷️ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-patches)
 
 #### 🏷️ [Inotia00-Patches-Bundle](https://github.com/inotia00/revanced-Patches)
@@ -1003,8 +1031,15 @@ https://github.com/ReVanced/revanced-manager/releases
 
 #### 🏷️ [Ariecos-Patches-Bundle](https://github.com/ariecos/gemini-patches)
 
-# 🖇 Integrations Repositories In Use
-__*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be included in this section. These patch bundles use extensions instead of integrations and do not utilize two repositories.*
+</details>
+
+## 🖇 Integrations Repositories In Use
+
+> [!NOTE]
+> This section only applies to legacy integration-based bundles. API v4 and Morphe bundles use newer metadata and are not listed here when they do not rely on a separate integrations repository.
+
+<details>
+<summary>Expand integration repository links</summary>
 
 #### ⛓ [BiliRoamingM-Patches-Bundle](https://github.com/sakarie9/BiliRoamingM)
 
@@ -1032,15 +1067,28 @@ __*NOTICE:*__ *Patch bundles in this repository that use API v4 will not be incl
 
 #### ⛓ [Kangrio-Patches-Bundle](https://github.com/ReVanced/revanced-integrations)
 
-# 📋 Suggestions, Questions & Issues
-If you have any issues, suggestions, and/or questions please don't be afraid to create an [issue](https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues/new)! You can also communicate with me in [discussions](https://github.com/Jman-Github/ReVanced-Patch-Bundles/discussions). For contributors, see information about that [here](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/CONTRIBUTING.md).
+</details>
 
-Check out [Awesome-ReVanced](https://github.com/Jman-Github/Awesome-ReVanced) if you want more ReVanced related projects and resources!
+## 📋 Suggestions, Questions & Issues
 
-## 🤝 Contributors
+For issues, suggestions, or questions, open an [issue](https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues/new) or start a [discussion](https://github.com/Jman-Github/ReVanced-Patch-Bundles/discussions). Contributor information is available in [CONTRIBUTING.md](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/CONTRIBUTING.md).
+
+For more patching-related projects and resources, check out [Awesome-ReVanced](https://github.com/Jman-Github/Awesome-ReVanced).
+
+## 🙏 Credits
 ##### [indrastorms](https://github.com/indrastorms)
 Helped with the automation of this repository by using GitHub Actions.
 
 ##### [brosssh](https://github.com/brosssh)
 Implemented a patch serializer for all `.rvp` (API v4) patch bundles in this
 [PR](https://github.com/Jman-Github/ReVanced-Patch-Bundles/pull/85).
+
+## ⭐ Star History
+
+<a href="https://www.star-history.com/?repos=Jman-Github%2FRevanced-Patch-Bundlestype=date&legend=top-left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Jman-Github/Revanced-Patch-Bundles&type=date&theme=dark&legend=top-left" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Jman-Github/Revanced-Patch-Bundles&type=date&legend=top-left" />
+    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Jman-Github/Revanced-Patch-Bundles&type=date&legend=top-left" />
+  </picture>
+</a>
