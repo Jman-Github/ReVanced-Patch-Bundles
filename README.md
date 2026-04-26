@@ -143,7 +143,7 @@ If you would like to see what patches the patch bundles tracked in this reposito
 </details>
 
 ---
-### 📦 BholeyKaBhakt-Patches-Bundle [API v4]:
+### 📦 BholeyKaBhakt-Patches-Bundle [Morphe]:
 [🧩 BholeyKaBhakt Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-bholeykabhakt-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
