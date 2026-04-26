@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.37",
+    "version": "v1.4.0-dev.38",
     "patches": [
         {
             "compatiblePackages": {
@@ -58,6 +58,18 @@
             "dependencies": [],
             "description": "Bypasses integrity check to allow login on patched app.",
             "name": "Bypass integrity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "in.startv.hotstar": [
+                    "26.04.13.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bypasses app signature verification to allow API access.",
+            "name": "Bypass signature check",
             "options": [],
             "use": true
         },
@@ -130,6 +142,30 @@
             "dependencies": [],
             "description": "Increases download chunk size and max concurrent requests.",
             "name": "Download speed boost",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "in.startv.hotstar": [
+                    "26.04.13.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Allows playback while screen mirroring or HDMI is connected.",
+            "name": "Enable screen mirroring",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "in.startv.hotstar": [
+                    "26.04.13.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes screenshot and screen recording restrictions.",
+            "name": "Enable screenshots",
             "options": [],
             "use": true
         },
@@ -238,6 +274,30 @@
             "dependencies": [],
             "description": "Unlocks premium features and removes ads.",
             "name": "Mark Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "in.startv.hotstar": [
+                    "26.04.13.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium UI features, removes subscription nudges, and enables downloads.",
+            "name": "Premium unlock",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "in.startv.hotstar": [
+                    "26.04.13.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes pre-roll and mid-roll video ads.",
+            "name": "Remove ads",
             "options": [],
             "use": true
         },

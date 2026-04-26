@@ -2978,7 +2978,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***26 Patches***
+***31 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```MacroDroid Premium``` | ```Unlocks premium features and removes macro limits.``` | ```com.arlosoft.macrodroid``` | ```5.62.11``` |
@@ -2997,6 +2997,11 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide Scams tab``` | ```Hides the Scams tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Truecaller Premium``` | ```Unlocks premium features.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```CREX Premium``` | ```Unlocks premium features and removes ads.``` | ```in.cricketexchange.app.cricketexchange``` | ```26.04.05``` |
+| ```Bypass signature check``` | ```Bypasses app signature verification to allow API access.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
+| ```Enable screen mirroring``` | ```Allows playback while screen mirroring or HDMI is connected.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
+| ```Enable screenshots``` | ```Removes screenshot and screen recording restrictions.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
+| ```Premium unlock``` | ```Unlocks premium UI features, removes subscription nudges, and enables downloads.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
+| ```Remove ads``` | ```Removes pre-roll and mid-roll video ads.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
 | ```Anti-delete messages``` | ```Prevents deleted messages from being removed locally.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
 | ```Anti-disappearing media``` | ```Keeps view-once and self-destructing media viewable forever.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
 | ```Bypass channel restrictions``` | ```Allows opening copyrighted, sensitive, and temporarily disabled channels.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
