@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.39",
+    "version": "v1.12.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -63,18 +63,6 @@
         },
         {
             "compatiblePackages": {
-                "in.startv.hotstar": [
-                    "26.04.13.3"
-                ]
-            },
-            "dependencies": [],
-            "description": "Bypasses app signature verification to allow API access.",
-            "name": "Bypass signature check",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "in.cricketexchange.app.cricketexchange": [
                     "26.04.05"
                 ]
@@ -99,30 +87,6 @@
         },
         {
             "compatiblePackages": {
-                "com.truecaller": [
-                    "26.10.6"
-                ]
-            },
-            "dependencies": [],
-            "description": "Disables AppStartTracker and other telemetry points.",
-            "name": "Disable telemetry",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.truecaller": [
-                    "26.10.6"
-                ]
-            },
-            "dependencies": [],
-            "description": "Disables the in-app update check.",
-            "name": "Disable update check",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.cv.docscanner": [
                     "6.8.18"
                 ]
@@ -142,30 +106,6 @@
             "dependencies": [],
             "description": "Increases download chunk size and max concurrent requests.",
             "name": "Download speed boost",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "in.startv.hotstar": [
-                    "26.04.13.3"
-                ]
-            },
-            "dependencies": [],
-            "description": "Allows playback while screen mirroring or HDMI is connected.",
-            "name": "Enable screen mirroring",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "in.startv.hotstar": [
-                    "26.04.13.3"
-                ]
-            },
-            "dependencies": [],
-            "description": "Removes screenshot and screen recording restrictions.",
-            "name": "Enable screenshots",
             "options": [],
             "use": true
         },
@@ -212,30 +152,6 @@
                 ]
             },
             "dependencies": [],
-            "description": "Hides the Premium options from the settings and user details pages.",
-            "name": "Hide Premium from settings",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.truecaller": [
-                    "26.10.6"
-                ]
-            },
-            "dependencies": [],
-            "description": "Hides the Premium tab from the bottom navigation bar.",
-            "name": "Hide Premium tab",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.truecaller": [
-                    "26.10.6"
-                ]
-            },
-            "dependencies": [],
             "description": "Hides the Scams tab from the bottom navigation bar.",
             "name": "Hide Scams tab",
             "options": [],
@@ -255,18 +171,6 @@
         },
         {
             "compatiblePackages": {
-                "com.arlosoft.macrodroid": [
-                    "5.62.11"
-                ]
-            },
-            "dependencies": [],
-            "description": "Unlocks premium features and removes macro limits.",
-            "name": "MacroDroid Premium",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.markOne.ss_app": [
                     "6.6"
                 ]
@@ -274,30 +178,6 @@
             "dependencies": [],
             "description": "Unlocks premium features and removes ads.",
             "name": "Mark Premium",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "in.startv.hotstar": [
-                    "26.04.13.3"
-                ]
-            },
-            "dependencies": [],
-            "description": "Unlocks premium UI features, removes subscription nudges, and enables downloads.",
-            "name": "Premium unlock",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "in.startv.hotstar": [
-                    "26.04.13.3"
-                ]
-            },
-            "dependencies": [],
-            "description": "Removes pre-roll and mid-roll video ads.",
-            "name": "Remove ads",
             "options": [],
             "use": true
         },
