@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.3.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -36,16 +36,6 @@
             "name": "Disable Telemetry",
             "options": [],
             "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.paypal.android.p2pmobile": null
-            },
-            "dependencies": [],
-            "description": "Renames your account to 'Elon Musk' and sets your currency to Dogecoin.",
-            "name": "Elon Musk Mode",
-            "options": [],
-            "use": false
         },
         {
             "compatiblePackages": {
@@ -90,16 +80,6 @@
             "dependencies": [],
             "description": "Disables ad detection logic globally. Safe for Home feed.",
             "name": "Remove Promoted Pins",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.paypal.android.p2pmobile": null
-            },
-            "dependencies": [],
-            "description": "Adds infinite funds to your PayPal account. Do you think it will work?",
-            "name": "Unlimited Money",
             "options": [],
             "use": true
         },
