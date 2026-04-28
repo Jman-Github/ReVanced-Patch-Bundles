@@ -38,21 +38,7 @@ def load_patch_info(bundle_dir: Path) -> list[dict[str, str]]:
 
         name = patch.get("name") or "N/A"
         description = patch.get("description") or "N/A"
-        comp = patch.get("compatiblePackages")
-        if not comp:
-            apps = "Universal"
-            versions_str = "All versions"
-        else:
-            apps = ", ".join(comp.keys())
-            version_parts: list[str] = []
-            for versions in comp.values():
-                if not versions:
-                    continue
-                if isinstance(versions, list):
-                    version_parts.extend(str(v) for v in versions)
-                else:
-                    version_parts.append(str(versions))
-            versions_str = ", ".join(version_parts) if version_parts else "All versions"
+        apps, versions_str = format_compatible_packages(patch.get("compatiblePackages"))
 
         patches.append(
             {
@@ -64,6 +50,42 @@ def load_patch_info(bundle_dir: Path) -> list[dict[str, str]]:
         )
 
     return patches
+
+
+def _version_parts(versions: object) -> list[str]:
+    if not versions:
+        return []
+    if isinstance(versions, list):
+        return [str(v) for v in versions if v is not None]
+    return [str(versions)]
+
+
+def format_compatible_packages(comp: object) -> tuple[str, str]:
+    if not comp:
+        return "Universal", "All versions"
+
+    app_names: list[str] = []
+    version_parts: list[str] = []
+
+    if isinstance(comp, dict):
+        app_names.extend(str(app) for app in comp.keys())
+        for versions in comp.values():
+            version_parts.extend(_version_parts(versions))
+    elif isinstance(comp, list):
+        for entry in comp:
+            if isinstance(entry, dict):
+                package_name = entry.get("name") or entry.get("packageName")
+                if package_name:
+                    app_names.append(str(package_name))
+                version_parts.extend(_version_parts(entry.get("versions")))
+            elif entry:
+                app_names.append(str(entry))
+    else:
+        app_names.append(str(comp))
+
+    apps = ", ".join(app_names) if app_names else "Universal"
+    versions_str = ", ".join(version_parts) if version_parts else "All versions"
+    return apps, versions_str
 
 
 def _squash_whitespace(value: str) -> str:
@@ -84,12 +106,8 @@ def format_patch_lines(patches: list[dict[str, str]]) -> list[str]:
     lines: list[str] = []
     lines.append("")
     lines.append(f"***{count} {patch_word}***")
-    lines.append(
-        "| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |"
-    )
-    lines.append(
-        "|----------|---------------|---------------------|-------------------------|"
-    )
+    lines.append("| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |")
+    lines.append("|----------|---------------|---------------------|-------------------------|")
     sorted_patches = sorted(patches, key=_patch_sort_key)
     for info in sorted_patches:
         name_cell = f"```{_squash_whitespace(info.get('name', 'N/A'))}```"
@@ -122,9 +140,7 @@ def read_catalog_patch_names(catalog_path: Path) -> set[str]:
     return names
 
 
-def inject_patch_lines(
-    catalog_lines: list[str], bundle_name: str, patch_lines: list[str]
-) -> bool:
+def inject_patch_lines(catalog_lines: list[str], bundle_name: str, patch_lines: list[str]) -> bool:
     header_regex = re.compile(
         rf"^### 🧩 {re.escape(bundle_name)} Bundle Patch List:", re.IGNORECASE
     )
