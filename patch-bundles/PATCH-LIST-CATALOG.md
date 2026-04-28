@@ -3129,7 +3129,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```GmsCore MicroG support``` | ```Injects the MicroG signature-spoof permission into Gemini's AndroidManifest.``` | ```com.google.android.apps.bard, com.google.android.googlequicksearchbox``` | ```All versions``` |
-| ```Route intents to patched apps``` | ```Extends Gemini's package allowlist to include Morphe-patched YouTube and YouTube Music.``` | ```com.google.android.apps.bard, com.google.android.googlequicksearchbox``` | ```All versions``` |
+| ```Route intents to patched apps``` | ```Replaces unused internal package names in Gemini's allowlist with Morphe-patched YouTube and YouTube Music package names.``` | ```com.google.android.apps.bard, com.google.android.googlequicksearchbox``` | ```All versions``` |
 
 </details>
 

@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.5",
+    "version": "v1.1.15",
     "patches": [
         {
             "compatiblePackages": {
@@ -18,7 +18,7 @@
                 "com.google.android.googlequicksearchbox": null
             },
             "dependencies": [],
-            "description": "Extends Gemini's package allowlist to include Morphe-patched YouTube and YouTube Music.",
+            "description": "Replaces unused internal package names in Gemini's allowlist with Morphe-patched YouTube and YouTube Music package names.",
             "name": "Route intents to patched apps",
             "options": [],
             "use": true
