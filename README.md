@@ -888,6 +888,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+### 📦 Joganubaid-Patches-Bundle [Morphe]:
+[🧩 Joganubaid Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-joganubaid-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/joganubaid-patch-bundles/joganubaid-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/joganubaid-patch-bundles/joganubaid-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/joganubaid-patch-bundles/joganubaid-dev-patches-bundle.json```
+</details>
+
+---
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -1030,6 +1043,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [RaiuSky-Patches-Bundle](https://github.com/RaiuSky/patches-repo)
 
 #### 🏷️ [Ariecos-Patches-Bundle](https://github.com/ariecos/gemini-patches)
+
+#### 🏷️ [Joganubaid-Patches-Bundle](https://github.com/joganubaid/adguard-morphe-patches)
 
 </details>
 

@@ -68,6 +68,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Vladon Bundle Patch List](#-vladon-bundle-patch-list)    
 [🧩 RaiuSky Bundle Patch List](#-raiusky-bundle-patch-list)    
 [🧩 Ariecos Bundle Patch List](#-ariecos-bundle-patch-list)    
+[🧩 Joganubaid Bundle Patch List](#-joganubaid-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -3129,5 +3130,15 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 |----------|---------------|---------------------|-------------------------|
 | ```GmsCore MicroG support``` | ```Injects the MicroG signature-spoof permission into Gemini's AndroidManifest.``` | ```com.google.android.apps.bard, com.google.android.googlequicksearchbox``` | ```All versions``` |
 | ```Route intents to patched apps``` | ```Extends Gemini's package allowlist to include Morphe-patched YouTube and YouTube Music.``` | ```com.google.android.apps.bard, com.google.android.googlequicksearchbox``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Joganubaid Bundle Patch List:
+[📦 Joganubaid-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-joganubaid-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
 
 </details>
