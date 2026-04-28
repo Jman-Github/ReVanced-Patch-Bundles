@@ -2145,7 +2145,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Allow reply to feed``` | ```Allows replying to feed messages``` | ```com.kakao.talk``` | ```26.3.2``` |
 | ```Always Show Kick Button``` | ```Always shows the kick button in group member management.``` | ```com.kakao.talk``` | ```26.3.2``` |
 | ```Bypass input mention limit in non-multichat``` | ```Bypass the limit of input mentions in non-multichat rooms``` | ```com.kakao.talk``` | ```26.3.2``` |
-| ```Bypass Moat check``` | ```Bypass Moat check that prevents the app from running.``` | ```com.kakao.talk``` | ```26.3.2``` |
+| ```Bypass Moat check``` | ```Add a setting to bypass the Moat integrity check that can prevent KakaoPay from running.``` | ```com.kakao.talk``` | ```26.3.2``` |
 | ```Change model``` | ```Changes the device model to supporting subdevice features``` | ```com.kakao.talk``` | ```26.3.2``` |
 | ```Change package name``` | ```Appends ".revanced" to the package name by default. For KakaoTalk only``` | ```com.kakao.talk``` | ```26.3.2``` |
 | ```Custom branding``` | ```Customize app branding (name)``` | ```com.kakao.talk``` | ```26.3.2``` |

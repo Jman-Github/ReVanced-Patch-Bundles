@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.17",
+    "version": "v1.0.0-dev.19",
     "patches": [
         {
             "compatiblePackages": {
@@ -141,11 +141,13 @@
                     "26.3.2"
                 ]
             },
-            "dependencies": [],
-            "description": "Bypass Moat check that prevents the app from running.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Add a setting to bypass the Moat integrity check that can prevent KakaoPay from running.",
             "name": "Bypass Moat check",
             "options": [],
-            "use": false
+            "use": true
         },
         {
             "compatiblePackages": {
