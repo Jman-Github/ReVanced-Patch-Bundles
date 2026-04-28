@@ -3139,10 +3139,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***2 Patches***
+***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Enable Premium``` | ```Enables AdGuard premium by bypassing license expiration check``` | ```AdGuard``` | ```All versions``` |
-| ```Example Patch``` | ```Example patch to start with.``` | ```XYZ app``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables AdGuard premium by patching license expiration``` | ```AdGuard``` | ```All versions``` |
 
 </details>
