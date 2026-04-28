@@ -2982,9 +2982,11 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***21 Patches***
+***27 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Disable telemetry``` | ```Blocks all telemetry, analytics, and observability data collection.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
+| ```Proton VPN Premium``` | ```Unlocks premium UI, removes upsells, and shows only free servers.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
 | ```Doc Scanner Premium``` | ```Unlocks all premium features, removes ads, and enables pro themes.``` | ```com.cv.docscanner``` | ```6.8.18``` |
 | ```Eyecon Premium``` | ```Unlocks premium features.``` | ```com.eyecon.global``` | ```4.2026.04.05.1300``` |
 | ```VN Premium``` | ```Unlocks premium features, removes watermark, and hides Pro tab.``` | ```com.frontrow.vlog``` | ```2.12.0``` |
@@ -2992,7 +2994,11 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Fing Premium``` | ```Unlocks premium network tools and features.``` | ```com.overlook.android.fing``` | ```12.11.9``` |
 | ```Teleprompter Premium``` | ```Unlocks premium features in Teleprompter Vlog & Scripts app.``` | ```com.solid.teleprompter``` | ```6.8.2, 6.8.1``` |
 | ```TickTick Premium``` | ```Unlocks premium features, removes limits, and enables AI tools.``` | ```com.ticktick.task``` | ```8.0.6.1``` |
+| ```Disable telemetry``` | ```Disables AppStartTracker and other telemetry points.``` | ```com.truecaller``` | ```26.10.6``` |
+| ```Disable update check``` | ```Disables the in-app update check.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Hide Assistant tab``` | ```Hides the Assistant tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
+| ```Hide Premium from settings``` | ```Hides the Premium options from the settings and user details pages.``` | ```com.truecaller``` | ```26.10.6``` |
+| ```Hide Premium tab``` | ```Hides the Premium tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Hide Scams tab``` | ```Hides the Scams tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Truecaller Premium``` | ```Unlocks premium features.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```CREX Premium``` | ```Unlocks premium features and removes ads.``` | ```in.cricketexchange.app.cricketexchange``` | ```26.04.05``` |

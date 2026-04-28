@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.0",
+    "version": "v1.14.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -87,6 +87,42 @@
         },
         {
             "compatiblePackages": {
+                "ch.protonvpn.android": [
+                    "5.17.72.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Blocks all telemetry, analytics, and observability data collection.",
+            "name": "Disable telemetry",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables AppStartTracker and other telemetry points.",
+            "name": "Disable telemetry",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the in-app update check.",
+            "name": "Disable update check",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.cv.docscanner": [
                     "6.8.18"
                 ]
@@ -152,6 +188,30 @@
                 ]
             },
             "dependencies": [],
+            "description": "Hides the Premium options from the settings and user details pages.",
+            "name": "Hide Premium from settings",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hides the Premium tab from the bottom navigation bar.",
+            "name": "Hide Premium tab",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
+            "dependencies": [],
             "description": "Hides the Scams tab from the bottom navigation bar.",
             "name": "Hide Scams tab",
             "options": [],
@@ -178,6 +238,18 @@
             "dependencies": [],
             "description": "Unlocks premium features and removes ads.",
             "name": "Mark Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "ch.protonvpn.android": [
+                    "5.17.72.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium UI, removes upsells, and shows only free servers.",
+            "name": "Proton VPN Premium",
             "options": [],
             "use": true
         },

@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.39",
+    "version": "v1.4.0-dev.40",
     "patches": [
         {
             "compatiblePackages": {
@@ -94,6 +94,18 @@
             "dependencies": [],
             "description": "Disables automatic app update checks.",
             "name": "Disable auto update",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "ch.protonvpn.android": [
+                    "5.17.72.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Blocks all telemetry, analytics, and observability data collection.",
+            "name": "Disable telemetry",
             "options": [],
             "use": true
         },
@@ -286,6 +298,18 @@
             "dependencies": [],
             "description": "Unlocks premium UI features, removes subscription nudges, and enables downloads.",
             "name": "Premium unlock",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "ch.protonvpn.android": [
+                    "5.17.72.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium UI, removes upsells, and shows only free servers.",
+            "name": "Proton VPN Premium",
             "options": [],
             "use": true
         },
