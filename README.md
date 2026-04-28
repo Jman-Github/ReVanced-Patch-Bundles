@@ -934,7 +934,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [Kitadai31-Patches-Bundle](https://github.com/kitadai31/revanced-patches-android6-7)
 
-#### 🏷️ [BholeyKaBhakt-Patches-Bundle](https://github.com/BholeyKaBhakt/revanced-patches-xtra)
+#### 🏷️ [BholeyKaBhakt-Patches-Bundle](https://github.com/BholeyKaBhakt/android-patches-xtra)
 
 #### 🏷️ [Andronedev-Patches-Bundle](https://github.com/andronedev/morphe-patches)
 
