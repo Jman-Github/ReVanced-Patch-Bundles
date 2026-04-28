@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.1",
+    "version": "v1.0.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -28,7 +28,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Enables AdGuard premium by patching license expiration",
+            "description": "Enables AdGuard premium by patching license expiration checks",
             "name": "Enable Premium",
             "options": []
         }
