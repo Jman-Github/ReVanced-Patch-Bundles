@@ -862,19 +862,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
-### 📦 RaiuSky-Patches-Bundle [Morphe]:
-[🧩 RaiuSky Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-raiusky-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/raiusky-patch-bundles/raiusky-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/raiusky-patch-bundles/raiusky-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/raiusky-patch-bundles/raiusky-dev-patches-bundle.json```
-</details>
-
----
 ### 📦 Ariecos-Patches-Bundle [Morphe]:
 [🧩 Ariecos Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ariecos-bundle-patch-list)
 <details>
