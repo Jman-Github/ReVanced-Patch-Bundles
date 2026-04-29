@@ -66,7 +66,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Ajstrick81 Bundle Patch List](#-ajstrick81-bundle-patch-list)    
 [🧩 Eyalm2000 Bundle Patch List](#-eyalm2000-bundle-patch-list)    
 [🧩 Vladon Bundle Patch List](#-vladon-bundle-patch-list)    
-[🧩 RaiuSky Bundle Patch List](#-raiusky-bundle-patch-list)    
 [🧩 Ariecos Bundle Patch List](#-ariecos-bundle-patch-list)  
 [🧩 Joganubaid Bundle Patch List](#-joganubaid-bundle-patch-list)    
 [🧩 Alim-zanibekov Bundle Patch List](#-alim-zanibekov-bundle-patch-list)    
@@ -3112,21 +3111,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Bypass Passport signature mismatch crash``` | ```Strips the IllegalStateException + PassportRuntime handler block in c0.releaseRuntimeChecks (smali-aligned).``` | ```ru.yandex.yandexnavi``` | ```28.6.5``` |
 | ```Debuggable application manifest``` | ```Sets android:debuggable=true on <application> (Passport allows non-Play signature on that path).``` | ```ru.yandex.yandexnavi``` | ```28.6.5``` |
 | ```Enable debug panel``` | ```Unlocks the internal Maps-shell debug panel gate (Yandexoid prefs + swipable experiment).``` | ```ru.yandex.yandexnavi``` | ```28.6.5``` |
-
-</details>
-
----
-### 🧩 RaiuSky Bundle Patch List:
-[📦 RaiuSky-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-raiusky-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
-
-***3 Patches***
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Example Patch``` | ```Example patch to start with.``` | ```com.example.app``` | ```2.0.0, 1.0.2``` |
-| ```Disable Splash Screen``` | ```Disables the splash screen. Used to verify the patcher is working.``` | ```com.tracked.mobile``` | ```6.5.1``` |
-| ```Tracked Pro``` | ```Unlocks pro features by patching RevenueCat entitlement checks.``` | ```com.tracked.mobile``` | ```6.5.1``` |
 
 </details>
 

@@ -1105,13 +1105,11 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [Vladon-Patches-Bundle](https://github.com/vladon/morphe-patches-navi)
 
-#### 🏷️ [RaiuSky-Patches-Bundle](https://github.com/RaiuSky/patches-repo)
-
 #### 🏷️ [Ariecos-Patches-Bundle](https://github.com/ariecos/gemini-patches)
 
 #### 🏷️ [Joganubaid-Patches-Bundle](https://github.com/joganubaid/adguard-morphe-patches)
 
-#### 🏷️ [Alim-Zanibekov-Patches-Bundle](https://github.com/joganubaid/alim-zanibekov/ultrasandbox)
+#### 🏷️ [Alim-Zanibekov-Patches-Bundle](https://github.com/alim-zanibekov/ultrasandbox)
 
 #### 🏷️ [Daboynb-Patches-Bundle](https://github.com/daboynb/revanced-instagram-viewonce)
 
