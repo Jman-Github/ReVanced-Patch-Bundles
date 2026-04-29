@@ -126,23 +126,20 @@ private fun loadModernPatchesFromJar(
     modernClassLoader: ClassLoader,
     classpathFiles: List<File>
 ): List<Any> {
-    val loadMethod = findStaticMethodInPackage(
+    val loadMethods = findStaticMethodsInPackage(
         classLoader = modernClassLoader,
         classpathFiles = classpathFiles,
         packagePathPrefix = "app/revanced/patcher/patch/",
         methodName = "loadPatches"
     ) { method ->
-        method.parameterCount == 2 && method.parameterTypes.firstOrNull() == File::class.java
+        method.isModernLoadPatchesWithClassLoader() || method.isModernLoadPatchesDefault()
     }
+    val loadMethod = loadMethods.firstOrNull(Method::isModernLoadPatchesWithClassLoader)
+        ?: loadMethods.firstOrNull(Method::isModernLoadPatchesDefault)
+        ?: throw NoSuchMethodException("loadPatches was not found in app/revanced/patcher/patch/.")
 
     val patches = try {
-        loadMethod.invoke(
-            null,
-            patchesFile,
-            { file: File, throwable: Throwable? ->
-                throw IllegalStateException("Failed to load patches from ${file.name}", throwable)
-            }
-        )
+        invokeModernLoadPatches(loadMethod, patchesFile, modernClassLoader)
     } catch (e: InvocationTargetException) {
         val target = e.targetException ?: e
         throw IllegalStateException("Modern patcher failed to load ${patchesFile.name}", target)
@@ -155,6 +152,58 @@ private fun loadModernPatchesFromJar(
     return loaded
 }
 
+private fun Method.isModernLoadPatchesDefault(): Boolean =
+    parameterCount == 2 &&
+        isFileOrFileArray(parameterTypes[0])
+
+private fun Method.isModernLoadPatchesWithClassLoader(): Boolean =
+    parameterCount == 4 &&
+        isFileOrFileArray(parameterTypes[0]) &&
+        ClassLoader::class.java.isAssignableFrom(parameterTypes[2])
+
+private fun isFileOrFileArray(type: Class<*>): Boolean =
+    type == File::class.java ||
+        (type.isArray && type.componentType == File::class.java)
+
+private fun invokeModernLoadPatches(
+    loadMethod: Method,
+    patchesFile: File,
+    modernClassLoader: ClassLoader
+): Any? {
+    val patchesFileArgument: Any = if (loadMethod.parameterTypes[0].isArray) {
+        arrayOf(patchesFile)
+    } else {
+        patchesFile
+    }
+    val onFailedToLoad = { file: File, throwable: Throwable? ->
+        throw IllegalStateException("Failed to load patches from ${file.name}", throwable)
+    }
+
+    if (loadMethod.isModernLoadPatchesWithClassLoader()) {
+        val getBinaryClassNames = { file: File -> readJarClassNames(file) }
+        URLClassLoader(arrayOf(patchesFile.toURI().toURL()), modernClassLoader).use { bundleClassLoader ->
+            return loadMethod.invoke(
+                null,
+                patchesFileArgument,
+                getBinaryClassNames,
+                bundleClassLoader,
+                onFailedToLoad
+            )
+        }
+    }
+
+    return loadMethod.invoke(null, patchesFileArgument, onFailedToLoad)
+}
+
+private fun readJarClassNames(file: File): List<String> =
+    JarFile(file).use { jar ->
+        jar.entries().toList()
+            .filter { entry ->
+                entry.name.endsWith(".class") && !entry.name.startsWith("META-INF/")
+            }
+            .map { entry -> entry.name.substringBeforeLast('.').replace('/', '.') }
+    }
+
 private fun findStaticMethodInPackage(
     classLoader: ClassLoader,
     classpathFiles: List<File>,
@@ -162,16 +211,27 @@ private fun findStaticMethodInPackage(
     methodName: String,
     predicate: (Method) -> Boolean
 ): Method {
-    return loadClassesFromPackage(classLoader, classpathFiles, packagePathPrefix)
+    return findStaticMethodsInPackage(classLoader, classpathFiles, packagePathPrefix, methodName, predicate)
+        .firstOrNull()
+        ?: throw NoSuchMethodException("$methodName was not found in $packagePathPrefix.")
+}
+
+private fun findStaticMethodsInPackage(
+    classLoader: ClassLoader,
+    classpathFiles: List<File>,
+    packagePathPrefix: String,
+    methodName: String,
+    predicate: (Method) -> Boolean
+): List<Method> =
+    loadClassesFromPackage(classLoader, classpathFiles, packagePathPrefix)
         .asSequence()
         .flatMap { it.methods.asSequence() }
-        .firstOrNull { method ->
+        .filter { method ->
             method.name == methodName &&
                 Modifier.isStatic(method.modifiers) &&
                 predicate(method)
         }
-        ?: throw NoSuchMethodException("$methodName was not found in $packagePathPrefix.")
-}
+        .toList()
 
 private fun loadClassesFromPackage(
     classLoader: ClassLoader,
@@ -244,19 +304,49 @@ private fun convertRevancedOption(option: Any?): JsonObject? {
 }
 
 private fun convertRevancedCompatiblePackages(value: Any?): JsonElement {
-    val compatiblePackages = value as? Map<*, *> ?: return JsonNull
-    if (compatiblePackages.isEmpty()) {
-        return JsonNull
+    return when (value) {
+        is Map<*, *> -> mapCompatiblePackages(value)
+        is Iterable<*> -> iterableCompatiblePackages(value)
+        else -> JsonNull
     }
+}
+
+private fun mapCompatiblePackages(compatiblePackages: Map<*, *>): JsonElement {
+    if (compatiblePackages.isEmpty()) return JsonNull
 
     return buildJsonObject {
         for ((rawPackageName, rawVersions) in compatiblePackages) {
             val packageName = rawPackageName?.toString()?.takeIf(String::isNotBlank) ?: continue
-            val versions = asReflectiveList(rawVersions)
-                .mapNotNull { version -> version.toString().takeIf(String::isNotBlank) }
-            put(packageName, if (rawVersions == null) JsonNull else JsonArray(versions.map(::JsonPrimitive)))
+            put(packageName, toCompatibleVersions(rawVersions))
         }
     }
+}
+
+private fun iterableCompatiblePackages(compatiblePackages: Iterable<*>): JsonElement {
+    val entries = compatiblePackages.mapNotNull { entry ->
+        val pair = entry as? Pair<*, *> ?: return@mapNotNull null
+        val packageName = pair.first?.toString()?.takeIf(String::isNotBlank) ?: return@mapNotNull null
+        packageName to pair.second
+    }
+    if (entries.isEmpty()) return JsonNull
+
+    return buildJsonObject {
+        for ((packageName, rawVersions) in entries) {
+            put(packageName, toCompatibleVersions(rawVersions))
+        }
+    }
+}
+
+private fun toCompatibleVersions(rawVersions: Any?): JsonElement {
+    if (rawVersions == null) return JsonNull
+
+    val versions = when (rawVersions) {
+        is Iterable<*> -> rawVersions
+        is Array<*> -> rawVersions.asIterable()
+        else -> listOf(rawVersions)
+    }.mapNotNull { version -> version?.toString()?.takeIf(String::isNotBlank) }
+
+    return JsonArray(versions.map(::JsonPrimitive))
 }
 
 private fun patchLabel(patch: Any): String {
