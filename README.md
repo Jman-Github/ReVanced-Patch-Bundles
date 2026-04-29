@@ -901,6 +901,71 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+### 📦 Alim-Zanibekov-Patches-Bundle [API v4]:
+[🧩 Alim-Zanibekov Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-alim-zanibekov-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/alim-zanibekov-patch-bundles/alim-zanibekov-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/alim-zanibekov-patch-bundles/alim-zanibekov-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/alim-zanibekov-patch-bundles/alim-zanibekov-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Daboynb-Patches-Bundle [API v4]:
+[🧩 Daboynb Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-daboynb-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/daboynb-patch-bundles/daboynb-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/daboynb-patch-bundles/daboynb-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/daboynb-patch-bundles/daboynb-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Joristdh-Patches-Bundle [Morphe]:
+[🧩 Joristdh Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-joristdh-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/joristdh-patch-bundles/joristdh-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/joristdh-patch-bundles/joristdh-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/joristdh-patch-bundles/joristdh-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Meridianfresco-Patches-Bundle [Morphe]:
+[🧩 Meridianfresco Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-meridianfresco-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/meridianfresco-patch-bundles/meridianfresco-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/meridianfresco-patch-bundles/meridianfresco-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/meridianfresco-patch-bundles/meridianfresco-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Loskutov-Patches-Bundle [Morphe]:
+[🧩 Loskutov Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-loskutov-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/loskutov-patch-bundles/loskutov-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/loskutov-patch-bundles/loskutov-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/loskutov-patch-bundles/loskutov-dev-patches-bundle.json```
+</details>
+
+---
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -1045,6 +1110,16 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Ariecos-Patches-Bundle](https://github.com/ariecos/gemini-patches)
 
 #### 🏷️ [Joganubaid-Patches-Bundle](https://github.com/joganubaid/adguard-morphe-patches)
+
+#### 🏷️ [Alim-Zanibekov-Patches-Bundle](https://github.com/joganubaid/alim-zanibekov/ultrasandbox)
+
+#### 🏷️ [Daboynb-Patches-Bundle](https://github.com/daboynb/revanced-instagram-viewonce)
+
+#### 🏷️ [Joristdh-Patches-Bundle](https://github.com/Joristdh/Platypatch)
+
+#### 🏷️ [Meridianfresco-Patches-Bundle](https://github.com/meridianfresco/morphe-meta-patches)
+
+#### 🏷️ [Loskutov-Patches-Bundle](https://github.com/loskutov/youtube-domain-fronting-patch)
 
 </details>
 

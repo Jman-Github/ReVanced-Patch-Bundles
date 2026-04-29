@@ -67,8 +67,13 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Eyalm2000 Bundle Patch List](#-eyalm2000-bundle-patch-list)    
 [🧩 Vladon Bundle Patch List](#-vladon-bundle-patch-list)    
 [🧩 RaiuSky Bundle Patch List](#-raiusky-bundle-patch-list)    
-[🧩 Ariecos Bundle Patch List](#-ariecos-bundle-patch-list)    
+[🧩 Ariecos Bundle Patch List](#-ariecos-bundle-patch-list)  
 [🧩 Joganubaid Bundle Patch List](#-joganubaid-bundle-patch-list)    
+[🧩 Alim-zanibekov Bundle Patch List](#-alim-zanibekov-bundle-patch-list)    
+[🧩 Daboynb Bundle Patch List](#-daboynb-bundle-patch-list)    
+[🧩 Joristdh Bundle Patch List](#-joristdh-bundle-patch-list)    
+[🧩 Meridianfresco Bundle Patch List](#-meridianfresco-bundle-patch-list)    
+[🧩 Loskutov Bundle Patch List](#-loskutov-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -3149,5 +3154,55 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables AdGuard premium by patching license expiration checks``` | ```AdGuard``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Alim-zanibekov Bundle Patch List:
+[📦 Alim-zanibekov-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-alim-zanibekov-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
+
+---
+### 🧩 Daboynb Bundle Patch List:
+[📦 Daboynb-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-daboynb-patches-bundle-api-v4)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
+
+---
+### 🧩 Joristdh Bundle Patch List:
+[📦 Joristdh-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-joristdh-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
+
+---
+### 🧩 Meridianfresco Bundle Patch List:
+[📦 Meridianfresco-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-meridianfresco-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
+
+---
+### 🧩 Loskutov Bundle Patch List:
+[📦 Loskutov-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-loskutov-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
 
 </details>
