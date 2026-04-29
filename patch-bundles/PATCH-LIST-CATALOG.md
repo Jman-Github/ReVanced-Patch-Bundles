@@ -3137,7 +3137,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Enable Premium``` | ```Enables AdGuard premium by patching license expiration checks``` | ```AdGuard``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables AdGuard premium by creating a fake PaidLicense with lifetime duration``` | ```AdGuard``` | ```All versions``` |
 
 </details>
 

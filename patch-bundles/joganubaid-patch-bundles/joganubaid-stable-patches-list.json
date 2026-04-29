@@ -1,11 +1,11 @@
 {
-    "version": "v1.0.3",
+    "version": "v1.0.4",
     "patches": [
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
-                    "appIconColor": "#67B255",
+                    "apkFileType": null,
+                    "appIconColor": "#67B279",
                     "description": null,
                     "name": "AdGuard",
                     "packageName": "com.adguard.android",
@@ -16,19 +16,13 @@
                             "isExperimental": false,
                             "minSdk": null,
                             "version": "4.12.81"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "4.12.82"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Enables AdGuard premium by patching license expiration checks",
+            "description": "Enables AdGuard premium by creating a fake PaidLicense with lifetime duration",
             "name": "Enable Premium",
             "options": []
         }
