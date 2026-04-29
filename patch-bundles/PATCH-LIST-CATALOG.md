@@ -3147,7 +3147,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***1 Patch***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```UltraSandbox``` | ```Patched app sees a fresh stock phone``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -3157,7 +3160,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***1 Patch***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Save view-once media``` | ```Intercepts the view-once media viewer callback and saves photos/videos to Pictures/InstagramViewOnce before they expire.``` | ```com.instagram.android``` | ```All versions``` |
 
 </details>
 

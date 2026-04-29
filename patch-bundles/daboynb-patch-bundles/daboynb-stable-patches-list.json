@@ -1,0 +1,17 @@
+{
+    "version": "v0.1.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.instagram.android": null
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Intercepts the view-once media viewer callback and saves photos/videos\nto Pictures/InstagramViewOnce before they expire.",
+            "name": "Save view-once media",
+            "options": [],
+            "use": false
+        }
+    ]
+}
