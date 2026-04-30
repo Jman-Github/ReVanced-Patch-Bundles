@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.1",
+    "version": "v1.0.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -78,6 +78,15 @@
                     "title": "Forced SNI hostname",
                     "type": "kotlin.String",
                     "values": null
+                },
+                {
+                    "default": "edgestatic.com",
+                    "description": "Hostname used as TLS SNI for i.ytimg.com image and thumbnail requests.",
+                    "key": "ytimgSniHost",
+                    "required": true,
+                    "title": "ytimg SNI hostname",
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ]
         },
@@ -150,6 +159,15 @@
                     "key": "forcedSniHost",
                     "required": true,
                     "title": "Forced SNI hostname",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "edgestatic.com",
+                    "description": "Hostname used as TLS SNI for i.ytimg.com image and thumbnail requests.",
+                    "key": "ytimgSniHost",
+                    "required": true,
+                    "title": "ytimg SNI hostname",
                     "type": "kotlin.String",
                     "values": null
                 }
