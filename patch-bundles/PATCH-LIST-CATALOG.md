@@ -1753,7 +1753,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable signature check``` | ```Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.``` | ```com.xodo.pdf.reader``` | ```10.13.0``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```com.xodo.pdf.reader``` | ```10.13.0``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```com.zombodroid.MemeGenerator``` | ```4.6671``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```cz.ackee.ventusky``` | ```52.0``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```cz.ackee.ventusky``` | ```53.1``` |
 | ```Disable signature check``` | ```Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.``` | ```ginlemon.flowerfree``` | ```6.6 build 002``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```ginlemon.flowerfree``` | ```6.6 build 002``` |
 | ```Enable Prime membership``` | ```Enables app features locked behind the subscription paywall.``` | ```jp.ne.ibis.ibispaintx.app``` | ```14.0.1``` |
