@@ -1,6 +1,18 @@
 {
-    "version": "v1.29.0-dev.1",
+    "version": "v1.29.0-dev.2",
     "patches": [
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.04.27-release"
+                ]
+            },
+            "dependencies": [],
+            "description": "Changes the default dark theme to use true blacks for AMOLED screens.",
+            "name": "AMOLED dark heme",
+            "options": [],
+            "use": false
+        },
         {
             "compatiblePackages": {
                 "org.languageapp.lingory": [
@@ -160,7 +172,7 @@
         {
             "compatiblePackages": {
                 "com.soundcloud.android": [
-                    "2026.03.20-release"
+                    "2026.04.27-release"
                 ]
             },
             "dependencies": [],
@@ -639,7 +651,7 @@
         {
             "compatiblePackages": {
                 "com.soundcloud.android": [
-                    "2026.03.20-release"
+                    "2026.04.27-release"
                 ]
             },
             "dependencies": [
