@@ -73,6 +73,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Joristdh Bundle Patch List](#-joristdh-bundle-patch-list)    
 [🧩 Meridianfresco Bundle Patch List](#-meridianfresco-bundle-patch-list)    
 [🧩 Loskutov Bundle Patch List](#-loskutov-bundle-patch-list)    
+[🧩 Kareemlukitomo Bundle Patch List](#-kareemlukitomo-bundle-patch-list)    
+[🧩 Abhis1n Bundle Patch List](#-abhis1n-bundle-patch-list)    
+[🧩 PawiX25 Bundle Patch List](#-PawiX25-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -3210,5 +3213,35 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 |----------|---------------|---------------------|-------------------------|
 | ```Force Cronet SNI (YouTube arm64)``` | ```Patches bundled arm64 libcronet so TLS SNI is forced to a configurable hostname in the SSLClientSocket path. URL and HTTP Host remain unchanged.``` | ```YouTube``` | ```All versions``` |
 | ```Force Cronet SNI (YouTube Music arm64)``` | ```Patches bundled arm64 libcronet so TLS SNI is forced to a configurable hostname in the SSLClientSocket path. URL and HTTP Host remain unchanged.``` | ```YouTube Music``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Kareemlukitomo Bundle Patch List:
+[📦 Kareemlukitomo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kareemlukitomo-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
+
+---
+### 🧩 Abhis1n Bundle Patch List:
+[📦 Ahis1n-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-abhis1n-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
+
+---
+### 🧩 PawiX25 Bundle Patch List:
+[📦 PawiX25-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-PawiX25-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
 
 </details>

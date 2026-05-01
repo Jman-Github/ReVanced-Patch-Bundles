@@ -953,6 +953,45 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+### 📦 Kareemlukitomo-Patches-Bundle [Morphe]:
+[🧩 Kareemlukitomo Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-kareemlukitomo-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kareemlukitomo-patch-bundles/kareemlukitomo-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kareemlukitomo-patch-bundles/kareemlukitomo-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kareemlukitomo-patch-bundles/kareemlukitomo-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Abhis1n-Patches-Bundle [Morphe]:
+[🧩 Abhis1n Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-abhis1n-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/abhis1n-patch-bundles/abhis1n-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/abhis1n-patch-bundles/abhis1n-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/abhis1n-patch-bundles/abhis1n-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 PawiX25-Patches-Bundle [Morphe]:
+[🧩 PawiX25 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-PawiX25-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/PawiX25-patch-bundles/PawiX25-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/PawiX25-patch-bundles/PawiX25-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/PawiX25-patch-bundles/PawiX25-dev-patches-bundle.json```
+</details>
+
+---
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -1105,6 +1144,12 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Meridianfresco-Patches-Bundle](https://github.com/meridianfresco/morphe-meta-patches)
 
 #### 🏷️ [Loskutov-Patches-Bundle](https://github.com/loskutov/youtube-domain-fronting-patch)
+
+#### 🏷️ [Kareemlukitomo-Patches-Bundle](https://github.com/kareemlukitomo/morphe-patches)
+
+#### 🏷️ [Abhis1n-Patches-Bundle](https://github.com/abhis1n/Morphe-Patches)
+
+#### 🏷️ [PawiX25-Patches-Bundle](https://github.com/PawiX25/pepper-revanced-patches)
 
 </details>
 
