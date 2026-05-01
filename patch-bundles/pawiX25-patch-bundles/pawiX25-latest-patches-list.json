@@ -1,0 +1,111 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.chollometro": null,
+                "com.dealabs.apps.android": null,
+                "com.pepperdeals": null,
+                "com.preisjaeger": null,
+                "com.tippingcanoe.hukd": null,
+                "com.tippingcanoe.mydealz": null,
+                "com.tippingcanoe.peppernl": null,
+                "com.tippingcanoe.pepperpl": null,
+                "com.tippingcanoe.promodescuentos": null,
+                "se.pepperdeals": null
+            },
+            "dependencies": [
+                "Unlock tier-locked icons"
+            ],
+            "description": "Always show all 4 event-theming icons (Black Friday, Summer Sales, Autumn Sales, El Buen Fin) in the icon picker, regardless of whether the corresponding event is currently active. Vanilla shows only the icon for the active event (if any) and hides the other 3.",
+            "name": "Always show event-theming icons",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.chollometro": null,
+                "com.dealabs.apps.android": null,
+                "com.pepperdeals": null,
+                "com.preisjaeger": null,
+                "com.tippingcanoe.hukd": null,
+                "com.tippingcanoe.mydealz": null,
+                "com.tippingcanoe.peppernl": null,
+                "com.tippingcanoe.pepperpl": null,
+                "com.tippingcanoe.promodescuentos": null,
+                "se.pepperdeals": null
+            },
+            "dependencies": [],
+            "description": "Re-enables the hidden 3-dot debug menu in MainActivity (45 debug actions: ad inspector, exploration screens, navigation, consent reset, event theming, monetization, etc.).",
+            "name": "Enable debug menu",
+            "options": [
+                {
+                    "default": "0x7f0f0006",
+                    "description": "Resource ID of R.menu.activity_main_debug. Default 0x7f0f0006 works for v8.12.00; if it shifts, look up the new ID in the APK's res/values/public.xml under name=\"activity_main_debug\".",
+                    "name": "debugMenuResId",
+                    "required": true,
+                    "type": "java.lang.String (Kotlin reflection is not available)",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.chollometro": null,
+                "com.dealabs.apps.android": null,
+                "com.pepperdeals": null,
+                "com.preisjaeger": null,
+                "com.tippingcanoe.hukd": null,
+                "com.tippingcanoe.mydealz": null,
+                "com.tippingcanoe.peppernl": null,
+                "com.tippingcanoe.pepperpl": null,
+                "com.tippingcanoe.promodescuentos": null,
+                "se.pepperdeals": null
+            },
+            "dependencies": [],
+            "description": "Disables the banner-ad renderer (Pubmatic OpenWrap / DFPBanner) in the deal feed. Banner ads never load and the empty gray ad-cell container is collapsed to zero height. Lists look as if ad slots were never inserted.",
+            "name": "Hide banner ads in feed",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.chollometro": null,
+                "com.dealabs.apps.android": null,
+                "com.pepperdeals": null,
+                "com.preisjaeger": null,
+                "com.tippingcanoe.hukd": null,
+                "com.tippingcanoe.mydealz": null,
+                "com.tippingcanoe.peppernl": null,
+                "com.tippingcanoe.pepperpl": null,
+                "com.tippingcanoe.promodescuentos": null,
+                "se.pepperdeals": null
+            },
+            "dependencies": [],
+            "description": "Disables the use-case that auto-restores the default icon on app start when an event (Black Friday / Summer Sales / etc.) has ended by date. With this patch your chosen event icon stays as the launcher permanently — no \"Our event mode is over!\" dialog on next launch.",
+            "name": "Keep event icon after restart",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.chollometro": null,
+                "com.dealabs.apps.android": null,
+                "com.pepperdeals": null,
+                "com.preisjaeger": null,
+                "com.tippingcanoe.hukd": null,
+                "com.tippingcanoe.mydealz": null,
+                "com.tippingcanoe.peppernl": null,
+                "com.tippingcanoe.pepperpl": null,
+                "com.tippingcanoe.promodescuentos": null,
+                "se.pepperdeals": null
+            },
+            "dependencies": [],
+            "description": "Makes all 12 membership-tier icons (Silver/Gold/Platinum + DealMinded/DealDetective/Chilling/Awesome/Tight/Cool/Mascots) available in the icon picker without having to farm loyalty points.",
+            "name": "Unlock tier-locked icons",
+            "options": [],
+            "use": true
+        }
+    ]
+}

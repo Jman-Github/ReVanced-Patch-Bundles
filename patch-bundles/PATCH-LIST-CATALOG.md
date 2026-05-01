@@ -3222,7 +3222,17 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***8 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Change Instagram share domain``` | ```Rewrites generated Instagram share links to kittygram.kareem.one.``` | ```com.instagram.android``` | ```424.0.0.49.64``` |
+| ```Change Threads share domain``` | ```Rewrites generated Threads share links to shoelace.kareem.one.``` | ```com.instagram.barcelona``` | ```426.0.0.36.67``` |
+| ```Change Reddit share domain``` | ```Rewrites generated Reddit share links to redlib.kareem.one.``` | ```com.reddit.frontpage``` | ```2026.17.0``` |
+| ```Sanitize Reddit share links``` | ```Stops Reddit from appending tracking query parameters to shared links.``` | ```com.reddit.frontpage``` | ```2026.17.0``` |
+| ```Change Twitter share domain``` | ```Rewrites generated Twitter/X share links to nitter.kareem.one.``` | ```com.twitter.android``` | ```11.86.0-release.0``` |
+| ```Disable Twitter PairIP startup checks``` | ```Bypasses X/Twitter PairIP integrity startup checks that crash after APKM repacking.``` | ```com.twitter.android``` | ```11.86.0-release.0``` |
+| ```Sanitize Twitter share links``` | ```Stops Twitter/X from appending tracking query parameters to shared links.``` | ```com.twitter.android``` | ```11.86.0-release.0``` |
+| ```Change TikTok share domain``` | ```Rewrites generated TikTok share links to sticktock.kareem.one.``` | ```com.zhiliaoapp.musically``` | ```44.9.3``` |
 
 </details>
 
@@ -3232,7 +3242,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***1 Patch***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Enable Features``` | ```Enables features by skipping checks``` | ```Splitwise``` | ```All versions``` |
 
 </details>
 
@@ -3242,6 +3255,13 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***5 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Always show event-theming icons``` | ```Always show all 4 event-theming icons (Black Friday, Summer Sales, Autumn Sales, El Buen Fin) in the icon picker, regardless of whether the corresponding event is currently active. Vanilla shows only the icon for the active event (if any) and hides the other 3.``` | ```com.chollometro, com.dealabs.apps.android, com.pepperdeals, com.preisjaeger, com.tippingcanoe.hukd, com.tippingcanoe.mydealz, com.tippingcanoe.peppernl, com.tippingcanoe.pepperpl, com.tippingcanoe.promodescuentos, se.pepperdeals``` | ```All versions``` |
+| ```Enable debug menu``` | ```Re-enables the hidden 3-dot debug menu in MainActivity (45 debug actions: ad inspector, exploration screens, navigation, consent reset, event theming, monetization, etc.).``` | ```com.chollometro, com.dealabs.apps.android, com.pepperdeals, com.preisjaeger, com.tippingcanoe.hukd, com.tippingcanoe.mydealz, com.tippingcanoe.peppernl, com.tippingcanoe.pepperpl, com.tippingcanoe.promodescuentos, se.pepperdeals``` | ```All versions``` |
+| ```Hide banner ads in feed``` | ```Disables the banner-ad renderer (Pubmatic OpenWrap / DFPBanner) in the deal feed. Banner ads never load and the empty gray ad-cell container is collapsed to zero height. Lists look as if ad slots were never inserted.``` | ```com.chollometro, com.dealabs.apps.android, com.pepperdeals, com.preisjaeger, com.tippingcanoe.hukd, com.tippingcanoe.mydealz, com.tippingcanoe.peppernl, com.tippingcanoe.pepperpl, com.tippingcanoe.promodescuentos, se.pepperdeals``` | ```All versions``` |
+| ```Keep event icon after restart``` | ```Disables the use-case that auto-restores the default icon on app start when an event (Black Friday / Summer Sales / etc.) has ended by date. With this patch your chosen event icon stays as the launcher permanently — no "Our event mode is over!" dialog on next launch.``` | ```com.chollometro, com.dealabs.apps.android, com.pepperdeals, com.preisjaeger, com.tippingcanoe.hukd, com.tippingcanoe.mydealz, com.tippingcanoe.peppernl, com.tippingcanoe.pepperpl, com.tippingcanoe.promodescuentos, se.pepperdeals``` | ```All versions``` |
+| ```Unlock tier-locked icons``` | ```Makes all 12 membership-tier icons (Silver/Gold/Platinum + DealMinded/DealDetective/Chilling/Awesome/Tight/Cool/Mascots) available in the icon picker without having to farm loyalty points.``` | ```com.chollometro, com.dealabs.apps.android, com.pepperdeals, com.preisjaeger, com.tippingcanoe.hukd, com.tippingcanoe.mydealz, com.tippingcanoe.peppernl, com.tippingcanoe.pepperpl, com.tippingcanoe.promodescuentos, se.pepperdeals``` | ```All versions``` |
 
 </details>

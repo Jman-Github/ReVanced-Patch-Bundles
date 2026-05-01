@@ -1,0 +1,30 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF0045",
+                    "description": null,
+                    "name": "Splitwise",
+                    "packageName": "com.Splitwise.SplitwiseMobile",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.4.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables features by skipping checks",
+            "name": "Enable Features",
+            "options": []
+        }
+    ]
+}

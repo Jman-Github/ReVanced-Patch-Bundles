@@ -1,0 +1,101 @@
+{
+    "version": "v26.4.30-8eabfa",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "424.0.0.49.64"
+                ]
+            },
+            "dependencies": [],
+            "description": "Rewrites generated Instagram share links to kittygram.kareem.one.",
+            "name": "Change Instagram share domain",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2026.17.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Rewrites generated Reddit share links to redlib.kareem.one.",
+            "name": "Change Reddit share domain",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.barcelona": [
+                    "426.0.0.36.67"
+                ]
+            },
+            "dependencies": [],
+            "description": "Rewrites generated Threads share links to shoelace.kareem.one.",
+            "name": "Change Threads share domain",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "44.9.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Rewrites generated TikTok share links to sticktock.kareem.one.",
+            "name": "Change TikTok share domain",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": [
+                    "11.86.0-release.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Rewrites generated Twitter/X share links to nitter.kareem.one.",
+            "name": "Change Twitter share domain",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": [
+                    "11.86.0-release.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bypasses X/Twitter PairIP integrity startup checks that crash after APKM repacking.",
+            "name": "Disable Twitter PairIP startup checks",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2026.17.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Stops Reddit from appending tracking query parameters to shared links.",
+            "name": "Sanitize Reddit share links",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.twitter.android": [
+                    "11.86.0-release.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Stops Twitter/X from appending tracking query parameters to shared links.",
+            "name": "Sanitize Twitter share links",
+            "options": [],
+            "use": true
+        }
+    ]
+}
