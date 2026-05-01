@@ -2127,10 +2127,12 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***67 Patches***
+***70 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add notification shortcut``` | ```Adds a notification shortcut button above quick write in the post list.``` | ```com.dcinside.app.android``` | ```5.2.8``` |
+| ```Add settings``` | ```Adds a Morphe settings entry to the DCInside settings screen.``` | ```com.dcinside.app.android``` | ```5.2.8``` |
+| ```Add settings resources``` | ```Adds Morphe settings resources to the app.``` | ```com.dcinside.app.android``` | ```5.2.8``` |
 | ```Bypass getText``` | ```Bypasses the integrity check for getText.``` | ```com.dcinside.app.android``` | ```5.2.8``` |
 | ```Change package name``` | ```Appends ".revanced" to the package name by default. For DCinside only``` | ```com.dcinside.app.android``` | ```5.2.8``` |
 | ```Custom branding``` | ```Customize app branding (name and icon)``` | ```com.dcinside.app.android``` | ```5.2.8``` |
@@ -2141,6 +2143,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable update check``` | ```Disables the app's update check.``` | ```com.dcinside.app.android``` | ```5.2.8``` |
 | ```Enable OneStore feature``` | ```Enables the OneStore feature in DC Inside app.``` | ```com.dcinside.app.android``` | ```5.2.8``` |
 | ```Hide Main Ad``` | ```Hides the main ad in the app.``` | ```com.dcinside.app.android``` | ```5.2.8``` |
+| ```Register settings activity``` | ```Registers the Morphe settings activity in the app manifest.``` | ```com.dcinside.app.android``` | ```5.2.8``` |
 | ```Spoof Signature``` | ```Spoofs the app signature to bypass integrity checks.``` | ```com.dcinside.app.android``` | ```5.2.8``` |
 | ```Add Packet Handler``` | ```Adding the Loco Packet Handler allows external applications to handle the app's packets, which may compromise security. Conflicts may occur on some systems.``` | ```com.kakao.talk``` | ```26.3.2``` |
 | ```Add Pine Lib``` | ```add libpine.so to the app's native libraries``` | ```com.kakao.talk``` | ```26.3.2``` |

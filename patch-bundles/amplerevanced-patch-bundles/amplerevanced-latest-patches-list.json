@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.21",
+    "version": "v1.0.0-dev.22",
     "patches": [
         {
             "compatiblePackages": {
@@ -42,6 +42,36 @@
             "name": "Add Pine Lib",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.8"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds a Morphe settings entry to the DCInside settings screen.",
+            "name": "Add settings",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.8"
+                ]
+            },
+            "dependencies": [],
+            "description": "Adds Morphe settings resources to the app.",
+            "name": "Add settings resources",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
@@ -778,6 +808,18 @@
             ],
             "description": "Allows playing YouTube videos in KakaoTalk chat rooms.",
             "name": "Play YouTube player in chat room",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": [
+                    "5.2.8"
+                ]
+            },
+            "dependencies": [],
+            "description": "Registers the Morphe settings activity in the app manifest.",
+            "name": "Register settings activity",
             "options": [],
             "use": true
         },
