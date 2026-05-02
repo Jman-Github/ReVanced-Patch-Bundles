@@ -1,5 +1,5 @@
 {
-    "version": "v1.29.0-dev.2",
+    "version": "v1.29.0-dev.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -182,6 +182,14 @@
             "name": "Disable telemetry",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Enables debugging on the app by setting android:debuggable=\"true\".",
+            "name": "Enable debug",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -659,7 +667,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "",
+            "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable SoundCloud Go+",
             "options": [],
             "use": true

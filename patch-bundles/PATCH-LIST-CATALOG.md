@@ -1711,7 +1711,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***67 Patches***
+***68 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.``` | ```app.ttmikstories.android``` | ```1.16.0``` |
@@ -1750,7 +1750,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable ads``` | ```Disables all ads contained within the UI.``` | ```com.sofascore.results``` | ```25.12.17``` |
 | ```AMOLED dark theme``` | ```Changes the default dark theme to use true blacks for AMOLED screens.``` | ```com.soundcloud.android``` | ```2026.04.27-release``` |
 | ```Disable telemetry``` | ```Disables SoundCloud's telemetry system.``` | ```com.soundcloud.android``` | ```2026.04.27-release``` |
-| ```Enable SoundCloud Go+``` | ```N/A``` | ```com.soundcloud.android``` | ```2026.04.27-release``` |
+| ```Enable SoundCloud Go+``` | ```Enables app features locked behind the subscription paywall.``` | ```com.soundcloud.android``` | ```2026.04.27-release``` |
 | ```Enable Prime``` | ```Enable Nova Launcher Prime and app locked behind the subscription paywall.``` | ```com.teslacoilsw.launcher``` | ```81042 (8.5.1)``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.wallpaperscraft.wallpaper``` | ```3.61.01``` |
 | ```Enable Premium``` | ```Enables some app features locked behind the subscription paywall. Not all premium functionality is available.``` | ```com.windyty.android``` | ```49.0.1``` |
@@ -1779,6 +1779,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```ru.iiec.pydroid3``` | ```8.3_arm64``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
+| ```Enable debug``` | ```Enables debugging on the app by setting android:debuggable="true".``` | ```Universal``` | ```All versions``` |
 | ```Hide app icon``` | ```Hides the app icon from the Android launcher.``` | ```Universal``` | ```All versions``` |
 | ```Enable Pro``` | ```N/A``` | ```videoeditor.videorecorder.screenrecorder``` | ```2.5.1.1``` |
 
