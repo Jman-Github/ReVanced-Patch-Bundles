@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.1-dev.2",
+    "version": "v1.2.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -419,6 +419,30 @@
                     "values": null
                 }
             ],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the user community badges on Reddit comments.",
+            "name": "Hide user community badges",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": null
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the user flairs on Reddit comments.",
+            "name": "Hide user flairs",
+            "options": [],
             "use": false
         },
         {

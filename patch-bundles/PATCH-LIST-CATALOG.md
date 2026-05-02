@@ -2844,7 +2844,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***30 Patches***
+***32 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Always-incognito mode``` | ```Always opens Gboard in incognito mode to disable typing history collection and personalization.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
@@ -2863,6 +2863,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide prominent search bar``` | ```Hides the new prominent search bar on the main screen.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Hide share count``` | ```Hides the share count on Reddit posts.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Hide upvote scores``` | ```Hides the scores on Reddit posts and comments.``` | ```com.reddit.frontpage``` | ```All versions``` |
+| ```Hide user community badges``` | ```Hides the user community badges on Reddit comments.``` | ```com.reddit.frontpage``` | ```All versions``` |
+| ```Hide user flairs``` | ```Hides the user flairs on Reddit comments.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Open external links directly``` | ```Opens external links directly without going through out.reddit.com.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Remove ads and telemetry``` | ```Removes ads and telemetry everywhere.``` | ```com.reddit.frontpage``` | ```All versions``` |
 | ```Sanitize share links``` | ```Unshortens and removes the tracking query parameters from shared links.``` | ```com.reddit.frontpage``` | ```All versions``` |
