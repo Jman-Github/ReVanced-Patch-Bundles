@@ -7,9 +7,11 @@
                     "2026.04.27-release"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Changes the default dark theme to use true blacks for AMOLED screens.",
-            "name": "AMOLED dark heme",
+            "name": "AMOLED dark theme",
             "options": [],
             "use": false
         },

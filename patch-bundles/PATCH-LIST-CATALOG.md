@@ -1748,7 +1748,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Spoof signature``` | ```Spoof package signature for Firebase app check.``` | ```com.sbs.diet, com.sbs.train``` | ```5.7.6, 1.1.7``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.snorelab.app``` | ```2.27.3.6291``` |
 | ```Disable ads``` | ```Disables all ads contained within the UI.``` | ```com.sofascore.results``` | ```25.12.17``` |
-| ```AMOLED dark heme``` | ```Changes the default dark theme to use true blacks for AMOLED screens.``` | ```com.soundcloud.android``` | ```2026.04.27-release``` |
+| ```AMOLED dark theme``` | ```Changes the default dark theme to use true blacks for AMOLED screens.``` | ```com.soundcloud.android``` | ```2026.04.27-release``` |
 | ```Disable telemetry``` | ```Disables SoundCloud's telemetry system.``` | ```com.soundcloud.android``` | ```2026.04.27-release``` |
 | ```Enable SoundCloud Go+``` | ```N/A``` | ```com.soundcloud.android``` | ```2026.04.27-release``` |
 | ```Enable Prime``` | ```Enable Nova Launcher Prime and app locked behind the subscription paywall.``` | ```com.teslacoilsw.launcher``` | ```81042 (8.5.1)``` |
