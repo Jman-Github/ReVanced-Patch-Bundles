@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.24",
+    "version": "v1.0.0-dev.25",
     "patches": [
         {
             "compatiblePackages": [
@@ -1382,6 +1382,33 @@
             ],
             "description": "Don't expose your typing status to the other party.",
             "name": "Ghost Mode",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#3D4491",
+                    "description": null,
+                    "name": "dcinside",
+                    "packageName": "com.dcinside.app.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.2.8"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides official DCInside operator notices from gallery notice lists.",
+            "name": "Hide DC official notices",
             "options": []
         },
         {
