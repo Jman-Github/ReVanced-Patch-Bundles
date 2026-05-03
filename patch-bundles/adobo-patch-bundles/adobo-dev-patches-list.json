@@ -1,20 +1,39 @@
 {
-    "version": "v1.2.0-dev.1",
+    "version": "v1.2.0-dev.2",
     "patches": [
         {
-            "compatiblePackages": {
-                "com.google.android.inputmethod.latin": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Always opens Gboard in incognito mode to disable typing history collection and personalization.",
             "name": "Always-incognito mode",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
             "compatiblePackages": null,
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -51,11 +70,11 @@
                     "type": "kotlin.Boolean",
                     "values": null
                 }
-            ],
-            "use": false
+            ]
         },
         {
             "compatiblePackages": null,
+            "default": false,
             "dependencies": [],
             "description": "Appends \".adobo\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
             "name": "Change package name",
@@ -98,11 +117,11 @@
                     "type": "kotlin.Boolean",
                     "values": null
                 }
-            ],
-            "use": false
+            ]
         },
         {
             "compatiblePackages": null,
+            "default": false,
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
@@ -111,35 +130,35 @@
             ],
             "description": "Deactivates Firebase Analytics and removes its associated broadcast receivers and services.",
             "name": "Deactivate Firebase Analytics",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
             "compatiblePackages": null,
+            "default": false,
             "dependencies": [],
             "description": "Deactivates the collection of performance data on app start up time, network requests, and other related metrics.",
             "name": "Deactivate Firebase Performance Monitoring",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
             "compatiblePackages": null,
+            "default": false,
             "dependencies": [],
             "description": "Disables the Google Safe Browsing checks in WebView. This doesn't apply to WebView within the SDK Runtime.",
             "name": "Disable Google Safe Browsing in WebView",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
             "compatiblePackages": null,
+            "default": false,
             "dependencies": [],
             "description": "Disables the collection of diagnostic data or usage statistics that are sent to Google.",
             "name": "Disable metrics collection in WebView",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
             "compatiblePackages": null,
+            "default": false,
             "dependencies": [],
             "description": "Disables banner, interstitial, and other ad formats.",
             "name": "Disable mobile ads",
@@ -243,157 +262,383 @@
                     "type": "kotlin.Boolean",
                     "values": null
                 }
-            ],
-            "use": false
+            ]
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Disables the banner that shows up after taking a screenshot.",
             "name": "Disable screenshot banner",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.google.android.inputmethod.latin": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Enables clipboard support in incognito mode.",
             "name": "Enable clipboard in incognito",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.google.android.inputmethod.latin": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Enables an option to select a key shape from the theme.",
             "name": "Enable key shape selection",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.google.android.inputmethod.latin": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Enables OCR feature to extract text from images and insert it into text fields.",
             "name": "Enable OCR feature",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.google.android.inputmethod.latin": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Enables undo feature to quickly undo or correct typing mistakes.",
             "name": "Enable Undo feature",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.google.android.inputmethod.latin": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Enables voice typing in incognito mode.",
             "name": "Enable voice typing in incognito",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Hides the Ask button (Reddit Answers) from the search bar.",
             "name": "Hide Ask button from search bar",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Hides the awards on Reddit posts and comments.",
             "name": "Hide awards",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Hides the community highlights section.",
             "name": "Hide community highlights",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Removes the \"views\" indicator from the post metadata.",
             "name": "Hide post view counts",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Hides the new prominent search bar on the main screen.",
             "name": "Hide prominent search bar",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Hides the share count on Reddit posts.",
             "name": "Hide share count",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -418,99 +663,201 @@
                     "type": "kotlin.Boolean",
                     "values": null
                 }
-            ],
-            "use": false
+            ]
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Hides the user community badges on Reddit comments.",
             "name": "Hide user community badges",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Hides the user flairs on Reddit comments.",
             "name": "Hide user flairs",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Opens external links directly without going through out.reddit.com.",
             "name": "Open external links directly",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Removes ads and telemetry everywhere.",
             "name": "Remove ads and telemetry",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.imdb.mobile": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "IMDb",
+                    "packageName": "com.imdb.mobile",
+                    "signatures": [
+                        "6a87e5e44564d487b1b759befb32c8c284ed0aa8ed52a277aedcad79de28a50d"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Removes ads, trackers, and analytics in the IMDb app.",
             "name": "Remove IMDb's ads, trackers, and analytics",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
             "compatiblePackages": null,
+            "default": false,
             "dependencies": [],
             "description": "Removes unnecessary internet permission from apps that can still work without internet access.",
             "name": "Remove internet permission",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.reddit.frontpage": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Unshortens and removes the tracking query parameters from shared links.",
             "name": "Sanitize share links",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
             "compatiblePackages": null,
+            "default": false,
             "dependencies": [],
             "description": "Spoofs the device's advertising ID with a string of zeros.",
             "name": "Spoof Advertising ID",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
             "compatiblePackages": null,
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -526,11 +873,11 @@
                     "type": "kotlin.String",
                     "values": null
                 }
-            ],
-            "use": false
+            ]
         },
         {
             "compatiblePackages": null,
+            "default": false,
             "dependencies": [
                 "ResourcePatch",
                 "RawResourcePatch",
@@ -561,13 +908,31 @@
                         "Default": "Default"
                     }
                 }
-            ],
-            "use": false
+            ]
         },
         {
-            "compatiblePackages": {
-                "com.google.android.inputmethod.latin": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -592,8 +957,7 @@
                     "type": "kotlin.Boolean",
                     "values": null
                 }
-            ],
-            "use": false
+            ]
         }
     ]
 }
