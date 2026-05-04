@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-05-04T20:29:04",
-  "description": "### What's new\n\n- **T9 (SkipCmpScreen)**: bypasses the Usercentrics consent screen and the\n  synchronous fetch wait that holds the splash on cold start. App goes\n  directly to the notification-permission prompt, then the feed.\n- **T1 (RedirectTrackerUrls)**: extends the localhost redirect map with the\n  three Usercentrics CMP-core hosts (`aggregator.service.usercentrics.eu`,\n  `api.usercentrics.eu`, `consent-api.service.consent.usercentrics.eu`).\n  The SDK falls back to \"reject all\" on unreachable, verified empirically.\n\n### Files\n\n- `pepper-patches.rvp` \u2014 patch bundle for ReVanced Manager / CLI\n- `pepperpl-8.13.00.xapk` \u2014 patched Pepper PL (no debug menu)\n- `pepperpl-8.13.00-debug.xapk` \u2014 patched Pepper PL with debug menu enabled\n\nInstall the XAPK with SAI / APKMirror Installer / ReVanced Manager.\n\n**Full Changelog**: https://github.com/PawiX25/pepper-revanced-patches/compare/v1.2.0...v1.3.0\n\n**Full Changelog**: https://github.com/PawiX25/pepper-revanced-patches/compare/v1.1.1...v1.3.0",
-  "download_url": "https://github.com/PawiX25/pepper-revanced-patches/releases/download/v1.3.0/pepper-patches.rvp",
+  "created_at": "2026-05-04T13:49:55",
+  "description": "**Full Changelog**: https://github.com/PawiX25/pepper-revanced-patches/compare/v1.1.1...v1.2.0",
+  "download_url": "https://github.com/PawiX25/pepper-revanced-patches/releases/download/v1.2.0/pepper-patches.rvp",
   "signature_download_url": "N/A",
-  "version": "v1.3.0"
+  "version": "v1.2.0"
 }

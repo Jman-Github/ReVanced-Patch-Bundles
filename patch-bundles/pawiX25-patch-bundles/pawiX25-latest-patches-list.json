@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.2.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -19,25 +19,6 @@
             ],
             "description": "Shows every event-themed app icon in the picker, even when its event is not currently active.",
             "name": "Always show event-theming icons",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.chollometro": null,
-                "com.dealabs.apps.android": null,
-                "com.pepperdeals": null,
-                "com.preisjaeger": null,
-                "com.tippingcanoe.hukd": null,
-                "com.tippingcanoe.mydealz": null,
-                "com.tippingcanoe.peppernl": null,
-                "com.tippingcanoe.pepperpl": null,
-                "com.tippingcanoe.promodescuentos": null,
-                "se.pepperdeals": null
-            },
-            "dependencies": [],
-            "description": "Stops Pepper's own behavioural tracker (thread visits, shares, push clicks, search suggestions) from reaching the server.",
-            "name": "Block Pepper analytics-event-report tracker",
             "options": [],
             "use": true
         },
@@ -287,7 +268,7 @@
             "dependencies": [
                 "Redirect tracker URLs to localhost"
             ],
-            "description": "Stops the Vungle, Adjust, Facebook Login and Facebook Audience Network SDKs from auto-initialising at app start.",
+            "description": "Stops the Vungle, Adjust, and Facebook Audience Network SDKs from auto-initialising at app start.",
             "name": "Neuter tracker auto-init ContentProviders",
             "options": [],
             "use": true
@@ -308,27 +289,6 @@
             "dependencies": [],
             "description": "Redirects every known tracker and analytics URL in the app to localhost so it cannot reach the network.",
             "name": "Redirect tracker URLs to localhost",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.chollometro": null,
-                "com.dealabs.apps.android": null,
-                "com.pepperdeals": null,
-                "com.preisjaeger": null,
-                "com.tippingcanoe.hukd": null,
-                "com.tippingcanoe.mydealz": null,
-                "com.tippingcanoe.peppernl": null,
-                "com.tippingcanoe.pepperpl": null,
-                "com.tippingcanoe.promodescuentos": null,
-                "se.pepperdeals": null
-            },
-            "dependencies": [
-                "Redirect tracker URLs to localhost"
-            ],
-            "description": "Skips the Usercentrics consent screen and its loading wait on cold start.",
-            "name": "Skip Usercentrics consent screen",
             "options": [],
             "use": true
         },
