@@ -17,7 +17,7 @@
             "dependencies": [
                 "Unlock tier-locked icons"
             ],
-            "description": "Always show all 4 event-theming icons (Black Friday, Summer Sales, Autumn Sales, El Buen Fin) in the icon picker, regardless of whether the corresponding event is currently active. Vanilla shows only the icon for the active event (if any) and hides the other 3.",
+            "description": "Shows every event-themed app icon in the picker, even when its event is not currently active.",
             "name": "Always show event-theming icons",
             "options": [],
             "use": true
@@ -39,7 +39,7 @@
                 "Redirect tracker URLs to localhost",
                 "Neuter tracker auto-init ContentProviders"
             ],
-            "description": "Replaces every state-mutating public static method on `com.adjust.sdk.Adjust` (initSdk, onResume, onPause, trackEvent, trackAdRevenue, verifyAndTrackPlayStorePurchase, enable, disable, addGlobalCallbackParameter, addGlobalPartnerParameter) with return-void, so Pepper's manual `Adjust.initSdk(...)` call from PepperApplication and any subsequent event tracking become no-ops. Companion to NeuterTrackerProviders for the Adjust stack: provider auto-init was already cut, this kills the manual-init path too. URLs are still redirected by patch 01 as a safety net; this patch is purely about not burning the Adjust threadpool for no reason.",
+            "description": "Stops the Adjust SDK from initialising and tracking events.",
             "name": "Disable Adjust SDK",
             "options": [],
             "use": true
@@ -62,7 +62,7 @@
                 "Neuter tracker auto-init ContentProviders",
                 "Disable Google Mobile Ads SDK init"
             ],
-            "description": "Replaces every public `load` / `loadAd` / `loadAds` method on AdLoader, AdManagerAdView, AdManagerInterstitialAd, RewardedAd and RewardedInterstitialAd with `return-void`. Companion to NopGmaInit: blocks the runtime path Pepper's `kfb` adapter uses to fetch native ads from googleads.g.doubleclick.net / pubads.g.doubleclick.net / *.googlesyndication.com / *.2mdn.net (98 leaks observed in 10 min on emulator-5558 with patches 01–05).",
+            "description": "Blocks Google's Ad SDK from fetching native ads after init.",
             "name": "Disable Google Mobile Ads ad-load entry points",
             "options": [],
             "use": true
@@ -84,7 +84,7 @@
                 "Redirect tracker URLs to localhost",
                 "Neuter tracker auto-init ContentProviders"
             ],
-            "description": "Replaces `com.google.android.gms.ads.MobileAds.initialize` (both overloads) with an empty body so the GMA SDK is never bootstrapped. Companion to NeuterTrackerProviders for the GMA stack: MobileAdsInitProvider was already a no-op in stock 8.13.00, but Pepper's own nh4.smali calls MobileAds.initialize() directly during ad-render path setup — without this patch, the GMA SDK still spins up and pre-fetches script/HTML/appcache resources from googleads.g.doubleclick.net plus gampad/ads ad requests to pubads.g.doubleclick.net.",
+            "description": "Stops the Google Mobile Ads SDK from initialising.",
             "name": "Disable Google Mobile Ads SDK init",
             "options": [],
             "use": true
@@ -94,7 +94,7 @@
                 "com.pepperdeals": null
             },
             "dependencies": [],
-            "description": "Removes Google Play's PAIRIP install-source enforcement from `com.pepperdeals` (and any other pepper-family build that ships it) by replacing `LicenseContentProvider.onCreate` with `return false` and `LicenseClient.initializeLicenseCheck` with `return-void`. Without this patch, sideloaded / ReVanced-patched Pepper.com APKs show a 'Something went wrong — Check that Google Play is enabled' dialog and can't be opened. PAIRIP is only present in the global/US build; the other nine regional sister apps don't bundle it and this patch is a no-op on them.",
+            "description": "Removes Google Play's install-source DRM check from the global / US Pepper.com build, allowing sideloaded APKs to open.",
             "name": "Disable PAIRIP license check",
             "options": [],
             "use": true
@@ -113,7 +113,7 @@
                 "se.pepperdeals": null
             },
             "dependencies": [],
-            "description": "Re-enables the hidden 3-dot debug menu in MainActivity (45 debug actions: ad inspector, exploration screens, navigation, consent reset, event theming, monetization, etc.).",
+            "description": "Re-enables the hidden debug menu in the main activity.",
             "name": "Enable debug menu",
             "options": [
                 {
@@ -143,7 +143,7 @@
             "dependencies": [
                 "Hide banner ads in feed"
             ],
-            "description": "Companion fix for the ad-hiding patch. After ad cells collapse to zero height, the deal-detail RecyclerView's ItemDecoration still allocates a 16dp section gap under each (invisible) ad and paints a shadow_divider on top of the next section's header. This patch inserts guards so collapsed ad cells contribute no offset and no draw, restoring the natural single-padding look.",
+            "description": "Removes the empty space and shadow divider left behind by hidden banner-ad cells in deal-detail screens.",
             "name": "Fix spacing around hidden ad cells",
             "options": [
                 {
@@ -187,7 +187,7 @@
                 "se.pepperdeals": null
             },
             "dependencies": [],
-            "description": "Disables the banner-ad renderer (Pubmatic OpenWrap / DFPBanner) in the deal feed. Banner ads never load and the empty gray ad-cell container is collapsed to zero height. Lists look as if ad slots were never inserted.",
+            "description": "Removes the banner ads in the deal feed.",
             "name": "Hide banner ads in feed",
             "options": [],
             "use": true
@@ -206,7 +206,7 @@
                 "se.pepperdeals": null
             },
             "dependencies": [],
-            "description": "Disables the use-case that auto-restores the default icon on app start when an event (Black Friday / Summer Sales / etc.) has ended by date. With this patch your chosen event icon stays as the launcher permanently — no \"Our event mode is over!\" dialog on next launch.",
+            "description": "Keeps the chosen event-themed app icon after the event ends.",
             "name": "Keep event icon after restart",
             "options": [],
             "use": true
@@ -228,7 +228,7 @@
                 "Redirect tracker URLs to localhost",
                 "Neuter tracker auto-init ContentProviders"
             ],
-            "description": "NOPs the JobScheduler entry point of Google's Datatransport library so Crashlytics report uploads (crashlyticsreports-pa.googleapis.com/v1/firelog/legacy/batchlog) and Firebase logging uploads (firebaselogging-pa.googleapis.com) never POST. Pepper doesn't use Firebase Sessions so disabling Datatransport's upload leaves the rest of Firebase init untouched.",
+            "description": "Blocks Crashlytics report and Firebase log uploads from leaving the device.",
             "name": "Kill Datatransport upload pipeline",
             "options": [],
             "use": true
@@ -247,7 +247,7 @@
                 "se.pepperdeals": null
             },
             "dependencies": [],
-            "description": "NOPs Pepper's AnalyticsEventTransmissionWorker so server-pushed pixel-tracking URLs (Pepper Ocular batch_receiver_app + per-event tracking pixels) are stored in Room DB but never POSTed. Also replaces Pepper's real hardware ID with a fixed per-build mock ID in both POST /device registration and the Pepper-Hardware-Id request header, keeping Daily Picks usable without exposing the real ID.",
+            "description": "Blocks Pepper's first-party pixel-tracking pings and replaces the device-fingerprint header with a per-install random UUID.",
             "name": "Kill Pepper first-party pixel tracking",
             "options": [],
             "use": true
@@ -268,7 +268,7 @@
             "dependencies": [
                 "Redirect tracker URLs to localhost"
             ],
-            "description": "Replaces onCreate() in Vungle, Adjust SystemLifecycle, and Facebook Audience Network ContentProvider classes with `return false`, so each provider reports failed init to Android and its SDK auto-initialisation code never runs. Bytecode equivalent of removing the <provider> entries from AndroidManifest.xml — necessary because ReVanced 22.0.1-SNAPSHOT resourcePatches break Pepper boot on this version (a no-op resourcePatch reproduces the hang).",
+            "description": "Stops the Vungle, Adjust, and Facebook Audience Network SDKs from auto-initialising at app start.",
             "name": "Neuter tracker auto-init ContentProviders",
             "options": [],
             "use": true
@@ -287,7 +287,7 @@
                 "se.pepperdeals": null
             },
             "dependencies": [],
-            "description": "Rewrites every tracker URL string constant in the dex to https://127.0.0.1:1 (unreachable) so SDK HTTP clients cannot reach the real backend. Covers Pepper Ocular, Recombee, Iterable, Usercentrics 1px+UCT, Adjust, Vungle, Pubmatic, Firebase Analytics, Firebase Remote Config, Crashlytics settings, LiveRamp, Confiant, Moloco, Facebook Audience Network adnw_logging, Google Mobile Ads (pagead/googleads/imasdk/csi/pubads/mediation.goog/admob-gmats/obplaceholder), AdMob CMP funding-choices, and Pepper dev endpoint.",
+            "description": "Redirects every known tracker and analytics URL in the app to localhost so it cannot reach the network.",
             "name": "Redirect tracker URLs to localhost",
             "options": [],
             "use": true
@@ -306,7 +306,7 @@
                 "se.pepperdeals": null
             },
             "dependencies": [],
-            "description": "Makes all 12 membership-tier icons (Silver/Gold/Platinum + DealMinded/DealDetective/Chilling/Awesome/Tight/Cool/Mascots) available in the icon picker without having to farm loyalty points.",
+            "description": "Unlocks all membership-tier app icons in the icon picker.",
             "name": "Unlock tier-locked icons",
             "options": [],
             "use": true
