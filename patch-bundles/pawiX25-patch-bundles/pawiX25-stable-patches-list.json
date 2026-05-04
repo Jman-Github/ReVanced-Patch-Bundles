@@ -91,16 +91,7 @@
         },
         {
             "compatiblePackages": {
-                "com.chollometro": null,
-                "com.dealabs.apps.android": null,
-                "com.pepperdeals": null,
-                "com.preisjaeger": null,
-                "com.tippingcanoe.hukd": null,
-                "com.tippingcanoe.mydealz": null,
-                "com.tippingcanoe.peppernl": null,
-                "com.tippingcanoe.pepperpl": null,
-                "com.tippingcanoe.promodescuentos": null,
-                "se.pepperdeals": null
+                "com.pepperdeals": null
             },
             "dependencies": [],
             "description": "Removes Google Play's PAIRIP install-source enforcement from `com.pepperdeals` (and any other pepper-family build that ships it) by replacing `LicenseContentProvider.onCreate` with `return false` and `LicenseClient.initializeLicenseCheck` with `return-void`. Without this patch, sideloaded / ReVanced-patched Pepper.com APKs show a 'Something went wrong — Check that Google Play is enabled' dialog and can't be opened. PAIRIP is only present in the global/US build; the other nine regional sister apps don't bundle it and this patch is a no-op on them.",
