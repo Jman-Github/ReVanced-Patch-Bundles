@@ -2999,11 +2999,12 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***27 Patches***
+***36 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable telemetry``` | ```Blocks all telemetry, analytics, and observability data collection.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
 | ```Proton VPN Premium``` | ```Unlocks premium UI, removes upsells, and shows only free servers.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
+| ```MacroDroid Premium``` | ```Unlocks premium features and removes macro limits.``` | ```com.arlosoft.macrodroid``` | ```5.62.11``` |
 | ```Doc Scanner Premium``` | ```Unlocks all premium features, removes ads, and enables pro themes.``` | ```com.cv.docscanner``` | ```6.8.18``` |
 | ```Eyecon Premium``` | ```Unlocks premium features.``` | ```com.eyecon.global``` | ```4.2026.04.05.1300``` |
 | ```VN Premium``` | ```Unlocks premium features, removes watermark, and hides Pro tab.``` | ```com.frontrow.vlog``` | ```2.12.0``` |
@@ -3014,11 +3015,19 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable telemetry``` | ```Disables AppStartTracker and other telemetry points.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Disable update check``` | ```Disables the in-app update check.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Hide Assistant tab``` | ```Hides the Assistant tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
+| ```Hide Family Protection button``` | ```Hides the Family Protection button from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Hide Premium from settings``` | ```Hides the Premium options from the settings and user details pages.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Hide Premium tab``` | ```Hides the Premium tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Hide Scams tab``` | ```Hides the Scams tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Truecaller Premium``` | ```Unlocks premium features.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```CREX Premium``` | ```Unlocks premium features and removes ads.``` | ```in.cricketexchange.app.cricketexchange``` | ```26.04.05``` |
+| ```Bypass signature check``` | ```Bypasses app signature verification to allow API access.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
+| ```Enable all codecs``` | ```Enables all video codecs (H265, VP9, AV1) and 4K resolution by bypassing blacklist and capability checks.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
+| ```Enable screen mirroring``` | ```Allows playback while screen mirroring or HDMI is connected.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
+| ```Enable screenshots``` | ```Removes screenshot and screen recording restrictions.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
+| ```Force HDR10``` | ```Forces HDR10 and HDR10+ playback on compatible devices by bypassing blacklist and capability checks.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
+| ```Premium unlock``` | ```Unlocks premium UI features, removes subscription nudges, and enables downloads.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
+| ```Remove ads``` | ```Removes pre-roll, mid-roll, and live match video ads.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
 | ```Anti-delete messages``` | ```Prevents deleted messages from being removed locally.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
 | ```Anti-disappearing media``` | ```Keeps view-once and self-destructing media viewable forever.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
 | ```Bypass channel restrictions``` | ```Allows opening copyrighted, sensitive, and temporarily disabled channels.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |

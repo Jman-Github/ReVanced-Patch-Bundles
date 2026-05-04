@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.41",
+    "version": "v1.4.0-dev.43",
     "patches": [
         {
             "compatiblePackages": {
@@ -164,6 +164,18 @@
                 ]
             },
             "dependencies": [],
+            "description": "Enables all video codecs (H265, VP9, AV1) and 4K resolution by bypassing blacklist and capability checks.",
+            "name": "Enable all codecs",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "in.startv.hotstar": [
+                    "26.04.13.3"
+                ]
+            },
+            "dependencies": [],
             "description": "Allows playback while screen mirroring or HDMI is connected.",
             "name": "Enable screen mirroring",
             "options": [],
@@ -207,6 +219,18 @@
         },
         {
             "compatiblePackages": {
+                "in.startv.hotstar": [
+                    "26.04.13.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Forces HDR10 and HDR10+ playback on compatible devices by bypassing blacklist and capability checks.",
+            "name": "Force HDR10",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.truecaller": [
                     "26.10.6"
                 ]
@@ -214,6 +238,18 @@
             "dependencies": [],
             "description": "Hides the Assistant tab from the bottom navigation bar.",
             "name": "Hide Assistant tab",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hides the Family Protection button from the bottom navigation bar.",
+            "name": "Hide Family Protection button",
             "options": [],
             "use": true
         },
@@ -320,7 +356,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Removes pre-roll and mid-roll video ads.",
+            "description": "Removes pre-roll, mid-roll, and live match video ads.",
             "name": "Remove ads",
             "options": [],
             "use": true

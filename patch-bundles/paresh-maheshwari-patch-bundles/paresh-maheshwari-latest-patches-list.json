@@ -1,5 +1,5 @@
 {
-    "version": "v1.15.0",
+    "version": "v1.4.0-dev.43",
     "patches": [
         {
             "compatiblePackages": {
@@ -58,6 +58,18 @@
             "dependencies": [],
             "description": "Bypasses integrity check to allow login on patched app.",
             "name": "Bypass integrity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "in.startv.hotstar": [
+                    "26.04.13.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bypasses app signature verification to allow API access.",
+            "name": "Bypass signature check",
             "options": [],
             "use": true
         },
@@ -147,6 +159,42 @@
         },
         {
             "compatiblePackages": {
+                "in.startv.hotstar": [
+                    "26.04.13.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enables all video codecs (H265, VP9, AV1) and 4K resolution by bypassing blacklist and capability checks.",
+            "name": "Enable all codecs",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "in.startv.hotstar": [
+                    "26.04.13.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Allows playback while screen mirroring or HDMI is connected.",
+            "name": "Enable screen mirroring",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "in.startv.hotstar": [
+                    "26.04.13.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes screenshot and screen recording restrictions.",
+            "name": "Enable screenshots",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.eyecon.global": [
                     "4.2026.04.05.1300"
                 ]
@@ -171,6 +219,18 @@
         },
         {
             "compatiblePackages": {
+                "in.startv.hotstar": [
+                    "26.04.13.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Forces HDR10 and HDR10+ playback on compatible devices by bypassing blacklist and capability checks.",
+            "name": "Force HDR10",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.truecaller": [
                     "26.10.6"
                 ]
@@ -178,6 +238,18 @@
             "dependencies": [],
             "description": "Hides the Assistant tab from the bottom navigation bar.",
             "name": "Hide Assistant tab",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hides the Family Protection button from the bottom navigation bar.",
+            "name": "Hide Family Protection button",
             "options": [],
             "use": true
         },
@@ -231,6 +303,18 @@
         },
         {
             "compatiblePackages": {
+                "com.arlosoft.macrodroid": [
+                    "5.62.11"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium features and removes macro limits.",
+            "name": "MacroDroid Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.markOne.ss_app": [
                     "6.6"
                 ]
@@ -243,6 +327,18 @@
         },
         {
             "compatiblePackages": {
+                "in.startv.hotstar": [
+                    "26.04.13.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium UI features, removes subscription nudges, and enables downloads.",
+            "name": "Premium unlock",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "ch.protonvpn.android": [
                     "5.17.72.0"
                 ]
@@ -250,6 +346,18 @@
             "dependencies": [],
             "description": "Unlocks premium UI, removes upsells, and shows only free servers.",
             "name": "Proton VPN Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "in.startv.hotstar": [
+                    "26.04.13.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes pre-roll, mid-roll, and live match video ads.",
+            "name": "Remove ads",
             "options": [],
             "use": true
         },
