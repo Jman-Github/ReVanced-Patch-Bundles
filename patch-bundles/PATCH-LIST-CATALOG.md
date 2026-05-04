@@ -2131,7 +2131,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***71 Patches***
+***72 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add notification shortcut``` | ```Adds a notification shortcut button above quick write in the post list.``` | ```dcinside``` | ```All versions``` |
@@ -2143,6 +2143,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Dimens Patch``` | ```reassigns ad_minimum_height to 0dp to remove ads from the app.``` | ```dcinside``` | ```All versions``` |
 | ```Disable ad controller``` | ```Disables the ad controller that manages ads in the app.``` | ```dcinside``` | ```All versions``` |
 | ```Disable Comment Ad``` | ```Disables the comment ad in the app.``` | ```dcinside``` | ```All versions``` |
+| ```Disable DCCon loading``` | ```Adds settings to block DCCon image loading in posts and replies.``` | ```dcinside``` | ```All versions``` |
 | ```Disable Image Ad``` | ```Disables the image ad in the app.``` | ```dcinside``` | ```All versions``` |
 | ```Disable update check``` | ```Disables the app's update check.``` | ```dcinside``` | ```All versions``` |
 | ```Enable OneStore feature``` | ```Enables the OneStore feature in DC Inside app.``` | ```dcinside``` | ```All versions``` |
