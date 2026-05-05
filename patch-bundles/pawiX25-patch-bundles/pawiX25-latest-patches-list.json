@@ -73,34 +73,6 @@
                 "com.tippingcanoe.promodescuentos": null,
                 "se.pepperdeals": null
             },
-            "dependencies": [],
-            "description": "Shrinks Pepper 8.x deal-list cards toward the denser pre-redesign layout without recompiling resources.",
-            "name": "Compact deal cards (bytecode fallback)",
-            "options": [
-                {
-                    "default": "0x7f070737",
-                    "description": "Resource ID of `spacing_extra_small` (4dp). Default matches Pepper PL v8.13.00 and is used as the density-aware unit for 92dp, 40dp and 32dp runtime sizes.",
-                    "name": "spacingUnitDimenId",
-                    "required": true,
-                    "type": "java.lang.String (Kotlin reflection is not available)",
-                    "values": null
-                }
-            ],
-            "use": false
-        },
-        {
-            "compatiblePackages": {
-                "com.chollometro": null,
-                "com.dealabs.apps.android": null,
-                "com.pepperdeals": null,
-                "com.preisjaeger": null,
-                "com.tippingcanoe.hukd": null,
-                "com.tippingcanoe.mydealz": null,
-                "com.tippingcanoe.peppernl": null,
-                "com.tippingcanoe.pepperpl": null,
-                "com.tippingcanoe.promodescuentos": null,
-                "se.pepperdeals": null
-            },
             "dependencies": [
                 "Redirect tracker URLs to localhost",
                 "Neuter tracker auto-init ContentProviders"
