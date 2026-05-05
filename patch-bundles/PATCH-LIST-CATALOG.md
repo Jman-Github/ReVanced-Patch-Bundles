@@ -1720,7 +1720,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***68 Patches***
+***70 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.``` | ```app.ttmikstories.android``` | ```1.16.0``` |
@@ -1746,6 +1746,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```com.getmimo``` | ```9.0``` |
 | ```Spoof package signature``` | ```Spoofs the SHA1 signature hash required for Firebase API calls.``` | ```com.getmimo``` | ```9.0``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.hellochinese``` | ```7.9.25``` |
+| ```Disable telemetry``` | ```Disables CamScanner's custom telemetry system.``` | ```com.intsig.camscanner``` | ```7.15.5.2604080000``` |
+| ```Enable Premium``` | ```Enables some app features locked behind the subscription paywall. Certain server-side functionality may be unavailable.``` | ```com.intsig.camscanner``` | ```7.15.5.2604080000``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.lyfta``` | ```1.551``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.merriamwebster``` | ```All versions``` |
 | ```Enable FotMob+``` | ```Enables app features locked behind the subscription paywall.``` | ```com.mobilefootie.wc2010``` | ```226.16092.20260302``` |
