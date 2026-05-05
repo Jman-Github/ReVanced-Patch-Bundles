@@ -1685,27 +1685,28 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***18 Patches***
+***19 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Bypass signature check``` | ```N/A``` | ```com.instagram.android``` | ```424.0.0.49.64``` |
-| ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.``` | ```com.instagram.android``` | ```424.0.0.49.64``` |
-| ```Disable story auto flipping``` | ```Disable stories automatically flipping/skipping after some seconds.``` | ```com.instagram.android``` | ```424.0.0.49.64``` |
-| ```Disable video autoplay``` | ```Disable video autoplay from feed``` | ```com.instagram.android``` | ```424.0.0.49.64``` |
-| ```Hide ads``` | ```N/A``` | ```com.instagram.android``` | ```424.0.0.49.64``` |
-| ```Hide explore feed``` | ```Hides posts and reels from the explore/search page.``` | ```com.instagram.android``` | ```424.0.0.49.64``` |
-| ```Hide feed content``` | ```Hide the feed content, leaving only stories in the home page.``` | ```com.instagram.android``` | ```424.0.0.49.64``` |
-| ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button. Choose what button to hide using the patch options.``` | ```com.instagram.android``` | ```424.0.0.49.64``` |
-| ```Hide notes tray``` | ```Hides the notes tray from the direct tab.``` | ```com.instagram.android``` | ```424.0.0.49.64``` |
-| ```Hide reshare button``` | ```Hides the reshare button from both posts and reels.``` | ```com.instagram.android``` | ```424.0.0.49.64``` |
-| ```Hide Stories from Home``` | ```Hides Stories from the main page, by removing the buttons.``` | ```com.instagram.android``` | ```424.0.0.49.64``` |
-| ```Hide suggested content``` | ```Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).``` | ```com.instagram.android``` | ```424.0.0.49.64``` |
-| ```Limit feed to following profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```com.instagram.android``` | ```424.0.0.49.64``` |
-| ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```com.instagram.android``` | ```424.0.0.49.64``` |
-| ```Unlock premium features``` | ```N/A``` | ```cz.seznam.mapy``` | ```26.3.1``` |
-| ```Unlock Premium features``` | ```Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.``` | ```de.komoot.android``` | ```2025.38.2``` |
-| ```Unlock Premium features``` | ```Unlock Premium features. You have to be logged in with an account.``` | ```fr.chargeprice.app``` | ```3.9.2``` |
-| ```Unlock Pro features``` | ```Unlock Pro features (park4night +). You have to be logged in with an account.``` | ```fr.tramb.park4night``` | ```7.1.11``` |
+| ```Unlock Premium features``` | ```Unlock Premium features. You have to be logged in with an account.``` | ```Chargeprice``` | ```All versions``` |
+| ```Bypass signature check``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.``` | ```Instagram``` | ```All versions``` |
+| ```Disable story auto flipping``` | ```Disable stories automatically flipping/skipping after some seconds.``` | ```Instagram``` | ```All versions``` |
+| ```Disable video autoplay``` | ```Disable video autoplay from feed``` | ```Instagram``` | ```All versions``` |
+| ```Hide ads``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```Hide explore feed``` | ```Hides posts and reels from the explore/search page.``` | ```Instagram``` | ```All versions``` |
+| ```Hide feed content``` | ```Hide the feed content, leaving only stories in the home page.``` | ```Instagram``` | ```All versions``` |
+| ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button. Choose what button to hide using the patch options.``` | ```Instagram``` | ```All versions``` |
+| ```Hide notes tray``` | ```Hides the notes tray from the direct tab.``` | ```Instagram``` | ```All versions``` |
+| ```Hide reshare button``` | ```Hides the reshare button from both posts and reels.``` | ```Instagram``` | ```All versions``` |
+| ```Hide Stories from Home``` | ```Hides Stories from the main page, by removing the buttons.``` | ```Instagram``` | ```All versions``` |
+| ```Hide suggested content``` | ```Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).``` | ```Instagram``` | ```All versions``` |
+| ```Hide Threads profile button``` | ```Hides the Threads button from the profile page action bar (top right of the profile page). The target button position can be changed via the "Button index" option if needed.``` | ```Instagram``` | ```All versions``` |
+| ```Limit feed to following profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```Instagram``` | ```All versions``` |
+| ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```Instagram``` | ```All versions``` |
+| ```Unlock Premium features``` | ```Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.``` | ```Komoot``` | ```All versions``` |
+| ```Unlock premium features``` | ```N/A``` | ```Mapy.com``` | ```All versions``` |
+| ```Unlock Pro features``` | ```Unlock Pro features (park4night +). You have to be logged in with an account.``` | ```park4night``` | ```All versions``` |
 
 </details>
 
