@@ -667,121 +667,125 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***112 Patches***
+***116 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Add settings``` | ```Adds settings to control preferences are patching``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Amoled theme``` | ```Replaces Instagram's dark-mode background greys with pure black for AMOLED displays.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Change like animation``` | ```Change the animation to one from existing Rings like animations``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Copy comment``` | ```Adds a button to copy comments on posts and reels.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Customise story ring size``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Customise story timestamp``` | ```Customise the timestamp that shows when the story was posted``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Disable ads``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Disable analytics``` | ```Block analytics that are sent to Instagram/Facebook servers.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Disable comments``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Disable discover people``` | ```Disables discover people section on user profile``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Disable explore``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Disable highlights``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Disable screenshot detection``` | ```Disables screenshots detection in DM``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Disable stories``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Disable story flipping``` | ```Disable automatic flipping/moving to next story``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Disable typing status``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Disable video autoplay``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Follow back indicator``` | ```Adds a label on the profile page, indicating whether a user is follows you back.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Hide group creation button on sharesheet``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Hide notes tray``` | ```Hides notes tray in DM section``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Hide reshare button``` | ```Hides the reshare button from both posts and reels.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Hide stories tray``` | ```Hides stories tray from main feed.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Hide suggested content``` | ```Hides suggested stories, reels, threads (Suggested posts will still be shown).``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Improve image viewing``` | ```Fetches max resolution images from server.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Limit feed to following profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Make ephemeral media permanent``` | ```Changes unexpired view once, view twice media to permanent view.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```More options on profile``` | ```Adds a new button to handle user related data like copy handle, download profile picture etc``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Open links externally``` | ```Changes links to always open in your external browser, instead of the in-app browser.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Remove empty bottom space``` | ```Removes empty space below bottom navigation bar``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Sanitize share links``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Stories audio autoplay``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Unlock developer options``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Unlock Plus benefits``` | ```Unlocks 'Plus' subscription benefits that are checked locally. USE IT AT YOUR OWN RISK``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```View DMs anonymously``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```View live anonymously``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```View stories anonymously``` | ```N/A``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```View story mentions``` | ```Add option to view visible and hidden story mentions.``` | ```com.instagram.android``` | ```426.0.0.37.68``` |
-| ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```com.instagram.android, com.twitter.android``` | ```426.0.0.37.68, 11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Add ability to copy media link``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Bring back twitter``` | ```Bring back old twitter logo and name``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Browse tweet object``` | ```Adds an option to browse the tweet object in the share menu.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Change app icon``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Clear tracking params``` | ```Removes tracking parameters when sharing links``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Control video auto scroll``` | ```Control video auto scroll in immersive view``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Custom download folder``` | ```Change the download directory for video downloads``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Custom emoji font``` | ```Customise emoji font style``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Custom font``` | ```Customise font style``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Custom sharing domain``` | ```Allows for using domains like fxtwitter when sharing tweets/posts.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Customise post font size``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Customize default reply sorting``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Customize explore tabs``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Customize Inline action Bar items``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Customize Navigation Bar items``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Customize notification tabs``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Customize profile tabs``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Customize search suggestions``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Customize search tab items``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Customize side bar items``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Customize timeline top bar``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Delete from database``` | ```Delete entries from database(cache)``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Disable auto timeline scroll on launch``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Disable chirp font``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Disunify xchat system``` | ```Bring back legacy features like messages and share sheet.``` | ```com.twitter.android``` | ```11.69.0-release.0``` |
-| ```Download patch``` | ```Unlocks the ability to download videos and gifs from Twitter/X``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Dynamic color``` | ```Replaces the default Twitter Blue with the user's Material You palette.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Enable debug menu for posts``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Enable force HD videos``` | ```Videos will be played in highest quality always``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Enable PiP mode automatically``` | ```Enables PiP mode when you close the app``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Enable Undo Posts``` | ```Enables ability to undo posts before posting``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Export all activities``` | ```Makes all app activities exportable.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Force enable translate``` | ```Get translate option for all posts``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Handle custom twitter links``` | ```Adds support for opening custom twitter links such as vxtwitter, fxtwitter, and fixupx within the app. These will have to be manually enabled under the "Open by default" section in the app info!``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Hide badges from navigation bar icons``` | ```Hides notification nudges & counts from navigation bar icons``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Hide Banner``` | ```Hide new post banner``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Hide bookmark icon in timeline``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Hide community badges``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Hide Community Notes``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Hide FAB``` | ```Adds an option to hide Floating action button``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Hide FAB Menu Buttons``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Hide followed by context``` | ```Hides followed by context under profile``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Hide hidden replies``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Hide immersive player``` | ```Removes swipe up for more videos in video player``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Hide Live Threads``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Hide nudge button``` | ```Hides follow/subscribe/follow back buttons on posts``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Hide post metrics``` | ```Hides like, reposts etc counts.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Hide promote button``` | ```Hides promote button under self posts``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Hide recommendation items``` | ```Adds options to hide recommendation items such as "Who to follow" and "Today's news" in timeline, search, and replies.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Hide Recommended Users``` | ```Hide recommended users that pops up when you follow someone``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Hook feature flag``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Import/Export login token``` | ```Adds an feature to export and import the token of accounts. This is useful when logging in on your second device or when re-installing piko.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Legacy share links``` | ```Brings back username on post share links. Works post 11.4x.xx``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Log server response``` | ```Log json responses received from server``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Native downloader``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Native reader mode``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Native translator``` | ```Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```No shortened URL``` | ```Get rid of t.co short urls.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Pause search suggestions``` | ```Search suggestions will not be saved locally``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Remove Ads``` | ```Removed promoted posts, trends and google ads``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Remove premium upsell``` | ```Removes premium upsell in home timeline``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Remove search suggestions``` | ```Hide/Remove search suggestion in explore section``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Remove view count``` | ```Removes the view count from the bottom of tweets``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Round off numbers``` | ```Enable or disable rounding off numbers``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Selectable Text``` | ```Makes bio and username selectable``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Share Tweet as Image``` | ```Share tweets as rendered image. Requires X 11.0.0-release.0 or higher.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Show changelogs``` | ```Shows changelogs when new a patch is installed.``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Show poll results``` | ```Adds an option to show poll results without voting``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Show post source label``` | ```Source label will be shown only on public posts``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
-| ```Show sensitive media``` | ```N/A``` | ```com.twitter.android``` | ```11.80.0-alpha.1, 11.82.0-beta.1, 11.81.0-release.0``` |
+| ```Add settings``` | ```Adds settings to control preferences are patching``` | ```Instagram``` | ```All versions``` |
+| ```Amoled theme``` | ```Replaces Instagram's dark-mode background greys with pure black for AMOLED displays.``` | ```Instagram``` | ```All versions``` |
+| ```Change like animation``` | ```Change the animation to one from existing Rings like animations``` | ```Instagram``` | ```All versions``` |
+| ```Copy comment``` | ```Adds a button to copy comments on posts and reels.``` | ```Instagram``` | ```All versions``` |
+| ```Customise story ring size``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```Customise story timestamp``` | ```Customise the timestamp that shows when the story was posted``` | ```Instagram``` | ```All versions``` |
+| ```Disable ads``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```Disable analytics``` | ```Block analytics that are sent to Instagram/Facebook servers.``` | ```Instagram``` | ```All versions``` |
+| ```Disable comments``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```Disable discover people``` | ```Disables discover people section on user profile``` | ```Instagram``` | ```All versions``` |
+| ```Disable double tap like``` | ```Disable double tap like on post, reel, comment and message``` | ```Instagram``` | ```All versions``` |
+| ```Disable explore``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```Disable highlights``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.``` | ```Instagram``` | ```All versions``` |
+| ```Disable screenshot detection``` | ```Disables screenshots detection in DM``` | ```Instagram``` | ```All versions``` |
+| ```Disable stories``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```Disable story flipping``` | ```Disable automatic flipping/moving to next story``` | ```Instagram``` | ```All versions``` |
+| ```Disable typing status``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```Disable video autoplay``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```Instagram``` | ```All versions``` |
+| ```Enable whitehat settings``` | ```Unlocks settings used for network testing``` | ```Instagram``` | ```All versions``` |
+| ```Follow back indicator``` | ```Adds a label on the profile page, indicating whether a user is follows you back.``` | ```Instagram``` | ```All versions``` |
+| ```Hide group creation button on sharesheet``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button.``` | ```Instagram``` | ```All versions``` |
+| ```Hide notes tray``` | ```Hides notes tray in DM section``` | ```Instagram``` | ```All versions``` |
+| ```Hide reshare button``` | ```Hides the reshare button from both posts and reels.``` | ```Instagram``` | ```All versions``` |
+| ```Hide stories tray``` | ```Hides stories tray from main feed.``` | ```Instagram``` | ```All versions``` |
+| ```Hide suggested content``` | ```Hides suggested stories, reels, threads (Suggested posts will still be shown).``` | ```Instagram``` | ```All versions``` |
+| ```Improve image viewing``` | ```Fetches max resolution images from server.``` | ```Instagram``` | ```All versions``` |
+| ```Limit feed to following profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```Instagram``` | ```All versions``` |
+| ```Make ephemeral media permanent``` | ```Changes unexpired view once, view twice media to permanent view.``` | ```Instagram``` | ```All versions``` |
+| ```More options on post``` | ```Adds more options on post, like copy description by long pressing on post``` | ```Instagram``` | ```All versions``` |
+| ```More options on profile``` | ```Adds a new button to handle user related data like copy handle, download profile picture etc``` | ```Instagram``` | ```All versions``` |
+| ```Open links externally``` | ```Changes links to always open in your external browser, instead of the in-app browser.``` | ```Instagram``` | ```All versions``` |
+| ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```Instagram``` | ```All versions``` |
+| ```Remove empty bottom space``` | ```Removes empty space below bottom navigation bar``` | ```Instagram``` | ```All versions``` |
+| ```Sanitize share links``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```Stories audio autoplay``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```Unlock developer options``` | ```Unlocks developer option by long pressing home icon``` | ```Instagram``` | ```All versions``` |
+| ```Unlock employee options``` | ```Unlocks all options using by employee for debugging``` | ```Instagram``` | ```All versions``` |
+| ```Unlock Plus benefits``` | ```Unlocks 'Plus' subscription benefits that are checked locally. USE IT AT YOUR OWN RISK``` | ```Instagram``` | ```All versions``` |
+| ```View DMs anonymously``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```View live anonymously``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```View stories anonymously``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```View story mentions``` | ```Add option to view visible and hidden story mentions.``` | ```Instagram``` | ```All versions``` |
+| ```Add ability to copy media link``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Bring back twitter``` | ```Bring back old twitter logo and name``` | ```X``` | ```All versions``` |
+| ```Browse tweet object``` | ```Adds an option to browse the tweet object in the share menu.``` | ```X``` | ```All versions``` |
+| ```Change app icon``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Clear tracking params``` | ```Removes tracking parameters when sharing links``` | ```X``` | ```All versions``` |
+| ```Control video auto scroll``` | ```Control video auto scroll in immersive view``` | ```X``` | ```All versions``` |
+| ```Custom download folder``` | ```Change the download directory for video downloads``` | ```X``` | ```All versions``` |
+| ```Custom emoji font``` | ```Customise emoji font style``` | ```X``` | ```All versions``` |
+| ```Custom font``` | ```Customise font style``` | ```X``` | ```All versions``` |
+| ```Custom sharing domain``` | ```Allows for using domains like fxtwitter when sharing tweets/posts.``` | ```X``` | ```All versions``` |
+| ```Customise post font size``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Customize default reply sorting``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Customize explore tabs``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Customize Inline action Bar items``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Customize Navigation Bar items``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Customize notification tabs``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Customize profile tabs``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Customize search suggestions``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Customize search tab items``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Customize side bar items``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Customize timeline top bar``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Delete from database``` | ```Delete entries from database(cache)``` | ```X``` | ```All versions``` |
+| ```Disable auto timeline scroll on launch``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Disable chirp font``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Disunify xchat system``` | ```Bring back legacy features like messages and share sheet.``` | ```X``` | ```All versions``` |
+| ```Download patch``` | ```Unlocks the ability to download videos and gifs from Twitter/X``` | ```X``` | ```All versions``` |
+| ```Dynamic color``` | ```Replaces the default Twitter Blue with the user's Material You palette.``` | ```X``` | ```All versions``` |
+| ```Enable debug menu for posts``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Enable force HD videos``` | ```Videos will be played in highest quality always``` | ```X``` | ```All versions``` |
+| ```Enable PiP mode automatically``` | ```Enables PiP mode when you close the app``` | ```X``` | ```All versions``` |
+| ```Enable Undo Posts``` | ```Enables ability to undo posts before posting``` | ```X``` | ```All versions``` |
+| ```Export all activities``` | ```Makes all app activities exportable.``` | ```X``` | ```All versions``` |
+| ```Force enable translate``` | ```Get translate option for all posts``` | ```X``` | ```All versions``` |
+| ```Handle custom twitter links``` | ```Adds support for opening custom twitter links such as vxtwitter, fxtwitter, and fixupx within the app. These will have to be manually enabled under the "Open by default" section in the app info!``` | ```X``` | ```All versions``` |
+| ```Hide badges from navigation bar icons``` | ```Hides notification nudges & counts from navigation bar icons``` | ```X``` | ```All versions``` |
+| ```Hide Banner``` | ```Hide new post banner``` | ```X``` | ```All versions``` |
+| ```Hide bookmark icon in timeline``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Hide community badges``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Hide Community Notes``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Hide FAB``` | ```Adds an option to hide Floating action button``` | ```X``` | ```All versions``` |
+| ```Hide FAB Menu Buttons``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Hide followed by context``` | ```Hides followed by context under profile``` | ```X``` | ```All versions``` |
+| ```Hide hidden replies``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Hide immersive player``` | ```Removes swipe up for more videos in video player``` | ```X``` | ```All versions``` |
+| ```Hide Live Threads``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Hide nudge button``` | ```Hides follow/subscribe/follow back buttons on posts``` | ```X``` | ```All versions``` |
+| ```Hide post metrics``` | ```Hides like, reposts etc counts.``` | ```X``` | ```All versions``` |
+| ```Hide promote button``` | ```Hides promote button under self posts``` | ```X``` | ```All versions``` |
+| ```Hide recommendation items``` | ```Adds options to hide recommendation items such as "Who to follow" and "Today's news" in timeline, search, and replies.``` | ```X``` | ```All versions``` |
+| ```Hide Recommended Users``` | ```Hide recommended users that pops up when you follow someone``` | ```X``` | ```All versions``` |
+| ```Hook feature flag``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Import/Export login token``` | ```Adds an feature to export and import the token of accounts. This is useful when logging in on your second device or when re-installing piko.``` | ```X``` | ```All versions``` |
+| ```Legacy share links``` | ```Brings back username on post share links. Works post 11.4x.xx``` | ```X``` | ```All versions``` |
+| ```Log server response``` | ```Log json responses received from server``` | ```X``` | ```All versions``` |
+| ```Native downloader``` | ```Requires X 11.0.0-release.0 or higher.``` | ```X``` | ```All versions``` |
+| ```Native reader mode``` | ```Requires X 11.0.0-release.0 or higher.``` | ```X``` | ```All versions``` |
+| ```Native translator``` | ```Requires X 11.0.0-release.0 or higher.``` | ```X``` | ```All versions``` |
+| ```No shortened URL``` | ```Get rid of t.co short urls.``` | ```X``` | ```All versions``` |
+| ```Pause search suggestions``` | ```Search suggestions will not be saved locally``` | ```X``` | ```All versions``` |
+| ```Remove Ads``` | ```Removed promoted posts, trends and google ads``` | ```X``` | ```All versions``` |
+| ```Remove premium upsell``` | ```Removes premium upsell in home timeline``` | ```X``` | ```All versions``` |
+| ```Remove search suggestions``` | ```Hide/Remove search suggestion in explore section``` | ```X``` | ```All versions``` |
+| ```Remove view count``` | ```Removes the view count from the bottom of tweets``` | ```X``` | ```All versions``` |
+| ```Round off numbers``` | ```Enable or disable rounding off numbers``` | ```X``` | ```All versions``` |
+| ```Selectable Text``` | ```Makes bio and username selectable``` | ```X``` | ```All versions``` |
+| ```Share Tweet as Image``` | ```Share tweets as rendered image. Requires X 11.0.0-release.0 or higher.``` | ```X``` | ```All versions``` |
+| ```Show changelogs``` | ```Shows changelogs when new a patch is installed.``` | ```X``` | ```All versions``` |
+| ```Show poll results``` | ```Adds an option to show poll results without voting``` | ```X``` | ```All versions``` |
+| ```Show post source label``` | ```Source label will be shown only on public posts``` | ```X``` | ```All versions``` |
+| ```Show sensitive media``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```X, Instagram``` | ```All versions``` |
 
 </details>
 
@@ -3004,12 +3008,11 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***36 Patches***
+***35 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable telemetry``` | ```Blocks all telemetry, analytics, and observability data collection.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
 | ```Proton VPN Premium``` | ```Unlocks premium UI, removes upsells, and shows only free servers.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
-| ```MacroDroid Premium``` | ```Unlocks premium features and removes macro limits.``` | ```com.arlosoft.macrodroid``` | ```5.62.11``` |
 | ```Doc Scanner Premium``` | ```Unlocks all premium features, removes ads, and enables pro themes.``` | ```com.cv.docscanner``` | ```6.8.18``` |
 | ```Eyecon Premium``` | ```Unlocks premium features.``` | ```com.eyecon.global``` | ```4.2026.04.05.1300``` |
 | ```VN Premium``` | ```Unlocks premium features, removes watermark, and hides Pro tab.``` | ```com.frontrow.vlog``` | ```2.12.0``` |
