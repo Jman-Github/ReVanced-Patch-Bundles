@@ -992,6 +992,58 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+### 📦 Cryptomator-Patches-Bundle [Morphe]:
+[🧩 Cryptomator Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-cryptomator-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Cryptomator-patch-bundles/Cryptomator-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Cryptomator-patch-bundles/Cryptomator-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Cryptomator-patch-bundles/Cryptomator-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Vmospro-Patches-Bundle [Morphe]:
+[🧩 Vmospro Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-Vmospro-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Vmospro-patch-bundles/Vmospro-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Vmospro-patch-bundles/Vmospro-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Vmospro-patch-bundles/Vmospro-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Lynx6319-Patches-Bundle [Morphe]:
+[🧩 Lynx6319 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-Lynx6319-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Lynx6319-patch-bundles/Lynx6319-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Lynx6319-patch-bundles/Lynx6319-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Lynx6319-patch-bundles/Lynx6319-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Ameenalasady-Patches-Bundle [Morphe]:
+[🧩 Ameenalasady Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-Ameenalasady-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Ameenalasady-patch-bundles/Ameenalasady-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Ameenalasady-patch-bundles/Ameenalasady-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Ameenalasady-patch-bundles/Ameenalasady-dev-patches-bundle.json```
+</details>
+
+---
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -1150,6 +1202,15 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Abhis1n-Patches-Bundle](https://github.com/abhis1n/Morphe-Patches)
 
 #### 🏷️ [PawiX25-Patches-Bundle](https://github.com/PawiX25/pepper-revanced-patches)
+
+#### 🏷️ [Vmospro-Patches-Bundle](https://github.com/joganubaid/vmospro-morphe-patches)
+
+#### 🏷️ [Cryptomator-Patches-Bundle](https://github.com/joganubaid/cryptomator-morphe-patches)
+
+#### 🏷️ [Lynx6319-Patches-Bundle](https://github.com/Lynx6319/patch-youtube-scroll-block)
+
+#### 🏷️ [Ameenalasady-Patches-Bundle](https://github.com/ameenalasady/photogrid-morphe)
+
 
 </details>
 

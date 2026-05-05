@@ -76,6 +76,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Kareemlukitomo Bundle Patch List](#-kareemlukitomo-bundle-patch-list)    
 [🧩 Abhis1n Bundle Patch List](#-abhis1n-bundle-patch-list)    
 [🧩 PawiX25 Bundle Patch List](#-PawiX25-bundle-patch-list)    
+[🧩 Cryptomator Bundle Patch List](#-Cryptomator-bundle-patch-list)    
+[🧩 Vmospro Bundle Patch List](#-Vmospro-bundle-patch-list)    
+[🧩 Ameenalasady Bundle Patch List](#-Ameenalasady-bundle-patch-list)    
+[🧩 Lynx6319 Bundle Patch List](#-Lynx6319-bundle-patch-list)    
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -3290,3 +3294,44 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable PAIRIP license check``` | ```Removes Google Play's install-source DRM check from the US Pepper.com build, allowing sideloaded APKs to open.``` | ```com.pepperdeals``` | ```All versions``` |
 
 </details>
+
+---
+### 🧩 Cryptomator Bundle Patch List:
+[📦 Cryptomator-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-Cryptomator-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
+
+---
+### 🧩 Vmospro Bundle Patch List:
+[📦 Vmospro-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-Vmospro-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
+
+---
+### 🧩 Ameenalasady Bundle Patch List:
+[📦 Ameenalasady-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-Ameenalasady-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
+
+---
+### 🧩 Lynx6319 Bundle Patch List:
+[📦 Lynx6319-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-Lynx6319-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
+
