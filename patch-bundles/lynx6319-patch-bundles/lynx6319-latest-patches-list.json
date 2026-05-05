@@ -1,0 +1,52 @@
+{
+    "version": "v1.0.5",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "description": null,
+                    "name": "YouTube",
+                    "packageName": "com.google.android.youtube",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "19.16.39"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "19.25.37"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "20.47.62"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables swiping up/down between Shorts while still allowing a single Short to be opened and watched normally.",
+            "name": "Disable Shorts scroll",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Prevents swiping up or down to navigate to the next or previous Short.",
+                    "key": "morphe_disable_shorts_scroll",
+                    "required": false,
+                    "title": "Disable Shorts scroll",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        }
+    ]
+}

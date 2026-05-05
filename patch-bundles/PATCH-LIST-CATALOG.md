@@ -3301,7 +3301,11 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***2 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Check License No-Op``` | ```Makes VaultListPresenter.checkLicense() a no-op to skip license check``` | ```Universal``` | ```All versions``` |
+| ```License Bypass``` | ```Bypasses Cryptomator license verification to enable premium features``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -3321,7 +3325,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***1 Patch***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock Premium``` | ```Unlocks all PhotoGrid premium features by making IabUtils always report the user as premium.``` | ```PhotoGrid``` | ```All versions``` |
 
 </details>
 
@@ -3331,7 +3338,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***1 Patch***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable Shorts scroll``` | ```Disables swiping up/down between Shorts while still allowing a single Short to be opened and watched normally.``` | ```YouTube``` | ```All versions``` |
 
 </details>
-
