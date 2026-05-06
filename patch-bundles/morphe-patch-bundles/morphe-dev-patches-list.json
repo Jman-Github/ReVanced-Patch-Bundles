@@ -1,5 +1,5 @@
 {
-    "version": "v1.26.0-dev.4",
+    "version": "v1.26.1-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -1614,7 +1614,6 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to disable haptic feedback in the player for various actions.",
@@ -2260,7 +2259,6 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -5102,9 +5100,7 @@
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Adds an option to always open links in your browser instead of with the in-app browser.",
             "name": "Open links externally",
             "options": []
