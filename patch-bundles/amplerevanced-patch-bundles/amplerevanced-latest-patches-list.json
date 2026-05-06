@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.28",
+    "version": "v1.0.0-dev.31",
     "patches": [
         {
             "compatiblePackages": [
@@ -193,6 +193,41 @@
             "description": "Adds a settings tab to the app.",
             "name": "Add settings tab",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#3D4491",
+                    "description": null,
+                    "name": "dcinside",
+                    "packageName": "com.dcinside.app.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.2.9"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Moves the image download menu buttons upward by adding bottom padding.",
+            "name": "Adjust image download menu",
+            "options": [
+                {
+                    "default": 180,
+                    "description": "Bottom padding in dp for the image download menu. The original value is 10dp.",
+                    "key": "bottomPadding",
+                    "required": true,
+                    "title": "Bottom padding",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [

@@ -2142,12 +2142,13 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***72 Patches***
+***73 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add notification shortcut``` | ```Adds a notification shortcut button above quick write in the post list.``` | ```dcinside``` | ```All versions``` |
 | ```Add settings``` | ```Adds a Morphe settings entry to the DCInside settings screen.``` | ```dcinside``` | ```All versions``` |
 | ```Add settings resources``` | ```Adds Morphe settings resources to the app.``` | ```dcinside``` | ```All versions``` |
+| ```Adjust image download menu``` | ```Moves the image download menu buttons upward by adding bottom padding.``` | ```dcinside``` | ```All versions``` |
 | ```Bypass getText``` | ```Bypasses the integrity check for getText.``` | ```dcinside``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".revanced" to the package name by default. For DCinside only``` | ```dcinside``` | ```All versions``` |
 | ```Custom branding``` | ```Customize app branding (name and icon)``` | ```dcinside``` | ```All versions``` |
