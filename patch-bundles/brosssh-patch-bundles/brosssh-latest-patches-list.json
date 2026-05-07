@@ -1,5 +1,5 @@
 {
-    "version": "v2.6.0-dev.4",
+    "version": "v2.6.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -218,6 +218,37 @@
             "dependencies": [],
             "description": "Hide the feed content, leaving only stories in the home page.",
             "name": "Hide feed content",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "425.0.0.47.61"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "424.0.0.49.64"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Hides Instants from DMs page.",
+            "name": "Hide Instants",
             "options": []
         },
         {
