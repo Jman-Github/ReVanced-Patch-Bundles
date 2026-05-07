@@ -1689,7 +1689,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***19 Patches***
+***20 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Premium features``` | ```Unlock Premium features. You have to be logged in with an account.``` | ```Chargeprice``` | ```All versions``` |
@@ -1702,10 +1702,11 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide feed content``` | ```Hide the feed content, leaving only stories in the home page.``` | ```Instagram``` | ```All versions``` |
 | ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button. Choose what button to hide using the patch options.``` | ```Instagram``` | ```All versions``` |
 | ```Hide notes tray``` | ```Hides the notes tray from the direct tab.``` | ```Instagram``` | ```All versions``` |
+| ```Hide Reels save button``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Hide reshare button``` | ```Hides the reshare button from both posts and reels.``` | ```Instagram``` | ```All versions``` |
 | ```Hide Stories from Home``` | ```Hides Stories from the main page, by removing the buttons.``` | ```Instagram``` | ```All versions``` |
 | ```Hide suggested content``` | ```Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).``` | ```Instagram``` | ```All versions``` |
-| ```Hide Threads profile button``` | ```Hides the Threads button from the profile page action bar (top right of the profile page). The target button position can be changed via the "Button index" option if needed.``` | ```Instagram``` | ```All versions``` |
+| ```Hide Threads profile button``` | ```Hides the Threads button from the profile page action bar (top right of the profile page).``` | ```Instagram``` | ```All versions``` |
 | ```Limit feed to following profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```Instagram``` | ```All versions``` |
 | ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```Instagram``` | ```All versions``` |
 | ```Unlock Premium features``` | ```Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.``` | ```Komoot``` | ```All versions``` |

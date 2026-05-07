@@ -1,5 +1,5 @@
 {
-    "version": "v2.6.0-dev.1",
+    "version": "v2.6.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -151,7 +151,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": null,
             "name": "Hide ads",
             "options": []
@@ -362,6 +364,39 @@
                     ]
                 }
             ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Hide Reels save button",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "425.0.0.47.61"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "424.0.0.49.64"
+                        }
+                    ]
+                }
+            ],
             "default": true,
             "dependencies": [],
             "description": "Hides the reshare button from both posts and reels.",
@@ -425,7 +460,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).",
             "name": "Hide suggested content",
             "options": []
@@ -456,20 +493,12 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
-            "description": "Hides the Threads button from the profile page action bar (top right of the profile page).\nThe target button position can be changed via the \"Button index\" option if needed.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the Threads button from the profile page action bar (top right of the profile page).",
             "name": "Hide Threads profile button",
-            "options": [
-                {
-                    "default": 0,
-                    "description": "Position of the button to hide from the profile page action bar (zero-based).\n\n0 = first button (default, targets the Threads button on most accounts).\n1 = second button.\n2 = third button.\n\nIf the Threads button does not disappear, try incrementing this value by 1.",
-                    "key": "buttonIndex",
-                    "required": true,
-                    "title": "Button index",
-                    "type": "kotlin.Int",
-                    "values": null
-                }
-            ]
+            "options": []
         },
         {
             "compatiblePackages": [
