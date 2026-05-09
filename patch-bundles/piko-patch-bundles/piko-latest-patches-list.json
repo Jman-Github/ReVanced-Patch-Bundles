@@ -1,5 +1,5 @@
 {
-    "version": "v3.3.0-dev.6",
+    "version": "v3.3.0-dev.7",
     "patches": [
         {
             "compatiblePackages": [
@@ -73,6 +73,34 @@
             ],
             "description": "Adds settings to control preferences are patching",
             "name": "Add settings",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "426.0.0.37.68"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Allows user network certificate for whitehat testing",
+            "name": "Allow user network certificate",
             "options": []
         },
         {
@@ -1921,34 +1949,6 @@
             ],
             "description": "Enables ability to undo posts before posting",
             "name": "Enable Undo Posts",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FC483C",
-                    "description": null,
-                    "name": "Instagram",
-                    "packageName": "com.instagram.android",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "426.0.0.37.68"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Unlocks settings used for network testing",
-            "name": "Enable whitehat settings",
             "options": []
         },
         {
