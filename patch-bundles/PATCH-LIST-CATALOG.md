@@ -1722,79 +1722,80 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***70 Patches***
+***71 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.``` | ```app.ttmikstories.android``` | ```1.16.0``` |
-| ```Remove delay``` | ```Removes the imposed delay when changing VPN servers.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
-| ```Unlock custom DNS``` | ```Enables the custom DNS feature usually locked behind the Proton Plus paywall.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
-| ```Unlock LAN connections``` | ```Enables the LAN connections feature usually locked behind the Proton Plus paywall.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
-| ```Unlock split tunneling``` | ```Enables the split tunneling feature usually locked behind the Proton Plus paywall.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
-| ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. Some UI elements may not show an active membership, but this does not effect functionality.``` | ```cn.ommiao.iconpacker``` | ```1.21.0-release``` |
-| ```Disable anti-tamper``` | ```Disables various anti-tamper checks that causes the app to force-close.``` | ```cn.wps.moffice_eng``` | ```18.24``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall. Login is required and AI functionality is unavailable.``` | ```cn.wps.moffice_eng``` | ```18.24``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.adguard.android``` | ```4.12.81``` |
-| ```Enable Peak membership``` | ```Enables app features locked behind the subscription paywall.``` | ```com.alltrails.alltrails``` | ```26.3.20``` |
-| ```Enable speed control``` | ```Enables experimental speed control to the video player.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.452.1047``` |
-| ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.452.1047``` |
-| ```Skip ads``` | ```Automatically skips ads baked into the video stream.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.452.1047``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.avocards``` | ```3.0.18``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.bambuna.podcastaddict``` | ```2026.4``` |
-| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```com.bambuna.podcastaddict``` | ```2026.4``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.busuu.android.enc``` | ```32.30.0(1575420)``` |
-| ```Disable Login Integrity``` | ```Removes Play Integrity device attestation from login request.``` | ```com.duolingo``` | ```6.74.4``` |
-| ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```com.duolingo``` | ```6.74.4``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.duolingo``` | ```6.74.4``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```com.getmimo``` | ```9.0``` |
-| ```Spoof package signature``` | ```Spoofs the SHA1 signature hash required for Firebase API calls.``` | ```com.getmimo``` | ```9.0``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.hellochinese``` | ```7.9.25``` |
-| ```Disable telemetry``` | ```Disables CamScanner's custom telemetry system.``` | ```com.intsig.camscanner``` | ```7.15.5.2604080000``` |
-| ```Enable Premium``` | ```Enables some app features locked behind the subscription paywall. Certain server-side functionality may be unavailable.``` | ```com.intsig.camscanner``` | ```7.15.5.2604080000``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.lyfta``` | ```1.551``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.merriamwebster``` | ```All versions``` |
-| ```Enable FotMob+``` | ```Enables app features locked behind the subscription paywall.``` | ```com.mobilefootie.wc2010``` | ```226.16092.20260302``` |
-| ```Enable Premium+``` | ```Enables app features locked behind the subscription paywall.``` | ```com.myfitnesspal.android``` | ```25.50.0``` |
-| ```Disable ads``` | ```Disables ads during audio streaming.``` | ```com.pandora.android``` | ```All versions``` |
-| ```Unlimited skips``` | ```Disables the limit for skipping songs during playback.``` | ```com.pandora.android``` | ```All versions``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.qbis.guessthecountry``` | ```3.34.2``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.sbs.diet, com.sbs.train``` | ```5.7.6, 1.1.7``` |
-| ```Spoof signature``` | ```Spoof package signature for Firebase app check.``` | ```com.sbs.diet, com.sbs.train``` | ```5.7.6, 1.1.7``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.snorelab.app``` | ```2.27.3.6291``` |
-| ```Disable ads``` | ```Disables all ads contained within the UI.``` | ```com.sofascore.results``` | ```25.12.17``` |
-| ```AMOLED dark theme``` | ```Changes the default dark theme to use true blacks for AMOLED screens.``` | ```com.soundcloud.android``` | ```2026.04.27-release``` |
-| ```Disable telemetry``` | ```Disables SoundCloud's telemetry system.``` | ```com.soundcloud.android``` | ```2026.04.27-release``` |
-| ```Enable SoundCloud Go+``` | ```Enables app features locked behind the subscription paywall.``` | ```com.soundcloud.android``` | ```2026.04.27-release``` |
-| ```Enable Prime``` | ```Enable Nova Launcher Prime and app locked behind the subscription paywall.``` | ```com.teslacoilsw.launcher``` | ```81042 (8.5.1)``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.wallpaperscraft.wallpaper``` | ```3.61.01``` |
-| ```Enable Premium``` | ```Enables some app features locked behind the subscription paywall. Not all premium functionality is available.``` | ```com.windyty.android``` | ```49.0.1``` |
-| ```Disable signature check``` | ```Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.``` | ```com.xodo.pdf.reader``` | ```10.13.0``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```com.xodo.pdf.reader``` | ```10.13.0``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```com.zombodroid.MemeGenerator``` | ```4.6671``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```cz.ackee.ventusky``` | ```53.1``` |
-| ```Disable signature check``` | ```Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.``` | ```ginlemon.flowerfree``` | ```6.6 build 002``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```ginlemon.flowerfree``` | ```6.6 build 002``` |
-| ```Enable Prime membership``` | ```Enables app features locked behind the subscription paywall.``` | ```jp.ne.ibis.ibispaintx.app``` | ```14.0.1``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```kr.co.yjteam.dailypay``` | ```6.0.7``` |
-| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```kr.co.yjteam.dailypay``` | ```6.0.7``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```kr.eggbun.eggconvo``` | ```4.12.19``` |
-| ```Force Native Keyboard``` | ```When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.``` | ```kr.eggbun.eggconvo``` | ```4.12.19``` |
-| ```Enable Plus``` | ```Enable Plus membership (not all features are available). There is a strict version requirement for this patch.``` | ```me.mycake``` | ```6.4.0``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```net.teuida.teuida``` | ```1.21.16``` |
-| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```net.teuida.teuida``` | ```1.21.16``` |
-| ```Disable anti-tamper``` | ```Disables anti-tamper checks including signature verification and purchase ID.``` | ```nom.vrd``` | ```1.9.3-GooglePlay, 1.9.3-storage``` |
-| ```Disable telemetry``` | ```Disables event logging sent to the app's custom endpoint.``` | ```nom.vrd``` | ```1.9.3-GooglePlay, 1.9.3-storage``` |
-| ```Remove trial limit``` | ```Removes the imposed 6-hour trial usage limit.``` | ```nom.vrd``` | ```1.9.3-GooglePlay, 1.9.3-storage``` |
-| ```Block Permissions Request``` | ```Blocks the request of notification permissions on load of app.``` | ```org.languageapp.lingory``` | ```1.2.75``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```org.languageapp.lingory``` | ```1.2.75``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```org.totschnig.myexpenses``` | ```3.9.8``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```pl.solidexplorer2``` | ```3.4.1``` |
-| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```pl.solidexplorer2``` | ```3.4.1``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```ru.iiec.pydroid3``` | ```8.3_arm64``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```AdGuard``` | ```All versions``` |
+| ```Enable Peak membership``` | ```Enables app features locked behind the subscription paywall.``` | ```AllTrails``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Avocards``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Busuu``` | ```All versions``` |
+| ```Enable Plus``` | ```Enable Plus membership (not all features are available). There is a strict version requirement for this patch.``` | ```Cake``` | ```All versions``` |
+| ```Disable telemetry``` | ```Disables CamScanner's custom telemetry system.``` | ```CamScanner``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables some app features locked behind the subscription paywall. Certain server-side functionality may be unavailable.``` | ```CamScanner``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Daily Pocket``` | ```All versions``` |
+| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```Daily Pocket``` | ```All versions``` |
+| ```Disable dynamic app icon``` | ```Prevents Duolingo from changing the app icon. Only the default icon will be available.``` | ```Duolingo``` | ```All versions``` |
+| ```Disable Login Integrity``` | ```Removes Play Integrity device attestation from login request.``` | ```Duolingo``` | ```All versions``` |
+| ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```Duolingo``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Duolingo``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Eggbun``` | ```All versions``` |
+| ```Force Native Keyboard``` | ```When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.``` | ```Eggbun``` | ```All versions``` |
+| ```Enable FotMob+``` | ```Enables app features locked behind the subscription paywall.``` | ```FotMob``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```HelloChinese``` | ```All versions``` |
+| ```Enable Prime membership``` | ```Enables app features locked behind the subscription paywall.``` | ```IbisPaint X``` | ```All versions``` |
+| ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. Some UI elements may not show an active membership, but this does not effect functionality.``` | ```Icon Packer``` | ```All versions``` |
+| ```Block Permissions Request``` | ```Blocks the request of notification permissions on load of app.``` | ```Lingory``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lingory``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Lyfta``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Macro Factor, Macro Factor Workouts``` | ```All versions``` |
+| ```Spoof signature``` | ```Spoof package signature for Firebase app check.``` | ```Macro Factor, Macro Factor Workouts``` | ```All versions``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Meme Generator``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Merriam-Webster``` | ```All versions``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Mimo``` | ```All versions``` |
+| ```Spoof package signature``` | ```Spoofs the SHA1 signature hash required for Firebase API calls.``` | ```Mimo``` | ```All versions``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```MyExpenses``` | ```All versions``` |
+| ```Enable Premium+``` | ```Enables app features locked behind the subscription paywall.``` | ```MyFitnessPal``` | ```All versions``` |
+| ```Disable anti-tamper``` | ```Disables anti-tamper checks including signature verification and purchase ID.``` | ```NOMone Desktop``` | ```All versions``` |
+| ```Disable telemetry``` | ```Disables event logging sent to the app's custom endpoint.``` | ```NOMone Desktop``` | ```All versions``` |
+| ```Remove trial limit``` | ```Removes the imposed 6-hour trial usage limit.``` | ```NOMone Desktop``` | ```All versions``` |
+| ```Enable Prime``` | ```Enable Nova Launcher Prime and app locked behind the subscription paywall.``` | ```Nova Launcher``` | ```All versions``` |
+| ```Disable ads``` | ```Disables ads during audio streaming.``` | ```Pandora``` | ```All versions``` |
+| ```Unlimited skips``` | ```Disables the limit for skipping songs during playback.``` | ```Pandora``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Podcast Addict``` | ```All versions``` |
+| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```Podcast Addict``` | ```All versions``` |
+| ```Enable speed control``` | ```Enables experimental speed control to the video player.``` | ```Prime Video``` | ```All versions``` |
+| ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```Prime Video``` | ```All versions``` |
+| ```Skip ads``` | ```Automatically skips ads baked into the video stream.``` | ```Prime Video``` | ```All versions``` |
+| ```Remove delay``` | ```Removes the imposed delay when changing VPN servers.``` | ```Proton VPN``` | ```All versions``` |
+| ```Unlock custom DNS``` | ```Enables the custom DNS feature usually locked behind the Proton Plus paywall.``` | ```Proton VPN``` | ```All versions``` |
+| ```Unlock LAN connections``` | ```Enables the LAN connections feature usually locked behind the Proton Plus paywall.``` | ```Proton VPN``` | ```All versions``` |
+| ```Unlock split tunneling``` | ```Enables the split tunneling feature usually locked behind the Proton Plus paywall.``` | ```Proton VPN``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```PyDroid3``` | ```All versions``` |
+| ```Disable signature check``` | ```Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.``` | ```Smart Launcher``` | ```All versions``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Smart Launcher``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```SnoreLab``` | ```All versions``` |
+| ```Disable ads``` | ```Disables all ads contained within the UI.``` | ```Sofascore``` | ```All versions``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Solid Explorer``` | ```All versions``` |
+| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```Solid Explorer``` | ```All versions``` |
+| ```AMOLED dark theme``` | ```Changes the default dark theme to use true blacks for AMOLED screens.``` | ```SoundCloud``` | ```All versions``` |
+| ```Disable telemetry``` | ```Disables SoundCloud's telemetry system.``` | ```SoundCloud``` | ```All versions``` |
+| ```Enable SoundCloud Go+``` | ```Enables app features locked behind the subscription paywall.``` | ```SoundCloud``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Teuida``` | ```All versions``` |
+| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```Teuida``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.``` | ```TTMIK Stories``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
 | ```Enable debug``` | ```Enables debugging on the app by setting android:debuggable="true".``` | ```Universal``` | ```All versions``` |
 | ```Hide app icon``` | ```Hides the app icon from the Android launcher.``` | ```Universal``` | ```All versions``` |
-| ```Enable Pro``` | ```N/A``` | ```videoeditor.videorecorder.screenrecorder``` | ```2.5.1.1``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Ventusky``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Wallcraft``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables some app features locked behind the subscription paywall. Not all premium functionality is available.``` | ```Windy``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```World Map Quiz``` | ```All versions``` |
+| ```Disable anti-tamper``` | ```Disables various anti-tamper checks that causes the app to force-close.``` | ```WPS Office``` | ```All versions``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall. Login is required and AI functionality is unavailable.``` | ```WPS Office``` | ```All versions``` |
+| ```Disable signature check``` | ```Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.``` | ```Xodo``` | ```All versions``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Xodo``` | ```All versions``` |
+| ```Enable Pro``` | ```N/A``` | ```XRecorder``` | ```All versions``` |
 
 </details>
 

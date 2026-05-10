@@ -1,36 +1,63 @@
 {
-    "version": "v1.30.0-dev.1",
+    "version": "v1.31.0-dev.1",
     "patches": [
         {
-            "compatiblePackages": {
-                "com.soundcloud.android": [
-                    "2026.04.27-release"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "SoundCloud",
+                    "packageName": "com.soundcloud.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2026.04.27-release"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Changes the default dark theme to use true blacks for AMOLED screens.",
             "name": "AMOLED dark theme",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "org.languageapp.lingory": [
-                    "1.2.75"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#8F98FF",
+                    "description": null,
+                    "name": "Lingory",
+                    "packageName": "org.languageapp.lingory",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.2.75"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "RawResourcePatch"
             ],
             "description": "Blocks the request of notification permissions on load of app.",
             "name": "Block Permissions Request",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
             "compatiblePackages": null,
+            "default": false,
             "dependencies": [],
             "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
             "name": "Change package name",
@@ -64,269 +91,566 @@
                     "type": "kotlin.Boolean",
                     "values": null
                 }
-            ],
-            "use": false
+            ]
         },
         {
-            "compatiblePackages": {
-                "com.pandora.android": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FFFFFF",
+                    "description": null,
+                    "name": "Pandora",
+                    "packageName": "com.pandora.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Disables ads during audio streaming.",
             "name": "Disable ads",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.sofascore.results": [
-                    "25.12.17"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#374DF5",
+                    "description": null,
+                    "name": "Sofascore",
+                    "packageName": "com.sofascore.results",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "25.12.17"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Disables all ads contained within the UI.",
             "name": "Disable ads",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "nom.vrd": [
-                    "1.9.3-GooglePlay",
-                    "1.9.3-storage"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#52CDFB",
+                    "description": null,
+                    "name": "NOMone Desktop",
+                    "packageName": "nom.vrd",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.9.3-GooglePlay"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.9.3-storage"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Disables anti-tamper checks including signature verification and purchase ID.",
             "name": "Disable anti-tamper",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "cn.wps.moffice_eng": [
-                    "18.24"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF430D",
+                    "description": null,
+                    "name": "WPS Office",
+                    "packageName": "cn.wps.moffice_eng",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "18.24"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Disables various anti-tamper checks that causes the app to force-close.",
             "name": "Disable anti-tamper",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.duolingo": [
-                    "6.74.4"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#58CC02",
+                    "description": null,
+                    "name": "Duolingo",
+                    "packageName": "com.duolingo",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "6.77.5"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Prevents Duolingo from changing the app icon. Only the default icon will be available.",
+            "name": "Disable dynamic app icon",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#58CC02",
+                    "description": null,
+                    "name": "Duolingo",
+                    "packageName": "com.duolingo",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "6.77.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Removes Play Integrity device attestation from login request.",
             "name": "Disable Login Integrity",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
             "compatiblePackages": null,
+            "default": false,
             "dependencies": [],
             "description": "Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.",
             "name": "Disable Pairip license check",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "ginlemon.flowerfree": [
-                    "6.6 build 002"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "Smart Launcher",
+                    "packageName": "ginlemon.flowerfree",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "6.6 build 002"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.",
             "name": "Disable signature check",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.xodo.pdf.reader": [
-                    "10.13.0"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FFFFFF",
+                    "description": null,
+                    "name": "Xodo",
+                    "packageName": "com.xodo.pdf.reader",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "10.13.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.",
             "name": "Disable signature check",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.intsig.camscanner": [
-                    "7.15.5.2604080000"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#19BCAA",
+                    "description": null,
+                    "name": "CamScanner",
+                    "packageName": "com.intsig.camscanner",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.15.5.2604080000"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Disables CamScanner's custom telemetry system.",
             "name": "Disable telemetry",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "nom.vrd": [
-                    "1.9.3-GooglePlay",
-                    "1.9.3-storage"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#52CDFB",
+                    "description": null,
+                    "name": "NOMone Desktop",
+                    "packageName": "nom.vrd",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.9.3-GooglePlay"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.9.3-storage"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Disables event logging sent to the app's custom endpoint.",
             "name": "Disable telemetry",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.soundcloud.android": [
-                    "2026.04.27-release"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "SoundCloud",
+                    "packageName": "com.soundcloud.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2026.04.27-release"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Disables SoundCloud's telemetry system.",
             "name": "Disable telemetry",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
             "compatiblePackages": null,
+            "default": false,
             "dependencies": [],
             "description": "Enables debugging on the app by setting android:debuggable=\"true\".",
             "name": "Enable debug",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.duolingo": [
-                    "6.74.4"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#58CC02",
+                    "description": null,
+                    "name": "Duolingo",
+                    "packageName": "com.duolingo",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "6.77.5"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [],
             "description": "Enables hidden debug menu in settings.",
             "name": "Enable debug mode",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.mobilefootie.wc2010": [
-                    "226.16092.20260302"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#00985F",
+                    "description": null,
+                    "name": "FotMob",
+                    "packageName": "com.mobilefootie.wc2010",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "226.16092.20260302"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable FotMob+",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.alltrails.alltrails": [
-                    "26.3.20"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#64F67A",
+                    "description": null,
+                    "name": "AllTrails",
+                    "packageName": "com.alltrails.alltrails",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.3.20"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Peak membership",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "me.mycake": [
-                    "6.4.0"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF4884",
+                    "description": null,
+                    "name": "Cake",
+                    "packageName": "me.mycake",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "6.4.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "RawResourcePatch"
             ],
             "description": "Enable Plus membership (not all features are available). There is a strict version requirement for this patch.",
             "name": "Enable Plus",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.adguard.android": [
-                    "4.12.81"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#67B279",
+                    "description": null,
+                    "name": "AdGuard",
+                    "packageName": "com.adguard.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.12.81"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.avocards": [
-                    "3.0.18"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#13AA52",
+                    "description": null,
+                    "name": "Avocards",
+                    "packageName": "com.avocards",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.0.18"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.busuu.android.enc": [
-                    "32.30.0(1575420)"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#116EEE",
+                    "description": null,
+                    "name": "Busuu",
+                    "packageName": "com.busuu.android.enc",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "32.30.0(1575420)"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.intsig.camscanner": [
-                    "7.15.5.2604080000"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#19BCAA",
+                    "description": null,
+                    "name": "CamScanner",
+                    "packageName": "com.intsig.camscanner",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.15.5.2604080000"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Enables some app features locked behind the subscription paywall. Certain server-side functionality may be unavailable.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "kr.co.yjteam.dailypay": [
-                    "6.0.7"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F6F6F6",
+                    "description": null,
+                    "name": "Daily Pocket",
+                    "packageName": "kr.co.yjteam.dailypay",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "6.0.7"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.duolingo": [
-                    "6.74.4"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#58CC02",
+                    "description": null,
+                    "name": "Duolingo",
+                    "packageName": "com.duolingo",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "6.77.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
@@ -343,401 +667,806 @@
                         "Duolingo Super": "SUPER"
                     }
                 }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FBCF3B",
+                    "description": null,
+                    "name": "Eggbun",
+                    "packageName": "kr.eggbun.eggconvo",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.12.19"
+                        }
+                    ]
+                }
             ],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "kr.eggbun.eggconvo": [
-                    "4.12.19"
-                ]
-            },
+            "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.qbis.guessthecountry": [
-                    "3.34.2"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#19A2A4",
+                    "description": null,
+                    "name": "World Map Quiz",
+                    "packageName": "com.qbis.guessthecountry",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.34.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.hellochinese": [
-                    "7.9.25"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FFFFFF",
+                    "description": null,
+                    "name": "HelloChinese",
+                    "packageName": "com.hellochinese",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.9.25"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "RawResourcePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "org.languageapp.lingory": [
-                    "1.2.75"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#8F98FF",
+                    "description": null,
+                    "name": "Lingory",
+                    "packageName": "org.languageapp.lingory",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.2.75"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "RawResourcePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.lyfta": [
-                    "1.551"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "Lyfta",
+                    "packageName": "com.lyfta",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.551"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.sbs.diet": [
-                    "5.7.6"
-                ],
-                "com.sbs.train": [
-                    "1.1.7"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "Macro Factor",
+                    "packageName": "com.sbs.diet",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.7.6"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "Macro Factor Workouts",
+                    "packageName": "com.sbs.train",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.1.7"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.bambuna.podcastaddict": [
-                    "2026.4"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FD7E14",
+                    "description": null,
+                    "name": "Podcast Addict",
+                    "packageName": "com.bambuna.podcastaddict",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2026.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "ru.iiec.pydroid3": [
-                    "8.3_arm64"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#3776AB",
+                    "description": null,
+                    "name": "PyDroid3",
+                    "packageName": "ru.iiec.pydroid3",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "8.3_arm64"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "RawResourcePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.snorelab.app": [
-                    "2.27.3.6291"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1B5A9A",
+                    "description": null,
+                    "name": "SnoreLab",
+                    "packageName": "com.snorelab.app",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.27.3.6291"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "net.teuida.teuida": [
-                    "1.21.16"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#52DBD7",
+                    "description": null,
+                    "name": "Teuida",
+                    "packageName": "net.teuida.teuida",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.21.16"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "app.ttmikstories.android": [
-                    "1.16.0"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F45925",
+                    "description": null,
+                    "name": "TTMIK Stories",
+                    "packageName": "app.ttmikstories.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.16.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "RawResourcePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "cz.ackee.ventusky": [
-                    "53.1"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#4D71DE",
+                    "description": null,
+                    "name": "Ventusky",
+                    "packageName": "cz.ackee.ventusky",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "53.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.wallpaperscraft.wallpaper": [
-                    "3.61.01"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "Wallcraft",
+                    "packageName": "com.wallpaperscraft.wallpaper",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.61.01"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.merriamwebster": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#AE0015",
+                    "description": null,
+                    "name": "Merriam-Webster",
+                    "packageName": "com.merriamwebster",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.windyty.android": [
-                    "49.0.1"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#9D0300",
+                    "description": null,
+                    "name": "Windy",
+                    "packageName": "com.windyty.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "49.0.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Enables some app features locked behind the subscription paywall. Not all premium functionality is available.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.myfitnesspal.android": [
-                    "25.50.0"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#0072BC",
+                    "description": null,
+                    "name": "MyFitnessPal",
+                    "packageName": "com.myfitnesspal.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "25.50.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium+",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.teslacoilsw.launcher": [
-                    "81042 (8.5.1)"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#DA4624",
+                    "description": null,
+                    "name": "Nova Launcher",
+                    "packageName": "com.teslacoilsw.launcher",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "81042 (8.5.1)"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enable Nova Launcher Prime and app locked behind the subscription paywall.",
             "name": "Enable Prime",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "jp.ne.ibis.ibispaintx.app": [
-                    "14.0.1"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#0B649B",
+                    "description": null,
+                    "name": "IbisPaint X",
+                    "packageName": "jp.ne.ibis.ibispaintx.app",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "14.0.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "RawResourcePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Prime membership",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.zombodroid.MemeGenerator": [
-                    "4.6671"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#C93133",
+                    "description": null,
+                    "name": "Meme Generator",
+                    "packageName": "com.zombodroid.MemeGenerator",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.6671"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Pro",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.getmimo": [
-                    "9.0"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#7E4BDE",
+                    "description": null,
+                    "name": "Mimo",
+                    "packageName": "com.getmimo",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "9.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Pro",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "org.totschnig.myexpenses": [
-                    "3.9.8"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#428BCA",
+                    "description": null,
+                    "name": "MyExpenses",
+                    "packageName": "org.totschnig.myexpenses",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.9.8"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Pro",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "ginlemon.flowerfree": [
-                    "6.6 build 002"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "Smart Launcher",
+                    "packageName": "ginlemon.flowerfree",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "6.6 build 002"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Pro",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "pl.solidexplorer2": [
-                    "3.4.1"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#039BE5",
+                    "description": null,
+                    "name": "Solid Explorer",
+                    "packageName": "pl.solidexplorer2",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.4.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Pro",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "cn.wps.moffice_eng": [
-                    "18.24"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF430D",
+                    "description": null,
+                    "name": "WPS Office",
+                    "packageName": "cn.wps.moffice_eng",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "18.24"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall. Login is required and AI functionality is unavailable.",
             "name": "Enable Pro",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.xodo.pdf.reader": [
-                    "10.13.0"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FFFFFF",
+                    "description": null,
+                    "name": "Xodo",
+                    "packageName": "com.xodo.pdf.reader",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "10.13.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Pro",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "videoeditor.videorecorder.screenrecorder": [
-                    "2.5.1.1"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F76219",
+                    "description": null,
+                    "name": "XRecorder",
+                    "packageName": "videoeditor.videorecorder.screenrecorder",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.5.1.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": null,
             "name": "Enable Pro",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.soundcloud.android": [
-                    "2026.04.27-release"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "SoundCloud",
+                    "packageName": "com.soundcloud.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2026.04.27-release"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable SoundCloud Go+",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.amazon.avod.thirdpartyclient": [
-                    "3.0.452.1047"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#177BCE",
+                    "description": null,
+                    "name": "Prime Video",
+                    "packageName": "com.amazon.avod.thirdpartyclient",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.0.452.1047"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables experimental speed control to the video player.",
             "name": "Enable speed control",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "kr.eggbun.eggconvo": [
-                    "4.12.19"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FBCF3B",
+                    "description": null,
+                    "name": "Eggbun",
+                    "packageName": "kr.eggbun.eggconvo",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.12.19"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.",
             "name": "Force Native Keyboard",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
             "compatiblePackages": null,
+            "default": false,
             "dependencies": [],
             "description": "Hides the app icon from the Android launcher.",
             "name": "Hide app icon",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "kr.co.yjteam.dailypay": [
-                    "6.0.7"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F6F6F6",
+                    "description": null,
+                    "name": "Daily Pocket",
+                    "packageName": "kr.co.yjteam.dailypay",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "6.0.7"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
@@ -745,15 +1474,28 @@
             ],
             "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
             "name": "MicroG integration",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.bambuna.podcastaddict": [
-                    "2026.4"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FD7E14",
+                    "description": null,
+                    "name": "Podcast Addict",
+                    "packageName": "com.bambuna.podcastaddict",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2026.4"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
@@ -761,15 +1503,28 @@
             ],
             "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
             "name": "MicroG integration",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "pl.solidexplorer2": [
-                    "3.4.1"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#039BE5",
+                    "description": null,
+                    "name": "Solid Explorer",
+                    "packageName": "pl.solidexplorer2",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.4.1"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
@@ -777,15 +1532,28 @@
             ],
             "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
             "name": "MicroG integration",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "net.teuida.teuida": [
-                    "1.21.16"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#52DBD7",
+                    "description": null,
+                    "name": "Teuida",
+                    "packageName": "net.teuida.teuida",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.21.16"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
@@ -793,148 +1561,310 @@
             ],
             "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
             "name": "MicroG integration",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "ch.protonvpn.android": [
-                    "5.17.72.0"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#6D4AFF",
+                    "description": null,
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.17.72.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Removes the imposed delay when changing VPN servers.",
             "name": "Remove delay",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "nom.vrd": [
-                    "1.9.3-GooglePlay",
-                    "1.9.3-storage"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#52CDFB",
+                    "description": null,
+                    "name": "NOMone Desktop",
+                    "packageName": "nom.vrd",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.9.3-GooglePlay"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.9.3-storage"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Removes the imposed 6-hour trial usage limit.",
             "name": "Remove trial limit",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.amazon.avod.thirdpartyclient": [
-                    "3.0.452.1047"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#177BCE",
+                    "description": null,
+                    "name": "Prime Video",
+                    "packageName": "com.amazon.avod.thirdpartyclient",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.0.452.1047"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.",
             "name": "Rename shared permissions",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.amazon.avod.thirdpartyclient": [
-                    "3.0.452.1047"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#177BCE",
+                    "description": null,
+                    "name": "Prime Video",
+                    "packageName": "com.amazon.avod.thirdpartyclient",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.0.452.1047"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Automatically skips ads baked into the video stream.",
             "name": "Skip ads",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.getmimo": [
-                    "9.0"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#7E4BDE",
+                    "description": null,
+                    "name": "Mimo",
+                    "packageName": "com.getmimo",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "9.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Spoofs the SHA1 signature hash required for Firebase API calls.",
             "name": "Spoof package signature",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.sbs.diet": [
-                    "5.7.6"
-                ],
-                "com.sbs.train": [
-                    "1.1.7"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "Macro Factor",
+                    "packageName": "com.sbs.diet",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.7.6"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "Macro Factor Workouts",
+                    "packageName": "com.sbs.train",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.1.7"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Spoof package signature for Firebase app check.",
             "name": "Spoof signature",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.pandora.android": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FFFFFF",
+                    "description": null,
+                    "name": "Pandora",
+                    "packageName": "com.pandora.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Disables the limit for skipping songs during playback.",
             "name": "Unlimited skips",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "ch.protonvpn.android": [
-                    "5.17.72.0"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#6D4AFF",
+                    "description": null,
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.17.72.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables the custom DNS feature usually locked behind the Proton Plus paywall.",
             "name": "Unlock custom DNS",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "ch.protonvpn.android": [
-                    "5.17.72.0"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#6D4AFF",
+                    "description": null,
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.17.72.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables the LAN connections feature usually locked behind the Proton Plus paywall.",
             "name": "Unlock LAN connections",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "cn.ommiao.iconpacker": [
-                    "1.21.0-release"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#0066FF",
+                    "description": null,
+                    "name": "Icon Packer",
+                    "packageName": "cn.ommiao.iconpacker",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.21.0-release"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall. Some UI elements may not show an active membership, but this does not effect functionality.",
             "name": "Unlock premium features",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "ch.protonvpn.android": [
-                    "5.17.72.0"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#6D4AFF",
+                    "description": null,
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.17.72.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables the split tunneling feature usually locked behind the Proton Plus paywall.",
             "name": "Unlock split tunneling",
-            "options": [],
-            "use": true
+            "options": []
         }
     ]
 }
