@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.32",
+    "version": "v1.1.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -1471,6 +1471,33 @@
             ],
             "description": "Hides official DCInside operator notices from gallery notice lists.",
             "name": "Hide DC official notices",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#3D4491",
+                    "description": null,
+                    "name": "dcinside",
+                    "packageName": "com.dcinside.app.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.2.9"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds settings to hide selected DCInside home screen components.",
+            "name": "Hide home components",
             "options": []
         },
         {

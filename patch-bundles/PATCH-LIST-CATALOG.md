@@ -2144,7 +2144,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***73 Patches***
+***74 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add notification shortcut``` | ```Adds a notification shortcut button above quick write in the post list.``` | ```dcinside``` | ```All versions``` |
@@ -2162,6 +2162,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable update check``` | ```Disables the app's update check.``` | ```dcinside``` | ```All versions``` |
 | ```Enable OneStore feature``` | ```Enables the OneStore feature in DC Inside app.``` | ```dcinside``` | ```All versions``` |
 | ```Hide DC official notices``` | ```Hides official DCInside operator notices from gallery notice lists.``` | ```dcinside``` | ```All versions``` |
+| ```Hide home components``` | ```Adds settings to hide selected DCInside home screen components.``` | ```dcinside``` | ```All versions``` |
 | ```Hide Main Ad``` | ```Hides the main ad in the app.``` | ```dcinside``` | ```All versions``` |
 | ```Register settings activity``` | ```Registers the Morphe settings activity in the app manifest.``` | ```dcinside``` | ```All versions``` |
 | ```Spoof Signature``` | ```Spoofs the app signature to bypass integrity checks.``` | ```dcinside``` | ```All versions``` |
