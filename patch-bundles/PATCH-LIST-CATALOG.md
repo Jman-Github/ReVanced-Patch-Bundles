@@ -2222,7 +2222,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Spoof signature``` | ```Spoofs the app signature to pass integrity checks.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Version info patch``` | ```Patches the version info to include '(ReVanced)' in the version string.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Disable Sentry``` | ```Disables Sentry reporting``` | ```Unicorn Pro``` | ```All versions``` |
-| ```Unlock Pro features``` | ```Makes Unicorn Pro report an active Pro license so subscription-only functionality is available.``` | ```Unicorn Pro``` | ```All versions``` |
+| ```Unlock Pro features``` | ```Makes Unicorn Pro report an active Pro license while preserving the original native object graph.``` | ```Unicorn Pro``` | ```All versions``` |
 | ```Disable Sentry telemetry``` | ```Disables Sentry telemetry. See https://sentry.io/for/android/ for more information.``` | ```Universal``` | ```All versions``` |
 
 </details>

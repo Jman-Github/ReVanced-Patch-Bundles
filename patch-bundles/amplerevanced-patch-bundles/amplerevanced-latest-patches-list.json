@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.2",
+    "version": "v1.1.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -2068,7 +2068,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Makes Unicorn Pro report an active Pro license so subscription-only functionality is available.",
+            "description": "Makes Unicorn Pro report an active Pro license while preserving the original native object graph.",
             "name": "Unlock Pro features",
             "options": []
         },
