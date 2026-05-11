@@ -1,5 +1,5 @@
 {
-    "version": "v2.6.1-dev.2",
+    "version": "v2.6.1-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -198,7 +198,10 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
             "description": "Hides Instants from DMs page.",
             "name": "Hide Instants",
             "options": []
