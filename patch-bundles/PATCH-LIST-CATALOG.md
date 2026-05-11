@@ -2145,7 +2145,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***74 Patches***
+***76 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add notification shortcut``` | ```Adds a notification shortcut button above quick write in the post list.``` | ```dcinside``` | ```All versions``` |
@@ -2221,6 +2221,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Spoof App ID``` | ```Spoofs the App ID to bypass integrity checks. (to bypass biometric auth etc.)``` | ```Kakao Talk``` | ```All versions``` |
 | ```Spoof signature``` | ```Spoofs the app signature to pass integrity checks.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Version info patch``` | ```Patches the version info to include '(ReVanced)' in the version string.``` | ```Kakao Talk``` | ```All versions``` |
+| ```Disable Sentry``` | ```Disables Sentry reporting``` | ```Unicorn Pro``` | ```All versions``` |
+| ```Unlock Pro features``` | ```Makes Unicorn Pro report an active Pro license so subscription-only functionality is available.``` | ```Unicorn Pro``` | ```All versions``` |
 | ```Disable Sentry telemetry``` | ```Disables Sentry telemetry. See https://sentry.io/for/android/ for more information.``` | ```Universal``` | ```All versions``` |
 
 </details>

@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.1",
+    "version": "v1.1.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -1129,6 +1129,33 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "description": null,
+                    "name": "Unicorn Pro",
+                    "packageName": "com.unicornsoft.android.unicornpro",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.30.447"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables Sentry reporting",
+            "name": "Disable Sentry",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2016,6 +2043,33 @@
             "dependencies": [],
             "description": "Spoofs the app signature to pass integrity checks.",
             "name": "Spoof signature",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "description": null,
+                    "name": "Unicorn Pro",
+                    "packageName": "com.unicornsoft.android.unicornpro",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.30.447"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Makes Unicorn Pro report an active Pro license so subscription-only functionality is available.",
+            "name": "Unlock Pro features",
             "options": []
         },
         {
