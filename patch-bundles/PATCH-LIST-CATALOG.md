@@ -1128,12 +1128,12 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ***7 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Bypass Blocks Limit``` | ```N/A``` | ```com.llamalab.automate``` | ```All versions``` |
-| ```Disable Folder Pair Deletion``` | ```N/A``` | ```com.ttxapps.autosync``` | ```All versions``` |
-| ```Disable Temper Detection``` | ```N/A``` | ```com.ttxapps.autosync``` | ```All versions``` |
-| ```Purchase All Items``` | ```N/A``` | ```com.ttxapps.autosync``` | ```All versions``` |
-| ```AdFree Account Patch``` | ```N/A``` | ```org.zwanoo.android.speedtest``` | ```All versions``` |
-| ```Disable Logging(analytics) Patch``` | ```N/A``` | ```org.zwanoo.android.speedtest``` | ```All versions``` |
+| ```Bypass Blocks Limit``` | ```N/A``` | ```Automate``` | ```All versions``` |
+| ```Disable PairIP License Check``` | ```N/A``` | ```Autosync``` | ```All versions``` |
+| ```Force Stable Integrity State (Critical)``` | ```N/A``` | ```Autosync``` | ```All versions``` |
+| ```Purchase All Items``` | ```N/A``` | ```Autosync``` | ```All versions``` |
+| ```AdFree Account Patch``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
+| ```Disable Logging(analytics) Patch``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
 | ```Disable Firebase(Google) Analytics``` | ```N/A``` | ```Universal``` | ```All versions``` |
 
 </details>

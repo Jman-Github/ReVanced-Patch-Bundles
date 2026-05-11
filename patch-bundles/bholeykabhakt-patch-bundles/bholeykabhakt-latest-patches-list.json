@@ -1,73 +1,163 @@
 {
-    "version": "v1.6.0",
+    "version": "v2.0.1",
     "patches": [
         {
-            "compatiblePackages": {
-                "org.zwanoo.android.speedtest": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Speedtest",
+                    "packageName": "org.zwanoo.android.speedtest",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": null,
             "name": "AdFree Account Patch",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.llamalab.automate": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Automate",
+                    "packageName": "com.llamalab.automate",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": null,
             "name": "Bypass Blocks Limit",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
             "compatiblePackages": null,
+            "default": false,
             "dependencies": [],
             "description": null,
             "name": "Disable Firebase(Google) Analytics",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.ttxapps.autosync": null
-            },
-            "dependencies": [],
-            "description": null,
-            "name": "Disable Folder Pair Deletion",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "org.zwanoo.android.speedtest": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Speedtest",
+                    "packageName": "org.zwanoo.android.speedtest",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": null,
             "name": "Disable Logging(analytics) Patch",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.ttxapps.autosync": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Autosync",
+                    "packageName": "com.ttxapps.autosync",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": null,
-            "name": "Disable Temper Detection",
-            "options": [],
-            "use": true
+            "name": "Disable PairIP License Check",
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.ttxapps.autosync": null
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Autosync",
+                    "packageName": "com.ttxapps.autosync",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": null,
+            "name": "Force Stable Integrity State (Critical)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Autosync",
+                    "packageName": "com.ttxapps.autosync",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": null,
             "name": "Purchase All Items",
-            "options": [],
-            "use": true
+            "options": []
         }
     ]
 }
