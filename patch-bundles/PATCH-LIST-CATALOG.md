@@ -675,6 +675,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add settings``` | ```Adds settings to control preferences are patching``` | ```Instagram``` | ```All versions``` |
+| ```Allow user network certificate``` | ```Allows user network certificate for whitehat testing``` | ```Instagram``` | ```All versions``` |
 | ```Amoled theme``` | ```Replaces Instagram's dark-mode background greys with pure black for AMOLED displays.``` | ```Instagram``` | ```All versions``` |
 | ```Change like animation``` | ```Change the animation to one from existing Rings like animations``` | ```Instagram``` | ```All versions``` |
 | ```Copy comment``` | ```Adds a button to copy comments on posts and reels.``` | ```Instagram``` | ```All versions``` |
@@ -694,7 +695,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable typing status``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Disable video autoplay``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```Instagram``` | ```All versions``` |
-| ```Enable whitehat settings``` | ```Unlocks settings used for network testing``` | ```Instagram``` | ```All versions``` |
 | ```Follow back indicator``` | ```Adds a label on the profile page, indicating whether a user is follows you back.``` | ```Instagram``` | ```All versions``` |
 | ```Hide group creation button on sharesheet``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button.``` | ```Instagram``` | ```All versions``` |
@@ -1132,12 +1132,12 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ***7 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Bypass Blocks Limit``` | ```N/A``` | ```com.llamalab.automate``` | ```All versions``` |
-| ```Disable Folder Pair Deletion``` | ```N/A``` | ```com.ttxapps.autosync``` | ```All versions``` |
-| ```Disable Temper Detection``` | ```N/A``` | ```com.ttxapps.autosync``` | ```All versions``` |
-| ```Purchase All Items``` | ```N/A``` | ```com.ttxapps.autosync``` | ```All versions``` |
-| ```AdFree Account Patch``` | ```N/A``` | ```org.zwanoo.android.speedtest``` | ```All versions``` |
-| ```Disable Logging(analytics) Patch``` | ```N/A``` | ```org.zwanoo.android.speedtest``` | ```All versions``` |
+| ```Bypass Blocks Limit``` | ```N/A``` | ```Automate``` | ```All versions``` |
+| ```Disable PairIP License Check``` | ```N/A``` | ```Autosync``` | ```All versions``` |
+| ```Force Stable Integrity State (Critical)``` | ```N/A``` | ```Autosync``` | ```All versions``` |
+| ```Purchase All Items``` | ```N/A``` | ```Autosync``` | ```All versions``` |
+| ```AdFree Account Patch``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
+| ```Disable Logging(analytics) Patch``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
 | ```Disable Firebase(Google) Analytics``` | ```N/A``` | ```Universal``` | ```All versions``` |
 
 </details>
@@ -1693,7 +1693,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***19 Patches***
+***21 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Premium features``` | ```Unlock Premium features. You have to be logged in with an account.``` | ```Chargeprice``` | ```All versions``` |
@@ -1704,12 +1704,14 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Hide ads``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Hide explore feed``` | ```Hides posts and reels from the explore/search page.``` | ```Instagram``` | ```All versions``` |
 | ```Hide feed content``` | ```Hide the feed content, leaving only stories in the home page.``` | ```Instagram``` | ```All versions``` |
+| ```Hide Instants``` | ```Hides Instants from DMs page.``` | ```Instagram``` | ```All versions``` |
 | ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button. Choose what button to hide using the patch options.``` | ```Instagram``` | ```All versions``` |
 | ```Hide notes tray``` | ```Hides the notes tray from the direct tab.``` | ```Instagram``` | ```All versions``` |
+| ```Hide Reels save button``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Hide reshare button``` | ```Hides the reshare button from both posts and reels.``` | ```Instagram``` | ```All versions``` |
 | ```Hide Stories from Home``` | ```Hides Stories from the main page, by removing the buttons.``` | ```Instagram``` | ```All versions``` |
 | ```Hide suggested content``` | ```Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).``` | ```Instagram``` | ```All versions``` |
-| ```Hide Threads profile button``` | ```Hides the Threads button from the profile page action bar (top right of the profile page). The target button position can be changed via the "Button index" option if needed.``` | ```Instagram``` | ```All versions``` |
+| ```Hide Threads profile button``` | ```Hides the Threads button from the profile page action bar (top right of the profile page).``` | ```Instagram``` | ```All versions``` |
 | ```Limit feed to following profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```Instagram``` | ```All versions``` |
 | ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```Instagram``` | ```All versions``` |
 | ```Unlock Premium features``` | ```Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.``` | ```Komoot``` | ```All versions``` |
@@ -1724,79 +1726,81 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***70 Patches***
+***72 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.``` | ```app.ttmikstories.android``` | ```1.16.0``` |
-| ```Remove delay``` | ```Removes the imposed delay when changing VPN servers.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
-| ```Unlock custom DNS``` | ```Enables the custom DNS feature usually locked behind the Proton Plus paywall.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
-| ```Unlock LAN connections``` | ```Enables the LAN connections feature usually locked behind the Proton Plus paywall.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
-| ```Unlock split tunneling``` | ```Enables the split tunneling feature usually locked behind the Proton Plus paywall.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
-| ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. Some UI elements may not show an active membership, but this does not effect functionality.``` | ```cn.ommiao.iconpacker``` | ```1.21.0-release``` |
-| ```Disable anti-tamper``` | ```Disables various anti-tamper checks that causes the app to force-close.``` | ```cn.wps.moffice_eng``` | ```18.24``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall. Login is required and AI functionality is unavailable.``` | ```cn.wps.moffice_eng``` | ```18.24``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.adguard.android``` | ```4.12.81``` |
-| ```Enable Peak membership``` | ```Enables app features locked behind the subscription paywall.``` | ```com.alltrails.alltrails``` | ```26.3.20``` |
-| ```Enable speed control``` | ```Enables experimental speed control to the video player.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.452.1047``` |
-| ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.452.1047``` |
-| ```Skip ads``` | ```Automatically skips ads baked into the video stream.``` | ```com.amazon.avod.thirdpartyclient``` | ```3.0.452.1047``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.avocards``` | ```3.0.18``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.bambuna.podcastaddict``` | ```2026.4``` |
-| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```com.bambuna.podcastaddict``` | ```2026.4``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.busuu.android.enc``` | ```32.30.0(1575420)``` |
-| ```Disable Login Integrity``` | ```Removes Play Integrity device attestation from login request.``` | ```com.duolingo``` | ```6.74.4``` |
-| ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```com.duolingo``` | ```6.74.4``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.duolingo``` | ```6.74.4``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```com.getmimo``` | ```9.0``` |
-| ```Spoof package signature``` | ```Spoofs the SHA1 signature hash required for Firebase API calls.``` | ```com.getmimo``` | ```9.0``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.hellochinese``` | ```7.9.25``` |
-| ```Disable telemetry``` | ```Disables CamScanner's custom telemetry system.``` | ```com.intsig.camscanner``` | ```7.15.5.2604080000``` |
-| ```Enable Premium``` | ```Enables some app features locked behind the subscription paywall. Certain server-side functionality may be unavailable.``` | ```com.intsig.camscanner``` | ```7.15.5.2604080000``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.lyfta``` | ```1.551``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.merriamwebster``` | ```All versions``` |
-| ```Enable FotMob+``` | ```Enables app features locked behind the subscription paywall.``` | ```com.mobilefootie.wc2010``` | ```226.16092.20260302``` |
-| ```Enable Premium+``` | ```Enables app features locked behind the subscription paywall.``` | ```com.myfitnesspal.android``` | ```25.50.0``` |
-| ```Disable ads``` | ```Disables ads during audio streaming.``` | ```com.pandora.android``` | ```All versions``` |
-| ```Unlimited skips``` | ```Disables the limit for skipping songs during playback.``` | ```com.pandora.android``` | ```All versions``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.qbis.guessthecountry``` | ```3.34.2``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.sbs.diet, com.sbs.train``` | ```5.7.6, 1.1.7``` |
-| ```Spoof signature``` | ```Spoof package signature for Firebase app check.``` | ```com.sbs.diet, com.sbs.train``` | ```5.7.6, 1.1.7``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.snorelab.app``` | ```2.27.3.6291``` |
-| ```Disable ads``` | ```Disables all ads contained within the UI.``` | ```com.sofascore.results``` | ```25.12.17``` |
-| ```AMOLED dark theme``` | ```Changes the default dark theme to use true blacks for AMOLED screens.``` | ```com.soundcloud.android``` | ```2026.04.27-release``` |
-| ```Disable telemetry``` | ```Disables SoundCloud's telemetry system.``` | ```com.soundcloud.android``` | ```2026.04.27-release``` |
-| ```Enable SoundCloud Go+``` | ```Enables app features locked behind the subscription paywall.``` | ```com.soundcloud.android``` | ```2026.04.27-release``` |
-| ```Enable Prime``` | ```Enable Nova Launcher Prime and app locked behind the subscription paywall.``` | ```com.teslacoilsw.launcher``` | ```81042 (8.5.1)``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```com.wallpaperscraft.wallpaper``` | ```3.61.01``` |
-| ```Enable Premium``` | ```Enables some app features locked behind the subscription paywall. Not all premium functionality is available.``` | ```com.windyty.android``` | ```49.0.1``` |
-| ```Disable signature check``` | ```Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.``` | ```com.xodo.pdf.reader``` | ```10.13.0``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```com.xodo.pdf.reader``` | ```10.13.0``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```com.zombodroid.MemeGenerator``` | ```4.6671``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```cz.ackee.ventusky``` | ```53.1``` |
-| ```Disable signature check``` | ```Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.``` | ```ginlemon.flowerfree``` | ```6.6 build 002``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```ginlemon.flowerfree``` | ```6.6 build 002``` |
-| ```Enable Prime membership``` | ```Enables app features locked behind the subscription paywall.``` | ```jp.ne.ibis.ibispaintx.app``` | ```14.0.1``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```kr.co.yjteam.dailypay``` | ```6.0.7``` |
-| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```kr.co.yjteam.dailypay``` | ```6.0.7``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```kr.eggbun.eggconvo``` | ```4.12.19``` |
-| ```Force Native Keyboard``` | ```When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.``` | ```kr.eggbun.eggconvo``` | ```4.12.19``` |
-| ```Enable Plus``` | ```Enable Plus membership (not all features are available). There is a strict version requirement for this patch.``` | ```me.mycake``` | ```6.4.0``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```net.teuida.teuida``` | ```1.21.16``` |
-| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```net.teuida.teuida``` | ```1.21.16``` |
-| ```Disable anti-tamper``` | ```Disables anti-tamper checks including signature verification and purchase ID.``` | ```nom.vrd``` | ```1.9.3-GooglePlay, 1.9.3-storage``` |
-| ```Disable telemetry``` | ```Disables event logging sent to the app's custom endpoint.``` | ```nom.vrd``` | ```1.9.3-GooglePlay, 1.9.3-storage``` |
-| ```Remove trial limit``` | ```Removes the imposed 6-hour trial usage limit.``` | ```nom.vrd``` | ```1.9.3-GooglePlay, 1.9.3-storage``` |
-| ```Block Permissions Request``` | ```Blocks the request of notification permissions on load of app.``` | ```org.languageapp.lingory``` | ```1.2.75``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```org.languageapp.lingory``` | ```1.2.75``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```org.totschnig.myexpenses``` | ```3.9.8``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```pl.solidexplorer2``` | ```3.4.1``` |
-| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```pl.solidexplorer2``` | ```3.4.1``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```ru.iiec.pydroid3``` | ```8.3_arm64``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```AdGuard``` | ```All versions``` |
+| ```Enable Peak membership``` | ```Enables app features locked behind the subscription paywall.``` | ```AllTrails``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Avocards``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Busuu``` | ```All versions``` |
+| ```Enable Plus``` | ```Enable Plus membership (not all features are available). There is a strict version requirement for this patch.``` | ```Cake``` | ```All versions``` |
+| ```Disable telemetry``` | ```Disables CamScanner's custom telemetry system.``` | ```CamScanner``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables some app features locked behind the subscription paywall. Certain server-side functionality may be unavailable.``` | ```CamScanner``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Daily Pocket``` | ```All versions``` |
+| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```Daily Pocket``` | ```All versions``` |
+| ```Disable dynamic app icon``` | ```Prevents Duolingo from changing the app icon. Only the default icon will be available.``` | ```Duolingo``` | ```All versions``` |
+| ```Disable Login Integrity``` | ```Removes Play Integrity device attestation from login request.``` | ```Duolingo``` | ```All versions``` |
+| ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```Duolingo``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Duolingo``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Eggbun``` | ```All versions``` |
+| ```Force Native Keyboard``` | ```When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.``` | ```Eggbun``` | ```All versions``` |
+| ```Enable FotMob+``` | ```Enables app features locked behind the subscription paywall.``` | ```FotMob``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```HelloChinese``` | ```All versions``` |
+| ```Enable Prime membership``` | ```Enables app features locked behind the subscription paywall.``` | ```IbisPaint X``` | ```All versions``` |
+| ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. Some UI elements may not show an active membership, but this does not effect functionality.``` | ```Icon Packer``` | ```All versions``` |
+| ```Block Permissions Request``` | ```Blocks the request of notification permissions on load of app.``` | ```Lingory``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lingory``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Lyfta``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Macro Factor, Macro Factor Workouts``` | ```All versions``` |
+| ```Spoof signature``` | ```Spoof package signature for Firebase app check.``` | ```Macro Factor, Macro Factor Workouts``` | ```All versions``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Meme Generator``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Merriam-Webster``` | ```All versions``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Mimo``` | ```All versions``` |
+| ```Spoof package signature``` | ```Spoofs the SHA1 signature hash required for Firebase API calls.``` | ```Mimo``` | ```All versions``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Mirinae``` | ```All versions``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```MyExpenses``` | ```All versions``` |
+| ```Enable Premium+``` | ```Enables app features locked behind the subscription paywall.``` | ```MyFitnessPal``` | ```All versions``` |
+| ```Disable anti-tamper``` | ```Disables anti-tamper checks including signature verification and purchase ID.``` | ```NOMone Desktop``` | ```All versions``` |
+| ```Disable telemetry``` | ```Disables event logging sent to the app's custom endpoint.``` | ```NOMone Desktop``` | ```All versions``` |
+| ```Remove trial limit``` | ```Removes the imposed 6-hour trial usage limit.``` | ```NOMone Desktop``` | ```All versions``` |
+| ```Enable Prime``` | ```Enable Nova Launcher Prime and app locked behind the subscription paywall.``` | ```Nova Launcher``` | ```All versions``` |
+| ```Disable ads``` | ```Disables ads during audio streaming.``` | ```Pandora``` | ```All versions``` |
+| ```Unlimited skips``` | ```Disables the limit for skipping songs during playback.``` | ```Pandora``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Podcast Addict``` | ```All versions``` |
+| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```Podcast Addict``` | ```All versions``` |
+| ```Enable speed control``` | ```Enables experimental speed control to the video player.``` | ```Prime Video``` | ```All versions``` |
+| ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```Prime Video``` | ```All versions``` |
+| ```Skip ads``` | ```Automatically skips ads baked into the video stream.``` | ```Prime Video``` | ```All versions``` |
+| ```Remove delay``` | ```Removes the imposed delay when changing VPN servers.``` | ```Proton VPN``` | ```All versions``` |
+| ```Unlock custom DNS``` | ```Enables the custom DNS feature usually locked behind the Proton Plus paywall.``` | ```Proton VPN``` | ```All versions``` |
+| ```Unlock LAN connections``` | ```Enables the LAN connections feature usually locked behind the Proton Plus paywall.``` | ```Proton VPN``` | ```All versions``` |
+| ```Unlock split tunneling``` | ```Enables the split tunneling feature usually locked behind the Proton Plus paywall.``` | ```Proton VPN``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```PyDroid3``` | ```All versions``` |
+| ```Disable signature check``` | ```Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.``` | ```Smart Launcher``` | ```All versions``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Smart Launcher``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```SnoreLab``` | ```All versions``` |
+| ```Disable ads``` | ```Disables all ads contained within the UI.``` | ```Sofascore``` | ```All versions``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Solid Explorer``` | ```All versions``` |
+| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```Solid Explorer``` | ```All versions``` |
+| ```AMOLED dark theme``` | ```Changes the default dark theme to use true blacks for AMOLED screens.``` | ```SoundCloud``` | ```All versions``` |
+| ```Disable telemetry``` | ```Disables SoundCloud's telemetry system.``` | ```SoundCloud``` | ```All versions``` |
+| ```Enable SoundCloud Go+``` | ```Enables app features locked behind the subscription paywall.``` | ```SoundCloud``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Teuida``` | ```All versions``` |
+| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```Teuida``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.``` | ```TTMIK Stories``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
 | ```Enable debug``` | ```Enables debugging on the app by setting android:debuggable="true".``` | ```Universal``` | ```All versions``` |
 | ```Hide app icon``` | ```Hides the app icon from the Android launcher.``` | ```Universal``` | ```All versions``` |
-| ```Enable Pro``` | ```N/A``` | ```videoeditor.videorecorder.screenrecorder``` | ```2.5.1.1``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Ventusky``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Wallcraft``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables some app features locked behind the subscription paywall. Not all premium functionality is available.``` | ```Windy``` | ```All versions``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```World Map Quiz``` | ```All versions``` |
+| ```Disable anti-tamper``` | ```Disables various anti-tamper checks that causes the app to force-close.``` | ```WPS Office``` | ```All versions``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall. Login is required and AI functionality is unavailable.``` | ```WPS Office``` | ```All versions``` |
+| ```Disable signature check``` | ```Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.``` | ```Xodo``` | ```All versions``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Xodo``` | ```All versions``` |
+| ```Enable Pro``` | ```N/A``` | ```XRecorder``` | ```All versions``` |
 
 </details>
 
@@ -2146,7 +2150,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***73 Patches***
+***76 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add notification shortcut``` | ```Adds a notification shortcut button above quick write in the post list.``` | ```dcinside``` | ```All versions``` |
@@ -2164,6 +2168,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable update check``` | ```Disables the app's update check.``` | ```dcinside``` | ```All versions``` |
 | ```Enable OneStore feature``` | ```Enables the OneStore feature in DC Inside app.``` | ```dcinside``` | ```All versions``` |
 | ```Hide DC official notices``` | ```Hides official DCInside operator notices from gallery notice lists.``` | ```dcinside``` | ```All versions``` |
+| ```Hide home components``` | ```Adds settings to hide selected DCInside home screen components.``` | ```dcinside``` | ```All versions``` |
 | ```Hide Main Ad``` | ```Hides the main ad in the app.``` | ```dcinside``` | ```All versions``` |
 | ```Register settings activity``` | ```Registers the Morphe settings activity in the app manifest.``` | ```dcinside``` | ```All versions``` |
 | ```Spoof Signature``` | ```Spoofs the app signature to bypass integrity checks.``` | ```dcinside``` | ```All versions``` |
@@ -2221,6 +2226,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Spoof App ID``` | ```Spoofs the App ID to bypass integrity checks. (to bypass biometric auth etc.)``` | ```Kakao Talk``` | ```All versions``` |
 | ```Spoof signature``` | ```Spoofs the app signature to pass integrity checks.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Version info patch``` | ```Patches the version info to include '(ReVanced)' in the version string.``` | ```Kakao Talk``` | ```All versions``` |
+| ```Disable Sentry``` | ```Disables Sentry reporting``` | ```Unicorn Pro``` | ```All versions``` |
+| ```Unlock Pro features``` | ```Makes Unicorn Pro report an active Pro license while preserving the original native object graph.``` | ```Unicorn Pro``` | ```All versions``` |
 | ```Disable Sentry telemetry``` | ```Disables Sentry telemetry. See https://sentry.io/for/android/ for more information.``` | ```Universal``` | ```All versions``` |
 
 </details>
@@ -2281,7 +2288,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***111 Patches***
+***113 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```All versions``` |
@@ -2348,6 +2355,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Media notification controls``` | ```Adds options to disable the seekbar and previous/next buttons in the media notification and headphone controls.``` | ```YouTube``` | ```All versions``` |
 | ```Miniplayer``` | ```Adds options to change the in-app minimized player.``` | ```YouTube``` | ```All versions``` |
 | ```Navigation bar``` | ```Adds options to hide and change the bottom navigation bar (such as the Shorts button) and the upper navigation toolbar. Patching version 20.21.37 and lower also adds a setting to use a wide searchbar.``` | ```YouTube``` | ```All versions``` |
+| ```Open channel of live avatar``` | ```Adds an option to prevent a channel's current live video from opening when tapping its avatar.``` | ```YouTube``` | ```All versions``` |
 | ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app browser.``` | ```YouTube``` | ```All versions``` |
 | ```Open Shorts in regular player``` | ```Adds options to open Shorts in the regular video player.``` | ```YouTube``` | ```All versions``` |
 | ```Open system share sheet``` | ```Adds an option to always open the system share sheet instead of the in-app share sheet.``` | ```YouTube``` | ```All versions``` |
@@ -2360,6 +2368,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube``` | ```All versions``` |
 | ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of videos with Return YouTube Dislike.``` | ```YouTube``` | ```All versions``` |
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube``` | ```All versions``` |
+| ```Save to watch later``` | ```Adds an option to display save to watch later button in the video player.``` | ```YouTube``` | ```All versions``` |
 | ```Seekbar``` | ```Adds options to disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, hiding the video player seekbar, enabling seeking in livestreams, and expanding the livestream DVR duration.``` | ```YouTube``` | ```All versions``` |
 | ```Shorts autoplay``` | ```Adds options to automatically play the next Short.``` | ```YouTube``` | ```All versions``` |
 | ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content.``` | ```YouTube``` | ```All versions``` |
@@ -3015,11 +3024,12 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***35 Patches***
+***37 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable telemetry``` | ```Blocks all telemetry, analytics, and observability data collection.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
-| ```Proton VPN Premium``` | ```Unlocks premium UI, removes upsells, and shows only free servers.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
+| ```Proton VPN Premium``` | ```Unlocks premium UI features: removes upsells, enables NetShield ad-blocker, hides upgrade prompts, shows free servers with premium interface (Plus badge, no speed limits display, all feature flags enabled).``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
+| ```MacroDroid Premium``` | ```Unlocks premium features and removes macro limits.``` | ```com.arlosoft.macrodroid``` | ```5.62.11``` |
 | ```Doc Scanner Premium``` | ```Unlocks all premium features, removes ads, and enables pro themes.``` | ```com.cv.docscanner``` | ```6.8.18``` |
 | ```Eyecon Premium``` | ```Unlocks premium features.``` | ```com.eyecon.global``` | ```4.2026.04.05.1300``` |
 | ```VN Premium``` | ```Unlocks premium features, removes watermark, and hides Pro tab.``` | ```com.frontrow.vlog``` | ```2.12.0``` |
@@ -3029,6 +3039,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```TickTick Premium``` | ```Unlocks premium features, removes limits, and enables AI tools.``` | ```com.ticktick.task``` | ```8.0.6.1``` |
 | ```Disable telemetry``` | ```Disables AppStartTracker and other telemetry points.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Disable update check``` | ```Disables the in-app update check.``` | ```com.truecaller``` | ```26.10.6``` |
+| ```GMS sign-in bypass``` | ```Forces SMS-based OTP verification instead of GMS SmsRetriever, fixing sign-in on re-signed APKs.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Hide Assistant tab``` | ```Hides the Assistant tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Hide Family Protection button``` | ```Hides the Family Protection button from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
 | ```Hide Premium from settings``` | ```Hides the Premium options from the settings and user details pages.``` | ```com.truecaller``` | ```26.10.6``` |

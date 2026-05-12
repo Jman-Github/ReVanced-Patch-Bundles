@@ -1,5 +1,5 @@
 {
-    "version": "v1.29.0",
+    "version": "v1.30.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -160,6 +160,20 @@
         },
         {
             "compatiblePackages": {
+                "com.intsig.camscanner": [
+                    "7.15.5.2604080000"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Disables CamScanner's custom telemetry system.",
+            "name": "Disable telemetry",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "nom.vrd": [
                     "1.9.3-GooglePlay",
                     "1.9.3-storage"
@@ -275,6 +289,20 @@
             },
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.intsig.camscanner": [
+                    "7.15.5.2604080000"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables some app features locked behind the subscription paywall. Certain server-side functionality may be unavailable.",
             "name": "Enable Premium",
             "options": [],
             "use": true
@@ -675,7 +703,7 @@
         {
             "compatiblePackages": {
                 "com.amazon.avod.thirdpartyclient": [
-                    "3.0.447.757"
+                    "3.0.452.1047"
                 ]
             },
             "dependencies": [],
@@ -798,7 +826,7 @@
         {
             "compatiblePackages": {
                 "com.amazon.avod.thirdpartyclient": [
-                    "3.0.447.757"
+                    "3.0.452.1047"
                 ]
             },
             "dependencies": [],
@@ -810,7 +838,7 @@
         {
             "compatiblePackages": {
                 "com.amazon.avod.thirdpartyclient": [
-                    "3.0.447.757"
+                    "3.0.452.1047"
                 ]
             },
             "dependencies": [

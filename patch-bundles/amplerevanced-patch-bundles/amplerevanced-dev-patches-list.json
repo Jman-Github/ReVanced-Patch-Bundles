@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.32",
+    "version": "v1.1.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -1129,6 +1129,33 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "description": null,
+                    "name": "Unicorn Pro",
+                    "packageName": "com.unicornsoft.android.unicornpro",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.30.447"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables Sentry reporting",
+            "name": "Disable Sentry",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1471,6 +1498,33 @@
             ],
             "description": "Hides official DCInside operator notices from gallery notice lists.",
             "name": "Hide DC official notices",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#3D4491",
+                    "description": null,
+                    "name": "dcinside",
+                    "packageName": "com.dcinside.app.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.2.9"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds settings to hide selected DCInside home screen components.",
+            "name": "Hide home components",
             "options": []
         },
         {
@@ -1989,6 +2043,33 @@
             "dependencies": [],
             "description": "Spoofs the app signature to pass integrity checks.",
             "name": "Spoof signature",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "description": null,
+                    "name": "Unicorn Pro",
+                    "packageName": "com.unicornsoft.android.unicornpro",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.30.447"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Makes Unicorn Pro report an active Pro license while preserving the original native object graph.",
+            "name": "Unlock Pro features",
             "options": []
         },
         {

@@ -1,5 +1,5 @@
 {
-    "version": "v1.16.0",
+    "version": "v1.4.0-dev.44",
     "patches": [
         {
             "compatiblePackages": {
@@ -236,6 +236,18 @@
                 ]
             },
             "dependencies": [],
+            "description": "Forces SMS-based OTP verification instead of GMS SmsRetriever, fixing sign-in on re-signed APKs.",
+            "name": "GMS sign-in bypass",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truecaller": [
+                    "26.10.6"
+                ]
+            },
+            "dependencies": [],
             "description": "Hides the Assistant tab from the bottom navigation bar.",
             "name": "Hide Assistant tab",
             "options": [],
@@ -303,6 +315,18 @@
         },
         {
             "compatiblePackages": {
+                "com.arlosoft.macrodroid": [
+                    "5.62.11"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks premium features and removes macro limits.",
+            "name": "MacroDroid Premium",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.markOne.ss_app": [
                     "6.6"
                 ]
@@ -332,7 +356,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Unlocks premium UI, removes upsells, and shows only free servers.",
+            "description": "Unlocks premium UI features: removes upsells, enables NetShield ad-blocker, hides upgrade prompts, shows free servers with premium interface (Plus badge, no speed limits display, all feature flags enabled).",
             "name": "Proton VPN Premium",
             "options": [],
             "use": true
