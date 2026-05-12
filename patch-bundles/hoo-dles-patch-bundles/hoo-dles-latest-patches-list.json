@@ -1,5 +1,5 @@
 {
-    "version": "v1.31.0-dev.2",
+    "version": "v1.31.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -1192,6 +1192,33 @@
                             "isExperimental": false,
                             "minSdk": null,
                             "version": "9.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#87CBC8",
+                    "description": null,
+                    "name": "Mirinae",
+                    "packageName": "com.mirinae.mirinae",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.2.2"
                         }
                     ]
                 }
