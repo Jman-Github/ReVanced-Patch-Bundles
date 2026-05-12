@@ -1,4 +1,32 @@
 {
-  "version": "N/A",
-  "patches": []
+    "version": "v0.1.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#81C14B",
+                    "description": null,
+                    "name": "Ekşi Sözlük",
+                    "packageName": "com.eksiteknoloji.eksisozluk",
+                    "signatures": [
+                        "2c7a15c43fc79ec9fe3e621825f37de6e75e6f2427dc21e83e089515804a7426"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes Ekşi Sözlük ad placements and disables ad loading.",
+            "name": "Hide ads",
+            "options": []
+        }
+    ]
 }

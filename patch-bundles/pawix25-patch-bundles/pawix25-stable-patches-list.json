@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -40,6 +40,25 @@
             "name": "Block Pepper analytics-event-report tracker",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.chollometro": null,
+                "com.dealabs.apps.android": null,
+                "com.pepperdeals": null,
+                "com.preisjaeger": null,
+                "com.tippingcanoe.hukd": null,
+                "com.tippingcanoe.mydealz": null,
+                "com.tippingcanoe.peppernl": null,
+                "com.tippingcanoe.pepperpl": null,
+                "com.tippingcanoe.promodescuentos": null,
+                "se.pepperdeals": null
+            },
+            "dependencies": [],
+            "description": "Shrinks Pepper deal-list cards and their loading skeletons with targeted XML resource edits.",
+            "name": "Compact deal cards",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
