@@ -1044,6 +1044,58 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+### 📦 Xob0t-Patches-Bundle [Morphe]:
+[🧩 Xob0t Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-xob0t-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xob0t-patch-bundles/xob0t-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xob0t-patch-bundles/xob0t-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xob0t-patch-bundles/xob0t-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Bannerhub-Patches-Bundle [Morphe]:
+[🧩 Bannerhub Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-bannerhub-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bannerhub-patch-bundles/bannerhub-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bannerhub-patch-bundles/bannerhub-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bannerhub-patch-bundles/bannerhub-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Eksi-Patches-Bundle [Morphe]:
+[🧩 Eksi Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-eksi-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/eksi-patch-bundles/eksi-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/eksi-patch-bundles/eksi-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/eksi-patch-bundles/eksi-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Ameen-Morphe-Patches-Bundle [Morphe]:
+[🧩 Ameen-Morphe Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ameen-morphe-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ameen-morphe-patch-bundles/ameen-morphe-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ameen-morphe-patch-bundles/ameen-morphe-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ameen-morphe-patch-bundles/ameen-morphe-dev-patches-bundle.json```
+</details>
+
+---
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -1210,6 +1262,14 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Lynx6319-Patches-Bundle](https://github.com/Lynx6319/patch-youtube-scroll-block)
 
 #### 🏷️ [Ameenalasady-Patches-Bundle](https://github.com/ameenalasady/photogrid-morphe)
+
+#### 🏷️ [Xob0t-Patches-Bundle](https://github.com/xob0t/morphe-patches)
+
+#### 🏷️ [Bannerhub-Patches-Bundle](https://github.com/The412Banner/bannerhub-revanced)
+
+#### 🏷️ [Eksi-Patches-Bundle](https://github.com/HvQ/eksi-morphe)
+
+#### 🏷️ [Ameen-Morphe-Patches-Bundle](https://github.com/ameenalasady/ameen-morphe)
 
 
 </details>

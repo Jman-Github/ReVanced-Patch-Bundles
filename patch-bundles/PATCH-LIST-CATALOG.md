@@ -80,6 +80,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Vmospro Bundle Patch List](#-Vmospro-bundle-patch-list)    
 [🧩 Ameenalasady Bundle Patch List](#-Ameenalasady-bundle-patch-list)    
 [🧩 Lynx6319 Bundle Patch List](#-Lynx6319-bundle-patch-list)    
+[🧩 Xob0t Bundle Patch List](#-xob0t-bundle-patch-list)<br>
+[🧩 Bannerhub Bundle Patch List](#-bannerhub-bundle-patch-list)<br>
+[🧩 Eksi Bundle Patch List](#-eksi-bundle-patch-list)<br>
+[🧩 Ameen-Morphe Bundle Patch List](#-ameen-morphe-bundle-patch-list)<br>
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -3349,5 +3353,45 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable Shorts scroll``` | ```Disables swiping up/down between Shorts while still allowing a single Short to be opened and watched normally.``` | ```YouTube``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Xob0t Bundle Patch List:
+[📦 Xob0t-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-xob0t-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
+
+---
+### 🧩 Bannerhub Bundle Patch List:
+[📦 Bannerhub-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bannerhub-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
+
+---
+### 🧩 Eksi Bundle Patch List:
+[📦 Eksi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-eksi-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+
+</details>
+
+---
+### 🧩 Ameen-Morphe Bundle Patch List:
+[📦 Ameen-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ameen-morphe-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
 
 </details>
