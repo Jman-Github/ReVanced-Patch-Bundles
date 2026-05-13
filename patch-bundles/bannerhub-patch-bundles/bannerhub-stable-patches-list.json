@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-604",
+    "version": "v1.1.0-604",
     "patches": [
         {
             "compatiblePackages": {
@@ -10,6 +10,18 @@
             "dependencies": [],
             "description": "Bypasses the login requirement by replacing the auth-session StateFlow getters with synthetic always-true / always-non-null values, plus short-circuiting the navigator gates and the navigation interceptor.",
             "name": "Bypass login",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Replaces five drawables in the patched APK with BannerHub branding: the launcher adaptive-icon foreground (deleting the stock vector so the new raster wins on every density), the in-app Wine logo, the auth-screen landscape + overseas logos, and the splash screen banner — the last three are shipped as Compose Multiplatform resources under assets/composeResources/. Background drawable and CN-locale variants are left as-is.",
+            "name": "Change app icon",
             "options": [],
             "use": true
         },
@@ -235,6 +247,48 @@
                     "6.0.4"
                 ]
             },
+            "dependencies": [],
+            "description": "Appends a 'bh_pc_vibration_label' = 'PC Vibration Settings' string entry to features.home Compose Multiplatform resources so the library-tile popup row's Lell-typed label can resolve to our text.",
+            "name": "PC Vibration Settings label resource",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "PC Vibration Settings label resource"
+            ],
+            "description": "Adds a 'PC Vibration Settings' row to the per-game library popup menu. Tapping it launches BhVibrationSettingsActivity with the active game's id when a WineActivity is on the stack. Injects after the existing rows so stock behavior is preserved.",
+            "name": "PC Vibration Settings menu row",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Vibration settings activity",
+                "Vibration native shim"
+            ],
+            "description": "Routes Wine XInput rumble (low, high) into Android's VibratorManager with dual-motor independent dispatch on multi-motor controllers, sustained holds (via guest-side libevshim.so LD_PRELOAD shim re-issuing SDL_JoystickRumble every 500ms so SDL2's 1s auto-stop never fires), and instant release. Adapted from TideGear/GameHub-Vibration-Fix (BannerHub PR #80).",
+            "name": "PC-accurate vibration",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
             "dependencies": [
                 "Redirect catalog API"
             ],
@@ -266,6 +320,30 @@
             ],
             "description": "Renames upstream-baked custom permissions (e.g. com.xiaoji.egggame.permission.C2D_MESSAGE) to use the variant package, so multiple variants can install side-by-side without INSTALL_FAILED_DUPLICATE_PERMISSION on Android 7+ (which surfaces as \"package conflicts with a current package\" in the package installer UI). ChangePackageNamePatch's updatePermissions option only rewrites the hardcoded DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION; this patch handles the rest.",
             "name": "Rewrite custom permissions per variant",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Copies libevshim.so into lib/arm64-v8a/ of the patched APK. The shim is LD_PRELOAD'd into Wine to re-issue SDL_JoystickRumble every 500ms with a 2s duration so SDL2's 1s rumble_expiration auto-stop never fires — required for sustained rumble holds. Silently no-op if the shim is missing from the patch bundle (CI may build without it for smoke tests); the LD_PRELOAD inject in VibrationPatch is File.exists()-guarded so basic rumble still works.",
+            "name": "Vibration native shim",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Registers BhVibrationSettingsActivity in the manifest so the Mode/Intensity dialog can be launched by an explicit-Intent from anywhere. Internal-only (android:exported=\"false\"); no <intent-filter>.",
+            "name": "Vibration settings activity",
             "options": [],
             "use": true
         }
