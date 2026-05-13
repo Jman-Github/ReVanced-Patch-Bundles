@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.4",
+    "version": "v1.1.0-dev.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -1893,6 +1893,33 @@
             ],
             "description": "Removes the Short-form tab from the now fragment.",
             "name": "Remove Short-form Tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#3D4491",
+                    "description": null,
+                    "name": "dcinside",
+                    "packageName": "com.dcinside.app.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.2.9"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds a setting to render big DCCon at normal DCCon size.",
+            "name": "Render big DCCon as normal size",
             "options": []
         },
         {
