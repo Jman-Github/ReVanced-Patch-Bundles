@@ -3295,11 +3295,12 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***16 Patches***
+***17 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Always show event-theming icons``` | ```Shows every event-themed app icon in the picker, even when its event is not currently active.``` | ```com.chollometro, com.dealabs.apps.android, com.pepperdeals, com.preisjaeger, com.tippingcanoe.hukd, com.tippingcanoe.mydealz, com.tippingcanoe.peppernl, com.tippingcanoe.pepperpl, com.tippingcanoe.promodescuentos, se.pepperdeals``` | ```All versions``` |
 | ```Block Pepper analytics-event-report tracker``` | ```Stops Pepper's own behavioural tracker (thread visits, shares, push clicks, search suggestions) from reaching the server.``` | ```com.chollometro, com.dealabs.apps.android, com.pepperdeals, com.preisjaeger, com.tippingcanoe.hukd, com.tippingcanoe.mydealz, com.tippingcanoe.peppernl, com.tippingcanoe.pepperpl, com.tippingcanoe.promodescuentos, se.pepperdeals``` | ```All versions``` |
+| ```Compact deal cards``` | ```Shrinks Pepper deal-list cards and their loading skeletons with targeted XML resource edits.``` | ```com.chollometro, com.dealabs.apps.android, com.pepperdeals, com.preisjaeger, com.tippingcanoe.hukd, com.tippingcanoe.mydealz, com.tippingcanoe.peppernl, com.tippingcanoe.pepperpl, com.tippingcanoe.promodescuentos, se.pepperdeals``` | ```All versions``` |
 | ```Disable Adjust SDK``` | ```Stops the Adjust SDK from initialising and tracking events.``` | ```com.chollometro, com.dealabs.apps.android, com.pepperdeals, com.preisjaeger, com.tippingcanoe.hukd, com.tippingcanoe.mydealz, com.tippingcanoe.peppernl, com.tippingcanoe.pepperpl, com.tippingcanoe.promodescuentos, se.pepperdeals``` | ```All versions``` |
 | ```Disable Google Mobile Ads ad-load entry points``` | ```Blocks Google's Ad SDK from fetching native ads after init.``` | ```com.chollometro, com.dealabs.apps.android, com.pepperdeals, com.preisjaeger, com.tippingcanoe.hukd, com.tippingcanoe.mydealz, com.tippingcanoe.peppernl, com.tippingcanoe.pepperpl, com.tippingcanoe.promodescuentos, se.pepperdeals``` | ```All versions``` |
 | ```Disable Google Mobile Ads SDK init``` | ```Stops the Google Mobile Ads SDK from initialising.``` | ```com.chollometro, com.dealabs.apps.android, com.pepperdeals, com.preisjaeger, com.tippingcanoe.hukd, com.tippingcanoe.mydealz, com.tippingcanoe.peppernl, com.tippingcanoe.pepperpl, com.tippingcanoe.promodescuentos, se.pepperdeals``` | ```All versions``` |
