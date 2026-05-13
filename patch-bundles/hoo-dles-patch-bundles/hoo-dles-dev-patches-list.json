@@ -1,5 +1,5 @@
 {
-    "version": "v1.31.0-dev.3",
+    "version": "v1.31.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -448,6 +448,31 @@
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable FotMob+",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#9FCDFB",
+                    "description": null,
+                    "name": "Niagara Launcher",
+                    "packageName": "bitpit.launcher",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.16.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Niagara Pro",
             "options": []
         },
         {

@@ -1726,7 +1726,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***72 Patches***
+***73 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```AdGuard``` | ```All versions``` |
@@ -1760,6 +1760,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Mirinae``` | ```All versions``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```MyExpenses``` | ```All versions``` |
 | ```Enable Premium+``` | ```Enables app features locked behind the subscription paywall.``` | ```MyFitnessPal``` | ```All versions``` |
+| ```Enable Niagara Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Niagara Launcher``` | ```All versions``` |
 | ```Disable anti-tamper``` | ```Disables anti-tamper checks including signature verification and purchase ID.``` | ```NOMone Desktop``` | ```All versions``` |
 | ```Disable telemetry``` | ```Disables event logging sent to the app's custom endpoint.``` | ```NOMone Desktop``` | ```All versions``` |
 | ```Remove trial limit``` | ```Removes the imposed 6-hour trial usage limit.``` | ```NOMone Desktop``` | ```All versions``` |
