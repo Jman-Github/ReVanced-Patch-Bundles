@@ -1,5 +1,5 @@
 {
-    "version": "v1.31.0-dev.4",
+    "version": "v1.31.1-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -1216,7 +1216,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "9.0"
+                            "version": "9.11"
                         }
                     ]
                 }
@@ -1723,31 +1723,6 @@
             ],
             "description": "Automatically skips ads baked into the video stream.",
             "name": "Skip ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#7E4BDE",
-                    "description": null,
-                    "name": "Mimo",
-                    "packageName": "com.getmimo",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "9.0"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Spoofs the SHA1 signature hash required for Firebase API calls.",
-            "name": "Spoof package signature",
             "options": []
         },
         {
