@@ -3373,7 +3373,31 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***22 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Avito privacy``` | ```Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.``` | ```Avito``` | ```All versions``` |
+| ```Disable update prompts``` | ```Prevents Avito's force-update screen opener from launching update screens.``` | ```Avito``` | ```All versions``` |
+| ```Hide Avi bottom tab``` | ```Removes the Avi assistant button from Avito's bottom navigation bar.``` | ```Avito``` | ```All versions``` |
+| ```Remove ads``` | ```Disables Avito ads by removing ad SDK entry points and short-circuiting commercial banner loading.``` | ```Avito``` | ```All versions``` |
+| ```Remove Ozon ads``` | ```Removes Ozon ad widgets, banner carousels, video ads, and PDP promo blocks.``` | ```Ozon``` | ```All versions``` |
+| ```Bypass anti-tamper``` | ```Stubs TBank's native RASP executor calls and neutralizes tamper flag reporting.``` | ```TBank``` | ```All versions``` |
+| ```Remove TBank ads``` | ```Removes TBank stories and promotional surfaces.``` | ```TBank``` | ```All versions``` |
+| ```Disable Adjust``` | ```Disables Adjust attribution manifest entry points.``` | ```Universal``` | ```All versions``` |
+| ```Disable AppMetrica``` | ```Disables AppMetrica and legacy Yandex Metrica SDK entry points.``` | ```Universal``` | ```All versions``` |
+| ```Disable AppsFlyer``` | ```Disables AppsFlyer install referrer and attribution manifest entry points.``` | ```Universal``` | ```All versions``` |
+| ```Disable Firebase telemetry``` | ```Disables Firebase telemetry collection flags and DataTransport sender entry points.``` | ```Universal``` | ```All versions``` |
+| ```Disable freeRASP``` | ```Disables the freeRASP mobile security SDK startup.``` | ```Universal``` | ```All versions``` |
+| ```Disable Google Analytics``` | ```Disables legacy Google Analytics manifest entry points.``` | ```Universal``` | ```All versions``` |
+| ```Disable MyTracker``` | ```Disables MyTracker manifest entry points.``` | ```Universal``` | ```All versions``` |
+| ```Disable RuStore metrics``` | ```Disables RuStore metrics manifest entry points.``` | ```Universal``` | ```All versions``` |
+| ```Disable Sentry telemetry``` | ```Disables Sentry telemetry by turning off SDK auto-init and clearing the DSN.``` | ```Universal``` | ```All versions``` |
+| ```Spoof emulator status``` | ```Spoofs emulator state through common Build, QEMU file, command, and system property checks.``` | ```Universal``` | ```All versions``` |
+| ```Spoof install source``` | ```Spoofs package installer checks to report Google Play as the install source.``` | ```Universal``` | ```All versions``` |
+| ```Spoof root status``` | ```Spoofs root state through common file, package, command, and build property checks.``` | ```Universal``` | ```All versions``` |
+| ```Spoof USB debugging status``` | ```Spoofs USB debugging and related developer settings through common Android APIs.``` | ```Universal``` | ```All versions``` |
+| ```Spoof VPN status``` | ```Spoofs VPN state through common Android network APIs.``` | ```Universal``` | ```All versions``` |
+| ```Remove Wildberries ads``` | ```Removes Wildberries home banners, grid banners, promo headers, product recommendations, and lottery popups.``` | ```Wildberries``` | ```All versions``` |
 
 </details>
 
@@ -3383,7 +3407,23 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***14 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Bypass login``` | ```Bypasses the login requirement by replacing the auth-session StateFlow getters with synthetic always-true / always-non-null values, plus short-circuiting the navigator gates and the navigation interceptor.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```Debug logging``` | ```Marks the APK debuggable and routes diagnostic probes through DebugTrace. Writes to logcat with tag GH600-DEBUG at Log.i level (the device filter strips app-tagged Log.e but lets Log.i through) and also appends to a file on external storage at /storage/emulated/0/Android/data/com.xiaoji.egggame/files/gh600-debug.log as a backup channel.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```Disable Firebase Crashlytics``` | ```Skips Firebase Crashlytics initialization in Application.onCreate to fix crash on launch.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```File manager access``` | ```Adds a DocumentsProvider so that MT File Manager and other Storage Access Framework clients can browse the app's internal storage directories.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```Mute UI sounds``` | ```Replaces every .wav file in the GameHub Compose UI sound asset folder with a 50ms silent PCM clip so all click / focus / launch sounds play silently. Filenames are preserved so every Compose audio lookup still resolves.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```Offline component cache fallback``` | ```Lets the GPU driver / DXVK / VKD3D / FEXCore / Box64 / container pickers show cached entries (from sp_winemu_unified_resources.xml) when the device is offline. Without this patch, when the network-backed Uaa flow returns an empty list, eci.a falls back to Kotlin's EmptyList and the picker renders only the embedded built-in versions. With this patch, that empty path instead reads xxo.c — the in-memory ConcurrentHashMap that u6o.<init> already hydrates from disk at app start — and filters by RepoCategory. Online behavior is unchanged because the hook only fires on the EmptyList return path; any non-empty Uaa list goes through the original filter loop as before.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```Prefix API path with /v6``` | ```Prepends "v6/" to every relative API path emitted by zdb.b(qx9, path), the single helper through which GameHub 6.0 funnels all simulator/v2/* and other catalog requests. The BannerHub Worker strips the prefix and uses it to branch 6.0-only response variants (e.g. firmware 1.3.4 vs 1.3.3, base.fileType=0 vs default 4). Pairs with Redirect catalog API — that patch swaps the host; this one tags the path. Full URLs (http://, https://) are passed through untouched so direct downloads still work.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```Redirect catalog API``` | ```Redirects GameHub 6.0's catalog API (simulator/v2/* — getAllComponentList, getContainerList, getContainerDetail, getDefaultComponent, getImagefsDetail, executeScript) from landscape-api-{cn,oversea}.vgabc.com to the BannerHub Cloudflare Worker, which serves the curated catalog from the412banner.github.io/bannerhub-api and falls back to vgabc for unallowlisted paths. Patches the two host string literals in the Online enum value's <clinit> initializer in mcj.smali. Beta + Test enum values, the analytics hosts (landscape-api-*-*.vgabc.com/events), the clientapi host (clientgsw.vgabc.com), and the component CDN (zlyer-cdn-comps-en.bigeyes.com) are intentionally left untouched.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```Rewrite custom permissions per variant``` | ```Renames upstream-baked custom permissions (e.g. com.xiaoji.egggame.permission.C2D_MESSAGE) to use the variant package, so multiple variants can install side-by-side without INSTALL_FAILED_DUPLICATE_PERMISSION on Android 7+ (which surfaces as "package conflicts with a current package" in the package installer UI). ChangePackageNamePatch's updatePermissions option only rewrites the hardcoded DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION; this patch handles the rest.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```Change app name``` | ```Changes the display name of the app in the launcher.``` | ```Universal``` | ```All versions``` |
+| ```Change package name``` | ```Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
+| ```Custom network security``` | ```Allows trusting custom certificate authorities for a specific domain.``` | ```Universal``` | ```All versions``` |
+| ```Enable Android debugging``` | ```Enables Android debugging capabilities. This can slow down the app.``` | ```Universal``` | ```All versions``` |
+| ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -3393,7 +3433,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***1 Patch***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Hide ads``` | ```Removes Ekşi Sözlük ad placements and disables ad loading.``` | ```Ekşi Sözlük``` | ```All versions``` |
 
 </details>
 
@@ -3403,6 +3446,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-
+***2 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock Premium``` | ```Unlocks premium features and diets.``` | ```Foodvisor``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all PhotoGrid premium features by making IabUtils always report the user as premium.``` | ```PhotoGrid``` | ```All versions``` |
 
 </details>

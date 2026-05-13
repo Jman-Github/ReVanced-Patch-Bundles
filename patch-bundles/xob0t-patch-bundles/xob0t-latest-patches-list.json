@@ -1,4 +1,379 @@
 {
-  "version": "N/A",
-  "patches": []
+    "version": "v1.3.0-dev.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00AAFF",
+                    "description": null,
+                    "name": "Avito",
+                    "packageName": "com.avito.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.",
+            "name": "Avito privacy",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FFDD2D",
+                    "description": null,
+                    "name": "TBank",
+                    "packageName": "com.idamob.tinkoff.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "7.34.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stubs TBank's native RASP executor calls and neutralizes tamper flag reporting.",
+            "name": "Bypass anti-tamper",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Disables Adjust attribution manifest entry points.",
+            "name": "Disable Adjust",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables AppMetrica and legacy Yandex Metrica SDK entry points.",
+            "name": "Disable AppMetrica",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Disables AppsFlyer install referrer and attribution manifest entry points.",
+            "name": "Disable AppsFlyer",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Disables Firebase telemetry collection flags and DataTransport sender entry points.",
+            "name": "Disable Firebase telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Disables the freeRASP mobile security SDK startup.",
+            "name": "Disable freeRASP",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Disables legacy Google Analytics manifest entry points.",
+            "name": "Disable Google Analytics",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Disables MyTracker manifest entry points.",
+            "name": "Disable MyTracker",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Disables RuStore metrics manifest entry points.",
+            "name": "Disable RuStore metrics",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Disables Sentry telemetry by turning off SDK auto-init and clearing the DSN.",
+            "name": "Disable Sentry telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00AAFF",
+                    "description": null,
+                    "name": "Avito",
+                    "packageName": "com.avito.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents Avito's force-update screen opener from launching update screens.",
+            "name": "Disable update prompts",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00AAFF",
+                    "description": null,
+                    "name": "Avito",
+                    "packageName": "com.avito.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the Avi assistant button from Avito's bottom navigation bar.",
+            "name": "Hide Avi bottom tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00AAFF",
+                    "description": null,
+                    "name": "Avito",
+                    "packageName": "com.avito.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables Avito ads by removing ad SDK entry points and short-circuiting commercial banner loading.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#005BFF",
+                    "description": null,
+                    "name": "Ozon",
+                    "packageName": "ru.ozon.app.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "19.16.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "18.37.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes Ozon ad widgets, banner carousels, video ads, and PDP promo blocks.",
+            "name": "Remove Ozon ads",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Removes recommendation grids from product, profile, and favorites screens.",
+                    "key": "hideRecommendationGrids",
+                    "required": false,
+                    "title": "Hide recommendation grids",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FFDD2D",
+                    "description": null,
+                    "name": "TBank",
+                    "packageName": "com.idamob.tinkoff.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "7.34.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Removes TBank stories and promotional surfaces.",
+            "name": "Remove TBank ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#A73AFD",
+                    "description": null,
+                    "name": "Wildberries",
+                    "packageName": "com.wildberries.ru",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.6.1000-rustore"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.0.6000"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes Wildberries home banners, grid banners, promo headers, product recommendations, and lottery popups.",
+            "name": "Remove Wildberries ads",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Removes recommendation grids from cart and product screens.",
+                    "key": "hideRecommendationGrids",
+                    "required": false,
+                    "title": "Hide recommendation grids",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Spoofs emulator state through common Build, QEMU file, command, and system property checks.",
+            "name": "Spoof emulator status",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Spoofs package installer checks to report Google Play as the install source.",
+            "name": "Spoof install source",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Spoofs root state through common file, package, command, and build property checks.",
+            "name": "Spoof root status",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Spoofs USB debugging and related developer settings through common Android APIs.",
+            "name": "Spoof USB debugging status",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Spoofs VPN state through common Android network APIs.",
+            "name": "Spoof VPN status",
+            "options": []
+        }
+    ]
 }
