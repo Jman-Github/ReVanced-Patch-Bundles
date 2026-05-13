@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.3",
+    "version": "v1.0.4",
     "patches": [
         {
             "compatibility": [
@@ -481,7 +481,11 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": ""
+                            "version": "43.6.2"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
                         }
                     ]
                 },
@@ -493,17 +497,27 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": ""
+                            "version": "43.6.2"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
-                "com.ss.android.ugc.trill": null,
-                "com.zhiliaoapp.musically": null
+                "com.ss.android.ugc.trill": [
+                    "43.6.2",
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.6.2",
+                    "43.8.3"
+                ]
             },
             "dependencies": [],
-            "description": "Disables mandatory login for TikTok. (Version pin not specified in this build.)",
+            "description": "Disables mandatory login for TikTok. (Supports TikTok 43.6.2 + 43.8.3.)",
             "name": "Disable login requirement",
             "options": [],
             "use": true
@@ -618,6 +632,10 @@
                     "targets": [
                         {
                             "experimental": false,
+                            "version": "43.6.2"
+                        },
+                        {
+                            "experimental": false,
                             "version": "43.8.3"
                         }
                     ]
@@ -630,6 +648,10 @@
                     "targets": [
                         {
                             "experimental": false,
+                            "version": "43.6.2"
+                        },
+                        {
+                            "experimental": false,
                             "version": "43.8.3"
                         }
                     ]
@@ -637,16 +659,18 @@
             ],
             "compatiblePackages": {
                 "com.ss.android.ugc.trill": [
+                    "43.6.2",
                     "43.8.3"
                 ],
                 "com.zhiliaoapp.musically": [
+                    "43.6.2",
                     "43.8.3"
                 ]
             },
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Removes download restrictions and changes the default path to download to. (Supports TikTok 43.8.3 only.)",
+            "description": "Removes download restrictions and changes the default download path. (Supports TikTok 43.6.2 + 43.8.3.)",
             "name": "Downloads",
             "options": [],
             "use": true
@@ -765,7 +789,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Re-enables the hidden \"Open debug\" entry. Supported on TikTok 43.6.2 only (use the APK set from ReVanced MR !6535). Not compatible with 43.8.3. This port finds OpenDebug classes by bytecode shape (LLILLL / compose LIZ) so minor obfuscation differences still patch.",
+            "description": "Re-enables the hidden \"Open debug\" entry. Supported on TikTok 43.6.2 only. (Not compatible with 43.8.3.)",
             "name": "Enable Open Debug",
             "options": [],
             "use": true
@@ -857,7 +881,11 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": ""
+                            "version": "43.6.2"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
                         }
                     ]
                 },
@@ -869,17 +897,27 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": ""
+                            "version": "43.6.2"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
-                "com.ss.android.ugc.trill": null,
-                "com.zhiliaoapp.musically": null
+                "com.ss.android.ugc.trill": [
+                    "43.6.2",
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.6.2",
+                    "43.8.3"
+                ]
             },
             "dependencies": [],
-            "description": "Allows logging in with a Google account. (Version pin not specified in this build.)",
+            "description": "Allows logging in with a Google account. (Supports TikTok 43.6.2 + 43.8.3.)",
             "name": "Fix Google login",
             "options": [],
             "use": true
@@ -907,6 +945,30 @@
             "name": "Fix old versions",
             "options": [],
             "use": false
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16531260,
+                    "description": null,
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": ""
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.google.android.apps.photos": null
+            },
+            "dependencies": [],
+            "description": "Prevents Google Photos from clearing the selected account after cold start when using MicroG.",
+            "name": "Fix selected account persistence",
+            "options": [],
+            "use": true
         },
         {
             "compatibility": [
@@ -983,6 +1045,7 @@
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
@@ -1713,6 +1776,10 @@
                     "targets": [
                         {
                             "experimental": false,
+                            "version": "43.6.2"
+                        },
+                        {
+                            "experimental": false,
                             "version": "43.8.3"
                         }
                     ]
@@ -1725,6 +1792,10 @@
                     "targets": [
                         {
                             "experimental": false,
+                            "version": "43.6.2"
+                        },
+                        {
+                            "experimental": false,
                             "version": "43.8.3"
                         }
                     ]
@@ -1732,19 +1803,21 @@
             ],
             "compatiblePackages": {
                 "com.ss.android.ugc.trill": [
+                    "43.6.2",
                     "43.8.3"
                 ],
                 "com.zhiliaoapp.musically": [
+                    "43.6.2",
                     "43.8.3"
                 ]
             },
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Enables the playback speed option for all videos and retains the speed configurations in between videos. (Disabled for TikTok 43.8.3.)",
+            "description": "Enables the playback speed option for all videos and retains the speed configurations in between videos. (Supports TikTok 43.6.2 + 43.8.3.)",
             "name": "Playback speed",
             "options": [],
-            "use": false
+            "use": true
         },
         {
             "compatibility": [
@@ -1780,6 +1853,10 @@
                     "targets": [
                         {
                             "experimental": false,
+                            "version": "43.6.2"
+                        },
+                        {
+                            "experimental": false,
                             "version": "43.8.3"
                         }
                     ]
@@ -1792,6 +1869,10 @@
                     "targets": [
                         {
                             "experimental": false,
+                            "version": "43.6.2"
+                        },
+                        {
+                            "experimental": false,
                             "version": "43.8.3"
                         }
                     ]
@@ -1799,14 +1880,16 @@
             ],
             "compatiblePackages": {
                 "com.ss.android.ugc.trill": [
+                    "43.6.2",
                     "43.8.3"
                 ],
                 "com.zhiliaoapp.musically": [
+                    "43.6.2",
                     "43.8.3"
                 ]
             },
             "dependencies": [],
-            "description": "Remembers the clear display configurations in between videos. (Supports TikTok 43.8.3 only.)",
+            "description": "Remembers the clear display configurations in between videos. (Supports TikTok 43.6.2 + 43.8.3.)",
             "name": "Remember clear display",
             "options": [],
             "use": true
@@ -1971,6 +2054,10 @@
                     "targets": [
                         {
                             "experimental": false,
+                            "version": "43.6.2"
+                        },
+                        {
+                            "experimental": false,
                             "version": "43.8.3"
                         }
                     ]
@@ -1983,6 +2070,10 @@
                     "targets": [
                         {
                             "experimental": false,
+                            "version": "43.6.2"
+                        },
+                        {
+                            "experimental": false,
                             "version": "43.8.3"
                         }
                     ]
@@ -1990,16 +2081,18 @@
             ],
             "compatiblePackages": {
                 "com.ss.android.ugc.trill": [
+                    "43.6.2",
                     "43.8.3"
                 ],
                 "com.zhiliaoapp.musically": [
+                    "43.6.2",
                     "43.8.3"
                 ]
             },
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Remove tracking parameters from shared links. (Supports TikTok 43.8.3 only.)",
+            "description": "Removes tracking parameters from shared links. (Supports TikTok 43.6.2 + 43.8.3.)",
             "name": "Sanitize sharing links",
             "options": [],
             "use": true
@@ -2042,10 +2135,10 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Adds ReVanced settings to TikTok. Supported on 43.6.2 only (APK from ReVanced MR !6535). Not compatible with 43.8.3. Disabled by default.",
+            "description": "Adds Morphe settings to TikTok. Supported on 43.6.2 only. (Not compatible with 43.8.3.)",
             "name": "Settings",
             "options": [],
-            "use": false
+            "use": true
         },
         {
             "compatibility": [
@@ -2114,7 +2207,11 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": ""
+                            "version": "43.6.2"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
                         }
                     ]
                 },
@@ -2126,17 +2223,27 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": ""
+                            "version": "43.6.2"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
-                "com.ss.android.ugc.trill": null,
-                "com.zhiliaoapp.musically": null
+                "com.ss.android.ugc.trill": [
+                    "43.6.2",
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.6.2",
+                    "43.8.3"
+                ]
             },
             "dependencies": [],
-            "description": "Shows progress bar for all video. (Version pin not specified in this build.)",
+            "description": "Shows a progress bar for all videos. (Supports TikTok 43.6.2 + 43.8.3.)",
             "name": "Show seekbar",
             "options": [],
             "use": true

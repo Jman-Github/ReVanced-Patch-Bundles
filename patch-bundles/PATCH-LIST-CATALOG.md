@@ -2777,7 +2777,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***83 Patches***
+***84 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail mobile' signature from emails.``` | ```ch.protonmail.android``` | ```4.15.0``` |
@@ -2802,6 +2802,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable CustomTabs``` | ```Enables CustomTabs to open articles in your default browser.``` | ```com.google.android.apps.magazines``` | ```5.108.0.644447823``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.magazines``` | ```5.108.0.644447823``` |
 | ```Enable DCIM folders backup control``` | ```Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.``` | ```com.google.android.apps.photos``` | ```All versions``` |
+| ```Fix selected account persistence``` | ```Prevents Google Photos from clearing the selected account after cold start when using MicroG.``` | ```com.google.android.apps.photos``` | ```All versions``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.photos``` | ```All versions``` |
 | ```Spoof features``` | ```Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.``` | ```com.google.android.apps.photos``` | ```All versions``` |
 | ```Remove device restrictions``` | ```Removes restrictions from using the app on any device. Requires mounting patched app over original.``` | ```com.google.android.apps.recorder``` | ```All versions``` |
@@ -2820,16 +2821,16 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable telemetry``` | ```Disables SoundCloud's telemetry system.``` | ```com.soundcloud.android``` | ```2025.05.27-release``` |
 | ```Enable offline sync``` | ```N/A``` | ```com.soundcloud.android``` | ```2025.05.27-release``` |
 | ```Hide ads``` | ```N/A``` | ```com.soundcloud.android``` | ```2025.05.27-release``` |
-| ```Disable login requirement``` | ```Disables mandatory login for TikTok. (Version pin not specified in this build.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```All versions``` |
-| ```Downloads``` | ```Removes download restrictions and changes the default path to download to. (Supports TikTok 43.8.3 only.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
-| ```Enable Open Debug``` | ```Re-enables the hidden "Open debug" entry. Supported on TikTok 43.6.2 only (use the APK set from ReVanced MR !6535). Not compatible with 43.8.3. This port finds OpenDebug classes by bytecode shape (LLILLL / compose LIZ) so minor obfuscation differences still patch.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.6.2, 43.6.2``` |
+| ```Disable login requirement``` | ```Disables mandatory login for TikTok. (Supports TikTok 43.6.2 + 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.6.2, 43.8.3, 43.6.2, 43.8.3``` |
+| ```Downloads``` | ```Removes download restrictions and changes the default download path. (Supports TikTok 43.6.2 + 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.6.2, 43.8.3, 43.6.2, 43.8.3``` |
+| ```Enable Open Debug``` | ```Re-enables the hidden "Open debug" entry. Supported on TikTok 43.6.2 only. (Not compatible with 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.6.2, 43.6.2``` |
 | ```Feed filter``` | ```Removes ads, livestreams, stories, image videos and videos with a specific amount of views or likes from the feed. (Supports TikTok 43.6.2 + 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.6.2, 43.8.3, 43.6.2, 43.8.3``` |
-| ```Fix Google login``` | ```Allows logging in with a Google account. (Version pin not specified in this build.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```All versions``` |
-| ```Playback speed``` | ```Enables the playback speed option for all videos and retains the speed configurations in between videos. (Disabled for TikTok 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
-| ```Remember clear display``` | ```Remembers the clear display configurations in between videos. (Supports TikTok 43.8.3 only.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
-| ```Sanitize sharing links``` | ```Remove tracking parameters from shared links. (Supports TikTok 43.8.3 only.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
-| ```Settings``` | ```Adds ReVanced settings to TikTok. Supported on 43.6.2 only (APK from ReVanced MR !6535). Not compatible with 43.8.3. Disabled by default.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.6.2, 43.6.2``` |
-| ```Show seekbar``` | ```Shows progress bar for all video. (Version pin not specified in this build.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```All versions``` |
+| ```Fix Google login``` | ```Allows logging in with a Google account. (Supports TikTok 43.6.2 + 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.6.2, 43.8.3, 43.6.2, 43.8.3``` |
+| ```Playback speed``` | ```Enables the playback speed option for all videos and retains the speed configurations in between videos. (Supports TikTok 43.6.2 + 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.6.2, 43.8.3, 43.6.2, 43.8.3``` |
+| ```Remember clear display``` | ```Remembers the clear display configurations in between videos. (Supports TikTok 43.6.2 + 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.6.2, 43.8.3, 43.6.2, 43.8.3``` |
+| ```Sanitize sharing links``` | ```Removes tracking parameters from shared links. (Supports TikTok 43.6.2 + 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.6.2, 43.8.3, 43.6.2, 43.8.3``` |
+| ```Settings``` | ```Adds Morphe settings to TikTok. Supported on 43.6.2 only. (Not compatible with 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.6.2, 43.6.2``` |
+| ```Show seekbar``` | ```Shows a progress bar for all videos. (Supports TikTok 43.6.2 + 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.6.2, 43.8.3, 43.6.2, 43.8.3``` |
 | ```Add 'Give Kudos' button to 'Group Activity'``` | ```Adds a button that triggers the same action as shaking your phone would.``` | ```com.strava``` | ```All versions``` |
 | ```Add media download``` | ```Extends the full-screen media viewer menu with items to copy or open their URLs or download them directly.``` | ```com.strava``` | ```All versions``` |
 | ```Block Snowplow tracking``` | ```Blocks Snowplow analytics. See https://snowplow.io for more information.``` | ```com.strava``` | ```All versions``` |

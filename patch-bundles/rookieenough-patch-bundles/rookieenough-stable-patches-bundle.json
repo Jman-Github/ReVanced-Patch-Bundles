@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-04-02T03:53:39",
-  "description": "## [1.0.3](https://github.com/RookieEnough/De-ReVanced/compare/v1.0.2...v1.0.3) (2026-04-02)\r\n\r\n### Bug Fixes\r\n\r\n* release v1.0.3 with Google Recorder fix ([c03c701](https://github.com/RookieEnough/De-ReVanced/commit/c03c701a6ba658afb4f4f2093faca9e6bc91e49c))\r\n\r\n* **Google Recorder \u2014 Remove device restrictions:** fingerprint and bytecode hook updated for current app builds \u2014 match `RecorderApplication.onCreate` without a fixed feature string, detect any `com.google.android.feature\u2026PIXEL\u2026` `const-string`, and apply the restriction bypass (fixes fingerprint mismatch on newer Recorder versions).\r\n\r\n### Maintenance\r\n\r\n* **Attribution:** add a standard `Forked from` source header across Kotlin sources that were still missing it.",
-  "download_url": "https://github.com/RookieEnough/De-Vanced/releases/download/v1.0.3/patches-1.0.3.mpp",
+  "created_at": "2026-05-13T13:27:20",
+  "description": "## [1.0.4](https://github.com/RookieEnough/De-Vanced/compare/v1.0.3...v1.0.4) (2026-05-13)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* avoid forcing Photos frictionless login ([9cb1e11](https://github.com/RookieEnough/De-Vanced/commit/9cb1e117551bf759c11163417cef160b3f9bac37))\r\n* release v1.0.4 (Photos account persistence + TikTok defaults) ([b04a57e](https://github.com/RookieEnough/De-Vanced/commit/b04a57e97d82d8e236e0979ff1069c540380f353))\r\n* stabilize Google Photos GmsCore support ([b3ef0b6](https://github.com/RookieEnough/De-Vanced/commit/b3ef0b672fd411d468fc80ca827056266352ba14))\r\n\r\n\r\n### TikTok\r\n\r\n* Enable **all** TikTok patches by default on **43.6.2** and **43.8.3**.\r\n* Keep **Settings** + **Enable Open Debug** as **43.6.2-only** (not compatible with 43.8.3).",
+  "download_url": "https://github.com/RookieEnough/De-Vanced/releases/download/v1.0.4/patches-1.0.4.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.0.3"
+  "version": "v1.0.4"
 }
