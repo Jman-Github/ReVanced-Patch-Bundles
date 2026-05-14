@@ -3329,8 +3329,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Check License No-Op``` | ```Makes VaultListPresenter.checkLicense() a no-op to skip license check``` | ```Universal``` | ```All versions``` |
-| ```License Bypass``` | ```Bypasses Cryptomator license verification to enable premium features``` | ```Universal``` | ```All versions``` |
+| ```Check License No-Op``` | ```Makes VaultListPresenter.checkLicense() a no-op to skip license check``` | ```Cryptomator``` | ```All versions``` |
+| ```License Bypass``` | ```Bypasses Cryptomator license verification to enable premium features``` | ```Cryptomator``` | ```All versions``` |
 
 </details>
 

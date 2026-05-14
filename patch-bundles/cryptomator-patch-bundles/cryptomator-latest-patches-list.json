@@ -1,8 +1,27 @@
 {
-    "version": "v1.0.3",
+    "version": "v1.1.0",
     "patches": [
         {
-            "compatiblePackages": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4758A0",
+                    "description": null,
+                    "name": "Cryptomator",
+                    "packageName": "org.cryptomator",
+                    "signatures": [
+                        "f7c3ec3b0d588d3cb52983e9eb1a7421c93d4339a286398e71d7b651e8d8ecdd"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "1.12.3"
+                        }
+                    ]
+                }
+            ],
             "default": true,
             "dependencies": [],
             "description": "Makes VaultListPresenter.checkLicense() a no-op to skip license check",
@@ -10,7 +29,26 @@
             "options": []
         },
         {
-            "compatiblePackages": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4758A0",
+                    "description": null,
+                    "name": "Cryptomator",
+                    "packageName": "org.cryptomator",
+                    "signatures": [
+                        "f7c3ec3b0d588d3cb52983e9eb1a7421c93d4339a286398e71d7b651e8d8ecdd"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "1.12.3"
+                        }
+                    ]
+                }
+            ],
             "default": true,
             "dependencies": [],
             "description": "Bypasses Cryptomator license verification to enable premium features",
