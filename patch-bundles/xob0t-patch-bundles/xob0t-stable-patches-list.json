@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -24,6 +24,37 @@
             "dependencies": [],
             "description": "Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.",
             "name": "Avito privacy",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FFDD2D",
+                    "description": null,
+                    "name": "TBank",
+                    "packageName": "com.idamob.tinkoff.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "7.34.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stubs TBank's native RASP executor calls and neutralizes tamper flag reporting.",
+            "name": "Bypass anti-tamper",
             "options": []
         },
         {
@@ -209,13 +240,15 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": "Removes Ozon ad widgets, banner carousels, video ads, and PDP promo blocks.",
             "name": "Remove Ozon ads",
             "options": [
                 {
                     "default": true,
-                    "description": "Removes recommendation grids from product, profile, and favorites screens.",
+                    "description": "Removes recommendation grids from product, cart, profile, and favorites screens.",
                     "key": "hideRecommendationGrids",
                     "required": false,
                     "title": "Hide recommendation grids",
@@ -223,6 +256,39 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FFDD2D",
+                    "description": null,
+                    "name": "TBank",
+                    "packageName": "com.idamob.tinkoff.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "7.34.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Removes TBank stories and promotional surfaces.",
+            "name": "Remove TBank ads",
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -270,6 +336,22 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Spoofs emulator state through common Build, QEMU file, command, and system property checks.",
+            "name": "Spoof emulator status",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Spoofs package installer checks to report Google Play as the install source.",
+            "name": "Spoof install source",
+            "options": []
         },
         {
             "compatiblePackages": null,

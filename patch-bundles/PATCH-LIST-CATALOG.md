@@ -3376,7 +3376,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***22 Patches***
+***21 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Avito privacy``` | ```Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.``` | ```Avito``` | ```All versions``` |
@@ -3397,7 +3397,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable Sentry telemetry``` | ```Disables Sentry telemetry by turning off SDK auto-init and clearing the DSN.``` | ```Universal``` | ```All versions``` |
 | ```Spoof emulator status``` | ```Spoofs emulator state through common Build, QEMU file, command, and system property checks.``` | ```Universal``` | ```All versions``` |
 | ```Spoof install source``` | ```Spoofs package installer checks to report Google Play as the install source.``` | ```Universal``` | ```All versions``` |
-| ```Spoof root status``` | ```Spoofs root state through common file, package, command, and build property checks.``` | ```Universal``` | ```All versions``` |
 | ```Spoof USB debugging status``` | ```Spoofs USB debugging and related developer settings through common Android APIs.``` | ```Universal``` | ```All versions``` |
 | ```Spoof VPN status``` | ```Spoofs VPN state through common Android network APIs.``` | ```Universal``` | ```All versions``` |
 | ```Remove Wildberries ads``` | ```Removes Wildberries home banners, grid banners, promo headers, product recommendations, and lottery popups.``` | ```Wildberries``` | ```All versions``` |

@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.1",
+    "version": "v1.3.1-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -240,13 +240,15 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": "Removes Ozon ad widgets, banner carousels, video ads, and PDP promo blocks.",
             "name": "Remove Ozon ads",
             "options": [
                 {
                     "default": true,
-                    "description": "Removes recommendation grids from product, profile, and favorites screens.",
+                    "description": "Removes recommendation grids from product, cart, profile, and favorites screens.",
                     "key": "hideRecommendationGrids",
                     "required": false,
                     "title": "Hide recommendation grids",
@@ -349,14 +351,6 @@
             "dependencies": [],
             "description": "Spoofs package installer checks to report Google Play as the install source.",
             "name": "Spoof install source",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Spoofs root state through common file, package, command, and build property checks.",
-            "name": "Spoof root status",
             "options": []
         },
         {
