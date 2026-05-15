@@ -26,7 +26,7 @@ Each bundle link points at the current metadata for one source. Depending on the
 
 ## Patch Lists
 
-For the actual patch contents, use the [Patch List Catalog](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md) or [Patch Explorer](https://paresh-maheshwari.github.io/patch-explorer/) by [Paresh-Maheshwari](https://github.com/Paresh-Maheshwari).
+For the actual patch contents, use the [Patch List Catalog](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md) or [Patch Explorer](https://patch-explorer.web.app/) by [Paresh-Maheshwari](https://gitlab.com/Paresh-Maheshwari).
 
 If you know of another working ReVanced or Morphe patch repository that is not listed here, please open an [issue](https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues).
 
