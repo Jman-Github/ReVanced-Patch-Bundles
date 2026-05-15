@@ -25,83 +25,63 @@ jobs:
             exit 1
           fi
 
-      - name: Download Artifact from Patch bundle updater
-        id: download_patch_bundle_updater_artifact
-        uses: benday-inc/download-latest-artifact@6cfc43f319ff559266c55b27e17d581dbbd59cf8
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository_owner: 'Jman-Github'
-          repository_name: 'ReVanced-Patch-Bundles'
-          branch_name: 'bundles'
-          artifact_name: 'changed_files'
-          workflow_name: 'Patch bundle updater'
-          download_path: 'ReVanced-Patch-Bundles'
-          download_filename: 'changed_files.zip'
-        continue-on-error: true
-
-      - name: Download Summary Artifact from Patch bundle updater
-        id: download_patch_bundle_summary_artifact
-        uses: benday-inc/download-latest-artifact@6cfc43f319ff559266c55b27e17d581dbbd59cf8
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository_owner: 'Jman-Github'
-          repository_name: 'ReVanced-Patch-Bundles'
-          branch_name: 'bundles'
-          artifact_name: 'updated_bundles'
-          workflow_name: 'Patch bundle updater'
-          download_path: 'ReVanced-Patch-Bundles'
-          download_filename: 'updated-bundles.zip'
-        continue-on-error: true
-
-      - name: Download Changelog Artifact from Patch bundle updater
-        id: download_patch_bundle_changelog_artifact
-        uses: benday-inc/download-latest-artifact@6cfc43f319ff559266c55b27e17d581dbbd59cf8
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository_owner: 'Jman-Github'
-          repository_name: 'ReVanced-Patch-Bundles'
-          branch_name: 'bundles'
-          artifact_name: 'bundle_changelog'
-          workflow_name: 'Patch bundle updater'
-          download_path: 'ReVanced-Patch-Bundles'
-          download_filename: 'bundle-changelog.zip'
-        continue-on-error: true
-
-      - name: Download Artifact from Commit puller
-        id: download_commit_puller_artifact
-        uses: benday-inc/download-latest-artifact@6cfc43f319ff559266c55b27e17d581dbbd59cf8
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository_owner: 'Jman-Github'
-          repository_name: 'ReVanced-Patch-Bundles'
-          branch_name: 'bundles'
-          artifact_name: 'commit-link'
-          workflow_name: 'Commit puller'
-          download_path: 'ReVanced-Patch-Bundles'
-          download_filename: 'commit-link.zip'
-        continue-on-error: true
-
       - name: Create patch bundle updater artifact directory
         run: mkdir -p ReVanced-Patch-Bundles/patch_bundle_updater_artifact
 
       - name: Create commit puller artifact directory
         run: mkdir -p ReVanced-Patch-Bundles/commit_puller_artifact
 
-      - name: Unzip Patch bundle updater artifact
-        if: ${{ steps.download_patch_bundle_updater_artifact.outcome == 'success' }}
-        run: unzip -o ReVanced-Patch-Bundles/changed_files.zip -d ReVanced-Patch-Bundles/patch_bundle_updater_artifact
+      - name: Download Artifact from Patch bundle updater
+        id: download_patch_bundle_updater_artifact
+        uses: dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151 # v21
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          repo: Jman-Github/ReVanced-Patch-Bundles
+          branch: bundles
+          name: changed_files
+          workflow: Patch bundle updater
+          path: ReVanced-Patch-Bundles/patch_bundle_updater_artifact
+          if_no_artifact_found: ignore
+        continue-on-error: true
 
-      - name: Unzip Summary artifact
-        if: ${{ steps.download_patch_bundle_summary_artifact.outcome == 'success' }}
-        run: unzip -o ReVanced-Patch-Bundles/updated-bundles.zip -d ReVanced-Patch-Bundles/patch_bundle_updater_artifact
+      - name: Download Summary Artifact from Patch bundle updater
+        id: download_patch_bundle_summary_artifact
+        uses: dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151 # v21
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          repo: Jman-Github/ReVanced-Patch-Bundles
+          branch: bundles
+          name: updated_bundles
+          workflow: Patch bundle updater
+          path: ReVanced-Patch-Bundles/patch_bundle_updater_artifact
+          if_no_artifact_found: ignore
+        continue-on-error: true
 
-      - name: Unzip Changelog artifact
-        if: ${{ steps.download_patch_bundle_changelog_artifact.outcome == 'success' }}
-        run: unzip -o ReVanced-Patch-Bundles/bundle-changelog.zip -d ReVanced-Patch-Bundles/patch_bundle_updater_artifact
+      - name: Download Changelog Artifact from Patch bundle updater
+        id: download_patch_bundle_changelog_artifact
+        uses: dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151 # v21
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          repo: Jman-Github/ReVanced-Patch-Bundles
+          branch: bundles
+          name: bundle_changelog
+          workflow: Patch bundle updater
+          path: ReVanced-Patch-Bundles/patch_bundle_updater_artifact
+          if_no_artifact_found: ignore
+        continue-on-error: true
 
-      - name: Unzip Commit puller artifact
-        if: ${{ steps.download_commit_puller_artifact.outcome == 'success' }}
-        run: unzip -o ReVanced-Patch-Bundles/commit-link.zip -d ReVanced-Patch-Bundles/commit_puller_artifact
+      - name: Download Artifact from Commit puller
+        id: download_commit_puller_artifact
+        uses: dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151 # v21
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          repo: Jman-Github/ReVanced-Patch-Bundles
+          branch: bundles
+          name: commit-link
+          workflow: Commit puller
+          path: ReVanced-Patch-Bundles/commit_puller_artifact
+          if_no_artifact_found: ignore
+        continue-on-error: true
 
       - name: Debug — list what we have
         run: |
@@ -214,16 +194,57 @@ jobs:
           PY
 
       - name: Send Discord Notification
-        uses: tsickert/discord-webhook@b217a69502f52803de774ded2b1ab7c282e99645 # v7.0.0
-        with:
-          webhook-url: ${{ secrets.WEBHOOK_URL }}
-          wait: true
-          content: '||@everyone||'
-          embed-title: 'Patch-Bundle.json File(s) Updated'
-          embed-description: ${{ steps.set_changes.outputs.embed_description }}
-          embed-color: '65280'
-          embed-author-name: 'Patch Bundle Updater Workflow'
-          embed-author-icon-url: 'https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default'
-          embed-thumbnail-url: 'https://cdn-icons-png.flaticon.com/512/5278/5278658.png'
-          username: 'ReVanced-Patch-Bundles'
-          avatar-url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUECg_ITr7YkE2pYiVdHqTxlg3wLwXKXIQrcxEBKd7Q&s'
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          EMBED_DESCRIPTION: ${{ steps.set_changes.outputs.embed_description }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import sys
+          import urllib.error
+          import urllib.request
+
+          webhook_url = os.environ["WEBHOOK_URL"]
+          if not webhook_url:
+              print("WEBHOOK_URL is not set", file=sys.stderr)
+              sys.exit(1)
+
+          description = os.environ["EMBED_DESCRIPTION"]
+          if len(description) > 4096:
+              description = description[:4093] + "..."
+
+          payload = {
+              "content": "||@everyone||",
+              "username": "ReVanced-Patch-Bundles",
+              "avatar_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUECg_ITr7YkE2pYiVdHqTxlg3wLwXKXIQrcxEBKd7Q&s",
+              "embeds": [
+                  {
+                      "title": "Patch-Bundle.json File(s) Updated",
+                      "description": description,
+                      "color": 65280,
+                      "author": {
+                          "name": "Patch Bundle Updater Workflow",
+                          "icon_url": "https://github.gallerycdn.vsassets.io/extensions/github/vscode-github-actions/0.26.2/1694016984133/Microsoft.VisualStudio.Services.Icons.Default",
+                      },
+                      "thumbnail": {
+                          "url": "https://cdn-icons-png.flaticon.com/512/5278/5278658.png",
+                      },
+                  }
+              ],
+          }
+
+          request = urllib.request.Request(
+              webhook_url + "?wait=true",
+              data=json.dumps(payload).encode("utf-8"),
+              headers={"Content-Type": "application/json"},
+              method="POST",
+          )
+
+          try:
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  print(f"Discord webhook status: {response.status}")
+          except urllib.error.HTTPError as error:
+              print(error.read().decode("utf-8", errors="replace"), file=sys.stderr)
+              raise
+          PY
