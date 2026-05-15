@@ -1726,7 +1726,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***72 Patches***
+***73 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```AdGuard``` | ```All versions``` |
@@ -1745,6 +1745,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Eggbun``` | ```All versions``` |
 | ```Force Native Keyboard``` | ```When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.``` | ```Eggbun``` | ```All versions``` |
 | ```Enable FotMob+``` | ```Enables app features locked behind the subscription paywall.``` | ```FotMob``` | ```All versions``` |
+| ```AMOLED dark theme``` | ```Changes the default dark theme to use true blacks for AMOLED screens.``` | ```GitHub``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```HelloChinese``` | ```All versions``` |
 | ```Enable Prime membership``` | ```Enables app features locked behind the subscription paywall.``` | ```IbisPaint X``` | ```All versions``` |
 | ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. Some UI elements may not show an active membership, but this does not effect functionality.``` | ```Icon Packer``` | ```All versions``` |
