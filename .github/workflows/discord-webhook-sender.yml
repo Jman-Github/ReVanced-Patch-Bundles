@@ -39,10 +39,9 @@ jobs:
           repo: Jman-Github/ReVanced-Patch-Bundles
           branch: bundles
           name: changed_files
-          workflow: Patch bundle updater
+          workflow: patch-bundle-updater.yml
           path: ReVanced-Patch-Bundles/patch_bundle_updater_artifact
           if_no_artifact_found: ignore
-        continue-on-error: true
 
       - name: Download Summary Artifact from Patch bundle updater
         id: download_patch_bundle_summary_artifact
@@ -52,10 +51,9 @@ jobs:
           repo: Jman-Github/ReVanced-Patch-Bundles
           branch: bundles
           name: updated_bundles
-          workflow: Patch bundle updater
+          workflow: patch-bundle-updater.yml
           path: ReVanced-Patch-Bundles/patch_bundle_updater_artifact
           if_no_artifact_found: ignore
-        continue-on-error: true
 
       - name: Download Changelog Artifact from Patch bundle updater
         id: download_patch_bundle_changelog_artifact
@@ -65,10 +63,9 @@ jobs:
           repo: Jman-Github/ReVanced-Patch-Bundles
           branch: bundles
           name: bundle_changelog
-          workflow: Patch bundle updater
+          workflow: patch-bundle-updater.yml
           path: ReVanced-Patch-Bundles/patch_bundle_updater_artifact
           if_no_artifact_found: ignore
-        continue-on-error: true
 
       - name: Download Artifact from Commit puller
         id: download_commit_puller_artifact
@@ -78,10 +75,9 @@ jobs:
           repo: Jman-Github/ReVanced-Patch-Bundles
           branch: bundles
           name: commit-link
-          workflow: Commit puller
+          workflow: commit-puller.yml
           path: ReVanced-Patch-Bundles/commit_puller_artifact
           if_no_artifact_found: ignore
-        continue-on-error: true
 
       - name: Debug — list what we have
         run: |
