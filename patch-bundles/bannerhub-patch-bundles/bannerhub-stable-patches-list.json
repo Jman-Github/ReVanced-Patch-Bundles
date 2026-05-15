@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-604",
+    "version": "v1.2.0-604",
     "patches": [
         {
             "compatiblePackages": {
@@ -165,8 +165,72 @@
                 ]
             },
             "dependencies": [],
+            "description": "Adds Firebase's manifest kill-switch <meta-data> entries so the bundled Firebase Analytics SDK never initializes data collection. Stops all auto-collected and custom events from being sent to app-measurement.com. Firebase Cloud Messaging, Firebase Auth, and Firebase Remote Config are unaffected (GameHub 6.0.4 bundles Remote Config but never invokes it — verified zero call sites in the host APK).",
+            "name": "Disable Firebase Analytics",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
             "description": "Skips Firebase Crashlytics initialization in Application.onCreate to fix crash on launch.",
             "name": "Disable Firebase Crashlytics",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the three Google Play Services Measurement manifest components (AppMeasurementReceiver, AppMeasurementService, AppMeasurementJobService) by flipping android:enabled to false. Complementary to 'Disable Firebase Analytics' — that patch stops the bundled Firebase SDK from initialising, but GMS Measurement runs as a separate Play Services component and is unaffected by Firebase's manifest kill switch. With both patches applied, no app_instance_id / session_id is written to GMS-side shared_prefs and the Play Services-backed analytics pipeline stays dormant.",
+            "name": "Disable GMS Measurement",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables XiaoJi's WineGameUsageTracker server-heartbeat (heartbeat/game/{start,update,end}) and the getUserPlayTimeList GET. All four methods return-early so no network call is made and no per-tick work runs. Trade-off: in-app playtime UI will be empty (no on-device tracker; see archive/plan8c-local-tracker-pre3 tag for the variant that kept the UI populated at the cost of per-tick disk + reflection work).",
+            "name": "Disable heartbeat",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Stops the bundled Mob Push SDK (com.mob.*) from initialising. Removes the two policy-grant call sites in XiaoJi's bootstrap code and the push-receiver registration in BaseAndroidApp.onCreate, then disables every Mob-namespaced <provider>/<service>/<receiver>/<activity> in the manifest so the SDK can't bootstrap via its ContentProvider auto-init either. Inbound push delivery and Mob's device-ID collection (MobIDService/MobIDActivity) are both stopped. The 'cn.fly.*' Mob analytics submodule is neutralised by the same rules.",
+            "name": "Disable Mob Push tracking",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Neutralises the periodic phone-home check at https://www.xiaoji.com/firmware/update/x1 by overwriting the URL register with http://127.0.0.1 immediately after the const-string load. The OTA call then fails silently with a connection-refused. Also strips the JieLi gamepad-firmware native libs (libJieLiUsbOta.so, libjl_ota_auth.so) which are dead weight on phone installs.",
+            "name": "Disable OTA updates",
             "options": [],
             "use": true
         },
@@ -320,6 +384,42 @@
             ],
             "description": "Renames upstream-baked custom permissions (e.g. com.xiaoji.egggame.permission.C2D_MESSAGE) to use the variant package, so multiple variants can install side-by-side without INSTALL_FAILED_DUPLICATE_PERMISSION on Android 7+ (which surfaces as \"package conflicts with a current package\" in the package installer UI). ChangePackageNamePatch's updatePermissions option only rewrites the hardcoded DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION; this patch handles the rest.",
             "name": "Rewrite custom permissions per variant",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Forces the 'PC Game Settings' row to appear in the Explorer game-detail More Menu for every game type, including Steam-linked games where XiaoJi-native logic would normally hide it. Removes the single if-eqz gate immediately preceding the row's construction in Lx57;->a. Other rows keep their native gating.",
+            "name": "Show PC Game Settings row",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the three <uses-permission> declarations that mark the app as requesting Google's advertising-ID, AdServices attribution, and AdServices ad-ID. Strengthens 'Disable Firebase Analytics': that patch disables runtime collection via Firebase's manifest kill-switch, this one removes the declared permission fingerprint that privacy scanners (Exodus Privacy etc.) flag.",
+            "name": "Strip Ad-ID permissions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Pure-stub neutralization of XiaoJi's two analytics-event reporters. Lcx5;->a (general /events POST batches) and Loh4;->b (/events/device-performance-config) early-return fake success instances before any URL string is built or HTTP client touched. Zero outbound traffic to statistic-gamehub-api.vgabc.com, zero retry attempts, zero battery / radio wake from telemetry. Internal coroutine state machines (Lbx5, Llh4, Lmh4, Lnh4) become unreachable dead code. Complements Plan 4 (Disable Firebase Analytics) and Plan 10 (Disable GMS Measurement) to fully silence XiaoJi-side, Firebase-side, and GMS-side telemetry without any Worker-side redirect or trust shift.",
+            "name": "Stub analytics events",
             "options": [],
             "use": true
         },
