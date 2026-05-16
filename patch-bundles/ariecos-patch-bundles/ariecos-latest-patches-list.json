@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.15",
+    "version": "v1.1.16",
     "patches": [
         {
             "compatiblePackages": {
@@ -7,7 +7,7 @@
                 "com.google.android.googlequicksearchbox": null
             },
             "dependencies": [],
-            "description": "Injects the MicroG signature-spoof permission into Gemini's AndroidManifest.",
+            "description": "Injects MicroG-RE metadata into Gemini's manifest so it gets signature spoofing trust from MicroG-RE.",
             "name": "GmsCore MicroG support",
             "options": [],
             "use": true
