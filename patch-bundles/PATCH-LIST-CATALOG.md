@@ -84,6 +84,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Bannerhub Bundle Patch List](#-bannerhub-bundle-patch-list)<br>
 [🧩 Eksi Bundle Patch List](#-eksi-bundle-patch-list)<br>
 [🧩 Ameen-Morphe Bundle Patch List](#-ameen-morphe-bundle-patch-list)<br>
+[🧩 Kolaron Bundle Patch List](#-kolaron-bundle-patch-list)<br>
+[🧩 ImmortalZeus Bundle Patch List](#-immortalzeus-bundle-patch-list)<br>
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -3468,5 +3470,23 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Premium``` | ```Unlocks premium features and diets.``` | ```Foodvisor``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all PhotoGrid premium features by making IabUtils always report the user as premium.``` | ```PhotoGrid``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Kolaron Bundle Patch List:
+[📦 Kolaron-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kolaron-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+</details>
+
+---
+### 🧩 ImmortalZeus Bundle Patch List:
+[📦 ImmortalZeus-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-immortalzeus-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
 
 </details>

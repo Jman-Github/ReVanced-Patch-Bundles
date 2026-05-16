@@ -1096,6 +1096,32 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+### 📦 Kolaron-Patches-Bundle [Morphe]:
+[🧩 Kolaron Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-kolaron-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kolaron-patch-bundles/kolaron-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kolaron-patch-bundles/kolaron-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kolaron-patch-bundles/kolaron-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 ImmortalZeus-Patches-Bundle [Morphe]:
+[🧩 ImmortalZeus Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-immortalzeus-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ImmortalZeus-patch-bundles/ImmortalZeus-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ImmortalZeus-patch-bundles/ImmortalZeus-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ImmortalZeus-patch-bundles/ImmortalZeus-dev-patches-bundle.json```
+</details>
+
+---
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -1270,6 +1296,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Eksi-Patches-Bundle](https://github.com/HvQ/eksi-morphe)
 
 #### 🏷️ [Ameen-Morphe-Patches-Bundle](https://github.com/ameenalasady/ameen-morphe)
+
+#### 🏷️ [Kolaron-Patches-Bundle](https://github.com/kolaron/morphe-patches)
+
+#### 🏷️ [ImmortalZeus-Patches-Bundle](https://github.com/ImmortalZeus/ImmortalZeus-Morphe-Patches)
 
 
 </details>
