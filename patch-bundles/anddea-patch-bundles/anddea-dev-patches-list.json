@@ -1,5 +1,5 @@
 {
-    "version": "v4.0.0-dev.13",
+    "version": "v4.0.1-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -120,6 +120,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Adds an option to bypass URL redirects and open the original URL directly.",
