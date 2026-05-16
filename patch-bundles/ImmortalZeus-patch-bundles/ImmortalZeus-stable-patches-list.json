@@ -1,0 +1,75 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Blocks ads and trackers by replacing hosts in XML string resources. Works alongside bytecode hosts blocker for comprehensive coverage.",
+            "name": "Block hosts in string resources",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The hosts file containing hosts or domains you want to block.",
+                    "key": "hosts",
+                    "required": true,
+                    "title": "Hosts file",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "0.0.0.0",
+                    "description": "The IP address to redirect blocked domains to.",
+                    "key": "redirectionIp",
+                    "required": false,
+                    "title": "Redirection IP",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "0.0.0.0",
+                        "localhost": "127.0.0.1"
+                    }
+                },
+                {
+                    "default": true,
+                    "description": "Enable subdomain matching.",
+                    "key": "isWildcard",
+                    "required": false,
+                    "title": "Wildcard blocking",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0045",
+                    "description": null,
+                    "name": "XYZ app",
+                    "packageName": "com.example.app",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.0.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.0.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Example patch to start with.",
+            "name": "Example Patch",
+            "options": []
+        }
+    ]
+}

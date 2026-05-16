@@ -3479,6 +3479,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
+***1 Patch***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable ads``` | ```Disables in-app ads in IDOS.``` | ```IDOS``` | ```All versions``` |
 
 </details>
 
@@ -3488,5 +3492,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
+***2 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Block hosts in string resources``` | ```Blocks ads and trackers by replacing hosts in XML string resources. Works alongside bytecode hosts blocker for comprehensive coverage.``` | ```Universal``` | ```All versions``` |
+| ```Example Patch``` | ```Example patch to start with.``` | ```XYZ app``` | ```All versions``` |
 
 </details>

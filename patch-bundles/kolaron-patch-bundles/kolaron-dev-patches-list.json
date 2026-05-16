@@ -1,0 +1,30 @@
+{
+    "version": "v1.1.0-dev.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#9FC5E8",
+                    "description": null,
+                    "name": "IDOS",
+                    "packageName": "cz.mafra.jizdnirady",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables in-app ads in IDOS.",
+            "name": "Disable ads",
+            "options": []
+        }
+    ]
+}
