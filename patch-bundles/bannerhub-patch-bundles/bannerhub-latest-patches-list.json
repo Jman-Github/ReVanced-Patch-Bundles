@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-604",
+    "version": "v1.3.0-604",
     "patches": [
         {
             "compatiblePackages": {
@@ -339,10 +339,9 @@
             },
             "dependencies": [
                 "Patch",
-                "Vibration settings activity",
-                "Vibration native shim"
+                "Vibration settings activity"
             ],
-            "description": "Routes Wine XInput rumble (low, high) into Android's VibratorManager with dual-motor independent dispatch on multi-motor controllers, sustained holds (via guest-side libevshim.so LD_PRELOAD shim re-issuing SDL_JoystickRumble every 500ms so SDL2's 1s auto-stop never fires), and instant release. Adapted from TideGear/GameHub-Vibration-Fix (BannerHub PR #80).",
+            "description": "Routes Wine XInput rumble (low, high) into Android's VibratorManager with dual-motor independent dispatch on multi-motor controllers, sustained holds (preload-free: an in-process hook patches every winebus.so on disk so SDL2's ~1s rumble_expiration never fires — no libevshim.so, no LD_PRELOAD, no extra mapping in the Wine subprocess), and instant release. Adapted from TideGear/GameHub-Vibration-Fix (GameNative PR #1214 lineage) with the author's permission.",
             "name": "PC-accurate vibration",
             "options": [],
             "use": true
@@ -420,18 +419,6 @@
             "dependencies": [],
             "description": "Pure-stub neutralization of XiaoJi's two analytics-event reporters. Lcx5;->a (general /events POST batches) and Loh4;->b (/events/device-performance-config) early-return fake success instances before any URL string is built or HTTP client touched. Zero outbound traffic to statistic-gamehub-api.vgabc.com, zero retry attempts, zero battery / radio wake from telemetry. Internal coroutine state machines (Lbx5, Llh4, Lmh4, Lnh4) become unreachable dead code. Complements Plan 4 (Disable Firebase Analytics) and Plan 10 (Disable GMS Measurement) to fully silence XiaoJi-side, Firebase-side, and GMS-side telemetry without any Worker-side redirect or trust shift.",
             "name": "Stub analytics events",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.xiaoji.egggame": [
-                    "6.0.4"
-                ]
-            },
-            "dependencies": [],
-            "description": "Copies libevshim.so into lib/arm64-v8a/ of the patched APK. The shim is LD_PRELOAD'd into Wine to re-issue SDL_JoystickRumble every 500ms with a 2s duration so SDL2's 1s rumble_expiration auto-stop never fires — required for sustained rumble holds. Silently no-op if the shim is missing from the patch bundle (CI may build without it for smoke tests); the LD_PRELOAD inject in VibrationPatch is File.exists()-guarded so basic rumble still works.",
-            "name": "Vibration native shim",
             "options": [],
             "use": true
         },
