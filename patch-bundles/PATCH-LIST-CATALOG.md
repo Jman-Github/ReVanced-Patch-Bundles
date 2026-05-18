@@ -2153,7 +2153,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***77 Patches***
+***78 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add notification shortcut``` | ```Adds a notification shortcut button above quick write in the post list.``` | ```dcinside``` | ```All versions``` |
@@ -2176,6 +2176,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Register settings activity``` | ```Registers the Morphe settings activity in the app manifest.``` | ```dcinside``` | ```All versions``` |
 | ```Render big DCCon as normal size``` | ```Adds a setting to render big DCCon at normal DCCon size.``` | ```dcinside``` | ```All versions``` |
 | ```Spoof Signature``` | ```Spoofs the app signature to bypass integrity checks.``` | ```dcinside``` | ```All versions``` |
+| ```Unlock Premium features``` | ```Enables app features locked behind the subscription paywall.``` | ```Flexcil``` | ```All versions``` |
 | ```Add Packet Handler``` | ```Adding the Loco Packet Handler allows external applications to handle the app's packets, which may compromise security. Conflicts may occur on some systems.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Add Pine Lib``` | ```add libpine.so to the app's native libraries``` | ```Kakao Talk``` | ```All versions``` |
 | ```Add settings resources``` | ```Adds Morphe settings layout resources to the app.``` | ```Kakao Talk``` | ```All versions``` |

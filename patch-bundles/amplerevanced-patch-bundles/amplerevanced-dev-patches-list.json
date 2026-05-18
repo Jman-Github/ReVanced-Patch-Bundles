@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.7",
+    "version": "v1.1.0-dev.8",
     "patches": [
         {
             "compatiblePackages": [
@@ -2070,6 +2070,31 @@
             "dependencies": [],
             "description": "Spoofs the app signature to pass integrity checks.",
             "name": "Spoof signature",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#0096FA",
+                    "description": null,
+                    "name": "Flexcil",
+                    "packageName": "com.flexcil.flexcilnote",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.4.3.30"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Unlock Premium features",
             "options": []
         },
         {
