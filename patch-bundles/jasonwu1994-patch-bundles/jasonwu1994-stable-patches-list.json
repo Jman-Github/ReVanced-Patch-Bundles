@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.5.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -8,7 +8,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "攔截 Gboard 的簽章白名單檢查並強制通過。",
+            "description": "攔截 Gboard 的簽章白名單檢查並強制通過\nBypass Gboard signature whitelist checks and force them to pass.",
             "name": "Add Gboard Signature Bypass",
             "options": [],
             "use": true
@@ -20,7 +20,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "強制啟用中文語音",
+            "description": "強制啟用中文語音\nForce-enable Chinese voice input.",
             "name": "Chinese Online Voice Input",
             "options": [],
             "use": true
@@ -32,7 +32,43 @@
                 ]
             },
             "dependencies": [],
-            "description": "新增獨立的特殊符號分頁，長按逗號->愛心",
+            "description": "啟用 剪貼簿 > 顯示從最近複製文字中攝取的資訊，例如地址、電話號碼和其他項目\nEnable Clipboard > Show addresses, phone numbers, and other items pulled from recently copied text.",
+            "name": "Clipboard Entity Extraction",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "長按 剪貼簿 顯示編輯\nEnable Edit when long-pressing a clipboard item.",
+            "name": "Clipboard Item Edit",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "自訂剪貼簿保留時間、數量上限與顯示資訊\nCustomize clipboard retention time, item count limit, and metadata display.",
+            "name": "Clipboard Retention",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "新增獨立的特殊符號分頁，長按逗號->愛心\nAdd a dedicated custom symbols tab and replace the long-press comma entry with a heart shortcut.",
             "name": "Custom Symbols",
             "options": [],
             "use": true
@@ -44,7 +80,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "啟用 Undo/Redo 功能",
+            "description": "啟用 Undo/Redo 功能\nEnable the Undo/Redo feature.",
             "name": "Enable Undo/Redo feature",
             "options": [],
             "use": true
@@ -56,7 +92,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "英文 QWERTY 鍵盤支持上下滑符號輸入",
+            "description": "英文 QWERTY 鍵盤支持上下滑符號輸入\nEnable slide-up and slide-down symbol input on the English QWERTY keyboard.",
             "name": "English QWERTY Slide Symbols",
             "options": [],
             "use": true
@@ -68,8 +104,56 @@
                 ]
             },
             "dependencies": [],
-            "description": "將套件名稱改成 dev.jason.com.google.android.inputmethod.latin 以便共存安裝",
+            "description": "啟用 修正和建議 > 文法檢查\nEnable Text correction > Grammar check.",
+            "name": "Grammar Checker",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "啟用 修正和建議 > 智慧撰寫\nEnable Text correction > Smart Compose.",
+            "name": "Inline Suggestions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "啟用圓角按鍵，主題詳情 > 按鍵形狀\nEnable Key shape in Theme details.",
+            "name": "Key Shape Selection",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "將套件名稱改成 dev.jason.com.google.android.inputmethod.latin 以便共存安裝\nRename the package to dev.jason.com.google.android.inputmethod.latin so it can be installed alongside the official Gboard.",
             "name": "Package Rename",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "允許切換新版或舊版 Gboard 設定頁面\nAllow switching between the new and legacy Gboard settings pages.",
+            "name": "Settings Homepage Override",
             "options": [],
             "use": true
         },
@@ -82,7 +166,7 @@
             "dependencies": [
                 "Zhuyin Slide Input"
             ],
-            "description": "注音 ㄥ 上滑快速切換繁簡",
+            "description": "注音 ㄥ 上滑快速切換繁簡\nSwipe up on Zhuyin ㄥ to quickly toggle Traditional and Simplified Chinese.",
             "name": "Zhuyin Quick Traditional/Simplified Toggle",
             "options": [],
             "use": true
@@ -94,7 +178,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "注音鍵盤支持上下滑輸入",
+            "description": "注音鍵盤支持上下滑輸入\nEnable slide-up and slide-down input on the Zhuyin keyboard.",
             "name": "Zhuyin Slide Input",
             "options": [],
             "use": true
