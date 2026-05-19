@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-604",
+    "version": "v1.4.0-604",
     "patches": [
         {
             "compatiblePackages": {
@@ -275,6 +275,76 @@
                     "6.0.4"
                 ]
             },
+            "dependencies": [
+                "Patch",
+                "GPU spoof settings activity"
+            ],
+            "description": "Force-writes dxgi/d3d9/dxvk customVendorId/customDeviceId into a per-game dxvk.conf and points DXVK_CONFIG_FILE at it, after the Wine env builder's conditional DXVK block, so the spoof always applies. No-ops when the game's spoof mode is Off.",
+            "name": "GPU spoof DXVK plumbing",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Per-game menu id capture (shared)",
+                "PC Vibration Settings menu row"
+            ],
+            "description": "Adds a 'GPU Spoof' row to GameHub's per-game menus. Tapping it launches BhGpuSpoofSettingsActivity scoped to the active game. Injects after the existing rows so stock behaviour is preserved.",
+            "name": "GPU Spoof menu row",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Registers BhGpuSpoofSettingsActivity in the manifest so the per-game GPU-identity dialog can be launched by explicit-Intent. Internal-only (android:exported=\"false\"); no <intent-filter>.",
+            "name": "GPU spoof settings activity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Renderer settings activity",
+                "Legacy renderer libxserver bundle"
+            ],
+            "description": "Per-game gates the proven 6.0.2 libxserver swap + JNI bridge: adds the setRenderingEnabled native, routes XServer's loadLibrary and setFlipEnabled call sites through BhRendererController. New mode = stock, zero regression.",
+            "name": "Legacy renderer conditional swap",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bundles the 6.0.2 GLES2-era libxserver.so + libwinemu.so as *_legacy.so alongside the stock 6.0.4 ones (additive, never overwrites stock). The conditional loaders choose per game.",
+            "name": "Legacy renderer libxserver bundle",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
             "dependencies": [],
             "description": "Replaces every .wav file in the GameHub Compose UI sound asset folder with a 50ms silent PCM clip so all click / focus / launch sounds play silently. Filenames are preserved so every Compose audio lookup still resolves.",
             "name": "Mute UI sounds",
@@ -290,8 +360,8 @@
             "dependencies": [
                 "Patch"
             ],
-            "description": "Lets the GPU driver / DXVK / VKD3D / FEXCore / Box64 / container pickers show cached entries (from sp_winemu_unified_resources.xml) when the device is offline. Without this patch, when the network-backed Uaa flow returns an empty list, eci.a falls back to Kotlin's EmptyList and the picker renders only the embedded built-in versions. With this patch, that empty path instead reads xxo.c — the in-memory ConcurrentHashMap that u6o.<init> already hydrates from disk at app start — and filters by RepoCategory. Online behavior is unchanged because the hook only fires on the EmptyList return path; any non-empty Uaa list goes through the original filter loop as before.",
-            "name": "Offline component cache fallback",
+            "description": "Replaces gof.a (the picker's per-type component-list feed) with a delegating call: offline it returns the user's downloaded components (from sp_winemu_unified_resources, filtered by ComponentType) so GPU driver / DXVK / VKD3D / FEXCore / Box64 / container pickers list them offline; online it reflectively invokes the original suspend impl unchanged. Register-safe, fail-safe.",
+            "name": "Offline component picker — local list",
             "options": [],
             "use": true
         },
@@ -324,7 +394,8 @@
                 ]
             },
             "dependencies": [
-                "PC Vibration Settings label resource"
+                "PC Vibration Settings label resource",
+                "Per-game menu id capture (shared)"
             ],
             "description": "Adds a 'PC Vibration Settings' row to the per-game library popup menu. Tapping it launches BhVibrationSettingsActivity with the active game's id when a WineActivity is on the stack. Injects after the existing rows so stock behavior is preserved.",
             "name": "PC Vibration Settings menu row",
@@ -353,6 +424,20 @@
                 ]
             },
             "dependencies": [
+                "Patch"
+            ],
+            "description": "Captures the per-game gameId from the menu-data param at entry of GameHub's two per-game menu builders so BannerHub's injected rows (Renderer / GPU Spoof / PC Vibration) scope to the correct game even from a pre-launch menu. Shared by all three.",
+            "name": "Per-game menu id capture (shared)",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
                 "Redirect catalog API"
             ],
             "description": "Prepends \"v6/\" to every relative API path emitted by zdb.b(qx9, path), the single helper through which GameHub 6.0 funnels all simulator/v2/* and other catalog requests. The BannerHub Worker strips the prefix and uses it to branch 6.0-only response variants (e.g. firmware 1.3.4 vs 1.3.3, base.fileType=0 vs default 4). Pairs with Redirect catalog API — that patch swaps the host; this one tags the path. Full URLs (http://, https://) are passed through untouched so direct downloads still work.",
@@ -369,6 +454,35 @@
             "dependencies": [],
             "description": "Redirects GameHub 6.0's catalog API (simulator/v2/* — getAllComponentList, getContainerList, getContainerDetail, getDefaultComponent, getImagefsDetail, executeScript) from landscape-api-{cn,oversea}.vgabc.com to the BannerHub Cloudflare Worker, which serves the curated catalog from the412banner.github.io/bannerhub-api and falls back to vgabc for unallowlisted paths. Patches the two host string literals in the Online enum value's <clinit> initializer in mcj.smali. Beta + Test enum values, the analytics hosts (landscape-api-*-*.vgabc.com/events), the clientapi host (clientgsw.vgabc.com), and the component CDN (zlyer-cdn-comps-en.bigeyes.com) are intentionally left untouched.",
             "name": "Redirect catalog API",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Renderer settings activity",
+                "Per-game menu id capture (shared)",
+                "PC Vibration Settings menu row"
+            ],
+            "description": "Adds a 'Renderer' row to GameHub's per-game menus. Tapping it launches BhRendererSettingsActivity scoped to the active game (New Vulkan / Legacy GLES2). Injects after the existing rows so stock behaviour and the GPU-Spoof row are preserved.",
+            "name": "Renderer menu row",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Registers BhRendererSettingsActivity in the manifest so the per-game renderer dialog can be launched by explicit-Intent. Internal-only (android:exported=\"false\"); no <intent-filter>.",
+            "name": "Renderer settings activity",
             "options": [],
             "use": true
         },
