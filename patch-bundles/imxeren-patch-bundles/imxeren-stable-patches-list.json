@@ -1,17 +1,30 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.0",
     "patches": [
         {
-            "compatiblePackages": {
-                "tv.trakt.trakt": [
-                    "2.2.1"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Trakt",
+                    "packageName": "tv.trakt.trakt",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.4.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Remove ads, add VIP badge and allow to view 'Your Month in Review'.",
             "name": "Unlock pro",
-            "options": [],
-            "use": true
+            "options": []
         }
     ]
 }
