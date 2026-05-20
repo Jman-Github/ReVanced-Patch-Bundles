@@ -2611,7 +2611,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Unlock pro``` | ```Remove ads, add VIP badge and allow to view 'Your Month in Review'.``` | ```tv.trakt.trakt``` | ```3.4.1``` |
+| ```Unlock pro``` | ```Remove ads, add VIP badge and allow to view 'Your Month in Review'.``` | ```Trakt``` | ```All versions``` |
 
 </details>
 
