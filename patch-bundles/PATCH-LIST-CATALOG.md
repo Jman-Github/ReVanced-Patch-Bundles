@@ -1139,8 +1139,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable PairIP License Check``` | ```N/A``` | ```Autosync``` | ```All versions``` |
 | ```Force Stable Integrity State (Critical)``` | ```N/A``` | ```Autosync``` | ```All versions``` |
 | ```Purchase All Items``` | ```N/A``` | ```Autosync``` | ```All versions``` |
-| ```AdFree Account Patch``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
-| ```Disable Logging(analytics) Patch``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
+| ```AdFree Account``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
+| ```Disable Logging(analytics)``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
 | ```Disable Firebase(Google) Analytics``` | ```N/A``` | ```Universal``` | ```All versions``` |
 
 </details>
