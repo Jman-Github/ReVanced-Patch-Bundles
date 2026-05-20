@@ -86,6 +86,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Ameen-Morphe Bundle Patch List](#-ameen-morphe-bundle-patch-list)<br>
 [🧩 Kolaron Bundle Patch List](#-kolaron-bundle-patch-list)<br>
 [🧩 ImmortalZeus Bundle Patch List](#-immortalzeus-bundle-patch-list)<br>
+[🧩 Takano536 Bundle Patch List](#-takano536-bundle-patch-list)<br>
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -3512,5 +3513,14 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 |----------|---------------|---------------------|-------------------------|
 | ```Block hosts in string resources``` | ```Blocks ads and trackers by replacing hosts in XML string resources. Works alongside bytecode hosts blocker for comprehensive coverage.``` | ```Universal``` | ```All versions``` |
 | ```Example Patch``` | ```Example patch to start with.``` | ```XYZ app``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Takano536 Bundle Patch List:
+[📦 Takano536-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-takano536-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
 
 </details>

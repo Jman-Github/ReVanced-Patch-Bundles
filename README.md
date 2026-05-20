@@ -1122,6 +1122,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+### 📦 Takano536-Patches-Bundle [Morphe]:
+[🧩 Takano536 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-takano536-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/takano536-patch-bundles/takano536-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/takano536-patch-bundles/takano536-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/takano536-patch-bundles/takano536-dev-patches-bundle.json```
+</details>
+
+---
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -1300,6 +1313,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Kolaron-Patches-Bundle](https://github.com/kolaron/morphe-patches)
 
 #### 🏷️ [ImmortalZeus-Patches-Bundle](https://github.com/ImmortalZeus/ImmortalZeus-Morphe-Patches)
+
+#### 🏷️ [Takano536-Patches-Bundle](https://github.com/takano536/morphe-patches)
 
 
 </details>
