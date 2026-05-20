@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0",
+    "version": "v1.6.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -32,6 +32,18 @@
                 ]
             },
             "dependencies": [],
+            "description": "增強剪貼簿的保留時間、數量上限、預覽行數、倒數/建立時間、順序編號與欄數\nEnhance clipboard retention time, item count limit, preview lines, countdown/creation time labels, order index, and column count.",
+            "name": "Clipboard Enhancements",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
             "description": "啟用 剪貼簿 > 顯示從最近複製文字中攝取的資訊，例如地址、電話號碼和其他項目\nEnable Clipboard > Show addresses, phone numbers, and other items pulled from recently copied text.",
             "name": "Clipboard Entity Extraction",
             "options": [],
@@ -46,18 +58,6 @@
             "dependencies": [],
             "description": "長按 剪貼簿 顯示編輯\nEnable Edit when long-pressing a clipboard item.",
             "name": "Clipboard Item Edit",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.google.android.inputmethod.latin": [
-                    "17.0.10.880768217-release-arm64-v8a"
-                ]
-            },
-            "dependencies": [],
-            "description": "自訂剪貼簿保留時間、數量上限與顯示資訊\nCustomize clipboard retention time, item count limit, and metadata display.",
-            "name": "Clipboard Retention",
             "options": [],
             "use": true
         },
