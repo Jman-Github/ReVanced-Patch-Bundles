@@ -1,6 +1,34 @@
 {
-    "version": "v1.5.0-604",
+    "version": "v1.5.1-604",
     "patches": [
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Adds 4 vector drawables (bh_bt_vibration, bh_bt_gpu_spoof, bh_bt_renderer, bh_bt_game_id) to res/drawable. Rendered by the Banner Tools dialog's 1×4 tile row.",
+            "name": "Banner Tools drawables",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Per-game menu id capture (shared)",
+                "PC Vibration Settings menu row",
+                "Banner Tools drawables"
+            ],
+            "description": "Adds a single 'Banner Tools' row to GameHub's per-game menus. Tapping it opens a dialog with PC Vibration / GPU Spoof / Renderer / Show Game ID entries that dispatch into the existing per-feature handlers. Replaces the 4 standalone BannerHub rows to keep the per-game menu short.",
+            "name": "Banner Tools menu row",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "com.xiaoji.egggame": [
@@ -351,6 +379,20 @@
             "dependencies": [],
             "description": "Bundles the 6.0.2 GLES2-era libxserver.so + libwinemu.so as *_legacy.so alongside the stock 6.0.4 ones (additive, never overwrites stock). The conditional loaders choose per game.",
             "name": "Legacy renderer libxserver bundle",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "On app start, scans GameHub's library DB for games stuck at a sentinel server_game_id (-1 for PC imports without a catalog match; 0 for Epic-library and GOG-imported games) and rewrites each one with a stable synthetic integer derived from the row's local_* UUID. After the scan, those games become individually addressable instead of all colliding on the same sentinel value. Note: unique IDs are necessary but not sufficient for Beacon/ES-DE launching of Epic/GOG games — the source-specific dispatch path is a separate patch. Idempotent and self-healing: rows whose ID is later overwritten by GameHub with a real catalog value are left alone on re-run.",
+            "name": "Local game-id assignment",
             "options": [],
             "use": true
         },
