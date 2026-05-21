@@ -2998,7 +2998,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***15 Patches***
+***16 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add Gboard Signature Bypass``` | ```攔截 Gboard 的簽章白名單檢查並強制通過 Bypass Gboard signature whitelist checks and force them to pass.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
@@ -3007,6 +3007,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Clipboard Entity Extraction``` | ```啟用 剪貼簿 > 顯示從最近複製文字中攝取的資訊，例如地址、電話號碼和其他項目 Enable Clipboard > Show addresses, phone numbers, and other items pulled from recently copied text.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 | ```Clipboard Item Edit``` | ```長按 剪貼簿 顯示編輯 Enable Edit when long-pressing a clipboard item.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 | ```Custom Symbols``` | ```新增獨立的特殊符號分頁，長按逗號->愛心 Add a dedicated custom symbols tab and replace the long-press comma entry with a heart shortcut.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
+| ```Emojis, stickers & GIFs Tab Order``` | ```自訂 Gboard「Emojis, stickers & GIFs」底部 tabs 的排序，支援拖曳調整 Customize the bottom tab order in Gboard's Emojis, stickers & GIFs panel with drag-and-drop reordering.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 | ```Enable Undo/Redo feature``` | ```啟用 Undo/Redo 功能 Enable the Undo/Redo feature.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 | ```English QWERTY Slide Symbols``` | ```英文 QWERTY 鍵盤支持上下滑符號輸入 Enable slide-up and slide-down symbol input on the English QWERTY keyboard.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 | ```Grammar Checker``` | ```啟用 修正和建議 > 文法檢查 Enable Text correction > Grammar check.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |

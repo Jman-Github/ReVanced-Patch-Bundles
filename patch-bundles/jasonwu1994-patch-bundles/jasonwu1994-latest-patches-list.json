@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.2",
+    "version": "v1.7.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -70,6 +70,18 @@
             "dependencies": [],
             "description": "新增獨立的特殊符號分頁，長按逗號->愛心\nAdd a dedicated custom symbols tab and replace the long-press comma entry with a heart shortcut.",
             "name": "Custom Symbols",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "自訂 Gboard「Emojis, stickers & GIFs」底部 tabs 的排序，支援拖曳調整\nCustomize the bottom tab order in Gboard's Emojis, stickers & GIFs panel with drag-and-drop reordering.",
+            "name": "Emojis, stickers & GIFs Tab Order",
             "options": [],
             "use": true
         },
