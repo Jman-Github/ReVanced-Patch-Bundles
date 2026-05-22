@@ -1,5 +1,5 @@
 {
-    "version": "v3.4.0-dev.2",
+    "version": "v3.4.1-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -9,10 +9,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -36,7 +33,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -142,10 +139,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -169,7 +163,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -190,10 +184,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -217,13 +208,14 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
             ],
             "default": false,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -239,10 +231,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -266,7 +255,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -315,10 +304,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -342,7 +328,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 },
@@ -390,10 +376,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -417,7 +400,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -438,10 +421,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -465,7 +445,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -514,10 +494,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -541,7 +518,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -562,10 +539,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -589,7 +563,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -611,10 +585,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -638,7 +609,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -660,10 +631,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -687,7 +655,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -709,10 +677,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -736,7 +701,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -811,10 +776,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -838,7 +800,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -859,10 +821,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -886,7 +845,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -907,10 +866,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -934,7 +890,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -955,10 +911,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -982,7 +935,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -1003,10 +956,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -1030,7 +980,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -1051,10 +1001,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -1078,7 +1025,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -1099,10 +1046,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -1126,7 +1070,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -1147,10 +1091,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -1174,7 +1115,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -1195,10 +1136,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -1222,7 +1160,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -1243,10 +1181,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -1270,7 +1205,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -1291,10 +1226,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -1318,7 +1250,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -1395,10 +1327,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -1422,7 +1351,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -1443,10 +1372,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -1470,7 +1396,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -1796,16 +1722,13 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         },
                         {
                             "description": null,
@@ -1836,6 +1759,7 @@
             ],
             "default": false,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Bring back legacy features like messages and share sheet.",
@@ -1882,10 +1806,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -1909,7 +1830,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -1930,10 +1851,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -1957,7 +1875,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -1976,10 +1894,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -2003,13 +1918,14 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,
@@ -2024,10 +1940,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -2051,7 +1964,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -2073,10 +1986,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -2100,7 +2010,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -2121,10 +2031,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -2148,7 +2055,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -2169,10 +2076,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -2196,7 +2100,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -2244,10 +2148,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -2271,7 +2172,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -2293,10 +2194,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -2320,7 +2218,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -2367,10 +2265,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -2394,7 +2289,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -2415,10 +2310,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -2442,7 +2334,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -2463,10 +2355,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -2490,7 +2379,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -2512,10 +2401,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -2539,7 +2425,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -2560,10 +2446,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -2587,7 +2470,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -2609,10 +2492,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -2636,7 +2516,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -2657,10 +2537,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -2684,7 +2561,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -2706,10 +2583,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -2733,7 +2607,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -2781,10 +2655,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -2808,7 +2679,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -2829,10 +2700,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -2856,7 +2724,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -2878,10 +2746,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -2905,7 +2770,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -2980,10 +2845,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -3007,7 +2869,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -3028,10 +2890,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -3055,7 +2914,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -3076,10 +2935,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -3103,7 +2959,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -3125,10 +2981,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -3152,7 +3005,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -3174,10 +3027,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -3201,7 +3051,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -3304,10 +3154,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -3331,7 +3178,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -3353,10 +3200,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -3380,7 +3224,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -3430,10 +3274,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -3457,7 +3298,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -3506,10 +3347,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -3533,7 +3371,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -3636,10 +3474,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -3663,13 +3498,14 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
@@ -3686,10 +3522,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -3713,7 +3546,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -3721,6 +3554,7 @@
             "default": true,
             "dependencies": [
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -3736,10 +3570,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -3763,13 +3594,14 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -3785,10 +3617,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -3812,7 +3641,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -3860,10 +3689,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -3887,7 +3713,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -3908,10 +3734,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -3935,7 +3758,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -4011,10 +3834,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -4038,7 +3858,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -4059,10 +3879,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -4086,7 +3903,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -4107,10 +3924,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -4134,7 +3948,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -4156,10 +3970,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -4183,7 +3994,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -4231,10 +4042,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -4258,7 +4066,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -4280,10 +4088,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -4307,13 +4112,14 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -4329,10 +4135,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -4356,7 +4159,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -4377,10 +4180,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -4404,7 +4204,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -4425,10 +4225,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -4452,7 +4249,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
@@ -4473,10 +4270,7 @@
                     "description": null,
                     "name": "X",
                     "packageName": "com.twitter.android",
-                    "signatures": [
-                        "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
-                        "45c53db089fb8d63a1c71154037c414b1b0646a141a73ae6e3bcbf8cd148402f"
-                    ],
+                    "signatures": null,
                     "targets": [
                         {
                             "description": null,
@@ -4500,7 +4294,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.91.0-release-ripped.0"
+                            "version": "11.93.0-release-ripped.0"
                         }
                     ]
                 }
