@@ -1,5 +1,5 @@
 {
-    "version": "v4.0.1-dev.1",
+    "version": "v4.1.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -182,36 +182,6 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Changes the package name for Reddit to the name specified in patch options.",
-            "name": "Change package name",
-            "options": [
-                {
-                    "default": "com.reddit.frontpage",
-                    "description": "The name of the package to rename the app to.",
-                    "key": "packageNameReddit",
-                    "required": true,
-                    "title": "Package name of Reddit",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Clone": "com.reddit.frontpage.revanced",
-                        "Default": "com.reddit.frontpage.rvx",
-                        "Original": "com.reddit.frontpage"
-                    }
-                }
-            ],
-            "use": false
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.05.36",
                     "19.16.39",
@@ -267,8 +237,6 @@
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to change the in-app share sheet to the system share sheet.",
@@ -474,35 +442,6 @@
                     "title": "Restore old splash icon",
                     "type": "kotlin.Boolean",
                     "values": null
-                }
-            ],
-            "use": false
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Changes the Reddit app name to the name specified in patch options.",
-            "name": "Custom branding name for Reddit",
-            "options": [
-                {
-                    "default": "Reddit",
-                    "description": "The name of the app.",
-                    "key": "appName",
-                    "required": true,
-                    "title": "App name",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Default": "RVX Reddit",
-                        "Original": "Reddit"
-                    }
                 }
             ],
             "use": false
@@ -1086,22 +1025,6 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Adds an option to disable the popup that appears when taking a screenshot.",
-            "name": "Disable screenshot popup",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.05.36",
                     "19.16.39",
@@ -1624,22 +1547,6 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Adds options to hide ads.",
-            "name": "Hide ads",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.05.36",
                     "19.16.39",
@@ -1677,6 +1584,7 @@
             },
             "dependencies": [
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -1788,22 +1696,6 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Adds options to hide buttons in the navigation bar.",
-            "name": "Hide navigation buttons",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "6.20.51",
                     "6.29.59",
@@ -1837,7 +1729,6 @@
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch",
@@ -1892,38 +1783,6 @@
             "name": "Hide player overlay filter",
             "options": [],
             "use": false
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Adds an option to hide the Recently Visited shelf in the sidebar.",
-            "name": "Hide Recently Visited shelf",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Adds an option to hide the recommended communities shelves in subreddits.",
-            "name": "Hide recommended communities shelf",
-            "options": [],
-            "use": true
         },
         {
             "compatiblePackages": {
@@ -2000,22 +1859,6 @@
             "name": "Hide Shorts dimming",
             "options": [],
             "use": false
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Adds an option to hide the Trending Today shelf from search suggestions.",
-            "name": "Hide Trending Today shelf",
-            "options": [],
-            "use": true
         },
         {
             "compatiblePackages": {
@@ -2147,40 +1990,6 @@
             ],
             "description": "Adds options to hide or change components related to the navigation bar.",
             "name": "Navigation bar components",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Adds an option to skip over redirection URLs in external links.",
-            "name": "Open links directly",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Adds an option to always open links in your browser instead of in the in-app-browser.",
-            "name": "Open links externally",
             "options": [],
             "use": true
         },
@@ -2355,22 +2164,6 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Unlocks premium app icons.",
-            "name": "Premium icon",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
                     "19.05.36",
                     "19.16.39",
@@ -2430,23 +2223,6 @@
             ],
             "description": "Removes restrictions on background playback, including for music and kids videos.",
             "name": "Remove background playback restrictions",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch"
-            ],
-            "description": "Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.",
-            "name": "Remove subreddit dialog",
             "options": [],
             "use": true
         },
@@ -2621,24 +2397,7 @@
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
                 "ResourcePatch",
-                "ResourcePatch"
-            ],
-            "description": "Adds an option to sanitize sharing links by removing tracking query parameters.",
-            "name": "Sanitize sharing links",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
                 "ResourcePatch"
             ],
             "description": "Adds an option to sanitize sharing links by removing tracking query parameters.",
@@ -2658,7 +2417,6 @@
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Adds an option to sanitize sharing links by removing tracking query parameters.",
@@ -2710,37 +2468,6 @@
             "description": "Adds an option to set Cookies in YouTube Transcript API requests.",
             "name": "Set transcript cookies",
             "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Applies mandatory patches to implement ReVanced Extended settings into the application.",
-            "name": "Settings for Reddit",
-            "options": [
-                {
-                    "default": "RVX",
-                    "description": "The name of the RVX settings menu.",
-                    "key": "rvxSettingsLabel",
-                    "required": true,
-                    "title": "RVX settings menu name",
-                    "type": "kotlin.String",
-                    "values": {
-                        "RVX": "RVX",
-                        "ReVanced Extended": "ReVanced Extended"
-                    }
-                }
-            ],
             "use": true
         },
         {
@@ -3256,51 +2983,6 @@
             "description": "Adds options to hide or change components located on the toolbar, such as the search bar, header, and toolbar buttons.",
             "name": "Toolbar components",
             "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
-            "description": "Add translations for RVX settings.",
-            "name": "Translations for Reddit",
-            "options": [
-                {
-                    "default": "",
-                    "description": "The path to the 'strings.xml' file.\nPlease note that applying the 'strings.xml' file will overwrite all existing translations.",
-                    "key": "customTranslations",
-                    "required": true,
-                    "title": "Custom translations",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "ar, az-rAZ, bg-rBG, da-rDK, de-rDE, el-rGR, es-rES, fil-rPH, fr-rFR, hu-rHU, id-rID, in, it-rIT, iw-rIL, ja-rJP, ko-rKR, pl-rPL, pt-rBR, ru-rRU, tr-rTR, uk-rUA, vi-rVN, zh-rCN, zh-rTW",
-                    "description": "A list of translations to be added for the RVX settings, separated by commas.",
-                    "key": "selectedTranslations",
-                    "required": true,
-                    "title": "Translations to add",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "af, am, ar, ar-rXB, as, az, b+es+419, b+sr+Latn, be, bg, bn, bs, ca, cs, da, de, el, en-rAU, en-rCA, en-rGB, en-rIN, en-rXA, en-rXC, es, es-rUS, et, eu, fa, fi, fil-rPH, fr, fr-rCA, gl, gu, hi, hr, hu, hy, id, in, is, it, iw, ja, ka, kk, km, kn, ko, ky, lo, lt, lv, mk, ml, mn, mr, ms, my, nb, ne, nl, no, or, pa, pl, pt, pt-rBR, pt-rPT, ro, ru, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, uk, ur, uz, vi, zh, zh-rCN, zh-rHK, zh-rTW, zu",
-                    "description": "A list of string resources to be kept, separated by commas.\nString resources not in the list will be removed from the app.\n\nDefault string resource, English, is not removed.",
-                    "key": "selectedStringResources",
-                    "required": true,
-                    "title": "String resources to keep",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ],
             "use": true
         },
         {
