@@ -1,5 +1,5 @@
 {
-    "version": "v1.33.0",
+    "version": "v1.33.1-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -846,50 +846,6 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Enables app features locked behind the subscription paywall.",
-            "name": "Enable Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#000000",
-                    "description": null,
-                    "name": "Macro Factor",
-                    "packageName": "com.sbs.diet",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.7.8"
-                        }
-                    ]
-                },
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#000000",
-                    "description": null,
-                    "name": "Macro Factor Workouts",
-                    "packageName": "com.sbs.train",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.1.7"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
@@ -1750,47 +1706,6 @@
             ],
             "description": "Automatically skips ads baked into the video stream.",
             "name": "Skip ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#000000",
-                    "description": null,
-                    "name": "Macro Factor",
-                    "packageName": "com.sbs.diet",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.7.8"
-                        }
-                    ]
-                },
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#000000",
-                    "description": null,
-                    "name": "Macro Factor Workouts",
-                    "packageName": "com.sbs.train",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.1.7"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Spoof package signature for Firebase app check.",
-            "name": "Spoof signature",
             "options": []
         },
         {
