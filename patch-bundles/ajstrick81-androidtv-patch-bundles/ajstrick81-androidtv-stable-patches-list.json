@@ -1,0 +1,135 @@
+{
+    "version": "v1.4.13",
+    "patches": [
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 1129679,
+                    "description": null,
+                    "name": "Disney+ Android TV",
+                    "packageName": "com.disney.disneyplus",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": ""
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.disney.disneyplus": null
+            },
+            "dependencies": [],
+            "description": "Automatically skips ads.",
+            "name": "Disney+ Android TV",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16777215,
+                    "description": null,
+                    "name": "HBO Max",
+                    "packageName": "com.wbd.stream",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "7.2.0.41"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.wbd.stream": [
+                    "7.2.0.41"
+                ]
+            },
+            "dependencies": [],
+            "description": "Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.",
+            "name": "HBO Max - Disable Ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 25855,
+                    "description": null,
+                    "name": "Paramount+ Android TV",
+                    "packageName": "com.cbs.ott",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "16.8.0"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.cbs.ott": [
+                    "16.8.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables IMA ad loading in Paramount+",
+            "name": "Paramount+ Android TV",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 1539022,
+                    "description": null,
+                    "name": "Prime Video",
+                    "packageName": "com.amazon.amazonvideo.livingroom",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "6.23.23+v15.5.0.70-armv7a"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.amazon.amazonvideo.livingroom": [
+                    "6.23.23+v15.5.0.70-armv7a"
+                ]
+            },
+            "dependencies": [],
+            "description": "Integrates the Prime Video ATV extension for ad group skipping.",
+            "name": "Prime Video extension",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 1539022,
+                    "description": null,
+                    "name": "Prime Video",
+                    "packageName": "com.amazon.amazonvideo.livingroom",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "6.23.23+v15.5.0.70-armv7a"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.amazon.amazonvideo.livingroom": [
+                    "6.23.23+v15.5.0.70-armv7a"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Prevents server-side inserted ads from playing in the video stream.",
+            "name": "Skip ads",
+            "options": [],
+            "use": true
+        }
+    ]
+}
