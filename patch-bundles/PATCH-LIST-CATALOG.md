@@ -534,7 +534,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***129 Patches***
+***114 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bitrate default value``` | ```Sets the audio quality to 'Always High' when you first install the app.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
@@ -645,21 +645,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Video playback``` | ```Adds options to customize settings related to video playback, such as default video quality and playback speed.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Visual preferences icons for YouTube``` | ```Adds icons to specific preferences in the settings.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
 | ```Voice Over Translation``` | ```Adds an option to enable Yandex voice-over translation of video audio tracks.``` | ```com.google.android.youtube``` | ```19.05.36, 19.16.39, 19.43.41, 19.44.39, 19.47.53, 20.05.46``` |
-| ```Change package name``` | ```Changes the package name for Reddit to the name specified in patch options.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
-| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
-| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
-| ```Hide ads``` | ```Adds options to hide ads.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
-| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
-| ```Hide Recently Visited shelf``` | ```Adds an option to hide the Recently Visited shelf in the sidebar.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
-| ```Hide recommended communities shelf``` | ```Adds an option to hide the recommended communities shelves in subreddits.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
-| ```Hide Trending Today shelf``` | ```Adds an option to hide the Trending Today shelf from search suggestions.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
-| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
-| ```Open links externally``` | ```Adds an option to always open links in your browser instead of in the in-app-browser.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
-| ```Premium icon``` | ```Unlocks premium app icons.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
-| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
-| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
-| ```Settings for Reddit``` | ```Applies mandatory patches to implement ReVanced Extended settings into the application.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
-| ```Translations for Reddit``` | ```Add translations for RVX settings.``` | ```com.reddit.frontpage``` | ```2024.17.0, 2025.05.1, 2025.12.1``` |
 | ```Change installer package name``` | ```Spoof the installer package name to make it appear that the app was installed from the Google Play Store.``` | ```Universal``` | ```All versions``` |
 | ```Change version code``` | ```Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.``` | ```Universal``` | ```All versions``` |
 | ```Disable edge-to-edge display``` | ```Disable forced edge-to-edge display on Android 15+ by changing the app's target SDK version. This patch does not work if the app is installed by mounting.``` | ```Universal``` | ```All versions``` |
@@ -675,7 +660,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***116 Patches***
+***117 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add settings``` | ```Adds settings to control preferences are patching``` | ```Instagram``` | ```All versions``` |
@@ -699,6 +684,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable typing status``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Disable video autoplay``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```Instagram``` | ```All versions``` |
+| ```Download voice message``` | ```Enables ability to download voice messages``` | ```Instagram``` | ```All versions``` |
 | ```Follow back indicator``` | ```Adds a label on the profile page, indicating whether a user is follows you back.``` | ```Instagram``` | ```All versions``` |
 | ```Hide group creation button on sharesheet``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button.``` | ```Instagram``` | ```All versions``` |
@@ -1140,8 +1126,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable PairIP License Check``` | ```N/A``` | ```Autosync``` | ```All versions``` |
 | ```Force Stable Integrity State (Critical)``` | ```N/A``` | ```Autosync``` | ```All versions``` |
 | ```Purchase All Items``` | ```N/A``` | ```Autosync``` | ```All versions``` |
-| ```AdFree Account Patch``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
-| ```Disable Logging(analytics) Patch``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
+| ```AdFree Account``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
+| ```Disable Logging(analytics)``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
 | ```Disable Firebase(Google) Analytics``` | ```N/A``` | ```Universal``` | ```All versions``` |
 
 </details>
@@ -2999,15 +2985,16 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***15 Patches***
+***16 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add Gboard Signature Bypass``` | ```攔截 Gboard 的簽章白名單檢查並強制通過 Bypass Gboard signature whitelist checks and force them to pass.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 | ```Chinese Online Voice Input``` | ```強制啟用中文語音 Force-enable Chinese voice input.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
+| ```Clipboard Enhancements``` | ```增強剪貼簿的保留時間、數量上限、預覽行數、倒數/建立時間、順序編號與欄數 Enhance clipboard retention time, item count limit, preview lines, countdown/creation time labels, order index, and column count.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 | ```Clipboard Entity Extraction``` | ```啟用 剪貼簿 > 顯示從最近複製文字中攝取的資訊，例如地址、電話號碼和其他項目 Enable Clipboard > Show addresses, phone numbers, and other items pulled from recently copied text.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 | ```Clipboard Item Edit``` | ```長按 剪貼簿 顯示編輯 Enable Edit when long-pressing a clipboard item.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
-| ```Clipboard Retention``` | ```自訂剪貼簿保留時間、數量上限與顯示資訊 Customize clipboard retention time, item count limit, and metadata display.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 | ```Custom Symbols``` | ```新增獨立的特殊符號分頁，長按逗號->愛心 Add a dedicated custom symbols tab and replace the long-press comma entry with a heart shortcut.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
+| ```Emojis, stickers & GIFs Tab Order``` | ```自訂 Gboard「Emojis, stickers & GIFs」底部 tabs 的排序，支援拖曳調整 Customize the bottom tab order in Gboard's Emojis, stickers & GIFs panel with drag-and-drop reordering.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 | ```Enable Undo/Redo feature``` | ```啟用 Undo/Redo 功能 Enable the Undo/Redo feature.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 | ```English QWERTY Slide Symbols``` | ```英文 QWERTY 鍵盤支持上下滑符號輸入 Enable slide-up and slide-down symbol input on the English QWERTY keyboard.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 | ```Grammar Checker``` | ```啟用 修正和建議 > 文法檢查 Enable Text correction > Grammar check.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
@@ -3422,9 +3409,11 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***35 Patches***
+***41 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Banner Tools drawables``` | ```Adds 4 vector drawables (bh_bt_vibration, bh_bt_gpu_spoof, bh_bt_renderer, bh_bt_game_id) to res/drawable. Rendered by the Banner Tools dialog's 1×4 tile row.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```Banner Tools menu row``` | ```Adds a single 'Banner Tools' row to GameHub's per-game menus. Tapping it opens a dialog with PC Vibration / GPU Spoof / Renderer / Show Game ID entries that dispatch into the existing per-feature handlers. Replaces the 4 standalone BannerHub rows to keep the per-game menu short.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Bypass login``` | ```Bypasses the login requirement by replacing the auth-session StateFlow getters with synthetic always-true / always-non-null values, plus short-circuiting the navigator gates and the navigation interceptor.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Change app icon``` | ```Replaces five drawables in the patched APK with BannerHub branding: the launcher adaptive-icon foreground (deleting the stock vector so the new raster wins on every density), the in-app Wine logo, the auth-screen landscape + overseas logos, and the splash screen banner — the last three are shipped as Compose Multiplatform resources under assets/composeResources/. Background drawable and CN-locale variants are left as-is.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Debug logging``` | ```Marks the APK debuggable and routes diagnostic probes through DebugTrace. Writes to logcat with tag GH600-DEBUG at Log.i level (the device filter strips app-tagged Log.e but lets Log.i through) and also appends to a file on external storage at /storage/emulated/0/Android/data/com.xiaoji.egggame/files/gh600-debug.log as a backup channel.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
@@ -3434,12 +3423,14 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable heartbeat``` | ```Disables XiaoJi's WineGameUsageTracker server-heartbeat (heartbeat/game/{start,update,end}) and the getUserPlayTimeList GET. All four methods return-early so no network call is made and no per-tick work runs. Trade-off: in-app playtime UI will be empty (no on-device tracker; see archive/plan8c-local-tracker-pre3 tag for the variant that kept the UI populated at the cost of per-tick disk + reflection work).``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Disable Mob Push tracking``` | ```Stops the bundled Mob Push SDK (com.mob.*) from initialising. Removes the two policy-grant call sites in XiaoJi's bootstrap code and the push-receiver registration in BaseAndroidApp.onCreate, then disables every Mob-namespaced <provider>/<service>/<receiver>/<activity> in the manifest so the SDK can't bootstrap via its ContentProvider auto-init either. Inbound push delivery and Mob's device-ID collection (MobIDService/MobIDActivity) are both stopped. The 'cn.fly.*' Mob analytics submodule is neutralised by the same rules.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Disable OTA updates``` | ```Neutralises the periodic phone-home check at https://www.xiaoji.com/firmware/update/x1 by overwriting the URL register with http://127.0.0.1 immediately after the const-string load. The OTA call then fails silently with a connection-refused. Also strips the JieLi gamepad-firmware native libs (libJieLiUsbOta.so, libjl_ota_auth.so) which are dead weight on phone installs.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```External launcher support``` | ```Enables launching games from external frontends like ES-DE, Daijishou, and Beacon. Keeps PlayDay's 5.3.5 '<variant_package>.LAUNCH_GAME' intent contract; translates the 5.3.5 extras (steamAppId / localGameId / autoStartGame) onto GameHub 6.0.4's native DeepLinkActivity 'app_nav_*' dispatch.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```File manager access``` | ```Adds a DocumentsProvider so that MT File Manager and other Storage Access Framework clients can browse the app's internal storage directories.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```GPU spoof DXVK plumbing``` | ```Force-writes dxgi/d3d9/dxvk customVendorId/customDeviceId into a per-game dxvk.conf and points DXVK_CONFIG_FILE at it, after the Wine env builder's conditional DXVK block, so the spoof always applies. No-ops when the game's spoof mode is Off.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```GPU Spoof menu row``` | ```Adds a 'GPU Spoof' row to GameHub's per-game menus. Tapping it launches BhGpuSpoofSettingsActivity scoped to the active game. Injects after the existing rows so stock behaviour is preserved.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```GPU spoof settings activity``` | ```Registers BhGpuSpoofSettingsActivity in the manifest so the per-game GPU-identity dialog can be launched by explicit-Intent. Internal-only (android:exported="false"); no <intent-filter>.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Legacy renderer conditional swap``` | ```Per-game gates the proven 6.0.2 libxserver swap + JNI bridge: adds the setRenderingEnabled native, routes XServer's loadLibrary and setFlipEnabled call sites through BhRendererController. New mode = stock, zero regression.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Legacy renderer libxserver bundle``` | ```Bundles the 6.0.2 GLES2-era libxserver.so + libwinemu.so as *_legacy.so alongside the stock 6.0.4 ones (additive, never overwrites stock). The conditional loaders choose per game.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```Local game-id assignment``` | ```On app start, scans GameHub's library DB for games stuck at a sentinel server_game_id (-1 for PC imports without a catalog match; 0 for Epic-library and GOG-imported games) and rewrites each one with a stable synthetic integer derived from the row's local_* UUID. After the scan, those games become individually addressable instead of all colliding on the same sentinel value. Note: unique IDs are necessary but not sufficient for Beacon/ES-DE launching of Epic/GOG games — the source-specific dispatch path is a separate patch. Idempotent and self-healing: rows whose ID is later overwritten by GameHub with a real catalog value are left alone on re-run.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Mute UI sounds``` | ```Replaces every .wav file in the GameHub Compose UI sound asset folder with a 50ms silent PCM clip so all click / focus / launch sounds play silently. Filenames are preserved so every Compose audio lookup still resolves.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Offline component picker — local list``` | ```Replaces gof.a (the picker's per-type component-list feed) with a delegating call: offline it returns the user's downloaded components (from sp_winemu_unified_resources, filtered by ComponentType) so GPU driver / DXVK / VKD3D / FEXCore / Box64 / container pickers list them offline; online it reflectively invokes the original suspend impl unchanged. Register-safe, fail-safe.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```PC Vibration Settings label resource``` | ```Appends a 'bh_pc_vibration_label' = 'PC Vibration Settings' string entry to features.home Compose Multiplatform resources so the library-tile popup row's Lell-typed label can resolve to our text.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
@@ -3451,6 +3442,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Renderer menu row``` | ```Adds a 'Renderer' row to GameHub's per-game menus. Tapping it launches BhRendererSettingsActivity scoped to the active game (New Vulkan / Legacy GLES2). Injects after the existing rows so stock behaviour and the GPU-Spoof row are preserved.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Renderer settings activity``` | ```Registers BhRendererSettingsActivity in the manifest so the per-game renderer dialog can be launched by explicit-Intent. Internal-only (android:exported="false"); no <intent-filter>.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Rewrite custom permissions per variant``` | ```Renames upstream-baked custom permissions (e.g. com.xiaoji.egggame.permission.C2D_MESSAGE) to use the variant package, so multiple variants can install side-by-side without INSTALL_FAILED_DUPLICATE_PERMISSION on Android 7+ (which surfaces as "package conflicts with a current package" in the package installer UI). ChangePackageNamePatch's updatePermissions option only rewrites the hardcoded DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION; this patch handles the rest.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```Show Game ID label resource``` | ```Appends a 'bh_gameid_label' = 'Show Game ID' string entry to features.home Compose Multiplatform resources so the library-list popup row's Lell-typed label has a registered key. Runtime resolution is handled by the shared resolver hook in BhMenuRowClick.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```Show Game ID menu row``` | ```Adds a 'Show Game ID' row to GameHub's per-game menus. Tapping it pops a dialog with the gameId (with Copy button) so users can configure external launchers (Beacon / ES-DE / Daijishou) without grepping a logcat. Injects after the existing rows so stock behaviour is preserved.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Show PC Game Settings row``` | ```Forces the 'PC Game Settings' row to appear in the Explorer game-detail More Menu for every game type, including Steam-linked games where XiaoJi-native logic would normally hide it. Removes the single if-eqz gate immediately preceding the row's construction in Lx57;->a. Other rows keep their native gating.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Strip Ad-ID permissions``` | ```Removes the three <uses-permission> declarations that mark the app as requesting Google's advertising-ID, AdServices attribution, and AdServices ad-ID. Strengthens 'Disable Firebase Analytics': that patch disables runtime collection via Firebase's manifest kill-switch, this one removes the declared permission fingerprint that privacy scanners (Exodus Privacy etc.) flag.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Stub analytics events``` | ```Pure-stub neutralization of XiaoJi's two analytics-event reporters. Lcx5;->a (general /events POST batches) and Loh4;->b (/events/device-performance-config) early-return fake success instances before any URL string is built or HTTP client touched. Zero outbound traffic to statistic-gamehub-api.vgabc.com, zero retry attempts, zero battery / radio wake from telemetry. Internal coroutine state machines (Lbx5, Llh4, Lmh4, Lnh4) become unreachable dead code. Complements Plan 4 (Disable Firebase Analytics) and Plan 10 (Disable GMS Measurement) to fully silence XiaoJi-side, Firebase-side, and GMS-side telemetry without any Worker-side redirect or trust shift.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
@@ -3523,6 +3516,11 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
+***2 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Enable system dark theme``` | ```Synchronizes Yahoo Transit colors with the system dark theme.``` | ```Yahoo Transit``` | ```All versions``` |
+| ```Simplify interface``` | ```Reduces unnecessary visual elements.``` | ```Yahoo Transit``` | ```All versions``` |
 
 </details>
 
