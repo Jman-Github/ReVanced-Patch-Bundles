@@ -86,7 +86,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Ameen-Morphe Bundle Patch List](#-ameen-morphe-bundle-patch-list)<br>
 [🧩 Kolaron Bundle Patch List](#-kolaron-bundle-patch-list)<br>
 [🧩 ImmortalZeus Bundle Patch List](#-immortalzeus-bundle-patch-list)<br>
-[🧩 Takano536 Bundle Patch List](#-takano536-bundle-patch-list)<br>
 [🧩 Ajstrick81-AndroidTV Bundle Patch List](#-ajstrick81-androidtv-bundle-patch-list)<br>
 
 ---
@@ -3510,21 +3509,6 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 
 </details>
 
----
-### 🧩 Takano536 Bundle Patch List:
-[📦 Takano536-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-takano536-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
-
-***2 Patches***
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Enable system dark theme``` | ```Synchronizes Yahoo Transit colors with the system dark theme.``` | ```Yahoo Transit``` | ```All versions``` |
-| ```Simplify interface``` | ```Reduces unnecessary visual elements.``` | ```Yahoo Transit``` | ```All versions``` |
-
-</details>
-
----
 ### 🧩 Ajstrick81-AndroidTV Bundle Patch List:
 [📦 Ajstrick81-AndroidTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ajstrick81-androidtv-patches-bundle-morphe)
 <details open>
