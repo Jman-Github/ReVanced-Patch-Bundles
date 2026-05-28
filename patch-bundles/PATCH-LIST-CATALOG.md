@@ -3514,13 +3514,14 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***5 Patches***
+***6 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Skip ads``` | ```Prevents server-side inserted ads from playing in the video stream.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Paramount+ Android TV``` | ```Disables IMA ad loading in Paramount+``` | ```com.cbs.ott``` | ```16.8.0``` |
 | ```Disney+ Android TV``` | ```Automatically skips ads.``` | ```com.disney.disneyplus``` | ```26.6.0-rc5``` |
+| ```Skip ads``` | ```Prevents IMA DAI ad events from reaching FoxPlayer, suppressing all ad breaks.``` | ```com.tubitv``` | ```10.20.5000``` |
 | ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.stream``` | ```7.2.0.41``` |
 
 </details>

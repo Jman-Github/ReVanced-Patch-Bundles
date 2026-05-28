@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.16",
+    "version": "v1.4.17",
     "patches": [
         {
             "compatibility": [
@@ -129,6 +129,32 @@
                 "BytecodePatch"
             ],
             "description": "Prevents server-side inserted ads from playing in the video stream.",
+            "name": "Skip ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 15276060,
+                    "description": null,
+                    "name": "Tubi Android TV",
+                    "packageName": "com.tubitv",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "10.20.5000"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.tubitv": [
+                    "10.20.5000"
+                ]
+            },
+            "dependencies": [],
+            "description": "Prevents IMA DAI ad events from reaching FoxPlayer, suppressing all ad breaks.",
             "name": "Skip ads",
             "options": [],
             "use": true
