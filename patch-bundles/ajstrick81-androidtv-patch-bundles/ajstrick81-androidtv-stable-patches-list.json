@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.15",
+    "version": "v1.4.16",
     "patches": [
         {
             "compatibility": [
@@ -11,13 +11,15 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": ""
+                            "version": "26.6.0-rc5"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
-                "com.disney.disneyplus": null
+                "com.disney.disneyplus": [
+                    "26.6.0-rc5"
+                ]
             },
             "dependencies": [],
             "description": "Automatically skips ads.",
@@ -30,7 +32,7 @@
                 {
                     "appIconColor": 16777215,
                     "description": null,
-                    "name": "HBO Max",
+                    "name": "HBO Max Android TV",
                     "packageName": "com.wbd.stream",
                     "targets": [
                         {
