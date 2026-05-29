@@ -1,5 +1,5 @@
 {
-    "version": "v1.34.0-dev.2",
+    "version": "v1.35.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -944,6 +944,31 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F44336",
+                    "description": null,
+                    "name": "Showly",
+                    "packageName": "com.michaldrabik.showly2",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.70.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": []
