@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.19",
+    "version": "v1.4.20",
     "patches": [
         {
             "compatibility": [
@@ -33,7 +33,7 @@
                     "appIconColor": 16777215,
                     "description": null,
                     "name": "HBO Max Android TV",
-                    "packageName": "com.wbd.stream",
+                    "packageName": "com.wbd.hbomax",
                     "targets": [
                         {
                             "experimental": false,
@@ -43,7 +43,7 @@
                 }
             ],
             "compatiblePackages": {
-                "com.wbd.stream": [
+                "com.wbd.hbomax": [
                     "7.2.0.41"
                 ]
             },
@@ -206,7 +206,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Prevents IMA DAI ad events from reaching FoxPlayer, suppressing all ad breaks.",
+            "description": "Eliminates all Tubi ad types: blocks IMA DAI mid-roll and post-roll events from reaching FoxPlayer, prevents the IMA AdsManager from priming the cold-launch pre-roll, and suppresses the pause-screen image overlay ad.",
             "name": "Skip ads",
             "options": [],
             "use": true
