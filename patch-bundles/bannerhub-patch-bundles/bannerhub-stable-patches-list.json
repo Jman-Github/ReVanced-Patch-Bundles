@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.1-604",
+    "version": "v1.6.0-604",
     "patches": [
         {
             "compatiblePackages": {
@@ -8,7 +8,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Adds 4 vector drawables (bh_bt_vibration, bh_bt_gpu_spoof, bh_bt_renderer, bh_bt_game_id) to res/drawable. Rendered by the Banner Tools dialog's 1×4 tile row.",
+            "description": "Adds the bh_bt_* vector drawables (vibration, gpu_spoof, renderer, game_id, audio, gog) to res/drawable. Rendered by the Banner Tools dialog's tile grid.",
             "name": "Banner Tools drawables",
             "options": [],
             "use": true
@@ -288,6 +288,42 @@
                     "6.0.4"
                 ]
             },
+            "dependencies": [],
+            "description": "Adds the Explore screen's card artwork (GOG logo) to res/drawable, rendered by BannerExploreActivity's GOG card.",
+            "name": "Explore drawables",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Registers the BannerHub-owned Explore screen (BannerExploreActivity), shown when the Explore bottom-nav tab is tapped. Internal activity; content comes from a bundled manifest and cards route to BannerHub's own handlers (GOG, etc.).",
+            "name": "Explore screen activity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Opens the BannerHub-owned Explore screen when the Explore bottom-nav tab is tapped, instead of xiaoji's server-driven feed. Intercepts the bottom-nav controller's tab-select dispatch (w1a.q); fail-safe falls through to the native Explore on any error.",
+            "name": "Explore tab hijack",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
             "dependencies": [
                 "Patch",
                 "Patch"
@@ -309,6 +345,46 @@
             ],
             "description": "Adds a DocumentsProvider so that MT File Manager and other Storage Access Framework clients can browse the app's internal storage directories.",
             "name": "File manager access",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Registers the ported BannerHub-3.7.x GOG activities (login / library / detail / downloads / folder-picker). Phase 1 = standalone login + owned-library + download validation; the GameHub-library/launch bridge and the production Profile-screen entry row are deferred to Phase 2. GogMainActivity is exported in Phase 1 only as the temporary adb dev entry.",
+            "name": "GOG activities (Phase 1)",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "RETIRED (§34): the seeded library card was a handheld-only entry — explore mode is a separate library surface that never renders it. The per-game \"GOG\" menu row (GogMenuRowPatch) is now the sole, mode-independent entry. This patch now only DELETES the legacy sentinel row at MainActivity.onCreate so the card disappears on existing installs too. (Name kept stable to preserve any letter-map / dependency wiring.)",
+            "name": "GOG library card (permanent)",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "PC Vibration Settings menu row"
+            ],
+            "description": "Adds a 'GOG' row to GameHub's game-details More Menu. Tapping it opens the GOG login / library hub (GogMainActivity). Mode-independent entry point (works in handheld + explore); the seeded library card only covers handheld. Injects after the existing rows so stock behaviour is preserved.",
+            "name": "GOG menu row",
             "options": [],
             "use": true
         },
@@ -499,6 +575,33 @@
             ],
             "description": "Prepends \"v6/\" to every relative API path emitted by zdb.b(qx9, path), the single helper through which GameHub 6.0 funnels all simulator/v2/* and other catalog requests. The BannerHub Worker strips the prefix and uses it to branch 6.0-only response variants (e.g. firmware 1.3.4 vs 1.3.3, base.fileType=0 vs default 4). Pairs with Redirect catalog API — that patch swaps the host; this one tags the path. Full URLs (http://, https://) are passed through untouched so direct downloads still work.",
             "name": "Prefix API path with /v6",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Recording-compatible audio settings activity"
+            ],
+            "description": "Lets PulseAudio game audio be captured by screen recording. When the global toggle (Banner Tools → Audio) is on, appends pm=0 to the module-aaudio-sink config line so the AAudio stream leaves the MMAP fast path and sits on the normal mixer the recorder taps. Default off — stock low-latency audio, no change for non-recorders.",
+            "name": "Recording-compatible audio",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Registers BhAudioSettingsActivity in the manifest so the Banner Tools \"Audio\" tile can launch it by explicit-Intent. Internal-only (android:exported=\"false\"); no <intent-filter>.",
+            "name": "Recording-compatible audio settings activity",
             "options": [],
             "use": true
         },
