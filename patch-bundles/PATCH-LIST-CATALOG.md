@@ -3523,7 +3523,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Paramount+ Android TV``` | ```Disables IMA ad loading in Paramount+``` | ```com.cbs.ott``` | ```16.8.0``` |
 | ```Disney+ Android TV``` | ```Automatically skips ads.``` | ```com.disney.disneyplus``` | ```26.6.0+rc5-2026.04.21``` |
 | ```Skip ads``` | ```Suppresses Yospace SSAI ad events from reaching FoxPlayer and unlocks fast-forward during ad breaks.``` | ```com.foxsports.android``` | ```5.152.0``` |
-| ```Skip ads``` | ```Prevents Helio CSAI ad state from reaching the ExoPlayer pipeline, suppressing all ad breaks.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102``` |
+| ```Skip ads``` | ```Blocks Helio CSAI ad delivery via two hooks: a coroutine sentinel that prevents the ad schedule coroutine from constructing HelioAdPlaybackState, and a return-void on ComponentListener.a() that silences any AdPlaybackState updates that reach the media3 ExoPlayer timeline.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102``` |
 | ```Skip ads``` | ```Prevents IMA DAI ad events from reaching FoxPlayer, suppressing all ad breaks.``` | ```com.tubitv``` | ```10.20.5000``` |
 | ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.stream``` | ```7.2.0.41``` |
 
