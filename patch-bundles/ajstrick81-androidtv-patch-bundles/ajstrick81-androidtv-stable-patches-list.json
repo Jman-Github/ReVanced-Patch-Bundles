@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.17",
+    "version": "v1.4.18",
     "patches": [
         {
             "compatibility": [
@@ -11,14 +11,14 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "26.6.0-rc5"
+                            "version": "26.6.0+rc5-2026.04.21"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.disney.disneyplus": [
-                    "26.6.0-rc5"
+                    "26.6.0+rc5-2026.04.21"
                 ]
             },
             "dependencies": [],
@@ -102,6 +102,58 @@
             "dependencies": [],
             "description": "Integrates the Prime Video ATV extension for ad group skipping.",
             "name": "Prime Video extension",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 14183,
+                    "description": null,
+                    "name": "Fox Sports",
+                    "packageName": "com.foxsports.android",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "5.152.0"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.foxsports.android": [
+                    "5.152.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Suppresses Yospace SSAI ad events from reaching FoxPlayer and unlocks fast-forward during ad breaks.",
+            "name": "Skip ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 0,
+                    "description": null,
+                    "name": "Peacock TV Android TV",
+                    "packageName": "com.peacocktv.peacockandroid",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "7.5.102"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.peacocktv.peacockandroid": [
+                    "7.5.102"
+                ]
+            },
+            "dependencies": [],
+            "description": "Prevents Helio CSAI ad state from reaching the ExoPlayer pipeline, suppressing all ad breaks.",
+            "name": "Skip ads",
             "options": [],
             "use": true
         },
