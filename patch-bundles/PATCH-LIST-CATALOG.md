@@ -3532,7 +3532,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disney+ Android TV``` | ```Automatically skips ads.``` | ```com.disney.disneyplus``` | ```26.6.0+rc5-2026.04.21``` |
 | ```Skip ads``` | ```Suppresses Yospace SSAI ad events from reaching FoxPlayer and unlocks fast-forward during ad breaks.``` | ```com.foxsports.android``` | ```5.152.0``` |
 | ```Skip ads``` | ```Blocks Helio CSAI ad delivery via two hooks: a coroutine sentinel that prevents the ad schedule coroutine from constructing HelioAdPlaybackState, and a return-void on ComponentListener.a() that silences any AdPlaybackState updates that reach the media3 ExoPlayer timeline.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102``` |
-| ```Skip ads``` | ```Eliminates all Tubi ad types: blocks IMA DAI mid-roll and post-roll events from reaching FoxPlayer, prevents the IMA AdsManager from priming the cold-launch pre-roll, and suppresses the pause-screen image overlay ad.``` | ```com.tubitv``` | ```10.20.5000``` |
+| ```Skip ads``` | ```Eliminates all Tubi ad types: intercepts DAI stream requests before they reach dai.google.com to prevent pre-roll stitching, blocks IMA ad events from reaching FoxPlayer, prevents AdsManager from priming the cold-launch pre-roll, and suppresses the pause-screen image overlay ad.``` | ```com.tubitv``` | ```10.20.5000``` |
 | ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.hbomax``` | ```7.2.0.41``` |
 
 </details>

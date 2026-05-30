@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.20",
+    "version": "v1.4.21",
     "patches": [
         {
             "compatibility": [
@@ -206,7 +206,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Eliminates all Tubi ad types: blocks IMA DAI mid-roll and post-roll events from reaching FoxPlayer, prevents the IMA AdsManager from priming the cold-launch pre-roll, and suppresses the pause-screen image overlay ad.",
+            "description": "Eliminates all Tubi ad types: intercepts DAI stream requests before they reach dai.google.com to prevent pre-roll stitching, blocks IMA ad events from reaching FoxPlayer, prevents AdsManager from priming the cold-launch pre-roll, and suppresses the pause-screen image overlay ad.",
             "name": "Skip ads",
             "options": [],
             "use": true
