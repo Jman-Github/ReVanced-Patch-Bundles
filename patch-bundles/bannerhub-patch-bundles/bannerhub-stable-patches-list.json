@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-604",
+    "version": "v1.7.0-604",
     "patches": [
         {
             "compatiblePackages": {
@@ -315,6 +315,18 @@
             "dependencies": [],
             "description": "Opens the BannerHub-owned Explore screen when the Explore bottom-nav tab is tapped, instead of xiaoji's server-driven feed. Intercepts the bottom-nav controller's tab-select dispatch (w1a.q); fail-safe falls through to the native Explore on any error.",
             "name": "Explore tab hijack",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bundles the build's own version (assets/bh_version.json) so the Explore screen can compare it against the latest release and show an in-app update banner.",
+            "name": "Explore version stamp",
             "options": [],
             "use": true
         },

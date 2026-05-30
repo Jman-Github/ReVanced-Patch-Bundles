@@ -3409,7 +3409,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***49 Patches***
+***50 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Banner Tools drawables``` | ```Adds the bh_bt_* vector drawables (vibration, gpu_spoof, renderer, game_id, audio, gog) to res/drawable. Rendered by the Banner Tools dialog's tile grid.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
@@ -3426,6 +3426,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Explore drawables``` | ```Adds the Explore screen's card artwork (GOG logo) to res/drawable, rendered by BannerExploreActivity's GOG card.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Explore screen activity``` | ```Registers the BannerHub-owned Explore screen (BannerExploreActivity), shown when the Explore bottom-nav tab is tapped. Internal activity; content comes from a bundled manifest and cards route to BannerHub's own handlers (GOG, etc.).``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Explore tab hijack``` | ```Opens the BannerHub-owned Explore screen when the Explore bottom-nav tab is tapped, instead of xiaoji's server-driven feed. Intercepts the bottom-nav controller's tab-select dispatch (w1a.q); fail-safe falls through to the native Explore on any error.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```Explore version stamp``` | ```Bundles the build's own version (assets/bh_version.json) so the Explore screen can compare it against the latest release and show an in-app update banner.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```External launcher support``` | ```Enables launching games from external frontends like ES-DE, Daijishou, and Beacon. Keeps PlayDay's 5.3.5 '<variant_package>.LAUNCH_GAME' intent contract; translates the 5.3.5 extras (steamAppId / localGameId / autoStartGame) onto GameHub 6.0.4's native DeepLinkActivity 'app_nav_*' dispatch.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```File manager access``` | ```Adds a DocumentsProvider so that MT File Manager and other Storage Access Framework clients can browse the app's internal storage directories.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```GOG activities (Phase 1)``` | ```Registers the ported BannerHub-3.7.x GOG activities (login / library / detail / downloads / folder-picker). Phase 1 = standalone login + owned-library + download validation; the GameHub-library/launch bridge and the production Profile-screen entry row are deferred to Phase 2. GogMainActivity is exported in Phase 1 only as the temporary adb dev entry.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
