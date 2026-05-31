@@ -87,6 +87,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Kolaron Bundle Patch List](#-kolaron-bundle-patch-list)<br>
 [🧩 ImmortalZeus Bundle Patch List](#-immortalzeus-bundle-patch-list)<br>
 [🧩 Ajstrick81-AndroidTV Bundle Patch List](#-ajstrick81-androidtv-bundle-patch-list)<br>
+[🧩 Icysymmetra-TikTok Bundle Patch List](#-icysymmetra-tiktok-bundle-patch-list)<br>
+[🧩 AlexNaga Bundle Patch List](#-alexnaga-bundle-patch-list)<br>
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -3522,5 +3524,23 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Paramount+ Android TV``` | ```Disables IMA ad loading in Paramount+``` | ```com.cbs.ott``` | ```16.8.0``` |
 | ```Disney+ Android TV``` | ```Automatically skips ads.``` | ```com.disney.disneyplus``` | ```All versions``` |
 | ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.stream``` | ```7.2.0.41``` |
+
+</details>
+
+---
+### 🧩 Icysymmetra-TikTok Bundle Patch List:
+[📦 Icysymmetra-TikTok-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-icysymmetra-tiktok-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+</details>
+
+---
+### 🧩 AlexNaga Bundle Patch List:
+[📦 AlexNaga-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-alexnaga-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
 
 </details>
