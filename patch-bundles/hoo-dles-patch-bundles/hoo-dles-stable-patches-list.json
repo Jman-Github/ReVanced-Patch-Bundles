@@ -1,5 +1,5 @@
 {
-    "version": "v1.33.0",
+    "version": "v1.34.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -858,7 +858,7 @@
                     "apkFileType": null,
                     "appIconColor": "#000000",
                     "description": null,
-                    "name": "Macro Factor",
+                    "name": "MacroFactor",
                     "packageName": "com.sbs.diet",
                     "signatures": null,
                     "targets": [
@@ -874,7 +874,7 @@
                     "apkFileType": null,
                     "appIconColor": "#000000",
                     "description": null,
-                    "name": "Macro Factor Workouts",
+                    "name": "MacroFactor Workouts",
                     "packageName": "com.sbs.train",
                     "signatures": null,
                     "targets": [
@@ -882,7 +882,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.1.7"
+                            "version": "1.2.1"
                         }
                     ]
                 }
@@ -892,7 +892,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Enables app features locked behind the subscription paywall.",
+            "description": "REQUIRES ROOT MOUNT INSTALL! Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": []
         },
@@ -944,6 +944,31 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#80C583",
+                    "description": null,
+                    "name": "Sleep as Android",
+                    "packageName": "com.urbandroid.sleep",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "20260526"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": []
@@ -1750,47 +1775,6 @@
             ],
             "description": "Automatically skips ads baked into the video stream.",
             "name": "Skip ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#000000",
-                    "description": null,
-                    "name": "Macro Factor",
-                    "packageName": "com.sbs.diet",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.7.8"
-                        }
-                    ]
-                },
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#000000",
-                    "description": null,
-                    "name": "Macro Factor Workouts",
-                    "packageName": "com.sbs.train",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.1.7"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Spoof package signature for Firebase app check.",
-            "name": "Spoof signature",
             "options": []
         },
         {
