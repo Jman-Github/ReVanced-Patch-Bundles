@@ -3546,6 +3546,20 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
+***11 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable login requirement``` | ```Disables mandatory login for TikTok. (Supports TikTok 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
+| ```Downloads``` | ```Downloads videos without watermark and adds download-related controls. (Supports TikTok 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
+| ```Enable Open Debug``` | ```Uses TikTok's hidden Open Debug settings cell as the entry point for Morphe settings. Required for the Morphe settings menu to appear. Supports TikTok 43.8.3.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
+| ```Feed filter``` | ```Removes ads, livestreams, stories, image videos and videos with a specific amount of views or likes from the feed. (Supports TikTok 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
+| ```Fix Google login``` | ```Allows logging in with a Google account. (Supports TikTok 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
+| ```Playback speed``` | ```Enables the playback speed option for all videos and retains the speed configurations in between videos. (Supports TikTok 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
+| ```Remember clear display``` | ```Remembers the clear display configurations in between videos. (Supports TikTok 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
+| ```Sanitize sharing links``` | ```Removes tracking parameters from shared links. (Supports TikTok 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
+| ```Settings``` | ```Adds Morphe settings to TikTok. Supports TikTok 43.8.3.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
+| ```Show seekbar``` | ```Shows a progress bar for all videos. (Supports TikTok 43.8.3.)``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
+| ```SIM spoof``` | ```Spoofs SIM country and operator information retrieved by TikTok.``` | ```com.ss.android.ugc.trill, com.zhiliaoapp.musically``` | ```43.8.3, 43.8.3``` |
 
 </details>
 
@@ -3555,5 +3569,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
+***2 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Dark mode``` | ```Applies a dark theme to all backgrounds, dialogs, and popups.``` | ```se.matlistan.free``` | ```3.10.0``` |
+| ```Enable Premium``` | ```Removes item/list limits and unlocks premium features (copy to list, manual sort, etc.).``` | ```se.matlistan.free``` | ```3.10.0``` |
 
 </details>
