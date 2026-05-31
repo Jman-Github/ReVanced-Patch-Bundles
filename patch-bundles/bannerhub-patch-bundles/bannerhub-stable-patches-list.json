@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0-604",
+    "version": "v1.8.0-604",
     "patches": [
         {
             "compatiblePackages": {
@@ -8,7 +8,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Adds the bh_bt_* vector drawables (vibration, gpu_spoof, renderer, game_id, audio, gog) to res/drawable. Rendered by the Banner Tools dialog's tile grid.",
+            "description": "Adds the bh_bt_* vector drawables (vibration, gpu_spoof, renderer, game_id, audio, gog, overlay, root) to res/drawable. Rendered by the Banner Tools dialog's tile grid.",
             "name": "Banner Tools drawables",
             "options": [],
             "use": true
@@ -301,6 +301,18 @@
                 ]
             },
             "dependencies": [],
+            "description": "Bundles the Explore manifest (assets/bh_explore.json) so the Explore screen shows BannerHub's shipped rails offline on a fresh install, instead of falling back to an older cached release manifest.",
+            "name": "Explore manifest asset",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
             "description": "Registers the BannerHub-owned Explore screen (BannerExploreActivity), shown when the Explore bottom-nav tab is tapped. Internal activity; content comes from a bundled manifest and cards route to BannerHub's own handlers (GOG, etc.).",
             "name": "Explore screen activity",
             "options": [],
@@ -439,6 +451,20 @@
             "dependencies": [],
             "description": "Registers BhGpuSpoofSettingsActivity in the manifest so the per-game GPU-identity dialog can be launched by explicit-Intent. Internal-only (android:exported=\"false\"); no <intent-filter>.",
             "name": "GPU spoof settings activity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Adds a draggable edge pill + slide-out panel over the Wine game surface with two root-gated toggles — Sustained Performance Mode (locks all CPU cores to the 'performance' governor) and Max Adreno Clocks (pins the KGSL GPU min_freq to max_freq). Both auto-revert to defaults when the game exits. Root is checked once and cached; the toggles are greyed until granted.",
+            "name": "In-game performance overlay",
             "options": [],
             "use": true
         },
