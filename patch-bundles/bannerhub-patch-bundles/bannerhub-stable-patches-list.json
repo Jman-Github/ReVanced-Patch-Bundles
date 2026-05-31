@@ -192,6 +192,20 @@
                     "6.0.4"
                 ]
             },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Neutralises the Alibaba/Aliyun carrier one-tap phone-login SDK (com.mobile.auth.gatewayauth.*). Stubs the sole System.loadLibrary site for libpns-*-alijtca_plus.so to a no-op, then strips the native lib. Dead weight under BannerHub's login bypass and an identity / anti-tamper fingerprint surface. ~0.5 MB APK reduction.",
+            "name": "Disable Aliyun NumberAuth",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
             "dependencies": [],
             "description": "Adds Firebase's manifest kill-switch <meta-data> entries so the bundled Firebase Analytics SDK never initializes data collection. Stops all auto-collected and custom events from being sent to app-measurement.com. Firebase Cloud Messaging, Firebase Auth, and Firebase Remote Config are unaffected (GameHub 6.0.4 bundles Remote Config but never invokes it — verified zero call sites in the host APK).",
             "name": "Disable Firebase Analytics",
@@ -749,6 +763,42 @@
             "name": "Strip Ad-ID permissions",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Removes the avif-coil AVIF/HEIC/HEIF image-codec native stack (libcoder + libheif/libaom/libx265/libde265/libdav1d, ~12.7 MB). The two avif-coil Coil Decoder.Factory.create() methods are stubbed to return null so Coil falls back to the Android platform decoder (which natively handles HEIF/AVIF on modern Android); the avif-coil native path is then unreachable and the libs strip safely. JPEG/PNG/WebP/GIF unaffected.",
+            "name": "Strip AVIF/HEIC codecs",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Removes the Haima cloud-gaming stack (~21.5 MB): the 4 Haima WebRTC/IJK native libs and the features.cloud Compose asset module. Stubs the IjkMediaPlayer + hmwebrtc native load sites first so the strip cannot crash if a cloud entry point is reached. Cloud gaming is non-functional under the BannerHub catalog redirect anyway.",
+            "name": "Strip cloud gaming",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Removes the unreferenced 20 MB duplicate copy of misans_vf.ttf shipped under the com.xiaoji.egggame.core Compose namespace. The live copy under com.xiaoji.egggame.cardsystem (the only one any code path loads) is left untouched. ~20 MB APK reduction, no functional change.",
+            "name": "Strip duplicate font",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
