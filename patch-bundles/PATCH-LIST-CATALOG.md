@@ -661,7 +661,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***117 Patches***
+***118 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add settings``` | ```Adds settings to control preferences are patching``` | ```Instagram``` | ```All versions``` |
@@ -706,6 +706,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Unlock developer options``` | ```Unlocks developer option by long pressing home icon``` | ```Instagram``` | ```All versions``` |
 | ```Unlock employee options``` | ```Unlocks all options using by employee for debugging``` | ```Instagram``` | ```All versions``` |
 | ```Unlock Plus benefits``` | ```Unlocks 'Plus' subscription benefits that are checked locally. USE IT AT YOUR OWN RISK``` | ```Instagram``` | ```All versions``` |
+| ```Validate links``` | ```Fixes app crashing issue while opening links from a different app``` | ```Instagram``` | ```All versions``` |
 | ```View DMs anonymously``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```View live anonymously``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```View stories anonymously``` | ```N/A``` | ```Instagram``` | ```All versions``` |
