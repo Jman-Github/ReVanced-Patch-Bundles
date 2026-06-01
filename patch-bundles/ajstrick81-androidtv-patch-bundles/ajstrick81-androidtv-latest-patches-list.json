@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.32",
+    "version": "v1.4.34",
     "patches": [
         {
             "compatibility": [
@@ -11,18 +11,18 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "26.6.0+rc5-2026.04.21"
+                            "version": "26.8.0+rc6-2026.05.20"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.disney.disneyplus": [
-                    "26.6.0+rc5-2026.04.21"
+                    "26.8.0+rc6-2026.05.20"
                 ]
             },
             "dependencies": [],
-            "description": "Automatically skips ads.",
+            "description": "Removes mid-roll / pre-roll ads and pause ads.",
             "name": "Disney+ Android TV",
             "options": [],
             "use": true
@@ -63,18 +63,18 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "16.8.0"
+                            "version": "16.12.0"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.cbs.ott": [
-                    "16.8.0"
+                    "16.12.0"
                 ]
             },
             "dependencies": [],
-            "description": "Disables IMA ad loading in Paramount+",
+            "description": "Removes VOD ads and pause ads.",
             "name": "Paramount+ Android TV",
             "options": [],
             "use": true
