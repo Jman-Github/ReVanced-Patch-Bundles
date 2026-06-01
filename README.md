@@ -1160,6 +1160,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+### 📦 Rushiranpise-Patches-Bundle [Morphe]:
+[🧩 Rushiranpise Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-rushiranpise-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rushiranpise-patch-bundles/rushiranpise-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rushiranpise-patch-bundles/rushiranpise-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rushiranpise-patch-bundles/rushiranpise-dev-patches-bundle.json```
+</details>
+
+---
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -1344,6 +1357,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Icysymmetra-TikTok-Patches-Bundle](https://github.com/icysymmetra/tiktok-patches-for-morphe)
 
 #### 🏷️ [AlexNaga-Patches-Bundle](https://github.com/AlexNaga/android-patches)
+
+#### 🏷️ [Rushiranpise-Patches-Bundle](https://github.com/rushiranpise/morphe-patches)
 
 
 </details>

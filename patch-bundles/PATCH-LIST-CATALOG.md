@@ -89,6 +89,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 Ajstrick81-AndroidTV Bundle Patch List](#-ajstrick81-androidtv-bundle-patch-list)<br>
 [🧩 Icysymmetra-TikTok Bundle Patch List](#-icysymmetra-tiktok-bundle-patch-list)<br>
 [🧩 AlexNaga Bundle Patch List](#-alexnaga-bundle-patch-list)<br>
+[🧩 Rushiranpise Bundle Patch List](#-rushiranpise-bundle-patch-list)<br>
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
@@ -3552,6 +3553,15 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 AlexNaga Bundle Patch List:
 [📦 AlexNaga-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-alexnaga-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+
+</details>
+
+---
+### 🧩 Rushiranpise Bundle Patch List:
+[📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
