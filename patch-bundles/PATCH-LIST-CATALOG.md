@@ -3614,5 +3614,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
+***2 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Remove pairip protection``` | ```Restores obfuscated strings and removes pairip bytecode protection.``` | ```Universal``` | ```All versions``` |
+| ```Restore extracted methods``` | ```Inlines methods hidden in helper classes back into the host class and removes the helper classes.``` | ```Universal``` | ```All versions``` |
 
 </details>

@@ -1,0 +1,21 @@
+{
+    "version": "v1.2.0",
+    "patches": [
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Restores obfuscated strings and removes pairip bytecode protection.",
+            "name": "Remove pairip protection",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Inlines methods hidden in helper classes back into the host class and removes the helper classes.",
+            "name": "Restore extracted methods",
+            "options": []
+        }
+    ]
+}
