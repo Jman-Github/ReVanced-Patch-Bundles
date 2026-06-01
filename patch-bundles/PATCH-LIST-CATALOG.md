@@ -3592,5 +3592,17 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
+***9 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable Analytics / Telemetry``` | ```Try's to Disables App Analytics / Telemetry.``` | ```1.1.1.1 + WARP``` | ```All versions``` |
+| ```Spoof WARP+ Unlimited UI``` | ```Unlocks WARP+ UI locally.``` | ```1.1.1.1 + WARP``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Call Recorder - Automatic``` | ```All versions``` |
+| ```Remove Ads``` | ```Removes interstitial, app-open and native ads from Case Tracker — Immigration.``` | ```Case Tracker - Immigration``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks all premium features and removes ads in Case Tracker — Immigration.``` | ```Case Tracker - Immigration``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks all Citizen Pro/Protect features including Safety Network.``` | ```Citizen - Safety Alert``` | ```All versions``` |
+| ```Disable Ads``` | ```Prevents the AppOpen ad preloader from initialising.``` | ```Universal TV Remote Control``` | ```All versions``` |
+| ```Suppress Paywall``` | ```Suppresses the CHECK_PREMIUM broadcast that launches the paywall screen.``` | ```Universal TV Remote Control``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium features in Universal TV Remote Control.``` | ```Universal TV Remote Control``` | ```All versions``` |
 
 </details>
