@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.5",
+    "version": "v1.3.0-dev.11",
     "patches": [
         {
             "compatiblePackages": [
@@ -55,6 +55,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#1E3A5F",
+                    "description": null,
+                    "name": "Rocket Money: Budget & Finance",
+                    "packageName": "com.truebill",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Disables Firebase Analytics, Singular, Braze, and Intercom tracking SDKs.",
+            "name": "Disable Analytics / Tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#1565C0",
                     "description": null,
                     "name": "Case Tracker - Immigration",
@@ -74,6 +99,31 @@
             "dependencies": [],
             "description": "Removes interstitial, app-open and native ads from Case Tracker — Immigration.",
             "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1E3A5F",
+                    "description": null,
+                    "name": "Rocket Money: Budget & Finance",
+                    "packageName": "com.truebill",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Intercepts OkHttp responses from rocketmoney.com and patches featureEntitlements, premium plan, paymentMethod, and all related fields to unlock premium features.",
+            "name": "Spoof GraphQL premium response",
             "options": []
         },
         {
