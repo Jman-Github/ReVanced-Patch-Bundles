@@ -1173,6 +1173,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+### 📦 Sjshb57-PairIP-Patches-Bundle [Morphe]:
+[🧩 Sjshb57-PairIP Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-sjshb57-pairip-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sjshb57-pairip-patch-bundles/sjshb57-pairip-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sjshb57-pairip-patch-bundles/sjshb57-pairip-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sjshb57-pairip-patch-bundles/sjshb57-pairip-dev-patches-bundle.json```
+</details>
+
+---
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -1359,6 +1372,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [AlexNaga-Patches-Bundle](https://github.com/AlexNaga/android-patches)
 
 #### 🏷️ [Rushiranpise-Patches-Bundle](https://github.com/rushiranpise/morphe-patches)
+
+#### 🏷️ [Sjshb57-PairIP-Patches-Bundle](https://github.com/sjshb57/pairip-patches)
 
 
 </details>
