@@ -662,7 +662,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***117 Patches***
+***118 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add settings``` | ```Adds settings to control preferences are patching``` | ```Instagram``` | ```All versions``` |
@@ -707,6 +707,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Unlock developer options``` | ```Unlocks developer option by long pressing home icon``` | ```Instagram``` | ```All versions``` |
 | ```Unlock employee options``` | ```Unlocks all options using by employee for debugging``` | ```Instagram``` | ```All versions``` |
 | ```Unlock Plus benefits``` | ```Unlocks 'Plus' subscription benefits that are checked locally. USE IT AT YOUR OWN RISK``` | ```Instagram``` | ```All versions``` |
+| ```Validate links``` | ```Fixes app crashing issue while opening links from a different app``` | ```Instagram``` | ```All versions``` |
 | ```View DMs anonymously``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```View live anonymously``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```View stories anonymously``` | ```N/A``` | ```Instagram``` | ```All versions``` |
@@ -3412,14 +3413,15 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***50 Patches***
+***56 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Banner Tools drawables``` | ```Adds the bh_bt_* vector drawables (vibration, gpu_spoof, renderer, game_id, audio, gog) to res/drawable. Rendered by the Banner Tools dialog's tile grid.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```Banner Tools drawables``` | ```Adds the bh_bt_* vector drawables (vibration, gpu_spoof, renderer, game_id, audio, gog, overlay, root) to res/drawable. Rendered by the Banner Tools dialog's tile grid.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Banner Tools menu row``` | ```Adds a single 'Banner Tools' row to GameHub's per-game menus. Tapping it opens a dialog with PC Vibration / GPU Spoof / Renderer / Show Game ID entries that dispatch into the existing per-feature handlers. Replaces the 4 standalone BannerHub rows to keep the per-game menu short.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Bypass login``` | ```Bypasses the login requirement by replacing the auth-session StateFlow getters with synthetic always-true / always-non-null values, plus short-circuiting the navigator gates and the navigation interceptor.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Change app icon``` | ```Replaces five drawables in the patched APK with BannerHub branding: the launcher adaptive-icon foreground (deleting the stock vector so the new raster wins on every density), the in-app Wine logo, the auth-screen landscape + overseas logos, and the splash screen banner — the last three are shipped as Compose Multiplatform resources under assets/composeResources/. Background drawable and CN-locale variants are left as-is.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Debug logging``` | ```Marks the APK debuggable and routes diagnostic probes through DebugTrace. Writes to logcat with tag GH600-DEBUG at Log.i level (the device filter strips app-tagged Log.e but lets Log.i through) and also appends to a file on external storage at /storage/emulated/0/Android/data/com.xiaoji.egggame/files/gh600-debug.log as a backup channel.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```Disable Aliyun NumberAuth``` | ```Neutralises the Alibaba/Aliyun carrier one-tap phone-login SDK (com.mobile.auth.gatewayauth.*). Stubs the sole System.loadLibrary site for libpns-*-alijtca_plus.so to a no-op, then strips the native lib. Dead weight under BannerHub's login bypass and an identity / anti-tamper fingerprint surface. ~0.5 MB APK reduction.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Disable Firebase Analytics``` | ```Adds Firebase's manifest kill-switch <meta-data> entries so the bundled Firebase Analytics SDK never initializes data collection. Stops all auto-collected and custom events from being sent to app-measurement.com. Firebase Cloud Messaging, Firebase Auth, and Firebase Remote Config are unaffected (GameHub 6.0.4 bundles Remote Config but never invokes it — verified zero call sites in the host APK).``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Disable Firebase Crashlytics``` | ```Skips Firebase Crashlytics initialization in Application.onCreate to fix crash on launch.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Disable GMS Measurement``` | ```Disables the three Google Play Services Measurement manifest components (AppMeasurementReceiver, AppMeasurementService, AppMeasurementJobService) by flipping android:enabled to false. Complementary to 'Disable Firebase Analytics' — that patch stops the bundled Firebase SDK from initialising, but GMS Measurement runs as a separate Play Services component and is unaffected by Firebase's manifest kill switch. With both patches applied, no app_instance_id / session_id is written to GMS-side shared_prefs and the Play Services-backed analytics pipeline stays dormant.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
@@ -3427,6 +3429,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disable Mob Push tracking``` | ```Stops the bundled Mob Push SDK (com.mob.*) from initialising. Removes the two policy-grant call sites in XiaoJi's bootstrap code and the push-receiver registration in BaseAndroidApp.onCreate, then disables every Mob-namespaced <provider>/<service>/<receiver>/<activity> in the manifest so the SDK can't bootstrap via its ContentProvider auto-init either. Inbound push delivery and Mob's device-ID collection (MobIDService/MobIDActivity) are both stopped. The 'cn.fly.*' Mob analytics submodule is neutralised by the same rules.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Disable OTA updates``` | ```Neutralises the periodic phone-home check at https://www.xiaoji.com/firmware/update/x1 by overwriting the URL register with http://127.0.0.1 immediately after the const-string load. The OTA call then fails silently with a connection-refused. Also strips the JieLi gamepad-firmware native libs (libJieLiUsbOta.so, libjl_ota_auth.so) which are dead weight on phone installs.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Explore drawables``` | ```Adds the Explore screen's card artwork (GOG logo) to res/drawable, rendered by BannerExploreActivity's GOG card.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```Explore manifest asset``` | ```Bundles the Explore manifest (assets/bh_explore.json) so the Explore screen shows BannerHub's shipped rails offline on a fresh install, instead of falling back to an older cached release manifest.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Explore screen activity``` | ```Registers the BannerHub-owned Explore screen (BannerExploreActivity), shown when the Explore bottom-nav tab is tapped. Internal activity; content comes from a bundled manifest and cards route to BannerHub's own handlers (GOG, etc.).``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Explore tab hijack``` | ```Opens the BannerHub-owned Explore screen when the Explore bottom-nav tab is tapped, instead of xiaoji's server-driven feed. Intercepts the bottom-nav controller's tab-select dispatch (w1a.q); fail-safe falls through to the native Explore on any error.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Explore version stamp``` | ```Bundles the build's own version (assets/bh_version.json) so the Explore screen can compare it against the latest release and show an in-app update banner.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
@@ -3438,6 +3441,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```GPU spoof DXVK plumbing``` | ```Force-writes dxgi/d3d9/dxvk customVendorId/customDeviceId into a per-game dxvk.conf and points DXVK_CONFIG_FILE at it, after the Wine env builder's conditional DXVK block, so the spoof always applies. No-ops when the game's spoof mode is Off.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```GPU Spoof menu row``` | ```Adds a 'GPU Spoof' row to GameHub's per-game menus. Tapping it launches BhGpuSpoofSettingsActivity scoped to the active game. Injects after the existing rows so stock behaviour is preserved.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```GPU spoof settings activity``` | ```Registers BhGpuSpoofSettingsActivity in the manifest so the per-game GPU-identity dialog can be launched by explicit-Intent. Internal-only (android:exported="false"); no <intent-filter>.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```In-game performance overlay``` | ```Adds a draggable edge pill + slide-out panel over the Wine game surface with two root-gated toggles — Sustained Performance Mode (locks all CPU cores to the 'performance' governor) and Max Adreno Clocks (pins the KGSL GPU min_freq to max_freq). Both auto-revert to defaults when the game exits. Root is checked once and cached; the toggles are greyed until granted.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Legacy renderer conditional swap``` | ```Per-game gates the proven 6.0.2 libxserver swap + JNI bridge: adds the setRenderingEnabled native, routes XServer's loadLibrary and setFlipEnabled call sites through BhRendererController. New mode = stock, zero regression.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Legacy renderer libxserver bundle``` | ```Bundles the 6.0.2 GLES2-era libxserver.so + libwinemu.so as *_legacy.so alongside the stock 6.0.4 ones (additive, never overwrites stock). The conditional loaders choose per game.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Local game-id assignment``` | ```On app start, scans GameHub's library DB for games stuck at a sentinel server_game_id (-1 for PC imports without a catalog match; 0 for Epic-library and GOG-imported games) and rewrites each one with a stable synthetic integer derived from the row's local_* UUID. After the scan, those games become individually addressable instead of all colliding on the same sentinel value. Note: unique IDs are necessary but not sufficient for Beacon/ES-DE launching of Epic/GOG games — the source-specific dispatch path is a separate patch. Idempotent and self-healing: rows whose ID is later overwritten by GameHub with a real catalog value are left alone on re-run.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
@@ -3458,6 +3462,8 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Show Game ID menu row``` | ```Adds a 'Show Game ID' row to GameHub's per-game menus. Tapping it pops a dialog with the gameId (with Copy button) so users can configure external launchers (Beacon / ES-DE / Daijishou) without grepping a logcat. Injects after the existing rows so stock behaviour is preserved.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Show PC Game Settings row``` | ```Forces the 'PC Game Settings' row to appear in the Explorer game-detail More Menu for every game type, including Steam-linked games where XiaoJi-native logic would normally hide it. Removes the single if-eqz gate immediately preceding the row's construction in Lx57;->a. Other rows keep their native gating.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Strip Ad-ID permissions``` | ```Removes the three <uses-permission> declarations that mark the app as requesting Google's advertising-ID, AdServices attribution, and AdServices ad-ID. Strengthens 'Disable Firebase Analytics': that patch disables runtime collection via Firebase's manifest kill-switch, this one removes the declared permission fingerprint that privacy scanners (Exodus Privacy etc.) flag.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```Strip AVIF/HEIC codecs``` | ```Removes the avif-coil AVIF/HEIC/HEIF image-codec native stack (libcoder + libheif/libaom/libx265/libde265/libdav1d, ~12.7 MB). The two avif-coil Coil Decoder.Factory.create() methods are stubbed to return null so Coil falls back to the Android platform decoder (which natively handles HEIF/AVIF on modern Android); the avif-coil native path is then unreachable and the libs strip safely. JPEG/PNG/WebP/GIF unaffected.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
+| ```Strip cloud gaming``` | ```Removes the Haima cloud-gaming stack (~21.5 MB): the 4 Haima WebRTC/IJK native libs and the features.cloud Compose asset module. Stubs the IjkMediaPlayer + hmwebrtc native load sites first so the strip cannot crash if a cloud entry point is reached. Cloud gaming is non-functional under the BannerHub catalog redirect anyway.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Stub analytics events``` | ```Pure-stub neutralization of XiaoJi's two analytics-event reporters. Lcx5;->a (general /events POST batches) and Loh4;->b (/events/device-performance-config) early-return fake success instances before any URL string is built or HTTP client touched. Zero outbound traffic to statistic-gamehub-api.vgabc.com, zero retry attempts, zero battery / radio wake from telemetry. Internal coroutine state machines (Lbx5, Llh4, Lmh4, Lnh4) become unreachable dead code. Complements Plan 4 (Disable Firebase Analytics) and Plan 10 (Disable GMS Measurement) to fully silence XiaoJi-side, Firebase-side, and GMS-side telemetry without any Worker-side redirect or trust shift.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Vibration settings activity``` | ```Registers BhVibrationSettingsActivity in the manifest so the Mode/Intensity dialog can be launched by an explicit-Intent from anywhere. Internal-only (android:exported="false"); no <intent-filter>.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Change app name``` | ```Changes the display name of the app in the launcher.``` | ```Universal``` | ```All versions``` |
@@ -3465,6 +3471,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Custom network security``` | ```Allows trusting custom certificate authorities for a specific domain.``` | ```Universal``` | ```All versions``` |
 | ```Enable Android debugging``` | ```Enables Android debugging capabilities. This can slow down the app.``` | ```Universal``` | ```All versions``` |
 | ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
+| ```Strip duplicate font``` | ```Removes the unreferenced 20 MB duplicate copy of misans_vf.ttf shipped under the com.xiaoji.egggame.core Compose namespace. The live copy under com.xiaoji.egggame.cardsystem (the only one any code path loads) is left untouched. ~20 MB APK reduction, no functional change.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -3527,14 +3534,15 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***8 Patches***
+***9 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Skip ads``` | ```Prevents server-side inserted ads from playing in the video stream.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Paramount+ Android TV``` | ```Disables IMA ad loading in Paramount+``` | ```com.cbs.ott``` | ```16.8.0``` |
 | ```Disney+ Android TV``` | ```Automatically skips ads.``` | ```com.disney.disneyplus``` | ```26.6.0+rc5-2026.04.21``` |
-| ```Skip ads``` | ```Suppresses Yospace SSAI ad events from reaching FoxPlayer and unlocks fast-forward during ad breaks.``` | ```com.foxsports.android``` | ```5.152.0``` |
+| ```Skip ads``` | ```Suppresses all ad delivery systems in Fox One Android TV.``` | ```com.fox.foxone``` | ```1.9.2``` |
+| ```Skip ads``` | ```Suppresses all ad delivery systems in Fox Sports Android TV.``` | ```com.foxsports.android``` | ```5.152.0``` |
 | ```Skip ads``` | ```Blocks Helio CSAI ad delivery via two hooks: a coroutine sentinel that prevents the ad schedule coroutine from constructing HelioAdPlaybackState, and a return-void on ComponentListener.a() that silences any AdPlaybackState updates that reach the media3 ExoPlayer timeline.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102``` |
 | ```Skip ads``` | ```Eliminates all Tubi ad types: intercepts DAI stream requests before they reach dai.google.com to prevent pre-roll stitching, blocks IMA ad events from reaching FoxPlayer, prevents AdsManager from priming the cold-launch pre-roll, and suppresses the pause-screen image overlay ad.``` | ```com.tubitv``` | ```10.20.5000``` |
 | ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.hbomax``` | ```7.2.0.41``` |
@@ -3547,6 +3555,20 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
+***11 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable login requirement``` | ```Disables mandatory login for TikTok. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
+| ```Downloads``` | ```Downloads videos without watermark and adds download-related controls. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
+| ```Enable Open Debug``` | ```Uses TikTok's hidden Open Debug settings cell as the entry point for Morphe settings. Required for the Morphe settings menu to appear. Supports TikTok 43.8.3.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
+| ```Feed filter``` | ```Removes ads, livestreams, stories, image videos and videos with a specific amount of views or likes from the feed. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
+| ```Fix Google login``` | ```Allows logging in with a Google account. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
+| ```Playback speed``` | ```Enables the playback speed option for all videos and retains the speed configurations in between videos. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
+| ```Remember clear display``` | ```Remembers the clear display configurations in between videos. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
+| ```Sanitize sharing links``` | ```Removes tracking parameters from shared links. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
+| ```Settings``` | ```Adds Morphe settings to TikTok. Supports TikTok 43.8.3.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
+| ```Show seekbar``` | ```Shows a progress bar for all videos. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
+| ```SIM spoof``` | ```Spoofs SIM country and operator information retrieved by TikTok.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
 
 </details>
 
@@ -3556,6 +3578,11 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
+***2 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Dark mode``` | ```Applies a dark theme to all backgrounds, dialogs, and popups.``` | ```se.matlistan.free``` | ```3.10.0``` |
+| ```Enable Premium``` | ```Removes item/list limits and unlocks premium features (copy to list, manual sort, etc.).``` | ```se.matlistan.free``` | ```3.10.0``` |
 
 </details>
 

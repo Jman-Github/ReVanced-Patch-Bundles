@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.27",
+    "version": "v1.4.32",
     "patches": [
         {
             "compatibility": [
@@ -108,9 +108,35 @@
         {
             "compatibility": [
                 {
-                    "appIconColor": 14183,
+                    "appIconColor": 199450,
                     "description": null,
-                    "name": "Fox Sports",
+                    "name": "Fox One Android TV",
+                    "packageName": "com.fox.foxone",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "1.9.2"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.fox.foxone": [
+                    "1.9.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Suppresses all ad delivery systems in Fox One Android TV.",
+            "name": "Skip ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 84368,
+                    "description": null,
+                    "name": "Fox Sports Android TV",
                     "packageName": "com.foxsports.android",
                     "targets": [
                         {
@@ -126,7 +152,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Suppresses Yospace SSAI ad events from reaching FoxPlayer and unlocks fast-forward during ad breaks.",
+            "description": "Suppresses all ad delivery systems in Fox Sports Android TV.",
             "name": "Skip ads",
             "options": [],
             "use": true

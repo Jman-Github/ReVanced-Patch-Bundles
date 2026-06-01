@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0-604",
+    "version": "v1.8.0-604",
     "patches": [
         {
             "compatiblePackages": {
@@ -8,7 +8,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Adds the bh_bt_* vector drawables (vibration, gpu_spoof, renderer, game_id, audio, gog) to res/drawable. Rendered by the Banner Tools dialog's tile grid.",
+            "description": "Adds the bh_bt_* vector drawables (vibration, gpu_spoof, renderer, game_id, audio, gog, overlay, root) to res/drawable. Rendered by the Banner Tools dialog's tile grid.",
             "name": "Banner Tools drawables",
             "options": [],
             "use": true
@@ -192,6 +192,20 @@
                     "6.0.4"
                 ]
             },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Neutralises the Alibaba/Aliyun carrier one-tap phone-login SDK (com.mobile.auth.gatewayauth.*). Stubs the sole System.loadLibrary site for libpns-*-alijtca_plus.so to a no-op, then strips the native lib. Dead weight under BannerHub's login bypass and an identity / anti-tamper fingerprint surface. ~0.5 MB APK reduction.",
+            "name": "Disable Aliyun NumberAuth",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
             "dependencies": [],
             "description": "Adds Firebase's manifest kill-switch <meta-data> entries so the bundled Firebase Analytics SDK never initializes data collection. Stops all auto-collected and custom events from being sent to app-measurement.com. Firebase Cloud Messaging, Firebase Auth, and Firebase Remote Config are unaffected (GameHub 6.0.4 bundles Remote Config but never invokes it — verified zero call sites in the host APK).",
             "name": "Disable Firebase Analytics",
@@ -291,6 +305,18 @@
             "dependencies": [],
             "description": "Adds the Explore screen's card artwork (GOG logo) to res/drawable, rendered by BannerExploreActivity's GOG card.",
             "name": "Explore drawables",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bundles the Explore manifest (assets/bh_explore.json) so the Explore screen shows BannerHub's shipped rails offline on a fresh install, instead of falling back to an older cached release manifest.",
+            "name": "Explore manifest asset",
             "options": [],
             "use": true
         },
@@ -439,6 +465,20 @@
             "dependencies": [],
             "description": "Registers BhGpuSpoofSettingsActivity in the manifest so the per-game GPU-identity dialog can be launched by explicit-Intent. Internal-only (android:exported=\"false\"); no <intent-filter>.",
             "name": "GPU spoof settings activity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Adds a draggable edge pill + slide-out panel over the Wine game surface with two root-gated toggles — Sustained Performance Mode (locks all CPU cores to the 'performance' governor) and Max Adreno Clocks (pins the KGSL GPU min_freq to max_freq). Both auto-revert to defaults when the game exits. Root is checked once and cached; the toggles are greyed until granted.",
+            "name": "In-game performance overlay",
             "options": [],
             "use": true
         },
@@ -723,6 +763,42 @@
             "name": "Strip Ad-ID permissions",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Removes the avif-coil AVIF/HEIC/HEIF image-codec native stack (libcoder + libheif/libaom/libx265/libde265/libdav1d, ~12.7 MB). The two avif-coil Coil Decoder.Factory.create() methods are stubbed to return null so Coil falls back to the Android platform decoder (which natively handles HEIF/AVIF on modern Android); the avif-coil native path is then unreachable and the libs strip safely. JPEG/PNG/WebP/GIF unaffected.",
+            "name": "Strip AVIF/HEIC codecs",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Removes the Haima cloud-gaming stack (~21.5 MB): the 4 Haima WebRTC/IJK native libs and the features.cloud Compose asset module. Stubs the IjkMediaPlayer + hmwebrtc native load sites first so the strip cannot crash if a cloud entry point is reached. Cloud gaming is non-functional under the BannerHub catalog redirect anyway.",
+            "name": "Strip cloud gaming",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Removes the unreferenced 20 MB duplicate copy of misans_vf.ttf shipped under the com.xiaoji.egggame.core Compose namespace. The live copy under com.xiaoji.egggame.cardsystem (the only one any code path loads) is left untouched. ~20 MB APK reduction, no functional change.",
+            "name": "Strip duplicate font",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {

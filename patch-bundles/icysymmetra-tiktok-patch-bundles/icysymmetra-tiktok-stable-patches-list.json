@@ -1,0 +1,471 @@
+{
+    "version": "v0.1.4",
+    "patches": [
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok (JP)",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables mandatory login for TikTok. (Supports TikTok 43.8.3.)",
+            "name": "Disable login requirement",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok (JP)",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Downloads videos without watermark and adds download-related controls. (Supports TikTok 43.8.3.)",
+            "name": "Downloads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok (JP)",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Uses TikTok's hidden Open Debug settings cell as the entry point for Morphe settings. Required for the Morphe settings menu to appear. Supports TikTok 43.8.3.",
+            "name": "Enable Open Debug",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok (JP)",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes ads, livestreams, stories, image videos and videos with a specific amount of views or likes from the feed. (Supports TikTok 43.8.3.)",
+            "name": "Feed filter",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok (JP)",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Allows logging in with a Google account. (Supports TikTok 43.8.3.)",
+            "name": "Fix Google login",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok (JP)",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables the playback speed option for all videos and retains the speed configurations in between videos. (Supports TikTok 43.8.3.)",
+            "name": "Playback speed",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok (JP)",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Remembers the clear display configurations in between videos. (Supports TikTok 43.8.3.)",
+            "name": "Remember clear display",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok (JP)",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes tracking parameters from shared links. (Supports TikTok 43.8.3.)",
+            "name": "Sanitize sharing links",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok (JP)",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds Morphe settings to TikTok. Supports TikTok 43.8.3.",
+            "name": "Settings",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok (JP)",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Shows a progress bar for all videos. (Supports TikTok 43.8.3.)",
+            "name": "Show seekbar",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok (JP)",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.ss.android.ugc.trill": [
+                    "43.8.3"
+                ],
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Spoofs SIM country and operator information retrieved by TikTok.",
+            "name": "SIM spoof",
+            "options": [],
+            "use": true
+        }
+    ]
+}
