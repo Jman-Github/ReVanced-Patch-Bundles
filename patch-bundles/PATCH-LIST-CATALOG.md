@@ -2401,7 +2401,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```All versions``` |
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```All versions``` |
 | ```Theme``` | ```Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).``` | ```YouTube Music``` | ```All versions``` |
-| ```Track crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. This patch currently requires YouTube 8.x``` | ```YouTube Music``` | ```All versions``` |
+| ```Track crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks.``` | ```YouTube Music``` | ```All versions``` |
 
 </details>
 
