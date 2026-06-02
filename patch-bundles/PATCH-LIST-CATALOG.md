@@ -3593,18 +3593,25 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***9 Patches***
+***16 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable Analytics / Telemetry``` | ```Try's to Disables App Analytics / Telemetry.``` | ```1.1.1.1 + WARP``` | ```All versions``` |
+| ```Disable Analytics / Telemetry``` | ```Disables App Analytics / Telemetry.``` | ```1.1.1.1 + WARP``` | ```All versions``` |
 | ```Spoof WARP+ Unlimited UI``` | ```Unlocks WARP+ UI locally.``` | ```1.1.1.1 + WARP``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Call Recorder - Automatic``` | ```All versions``` |
-| ```Remove Ads``` | ```Removes interstitial, app-open and native ads from Case Tracker — Immigration.``` | ```Case Tracker - Immigration``` | ```All versions``` |
-| ```Unlock Pro``` | ```Unlocks all premium features and removes ads in Case Tracker — Immigration.``` | ```Case Tracker - Immigration``` | ```All versions``` |
-| ```Unlock Pro``` | ```Unlocks all Citizen Plus/Protect features: Safety Network, Safety Center, Zones, Live Agent, Offender alerts, Clarity crime map, incident video, and more.``` | ```Citizen - Safety Alert``` | ```All versions``` |
+| ```Remove Ads``` | ```Removes interstitial, app-open and native ads.``` | ```Case Tracker - Immigration``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Case Tracker - Immigration``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Citizen - Safety Alert``` | ```All versions``` |
+| ```Bypass License Check``` | ```Bypasses PairIP DRM license verification to prevent forced app shutdown on non-Play-licensed installs.``` | ```Crime Radar``` | ```All versions``` |
+| ```Bypass Subscription Paywall``` | ```Bypasses the subscription paywall in-app.``` | ```Crime Radar``` | ```All versions``` |
+| ```Hide Subscription Screen``` | ```Hide subscription screens in-app.``` | ```Crime Radar``` | ```All versions``` |
+| ```Remove Item Limits``` | ```Removes all item limits in-app.``` | ```Crime Radar``` | ```All versions``` |
+| ```Suppress Premium Promotions``` | ```Supress all premium promotions in-app.``` | ```Crime Radar``` | ```All versions``` |
+| ```Unlock Followed Locations``` | ```Unlocks the Followed Locations premium feature.``` | ```Crime Radar``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Crime Radar``` | ```All versions``` |
 | ```Disable Ads``` | ```Prevents the AppOpen ad preloader from initialising.``` | ```Universal TV Remote Control``` | ```All versions``` |
-| ```Suppress Paywall``` | ```Suppresses the CHECK_PREMIUM broadcast that launches the paywall screen.``` | ```Universal TV Remote Control``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks all premium features in Universal TV Remote Control.``` | ```Universal TV Remote Control``` | ```All versions``` |
+| ```Suppress Paywall``` | ```Suppresses the in-app paywall.``` | ```Universal TV Remote Control``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Universal TV Remote Control``` | ```All versions``` |
 
 </details>
 
