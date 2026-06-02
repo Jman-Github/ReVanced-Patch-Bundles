@@ -3535,7 +3535,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***9 Patches***
+***10 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
@@ -3546,6 +3546,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox Sports Android TV.``` | ```com.foxsports.android``` | ```5.152.0``` |
 | ```Skip ads``` | ```Blocks Helio CSAI ad delivery via two hooks: a coroutine sentinel that prevents the ad schedule coroutine from constructing HelioAdPlaybackState, and a return-void on ComponentListener.a() that silences any AdPlaybackState updates that reach the media3 ExoPlayer timeline.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102``` |
 | ```Skip ads``` | ```Eliminates all Tubi ad types: intercepts DAI stream requests before they reach dai.google.com to prevent pre-roll stitching, blocks IMA ad events from reaching FoxPlayer, prevents AdsManager from priming the cold-launch pre-roll, and suppresses the pause-screen image overlay ad.``` | ```com.tubitv``` | ```10.20.5000``` |
+| ```Skip ads``` | ```Suppresses ViX ad delivery by disabling the FreeWheel ad provider at the config level and preventing the Innovid SSAI overlay from mounting.``` | ```com.univision.prendetv``` | ```4.46.0_tv``` |
 | ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.hbomax``` | ```7.2.0.41``` |
 
 </details>

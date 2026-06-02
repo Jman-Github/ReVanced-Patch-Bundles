@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.37",
+    "version": "v1.4.40",
     "patches": [
         {
             "compatibility": [
@@ -233,6 +233,32 @@
             },
             "dependencies": [],
             "description": "Eliminates all Tubi ad types: intercepts DAI stream requests before they reach dai.google.com to prevent pre-roll stitching, blocks IMA ad events from reaching FoxPlayer, prevents AdsManager from priming the cold-launch pre-roll, and suppresses the pause-screen image overlay ad.",
+            "name": "Skip ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 41193,
+                    "description": null,
+                    "name": "ViX Android TV",
+                    "packageName": "com.univision.prendetv",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "4.46.0_tv"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.univision.prendetv": [
+                    "4.46.0_tv"
+                ]
+            },
+            "dependencies": [],
+            "description": "Suppresses ViX ad delivery by disabling the FreeWheel ad provider at the config level and preventing the Innovid SSAI overlay from mounting.",
             "name": "Skip ads",
             "options": [],
             "use": true
