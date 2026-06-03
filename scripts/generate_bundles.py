@@ -143,11 +143,14 @@ def _release_is_prerelease(release: Mapping[str, Any]) -> bool:
     return bool(re.search(r"(^|[-._])(dev|alpha|beta|rc|pre)([-._\d]|$)", label))
 
 def _release_url(release: Mapping[str, Any]) -> str | None:
-    if isinstance(release.get("html_url"), str):
-        return release["html_url"]
+    html_url = release.get("html_url")
+    if isinstance(html_url, str):
+        return html_url
     links = release.get("_links")
-    if isinstance(links, Mapping) and isinstance(links.get("self"), str):
-        return links["self"]
+    if isinstance(links, Mapping):
+        self_url = links.get("self")
+        if isinstance(self_url, str):
+            return self_url
     return None
 
 def _asset_download_urls(release: Mapping[str, Any]) -> list[str]:
