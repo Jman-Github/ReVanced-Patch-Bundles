@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.1",
+    "version": "v1.3.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -99,31 +99,6 @@
             "dependencies": [],
             "description": "Disables App Analytics / Telemetry.",
             "name": "Disable Analytics / Telemetry",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#E53935",
-                    "description": null,
-                    "name": "Crime Radar",
-                    "packageName": "com.newsbreak.crimeradar",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Hide subscription screens in-app.",
-            "name": "Hide Subscription Screen",
             "options": []
         },
         {
@@ -399,6 +374,31 @@
             "dependencies": [],
             "description": "Unlocks Premium Features In the App.",
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1CC29F",
+                    "description": null,
+                    "name": "Splitwise",
+                    "packageName": "com.Splitwise.SplitwiseMobile",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Splitwise Pro features, removes ad banners, and suppresses all upgrade upsell prompts.",
+            "name": "Unlock Pro",
             "options": []
         }
     ]

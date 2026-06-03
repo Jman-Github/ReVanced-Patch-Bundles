@@ -3605,11 +3605,11 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Citizen - Safety Alert``` | ```All versions``` |
 | ```Bypass License Check``` | ```Bypasses PairIP DRM license verification to prevent forced app shutdown on non-Play-licensed installs.``` | ```Crime Radar``` | ```All versions``` |
 | ```Bypass Subscription Paywall``` | ```Bypasses the subscription paywall in-app.``` | ```Crime Radar``` | ```All versions``` |
-| ```Hide Subscription Screen``` | ```Hide subscription screens in-app.``` | ```Crime Radar``` | ```All versions``` |
 | ```Remove Item Limits``` | ```Removes all item limits in-app.``` | ```Crime Radar``` | ```All versions``` |
 | ```Suppress Premium Promotions``` | ```Supress all premium promotions in-app.``` | ```Crime Radar``` | ```All versions``` |
 | ```Unlock Followed Locations``` | ```Unlocks the Followed Locations premium feature.``` | ```Crime Radar``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Crime Radar``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks Splitwise Pro features, removes ad banners, and suppresses all upgrade upsell prompts.``` | ```Splitwise``` | ```All versions``` |
 | ```Disable Ads``` | ```Prevents the AppOpen ad preloader from initialising.``` | ```Universal TV Remote Control``` | ```All versions``` |
 | ```Suppress Paywall``` | ```Suppresses the in-app paywall.``` | ```Universal TV Remote Control``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Universal TV Remote Control``` | ```All versions``` |
