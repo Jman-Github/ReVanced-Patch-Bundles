@@ -5,6 +5,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 *Click the bundle patch list of your choice to be directed to the corresponding section in the catalog.*  
 [🧩 ReVanced Bundle Patch List](#-revanced-bundle-patch-list)  
 [🧩 Inotia00 Bundle Patch List](#-inotia00-bundle-patch-list)  
+[🧩 ProGuard Bundle Patch List](#-proguard-bundle-patch-list)<br>
 [🧩 Anddea Bundle Patch List](#-anddea-bundle-patch-list)  
 [🧩 Piko Bundle Patch List](#-piko-bundle-patch-list)  
 [🧩 BiliRoamingM Bundle Patch List](#-biliroamingm-bundle-patch-list)  
@@ -528,6 +529,16 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
 | ```Spoof signature``` | ```Spoofs the signature of the app.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Wi-Fi connection``` | ```Spoofs an existing Wi-Fi connection.``` | ```Universal``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 ProGuard Bundle Patch List:
+[📦 ProGuard-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-proguard-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+***Patch list not generated yet.***
 
 </details>
 

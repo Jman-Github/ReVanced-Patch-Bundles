@@ -69,6 +69,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+### 📦 ProGuard-Patches-Bundle [Morphe]:
+[🧩 ProGuard Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-proguard-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/proguard-patch-bundles/proguard-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/proguard-patch-bundles/proguard-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/proguard-patch-bundles/proguard-dev-patches-bundle.json```
+</details>
+
+---
 ### 📦 Anddea-Patches-Bundle [Morphe]:
 [🧩 Anddea Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-anddea-bundle-patch-list)
 <details>
@@ -1202,6 +1215,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [ReVanced-Patches-Bundle](https://github.com/revanced/revanced-patches)
 
 #### 🏷️ [Inotia00-Patches-Bundle](https://github.com/inotia00/revanced-Patches)
+
+#### 🏷️ [ProGuard-Patches-Bundle](https://gitlab.com/inotia00/proguard-patches)
 
 #### 🏷️ [Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
 
