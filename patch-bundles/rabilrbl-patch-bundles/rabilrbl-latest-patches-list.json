@@ -1,73 +1,63 @@
 {
-    "version": "v1.0.0-dev.14",
+    "version": "v1.0.0-dev.16",
     "patches": [
         {
             "compatiblePackages": {
-                "com.jio.jioplay.tv": null
+                "droom.sleepIfUCan": [
+                    "26.23.0"
+                ]
             },
             "dependencies": [],
-            "description": "Neutralizes pairip license verification by preventing VMRunner execution and suppressing license check errors.",
-            "name": "Bypass pairip license check",
+            "description": "Replaces pairip Application with the real AlarmyApp, removes the LicenseContentProvider, and sets extractNativeLibs=true to prevent signature and license checks from running at startup.",
+            "name": "Bypass pairip license verification",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "com.jio.jioplay.tv": null
+                "droom.sleepIfUCan": [
+                    "26.23.0"
+                ]
             },
             "dependencies": [],
-            "description": "Removes FirebaseInitProvider from AndroidManifest.xml to prevent crash when VM config data is missing.",
-            "name": "Disable FirebaseInitProvider",
+            "description": "Patches LicenseClient.initializeLicenseCheck() to return immediately, preventing Google Play license verification.",
+            "name": "Disable pairip license check",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "com.jio.jioplay.tv": null
+                "droom.sleepIfUCan": [
+                    "26.23.0"
+                ]
             },
             "dependencies": [],
-            "description": "Sets usesCleartextTraffic to true in AndroidManifest and patches the network security config to allow cleartext HTTP traffic and user-installed CA certificates.",
-            "name": "Enable cleartext traffic",
+            "description": "Patches SignatureCheck.verifyIntegrity() to return immediately, preventing APK signature tampering detection.",
+            "name": "Disable pairip signature check",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "com.jio.jioplay.tv": null
+                "droom.sleepIfUCan": [
+                    "26.23.0"
+                ]
             },
             "dependencies": [],
-            "description": "Removes SSL/TLS certificate pinning for tv.media.jio.com.",
-            "name": "Remove certificate pinning",
+            "description": "Bypasses ad-removal premium checks by forcing PremiumState.isRemoveAdPremium() to always return true.",
+            "name": "Remove ads",
             "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
-                "com.jio.jioplay.tv": null
+                "droom.sleepIfUCan": [
+                    "26.23.0"
+                ]
             },
             "dependencies": [],
-            "description": "Removes emulator and unsupported device detection checks in PermissionActivity.",
-            "name": "Remove emulator detection",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.jio.jioplay.tv": null
-            },
-            "dependencies": [],
-            "description": "Removes libpairipcore.so from all architectures to prevent native signature verification that crashes on patched APKs.",
-            "name": "Remove pairip native library",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.jio.jioplay.tv": null
-            },
-            "dependencies": [],
-            "description": "Removes root detection checks. Bypasses Firebase CommonUtils.isRooted() and Xposed framework detection.",
-            "name": "Remove root detection",
+            "description": "Bypasses premium checks by forcing PremiumState.isPremium() to always return true.",
+            "name": "Unlock Pro subscription",
             "options": [],
             "use": true
         }
