@@ -1,6 +1,56 @@
 {
-    "version": "v1.0.0-dev.1",
+    "version": "v1.3.0-dev.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#E53935",
+                    "description": null,
+                    "name": "Crime Radar",
+                    "packageName": "com.newsbreak.crimeradar",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses PairIP DRM license verification to prevent forced app shutdown on non-Play-licensed installs.",
+            "name": "Bypass License Check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#E53935",
+                    "description": null,
+                    "name": "Crime Radar",
+                    "packageName": "com.newsbreak.crimeradar",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the subscription paywall in-app.",
+            "name": "Bypass Subscription Paywall",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -47,7 +97,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Try's to Disables App Analytics / Telemetry.",
+            "description": "Disables App Analytics / Telemetry.",
             "name": "Disable Analytics / Telemetry",
             "options": []
         },
@@ -72,8 +122,33 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Removes interstitial, app-open and native ads from Case Tracker — Immigration.",
+            "description": "Removes interstitial, app-open and native ads.",
             "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#E53935",
+                    "description": null,
+                    "name": "Crime Radar",
+                    "packageName": "com.newsbreak.crimeradar",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes all  item limits in-app.",
+            "name": "Remove Item Limits",
             "options": []
         },
         {
@@ -122,8 +197,58 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Suppresses the CHECK_PREMIUM broadcast that launches the paywall screen.",
+            "description": "Suppresses the in-app paywall.",
             "name": "Suppress Paywall",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#E53935",
+                    "description": null,
+                    "name": "Crime Radar",
+                    "packageName": "com.newsbreak.crimeradar",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Supress all premium promotions in-app.",
+            "name": "Suppress Premium Promotions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#E53935",
+                    "description": null,
+                    "name": "Crime Radar",
+                    "packageName": "com.newsbreak.crimeradar",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the Followed Locations premium feature.",
+            "name": "Unlock Followed Locations",
             "options": []
         },
         {
@@ -134,6 +259,81 @@
                     "description": null,
                     "name": "Call Recorder - Automatic",
                     "packageName": "com.catalinagroup.callrecorder",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Premium Features In the App.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1565C0",
+                    "description": null,
+                    "name": "Case Tracker - Immigration",
+                    "packageName": "com.saldous.casetracker",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Premium Features In the App.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#0066FF",
+                    "description": null,
+                    "name": "Citizen - Safety Alert",
+                    "packageName": "sp0n.citizen",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Premium Features In the App.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#E53935",
+                    "description": null,
+                    "name": "Crime Radar",
+                    "packageName": "com.newsbreak.crimeradar",
                     "signatures": null,
                     "targets": [
                         {
@@ -172,7 +372,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks all premium features in Universal TV Remote Control.",
+            "description": "Unlocks Premium Features In the App.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -180,10 +380,10 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
-                    "appIconColor": "#1565C0",
+                    "appIconColor": "#1CC29F",
                     "description": null,
-                    "name": "Case Tracker - Immigration",
-                    "packageName": "com.saldous.casetracker",
+                    "name": "Splitwise",
+                    "packageName": "com.Splitwise.SplitwiseMobile",
                     "signatures": null,
                     "targets": [
                         {
@@ -197,32 +397,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks all premium features and removes ads in Case Tracker — Immigration.",
-            "name": "Unlock Pro",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#0066FF",
-                    "description": null,
-                    "name": "Citizen - Safety Alert",
-                    "packageName": "sp0n.citizen",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks all Citizen Pro/Protect features including Safety Network.",
+            "description": "Unlocks Splitwise Pro features, removes ad banners, and suppresses all upgrade upsell prompts.",
             "name": "Unlock Pro",
             "options": []
         }

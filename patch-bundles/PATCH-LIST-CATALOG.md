@@ -2401,7 +2401,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```All versions``` |
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```All versions``` |
 | ```Theme``` | ```Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).``` | ```YouTube Music``` | ```All versions``` |
-| ```Track crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. This patch currently requires YouTube 8.x``` | ```YouTube Music``` | ```All versions``` |
+| ```Track crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks.``` | ```YouTube Music``` | ```All versions``` |
 
 </details>
 
@@ -3535,17 +3535,18 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***9 Patches***
+***10 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Skip ads``` | ```Prevents server-side inserted ads from playing in the video stream.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
-| ```Paramount+ Android TV``` | ```Disables IMA ad loading in Paramount+``` | ```com.cbs.ott``` | ```16.8.0``` |
-| ```Disney+ Android TV``` | ```Automatically skips ads.``` | ```com.disney.disneyplus``` | ```26.6.0+rc5-2026.04.21``` |
+| ```Paramount+ Android TV``` | ```Removes pause ads.``` | ```com.cbs.ott``` | ```16.12.0``` |
+| ```Disney+ Android TV``` | ```Removes mid-roll / pre-roll ads and pause ads.``` | ```com.disney.disneyplus``` | ```26.8.0+rc6-2026.05.20``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox One Android TV.``` | ```com.fox.foxone``` | ```1.9.2``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox Sports Android TV.``` | ```com.foxsports.android``` | ```5.152.0``` |
 | ```Skip ads``` | ```Blocks Helio CSAI ad delivery via two hooks: a coroutine sentinel that prevents the ad schedule coroutine from constructing HelioAdPlaybackState, and a return-void on ComponentListener.a() that silences any AdPlaybackState updates that reach the media3 ExoPlayer timeline.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102``` |
 | ```Skip ads``` | ```Eliminates all Tubi ad types: intercepts DAI stream requests before they reach dai.google.com to prevent pre-roll stitching, blocks IMA ad events from reaching FoxPlayer, prevents AdsManager from priming the cold-launch pre-roll, and suppresses the pause-screen image overlay ad.``` | ```com.tubitv``` | ```10.20.5000``` |
+| ```Skip ads``` | ```Suppresses ViX ad delivery by disabling the FreeWheel ad provider at the config level and preventing the Innovid SSAI overlay from mounting.``` | ```com.univision.prendetv``` | ```4.46.0_tv``` |
 | ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.hbomax``` | ```7.2.0.41``` |
 
 </details>
@@ -3593,18 +3594,25 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***9 Patches***
+***16 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable Analytics / Telemetry``` | ```Try's to Disables App Analytics / Telemetry.``` | ```1.1.1.1 + WARP``` | ```All versions``` |
+| ```Disable Analytics / Telemetry``` | ```Disables App Analytics / Telemetry.``` | ```1.1.1.1 + WARP``` | ```All versions``` |
 | ```Spoof WARP+ Unlimited UI``` | ```Unlocks WARP+ UI locally.``` | ```1.1.1.1 + WARP``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Call Recorder - Automatic``` | ```All versions``` |
-| ```Remove Ads``` | ```Removes interstitial, app-open and native ads from Case Tracker — Immigration.``` | ```Case Tracker - Immigration``` | ```All versions``` |
-| ```Unlock Pro``` | ```Unlocks all premium features and removes ads in Case Tracker — Immigration.``` | ```Case Tracker - Immigration``` | ```All versions``` |
-| ```Unlock Pro``` | ```Unlocks all Citizen Pro/Protect features including Safety Network.``` | ```Citizen - Safety Alert``` | ```All versions``` |
+| ```Remove Ads``` | ```Removes interstitial, app-open and native ads.``` | ```Case Tracker - Immigration``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Case Tracker - Immigration``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Citizen - Safety Alert``` | ```All versions``` |
+| ```Bypass License Check``` | ```Bypasses PairIP DRM license verification to prevent forced app shutdown on non-Play-licensed installs.``` | ```Crime Radar``` | ```All versions``` |
+| ```Bypass Subscription Paywall``` | ```Bypasses the subscription paywall in-app.``` | ```Crime Radar``` | ```All versions``` |
+| ```Remove Item Limits``` | ```Removes all item limits in-app.``` | ```Crime Radar``` | ```All versions``` |
+| ```Suppress Premium Promotions``` | ```Supress all premium promotions in-app.``` | ```Crime Radar``` | ```All versions``` |
+| ```Unlock Followed Locations``` | ```Unlocks the Followed Locations premium feature.``` | ```Crime Radar``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Crime Radar``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks Splitwise Pro features, removes ad banners, and suppresses all upgrade upsell prompts.``` | ```Splitwise``` | ```All versions``` |
 | ```Disable Ads``` | ```Prevents the AppOpen ad preloader from initialising.``` | ```Universal TV Remote Control``` | ```All versions``` |
-| ```Suppress Paywall``` | ```Suppresses the CHECK_PREMIUM broadcast that launches the paywall screen.``` | ```Universal TV Remote Control``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks all premium features in Universal TV Remote Control.``` | ```Universal TV Remote Control``` | ```All versions``` |
+| ```Suppress Paywall``` | ```Suppresses the in-app paywall.``` | ```Universal TV Remote Control``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Universal TV Remote Control``` | ```All versions``` |
 
 </details>
 
@@ -3614,5 +3622,10 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
+***2 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Remove pairip protection``` | ```Restores obfuscated strings and removes pairip bytecode protection.``` | ```Universal``` | ```All versions``` |
+| ```Restore extracted methods``` | ```Inlines methods hidden in helper classes back into the host class and removes the helper classes.``` | ```Universal``` | ```All versions``` |
 
 </details>
