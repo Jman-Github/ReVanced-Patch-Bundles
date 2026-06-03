@@ -2982,12 +2982,18 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***5 Patches***
+***11 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Bypass pairip license verification``` | ```Replaces pairip Application with the real AlarmyApp, removes the LicenseContentProvider, and sets extractNativeLibs=true to prevent signature and license checks from running at startup.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
+| ```Bypass pairip license verification``` | ```Removes pairip components from the manifest and replaces the Application class with AlarmyApp to prevent license checks from running at startup.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
+| ```Disable pairip content provider``` | ```Patches LicenseContentProvider.onCreate() to return immediately without creating a LicenseClient, preventing the first license check entry point.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
+| ```Disable pairip error dialog``` | ```Patches LicenseClient.startErrorDialogActivity() and handleError() to return immediately, preventing error dialogs.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
+| ```Disable pairip license activity``` | ```Patches LicenseActivity.onStart() to finish immediately, closing the activity if it is somehow launched.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
 | ```Disable pairip license check``` | ```Patches LicenseClient.initializeLicenseCheck() to return immediately, preventing Google Play license verification.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
+| ```Disable pairip paywall``` | ```Patches LicenseClient.startPaywallActivity() to return immediately, preventing the 'Get this app from Play' redirect.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
+| ```Disable pairip response validation``` | ```Patches LicenseResponseHelper.validateResponse() to return immediately, causing any license check that gets through to be treated as valid.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
 | ```Disable pairip signature check``` | ```Patches SignatureCheck.verifyIntegrity() to return immediately, preventing APK signature tampering detection.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
+| ```Disable pairip VM load``` | ```Patches VMRunner.<clinit>() to return immediately, preventing libpairipcore.so from loading. The native library's JNI_OnLoad runs background integrity checks that detect APK modifications and trigger the paywall independently of the Java-side checks.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
 | ```Remove ads``` | ```Bypasses ad-removal premium checks by forcing PremiumState.isRemoveAdPremium() to always return true.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
 | ```Unlock Pro subscription``` | ```Bypasses premium checks by forcing PremiumState.isPremium() to always return true.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
 
