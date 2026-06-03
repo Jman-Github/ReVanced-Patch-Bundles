@@ -1311,7 +1311,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [RealCyberwash-Patches-Bundle](https://github.com/realcyberwash/max-patches)
 
-#### 🏷️ [Paresh-Maheshwari-Patches-Bundle](https://github.com/paresh-maheshwari/paresh-patches)
+#### 🏷️ [Paresh-Maheshwari-Patches-Bundle](https://gitlab.com/Paresh-Maheshwari/paresh-patches)
 
 #### 🏷️ [Aniketshinde007-Patches-Bundle](https://github.com/aniketshinde007/morphe-patches-ani)
 

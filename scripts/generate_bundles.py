@@ -54,13 +54,21 @@ ETAG_CACHE = _load_etag_cache()
 BUNDLE_METADATA: dict[str, Any] = {}
 
 GH_PAT = os.getenv('GH_PAT')
+GITLAB_TOKEN = os.getenv('GITLAB_TOKEN')
 
-BASE_HEADERS: dict[str, str] = {
+GITHUB_HEADERS: dict[str, str] = {
     "Accept": "application/vnd.github+json",
     "User-Agent": "revanced-patch-bundles/1.0 (+https://github.com/Jman-Github/ReVanced-Patch-Bundles)",
 }
 if GH_PAT:
-    BASE_HEADERS["Authorization"] = f"Bearer {GH_PAT}"
+    GITHUB_HEADERS["Authorization"] = f"Bearer {GH_PAT}"
+
+GITLAB_HEADERS: dict[str, str] = {
+    "Accept": "application/json",
+    "User-Agent": "revanced-patch-bundles/1.0 (+https://github.com/Jman-Github/ReVanced-Patch-Bundles)",
+}
+if GITLAB_TOKEN:
+    GITLAB_HEADERS["PRIVATE-TOKEN"] = GITLAB_TOKEN
 
 MAX_RETRIES = 5
 RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
@@ -112,6 +120,57 @@ async def _get_with_retries(client: AsyncClient, url: str, headers: dict[str, st
         raise last_error
     raise RuntimeError(f"Unable to fetch URL after {MAX_RETRIES} attempts: {url}")
 
+def _headers_for_url(url: str) -> dict[str, str]:
+    if "gitlab.com/api/v4/" in url:
+        return dict(GITLAB_HEADERS)
+    return dict(GITHUB_HEADERS)
+
+def _release_time(release: Mapping[str, Any]) -> str:
+    value = (
+        release.get("published_at")
+        or release.get("released_at")
+        or release.get("created_at")
+        or ""
+    )
+    value = str(value)
+    value = re.sub(r"\.\d+(?=Z$)", "", value)
+    return re.sub(r"[A-Za-z]+$", "", value)
+
+def _release_is_prerelease(release: Mapping[str, Any]) -> bool:
+    if "prerelease" in release:
+        return bool(release["prerelease"])
+    label = f"{release.get('tag_name', '')} {release.get('name', '')}".lower()
+    return bool(re.search(r"(^|[-._])(dev|alpha|beta|rc|pre)([-._\d]|$)", label))
+
+def _release_url(release: Mapping[str, Any]) -> str | None:
+    if isinstance(release.get("html_url"), str):
+        return release["html_url"]
+    links = release.get("_links")
+    if isinstance(links, Mapping) and isinstance(links.get("self"), str):
+        return links["self"]
+    return None
+
+def _asset_download_urls(release: Mapping[str, Any]) -> list[str]:
+    assets = release.get("assets")
+    urls: list[str] = []
+    if isinstance(assets, list):
+        for asset in assets:
+            if isinstance(asset, Mapping) and isinstance(asset.get("browser_download_url"), str):
+                urls.append(asset["browser_download_url"])
+    elif isinstance(assets, Mapping):
+        links = assets.get("links")
+        if isinstance(links, list):
+            for link in links:
+                if not isinstance(link, Mapping):
+                    continue
+                direct_url = link.get("direct_asset_url")
+                fallback_url = link.get("url")
+                if isinstance(direct_url, str):
+                    urls.append(direct_url)
+                elif isinstance(fallback_url, str):
+                    urls.append(fallback_url)
+    return urls
+
 async def get_latest_release(
     client: AsyncClient,
     repo_url: str,
@@ -129,26 +188,24 @@ async def get_latest_release(
         release: Mapping[str, Any], file_types: tuple[str, ...]
     ) -> tuple[str, str, str, dict[str, str | None], str | None, str | None]:
         version = release['tag_name']
-        published_at = re.sub(r'[A-Za-z]+$', '', release['published_at'])
-        description = release.get('body', '')
+        published_at = _release_time(release)
+        description = release.get('body') or release.get('description') or ''
         download_urls: dict[str, str | None] = {ext: None for ext in file_types}
         signature_url = None
-        release_url = release.get("html_url")
-        for asset in release["assets"]:
+        release_url = _release_url(release)
+        for asset_url in _asset_download_urls(release):
             for ext in file_types:
-                if asset["browser_download_url"].endswith(ext):
-                    download_urls[ext] = asset['browser_download_url']
-            if asset["browser_download_url"].endswith(".rvp.asc") or asset[
-                "browser_download_url"
-            ].endswith(".mpp.asc"):
-                signature_url = asset['browser_download_url']
+                if asset_url.endswith(ext):
+                    download_urls[ext] = asset_url
+            if asset_url.endswith(".rvp.asc") or asset_url.endswith(".mpp.asc"):
+                signature_url = asset_url
         return version, published_at, description, download_urls, signature_url, release_url
 
     api_url = f"{repo_url}/releases"
     async with RELEASE_CACHE_LOCK:
         cached_releases = RELEASE_CACHE.get(api_url)
     if cached_releases is None:
-        headers = dict(BASE_HEADERS)
+        headers = _headers_for_url(api_url)
         async with ETAG_CACHE_LOCK:
             etag = ETAG_CACHE.get(api_url)
         if etag:
@@ -179,18 +236,22 @@ async def get_latest_release(
     if not releases:
         print(f"No releases found for {repo_url}")
         return None, None, None, None, None, None
+    releases = [
+        release for release in releases
+        if not release.get("draft") and not release.get("upcoming_release")
+    ]
     if latest_flag:
-        filtered_releases = sorted(releases, key=lambda x: x["published_at"], reverse=True)
+        filtered_releases = sorted(releases, key=_release_time, reverse=True)
     elif prerelease:
         filtered_releases = sorted(
-            (r for r in releases if r["prerelease"]),
-            key=lambda x: x["published_at"],
+            (r for r in releases if _release_is_prerelease(r)),
+            key=_release_time,
             reverse=True
         )
     else:
         filtered_releases = sorted(
-            (r for r in releases if not r["prerelease"]),
-            key=lambda x: x["published_at"],
+            (r for r in releases if not _release_is_prerelease(r)),
+            key=_release_time,
             reverse=True
         )
     file_types = (".jar", ".apk", ".rvp", ".mpp")
