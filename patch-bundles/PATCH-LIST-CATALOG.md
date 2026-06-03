@@ -2971,16 +2971,14 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***7 Patches***
+***5 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Bypass pairip license check``` | ```Neutralizes pairip license verification by preventing VMRunner execution and suppressing license check errors.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
-| ```Disable FirebaseInitProvider``` | ```Removes FirebaseInitProvider from AndroidManifest.xml to prevent crash when VM config data is missing.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
-| ```Enable cleartext traffic``` | ```Sets usesCleartextTraffic to true in AndroidManifest and patches the network security config to allow cleartext HTTP traffic and user-installed CA certificates.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
-| ```Remove certificate pinning``` | ```Removes SSL/TLS certificate pinning for tv.media.jio.com.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
-| ```Remove emulator detection``` | ```Removes emulator and unsupported device detection checks in PermissionActivity.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
-| ```Remove pairip native library``` | ```Removes libpairipcore.so from all architectures to prevent native signature verification that crashes on patched APKs.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
-| ```Remove root detection``` | ```Removes root detection checks. Bypasses Firebase CommonUtils.isRooted() and Xposed framework detection.``` | ```com.jio.jioplay.tv``` | ```All versions``` |
+| ```Bypass pairip license verification``` | ```Replaces pairip Application with the real AlarmyApp, removes the LicenseContentProvider, and sets extractNativeLibs=true to prevent signature and license checks from running at startup.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
+| ```Disable pairip license check``` | ```Patches LicenseClient.initializeLicenseCheck() to return immediately, preventing Google Play license verification.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
+| ```Disable pairip signature check``` | ```Patches SignatureCheck.verifyIntegrity() to return immediately, preventing APK signature tampering detection.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
+| ```Remove ads``` | ```Bypasses ad-removal premium checks by forcing PremiumState.isRemoveAdPremium() to always return true.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
+| ```Unlock Pro subscription``` | ```Bypasses premium checks by forcing PremiumState.isPremium() to always return true.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
 
 </details>
 
