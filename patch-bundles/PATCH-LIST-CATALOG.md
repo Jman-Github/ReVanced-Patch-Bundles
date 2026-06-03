@@ -3540,7 +3540,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 |----------|---------------|---------------------|-------------------------|
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Skip ads``` | ```Prevents server-side inserted ads from playing in the video stream.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
-| ```Paramount+ Android TV``` | ```Removes pause ads.``` | ```com.cbs.ott``` | ```16.12.0``` |
+| ```Paramount+ Android TV``` | ```Removes pause ads, pre-roll ads, and mid-roll ads.``` | ```com.cbs.ott``` | ```16.12.0``` |
 | ```Disney+ Android TV``` | ```Removes mid-roll / pre-roll ads and pause ads.``` | ```com.disney.disneyplus``` | ```26.8.0+rc6-2026.05.20``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox One Android TV.``` | ```com.fox.foxone``` | ```1.9.2``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox Sports Android TV.``` | ```com.foxsports.android``` | ```5.152.0``` |
