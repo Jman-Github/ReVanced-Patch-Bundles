@@ -2993,12 +2993,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***5 Patches***
+***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Bypass pairip license verification``` | ```Replaces pairip Application with the real AlarmyApp, removes the LicenseContentProvider, and sets extractNativeLibs=true to prevent signature and license checks from running at startup.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
-| ```Disable pairip license check``` | ```Patches LicenseClient.initializeLicenseCheck() to return immediately, preventing Google Play license verification.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
-| ```Disable pairip signature check``` | ```Patches SignatureCheck.verifyIntegrity() to return immediately, preventing APK signature tampering detection.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
 | ```Remove ads``` | ```Bypasses ad-removal premium checks by forcing PremiumState.isRemoveAdPremium() to always return true.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
 | ```Unlock Pro subscription``` | ```Bypasses premium checks by forcing PremiumState.isPremium() to always return true.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
 
@@ -3564,7 +3561,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disney+ Android TV``` | ```Removes mid-roll / pre-roll ads and pause ads.``` | ```com.disney.disneyplus``` | ```26.8.0+rc6-2026.05.20``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox One Android TV.``` | ```com.fox.foxone``` | ```1.9.2``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox Sports Android TV.``` | ```com.foxsports.android``` | ```5.152.0``` |
-| ```Skip ads``` | ```Blocks Helio CSAI ad delivery via two hooks: a coroutine sentinel that prevents the ad schedule coroutine from constructing HelioAdPlaybackState, and a return-void on ComponentListener.a() that silences any AdPlaybackState updates that reach the media3 ExoPlayer timeline.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102``` |
+| ```Skip ads``` | ```Disables ad delivery via five independent layers: MediaTailor SSAI proxy, ObfuscatedProfileId SDK registry (Adobe, Comscore, Conviva, Freewheel, MParticle, MediaTailor, Nielsen, OpenMeasurement), MediaTailor ad service constructor, SSAI configuration provider (forces AdvertisingStrategy.None), and the Sky SDK player engine ad break handler. Validated against v7.5.102.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102``` |
 | ```Skip ads``` | ```Eliminates all Tubi ad types: intercepts DAI stream requests before they reach dai.google.com to prevent pre-roll stitching, blocks IMA ad events from reaching FoxPlayer, prevents AdsManager from priming the cold-launch pre-roll, and suppresses the pause-screen image overlay ad.``` | ```com.tubitv``` | ```10.20.5000``` |
 | ```Skip ads``` | ```Suppresses ViX ad delivery by disabling the FreeWheel ad provider at the config level and preventing the Innovid SSAI overlay from mounting.``` | ```com.univision.prendetv``` | ```4.46.0_tv``` |
 | ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.hbomax``` | ```7.2.0.41``` |

@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.41",
+    "version": "v1.4.42",
     "patches": [
         {
             "compatibility": [
@@ -178,7 +178,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Blocks Helio CSAI ad delivery via two hooks: a coroutine sentinel that prevents the ad schedule coroutine from constructing HelioAdPlaybackState, and a return-void on ComponentListener.a() that silences any AdPlaybackState updates that reach the media3 ExoPlayer timeline.",
+            "description": "Disables ad delivery via five independent layers: MediaTailor SSAI proxy, ObfuscatedProfileId SDK registry (Adobe, Comscore, Conviva, Freewheel, MParticle, MediaTailor, Nielsen, OpenMeasurement), MediaTailor ad service constructor, SSAI configuration provider (forces AdvertisingStrategy.None), and the Sky SDK player engine ad break handler. Validated against v7.5.102.",
             "name": "Skip ads",
             "options": [],
             "use": true

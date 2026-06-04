@@ -1,42 +1,6 @@
 {
-    "version": "v1.0.0-dev.16",
+    "version": "v1.0.0-dev.19",
     "patches": [
-        {
-            "compatiblePackages": {
-                "droom.sleepIfUCan": [
-                    "26.23.0"
-                ]
-            },
-            "dependencies": [],
-            "description": "Replaces pairip Application with the real AlarmyApp, removes the LicenseContentProvider, and sets extractNativeLibs=true to prevent signature and license checks from running at startup.",
-            "name": "Bypass pairip license verification",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "droom.sleepIfUCan": [
-                    "26.23.0"
-                ]
-            },
-            "dependencies": [],
-            "description": "Patches LicenseClient.initializeLicenseCheck() to return immediately, preventing Google Play license verification.",
-            "name": "Disable pairip license check",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "droom.sleepIfUCan": [
-                    "26.23.0"
-                ]
-            },
-            "dependencies": [],
-            "description": "Patches SignatureCheck.verifyIntegrity() to return immediately, preventing APK signature tampering detection.",
-            "name": "Disable pairip signature check",
-            "options": [],
-            "use": true
-        },
         {
             "compatiblePackages": {
                 "droom.sleepIfUCan": [
