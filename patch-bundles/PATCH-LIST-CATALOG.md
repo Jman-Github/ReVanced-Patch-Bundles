@@ -549,7 +549,29 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***Patch list not generated yet.***
+***20 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Block ad requests at the network layer``` | ```Drops retrofit2 enqueue calls whose Request URL contains "/truth/ads".``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Block Truth+ upsell``` | ```Drops navigation to the Truth+ upsell sheet and the per-feature roadblock dialog.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Bypass Play Integrity``` | ```Skips Play Integrity assertion injection — chain proceeds with the original request.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Bypass Truth+ geofence``` | ```Forces the smsCountry == "US" check on premiumGateHelper.d(user) to always return true.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Disable advertising ID``` | ```Removes advertising-ID and ad-services permissions from the manifest.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Disable analytics``` | ```Neutralizes AppAnalyticsManager — every void-returning method becomes return-void.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Disable Firebase telemetry``` | ```Neutralizes Firebase Analytics + Crashlytics logging methods.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Disable Search AI``` | ```Neutralizes SearchAIUseCase invocations.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Enable Truth TV``` | ```Forces Features.tvEnabled to true on construction. Truth TV becomes visible across the app.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Force enable Truth+ post editing``` | ```Forces editsEnabled + editsVisible to true on Features and L6.U gates. Server may still reject.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Force enable Truth+ post scheduling``` | ```Forces scheduleEnabled + scheduleVisible to true on Features and L6.U gates. Server may still reject.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Hide ads``` | ```Removes /truth/ads responses, AdQueueManager fetches and feed insertions.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Hide AI tab``` | ```Removes the Truth AI tab from the bottom navigation bar.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Hide For You feed``` | ```Drops feeds whose id is "for_you" or "recommended" from the FeedsRepositoryImpl reader.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Hide Help Center sidebar item``` | ```Suppresses the Help Center row in the account drawer sidebar.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Hide Truth Gems``` | ```Removes the gem badge and the Truth Gems banner / drawer button.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Hide TRUTH+ button``` | ```Removes the TRUTH+ upsell button from the top app bar.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Rename package to MTGA variant``` | ```Repackages to com.truthsocial.android.app.mtga so the patched APK coexists with the Play Store install.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Strip split requirement``` | ```Removes isSplitRequired / requiredSplitTypes / vending.splits.required so the patched APK installs standalone.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Tag versionName with -mtga-patched``` | ```Appends "-mtga-patched" to the manifest versionName and inlined BuildConfig.VERSION_NAME literals.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
 
 </details>
 
