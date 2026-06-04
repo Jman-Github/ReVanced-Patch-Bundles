@@ -82,6 +82,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+### 📦 MTGA-Patches-Bundle [API v4]:
+[🧩 MTGA Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-mtga-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/mtga-patch-bundles/mtga-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/mtga-patch-bundles/mtga-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/mtga-patch-bundles/mtga-dev-patches-bundle.json```
+</details>
+
+---
 ### 📦 Anddea-Patches-Bundle [Morphe]:
 [🧩 Anddea Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-anddea-bundle-patch-list)
 <details>
@@ -1217,6 +1230,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Inotia00-Patches-Bundle](https://github.com/inotia00/revanced-Patches)
 
 #### 🏷️ [ProGuard-Patches-Bundle](https://gitlab.com/inotia00/proguard-patches)
+
+#### 🏷️ [MTGA-Patches-Bundle](https://github.com/MaebashiRamens/mtga)
 
 #### 🏷️ [Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
 

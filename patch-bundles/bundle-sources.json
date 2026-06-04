@@ -49,6 +49,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "mtga-stable": {
+        "patches": "https://api.github.com/repos/MaebashiRamens/mtga",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "biliroamingm-stable": {
         "patches": "https://api.github.com/repos/sakarie9/BiliRoamingM",
         "integration": "https://api.github.com/repos/sakarie9/BiliRoamingM",
@@ -510,6 +515,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
+    "mtga-dev": {
+        "patches": "https://api.github.com/repos/MaebashiRamens/mtga",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
     "biliroamingm-dev": {
         "patches": "https://api.github.com/repos/sakarie9/BiliRoamingM",
         "integration": "https://api.github.com/repos/sakarie9/BiliRoamingM",
@@ -963,6 +973,11 @@
     },
     "proguard-latest": {
         "patches": "https://gitlab.com/api/v4/projects/inotia00%2Fproguard-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "mtga-latest": {
+        "patches": "https://api.github.com/repos/MaebashiRamens/mtga",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     },

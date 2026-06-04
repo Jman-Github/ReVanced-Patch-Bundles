@@ -6,6 +6,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 [🧩 ReVanced Bundle Patch List](#-revanced-bundle-patch-list)  
 [🧩 Inotia00 Bundle Patch List](#-inotia00-bundle-patch-list)  
 [🧩 ProGuard Bundle Patch List](#-proguard-bundle-patch-list)<br>
+[🧩 MTGA Bundle Patch List](#-mtga-bundle-patch-list)<br>
 [🧩 Anddea Bundle Patch List](#-anddea-bundle-patch-list)  
 [🧩 Piko Bundle Patch List](#-piko-bundle-patch-list)  
 [🧩 BiliRoamingM Bundle Patch List](#-biliroamingm-bundle-patch-list)  
@@ -535,6 +536,16 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 ProGuard Bundle Patch List:
 [📦 ProGuard-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-proguard-patches-bundle-morphe)
+<details open>
+<summary><b>Click To Collapse Patch List</b></summary>
+
+***Patch list not generated yet.***
+
+</details>
+
+---
+### 🧩 MTGA Bundle Patch List:
+[📦 MTGA-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-mtga-patches-bundle-api-v4)
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
