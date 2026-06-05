@@ -440,6 +440,18 @@ private fun generatePatchListFromReleaseAsset(downloadUri: URI, expectedVersion:
     return canonicalizePatchArray(parsed)
 }
 
+private fun generateMorphePatchListFromSource(downloadUri: URI, expectedVersion: String): JsonArray? {
+    parseReleaseLocation(downloadUri)?.let { location ->
+        return generatePatchListFromRepositoryFile(location, expectedVersion, logMissing = false)
+    }
+
+    parseGitLabReleaseLocation(downloadUri)?.let { location ->
+        return generatePatchListFromGitLabRepositoryFile(location, expectedVersion)
+    }
+
+    return null
+}
+
 private fun writePatchList(outputFile: File, version: String, patches: JsonArray) {
     val payload = LocalPatchesFile(version, patches)
     outputFile.writeText(prettyJson.encodeToString(payload))
@@ -478,9 +490,16 @@ private fun processBundle(bundleFolder: File) {
             val generated = patchCache[cacheKey]?.also {
                 Logger.info("Reusing cached patches for ${parsedBundle.downloadUrl}.")
             } ?: run {
-                Logger.info("Downloading patch bundle from ${parsedBundle.downloadUrl}...")
+                Logger.info("Resolving patch list for ${parsedBundle.downloadUrl}...")
                 val created = when (parsedBundle.format) {
-                    BundleFormat.MODERN -> generateModernPatchList(downloadUri)
+                    BundleFormat.MODERN -> {
+                        if (isMorphePatchBundle(downloadUri)) {
+                            generateMorphePatchListFromSource(downloadUri, parsedBundle.version)
+                                ?: generateModernPatchList(downloadUri)
+                        } else {
+                            generateModernPatchList(downloadUri)
+                        }
+                    }
                     BundleFormat.LEGACY -> generateLegacyPatchList(downloadUri)
                 } ?: run {
                     Logger.info("Falling back to release metadata for ${parsedBundle.downloadUrl}...")
@@ -525,7 +544,13 @@ private data class ReleaseLocation(
     val tag: String
 )
 
+private data class GitLabReleaseLocation(
+    val projectPath: String,
+    val tag: String
+)
+
 private val releaseDownloadRegex = Regex("^/([^/]+)/([^/]+)/releases/download/([^/]+)/.+$")
+private val gitLabReleaseDownloadRegex = Regex("^/(.+)/-/releases/([^/]+)/downloads/.+$")
 
 private fun parseReleaseLocation(uri: URI): ReleaseLocation? {
     if (!uri.host.equals("github.com", ignoreCase = true)) {
@@ -537,6 +562,18 @@ private fun parseReleaseLocation(uri: URI): ReleaseLocation? {
         return null
     }
     return ReleaseLocation(owner, repo, tag)
+}
+
+private fun parseGitLabReleaseLocation(uri: URI): GitLabReleaseLocation? {
+    if (!uri.host.equals("gitlab.com", ignoreCase = true)) {
+        return null
+    }
+    val match = gitLabReleaseDownloadRegex.matchEntire(uri.path) ?: return null
+    val (projectPath, tag) = match.destructured
+    if (projectPath.isBlank() || tag.isBlank()) {
+        return null
+    }
+    return GitLabReleaseLocation(projectPath, tag)
 }
 
 private fun fetchReleaseMetadata(location: ReleaseLocation): JsonObject? {
@@ -605,7 +642,11 @@ private fun findPatchMetadataAsset(releaseJson: JsonObject): String? {
     return prioritized?.downloadUrl()
 }
 
-private fun generatePatchListFromRepositoryFile(location: ReleaseLocation, expectedVersion: String): JsonArray? {
+private fun generatePatchListFromRepositoryFile(
+    location: ReleaseLocation,
+    expectedVersion: String,
+    logMissing: Boolean = true,
+): JsonArray? {
     val attempts = listOf(location.tag, null)
 
     for (ref in attempts) {
@@ -623,7 +664,37 @@ private fun generatePatchListFromRepositoryFile(location: ReleaseLocation, expec
         return canonicalizePatchArray(parsed)
     }
 
-    Logger.warning("No usable repository patches-list.json found for ${location.owner}/${location.repo} release ${location.tag}.")
+    if (logMissing) {
+        Logger.warning(
+            "No usable repository patches-list.json found for ${location.owner}/${location.repo} " +
+                "release ${location.tag}."
+        )
+    }
+    return null
+}
+
+private fun generatePatchListFromGitLabRepositoryFile(
+    location: GitLabReleaseLocation,
+    expectedVersion: String,
+): JsonArray? {
+    val attempts = listOf(location.tag, "main", "master")
+
+    for (ref in attempts) {
+        val payload = downloadGitLabRepositoryFile(location, "patches-list.json", ref) ?: continue
+        val parsed = parseRepositoryPatchListPayload(payload, expectedVersion)
+        if (parsed == null) {
+            Logger.warning(
+                "Repository patches-list.json from ${location.projectPath} (ref $ref) " +
+                    "is not usable for version $expectedVersion."
+            )
+            continue
+        }
+        Logger.info(
+            "Using repository patches-list.json from ${location.projectPath} (ref $ref)."
+        )
+        return canonicalizePatchArray(parsed)
+    }
+
     return null
 }
 
@@ -733,6 +804,19 @@ private fun downloadRepositoryFile(location: ReleaseLocation, path: String, ref:
     }
 
     return null
+}
+
+private fun downloadGitLabRepositoryFile(
+    location: GitLabReleaseLocation,
+    path: String,
+    ref: String,
+): String? {
+    val encodedPath = path.split('/').joinToString("/") {
+        URLEncoder.encode(it, StandardCharsets.UTF_8).replace("+", "%20")
+    }
+    val encodedRef = URLEncoder.encode(ref, StandardCharsets.UTF_8).replace("+", "%20")
+    val url = "https://gitlab.com/${location.projectPath}/-/raw/$encodedRef/$encodedPath"
+    return downloadPlainText(url)
 }
 
 private fun downloadPlainText(url: String): String? {
