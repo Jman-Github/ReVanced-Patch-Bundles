@@ -1,0 +1,289 @@
+{
+    "version": "v0.1.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Drops retrofit2 enqueue calls whose Request URL contains \"/truth/ads\".",
+            "name": "Block ad requests at the network layer",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Drops navigation to the Truth+ upsell sheet and the per-feature roadblock dialog.",
+            "name": "Block Truth+ upsell",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Skips Play Integrity assertion injection — chain proceeds with the original request.",
+            "name": "Bypass Play Integrity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Forces the smsCountry == \"US\" check on premiumGateHelper.d(user) to always return true.",
+            "name": "Bypass Truth+ geofence",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes advertising-ID and ad-services permissions from the manifest.",
+            "name": "Disable advertising ID",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Neutralizes AppAnalyticsManager — every void-returning method becomes return-void.",
+            "name": "Disable analytics",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Neutralizes Firebase Analytics + Crashlytics logging methods.",
+            "name": "Disable Firebase telemetry",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Neutralizes SearchAIUseCase invocations.",
+            "name": "Disable Search AI",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Forces Features.tvEnabled to true on construction. Truth TV becomes visible across the app.",
+            "name": "Enable Truth TV",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Forces editsEnabled + editsVisible to true on Features and L6.U gates. Server may still reject.",
+            "name": "Force enable Truth+ post editing",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Forces scheduleEnabled + scheduleVisible to true on Features and L6.U gates. Server may still reject.",
+            "name": "Force enable Truth+ post scheduling",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes /truth/ads responses, AdQueueManager fetches and feed insertions.",
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the Truth AI tab from the bottom navigation bar.",
+            "name": "Hide AI tab",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Drops feeds whose id is \"for_you\" or \"recommended\" from the FeedsRepositoryImpl reader.",
+            "name": "Hide For You feed",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Suppresses the Help Center row in the account drawer sidebar.",
+            "name": "Hide Help Center sidebar item",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the gem badge and the Truth Gems banner / drawer button.",
+            "name": "Hide Truth Gems",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the TRUTH+ upsell button from the top app bar.",
+            "name": "Hide TRUTH+ button",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Repackages to com.truthsocial.android.app.mtga so the patched APK coexists with the Play Store install.",
+            "name": "Rename package to MTGA variant",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes isSplitRequired / requiredSplitTypes / vending.splits.required so the patched APK installs standalone.",
+            "name": "Strip split requirement",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.truthsocial.android.app": [
+                    "1.26.1",
+                    "1.24.8",
+                    "1.24.6"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Appends \"-mtga-patched\" to the manifest versionName and inlined BuildConfig.VERSION_NAME literals.",
+            "name": "Tag versionName with -mtga-patched",
+            "options": [],
+            "use": true
+        }
+    ]
+}

@@ -551,7 +551,29 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***Patch list not generated yet.***
+***20 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Block ad requests at the network layer``` | ```Drops retrofit2 enqueue calls whose Request URL contains "/truth/ads".``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Block Truth+ upsell``` | ```Drops navigation to the Truth+ upsell sheet and the per-feature roadblock dialog.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Bypass Play Integrity``` | ```Skips Play Integrity assertion injection — chain proceeds with the original request.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Bypass Truth+ geofence``` | ```Forces the smsCountry == "US" check on premiumGateHelper.d(user) to always return true.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Disable advertising ID``` | ```Removes advertising-ID and ad-services permissions from the manifest.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Disable analytics``` | ```Neutralizes AppAnalyticsManager — every void-returning method becomes return-void.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Disable Firebase telemetry``` | ```Neutralizes Firebase Analytics + Crashlytics logging methods.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Disable Search AI``` | ```Neutralizes SearchAIUseCase invocations.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Enable Truth TV``` | ```Forces Features.tvEnabled to true on construction. Truth TV becomes visible across the app.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Force enable Truth+ post editing``` | ```Forces editsEnabled + editsVisible to true on Features and L6.U gates. Server may still reject.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Force enable Truth+ post scheduling``` | ```Forces scheduleEnabled + scheduleVisible to true on Features and L6.U gates. Server may still reject.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Hide ads``` | ```Removes /truth/ads responses, AdQueueManager fetches and feed insertions.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Hide AI tab``` | ```Removes the Truth AI tab from the bottom navigation bar.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Hide For You feed``` | ```Drops feeds whose id is "for_you" or "recommended" from the FeedsRepositoryImpl reader.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Hide Help Center sidebar item``` | ```Suppresses the Help Center row in the account drawer sidebar.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Hide Truth Gems``` | ```Removes the gem badge and the Truth Gems banner / drawer button.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Hide TRUTH+ button``` | ```Removes the TRUTH+ upsell button from the top app bar.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Rename package to MTGA variant``` | ```Repackages to com.truthsocial.android.app.mtga so the patched APK coexists with the Play Store install.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Strip split requirement``` | ```Removes isSplitRequired / requiredSplitTypes / vending.splits.required so the patched APK installs standalone.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Tag versionName with -mtga-patched``` | ```Appends "-mtga-patched" to the manifest versionName and inlined BuildConfig.VERSION_NAME literals.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
 
 </details>
 
@@ -3583,7 +3605,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Disney+ Android TV``` | ```Removes mid-roll / pre-roll ads and pause ads.``` | ```com.disney.disneyplus``` | ```26.8.0+rc6-2026.05.20``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox One Android TV.``` | ```com.fox.foxone``` | ```1.9.2``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox Sports Android TV.``` | ```com.foxsports.android``` | ```5.152.0``` |
-| ```Skip ads``` | ```Disables ad delivery via five independent layers: MediaTailor SSAI proxy, ObfuscatedProfileId SDK registry (Adobe, Comscore, Conviva, Freewheel, MParticle, MediaTailor, Nielsen, OpenMeasurement), MediaTailor ad service constructor, SSAI configuration provider (forces AdvertisingStrategy.None), and the Sky SDK player engine ad break handler. Validated against v7.5.102.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102``` |
+| ```Skip ads``` | ```Disables ad delivery via three confirmed layers: MediaTailor SSAI proxy, MediaTailor ad service constructor, and SSAI configuration provider (forces AdvertisingStrategy.None for all playback types). Validated v7.5.102.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102``` |
 | ```Skip ads``` | ```Eliminates all Tubi ad types: intercepts DAI stream requests before they reach dai.google.com to prevent pre-roll stitching, blocks IMA ad events from reaching FoxPlayer, prevents AdsManager from priming the cold-launch pre-roll, and suppresses the pause-screen image overlay ad.``` | ```com.tubitv``` | ```10.20.5000``` |
 | ```Skip ads``` | ```Suppresses ViX ad delivery by disabling the FreeWheel ad provider at the config level and preventing the Innovid SSAI overlay from mounting.``` | ```com.univision.prendetv``` | ```4.46.0_tv``` |
 | ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.hbomax``` | ```7.2.0.41``` |
@@ -3609,7 +3631,7 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 | ```Sanitize sharing links``` | ```Removes tracking parameters from shared links. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
 | ```Settings``` | ```Adds Morphe settings to TikTok. Supports TikTok 43.8.3.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
 | ```Show seekbar``` | ```Shows a progress bar for all videos. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```SIM spoof``` | ```Spoofs SIM country and operator information retrieved by TikTok.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
+| ```SIM spoof``` | ```Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
 
 </details>
 
