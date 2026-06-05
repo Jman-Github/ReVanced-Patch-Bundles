@@ -177,7 +177,11 @@ def normalize_pending_sections(catalog_lines: list[str]) -> None:
         display_name = _display_name_from_header(line)
         j = i + 1
         while j < len(catalog_lines) and catalog_lines[j].strip() != "</details>":
-            if catalog_lines[j].strip().startswith("<summary") and "pending patch list" in catalog_lines[j]:
+            is_pending_summary = (
+                catalog_lines[j].strip().startswith("<summary")
+                and "pending patch list" in catalog_lines[j]
+            )
+            if is_pending_summary:
                 catalog_lines[j] = f"<summary><b>{display_name}</b> - pending patch list</summary>"
                 break
             j += 1
@@ -278,7 +282,10 @@ def rebuild_index(catalog_lines: list[str]) -> list[str]:
 
     index_lines = [
         "## 🔑 Patch Bundle Index",
-        "Patch lists are collapsed by default. Expand a bundle to inspect its generated patch table.",
+        (
+            "Patch lists are collapsed by default. "
+            "Expand a bundle to inspect its generated patch table."
+        ),
         "",
     ]
     for bundle_type, type_entries in grouped.items():
