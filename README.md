@@ -602,19 +602,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
-### 📦 Areteruhiro-Patches-Bundle [API v4]:
-[🧩 Areteruhiro Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-areteruhiro-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/areteruhiro-patch-bundles/areteruhiro-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/areteruhiro-patch-bundles/areteruhiro-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/areteruhiro-patch-bundles/areteruhiro-dev-patches-bundle.json```
-</details>
-
----
 ### 📦 Morphe-Patches-Bundle [Morphe]:
 [🧩 Morphe Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-morphe-bundle-patch-list)
 <details>
@@ -836,19 +823,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
-### 📦 Aniketshinde007-Patches-Bundle [Morphe]:
-[🧩 Aniketshinde007 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-aniketshinde007-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/aniketshinde007-patch-bundles/aniketshinde007-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/aniketshinde007-patch-bundles/aniketshinde007-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/aniketshinde007-patch-bundles/aniketshinde007-dev-patches-bundle.json```
-</details>
-
----
 ### 📦 Binarymend-Patches-Bundle [Morphe]:
 [🧩 Binarymend Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-binarymend-bundle-patch-list)
 <details>
@@ -924,19 +898,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ariecos-patch-bundles/ariecos-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ariecos-patch-bundles/ariecos-dev-patches-bundle.json```
-</details>
-
----
-### 📦 Joganubaid-Patches-Bundle [Morphe]:
-[🧩 Joganubaid Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-joganubaid-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/joganubaid-patch-bundles/joganubaid-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/joganubaid-patch-bundles/joganubaid-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/joganubaid-patch-bundles/joganubaid-dev-patches-bundle.json```
 </details>
 
 ---
@@ -1041,32 +1002,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/PawiX25-patch-bundles/PawiX25-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/PawiX25-patch-bundles/PawiX25-dev-patches-bundle.json```
-</details>
-
----
-### 📦 Cryptomator-Patches-Bundle [Morphe]:
-[🧩 Cryptomator Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-cryptomator-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Cryptomator-patch-bundles/Cryptomator-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Cryptomator-patch-bundles/Cryptomator-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Cryptomator-patch-bundles/Cryptomator-dev-patches-bundle.json```
-</details>
-
----
-### 📦 Vmospro-Patches-Bundle [Morphe]:
-[🧩 Vmospro Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-Vmospro-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Vmospro-patch-bundles/Vmospro-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Vmospro-patch-bundles/Vmospro-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Vmospro-patch-bundles/Vmospro-dev-patches-bundle.json```
 </details>
 
 ---
@@ -1337,7 +1272,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [Liaralabs-Patches-Bundle](https://github.com/liaralabs/revanced-patches)
 
-#### 🏷️ [Areteruhiro-Patches-Bundle](https://github.com/areteruhiro/linegms)
 
 #### 🏷️ [Morphe-Patches-Bundle](https://github.com/MorpheApp/morphe-patches)
 
@@ -1373,7 +1307,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [Paresh-Maheshwari-Patches-Bundle](https://gitlab.com/Paresh-Maheshwari/paresh-patches)
 
-#### 🏷️ [Aniketshinde007-Patches-Bundle](https://github.com/aniketshinde007/morphe-patches-ani)
 
 #### 🏷️ [Binarymend-Patches-Bundle](https://github.com/binarymend/morphe-patches)
 
@@ -1387,7 +1320,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [Ariecos-Patches-Bundle](https://github.com/ariecos/gemini-patches)
 
-#### 🏷️ [Joganubaid-Patches-Bundle](https://github.com/joganubaid/adguard-morphe-patches)
 
 #### 🏷️ [Alim-Zanibekov-Patches-Bundle](https://github.com/alim-zanibekov/ultrasandbox)
 
@@ -1405,9 +1337,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [PawiX25-Patches-Bundle](https://github.com/PawiX25/pepper-revanced-patches)
 
-#### 🏷️ [Vmospro-Patches-Bundle](https://github.com/joganubaid/vmospro-morphe-patches)
 
-#### 🏷️ [Cryptomator-Patches-Bundle](https://github.com/joganubaid/cryptomator-morphe-patches)
 
 #### 🏷️ [Lynx6319-Patches-Bundle](https://github.com/Lynx6319/patch-youtube-scroll-block)
 

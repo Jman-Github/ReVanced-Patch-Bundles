@@ -30,7 +30,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Bawr](#-bawr-bundle-patch-list) | 1 | 1 | Generated |
 | [Burgers1312](#-burgers1312-bundle-patch-list) | 1 | 1 | Generated |
 | [Liaralabs](#-liaralabs-bundle-patch-list) | 3 | 1 | Generated |
-| [Areteruhiro](#-areteruhiro-bundle-patch-list) | 23 | 3 | Generated |
 | [Blazskufca](#-blazskufca-bundle-patch-list) | 2 | 3 | Generated |
 | [Alexvbp](#-alexvbp-bundle-patch-list) | 1 | 1 | Generated |
 | [LoV432](#-lov432-bundle-patch-list) | 1 | 1 | Generated |
@@ -64,22 +63,18 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 16 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
 | [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 37 | 13 | Generated |
-| [Aniketshinde007](#-aniketshinde007-bundle-patch-list) | 2 | 1 | Generated |
 | [Binarymend](#-binarymend-bundle-patch-list) | 11 | 7 | Generated |
 | [Polka-Bear](#-polka-bear-bundle-patch-list) | 4 | 2 | Generated |
 | [Ajstrick81](#-ajstrick81-bundle-patch-list) | 1 | 1 | Generated |
 | [Eyalm2000](#-eyalm2000-bundle-patch-list) | 2 | 1 | Generated |
 | [Vladon](#-vladon-bundle-patch-list) | 3 | 1 | Generated |
 | [Ariecos](#-ariecos-bundle-patch-list) | 2 | 2 | Generated |
-| [Joganubaid](#-joganubaid-bundle-patch-list) | 1 | 1 | Generated |
 | [Joristdh](#-joristdh-bundle-patch-list) | 1 | 1 | Generated |
 | [Meridianfresco](#-meridianfresco-bundle-patch-list) | 2 | 1 | Generated |
 | [Loskutov](#-loskutov-bundle-patch-list) | 2 | 2 | Generated |
 | [Kareemlukitomo](#-kareemlukitomo-bundle-patch-list) | 8 | 5 | Generated |
 | [Abhis1n](#-abhis1n-bundle-patch-list) | 1 | 1 | Generated |
 | [PawiX25](#-pawix25-bundle-patch-list) | 17 | 10 | Generated |
-| [Cryptomator](#-cryptomator-bundle-patch-list) | 2 | 1 | Generated |
-| [Vmospro](#-vmospro-bundle-patch-list) | - | - | Pending patch list |
 | [Ameenalasady](#-ameenalasady-bundle-patch-list) | 1 | 1 | Generated |
 | [Lynx6319](#-lynx6319-bundle-patch-list) | 1 | 1 | Generated |
 | [Xob0t](#-xob0t-bundle-patch-list) | 21 | 5 | Generated |
@@ -2292,40 +2287,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 </details>
 
 ---
-### 🧩 Areteruhiro Bundle Patch List:
-[📦 Areteruhiro-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-areteruhiro-patches-bundle-api-v4)
-<details>
-<summary><b>Areteruhiro</b> - 23 patches, 3 apps</summary>
-
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```jp.naver.line.android``` | ```All versions``` |
-| ```LINE package string rewrite``` | ```Replace all "jp.naver.line.android" string literals with the specified package name.``` | ```jp.naver.line.android, jp.naver.line.androidd``` | ```All versions``` |
-| ```LINE remove unsupported attrs``` | ```Remove unsupported attributes like android:useLocalePreferredLineHeightForMinimum so that aapt2 can compile resources.``` | ```jp.naver.line.android, jp.naver.line.androidd``` | ```All versions``` |
-| ```Change package name``` | ```Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
-| ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```Universal``` | ```All versions``` |
-| ```Custom network security``` | ```Allows trusting custom certificate authorities for a specific domain.``` | ```Universal``` | ```All versions``` |
-| ```Disable Pairip license check``` | ```Disables Play Integrity API (Pairip) client-side license check.``` | ```Universal``` | ```All versions``` |
-| ```Enable Android debugging``` | ```Enables Android debugging capabilities. This can slow down the app.``` | ```Universal``` | ```All versions``` |
-| ```Enable ROM signature spoofing``` | ```Spoofs the signature via the manifest meta-data "fake-signature". This patch only works with ROMs that support signature spoofing.``` | ```Universal``` | ```All versions``` |
-| ```Export all activities``` | ```Makes all app activities exportable.``` | ```Universal``` | ```All versions``` |
-| ```Export internal data documents provider``` | ```Exports a documents provider that grants access to the internal data directory of this app to file managers and other apps that support the Storage Access Framework.``` | ```Universal``` | ```All versions``` |
-| ```Hex``` | ```Replaces a hexadecimal patterns of bytes of files in an APK.``` | ```Universal``` | ```All versions``` |
-| ```Hide ADB status``` | ```Hides enabled development settings and/or ADB.``` | ```Universal``` | ```All versions``` |
-| ```Hide app icon``` | ```Hides the app icon from the Android launcher.``` | ```Universal``` | ```All versions``` |
-| ```Hide mock location``` | ```Prevents the app from knowing the device location is being mocked by a third party app.``` | ```Universal``` | ```All versions``` |
-| ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
-| ```Predictive back gesture``` | ```Enables the predictive back gesture introduced on Android 13.``` | ```Universal``` | ```All versions``` |
-| ```Remove screen capture restriction``` | ```Removes the restriction of capturing audio from apps that normally wouldn't allow it.``` | ```Universal``` | ```All versions``` |
-| ```Remove screenshot restriction``` | ```Removes the restriction of taking screenshots in apps that normally wouldn't allow it.``` | ```Universal``` | ```All versions``` |
-| ```Set target SDK version 34``` | ```Changes the target SDK to version 34 (Android 14). For devices running Android 15+, this will disable edge-to-edge display.``` | ```Universal``` | ```All versions``` |
-| ```Spoof build info``` | ```Spoofs the information about the current build.``` | ```Universal``` | ```All versions``` |
-| ```Spoof SIM country``` | ```Spoofs country information returned by the SIM card provider.``` | ```Universal``` | ```All versions``` |
-| ```Spoof Wi-Fi connection``` | ```Spoofs an existing Wi-Fi connection.``` | ```Universal``` | ```All versions``` |
-
-</details>
-
----
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
@@ -3098,19 +3059,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 </details>
 
 ---
-### 🧩 Aniketshinde007 Bundle Patch List:
-[📦 Aniketshinde007-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-aniketshinde007-patches-bundle-morphe)
-<details>
-<summary><b>Aniketshinde007</b> - 2 patches, 1 app</summary>
-
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Increase Max Rounds``` | ```Changes the max value of the rounds SeekBar from 108 to 216.``` | ```Universal``` | ```All versions``` |
-| ```Unlock Premium``` | ```Forces the premium check to always return true.``` | ```Universal``` | ```All versions``` |
-
-</details>
-
----
 ### 🧩 Binarymend Bundle Patch List:
 [📦 Binarymend-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-binarymend-patches-bundle-morphe)
 <details>
@@ -3196,18 +3144,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```GmsCore MicroG support``` | ```Injects MicroG-RE metadata into Gemini's manifest so it gets signature spoofing trust from MicroG-RE.``` | ```com.google.android.apps.bard, com.google.android.googlequicksearchbox``` | ```All versions``` |
 | ```Route intents to patched apps``` | ```Replaces unused internal package names in Gemini's allowlist with Morphe-patched YouTube and YouTube Music package names.``` | ```com.google.android.apps.bard, com.google.android.googlequicksearchbox``` | ```All versions``` |
-
-</details>
-
----
-### 🧩 Joganubaid Bundle Patch List:
-[📦 Joganubaid-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-joganubaid-patches-bundle-morphe)
-<details>
-<summary><b>Joganubaid</b> - 1 patch, 1 app</summary>
-
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Enable Premium``` | ```Enables AdGuard premium by creating a fake PaidLicense with lifetime duration``` | ```AdGuard``` | ```All versions``` |
 
 </details>
 
@@ -3329,29 +3265,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Skip Usercentrics consent screen``` | ```Skips the Usercentrics consent screen and its loading wait on cold start.``` | ```com.chollometro, com.dealabs.apps.android, com.pepperdeals, com.preisjaeger, com.tippingcanoe.hukd, com.tippingcanoe.mydealz, com.tippingcanoe.peppernl, com.tippingcanoe.pepperpl, com.tippingcanoe.promodescuentos, se.pepperdeals``` | ```All versions``` |
 | ```Unlock tier-locked icons``` | ```Unlocks all membership-tier app icons in the icon picker.``` | ```com.chollometro, com.dealabs.apps.android, com.pepperdeals, com.preisjaeger, com.tippingcanoe.hukd, com.tippingcanoe.mydealz, com.tippingcanoe.peppernl, com.tippingcanoe.pepperpl, com.tippingcanoe.promodescuentos, se.pepperdeals``` | ```All versions``` |
 | ```Disable PAIRIP license check``` | ```Removes Google Play's install-source DRM check from the US Pepper.com build, allowing sideloaded APKs to open.``` | ```com.pepperdeals``` | ```All versions``` |
-
-</details>
-
----
-### 🧩 Cryptomator Bundle Patch List:
-[📦 Cryptomator-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-Cryptomator-patches-bundle-morphe)
-<details>
-<summary><b>Cryptomator</b> - 2 patches, 1 app</summary>
-
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Check License No-Op``` | ```Makes VaultListPresenter.checkLicense() a no-op to skip license check``` | ```Cryptomator``` | ```All versions``` |
-| ```License Bypass``` | ```Bypasses Cryptomator license verification to enable premium features``` | ```Cryptomator``` | ```All versions``` |
-
-</details>
-
----
-### 🧩 Vmospro Bundle Patch List:
-[📦 Vmospro-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-Vmospro-patches-bundle-morphe)
-<details>
-<summary><b>Vmospro</b> - pending patch list</summary>
-
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` was found._
 
 </details>
 
