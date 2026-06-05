@@ -39,7 +39,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
-| [ProGuard](#-proguard-bundle-patch-list) | - | - | Pending patch list |
+| [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 4 | 2 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
@@ -62,7 +62,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 2 | 1 | Generated |
 | [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 16 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
-| [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 37 | 13 | Generated |
+| [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 55 | 20 | Generated |
 | [Binarymend](#-binarymend-bundle-patch-list) | 11 | 7 | Generated |
 | [Polka-Bear](#-polka-bear-bundle-patch-list) | 4 | 2 | Generated |
 | [Ajstrick81](#-ajstrick81-bundle-patch-list) | 1 | 1 | Generated |
@@ -543,9 +543,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 ProGuard Bundle Patch List:
 [📦 ProGuard-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-proguard-patches-bundle-morphe)
 <details>
-<summary><b>ProGuard</b> - pending patch list</summary>
+<summary><b>ProGuard</b> - 2 patches, 2 apps</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` was found._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Assemble LSPosed module``` | ```Assembles LSPosed modules based on the JSON file.``` | ```Java Inspector``` | ```All versions``` |
+| ```Find dummy classes``` | ```Find the dummy classes and write them to a JSON file``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -3014,47 +3017,65 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Paresh-Maheshwari Bundle Patch List:
 [📦 Paresh-Maheshwari-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-paresh-maheshwari-patches-bundle-morphe)
 <details>
-<summary><b>Paresh-Maheshwari</b> - 37 patches, 13 apps</summary>
+<summary><b>Paresh-Maheshwari</b> - 55 patches, 20 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable telemetry``` | ```Blocks all telemetry, analytics, and observability data collection.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
-| ```Proton VPN Premium``` | ```Unlocks premium UI features: removes upsells, enables NetShield ad-blocker, hides upgrade prompts, shows free servers with premium interface (Plus badge, no speed limits display, all feature flags enabled).``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
-| ```MacroDroid Premium``` | ```Unlocks premium features and removes macro limits.``` | ```com.arlosoft.macrodroid``` | ```5.62.11``` |
-| ```Doc Scanner Premium``` | ```Unlocks all premium features, removes ads, and enables pro themes.``` | ```com.cv.docscanner``` | ```6.8.18``` |
-| ```Eyecon Premium``` | ```Unlocks premium features.``` | ```com.eyecon.global``` | ```4.2026.04.05.1300``` |
-| ```VN Premium``` | ```Unlocks premium features, removes watermark, and hides Pro tab.``` | ```com.frontrow.vlog``` | ```2.12.0``` |
-| ```Mark Premium``` | ```Unlocks premium features and removes ads.``` | ```com.markOne.ss_app``` | ```6.6``` |
-| ```Fing Premium``` | ```Unlocks premium network tools and features.``` | ```com.overlook.android.fing``` | ```12.11.9``` |
-| ```Teleprompter Premium``` | ```Unlocks premium features in Teleprompter Vlog & Scripts app.``` | ```com.solid.teleprompter``` | ```6.8.2, 6.8.1``` |
-| ```TickTick Premium``` | ```Unlocks premium features, removes limits, and enables AI tools.``` | ```com.ticktick.task``` | ```8.0.6.1``` |
-| ```Disable telemetry``` | ```Disables AppStartTracker and other telemetry points.``` | ```com.truecaller``` | ```26.10.6``` |
-| ```Disable update check``` | ```Disables the in-app update check.``` | ```com.truecaller``` | ```26.10.6``` |
-| ```GMS sign-in bypass``` | ```Forces SMS-based OTP verification instead of GMS SmsRetriever, fixing sign-in on re-signed APKs.``` | ```com.truecaller``` | ```26.10.6``` |
-| ```Hide Assistant tab``` | ```Hides the Assistant tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
-| ```Hide Family Protection button``` | ```Hides the Family Protection button from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
-| ```Hide Premium from settings``` | ```Hides the Premium options from the settings and user details pages.``` | ```com.truecaller``` | ```26.10.6``` |
-| ```Hide Premium tab``` | ```Hides the Premium tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
-| ```Hide Scams tab``` | ```Hides the Scams tab from the bottom navigation bar.``` | ```com.truecaller``` | ```26.10.6``` |
-| ```Truecaller Premium``` | ```Unlocks premium features.``` | ```com.truecaller``` | ```26.10.6``` |
-| ```CREX Premium``` | ```Unlocks premium features and removes ads.``` | ```in.cricketexchange.app.cricketexchange``` | ```26.04.05``` |
-| ```Bypass signature check``` | ```Bypasses app signature verification to allow API access.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
-| ```Enable all codecs``` | ```Enables all video codecs (H265, VP9, AV1) and 4K resolution by bypassing blacklist and capability checks.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
-| ```Enable screen mirroring``` | ```Allows playback while screen mirroring or HDMI is connected.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
-| ```Enable screenshots``` | ```Removes screenshot and screen recording restrictions.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
-| ```Force HDR10``` | ```Forces HDR10 and HDR10+ playback on compatible devices by bypassing blacklist and capability checks.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
-| ```Premium unlock``` | ```Unlocks premium UI features, removes subscription nudges, and enables downloads.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
-| ```Remove ads``` | ```Removes pre-roll, mid-roll, and live match video ads.``` | ```in.startv.hotstar``` | ```26.04.13.3``` |
-| ```Anti-delete messages``` | ```Prevents deleted messages from being removed locally.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
-| ```Anti-disappearing media``` | ```Keeps view-once and self-destructing media viewable forever.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
-| ```Bypass channel restrictions``` | ```Allows opening copyrighted, sensitive, and temporarily disabled channels.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
-| ```Bypass content restrictions``` | ```Allows copying, saving, forwarding, and screenshots from restricted channels.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
-| ```Bypass integrity``` | ```Bypasses integrity check to allow login on patched app.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
-| ```Disable auto update``` | ```Disables automatic app update checks.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
-| ```Download speed boost``` | ```Increases download chunk size and max concurrent requests.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
-| ```Hide typing indicator``` | ```Hides your typing indicator from other users.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
-| ```Remove ads``` | ```Removes sponsored messages and video ads.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
-| ```Telegram Premium``` | ```Unlocks premium features.``` | ```org.telegram.messenger.web``` | ```12.6.4``` |
+| ```Unlock Premium``` | ```Unlocks all premium missions — Lights On, Step & Walk Off, Push-Up, Squats, Jumping Jack, and Wake Up check.``` | ```Alarmo``` | ```All versions``` |
+| ```CREX Premium``` | ```Unlocks premium features and removes ads.``` | ```CREX - Just Cricket``` | ```All versions``` |
+| ```Cricbuzz Disable Ads``` | ```Removes all ads including banner, interstitial, video, and app open ads.``` | ```Cricbuzz``` | ```All versions``` |
+| ```Cricbuzz Premium``` | ```Unlocks premium features like live streaming and premium articles.``` | ```Cricbuzz``` | ```All versions``` |
+| ```Doc Scanner Premium``` | ```Unlocks all premium features, removes ads, and enables pro themes.``` | ```Document Scanner``` | ```All versions``` |
+| ```Eyecon Premium``` | ```Unlocks premium features.``` | ```Eyecon Caller ID & Spam Block``` | ```All versions``` |
+| ```Fing Premium``` | ```Unlocks premium network tools and features.``` | ```Fing``` | ```All versions``` |
+| ```Bypass signature check``` | ```Bypasses app signature verification to allow API access.``` | ```JioHotstar``` | ```All versions``` |
+| ```Enable all codecs``` | ```Enables all video codecs (H265, VP9, AV1) and 4K resolution by bypassing blacklist and capability checks.``` | ```JioHotstar``` | ```All versions``` |
+| ```Enable screen mirroring``` | ```Allows playback while screen mirroring or HDMI is connected.``` | ```JioHotstar``` | ```All versions``` |
+| ```Enable screenshots``` | ```Removes screenshot and screen recording restrictions.``` | ```JioHotstar``` | ```All versions``` |
+| ```Force HDR10``` | ```Forces HDR10 and HDR10+ playback on compatible devices by bypassing blacklist and capability checks.``` | ```JioHotstar``` | ```All versions``` |
+| ```Premium unlock``` | ```Unlocks premium UI features, removes subscription nudges, and enables downloads.``` | ```JioHotstar``` | ```All versions``` |
+| ```Remove ads``` | ```Removes pre-roll, mid-roll, and live match video ads.``` | ```JioHotstar``` | ```All versions``` |
+| ```Lumina Premium``` | ```Unlocks all premium wallpapers and categories.``` | ```Lumina Walls``` | ```All versions``` |
+| ```MacroDroid Premium``` | ```Unlocks premium features and removes macro limits.``` | ```MacroDroid``` | ```All versions``` |
+| ```Mark Premium``` | ```Unlocks premium features and removes ads.``` | ```Mark``` | ```All versions``` |
+| ```Anti-delete messages``` | ```Prevents deleted messages from being removed locally.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Anti-disappearing media``` | ```Keeps view-once and self-destructing media viewable forever.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Anti-screenshot notification``` | ```Blocks screenshot notifications from being sent to the other user.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Bypass channel restrictions``` | ```Allows copying text, saving media, and opening blocked channels. Forwarding is server-side blocked and won't work.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Bypass integrity``` | ```Bypasses integrity check to allow login on patched app.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Disable analytics``` | ```Blocks all analytics and tracking.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Disable auto update``` | ```Disables automatic app update checks.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Hide typing indicator``` | ```Prevents typing status from being sent to other users.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Plus Premium``` | ```Unlocks premium feature UI and shows premium badge on self only.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Remove ads``` | ```Removes all ads including Plus banner ads and Telegram sponsored messages.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Teleprompter Premium``` | ```Unlocks premium features in Teleprompter Vlog & Scripts app.``` | ```Prompter Pal``` | ```All versions``` |
+| ```Disable telemetry``` | ```Blocks all telemetry, analytics, and observability data collection.``` | ```Proton VPN``` | ```All versions``` |
+| ```Proton VPN Premium``` | ```Unlocks premium UI features: removes upsells, enables NetShield ad-blocker, hides upgrade prompts, shows free servers with premium interface (Plus badge, no speed limits display, all feature flags enabled).``` | ```Proton VPN``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks SD Maid SE Pro features — full history, scheduled operations, extra options, custom rules.``` | ```SD Maid SE``` | ```All versions``` |
+| ```StarSense Unlock``` | ```Bypasses the unlock code check to enable all features.``` | ```StarSense Explorer``` | ```All versions``` |
+| ```Anti-delete messages``` | ```Prevents deleted messages from being removed locally.``` | ```Telegram``` | ```All versions``` |
+| ```Anti-disappearing media``` | ```Keeps view-once and self-destructing media viewable forever.``` | ```Telegram``` | ```All versions``` |
+| ```Bypass channel restrictions``` | ```Allows opening copyrighted, sensitive, and temporarily disabled channels.``` | ```Telegram``` | ```All versions``` |
+| ```Bypass content restrictions``` | ```Allows saving from restricted channels.``` | ```Telegram``` | ```All versions``` |
+| ```Bypass integrity``` | ```Bypasses integrity check to allow login on patched app.``` | ```Telegram``` | ```All versions``` |
+| ```Disable auto update``` | ```Disables automatic app update checks.``` | ```Telegram``` | ```All versions``` |
+| ```Download speed boost``` | ```Increases download chunk size and max concurrent requests.``` | ```Telegram``` | ```All versions``` |
+| ```Hide typing indicator``` | ```Hides your typing indicator from other users.``` | ```Telegram``` | ```All versions``` |
+| ```Remove ads``` | ```Removes sponsored messages and video ads.``` | ```Telegram``` | ```All versions``` |
+| ```Telegram Premium``` | ```Unlocks premium features.``` | ```Telegram``` | ```All versions``` |
+| ```TickTick Premium``` | ```Unlocks premium features, removes limits, and enables AI tools.``` | ```TickTick``` | ```All versions``` |
+| ```TrackIt Premium``` | ```Unlocks premium features.``` | ```TrackIt``` | ```All versions``` |
+| ```Disable telemetry``` | ```Disables AppStartTracker and other telemetry points.``` | ```Truecaller``` | ```All versions``` |
+| ```Disable update check``` | ```Disables the in-app update check.``` | ```Truecaller``` | ```All versions``` |
+| ```GMS sign-in bypass``` | ```Forces SMS-based OTP verification instead of GMS SmsRetriever, fixing sign-in on re-signed APKs.``` | ```Truecaller``` | ```All versions``` |
+| ```Hide Assistant tab``` | ```Hides the Assistant tab from the bottom navigation bar.``` | ```Truecaller``` | ```All versions``` |
+| ```Hide Family Protection button``` | ```Hides the Family Protection button from the bottom navigation bar.``` | ```Truecaller``` | ```All versions``` |
+| ```Hide Premium from settings``` | ```Hides the Premium options from the settings and user details pages.``` | ```Truecaller``` | ```All versions``` |
+| ```Hide Premium tab``` | ```Hides the Premium tab from the bottom navigation bar.``` | ```Truecaller``` | ```All versions``` |
+| ```Hide Scams tab``` | ```Hides the Scams tab from the bottom navigation bar.``` | ```Truecaller``` | ```All versions``` |
+| ```Neutralize third-party SDKs``` | ```Disables telemetry, ad, and tracking SDK initializations. Fixes #84.``` | ```Truecaller``` | ```All versions``` |
+| ```Truecaller Premium``` | ```Unlocks premium features.``` | ```Truecaller``` | ```All versions``` |
+| ```VN Premium``` | ```Unlocks premium features, removes watermark, and hides Pro tab.``` | ```VN``` | ```All versions``` |
 
 </details>
 
@@ -3455,7 +3476,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disney+ Android TV``` | ```Removes mid-roll / pre-roll ads and pause ads.``` | ```com.disney.disneyplus``` | ```26.8.0+rc6-2026.05.20``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox One Android TV.``` | ```com.fox.foxone``` | ```1.9.2``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox Sports Android TV.``` | ```com.foxsports.android``` | ```5.152.0``` |
-| ```Skip ads``` | ```Disables ad delivery via three confirmed layers: MediaTailor SSAI proxy, MediaTailor ad service constructor, and SSAI configuration provider (forces AdvertisingStrategy.None for all playback types). Validated v7.5.102.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102``` |
+| ```Skip ads``` | ```Disables ad delivery via three confirmed Sky SDK layers plus an OkHttp interceptor that blocks ad CDN and analytics domains at the network layer, replacing the AGH DNS dependency. Validated v7.5.102.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102``` |
 | ```Skip ads``` | ```Eliminates all Tubi ad types: intercepts DAI stream requests before they reach dai.google.com to prevent pre-roll stitching, blocks IMA ad events from reaching FoxPlayer, prevents AdsManager from priming the cold-launch pre-roll, and suppresses the pause-screen image overlay ad.``` | ```com.tubitv``` | ```10.20.5000``` |
 | ```Skip ads``` | ```Suppresses ViX ad delivery by disabling the FreeWheel ad provider at the config level and preventing the Innovid SSAI overlay from mounting.``` | ```com.univision.prendetv``` | ```4.46.0_tv``` |
 | ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.hbomax``` | ```7.2.0.41``` |
