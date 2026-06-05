@@ -1,0 +1,80 @@
+{
+    "version": "v1.30.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Microsoft Edge",
+                    "packageName": "com.microsoft.emmx",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "148.0.3967.97"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables all Copilot and Bing Chat feature flags by forcing boolean feature evaluation methods to return false.",
+            "name": "Copilot feature toggle",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Microsoft Edge",
+                    "packageName": "com.microsoft.emmx",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "148.0.3967.97"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Disables Play Store updates by setting the version code to the maximum allowed. This patch does not work if the app is installed by mounting and may cause unexpected issues with some apps.",
+            "name": "Disable Play Store updates",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Microsoft Edge",
+                    "packageName": "com.microsoft.emmx",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "148.0.3967.97"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Eliminates Microsoft Edge telemetry by redirecting data collection endpoints to localhost and short-circuiting OneDS Logger event methods.",
+            "name": "Telemetry elimination",
+            "options": []
+        }
+    ]
+}

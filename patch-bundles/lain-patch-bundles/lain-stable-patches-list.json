@@ -1,0 +1,105 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#01AA68",
+                    "description": null,
+                    "name": "Android Proxy Server",
+                    "packageName": "cn.adonet.proxyevery",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "9.9"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disable banner, splash, and rewarded ads.",
+            "name": "Disable Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F9A128",
+                    "description": null,
+                    "name": "Camera FV-5 Lite",
+                    "packageName": "com.flavionet.android.camera.lite",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.4.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Force enable DNG raw capture option.",
+            "name": "Enable Raw Capture",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F9A128",
+                    "description": null,
+                    "name": "Camera FV-5 Lite",
+                    "packageName": "com.flavionet.android.camera.lite",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.4.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Fix opening Cinema FV-5 Lite from video recording menu.",
+            "name": "Fix Video Recording Intent",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F9A128",
+                    "description": null,
+                    "name": "Camera FV-5 Lite",
+                    "packageName": "com.flavionet.android.camera.lite",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.4.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock higher image resolutions that the device support.",
+            "name": "Higher Image Resolution",
+            "options": []
+        }
+    ]
+}

@@ -583,7 +583,13 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***Patch list not generated yet.***
+***4 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable Ads``` | ```Disable banner, splash, and rewarded ads.``` | ```Android Proxy Server``` | ```All versions``` |
+| ```Enable Raw Capture``` | ```Force enable DNG raw capture option.``` | ```Camera FV-5 Lite``` | ```All versions``` |
+| ```Fix Video Recording Intent``` | ```Fix opening Cinema FV-5 Lite from video recording menu.``` | ```Camera FV-5 Lite``` | ```All versions``` |
+| ```Higher Image Resolution``` | ```Unlock higher image resolutions that the device support.``` | ```Camera FV-5 Lite``` | ```All versions``` |
 
 </details>
 
@@ -593,7 +599,12 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 <details open>
 <summary><b>Click To Collapse Patch List</b></summary>
 
-***Patch list not generated yet.***
+***3 Patches***
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Copilot feature toggle``` | ```Disables all Copilot and Bing Chat feature flags by forcing boolean feature evaluation methods to return false.``` | ```Microsoft Edge``` | ```All versions``` |
+| ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch does not work if the app is installed by mounting and may cause unexpected issues with some apps.``` | ```Microsoft Edge``` | ```All versions``` |
+| ```Telemetry elimination``` | ```Eliminates Microsoft Edge telemetry by redirecting data collection endpoints to localhost and short-circuiting OneDS Logger event methods.``` | ```Microsoft Edge``` | ```All versions``` |
 
 </details>
 
