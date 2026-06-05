@@ -101,11 +101,8 @@ def _patch_sort_key(info: dict[str, str]) -> tuple[str, str]:
 
 
 def format_patch_lines(patches: list[dict[str, str]]) -> list[str]:
-    count = len(patches)
-    patch_word = "Patch" if count == 1 else "Patches"
     lines: list[str] = []
     lines.append("")
-    lines.append(f"***{count} {patch_word}***")
     lines.append("| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |")
     lines.append("|----------|---------------|---------------------|-------------------------|")
     sorted_patches = sorted(patches, key=_patch_sort_key)
@@ -119,43 +116,47 @@ def format_patch_lines(patches: list[dict[str, str]]) -> list[str]:
     return lines
 
 
-def read_catalog_patch_names(catalog_path: Path) -> set[str]:
-    names: set[str] = set()
-    if not catalog_path.exists():
-        return names
-    text = catalog_path.read_text(encoding="utf-8")
-    for line in text.splitlines():
-        if not line.startswith("|"):
-            continue
-        parts = [p.strip() for p in line.strip().split("|")]
-        if len(parts) < 3:
-            continue
-        name = parts[1]
-        if not name or name in {"**Name**", "----------"}:
-            continue
-        if name.startswith("```") and name.endswith("```"):
-            name = name[3:-3]
-        name = _squash_whitespace(name)
-        names.add(name)
-    return names
+def _display_name_from_header(header: str) -> str:
+    value = header.strip()
+    value = re.sub(r"^###\s+", "", value)
+    value = re.sub(r"^[^\w#]+", "", value, flags=re.UNICODE)
+    return value.removesuffix("Bundle Patch List:").strip()
 
 
-def inject_patch_lines(catalog_lines: list[str], bundle_name: str, patch_lines: list[str]) -> bool:
-    header_regex = re.compile(
-        rf"^### 🧩 {re.escape(bundle_name)} Bundle Patch List:", re.IGNORECASE
+def _patch_summary(display_name: str, patches: list[dict[str, str]]) -> str:
+    patch_word = "patch" if len(patches) == 1 else "patches"
+    apps = {
+        app.strip()
+        for patch in patches
+        for app in _squash_whitespace(patch.get("apps", "Universal")).split(",")
+        if app.strip()
+    }
+    app_word = "app" if len(apps) == 1 else "apps"
+    return (
+        f"<summary><b>{display_name}</b> - "
+        f"{len(patches)} {patch_word}, {len(apps)} {app_word}</summary>"
     )
 
+
+def inject_patch_lines(
+    catalog_lines: list[str],
+    bundle_name: str,
+    patch_lines: list[str],
+    patches: list[dict[str, str]],
+) -> bool:
     for i, line in enumerate(catalog_lines):
-        if header_regex.match(line.strip()):
+        if not line.strip().startswith("### ") or " Bundle Patch List:" not in line:
+            continue
+
+        display_name = _display_name_from_header(line)
+        if display_name.casefold() == bundle_name.casefold():
+            summary_line = _patch_summary(display_name, patches)
             j = i + 1
-            while (
-                j < len(catalog_lines)
-                and catalog_lines[j].strip()
-                != "<summary><b>Click To Collapse Patch List</b></summary>"
-            ):
+            while j < len(catalog_lines) and not catalog_lines[j].strip().startswith("<summary"):
                 j += 1
             if j == len(catalog_lines):
                 return False
+            catalog_lines[j] = summary_line
             start = j + 1
             k = start
             while k < len(catalog_lines) and catalog_lines[k].strip() != "</details>":
@@ -168,13 +169,168 @@ def inject_patch_lines(catalog_lines: list[str], bundle_name: str, patch_lines: 
     return False
 
 
+def normalize_pending_sections(catalog_lines: list[str]) -> None:
+    for i, line in enumerate(catalog_lines):
+        if not line.strip().startswith("### ") or " Bundle Patch List:" not in line:
+            continue
+
+        display_name = _display_name_from_header(line)
+        j = i + 1
+        while j < len(catalog_lines) and catalog_lines[j].strip() != "</details>":
+            if catalog_lines[j].strip().startswith("<summary") and "pending patch list" in catalog_lines[j]:
+                catalog_lines[j] = f"<summary><b>{display_name}</b> - pending patch list</summary>"
+                break
+            j += 1
+
+
+def _cell_text(cell: str) -> str:
+    cell = cell.strip()
+    if cell.startswith("```") and cell.endswith("```"):
+        cell = cell[3:-3]
+    return _squash_whitespace(cell)
+
+
+def _section_patch_stats(lines: list[str]) -> tuple[int | None, int | None]:
+    patch_count = 0
+    apps: set[str] = set()
+    found_table = False
+    for line in lines:
+        if not line.startswith("|"):
+            continue
+        parts = [part.strip() for part in line.strip().split("|")]
+        if len(parts) < 5:
+            continue
+        name = parts[1]
+        app_cell = parts[3]
+        if name in {"**Name**", "----------"}:
+            found_table = True
+            continue
+        if not found_table:
+            continue
+        patch_count += 1
+        for app in _cell_text(app_cell).split(","):
+            if app.strip():
+                apps.add(app.strip())
+    if not found_table:
+        return None, None
+    return patch_count, len(apps)
+
+
+def _bundle_type_from_link(link_line: str) -> str:
+    lowered = link_line.lower()
+    if "api-v4" in lowered:
+        return "API v4"
+    if "morphe" in lowered:
+        return "Morphe"
+    if "legacy" in lowered:
+        return "Legacy"
+    return "Unknown"
+
+
+def _index_row(name: str, anchor: str, patches: int | None, apps: int | None, status: str) -> str:
+    patch_text = str(patches) if patches is not None else "-"
+    app_text = str(apps) if apps is not None else "-"
+    return f"| [{name}]({anchor}) | {patch_text} | {app_text} | {status} |"
+
+
+def rebuild_index(catalog_lines: list[str]) -> list[str]:
+    entries: list[dict[str, object]] = []
+    i = 0
+    while i < len(catalog_lines):
+        line = catalog_lines[i]
+        if not line.strip().startswith("### ") or " Bundle Patch List:" not in line:
+            i += 1
+            continue
+        name = _display_name_from_header(line)
+        link_line = catalog_lines[i + 1] if i + 1 < len(catalog_lines) else ""
+        anchor_match = re.search(r"\((#[^)]+)\)", link_line)
+        anchor = anchor_match.group(1) if anchor_match else f"#-{name.lower()}-bundle-patch-list"
+        bundle_type = _bundle_type_from_link(link_line)
+        j = i + 1
+        while j < len(catalog_lines) and catalog_lines[j].strip() != "</details>":
+            j += 1
+        section_lines = catalog_lines[i:j]
+        patches, apps = _section_patch_stats(section_lines)
+        status = "Generated" if patches is not None else "Pending patch list"
+        entries.append(
+            {
+                "name": name,
+                "anchor": anchor,
+                "type": bundle_type,
+                "patches": patches,
+                "apps": apps,
+                "status": status,
+            }
+        )
+        i = j + 1
+
+    if not entries:
+        return catalog_lines
+
+    grouped = {
+        "API v4": [],
+        "Morphe": [],
+        "Legacy": [],
+        "Unknown": [],
+    }
+    for entry in entries:
+        grouped.setdefault(str(entry["type"]), []).append(entry)
+
+    index_lines = [
+        "## 🔑 Patch Bundle Index",
+        "Patch lists are collapsed by default. Expand a bundle to inspect its generated patch table.",
+        "",
+    ]
+    for bundle_type, type_entries in grouped.items():
+        if not type_entries:
+            continue
+        index_lines.extend(
+            [
+                f"### {bundle_type}",
+                "| Bundle | Patches | Apps | Status |",
+                "| --- | ---: | ---: | --- |",
+            ]
+        )
+        for entry in type_entries:
+            index_lines.append(
+                _index_row(
+                    str(entry["name"]),
+                    str(entry["anchor"]),
+                    entry["patches"] if isinstance(entry["patches"], int) else None,
+                    entry["apps"] if isinstance(entry["apps"], int) else None,
+                    str(entry["status"]),
+                )
+            )
+        index_lines.append("")
+
+    section_start = next(
+        (
+            idx
+            for idx, value in enumerate(catalog_lines)
+            if value.startswith("### ") and " Bundle Patch List:" in value
+        ),
+        None,
+    )
+    index_start = next(
+        (idx for idx, value in enumerate(catalog_lines) if value == "## 🔑 Patch Bundle Index"),
+        None,
+    )
+    if section_start is None:
+        return catalog_lines
+    if index_start is None:
+        preamble_end = next(
+            (idx for idx, value in enumerate(catalog_lines) if value.startswith("## ")),
+            2,
+        )
+        return catalog_lines[:preamble_end] + index_lines + ["---"] + catalog_lines[section_start:]
+    return catalog_lines[:index_start] + index_lines + ["---"] + catalog_lines[section_start:]
+
+
 def main() -> int:
     bundle_root = PROJECT_ROOT / "patch-bundles"
     catalog_path = bundle_root / "PATCH-LIST-CATALOG.md"
     catalog_text = catalog_path.read_text(encoding="utf-8")
     catalog_lines = catalog_text.splitlines()
-
-    new_patch_names: set[str] = set()
 
     for bundle_dir in sorted(bundle_root.glob("*-patch-bundles")):
         if not bundle_dir.is_dir() or bundle_dir.name == "PATCH-LIST-CATALOG.md":
@@ -185,16 +341,15 @@ def main() -> int:
 
         bundle_name = bundle_dir.name.replace("-patch-bundles", "")
         patch_lines = format_patch_lines(patches)
-        if not inject_patch_lines(catalog_lines, bundle_name, patch_lines):
+        if not inject_patch_lines(catalog_lines, bundle_name, patch_lines, patches):
             print(f"Warning: section for '{bundle_name}' not found; skipping.")
             continue
 
-        new_patch_names.update(_squash_whitespace(p["name"]) for p in patches)
-
-    old_patch_names = read_catalog_patch_names(catalog_path)
+    normalize_pending_sections(catalog_lines)
+    catalog_lines = rebuild_index(catalog_lines)
     new_text = "\n".join(catalog_lines).rstrip() + "\n"
 
-    if new_text == catalog_text and new_patch_names.issubset(old_patch_names):
+    if new_text == catalog_text:
         print("Catalog already contains all patches.")
         return 0
 

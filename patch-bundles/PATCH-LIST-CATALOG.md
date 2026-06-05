@@ -1,108 +1,118 @@
 # 🗃️ Bundle Patch List Catalog
 This catalog includes all patch bundles, each with a detailed list of patches, including their names, descriptions, supported applications, and compatible versions. The patches listed are the latest available patches, including prereleases. You can search the catalog using CTRL + F (Windows) or Command + F (Mac).
-## 🔑 Patch List Catalog Key
-#### Patch Bundle Shortcuts
-*Click the bundle patch list of your choice to be directed to the corresponding section in the catalog.*  
-[🧩 ReVanced Bundle Patch List](#-revanced-bundle-patch-list)  
-[🧩 Inotia00 Bundle Patch List](#-inotia00-bundle-patch-list)  
-[🧩 ProGuard Bundle Patch List](#-proguard-bundle-patch-list)<br>
-[🧩 MTGA Bundle Patch List](#-mtga-bundle-patch-list)<br>
-[🧩 Lain Bundle Patch List](#-lain-bundle-patch-list)<br>
-[🧩 Edge-Morphe Bundle Patch List](#-edge-morphe-bundle-patch-list)<br>
-[🧩 Anddea Bundle Patch List](#-anddea-bundle-patch-list)  
-[🧩 Piko Bundle Patch List](#-piko-bundle-patch-list)  
-[🧩 BiliRoamingM Bundle Patch List](#-biliroamingm-bundle-patch-list)  
-[🧩 Slenderman00 Bundle Patch List](#-slenderman00-bundle-patch-list)  
-[🧩 Privacy Bundle Patch List](#-privacy-bundle-patch-list)  
-[🧩 Experimental Bundle Patch List](#-experimental-bundle-patch-list)  
-[🧩 Dropped Bundle Patch List](#-dropped-bundle-patch-list)  
-[🧩 Kitadai31 Bundle Patch List](#-kitadai31-bundle-patch-list)  
-[🧩 BholeyKaBhakt Bundle Patch List](#-bholeykabhakt-bundle-patch-list)  
-[🧩 Andronedev Bundle Patch List](#-andronedev-bundle-patch-list)  
-[🧩 ReX Bundle Patch List](#-rex-bundle-patch-list)  
-[🧩 Rufusin Bundle Patch List](#-rufusin-bundle-patch-list)  
-[🧩 Twitter Bundle Patch List](#-twitter-bundle-patch-list)  
-[🧩 Wyse- Bundle Patch List](#-wyse--bundle-patch-list)  
-[🧩 1fexd Bundle Patch List](#-1fexd-bundle-patch-list)  
-[🧩 Xrogers Bundle Patch List](#-xrogers-bundle-patch-list)  
-[🧩 D4n3436 Bundle Patch List](#-d4n3436-bundle-patch-list)  
-[🧩 AyushTNM Bundle Patch List](#-ayushtnm-bundle-patch-list)  
-[🧩 Arsclib Bundle Patch List](#-arsclib-bundle-patch-list)  
-[🧩 LennyRBLX Bundle Patch List](#-lennyrblx-bundle-patch-list)  
-[🧩 Korhelyleves Bundle Patch List](#-korhelyleves-bundle-patch-list)  
-[🧩 Taknok Bundle Patch List](#-taknok-bundle-patch-list)  
-[🧩 Faith001 Bundle Patch List](#-faith001-bundle-patch-list)  
-[🧩 Forsyth47 Bundle Patch List](#-forsyth47-bundle-patch-list)  
-[🧩 Brosssh Bundle Patch List](#-brosssh-bundle-patch-list)  
-[🧩 Hoo-dles Bundle Patch List](#-hoo-dles-bundle-patch-list)  
-[🧩 VinceTheProgrammer Bundle Patch List](#-vincetheprogrammer-bundle-patch-list)  
-[🧩 Hepolise Bundle Patch List](#-hepolise-bundle-patch-list)  
-[🧩 Kangrio Bundle Patch List](#-kangrio-bundle-patch-list)  
-[🧩 Nk521 Bundle Patch List](#-nk521-bundle-patch-list)  
-[🧩 Tosox Bundle Patch List](#-tosox-bundle-patch-list)  
-[🧩 HZbutcoding Bundle Patch List](#-hzbutcoding-bundle-patch-list)  
-[🧩 Lluni Bundle Patch List](#-lluni-bundle-patch-list)    
-[🧩 Bawr Bundle Patch List](#-bawr-bundle-patch-list)    
-[🧩 Burgers1312 Bundle Patch List](#-burgers1312-bundle-patch-list)    
-[🧩 AmpleReVanced Bundle Patch List](#-amplerevanced-bundle-patch-list)    
-[🧩 Liaralabs Bundle Patch List](#-liaralabs-bundle-patch-list)    
-[🧩 Areteruhiro Bundle Patch List](#-areteruhiro-bundle-patch-list)    
-[🧩 Morphe Bundle Patch List](#-morphe-bundle-patch-list)  
-[🧩 Patcheddit Bundle Patch List](#-patcheddit-bundle-patch-list)    
-[🧩 RVX-Morphed Bundle Patch List](#-rvx-morphed-bundle-patch-list)    
-[🧩 Blazskufca Bundle Patch List](#-blazskufca-bundle-patch-list)    
-[🧩 IMXEren Bundle Patch List](#-imxeren-bundle-patch-list)    
-[🧩 Almewty Bundle Patch List](#-almewty-bundle-patch-list)    
-[🧩 Anddea-Morphed Bundle Patch List](#-anddea-morphed-bundle-patch-list)    
-[🧩 RookieEnough Bundle Patch List](#-rookieenough-bundle-patch-list)    
-[🧩 Adobo Bundle Patch List](#-adobo-bundle-patch-list)    
-[🧩 Alexvbp Bundle Patch List](#-alexvbp-bundle-patch-list)    
-[🧩 Docbt Bundle Patch List](#-docbt-bundle-patch-list)    
-[🧩 LoV432 Bundle Patch List](#-lov432-bundle-patch-list)    
-[🧩 PixelPusher247 Bundle Patch List](#-pixelpusher247-bundle-patch-list)    
-[🧩 Rabilrbl Bundle Patch List](#-rabilrbl-bundle-patch-list)    
-[🧩 Jasonwu1994 Bundle Patch List](#-jasonwu1994-bundle-patch-list)    
-[🧩 RealCyberwash Bundle Patch List](#-realcyberwash-bundle-patch-list)    
-[🧩 Paresh-Maheshwari Bundle Patch List](#-paresh-maheshwari-bundle-patch-list)    
-[🧩 Aniketshinde007 Bundle Patch List](#-aniketshinde007-bundle-patch-list)    
-[🧩 Binarymend Bundle Patch List](#-binarymend-bundle-patch-list)    
-[🧩 Polka-Bear Bundle Patch List](#-polka-bear-bundle-patch-list)    
-[🧩 Ajstrick81 Bundle Patch List](#-ajstrick81-bundle-patch-list)    
-[🧩 Eyalm2000 Bundle Patch List](#-eyalm2000-bundle-patch-list)    
-[🧩 Vladon Bundle Patch List](#-vladon-bundle-patch-list)    
-[🧩 Ariecos Bundle Patch List](#-ariecos-bundle-patch-list)  
-[🧩 Joganubaid Bundle Patch List](#-joganubaid-bundle-patch-list)    
-[🧩 Alim-zanibekov Bundle Patch List](#-alim-zanibekov-bundle-patch-list)    
-[🧩 Daboynb Bundle Patch List](#-daboynb-bundle-patch-list)    
-[🧩 Joristdh Bundle Patch List](#-joristdh-bundle-patch-list)    
-[🧩 Meridianfresco Bundle Patch List](#-meridianfresco-bundle-patch-list)    
-[🧩 Loskutov Bundle Patch List](#-loskutov-bundle-patch-list)    
-[🧩 Kareemlukitomo Bundle Patch List](#-kareemlukitomo-bundle-patch-list)    
-[🧩 Abhis1n Bundle Patch List](#-abhis1n-bundle-patch-list)    
-[🧩 PawiX25 Bundle Patch List](#-PawiX25-bundle-patch-list)    
-[🧩 Cryptomator Bundle Patch List](#-Cryptomator-bundle-patch-list)    
-[🧩 Vmospro Bundle Patch List](#-Vmospro-bundle-patch-list)    
-[🧩 Ameenalasady Bundle Patch List](#-Ameenalasady-bundle-patch-list)    
-[🧩 Lynx6319 Bundle Patch List](#-Lynx6319-bundle-patch-list)    
-[🧩 Xob0t Bundle Patch List](#-xob0t-bundle-patch-list)<br>
-[🧩 Bannerhub Bundle Patch List](#-bannerhub-bundle-patch-list)<br>
-[🧩 Eksi Bundle Patch List](#-eksi-bundle-patch-list)<br>
-[🧩 Ameen-Morphe Bundle Patch List](#-ameen-morphe-bundle-patch-list)<br>
-[🧩 Kolaron Bundle Patch List](#-kolaron-bundle-patch-list)<br>
-[🧩 ImmortalZeus Bundle Patch List](#-immortalzeus-bundle-patch-list)<br>
-[🧩 Ajstrick81-AndroidTV Bundle Patch List](#-ajstrick81-androidtv-bundle-patch-list)<br>
-[🧩 Icysymmetra-TikTok Bundle Patch List](#-icysymmetra-tiktok-bundle-patch-list)<br>
-[🧩 AlexNaga Bundle Patch List](#-alexnaga-bundle-patch-list)<br>
-[🧩 Rushiranpise Bundle Patch List](#-rushiranpise-bundle-patch-list)<br>
-[🧩 Sjshb57-PairIP Bundle Patch List](#-sjshb57-pairip-bundle-patch-list)<br>
+## 🔑 Patch Bundle Index
+Patch lists are collapsed by default. Expand a bundle to inspect its generated patch table.
+
+### API v4
+| Bundle | Patches | Apps | Status |
+| --- | ---: | ---: | --- |
+| [ReVanced](#-revanced-bundle-patch-list) | 288 | 89 | Generated |
+| [Inotia00](#-inotia00-bundle-patch-list) | 127 | 4 | Generated |
+| [MTGA](#-mtga-bundle-patch-list) | 20 | 1 | Generated |
+| [Slenderman00](#-slenderman00-bundle-patch-list) | 4 | 1 | Generated |
+| [Privacy](#-privacy-bundle-patch-list) | 25 | 3 | Generated |
+| [Experimental](#-experimental-bundle-patch-list) | 16 | 11 | Generated |
+| [Dropped](#-dropped-bundle-patch-list) | 3 | 3 | Generated |
+| [Kitadai31](#-kitadai31-bundle-patch-list) | 122 | 4 | Generated |
+| [ReX](#-rex-bundle-patch-list) | 116 | 4 | Generated |
+| [Rufusin](#-rufusin-bundle-patch-list) | 138 | 6 | Generated |
+| [LennyRBLX](#-lennyrblx-bundle-patch-list) | 2 | 2 | Generated |
+| [Korhelyleves](#-korhelyleves-bundle-patch-list) | 1 | 1 | Generated |
+| [Taknok](#-taknok-bundle-patch-list) | 3 | 2 | Generated |
+| [Faith001](#-faith001-bundle-patch-list) | 1 | 1 | Generated |
+| [Forsyth47](#-forsyth47-bundle-patch-list) | 4 | 2 | Generated |
+| [VinceTheProgrammer](#-vincetheprogrammer-bundle-patch-list) | 2 | 3 | Generated |
+| [Kangrio](#-kangrio-bundle-patch-list) | 1 | 1 | Generated |
+| [Nk521](#-nk521-bundle-patch-list) | 214 | 77 | Generated |
+| [Tosox](#-tosox-bundle-patch-list) | 10 | 8 | Generated |
+| [HZbutcoding](#-hzbutcoding-bundle-patch-list) | 1 | 3 | Generated |
+| [Lluni](#-lluni-bundle-patch-list) | 1 | 1 | Generated |
+| [Bawr](#-bawr-bundle-patch-list) | 1 | 1 | Generated |
+| [Burgers1312](#-burgers1312-bundle-patch-list) | 1 | 1 | Generated |
+| [Liaralabs](#-liaralabs-bundle-patch-list) | 3 | 1 | Generated |
+| [Areteruhiro](#-areteruhiro-bundle-patch-list) | 23 | 3 | Generated |
+| [Blazskufca](#-blazskufca-bundle-patch-list) | 2 | 3 | Generated |
+| [Alexvbp](#-alexvbp-bundle-patch-list) | 1 | 1 | Generated |
+| [LoV432](#-lov432-bundle-patch-list) | 1 | 1 | Generated |
+| [Alim-zanibekov](#-alim-zanibekov-bundle-patch-list) | 1 | 1 | Generated |
+| [Daboynb](#-daboynb-bundle-patch-list) | 1 | 1 | Generated |
+
+### Morphe
+| Bundle | Patches | Apps | Status |
+| --- | ---: | ---: | --- |
+| [ProGuard](#-proguard-bundle-patch-list) | - | - | Pending patch list |
+| [Lain](#-lain-bundle-patch-list) | 4 | 2 | Generated |
+| [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
+| [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
+| [Piko](#-piko-bundle-patch-list) | 118 | 2 | Generated |
+| [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 7 | 4 | Generated |
+| [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
+| [Brosssh](#-brosssh-bundle-patch-list) | 21 | 5 | Generated |
+| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 74 | 49 | Generated |
+| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 78 | 5 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 113 | 4 | Generated |
+| [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
+| [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
+| [IMXEren](#-imxeren-bundle-patch-list) | 1 | 1 | Generated |
+| [Almewty](#-almewty-bundle-patch-list) | 3 | 2 | Generated |
+| [Anddea-Morphed](#-anddea-morphed-bundle-patch-list) | 133 | 6 | Generated |
+| [RookieEnough](#-rookieenough-bundle-patch-list) | 84 | 35 | Generated |
+| [Adobo](#-adobo-bundle-patch-list) | 32 | 4 | Generated |
+| [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
+| [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
+| [Rabilrbl](#-rabilrbl-bundle-patch-list) | 2 | 1 | Generated |
+| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 16 | 1 | Generated |
+| [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
+| [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 37 | 13 | Generated |
+| [Aniketshinde007](#-aniketshinde007-bundle-patch-list) | 2 | 1 | Generated |
+| [Binarymend](#-binarymend-bundle-patch-list) | 11 | 7 | Generated |
+| [Polka-Bear](#-polka-bear-bundle-patch-list) | 4 | 2 | Generated |
+| [Ajstrick81](#-ajstrick81-bundle-patch-list) | 1 | 1 | Generated |
+| [Eyalm2000](#-eyalm2000-bundle-patch-list) | 2 | 1 | Generated |
+| [Vladon](#-vladon-bundle-patch-list) | 3 | 1 | Generated |
+| [Ariecos](#-ariecos-bundle-patch-list) | 2 | 2 | Generated |
+| [Joganubaid](#-joganubaid-bundle-patch-list) | 1 | 1 | Generated |
+| [Joristdh](#-joristdh-bundle-patch-list) | 1 | 1 | Generated |
+| [Meridianfresco](#-meridianfresco-bundle-patch-list) | 2 | 1 | Generated |
+| [Loskutov](#-loskutov-bundle-patch-list) | 2 | 2 | Generated |
+| [Kareemlukitomo](#-kareemlukitomo-bundle-patch-list) | 8 | 5 | Generated |
+| [Abhis1n](#-abhis1n-bundle-patch-list) | 1 | 1 | Generated |
+| [PawiX25](#-pawix25-bundle-patch-list) | 17 | 10 | Generated |
+| [Cryptomator](#-cryptomator-bundle-patch-list) | 2 | 1 | Generated |
+| [Vmospro](#-vmospro-bundle-patch-list) | - | - | Pending patch list |
+| [Ameenalasady](#-ameenalasady-bundle-patch-list) | 1 | 1 | Generated |
+| [Lynx6319](#-lynx6319-bundle-patch-list) | 1 | 1 | Generated |
+| [Xob0t](#-xob0t-bundle-patch-list) | 21 | 5 | Generated |
+| [Bannerhub](#-bannerhub-bundle-patch-list) | 56 | 2 | Generated |
+| [Eksi](#-eksi-bundle-patch-list) | 1 | 1 | Generated |
+| [Ameen-Morphe](#-ameen-morphe-bundle-patch-list) | 2 | 2 | Generated |
+| [Kolaron](#-kolaron-bundle-patch-list) | 1 | 1 | Generated |
+| [ImmortalZeus](#-immortalzeus-bundle-patch-list) | 2 | 2 | Generated |
+| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 10 | 9 | Generated |
+| [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 11 | 1 | Generated |
+| [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 16 | 7 | Generated |
+| [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 2 | 1 | Generated |
+
+### Legacy
+| Bundle | Patches | Apps | Status |
+| --- | ---: | ---: | --- |
+| [BiliRoamingM](#-biliroamingm-bundle-patch-list) | 88 | 4 | Generated |
+| [Twitter](#-twitter-bundle-patch-list) | 9 | 1 | Generated |
+| [Wyse-](#-wyse--bundle-patch-list) | 2 | 2 | Generated |
+| [1fexd](#-1fexd-bundle-patch-list) | 3 | 1 | Generated |
+| [Xrogers](#-xrogers-bundle-patch-list) | 2 | 1 | Generated |
+| [D4n3436](#-d4n3436-bundle-patch-list) | 63 | 1 | Generated |
+| [AyushTNM](#-ayushtnm-bundle-patch-list) | 3 | 1 | Generated |
+| [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
+| [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
 
 ---
 ### 🧩 ReVanced Bundle Patch List:
 [📦 ReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-revanced-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>ReVanced</b> - 288 patches, 89 apps</summary>
 
-***288 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.bka.serviceportal``` | ```All versions``` |
@@ -399,10 +409,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Inotia00 Bundle Patch List:
 [📦 Inotia00-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-inotia00-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Inotia00</b> - 127 patches, 4 apps</summary>
 
-***127 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bitrate default value``` | ```Sets the audio quality to 'Always High' when you first install the app.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
@@ -538,20 +547,19 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 ProGuard Bundle Patch List:
 [📦 ProGuard-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-proguard-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>ProGuard</b> - pending patch list</summary>
 
-***Patch list not generated yet.***
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` was found._
 
 </details>
 
 ---
 ### 🧩 MTGA Bundle Patch List:
 [📦 MTGA-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-mtga-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>MTGA</b> - 20 patches, 1 app</summary>
 
-***20 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Block ad requests at the network layer``` | ```Drops retrofit2 enqueue calls whose Request URL contains "/truth/ads".``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
@@ -580,10 +588,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Lain Bundle Patch List:
 [📦 Lain-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lain-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Lain</b> - 4 patches, 2 apps</summary>
 
-***4 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable Ads``` | ```Disable banner, splash, and rewarded ads.``` | ```Android Proxy Server``` | ```All versions``` |
@@ -596,10 +603,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Edge-Morphe Bundle Patch List:
 [📦 Edge-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-edge-morphe-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Edge-Morphe</b> - 3 patches, 1 app</summary>
 
-***3 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Copilot feature toggle``` | ```Disables all Copilot and Bing Chat feature flags by forcing boolean feature evaluation methods to return false.``` | ```Microsoft Edge``` | ```All versions``` |
@@ -611,10 +617,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Anddea Bundle Patch List:
 [📦 Anddea-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-anddea-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Anddea</b> - 114 patches, 3 apps</summary>
 
-***114 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bitrate default value``` | ```Sets the audio quality to 'Always High' when you first install the app.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
@@ -737,10 +742,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Piko Bundle Patch List:
 [📦 Piko-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Piko</b> - 118 patches, 2 apps</summary>
 
-***118 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add settings``` | ```Adds settings to control preferences are patching``` | ```Instagram``` | ```All versions``` |
@@ -867,10 +871,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 BiliRoamingM Bundle Patch List:
 [📦 BiliRoamingM-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-biliroamingm-patches-bundle-legacy)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>BiliRoamingM</b> - 88 patches, 4 apps</summary>
 
-***88 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Play manifest compatibility``` | ```Play版 AndroidManifest 声明缺失补全``` | ```com.bilibili.app.in``` | ```All versions``` |
@@ -967,10 +970,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Slenderman00 Bundle Patch List:
 [📦 Slenderman00-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-slenderman00-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Slenderman00</b> - 4 patches, 1 app</summary>
 
-***4 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Patch firebase cert``` | ```N/A``` | ```Universal``` | ```All versions``` |
@@ -983,10 +985,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Privacy Bundle Patch List:
 [📦 Privacy-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-privacy-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Privacy</b> - 25 patches, 3 apps</summary>
 
-***25 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Always-incognito mode for Gboard``` | ```Always opens Gboard in incognito mode to disable typing history collection and personalization.``` | ```com.google.android.inputmethod.latin``` | ```All versions``` |
@@ -1020,10 +1021,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Experimental Bundle Patch List:
 [📦 Experimental-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-experimental-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Experimental</b> - 16 patches, 11 apps</summary>
 
-***16 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Hide subtitle toast``` | ```Hides the subtitle toast when toggling subtitles on/off and when changing subtitles``` | ```app.revanced.android.youtube, com.google.android.youtube``` | ```All versions``` |
@@ -1048,10 +1048,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Dropped Bundle Patch List:
 [📦 Dropped-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dropped-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Dropped</b> - 3 patches, 3 apps</summary>
 
-***3 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock prime``` | ```Unlocks Nova Prime and all functions of the app.``` | ```com.teslacoilsw.launcher``` | ```All versions``` |
@@ -1063,10 +1062,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Kitadai31 Bundle Patch List:
 [📦 Kitadai31-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kitadai31-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Kitadai31</b> - 122 patches, 4 apps</summary>
 
-***122 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bitrate default value``` | ```Sets the audio quality to 'Always High' when you first install the app.``` | ```com.dummy.dummyapp1``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.05.51, 8.12.53``` |
@@ -1197,10 +1195,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 BholeyKaBhakt Bundle Patch List:
 [📦 BholeyKaBhakt-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bholeykabhakt-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>BholeyKaBhakt</b> - 7 patches, 4 apps</summary>
 
-***7 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass Blocks Limit``` | ```N/A``` | ```Automate``` | ```All versions``` |
@@ -1216,10 +1213,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Andronedev Bundle Patch List:
 [📦 Andronedev-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-andronedev-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Andronedev</b> - 2 patches, 1 app</summary>
 
-***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Custom Maps API Key``` | ```Replace Transit Google Maps key with your own Android Maps SDK key for re-signed APKs.``` | ```com.thetransitapp.droid``` | ```All versions``` |
@@ -1230,10 +1226,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 ReX Bundle Patch List:
 [📦 ReX-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rex-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>ReX</b> - 116 patches, 4 apps</summary>
 
-***116 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Amoled``` | ```Applies a pure black theme to some components.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53``` |
@@ -1358,10 +1353,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Rufusin Bundle Patch List:
 [📦 Rufusin-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rufusin-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Rufusin</b> - 138 patches, 6 apps</summary>
 
-***138 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bitrate default value``` | ```Sets the audio quality to 'Always High' when you first install the app.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
@@ -1508,10 +1502,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Twitter Bundle Patch List:
 [📦 Twitter-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-twitter-patches-bundle-legacy)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Twitter</b> - 9 patches, 1 app</summary>
 
-***9 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Black Bird icon``` | ```Black bird with white background.``` | ```com.twitter.android``` | ```All versions``` |
@@ -1529,10 +1522,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Wyse- Bundle Patch List:
 [📦 Wyse--Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-wyse--patches-bundle-legacy)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Wyse-</b> - 2 patches, 2 apps</summary>
 
-***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove all detections``` | ```Removes all checks (certificate, debug key signature, emulator, installation origin).``` | ```com.intesasanpaolo.isybank.mobile``` | ```All versions``` |
@@ -1543,10 +1535,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 1fexd Bundle Patch List:
 [📦 1fexd-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-1fexd-patches-bundle-legacy)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>1fexd</b> - 3 patches, 1 app</summary>
 
-***3 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Fix crash on Android 14+``` | ```N/A``` | ```at.gv.oe.app``` | ```3.1.0``` |
@@ -1558,10 +1549,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Xrogers Bundle Patch List:
 [📦 Xrogers-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-xrogers-patches-bundle-legacy)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Xrogers</b> - 2 patches, 1 app</summary>
 
-***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove sharedUserId from AndroidManifest``` | ```N/A``` | ```com.samsung.android.app.watchmanager``` | ```All versions``` |
@@ -1572,10 +1562,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 D4n3436 Bundle Patch List:
 [📦 D4n3436-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-d4n3436-patches-bundle-legacy)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>D4n3436</b> - 63 patches, 1 app</summary>
 
-***63 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```check-android-version``` | ```If the device is Android 6.0 or higher, show a warning dialog.``` | ```com.google.android.youtube``` | ```16.40.36``` |
@@ -1647,10 +1636,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 AyushTNM Bundle Patch List:
 [📦 AyushTNM-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ayushtnm-patches-bundle-legacy)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>AyushTNM</b> - 3 patches, 1 app</summary>
 
-***3 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Custom branding icon``` | ```Changes the app icon to the icon specified in options.json.``` | ```app.revanced.android.gms``` | ```All versions``` |
@@ -1662,10 +1650,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Arsclib Bundle Patch List:
 [📦 Arsclib-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-arsclib-patches-bundle-legacy)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Arsclib</b> - 16 patches, 2 apps</summary>
 
-***16 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Custom branding name for Reddit``` | ```Renames the Reddit app to the name specified in options.json.``` | ```com.reddit.frontpage``` | ```2025.40.0, 2025.43.0, 2025.45.0, 2025.52.0``` |
@@ -1690,10 +1677,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 LennyRBLX Bundle Patch List:
 [📦 LennyRBLX-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lennyrblx-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>LennyRBLX</b> - 2 patches, 2 apps</summary>
 
-***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock pro``` | ```Unlocks the app.``` | ```com.debridstream.tv``` | ```All versions``` |
@@ -1704,10 +1690,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Korhelyleves Bundle Patch List:
 [📦 Korhelyleves-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-korhelyleves-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Korhelyleves</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass root checks``` | ```Removes the restriction to use the app with root permissions or on a custom ROM.``` | ```hu.gov.dap.app``` | ```All versions``` |
@@ -1717,10 +1702,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Taknok Bundle Patch List:
 [📦 Taknok-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-taknok-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Taknok</b> - 3 patches, 2 apps</summary>
 
-***3 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Call recording announcements remover``` | ```Remove the announcements when starting or stopping a call recording``` | ```com.google.android.dialer``` | ```All versions``` |
@@ -1732,10 +1716,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Faith001 Bundle Patch List:
 [📦 Faith001-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-faith001-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Faith001</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Trust User Certs``` | ```This patch enables an app to trust user-added CAs``` | ```Universal``` | ```All versions``` |
@@ -1745,10 +1728,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Forsyth47 Bundle Patch List:
 [📦 Forsyth47-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-forsyth47-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Forsyth47</b> - 4 patches, 2 apps</summary>
 
-***4 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable Root Detection``` | ```Modifies the isRooted() method in the Smali file to always return false.``` | ```app.zophop``` | ```All versions``` |
@@ -1761,10 +1743,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Brosssh Bundle Patch List:
 [📦 Brosssh-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-brosssh-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Brosssh</b> - 21 patches, 5 apps</summary>
 
-***21 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Premium features``` | ```Unlock Premium features. You have to be logged in with an account.``` | ```Chargeprice``` | ```All versions``` |
@@ -1794,10 +1775,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Hoo-dles Bundle Patch List:
 [📦 Hoo-dles-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoo-dles-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Hoo-dles</b> - 74 patches, 49 apps</summary>
 
-***74 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```AdGuard``` | ```All versions``` |
@@ -1880,10 +1860,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 VinceTheProgrammer Bundle Patch List:
 [📦 VinceTheProgrammer-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-vincetheprogrammer-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>VinceTheProgrammer</b> - 2 patches, 3 apps</summary>
 
-***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Custom Filter slot``` | ```Adds a placeholder injection so patch project compiles; replace nop with real smali later.``` | ```org.fortheloss.sticknodes, org.fortheloss.sticknodesbeta, org.fortheloss.sticknodespro``` | ```4.2.5, 4.2.6, 4.2.5``` |
@@ -1894,10 +1873,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Hepolise Bundle Patch List:
 [📦 Hepolise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hepolise-patches-bundle-legacy)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Hepolise</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Change Usb Config patch``` | ```This patch forces LuckyTool to start a USB tethering mode.``` | ```com.luckyzyx.luckytool``` | ```All versions``` |
@@ -1907,10 +1885,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Kangrio Bundle Patch List:
 [📦 Kangrio-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kangrio-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Kangrio</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```MicroG Support``` | ```N/A``` | ```Universal``` | ```All versions``` |
@@ -1920,10 +1897,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Nk521 Bundle Patch List:
 [📦 Nk521-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nk521-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Nk521</b> - 214 patches, 77 apps</summary>
 
-***214 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove root detection``` | ```Removes the check for root permissions and unlocked bootloader.``` | ```at.gv.bka.serviceportal``` | ```All versions``` |
@@ -2146,10 +2122,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Tosox Bundle Patch List:
 [📦 Tosox-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-tosox-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Tosox</b> - 10 patches, 8 apps</summary>
 
-***10 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Premium``` | ```Unlocks the Premium subscription``` | ```com.duolingo``` | ```All versions``` |
@@ -2168,10 +2143,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 HZbutcoding Bundle Patch List:
 [📦 HZbutcoding-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hzbutcoding-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>HZbutcoding</b> - 1 patch, 3 apps</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Custom Filter slot``` | ```Adds a custom tint filter slot to Stick Nodes (debug 5)``` | ```org.fortheloss.sticknodes, org.fortheloss.sticknodesbeta, org.fortheloss.sticknodespro``` | ```4.2.5, 4.2.6, 4.2.5``` |
@@ -2181,10 +2155,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Lluni Bundle Patch List:
 [📦 Lluni-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lluni-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Lluni</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Promo code unlock``` | ```Disables the validation of promo code. Any code will work to unlock all features.``` | ```de.dwd.warnapp``` | ```All versions``` |
@@ -2194,10 +2167,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Bawr Bundle Patch List:
 [📦 Bawr-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bawr-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Bawr</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```SignalKeep``` | ```Don't remove expired messages.``` | ```org.thoughtcrime.securesms``` | ```7.62.3``` |
@@ -2207,10 +2179,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Burgers1312 Bundle Patch List:
 [📦 Burgers1312-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-burgers1312-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Burgers1312</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Features``` | ```Enables features by skipping checks``` | ```com.Splitwise.SplitwiseMobile``` | ```All versions``` |
@@ -2220,10 +2191,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>AmpleReVanced</b> - 78 patches, 5 apps</summary>
 
-***78 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add notification shortcut``` | ```Adds a notification shortcut button above quick write in the post list.``` | ```dcinside``` | ```All versions``` |
@@ -2310,10 +2280,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Liaralabs Bundle Patch List:
 [📦 Liaralabs-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-liaralabs-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Liaralabs</b> - 3 patches, 1 app</summary>
 
-***3 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable debugging``` | ```Enables Android debugging capabilities. This can slow down the app. Allows access to app data.``` | ```com.xiaoji.egggame``` | ```All versions``` |
@@ -2325,10 +2294,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Areteruhiro Bundle Patch List:
 [📦 Areteruhiro-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-areteruhiro-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Areteruhiro</b> - 23 patches, 3 apps</summary>
 
-***23 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```jp.naver.line.android``` | ```All versions``` |
@@ -2360,10 +2328,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Morphe</b> - 113 patches, 4 apps</summary>
 
-***113 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```All versions``` |
@@ -2485,10 +2452,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Patcheddit Bundle Patch List:
 [📦 Patcheddit-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-patcheddit-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Patcheddit</b> - 39 patches, 19 apps</summary>
 
-***39 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Fake reddit premium``` | ```Allows using pro features without ads.``` | ```com.andrewshu.android.reddit``` | ```5.6.22``` |
@@ -2536,10 +2502,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 RVX-Morphed Bundle Patch List:
 [📦 RVX-Morphed-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rvx-morphed-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>RVX-Morphed</b> - 113 patches, 3 apps</summary>
 
-***113 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bitrate default value``` | ```Sets the audio quality to 'Always High' when you first install the app.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
@@ -2661,10 +2626,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Blazskufca Bundle Patch List:
 [📦 Blazskufca-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-blazskufca-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Blazskufca</b> - 2 patches, 3 apps</summary>
 
-***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Plus``` | ```Forces the app to report 'plus' permissions to the server.``` | ```com.audiorista.android, com.mladinska.mkplus``` | ```All versions``` |
@@ -2675,10 +2639,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 IMXEren Bundle Patch List:
 [📦 IMXEren-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-imxeren-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>IMXEren</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock pro``` | ```Remove ads, add VIP badge and allow to view 'Your Month in Review'.``` | ```Trakt``` | ```All versions``` |
@@ -2688,10 +2651,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Almewty Bundle Patch List:
 [📦 Almewty-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-almewty-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Almewty</b> - 3 patches, 2 apps</summary>
 
-***3 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable scan counter``` | ```Disables the scan counter increment, preventing the scan count from increasing``` | ```com.application.pokecardex``` | ```8.7.2``` |
@@ -2703,10 +2665,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Anddea-Morphed Bundle Patch List:
 [📦 Anddea-Morphed-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-anddea-morphed-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Anddea-Morphed</b> - 133 patches, 6 apps</summary>
 
-***133 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bitrate default value``` | ```Sets the audio quality to 'Always High' when you first install the app.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54``` |
@@ -2848,10 +2809,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 RookieEnough Bundle Patch List:
 [📦 RookieEnough-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rookieenough-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>RookieEnough</b> - 84 patches, 35 apps</summary>
 
-***84 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail mobile' signature from emails.``` | ```ch.protonmail.android``` | ```4.15.0``` |
@@ -2944,10 +2904,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Adobo Bundle Patch List:
 [📦 Adobo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-adobo-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Adobo</b> - 32 patches, 4 apps</summary>
 
-***32 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Always-incognito mode``` | ```Always opens Gboard in incognito mode to disable typing history collection and personalization.``` | ```Gboard``` | ```All versions``` |
@@ -2988,23 +2947,21 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Alexvbp Bundle Patch List:
 [📦 Alexvbp-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-alexvbp-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Alexvbp</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable UHD/4K``` | ```Enables UHD/4K streaming on all devices by bypassing all device support checks.``` | ```com.formulaone.production``` | ```All versions``` |
 
 </details>
-  
+
 ---
 ### 🧩 Docbt Bundle Patch List:
 [📦 Docbt-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-docbt-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Docbt</b> - 6 patches, 3 apps</summary>
 
-***6 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Hide ads``` | ```Hides sponsored ads and Google Ads. Also disables Microsoft Clarity analytics.``` | ```com.ebay.kleinanzeigen``` | ```2026.16.1, 2026.14.2, 2026.14.0``` |
@@ -3019,10 +2976,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 LoV432 Bundle Patch List:
 [📦 LoV432-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lov432-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>LoV432</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Pro``` | ```N/A``` | ```com.kevinforeman.nzb360``` | ```All versions``` |
@@ -3032,10 +2988,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 PixelPusher247 Bundle Patch List:
 [📦 PixelPusher247-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-pixelpusher247-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>PixelPusher247</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Hide VIP banner``` | ```Removes the Upgrade to VIP upsell banner from the home screen.``` | ```tv.trakt.trakt``` | ```All versions``` |
@@ -3045,10 +3000,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Rabilrbl Bundle Patch List:
 [📦 Rabilrbl-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rabilrbl-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Rabilrbl</b> - 2 patches, 1 app</summary>
 
-***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove ads``` | ```Bypasses ad-removal premium checks by forcing PremiumState.isRemoveAdPremium() to always return true.``` | ```droom.sleepIfUCan``` | ```26.23.0``` |
@@ -3059,10 +3013,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Jasonwu1994 Bundle Patch List:
 [📦 Jasonwu1994-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jasonwu1994-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Jasonwu1994</b> - 16 patches, 1 app</summary>
 
-***16 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add Gboard Signature Bypass``` | ```攔截 Gboard 的簽章白名單檢查並強制通過 Bypass Gboard signature whitelist checks and force them to pass.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
@@ -3087,10 +3040,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 RealCyberwash Bundle Patch List:
 [📦 RealCyberwash-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-realcyberwash-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>RealCyberwash</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass VPN Check``` | ```Forces you to check the IP address only on Yandex``` | ```ru.oneme.app``` | ```26.10.1, 26.11.3``` |
@@ -3100,10 +3052,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Paresh-Maheshwari Bundle Patch List:
 [📦 Paresh-Maheshwari-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-paresh-maheshwari-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Paresh-Maheshwari</b> - 37 patches, 13 apps</summary>
 
-***37 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable telemetry``` | ```Blocks all telemetry, analytics, and observability data collection.``` | ```ch.protonvpn.android``` | ```5.17.72.0``` |
@@ -3149,10 +3100,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Aniketshinde007 Bundle Patch List:
 [📦 Aniketshinde007-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-aniketshinde007-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Aniketshinde007</b> - 2 patches, 1 app</summary>
 
-***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Increase Max Rounds``` | ```Changes the max value of the rounds SeekBar from 108 to 216.``` | ```Universal``` | ```All versions``` |
@@ -3163,10 +3113,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Binarymend Bundle Patch List:
 [📦 Binarymend-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-binarymend-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Binarymend</b> - 11 patches, 7 apps</summary>
 
-***11 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Symfonium``` | ```Unlocks the trial version of Symfonium.``` | ```app.symfonik.music.player``` | ```14.0.0``` |
@@ -3186,10 +3135,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Polka-Bear Bundle Patch List:
 [📦 Polka-Bear-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-polka-bear-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Polka-Bear</b> - 4 patches, 2 apps</summary>
 
-***4 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass Integrity Protection``` | ```Disables PairIP signature verification and startup VM checks that crash re-signed APKs.``` | ```com.ipoji.app``` | ```All versions``` |
@@ -3202,10 +3150,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Ajstrick81 Bundle Patch List:
 [📦 Ajstrick81-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ajstrick81-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Ajstrick81</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable SSAI (MediaTailor)``` | ```Disables MediaTailor SSAI at bootstrap level on Android TV.``` | ```Universal``` | ```All versions``` |
@@ -3215,10 +3162,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Eyalm2000 Bundle Patch List:
 [📦 Eyalm2000-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-eyalm2000-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Eyalm2000</b> - 2 patches, 1 app</summary>
 
-***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Export Debug Activity``` | ```Ensures the Tidal debug activity is exported in AndroidManifest.xml.``` | ```com.aspiro.tidal``` | ```All versions``` |
@@ -3229,10 +3175,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Vladon Bundle Patch List:
 [📦 Vladon-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-vladon-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Vladon</b> - 3 patches, 1 app</summary>
 
-***3 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass Passport signature mismatch crash``` | ```Strips the IllegalStateException + PassportRuntime handler block in c0.releaseRuntimeChecks (smali-aligned).``` | ```ru.yandex.yandexnavi``` | ```28.6.5``` |
@@ -3244,10 +3189,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Ariecos Bundle Patch List:
 [📦 Ariecos-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ariecos-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Ariecos</b> - 2 patches, 2 apps</summary>
 
-***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```GmsCore MicroG support``` | ```Injects MicroG-RE metadata into Gemini's manifest so it gets signature spoofing trust from MicroG-RE.``` | ```com.google.android.apps.bard, com.google.android.googlequicksearchbox``` | ```All versions``` |
@@ -3258,10 +3202,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Joganubaid Bundle Patch List:
 [📦 Joganubaid-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-joganubaid-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Joganubaid</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables AdGuard premium by creating a fake PaidLicense with lifetime duration``` | ```AdGuard``` | ```All versions``` |
@@ -3271,10 +3214,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Alim-zanibekov Bundle Patch List:
 [📦 Alim-zanibekov-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-alim-zanibekov-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Alim-zanibekov</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```UltraSandbox``` | ```Patched app sees a fresh stock phone``` | ```Universal``` | ```All versions``` |
@@ -3284,10 +3226,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Daboynb Bundle Patch List:
 [📦 Daboynb-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-daboynb-patches-bundle-api-v4)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Daboynb</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Save view-once media``` | ```Intercepts the view-once media viewer callback and saves photos/videos to Pictures/InstagramViewOnce before they expire.``` | ```com.instagram.android``` | ```All versions``` |
@@ -3297,10 +3238,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Joristdh Bundle Patch List:
 [📦 Joristdh-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-joristdh-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Joristdh</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Predictive back gesture``` | ```Enables the predictive back gesture introduced on Android 13.``` | ```Universal``` | ```All versions``` |
@@ -3310,10 +3250,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Meridianfresco Bundle Patch List:
 [📦 Meridianfresco-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-meridianfresco-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Meridianfresco</b> - 2 patches, 1 app</summary>
 
-***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Hide 'Sponsored Stories'``` | ```N/A``` | ```com.facebook.katana``` | ```490.0.0.63.82``` |
@@ -3324,10 +3263,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Loskutov Bundle Patch List:
 [📦 Loskutov-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-loskutov-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Loskutov</b> - 2 patches, 2 apps</summary>
 
-***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Force Cronet SNI (YouTube arm64)``` | ```Patches bundled arm64 libcronet so TLS SNI is forced to a configurable hostname in the SSLClientSocket path. URL and HTTP Host remain unchanged.``` | ```YouTube``` | ```All versions``` |
@@ -3338,10 +3276,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Kareemlukitomo Bundle Patch List:
 [📦 Kareemlukitomo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kareemlukitomo-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Kareemlukitomo</b> - 8 patches, 5 apps</summary>
 
-***8 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Change Instagram share domain``` | ```Rewrites generated Instagram share links to kittygram.kareem.one.``` | ```com.instagram.android``` | ```424.0.0.49.64``` |
@@ -3358,10 +3295,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Abhis1n Bundle Patch List:
 [📦 Ahis1n-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-abhis1n-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Abhis1n</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Features``` | ```Enables features by skipping checks``` | ```Splitwise``` | ```All versions``` |
@@ -3371,10 +3307,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 PawiX25 Bundle Patch List:
 [📦 PawiX25-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-PawiX25-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>PawiX25</b> - 17 patches, 10 apps</summary>
 
-***17 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Always show event-theming icons``` | ```Shows every event-themed app icon in the picker, even when its event is not currently active.``` | ```com.chollometro, com.dealabs.apps.android, com.pepperdeals, com.preisjaeger, com.tippingcanoe.hukd, com.tippingcanoe.mydealz, com.tippingcanoe.peppernl, com.tippingcanoe.pepperpl, com.tippingcanoe.promodescuentos, se.pepperdeals``` | ```All versions``` |
@@ -3400,10 +3335,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Cryptomator Bundle Patch List:
 [📦 Cryptomator-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-Cryptomator-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Cryptomator</b> - 2 patches, 1 app</summary>
 
-***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Check License No-Op``` | ```Makes VaultListPresenter.checkLicense() a no-op to skip license check``` | ```Cryptomator``` | ```All versions``` |
@@ -3414,20 +3348,19 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Vmospro Bundle Patch List:
 [📦 Vmospro-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-Vmospro-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Vmospro</b> - pending patch list</summary>
 
-
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` was found._
 
 </details>
 
 ---
 ### 🧩 Ameenalasady Bundle Patch List:
 [📦 Ameenalasady-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-Ameenalasady-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Ameenalasady</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Premium``` | ```Unlocks all PhotoGrid premium features by making IabUtils always report the user as premium.``` | ```PhotoGrid``` | ```All versions``` |
@@ -3437,10 +3370,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Lynx6319 Bundle Patch List:
 [📦 Lynx6319-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-Lynx6319-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Lynx6319</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable Shorts scroll``` | ```Disables swiping up/down between Shorts while still allowing a single Short to be opened and watched normally.``` | ```YouTube``` | ```All versions``` |
@@ -3450,10 +3382,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Xob0t Bundle Patch List:
 [📦 Xob0t-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-xob0t-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Xob0t</b> - 21 patches, 5 apps</summary>
 
-***21 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Avito privacy``` | ```Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.``` | ```Avito``` | ```All versions``` |
@@ -3483,10 +3414,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Bannerhub Bundle Patch List:
 [📦 Bannerhub-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bannerhub-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Bannerhub</b> - 56 patches, 2 apps</summary>
 
-***56 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Banner Tools drawables``` | ```Adds the bh_bt_* vector drawables (vibration, gpu_spoof, renderer, game_id, audio, gog, overlay, root) to res/drawable. Rendered by the Banner Tools dialog's tile grid.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
@@ -3551,10 +3481,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Eksi Bundle Patch List:
 [📦 Eksi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-eksi-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Eksi</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Hide ads``` | ```Removes Ekşi Sözlük ad placements and disables ad loading.``` | ```Ekşi Sözlük``` | ```All versions``` |
@@ -3564,10 +3493,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Ameen-Morphe Bundle Patch List:
 [📦 Ameen-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ameen-morphe-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Ameen-Morphe</b> - 2 patches, 2 apps</summary>
 
-***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Premium``` | ```Unlocks premium features and diets.``` | ```Foodvisor``` | ```All versions``` |
@@ -3578,10 +3506,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Kolaron Bundle Patch List:
 [📦 Kolaron-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kolaron-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Kolaron</b> - 1 patch, 1 app</summary>
 
-***1 Patch***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable ads``` | ```Disables in-app ads in IDOS.``` | ```IDOS``` | ```All versions``` |
@@ -3591,10 +3518,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 ImmortalZeus Bundle Patch List:
 [📦 ImmortalZeus-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-immortalzeus-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>ImmortalZeus</b> - 2 patches, 2 apps</summary>
 
-***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Block hosts in string resources``` | ```Blocks ads and trackers by replacing hosts in XML string resources. Works alongside bytecode hosts blocker for comprehensive coverage.``` | ```Universal``` | ```All versions``` |
@@ -3602,12 +3528,12 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 
 </details>
 
+---
 ### 🧩 Ajstrick81-AndroidTV Bundle Patch List:
 [📦 Ajstrick81-AndroidTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ajstrick81-androidtv-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Ajstrick81-AndroidTV</b> - 10 patches, 9 apps</summary>
 
-***10 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
@@ -3626,10 +3552,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Icysymmetra-TikTok Bundle Patch List:
 [📦 Icysymmetra-TikTok-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-icysymmetra-tiktok-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Icysymmetra-TikTok</b> - 11 patches, 1 app</summary>
 
-***11 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable login requirement``` | ```Disables mandatory login for TikTok. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
@@ -3649,10 +3574,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 AlexNaga Bundle Patch List:
 [📦 AlexNaga-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-alexnaga-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>AlexNaga</b> - 2 patches, 1 app</summary>
 
-***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Dark mode``` | ```Applies a dark theme to all backgrounds, dialogs, and popups.``` | ```se.matlistan.free``` | ```3.10.0``` |
@@ -3663,10 +3587,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Rushiranpise</b> - 16 patches, 7 apps</summary>
 
-***16 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable Analytics / Telemetry``` | ```Disables App Analytics / Telemetry.``` | ```1.1.1.1 + WARP``` | ```All versions``` |
@@ -3691,10 +3614,9 @@ This catalog includes all patch bundles, each with a detailed list of patches, i
 ---
 ### 🧩 Sjshb57-PairIP Bundle Patch List:
 [📦 Sjshb57-PairIP-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-sjshb57-pairip-patches-bundle-morphe)
-<details open>
-<summary><b>Click To Collapse Patch List</b></summary>
+<details>
+<summary><b>Sjshb57-PairIP</b> - 2 patches, 1 app</summary>
 
-***2 Patches***
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove pairip protection``` | ```Restores obfuscated strings and removes pairip bytecode protection.``` | ```Universal``` | ```All versions``` |
