@@ -1,450 +1,1386 @@
 {
-    "version": "v1.4.0-dev.44",
+    "version": "v1.18.1-dev.1",
     "patches": [
         {
-            "compatiblePackages": {
-                "org.telegram.messenger.web": [
-                    "12.6.4"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Plus Messenger",
+                    "packageName": "org.telegram.plus",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.7.3.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Prevents deleted messages from being removed locally.",
             "name": "Anti-delete messages",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "org.telegram.messenger.web": [
-                    "12.6.4"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.6.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents deleted messages from being removed locally.",
+            "name": "Anti-delete messages",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Plus Messenger",
+                    "packageName": "org.telegram.plus",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.7.3.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Keeps view-once and self-destructing media viewable forever.",
             "name": "Anti-disappearing media",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "org.telegram.messenger.web": [
-                    "12.6.4"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.6.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Keeps view-once and self-destructing media viewable forever.",
+            "name": "Anti-disappearing media",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Plus Messenger",
+                    "packageName": "org.telegram.plus",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.7.3.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks screenshot notifications from being sent to the other user.",
+            "name": "Anti-screenshot notification",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Plus Messenger",
+                    "packageName": "org.telegram.plus",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.7.3.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows copying text, saving media, and opening blocked channels. Forwarding is server-side blocked and won't work.",
+            "name": "Bypass channel restrictions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.6.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Allows opening copyrighted, sensitive, and temporarily disabled channels.",
             "name": "Bypass channel restrictions",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "org.telegram.messenger.web": [
-                    "12.6.4"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.6.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
-            "description": "Allows copying, saving, forwarding, and screenshots from restricted channels.",
+            "description": "Allows saving from restricted channels.",
             "name": "Bypass content restrictions",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "org.telegram.messenger.web": [
-                    "12.6.4"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Plus Messenger",
+                    "packageName": "org.telegram.plus",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.7.3.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Bypasses integrity check to allow login on patched app.",
             "name": "Bypass integrity",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "in.startv.hotstar": [
-                    "26.04.13.3"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.6.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses integrity check to allow login on patched app.",
+            "name": "Bypass integrity",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A237E",
+                    "description": null,
+                    "name": "JioHotstar",
+                    "packageName": "in.startv.hotstar",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.04.27.10"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Bypasses app signature verification to allow API access.",
             "name": "Bypass signature check",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "in.cricketexchange.app.cricketexchange": [
-                    "26.04.05"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A8805C",
+                    "description": null,
+                    "name": "CREX - Just Cricket",
+                    "packageName": "in.cricketexchange.app.cricketexchange",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.04.05"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Unlocks premium features and removes ads.",
             "name": "CREX Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "org.telegram.messenger.web": [
-                    "12.6.4"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1B5E20",
+                    "description": null,
+                    "name": "Cricbuzz",
+                    "packageName": "com.cricbuzz.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "16.02.05"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes all ads including banner, interstitial, video, and app open ads.",
+            "name": "Cricbuzz Disable Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1B5E20",
+                    "description": null,
+                    "name": "Cricbuzz",
+                    "packageName": "com.cricbuzz.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "16.02.05"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features like live streaming and premium articles.",
+            "name": "Cricbuzz Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Plus Messenger",
+                    "packageName": "org.telegram.plus",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.7.3.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks all analytics and tracking.",
+            "name": "Disable analytics",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Plus Messenger",
+                    "packageName": "org.telegram.plus",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.7.3.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Disables automatic app update checks.",
             "name": "Disable auto update",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "ch.protonvpn.android": [
-                    "5.17.72.0"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.6.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables automatic app update checks.",
+            "name": "Disable auto update",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#6D4AFF",
+                    "description": null,
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.18.46.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Blocks all telemetry, analytics, and observability data collection.",
             "name": "Disable telemetry",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.truecaller": [
-                    "26.10.6"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0028FF",
+                    "description": null,
+                    "name": "Truecaller",
+                    "packageName": "com.truecaller",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.10.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Disables AppStartTracker and other telemetry points.",
             "name": "Disable telemetry",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.truecaller": [
-                    "26.10.6"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0028FF",
+                    "description": null,
+                    "name": "Truecaller",
+                    "packageName": "com.truecaller",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.10.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Disables the in-app update check.",
             "name": "Disable update check",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.cv.docscanner": [
-                    "6.8.18"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2196F3",
+                    "description": null,
+                    "name": "Document Scanner",
+                    "packageName": "com.cv.docscanner",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "6.8.18"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Unlocks all premium features, removes ads, and enables pro themes.",
             "name": "Doc Scanner Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "org.telegram.messenger.web": [
-                    "12.6.4"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.6.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Increases download chunk size and max concurrent requests.",
             "name": "Download speed boost",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "in.startv.hotstar": [
-                    "26.04.13.3"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A237E",
+                    "description": null,
+                    "name": "JioHotstar",
+                    "packageName": "in.startv.hotstar",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.04.27.10"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables all video codecs (H265, VP9, AV1) and 4K resolution by bypassing blacklist and capability checks.",
             "name": "Enable all codecs",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "in.startv.hotstar": [
-                    "26.04.13.3"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A237E",
+                    "description": null,
+                    "name": "JioHotstar",
+                    "packageName": "in.startv.hotstar",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.04.27.10"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Allows playback while screen mirroring or HDMI is connected.",
             "name": "Enable screen mirroring",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "in.startv.hotstar": [
-                    "26.04.13.3"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A237E",
+                    "description": null,
+                    "name": "JioHotstar",
+                    "packageName": "in.startv.hotstar",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.04.27.10"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Removes screenshot and screen recording restrictions.",
             "name": "Enable screenshots",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.eyecon.global": [
-                    "4.2026.04.05.1300"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#085CE8",
+                    "description": null,
+                    "name": "Eyecon Caller ID & Spam Block",
+                    "packageName": "com.eyecon.global",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.2026.04.05.1300"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Unlocks premium features.",
             "name": "Eyecon Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.overlook.android.fing": [
-                    "12.11.9"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#003AAA",
+                    "description": null,
+                    "name": "Fing",
+                    "packageName": "com.overlook.android.fing",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.12.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Unlocks premium network tools and features.",
             "name": "Fing Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "in.startv.hotstar": [
-                    "26.04.13.3"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A237E",
+                    "description": null,
+                    "name": "JioHotstar",
+                    "packageName": "in.startv.hotstar",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.04.27.10"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Forces HDR10 and HDR10+ playback on compatible devices by bypassing blacklist and capability checks.",
             "name": "Force HDR10",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.truecaller": [
-                    "26.10.6"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0028FF",
+                    "description": null,
+                    "name": "Truecaller",
+                    "packageName": "com.truecaller",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.10.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Forces SMS-based OTP verification instead of GMS SmsRetriever, fixing sign-in on re-signed APKs.",
             "name": "GMS sign-in bypass",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.truecaller": [
-                    "26.10.6"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0028FF",
+                    "description": null,
+                    "name": "Truecaller",
+                    "packageName": "com.truecaller",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.10.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Hides the Assistant tab from the bottom navigation bar.",
             "name": "Hide Assistant tab",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.truecaller": [
-                    "26.10.6"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0028FF",
+                    "description": null,
+                    "name": "Truecaller",
+                    "packageName": "com.truecaller",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.10.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Hides the Family Protection button from the bottom navigation bar.",
             "name": "Hide Family Protection button",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.truecaller": [
-                    "26.10.6"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0028FF",
+                    "description": null,
+                    "name": "Truecaller",
+                    "packageName": "com.truecaller",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.10.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Hides the Premium options from the settings and user details pages.",
             "name": "Hide Premium from settings",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.truecaller": [
-                    "26.10.6"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0028FF",
+                    "description": null,
+                    "name": "Truecaller",
+                    "packageName": "com.truecaller",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.10.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Hides the Premium tab from the bottom navigation bar.",
             "name": "Hide Premium tab",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.truecaller": [
-                    "26.10.6"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0028FF",
+                    "description": null,
+                    "name": "Truecaller",
+                    "packageName": "com.truecaller",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.10.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Hides the Scams tab from the bottom navigation bar.",
             "name": "Hide Scams tab",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "org.telegram.messenger.web": [
-                    "12.6.4"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Plus Messenger",
+                    "packageName": "org.telegram.plus",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.7.3.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents typing status from being sent to other users.",
+            "name": "Hide typing indicator",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.6.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Hides your typing indicator from other users.",
             "name": "Hide typing indicator",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.arlosoft.macrodroid": [
-                    "5.62.11"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#6200EE",
+                    "description": null,
+                    "name": "Lumina Walls",
+                    "packageName": "com.lumina.wallpapers",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.0.2.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium wallpapers and categories.",
+            "name": "Lumina Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#20334D",
+                    "description": null,
+                    "name": "MacroDroid",
+                    "packageName": "com.arlosoft.macrodroid",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.62.11"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Unlocks premium features and removes macro limits.",
             "name": "MacroDroid Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.markOne.ss_app": [
-                    "6.6"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#1A1A2E",
+                    "description": null,
+                    "name": "Mark",
+                    "packageName": "com.markOne.ss_app",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "6.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Unlocks premium features and removes ads.",
             "name": "Mark Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "in.startv.hotstar": [
-                    "26.04.13.3"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0028FF",
+                    "description": null,
+                    "name": "Truecaller",
+                    "packageName": "com.truecaller",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.10.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables telemetry, ad, and tracking SDK initializations. Fixes #84.",
+            "name": "Neutralize third-party SDKs",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Plus Messenger",
+                    "packageName": "org.telegram.plus",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.7.3.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium feature UI and shows premium badge on self only.",
+            "name": "Plus Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A237E",
+                    "description": null,
+                    "name": "JioHotstar",
+                    "packageName": "in.startv.hotstar",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.04.27.10"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Unlocks premium UI features, removes subscription nudges, and enables downloads.",
             "name": "Premium unlock",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "ch.protonvpn.android": [
-                    "5.17.72.0"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#6D4AFF",
+                    "description": null,
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.18.46.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Unlocks premium UI features: removes upsells, enables NetShield ad-blocker, hides upgrade prompts, shows free servers with premium interface (Plus badge, no speed limits display, all feature flags enabled).",
             "name": "Proton VPN Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "in.startv.hotstar": [
-                    "26.04.13.3"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A237E",
+                    "description": null,
+                    "name": "JioHotstar",
+                    "packageName": "in.startv.hotstar",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.04.27.10"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Removes pre-roll, mid-roll, and live match video ads.",
             "name": "Remove ads",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "org.telegram.messenger.web": [
-                    "12.6.4"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Plus Messenger",
+                    "packageName": "org.telegram.plus",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.7.3.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes all ads including Plus banner ads and Telegram sponsored messages.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.6.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Removes sponsored messages and video ads.",
             "name": "Remove ads",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "org.telegram.messenger.web": [
-                    "12.6.4"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#1A237E",
+                    "description": null,
+                    "name": "StarSense Explorer",
+                    "packageName": "com.celestron.skybox",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.0.2.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the unlock code check to enable all features.",
+            "name": "StarSense Unlock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.6.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Unlocks premium features.",
             "name": "Telegram Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.solid.teleprompter": [
-                    "6.8.2",
-                    "6.8.1"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#6200EE",
+                    "description": null,
+                    "name": "Prompter Pal",
+                    "packageName": "com.solid.teleprompter",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "6.8.2"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "6.8.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Unlocks premium features in Teleprompter Vlog & Scripts app.",
             "name": "Teleprompter Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.ticktick.task": [
-                    "8.0.6.1"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#4870F8",
+                    "description": null,
+                    "name": "TickTick",
+                    "packageName": "com.ticktick.task",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "8.0.6.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Unlocks premium features, removes limits, and enables AI tools.",
             "name": "TickTick Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.truecaller": [
-                    "26.10.6"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "TrackIt",
+                    "packageName": "app.vinztech.trackit",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.5.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features.",
+            "name": "TrackIt Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0028FF",
+                    "description": null,
+                    "name": "Truecaller",
+                    "packageName": "com.truecaller",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.10.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Unlocks premium features.",
             "name": "Truecaller Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.frontrow.vlog": [
-                    "2.12.0"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#6C63FF",
+                    "description": null,
+                    "name": "Alarmo",
+                    "packageName": "com.bytesong.missionalarm",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.3.7"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium missions — Lights On, Step & Walk Off, Push-Up, Squats, Jumping Jack, and Wake Up check.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "SD Maid SE",
+                    "packageName": "eu.darken.sdmse",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.7.3-rc0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks SD Maid SE Pro features — full history, scheduled operations, extra options, custom rules.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#42484B",
+                    "description": null,
+                    "name": "VN",
+                    "packageName": "com.frontrow.vlog",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.12.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Unlocks premium features, removes watermark, and hides Pro tab.",
             "name": "VN Premium",
-            "options": [],
-            "use": true
+            "options": []
         }
     ]
 }
