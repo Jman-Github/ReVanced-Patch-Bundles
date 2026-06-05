@@ -95,6 +95,32 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+### 📦 Lain-Patches-Bundle [Morphe]:
+[🧩 Lain Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-lain-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lain-patch-bundles/lain-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lain-patch-bundles/lain-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lain-patch-bundles/lain-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Edge-Morphe-Patches-Bundle [Morphe]:
+[🧩 Edge-Morphe Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-edge-morphe-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/edge-morphe-patch-bundles/edge-morphe-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/edge-morphe-patch-bundles/edge-morphe-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/edge-morphe-patch-bundles/edge-morphe-dev-patches-bundle.json```
+</details>
+
+---
 ### 📦 Anddea-Patches-Bundle [Morphe]:
 [🧩 Anddea Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-anddea-bundle-patch-list)
 <details>
@@ -1232,6 +1258,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [ProGuard-Patches-Bundle](https://gitlab.com/inotia00/proguard-patches)
 
 #### 🏷️ [MTGA-Patches-Bundle](https://github.com/MaebashiRamens/mtga)
+
+#### 🏷️ [Lain-Patches-Bundle](https://github.com/kiraio-moe/Lain-Patches)
+
+#### 🏷️ [Edge-Morphe-Patches-Bundle](https://github.com/quantavil/edge-morphe-patches)
 
 #### 🏷️ [Anddea-Patches-Bundle](https://github.com/anddea/revanced-patches)
 

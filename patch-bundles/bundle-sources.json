@@ -54,6 +54,16 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "lain-stable": {
+        "patches": "https://api.github.com/repos/kiraio-moe/Lain-Patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "edge-morphe-stable": {
+        "patches": "https://api.github.com/repos/quantavil/edge-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "biliroamingm-stable": {
         "patches": "https://api.github.com/repos/sakarie9/BiliRoamingM",
         "integration": "https://api.github.com/repos/sakarie9/BiliRoamingM",
@@ -520,6 +530,16 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
+    "lain-dev": {
+        "patches": "https://api.github.com/repos/kiraio-moe/Lain-Patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "edge-morphe-dev": {
+        "patches": "https://api.github.com/repos/quantavil/edge-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
     "biliroamingm-dev": {
         "patches": "https://api.github.com/repos/sakarie9/BiliRoamingM",
         "integration": "https://api.github.com/repos/sakarie9/BiliRoamingM",
@@ -978,6 +998,16 @@
     },
     "mtga-latest": {
         "patches": "https://api.github.com/repos/MaebashiRamens/mtga",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "lain-latest": {
+        "patches": "https://api.github.com/repos/kiraio-moe/Lain-Patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "edge-morphe-latest": {
+        "patches": "https://api.github.com/repos/quantavil/edge-morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     },
