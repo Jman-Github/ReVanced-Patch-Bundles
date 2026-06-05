@@ -59,6 +59,7 @@ repositories {
             includeGroup("com.github.iBotPeaches.smali")
             includeGroup("com.github.MorpheApp")
             includeGroup("com.github.MorpheApp.smali")
+            includeGroup("com.github.REAndroid")
         }
     }
 
