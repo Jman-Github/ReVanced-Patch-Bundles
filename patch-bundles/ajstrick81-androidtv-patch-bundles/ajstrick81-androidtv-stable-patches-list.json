@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.45",
+    "version": "v1.4.46",
     "patches": [
         {
             "compatibility": [
@@ -178,7 +178,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Disables ad delivery via three confirmed layers: MediaTailor SSAI proxy, MediaTailor ad service constructor, and SSAI configuration provider (forces AdvertisingStrategy.None for all playback types). Validated v7.5.102.",
+            "description": "Disables ad delivery via three confirmed Sky SDK layers plus an OkHttp interceptor that blocks ad CDN and analytics domains at the network layer, replacing the AGH DNS dependency. Validated v7.5.102.",
             "name": "Skip ads",
             "options": [],
             "use": true
