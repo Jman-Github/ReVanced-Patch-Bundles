@@ -39,7 +39,6 @@
             "description": "Adds old style splash animation.",
             "name": "Add splash animation",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -76,11 +75,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds options to replace video thumbnails using the DeArrow API or image captures from the video.",
             "name": "Alternative thumbnails",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -117,22 +117,24 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to bypass the restrictions of ambient mode or disable it completely.",
             "name": "Ambient mode switch",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoThemePatch"
+            ],
             "description": "Applies a pure black theme to some components.",
             "name": "Amoled",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -169,11 +171,15 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "OverrideQualityHookPatch",
+                "OverrideSpeedHookPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to add the current video quality or playback speed in brackets next to the current time.",
             "name": "Append time stamps information",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -184,7 +190,6 @@
             "description": "Enables playing music in the background.",
             "name": "Background play",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -195,7 +200,6 @@
             "description": "Sets the audio quality to \"Always High\" when you first install the app.",
             "name": "Bitrate default value",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -206,7 +210,6 @@
             "description": "Enables YouTube Music to work with Android Auto by spoofing the YouTube Music certificate.",
             "name": "Certificate spoof",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -216,20 +219,7 @@
             "dependencies": [],
             "description": "Changes the package name for Reddit to the name specified in options.json.",
             "name": "Change package name",
-            "options": [
-                {
-                    "default": "com.reddit.frontpage.rvx",
-                    "description": "The name of the package to rename the app to.",
-                    "key": "PackageNameReddit",
-                    "required": false,
-                    "title": "Package name of Reddit",
-                    "values": {
-                        "Clone": "com.reddit.frontpage.revanced",
-                        "Default": "com.reddit.frontpage.rvx"
-                    }
-                }
-            ],
-            "requiresIntegrations": false,
+            "options": [],
             "use": false
         },
         {
@@ -264,22 +254,25 @@
                     "19.05.36"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to use text toggles instead of switch toggles within the additional settings menu.",
             "name": "Change player flyout panel toggles",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "IntentHookPatch",
+                "Settings"
+            ],
             "description": "Adds an option to set which page the app opens in instead of the homepage.",
             "name": "Change start page",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -316,11 +309,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to set which page the app opens in instead of the homepage.",
             "name": "Change start page",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -357,23 +351,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Applies a custom heading in the top left corner within the app.",
             "name": "Custom branding heading",
-            "options": [
-                {
-                    "default": "yt_premium_wordmark_header",
-                    "description": "The header to apply to the app.\n\nIf a path to a folder is provided, the folder must contain one or more of the following folders, depending on the DPI of the device:\n\n- drawable-xxxhdpi\n- drawable-xxhdpi\n- drawable-xhdpi\n- drawable-hdpi\n- drawable-mdpi\n\nEach of the folders must contain all of the following files:\n\n- yt_wordmark_header_light.png\n- yt_wordmark_header_dark.png\nThe image dimensions must be as follows:\n- drawable-xxxhdpi: 512px x 192px\n- drawable-xxhdpi: 387px x 144px\n- drawable-xhdpi: 258px x 96px\n- drawable-hdpi: 194px x 72px\n- drawable-mdpi: 129px x 48px",
-                    "key": "header",
-                    "required": false,
-                    "title": "Header",
-                    "values": {
-                        "YouTube": "yt_wordmark_header",
-                        "YouTube Premium": "yt_premium_wordmark_header"
-                    }
-                }
-            ],
-            "requiresIntegrations": false,
+            "options": [],
             "use": true
         },
         {
@@ -410,24 +393,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Change the YouTube launcher icon to the icon specified in options.json.",
             "name": "Custom branding icon YouTube",
-            "options": [
-                {
-                    "default": "Revancify Blue",
-                    "description": "The path to a folder must contain one or more of the following folders matching the DPI of your device:\n\n- mipmap-xxxhdpi\n- mipmap-xxhdpi\n- mipmap-xhdpi\n- mipmap-hdpi\n- mipmap-mdpi\n\nEach of these folders has to have the following files:\n\n- adaptiveproduct_youtube_background_color_108.png\n- adaptiveproduct_youtube_foreground_color_108.png\n- ic_launcher.png\n- ic_launcher_round.png",
-                    "key": "AppIcon",
-                    "required": false,
-                    "title": "App icon",
-                    "values": {
-                        "MMT": "mmt",
-                        "Revancify Blue": "revancify_blue",
-                        "Revancify Red": "revancify_red"
-                    }
-                }
-            ],
-            "requiresIntegrations": false,
+            "options": [],
             "use": true
         },
         {
@@ -437,21 +408,7 @@
             "dependencies": [],
             "description": "Changes the YouTube Music app icon to the icon specified in options.json.",
             "name": "Custom branding icon YouTube Music",
-            "options": [
-                {
-                    "default": "Revancify Blue",
-                    "description": "The path to a folder containing the following folders:\n\n- mipmap-xxxhdpi\n- mipmap-xxhdpi\n- mipmap-xhdpi\n- mipmap-hdpi\n- mipmap-mdpi\n\nEach of these folders has to have the following files:\n\n- adaptiveproduct_youtube_music_background_color_108.png\n- adaptiveproduct_youtube_music_foreground_color_108.png\n- ic_launcher_release.png",
-                    "key": "AppIcon",
-                    "required": false,
-                    "title": "App icon",
-                    "values": {
-                        "MMT": "mmt",
-                        "Revancify Blue": "revancify_blue",
-                        "Revancify Red": "revancify_red"
-                    }
-                }
-            ],
-            "requiresIntegrations": false,
+            "options": [],
             "use": true
         },
         {
@@ -461,17 +418,7 @@
             "dependencies": [],
             "description": "Renames the Reddit app to the name specified in options.json.",
             "name": "Custom branding name Reddit",
-            "options": [
-                {
-                    "default": "RVX Reddit",
-                    "description": "The name of the app.",
-                    "key": "AppName",
-                    "required": false,
-                    "title": "App name",
-                    "values": null
-                }
-            ],
-            "requiresIntegrations": false,
+            "options": [],
             "use": false
         },
         {
@@ -508,23 +455,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Rename the YouTube app to the name specified in options.json.",
             "name": "Custom branding name YouTube",
-            "options": [
-                {
-                    "default": "ReVanced Extended",
-                    "description": "The name of the app.",
-                    "key": "AppName",
-                    "required": true,
-                    "title": "App name",
-                    "values": {
-                        "Full name": "ReVanced Extended",
-                        "Short name": "RVX"
-                    }
-                }
-            ],
-            "requiresIntegrations": false,
+            "options": [],
             "use": true
         },
         {
@@ -534,31 +470,7 @@
             "dependencies": [],
             "description": "Renames the YouTube Music app to the name specified in options.json.",
             "name": "Custom branding name YouTube Music",
-            "options": [
-                {
-                    "default": "ReVanced Extended Music",
-                    "description": "The name of the app as it appears in the notification panel.",
-                    "key": "AppNameNotification",
-                    "required": true,
-                    "title": "App name in notification panel",
-                    "values": {
-                        "Full name": "ReVanced Extended Music",
-                        "Short name": "RVX Music"
-                    }
-                },
-                {
-                    "default": "RVX Music",
-                    "description": "The name of the app as it appears in the launcher.",
-                    "key": "AppNameLauncher",
-                    "required": true,
-                    "title": "App name in launcher",
-                    "values": {
-                        "Full name": "ReVanced Extended Music",
-                        "Short name": "RVX Music"
-                    }
-                }
-            ],
-            "requiresIntegrations": false,
+            "options": [],
             "use": true
         },
         {
@@ -595,20 +507,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Add 'double-tap to seek' value.",
             "name": "Custom double tap length",
-            "options": [
-                {
-                    "default": "3, 5, 10, 15, 20, 30, 60, 120, 180",
-                    "description": "A list of custom double-tap to seek lengths. Be sure to separate them with commas (,).",
-                    "key": "DoubleTapLengthArrays",
-                    "required": true,
-                    "title": "Double-tap to seek Values",
-                    "values": null
-                }
-            ],
-            "requiresIntegrations": false,
+            "options": [],
             "use": true
         },
         {
@@ -619,42 +523,19 @@
             "dependencies": [],
             "description": "Changes the package name for the non-root build of YouTube and YouTube Music to the name specified in options.json.",
             "name": "Custom package name",
-            "options": [
-                {
-                    "default": "app.rvx.android.youtube",
-                    "description": "The name of the package to use in MicroG support",
-                    "key": "PackageNameYouTube",
-                    "required": true,
-                    "title": "Package name of YouTube",
-                    "values": {
-                        "Clone": "com.rvx.android.youtube",
-                        "Default": "app.rvx.android.youtube"
-                    }
-                },
-                {
-                    "default": "app.rvx.android.apps.youtube.music",
-                    "description": "The name of the package to use in MicroG support",
-                    "key": "PackageNameYouTubeMusic",
-                    "required": true,
-                    "title": "Package name of YouTube Music",
-                    "values": {
-                        "Clone": "com.rvx.android.apps.youtube.music",
-                        "Default": "app.rvx.android.apps.youtube.music"
-                    }
-                }
-            ],
-            "requiresIntegrations": false,
+            "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "IntentHookPatch"
+            ],
             "description": "Adds an option to customize available playback speeds.",
             "name": "Custom playback speed",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -691,11 +572,14 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "OldSpeedLayoutPatch",
+                "OverrideSpeedHookPatch",
+                "Settings"
+            ],
             "description": "Adds options to customize available playback speeds.",
             "name": "Custom playback speed",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -732,11 +616,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to change the opacity of the video player background when player controls are visible.",
             "name": "Custom player overlay opacity",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -773,11 +659,14 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoThemePatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to customize seekbar colors in video players and video thumbnails.",
             "name": "Custom seekbar color",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -814,11 +703,14 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "OverrideSpeedHookPatch",
+                "Settings",
+                "VideoCpnPatch"
+            ],
             "description": "Adds an option to set the default playback speed.",
             "name": "Default playback speed",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -855,22 +747,29 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "OverrideQualityHookPatch",
+                "OverrideSpeedHookPatch",
+                "PlayerTypeHookPatch",
+                "Settings",
+                "VideoIdWithoutShortsPatch"
+            ],
             "description": "Adds an option to set the default video quality.",
             "name": "Default video quality",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "VideoIdPatch"
+            ],
             "description": "Adds an option to disable captions from being automatically enabled.",
             "name": "Disable auto captions",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -907,11 +806,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "VideoIdPatch"
+            ],
             "description": "Adds an option to disable captions from being automatically enabled.",
             "name": "Disable auto captions",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -948,11 +849,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to disable haptic feedback when swiping the video player.",
             "name": "Disable haptic feedback",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -989,11 +891,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds options to disable HDR video.",
             "name": "Disable HDR video",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -1030,22 +933,24 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to disable landscape mode when entering fullscreen.",
             "name": "Disable landscape mode",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "OverlayFilterBytecodePatch"
+            ],
             "description": "Removes the dark overlay when comment, share, save to playlist, and flyout panels are open.",
             "name": "Disable overlay filter",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -1082,11 +987,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Disable pip notification when you first launch pip mode.",
             "name": "Disable pip notification",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -1123,11 +1030,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to disable CronetEngine's QUIC protocol.",
             "name": "Disable QUIC protocol",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -1148,22 +1056,25 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to disable rolling number animations of video view count, user likes, and upload time.",
             "name": "Disable rolling number animations",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to disable the popup that shows up when taking a screenshot.",
             "name": "Disable screenshot popup",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -1200,11 +1111,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.",
             "name": "Disable shorts on startup",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -1241,11 +1153,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to disable 'Play at 2x speed' when pressing and holding in the video player.",
             "name": "Disable speed overlay",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -1282,22 +1195,25 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to disable the \"Update your app\" screen that appears when using an outdated client.",
             "name": "Disable update screen",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to set the navigation bar color to black.",
             "name": "Enable black navigation bar",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -1334,11 +1250,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to enter fullscreen when swiping down below the video player.",
             "name": "Enable bottom player gestures",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -1356,11 +1273,12 @@
                     "6.33.52"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to match the color of the miniplayer to the fullscreen player. Deprecated on YT Music 6.34.51+.",
             "name": "Enable color match player",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -1397,44 +1315,51 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to make the fullscreen controls compact.",
             "name": "Enable compact controls overlay",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to enable the compact flyout menu on phones.",
             "name": "Enable compact dialog",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
             "description": "Adds a custom filter which can be used to hide layout components.",
             "name": "Enable custom filter",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to enable debug logging.",
             "name": "Enable debug logging",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -1471,11 +1396,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to enable debug logging.",
             "name": "Enable debug logging",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -1512,22 +1438,24 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to always open links in your browser instead of in the in-app-browser.",
             "name": "Enable external browser",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to keep the miniplayer minimized even when another track is played.",
             "name": "Enable force minimized player",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -1564,22 +1492,25 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to enable gradient loading screen.",
             "name": "Enable gradient loading screen",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to enable landscape mode when rotating the screen on phones.",
             "name": "Enable landscape mode",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -1616,11 +1547,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to enable or disable language switching toggle.",
             "name": "Enable language switch",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -1631,7 +1563,6 @@
             "description": "Enables playback in miniplayer for Kids music.",
             "name": "Enable minimized playback",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -1668,11 +1599,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "IntegrationsPatch",
+                "PlayerTypeHookPatch"
+            ],
             "description": "Enables minimized and background playback.",
             "name": "Enable minimized playback",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -1709,11 +1642,14 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "MainActivityResolvePatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to enable a new type of splash animation.",
             "name": "Enable new splash animation",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -1750,11 +1686,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to enables the new seekbar thumbnails preview.",
             "name": "Enable new thumbnail preview",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -1772,11 +1709,12 @@
                     "6.33.52"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to return the player background to the old style. Deprecated on YT Music 6.34.51+.",
             "name": "Enable old player background",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -1794,11 +1732,12 @@
                     "6.33.52"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to return the player layout to the old style. Deprecated on YT Music 6.31.55+.",
             "name": "Enable old player layout",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -1835,22 +1774,27 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BottomSheetRecyclerViewPatch",
+                "LithoFilterPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to restore the old video quality menu with specific video resolution options.",
             "name": "Enable old quality layout",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to return the library tab to the old style.",
             "name": "Enable old style library shelf",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -1875,11 +1819,13 @@
                     "6.41.59"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to return the miniplayer to the old style.",
             "name": "Enable old style miniplayer",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -1916,33 +1862,38 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to skip over redirection URLs in external links.",
             "name": "Enable open links directly",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option use the opus audio codec instead of the mp4a audio codec.",
             "name": "Enable opus codec",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "FlyoutButtonContainerPatch",
+                "OverrideSpeedHookPatch",
+                "Settings"
+            ],
             "description": "Adds an option to add a playback speed button to the flyout panel.",
             "name": "Enable playback speed",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -1979,11 +1930,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to enable tap-to-seek on the seekbar of the video player.",
             "name": "Enable seekbar tapping",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2017,11 +1969,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to enable song search in the voice search screen.",
             "name": "Enable song search",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2058,11 +2011,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to enable the tablet mini player layout.",
             "name": "Enable tablet mini player",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2099,11 +2054,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to enable the tablet navigation bar.",
             "name": "Enable tablet navigation bar",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2140,11 +2096,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to replace the search icon with a wide search bar. This will hide the YouTube logo when active.",
             "name": "Enable wide search bar",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2162,11 +2120,12 @@
                     "6.33.52"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to change the player background to light grey to reduce eye strain. Deprecated on YT Music 6.34.51+.",
             "name": "Enable zen mode",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -2177,7 +2136,6 @@
             "description": "Unlocks the option to play music without video.",
             "name": "Exclusive audio playback",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2214,11 +2172,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to forcefully open videos in fullscreen.",
             "name": "Force fullscreen",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2255,11 +2214,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to force the opus audio codec instead of the mp4a audio codec.",
             "name": "Force opus codec",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2296,22 +2256,25 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to force the video codec.",
             "name": "Force video codec",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds the ability to hide account menu elements using a custom filter.",
             "name": "Hide account menu",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2348,33 +2311,42 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds the ability to hide account menu elements using a custom filter in the account menu and You tab.",
             "name": "Hide account menu",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "IntentHookPatch",
+                "Settings",
+                "SharedResourceIdPatch",
+                "VideoInformationPatch"
+            ],
             "description": "Adds options to hide action bar components and replace the offline download button with an external download button.",
             "name": "Hide action bar component",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "HideBannerPatch",
+                "HideCommentAdsPatch",
+                "Settings"
+            ],
             "description": "Adds options to hide ads.",
             "name": "Hide ads",
             "options": [],
-            "requiresIntegrations": true,
             "use": true
         },
         {
@@ -2411,11 +2383,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Hides the background of the pause and play animated buttons in the Shorts player.",
             "name": "Hide animated button background",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -2452,11 +2425,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to hide panels (such as live chat) from opening automatically.",
             "name": "Hide auto player popup panels",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2493,11 +2467,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the autoplay button in the video player.",
             "name": "Hide autoplay button",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2534,11 +2510,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the autoplay preview container when in fullscreen.",
             "name": "Hide autoplay preview",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2575,22 +2553,26 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
             "description": "Adds options to hide action buttons below the video player.",
             "name": "Hide button container",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
             "description": "Adds an option to hide the button shelf from the homepage and explore tab.",
             "name": "Hide button shelf",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2627,33 +2609,40 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the captions button in the video player.",
             "name": "Hide captions button",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
             "description": "Adds an option to hide the carousel shelf from the homepage and explore tab.",
             "name": "Hide carousel shelf",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the cast button.",
             "name": "Hide cast button",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2690,22 +2679,25 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to hide the cast button.",
             "name": "Hide cast button",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the category bar.",
             "name": "Hide category bar",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2742,11 +2734,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the category bar in feeds.",
             "name": "Hide category bar",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2783,22 +2777,27 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the channel avatar section of the subscription feed.",
             "name": "Hide channel avatar section",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
             "description": "Adds an option to hide the channel guidelines at the top of the comments section.",
             "name": "Hide channel guidelines",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2835,11 +2834,14 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide channel profile components.",
             "name": "Hide channel profile components",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2876,11 +2878,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
             "description": "Adds an option to hide creator's watermarks in the video player.",
             "name": "Hide channel watermark",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2917,11 +2921,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "PlayerButtonHookPatch",
+                "Settings"
+            ],
             "description": "Adds an option to hide the collapse button in the video player.",
             "name": "Hide collapse button",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2958,11 +2964,14 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds options to hide components related to comments.",
             "name": "Hide comment component",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -2999,11 +3008,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the crowdfunding box between the player and video description.",
             "name": "Hide crowdfunding box",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3040,11 +3051,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
             "description": "Adds an option to hide description components.",
             "name": "Hide description components",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3055,7 +3068,6 @@
             "description": "Removes the dark overlay when double-tapping to seek.",
             "name": "Hide double tap overlay filter",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -3092,11 +3104,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Hides the double tap dark filter layer.",
             "name": "Hide double tap overlay filter",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -3133,22 +3146,25 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Hides the like animations when double tap the screen in the Shorts player.",
             "name": "Hide double tap to like animations",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
             "description": "Adds an option to hide the emoji picker and time stamp when typing comments.",
             "name": "Hide emoji picker and time stamp",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3185,11 +3201,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide suggested video cards at the end of the video in the video player.",
             "name": "Hide end screen cards",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3226,11 +3244,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the overlay in fullscreen when swiping up and at the end of videos.",
             "name": "Hide end screen overlay",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3267,11 +3287,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds the ability to hide feed flyout panel components using a custom filter.",
             "name": "Hide feed flyout panel",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3308,11 +3330,14 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "DisableControlsOverlayConfigPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide filmstrip overlay in the video player.",
             "name": "Hide filmstrip overlay",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3349,33 +3374,39 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the floating microphone button when searching.",
             "name": "Hide floating microphone",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "FlyoutButtonContainerPatch",
+                "Settings"
+            ],
             "description": "Adds options to hide flyout panel components.",
             "name": "Hide flyout panel",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
             "description": "Adds an option to hide the For You shelf from the homepage.",
             "name": "Hide For You shelf",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3412,11 +3443,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Force to hide fullscreen button in player bottom UI container.",
             "name": "Hide fullscreen button",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -3453,33 +3485,42 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "QuickActionsHookPatch",
+                "Settings"
+            ],
             "description": "Adds an option to hide panels such as live chat when in fullscreen.",
             "name": "Hide fullscreen panels",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the share button in the fullscreen player.",
             "name": "Hide fullscreen share button",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "MusicAdsPatch",
+                "Hide navigation bar component",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds options to hide general ads.",
             "name": "Hide general ads",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3516,33 +3557,42 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "DoubleBackToClosePatch",
+                "GeneralAdsBytecodePatch",
+                "HideGetPremiumPatch",
+                "LithoFilterPatch",
+                "Settings",
+                "SwipeRefreshPatch"
+            ],
             "description": "Adds options to hide general ads.",
             "name": "Hide general ads",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SharedResourceIdPatch"
+            ],
             "description": "Hides the \"Get Music Premium\" label from the account menu and settings.",
             "name": "Hide get premium",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the handle in the account menu.",
             "name": "Hide handle",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3579,22 +3629,27 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds options to hide the handle in the account switcher and You tab.",
             "name": "Hide handle",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the history button in the toolbar.",
             "name": "Hide history button",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3631,11 +3686,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
             "description": "Adds an option to hide info-cards in the video player.",
             "name": "Hide info cards",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3672,11 +3729,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds options to hide latest videos button in home feed.",
             "name": "Hide latest videos button",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3713,11 +3772,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
             "description": "Adds options to hide general layout components.",
             "name": "Hide layout components",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3754,11 +3815,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the button under videos that loads similar videos.",
             "name": "Hide load more button",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3795,11 +3858,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
             "description": "Adds an option to hide mix playlists in feed.",
             "name": "Hide mix playlists",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3836,33 +3901,38 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the YouTube Music button in the video player.",
             "name": "Hide music button",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds options to hide navigation bar components.",
             "name": "Hide navigation bar component",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds options to hide buttons in the navigation bar.",
             "name": "Hide navigation buttons",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3899,11 +3969,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds options to hide and change navigation buttons (such as the Shorts button).",
             "name": "Hide navigation buttons",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3940,22 +4012,25 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to hide navigation bar labels.",
             "name": "Hide navigation label",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the \"New playlist\" button in the library.",
             "name": "Hide new playlist button",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -3992,11 +4067,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Hides the dark background surrounding the video player controls.",
             "name": "Hide player button background",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -4033,11 +4109,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Forces to hides chapters in player bottom UI container.",
             "name": "Hide player chapters",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -4074,11 +4151,15 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "PlayerTypeHookPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds options to hide player flyout panel components.",
             "name": "Hide player flyout panel",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4089,18 +4170,19 @@
             "description": "Removes the dark overlay when single-tapping player.",
             "name": "Hide player overlay filter",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings"
+            ],
             "description": "Adds an option to hide the playlist card from the homepage.",
             "name": "Hide playlist card",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4137,22 +4219,24 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to hide the previous and next buttons in the video player.",
             "name": "Hide previous next button",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to hide the recently visited shelf in the sidebar.",
             "name": "Hide recently visited shelf",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4189,11 +4273,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to hide thumbnails in the search term history.",
             "name": "Hide search term thumbnail",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4218,11 +4303,14 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "DisableControlsOverlayConfigPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the 'Slide left or right to seek' or 'Release to cancel' message container in the video player.",
             "name": "Hide seek message",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4259,11 +4347,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Custom seekbar color",
+                "Settings"
+            ],
             "description": "Adds an option to hide the seekbar in video player and video thumbnails.",
             "name": "Hide seekbar",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4300,11 +4390,17 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "Settings",
+                "SharedResourceIdPatch",
+                "ShortsNavigationBarPatch",
+                "ShortsSubscriptionsButtonPatch",
+                "ShortsToolBarPatch"
+            ],
             "description": "Adds options to hide components related to YouTube Shorts.",
             "name": "Hide shorts components",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4341,11 +4437,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to hide the snack bar action popup.",
             "name": "Hide snack bar",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4382,11 +4479,15 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "PlayerTypeHookPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the suggested actions bar inside the player.",
             "name": "Hide suggested actions",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4423,11 +4524,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the suggested video overlay at the end of videos.",
             "name": "Hide suggested video overlay",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4464,44 +4567,52 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BrowseIdHookPatch",
+                "LithoFilterPatch",
+                "NavBarIndexHookPatch",
+                "Settings"
+            ],
             "description": "Adds an option to hide the suggestions shelf in feed.",
             "name": "Hide suggestions shelf",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to hide the tap to update button.",
             "name": "Hide tap to update button",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SharedResourceIdPatch"
+            ],
             "description": "Hides the \"Tell us which artists you like\" card from the homepage.",
             "name": "Hide taste builder",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the terms of service container in the account menu.",
             "name": "Hide terms container",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4538,22 +4649,26 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the timestamp in the bottom left of the video player.",
             "name": "Hide time stamp",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide the r/place or Reddit recap button in the toolbar.",
             "name": "Hide toolbar button",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4590,22 +4705,25 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "ToolBarHookPatch"
+            ],
             "description": "Adds an option to hide the button in the toolbar.",
             "name": "Hide toolbar button",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SharedResourceIdPatch"
+            ],
             "description": "Hides the tooltip box that appears when opening the app for the first time.",
             "name": "Hide tooltip content",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4642,11 +4760,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Hides the tooltip box that appears on first install.",
             "name": "Hide tooltip content",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4683,11 +4803,13 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds an option to hide trending searches in the search bar.",
             "name": "Hide trending searches",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4724,11 +4846,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to hide ads in the video player.",
             "name": "Hide video ads",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4739,7 +4862,6 @@
             "description": "Hides the voice search button in the search bar.",
             "name": "Hide voice search button",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -4776,11 +4898,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Hide voice search button in search bar.",
             "name": "Hide voice search button",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -4802,11 +4925,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to keep landscape mode when turning the screen off and on in fullscreen.",
             "name": "Keep landscape mode",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4843,11 +4967,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to trick dpi to use tablet or phone layout.",
             "name": "Layout switch",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4884,22 +5009,29 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "GeneralThemePatch",
+                "Settings"
+            ],
             "description": "Enables MaterialYou theme for Android 12+",
             "name": "MaterialYou",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "ClientSpoofPatch",
+                "MainActivityResolvePatch",
+                "MicroGResourcePatch",
+                "Custom package name",
+                "FileProviderPatch"
+            ],
             "description": "Allows YouTube Music to run without root and under a different package name with MicroG.",
             "name": "MicroG support",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4936,33 +5068,38 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "MicroGBytecodePatch",
+                "Custom package name",
+                "Settings"
+            ],
             "description": "Allows ReVanced Extended to run without root and under a different package name with MicroG.",
             "name": "MicroG support",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to skip over redirection URLs in external links.",
             "name": "Open links directly",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to always open links in your browser instead of in the in-app-browser.",
             "name": "Open links externally",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -4999,31 +5136,22 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "AlwaysRepeatPatch",
+                "DisablePiPPatch",
+                "DownloadButtonHookPatch",
+                "MainActivityResolvePatch",
+                "OverrideSpeedHookPatch",
+                "PlayerButtonHookPatch",
+                "PlayerControlsPatch",
+                "Settings",
+                "SharedResourceIdPatch",
+                "VideoIdPatch",
+                "WhitelistPatch"
+            ],
             "description": "Adds an option to display overlay buttons in the video player.",
             "name": "Overlay buttons",
-            "options": [
-                {
-                    "default": true,
-                    "description": "Apply the outline icon",
-                    "key": "OutlineIcon",
-                    "required": true,
-                    "title": "Outline icons",
-                    "values": null
-                },
-                {
-                    "default": "0.0dip",
-                    "description": "Apply bottom margin to Overlay buttons and Timestamp",
-                    "key": "BottomMargin",
-                    "required": false,
-                    "title": "Bottom margin",
-                    "values": {
-                        "Default": "0.0dip",
-                        "Wider": "6.0dip"
-                    }
-                }
-            ],
-            "requiresIntegrations": false,
+            "options": [],
             "use": true
         },
         {
@@ -5034,7 +5162,6 @@
             "description": "Unlocks premium app icons.",
             "name": "Premium icon",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -5071,77 +5198,90 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "QuickActionsHookPatch",
+                "Settings"
+            ],
             "description": "Adds options to hide and customize components below the seekbar in fullscreen.",
             "name": "Quick actions components",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "OverrideSpeedHookPatch",
+                "Settings"
+            ],
             "description": "Adds an option to remember the last playback speed selected.",
             "name": "Remember playback speed",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to remember the state of the repeat toggle.",
             "name": "Remember repeat state",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to remember the state of the shuffle toggle.",
             "name": "Remember shuffle state",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "OverrideQualityHookPatch",
+                "Settings",
+                "VideoIdPatch"
+            ],
             "description": "Adds an option to remember the last video quality selected.",
             "name": "Remember video quality",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.",
             "name": "Remove subreddit dialog",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.",
             "name": "Remove viewer discretion dialog",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -5178,44 +5318,54 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.",
             "name": "Remove viewer discretion dialog",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "MainActivityResolvePatch",
+                "PlayerResponsePatch",
+                "Settings",
+                "SharedResourceIdPatch",
+                "VideoTypeHookPatch"
+            ],
             "description": "Adds an option to replace the cast button in the player with the \"Open music\" button.",
             "name": "Replace cast button",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "VideoInformationPatch"
+            ],
             "description": "Adds an option to replace \"Dismiss queue\" with \"Watch on YouTube\" in the flyout menu.",
             "name": "Replace dismiss queue",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "ReturnYouTubeDislikeBytecodePatch",
+                "Settings"
+            ],
             "description": "Adds an option to show the dislike count of songs using the Return YouTube Dislike API.",
             "name": "Return YouTube Dislike",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -5252,33 +5402,42 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "LithoFilterPatch",
+                "PlayerResponsePatch",
+                "ReturnYouTubeDislikeOldLayoutPatch",
+                "ReturnYouTubeDislikeRollingNumberPatch",
+                "ReturnYouTubeDislikeShortsPatch",
+                "Settings",
+                "VideoIdPatch"
+            ],
             "description": "Shows the dislike count of videos using the Return YouTube Dislike API.",
             "name": "Return YouTube Dislike",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to remove tracking query parameters from URLs when sharing links.",
             "name": "Sanitize sharing links",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to remove tracking query parameters from URLs when sharing links.",
             "name": "Sanitize sharing links",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -5315,33 +5474,37 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to remove tracking query parameters from URLs when sharing links.",
             "name": "Sanitize sharing links",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "SettingsBytecodePatch"
+            ],
             "description": "Adds ReVanced Extended settings to YouTube Music.",
             "name": "Settings",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.reddit.frontpage": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "IntegrationsPatch",
+                "SettingsBytecodePatch"
+            ],
             "description": "Adds ReVanced Extended settings to Reddit.",
             "name": "Settings",
             "options": [],
-            "requiresIntegrations": true,
             "use": true
         },
         {
@@ -5378,11 +5541,15 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "IntegrationsPatch",
+                "ResourceMappingPatch",
+                "SharedResourceIdPatch",
+                "SettingsBytecodePatch"
+            ],
             "description": "Applies mandatory patches to implement ReVanced Extended settings into the application.",
             "name": "Settings",
             "options": [],
-            "requiresIntegrations": true,
             "use": true
         },
         {
@@ -5419,22 +5586,26 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Apply the outline icon to the action button of the Shorts player.",
             "name": "Shorts outline button",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "IntentHookPatch",
+                "Settings",
+                "SponsorBlockBytecodePatch"
+            ],
             "description": "Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as non-music sections.",
             "name": "SponsorBlock",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -5471,31 +5642,27 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings",
+                "SponsorBlockBytecodePatch"
+            ],
             "description": "Integrates SponsorBlock which allows skipping video segments such as sponsored content.",
             "name": "SponsorBlock",
-            "options": [
-                {
-                    "default": false,
-                    "description": "Apply the outline icon",
-                    "key": "OutlineIcon",
-                    "required": true,
-                    "title": "Outline icons",
-                    "values": null
-                }
-            ],
-            "requiresIntegrations": false,
+            "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "IntentHookPatch",
+                "Enable old style library shelf",
+                "Settings"
+            ],
             "description": "Adds options to spoof the YouTube Music client version. This can remove the radio mode restriction in Canadian regions or disable real-time lyrics.",
             "name": "Spoof app version",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -5532,11 +5699,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features.",
             "name": "Spoof app version",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -5573,11 +5741,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds an option to spoof the device dimensions which unlocks higher video qualities if they aren't available on the device.",
             "name": "Spoof device dimensions",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -5614,11 +5783,15 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "PlayerTypeHookPatch",
+                "PlayerResponsePatch",
+                "VideoIdPatch",
+                "Settings"
+            ],
             "description": "Adds options to spoof player parameters to prevent playback issues.",
             "name": "Spoof player parameters",
             "options": [],
-            "requiresIntegrations": false,
             "use": false
         },
         {
@@ -5655,11 +5828,16 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "LockModeStateHookPatch",
+                "MainActivityResolvePatch",
+                "PlayerTypeHookPatch",
+                "Settings",
+                "SharedResourceIdPatch"
+            ],
             "description": "Adds options to enable and configure volume and brightness swipe controls.",
             "name": "Swipe controls",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -5696,57 +5874,25 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "GeneralThemePatch",
+                "Settings"
+            ],
             "description": "Change the app's theme to the values specified in options.json.",
             "name": "Theme",
-            "options": [
-                {
-                    "default": "@android:color/black",
-                    "description": "Can be a hex color (#AARRGGBB) or a color resource reference.",
-                    "key": "DarkThemeBackgroundColor",
-                    "required": true,
-                    "title": "Dark theme background color",
-                    "values": {
-                        "Amoled Black": "@android:color/black",
-                        "Catppuccin (Mocha)": "#FF181825",
-                        "Dark Blue": "#FF001029",
-                        "Dark Green": "#FF002905",
-                        "Dark Orange": "#FF291800",
-                        "Dark Pink": "#FF290025",
-                        "Dark Red": "#FF290000",
-                        "Dark Yellow": "#FF282900"
-                    }
-                },
-                {
-                    "default": "@android:color/white",
-                    "description": "Can be a hex color (#AARRGGBB) or a color resource reference.",
-                    "key": "LightThemeBackgroundColor",
-                    "required": false,
-                    "title": "Light theme background color",
-                    "values": {
-                        "Catppuccin (Latte)": "#FFE6E9EF",
-                        "Light Blue": "#FFD1E0FF",
-                        "Light Green": "#FFCCFFCC",
-                        "Light Orange": "#FFFFE6CC",
-                        "Light Pink": "#FFFCCFF3",
-                        "Light Red": "#FFFFD6D6",
-                        "Light Yellow": "#FFFDFFCC",
-                        "White": "@android:color/white"
-                    }
-                }
-            ],
-            "requiresIntegrations": false,
+            "options": [],
             "use": true
         },
         {
             "compatiblePackages": {
                 "com.google.android.apps.youtube.music": []
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Adds Crowdin translations for YouTube Music.",
             "name": "Translations",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         },
         {
@@ -5783,11 +5929,12 @@
                     "19.07.40"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Settings"
+            ],
             "description": "Add Crowdin translations for YouTube.",
             "name": "Translations",
             "options": [],
-            "requiresIntegrations": false,
             "use": true
         }
     ]

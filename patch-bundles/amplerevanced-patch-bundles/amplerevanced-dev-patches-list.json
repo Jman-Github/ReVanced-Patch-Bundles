@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.11",
+    "version": "v1.1.0-dev.12",
     "patches": [
         {
             "compatiblePackages": [
@@ -193,6 +193,26 @@
             "description": "Adds a settings tab to the app.",
             "name": "Add settings tab",
             "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Adds or updates the sharedUserId attribute in the app's manifest. This allows multiple apps with the same sharedUserId to share data and run in the same process. Use with caution as this can affect app permissions and data isolation.",
+            "name": "Add shared user ID",
+            "options": [
+                {
+                    "default": "revanced",
+                    "description": "The shared user ID to add to the app's manifest.",
+                    "key": "sharedUserId",
+                    "required": true,
+                    "title": "Shared User ID",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "revanced"
+                    }
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -1142,7 +1162,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.30.461"
+                            "version": "1.30.467"
                         }
                     ]
                 }
@@ -2111,7 +2131,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.30.461"
+                            "version": "1.30.467"
                         }
                     ]
                 }
