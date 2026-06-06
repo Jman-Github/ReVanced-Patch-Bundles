@@ -1,5 +1,5 @@
 {
-    "version": "v0.1.5",
+    "version": "v0.2.0",
     "patches": [
         {
             "compatibility": [
@@ -297,7 +297,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Spoofs SIM country and operator information retrieved by TikTok.",
+            "description": "Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.",
             "name": "SIM spoof",
             "options": [],
             "use": true
