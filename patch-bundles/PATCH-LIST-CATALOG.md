@@ -49,7 +49,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Brosssh](#-brosssh-bundle-patch-list) | 21 | 5 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 74 | 49 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 79 | 5 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 113 | 4 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 114 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 1 | 1 | Generated |
@@ -2294,7 +2294,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 113 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 114 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2397,6 +2397,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube Music``` | ```All versions``` |
 | ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```YouTube Music``` | ```All versions``` |
 | ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```YouTube Music``` | ```All versions``` |
+| ```Enable swipe to dismiss miniplayer``` | ```Adds an option to enable dismissing the miniplayer by swiping down on it.``` | ```YouTube Music``` | ```All versions``` |
 | ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube Music``` | ```All versions``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```All versions``` |
 | ```Hide ads``` | ```Adds options to hide ads such as the fullscreen Premium popup and "Get Music Premium" label.``` | ```YouTube Music``` | ```All versions``` |
