@@ -1,5 +1,5 @@
 {
-    "version": "v1.35.0-dev.1",
+    "version": "v1.35.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -491,13 +491,15 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.16.4"
+                            "version": "1.16.7"
                         }
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Niagara Pro",
             "options": []
