@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.3",
+    "version": "v1.1.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -55,6 +55,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#F01010",
+                    "description": null,
+                    "name": "Cinema FV-5 Lite",
+                    "packageName": "com.flavionet.android.cinema.lite",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.2.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Fix opening Camera FV-5 Lite when entering camera mode.",
+            "name": "Fix Camera Mode Intent",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#F9A128",
                     "description": null,
                     "name": "Camera FV-5 Lite",
@@ -99,6 +124,31 @@
             "dependencies": [],
             "description": "Unlock higher image resolutions that the device support.",
             "name": "Higher Image Resolution",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F01010",
+                    "description": null,
+                    "name": "Cinema FV-5 Lite",
+                    "packageName": "com.flavionet.android.cinema.lite",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.2.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock higher resolutions that limited by the app.",
+            "name": "Higher Video Resolution",
             "options": []
         }
     ]
