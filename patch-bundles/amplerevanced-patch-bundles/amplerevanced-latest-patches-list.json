@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.12",
+    "version": "v1.1.0-dev.13",
     "patches": [
         {
             "compatiblePackages": [
@@ -1047,6 +1047,31 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00FFA3",
+                    "description": null,
+                    "name": "Chzzk",
+                    "packageName": "com.navercorp.game.android.community",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.6.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables CHZZK peer-assisted grid streaming and forces CDN playback.",
+            "name": "Disable P2P",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FEE500",
                     "description": null,
@@ -1940,6 +1965,35 @@
             ],
             "description": "Adds a setting to render big DCCon at normal DCCon size.",
             "name": "Render big DCCon as normal size",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "description": null,
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.4.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Shows the channel ID in chatroom settings and copies it when tapping the chat side title.",
+            "name": "Show chatroom channel ID",
             "options": []
         },
         {

@@ -48,7 +48,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 21 | 5 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 74 | 49 | Generated |
-| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 79 | 5 | Generated |
+| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 81 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 114 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
@@ -2192,10 +2192,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle-morphe)
 <details>
-<summary><b>AmpleReVanced</b> - 79 patches, 5 apps</summary>
+<summary><b>AmpleReVanced</b> - 81 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Disable P2P``` | ```Disables CHZZK peer-assisted grid streaming and forces CDN playback.``` | ```Chzzk``` | ```All versions``` |
 | ```Add notification shortcut``` | ```Adds a notification shortcut button above quick write in the post list.``` | ```dcinside``` | ```All versions``` |
 | ```Add settings``` | ```Adds a Morphe settings entry to the DCInside settings screen.``` | ```dcinside``` | ```All versions``` |
 | ```Add settings resources``` | ```Adds Morphe settings resources to the app.``` | ```dcinside``` | ```All versions``` |
@@ -2266,6 +2267,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Remove OpenLink chat room list ad``` | ```Removes the OpenLink chat room list ad.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Remove shop tab``` | ```Removes the shop tab from the bottom navigation bar.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Remove Short-form Tab``` | ```Removes the Short-form tab from the now fragment.``` | ```Kakao Talk``` | ```All versions``` |
+| ```Show chatroom channel ID``` | ```Shows the channel ID in chatroom settings and copies it when tapping the chat side title.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Show deleted or hidden messages``` | ```Allows you to see deleted/hidden messages in chat logs.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Spoof apk checksums``` | ```Spoofs the apk checksums to pass integrity checks.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Spoof App ID``` | ```Spoofs the App ID to bypass integrity checks. (to bypass biometric auth etc.)``` | ```Kakao Talk``` | ```All versions``` |
