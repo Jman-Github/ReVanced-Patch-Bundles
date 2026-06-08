@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -230,6 +230,56 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#2196F3",
+                    "description": null,
+                    "name": "Pialytic",
+                    "packageName": "verbosus.pialytic",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.2.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses PairIP DRM license check, removes all paywalls, and unlocks all premium features including cloud sync and remote access.",
+            "name": "Unlock All Features",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "Greenify",
+                    "packageName": "com.oasisfeng.greenify",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium donation features in Greenify.",
+            "name": "Unlock Donation Features",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#E53935",
                     "description": null,
                     "name": "Crime Radar",
@@ -305,10 +355,10 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
-                    "appIconColor": "#0066FF",
+                    "appIconColor": "#E53935",
                     "description": null,
-                    "name": "Citizen - Safety Alert",
-                    "packageName": "sp0n.citizen",
+                    "name": "Crime Radar",
+                    "packageName": "com.newsbreak.crimeradar",
                     "signatures": null,
                     "targets": [
                         {
@@ -330,10 +380,10 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
-                    "appIconColor": "#E53935",
+                    "appIconColor": "#1CC29F",
                     "description": null,
-                    "name": "Crime Radar",
-                    "packageName": "com.newsbreak.crimeradar",
+                    "name": "Snipd: AI Podcast Player",
+                    "packageName": "ai.topicfinder.podcastdiscovery",
                     "signatures": null,
                     "targets": [
                         {
@@ -347,7 +397,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks Premium Features In the App.",
+            "description": "Unlocks all Premium features in Snipd: AI Podcast Player by spoofing the RevenueCat CustomerInfo.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -374,6 +424,31 @@
             "dependencies": [],
             "description": "Unlocks Premium Features In the App.",
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#0066FF",
+                    "description": null,
+                    "name": "Citizen - Safety Alert",
+                    "packageName": "sp0n.citizen",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all Citizen Plus/Protect features: Safety Network, Safety Center, Zones, Live Agent, Offender alerts, Clarity crime map, incident video, and more.",
+            "name": "Unlock Pro",
             "options": []
         },
         {
