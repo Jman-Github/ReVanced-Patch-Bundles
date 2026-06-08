@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.47",
+    "version": "v1.4.48",
     "patches": [
         {
             "compatibility": [
@@ -24,6 +24,32 @@
             "dependencies": [],
             "description": "Removes mid-roll / pre-roll ads and pause ads.",
             "name": "Disney+ Android TV",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 1539022,
+                    "description": null,
+                    "name": "Prime Video",
+                    "packageName": "com.amazon.amazonvideo.livingroom",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "6.23.23+v15.5.0.70-armv7a"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.amazon.amazonvideo.livingroom": [
+                    "6.23.23+v15.5.0.70-armv7a"
+                ]
+            },
+            "dependencies": [],
+            "description": "Logs all GMB message event types to logcat for ad event discovery. Temporary diagnostic patch — not for production use.",
+            "name": "GMB Diagnostic",
             "options": [],
             "use": true
         },

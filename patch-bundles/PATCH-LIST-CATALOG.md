@@ -78,12 +78,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ameenalasady](#-ameenalasady-bundle-patch-list) | 1 | 1 | Generated |
 | [Lynx6319](#-lynx6319-bundle-patch-list) | 1 | 1 | Generated |
 | [Xob0t](#-xob0t-bundle-patch-list) | 21 | 5 | Generated |
-| [Bannerhub](#-bannerhub-bundle-patch-list) | 54 | 2 | Generated |
+| [Bannerhub](#-bannerhub-bundle-patch-list) | 55 | 2 | Generated |
 | [Eksi](#-eksi-bundle-patch-list) | 1 | 1 | Generated |
 | [Ameen-Morphe](#-ameen-morphe-bundle-patch-list) | 2 | 2 | Generated |
 | [Kolaron](#-kolaron-bundle-patch-list) | 1 | 1 | Generated |
 | [ImmortalZeus](#-immortalzeus-bundle-patch-list) | 2 | 2 | Generated |
-| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 10 | 9 | Generated |
+| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 11 | 9 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 11 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
 | [Rushiranpise](#-rushiranpise-bundle-patch-list) | 16 | 7 | Generated |
@@ -3355,7 +3355,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Bannerhub Bundle Patch List:
 [📦 Bannerhub-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bannerhub-patches-bundle-morphe)
 <details>
-<summary><b>Bannerhub</b> - 54 patches, 2 apps</summary>
+<summary><b>Bannerhub</b> - 55 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3385,6 +3385,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```GPU Spoof menu row``` | ```Adds a 'GPU Spoof' row to GameHub's per-game menus. Tapping it launches BhGpuSpoofSettingsActivity scoped to the active game. Injects after the existing rows so stock behaviour is preserved.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```GPU spoof settings activity``` | ```Registers BhGpuSpoofSettingsActivity in the manifest so the per-game GPU-identity dialog can be launched by explicit-Intent. Internal-only (android:exported="false"); no <intent-filter>.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```In-game performance overlay``` | ```Adds a draggable edge pill + slide-out panel over the Wine game surface with two root-gated toggles — Sustained Performance Mode (locks all CPU cores to the 'performance' governor) and Max Adreno Clocks (pins the KGSL GPU min_freq to max_freq). Both auto-revert to defaults when the game exits. Root is checked once and cached; the toggles are greyed until granted.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
+| ```In-game Steam chat overlay``` | ```Adds a draggable pill + slide-out panel over the Wine game surface that shows your Steam friends list, presence, and a friend's recent message history (read-only). Reads GameHub's in-process Steam client via the steam_sdk JSON-RPC bridge. Off by default; toggle from Banner Tools -> Steam Chat.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
 | ```Legacy renderer conditional swap``` | ```Per-game gates the proven 6.0.2 libxserver swap + JNI bridge: adds the setRenderingEnabled native, routes XServer's loadLibrary and setFlipEnabled call sites through BhRendererController. New mode = stock, zero regression.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Legacy renderer libxserver bundle``` | ```Bundles the 6.0.2 GLES2-era libxserver.so + libwinemu.so as *_legacy.so alongside the stock 6.0.4 ones (additive, never overwrites stock). The conditional loaders choose per game.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Local game-id assignment``` | ```On app start, scans GameHub's library DB for games stuck at a sentinel server_game_id (-1 for PC imports without a catalog match; 0 for Epic-library and GOG-imported games) and rewrites each one with a stable synthetic integer derived from the row's local_* UUID. After the scan, those games become individually addressable instead of all colliding on the same sentinel value. Note: unique IDs are necessary but not sufficient for Beacon/ES-DE launching of Epic/GOG games — the source-specific dispatch path is a separate patch. Idempotent and self-healing: rows whose ID is later overwritten by GameHub with a real catalog value are left alone on re-run.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
@@ -3470,10 +3471,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Ajstrick81-AndroidTV Bundle Patch List:
 [📦 Ajstrick81-AndroidTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ajstrick81-androidtv-patches-bundle-morphe)
 <details>
-<summary><b>Ajstrick81-AndroidTV</b> - 10 patches, 9 apps</summary>
+<summary><b>Ajstrick81-AndroidTV</b> - 11 patches, 9 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```GMB Diagnostic``` | ```Logs all GMB message event types to logcat for ad event discovery. Temporary diagnostic patch — not for production use.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Skip ads``` | ```Prevents server-side inserted ads from playing in the video stream.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Paramount+ Android TV``` | ```Removes pause ads, pre-roll ads, and mid-roll ads.``` | ```com.cbs.ott``` | ```16.12.0``` |

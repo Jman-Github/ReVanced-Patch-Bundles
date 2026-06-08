@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-608",
+    "version": "v1.1.0-608",
     "patches": [
         {
             "compatiblePackages": {
@@ -479,6 +479,20 @@
             ],
             "description": "Adds a draggable edge pill + slide-out panel over the Wine game surface with two root-gated toggles — Sustained Performance Mode (locks all CPU cores to the 'performance' governor) and Max Adreno Clocks (pins the KGSL GPU min_freq to max_freq). Both auto-revert to defaults when the game exits. Root is checked once and cached; the toggles are greyed until granted.",
             "name": "In-game performance overlay",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.8"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Adds a draggable pill + slide-out panel over the Wine game surface that shows your Steam friends list, presence, and a friend's recent message history (read-only). Reads GameHub's in-process Steam client via the steam_sdk JSON-RPC bridge. Off by default; toggle from Banner Tools -> Steam Chat.",
+            "name": "In-game Steam chat overlay",
             "options": [],
             "use": true
         },
