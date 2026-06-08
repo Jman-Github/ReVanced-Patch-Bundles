@@ -87,7 +87,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 11 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
 | [Rushiranpise](#-rushiranpise-bundle-patch-list) | 19 | 10 | Generated |
-| [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 2 | 1 | Generated |
+| [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 3 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -3558,11 +3558,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Sjshb57-PairIP Bundle Patch List:
 [📦 Sjshb57-PairIP-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-sjshb57-pairip-patches-bundle-morphe)
 <details>
-<summary><b>Sjshb57-PairIP</b> - 2 patches, 1 app</summary>
+<summary><b>Sjshb57-PairIP</b> - 3 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Remove extracted classes``` | ```Removes the $c<number> helper classes inlined back by 'Restore extracted methods'.``` | ```Universal``` | ```All versions``` |
 | ```Remove pairip protection``` | ```Restores obfuscated strings and removes pairip bytecode protection.``` | ```Universal``` | ```All versions``` |
-| ```Restore extracted methods``` | ```Inlines methods hidden in helper classes back into the host class and removes the helper classes.``` | ```Universal``` | ```All versions``` |
+| ```Restore extracted methods``` | ```Inlines methods hidden in $c<number> helper classes back into the host class.``` | ```Universal``` | ```All versions``` |
 
 </details>

@@ -1,6 +1,16 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "patches": [
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes the $c<number> helper classes inlined back by 'Restore extracted methods'.",
+            "name": "Remove extracted classes",
+            "options": []
+        },
         {
             "compatiblePackages": null,
             "default": false,
@@ -13,7 +23,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Inlines methods hidden in helper classes back into the host class and removes the helper classes.",
+            "description": "Inlines methods hidden in $c<number> helper classes back into the host class.",
             "name": "Restore extracted methods",
             "options": []
         }
