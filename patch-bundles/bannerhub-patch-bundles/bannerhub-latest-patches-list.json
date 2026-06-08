@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-608",
+    "version": "v1.2.0-608",
     "patches": [
         {
             "compatiblePackages": {
@@ -209,6 +209,18 @@
             "dependencies": [],
             "description": "Adds Firebase's manifest kill-switch <meta-data> entries so the bundled Firebase Analytics SDK never initializes data collection. Stops all auto-collected and custom events from being sent to app-measurement.com. Firebase Cloud Messaging, Firebase Auth, and Firebase Remote Config are unaffected (GameHub 6.0.4 bundles Remote Config but never invokes it — verified zero call sites in the host APK).",
             "name": "Disable Firebase Analytics",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.8"
+                ]
+            },
+            "dependencies": [],
+            "description": "Stops the AndroidApp Firebase-setup helper from re-enabling Firebase/Crashlytics data collection at runtime (it wrote firebase_data_collection_default_enabled=true and firebase_crashlytics_collection_enabled=true, silently overriding the manifest kill switches). Returns right after FirebaseApp init but before the collection re-enable, so FirebaseApp still initializes (other code needs it) while Crashlytics stays off — removing the residual firebase-settings.crashlytics.com / firebaselogging-pa.googleapis.com / firebaseinstallations.googleapis.com traffic. Anchored on the app class + a stable Firebase error string; cut at the first monitor-enter.",
+            "name": "Disable Firebase auto-init",
             "options": [],
             "use": true
         },

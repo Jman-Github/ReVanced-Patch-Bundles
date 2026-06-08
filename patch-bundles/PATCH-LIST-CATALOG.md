@@ -43,7 +43,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Lain](#-lain-bundle-patch-list) | 6 | 3 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
-| [Piko](#-piko-bundle-patch-list) | 118 | 2 | Generated |
+| [Piko](#-piko-bundle-patch-list) | 119 | 2 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 9 | 5 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 21 | 5 | Generated |
@@ -78,7 +78,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ameenalasady](#-ameenalasady-bundle-patch-list) | 1 | 1 | Generated |
 | [Lynx6319](#-lynx6319-bundle-patch-list) | 1 | 1 | Generated |
 | [Xob0t](#-xob0t-bundle-patch-list) | 21 | 5 | Generated |
-| [Bannerhub](#-bannerhub-bundle-patch-list) | 55 | 2 | Generated |
+| [Bannerhub](#-bannerhub-bundle-patch-list) | 56 | 2 | Generated |
 | [Eksi](#-eksi-bundle-patch-list) | 1 | 1 | Generated |
 | [Ameen-Morphe](#-ameen-morphe-bundle-patch-list) | 2 | 2 | Generated |
 | [Kolaron](#-kolaron-bundle-patch-list) | 1 | 1 | Generated |
@@ -743,7 +743,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Piko Bundle Patch List:
 [📦 Piko-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-patches-bundle-morphe)
 <details>
-<summary><b>Piko</b> - 118 patches, 2 apps</summary>
+<summary><b>Piko</b> - 119 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -785,6 +785,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```Instagram``` | ```All versions``` |
 | ```Remove empty bottom space``` | ```Removes empty space below bottom navigation bar``` | ```Instagram``` | ```All versions``` |
 | ```Sanitize share links``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```Save media comment``` | ```Adds a button to save media comments on posts and reels.``` | ```Instagram``` | ```All versions``` |
 | ```Stories audio autoplay``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Unlock developer options``` | ```Unlocks developer option by long pressing home icon``` | ```Instagram``` | ```All versions``` |
 | ```Unlock employee options``` | ```Unlocks all options using by employee for debugging``` | ```Instagram``` | ```All versions``` |
@@ -3359,7 +3360,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Bannerhub Bundle Patch List:
 [📦 Bannerhub-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bannerhub-patches-bundle-morphe)
 <details>
-<summary><b>Bannerhub</b> - 55 patches, 2 apps</summary>
+<summary><b>Bannerhub</b> - 56 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3370,6 +3371,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Debug logging``` | ```Marks the APK debuggable and routes diagnostic probes through DebugTrace. Writes to logcat with tag GH600-DEBUG at Log.i level (the device filter strips app-tagged Log.e but lets Log.i through) and also appends to a file on external storage at /storage/emulated/0/Android/data/com.xiaoji.egggame/files/gh600-debug.log as a backup channel.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
 | ```Disable Aliyun NumberAuth``` | ```Neutralises the Alibaba/Aliyun carrier one-tap phone-login SDK (com.mobile.auth.gatewayauth.*). Stubs the sole System.loadLibrary site for libpns-*-alijtca_plus.so to a no-op, then strips the native lib. Dead weight under BannerHub's login bypass and an identity / anti-tamper fingerprint surface. ~0.5 MB APK reduction.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
 | ```Disable Firebase Analytics``` | ```Adds Firebase's manifest kill-switch <meta-data> entries so the bundled Firebase Analytics SDK never initializes data collection. Stops all auto-collected and custom events from being sent to app-measurement.com. Firebase Cloud Messaging, Firebase Auth, and Firebase Remote Config are unaffected (GameHub 6.0.4 bundles Remote Config but never invokes it — verified zero call sites in the host APK).``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
+| ```Disable Firebase auto-init``` | ```Stops the AndroidApp Firebase-setup helper from re-enabling Firebase/Crashlytics data collection at runtime (it wrote firebase_data_collection_default_enabled=true and firebase_crashlytics_collection_enabled=true, silently overriding the manifest kill switches). Returns right after FirebaseApp init but before the collection re-enable, so FirebaseApp still initializes (other code needs it) while Crashlytics stays off — removing the residual firebase-settings.crashlytics.com / firebaselogging-pa.googleapis.com / firebaseinstallations.googleapis.com traffic. Anchored on the app class + a stable Firebase error string; cut at the first monitor-enter.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
 | ```Disable Firebase Crashlytics``` | ```Forces Firebase Crashlytics data collection off via manifest meta-data (firebase_crashlytics_collection_enabled + firebase_data_collection_default_enabled = false). 6.0.7's Crashlytics SDK auto-initialises through its ContentProvider regardless of app code, so the collection flags — not a bytecode strip — are what stop it reporting. Stock 6.0.7 already sets these false and never re-enables them; this enforces it and future-proofs against a flip.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
 | ```Disable GMS Measurement``` | ```Disables the three Google Play Services Measurement manifest components (AppMeasurementReceiver, AppMeasurementService, AppMeasurementJobService) by flipping android:enabled to false. Complementary to 'Disable Firebase Analytics' — that patch stops the bundled Firebase SDK from initialising, but GMS Measurement runs as a separate Play Services component and is unaffected by Firebase's manifest kill switch. With both patches applied, no app_instance_id / session_id is written to GMS-side shared_prefs and the Play Services-backed analytics pipeline stays dormant.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
 | ```Disable heartbeat``` | ```Disables XiaoJi's WineGameUsageTracker automatic server-heartbeat (heartbeat/game/{start,update,end}) so no playtime telemetry is sent and no per-tick work runs. Anchored on the stable URL-path strings, not class letters. On 6.0.7 the user-initiated getUserPlayTimeList read is left active (its result wrapper changed and is crash-risky to fabricate); the automatic egress is stopped.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
