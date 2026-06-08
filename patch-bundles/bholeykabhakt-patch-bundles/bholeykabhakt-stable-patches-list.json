@@ -1,5 +1,5 @@
 {
-    "version": "v2.0.4",
+    "version": "v2.1.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -24,6 +24,14 @@
             "dependencies": [],
             "description": null,
             "name": "AdFree Account",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": null,
+            "name": "Bypass ADB/Developer Options Detection",
             "options": []
         },
         {
@@ -157,6 +165,31 @@
             "dependencies": [],
             "description": null,
             "name": "Purchase All Items",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Circuit Simulator",
+                    "packageName": "com.proto.circuitsimulator",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": null,
+            "name": "Unlock All Features",
             "options": []
         }
     ]
