@@ -44,7 +44,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 119 | 2 | Generated |
-| [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 8 | 6 | Generated |
+| [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 10 | 6 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 21 | 5 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 74 | 49 | Generated |
@@ -1197,17 +1197,19 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 BholeyKaBhakt Bundle Patch List:
 [📦 BholeyKaBhakt-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bholeykabhakt-patches-bundle-morphe)
 <details>
-<summary><b>BholeyKaBhakt</b> - 8 patches, 6 apps</summary>
+<summary><b>BholeyKaBhakt</b> - 10 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass Blocks Limit``` | ```N/A``` | ```Automate``` | ```All versions``` |
 | ```Purchase All Items``` | ```N/A``` | ```Autosync``` | ```All versions``` |
 | ```Unlock All Features``` | ```N/A``` | ```PROTO - circuit simulator``` | ```All versions``` |
+| ```Disable In-App Telemetry``` | ```N/A``` | ```Sky Tonight``` | ```All versions``` |
 | ```Unlock Premium``` | ```N/A``` | ```Sky Tonight``` | ```All versions``` |
 | ```AdFree Account``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
 | ```Disable Logging(analytics)``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
 | ```Bypass ADB/Developer Options Detection``` | ```N/A``` | ```Universal``` | ```All versions``` |
+| ```Disable Facebook SDK Tracking``` | ```N/A``` | ```Universal``` | ```All versions``` |
 | ```Disable Firebase(Google) Analytics``` | ```N/A``` | ```Universal``` | ```All versions``` |
 
 </details>
