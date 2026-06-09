@@ -1203,7 +1203,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass Blocks Limit``` | ```N/A``` | ```Automate``` | ```All versions``` |
 | ```Purchase All Items``` | ```N/A``` | ```Autosync``` | ```All versions``` |
-| ```Unlock All Features``` | ```N/A``` | ```Circuit Simulator``` | ```All versions``` |
+| ```Unlock All Features``` | ```N/A``` | ```PROTO - circuit simulator``` | ```All versions``` |
 | ```Unlock Premium``` | ```N/A``` | ```Sky Tonight``` | ```All versions``` |
 | ```AdFree Account``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
 | ```Disable Logging(analytics)``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
