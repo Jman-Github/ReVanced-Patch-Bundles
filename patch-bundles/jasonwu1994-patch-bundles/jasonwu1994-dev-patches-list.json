@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.3",
+    "version": "v1.8.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -22,6 +22,18 @@
             "dependencies": [],
             "description": "強制啟用中文語音\nForce-enable Chinese voice input.",
             "name": "Chinese Online Voice Input",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "增強剪貼簿的保留時間、數量上限、預覽行數、倒數/建立時間、順序編號與欄數\nEnhance clipboard retention time, item count limit, preview lines, countdown/creation time labels, order index, and column count.",
+            "name": "Clipboard Enhancements",
             "options": [],
             "use": true
         },
@@ -56,8 +68,8 @@
                 ]
             },
             "dependencies": [],
-            "description": "自訂剪貼簿保留時間、數量上限與顯示資訊\nCustomize clipboard retention time, item count limit, and metadata display.",
-            "name": "Clipboard Retention",
+            "description": "新增獨立的特殊符號分頁，長按逗號->愛心\nAdd a dedicated custom symbols tab and replace the long-press comma entry with a heart shortcut.",
+            "name": "Custom Symbols",
             "options": [],
             "use": true
         },
@@ -68,8 +80,8 @@
                 ]
             },
             "dependencies": [],
-            "description": "新增獨立的特殊符號分頁，長按逗號->愛心\nAdd a dedicated custom symbols tab and replace the long-press comma entry with a heart shortcut.",
-            "name": "Custom Symbols",
+            "description": "自訂 Gboard「Emojis, stickers & GIFs」底部 tabs 的排序，支援拖曳調整\nCustomize the bottom tab order in Gboard's Emojis, stickers & GIFs panel with drag-and-drop reordering.",
+            "name": "Emojis, stickers & GIFs Tab Order",
             "options": [],
             "use": true
         },
@@ -154,6 +166,18 @@
             "dependencies": [],
             "description": "允許切換新版或舊版 Gboard 設定頁面\nAllow switching between the new and legacy Gboard settings pages.",
             "name": "Settings Homepage Override",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "新增手機自架的 Web Clipboard，支援瀏覽器同步、配對碼與快速設定開關\nAdd the phone-hosted Web Clipboard with browser sync, pairing, and a Quick Settings Tile.",
+            "name": "Web Clipboard",
             "options": [],
             "use": true
         },
