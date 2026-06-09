@@ -1,5 +1,5 @@
 {
-    "version": "v1.31.0-dev.9",
+    "version": "v1.31.0-dev.10",
     "patches": [
         {
             "compatiblePackages": [
@@ -378,8 +378,8 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds an option to bypass URL redirects and open the original URL directly.",
-            "name": "Bypass URL redirects",
+            "description": "Adds an option to bypass redirects and open the original link directly.",
+            "name": "Bypass link redirects",
             "options": []
         },
         {
@@ -1168,8 +1168,8 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds options to display buttons in the video player to copy video URLs.",
-            "name": "Copy video URL",
+            "description": "Adds options to display buttons in the video player to copy video links.",
+            "name": "Copy video link",
             "options": []
         },
         {
@@ -8010,6 +8010,28 @@
                         "Material You - Secondary": "@android:color/system_accent2_800",
                         "Material You - Tertiary": "@android:color/system_accent3_800",
                         "Pure black": "@android:color/black"
+                    }
+                },
+                {
+                    "default": "@android:color/white",
+                    "description": "Can be a hex color (#RRGGBB) or a color resource reference.",
+                    "key": "lightThemeBackgroundColor",
+                    "required": false,
+                    "title": "Light theme background color",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Catppuccin (Latte)": "#E6E9EF",
+                        "Light blue": "#D1E0FF",
+                        "Light green": "#CCFFCC",
+                        "Light orange": "#FFE6CC",
+                        "Light pink": "#FCCFF3",
+                        "Light red": "#FFD6D6",
+                        "Light yellow": "#FDFFCC",
+                        "Material You (Neutral)": "@android:color/system_neutral1_100",
+                        "Material You - Primary": "@android:color/system_accent1_200",
+                        "Material You - Secondary": "@android:color/system_accent2_200",
+                        "Material You - Tertiary": "@android:color/system_accent3_200",
+                        "White": "@android:color/white"
                     }
                 }
             ]
