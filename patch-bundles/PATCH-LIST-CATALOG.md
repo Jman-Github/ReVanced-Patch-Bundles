@@ -47,14 +47,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 119 | 2 | Generated |
-| [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 10 | 6 | Generated |
+| [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 12 | 7 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 21 | 5 | Generated |
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
 | [Chiggi](#-chiggi-bundle-patch-list) | 7 | 2 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 1 | 1 | Generated |
 | [EE-Morphe](#-ee-morphe-bundle-patch-list) | 10 | 4 | Generated |
-| [Piko-Shim](#-piko-shim-bundle-patch-list) | - | - | Pending patch list |
+| [Piko-Shim](#-piko-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 74 | 49 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 81 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 114 | 4 | Generated |
@@ -94,7 +94,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 11 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
 | [Rushiranpise](#-rushiranpise-bundle-patch-list) | 27 | 18 | Generated |
-| [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 3 | 1 | Generated |
+| [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 2 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -1204,7 +1204,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 BholeyKaBhakt Bundle Patch List:
 [📦 BholeyKaBhakt-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bholeykabhakt-patches-bundle-morphe)
 <details>
-<summary><b>BholeyKaBhakt</b> - 10 patches, 6 apps</summary>
+<summary><b>BholeyKaBhakt</b> - 12 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1215,6 +1215,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium``` | ```N/A``` | ```Sky Tonight``` | ```All versions``` |
 | ```AdFree Account``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
 | ```Disable Logging(analytics)``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
+| ```Install Extended (Deep Sky) Catalog``` | ```N/A``` | ```Stellarium``` | ```All versions``` |
+| ```Unlock Plus``` | ```N/A``` | ```Stellarium``` | ```All versions``` |
 | ```Bypass ADB/Developer Options Detection``` | ```N/A``` | ```Universal``` | ```All versions``` |
 | ```Disable Facebook SDK Tracking``` | ```N/A``` | ```Universal``` | ```All versions``` |
 | ```Disable Firebase(Google) Analytics``` | ```N/A``` | ```Universal``` | ```All versions``` |
@@ -1904,9 +1906,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Piko-Shim Bundle Patch List:
 [📦 Piko-Shim-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-shim-patches-bundle-morphe)
 <details>
-<summary><b>Piko-Shim</b> - pending patch list</summary>
+<summary><b>Piko-Shim</b> - 3 patches, 1 app</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Abstract shim layer``` | ```Adds an abstracted shim layer, which improves compatibility to allow legacy patches to work.``` | ```X``` | ```All versions``` |
+| ```Abstract shim layer for method``` | ```Adds an abstracted shim layer, which improves compatibility to allow legacy patches to work.``` | ```X``` | ```All versions``` |
+| ```Abstract shim layer for native library``` | ```Adds an abstracted shim layer, which improves compatibility to allow legacy patches to work.``` | ```X``` | ```All versions``` |
 
 </details>
 
@@ -3382,7 +3388,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Skip ads``` | ```Prevents server-side inserted ads from playing in the video stream.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
-| ```Skip ads (supplementary)``` | ```Adds CSAI ad suppression and advertising opt-out hooks to complement the primary Skip ads patch.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
+| ```Skip ads (supplementary)``` | ```Adds CSAI suppression, advertising opt-out, and interstitial ad hooks to complement the primary Skip ads patch.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Paramount+ Android TV``` | ```Removes pause ads, pre-roll ads, and mid-roll ads.``` | ```com.cbs.ott``` | ```16.12.0``` |
 | ```Disney+ Android TV``` | ```Removes mid-roll / pre-roll ads and pause ads.``` | ```com.disney.disneyplus``` | ```26.8.0+rc6-2026.05.20``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox One Android TV.``` | ```com.fox.foxone``` | ```1.9.2``` |
@@ -3471,12 +3477,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Sjshb57-PairIP Bundle Patch List:
 [📦 Sjshb57-PairIP-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-sjshb57-pairip-patches-bundle-morphe)
 <details>
-<summary><b>Sjshb57-PairIP</b> - 3 patches, 1 app</summary>
+<summary><b>Sjshb57-PairIP</b> - 2 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Remove extracted classes``` | ```Removes the $c<number> helper classes and reflection method-holder classes left by pairip.``` | ```Universal``` | ```All versions``` |
 | ```Remove pairip protection``` | ```Restores obfuscated strings and removes pairip bytecode protection.``` | ```Universal``` | ```All versions``` |
-| ```Restore extracted methods``` | ```Inlines methods hidden in $c<number> helper classes back into the host class.``` | ```Universal``` | ```All versions``` |
+| ```Restore extracted methods``` | ```Inlines methods hidden in $c<number> helper classes back into the host class, then removes those helper and reflection method-holder classes.``` | ```Universal``` | ```All versions``` |
 
 </details>

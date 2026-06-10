@@ -1,5 +1,5 @@
 {
-    "version": "v2.4.0-dev.1",
+    "version": "v2.5.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -131,6 +131,33 @@
                     "apkFileType": null,
                     "appIconColor": null,
                     "description": null,
+                    "name": "Stellarium",
+                    "packageName": "com.noctuasoftware.stellarium_free",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": "1.16.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Install Extended (Deep Sky) Catalog",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
                     "name": "Autosync",
                     "packageName": "com.ttxapps.autosync",
                     "signatures": null,
@@ -176,6 +203,31 @@
             "dependencies": [],
             "description": null,
             "name": "Unlock All Features",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Stellarium",
+                    "packageName": "com.noctuasoftware.stellarium_free",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": "1.16.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": null,
+            "name": "Unlock Plus",
             "options": []
         },
         {
