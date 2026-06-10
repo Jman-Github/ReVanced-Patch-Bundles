@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.1",
+    "version": "v1.1.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -34,6 +34,31 @@
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#7C4DFF",
+                    "description": null,
+                    "name": "Pillo",
+                    "packageName": "xyz.rtrvr.pillo",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "0.6.10"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features and removes ads by forcing subscription state to always be active.",
+            "name": "Unlock Premium",
             "options": []
         }
     ]

@@ -1966,8 +1966,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Lyfta``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks premium features and removes ads by forcing subscription state to always be active.``` | ```Pillo``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
-| ```Example Patch``` | ```Example patch to start with.``` | ```XYZ app``` | ```All versions``` |
 
 </details>
 
