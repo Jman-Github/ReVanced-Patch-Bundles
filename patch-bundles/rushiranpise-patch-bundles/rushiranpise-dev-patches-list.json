@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.4",
+    "version": "v1.5.0-dev.7",
     "patches": [
         {
             "compatiblePackages": [
@@ -130,6 +130,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#1565C0",
+                    "description": null,
+                    "name": "m-Indicator",
+                    "packageName": "com.mobond.mindicator",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes interstitial and exit native ads from m-Indicator.",
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#E53935",
                     "description": null,
                     "name": "Crime Radar",
@@ -240,7 +265,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.2.6"
+                            "version": null
                         }
                     ]
                 }
@@ -382,7 +407,7 @@
                     "apkFileType": null,
                     "appIconColor": "#FF5722",
                     "description": null,
-                    "name": "Beta by Mirko",
+                    "name": "Beta Maniac",
                     "packageName": "it.mirko.beta",
                     "signatures": null,
                     "targets": [
@@ -390,7 +415,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "0.9.4"
+                            "version": null
                         }
                     ]
                 }
@@ -415,7 +440,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "13.3"
+                            "version": null
                         }
                     ]
                 }
@@ -505,6 +530,56 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "Hibernator",
+                    "packageName": "com.tafayor.hibernator",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all pro features in Hibernator.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F44336",
+                    "description": null,
+                    "name": "KillApps",
+                    "packageName": "com.tafayor.killall",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all pro features in KillApps.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#2196F3",
                     "description": null,
                     "name": "ML Manager",
@@ -515,7 +590,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.0"
+                            "version": null
                         }
                     ]
                 }
@@ -523,6 +598,31 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all pro features in ML Manager.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "RAR",
+                    "packageName": "com.rarlab.rar",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes ads and unlocks the no-ads subscription in RAR.",
             "name": "Unlock Pro",
             "options": []
         },
@@ -557,7 +657,7 @@
                     "apkFileType": null,
                     "appIconColor": "#1A1A2E",
                     "description": null,
-                    "name": "TWT App",
+                    "name": "Stargazing Hub",
                     "packageName": "com.twtapp",
                     "signatures": null,
                     "targets": [
