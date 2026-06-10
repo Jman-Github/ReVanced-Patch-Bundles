@@ -563,6 +563,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+### 📦 Pepper-Morphe-Patches-Bundle [Morphe]:
+[🧩 Pepper-Morphe Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-pepper-morphe-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pepper-morphe-patch-bundles/pepper-morphe-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pepper-morphe-patch-bundles/pepper-morphe-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pepper-morphe-patch-bundles/pepper-morphe-dev-patches-bundle.json```
+</details>
+
+---
 ### 📦 Hoo-dles-Patches-Bundle [Morphe]:
 [🧩 Hoo-dles Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hoo-dles-bundle-patch-list)
 <details>
@@ -1356,6 +1369,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [EE-Morphe-Patches-Bundle](https://gitlab.com/early.egg3707/ee-morphe-patches)
 
 #### 🏷️ [Piko-Shim-Patches-Bundle](https://gitlab.com/inotia00/piko-shim)
+
+#### 🏷️ [Pepper-Morphe-Patches-Bundle](https://github.com/PawiX25/pepper-morphe-patches)
 
 
 #### 🏷️ [Hoo-dles-Patches-Bundle](https://github.com/hoo-dles/revanced-custom-patches)

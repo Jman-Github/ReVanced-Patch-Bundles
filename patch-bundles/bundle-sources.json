@@ -204,6 +204,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "pepper-morphe-stable": {
+        "patches": "https://api.github.com/repos/PawiX25/pepper-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "hoo-dles-stable": {
         "patches": "https://api.github.com/repos/hoo-dles/morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
@@ -671,6 +676,11 @@
     },
     "piko-shim-dev": {
         "patches": "https://gitlab.com/api/v4/projects/inotia00%2Fpiko-shim",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "pepper-morphe-dev": {
+        "patches": "https://api.github.com/repos/PawiX25/pepper-morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -1146,6 +1156,11 @@
     },
     "piko-shim-latest": {
         "patches": "https://gitlab.com/api/v4/projects/inotia00%2Fpiko-shim",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "pepper-morphe-latest": {
+        "patches": "https://api.github.com/repos/PawiX25/pepper-morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     },

@@ -55,6 +55,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [LaKaka](#-lakaka-bundle-patch-list) | 1 | 1 | Generated |
 | [EE-Morphe](#-ee-morphe-bundle-patch-list) | 10 | 4 | Generated |
 | [Piko-Shim](#-piko-shim-bundle-patch-list) | 3 | 1 | Generated |
+| [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 74 | 49 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 81 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 114 | 4 | Generated |
@@ -1913,6 +1914,34 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Abstract shim layer``` | ```Adds an abstracted shim layer, which improves compatibility to allow legacy patches to work.``` | ```X``` | ```All versions``` |
 | ```Abstract shim layer for method``` | ```Adds an abstracted shim layer, which improves compatibility to allow legacy patches to work.``` | ```X``` | ```All versions``` |
 | ```Abstract shim layer for native library``` | ```Adds an abstracted shim layer, which improves compatibility to allow legacy patches to work.``` | ```X``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Pepper-Morphe Bundle Patch List:
+[📦 Pepper-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-pepper-morphe-patches-bundle-morphe)
+<details>
+<summary><b>Pepper-Morphe</b> - 17 patches, 10 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Always show event-theming icons``` | ```Shows every event-themed app icon in the picker, even when its event is not currently active.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
+| ```Block Pepper analytics-event-report tracker``` | ```Stops Pepper's own behavioural tracker (thread visits, shares, push clicks, search suggestions) from reaching the server.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
+| ```Compact deal cards``` | ```Shrinks Pepper deal-list cards and their loading skeletons with targeted XML resource edits.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
+| ```Disable Adjust SDK``` | ```Stops the Adjust SDK from initialising and tracking events.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
+| ```Disable Google Mobile Ads ad-load entry points``` | ```Blocks Google's Ad SDK from fetching native ads after init.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
+| ```Disable Google Mobile Ads SDK init``` | ```Stops the Google Mobile Ads SDK from initialising.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
+| ```Enable debug menu``` | ```Re-enables the hidden debug menu in the main activity.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
+| ```Fix spacing around hidden ad cells``` | ```Removes the empty space and shadow divider left behind by hidden banner-ad cells in deal-detail screens.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
+| ```Hide banner ads in feed``` | ```Removes the banner ads in the deal feed.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
+| ```Keep event icon after restart``` | ```Keeps the chosen event-themed app icon after the event ends.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
+| ```Kill Datatransport upload pipeline``` | ```Blocks Crashlytics report and Firebase log uploads from leaving the device.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
+| ```Kill Pepper first-party pixel tracking``` | ```Blocks Pepper's first-party pixel-tracking pings and replaces the device-fingerprint header with a per-install random UUID.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
+| ```Neuter tracker auto-init ContentProviders``` | ```Stops the Vungle, Adjust, and Facebook Audience Network SDKs from auto-initialising at app start.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
+| ```Redirect tracker URLs to localhost``` | ```Redirects every known tracker and analytics URL in the app to localhost so it cannot reach the network.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
+| ```Skip Usercentrics consent screen``` | ```Skips the Usercentrics consent screen and its loading wait on cold start.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
+| ```Unlock tier-locked icons``` | ```Unlocks all membership-tier app icons in the icon picker.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
+| ```Disable PAIRIP license check``` | ```Removes Google Play's install-source DRM check from the US Pepper.com build, allowing sideloaded APKs to open.``` | ```Pepper.com``` | ```All versions``` |
 
 </details>
 
