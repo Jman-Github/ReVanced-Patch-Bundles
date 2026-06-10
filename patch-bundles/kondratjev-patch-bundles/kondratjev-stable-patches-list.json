@@ -1,40 +1,71 @@
 {
-  "version": "1.0.0",
-  "patches": [
-    {
-      "name": "Disable Pairip license check",
-      "description": "Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.",
-      "default": false,
-      "dependencies": [],
-      "compatiblePackages": null,
-      "options": []
-    },
-    {
-      "name": "Enable Premium",
-      "description": "Enables app features locked behind the subscription paywall.",
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "compatiblePackages": [
+    "version": "v1.0.0",
+    "patches": [
         {
-          "packageName": "com.lyfta",
-          "name": "Lyfta",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#000000",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "1.572",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.",
+            "name": "Disable Pairip license check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "Lyfta",
+                    "packageName": "com.lyfta",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.572"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0045",
+                    "description": null,
+                    "name": "XYZ app",
+                    "packageName": "com.example.app",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.0.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.0.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Example patch to start with.",
+            "name": "Example Patch",
+            "options": []
         }
-      ],
-      "options": []
-    }
-  ]
+    ]
 }
