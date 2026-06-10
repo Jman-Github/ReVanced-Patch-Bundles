@@ -2,6 +2,7 @@ import json
 import os
 import sys
 from pathlib import Path
+from typing import Any
 
 from bundle_updates import collect_bundle_updates
 
@@ -9,9 +10,10 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 METADATA_PATH = PROJECT_ROOT / "bundle-run-metadata.json"
 CHANGELOG_PATH = PROJECT_ROOT / "bundle-changelog.md"
 UPDATED_BUNDLES_PATH = PROJECT_ROOT / "updated-bundles.txt"
+JsonObject = dict[str, Any]
 
 
-def load_metadata() -> dict[str, dict[str, str]]:
+def load_metadata() -> dict[str, JsonObject]:
     if not METADATA_PATH.is_file():
         return {}
     try:
@@ -36,9 +38,7 @@ def summarize_notes(notes: str, max_items: int = 3, max_chars: int = 300) -> str
     if not lines:
         return "No release notes provided."
     bullet_lines = [
-        line.lstrip("-*•").strip()
-        for line in lines
-        if line.startswith(("-", "*", "•"))
+        line.lstrip("-*•").strip() for line in lines if line.startswith(("-", "*", "•"))
     ]
     if bullet_lines:
         selected = [item for item in bullet_lines[:max_items] if item]
@@ -50,12 +50,13 @@ def summarize_notes(notes: str, max_items: int = 3, max_chars: int = 300) -> str
     return description
 
 
-def write_env(key, value):
+def write_env(key: str, value: str) -> None:
     path = os.environ.get("GITHUB_ENV")
     if not path:
         return
     with open(path, "a", encoding="utf-8") as f:
         f.write(f"{key}={value}\n")
+
 
 bundle_updates = collect_bundle_updates()
 
@@ -75,9 +76,11 @@ for update in bundle_updates:
     highlight_text = ""
     if isinstance(metadata_entry, dict):
         patches_raw = metadata_entry.get("patches")
-        patches_meta = patches_raw if isinstance(patches_raw, dict) else {}
+        patches_meta: JsonObject = patches_raw if isinstance(patches_raw, dict) else {}
         integrations_raw = metadata_entry.get("integrations")
-        integrations_meta = integrations_raw if isinstance(integrations_raw, dict) else {}
+        integrations_meta: JsonObject = (
+            integrations_raw if isinstance(integrations_raw, dict) else {}
+        )
 
         patch_summary = summarize_notes(str(patches_meta.get("notes") or "")).lstrip("*")
         release_url = patches_meta.get("release_url") or ""

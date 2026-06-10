@@ -31,60 +31,73 @@ jobs:
       - name: Create commit puller artifact directory
         run: mkdir -p ReVanced-Patch-Bundles/commit_puller_artifact
 
-      - name: Download Artifact from Patch bundle updater
+      - name: Download changed files from Commit puller
+        if: ${{ github.event_name == 'workflow_run' }}
         id: download_patch_bundle_updater_artifact
         uses: dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151 # v21
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          repo: Jman-Github/ReVanced-Patch-Bundles
-          branch: bundles
+          repo: ${{ github.repository }}
+          run_id: ${{ github.event.workflow_run.id }}
           name: changed_files
-          workflow: patch-bundle-updater.yml
           path: ReVanced-Patch-Bundles/patch_bundle_updater_artifact
           if_no_artifact_found: ignore
 
-      - name: Download Summary Artifact from Patch bundle updater
+      - name: Download updated bundle summary from Commit puller
+        if: ${{ github.event_name == 'workflow_run' }}
         id: download_patch_bundle_summary_artifact
         uses: dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151 # v21
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          repo: Jman-Github/ReVanced-Patch-Bundles
-          branch: bundles
+          repo: ${{ github.repository }}
+          run_id: ${{ github.event.workflow_run.id }}
           name: updated_bundles
-          workflow: patch-bundle-updater.yml
           path: ReVanced-Patch-Bundles/patch_bundle_updater_artifact
           if_no_artifact_found: ignore
 
-      - name: Download Changelog Artifact from Patch bundle updater
+      - name: Download bundle changelog from Commit puller
+        if: ${{ github.event_name == 'workflow_run' }}
         id: download_patch_bundle_changelog_artifact
         uses: dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151 # v21
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          repo: Jman-Github/ReVanced-Patch-Bundles
-          branch: bundles
+          repo: ${{ github.repository }}
+          run_id: ${{ github.event.workflow_run.id }}
           name: bundle_changelog
-          workflow: patch-bundle-updater.yml
           path: ReVanced-Patch-Bundles/patch_bundle_updater_artifact
           if_no_artifact_found: ignore
 
       - name: Download Artifact from Commit puller
+        if: ${{ github.event_name == 'workflow_run' }}
         id: download_commit_puller_artifact
         uses: dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151 # v21
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          repo: Jman-Github/ReVanced-Patch-Bundles
-          branch: bundles
+          repo: ${{ github.repository }}
+          run_id: ${{ github.event.workflow_run.id }}
           name: commit-link
-          workflow: commit-puller.yml
           path: ReVanced-Patch-Bundles/commit_puller_artifact
           if_no_artifact_found: ignore
 
+      - name: Verify commit link artifact
+        if: ${{ github.event_name == 'workflow_run' }}
+        id: verify_commit_link
+        run: |
+          if [ ! -s "ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt" ]; then
+            echo "No commit-link artifact found for the triggering Commit puller run. Exiting without notification."
+            echo "has_commit_link=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_commit_link=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Debug — list what we have
+        if: ${{ github.event_name != 'workflow_run' || steps.verify_commit_link.outputs.has_commit_link == 'true' }}
         run: |
           echo "=== Workspace tree ==="
           ls -R
 
       - name: Build embed description
+        if: ${{ github.event_name != 'workflow_run' || steps.verify_commit_link.outputs.has_commit_link == 'true' }}
         id: set_changes
         run: |
           python3 - <<'PY'
@@ -190,6 +203,7 @@ jobs:
           PY
 
       - name: Send Discord Notification
+        if: ${{ github.event_name != 'workflow_run' || steps.verify_commit_link.outputs.has_commit_link == 'true' }}
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
           EMBED_DESCRIPTION: ${{ steps.set_changes.outputs.embed_description }}

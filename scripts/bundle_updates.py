@@ -15,13 +15,16 @@ import subprocess
 from collections.abc import Iterable
 from dataclasses import dataclass
 from pathlib import Path
+from typing import cast
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 CHANGED_FILES_PATH = PROJECT_ROOT / "changed_files.txt"
-GIT_BIN = shutil.which("git")
+_GIT_BIN = shutil.which("git")
 
-if GIT_BIN is None:  # pragma: no cover - environment issue
+if _GIT_BIN is None:  # pragma: no cover - environment issue
     raise RuntimeError("git executable not found in PATH")
+
+GIT_BIN = _GIT_BIN
 
 
 @dataclass(slots=True)
@@ -44,17 +47,13 @@ class BundleUpdate:
 def _read_lines(path: Path) -> list[str]:
     if not path.is_file():
         return []
-    return [
-        line.strip()
-        for line in path.read_text(encoding="utf-8").splitlines()
-        if line.strip()
-    ]
+    return [line.strip() for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
 
 
 def _git_output(*args: str) -> str:
     """Return stdout for a git invocation using an absolute executable path."""
 
-    return subprocess.check_output([GIT_BIN, *args], text=True, cwd=str(PROJECT_ROOT))
+    return cast(str, subprocess.check_output([GIT_BIN, *args], text=True, cwd=str(PROJECT_ROOT)))
 
 
 def _read_git(rev: str, path: str) -> str:

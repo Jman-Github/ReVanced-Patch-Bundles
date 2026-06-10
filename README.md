@@ -563,19 +563,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
-### 📦 Ravi07777-Patches-Bundle [Morphe]:
-[🧩 Ravi07777 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ravi07777-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ravi07777-patch-bundles/ravi07777-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ravi07777-patch-bundles/ravi07777-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ravi07777-patch-bundles/ravi07777-dev-patches-bundle.json```
-</details>
-
----
 ### 📦 Hoo-dles-Patches-Bundle [Morphe]:
 [🧩 Hoo-dles Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hoo-dles-bundle-patch-list)
 <details>
@@ -625,19 +612,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kangrio-patch-bundles/kangrio-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kangrio-patch-bundles/kangrio-dev-patches-bundle.json```
-</details>
-
----
-### 📦 Nk521-Patches-Bundle [API v4]:
-[🧩 Nk521 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-nk521-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nk521-patch-bundles/nk521-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nk521-patch-bundles/nk521-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nk521-patch-bundles/nk521-dev-patches-bundle.json```
 </details>
 
 ---
@@ -976,19 +950,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/polka-bear-patch-bundles/polka-bear-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/polka-bear-patch-bundles/polka-bear-dev-patches-bundle.json```
-</details>
-
----
-### 📦 Ajstrick81-Patches-Bundle [Morphe]:
-[🧩 Ajstrick81 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ajstrick81-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ajstrick81-patch-bundles/ajstrick81-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ajstrick81-patch-bundles/ajstrick81-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ajstrick81-patch-bundles/ajstrick81-dev-patches-bundle.json```
 </details>
 
 ---
@@ -1396,7 +1357,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [Piko-Shim-Patches-Bundle](https://gitlab.com/inotia00/piko-shim)
 
-#### 🏷️ [Ravi07777-Patches-Bundle](https://github.com/ravi07777/my-patches)
 
 #### 🏷️ [Hoo-dles-Patches-Bundle](https://github.com/hoo-dles/revanced-custom-patches)
 
@@ -1406,7 +1366,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [Kangrio-Patches-Bundle](https://github.com/kangrio/MicroG-Patches-Re)
 
-#### 🏷️ [Nk521-Patches-Bundle](https://github.com/nk521/revanced-patches)
 
 #### 🏷️ [Tosox-Patches-Bundle](https://github.com/Tosox/revanced-patches)
 
@@ -1460,7 +1419,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [Polka-Bear-Patches-Bundle](https://github.com/polka-bear/morphe-patches)
 
-#### 🏷️ [Ajstrick81-Patches-Bundle](https://github.com/ajstrick81/peacock-atv-patches)
 
 #### 🏷️ [Eyalm2000-Patches-Bundle](https://github.com/eyalm2000/tidal-debug-menu)
 

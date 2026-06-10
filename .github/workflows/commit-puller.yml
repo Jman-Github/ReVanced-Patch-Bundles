@@ -11,23 +11,59 @@ jobs:
   get-artifact:
     runs-on: ubuntu-latest
     steps:
-      - name: Download artifact from triggering run
+      - name: Download changed files from triggering run
         if: ${{ github.event_name == 'workflow_run' }}
-        id: download_artifact
+        id: download_changed_files
         uses: dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151 # v21
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           repo: ${{ github.repository }}
           run_id: ${{ github.event.workflow_run.id }}
           name: changed_files
-          path: ReVanced-Patch-Bundles
+          path: ReVanced-Patch-Bundles/patch_bundle_updater_artifact
+          if_no_artifact_found: ignore
+
+      - name: Download commit SHA from triggering run
+        if: ${{ github.event_name == 'workflow_run' }}
+        id: download_commit_sha
+        uses: dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151 # v21
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          repo: ${{ github.repository }}
+          run_id: ${{ github.event.workflow_run.id }}
+          name: commit_sha
+          path: ReVanced-Patch-Bundles/commit_sha_artifact
+          if_no_artifact_found: ignore
+
+      - name: Download updated bundle summary from triggering run
+        if: ${{ github.event_name == 'workflow_run' }}
+        id: download_updated_bundles
+        uses: dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151 # v21
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          repo: ${{ github.repository }}
+          run_id: ${{ github.event.workflow_run.id }}
+          name: updated_bundles
+          path: ReVanced-Patch-Bundles/patch_bundle_updater_artifact
+          if_no_artifact_found: ignore
+
+      - name: Download bundle changelog from triggering run
+        if: ${{ github.event_name == 'workflow_run' }}
+        id: download_bundle_changelog
+        uses: dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151 # v21
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          repo: ${{ github.repository }}
+          run_id: ${{ github.event.workflow_run.id }}
+          name: bundle_changelog
+          path: ReVanced-Patch-Bundles/patch_bundle_updater_artifact
           if_no_artifact_found: ignore
 
       - name: Verify artifact presence
         if: ${{ github.event_name == 'workflow_run' }}
         id: verify_artifact
         run: |
-          if [ -d "ReVanced-Patch-Bundles" ] && [ "$(ls -A ReVanced-Patch-Bundles 2>/dev/null)" ]; then
+          if [ -s "ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt" ]; then
             echo "has_artifact=true" >> "$GITHUB_OUTPUT"
           else
             echo "has_artifact=false" >> "$GITHUB_OUTPUT"
@@ -40,30 +76,34 @@ jobs:
           exit 0
 
       - name: Try to read explicit commit SHA from artifact
+        if: ${{ github.event_name != 'workflow_run' || steps.verify_artifact.outputs.has_artifact == 'true' }}
         id: read_sha
         shell: bash
         run: |
           set -euo pipefail
-          SHA_FILE="$(find ReVanced-Patch-Bundles -type f -iname 'commit-sha.txt' -print -quit || true)"
+          SHA_FILE="$(find ReVanced-Patch-Bundles -type f -iname 'commit_sha.txt' -print -quit || true)"
           if [ -n "${SHA_FILE:-}" ]; then
             COMMIT_SHA="$(sed -n '1p' "$SHA_FILE" | tr -d '\r' | xargs || true)"
             if [ -n "$COMMIT_SHA" ]; then
               echo "commit_sha=$COMMIT_SHA" >> "$GITHUB_OUTPUT"
-              echo "Found commit-sha.txt with SHA: $COMMIT_SHA"
+              echo "Found commit_sha.txt with SHA: $COMMIT_SHA"
               exit 0
             fi
           fi
-          echo "No explicit commit-sha.txt found (will search by time window)."
+          echo "No explicit commit_sha.txt found (will search by time window)."
 
       - name: Checkout repository
+        if: ${{ github.event_name != 'workflow_run' || steps.verify_artifact.outputs.has_artifact == 'true' }}
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
       - name: Install dependencies
+        if: ${{ github.event_name != 'workflow_run' || steps.verify_artifact.outputs.has_artifact == 'true' }}
         run: |
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
       - name: Run find_commit.py (strict to triggering run; fail if not found)
+        if: ${{ github.event_name != 'workflow_run' || steps.verify_artifact.outputs.has_artifact == 'true' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TARGET_BRANCH: bundles
@@ -78,7 +118,31 @@ jobs:
           python scripts/find_commit.py
 
       - name: Create commit link artifact
+        if: ${{ github.event_name != 'workflow_run' || steps.verify_artifact.outputs.has_artifact == 'true' }}
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: commit-link
           path: commit-link.txt
+
+      - name: Pass through changed files artifact
+        if: ${{ github.event_name == 'workflow_run' && steps.verify_artifact.outputs.has_artifact == 'true' }}
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: changed_files
+          path: ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt
+
+      - name: Pass through updated bundles artifact
+        if: ${{ github.event_name == 'workflow_run' && steps.verify_artifact.outputs.has_artifact == 'true' }}
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: updated_bundles
+          path: ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt
+          if-no-files-found: ignore
+
+      - name: Pass through bundle changelog artifact
+        if: ${{ github.event_name == 'workflow_run' && steps.verify_artifact.outputs.has_artifact == 'true' }}
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: bundle_changelog
+          path: ReVanced-Patch-Bundles/patch_bundle_updater_artifact/bundle-changelog.md
+          if-no-files-found: ignore

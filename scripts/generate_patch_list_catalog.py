@@ -271,7 +271,7 @@ def rebuild_index(catalog_lines: list[str]) -> list[str]:
     if not entries:
         return catalog_lines
 
-    grouped = {
+    grouped: dict[str, list[dict[str, object]]] = {
         "API v4": [],
         "Morphe": [],
         "Legacy": [],

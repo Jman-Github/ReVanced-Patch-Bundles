@@ -49,7 +49,7 @@ class FingerprintBuilder internal constructor(
             .split("\n")
             .filter { it.isNotBlank() }
             .map { line ->
-                val name = line.split(" ", limit = 1).first().trim()
+                val name = line.trim().takeWhile { char -> !char.isWhitespace() }
                 if (name == "null") return@map null
                 opcodesByName[name] ?: throw Exception("Unknown opcode: $name")
             }
