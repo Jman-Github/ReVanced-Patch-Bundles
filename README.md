@@ -576,6 +576,32 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+### 📦 Fin-Tweaks-Patches-Bundle [Morphe]:
+[🧩 Fin-Tweaks Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-fin-tweaks-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/fin-tweaks-patch-bundles/fin-tweaks-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/fin-tweaks-patch-bundles/fin-tweaks-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/fin-tweaks-patch-bundles/fin-tweaks-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Kondratjev-Patches-Bundle [Morphe]:
+[🧩 Kondratjev Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-kondratjev-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kondratjev-patch-bundles/kondratjev-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kondratjev-patch-bundles/kondratjev-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kondratjev-patch-bundles/kondratjev-dev-patches-bundle.json```
+</details>
+
+---
 ### 📦 Hoo-dles-Patches-Bundle [Morphe]:
 [🧩 Hoo-dles Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hoo-dles-bundle-patch-list)
 <details>
@@ -1371,6 +1397,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Piko-Shim-Patches-Bundle](https://gitlab.com/inotia00/piko-shim)
 
 #### 🏷️ [Pepper-Morphe-Patches-Bundle](https://github.com/PawiX25/pepper-morphe-patches)
+
+#### 🏷️ [Fin-Tweaks-Patches-Bundle](https://github.com/isuruhg/fin-tweaks)
+
+#### 🏷️ [Kondratjev-Patches-Bundle](https://github.com/kondratjev/morphe-patches)
 
 
 #### 🏷️ [Hoo-dles-Patches-Bundle](https://github.com/hoo-dles/revanced-custom-patches)
