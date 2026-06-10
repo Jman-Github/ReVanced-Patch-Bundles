@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.7",
+    "version": "v1.5.0-dev.8",
     "patches": [
         {
             "compatiblePackages": [
@@ -674,6 +674,31 @@
             "dependencies": [],
             "description": "Unlocks all subscription features in TWT App.",
             "name": "Unlock Subscription",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF6B00",
+                    "description": null,
+                    "name": "Yatri",
+                    "packageName": "com.yatrirailways.yatri",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.0.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Yatri VIP by forcing active plan status and spoofing active plan DB query.",
+            "name": "Unlock VIP",
             "options": []
         }
     ]

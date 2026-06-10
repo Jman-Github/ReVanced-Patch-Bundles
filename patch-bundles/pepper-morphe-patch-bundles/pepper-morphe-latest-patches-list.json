@@ -1,2793 +1,395 @@
 {
-  "version": "1.0.1",
-  "patches": [
-    {
-      "name": "Always show event-theming icons",
-      "description": "Shows every event-themed app icon in the picker, even when its event is not currently active.",
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "compatiblePackages": [
+    "version": "v1.0.1",
+    "patches": [
         {
-          "packageName": "com.tippingcanoe.pepperpl",
-          "name": "Pepper PL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
+            "compatiblePackages": {
+                "Chollometros": [],
+                "Dealabs": [],
+                "HotUKDeals": [],
+                "Mydealz": [],
+                "Pepper NL": [],
+                "Pepper PL": [],
+                "Pepper SE": [],
+                "Pepper.com": [],
+                "PreisjĂ¤ger": [],
+                "PromoDescuentos": []
+            },
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Shows every event-themed app icon in the picker, even when its event is not currently active.",
+            "name": "Always show event-theming icons",
+            "options": [],
+            "use": true
         },
         {
-          "packageName": "com.tippingcanoe.peppernl",
-          "name": "Pepper NL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
+            "compatiblePackages": {
+                "Chollometros": [],
+                "Dealabs": [],
+                "HotUKDeals": [],
+                "Mydealz": [],
+                "Pepper NL": [],
+                "Pepper PL": [],
+                "Pepper SE": [],
+                "Pepper.com": [],
+                "PreisjĂ¤ger": [],
+                "PromoDescuentos": []
+            },
+            "default": true,
+            "dependencies": [],
+            "description": "Stops Pepper's own behavioural tracker (thread visits, shares, push clicks, search suggestions) from reaching the server.",
+            "name": "Block Pepper analytics-event-report tracker",
+            "options": [],
+            "use": true
         },
         {
-          "packageName": "com.tippingcanoe.mydealz",
-          "name": "Mydealz",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
+            "compatiblePackages": {
+                "Chollometros": [],
+                "Dealabs": [],
+                "HotUKDeals": [],
+                "Mydealz": [],
+                "Pepper NL": [],
+                "Pepper PL": [],
+                "Pepper SE": [],
+                "Pepper.com": [],
+                "PreisjĂ¤ger": [],
+                "PromoDescuentos": []
+            },
+            "default": false,
+            "dependencies": [],
+            "description": "Shrinks Pepper deal-list cards and their loading skeletons with targeted XML resource edits.",
+            "name": "Compact deal cards",
+            "options": [],
+            "use": true
         },
         {
-          "packageName": "com.tippingcanoe.hukd",
-          "name": "HotUKDeals",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
+            "compatiblePackages": {
+                "Chollometros": [],
+                "Dealabs": [],
+                "HotUKDeals": [],
+                "Mydealz": [],
+                "Pepper NL": [],
+                "Pepper PL": [],
+                "Pepper SE": [],
+                "Pepper.com": [],
+                "PreisjĂ¤ger": [],
+                "PromoDescuentos": []
+            },
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Stops the Adjust SDK from initialising and tracking events.",
+            "name": "Disable Adjust SDK",
+            "options": [],
+            "use": true
         },
         {
-          "packageName": "com.tippingcanoe.promodescuentos",
-          "name": "PromoDescuentos",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
+            "compatiblePackages": {
+                "Chollometros": [],
+                "Dealabs": [],
+                "HotUKDeals": [],
+                "Mydealz": [],
+                "Pepper NL": [],
+                "Pepper PL": [],
+                "Pepper SE": [],
+                "Pepper.com": [],
+                "PreisjĂ¤ger": [],
+                "PromoDescuentos": []
+            },
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Blocks Google's Ad SDK from fetching native ads after init.",
+            "name": "Disable Google Mobile Ads ad-load entry points",
+            "options": [],
+            "use": true
         },
         {
-          "packageName": "com.chollometro",
-          "name": "Chollometros",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
+            "compatiblePackages": {
+                "Chollometros": [],
+                "Dealabs": [],
+                "HotUKDeals": [],
+                "Mydealz": [],
+                "Pepper NL": [],
+                "Pepper PL": [],
+                "Pepper SE": [],
+                "Pepper.com": [],
+                "PreisjĂ¤ger": [],
+                "PromoDescuentos": []
+            },
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Stops the Google Mobile Ads SDK from initialising.",
+            "name": "Disable Google Mobile Ads SDK init",
+            "options": [],
+            "use": true
         },
         {
-          "packageName": "com.dealabs.apps.android",
-          "name": "Dealabs",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
+            "compatiblePackages": {
+                "Pepper.com": []
+            },
+            "default": true,
+            "dependencies": [],
+            "description": "Removes Google Play's install-source DRM check from the US Pepper.com build, allowing sideloaded APKs to open.",
+            "name": "Disable PAIRIP license check",
+            "options": [],
+            "use": true
         },
         {
-          "packageName": "com.preisjaeger",
-          "name": "Preisj\u0102\u00a4ger",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
+            "compatiblePackages": {
+                "Chollometros": [],
+                "Dealabs": [],
+                "HotUKDeals": [],
+                "Mydealz": [],
+                "Pepper NL": [],
+                "Pepper PL": [],
+                "Pepper SE": [],
+                "Pepper.com": [],
+                "PreisjĂ¤ger": [],
+                "PromoDescuentos": []
+            },
+            "default": false,
+            "dependencies": [],
+            "description": "Re-enables the hidden debug menu in the main activity.",
+            "name": "Enable debug menu",
+            "options": [
+                {
+                    "default": "0x7f0f0006",
+                    "description": "Resource ID of R.menu.activity_main_debug. Default 0x7f0f0006 works for v8.12.00; if it shifts, look up the new ID in the APK's res/values/public.xml under name=\"activity_main_debug\".",
+                    "key": "debugMenuResId",
+                    "required": true,
+                    "title": "Debug menu resource ID (hex)",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": true
         },
         {
-          "packageName": "com.pepperdeals",
-          "name": "Pepper.com",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
+            "compatiblePackages": {
+                "Chollometros": [],
+                "Dealabs": [],
+                "HotUKDeals": [],
+                "Mydealz": [],
+                "Pepper NL": [],
+                "Pepper PL": [],
+                "Pepper SE": [],
+                "Pepper.com": [],
+                "PreisjĂ¤ger": [],
+                "PromoDescuentos": []
+            },
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes the empty space and shadow divider left behind by hidden banner-ad cells in deal-detail screens.",
+            "name": "Fix spacing around hidden ad cells",
+            "options": [
+                {
+                    "default": "0x7f0a009e",
+                    "description": "Resource ID of `adapter_delegate_view_type_small_ad`. Default is correct for Pepper PL v8.12.00; look up the package's value in res/values/public.xml if a future build shifts ID slots.",
+                    "key": "smallAdViewTypeId",
+                    "required": true,
+                    "title": "small_ad view-type R.id (hex)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "0x7f0a0084",
+                    "description": "Resource ID of `adapter_delegate_view_type_medium_ad`.",
+                    "key": "mediumAdViewTypeId",
+                    "required": true,
+                    "title": "medium_ad view-type R.id (hex)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "0x7f0a007c",
+                    "description": "Resource ID of `adapter_delegate_view_type_large_ad`.",
+                    "key": "largeAdViewTypeId",
+                    "required": true,
+                    "title": "large_ad view-type R.id (hex)",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": true
         },
         {
-          "packageName": "se.pepperdeals",
-          "name": "Pepper SE",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
+            "compatiblePackages": {
+                "Chollometros": [],
+                "Dealabs": [],
+                "HotUKDeals": [],
+                "Mydealz": [],
+                "Pepper NL": [],
+                "Pepper PL": [],
+                "Pepper SE": [],
+                "Pepper.com": [],
+                "PreisjĂ¤ger": [],
+                "PromoDescuentos": []
+            },
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the banner ads in the deal feed.",
+            "name": "Hide banner ads in feed",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "Chollometros": [],
+                "Dealabs": [],
+                "HotUKDeals": [],
+                "Mydealz": [],
+                "Pepper NL": [],
+                "Pepper PL": [],
+                "Pepper SE": [],
+                "Pepper.com": [],
+                "PreisjĂ¤ger": [],
+                "PromoDescuentos": []
+            },
+            "default": true,
+            "dependencies": [],
+            "description": "Keeps the chosen event-themed app icon after the event ends.",
+            "name": "Keep event icon after restart",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "Chollometros": [],
+                "Dealabs": [],
+                "HotUKDeals": [],
+                "Mydealz": [],
+                "Pepper NL": [],
+                "Pepper PL": [],
+                "Pepper SE": [],
+                "Pepper.com": [],
+                "PreisjĂ¤ger": [],
+                "PromoDescuentos": []
+            },
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Blocks Crashlytics report and Firebase log uploads from leaving the device.",
+            "name": "Kill Datatransport upload pipeline",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "Chollometros": [],
+                "Dealabs": [],
+                "HotUKDeals": [],
+                "Mydealz": [],
+                "Pepper NL": [],
+                "Pepper PL": [],
+                "Pepper SE": [],
+                "Pepper.com": [],
+                "PreisjĂ¤ger": [],
+                "PromoDescuentos": []
+            },
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks Pepper's first-party pixel-tracking pings and replaces the device-fingerprint header with a per-install random UUID.",
+            "name": "Kill Pepper first-party pixel tracking",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "Chollometros": [],
+                "Dealabs": [],
+                "HotUKDeals": [],
+                "Mydealz": [],
+                "Pepper NL": [],
+                "Pepper PL": [],
+                "Pepper SE": [],
+                "Pepper.com": [],
+                "PreisjĂ¤ger": [],
+                "PromoDescuentos": []
+            },
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Stops the Vungle, Adjust, and Facebook Audience Network SDKs from auto-initialising at app start.",
+            "name": "Neuter tracker auto-init ContentProviders",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "Chollometros": [],
+                "Dealabs": [],
+                "HotUKDeals": [],
+                "Mydealz": [],
+                "Pepper NL": [],
+                "Pepper PL": [],
+                "Pepper SE": [],
+                "Pepper.com": [],
+                "PreisjĂ¤ger": [],
+                "PromoDescuentos": []
+            },
+            "default": true,
+            "dependencies": [],
+            "description": "Redirects every known tracker and analytics URL in the app to localhost so it cannot reach the network.",
+            "name": "Redirect tracker URLs to localhost",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "Chollometros": [],
+                "Dealabs": [],
+                "HotUKDeals": [],
+                "Mydealz": [],
+                "Pepper NL": [],
+                "Pepper PL": [],
+                "Pepper SE": [],
+                "Pepper.com": [],
+                "PreisjĂ¤ger": [],
+                "PromoDescuentos": []
+            },
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Skips the Usercentrics consent screen and its loading wait on cold start.",
+            "name": "Skip Usercentrics consent screen",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "Chollometros": [],
+                "Dealabs": [],
+                "HotUKDeals": [],
+                "Mydealz": [],
+                "Pepper NL": [],
+                "Pepper PL": [],
+                "Pepper SE": [],
+                "Pepper.com": [],
+                "PreisjĂ¤ger": [],
+                "PromoDescuentos": []
+            },
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all membership-tier app icons in the icon picker.",
+            "name": "Unlock tier-locked icons",
+            "options": [],
+            "use": true
         }
-      ],
-      "options": []
-    },
-    {
-      "name": "Block Pepper analytics-event-report tracker",
-      "description": "Stops Pepper's own behavioural tracker (thread visits, shares, push clicks, search suggestions) from reaching the server.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.tippingcanoe.pepperpl",
-          "name": "Pepper PL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.peppernl",
-          "name": "Pepper NL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.mydealz",
-          "name": "Mydealz",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.hukd",
-          "name": "HotUKDeals",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.promodescuentos",
-          "name": "PromoDescuentos",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.chollometro",
-          "name": "Chollometros",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.dealabs.apps.android",
-          "name": "Dealabs",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.preisjaeger",
-          "name": "Preisj\u0102\u00a4ger",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.pepperdeals",
-          "name": "Pepper.com",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "se.pepperdeals",
-          "name": "Pepper SE",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Compact deal cards",
-      "description": "Shrinks Pepper deal-list cards and their loading skeletons with targeted XML resource edits.",
-      "default": false,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.tippingcanoe.pepperpl",
-          "name": "Pepper PL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.peppernl",
-          "name": "Pepper NL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.mydealz",
-          "name": "Mydealz",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.hukd",
-          "name": "HotUKDeals",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.promodescuentos",
-          "name": "PromoDescuentos",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.chollometro",
-          "name": "Chollometros",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.dealabs.apps.android",
-          "name": "Dealabs",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.preisjaeger",
-          "name": "Preisj\u0102\u00a4ger",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.pepperdeals",
-          "name": "Pepper.com",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "se.pepperdeals",
-          "name": "Pepper SE",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Disable Adjust SDK",
-      "description": "Stops the Adjust SDK from initialising and tracking events.",
-      "default": true,
-      "dependencies": [
-        "BytecodePatch",
-        "BytecodePatch"
-      ],
-      "compatiblePackages": [
-        {
-          "packageName": "com.tippingcanoe.pepperpl",
-          "name": "Pepper PL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.peppernl",
-          "name": "Pepper NL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.mydealz",
-          "name": "Mydealz",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.hukd",
-          "name": "HotUKDeals",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.promodescuentos",
-          "name": "PromoDescuentos",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.chollometro",
-          "name": "Chollometros",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.dealabs.apps.android",
-          "name": "Dealabs",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.preisjaeger",
-          "name": "Preisj\u0102\u00a4ger",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.pepperdeals",
-          "name": "Pepper.com",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "se.pepperdeals",
-          "name": "Pepper SE",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Disable Google Mobile Ads SDK init",
-      "description": "Stops the Google Mobile Ads SDK from initialising.",
-      "default": true,
-      "dependencies": [
-        "BytecodePatch",
-        "BytecodePatch"
-      ],
-      "compatiblePackages": [
-        {
-          "packageName": "com.tippingcanoe.pepperpl",
-          "name": "Pepper PL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.peppernl",
-          "name": "Pepper NL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.mydealz",
-          "name": "Mydealz",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.hukd",
-          "name": "HotUKDeals",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.promodescuentos",
-          "name": "PromoDescuentos",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.chollometro",
-          "name": "Chollometros",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.dealabs.apps.android",
-          "name": "Dealabs",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.preisjaeger",
-          "name": "Preisj\u0102\u00a4ger",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.pepperdeals",
-          "name": "Pepper.com",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "se.pepperdeals",
-          "name": "Pepper SE",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Disable Google Mobile Ads ad-load entry points",
-      "description": "Blocks Google's Ad SDK from fetching native ads after init.",
-      "default": true,
-      "dependencies": [
-        "BytecodePatch",
-        "BytecodePatch",
-        "BytecodePatch"
-      ],
-      "compatiblePackages": [
-        {
-          "packageName": "com.tippingcanoe.pepperpl",
-          "name": "Pepper PL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.peppernl",
-          "name": "Pepper NL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.mydealz",
-          "name": "Mydealz",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.hukd",
-          "name": "HotUKDeals",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.promodescuentos",
-          "name": "PromoDescuentos",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.chollometro",
-          "name": "Chollometros",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.dealabs.apps.android",
-          "name": "Dealabs",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.preisjaeger",
-          "name": "Preisj\u0102\u00a4ger",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.pepperdeals",
-          "name": "Pepper.com",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "se.pepperdeals",
-          "name": "Pepper SE",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Disable PAIRIP license check",
-      "description": "Removes Google Play's install-source DRM check from the US Pepper.com build, allowing sideloaded APKs to open.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.pepperdeals",
-          "name": "Pepper.com",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Enable debug menu",
-      "description": "Re-enables the hidden debug menu in the main activity.",
-      "default": false,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.tippingcanoe.pepperpl",
-          "name": "Pepper PL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.peppernl",
-          "name": "Pepper NL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.mydealz",
-          "name": "Mydealz",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.hukd",
-          "name": "HotUKDeals",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.promodescuentos",
-          "name": "PromoDescuentos",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.chollometro",
-          "name": "Chollometros",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.dealabs.apps.android",
-          "name": "Dealabs",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.preisjaeger",
-          "name": "Preisj\u0102\u00a4ger",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.pepperdeals",
-          "name": "Pepper.com",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "se.pepperdeals",
-          "name": "Pepper SE",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": [
-        {
-          "key": "debugMenuResId",
-          "title": "Debug menu resource ID (hex)",
-          "description": "Resource ID of R.menu.activity_main_debug. Default 0x7f0f0006 works for v8.12.00; if it shifts, look up the new ID in the APK's res/values/public.xml under name=\"activity_main_debug\".",
-          "required": true,
-          "type": "kotlin.String",
-          "default": "0x7f0f0006",
-          "values": null
-        }
-      ]
-    },
-    {
-      "name": "Fix spacing around hidden ad cells",
-      "description": "Removes the empty space and shadow divider left behind by hidden banner-ad cells in deal-detail screens.",
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "compatiblePackages": [
-        {
-          "packageName": "com.tippingcanoe.pepperpl",
-          "name": "Pepper PL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.peppernl",
-          "name": "Pepper NL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.mydealz",
-          "name": "Mydealz",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.hukd",
-          "name": "HotUKDeals",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.promodescuentos",
-          "name": "PromoDescuentos",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.chollometro",
-          "name": "Chollometros",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.dealabs.apps.android",
-          "name": "Dealabs",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.preisjaeger",
-          "name": "Preisj\u0102\u00a4ger",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.pepperdeals",
-          "name": "Pepper.com",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "se.pepperdeals",
-          "name": "Pepper SE",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": [
-        {
-          "key": "smallAdViewTypeId",
-          "title": "small_ad view-type R.id (hex)",
-          "description": "Resource ID of `adapter_delegate_view_type_small_ad`. Default is correct for Pepper PL v8.12.00; look up the package's value in res/values/public.xml if a future build shifts ID slots.",
-          "required": true,
-          "type": "kotlin.String",
-          "default": "0x7f0a009e",
-          "values": null
-        },
-        {
-          "key": "mediumAdViewTypeId",
-          "title": "medium_ad view-type R.id (hex)",
-          "description": "Resource ID of `adapter_delegate_view_type_medium_ad`.",
-          "required": true,
-          "type": "kotlin.String",
-          "default": "0x7f0a0084",
-          "values": null
-        },
-        {
-          "key": "largeAdViewTypeId",
-          "title": "large_ad view-type R.id (hex)",
-          "description": "Resource ID of `adapter_delegate_view_type_large_ad`.",
-          "required": true,
-          "type": "kotlin.String",
-          "default": "0x7f0a007c",
-          "values": null
-        }
-      ]
-    },
-    {
-      "name": "Hide banner ads in feed",
-      "description": "Removes the banner ads in the deal feed.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.tippingcanoe.pepperpl",
-          "name": "Pepper PL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.peppernl",
-          "name": "Pepper NL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.mydealz",
-          "name": "Mydealz",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.hukd",
-          "name": "HotUKDeals",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.promodescuentos",
-          "name": "PromoDescuentos",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.chollometro",
-          "name": "Chollometros",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.dealabs.apps.android",
-          "name": "Dealabs",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.preisjaeger",
-          "name": "Preisj\u0102\u00a4ger",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.pepperdeals",
-          "name": "Pepper.com",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "se.pepperdeals",
-          "name": "Pepper SE",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Keep event icon after restart",
-      "description": "Keeps the chosen event-themed app icon after the event ends.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.tippingcanoe.pepperpl",
-          "name": "Pepper PL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.peppernl",
-          "name": "Pepper NL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.mydealz",
-          "name": "Mydealz",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.hukd",
-          "name": "HotUKDeals",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.promodescuentos",
-          "name": "PromoDescuentos",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.chollometro",
-          "name": "Chollometros",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.dealabs.apps.android",
-          "name": "Dealabs",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.preisjaeger",
-          "name": "Preisj\u0102\u00a4ger",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.pepperdeals",
-          "name": "Pepper.com",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "se.pepperdeals",
-          "name": "Pepper SE",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Kill Datatransport upload pipeline",
-      "description": "Blocks Crashlytics report and Firebase log uploads from leaving the device.",
-      "default": true,
-      "dependencies": [
-        "BytecodePatch",
-        "BytecodePatch"
-      ],
-      "compatiblePackages": [
-        {
-          "packageName": "com.tippingcanoe.pepperpl",
-          "name": "Pepper PL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.peppernl",
-          "name": "Pepper NL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.mydealz",
-          "name": "Mydealz",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.hukd",
-          "name": "HotUKDeals",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.promodescuentos",
-          "name": "PromoDescuentos",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.chollometro",
-          "name": "Chollometros",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.dealabs.apps.android",
-          "name": "Dealabs",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.preisjaeger",
-          "name": "Preisj\u0102\u00a4ger",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.pepperdeals",
-          "name": "Pepper.com",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "se.pepperdeals",
-          "name": "Pepper SE",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Kill Pepper first-party pixel tracking",
-      "description": "Blocks Pepper's first-party pixel-tracking pings and replaces the device-fingerprint header with a per-install random UUID.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.tippingcanoe.pepperpl",
-          "name": "Pepper PL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.peppernl",
-          "name": "Pepper NL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.mydealz",
-          "name": "Mydealz",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.hukd",
-          "name": "HotUKDeals",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.promodescuentos",
-          "name": "PromoDescuentos",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.chollometro",
-          "name": "Chollometros",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.dealabs.apps.android",
-          "name": "Dealabs",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.preisjaeger",
-          "name": "Preisj\u0102\u00a4ger",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.pepperdeals",
-          "name": "Pepper.com",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "se.pepperdeals",
-          "name": "Pepper SE",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Neuter tracker auto-init ContentProviders",
-      "description": "Stops the Vungle, Adjust, and Facebook Audience Network SDKs from auto-initialising at app start.",
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "compatiblePackages": [
-        {
-          "packageName": "com.tippingcanoe.pepperpl",
-          "name": "Pepper PL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.peppernl",
-          "name": "Pepper NL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.mydealz",
-          "name": "Mydealz",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.hukd",
-          "name": "HotUKDeals",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.promodescuentos",
-          "name": "PromoDescuentos",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.chollometro",
-          "name": "Chollometros",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.dealabs.apps.android",
-          "name": "Dealabs",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.preisjaeger",
-          "name": "Preisj\u0102\u00a4ger",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.pepperdeals",
-          "name": "Pepper.com",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "se.pepperdeals",
-          "name": "Pepper SE",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Redirect tracker URLs to localhost",
-      "description": "Redirects every known tracker and analytics URL in the app to localhost so it cannot reach the network.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.tippingcanoe.pepperpl",
-          "name": "Pepper PL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.peppernl",
-          "name": "Pepper NL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.mydealz",
-          "name": "Mydealz",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.hukd",
-          "name": "HotUKDeals",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.promodescuentos",
-          "name": "PromoDescuentos",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.chollometro",
-          "name": "Chollometros",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.dealabs.apps.android",
-          "name": "Dealabs",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.preisjaeger",
-          "name": "Preisj\u0102\u00a4ger",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.pepperdeals",
-          "name": "Pepper.com",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "se.pepperdeals",
-          "name": "Pepper SE",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Skip Usercentrics consent screen",
-      "description": "Skips the Usercentrics consent screen and its loading wait on cold start.",
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "compatiblePackages": [
-        {
-          "packageName": "com.tippingcanoe.pepperpl",
-          "name": "Pepper PL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.peppernl",
-          "name": "Pepper NL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.mydealz",
-          "name": "Mydealz",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.hukd",
-          "name": "HotUKDeals",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.promodescuentos",
-          "name": "PromoDescuentos",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.chollometro",
-          "name": "Chollometros",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.dealabs.apps.android",
-          "name": "Dealabs",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.preisjaeger",
-          "name": "Preisj\u0102\u00a4ger",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.pepperdeals",
-          "name": "Pepper.com",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "se.pepperdeals",
-          "name": "Pepper SE",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Unlock tier-locked icons",
-      "description": "Unlocks all membership-tier app icons in the icon picker.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.tippingcanoe.pepperpl",
-          "name": "Pepper PL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.peppernl",
-          "name": "Pepper NL",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.mydealz",
-          "name": "Mydealz",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.hukd",
-          "name": "HotUKDeals",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.tippingcanoe.promodescuentos",
-          "name": "PromoDescuentos",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.chollometro",
-          "name": "Chollometros",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.dealabs.apps.android",
-          "name": "Dealabs",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.preisjaeger",
-          "name": "Preisj\u0102\u00a4ger",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.pepperdeals",
-          "name": "Pepper.com",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "se.pepperdeals",
-          "name": "Pepper SE",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    }
-  ]
+    ]
 }

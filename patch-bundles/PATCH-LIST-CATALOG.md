@@ -94,7 +94,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 11 | 9 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 11 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 27 | 18 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 28 | 19 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 2 | 1 | Generated |
 
 ### Legacy
@@ -1925,22 +1925,22 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Always show event-theming icons``` | ```Shows every event-themed app icon in the picker, even when its event is not currently active.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
-| ```Block Pepper analytics-event-report tracker``` | ```Stops Pepper's own behavioural tracker (thread visits, shares, push clicks, search suggestions) from reaching the server.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
-| ```Compact deal cards``` | ```Shrinks Pepper deal-list cards and their loading skeletons with targeted XML resource edits.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
-| ```Disable Adjust SDK``` | ```Stops the Adjust SDK from initialising and tracking events.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
-| ```Disable Google Mobile Ads ad-load entry points``` | ```Blocks Google's Ad SDK from fetching native ads after init.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
-| ```Disable Google Mobile Ads SDK init``` | ```Stops the Google Mobile Ads SDK from initialising.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
-| ```Enable debug menu``` | ```Re-enables the hidden debug menu in the main activity.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
-| ```Fix spacing around hidden ad cells``` | ```Removes the empty space and shadow divider left behind by hidden banner-ad cells in deal-detail screens.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
-| ```Hide banner ads in feed``` | ```Removes the banner ads in the deal feed.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
-| ```Keep event icon after restart``` | ```Keeps the chosen event-themed app icon after the event ends.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
-| ```Kill Datatransport upload pipeline``` | ```Blocks Crashlytics report and Firebase log uploads from leaving the device.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
-| ```Kill Pepper first-party pixel tracking``` | ```Blocks Pepper's first-party pixel-tracking pings and replaces the device-fingerprint header with a per-install random UUID.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
-| ```Neuter tracker auto-init ContentProviders``` | ```Stops the Vungle, Adjust, and Facebook Audience Network SDKs from auto-initialising at app start.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
-| ```Redirect tracker URLs to localhost``` | ```Redirects every known tracker and analytics URL in the app to localhost so it cannot reach the network.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
-| ```Skip Usercentrics consent screen``` | ```Skips the Usercentrics consent screen and its loading wait on cold start.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
-| ```Unlock tier-locked icons``` | ```Unlocks all membership-tier app icons in the icon picker.``` | ```Pepper PL, Pepper NL, Mydealz, HotUKDeals, PromoDescuentos, Chollometros, Dealabs, PreisjĂ¤ger, Pepper.com, Pepper SE``` | ```All versions``` |
+| ```Always show event-theming icons``` | ```Shows every event-themed app icon in the picker, even when its event is not currently active.``` | ```Chollometros, Dealabs, HotUKDeals, Mydealz, Pepper NL, Pepper PL, Pepper SE, Pepper.com, PreisjĂ¤ger, PromoDescuentos``` | ```All versions``` |
+| ```Block Pepper analytics-event-report tracker``` | ```Stops Pepper's own behavioural tracker (thread visits, shares, push clicks, search suggestions) from reaching the server.``` | ```Chollometros, Dealabs, HotUKDeals, Mydealz, Pepper NL, Pepper PL, Pepper SE, Pepper.com, PreisjĂ¤ger, PromoDescuentos``` | ```All versions``` |
+| ```Compact deal cards``` | ```Shrinks Pepper deal-list cards and their loading skeletons with targeted XML resource edits.``` | ```Chollometros, Dealabs, HotUKDeals, Mydealz, Pepper NL, Pepper PL, Pepper SE, Pepper.com, PreisjĂ¤ger, PromoDescuentos``` | ```All versions``` |
+| ```Disable Adjust SDK``` | ```Stops the Adjust SDK from initialising and tracking events.``` | ```Chollometros, Dealabs, HotUKDeals, Mydealz, Pepper NL, Pepper PL, Pepper SE, Pepper.com, PreisjĂ¤ger, PromoDescuentos``` | ```All versions``` |
+| ```Disable Google Mobile Ads ad-load entry points``` | ```Blocks Google's Ad SDK from fetching native ads after init.``` | ```Chollometros, Dealabs, HotUKDeals, Mydealz, Pepper NL, Pepper PL, Pepper SE, Pepper.com, PreisjĂ¤ger, PromoDescuentos``` | ```All versions``` |
+| ```Disable Google Mobile Ads SDK init``` | ```Stops the Google Mobile Ads SDK from initialising.``` | ```Chollometros, Dealabs, HotUKDeals, Mydealz, Pepper NL, Pepper PL, Pepper SE, Pepper.com, PreisjĂ¤ger, PromoDescuentos``` | ```All versions``` |
+| ```Enable debug menu``` | ```Re-enables the hidden debug menu in the main activity.``` | ```Chollometros, Dealabs, HotUKDeals, Mydealz, Pepper NL, Pepper PL, Pepper SE, Pepper.com, PreisjĂ¤ger, PromoDescuentos``` | ```All versions``` |
+| ```Fix spacing around hidden ad cells``` | ```Removes the empty space and shadow divider left behind by hidden banner-ad cells in deal-detail screens.``` | ```Chollometros, Dealabs, HotUKDeals, Mydealz, Pepper NL, Pepper PL, Pepper SE, Pepper.com, PreisjĂ¤ger, PromoDescuentos``` | ```All versions``` |
+| ```Hide banner ads in feed``` | ```Removes the banner ads in the deal feed.``` | ```Chollometros, Dealabs, HotUKDeals, Mydealz, Pepper NL, Pepper PL, Pepper SE, Pepper.com, PreisjĂ¤ger, PromoDescuentos``` | ```All versions``` |
+| ```Keep event icon after restart``` | ```Keeps the chosen event-themed app icon after the event ends.``` | ```Chollometros, Dealabs, HotUKDeals, Mydealz, Pepper NL, Pepper PL, Pepper SE, Pepper.com, PreisjĂ¤ger, PromoDescuentos``` | ```All versions``` |
+| ```Kill Datatransport upload pipeline``` | ```Blocks Crashlytics report and Firebase log uploads from leaving the device.``` | ```Chollometros, Dealabs, HotUKDeals, Mydealz, Pepper NL, Pepper PL, Pepper SE, Pepper.com, PreisjĂ¤ger, PromoDescuentos``` | ```All versions``` |
+| ```Kill Pepper first-party pixel tracking``` | ```Blocks Pepper's first-party pixel-tracking pings and replaces the device-fingerprint header with a per-install random UUID.``` | ```Chollometros, Dealabs, HotUKDeals, Mydealz, Pepper NL, Pepper PL, Pepper SE, Pepper.com, PreisjĂ¤ger, PromoDescuentos``` | ```All versions``` |
+| ```Neuter tracker auto-init ContentProviders``` | ```Stops the Vungle, Adjust, and Facebook Audience Network SDKs from auto-initialising at app start.``` | ```Chollometros, Dealabs, HotUKDeals, Mydealz, Pepper NL, Pepper PL, Pepper SE, Pepper.com, PreisjĂ¤ger, PromoDescuentos``` | ```All versions``` |
+| ```Redirect tracker URLs to localhost``` | ```Redirects every known tracker and analytics URL in the app to localhost so it cannot reach the network.``` | ```Chollometros, Dealabs, HotUKDeals, Mydealz, Pepper NL, Pepper PL, Pepper SE, Pepper.com, PreisjĂ¤ger, PromoDescuentos``` | ```All versions``` |
+| ```Skip Usercentrics consent screen``` | ```Skips the Usercentrics consent screen and its loading wait on cold start.``` | ```Chollometros, Dealabs, HotUKDeals, Mydealz, Pepper NL, Pepper PL, Pepper SE, Pepper.com, PreisjĂ¤ger, PromoDescuentos``` | ```All versions``` |
+| ```Unlock tier-locked icons``` | ```Unlocks all membership-tier app icons in the icon picker.``` | ```Chollometros, Dealabs, HotUKDeals, Mydealz, Pepper NL, Pepper PL, Pepper SE, Pepper.com, PreisjĂ¤ger, PromoDescuentos``` | ```All versions``` |
 | ```Disable PAIRIP license check``` | ```Removes Google Play's install-source DRM check from the US Pepper.com build, allowing sideloaded APKs to open.``` | ```Pepper.com``` | ```All versions``` |
 
 </details>
@@ -3468,7 +3468,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 27 patches, 18 apps</summary>
+<summary><b>Rushiranpise</b> - 28 patches, 19 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3499,6 +3499,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Ads``` | ```Prevents the AppOpen ad preloader from initialising.``` | ```Universal TV Remote Control``` | ```All versions``` |
 | ```Suppress Paywall``` | ```Suppresses the in-app paywall.``` | ```Universal TV Remote Control``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Universal TV Remote Control``` | ```All versions``` |
+| ```Unlock VIP``` | ```Unlocks Yatri VIP by forcing active plan status and spoofing active plan DB query.``` | ```Yatri``` | ```All versions``` |
 
 </details>
 

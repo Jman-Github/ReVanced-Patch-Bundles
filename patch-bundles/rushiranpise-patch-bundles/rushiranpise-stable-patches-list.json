@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.5.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -130,6 +130,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#1565C0",
+                    "description": null,
+                    "name": "m-Indicator",
+                    "packageName": "com.mobond.mindicator",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes interstitial and exit native ads from m-Indicator.",
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#E53935",
                     "description": null,
                     "name": "Crime Radar",
@@ -240,7 +265,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.2.6"
+                            "version": null
                         }
                     ]
                 }
@@ -380,6 +405,56 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#FF5722",
+                    "description": null,
+                    "name": "Beta Maniac",
+                    "packageName": "it.mirko.beta",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium in Beta by Mirko.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF6B9D",
+                    "description": null,
+                    "name": "Photo Editor",
+                    "packageName": "com.iudesk.android.photo.editor",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all Photo Editor premium features by bypassing license checks.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#1CC29F",
                     "description": null,
                     "name": "Snipd: AI Podcast Player",
@@ -455,6 +530,106 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "Hibernator",
+                    "packageName": "com.tafayor.hibernator",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all pro features in Hibernator.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F44336",
+                    "description": null,
+                    "name": "KillApps",
+                    "packageName": "com.tafayor.killall",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all pro features in KillApps.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2196F3",
+                    "description": null,
+                    "name": "ML Manager",
+                    "packageName": "com.javiersantos.mlmanager",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all pro features in ML Manager.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "RAR",
+                    "packageName": "com.rarlab.rar",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes ads and unlocks the no-ads subscription in RAR.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#1CC29F",
                     "description": null,
                     "name": "Splitwise",
@@ -474,6 +649,56 @@
             "dependencies": [],
             "description": "Unlocks Splitwise Pro features, removes ad banners, and suppresses all upgrade upsell prompts.",
             "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1A1A2E",
+                    "description": null,
+                    "name": "Stargazing Hub",
+                    "packageName": "com.twtapp",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all subscription features in TWT App.",
+            "name": "Unlock Subscription",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF6B00",
+                    "description": null,
+                    "name": "Yatri",
+                    "packageName": "com.yatrirailways.yatri",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.0.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Yatri VIP by forcing active plan status and spoofing active plan DB query.",
+            "name": "Unlock VIP",
             "options": []
         }
     ]
