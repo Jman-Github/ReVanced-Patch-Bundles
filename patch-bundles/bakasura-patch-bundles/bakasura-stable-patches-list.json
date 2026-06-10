@@ -1,0 +1,26 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.mb.android": null
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Replaces the Emby server validation host with a custom one to bypass premiere checks.",
+            "name": "Spoof server host",
+            "options": [
+                {
+                    "default": "xexample.com",
+                    "description": "The replacement host for Emby server validation.",
+                    "name": "Server host",
+                    "required": true,
+                    "type": "java.lang.String (Kotlin reflection is not available)",
+                    "values": null
+                }
+            ],
+            "use": true
+        }
+    ]
+}

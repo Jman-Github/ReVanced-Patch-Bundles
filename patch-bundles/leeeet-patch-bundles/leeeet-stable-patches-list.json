@@ -1,0 +1,15 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": null,
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Plays an inaudible looping PCM track for the lifetime of the app to keep connected Bluetooth headphones in active audio mode, avoiding the first 100-300 ms of audio being cut off when a clip starts.",
+            "name": "Bluetooth audio keep alive",
+            "options": [],
+            "use": true
+        }
+    ]
+}

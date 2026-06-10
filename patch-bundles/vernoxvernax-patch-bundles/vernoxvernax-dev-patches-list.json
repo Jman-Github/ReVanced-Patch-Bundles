@@ -1,0 +1,65 @@
+{
+    "version": "v1.0.0-dev.5",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.moshbit.studo": [
+                    "4.72.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enable local Studo Pro features: Your Calendar expands to 40 weeks, Exam overview in your calendar, No automated ads, Mail search, View all mail folders, Exam registration notification.",
+            "name": "Enable Studo Pro",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.moshbit.studo": [
+                    "4.72.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes Advertisements from the app interface.",
+            "name": "Hide Ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.moshbit.studo": [
+                    "4.72.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hides the cookie consent window that advertises Studo Pro.",
+            "name": "Hide Cookie Consent Dialog",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.moshbit.studo": [
+                    "4.72.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hides unrelated news, allowing only Chat topics and Job listings.",
+            "name": "Hide Promotional News",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.moshbit.studo": [
+                    "4.72.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hide the message that reminds the user that their StudoPro expired.",
+            "name": "Hide Studo-Pro-expired message",
+            "options": [],
+            "use": true
+        }
+    ]
+}

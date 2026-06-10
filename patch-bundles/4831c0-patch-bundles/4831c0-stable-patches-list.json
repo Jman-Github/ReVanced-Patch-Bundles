@@ -1,0 +1,53 @@
+{
+    "version": "v1.0.1",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "hu.mavszk.vonatinfo": [
+                    "4.12"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes telemetry-related root/emulator checks and Play Integrity helper logic for MÁV.",
+            "name": "Disable telemetry",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "hu.mavszk.vonatinfo": [
+                    "4.12"
+                ]
+            },
+            "dependencies": [],
+            "description": "Fixes global top menu bar vertical alignment.",
+            "name": "Fix top bar alignment",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "hu.mavszk.vonatinfo": [
+                    "4.12"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes legacy fitsSystemWindows from AppCompat action bar layouts.",
+            "name": "Fix top bar layout resources",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "hu.mavszk.vonatinfo": [
+                    "4.12"
+                ]
+            },
+            "dependencies": [],
+            "description": "Remove MÁV+ popup.",
+            "name": "Remove MÁV+ popup",
+            "options": [],
+            "use": true
+        }
+    ]
+}

@@ -21,10 +21,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Taknok](#-taknok-bundle-patch-list) | 3 | 2 | Generated |
 | [Faith001](#-faith001-bundle-patch-list) | 1 | 1 | Generated |
 | [Forsyth47](#-forsyth47-bundle-patch-list) | 4 | 2 | Generated |
-| [4831c0](#-4831c0-bundle-patch-list) | - | - | Pending patch list |
-| [Bakasura](#-bakasura-bundle-patch-list) | - | - | Pending patch list |
-| [LeeeeT](#-leeeet-bundle-patch-list) | - | - | Pending patch list |
-| [Vernoxvernax](#-vernoxvernax-bundle-patch-list) | - | - | Pending patch list |
+| [4831c0](#-4831c0-bundle-patch-list) | 5 | 1 | Generated |
+| [Bakasura](#-bakasura-bundle-patch-list) | 1 | 1 | Generated |
+| [LeeeeT](#-leeeet-bundle-patch-list) | 1 | 1 | Generated |
+| [Vernoxvernax](#-vernoxvernax-bundle-patch-list) | 5 | 1 | Generated |
 | [VinceTheProgrammer](#-vincetheprogrammer-bundle-patch-list) | 2 | 3 | Generated |
 | [Kangrio](#-kangrio-bundle-patch-list) | 1 | 1 | Generated |
 | [Nk521](#-nk521-bundle-patch-list) | 214 | 77 | Generated |
@@ -53,8 +53,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Brosssh](#-brosssh-bundle-patch-list) | 21 | 5 | Generated |
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
 | [Chiggi](#-chiggi-bundle-patch-list) | 7 | 2 | Generated |
-| [LaKaka](#-lakaka-bundle-patch-list) | - | - | Pending patch list |
-| [EE-Morphe](#-ee-morphe-bundle-patch-list) | - | - | Pending patch list |
+| [LaKaka](#-lakaka-bundle-patch-list) | 1 | 1 | Generated |
+| [EE-Morphe](#-ee-morphe-bundle-patch-list) | 10 | 4 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 74 | 49 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 81 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 114 | 4 | Generated |
@@ -1798,9 +1798,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 4831c0 Bundle Patch List:
 [📦 4831c0-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-4831c0-patches-bundle-api-v4)
 <details>
-<summary><b>4831c0</b> - pending patch list</summary>
+<summary><b>4831c0</b> - 5 patches, 1 app</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable telemetry``` | ```Removes telemetry-related root/emulator checks and Play Integrity helper logic for MÁV.``` | ```hu.mavszk.vonatinfo``` | ```4.12``` |
+| ```Fix top bar alignment``` | ```Fixes global top menu bar vertical alignment.``` | ```hu.mavszk.vonatinfo``` | ```4.12``` |
+| ```Fix top bar layout resources``` | ```Removes legacy fitsSystemWindows from AppCompat action bar layouts.``` | ```hu.mavszk.vonatinfo``` | ```4.12``` |
+| ```Remove MÁV+ popup``` | ```Remove MÁV+ popup.``` | ```hu.mavszk.vonatinfo``` | ```4.12``` |
+| ```Schedule daily token refresh``` | ```Piggybacks token refresh on an already-registered JobScheduler service.``` | ```hu.mavszk.vonatinfo``` | ```4.12``` |
 
 </details>
 
@@ -1826,9 +1832,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Bakasura Bundle Patch List:
 [📦 Bakasura-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bakasura-patches-bundle-api-v4)
 <details>
-<summary><b>Bakasura</b> - pending patch list</summary>
+<summary><b>Bakasura</b> - 1 patch, 1 app</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Spoof server host``` | ```Replaces the Emby server validation host with a custom one to bypass premiere checks.``` | ```com.mb.android``` | ```All versions``` |
 
 </details>
 
@@ -1836,9 +1844,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 LaKaka Bundle Patch List:
 [📦 LaKaka-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lakaka-patches-bundle-morphe)
 <details>
-<summary><b>LaKaka</b> - pending patch list</summary>
+<summary><b>LaKaka</b> - 1 patch, 1 app</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock Premium``` | ```Unlocks all premium wallpapers and removes license verification.``` | ```Depth Wallpapers & Live Clock``` | ```All versions``` |
 
 </details>
 
@@ -1846,9 +1856,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 LeeeeT Bundle Patch List:
 [📦 LeeeeT-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-leeeet-patches-bundle-api-v4)
 <details>
-<summary><b>LeeeeT</b> - pending patch list</summary>
+<summary><b>LeeeeT</b> - 1 patch, 1 app</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Bluetooth audio keep alive``` | ```Plays an inaudible looping PCM track for the lifetime of the app to keep connected Bluetooth headphones in active audio mode, avoiding the first 100-300 ms of audio being cut off when a clip starts.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -1856,9 +1868,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Vernoxvernax Bundle Patch List:
 [📦 Vernoxvernax-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-vernoxvernax-patches-bundle-api-v4)
 <details>
-<summary><b>Vernoxvernax</b> - pending patch list</summary>
+<summary><b>Vernoxvernax</b> - 5 patches, 1 app</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Enable Studo Pro``` | ```Enable local Studo Pro features: Your Calendar expands to 40 weeks, Exam overview in your calendar, No automated ads, Mail search, View all mail folders, Exam registration notification.``` | ```com.moshbit.studo``` | ```4.72.2``` |
+| ```Hide Ads``` | ```Removes Advertisements from the app interface.``` | ```com.moshbit.studo``` | ```4.72.2``` |
+| ```Hide Cookie Consent Dialog``` | ```Hides the cookie consent window that advertises Studo Pro.``` | ```com.moshbit.studo``` | ```4.72.2``` |
+| ```Hide Promotional News``` | ```Hides unrelated news, allowing only Chat topics and Job listings.``` | ```com.moshbit.studo``` | ```4.72.2``` |
+| ```Hide Studo-Pro-expired message``` | ```Hide the message that reminds the user that their StudoPro expired.``` | ```com.moshbit.studo``` | ```4.72.2``` |
 
 </details>
 
@@ -1866,9 +1884,20 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 EE-Morphe Bundle Patch List:
 [📦 EE-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ee-morphe-patches-bundle-morphe)
 <details>
-<summary><b>EE-Morphe</b> - pending patch list</summary>
+<summary><b>EE-Morphe</b> - 10 patches, 4 apps</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Enable Online Pro``` | ```Experimental companion patch that keeps byAir's online Pro gates open without forcing the crash-prone global entitlement refresh path.``` | ```byAir``` | ```All versions``` |
+| ```Enable Pro``` | ```Suppresses the main byAir paywall, unlock banners, and local user gating without forcing the shared entitlement path globally.``` | ```byAir``` | ```All versions``` |
+| ```Enable Pro``` | ```Forces HypnoBox subscription entitlement checks to always pass.``` | ```HypnoBox``` | ```All versions``` |
+| ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
+| ```Clone app``` | ```Renames the app and manifest package so it can be installed alongside another copy. By default this appends " B" to the launcher name and appends "B" to the package's main segment.``` | ```Universal``` | ```All versions``` |
+| ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
+| ```Enable debug``` | ```Enables debugging on the app by setting android:debuggable="true".``` | ```Universal``` | ```All versions``` |
+| ```Hide app icon``` | ```Hides the app icon from the Android launcher.``` | ```Universal``` | ```All versions``` |
+| ```Enable Offline Mode``` | ```Allows Wanderlog to run without login by injecting a local guest user and bypassing auth gates.``` | ```Wanderlog``` | ```All versions``` |
+| ```Enable Pro``` | ```Forces pro entitlement checks to always pass.``` | ```Wanderlog``` | ```All versions``` |
 
 </details>
 

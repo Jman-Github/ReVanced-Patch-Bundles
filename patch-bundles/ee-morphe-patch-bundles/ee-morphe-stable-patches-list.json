@@ -1,0 +1,270 @@
+{
+    "version": "v1.2.1",
+    "patches": [
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+            "name": "Change package name",
+            "options": [
+                {
+                    "default": "Default",
+                    "description": "The name of the package to rename the app to.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "key": "updatePermissions",
+                    "required": false,
+                    "title": "Update permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "key": "updateProviders",
+                    "required": false,
+                    "title": "Update providers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Renames the app and manifest package so it can be installed alongside another copy. By default this appends \" B\" to the launcher name and appends \"B\" to the package's main segment.",
+            "name": "Clone app",
+            "options": [
+                {
+                    "default": "Default",
+                    "description": "The app name to use. Leave as Default to keep the original name and append the configured suffix.",
+                    "key": "appName",
+                    "required": true,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "default": " B",
+                    "description": "Suffix appended to the original app name when App name is left on Default.",
+                    "key": "appNameSuffix",
+                    "required": true,
+                    "title": "App name suffix",
+                    "type": "kotlin.String",
+                    "values": {}
+                },
+                {
+                    "default": "Default",
+                    "description": "Full package name to use. Leave as Default to generate one from the original package name.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "default": "B",
+                    "description": "Suffix appended to the app's main package segment when Package name is left on Default.",
+                    "key": "packageSegmentSuffix",
+                    "required": true,
+                    "title": "Package suffix",
+                    "type": "kotlin.String",
+                    "values": {}
+                },
+                {
+                    "default": "",
+                    "description": "Optional prefix to prepend to the generated package name. Ignored when a full Package name is set.",
+                    "key": "packagePrefix",
+                    "required": true,
+                    "title": "Package prefix",
+                    "type": "kotlin.String",
+                    "values": {}
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.",
+            "name": "Disable Pairip license check",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Enables debugging on the app by setting android:debuggable=\"true\".",
+            "name": "Enable debug",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#3F6DFF",
+                    "description": null,
+                    "name": "Wanderlog",
+                    "packageName": "com.wanderlog.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.0.6"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": ">=1.0.6"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Allows Wanderlog to run without login by injecting a local guest user and bypassing auth gates.",
+            "name": "Enable Offline Mode",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1F6FEB",
+                    "description": null,
+                    "name": "byAir",
+                    "packageName": "com.byairapp.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.36.0"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Experimental companion patch that keeps byAir's online Pro gates open without forcing the crash-prone global entitlement refresh path.",
+            "name": "Enable Online Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1F6FEB",
+                    "description": null,
+                    "name": "byAir",
+                    "packageName": "com.byairapp.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.36.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Suppresses the main byAir paywall, unlock banners, and local user gating without forcing the shared entitlement path globally.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#5EA15A",
+                    "description": null,
+                    "name": "HypnoBox",
+                    "packageName": "epixler.de.hypnobox_android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.2.81"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": ">=4.2.81"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces HypnoBox subscription entitlement checks to always pass.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#3F6DFF",
+                    "description": null,
+                    "name": "Wanderlog",
+                    "packageName": "com.wanderlog.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.0.6"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": ">=1.0.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces pro entitlement checks to always pass.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the app icon from the Android launcher.",
+            "name": "Hide app icon",
+            "options": []
+        }
+    ]
+}
