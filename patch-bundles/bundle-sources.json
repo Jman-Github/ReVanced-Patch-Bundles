@@ -199,6 +199,16 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "piko-shim-stable": {
+        "patches": "https://gitlab.com/api/v4/projects/inotia00%2Fpiko-shim",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "ravi07777-stable": {
+        "patches": "https://api.github.com/repos/ravi07777/my-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "hoo-dles-stable": {
         "patches": "https://api.github.com/repos/hoo-dles/morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
@@ -671,6 +681,16 @@
     },
     "ee-morphe-dev": {
         "patches": "https://gitlab.com/api/v4/projects/early.egg3707%2Fee-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "piko-shim-dev": {
+        "patches": "https://gitlab.com/api/v4/projects/inotia00%2Fpiko-shim",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "ravi07777-dev": {
+        "patches": "https://api.github.com/repos/ravi07777/my-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -1151,6 +1171,16 @@
     },
     "ee-morphe-latest": {
         "patches": "https://gitlab.com/api/v4/projects/early.egg3707%2Fee-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "piko-shim-latest": {
+        "patches": "https://gitlab.com/api/v4/projects/inotia00%2Fpiko-shim",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "ravi07777-latest": {
+        "patches": "https://api.github.com/repos/ravi07777/my-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     },

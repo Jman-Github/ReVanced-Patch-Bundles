@@ -55,6 +55,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Chiggi](#-chiggi-bundle-patch-list) | 7 | 2 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 1 | 1 | Generated |
 | [EE-Morphe](#-ee-morphe-bundle-patch-list) | 10 | 4 | Generated |
+| [Piko-Shim](#-piko-shim-bundle-patch-list) | - | - | Pending patch list |
+| [Ravi07777](#-ravi07777-bundle-patch-list) | - | - | Pending patch list |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 74 | 49 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 81 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 114 | 4 | Generated |
@@ -1898,6 +1900,26 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide app icon``` | ```Hides the app icon from the Android launcher.``` | ```Universal``` | ```All versions``` |
 | ```Enable Offline Mode``` | ```Allows Wanderlog to run without login by injecting a local guest user and bypassing auth gates.``` | ```Wanderlog``` | ```All versions``` |
 | ```Enable Pro``` | ```Forces pro entitlement checks to always pass.``` | ```Wanderlog``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Piko-Shim Bundle Patch List:
+[📦 Piko-Shim-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-shim-patches-bundle-morphe)
+<details>
+<summary><b>Piko-Shim</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
+
+</details>
+
+---
+### 🧩 Ravi07777 Bundle Patch List:
+[📦 Ravi07777-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ravi07777-patches-bundle-morphe)
+<details>
+<summary><b>Ravi07777</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
 
 </details>
 

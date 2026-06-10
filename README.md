@@ -550,6 +550,32 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+### 📦 Piko-Shim-Patches-Bundle [Morphe]:
+[🧩 Piko-Shim Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-piko-shim-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/piko-shim-patch-bundles/piko-shim-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/piko-shim-patch-bundles/piko-shim-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/piko-shim-patch-bundles/piko-shim-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Ravi07777-Patches-Bundle [Morphe]:
+[🧩 Ravi07777 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ravi07777-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ravi07777-patch-bundles/ravi07777-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ravi07777-patch-bundles/ravi07777-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ravi07777-patch-bundles/ravi07777-dev-patches-bundle.json```
+</details>
+
+---
 ### 📦 Hoo-dles-Patches-Bundle [Morphe]:
 [🧩 Hoo-dles Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hoo-dles-bundle-patch-list)
 <details>
@@ -1367,6 +1393,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Vernoxvernax-Patches-Bundle](https://github.com/Vernoxvernax/revanced-patches)
 
 #### 🏷️ [EE-Morphe-Patches-Bundle](https://gitlab.com/early.egg3707/ee-morphe-patches)
+
+#### 🏷️ [Piko-Shim-Patches-Bundle](https://gitlab.com/inotia00/piko-shim)
+
+#### 🏷️ [Ravi07777-Patches-Bundle](https://github.com/ravi07777/my-patches)
 
 #### 🏷️ [Hoo-dles-Patches-Bundle](https://github.com/hoo-dles/revanced-custom-patches)
 
