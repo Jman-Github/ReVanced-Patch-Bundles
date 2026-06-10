@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.5.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -380,6 +380,56 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#FF5722",
+                    "description": null,
+                    "name": "Beta by Mirko",
+                    "packageName": "it.mirko.beta",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "0.9.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium in Beta by Mirko.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF6B9D",
+                    "description": null,
+                    "name": "Photo Editor",
+                    "packageName": "com.iudesk.android.photo.editor",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "13.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all Photo Editor premium features by bypassing license checks.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#1CC29F",
                     "description": null,
                     "name": "Snipd: AI Podcast Player",
@@ -455,6 +505,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#2196F3",
+                    "description": null,
+                    "name": "ML Manager",
+                    "packageName": "com.javiersantos.mlmanager",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all pro features in ML Manager.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#1CC29F",
                     "description": null,
                     "name": "Splitwise",
@@ -474,6 +549,31 @@
             "dependencies": [],
             "description": "Unlocks Splitwise Pro features, removes ad banners, and suppresses all upgrade upsell prompts.",
             "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1A1A2E",
+                    "description": null,
+                    "name": "TWT App",
+                    "packageName": "com.twtapp",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all subscription features in TWT App.",
+            "name": "Unlock Subscription",
             "options": []
         }
     ]
