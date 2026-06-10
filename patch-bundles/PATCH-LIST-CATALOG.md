@@ -21,6 +21,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Taknok](#-taknok-bundle-patch-list) | 3 | 2 | Generated |
 | [Faith001](#-faith001-bundle-patch-list) | 1 | 1 | Generated |
 | [Forsyth47](#-forsyth47-bundle-patch-list) | 4 | 2 | Generated |
+| [4831c0](#-4831c0-bundle-patch-list) | - | - | Pending patch list |
+| [Bakasura](#-bakasura-bundle-patch-list) | - | - | Pending patch list |
+| [LeeeeT](#-leeeet-bundle-patch-list) | - | - | Pending patch list |
+| [Vernoxvernax](#-vernoxvernax-bundle-patch-list) | - | - | Pending patch list |
 | [VinceTheProgrammer](#-vincetheprogrammer-bundle-patch-list) | 2 | 3 | Generated |
 | [Kangrio](#-kangrio-bundle-patch-list) | 1 | 1 | Generated |
 | [Nk521](#-nk521-bundle-patch-list) | 214 | 77 | Generated |
@@ -47,6 +51,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 10 | 6 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 21 | 5 | Generated |
+| [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
+| [Chiggi](#-chiggi-bundle-patch-list) | 7 | 2 | Generated |
+| [LaKaka](#-lakaka-bundle-patch-list) | - | - | Pending patch list |
+| [EE-Morphe](#-ee-morphe-bundle-patch-list) | - | - | Pending patch list |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 74 | 49 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 81 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 114 | 4 | Generated |
@@ -1773,6 +1781,94 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium features``` | ```Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.``` | ```Komoot``` | ```All versions``` |
 | ```Unlock premium features``` | ```N/A``` | ```Mapy.com``` | ```All versions``` |
 | ```Unlock Pro features``` | ```Unlock Pro features (park4night +). You have to be logged in with an account.``` | ```park4night``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Quantro100 Bundle Patch List:
+[📦 Quantro100-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-quantro100-patches-bundle-morphe)
+<details>
+<summary><b>Quantro100</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
+
+</details>
+
+---
+### 🧩 4831c0 Bundle Patch List:
+[📦 4831c0-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-4831c0-patches-bundle-api-v4)
+<details>
+<summary><b>4831c0</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
+
+</details>
+
+---
+### 🧩 Chiggi Bundle Patch List:
+[📦 Chiggi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-chiggi-patches-bundle-morphe)
+<details>
+<summary><b>Chiggi</b> - 7 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Auto skip intro and recap``` | ```Automatically skips the intro, recap and song segments as soon as the 'Skip' button would appear, without waiting for a tap.``` | ```SonyLIV``` | ```All versions``` |
+| ```Disable AppsFlyer tracking``` | ```Disables AppsFlyer attribution and event tracking. Other SDKs (CleverTap, Firebase Analytics/Crashlytics) are not affected by this patch.``` | ```SonyLIV``` | ```All versions``` |
+| ```Disable Firebase tracking``` | ```Disables Firebase Analytics, Crashlytics and Performance data collection via manifest flags. Push notifications are unaffected.``` | ```SonyLIV``` | ```All versions``` |
+| ```Disable forced update``` | ```Removes the forced ('immediate') and optional ('flexi') 'update available' popup shown on the home screen.``` | ```SonyLIV``` | ```All versions``` |
+| ```Remove video ads``` | ```Forces PlayerUtil.isAdEnable() to false so the player neither requests nor plays ads. Removes client-side (Google IMA) ads. Server-side stitched ads on some live content (MediaTailor/SSAI) may still appear.``` | ```SonyLIV``` | ```All versions``` |
+| ```Change app name``` | ```Changes the app name shown under the launcher icon. Set the desired name in the patch options.``` | ```Universal``` | ```All versions``` |
+| ```Change package name``` | ```Changes the app package name so the patched app installs alongside the original. Set the desired package name in the patch options. Changing the package name can cause unexpected issues with some app features.``` | ```Universal``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Bakasura Bundle Patch List:
+[📦 Bakasura-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bakasura-patches-bundle-api-v4)
+<details>
+<summary><b>Bakasura</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
+
+</details>
+
+---
+### 🧩 LaKaka Bundle Patch List:
+[📦 LaKaka-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lakaka-patches-bundle-morphe)
+<details>
+<summary><b>LaKaka</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
+
+</details>
+
+---
+### 🧩 LeeeeT Bundle Patch List:
+[📦 LeeeeT-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-leeeet-patches-bundle-api-v4)
+<details>
+<summary><b>LeeeeT</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
+
+</details>
+
+---
+### 🧩 Vernoxvernax Bundle Patch List:
+[📦 Vernoxvernax-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-vernoxvernax-patches-bundle-api-v4)
+<details>
+<summary><b>Vernoxvernax</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
+
+</details>
+
+---
+### 🧩 EE-Morphe Bundle Patch List:
+[📦 EE-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ee-morphe-patches-bundle-morphe)
+<details>
+<summary><b>EE-Morphe</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
 
 </details>
 

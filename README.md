@@ -446,6 +446,110 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+### 📦 Quantro100-Patches-Bundle [Morphe]:
+[🧩 Quantro100 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-quantro100-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/quantro100-patch-bundles/quantro100-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/quantro100-patch-bundles/quantro100-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/quantro100-patch-bundles/quantro100-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 4831c0-Patches-Bundle [API v4]:
+[🧩 4831c0 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-4831c0-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/4831c0-patch-bundles/4831c0-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/4831c0-patch-bundles/4831c0-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/4831c0-patch-bundles/4831c0-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Chiggi-Patches-Bundle [Morphe]:
+[🧩 Chiggi Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-chiggi-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/chiggi-patch-bundles/chiggi-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/chiggi-patch-bundles/chiggi-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/chiggi-patch-bundles/chiggi-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Bakasura-Patches-Bundle [API v4]:
+[🧩 Bakasura Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-bakasura-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bakasura-patch-bundles/bakasura-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bakasura-patch-bundles/bakasura-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bakasura-patch-bundles/bakasura-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 LaKaka-Patches-Bundle [Morphe]:
+[🧩 LaKaka Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-lakaka-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lakaka-patch-bundles/lakaka-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lakaka-patch-bundles/lakaka-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lakaka-patch-bundles/lakaka-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 LeeeeT-Patches-Bundle [API v4]:
+[🧩 LeeeeT Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-leeeet-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/leeeet-patch-bundles/leeeet-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/leeeet-patch-bundles/leeeet-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/leeeet-patch-bundles/leeeet-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Vernoxvernax-Patches-Bundle [API v4]:
+[🧩 Vernoxvernax Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-vernoxvernax-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vernoxvernax-patch-bundles/vernoxvernax-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vernoxvernax-patch-bundles/vernoxvernax-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vernoxvernax-patch-bundles/vernoxvernax-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 EE-Morphe-Patches-Bundle [Morphe]:
+[🧩 EE-Morphe Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ee-morphe-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ee-morphe-patch-bundles/ee-morphe-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ee-morphe-patch-bundles/ee-morphe-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ee-morphe-patch-bundles/ee-morphe-dev-patches-bundle.json```
+</details>
+
+---
 ### 📦 Hoo-dles-Patches-Bundle [Morphe]:
 [🧩 Hoo-dles Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hoo-dles-bundle-patch-list)
 <details>
@@ -1246,7 +1350,23 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [Forsyth47-Patches-Bundle](https://github.com/forsyth47/revanced-patches)
 
-#### 🏷️ [Brosssh-Patches-Bundle](https://github.com/brosssh/revanced-patches)
+#### 🏷️ [Brosssh-Patches-Bundle](https://github.com/brosssh/morphe-patches)
+
+#### 🏷️ [Quantro100-Patches-Bundle](https://github.com/Quantro100/Morphe-patches)
+
+#### 🏷️ [4831c0-Patches-Bundle](https://github.com/4831c0/custom-revanced-patches)
+
+#### 🏷️ [Chiggi-Patches-Bundle](https://github.com/durgesh0505/chiggi_morphe_patches)
+
+#### 🏷️ [Bakasura-Patches-Bundle](https://github.com/BakasuraRCE/bakasura-patches)
+
+#### 🏷️ [LaKaka-Patches-Bundle](https://github.com/LaKakaReal/LaKakaShitPatches)
+
+#### 🏷️ [LeeeeT-Patches-Bundle](https://github.com/LeeeeT/bt-keepalive-patch)
+
+#### 🏷️ [Vernoxvernax-Patches-Bundle](https://github.com/Vernoxvernax/revanced-patches)
+
+#### 🏷️ [EE-Morphe-Patches-Bundle](https://gitlab.com/early.egg3707/ee-morphe-patches)
 
 #### 🏷️ [Hoo-dles-Patches-Bundle](https://github.com/hoo-dles/revanced-custom-patches)
 
@@ -1271,7 +1391,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [AmpleReVanced-Patches-Bundle](https://github.com/AmpleReVanced/revanced-patches)
 
 #### 🏷️ [Liaralabs-Patches-Bundle](https://github.com/liaralabs/revanced-patches)
-
 
 #### 🏷️ [Morphe-Patches-Bundle](https://github.com/MorpheApp/morphe-patches)
 
@@ -1307,7 +1426,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [Paresh-Maheshwari-Patches-Bundle](https://gitlab.com/Paresh-Maheshwari/paresh-patches)
 
-
 #### 🏷️ [Binarymend-Patches-Bundle](https://github.com/binarymend/morphe-patches)
 
 #### 🏷️ [Polka-Bear-Patches-Bundle](https://github.com/polka-bear/morphe-patches)
@@ -1319,7 +1437,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Vladon-Patches-Bundle](https://github.com/vladon/morphe-patches-navi)
 
 #### 🏷️ [Ariecos-Patches-Bundle](https://github.com/ariecos/gemini-patches)
-
 
 #### 🏷️ [Alim-Zanibekov-Patches-Bundle](https://github.com/alim-zanibekov/ultrasandbox)
 
@@ -1336,8 +1453,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Abhis1n-Patches-Bundle](https://github.com/abhis1n/Morphe-Patches)
 
 #### 🏷️ [PawiX25-Patches-Bundle](https://github.com/PawiX25/pepper-revanced-patches)
-
-
 
 #### 🏷️ [Lynx6319-Patches-Bundle](https://github.com/Lynx6319/patch-youtube-scroll-block)
 
