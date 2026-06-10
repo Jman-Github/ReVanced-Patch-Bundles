@@ -1,19 +1,9 @@
 {
-    "version": "v1.5.0",
+    "version": "v1.5.1",
     "patches": [
         {
             "compatiblePackages": null,
-            "default": false,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Removes the $c<number> helper classes and reflection method-holder classes left by pairip.",
-            "name": "Remove extracted classes",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Restores obfuscated strings and removes pairip bytecode protection.",
             "name": "Remove pairip protection",
@@ -21,9 +11,9 @@
         },
         {
             "compatiblePackages": null,
-            "default": false,
+            "default": true,
             "dependencies": [],
-            "description": "Inlines methods hidden in $c<number> helper classes back into the host class.",
+            "description": "Inlines methods hidden in $c<number> helper classes back into the host class, then removes those helper and reflection method-holder classes.",
             "name": "Restore extracted methods",
             "options": []
         }

@@ -55,7 +55,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Chiggi](#-chiggi-bundle-patch-list) | 7 | 2 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 1 | 1 | Generated |
 | [EE-Morphe](#-ee-morphe-bundle-patch-list) | 10 | 4 | Generated |
-| [Piko-Shim](#-piko-shim-bundle-patch-list) | - | - | Pending patch list |
+| [Piko-Shim](#-piko-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Ravi07777](#-ravi07777-bundle-patch-list) | - | - | Pending patch list |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 74 | 49 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 81 | 6 | Generated |
@@ -97,7 +97,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 11 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
 | [Rushiranpise](#-rushiranpise-bundle-patch-list) | 27 | 18 | Generated |
-| [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 3 | 1 | Generated |
+| [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 2 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -1907,9 +1907,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Piko-Shim Bundle Patch List:
 [📦 Piko-Shim-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-shim-patches-bundle-morphe)
 <details>
-<summary><b>Piko-Shim</b> - pending patch list</summary>
+<summary><b>Piko-Shim</b> - 3 patches, 1 app</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Abstract shim layer``` | ```Adds an abstracted shim layer, which improves compatibility to allow legacy patches to work.``` | ```X``` | ```All versions``` |
+| ```Abstract shim layer for method``` | ```Adds an abstracted shim layer, which improves compatibility to allow legacy patches to work.``` | ```X``` | ```All versions``` |
+| ```Abstract shim layer for native library``` | ```Adds an abstracted shim layer, which improves compatibility to allow legacy patches to work.``` | ```X``` | ```All versions``` |
 
 </details>
 
@@ -3721,12 +3725,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Sjshb57-PairIP Bundle Patch List:
 [📦 Sjshb57-PairIP-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-sjshb57-pairip-patches-bundle-morphe)
 <details>
-<summary><b>Sjshb57-PairIP</b> - 3 patches, 1 app</summary>
+<summary><b>Sjshb57-PairIP</b> - 2 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Remove extracted classes``` | ```Removes the $c<number> helper classes and reflection method-holder classes left by pairip.``` | ```Universal``` | ```All versions``` |
 | ```Remove pairip protection``` | ```Restores obfuscated strings and removes pairip bytecode protection.``` | ```Universal``` | ```All versions``` |
-| ```Restore extracted methods``` | ```Inlines methods hidden in $c<number> helper classes back into the host class.``` | ```Universal``` | ```All versions``` |
+| ```Restore extracted methods``` | ```Inlines methods hidden in $c<number> helper classes back into the host class, then removes those helper and reflection method-holder classes.``` | ```Universal``` | ```All versions``` |
 
 </details>
