@@ -1,5 +1,5 @@
 {
-    "version": "v2.5.0-dev.1",
+    "version": "v2.6.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -131,6 +131,31 @@
                     "apkFileType": null,
                     "appIconColor": null,
                     "description": null,
+                    "name": "ATM Fee Saver",
+                    "packageName": "com.atmfee",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": "3.7.9"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": null,
+            "name": "Hide Location Permission Popup",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
                     "name": "Stellarium",
                     "packageName": "com.noctuasoftware.stellarium_free",
                     "signatures": null,
@@ -228,6 +253,31 @@
             "dependencies": [],
             "description": null,
             "name": "Unlock Plus",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "ATM Fee Saver",
+                    "packageName": "com.atmfee",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": "3.7.9"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": null,
+            "name": "Unlock Premium",
             "options": []
         },
         {
