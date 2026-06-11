@@ -52,7 +52,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 21 | 5 | Generated |
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
-| [Chiggi](#-chiggi-bundle-patch-list) | 7 | 2 | Generated |
+| [Chiggi](#-chiggi-bundle-patch-list) | 9 | 2 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 1 | 1 | Generated |
 | [EE-Morphe](#-ee-morphe-bundle-patch-list) | 10 | 4 | Generated |
 | [Piko-Shim](#-piko-shim-bundle-patch-list) | 3 | 1 | Generated |
@@ -1822,15 +1822,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Chiggi Bundle Patch List:
 [📦 Chiggi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-chiggi-patches-bundle-morphe)
 <details>
-<summary><b>Chiggi</b> - 7 patches, 2 apps</summary>
+<summary><b>Chiggi</b> - 9 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Auto skip intro and recap``` | ```Automatically skips the intro, recap and song segments as soon as the 'Skip' button would appear, without waiting for a tap.``` | ```SonyLIV``` | ```All versions``` |
+| ```Auto-skip Up Next``` | ```Plays the next episode immediately when the "Up Next" card appears, skipping the auto-play countdown.``` | ```SonyLIV``` | ```All versions``` |
 | ```Disable AppsFlyer tracking``` | ```Disables AppsFlyer attribution and event tracking. Other SDKs (CleverTap, Firebase Analytics/Crashlytics) are not affected by this patch.``` | ```SonyLIV``` | ```All versions``` |
 | ```Disable Firebase tracking``` | ```Disables Firebase Analytics, Crashlytics and Performance data collection via manifest flags. Push notifications are unaffected.``` | ```SonyLIV``` | ```All versions``` |
 | ```Disable forced update``` | ```Removes the forced ('immediate') and optional ('flexi') 'update available' popup shown on the home screen.``` | ```SonyLIV``` | ```All versions``` |
 | ```Remove video ads``` | ```Forces PlayerUtil.isAdEnable() to false so the player neither requests nor plays ads. Removes client-side (Google IMA) ads. Server-side stitched ads on some live content (MediaTailor/SSAI) may still appear.``` | ```SonyLIV``` | ```All versions``` |
+| ```Suppress geo / VPN block``` | ```Stops the dedicated "not available in your region" and "VPN detected" block screens by downgrading the geo/EPD block to a generic error. Geoblocking is enforced server-side by IP, so this does not grant access without a valid in-region IP (e.g. a working India connection).``` | ```SonyLIV``` | ```All versions``` |
 | ```Change app name``` | ```Changes the app name shown under the launcher icon. Set the desired name in the patch options.``` | ```Universal``` | ```All versions``` |
 | ```Change package name``` | ```Changes the app package name so the patched app installs alongside the original. Set the desired package name in the patch options. Changing the package name can cause unexpected issues with some app features.``` | ```Universal``` | ```All versions``` |
 

@@ -1,166 +1,216 @@
 {
-  "version": "v1.2.1",
-  "patches": [
-    {
-      "name": "Auto skip intro and recap",
-      "description": "Automatically skips the intro, recap and song segments as soon as the 'Skip' button would appear, without waiting for a tap.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
+    "version": "v1.3.0",
+    "patches": [
         {
-          "packageName": "com.sonyliv",
-          "name": "SonyLIV",
-          "description": null,
-          "apkFileType": "APKM",
-          "appIconColor": "#7460A4",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "6.23.1",
-              "isExperimental": false,
-              "minSdk": 22,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Change app name",
-      "description": "Changes the app name shown under the launcher icon. Set the desired name in the patch options.",
-      "default": false,
-      "dependencies": [],
-      "compatiblePackages": null,
-      "options": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#7460A4",
+                    "description": null,
+                    "name": "SonyLIV",
+                    "packageName": "com.sonyliv",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 22,
+                            "version": "6.23.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Automatically skips the intro, recap and song segments as soon as the 'Skip' button would appear, without waiting for a tap.",
+            "name": "Auto skip intro and recap",
+            "options": []
+        },
         {
-          "key": "appName",
-          "title": "App name",
-          "description": "The name shown under the app icon.",
-          "required": true,
-          "type": "kotlin.String",
-          "default": "Sony LIV",
-          "values": null
-        }
-      ]
-    },
-    {
-      "name": "Change package name",
-      "description": "Changes the app package name so the patched app installs alongside the original. Set the desired package name in the patch options. Changing the package name can cause unexpected issues with some app features.",
-      "default": false,
-      "dependencies": [],
-      "compatiblePackages": null,
-      "options": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#7460A4",
+                    "description": null,
+                    "name": "SonyLIV",
+                    "packageName": "com.sonyliv",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 22,
+                            "version": "6.23.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Plays the next episode immediately when the \"Up Next\" card appears, skipping the auto-play countdown.",
+            "name": "Auto-skip Up Next",
+            "options": []
+        },
         {
-          "key": "packageName",
-          "title": "Package name",
-          "description": "The new application package name (e.g. com.sonyliv.chiggi).",
-          "required": true,
-          "type": "kotlin.String",
-          "default": "com.sonyliv.chiggi",
-          "values": null
-        }
-      ]
-    },
-    {
-      "name": "Disable AppsFlyer tracking",
-      "description": "Disables AppsFlyer attribution and event tracking. Other SDKs (CleverTap, Firebase Analytics/Crashlytics) are not affected by this patch.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Changes the app name shown under the launcher icon. Set the desired name in the patch options.",
+            "name": "Change app name",
+            "options": [
+                {
+                    "default": "Sony LIV",
+                    "description": "The name shown under the app icon.",
+                    "key": "appName",
+                    "required": true,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
         {
-          "packageName": "com.sonyliv",
-          "name": "SonyLIV",
-          "description": null,
-          "apkFileType": "APKM",
-          "appIconColor": "#7460A4",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "6.23.1",
-              "isExperimental": false,
-              "minSdk": 22,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Disable Firebase tracking",
-      "description": "Disables Firebase Analytics, Crashlytics and Performance data collection via manifest flags. Push notifications are unaffected.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Changes the app package name so the patched app installs alongside the original. Set the desired package name in the patch options. Changing the package name can cause unexpected issues with some app features.",
+            "name": "Change package name",
+            "options": [
+                {
+                    "default": "com.sonyliv.chiggi",
+                    "description": "The new application package name (e.g. com.sonyliv.chiggi).",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
         {
-          "packageName": "com.sonyliv",
-          "name": "SonyLIV",
-          "description": null,
-          "apkFileType": "APKM",
-          "appIconColor": "#7460A4",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "6.23.1",
-              "isExperimental": false,
-              "minSdk": 22,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Disable forced update",
-      "description": "Removes the forced ('immediate') and optional ('flexi') 'update available' popup shown on the home screen.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#7460A4",
+                    "description": null,
+                    "name": "SonyLIV",
+                    "packageName": "com.sonyliv",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 22,
+                            "version": "6.23.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables AppsFlyer attribution and event tracking. Other SDKs (CleverTap, Firebase Analytics/Crashlytics) are not affected by this patch.",
+            "name": "Disable AppsFlyer tracking",
+            "options": []
+        },
         {
-          "packageName": "com.sonyliv",
-          "name": "SonyLIV",
-          "description": null,
-          "apkFileType": "APKM",
-          "appIconColor": "#7460A4",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "6.23.1",
-              "isExperimental": false,
-              "minSdk": 22,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Remove video ads",
-      "description": "Forces PlayerUtil.isAdEnable() to false so the player neither requests nor plays ads. Removes client-side (Google IMA) ads. Server-side stitched ads on some live content (MediaTailor/SSAI) may still appear.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#7460A4",
+                    "description": null,
+                    "name": "SonyLIV",
+                    "packageName": "com.sonyliv",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 22,
+                            "version": "6.23.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables Firebase Analytics, Crashlytics and Performance data collection via manifest flags. Push notifications are unaffected.",
+            "name": "Disable Firebase tracking",
+            "options": []
+        },
         {
-          "packageName": "com.sonyliv",
-          "name": "SonyLIV",
-          "description": null,
-          "apkFileType": "APKM",
-          "appIconColor": "#7460A4",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "6.23.1",
-              "isExperimental": false,
-              "minSdk": 22,
-              "description": null
-            }
-          ]
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#7460A4",
+                    "description": null,
+                    "name": "SonyLIV",
+                    "packageName": "com.sonyliv",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 22,
+                            "version": "6.23.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the forced ('immediate') and optional ('flexi') 'update available' popup shown on the home screen.",
+            "name": "Disable forced update",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#7460A4",
+                    "description": null,
+                    "name": "SonyLIV",
+                    "packageName": "com.sonyliv",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 22,
+                            "version": "6.23.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces PlayerUtil.isAdEnable() to false so the player neither requests nor plays ads. Removes client-side (Google IMA) ads. Server-side stitched ads on some live content (MediaTailor/SSAI) may still appear.",
+            "name": "Remove video ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#7460A4",
+                    "description": null,
+                    "name": "SonyLIV",
+                    "packageName": "com.sonyliv",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 22,
+                            "version": "6.23.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the dedicated \"not available in your region\" and \"VPN detected\" block screens by downgrading the geo/EPD block to a generic error. Geoblocking is enforced server-side by IP, so this does not grant access without a valid in-region IP (e.g. a working India connection).",
+            "name": "Suppress geo / VPN block",
+            "options": []
         }
-      ],
-      "options": []
-    }
-  ]
+    ]
 }
