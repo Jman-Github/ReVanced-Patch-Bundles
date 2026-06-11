@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -55,6 +55,31 @@
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#00A99D",
+                    "description": null,
+                    "name": "Medisafe",
+                    "packageName": "com.medisafe.android.client",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "9.50.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features including unlimited dependents, medfriends, custom ringtones and theme colors.",
+            "name": "Unlock Premium",
             "options": []
         },
         {

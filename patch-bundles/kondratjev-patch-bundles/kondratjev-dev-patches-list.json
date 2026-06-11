@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.1",
+    "version": "v1.4.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -23,11 +23,61 @@
             ]
         },
         {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#0077FF",
+                    "description": null,
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.103.0.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables all advertisements by forcing remote feature toggle reads to return false for all features. Note: this may affect other remote features as well.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.",
             "name": "Disable Pairip license check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#0077FF",
+                    "description": null,
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.103.0.3"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Enables the hidden in-app debug screen and other developer features by forcing local feature toggles to true.",
+            "name": "Enable debug menu",
             "options": []
         },
         {
@@ -55,6 +105,31 @@
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#00A99D",
+                    "description": null,
+                    "name": "Medisafe",
+                    "packageName": "com.medisafe.android.client",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "9.50.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features including unlimited dependents, medfriends, custom ringtones and theme colors.",
+            "name": "Unlock Premium",
             "options": []
         },
         {

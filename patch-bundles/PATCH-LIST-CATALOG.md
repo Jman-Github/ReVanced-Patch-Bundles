@@ -58,7 +58,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Piko-Shim](#-piko-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
-| [Kondratjev](#-kondratjev-bundle-patch-list) | 4 | 3 | Generated |
+| [Kondratjev](#-kondratjev-bundle-patch-list) | 7 | 5 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 74 | 49 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 81 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 114 | 4 | Generated |
@@ -1965,12 +1965,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kondratjev Bundle Patch List:
 [📦 Kondratjev-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kondratjev-patches-bundle-morphe)
 <details>
-<summary><b>Kondratjev</b> - 4 patches, 3 apps</summary>
+<summary><b>Kondratjev</b> - 7 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Lyfta``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium features including unlimited dependents, medfriends, custom ringtones and theme colors.``` | ```Medisafe``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium features and removes ads by forcing subscription state to always be active.``` | ```Pillo``` | ```All versions``` |
+| ```Disable ads``` | ```Disables all advertisements by forcing remote feature toggle reads to return false for all features. Note: this may affect other remote features as well.``` | ```RuStore``` | ```All versions``` |
+| ```Enable debug menu``` | ```Enables the hidden in-app debug screen and other developer features by forcing local feature toggles to true.``` | ```RuStore``` | ```All versions``` |
 | ```Change version code``` | ```Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
 
