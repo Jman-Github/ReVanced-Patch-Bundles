@@ -56,7 +56,6 @@ jobs:
           python -m pip install -r requirements.txt
           python scripts/generate_bundles.py
         working-directory: ${{ github.workspace }}
-        continue-on-error: true
 
       - name: Grant execute permission
         run: chmod +x ./bundle-parser/gradlew
@@ -116,7 +115,8 @@ jobs:
             changed_files="$(git show --name-only --pretty='' HEAD -- '*.json' patch-bundles/PATCH-LIST-CATALOG.md)"
           fi
           if [ -z "$changed_files" ]; then
-            echo "changed_files=" >> "$GITHUB_ENV"
+            echo "::error::Committed changes, but no changed patch-bundle files were detected."
+            exit 1
           else
             printf "%s\n" "$changed_files" > changed_files.txt
             echo "changed_files=changed_files.txt" >> "$GITHUB_ENV"

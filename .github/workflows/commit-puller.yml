@@ -11,6 +11,19 @@ jobs:
   get-artifact:
     runs-on: ubuntu-latest
     steps:
+      - name: Require "Patch bundle updater" to have succeeded
+        if: ${{ github.event_name == 'workflow_run' }}
+        shell: bash
+        run: |
+          echo "Triggered by workflow_run:"
+          echo "  name='${{ github.event.workflow_run.name }}'"
+          echo "  id='${{ github.event.workflow_run.id }}'"
+          echo "  conclusion='${{ github.event.workflow_run.conclusion }}'"
+          if [ "${{ github.event.workflow_run.conclusion }}" != "success" ]; then
+            echo "::error::Patch bundle updater workflow did not succeed (conclusion='${{ github.event.workflow_run.conclusion }}')."
+            exit 1
+          fi
+
       - name: Download changed files from triggering run
         if: ${{ github.event_name == 'workflow_run' }}
         id: download_changed_files
@@ -62,17 +75,22 @@ jobs:
       - name: Verify artifact presence
         if: ${{ github.event_name == 'workflow_run' }}
         id: verify_artifact
+        shell: bash
         run: |
-          if [ -s "ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt" ]; then
+          changed_files="$(find ReVanced-Patch-Bundles/patch_bundle_updater_artifact -type f -name changed_files.txt -size +0c -print -quit 2>/dev/null || true)"
+          if [ -n "$changed_files" ]; then
             echo "has_artifact=true" >> "$GITHUB_OUTPUT"
+            echo "changed_files=$changed_files" >> "$GITHUB_OUTPUT"
+            echo "Found changed files artifact: $changed_files"
           else
             echo "has_artifact=false" >> "$GITHUB_OUTPUT"
+            echo "changed_files=" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Stop (no artifact for this run)
         if: ${{ github.event_name == 'workflow_run' && steps.verify_artifact.outputs.has_artifact != 'true' }}
         run: |
-          echo "No 'changed_files' artifact found for the triggering run. Exiting without error."
+          echo "No 'changed_files' artifact found for the triggering run. There were no patch-bundle changes to notify."
           exit 0
 
       - name: Try to read explicit commit SHA from artifact

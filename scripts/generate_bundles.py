@@ -72,6 +72,7 @@ if GITLAB_TOKEN:
 
 MAX_RETRIES = 5
 RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
+SKIPPABLE_SOURCE_STATUS_CODES = {404, 410, 451}
 HTTP_TIMEOUT = Timeout(connect=10.0, read=30.0, write=10.0, pool=30.0)
 MAX_CONCURRENCY = int(os.getenv("GITHUB_API_CONCURRENCY", "6"))
 HTTP_SEMAPHORE = asyncio.Semaphore(MAX_CONCURRENCY)
@@ -382,6 +383,13 @@ async def fetch_release_data(
             BUNDLE_METADATA[source] = metadata_entry
         return True
     except HTTPStatusError as exc:
+        status_code = exc.response.status_code
+        if status_code in SKIPPABLE_SOURCE_STATUS_CODES:
+            print(
+                f"Skipping {source}: release data unavailable "
+                f"({status_code}) for {exc.request.url}"
+            )
+            return None
         print(f"Error in fetch_release_data for {source}: {exc}")
         return False
     except Exception as exc:
