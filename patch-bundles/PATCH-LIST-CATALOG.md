@@ -38,6 +38,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [LoV432](#-lov432-bundle-patch-list) | 1 | 1 | Generated |
 | [Alim-zanibekov](#-alim-zanibekov-bundle-patch-list) | 1 | 1 | Generated |
 | [Daboynb](#-daboynb-bundle-patch-list) | 1 | 1 | Generated |
+| [MojiRS-RIF](#-mojirs-rif-bundle-patch-list) | - | - | Pending patch list |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -3540,5 +3541,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```Remove pairip protection``` | ```Restores obfuscated strings and removes pairip bytecode protection.``` | ```Universal``` | ```All versions``` |
 | ```Restore extracted methods``` | ```Inlines methods hidden in $c<number> helper classes back into the host class, then removes those helper and reflection method-holder classes.``` | ```Universal``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 MojiRS-RIF Bundle Patch List:
+[📦 MojiRS-RIF-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-mojirs-rif-patches-bundle-api-v4)
+<details>
+<summary><b>MojiRS-RIF</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
 
 </details>

@@ -1303,6 +1303,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+### 📦 MojiRS-RIF-Patches-Bundle [API v4]:
+[🧩 MojiRS-RIF Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-mojirs-rif-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/mojirs-rif-patch-bundles/mojirs-rif-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/mojirs-rif-patch-bundles/mojirs-rif-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/mojirs-rif-patch-bundles/mojirs-rif-dev-patches-bundle.json```
+</details>
+
+---
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -1512,6 +1525,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Rushiranpise-Patches-Bundle](https://github.com/rushiranpise/morphe-patches)
 
 #### 🏷️ [Sjshb57-PairIP-Patches-Bundle](https://github.com/sjshb57/pairip-patches)
+
+#### 🏷️ [MojiRS-RIF-Patches-Bundle](https://github.com/MojiRS/revanced-rif-patches)
 
 
 </details>
