@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.8",
+    "version": "v1.6.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -330,6 +330,56 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#FF6B35",
+                    "description": null,
+                    "name": "Proxyman",
+                    "packageName": "com.proxyman.proxymanandroid",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all Lifetime features in Proxyman.",
+            "name": "Unlock Lifetime",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF4B00",
+                    "description": null,
+                    "name": "SHAREit Premium",
+                    "packageName": "shareit.premium",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks SHAREit lifetime premium.",
+            "name": "Unlock Lifetime",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#E53935",
                     "description": null,
                     "name": "Call Recorder - Automatic",
@@ -423,6 +473,31 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks premium in Beta by Mirko.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1565C0",
+                    "description": null,
+                    "name": "NetMonster",
+                    "packageName": "cz.mroczis.netmonster",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -690,7 +765,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.0.3"
+                            "version": null
                         }
                     ]
                 }

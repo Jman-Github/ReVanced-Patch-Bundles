@@ -1,6 +1,77 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.4.0-dev.6",
     "patches": [
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.",
+            "name": "Change version code",
+            "options": [
+                {
+                    "default": "2147483647",
+                    "description": "The version code to use. (1 ~ 2147483647)",
+                    "key": "versionCode",
+                    "required": true,
+                    "title": "Version code",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Highest": "2147483647",
+                        "Lowest": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#0077FF",
+                    "description": null,
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.103.0.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables all advertisements (banners, native ads, MyTarget, SSP, VKR) by blocking the ad repository at the data source.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#0077FF",
+                    "description": null,
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.103.0.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the Kaspersky-powered periodic device scan. The scan checks all files for vulnerabilities and runs daily in the background. This patch forces the feature off regardless of the stored user preference.",
+            "name": "Disable background scan",
+            "options": []
+        },
         {
             "compatiblePackages": null,
             "default": false,
@@ -34,6 +105,81 @@
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#0077FF",
+                    "description": null,
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.103.0.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips the authorization modal when tapping \"Update all\" or individual update buttons. The update will proceed without requiring login. If the update API requires auth tokens, the download will fail gracefully.",
+            "name": "Skip update auth",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#0077FF",
+                    "description": null,
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.103.0.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents the notification permission banner from appearing on settings and update screens. The \"Enable notifications?\" prompt will no longer pop up. System notification permission can still be toggled manually in Android Settings → Apps → RuStore.",
+            "name": "Suppress notification banner",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#00A99D",
+                    "description": null,
+                    "name": "Medisafe",
+                    "packageName": "com.medisafe.android.client",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "9.50.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features including unlimited dependents, medfriends, custom ringtones and theme colors.",
+            "name": "Unlock Premium",
             "options": []
         },
         {
