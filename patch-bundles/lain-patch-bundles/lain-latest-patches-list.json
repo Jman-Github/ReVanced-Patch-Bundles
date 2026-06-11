@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.1",
+    "version": "v1.1.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -149,6 +149,31 @@
             "dependencies": [],
             "description": "Unlock higher resolutions that limited by the app.",
             "name": "Higher Video Resolution",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#3FA2E4",
+                    "description": null,
+                    "name": "PixelLab",
+                    "packageName": "com.imaginstudio.imagetools.pixellab",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock 'Remove Ads' premium feature.",
+            "name": "Unlock Premium",
             "options": []
         }
     ]

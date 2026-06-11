@@ -38,13 +38,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [LoV432](#-lov432-bundle-patch-list) | 1 | 1 | Generated |
 | [Alim-zanibekov](#-alim-zanibekov-bundle-patch-list) | 1 | 1 | Generated |
 | [Daboynb](#-daboynb-bundle-patch-list) | 1 | 1 | Generated |
-| [MojiRS-RIF](#-mojirs-rif-bundle-patch-list) | - | - | Pending patch list |
+| [MojiRS-RIF](#-mojirs-rif-bundle-patch-list) | 2 | 1 | Generated |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
-| [Lain](#-lain-bundle-patch-list) | 6 | 3 | Generated |
+| [Lain](#-lain-bundle-patch-list) | 7 | 4 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 119 | 2 | Generated |
@@ -58,7 +58,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Piko-Shim](#-piko-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
-| [Kondratjev](#-kondratjev-bundle-patch-list) | 3 | 3 | Generated |
+| [Kondratjev](#-kondratjev-bundle-patch-list) | 4 | 3 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 74 | 49 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 81 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 114 | 4 | Generated |
@@ -598,7 +598,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Lain Bundle Patch List:
 [📦 Lain-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lain-patches-bundle-morphe)
 <details>
-<summary><b>Lain</b> - 6 patches, 3 apps</summary>
+<summary><b>Lain</b> - 7 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -608,6 +608,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Higher Image Resolution``` | ```Unlock higher image resolutions that the device support.``` | ```Camera FV-5 Lite``` | ```All versions``` |
 | ```Fix Camera Mode Intent``` | ```Fix opening Camera FV-5 Lite when entering camera mode.``` | ```Cinema FV-5 Lite``` | ```All versions``` |
 | ```Higher Video Resolution``` | ```Unlock higher resolutions that limited by the app.``` | ```Cinema FV-5 Lite``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlock 'Remove Ads' premium feature.``` | ```PixelLab``` | ```All versions``` |
 
 </details>
 
@@ -1964,12 +1965,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kondratjev Bundle Patch List:
 [📦 Kondratjev-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kondratjev-patches-bundle-morphe)
 <details>
-<summary><b>Kondratjev</b> - 3 patches, 3 apps</summary>
+<summary><b>Kondratjev</b> - 4 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Lyfta``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium features and removes ads by forcing subscription state to always be active.``` | ```Pillo``` | ```All versions``` |
+| ```Change version code``` | ```Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
 
 </details>
@@ -3548,8 +3550,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 MojiRS-RIF Bundle Patch List:
 [📦 MojiRS-RIF-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-mojirs-rif-patches-bundle-api-v4)
 <details>
-<summary><b>MojiRS-RIF</b> - pending patch list</summary>
+<summary><b>MojiRS-RIF</b> - 2 patches, 1 app</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this source._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable ads``` | ```Removes AppLovin native feed ads, banner ads, and image-viewer ads from rif is fun.``` | ```com.andrewshu.android.reddit``` | ```All versions``` |
+| ```Inline comment images``` | ```Renders direct image links in comments as embedded inline images.``` | ```com.andrewshu.android.reddit``` | ```All versions``` |
 
 </details>
