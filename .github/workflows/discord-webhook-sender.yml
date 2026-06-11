@@ -79,35 +79,82 @@ jobs:
           path: ReVanced-Patch-Bundles/commit_puller_artifact
           if_no_artifact_found: ignore
 
-      - name: Verify commit link artifact
-        if: ${{ github.event_name == 'workflow_run' }}
-        id: verify_commit_link
+      - name: Verify webhook artifacts
+        id: verify_webhook_artifacts
+        shell: bash
         run: |
-          if [ ! -s "ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt" ]; then
-            echo "No commit-link artifact found for the triggering Commit puller run. Exiting without notification."
-            echo "has_commit_link=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "has_commit_link=true" >> "$GITHUB_OUTPUT"
+          find_first() {
+            local root="$1"
+            local name="$2"
+            find "$root" -type f -name "$name" -size +0c -print -quit 2>/dev/null || true
+          }
+
+          commit_link="$(find_first "ReVanced-Patch-Bundles/commit_puller_artifact" "commit-link.txt")"
+          changes_file="$(find_first "ReVanced-Patch-Bundles/patch_bundle_updater_artifact" "changed_files.txt")"
+          summary_file="$(find_first "ReVanced-Patch-Bundles/patch_bundle_updater_artifact" "updated-bundles.txt")"
+          changelog_file="$(find_first "ReVanced-Patch-Bundles/patch_bundle_updater_artifact" "bundle-changelog.md")"
+
+          has_commit_link=false
+          has_payload=false
+          if [ -n "$commit_link" ]; then
+            has_commit_link=true
+          fi
+          if [ -n "$changes_file" ] || [ -n "$summary_file" ] || [ -n "$changelog_file" ]; then
+            has_payload=true
+          fi
+          ready=false
+          if [ "$has_commit_link" = true ] && [ "$has_payload" = true ]; then
+            ready=true
           fi
 
+          {
+            echo "has_commit_link=$has_commit_link"
+            echo "has_payload=$has_payload"
+            echo "ready=$ready"
+          } >> "$GITHUB_OUTPUT"
+
+          echo "commit-link: ${commit_link:-missing}"
+          echo "changed files: ${changes_file:-missing}"
+          echo "updated bundles: ${summary_file:-missing}"
+          echo "bundle changelog: ${changelog_file:-missing}"
+
+      - name: Stop (missing webhook artifacts)
+        if: ${{ steps.verify_webhook_artifacts.outputs.ready != 'true' }}
+        run: |
+          echo "Missing commit-link or patch bundle update data artifacts. Skipping Discord notification to avoid an empty embed."
+
       - name: Debug — list what we have
-        if: ${{ github.event_name != 'workflow_run' || steps.verify_commit_link.outputs.has_commit_link == 'true' }}
+        if: ${{ steps.verify_webhook_artifacts.outputs.ready == 'true' }}
         run: |
           echo "=== Workspace tree ==="
           ls -R
 
       - name: Build embed description
-        if: ${{ github.event_name != 'workflow_run' || steps.verify_commit_link.outputs.has_commit_link == 'true' }}
+        if: ${{ steps.verify_webhook_artifacts.outputs.ready == 'true' }}
         id: set_changes
         run: |
           python3 - <<'PY'
           import os
+          from pathlib import Path
 
           def pick_exact(path):
               try:
                   return path if os.path.isfile(path) and os.path.getsize(path) > 0 else None
               except OSError:
                   return None
+
+          def pick_artifact(root, filename):
+              exact = pick_exact(str(Path(root) / filename))
+              if exact:
+                  return exact
+              matches = [
+                  path for path in Path(root).rglob(filename)
+                  if path.is_file() and path.stat().st_size > 0
+              ]
+              if not matches:
+                  return None
+              matches.sort(key=lambda path: (len(path.parts), str(path)))
+              return str(matches[0])
 
           def read_trimmed(path):
               if not path:
@@ -164,10 +211,10 @@ jobs:
               trimmed.append('...')
               return '\n'.join(trimmed)
 
-          changes_file = pick_exact('ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt')
-          summary_file = pick_exact('ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt')
-          changelog_file = pick_exact('ReVanced-Patch-Bundles/patch_bundle_updater_artifact/bundle-changelog.md')
-          commit_file  = pick_exact('ReVanced-Patch-Bundles/commit_puller_artifact/commit-link.txt')
+          changes_file = pick_artifact('ReVanced-Patch-Bundles/patch_bundle_updater_artifact', 'changed_files.txt')
+          summary_file = pick_artifact('ReVanced-Patch-Bundles/patch_bundle_updater_artifact', 'updated-bundles.txt')
+          changelog_file = pick_artifact('ReVanced-Patch-Bundles/patch_bundle_updater_artifact', 'bundle-changelog.md')
+          commit_file = pick_artifact('ReVanced-Patch-Bundles/commit_puller_artifact', 'commit-link.txt')
 
           changes = read_trimmed(changes_file)
           summary = read_trimmed(summary_file)
@@ -175,17 +222,19 @@ jobs:
           commit  = read_trimmed(commit_file)
 
           formatted_changes = shorten_paths(changes) if changes else ''
-          changes_text = formatted_changes if formatted_changes.strip() else 'N/A'
-          summary_text = summary if summary else 'N/A'
+          changes_text = formatted_changes.strip()
+          summary_text = summary.strip()
           changelog_text = trim_lines(changelog, max_lines=18) if changelog else ''
 
-          changes_section = f"**Changes:**\n```\n{changes_text}\n```"
-          summary_section = f"**Summary:**\n```\n{summary_text}\n```"
+          if not (changes_text or summary_text or changelog_text):
+              raise SystemExit('No non-empty update artifacts found; refusing to send an empty Discord embed.')
 
           parts = []
           parts.append("Patch-bundle.json file(s) have been successfully updated by the [Patch Bundle Updater Workflow](https://github.com/Jman-Github/ReVanced-Patch-Bundles/actions/workflows/patch-bundle-updater.yml).")
-          parts.append(changes_section)
-          parts.append(summary_section)
+          if changes_text:
+              parts.append(f"**Changes:**\n```\n{changes_text}\n```")
+          if summary_text:
+              parts.append(f"**Summary:**\n```\n{summary_text}\n```")
           if changelog_text:
               parts.append(f"**Changelog:**\n```\n{changelog_text}\n```")
           if commit.strip():
@@ -203,7 +252,7 @@ jobs:
           PY
 
       - name: Send Discord Notification
-        if: ${{ github.event_name != 'workflow_run' || steps.verify_commit_link.outputs.has_commit_link == 'true' }}
+        if: ${{ steps.verify_webhook_artifacts.outputs.ready == 'true' }}
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
           EMBED_DESCRIPTION: ${{ steps.set_changes.outputs.embed_description }}

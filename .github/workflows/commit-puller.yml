@@ -124,19 +124,34 @@ jobs:
           name: commit-link
           path: commit-link.txt
 
+      - name: Stage Discord webhook artifacts
+        if: ${{ github.event_name == 'workflow_run' && steps.verify_artifact.outputs.has_artifact == 'true' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          source_dir="ReVanced-Patch-Bundles/patch_bundle_updater_artifact"
+          dest_dir="ReVanced-Patch-Bundles/webhook_artifacts"
+          mkdir -p "$dest_dir"
+          cp "$source_dir/changed_files.txt" "$dest_dir/changed_files.txt"
+          for name in updated-bundles.txt bundle-changelog.md; do
+            if [ -s "$source_dir/$name" ]; then
+              cp "$source_dir/$name" "$dest_dir/$name"
+            fi
+          done
+
       - name: Pass through changed files artifact
         if: ${{ github.event_name == 'workflow_run' && steps.verify_artifact.outputs.has_artifact == 'true' }}
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: changed_files
-          path: ReVanced-Patch-Bundles/patch_bundle_updater_artifact/changed_files.txt
+          path: ReVanced-Patch-Bundles/webhook_artifacts/changed_files.txt
 
       - name: Pass through updated bundles artifact
         if: ${{ github.event_name == 'workflow_run' && steps.verify_artifact.outputs.has_artifact == 'true' }}
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: updated_bundles
-          path: ReVanced-Patch-Bundles/patch_bundle_updater_artifact/updated-bundles.txt
+          path: ReVanced-Patch-Bundles/webhook_artifacts/updated-bundles.txt
           if-no-files-found: ignore
 
       - name: Pass through bundle changelog artifact
@@ -144,5 +159,5 @@ jobs:
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: bundle_changelog
-          path: ReVanced-Patch-Bundles/patch_bundle_updater_artifact/bundle-changelog.md
+          path: ReVanced-Patch-Bundles/webhook_artifacts/bundle-changelog.md
           if-no-files-found: ignore
