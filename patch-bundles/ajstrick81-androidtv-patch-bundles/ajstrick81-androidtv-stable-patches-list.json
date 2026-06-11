@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.55",
+    "version": "v1.4.56",
     "patches": [
         {
             "compatibility": [
@@ -206,7 +206,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Prevents server-side inserted ads from playing in the video stream.",
+            "description": "Prevents server-side inserted ads from playing by intercepting both the ad schedule and the segment delivery layer.",
             "name": "Skip ads",
             "options": [],
             "use": true

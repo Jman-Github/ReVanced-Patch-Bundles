@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.6",
+    "version": "v1.5.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -130,31 +130,6 @@
             "dependencies": [],
             "description": "Skips the authorization modal when tapping \"Update all\" or individual update buttons. The update will proceed without requiring login. If the update API requires auth tokens, the download will fail gracefully.",
             "name": "Skip update auth",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#0077FF",
-                    "description": null,
-                    "name": "RuStore",
-                    "packageName": "ru.vk.store",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.103.0.3"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Prevents the notification permission banner from appearing on settings and update screens. The \"Enable notifications?\" prompt will no longer pop up. System notification permission can still be toggled manually in Android Settings → Apps → RuStore.",
-            "name": "Suppress notification banner",
             "options": []
         },
         {

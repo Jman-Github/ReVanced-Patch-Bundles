@@ -58,7 +58,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Piko-Shim](#-piko-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
-| [Kondratjev](#-kondratjev-bundle-patch-list) | 9 | 5 | Generated |
+| [Kondratjev](#-kondratjev-bundle-patch-list) | 8 | 5 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 74 | 49 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 81 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 114 | 4 | Generated |
@@ -1965,7 +1965,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kondratjev Bundle Patch List:
 [📦 Kondratjev-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kondratjev-patches-bundle-morphe)
 <details>
-<summary><b>Kondratjev</b> - 9 patches, 5 apps</summary>
+<summary><b>Kondratjev</b> - 8 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1975,7 +1975,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable ads``` | ```Disables all advertisements (banners, native ads, MyTarget, SSP, VKR) by blocking the ad repository at the data source.``` | ```RuStore``` | ```All versions``` |
 | ```Disable background scan``` | ```Disables the Kaspersky-powered periodic device scan. The scan checks all files for vulnerabilities and runs daily in the background. This patch forces the feature off regardless of the stored user preference.``` | ```RuStore``` | ```All versions``` |
 | ```Skip update auth``` | ```Skips the authorization modal when tapping "Update all" or individual update buttons. The update will proceed without requiring login. If the update API requires auth tokens, the download will fail gracefully.``` | ```RuStore``` | ```All versions``` |
-| ```Suppress notification banner``` | ```Prevents the notification permission banner from appearing on settings and update screens. The "Enable notifications?" prompt will no longer pop up. System notification permission can still be toggled manually in Android Settings → Apps → RuStore.``` | ```RuStore``` | ```All versions``` |
 | ```Change version code``` | ```Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
 
@@ -3452,7 +3451,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
-| ```Skip ads``` | ```Prevents server-side inserted ads from playing in the video stream.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
+| ```Skip ads``` | ```Prevents server-side inserted ads from playing by intercepting both the ad schedule and the segment delivery layer.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Paramount+ Android TV``` | ```Removes pause ads, pre-roll ads, and mid-roll ads.``` | ```com.cbs.ott``` | ```16.12.0``` |
 | ```Disney+ Android TV``` | ```Removes mid-roll / pre-roll ads and pause ads.``` | ```com.disney.disneyplus``` | ```26.8.0+rc6-2026.05.20``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox One Android TV.``` | ```com.fox.foxone``` | ```1.9.2``` |
