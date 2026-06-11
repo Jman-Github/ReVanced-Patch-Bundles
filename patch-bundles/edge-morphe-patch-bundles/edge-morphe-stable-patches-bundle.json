@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-06-06T06:45:48",
-  "description": "# [1.31.0](https://github.com/quantavil/edge-morphe-patches/compare/v1.30.1...v1.31.0) (2026-06-06)\n\n\n### Bug Fixes\n\n* remove 'v' prefix from version in patches-list.json ([4a6e42c](https://github.com/quantavil/edge-morphe-patches/commit/4a6e42c5cf5cda86a8cac64758314d4e4db2203f))\n* remove Zulu 'Z' suffix from created_at in patches-bundle.json ([3d17500](https://github.com/quantavil/edge-morphe-patches/commit/3d17500533f7ce12e44fa164db7a6a4d8a9f85fe))\n* resolve readme table formatting and clean up memory file structure ([afe685d](https://github.com/quantavil/edge-morphe-patches/commit/afe685d087f8d86a3058034320897427b4042b5b))\n\n\n### Features\n\n* add version synchronization script and update project metadata and documentation ([d848bc8](https://github.com/quantavil/edge-morphe-patches/commit/d848bc81b679b7fbd409dde6db4d1d6405d48d28))\n\n\n\n",
-  "download_url": "https://github.com/quantavil/edge-morphe-patches/releases/download/v1.31.0/patches-1.31.0.mpp",
+  "created_at": "2026-06-11T08:29:13",
+  "description": "# [1.32.0](https://github.com/quantavil/edge-morphe-patches/compare/v1.31.0...v1.32.0) (2026-06-11)\r\n\r\n  v1.32.0\r\n\r\n  ## \ud83d\ude80 What's New\r\n\r\n  ### \ud83d\udce6 Edge Base APK Upgrade\r\n\r\n  \u2022 Upgraded the base support APK from  148.0.3967.97  to  149.0.4022.53  ( com.microsoft.emmx ).\r\n  \u2022 Added target  149  to  EdgeCompatibility  configurations, ensuring full compatibility for all patches.\r\n\r\n  ### \ud83d\udee1\ufe0f Telemetry Patch Optimization\r\n\r\n  \u2022 Refactored [TelemetryEliminationPatch.kt](file:///home/quantavil/Documents/Project/edge-morphe-patches/patches/src/main/kotlin/app/morphe/patches/all/misc/telemetry/TelemetryEliminationPatch.kt) to use the cleaner, modern  matchAllMethodIndicesForEach  API.\r\n  \u2022 Replaced the manual 20-line fingerprint instruction iteration block with a streamlined 3-line pattern.\r\n  \u2022 Cleaned up unused imports ( Fingerprint ,  ReferenceInstruction ,  StringReference ).\r\n\r\n\r\n",
+  "download_url": "https://github.com/quantavil/edge-morphe-patches/releases/download/v1.32.0/patches-1.32.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.31.0"
+  "version": "v1.32.0"
 }
