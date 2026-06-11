@@ -24,6 +24,9 @@ jobs:
             exit 1
           fi
 
+      - name: Checkout repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
       - name: Download changed files from triggering run
         if: ${{ github.event_name == 'workflow_run' }}
         id: download_changed_files
@@ -109,10 +112,6 @@ jobs:
             fi
           fi
           echo "No explicit commit_sha.txt found (will search by time window)."
-
-      - name: Checkout repository
-        if: ${{ github.event_name != 'workflow_run' || steps.verify_artifact.outputs.has_artifact == 'true' }}
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
       - name: Install dependencies
         if: ${{ github.event_name != 'workflow_run' || steps.verify_artifact.outputs.has_artifact == 'true' }}
