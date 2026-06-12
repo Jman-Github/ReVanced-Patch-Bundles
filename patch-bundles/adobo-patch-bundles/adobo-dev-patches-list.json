@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.4",
+    "version": "v1.2.0-dev.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -333,6 +333,35 @@
             ],
             "description": "Disables the horizontal page swipe gesture used to switch feeds.",
             "name": "Disable home feed swipe",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Disables the automatic redirect to the home screen after being away from the app or returning from the background.",
+            "name": "Disable home screen redirect",
             "options": []
         },
         {
