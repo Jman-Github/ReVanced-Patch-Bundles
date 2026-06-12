@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.1",
+    "version": "v1.5.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -70,6 +70,56 @@
             "dependencies": [],
             "description": "Disables the Kaspersky-powered periodic device scan. The scan checks all files for vulnerabilities and runs daily in the background. This patch forces the feature off regardless of the stored user preference.",
             "name": "Disable background scan",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#0077FF",
+                    "description": null,
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.103.0.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the Game Center profile screen (game usage statistics) by blocking navigation from the Mine screen. Both MineViewModel (V1) and MineV2ViewModel (V2/V3) navigation to GameCenterStatsDestination is disabled. The 'Game Profile' menu item will no longer open the gaming statistics screen.",
+            "name": "Disable gaming profile",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#0077FF",
+                    "description": null,
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.103.0.3"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Forces the app to use the original V1 Mine screen by disabling the Mine V2/V3 redesign feature toggle. The `featureMineRedesignV3Enabled` remote toggle is intercepted before it can update the navigation tab state, so the app always falls back to the classic MineViewModel/MineScreen layout. The V2/V3 redesigned UI with the profile menu, Connect integration, and restructured layout is suppressed.",
+            "name": "Disable Mine redesign",
             "options": []
         },
         {
