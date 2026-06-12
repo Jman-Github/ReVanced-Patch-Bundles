@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -160,6 +160,31 @@
             "dependencies": [],
             "description": "Removes the forced ('immediate') and optional ('flexi') 'update available' popup shown on the home screen.",
             "name": "Disable forced update",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#7460A4",
+                    "description": null,
+                    "name": "SonyLIV",
+                    "packageName": "com.sonyliv",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 22,
+                            "version": "6.23.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the CleverTap-driven subscribe/premium promo banners and promo trays on the home screen. Content rows and CleverTap pop-ups/overlays are not affected.",
+            "name": "Hide promo banners",
             "options": []
         },
         {

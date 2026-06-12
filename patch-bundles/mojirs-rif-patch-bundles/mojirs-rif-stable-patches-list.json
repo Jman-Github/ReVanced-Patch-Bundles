@@ -1,11 +1,13 @@
 {
-    "version": "v1.0.9",
+    "version": "v1.0.11",
     "patches": [
         {
             "compatiblePackages": {
                 "com.andrewshu.android.reddit": null
             },
-            "dependencies": [],
+            "dependencies": [
+                "Patch"
+            ],
             "description": "Removes AppLovin native feed ads, banner ads, and image-viewer ads from rif is fun.",
             "name": "Disable ads",
             "options": [],
@@ -15,8 +17,10 @@
             "compatiblePackages": {
                 "com.andrewshu.android.reddit": null
             },
-            "dependencies": [],
-            "description": "Renders direct image links in comments as embedded inline images.",
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Renders direct image links in comments as embedded inline images (static + animated GIFs).",
             "name": "Inline comment images",
             "options": [],
             "use": true
