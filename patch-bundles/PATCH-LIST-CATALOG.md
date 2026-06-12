@@ -58,7 +58,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Piko-Shim](#-piko-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
-| [Kondratjev](#-kondratjev-bundle-patch-list) | 10 | 5 | Generated |
+| [Kondratjev](#-kondratjev-bundle-patch-list) | 12 | 5 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 74 | 49 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 81 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 114 | 4 | Generated |
@@ -1968,7 +1968,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kondratjev Bundle Patch List:
 [📦 Kondratjev-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kondratjev-patches-bundle-morphe)
 <details>
-<summary><b>Kondratjev</b> - 10 patches, 5 apps</summary>
+<summary><b>Kondratjev</b> - 12 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1979,8 +1979,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable background scan``` | ```Disables the periodic Kaspersky background device scan.``` | ```RuStore``` | ```All versions``` |
 | ```Disable gaming profile``` | ```Removes the Game Profile section from the Mine screen, including the button and the usage statistics screen.``` | ```RuStore``` | ```All versions``` |
 | ```Disable Mine redesign``` | ```Reverts the Mine screen to the classic layout, disabling the redesigned V2/V3 interface.``` | ```RuStore``` | ```All versions``` |
+| ```Disable RuStore analytics``` | ```Disables VK-specific analytics in RuStore, including AltCraft event tracking and Radar device telemetry.``` | ```RuStore``` | ```All versions``` |
 | ```Skip update auth``` | ```Removes the login requirement when updating apps.``` | ```RuStore``` | ```All versions``` |
 | ```Change version code``` | ```Changes the app version code, allowing installation over existing versions.``` | ```Universal``` | ```All versions``` |
+| ```Disable analytics``` | ```Disables analytics and tracking from multiple SDKs, including AppMetrica, MyTracker, Firebase, Sentry, Google Analytics, Amplitude, Mixpanel, Adjust, and AppsFlyer.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables the Pairip license verification check.``` | ```Universal``` | ```All versions``` |
 
 </details>

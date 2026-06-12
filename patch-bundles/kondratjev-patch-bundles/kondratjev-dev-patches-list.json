@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.4",
+    "version": "v1.6.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -45,6 +45,16 @@
             "dependencies": [],
             "description": "Removes all advertisements from the app.",
             "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables analytics and tracking from multiple SDKs, including AppMetrica, MyTracker, Firebase, Sentry, Google Analytics, Amplitude, Mixpanel, Adjust, and AppsFlyer.",
+            "name": "Disable analytics",
             "options": []
         },
         {
@@ -128,6 +138,33 @@
             "dependencies": [],
             "description": "Disables the Pairip license verification check.",
             "name": "Disable Pairip license check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#0077FF",
+                    "description": null,
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.103.0.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables VK-specific analytics in RuStore, including AltCraft event tracking and Radar device telemetry.",
+            "name": "Disable RuStore analytics",
             "options": []
         },
         {
