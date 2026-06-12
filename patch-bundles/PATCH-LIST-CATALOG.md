@@ -68,7 +68,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Almewty](#-almewty-bundle-patch-list) | 3 | 2 | Generated |
 | [Anddea-Morphed](#-anddea-morphed-bundle-patch-list) | 133 | 6 | Generated |
 | [RookieEnough](#-rookieenough-bundle-patch-list) | 84 | 35 | Generated |
-| [Adobo](#-adobo-bundle-patch-list) | 34 | 4 | Generated |
+| [Adobo](#-adobo-bundle-patch-list) | 35 | 4 | Generated |
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 2 | 1 | Generated |
@@ -1972,16 +1972,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Lyfta``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks all premium features including unlimited dependents, medfriends, custom ringtones and theme colors.``` | ```Medisafe``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks premium features and removes ads by forcing subscription state to always be active.``` | ```Pillo``` | ```All versions``` |
-| ```Disable ads``` | ```Disables all advertisements (banners, native ads, MyTarget, SSP, VKR) by blocking the ad repository at the data source.``` | ```RuStore``` | ```All versions``` |
-| ```Disable background scan``` | ```Disables the Kaspersky-powered periodic device scan. The scan checks all files for vulnerabilities and runs daily in the background. This patch forces the feature off regardless of the stored user preference.``` | ```RuStore``` | ```All versions``` |
-| ```Disable gaming profile``` | ```Disables the Game Center profile screen (game usage statistics) by blocking navigation from the Mine screen. Both MineViewModel (V1) and MineV2ViewModel (V2/V3) navigation to GameCenterStatsDestination is disabled. The 'Game Profile' menu item will no longer open the gaming statistics screen.``` | ```RuStore``` | ```All versions``` |
-| ```Disable Mine redesign``` | ```Forces the app to use the original V1 Mine screen by disabling the Mine V2/V3 redesign feature toggle. The `featureMineRedesignV3Enabled` remote toggle is intercepted before it can update the navigation tab state, so the app always falls back to the classic MineViewModel/MineScreen layout. The V2/V3 redesigned UI with the profile menu, Connect integration, and restructured layout is suppressed.``` | ```RuStore``` | ```All versions``` |
-| ```Skip update auth``` | ```Skips the authorization modal when tapping "Update all" or individual update buttons. The update will proceed without requiring login. If the update API requires auth tokens, the download will fail gracefully.``` | ```RuStore``` | ```All versions``` |
-| ```Change version code``` | ```Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.``` | ```Universal``` | ```All versions``` |
-| ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Lyfta``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Medisafe``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks premium features and removes ads.``` | ```Pillo``` | ```All versions``` |
+| ```Disable ads``` | ```Removes all advertisements from the app.``` | ```RuStore``` | ```All versions``` |
+| ```Disable background scan``` | ```Disables the periodic Kaspersky background device scan.``` | ```RuStore``` | ```All versions``` |
+| ```Disable gaming profile``` | ```Removes the Game Profile section from the Mine screen, including the button and the usage statistics screen.``` | ```RuStore``` | ```All versions``` |
+| ```Disable Mine redesign``` | ```Reverts the Mine screen to the classic layout, disabling the redesigned V2/V3 interface.``` | ```RuStore``` | ```All versions``` |
+| ```Skip update auth``` | ```Removes the login requirement when updating apps.``` | ```RuStore``` | ```All versions``` |
+| ```Change version code``` | ```Changes the app version code, allowing installation over existing versions.``` | ```Universal``` | ```All versions``` |
+| ```Disable Pairip license check``` | ```Disables the Pairip license verification check.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -2863,7 +2863,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Adobo Bundle Patch List:
 [📦 Adobo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-adobo-patches-bundle-morphe)
 <details>
-<summary><b>Adobo</b> - 34 patches, 4 apps</summary>
+<summary><b>Adobo</b> - 35 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2875,6 +2875,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable voice typing in incognito``` | ```Enables voice typing in incognito mode.``` | ```Gboard``` | ```All versions``` |
 | ```Toggle feature flags``` | ```Toggles Gboard feature flags to enable or disable experimental or hidden features.``` | ```Gboard``` | ```All versions``` |
 | ```Remove IMDb's ads, trackers, and analytics``` | ```Removes ads, trackers, and analytics in the IMDb app.``` | ```IMDb``` | ```All versions``` |
+| ```Colorize comment indent lines``` | ```Replaces the default gray comment indent lines with color-coded lines.``` | ```Reddit``` | ```All versions``` |
 | ```Disable home feed swipe``` | ```Disables the horizontal page swipe gesture used to switch feeds.``` | ```Reddit``` | ```All versions``` |
 | ```Disable post detail swipe``` | ```Disables the horizontal swipe gesture used to navigate between posts.``` | ```Reddit``` | ```All versions``` |
 | ```Disable screenshot banner``` | ```Disables the banner that shows up after taking a screenshot.``` | ```Reddit``` | ```All versions``` |

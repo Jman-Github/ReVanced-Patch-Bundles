@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.3",
+    "version": "v1.2.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -116,6 +116,164 @@
                     "title": "Update content providers",
                     "type": "kotlin.Boolean",
                     "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Replaces the default gray comment indent lines with color-coded lines.",
+            "name": "Colorize comment indent lines",
+            "options": [
+                {
+                    "default": "#2A9D8F",
+                    "description": "The hex color (#RRGGBB or #AARRGGBB) for comment indent line at depth 1.",
+                    "key": "indentLineColors1",
+                    "required": false,
+                    "title": "Line color 1",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default (Teal Cascade)": "#2A9D8F",
+                        "Material (Crimson Flash)": "#F44336",
+                        "Monokai (Charcoal Stone)": "#272822",
+                        "Nord (Frost Mint)": "#8FBCBB",
+                        "Solarized (Crimson Ember)": "#DC322F",
+                        "Synthwave (Neon Blizzard)": "#0066FF"
+                    }
+                },
+                {
+                    "default": "#C96B2C",
+                    "description": "The hex color (#RRGGBB or #AARRGGBB) for comment indent line at depth 2.",
+                    "key": "indentLineColors2",
+                    "required": false,
+                    "title": "Line color 2",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default (Burnt Apricot)": "#C96B2C",
+                        "Material (Sunset Blaze)": "#FF5722",
+                        "Monokai (Neon Pink)": "#F92672",
+                        "Nord (Ice Shard)": "#88C0D0",
+                        "Solarized (Rust Orange)": "#CB4B16",
+                        "Synthwave (Laser Pink)": "#FF2E88"
+                    }
+                },
+                {
+                    "default": "#7A8F3A",
+                    "description": "The hex color (#RRGGBB or #AARRGGBB) for comment indent line at depth 3.",
+                    "key": "indentLineColors3",
+                    "required": false,
+                    "title": "Line color 3",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default (Olive Moss)": "#7A8F3A",
+                        "Material (Marigold Glow)": "#FF9800",
+                        "Monokai (Lime Pop)": "#A6E22E",
+                        "Nord (Arctic Skies)": "#81A1C1",
+                        "Solarized (Dark Ochre)": "#B58900",
+                        "Synthwave (Cyber Violet)": "#9B5CFF"
+                    }
+                },
+                {
+                    "default": "#8C4A5B",
+                    "description": "The hex color (#RRGGBB or #AARRGGBB) for comment indent line at depth 4.",
+                    "key": "indentLineColors4",
+                    "required": false,
+                    "title": "Line color 4",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default (Muted Mulberry)": "#8C4A5B",
+                        "Material (Honey Gold)": "#FFC107",
+                        "Monokai (Sunset Amber)": "#FD971F",
+                        "Nord (Deep Aurora)": "#5E81AC",
+                        "Solarized (Moss Green)": "#859900",
+                        "Synthwave (Electric Cyan)": "#2DE2E6"
+                    }
+                },
+                {
+                    "default": "#4A6FA5",
+                    "description": "The hex color (#RRGGBB or #AARRGGBB) for comment indent line at depth 5.",
+                    "key": "indentLineColors5",
+                    "required": false,
+                    "title": "Line color 5",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default (Slate Blue)": "#4A6FA5",
+                        "Material (Electric Lemon)": "#FFEB3B",
+                        "Monokai (Electric Cyan)": "#66D9EF",
+                        "Nord (Fjord Wave)": "#6D8FB3",
+                        "Solarized (Deep Cyan)": "#2AA198",
+                        "Synthwave (Miami Sunset)": "#FF5FA2"
+                    }
+                },
+                {
+                    "default": "#B85C38",
+                    "description": "The hex color (#RRGGBB or #AARRGGBB) for comment indent line at depth 6.",
+                    "key": "indentLineColors6",
+                    "required": false,
+                    "title": "Line color 6",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default (Rust Clay)": "#B85C38",
+                        "Material (Lime Zing)": "#CDDC39",
+                        "Monokai (Vivid Purple)": "#AE81FF",
+                        "Nord (Winter Denim)": "#7AA0C4",
+                        "Solarized (Ocean Blue)": "#268BD2",
+                        "Synthwave (Rad Orange)": "#FF8A3D"
+                    }
+                },
+                {
+                    "default": "#6B7A2B",
+                    "description": "The hex color (#RRGGBB or #AARRGGBB) for comment indent line at depth 7.",
+                    "key": "indentLineColors7",
+                    "required": false,
+                    "title": "Line color 7",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default (Juniper Berry)": "#6B7A2B",
+                        "Material (Sprout Green)": "#8BC34A",
+                        "Monokai (Vintage Straw)": "#E6DB74",
+                        "Nord (Powder Blue)": "#8BB2D1",
+                        "Solarized (Cosmic Iris)": "#6C71C4",
+                        "Synthwave (Retro Gold)": "#FFD166"
+                    }
+                },
+                {
+                    "default": "#7B5E8E",
+                    "description": "The hex color (#RRGGBB or #AARRGGBB) for comment indent line at depth 8.",
+                    "key": "indentLineColors8",
+                    "required": false,
+                    "title": "Line color 8",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default (Heather Purple)": "#7B5E8E",
+                        "Material (Shamrock Green)": "#4CAF50",
+                        "Monokai (Stark Frost)": "#F8F8F2",
+                        "Nord (Pale Ice)": "#9BC4DC",
+                        "Solarized (Royal Magenta)": "#D33682",
+                        "Synthwave (Arcade Lime)": "#3CFF7F"
+                    }
                 }
             ]
         },
