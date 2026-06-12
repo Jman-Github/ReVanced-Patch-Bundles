@@ -48,6 +48,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 119 | 2 | Generated |
+| [HK-Morphe](#-hk-morphe-bundle-patch-list) | 2 | 3 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 14 | 8 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 21 | 5 | Generated |
@@ -878,6 +879,19 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Show post source label``` | ```Source label will be shown only on public posts``` | ```X``` | ```All versions``` |
 | ```Show sensitive media``` | ```N/A``` | ```X``` | ```All versions``` |
 | ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```X, Instagram``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 HK-Morphe Bundle Patch List:
+[📦 HK-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hk-morphe-patches-bundle-morphe)
+<details>
+<summary><b>HK-Morphe</b> - 2 patches, 3 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Fix random subreddit``` | ```Fixes the random button by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```v23.06.30-13:39``` |
+| ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```v23.06.30-13:39``` |
 
 </details>
 
