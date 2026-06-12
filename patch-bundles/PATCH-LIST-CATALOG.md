@@ -890,8 +890,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Fix random subreddit``` | ```Fixes the random button by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```v23.06.30-13:39``` |
-| ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```v23.06.30-13:39``` |
+| ```Fix random subreddit``` | ```Fixes the random button by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 
 </details>
 
