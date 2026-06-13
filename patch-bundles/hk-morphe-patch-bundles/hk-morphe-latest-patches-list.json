@@ -1,6 +1,14 @@
 {
-    "version": "v1.0.0",
+    "version": "v1.1.0-dev.1",
     "patches": [
+        {
+            "compatiblePackages": null,
+            "default": true,
+            "dependencies": [],
+            "description": "Removes SharedPreferences tracking and forces the method to safely return true.",
+            "name": "Bypass SharedPrefs Check",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -56,6 +64,65 @@
             "dependencies": [],
             "description": "Fixes the random button by fetching from an alternative API.",
             "name": "Fix random subreddit",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Sync for Reddit",
+                    "packageName": "com.laurencedawson.reddit_sync",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "v23.06.30-13:39"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Sync for Reddit Pro",
+                    "packageName": "com.laurencedawson.reddit_sync.pro",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Sync for Reddit Dev",
+                    "packageName": "com.laurencedawson.reddit_sync.dev",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Updates the API used for the restore comment functionality to Arctic Shift.",
+            "name": "Fix Restore Comment",
             "options": []
         },
         {
