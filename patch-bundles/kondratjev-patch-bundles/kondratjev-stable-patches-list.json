@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0",
+    "version": "v1.7.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -266,6 +266,31 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks premium features and removes ads.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#00C853",
+                    "description": null,
+                    "name": "Yazio",
+                    "packageName": "com.yazio.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.87.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all Yazio Pro features.",
             "name": "Unlock Premium",
             "options": []
         }
