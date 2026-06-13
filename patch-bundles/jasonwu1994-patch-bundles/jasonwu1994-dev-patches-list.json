@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0-dev.1",
+    "version": "v1.9.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -142,6 +142,18 @@
             "dependencies": [],
             "description": "啟用圓角按鍵，主題詳情 > 按鍵形狀\nEnable Key shape in Theme details.",
             "name": "Key Shape Selection",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "新增英文鍵盤地球鍵忽略時間覆寫，可獨立控制輸入後切語言延遲\nAdd an independent English globe key ignore interval override for post-typing language-switch delay.",
+            "name": "Latin Globe Key Ignore Interval",
             "options": [],
             "use": true
         },
