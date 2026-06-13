@@ -1,5 +1,5 @@
 {
-    "version": "v2.6.1",
+    "version": "v2.7.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -203,6 +203,56 @@
             ],
             "description": null,
             "name": "Purchase All Items",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Inshorts",
+                    "packageName": "com.nis.app",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": "6.12.15"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": null,
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Inshorts",
+                    "packageName": "com.nis.app",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": "6.12.15"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": null,
+            "name": "Skip Login",
             "options": []
         },
         {

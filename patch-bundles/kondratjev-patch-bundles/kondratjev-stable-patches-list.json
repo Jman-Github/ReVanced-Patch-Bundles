@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.8.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -80,6 +80,33 @@
             "dependencies": [],
             "description": "Disables the periodic Kaspersky background device scan.",
             "name": "Disable background scan",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#00897B",
+                    "description": null,
+                    "name": "FatSecret",
+                    "packageName": "com.fatsecret.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.5.0.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Hides the News/Community tab from the bottom navigation.",
+            "name": "Disable community tab",
             "options": []
         },
         {
@@ -190,6 +217,33 @@
             "dependencies": [],
             "description": "Removes the login requirement when updating apps.",
             "name": "Skip update auth",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#00897B",
+                    "description": null,
+                    "name": "FatSecret",
+                    "packageName": "com.fatsecret.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.5.0.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks all FatSecret Gold features and hides the Premium tab.",
+            "name": "Unlock Premium",
             "options": []
         },
         {
