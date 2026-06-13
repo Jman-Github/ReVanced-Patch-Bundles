@@ -1,5 +1,5 @@
 {
-    "version": "v1.35.1",
+    "version": "v1.36.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -174,37 +174,6 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
-                    "appIconColor": "#52CDFB",
-                    "description": null,
-                    "name": "NOMone Desktop",
-                    "packageName": "nom.vrd",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.9.3-GooglePlay"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.9.3-storage"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables anti-tamper checks including signature verification and purchase ID.",
-            "name": "Disable anti-tamper",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
                     "appIconColor": "#FF430D",
                     "description": null,
                     "name": "WPS Office",
@@ -246,34 +215,11 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Prevents Duolingo from changing the app icon. Only the default icon will be available.",
             "name": "Disable dynamic app icon",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#58CC02",
-                    "description": null,
-                    "name": "Duolingo",
-                    "packageName": "com.duolingo",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "6.82.3"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes Play Integrity device attestation from login request.",
-            "name": "Disable Login Integrity",
             "options": []
         },
         {
@@ -387,7 +333,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Disables event logging sent to the app's custom endpoint.",
             "name": "Disable telemetry",
             "options": []
@@ -445,7 +393,9 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Enables hidden debug menu in settings.",
             "name": "Enable debug mode",
             "options": []
@@ -705,7 +655,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": [
@@ -795,6 +747,34 @@
             "default": true,
             "dependencies": [
                 "RawResourcePatch"
+            ],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#EC0915",
+                    "description": null,
+                    "name": "RP Hypertrophy",
+                    "packageName": "com.rp.hypertrophy",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.1.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
