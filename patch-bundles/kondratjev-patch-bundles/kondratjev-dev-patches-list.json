@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0-dev.4",
+    "version": "v1.9.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -192,6 +192,56 @@
             ],
             "description": "Disables VK-specific analytics in RuStore, including AltCraft event tracking and Radar device telemetry.",
             "name": "Disable RuStore analytics",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF5500",
+                    "description": null,
+                    "name": "SoundCloud",
+                    "packageName": "com.soundcloud.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2026.06.03-release"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables SoundCloud's telemetry system.",
+            "name": "Disable telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF5500",
+                    "description": null,
+                    "name": "SoundCloud",
+                    "packageName": "com.soundcloud.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2026.06.03-release"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables all premium features, hides upsell UI and ads.",
+            "name": "Enable SoundCloud Go+",
             "options": []
         },
         {
