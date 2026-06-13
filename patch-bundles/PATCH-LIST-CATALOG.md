@@ -43,6 +43,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 7 | 4 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
@@ -113,6 +114,18 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [AyushTNM](#-ayushtnm-bundle-patch-list) | 3 | 1 | Generated |
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
+
+---
+### 🧩 Realme-Link Bundle Patch List:
+[📦 Realme-Link-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-realme-link-patches-bundle-morphe)
+<details>
+<summary><b>Realme-Link</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Bypass Session Expiry``` | ```Kills session expiry dialogs``` | ```Realme Link``` | ```All versions``` |
+
+</details>
 
 ---
 ### 🧩 ReVanced Bundle Patch List:

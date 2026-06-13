@@ -1236,6 +1236,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ImmortalZeus-patch-bundles/ImmortalZeus-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ImmortalZeus-patch-bundles/ImmortalZeus-dev-patches-bundle.json```
+
 </details>
 
 ### 📦 Ajstrick81-AndroidTV-Patches-Bundle [Morphe]:
@@ -1313,6 +1314,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/mojirs-rif-patch-bundles/mojirs-rif-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/mojirs-rif-patch-bundles/mojirs-rif-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Realme-Link-Patches-Bundle [Morphe]:
+[🧩 Realme-Link Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-realme-link-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/realme-link-patch-bundles/realme-link-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/realme-link-patch-bundles/realme-link-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/realme-link-patch-bundles/realme-link-dev-patches-bundle.json```
 </details>
 
 ---
@@ -1542,6 +1556,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [MojiRS-RIF-Patches-Bundle](https://github.com/MojiRS/revanced-rif-patches)
 
 
+
+#### 🏷️ [Realme-Link-Patches-Bundle](https://github.com/lyyako/realme-link-patches)
 
 #### 🏷️ [HK-Morphe-Patches-Bundle](https://github.com/humzakh/HK-Morphe-Patches)
 </details>
