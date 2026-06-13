@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.1",
+    "version": "v1.2.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -1091,6 +1091,33 @@
             "default": true,
             "dependencies": [],
             "description": "Disables CHZZK peer-assisted grid streaming and forces CDN playback.",
+            "name": "Disable P2P",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0068FF",
+                    "description": null,
+                    "name": "SOOP",
+                    "packageName": "kr.co.nowcom.mobile.afreeca",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "8.25.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables SOOP peer-assisted grid streaming.",
             "name": "Disable P2P",
             "options": []
         },
