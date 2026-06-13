@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.1",
+    "version": "v1.1.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -42,7 +42,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -71,7 +71,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -152,7 +152,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -177,7 +177,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -193,6 +193,26 @@
             "description": "Adds a settings tab to the app.",
             "name": "Add settings tab",
             "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Adds or updates the sharedUserId attribute in the app's manifest. This allows multiple apps with the same sharedUserId to share data and run in the same process. Use with caution as this can affect app permissions and data isolation.",
+            "name": "Add shared user ID",
+            "options": [
+                {
+                    "default": "revanced",
+                    "description": "The shared user ID to add to the app's manifest.",
+                    "key": "sharedUserId",
+                    "required": true,
+                    "title": "Shared User ID",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "revanced"
+                    }
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -243,7 +263,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -268,7 +288,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -293,7 +313,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -302,6 +322,31 @@
             "dependencies": [],
             "description": "Always shows the kick button in group member management.",
             "name": "Always Show Kick Button",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00FFA3",
+                    "description": null,
+                    "name": "Chzzk",
+                    "packageName": "com.navercorp.game.android.community",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.6.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Automatically claims CHZZK TongPow rewards when they become available while watching streams.",
+            "name": "Auto claim TongPow",
             "options": []
         },
         {
@@ -345,7 +390,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -370,7 +415,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -397,7 +442,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -483,7 +528,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -590,7 +635,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -627,7 +672,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -681,7 +726,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -706,7 +751,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -758,7 +803,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -783,7 +828,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -808,7 +853,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -858,7 +903,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -910,7 +955,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -935,7 +980,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -985,7 +1030,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1013,7 +1058,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1022,6 +1067,31 @@
             "dependencies": [],
             "description": "Disables the OpenChat tab feed ad load and render paths.",
             "name": "Disable OpenChat feed ad",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00FFA3",
+                    "description": null,
+                    "name": "Chzzk",
+                    "packageName": "com.navercorp.game.android.community",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.6.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables CHZZK peer-assisted grid streaming and forces CDN playback.",
+            "name": "Disable P2P",
             "options": []
         },
         {
@@ -1038,7 +1108,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1063,7 +1133,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1088,7 +1158,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1115,7 +1185,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1125,6 +1195,33 @@
                 "ResourcePatch"
             ],
             "description": "Disables Sentry error reporting in KakaoTalk.",
+            "name": "Disable Sentry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "description": null,
+                    "name": "Unicorn Pro",
+                    "packageName": "com.unicornsoft.android.unicornpro",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.30.471"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables Sentry reporting",
             "name": "Disable Sentry",
             "options": []
         },
@@ -1150,7 +1247,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1175,7 +1272,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1225,7 +1322,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1250,7 +1347,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1302,7 +1399,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1327,7 +1424,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1354,7 +1451,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1381,7 +1478,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1408,7 +1505,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1433,7 +1530,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1493,6 +1590,33 @@
                 }
             ],
             "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds settings to hide selected DCInside home screen components.",
+            "name": "Hide home components",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#3D4491",
+                    "description": null,
+                    "name": "dcinside",
+                    "packageName": "com.dcinside.app.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.2.9"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Hides the main ad in the app.",
             "name": "Hide Main Ad",
@@ -1512,7 +1636,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1539,7 +1663,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1576,7 +1700,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1628,7 +1752,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1653,7 +1777,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1678,7 +1802,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1703,7 +1827,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1728,7 +1852,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1753,7 +1877,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1778,7 +1902,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1803,7 +1927,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1828,7 +1952,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1839,6 +1963,33 @@
             ],
             "description": "Removes the Short-form tab from the now fragment.",
             "name": "Remove Short-form Tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#3D4491",
+                    "description": null,
+                    "name": "dcinside",
+                    "packageName": "com.dcinside.app.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.2.9"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds a setting to render big DCCon at normal DCCon size.",
+            "name": "Render big DCCon as normal size",
             "options": []
         },
         {
@@ -1855,7 +2006,36 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Shows the channel ID in chatroom settings and copies it when tapping the chat side title.",
+            "name": "Show chatroom channel ID",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "description": null,
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1903,7 +2083,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1928,7 +2108,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1980,7 +2160,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }
@@ -1989,6 +2169,58 @@
             "dependencies": [],
             "description": "Spoofs the app signature to pass integrity checks.",
             "name": "Spoof signature",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#0096FA",
+                    "description": null,
+                    "name": "Flexcil",
+                    "packageName": "com.flexcil.flexcilnote",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.4.3.30"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Unlock Premium features",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "description": null,
+                    "name": "Unicorn Pro",
+                    "packageName": "com.unicornsoft.android.unicornpro",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.30.471"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Makes Unicorn Pro report an active Pro license while preserving the original native object graph.",
+            "name": "Unlock Pro features",
             "options": []
         },
         {
@@ -2005,7 +2237,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.2"
+                            "version": "26.4.2"
                         }
                     ]
                 }

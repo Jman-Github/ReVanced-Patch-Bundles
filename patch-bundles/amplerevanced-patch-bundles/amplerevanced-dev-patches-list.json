@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.13",
+    "version": "v1.2.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -322,6 +322,31 @@
             "dependencies": [],
             "description": "Always shows the kick button in group member management.",
             "name": "Always Show Kick Button",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00FFA3",
+                    "description": null,
+                    "name": "Chzzk",
+                    "packageName": "com.navercorp.game.android.community",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.6.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Automatically claims CHZZK TongPow rewards when they become available while watching streams.",
+            "name": "Auto claim TongPow",
             "options": []
         },
         {
@@ -1058,7 +1083,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.6.0"
+                            "version": "3.6.2"
                         }
                     ]
                 }
@@ -1187,7 +1212,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.30.467"
+                            "version": "1.30.471"
                         }
                     ]
                 }
@@ -2185,7 +2210,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.30.467"
+                            "version": "1.30.471"
                         }
                     ]
                 }
