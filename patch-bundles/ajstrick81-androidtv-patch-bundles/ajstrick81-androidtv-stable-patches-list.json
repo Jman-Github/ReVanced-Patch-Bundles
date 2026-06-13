@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.64",
+    "version": "v1.4.65",
     "patches": [
         {
             "compatibility": [
@@ -206,7 +206,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Prevents server-side inserted ads from playing by intercepting both the ad schedule and the segment delivery layer.",
+            "description": "Suppresses ad schedule and seeks past playing ads using the Player reference available in getStreamPositionUs.",
             "name": "Skip ads",
             "options": [],
             "use": true
