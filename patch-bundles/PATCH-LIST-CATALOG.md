@@ -49,7 +49,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 119 | 2 | Generated |
-| [HK-Morphe](#-hk-morphe-bundle-patch-list) | 4 | 4 | Generated |
+| [HK-Morphe](#-hk-morphe-bundle-patch-list) | 5 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 16 | 9 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 21 | 5 | Generated |
@@ -899,14 +899,15 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 HK-Morphe Bundle Patch List:
 [📦 HK-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hk-morphe-patches-bundle-morphe)
 <details>
-<summary><b>HK-Morphe</b> - 4 patches, 4 apps</summary>
+<summary><b>HK-Morphe</b> - 5 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Fix random subreddit``` | ```Fixes the random button by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
-| ```Fix Restore Comment``` | ```Updates the API used for the restore comment functionality to Arctic Shift.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Fix Restore Comment``` | ```Fixes the Restore Comment feature (requires Sync Ultra).``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
-| ```Bypass SharedPrefs Check``` | ```Removes SharedPreferences tracking and forces the method to safely return true.``` | ```Universal``` | ```All versions``` |
+| ```Unlock Sync Ultra``` | ```Unlocks Sync Ultra.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Predictive back gesture``` | ```Enables the predictive back gesture introduced on Android 13.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
