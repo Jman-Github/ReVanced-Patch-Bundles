@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0-dev.4",
+    "version": "v1.8.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -190,6 +190,31 @@
             "dependencies": [],
             "description": "Removes the login requirement when updating apps.",
             "name": "Skip update auth",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#00897B",
+                    "description": null,
+                    "name": "FatSecret",
+                    "packageName": "com.fatsecret.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.5.0.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all FatSecret Gold features.",
+            "name": "Unlock Premium",
             "options": []
         },
         {

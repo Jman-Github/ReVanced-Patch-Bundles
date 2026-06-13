@@ -60,7 +60,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Piko-Shim](#-piko-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
-| [Kondratjev](#-kondratjev-bundle-patch-list) | 13 | 6 | Generated |
+| [Kondratjev](#-kondratjev-bundle-patch-list) | 14 | 7 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 73 | 50 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 83 | 7 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 114 | 4 | Generated |
@@ -100,7 +100,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 11 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
 | [Rushiranpise](#-rushiranpise-bundle-patch-list) | 31 | 22 | Generated |
-| [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 2 | 1 | Generated |
+| [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 3 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -1997,10 +1997,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kondratjev Bundle Patch List:
 [📦 Kondratjev-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kondratjev-patches-bundle-morphe)
 <details>
-<summary><b>Kondratjev</b> - 13 patches, 6 apps</summary>
+<summary><b>Kondratjev</b> - 14 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Unlock Premium``` | ```Unlocks all FatSecret Gold features.``` | ```FatSecret``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Lyfta``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Medisafe``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium features and removes ads.``` | ```Pillo``` | ```All versions``` |
@@ -3585,12 +3586,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Sjshb57-PairIP Bundle Patch List:
 [📦 Sjshb57-PairIP-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-sjshb57-pairip-patches-bundle-morphe)
 <details>
-<summary><b>Sjshb57-PairIP</b> - 2 patches, 1 app</summary>
+<summary><b>Sjshb57-PairIP</b> - 3 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove pairip protection``` | ```Restores obfuscated strings and removes pairip bytecode protection.``` | ```Universal``` | ```All versions``` |
 | ```Restore extracted methods``` | ```Inlines methods hidden in $c<number> helper classes back into the host class, then removes those helper and reflection method-holder classes.``` | ```Universal``` | ```All versions``` |
+| ```Strip debug info``` | ```Removes .line (line numbers) and .source (source file name) debug data from every class. Optional, disabled by default.``` | ```Universal``` | ```All versions``` |
 
 </details>
 

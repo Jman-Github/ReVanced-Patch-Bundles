@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.1",
+    "version": "v1.6.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -15,6 +15,14 @@
             "dependencies": [],
             "description": "Inlines methods hidden in $c<number> helper classes back into the host class, then removes those helper and reflection method-holder classes.",
             "name": "Restore extracted methods",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Removes .line (line numbers) and .source (source file name) debug data from every class. Optional, disabled by default.",
+            "name": "Strip debug info",
             "options": []
         }
     ]
