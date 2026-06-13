@@ -2,151 +2,145 @@
     "version": "v1.0.0-dev.1",
     "patches": [
         {
-            "name": "Fix random subreddit",
-            "description": "Fixes the random button by fetching from an alternative API.",
-            "default": true,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.laurencedawson.reddit_sync",
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
                     "name": "Sync for Reddit",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": null,
+                    "packageName": "com.laurencedawson.reddit_sync",
                     "signatures": null,
                     "targets": [
                         {
-                            "version": "v23.06.30-13:39",
+                            "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "description": null
+                            "version": "v23.06.30-13:39"
                         }
-                    ],
-                    "versions": [
-                        "v23.06.30-13:39"
                     ]
                 },
                 {
-                    "packageName": "com.laurencedawson.reddit_sync.pro",
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
                     "name": "Sync for Reddit Pro",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": null,
+                    "packageName": "com.laurencedawson.reddit_sync.pro",
                     "signatures": null,
                     "targets": [
                         {
-                            "version": null,
+                            "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "description": null
+                            "version": null
                         }
                     ]
                 },
                 {
-                    "packageName": "com.laurencedawson.reddit_sync.dev",
-                    "name": "Sync for Reddit Dev",
-                    "description": null,
                     "apkFileType": null,
                     "appIconColor": null,
+                    "description": null,
+                    "name": "Sync for Reddit Dev",
+                    "packageName": "com.laurencedawson.reddit_sync.dev",
                     "signatures": null,
                     "targets": [
                         {
-                            "version": null,
+                            "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "description": null
+                            "version": null
                         }
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Fixes the random button by fetching from an alternative API.",
+            "name": "Fix random subreddit",
             "options": []
         },
         {
-            "name": "Spoof client",
-            "description": "Restores functionality of the app by using custom client ID.",
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Sync for Reddit",
+                    "packageName": "com.laurencedawson.reddit_sync",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "v23.06.30-13:39"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Sync for Reddit Pro",
+                    "packageName": "com.laurencedawson.reddit_sync.pro",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Sync for Reddit Dev",
+                    "packageName": "com.laurencedawson.reddit_sync.dev",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
             "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.laurencedawson.reddit_sync",
-                    "name": "Sync for Reddit",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "v23.06.30-13:39",
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "v23.06.30-13:39"
-                    ]
-                },
-                {
-                    "packageName": "com.laurencedawson.reddit_sync.pro",
-                    "name": "Sync for Reddit Pro",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                },
-                {
-                    "packageName": "com.laurencedawson.reddit_sync.dev",
-                    "name": "Sync for Reddit Dev",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "description": "Restores functionality of the app by using custom client ID.",
+            "name": "Spoof client",
             "options": [
                 {
-                    "key": "client-id",
-                    "title": "OAuth client ID",
-                    "description": "The Reddit OAuth client ID. Refer to documentation for more information on what to put here.",
-                    "required": true,
-                    "type": "kotlin.String",
                     "default": "yH0aTnJEt6qUgGn835B4vg",
+                    "description": "The Reddit OAuth client ID. Refer to documentation for more information on what to put here.",
+                    "key": "client-id",
+                    "required": true,
+                    "title": "OAuth client ID",
+                    "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "key": "redirect-uri",
-                    "title": "Redirect URI",
-                    "description": "The Reddit OAuth redirect URI. Refer to documentation for more information on what to put here. Default value is RedReader's redirect URI.",
-                    "required": true,
-                    "type": "kotlin.String",
                     "default": "redreader://rr_oauth_redir",
+                    "description": "The Reddit OAuth redirect URI. Refer to documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+                    "key": "redirect-uri",
+                    "required": true,
+                    "title": "Redirect URI",
+                    "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "key": "user-agent",
-                    "title": "User agent",
-                    "description": "The app's user agent. Refer to documentation for more information on what to put here. Default value is RedReader's user agent.",
-                    "required": true,
-                    "type": "kotlin.String",
                     "default": "org.quantumbadger.redreader/1.25.1",
+                    "description": "The app's user agent. Refer to documentation for more information on what to put here. Default value is RedReader's user agent.",
+                    "key": "user-agent",
+                    "required": true,
+                    "title": "User agent",
+                    "type": "kotlin.String",
                     "values": null
                 }
             ]
