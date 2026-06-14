@@ -54,7 +54,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 21 | 5 | Generated |
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
-| [Chiggi](#-chiggi-bundle-patch-list) | 17 | 3 | Generated |
+| [Chiggi](#-chiggi-bundle-patch-list) | 10 | 2 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 1 | 1 | Generated |
 | [EE-Morphe](#-ee-morphe-bundle-patch-list) | 10 | 4 | Generated |
 | [Piko-Shim](#-piko-shim-bundle-patch-list) | 3 | 1 | Generated |
@@ -1863,15 +1863,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Chiggi Bundle Patch List:
 [📦 Chiggi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-chiggi-patches-bundle-morphe)
 <details>
-<summary><b>Chiggi</b> - 17 patches, 3 apps</summary>
+<summary><b>Chiggi</b> - 10 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Bypass PairIP license check``` | ```No-ops com.pairip.licensecheck.LicenseClient.checkLicense so the PairIP (Google Play Automatic Integrity Protection) startup license check is skipped and the "Something went wrong / check Google Play" screen is not shown. NOTE: this only bypasses the client-side startup check; FOX's servers may still reject a re-signed app for login/playback.``` | ```FOX One``` | ```All versions``` |
-| ```Disable AppsFlyer tracking``` | ```Stops AppsFlyer from initialising and tracking by no-oping the wrapper that calls AppsFlyerLib.start().``` | ```FOX One``` | ```All versions``` |
-| ```Disable forced update``` | ```Disables the forced-update / kill-switch screen by forcing the remote AppUpdateConfig.enabled flag to false.``` | ```FOX One``` | ```All versions``` |
-| ```Disable FoxKit analytics``` | ```Disables the FoxKit first-party analytics pipeline by no-oping AnalyticsClient.logEvent / logPerformanceEvent, so no analytics events are recorded or uploaded.``` | ```FOX One``` | ```All versions``` |
-| ```Disable tracking SDKs``` | ```Stops the Heap analytics and FOX remote-logging SDKs from auto-initialising (disables their startup ContentProviders) and turns off Firebase Analytics/Crashlytics/Performance collection via manifest flags. Push notifications are unaffected.``` | ```FOX One``` | ```All versions``` |
 | ```Auto skip intro and recap``` | ```Automatically skips the intro, recap and song segments as soon as the 'Skip' button would appear, without waiting for a tap.``` | ```SonyLIV``` | ```All versions``` |
 | ```Auto-skip Up Next``` | ```Plays the next episode immediately when the "Up Next" card appears, skipping the auto-play countdown.``` | ```SonyLIV``` | ```All versions``` |
 | ```Disable AppsFlyer tracking``` | ```Disables AppsFlyer attribution and event tracking. Other SDKs (CleverTap, Firebase Analytics/Crashlytics) are not affected by this patch.``` | ```SonyLIV``` | ```All versions``` |
@@ -1881,8 +1876,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove video ads``` | ```Forces PlayerUtil.isAdEnable() to false so the player neither requests nor plays ads. Removes client-side (Google IMA) ads. Server-side stitched ads on some live content (MediaTailor/SSAI) may still appear.``` | ```SonyLIV``` | ```All versions``` |
 | ```Suppress geo / VPN block``` | ```Stops the dedicated "not available in your region" and "VPN detected" block screens by downgrading the geo/EPD block to a generic error. Geoblocking is enforced server-side by IP, so this does not grant access without a valid in-region IP (e.g. a working India connection).``` | ```SonyLIV``` | ```All versions``` |
 | ```Change app name``` | ```Changes the app name shown under the launcher icon. Set the desired name in the patch options.``` | ```Universal``` | ```All versions``` |
-| ```Change app name``` | ```Changes the app name shown under the launcher icon. Set the desired name in the patch options.``` | ```Universal``` | ```All versions``` |
-| ```Change package name``` | ```Changes the app package name so the patched app installs alongside the original. Rewrites provider authorities and custom permissions. Set the desired package name in the patch options. Changing the package name can cause unexpected issues with some app features.``` | ```Universal``` | ```All versions``` |
 | ```Change package name``` | ```Changes the app package name so the patched app installs alongside the original. Set the desired package name in the patch options. Changing the package name can cause unexpected issues with some app features.``` | ```Universal``` | ```All versions``` |
 
 </details>

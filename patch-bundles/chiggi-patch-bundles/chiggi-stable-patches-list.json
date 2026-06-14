@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.8.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -52,55 +52,6 @@
             "options": []
         },
         {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#0C2340",
-                    "description": null,
-                    "name": "FOX One",
-                    "packageName": "com.fox.foxone",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "1.17.1"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "1.15.1"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "No-ops com.pairip.licensecheck.LicenseClient.checkLicense so the PairIP (Google Play Automatic Integrity Protection) startup license check is skipped and the \"Something went wrong / check Google Play\" screen is not shown. NOTE: this only bypasses the client-side startup check; FOX's servers may still reject a re-signed app for login/playback.",
-            "name": "Bypass PairIP license check",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Changes the app name shown under the launcher icon. Set the desired name in the patch options.",
-            "name": "Change app name",
-            "options": [
-                {
-                    "default": "Fox One Morphe",
-                    "description": "The name shown under the app icon.",
-                    "key": "appName",
-                    "required": true,
-                    "title": "App name",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -113,24 +64,6 @@
                     "key": "appName",
                     "required": true,
                     "title": "App name",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Changes the app package name so the patched app installs alongside the original. Rewrites provider authorities and custom permissions. Set the desired package name in the patch options. Changing the package name can cause unexpected issues with some app features.",
-            "name": "Change package name",
-            "options": [
-                {
-                    "default": "com.fox.foxone.morphe",
-                    "description": "The new application package name (e.g. com.fox.foxone.morphe).",
-                    "key": "packageName",
-                    "required": true,
-                    "title": "Package name",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -153,37 +86,6 @@
                     "values": null
                 }
             ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#0C2340",
-                    "description": null,
-                    "name": "FOX One",
-                    "packageName": "com.fox.foxone",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "1.17.1"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "1.15.1"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Stops AppsFlyer from initialising and tracking by no-oping the wrapper that calls AppsFlyerLib.start().",
-            "name": "Disable AppsFlyer tracking",
-            "options": []
         },
         {
             "compatiblePackages": [
@@ -238,37 +140,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#0C2340",
-                    "description": null,
-                    "name": "FOX One",
-                    "packageName": "com.fox.foxone",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "1.17.1"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "1.15.1"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables the forced-update / kill-switch screen by forcing the remote AppUpdateConfig.enabled flag to false.",
-            "name": "Disable forced update",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "APKM",
                     "appIconColor": "#7460A4",
                     "description": null,
@@ -289,68 +160,6 @@
             "dependencies": [],
             "description": "Removes the forced ('immediate') and optional ('flexi') 'update available' popup shown on the home screen.",
             "name": "Disable forced update",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#0C2340",
-                    "description": null,
-                    "name": "FOX One",
-                    "packageName": "com.fox.foxone",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "1.17.1"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "1.15.1"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables the FoxKit first-party analytics pipeline by no-oping AnalyticsClient.logEvent / logPerformanceEvent, so no analytics events are recorded or uploaded.",
-            "name": "Disable FoxKit analytics",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#0C2340",
-                    "description": null,
-                    "name": "FOX One",
-                    "packageName": "com.fox.foxone",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "1.17.1"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "1.15.1"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Stops the Heap analytics and FOX remote-logging SDKs from auto-initialising (disables their startup ContentProviders) and turns off Firebase Analytics/Crashlytics/Performance collection via manifest flags. Push notifications are unaffected.",
-            "name": "Disable tracking SDKs",
             "options": []
         },
         {
