@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -268,6 +268,63 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Sync for Reddit",
+                    "packageName": "com.laurencedawson.reddit_sync",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "v23.06.30-13:39"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Sync for Reddit Pro",
+                    "packageName": "com.laurencedawson.reddit_sync.pro",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Sync for Reddit Dev",
+                    "packageName": "com.laurencedawson.reddit_sync.dev",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Restores the translucent background when using the \"Swipe to return\" gesture on Android 11+.",
+            "name": "Swipe to return translucency fix",
+            "options": []
         },
         {
             "compatiblePackages": [

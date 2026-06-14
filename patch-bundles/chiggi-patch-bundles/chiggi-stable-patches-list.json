@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0",
+    "version": "v1.7.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -49,6 +49,37 @@
             "dependencies": [],
             "description": "Plays the next episode immediately when the \"Up Next\" card appears, skipping the auto-play countdown.",
             "name": "Auto-skip Up Next",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#0C2340",
+                    "description": null,
+                    "name": "FOX One",
+                    "packageName": "com.fox.foxone",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.17.1"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.15.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "No-ops com.pairip.licensecheck.LicenseClient.checkLicense so the PairIP (Google Play Automatic Integrity Protection) startup license check is skipped and the \"Something went wrong / check Google Play\" screen is not shown. NOTE: this only bypasses the client-side startup check; FOX's servers may still reject a re-signed app for login/playback.",
+            "name": "Bypass PairIP license check",
             "options": []
         },
         {
@@ -126,6 +157,37 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#0C2340",
+                    "description": null,
+                    "name": "FOX One",
+                    "packageName": "com.fox.foxone",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.17.1"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.15.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops AppsFlyer from initialising and tracking by no-oping the wrapper that calls AppsFlyerLib.start().",
+            "name": "Disable AppsFlyer tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#7460A4",
                     "description": null,
@@ -176,6 +238,37 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#0C2340",
+                    "description": null,
+                    "name": "FOX One",
+                    "packageName": "com.fox.foxone",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.17.1"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.15.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the forced-update / kill-switch screen by forcing the remote AppUpdateConfig.enabled flag to false.",
+            "name": "Disable forced update",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#7460A4",
                     "description": null,
@@ -213,13 +306,19 @@
                             "isExperimental": false,
                             "minSdk": 24,
                             "version": "1.17.1"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.15.1"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables the FoxKit first-party analytics pipeline by no-oping AnalyticsClient.logEvent / logPerformanceEvent, so no analytics events are recorded or uploaded. Third-party SDKs (AppsFlyer, Segment, Adobe, Comscore, Conviva, Nielsen) are not affected by this patch.",
+            "description": "Disables the FoxKit first-party analytics pipeline by no-oping AnalyticsClient.logEvent / logPerformanceEvent, so no analytics events are recorded or uploaded.",
             "name": "Disable FoxKit analytics",
             "options": []
         },
@@ -238,6 +337,12 @@
                             "isExperimental": false,
                             "minSdk": 24,
                             "version": "1.17.1"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.15.1"
                         }
                     ]
                 }
