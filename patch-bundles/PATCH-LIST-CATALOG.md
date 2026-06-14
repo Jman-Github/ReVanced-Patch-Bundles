@@ -8,7 +8,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | --- | ---: | ---: | --- |
 | [ReVanced](#-revanced-bundle-patch-list) | 288 | 89 | Generated |
 | [Inotia00](#-inotia00-bundle-patch-list) | 127 | 4 | Generated |
-| [MTGA](#-mtga-bundle-patch-list) | 20 | 1 | Generated |
+| [MTGA](#-mtga-bundle-patch-list) | 22 | 1 | Generated |
 | [Slenderman00](#-slenderman00-bundle-patch-list) | 4 | 1 | Generated |
 | [Privacy](#-privacy-bundle-patch-list) | 25 | 3 | Generated |
 | [Experimental](#-experimental-bundle-patch-list) | 16 | 11 | Generated |
@@ -48,7 +48,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Lain](#-lain-bundle-patch-list) | 10 | 7 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
-| [Piko](#-piko-bundle-patch-list) | 119 | 2 | Generated |
+| [Piko](#-piko-bundle-patch-list) | 121 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 6 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 17 | 10 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
@@ -581,30 +581,32 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 MTGA Bundle Patch List:
 [📦 MTGA-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-mtga-patches-bundle-api-v4)
 <details>
-<summary><b>MTGA</b> - 20 patches, 1 app</summary>
+<summary><b>MTGA</b> - 22 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Block ad requests at the network layer``` | ```Drops retrofit2 enqueue calls whose Request URL contains "/truth/ads".``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Block Truth+ upsell``` | ```Drops navigation to the Truth+ upsell sheet and the per-feature roadblock dialog.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Bypass Play Integrity``` | ```Skips Play Integrity assertion injection — chain proceeds with the original request.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Bypass Truth+ geofence``` | ```Forces the smsCountry == "US" check on premiumGateHelper.d(user) to always return true.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Disable advertising ID``` | ```Removes advertising-ID and ad-services permissions from the manifest.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Disable analytics``` | ```Neutralizes AppAnalyticsManager — every void-returning method becomes return-void.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Disable Firebase telemetry``` | ```Neutralizes Firebase Analytics + Crashlytics logging methods.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Disable Search AI``` | ```Neutralizes SearchAIUseCase invocations.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Enable Truth TV``` | ```Forces Features.tvEnabled to true on construction. Truth TV becomes visible across the app.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Force enable Truth+ post editing``` | ```Forces editsEnabled + editsVisible to true on Features and L6.U gates. Server may still reject.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Force enable Truth+ post scheduling``` | ```Forces scheduleEnabled + scheduleVisible to true on Features and L6.U gates. Server may still reject.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Hide ads``` | ```Removes /truth/ads responses, AdQueueManager fetches and feed insertions.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Hide AI tab``` | ```Removes the Truth AI tab from the bottom navigation bar.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Hide For You feed``` | ```Drops feeds whose id is "for_you" or "recommended" from the FeedsRepositoryImpl reader.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Hide Help Center sidebar item``` | ```Suppresses the Help Center row in the account drawer sidebar.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Hide Truth Gems``` | ```Removes the gem badge and the Truth Gems banner / drawer button.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Hide TRUTH+ button``` | ```Removes the TRUTH+ upsell button from the top app bar.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Rename package to MTGA variant``` | ```Repackages to com.truthsocial.android.app.mtga so the patched APK coexists with the Play Store install.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Strip split requirement``` | ```Removes isSplitRequired / requiredSplitTypes / vending.splits.required so the patched APK installs standalone.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
-| ```Tag versionName with -mtga-patched``` | ```Appends "-mtga-patched" to the manifest versionName and inlined BuildConfig.VERSION_NAME literals.``` | ```com.truthsocial.android.app``` | ```1.26.1, 1.24.8, 1.24.6``` |
+| ```Block ad requests at the network layer``` | ```Drops retrofit2 enqueue calls whose Request URL contains "/truth/ads".``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Block Truth+ upsell``` | ```Drops navigation to the Truth+ upsell sheet and the per-feature roadblock dialog.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Bypass Play Integrity``` | ```Skips Play Integrity assertion injection — chain proceeds with the original request.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Bypass Truth+ geofence``` | ```Forces the smsCountry == "US" check on premiumGateHelper.d(user) to always return true.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Disable advertising ID``` | ```Removes advertising-ID and ad-services permissions from the manifest.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Disable analytics``` | ```Neutralizes AppAnalyticsManager — every void-returning method becomes return-void.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Disable Firebase telemetry``` | ```Neutralizes Firebase Analytics + Crashlytics logging methods.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Disable Search AI``` | ```Neutralizes SearchAIUseCase invocations.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Enable Truth TV``` | ```Forces Features.tvEnabled to true on construction. Truth TV becomes visible across the app.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Force enable Truth+ post editing``` | ```Forces editsEnabled + editsVisible to true on Features and L6.U gates. Server may still reject.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Force enable Truth+ post scheduling``` | ```Forces scheduleEnabled + scheduleVisible to true on Features and L6.U gates. Server may still reject.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Hide ads``` | ```Removes /truth/ads responses, AdQueueManager fetches and feed insertions.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Hide AI tab``` | ```Removes the Truth AI tab from the bottom navigation bar.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Hide For You feed``` | ```Drops feeds whose id is "for_you" or "recommended" from the FeedsRepositoryImpl reader.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Hide Help Center sidebar item``` | ```Suppresses the Help Center row in the account drawer sidebar.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Hide live content carousel``` | ```Removes the livestream avatar carousel at the top of the home feed.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Hide top banner ad``` | ```Removes the sponsored "Proudly sponsored by Truth Social" card at the top of the home feed.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Hide Truth Gems``` | ```Removes the gem badge and the Truth Gems banner / drawer button.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Hide TRUTH+ button``` | ```Removes the TRUTH+ upsell button from the top app bar.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Rename package to MTGA variant``` | ```Repackages to com.truthsocial.android.app.mtga so the patched APK coexists with the Play Store install.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Strip split requirement``` | ```Removes isSplitRequired / requiredSplitTypes / vending.splits.required so the patched APK installs standalone.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
+| ```Tag versionName with -mtga-patched``` | ```Appends "-mtga-patched" to the manifest versionName and inlined BuildConfig.VERSION_NAME literals.``` | ```com.truthsocial.android.app``` | ```1.27.1, 1.27.0, 1.26.2, 1.26.1, 1.24.10, 1.24.8, 1.24.6``` |
 
 </details>
 
@@ -772,7 +774,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Piko Bundle Patch List:
 [📦 Piko-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-patches-bundle-morphe)
 <details>
-<summary><b>Piko</b> - 119 patches, 2 apps</summary>
+<summary><b>Piko</b> - 121 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -780,6 +782,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Allow user network certificate``` | ```Allows user network certificate for whitehat testing``` | ```Instagram``` | ```All versions``` |
 | ```Amoled theme``` | ```Replaces Instagram's dark-mode background greys with pure black for AMOLED displays.``` | ```Instagram``` | ```All versions``` |
 | ```Change like animation``` | ```Change the animation to one from existing Rings like animations``` | ```Instagram``` | ```All versions``` |
+| ```Clone``` | ```Changes the package name and the app name. This allows you to install the patched app alongside the original Instagram app. Caution: Do not select the official Morphe's "Change package name" universal patch.``` | ```Instagram``` | ```All versions``` |
 | ```Copy comment``` | ```Adds a button to copy comments on posts and reels.``` | ```Instagram``` | ```All versions``` |
 | ```Customise story ring size``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Customise story timestamp``` | ```Customise the timestamp that shows when the story was posted``` | ```Instagram``` | ```All versions``` |
@@ -798,6 +801,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Disable video autoplay``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```Instagram``` | ```All versions``` |
 | ```Download voice message``` | ```Enables ability to download voice messages``` | ```Instagram``` | ```All versions``` |
+| ```External downloader``` | ```Adds support to share post links directly to external downloader``` | ```Instagram``` | ```All versions``` |
 | ```Follow back indicator``` | ```Adds a label on the profile page, indicating whether a user is follows you back.``` | ```Instagram``` | ```All versions``` |
 | ```Hide group creation button on sharesheet``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button.``` | ```Instagram``` | ```All versions``` |
