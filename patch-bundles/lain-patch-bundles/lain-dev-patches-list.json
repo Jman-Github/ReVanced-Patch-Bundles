@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.2",
+    "version": "v1.1.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -24,6 +24,109 @@
             "dependencies": [],
             "description": "Disable banner, splash, and rewarded ads.",
             "name": "Disable Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FBC5D1",
+                    "description": null,
+                    "name": "Nekopoi",
+                    "packageName": "com.kcstream.cing",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disable banner, splash and video player ads.",
+            "name": "Disable Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FFFFFF",
+                    "description": null,
+                    "name": "Timestamp Camera Enterprise Free",
+                    "packageName": "com.jeyluta.timestampcamerafreeent",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.237"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FFFFFF",
+                    "description": null,
+                    "name": "Timestamp Camera Free",
+                    "packageName": "com.jeyluta.timestampcamerafree",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.252"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disable banner ads.",
+            "name": "Disable Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FBC5D1",
+                    "description": null,
+                    "name": "Nekopoi",
+                    "packageName": "com.kcstream.cing",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disable Anti-Tamper detection that force quit the app.",
+            "name": "Disable Anti-Tamper Detection",
             "options": []
         },
         {
@@ -166,6 +269,12 @@
                             "isExperimental": false,
                             "minSdk": null,
                             "version": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.1.9"
                         }
                     ]
                 }
