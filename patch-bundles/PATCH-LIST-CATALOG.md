@@ -60,7 +60,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Piko-Shim](#-piko-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
-| [Kondratjev](#-kondratjev-bundle-patch-list) | 18 | 9 | Generated |
+| [Kondratjev](#-kondratjev-bundle-patch-list) | 19 | 10 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 73 | 50 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 83 | 7 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 114 | 4 | Generated |
@@ -2012,7 +2012,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kondratjev Bundle Patch List:
 [📦 Kondratjev-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kondratjev-patches-bundle-morphe)
 <details>
-<summary><b>Kondratjev</b> - 18 patches, 9 apps</summary>
+<summary><b>Kondratjev</b> - 19 patches, 10 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2033,6 +2033,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Change version code``` | ```Changes the app version code, allowing installation over existing versions.``` | ```Universal``` | ```All versions``` |
 | ```Disable analytics``` | ```Disables analytics and tracking from multiple SDKs, including AppMetrica, MyTracker, Firebase, Sentry, Google Analytics, Amplitude, Mixpanel, Adjust, and AppsFlyer.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables the Pairip license verification check.``` | ```Universal``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium features. Need root for Google Sign-In working.``` | ```WiseMeal``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Yazio Pro features.``` | ```Yazio``` | ```All versions``` |
 
 </details>
