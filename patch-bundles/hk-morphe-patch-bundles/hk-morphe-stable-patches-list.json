@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.3.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -111,8 +111,16 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Fixes the random button by fetching from an alternative API.",
+            "description": "Fixes the random subreddit button by fetching from an alternative API.",
             "name": "Fix random subreddit",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Enables the predictive back gesture introduced in Android 13.",
+            "name": "Predictive back gesture",
             "options": []
         },
         {
@@ -167,19 +175,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Fixes the Restore Comment feature (requires Sync Ultra).",
-            "name": "Fix Restore Comment",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": true,
             "dependencies": [],
-            "description": "Enables the predictive back gesture introduced on Android 13.",
-            "name": "Predictive back gesture",
+            "description": "Enables the predictive back gesture with Sync-specific fixes.",
+            "name": "Predictive back gesture (Reddit Sync)",
             "options": []
         },
         {
@@ -321,8 +319,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Unlocks Sync Ultra.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": null,
             "name": "Unlock Sync Ultra",
             "options": []
         }

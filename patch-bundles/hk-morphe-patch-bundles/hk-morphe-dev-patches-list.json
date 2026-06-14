@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.1",
+    "version": "v1.3.2-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -111,8 +111,16 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Fixes the random button by fetching from an alternative API.",
+            "description": "Fixes the random subreddit button by fetching from an alternative API.",
             "name": "Fix random subreddit",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Enables the predictive back gesture introduced in Android 13.",
+            "name": "Predictive back gesture",
             "options": []
         },
         {
@@ -167,19 +175,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Fixes the Restore Comment feature (requires Sync Ultra).",
-            "name": "Fix Restore Comment",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": true,
             "dependencies": [],
-            "description": "Enables the predictive back gesture introduced on Android 13.",
-            "name": "Predictive back gesture",
+            "description": "Enables the predictive back gesture with Sync-specific fixes.",
+            "name": "Predictive back gesture (Reddit Sync)",
             "options": []
         },
         {
@@ -321,65 +319,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Restores the translucent background when using the \"Swipe to return\" gesture on Android 11+.",
-            "name": "Swipe to return translucency fix",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "Sync for Reddit",
-                    "packageName": "com.laurencedawson.reddit_sync",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "v23.06.30-13:39"
-                        }
-                    ]
-                },
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "Sync for Reddit Pro",
-                    "packageName": "com.laurencedawson.reddit_sync.pro",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
-                        }
-                    ]
-                },
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "Sync for Reddit Dev",
-                    "packageName": "com.laurencedawson.reddit_sync.dev",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
-                        }
-                    ]
-                }
+            "dependencies": [
+                "BytecodePatch"
             ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks Sync Ultra.",
+            "description": null,
             "name": "Unlock Sync Ultra",
             "options": []
         }

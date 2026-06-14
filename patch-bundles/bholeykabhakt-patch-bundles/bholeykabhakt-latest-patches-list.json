@@ -1,5 +1,5 @@
 {
-    "version": "v2.7.0",
+    "version": "v2.8.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -351,6 +351,34 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": null,
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "vpnify",
+                    "packageName": "com.vpn.free.hotspot.secure.vpnify",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": "2.2.9"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
             "description": null,
             "name": "Unlock Premium",
             "options": []

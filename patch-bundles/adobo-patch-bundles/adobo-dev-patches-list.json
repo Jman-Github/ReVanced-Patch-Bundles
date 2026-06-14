@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.7",
+    "version": "v1.2.0-dev.8",
     "patches": [
         {
             "compatiblePackages": [
@@ -995,6 +995,42 @@
             ],
             "description": "Opens external links directly without going through out.reddit.com.",
             "name": "Open external links directly",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "9GAG",
+                    "packageName": "com.ninegag.android.app",
+                    "signatures": [
+                        "85581f5f4501c97a2c8bfa6f8942cfa829b0fc2d531288d6d77ce16ff30e4219"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 27,
+                            "version": "8.17.5"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 27,
+                            "version": "8.17.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Removes ads, trackers, and analytics in the 9GAG app.",
+            "name": "Remove 9GAG's ads, trackers, and analytics",
             "options": []
         },
         {

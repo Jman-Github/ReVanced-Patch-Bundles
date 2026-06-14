@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0-dev.13",
+    "version": "v1.10.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -293,6 +293,31 @@
                 "ResourcePatch"
             ],
             "description": "Unlocks all FatSecret Gold features and hides the Premium tab.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#00C853",
+                    "description": null,
+                    "name": "Lifesum",
+                    "packageName": "com.sillens.shapeupclub",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "20.6.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features.",
             "name": "Unlock Premium",
             "options": []
         },

@@ -49,8 +49,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 119 | 2 | Generated |
-| [HK-Morphe](#-hk-morphe-bundle-patch-list) | 7 | 4 | Generated |
-| [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 16 | 9 | Generated |
+| [HK-Morphe](#-hk-morphe-bundle-patch-list) | 6 | 4 | Generated |
+| [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 17 | 10 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 21 | 5 | Generated |
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
@@ -60,7 +60,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Piko-Shim](#-piko-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
-| [Kondratjev](#-kondratjev-bundle-patch-list) | 17 | 8 | Generated |
+| [Kondratjev](#-kondratjev-bundle-patch-list) | 18 | 9 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 73 | 50 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 83 | 7 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 114 | 4 | Generated |
@@ -70,7 +70,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Almewty](#-almewty-bundle-patch-list) | 3 | 2 | Generated |
 | [Anddea-Morphed](#-anddea-morphed-bundle-patch-list) | 133 | 6 | Generated |
 | [RookieEnough](#-rookieenough-bundle-patch-list) | 84 | 35 | Generated |
-| [Adobo](#-adobo-bundle-patch-list) | 36 | 4 | Generated |
+| [Adobo](#-adobo-bundle-patch-list) | 37 | 5 | Generated |
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 2 | 1 | Generated |
@@ -902,17 +902,16 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 HK-Morphe Bundle Patch List:
 [📦 HK-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hk-morphe-patches-bundle-morphe)
 <details>
-<summary><b>HK-Morphe</b> - 7 patches, 4 apps</summary>
+<summary><b>HK-Morphe</b> - 6 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Fix Other Discussions``` | ```Fixes the Other Discussions feature.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
-| ```Fix random subreddit``` | ```Fixes the random button by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
-| ```Fix Restore Comment``` | ```Fixes the Restore Comment feature (requires Sync Ultra).``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Fix random subreddit``` | ```Fixes the random subreddit button by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Predictive back gesture (Reddit Sync)``` | ```Enables the predictive back gesture with Sync-specific fixes.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
-| ```Swipe to return translucency fix``` | ```Restores the translucent background when using the "Swipe to return" gesture on Android 11+.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
-| ```Unlock Sync Ultra``` | ```Unlocks Sync Ultra.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
-| ```Predictive back gesture``` | ```Enables the predictive back gesture introduced on Android 13.``` | ```Universal``` | ```All versions``` |
+| ```Unlock Sync Ultra``` | ```N/A``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Predictive back gesture``` | ```Enables the predictive back gesture introduced in Android 13.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -1244,7 +1243,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 BholeyKaBhakt Bundle Patch List:
 [📦 BholeyKaBhakt-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bholeykabhakt-patches-bundle-morphe)
 <details>
-<summary><b>BholeyKaBhakt</b> - 16 patches, 9 apps</summary>
+<summary><b>BholeyKaBhakt</b> - 17 patches, 10 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1264,6 +1263,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Bypass ADB/Developer Options Detection``` | ```N/A``` | ```Universal``` | ```All versions``` |
 | ```Disable Facebook SDK Tracking``` | ```N/A``` | ```Universal``` | ```All versions``` |
 | ```Disable Firebase(Google) Analytics``` | ```N/A``` | ```Universal``` | ```All versions``` |
+| ```Unlock Premium``` | ```N/A``` | ```vpnify``` | ```All versions``` |
 
 </details>
 
@@ -2012,12 +2012,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kondratjev Bundle Patch List:
 [📦 Kondratjev-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kondratjev-patches-bundle-morphe)
 <details>
-<summary><b>Kondratjev</b> - 17 patches, 8 apps</summary>
+<summary><b>Kondratjev</b> - 18 patches, 9 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable community tab``` | ```Hides the News/Community tab from the bottom navigation.``` | ```FatSecret``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all FatSecret Gold features and hides the Premium tab.``` | ```FatSecret``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Lifesum``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Lyfta``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Medisafe``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium features and removes ads.``` | ```Pillo``` | ```All versions``` |
@@ -2915,10 +2916,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Adobo Bundle Patch List:
 [📦 Adobo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-adobo-patches-bundle-morphe)
 <details>
-<summary><b>Adobo</b> - 36 patches, 4 apps</summary>
+<summary><b>Adobo</b> - 37 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Remove 9GAG's ads, trackers, and analytics``` | ```Removes ads, trackers, and analytics in the 9GAG app.``` | ```9GAG``` | ```All versions``` |
 | ```Always-incognito mode``` | ```Always opens Gboard in incognito mode to disable typing history collection and personalization.``` | ```Gboard``` | ```All versions``` |
 | ```Enable clipboard in incognito``` | ```Enables clipboard support in incognito mode.``` | ```Gboard``` | ```All versions``` |
 | ```Enable key shape selection``` | ```Enables an option to select a key shape from the theme.``` | ```Gboard``` | ```All versions``` |
