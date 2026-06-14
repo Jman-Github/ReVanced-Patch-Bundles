@@ -1343,6 +1343,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+---
+### 📦 Hoomans-Morphe-Patches-Bundle [Morphe]:
+[🧩 Hoomans-Morphe Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hoomans-morphe-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hoomans-morphe-patch-bundles/hoomans-morphe-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hoomans-morphe-patch-bundles/hoomans-morphe-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hoomans-morphe-patch-bundles/hoomans-morphe-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -1560,6 +1573,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Realme-Link-Patches-Bundle](https://github.com/lyyako/realme-link-patches)
 
 #### 🏷️ [HK-Morphe-Patches-Bundle](https://github.com/humzakh/HK-Morphe-Patches)
+#### 🏷️ [Hoomans-Morphe-Patches-Bundle](https://github.com/arandomhooman/hoomans-morphe-patches)
+
 </details>
 
 ## 🖇 Integrations Repositories In Use
