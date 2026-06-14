@@ -1,33 +1,30 @@
 {
-  "version": "v1.0.2",
-  "patches": [
-    {
-      "name": "Enable Premium",
-      "description": "Unlocks the premium features (uninstall protection, focus mode, custom blocklists, daily/weekly time limits, block-on-restart, block recent-apps screen, etc.) without a subscription or Google login.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
+    "version": "v1.0.2",
+    "patches": [
         {
-          "packageName": "com.blockerhero",
-          "name": "BlockerHero",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#2D6CDF",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "1.5.0",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ],
-          "versions": [
-            "1.5.0"
-          ]
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2D6CDF",
+                    "description": null,
+                    "name": "BlockerHero",
+                    "packageName": "com.blockerhero",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.5.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the premium features (uninstall protection, focus mode, custom blocklists, daily/weekly time limits, block-on-restart, block recent-apps screen, etc.) without a subscription or Google login.",
+            "name": "Enable Premium",
+            "options": []
         }
-      ],
-      "options": []
-    }
-  ]
+    ]
 }
