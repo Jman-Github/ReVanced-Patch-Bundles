@@ -1,5 +1,5 @@
 {
-    "version": "v2.8.0-dev.1",
+    "version": "v2.2.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -64,40 +64,7 @@
             "default": false,
             "dependencies": [],
             "description": null,
-            "name": "Disable Facebook SDK Tracking",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": null,
             "name": "Disable Firebase(Google) Analytics",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "Sky Tonight",
-                    "packageName": "com.vitotechnology.sky.tonight.map.star.walk",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "2.5.0"
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": null,
-            "name": "Disable In-App Telemetry",
             "options": []
         },
         {
@@ -131,15 +98,15 @@
                     "apkFileType": null,
                     "appIconColor": null,
                     "description": null,
-                    "name": "ATM Fee Saver",
-                    "packageName": "com.atmfee",
+                    "name": "Autosync",
+                    "packageName": "com.ttxapps.autosync",
                     "signatures": null,
                     "targets": [
                         {
                             "description": null,
-                            "isExperimental": true,
+                            "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.7.9"
+                            "version": "7.5.10"
                         }
                     ]
                 }
@@ -147,34 +114,7 @@
             "default": true,
             "dependencies": [],
             "description": null,
-            "name": "Hide Location Permission Popup",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "Stellarium",
-                    "packageName": "com.noctuasoftware.stellarium_free",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "version": "1.16.2"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": null,
-            "name": "Install Extended (Deep Sky) Catalog",
+            "name": "Disable PairIP License Check",
             "options": []
         },
         {
@@ -197,10 +137,32 @@
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
+            "dependencies": [],
+            "description": null,
+            "name": "Force Stable Integrity State (Critical)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Autosync",
+                    "packageName": "com.ttxapps.autosync",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.5.10"
+                        }
+                    ]
+                }
             ],
+            "default": true,
+            "dependencies": [],
             "description": null,
             "name": "Purchase All Items",
             "options": []
@@ -211,57 +173,7 @@
                     "apkFileType": null,
                     "appIconColor": null,
                     "description": null,
-                    "name": "Inshorts",
-                    "packageName": "com.nis.app",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "version": "6.12.15"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": null,
-            "name": "Remove Ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "Inshorts",
-                    "packageName": "com.nis.app",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "version": "6.12.15"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": null,
-            "name": "Skip Login",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "PROTO - circuit simulator",
+                    "name": "Circuit Simulator",
                     "packageName": "com.proto.circuitsimulator",
                     "signatures": null,
                     "targets": [
@@ -278,109 +190,6 @@
             "dependencies": [],
             "description": null,
             "name": "Unlock All Features",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "Stellarium",
-                    "packageName": "com.noctuasoftware.stellarium_free",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "version": "1.16.2"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": null,
-            "name": "Unlock Plus",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "ATM Fee Saver",
-                    "packageName": "com.atmfee",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "version": "3.7.9"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": null,
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "Sky Tonight",
-                    "packageName": "com.vitotechnology.sky.tonight.map.star.walk",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "2.5.0"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": null,
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "vpnify",
-                    "packageName": "com.vpn.free.hotspot.secure.vpnify",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "version": "2.2.9"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": null,
-            "name": "Unlock Premium",
             "options": []
         }
     ]
