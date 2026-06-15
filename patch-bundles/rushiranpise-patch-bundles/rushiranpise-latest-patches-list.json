@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-dev.9",
+    "version": "v1.6.0-dev.10",
     "patches": [
         {
             "compatiblePackages": [
@@ -305,6 +305,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#1565C0",
+                    "description": null,
+                    "name": "nzb360",
+                    "packageName": "com.kevinforeman.nzb360",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks All access in Nzb360.",
+            "name": "Unlock All Access",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#2196F3",
                     "description": null,
                     "name": "Pialytic",
@@ -449,31 +474,6 @@
             "dependencies": [],
             "description": "Unlocks SHAREit lifetime premium.",
             "name": "Unlock Lifetime",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#1565C0",
-                    "description": null,
-                    "name": "nzb360",
-                    "packageName": "com.kevinforeman.nzb360",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks Lifetime access in Nzb360.",
-            "name": "Unlock Lifetime Access",
             "options": []
         },
         {
@@ -699,6 +699,31 @@
             "dependencies": [],
             "description": "Unlocks Premium Features In the App.",
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "Clickmate",
+                    "packageName": "com.inscode.autoclicker",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium in Clickmate",
+            "name": "Unlock Premium ",
             "options": []
         },
         {
