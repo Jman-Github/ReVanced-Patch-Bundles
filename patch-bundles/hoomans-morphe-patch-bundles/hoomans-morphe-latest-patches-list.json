@@ -1,6 +1,31 @@
 {
-    "version": "v1.0.2",
+    "version": "v1.1.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#00A99D",
+                    "description": null,
+                    "name": "Teach Me Anatomy",
+                    "packageName": "com.atomengineapps.teachmeanatomy",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.115"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the PairIP Google Play license check that otherwise shows a paywall and kills the app on any sideloaded (patched) install. Required for the patched app to launch at all.",
+            "name": "Disable License Check",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -24,6 +49,31 @@
             "dependencies": [],
             "description": "Unlocks the premium features (uninstall protection, focus mode, custom blocklists, daily/weekly time limits, block-on-restart, block recent-apps screen, etc.) without a subscription or Google login.",
             "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#00A99D",
+                    "description": null,
+                    "name": "Teach Me Anatomy",
+                    "packageName": "com.atomengineapps.teachmeanatomy",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.115"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Pro — removes the upgrade banners and ads, and unlocks the gated reference articles, quizzes and flashcards — without a subscription. Pro is a local flag so already-synced content works offline; genuinely server-side features still require a real account.",
+            "name": "Unlock Premium",
             "options": []
         }
     ]

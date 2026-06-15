@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.69",
+    "version": "v1.4.71",
     "patches": [
         {
             "compatibility": [
@@ -73,19 +73,19 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "16.8.0"
+                            "version": "16.12.0"
                         },
                         {
                             "experimental": false,
-                            "version": "16.12.0"
+                            "version": "16.8.0"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.cbs.ott": [
-                    "16.8.0",
-                    "16.12.0"
+                    "16.12.0",
+                    "16.8.0"
                 ]
             },
             "dependencies": [],
@@ -99,7 +99,7 @@
                 {
                     "appIconColor": 1539022,
                     "description": null,
-                    "name": "Prime Video",
+                    "name": "Prime Video Android TV",
                     "packageName": "com.amazon.amazonvideo.livingroom",
                     "targets": [
                         {
@@ -203,7 +203,7 @@
                 {
                     "appIconColor": 1539022,
                     "description": null,
-                    "name": "Prime Video",
+                    "name": "Prime Video Android TV",
                     "packageName": "com.amazon.amazonvideo.livingroom",
                     "targets": [
                         {

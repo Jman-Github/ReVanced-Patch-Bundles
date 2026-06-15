@@ -43,14 +43,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 1 | 1 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 3 | 2 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 10 | 7 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 121 | 2 | Generated |
-| [HK-Morphe](#-hk-morphe-bundle-patch-list) | 8 | 4 | Generated |
+| [HK-Morphe](#-hk-morphe-bundle-patch-list) | 7 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 17 | 10 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 21 | 5 | Generated |
@@ -120,11 +120,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Hoomans-Morphe Bundle Patch List:
 [?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 1 patch, 1 app</summary>
+<summary><b>Hoomans-Morphe</b> - 3 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Unlocks the premium features (uninstall protection, focus mode, custom blocklists, daily/weekly time limits, block-on-restart, block recent-apps screen, etc.) without a subscription or Google login.``` | ```BlockerHero``` | ```All versions``` |
+| ```Disable License Check``` | ```Removes the PairIP Google Play license check that otherwise shows a paywall and kills the app on any sideloaded (patched) install. Required for the patched app to launch at all.``` | ```Teach Me Anatomy``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Pro — removes the upgrade banners and ads, and unlocks the gated reference articles, quizzes and flashcards — without a subscription. Pro is a local flag so already-synced content works offline; genuinely server-side features still require a real account.``` | ```Teach Me Anatomy``` | ```All versions``` |
 
 </details>
 
@@ -919,14 +921,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 HK-Morphe Bundle Patch List:
 [📦 HK-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hk-morphe-patches-bundle-morphe)
 <details>
-<summary><b>HK-Morphe</b> - 8 patches, 4 apps</summary>
+<summary><b>HK-Morphe</b> - 7 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Fix Other Discussions``` | ```Fixes the Other Discussions feature.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Fix random subreddit``` | ```Fixes the random subreddit button by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
-| ```Fix Swipe To Return (Animation)``` | ```Forces the exact system enter/exit animations dynamically via Smali injection.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
-| ```Fix Swipe To Return (Background)``` | ```Fixes the black background when swiping to return by forcing translucent window.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Fix Swipe To Return``` | ```Fixes the black background when swiping to return by using the official Android 11+ setTranslucent() API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Predictive back gesture (Reddit Sync)``` | ```Enables the predictive back gesture with Sync-specific fixes.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Unlock Sync Ultra``` | ```Unlocks Sync Ultra and fixes the Restore Comment feature by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
@@ -3528,7 +3529,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Skip ads``` | ```Suppresses ad schedule and seeks past playing ads using the Player reference available in getStreamPositionUs.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
-| ```Paramount+ Android TV``` | ```Removes VOD ads and pause ads while preserving live TV.``` | ```com.cbs.ott``` | ```16.8.0, 16.12.0``` |
+| ```Paramount+ Android TV``` | ```Removes VOD ads and pause ads while preserving live TV.``` | ```com.cbs.ott``` | ```16.12.0, 16.8.0``` |
 | ```Disney+ Android TV``` | ```Removes mid-roll / pre-roll ads and pause ads.``` | ```com.disney.disneyplus``` | ```26.6.0+rc5-2026.04.21, 26.8.0+rc6-2026.05.20, 26.9.2+rc1-2026.06.12``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox One Android TV.``` | ```com.fox.foxone``` | ```1.9.2``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox Sports Android TV.``` | ```com.foxsports.android``` | ```5.152.0``` |

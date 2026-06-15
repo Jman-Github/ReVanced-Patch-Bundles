@@ -167,68 +167,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Forces the exact system enter/exit animations dynamically via Smali injection.",
-            "name": "Fix Swipe To Return (Animation)",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "Sync for Reddit",
-                    "packageName": "com.laurencedawson.reddit_sync",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "v23.06.30-13:39"
-                        }
-                    ]
-                },
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "Sync for Reddit Pro",
-                    "packageName": "com.laurencedawson.reddit_sync.pro",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
-                        }
-                    ]
-                },
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "Sync for Reddit Dev",
-                    "packageName": "com.laurencedawson.reddit_sync.dev",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
-                        }
-                    ]
-                }
-            ],
-            "default": true,
             "dependencies": [],
-            "description": "Fixes the black background when swiping to return by forcing translucent window.",
-            "name": "Fix Swipe To Return (Background)",
+            "description": "Fixes the black background when swiping to return by using the official Android 11+ setTranslucent() API.",
+            "name": "Fix Swipe To Return",
             "options": []
         },
         {
