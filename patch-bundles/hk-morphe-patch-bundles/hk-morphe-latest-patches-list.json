@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.3-dev.1",
+    "version": "v1.3.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -113,63 +113,6 @@
             "dependencies": [],
             "description": "Fixes the random subreddit button by fetching from an alternative API.",
             "name": "Fix random subreddit",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "Sync for Reddit",
-                    "packageName": "com.laurencedawson.reddit_sync",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "v23.06.30-13:39"
-                        }
-                    ]
-                },
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "Sync for Reddit Pro",
-                    "packageName": "com.laurencedawson.reddit_sync.pro",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
-                        }
-                    ]
-                },
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "Sync for Reddit Dev",
-                    "packageName": "com.laurencedawson.reddit_sync.dev",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Fixes the black background when swiping to return by using the official Android 11+ setTranslucent() API.",
-            "name": "Fix Swipe To Return",
             "options": []
         },
         {
@@ -379,7 +322,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Unlocks Sync Ultra and fixes the Restore Comment feature by fetching from an alternative API.",
+            "description": null,
             "name": "Unlock Sync Ultra",
             "options": []
         }
