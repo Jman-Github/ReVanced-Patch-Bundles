@@ -43,7 +43,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 3 | 2 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 4 | 3 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 10 | 7 | Generated |
@@ -100,7 +100,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 10 | 9 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 11 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 31 | 22 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 35 | 26 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 3 | 1 | Generated |
 
 ### Legacy
@@ -120,11 +120,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Hoomans-Morphe Bundle Patch List:
 [?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 3 patches, 2 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 4 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Unlocks the premium features (uninstall protection, focus mode, custom blocklists, daily/weekly time limits, block-on-restart, block recent-apps screen, etc.) without a subscription or Google login.``` | ```BlockerHero``` | ```All versions``` |
+| ```Unlock Gold``` | ```Unlocks Cronometer Gold (custom charts, advanced reports, fasting tracker, custom biometrics, diary timestamps & groups, ad-free, and the other Gold gates) without a subscription, by forcing the app's local Gold override on. Gold features run on your own on-device diary data, so they work offline; anything genuinely served from Cronometer's servers still needs a real account.``` | ```Cronometer``` | ```All versions``` |
 | ```Disable License Check``` | ```Removes the PairIP Google Play license check that otherwise shows a paywall and kills the app on any sideloaded (patched) install. Required for the patched app to launch at all.``` | ```Teach Me Anatomy``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Pro — removes the upgrade banners and ads, and unlocks the gated reference articles, quizzes and flashcards — without a subscription. Pro is a local flag so already-synced content works offline; genuinely server-side features still require a real account.``` | ```Teach Me Anatomy``` | ```All versions``` |
 
@@ -925,11 +926,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Fix Other Discussions``` | ```Fixes the Other Discussions feature.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
-| ```Fix random subreddit``` | ```Fixes the random subreddit button by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
-| ```Predictive back gesture (Reddit Sync)``` | ```Enables the predictive back gesture with Sync-specific fixes.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
-| ```Spoof client``` | ```Restores functionality of the app by using custom client ID.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
-| ```Unlock Sync Ultra``` | ```N/A``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Fix "Other Discussions"``` | ```Fixes the "Other Discussions" feature.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Fix r/random``` | ```Restores random subreddit functionality by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Predictive back gesture (Reddit Sync)``` | ```Enables the predictive back gesture with fixes for Reddit Sync.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Spoof client``` | ```Restores functionality of the app by using custom client ID (default included).``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Unlock Sync Ultra``` | ```Unlocks Sync Ultra and fixes the "Restore Comment" premium feature by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Predictive back gesture``` | ```Enables the predictive back gesture introduced in Android 13.``` | ```Universal``` | ```All versions``` |
 
 </details>
@@ -3578,13 +3579,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 31 patches, 22 apps</summary>
+<summary><b>Rushiranpise</b> - 35 patches, 26 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable Analytics / Telemetry``` | ```Disables App Analytics / Telemetry.``` | ```1.1.1.1 + WARP``` | ```All versions``` |
 | ```Spoof WARP+ Unlimited UI``` | ```Unlocks WARP+ UI locally.``` | ```1.1.1.1 + WARP``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium in Beta by Mirko.``` | ```Beta Maniac``` | ```All versions``` |
+| ```Unlock Lifetime``` | ```Unlocks lifetime subscription features in BlockerHero.``` | ```BlockerHero``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Call Recorder - Automatic``` | ```All versions``` |
 | ```Remove Ads``` | ```Removes interstitial, app-open and native ads.``` | ```Case Tracker - Immigration``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Case Tracker - Immigration``` | ```All versions``` |
@@ -3595,16 +3597,19 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Suppress Premium Promotions``` | ```Supress all premium promotions in-app.``` | ```Crime Radar``` | ```All versions``` |
 | ```Unlock Followed Locations``` | ```Unlocks the Followed Locations premium feature.``` | ```Crime Radar``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Crime Radar``` | ```All versions``` |
+| ```Unlock VIP``` | ```Unlocks Dubox Drive VIP/SVIP (Premium+)``` | ```Dubox Drive``` | ```All versions``` |
 | ```Unlock Donation Features``` | ```Unlocks all premium donation features in Greenify.``` | ```Greenify``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in Hibernator.``` | ```Hibernator``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in KillApps.``` | ```KillApps``` | ```All versions``` |
 | ```Remove Ads``` | ```Removes interstitial and exit native ads from m-Indicator.``` | ```m-Indicator``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in ML Manager.``` | ```ML Manager``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```NetMonster``` | ```All versions``` |
+| ```Unlock Lifetime Access``` | ```Unlocks Lifetime access in Nzb360.``` | ```nzb360``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Photo Editor premium features by bypassing license checks.``` | ```Photo Editor``` | ```All versions``` |
 | ```Unlock All Features``` | ```Bypasses PairIP DRM license check, removes all paywalls, and unlocks all premium features including cloud sync and remote access.``` | ```Pialytic``` | ```All versions``` |
 | ```Unlock Lifetime``` | ```Unlocks all Lifetime features in Proxyman.``` | ```Proxyman``` | ```All versions``` |
 | ```Unlock Pro``` | ```Removes ads and unlocks the no-ads subscription in RAR.``` | ```RAR``` | ```All versions``` |
+| ```Unlock Premium``` | ```Bypasses PairIP license check, paywall, ads, and pro upsell in SAI.``` | ```SAI - Split APKs Installer``` | ```All versions``` |
 | ```Unlock Lifetime``` | ```Unlocks SHAREit lifetime premium.``` | ```SHAREit Premium``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Premium features in Snipd: AI Podcast Player by spoofing the RevenueCat CustomerInfo.``` | ```Snipd: AI Podcast Player``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Splitwise Pro features, removes ad banners, and suppresses all upgrade upsell prompts.``` | ```Splitwise``` | ```All versions``` |

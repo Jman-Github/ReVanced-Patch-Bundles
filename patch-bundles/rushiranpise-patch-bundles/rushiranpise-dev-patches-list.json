@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-dev.4",
+    "version": "v1.6.0-dev.8",
     "patches": [
         {
             "compatiblePackages": [
@@ -330,6 +330,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#FF5252",
+                    "description": null,
+                    "name": "BlockerHero",
+                    "packageName": "com.blockerhero",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks lifetime subscription features in BlockerHero.",
+            "name": "Unlock Lifetime",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#FF6B35",
                     "description": null,
                     "name": "Proxyman",
@@ -374,6 +399,31 @@
             "dependencies": [],
             "description": "Unlocks SHAREit lifetime premium.",
             "name": "Unlock Lifetime",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1565C0",
+                    "description": null,
+                    "name": "nzb360",
+                    "packageName": "com.kevinforeman.nzb360",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "23.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Lifetime access in Nzb360.",
+            "name": "Unlock Lifetime Access",
             "options": []
         },
         {
@@ -523,6 +573,31 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all Photo Editor premium features by bypassing license checks.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1565C0",
+                    "description": null,
+                    "name": "SAI - Split APKs Installer",
+                    "packageName": "com.mtv.sai",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses PairIP license check, paywall, ads, and pro upsell in SAI.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -749,6 +824,31 @@
             "dependencies": [],
             "description": "Unlocks all subscription features in TWT App.",
             "name": "Unlock Subscription",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2EAAFF",
+                    "description": null,
+                    "name": "Dubox Drive",
+                    "packageName": "com.dubox.drive",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Dubox Drive VIP/SVIP (Premium+)",
+            "name": "Unlock VIP",
             "options": []
         },
         {

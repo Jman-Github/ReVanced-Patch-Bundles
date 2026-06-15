@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -49,6 +49,31 @@
             "dependencies": [],
             "description": "Unlocks the premium features (uninstall protection, focus mode, custom blocklists, daily/weekly time limits, block-on-restart, block recent-apps screen, etc.) without a subscription or Google login.",
             "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F26B21",
+                    "description": null,
+                    "name": "Cronometer",
+                    "packageName": "com.cronometer.android.gold",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.56.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Cronometer Gold (custom charts, advanced reports, fasting tracker, custom biometrics, diary timestamps & groups, ad-free, and the other Gold gates) without a subscription, by forcing the app's local Gold override on. Gold features run on your own on-device diary data, so they work offline; anything genuinely served from Cronometer's servers still needs a real account.",
+            "name": "Unlock Gold",
             "options": []
         },
         {
