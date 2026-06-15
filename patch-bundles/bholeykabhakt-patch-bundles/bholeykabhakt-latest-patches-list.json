@@ -1,5 +1,5 @@
 {
-    "version": "v2.8.2",
+    "version": "v2.9.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -102,6 +102,31 @@
                             "isExperimental": false,
                             "minSdk": null,
                             "version": "2.5.0"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": null,
+            "name": "Disable In-App Telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Star Walk 2",
+                    "packageName": "com.vitotechnology.StarWalk2Free",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": "2.20.3"
                         }
                     ]
                 }
@@ -399,6 +424,31 @@
                             "isExperimental": false,
                             "minSdk": null,
                             "version": "2.5.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": null,
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Star Walk 2",
+                    "packageName": "com.vitotechnology.StarWalk2Free",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": "2.20.3"
                         }
                     ]
                 }

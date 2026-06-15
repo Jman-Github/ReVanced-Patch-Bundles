@@ -51,7 +51,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 121 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 6 | 4 | Generated |
-| [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 17 | 10 | Generated |
+| [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 19 | 11 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 21 | 5 | Generated |
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
@@ -1263,7 +1263,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 BholeyKaBhakt Bundle Patch List:
 [📦 BholeyKaBhakt-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bholeykabhakt-patches-bundle-morphe)
 <details>
-<summary><b>BholeyKaBhakt</b> - 17 patches, 10 apps</summary>
+<summary><b>BholeyKaBhakt</b> - 19 patches, 11 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1278,6 +1278,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium``` | ```N/A``` | ```Sky Tonight``` | ```All versions``` |
 | ```AdFree Account``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
 | ```Disable Logging(analytics)``` | ```N/A``` | ```Speedtest``` | ```All versions``` |
+| ```Disable In-App Telemetry``` | ```N/A``` | ```Star Walk 2``` | ```All versions``` |
+| ```Unlock Premium``` | ```N/A``` | ```Star Walk 2``` | ```All versions``` |
 | ```Install Extended (Deep Sky) Catalog``` | ```N/A``` | ```Stellarium``` | ```All versions``` |
 | ```Unlock Plus``` | ```N/A``` | ```Stellarium``` | ```All versions``` |
 | ```Bypass ADB/Developer Options Detection``` | ```N/A``` | ```Universal``` | ```All versions``` |
