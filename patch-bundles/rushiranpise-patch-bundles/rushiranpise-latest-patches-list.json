@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-dev.8",
+    "version": "v1.6.0-dev.9",
     "patches": [
         {
             "compatiblePackages": [
@@ -105,6 +105,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#8B3DFF",
+                    "description": null,
+                    "name": "Canva",
+                    "packageName": "com.canva.editor",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes restricted/locked indicators on premium media in Canva.",
+            "name": "Disable Restricted Access",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#1565C0",
                     "description": null,
                     "name": "Case Tracker - Immigration",
@@ -174,6 +199,31 @@
             "dependencies": [],
             "description": "Removes all  item limits in-app.",
             "name": "Remove Item Limits",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#8B3DFF",
+                    "description": null,
+                    "name": "Canva",
+                    "packageName": "com.canva.editor",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes watermarks from Canva exports and previews.",
+            "name": "Remove Watermark",
             "options": []
         },
         {
@@ -415,7 +465,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "23.4"
+                            "version": null
                         }
                     ]
                 }
@@ -832,7 +882,7 @@
                     "apkFileType": null,
                     "appIconColor": "#2EAAFF",
                     "description": null,
-                    "name": "Dubox Drive",
+                    "name": "TeraBox",
                     "packageName": "com.dubox.drive",
                     "signatures": null,
                     "targets": [

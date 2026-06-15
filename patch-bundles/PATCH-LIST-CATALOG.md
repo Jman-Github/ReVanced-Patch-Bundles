@@ -98,9 +98,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kolaron](#-kolaron-bundle-patch-list) | 1 | 1 | Generated |
 | [ImmortalZeus](#-immortalzeus-bundle-patch-list) | 2 | 2 | Generated |
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 10 | 9 | Generated |
-| [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 11 | 1 | Generated |
+| [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 16 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 35 | 26 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 37 | 27 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 3 | 1 | Generated |
 
 ### Legacy
@@ -3547,21 +3547,26 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Icysymmetra-TikTok Bundle Patch List:
 [📦 Icysymmetra-TikTok-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-icysymmetra-tiktok-patches-bundle-morphe)
 <details>
-<summary><b>Icysymmetra-TikTok</b> - 11 patches, 1 app</summary>
+<summary><b>Icysymmetra-TikTok</b> - 16 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Copy comments without username``` | ```Copies only the comment text when copying TikTok comments. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
+| ```Custom offline videos limit``` | ```Adds a configurable custom option to TikTok's offline videos menu. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
 | ```Disable login requirement``` | ```Disables mandatory login for TikTok. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Downloads``` | ```Downloads videos without watermark and adds download-related controls. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
+| ```Downloads``` | ```Downloads videos and images without watermark, saves comment stickers/images, and adds download-related controls. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
 | ```Enable Open Debug``` | ```Uses TikTok's hidden Open Debug settings cell as the entry point for Morphe settings. Required for the Morphe settings menu to appear. Supports TikTok 43.8.3.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
 | ```Feed filter``` | ```Removes ads, livestreams, stories, image videos and videos with a specific amount of views or likes from the feed. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
+| ```Feed tab navigation``` | ```Adds controls to choose which top feed tabs are visible. For You stays enabled for stability. Supports TikTok 43.8.3.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
 | ```Fix Google login``` | ```Allows logging in with a Google account. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
+| ```Follow diagnostics``` | ```Adds debug-only logs around TikTok follow requests to help diagnose follow actions that do not persist. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
 | ```Playback speed``` | ```Enables the playback speed option for all videos and retains the speed configurations in between videos. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
 | ```Remember clear display``` | ```Remembers the clear display configurations in between videos. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
 | ```Sanitize sharing links``` | ```Removes tracking parameters from shared links. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
 | ```Settings``` | ```Adds Morphe settings to TikTok. Supports TikTok 43.8.3.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
 | ```Show seekbar``` | ```Shows a progress bar for all videos. (Supports TikTok 43.8.3.)``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
 | ```SIM spoof``` | ```Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
+| ```Translate comments``` | ```Adds comment translation controls that use TikTok's loaded comment batch. Supports TikTok 43.8.3.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
 
 </details>
 
@@ -3582,7 +3587,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 35 patches, 26 apps</summary>
+<summary><b>Rushiranpise</b> - 37 patches, 27 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3591,6 +3596,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks premium in Beta by Mirko.``` | ```Beta Maniac``` | ```All versions``` |
 | ```Unlock Lifetime``` | ```Unlocks lifetime subscription features in BlockerHero.``` | ```BlockerHero``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Call Recorder - Automatic``` | ```All versions``` |
+| ```Disable Restricted Access``` | ```Removes restricted/locked indicators on premium media in Canva.``` | ```Canva``` | ```All versions``` |
+| ```Remove Watermark``` | ```Removes watermarks from Canva exports and previews.``` | ```Canva``` | ```All versions``` |
 | ```Remove Ads``` | ```Removes interstitial, app-open and native ads.``` | ```Case Tracker - Immigration``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Case Tracker - Immigration``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all Citizen Plus/Protect features: Safety Network, Safety Center, Zones, Live Agent, Offender alerts, Clarity crime map, incident video, and more.``` | ```Citizen - Safety Alert``` | ```All versions``` |
@@ -3600,7 +3607,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Suppress Premium Promotions``` | ```Supress all premium promotions in-app.``` | ```Crime Radar``` | ```All versions``` |
 | ```Unlock Followed Locations``` | ```Unlocks the Followed Locations premium feature.``` | ```Crime Radar``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Crime Radar``` | ```All versions``` |
-| ```Unlock VIP``` | ```Unlocks Dubox Drive VIP/SVIP (Premium+)``` | ```Dubox Drive``` | ```All versions``` |
 | ```Unlock Donation Features``` | ```Unlocks all premium donation features in Greenify.``` | ```Greenify``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in Hibernator.``` | ```Hibernator``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in KillApps.``` | ```KillApps``` | ```All versions``` |
@@ -3617,6 +3623,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks all Premium features in Snipd: AI Podcast Player by spoofing the RevenueCat CustomerInfo.``` | ```Snipd: AI Podcast Player``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Splitwise Pro features, removes ad banners, and suppresses all upgrade upsell prompts.``` | ```Splitwise``` | ```All versions``` |
 | ```Unlock Subscription``` | ```Unlocks all subscription features in TWT App.``` | ```Stargazing Hub``` | ```All versions``` |
+| ```Unlock VIP``` | ```Unlocks Dubox Drive VIP/SVIP (Premium+)``` | ```TeraBox``` | ```All versions``` |
 | ```Disable Ads``` | ```Prevents the AppOpen ad preloader from initialising.``` | ```Universal TV Remote Control``` | ```All versions``` |
 | ```Suppress Paywall``` | ```Suppresses the in-app paywall.``` | ```Universal TV Remote Control``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Universal TV Remote Control``` | ```All versions``` |
