@@ -1,6 +1,62 @@
 {
-    "version": "v1.0.2",
+    "version": "v1.3.0-dev.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#6750A4",
+                    "description": null,
+                    "name": "Liquid Gallery",
+                    "packageName": "com.soepic.photogallery.release",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.0.14"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.1.11"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the PairIP Google Play license check that returns NOT_LICENSED on a sideloaded (patched) install and shuts the app down (\"Local install check failed due to wrong installer\"). Required alongside Unlock Pro for the patched app to launch.",
+            "name": "Disable License Check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#00A99D",
+                    "description": null,
+                    "name": "Teach Me Anatomy",
+                    "packageName": "com.atomengineapps.teachmeanatomy",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.115"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the PairIP Google Play license check that otherwise shows a paywall and kills the app on any sideloaded (patched) install. Required for the patched app to launch at all.",
+            "name": "Disable License Check",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -24,6 +80,112 @@
             "dependencies": [],
             "description": "Unlocks the premium features (uninstall protection, focus mode, custom blocklists, daily/weekly time limits, block-on-restart, block recent-apps screen, etc.) without a subscription or Google login.",
             "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F26B21",
+                    "description": null,
+                    "name": "Cronometer",
+                    "packageName": "com.cronometer.android.gold",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.56.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Cronometer Gold (custom charts, advanced reports, fasting tracker, custom biometrics, diary timestamps & groups, ad-free, and the other Gold gates) without a subscription, by forcing the app's local Gold override on. Gold features run on your own on-device diary data, so they work offline; anything genuinely served from Cronometer's servers still needs a real account.",
+            "name": "Unlock Gold",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#4255FF",
+                    "description": null,
+                    "name": "Quizlet",
+                    "packageName": "com.quizlet.quizletandroid",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "10.38.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes ads and unlocks the locally-gated Quizlet Plus features by forcing the account's upgrade type to Plus. Plus status and ad display are decided on-device from a cached flag, so this works without a subscription. Server-side Plus features (AI \"Magic Notes\"/generation and other cloud/metered tools) are validated and produced on Quizlet's servers and stay locked.",
+            "name": "Unlock Plus",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#00A99D",
+                    "description": null,
+                    "name": "Teach Me Anatomy",
+                    "packageName": "com.atomengineapps.teachmeanatomy",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.115"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Pro — removes the upgrade banners and ads, and unlocks the gated reference articles, quizzes and flashcards — without a subscription. Pro is a local flag so already-synced content works offline; genuinely server-side features still require a real account.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#6750A4",
+                    "description": null,
+                    "name": "Liquid Gallery",
+                    "packageName": "com.soepic.photogallery.release",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.0.14"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.1.11"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Liquid Gallery Pro (all premium features) without a purchase. Pro is a single local SharedPreferences flag with no server-side gate, so forcing it on unlocks everything the app gates locally.",
+            "name": "Unlock Pro",
             "options": []
         }
     ]

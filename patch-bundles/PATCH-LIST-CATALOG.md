@@ -43,7 +43,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 4 | 3 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 7 | 5 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 10 | 7 | Generated |
@@ -53,7 +53,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 6 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 19 | 11 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
-| [Brosssh](#-brosssh-bundle-patch-list) | 21 | 5 | Generated |
+| [Brosssh](#-brosssh-bundle-patch-list) | 22 | 5 | Generated |
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
 | [Chiggi](#-chiggi-bundle-patch-list) | 10 | 2 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 1 | 1 | Generated |
@@ -120,12 +120,15 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Hoomans-Morphe Bundle Patch List:
 [?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 4 patches, 3 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 7 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Unlocks the premium features (uninstall protection, focus mode, custom blocklists, daily/weekly time limits, block-on-restart, block recent-apps screen, etc.) without a subscription or Google login.``` | ```BlockerHero``` | ```All versions``` |
 | ```Unlock Gold``` | ```Unlocks Cronometer Gold (custom charts, advanced reports, fasting tracker, custom biometrics, diary timestamps & groups, ad-free, and the other Gold gates) without a subscription, by forcing the app's local Gold override on. Gold features run on your own on-device diary data, so they work offline; anything genuinely served from Cronometer's servers still needs a real account.``` | ```Cronometer``` | ```All versions``` |
+| ```Disable License Check``` | ```Removes the PairIP Google Play license check that returns NOT_LICENSED on a sideloaded (patched) install and shuts the app down ("Local install check failed due to wrong installer"). Required alongside Unlock Pro for the patched app to launch.``` | ```Liquid Gallery``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks Liquid Gallery Pro (all premium features) without a purchase. Pro is a single local SharedPreferences flag with no server-side gate, so forcing it on unlocks everything the app gates locally.``` | ```Liquid Gallery``` | ```All versions``` |
+| ```Unlock Plus``` | ```Removes ads and unlocks the locally-gated Quizlet Plus features by forcing the account's upgrade type to Plus. Plus status and ad display are decided on-device from a cached flag, so this works without a subscription. Server-side Plus features (AI "Magic Notes"/generation and other cloud/metered tools) are validated and produced on Quizlet's servers and stay locked.``` | ```Quizlet``` | ```All versions``` |
 | ```Disable License Check``` | ```Removes the PairIP Google Play license check that otherwise shows a paywall and kills the app on any sideloaded (patched) install. Required for the patched app to launch at all.``` | ```Teach Me Anatomy``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Pro — removes the upgrade banners and ads, and unlocks the gated reference articles, quizzes and flashcards — without a subscription. Pro is a local flag so already-synced content works offline; genuinely server-side features still require a real account.``` | ```Teach Me Anatomy``` | ```All versions``` |
 
@@ -1823,12 +1826,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Brosssh Bundle Patch List:
 [📦 Brosssh-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-brosssh-patches-bundle-morphe)
 <details>
-<summary><b>Brosssh</b> - 21 patches, 5 apps</summary>
+<summary><b>Brosssh</b> - 22 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Premium features``` | ```Unlock Premium features. You have to be logged in with an account.``` | ```Chargeprice``` | ```All versions``` |
 | ```Bypass signature check``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```Clone``` | ```Changes the package name and the app name. This allows you to install the patched app alongside the original Instagram app. Caution: Do not select the official Morphe's "Change package name" universal patch.``` | ```Instagram``` | ```All versions``` |
 | ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.``` | ```Instagram``` | ```All versions``` |
 | ```Disable story auto flipping``` | ```Disable stories automatically flipping/skipping after some seconds.``` | ```Instagram``` | ```All versions``` |
 | ```Disable video autoplay``` | ```Disable video autoplay from feed``` | ```Instagram``` | ```All versions``` |
@@ -2049,7 +2053,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable telemetry``` | ```Disables SoundCloud's telemetry system.``` | ```SoundCloud``` | ```All versions``` |
 | ```Enable SoundCloud Go+``` | ```Enables all premium features, hides upsell UI and ads.``` | ```SoundCloud``` | ```All versions``` |
 | ```Change version code``` | ```Changes the app version code, allowing installation over existing versions.``` | ```Universal``` | ```All versions``` |
-| ```Disable analytics``` | ```Disables analytics and tracking from multiple SDKs, including AppMetrica, MyTracker, Firebase, Sentry, Google Analytics, Amplitude, Mixpanel, Adjust, AppsFlyer, and Facebook.``` | ```Universal``` | ```All versions``` |
+| ```Disable analytics``` | ```Disables analytics and tracking from multiple SDKs, including AppMetrica, MyTracker, Firebase, Sentry, Google Analytics, Amplitude, Mixpanel, Adjust, AppsFlyer, Facebook, MoEngage, and comScore.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables the Pairip license verification check.``` | ```Universal``` | ```All versions``` |
 | ```Unlock Premium``` | ```ROOT ONLY. Unlocks all premium features.``` | ```WiseMeal``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Yazio Pro features.``` | ```Yazio``` | ```All versions``` |

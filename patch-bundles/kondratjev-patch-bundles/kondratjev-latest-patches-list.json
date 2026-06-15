@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.0-dev.2",
+    "version": "v1.12.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -53,7 +53,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Disables analytics and tracking from multiple SDKs, including AppMetrica, MyTracker, Firebase, Sentry, Google Analytics, Amplitude, Mixpanel, Adjust, AppsFlyer, and Facebook.",
+            "description": "Disables analytics and tracking from multiple SDKs, including AppMetrica, MyTracker, Firebase, Sentry, Google Analytics, Amplitude, Mixpanel, Adjust, AppsFlyer, Facebook, MoEngage, and comScore.",
             "name": "Disable analytics",
             "options": []
         },

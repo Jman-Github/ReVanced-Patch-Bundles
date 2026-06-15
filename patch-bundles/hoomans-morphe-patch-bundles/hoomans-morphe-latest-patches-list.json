@@ -1,6 +1,37 @@
 {
-    "version": "v1.2.4",
+    "version": "v1.3.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#6750A4",
+                    "description": null,
+                    "name": "Liquid Gallery",
+                    "packageName": "com.soepic.photogallery.release",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.0.14"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.1.11"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the PairIP Google Play license check that returns NOT_LICENSED on a sideloaded (patched) install and shuts the app down (\"Local install check failed due to wrong installer\"). Required alongside Unlock Pro for the patched app to launch.",
+            "name": "Disable License Check",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -80,6 +111,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#4255FF",
+                    "description": null,
+                    "name": "Quizlet",
+                    "packageName": "com.quizlet.quizletandroid",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "10.38.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes ads and unlocks the locally-gated Quizlet Plus features by forcing the account's upgrade type to Plus. Plus status and ad display are decided on-device from a cached flag, so this works without a subscription. Server-side Plus features (AI \"Magic Notes\"/generation and other cloud/metered tools) are validated and produced on Quizlet's servers and stay locked.",
+            "name": "Unlock Plus",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#00A99D",
                     "description": null,
                     "name": "Teach Me Anatomy",
@@ -99,6 +155,37 @@
             "dependencies": [],
             "description": "Unlocks Pro — removes the upgrade banners and ads, and unlocks the gated reference articles, quizzes and flashcards — without a subscription. Pro is a local flag so already-synced content works offline; genuinely server-side features still require a real account.",
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#6750A4",
+                    "description": null,
+                    "name": "Liquid Gallery",
+                    "packageName": "com.soepic.photogallery.release",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.0.14"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.1.11"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Liquid Gallery Pro (all premium features) without a purchase. Pro is a single local SharedPreferences flag with no server-side gate, so forcing it on unlocks everything the app gates locally.",
+            "name": "Unlock Pro",
             "options": []
         }
     ]
