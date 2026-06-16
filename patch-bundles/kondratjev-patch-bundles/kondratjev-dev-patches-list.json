@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.0-dev.1",
+    "version": "v1.12.0-dev.3",
     "patches": [
         {
             "compatiblePackages": null,
@@ -53,7 +53,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Disables analytics and tracking from multiple SDKs, including AppMetrica, MyTracker, Firebase, Sentry, Google Analytics, Amplitude, Mixpanel, Adjust, and AppsFlyer.",
+            "description": "Disables analytics and tracking from multiple SDKs, including AppMetrica, MyTracker, Firebase, Sentry, Google Analytics, Amplitude, Mixpanel, Adjust, AppsFlyer, Facebook, MoEngage, and comScore.",
             "name": "Disable analytics",
             "options": []
         },
@@ -187,11 +187,61 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF5500",
+                    "description": null,
+                    "name": "SoundCloud",
+                    "packageName": "com.soundcloud.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2026.06.03-release"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the OneTrust consent/cookies popup on first launch.",
+            "name": "Disable OneTrust consent popup",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Disables the Pairip license verification check.",
             "name": "Disable Pairip license check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#7C4DFF",
+                    "description": null,
+                    "name": "Pillo",
+                    "packageName": "xyz.rtrvr.pillo",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "0.6.10"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables PulseSDK analytics sending events to events.pillo.care.",
+            "name": "Disable Pulse tracking",
             "options": []
         },
         {
@@ -335,49 +385,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.572"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.570"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.568"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.564"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.560"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.557"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.554"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.551"
+                            "version": "1.573"
                         }
                     ]
                 }

@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.2",
+    "version": "v1.3.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -54,8 +54,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Fixes the Other Discussions feature.",
-            "name": "Fix Other Discussions",
+            "description": "Fixes the \"Other Discussions\" feature.",
+            "name": "Fix \"Other Discussions\"",
             "options": []
         },
         {
@@ -111,8 +111,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Fixes the random subreddit button by fetching from an alternative API.",
-            "name": "Fix random subreddit",
+            "description": "Restores random subreddit functionality by fetching from an alternative API.",
+            "name": "Fix r/random",
             "options": []
         },
         {
@@ -176,7 +176,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Enables the predictive back gesture with Sync-specific fixes.",
+            "description": "Enables the predictive back gesture with fixes for Reddit Sync.",
             "name": "Predictive back gesture (Reddit Sync)",
             "options": []
         },
@@ -235,12 +235,12 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Restores functionality of the app by using custom client ID.",
+            "description": "Restores functionality of the app by using custom client ID (default included).",
             "name": "Spoof client",
             "options": [
                 {
                     "default": "yH0aTnJEt6qUgGn835B4vg",
-                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+                    "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's client ID.",
                     "key": "client-id",
                     "required": true,
                     "title": "OAuth client ID",
@@ -322,7 +322,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": null,
+            "description": "Unlocks Sync Ultra and fixes the \"Restore Comment\" premium feature by fetching from an alternative API.",
             "name": "Unlock Sync Ultra",
             "options": []
         }
