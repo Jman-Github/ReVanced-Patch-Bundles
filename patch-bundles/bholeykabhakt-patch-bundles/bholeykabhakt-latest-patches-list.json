@@ -1,5 +1,5 @@
 {
-    "version": "v2.9.0",
+    "version": "v2.10.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -286,6 +286,12 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
+                            "version": "6.12.18"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
                             "version": "6.12.15"
                         }
                     ]
@@ -317,6 +323,12 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
+                            "version": "6.12.18"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
                             "version": "6.12.15"
                         }
                     ]
@@ -343,6 +355,12 @@
                             "isExperimental": true,
                             "minSdk": null,
                             "version": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.49.0"
                         },
                         {
                             "description": null,
@@ -467,6 +485,39 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": null,
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "UFO VPN",
+                    "packageName": "com.ufovpn.connect.velnet",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.5.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": null,
             "name": "Unlock Premium",
             "options": []

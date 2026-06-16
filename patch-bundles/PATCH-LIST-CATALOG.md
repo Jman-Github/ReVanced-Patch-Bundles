@@ -51,8 +51,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 121 | 2 | Generated |
-| [HK-Morphe](#-hk-morphe-bundle-patch-list) | 6 | 4 | Generated |
-| [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 19 | 11 | Generated |
+| [HK-Morphe](#-hk-morphe-bundle-patch-list) | 7 | 4 | Generated |
+| [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 20 | 12 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 22 | 5 | Generated |
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
@@ -941,10 +941,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 HK-Morphe Bundle Patch List:
 [📦 HK-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hk-morphe-patches-bundle-morphe)
 <details>
-<summary><b>HK-Morphe</b> - 6 patches, 4 apps</summary>
+<summary><b>HK-Morphe</b> - 7 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Experimental: Restore "Swipe to return" translucency``` | ```Fixes the opaque background when using the "Swipe to return" option. Experimental due to animation issues. Incompatible with the Predictive Back Gesture patch.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Fix "Other Discussions"``` | ```Fixes the "Other Discussions" feature.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Fix r/random``` | ```Restores random subreddit functionality by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Predictive back gesture (Reddit Sync)``` | ```Enables the predictive back gesture with fixes for Reddit Sync.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
@@ -1282,7 +1283,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 BholeyKaBhakt Bundle Patch List:
 [📦 BholeyKaBhakt-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bholeykabhakt-patches-bundle-morphe)
 <details>
-<summary><b>BholeyKaBhakt</b> - 19 patches, 11 apps</summary>
+<summary><b>BholeyKaBhakt</b> - 20 patches, 12 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1301,6 +1302,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium``` | ```N/A``` | ```Star Walk 2``` | ```All versions``` |
 | ```Install Extended (Deep Sky) Catalog``` | ```N/A``` | ```Stellarium``` | ```All versions``` |
 | ```Unlock Plus``` | ```N/A``` | ```Stellarium``` | ```All versions``` |
+| ```Unlock Premium``` | ```N/A``` | ```UFO VPN``` | ```All versions``` |
 | ```Bypass ADB/Developer Options Detection``` | ```N/A``` | ```Universal``` | ```All versions``` |
 | ```Disable Facebook SDK Tracking``` | ```N/A``` | ```Universal``` | ```All versions``` |
 | ```Disable Firebase(Google) Analytics``` | ```N/A``` | ```Universal``` | ```All versions``` |

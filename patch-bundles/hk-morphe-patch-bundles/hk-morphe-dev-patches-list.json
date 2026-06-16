@@ -1,6 +1,63 @@
 {
-    "version": "v1.3.4-dev.1",
+    "version": "v1.4.0-dev.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Sync for Reddit",
+                    "packageName": "com.laurencedawson.reddit_sync",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "v23.06.30-13:39"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Sync for Reddit Pro",
+                    "packageName": "com.laurencedawson.reddit_sync.pro",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Sync for Reddit Dev",
+                    "packageName": "com.laurencedawson.reddit_sync.dev",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Fixes the opaque background when using the \"Swipe to return\" option. Experimental due to animation issues. Incompatible with the Predictive Back Gesture patch.",
+            "name": "Experimental: Restore \"Swipe to return\" translucency",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
