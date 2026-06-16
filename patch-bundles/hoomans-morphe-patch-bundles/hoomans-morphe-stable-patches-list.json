@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0",
+    "version": "v1.6.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -158,6 +158,34 @@
                 "BytecodePatch"
             ],
             "description": "Unlocks Liquid Gallery Pro without a purchase. Pro is a single local flag with no server-side check, so switching it on enables the Pro features the app gates on device.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F82888",
+                    "description": null,
+                    "name": "Photo Editor Polish",
+                    "packageName": "photo.editor.photoeditor.photoeditorpro",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.763.262"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "RawResourcePatch"
+            ],
+            "description": "Unlocks the Pro features in Photo Editor Polish without a subscription. Pro is decided on-device from one cached flag that every premium gate reads, so forcing it on enables the locally-gated tools and drops the ads and upgrade prompts. Content generated or validated on the developer's servers (AI tools, cloud assets) stays locked.",
             "name": "Unlock Pro",
             "options": []
         }

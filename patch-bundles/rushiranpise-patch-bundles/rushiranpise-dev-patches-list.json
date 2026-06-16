@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-dev.11",
+    "version": "v1.6.0-dev.13",
     "patches": [
         {
             "compatiblePackages": [
@@ -898,6 +898,31 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Splitwise Pro features, removes ad banners, and suppresses all upgrade upsell prompts.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#263238",
+                    "description": null,
+                    "name": "Tasker",
+                    "packageName": "net.dinglisch.android.taskerm",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "6.6.20"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Tasker Pro features.",
             "name": "Unlock Pro",
             "options": []
         },

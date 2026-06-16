@@ -44,7 +44,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 4 | 1 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 6 | 6 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 7 | 7 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 10 | 7 | Generated |
@@ -68,7 +68,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Morphe](#-morphe-bundle-patch-list) | 115 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
-| [IMXEren](#-imxeren-bundle-patch-list) | 1 | 1 | Generated |
+| [IMXEren](#-imxeren-bundle-patch-list) | 2 | 2 | Generated |
 | [Almewty](#-almewty-bundle-patch-list) | 3 | 2 | Generated |
 | [Anddea-Morphed](#-anddea-morphed-bundle-patch-list) | 133 | 6 | Generated |
 | [RookieEnough](#-rookieenough-bundle-patch-list) | 84 | 35 | Generated |
@@ -101,7 +101,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 11 | 10 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 16 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 39 | 29 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 40 | 30 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 3 | 1 | Generated |
 
 ### Legacy
@@ -136,7 +136,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Hoomans-Morphe Bundle Patch List:
 [?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 6 patches, 6 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 7 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -144,6 +144,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Enable Premium``` | ```Unlocks BlockerHero's premium features without a subscription or Google sign-in: uninstall protection, focus mode, custom blocklists, daily and weekly time limits, block-on-restart, and blocking the recent-apps screen.``` | ```BlockerHero``` | ```All versions``` |
 | ```Unlock Gold``` | ```Forces Cronometer's local Gold flag on, unlocking custom charts, advanced reports, the fasting tracker, custom biometrics, diary timestamps and groups, and an ad-free view without a subscription. These features run on the diary data already on your device, so they keep working offline. Anything Cronometer computes on its own servers still needs a subscription.``` | ```Cronometer``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Liquid Gallery Pro without a purchase. Pro is a single local flag with no server-side check, so switching it on enables the Pro features the app gates on device.``` | ```Liquid Gallery``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks the Pro features in Photo Editor Polish without a subscription. Pro is decided on-device from one cached flag that every premium gate reads, so forcing it on enables the locally-gated tools and drops the ads and upgrade prompts. Content generated or validated on the developer's servers (AI tools, cloud assets) stays locked.``` | ```Photo Editor Polish``` | ```All versions``` |
 | ```Unlock Plus``` | ```Removes ads and unlocks the locally-gated Quizlet Plus features by forcing the account's upgrade type to Plus. Plus status and ad display are decided on-device from a cached flag, so this works without a subscription. Server-side Plus features (AI "Magic Notes"/generation and other cloud/metered tools) are validated and produced on Quizlet's servers and stay locked.``` | ```Quizlet``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Teach Me Anatomy's Pro features without a subscription: no upgrade banners or ads, plus the gated reference articles, quizzes, and flashcards. Content you have already synced works offline. Features served from the server still need a real account.``` | ```Teach Me Anatomy``` | ```All versions``` |
 
@@ -846,7 +847,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Improve image viewing``` | ```Fetches max resolution images from server.``` | ```Instagram``` | ```All versions``` |
 | ```Limit feed to following profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```Instagram``` | ```All versions``` |
 | ```Make ephemeral media permanent``` | ```Changes unexpired view once, view twice media to permanent view.``` | ```Instagram``` | ```All versions``` |
-| ```More options on post``` | ```Adds more options on post, like copy description by long pressing on post``` | ```Instagram``` | ```All versions``` |
+| ```More options on post``` | ```Adds an overflow menu button to get more options on post/reels, like copy description, copy username etc``` | ```Instagram``` | ```All versions``` |
 | ```More options on profile``` | ```Adds a new button to handle user related data like copy handle, download profile picture etc``` | ```Instagram``` | ```All versions``` |
 | ```Open links externally``` | ```Changes links to always open in your external browser, instead of the in-app browser.``` | ```Instagram``` | ```All versions``` |
 | ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```Instagram``` | ```All versions``` |
@@ -2004,9 +2005,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Abstract shim layer``` | ```Adds an abstracted shim layer, which improves compatibility to allow legacy patches to work.``` | ```X``` | ```All versions``` |
-| ```Abstract shim layer for method``` | ```Adds an abstracted shim layer, which improves compatibility to allow legacy patches to work.``` | ```X``` | ```All versions``` |
-| ```Abstract shim layer for native library``` | ```Adds an abstracted shim layer, which improves compatibility to allow legacy patches to work.``` | ```X``` | ```All versions``` |
+| ```Abstract shim layer``` | ```Adds an abstracted shim layer for fields, which improves compatibility to allow legacy patches to work.``` | ```X``` | ```All versions``` |
+| ```Abstract shim layer for method``` | ```Adds an abstracted shim layer for methods, which improves compatibility to allow legacy patches to work.``` | ```X``` | ```All versions``` |
+| ```Abstract shim layer for native library``` | ```Adds an abstracted shim layer for native libraries, which improves compatibility to allow legacy patches to work.``` | ```X``` | ```All versions``` |
 
 </details>
 
@@ -2696,10 +2697,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 IMXEren Bundle Patch List:
 [📦 IMXEren-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-imxeren-patches-bundle-morphe)
 <details>
-<summary><b>IMXEren</b> - 1 patch, 1 app</summary>
+<summary><b>IMXEren</b> - 2 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Fix Other discussions``` | ```Fixes the 'Other discussions' tab showing '403 error loading page' by updating the API endpoint.``` | ```Sync for Reddit``` | ```All versions``` |
 | ```Unlock pro``` | ```Remove ads, add VIP badge and allow to view 'Your Month in Review'.``` | ```Trakt``` | ```All versions``` |
 
 </details>
@@ -3615,7 +3617,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 39 patches, 29 apps</summary>
+<summary><b>Rushiranpise</b> - 40 patches, 30 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3653,6 +3655,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks all Premium features in Snipd: AI Podcast Player by spoofing the RevenueCat CustomerInfo.``` | ```Snipd: AI Podcast Player``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Splitwise Pro features, removes ad banners, and suppresses all upgrade upsell prompts.``` | ```Splitwise``` | ```All versions``` |
 | ```Unlock Subscription``` | ```Unlocks all subscription features in TWT App.``` | ```Stargazing Hub``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks Tasker Pro features.``` | ```Tasker``` | ```All versions``` |
 | ```Unlock VIP``` | ```Unlocks Dubox Drive VIP/SVIP (Premium+)``` | ```TeraBox``` | ```All versions``` |
 | ```Disable Ads``` | ```Prevents the AppOpen ad preloader from initialising.``` | ```Universal TV Remote Control``` | ```All versions``` |
 | ```Suppress Paywall``` | ```Suppresses the in-app paywall.``` | ```Universal TV Remote Control``` | ```All versions``` |

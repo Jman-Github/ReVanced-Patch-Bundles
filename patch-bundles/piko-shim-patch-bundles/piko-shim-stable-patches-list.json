@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -15,7 +15,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.97.1-release.0"
+                            "version": "11.99.0-release.1"
                         },
                         {
                             "description": null,
@@ -37,7 +37,7 @@
                 "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds an abstracted shim layer, which improves compatibility to allow legacy patches to work.",
+            "description": "Adds an abstracted shim layer for fields, which improves compatibility to allow legacy patches to work.",
             "name": "Abstract shim layer",
             "options": [
                 {
@@ -74,7 +74,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.97.1-release.0"
+                            "version": "11.99.0-release.1"
                         },
                         {
                             "description": null,
@@ -93,19 +93,7 @@
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
+                "RawResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -126,9 +114,19 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds an abstracted shim layer, which improves compatibility to allow legacy patches to work.",
+            "description": "Adds an abstracted shim layer for methods, which improves compatibility to allow legacy patches to work.",
             "name": "Abstract shim layer for method",
-            "options": []
+            "options": [
+                {
+                    "default": false,
+                    "description": "If true, a shim layer for the synthetic method is added.\n\nThis option is enabled by default in the supported version.",
+                    "key": "advancedMode",
+                    "required": true,
+                    "title": "Advanced Mode",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -144,7 +142,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.97.1-release.0"
+                            "version": "11.99.0-release.1"
                         },
                         {
                             "description": null,
@@ -165,7 +163,7 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": "Adds an abstracted shim layer, which improves compatibility to allow legacy patches to work.",
+            "description": "Adds an abstracted shim layer for native libraries, which improves compatibility to allow legacy patches to work.",
             "name": "Abstract shim layer for native library",
             "options": []
         }
