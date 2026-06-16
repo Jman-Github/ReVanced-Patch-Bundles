@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.1",
+    "version": "v1.9.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -97,7 +97,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Changes the app name shown under the launcher icon. Set the desired name in the patch options.",
             "name": "Change app name",
@@ -114,7 +114,24 @@
             ]
         },
         {
-            "compatiblePackages": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#7460A4",
+                    "description": null,
+                    "name": "SonyLIV",
+                    "packageName": "com.sonyliv",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 22,
+                            "version": "6.23.1"
+                        }
+                    ]
+                }
+            ],
             "default": false,
             "dependencies": [],
             "description": "Changes the app name shown under the launcher icon. Set the desired name in the patch options.",
@@ -150,7 +167,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Changes the app package name so the patched app installs alongside the original. Set the desired package name in the patch options. Changing the package name can cause unexpected issues with some app features.",
             "name": "Change package name",
@@ -167,7 +184,24 @@
             ]
         },
         {
-            "compatiblePackages": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#7460A4",
+                    "description": null,
+                    "name": "SonyLIV",
+                    "packageName": "com.sonyliv",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 22,
+                            "version": "6.23.1"
+                        }
+                    ]
+                }
+            ],
             "default": false,
             "dependencies": [],
             "description": "Changes the app package name so the patched app installs alongside the original. Set the desired package name in the patch options. Changing the package name can cause unexpected issues with some app features.",
