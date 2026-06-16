@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-dev.10",
+    "version": "v1.6.0-dev.11",
     "patches": [
         {
             "compatiblePackages": [
@@ -632,7 +632,7 @@
                     "apkFileType": null,
                     "appIconColor": "#1565C0",
                     "description": null,
-                    "name": "SAI - Split APKs Installer",
+                    "name": "SAI",
                     "packageName": "com.mtv.sai",
                     "signatures": null,
                     "targets": [
@@ -823,6 +823,31 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all pro features in ML Manager.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "NetGuard",
+                    "packageName": "eu.faircode.netguard",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all pro features in NetGuard.",
             "name": "Unlock Pro",
             "options": []
         },
