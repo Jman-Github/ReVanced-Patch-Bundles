@@ -1,15 +1,17 @@
 {
-    "version": "v4.0.0",
+    "version": "v4.1.0",
     "patches": [
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -26,12 +28,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -91,12 +95,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -111,15 +117,18 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Adds an option to bypass URL redirects and open the original URL directly.",
@@ -150,12 +159,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -181,43 +192,15 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Changes the package name for Reddit to the name specified in patch options.",
-            "name": "Change package name",
-            "options": [
-                {
-                    "default": "com.reddit.frontpage",
-                    "description": "The name of the package to rename the app to.",
-                    "key": "packageNameReddit",
-                    "required": true,
-                    "title": "Package name of Reddit",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Clone": "com.reddit.frontpage.revanced",
-                        "Default": "com.reddit.frontpage.rvx",
-                        "Original": "com.reddit.frontpage"
-                    }
-                }
-            ],
-            "use": false
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -255,19 +238,19 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to change the in-app share sheet to the system share sheet.",
@@ -301,12 +284,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -342,12 +327,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -479,42 +466,15 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Changes the Reddit app name to the name specified in patch options.",
-            "name": "Custom branding name for Reddit",
-            "options": [
-                {
-                    "default": "Reddit",
-                    "description": "The name of the app.",
-                    "key": "appName",
-                    "required": true,
-                    "title": "App name",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Default": "RVX Reddit",
-                        "Original": "Reddit"
-                    }
-                }
-            ],
-            "use": false
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -594,12 +554,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -623,12 +585,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -689,12 +653,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -776,12 +742,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -877,12 +845,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -920,12 +890,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -940,12 +912,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -960,12 +934,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -1027,12 +1003,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -1047,12 +1025,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -1066,15 +1046,18 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch"
             ],
@@ -1085,29 +1068,15 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Adds an option to disable the popup that appears when taking a screenshot.",
-            "name": "Disable screenshot popup",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -1122,12 +1091,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -1165,12 +1136,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -1186,12 +1159,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -1257,12 +1232,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -1299,12 +1276,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -1414,12 +1393,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -1499,12 +1480,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -1513,7 +1496,7 @@
             "description": "Removes, at compile time, accessibility controls dialog 'Turn on accessibility controls for the video player?'.",
             "name": "Hide accessibility controls dialog",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatiblePackages": {
@@ -1568,12 +1551,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -1623,29 +1608,15 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Adds options to hide ads.",
-            "name": "Hide ads",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -1666,16 +1637,19 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -1692,12 +1666,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -1717,12 +1693,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -1763,12 +1741,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -1782,22 +1762,6 @@
             ],
             "description": "Adds options to hide general layout components.",
             "name": "Hide layout components",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Adds options to hide buttons in the navigation bar.",
-            "name": "Hide navigation buttons",
             "options": [],
             "use": true
         },
@@ -1827,16 +1791,17 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch",
@@ -1850,16 +1815,20 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
                 "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -1894,45 +1863,15 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Adds an option to hide the Recently Visited shelf in the sidebar.",
-            "name": "Hide Recently Visited shelf",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Adds an option to hide the recommended communities shelves in subreddits.",
-            "name": "Hide recommended communities shelf",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -1984,12 +1923,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -2002,29 +1943,15 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Adds an option to hide the Trending Today shelf from search suggestions.",
-            "name": "Hide Trending Today shelf",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -2042,12 +1969,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -2061,12 +1990,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -2081,12 +2012,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -2128,12 +2061,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -2151,47 +2086,15 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Adds an option to skip over redirection URLs in external links.",
-            "name": "Open links directly",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Adds an option to always open links in your browser instead of in the in-app-browser.",
-            "name": "Open links externally",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -2206,12 +2109,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -2324,12 +2229,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -2354,29 +2261,12 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Unlocks premium app icons.",
-            "name": "Premium icon",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -2414,12 +2304,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -2429,23 +2321,6 @@
             ],
             "description": "Removes restrictions on background playback, including for music and kids videos.",
             "name": "Remove background playback restrictions",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch"
-            ],
-            "description": "Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.",
-            "name": "Remove subreddit dialog",
             "options": [],
             "use": true
         },
@@ -2475,12 +2350,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -2540,12 +2417,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -2588,12 +2467,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -2620,7 +2501,6 @@
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch"
             ],
@@ -2631,10 +2511,15 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
+                "com.google.android.youtube": [
+                    "19.43.41",
+                    "19.44.39",
+                    "19.47.53",
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -2648,32 +2533,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
-            "description": "Adds an option to sanitize sharing links by removing tracking query parameters.",
-            "name": "Sanitize sharing links",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
-                    "19.43.41",
-                    "19.44.39",
-                    "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -2693,12 +2560,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -2713,87 +2582,28 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Applies mandatory patches to implement ReVanced Extended settings into the application.",
-            "name": "Settings for Reddit",
-            "options": [
-                {
-                    "default": "RVX",
-                    "description": "The name of the RVX settings menu.",
-                    "key": "rvxSettingsLabel",
-                    "required": true,
-                    "title": "RVX settings menu name",
-                    "type": "kotlin.String",
-                    "values": {
-                        "RVX": "RVX",
-                        "ReVanced Extended": "ReVanced Extended"
-                    }
-                }
-            ],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Applies mandatory patches to implement ReVanced Extended settings into the application.",
             "name": "Settings for YouTube",
             "options": [
-                {
-                    "default": "@string/parent_tools_key",
-                    "description": "The settings menu name that the RVX settings menu should be above.",
-                    "key": "insertPosition",
-                    "required": true,
-                    "title": "Insert position",
-                    "type": "kotlin.String",
-                    "values": {
-                        "About": "@string/about_key",
-                        "Accessibility": "@string/accessibility_settings_key",
-                        "Account": "@string/account_switcher_key",
-                        "Autoplay": "@string/auto_play_key",
-                        "Background": "@string/offline_key",
-                        "Billing & payments": "@string/billing_and_payment_key",
-                        "Billing and payments": "@string/billing_and_payment_key",
-                        "Captions": "@string/captions_key",
-                        "Connected apps": "@string/connected_accounts_browse_page_key",
-                        "Data saving": "@string/data_saving_settings_key",
-                        "General": "@string/general_key",
-                        "History & privacy": "@string/privacy_key",
-                        "Live chat": "@string/live_chat_key",
-                        "Manage all history": "@string/history_key",
-                        "Notifications": "@string/notification_key",
-                        "Parent settings": "@string/parent_tools_key",
-                        "Privacy": "@string/privacy_key",
-                        "Purchases and memberships": "@string/subscription_product_setting_key",
-                        "Try experimental new features": "@string/premium_early_access_browse_page_key",
-                        "Video quality preferences": "@string/video_quality_settings_key",
-                        "Watch on TV": "@string/pair_with_tv_key",
-                        "Your data in YouTube": "@string/your_data_key"
-                    }
-                },
                 {
                     "default": "RVX",
                     "description": "The name of the RVX settings menu.",
@@ -2868,12 +2678,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -2905,12 +2717,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -3018,12 +2832,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -3055,7 +2871,11 @@
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -3122,12 +2942,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -3152,12 +2974,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -3176,12 +3000,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -3237,15 +3063,18 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch",
@@ -3259,58 +3088,15 @@
         },
         {
             "compatiblePackages": {
-                "com.reddit.frontpage": [
-                    "2024.17.0",
-                    "2025.05.1",
-                    "2025.12.1"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
-            "description": "Add translations for RVX settings.",
-            "name": "Translations for Reddit",
-            "options": [
-                {
-                    "default": "",
-                    "description": "The path to the 'strings.xml' file.\nPlease note that applying the 'strings.xml' file will overwrite all existing translations.",
-                    "key": "customTranslations",
-                    "required": true,
-                    "title": "Custom translations",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "ar, az-rAZ, bg-rBG, da-rDK, de-rDE, el-rGR, es-rES, fil-rPH, fr-rFR, hu-rHU, id-rID, in, it-rIT, iw-rIL, ja-rJP, ko-rKR, pl-rPL, pt-rBR, ru-rRU, tr-rTR, uk-rUA, vi-rVN, zh-rCN, zh-rTW",
-                    "description": "A list of translations to be added for the RVX settings, separated by commas.",
-                    "key": "selectedTranslations",
-                    "required": true,
-                    "title": "Translations to add",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "af, am, ar, ar-rXB, as, az, b+es+419, b+sr+Latn, be, bg, bn, bs, ca, cs, da, de, el, en-rAU, en-rCA, en-rGB, en-rIN, en-rXA, en-rXC, es, es-rUS, et, eu, fa, fi, fil-rPH, fr, fr-rCA, gl, gu, hi, hr, hu, hy, id, in, is, it, iw, ja, ka, kk, km, kn, ko, ky, lo, lt, lv, mk, ml, mn, mr, ms, my, nb, ne, nl, no, or, pa, pl, pt, pt-rBR, pt-rPT, ro, ru, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, uk, ur, uz, vi, zh, zh-rCN, zh-rHK, zh-rTW, zu",
-                    "description": "A list of string resources to be kept, separated by commas.\nString resources not in the list will be removed from the app.\n\nDefault string resource, English, is not removed.",
-                    "key": "selectedStringResources",
-                    "required": true,
-                    "title": "String resources to keep",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -3432,12 +3218,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -3466,12 +3254,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
@@ -3563,12 +3353,14 @@
         {
             "compatiblePackages": {
                 "com.google.android.youtube": [
-                    "19.05.36",
-                    "19.16.39",
                     "19.43.41",
                     "19.44.39",
                     "19.47.53",
-                    "20.05.46"
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
                 ]
             },
             "dependencies": [
