@@ -93,7 +93,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ameenalasady](#-ameenalasady-bundle-patch-list) | 1 | 1 | Generated |
 | [Lynx6319](#-lynx6319-bundle-patch-list) | 1 | 1 | Generated |
 | [Xob0t](#-xob0t-bundle-patch-list) | 21 | 5 | Generated |
-| [Bannerhub](#-bannerhub-bundle-patch-list) | 56 | 2 | Generated |
+| [Bannerhub](#-bannerhub-bundle-patch-list) | 60 | 2 | Generated |
 | [Eksi](#-eksi-bundle-patch-list) | 1 | 1 | Generated |
 | [Ameen-Morphe](#-ameen-morphe-bundle-patch-list) | 2 | 2 | Generated |
 | [Kolaron](#-kolaron-bundle-patch-list) | 1 | 1 | Generated |
@@ -3440,7 +3440,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Bannerhub Bundle Patch List:
 [📦 Bannerhub-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bannerhub-patches-bundle-morphe)
 <details>
-<summary><b>Bannerhub</b> - 56 patches, 2 apps</summary>
+<summary><b>Bannerhub</b> - 60 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3491,6 +3491,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Show Game ID label resource``` | ```Appends a 'bh_gameid_label' = 'Show Game ID' string entry to features.home Compose Multiplatform resources so the library-list popup row's Lell-typed label has a registered key. Runtime resolution is handled by the shared resolver hook in BhMenuRowClick.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
 | ```Show Game ID menu row``` | ```Adds a 'Show Game ID' row to GameHub's per-game menus. Tapping it pops a dialog with the gameId (with Copy button) so users can configure external launchers (Beacon / ES-DE / Daijishou) without grepping a logcat. Injects after the existing rows so stock behaviour is preserved.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
 | ```Show PC Game Settings row``` | ```Forces the 'PC Game Settings' row to appear in the Explorer game-detail More Menu for every game type, including Steam-linked games where XiaoJi-native logic would normally hide it. Removes the single if-eqz gate immediately preceding the row's construction in the menu Composable. Other rows keep their native gating.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
+| ```Steam chat image-picker activity``` | ```Registers BhSteamImagePickerActivity in the manifest so the in-game Steam chat overlay can pick a gallery image and send it via friends.upload_chat_image. Internal-only (android:exported="false"); no <intent-filter>.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
+| ```Steam chat ringtone assets``` | ```Bundles the built-in incoming-call ringtones (assets/bh_ringtones/*.mp3) used by the in-game Steam chat overlay's call settings.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
+| ```Steam chat ringtone-picker activity``` | ```Registers BhRingtonePickerActivity so the in-game Steam chat call settings can pick a custom MP3 ringtone (persistable URI), and adds the VIBRATE permission for vibrate-on-incoming-call. Internal-only (android:exported="false"); no-ops if already present.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
+| ```Steam chat voice permission``` | ```Adds RECORD_AUDIO (+ MODIFY_AUDIO_SETTINGS) so the in-game Steam chat overlay can run a WebRTC voice call (WebView getUserMedia). No-op if the permissions are already present.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
 | ```Strip Ad-ID permissions``` | ```Removes the three <uses-permission> declarations that mark the app as requesting Google's advertising-ID, AdServices attribution, and AdServices ad-ID. Strengthens 'Disable Firebase Analytics': that patch disables runtime collection via Firebase's manifest kill-switch, this one removes the declared permission fingerprint that privacy scanners (Exodus Privacy etc.) flag.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
 | ```Strip cloud gaming``` | ```Removes the Haima cloud-gaming stack (~21.5 MB): the 4 Haima WebRTC/IJK native libs and the features.cloud Compose asset module. Stubs the IjkMediaPlayer + hmwebrtc native load sites first so the strip cannot crash if a cloud entry point is reached. Cloud gaming is non-functional under the BannerHub catalog redirect anyway.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |
 | ```Stub analytics events``` | ```Redirects XiaoJi's analytics-event POST URLs (the /events batch reporter and /events/device-performance-config) to http://127.0.0.1 so no telemetry reaches statistic-gamehub-api.vgabc.com. Anchored on the stable URL strings (all dev2/beta/prod environment variants are redirected); the reporters' own error paths swallow the connection-refused, so nothing crashes.``` | ```com.xiaoji.egggame``` | ```6.0.8``` |

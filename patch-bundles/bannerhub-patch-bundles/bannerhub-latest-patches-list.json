@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-608",
+    "version": "v1.3.0-608",
     "patches": [
         {
             "compatiblePackages": {
@@ -501,7 +501,11 @@
                 ]
             },
             "dependencies": [
-                "Patch"
+                "Patch",
+                "Steam chat image-picker activity",
+                "Steam chat voice permission",
+                "Steam chat ringtone-picker activity",
+                "Steam chat ringtone assets"
             ],
             "description": "Adds a draggable pill + slide-out panel over the Wine game surface that shows your Steam friends list, presence, and a friend's recent message history (read-only). Reads GameHub's in-process Steam client via the steam_sdk JSON-RPC bridge. Off by default; toggle from Banner Tools -> Steam Chat.",
             "name": "In-game Steam chat overlay",
@@ -775,6 +779,54 @@
             "dependencies": [],
             "description": "Forces the 'PC Game Settings' row to appear in the Explorer game-detail More Menu for every game type, including Steam-linked games where XiaoJi-native logic would normally hide it. Removes the single if-eqz gate immediately preceding the row's construction in the menu Composable. Other rows keep their native gating.",
             "name": "Show PC Game Settings row",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.8"
+                ]
+            },
+            "dependencies": [],
+            "description": "Registers BhSteamImagePickerActivity in the manifest so the in-game Steam chat overlay can pick a gallery image and send it via friends.upload_chat_image. Internal-only (android:exported=\"false\"); no <intent-filter>.",
+            "name": "Steam chat image-picker activity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.8"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bundles the built-in incoming-call ringtones (assets/bh_ringtones/*.mp3) used by the in-game Steam chat overlay's call settings.",
+            "name": "Steam chat ringtone assets",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.8"
+                ]
+            },
+            "dependencies": [],
+            "description": "Registers BhRingtonePickerActivity so the in-game Steam chat call settings can pick a custom MP3 ringtone (persistable URI), and adds the VIBRATE permission for vibrate-on-incoming-call. Internal-only (android:exported=\"false\"); no-ops if already present.",
+            "name": "Steam chat ringtone-picker activity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.8"
+                ]
+            },
+            "dependencies": [],
+            "description": "Adds RECORD_AUDIO (+ MODIFY_AUDIO_SETTINGS) so the in-game Steam chat overlay can run a WebRTC voice call (WebView getUserMedia). No-op if the permissions are already present.",
+            "name": "Steam chat voice permission",
             "options": [],
             "use": true
         },
