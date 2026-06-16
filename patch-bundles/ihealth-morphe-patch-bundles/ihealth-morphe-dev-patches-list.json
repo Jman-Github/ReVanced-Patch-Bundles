@@ -1,119 +1,107 @@
 {
-  "version": "v1.0.0-dev.1",
-  "patches": [
-    {
-      "name": "Disable AI motivational modal",
-      "description": "Prevents the AI-generated motivational modal from appearing after a blood pressure reading.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
+    "version": "v1.0.1-dev.1",
+    "patches": [
         {
-          "packageName": "com.ihealthlabs.MyVitalsPro",
-          "name": "iHealth MyVitals",
-          "description": null,
-          "apkFileType": "XAPK",
-          "appIconColor": "#00AEEF",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "4.14.5",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ],
-          "versions": [
-            "4.14.5"
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Disable ad banner",
-      "description": "Prevents the rotating ad banner from appearing at the bottom of the Devices screen.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00AEEF",
+                    "description": null,
+                    "name": "iHealth MyVitals",
+                    "packageName": "com.ihealthlabs.MyVitalsPro",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.14.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents the rotating ad banner from appearing at the bottom of the Devices screen.",
+            "name": "Disable ad banner",
+            "options": []
+        },
         {
-          "packageName": "com.ihealthlabs.MyVitalsPro",
-          "name": "iHealth MyVitals",
-          "description": null,
-          "apkFileType": "XAPK",
-          "appIconColor": "#00AEEF",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "4.14.5",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ],
-          "versions": [
-            "4.14.5"
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Hide buy more devices link",
-      "description": "Hides the 'Buy more iHealth devices?' link at the bottom of the Devices screen.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00AEEF",
+                    "description": null,
+                    "name": "iHealth MyVitals",
+                    "packageName": "com.ihealthlabs.MyVitalsPro",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.14.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents the AI-generated motivational modal from appearing after a blood pressure reading.",
+            "name": "Disable AI motivational modal",
+            "options": []
+        },
         {
-          "packageName": "com.ihealthlabs.MyVitalsPro",
-          "name": "iHealth MyVitals",
-          "description": null,
-          "apkFileType": "XAPK",
-          "appIconColor": "#00AEEF",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "4.14.5",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ],
-          "versions": [
-            "4.14.5"
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Rebrand app",
-      "description": "Changes the package name to allow installation alongside the original app and renames the app to 'iHealth Morphe'. Disables Firebase initialization, which would otherwise crash on startup when the new package name is not registered.",
-      "default": false,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00AEEF",
+                    "description": null,
+                    "name": "iHealth MyVitals",
+                    "packageName": "com.ihealthlabs.MyVitalsPro",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.14.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the 'Buy more iHealth devices?' link at the bottom of the Devices screen.",
+            "name": "Hide buy more devices link",
+            "options": []
+        },
         {
-          "packageName": "com.ihealthlabs.MyVitalsPro",
-          "name": "iHealth MyVitals",
-          "description": null,
-          "apkFileType": "XAPK",
-          "appIconColor": "#00AEEF",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "4.14.5",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ],
-          "versions": [
-            "4.14.5"
-          ]
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00AEEF",
+                    "description": null,
+                    "name": "iHealth MyVitals",
+                    "packageName": "com.ihealthlabs.MyVitalsPro",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.14.5"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Changes the package name to allow installation alongside the original app and renames the app to 'iHealth Morphe'. Disables Firebase initialization, which would otherwise crash on startup when the new package name is not registered.",
+            "name": "Rebrand app",
+            "options": []
         }
-      ],
-      "options": []
-    }
-  ]
+    ]
 }
