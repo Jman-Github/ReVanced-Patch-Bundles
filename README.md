@@ -1344,6 +1344,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 ---
 ---
+### 📦 iHealth-Morphe-Patches-Bundle [Morphe]:
+[🧩 iHealth-Morphe Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ihealth-morphe-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ihealth-morphe-patch-bundles/ihealth-morphe-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ihealth-morphe-patch-bundles/ihealth-morphe-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ihealth-morphe-patch-bundles/ihealth-morphe-dev-patches-bundle.json```
+</details>
+
+---
 ### 📦 Hoomans-Morphe-Patches-Bundle [Morphe]:
 [🧩 Hoomans-Morphe Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hoomans-morphe-bundle-patch-list)
 <details>
@@ -1573,6 +1586,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Realme-Link-Patches-Bundle](https://github.com/lyyako/realme-link-patches)
 
 #### 🏷️ [HK-Morphe-Patches-Bundle](https://github.com/humzakh/HK-Morphe-Patches)
+#### 🏷️ [iHealth-Morphe-Patches-Bundle](https://github.com/bdgerszewski/morphe-patches-ihealth)
+
 #### 🏷️ [Hoomans-Morphe-Patches-Bundle](https://github.com/arandomhooman/hoomans-morphe-patches)
 
 </details>

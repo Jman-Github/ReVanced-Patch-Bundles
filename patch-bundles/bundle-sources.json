@@ -509,6 +509,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "ihealth-morphe-stable": {
+        "patches": "https://api.github.com/repos/bdgerszewski/morphe-patches-ihealth",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -1014,6 +1019,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
+    "ihealth-morphe-dev": {
+        "patches": "https://api.github.com/repos/bdgerszewski/morphe-patches-ihealth",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
     "piko-latest": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -1516,6 +1526,11 @@
     },
     "hoomans-morphe-latest": {
         "patches": "https://api.github.com/repos/arandomhooman/hoomans-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "ihealth-morphe-latest": {
+        "patches": "https://api.github.com/repos/bdgerszewski/morphe-patches-ihealth",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

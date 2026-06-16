@@ -43,6 +43,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 4 | 1 | Generated |
 | [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
@@ -115,6 +116,21 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [AyushTNM](#-ayushtnm-bundle-patch-list) | 3 | 1 | Generated |
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
+
+---
+### ?? iHealth-Morphe Bundle Patch List:
+[?? iHealth-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ihealth-morphe-patches-bundle-morphe)
+<details>
+<summary><b>iHealth-Morphe</b> - 4 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable ad banner``` | ```Prevents the rotating ad banner from appearing at the bottom of the Devices screen.``` | ```iHealth MyVitals``` | ```4.14.5``` |
+| ```Disable AI motivational modal``` | ```Prevents the AI-generated motivational modal from appearing after a blood pressure reading.``` | ```iHealth MyVitals``` | ```4.14.5``` |
+| ```Hide buy more devices link``` | ```Hides the 'Buy more iHealth devices?' link at the bottom of the Devices screen.``` | ```iHealth MyVitals``` | ```4.14.5``` |
+| ```Rebrand app``` | ```Changes the package name to allow installation alongside the original app and renames the app to 'iHealth Morphe'. Disables Firebase initialization, which would otherwise crash on startup when the new package name is not registered.``` | ```iHealth MyVitals``` | ```4.14.5``` |
+
+</details>
 
 ---
 ### ?? Hoomans-Morphe Bundle Patch List:
