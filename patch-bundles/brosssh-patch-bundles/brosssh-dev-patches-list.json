@@ -1,5 +1,5 @@
 {
-    "version": "v2.7.0-dev.1",
+    "version": "v2.7.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -459,7 +459,6 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).",
