@@ -1,6 +1,34 @@
 {
-    "version": "v0.2.0-dev.2",
+    "version": "v0.3.0",
     "patches": [
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds Auto comment translation controls that translates all non default langauge comments that are loaded. Supports TikTok 43.8.3.",
+            "name": "Auto Translate comments",
+            "options": [],
+            "use": true
+        },
         {
             "compatibility": [
                 {
@@ -242,34 +270,6 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Adds debug-only logs around TikTok follow requests to help diagnose follow actions that do not persist. (Supports TikTok 43.8.3.)",
-            "name": "Follow diagnostics",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatibility": [
-                {
-                    "appIconColor": 16657493,
-                    "description": null,
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
-                    "targets": [
-                        {
-                            "experimental": false,
-                            "version": "43.8.3"
-                        }
-                    ]
-                }
-            ],
-            "compatiblePackages": {
-                "com.zhiliaoapp.musically": [
-                    "43.8.3"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
             "description": "Enables the playback speed option for all videos and retains the speed configurations in between videos. (Supports TikTok 43.8.3.)",
             "name": "Playback speed",
             "options": [],
@@ -409,34 +409,6 @@
             ],
             "description": "Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.",
             "name": "SIM spoof",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatibility": [
-                {
-                    "appIconColor": 16657493,
-                    "description": null,
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
-                    "targets": [
-                        {
-                            "experimental": false,
-                            "version": "43.8.3"
-                        }
-                    ]
-                }
-            ],
-            "compatiblePackages": {
-                "com.zhiliaoapp.musically": [
-                    "43.8.3"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Adds comment translation controls that use TikTok's loaded comment batch. Supports TikTok 43.8.3.",
-            "name": "Translate comments",
             "options": [],
             "use": true
         }
