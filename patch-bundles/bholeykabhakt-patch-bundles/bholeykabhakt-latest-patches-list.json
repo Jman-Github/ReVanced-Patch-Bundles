@@ -1,5 +1,5 @@
 {
-    "version": "v2.11.1",
+    "version": "v2.11.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -415,7 +415,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": null,
             "name": "Unlock All Features",
             "options": []
@@ -446,7 +448,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": null,
             "name": "Unlock Plus",
             "options": []
@@ -477,7 +481,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": null,
             "name": "Unlock Premium",
             "options": []
@@ -593,7 +599,8 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": null,
             "name": "Unlock Premium",
@@ -621,7 +628,8 @@
             "default": true,
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": null,
             "name": "Unlock Premium",
