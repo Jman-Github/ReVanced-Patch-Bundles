@@ -514,6 +514,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "zpatches-stable": {
+        "patches": "https://api.github.com/repos/cesbar/zpatches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -1024,6 +1029,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
+    "zpatches-dev": {
+        "patches": "https://api.github.com/repos/cesbar/zpatches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
     "piko-latest": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -1531,6 +1541,11 @@
     },
     "ihealth-morphe-latest": {
         "patches": "https://api.github.com/repos/bdgerszewski/morphe-patches-ihealth",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "zpatches-latest": {
+        "patches": "https://api.github.com/repos/cesbar/zpatches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

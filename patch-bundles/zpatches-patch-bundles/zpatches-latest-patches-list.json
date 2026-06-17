@@ -1,0 +1,163 @@
+{
+  "version": "v1.5.1",
+  "patches": [
+    {
+      "name": "Custom Maps API Key",
+      "description": "Replace Velo'v Google Maps key with your own to fix it",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.jcdecaux.vls.lyon",
+          "name": "Velo'v",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#E30613",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "3.1.1",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ],
+          "versions": [
+            "3.1.1"
+          ]
+        }
+      ],
+      "options": [
+        {
+          "key": "mapApiKey",
+          "title": "Google Maps API key",
+          "description": "Google Maps API key",
+          "required": true,
+          "type": "kotlin.String",
+          "default": "",
+          "values": null
+        }
+      ]
+    },
+    {
+      "name": "Disable map animations",
+      "description": "Disable the map zoom-in animation",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.jcdecaux.vls.lyon",
+          "name": "Velo'v",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#E30613",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "3.1.1",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ],
+          "versions": [
+            "3.1.1"
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Export all activities",
+      "description": "Makes all activities launchable externally by setting android:exported=\"true\" in the manifest",
+      "default": false,
+      "dependencies": [],
+      "compatiblePackages": null,
+      "options": []
+    },
+    {
+      "name": "No geolocalisation check",
+      "description": "Allows you to unlock a bike even if you're not near the station.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.jcdecaux.vls.lyon",
+          "name": "Velo'v",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#E30613",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "3.1.1",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ],
+          "versions": [
+            "3.1.1"
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Premium",
+      "description": "Unlock all purchasables options",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "ee.dustland.android.minesweeper",
+          "name": "Minesweeper The Clean One",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#4CAF50",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.21.1",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ],
+          "versions": [
+            "1.21.1"
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Spoof package signature",
+      "description": "Spoofs the package signature required for Firebase, fixes notifications",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.jcdecaux.vls.lyon",
+          "name": "Velo'v",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#E30613",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "3.1.1",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ],
+          "versions": [
+            "3.1.1"
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
+}

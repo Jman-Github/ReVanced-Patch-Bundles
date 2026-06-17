@@ -43,6 +43,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 4 | 1 | Generated |
 | [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 9 | 9 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
@@ -116,6 +117,23 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [AyushTNM](#-ayushtnm-bundle-patch-list) | 3 | 1 | Generated |
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
+
+---
+### ?? Zpatches Bundle Patch List:
+[?? Zpatches-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-zpatches-patches-bundle-morphe)
+<details>
+<summary><b>Zpatches</b> - 6 patches, 3 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Premium``` | ```Unlock all purchasables options``` | ```Minesweeper The Clean One``` | ```1.21.1``` |
+| ```Export all activities``` | ```Makes all activities launchable externally by setting android:exported="true" in the manifest``` | ```Universal``` | ```All versions``` |
+| ```Custom Maps API Key``` | ```Replace Velo'v Google Maps key with your own to fix it``` | ```Velo'v``` | ```3.1.1``` |
+| ```Disable map animations``` | ```Disable the map zoom-in animation``` | ```Velo'v``` | ```3.1.1``` |
+| ```No geolocalisation check``` | ```Allows you to unlock a bike even if you're not near the station.``` | ```Velo'v``` | ```3.1.1``` |
+| ```Spoof package signature``` | ```Spoofs the package signature required for Firebase, fixes notifications``` | ```Velo'v``` | ```3.1.1``` |
+
+</details>
 
 ---
 ### ?? iHealth-Morphe Bundle Patch List:
