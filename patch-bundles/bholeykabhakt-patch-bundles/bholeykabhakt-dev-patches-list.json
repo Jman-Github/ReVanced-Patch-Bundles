@@ -1,5 +1,5 @@
 {
-    "version": "v2.10.2-dev.1",
+    "version": "v2.11.1-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -106,8 +106,10 @@
                     ]
                 }
             ],
-            "default": false,
-            "dependencies": [],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": null,
             "name": "Disable In-App Telemetry",
             "options": []
@@ -131,8 +133,10 @@
                     ]
                 }
             ],
-            "default": false,
-            "dependencies": [],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": null,
             "name": "Disable In-App Telemetry",
             "options": []
@@ -166,6 +170,45 @@
             "dependencies": [],
             "description": null,
             "name": "Disable Logging(analytics)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Solid Explorer",
+                    "packageName": "pl.solidexplorer2",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.4.10"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.5.7b"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": null,
+            "name": "Disable Telemetry",
             "options": []
         },
         {
@@ -213,13 +256,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.16.3"
+                            "version": "1.16.2"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.16.2"
+                            "version": "1.16.3"
                         }
                     ]
                 }
@@ -286,13 +329,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "6.12.18"
+                            "version": "6.12.15"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "6.12.15"
+                            "version": "6.12.18"
                         }
                     ]
                 }
@@ -323,13 +366,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "6.12.18"
+                            "version": "6.12.15"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "6.12.15"
+                            "version": "6.12.18"
                         }
                     ]
                 }
@@ -360,13 +403,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.49.0"
+                            "version": "1.48.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.48.0"
+                            "version": "1.49.0"
                         }
                     ]
                 }
@@ -391,13 +434,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.16.3"
+                            "version": "1.16.2"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.16.2"
+                            "version": "1.16.3"
                         }
                     ]
                 }
@@ -435,6 +478,34 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": null,
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Backdrops",
+                    "packageName": "com.backdrops.wallpapers",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "6.1.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
             "description": null,
             "name": "Unlock Premium",
             "options": []
@@ -554,6 +625,43 @@
             ],
             "description": null,
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Solid Explorer",
+                    "packageName": "pl.solidexplorer2",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.4.10"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.5.7b"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": null,
+            "name": "Unlock Pro",
             "options": []
         }
     ]

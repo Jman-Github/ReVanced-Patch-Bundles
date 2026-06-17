@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.8.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -153,6 +153,33 @@
             ],
             "description": "Unlocks Teach Me Anatomy's Pro features without a subscription: no upgrade banners or ads, plus the gated reference articles, quizzes, and flashcards. Content you have already synced works offline. Features served from the server still need a real account.",
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#005030",
+                    "description": null,
+                    "name": "Essence",
+                    "packageName": "com.appfactory.essence",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.2.8"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Forces Essence's local Pro flag on, unlocking the premium tools that run on the device without a subscription: the detailed statistics and insights, the custom color themes, app lock, data export, and the other locally-gated premium features. The flag is read from one cached status, so it works offline. The AI recovery coach and anything else Essence generates or serves from its backend still checks the account and stays locked.",
+            "name": "Unlock Pro",
             "options": []
         },
         {
