@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0",
+    "version": "v1.7.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -49,6 +49,33 @@
             "dependencies": [],
             "description": "Forces Cronometer's local Gold flag on, unlocking custom charts, advanced reports, the fasting tracker, custom biometrics, diary timestamps and groups, and an ad-free view without a subscription. These features run on the diary data already on your device, so they keep working offline. Anything Cronometer computes on its own servers still needs a subscription.",
             "name": "Unlock Gold",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F02010",
+                    "description": null,
+                    "name": "BandLab",
+                    "packageName": "com.bandlab.bandlab",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.25.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks the BandLab Membership tools that run on the device. The app decides membership from one cached status object read through a single repository, so forcing the member flag and the per-feature check turns on the in-Studio tools a subscription would give. That covers the extra effects and instruments, the larger track count, pitch tools like AutoPitch and manual correction, the voice changer, mastering EQ and presets, comping, and audio-to-MIDI. Anything BandLab renders on its servers (stem Splitter, AI video, distribution, members-only beats) still checks the account server-side and stays locked.",
+            "name": "Unlock Membership",
             "options": []
         },
         {

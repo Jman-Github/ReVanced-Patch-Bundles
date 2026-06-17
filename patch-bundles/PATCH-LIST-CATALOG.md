@@ -44,7 +44,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 4 | 1 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 7 | 7 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 8 | 8 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 10 | 7 | Generated |
@@ -136,11 +136,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Hoomans-Morphe Bundle Patch List:
 [?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 7 patches, 7 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 8 patches, 8 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Premium``` | ```Forces Alpha Progression's local Pro flag on, unlocking the premium training tools — the training-plan generator, charts, exercise evaluations, warmup calculator, progression recommendations, deload, periodisation and RIR tracking — without a subscription. These run on the workout data already on your device, so they keep working offline. Your account's official subscription status is validated by RevenueCat and is unaffected.``` | ```Alpha Progression``` | ```All versions``` |
+| ```Unlock Membership``` | ```Unlocks the BandLab Membership tools that run on the device. The app decides membership from one cached status object read through a single repository, so forcing the member flag and the per-feature check turns on the in-Studio tools a subscription would give. That covers the extra effects and instruments, the larger track count, pitch tools like AutoPitch and manual correction, the voice changer, mastering EQ and presets, comping, and audio-to-MIDI. Anything BandLab renders on its servers (stem Splitter, AI video, distribution, members-only beats) still checks the account server-side and stays locked.``` | ```BandLab``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks BlockerHero's premium features without a subscription or Google sign-in: uninstall protection, focus mode, custom blocklists, daily and weekly time limits, block-on-restart, and blocking the recent-apps screen.``` | ```BlockerHero``` | ```All versions``` |
 | ```Unlock Gold``` | ```Forces Cronometer's local Gold flag on, unlocking custom charts, advanced reports, the fasting tracker, custom biometrics, diary timestamps and groups, and an ad-free view without a subscription. These features run on the diary data already on your device, so they keep working offline. Anything Cronometer computes on its own servers still needs a subscription.``` | ```Cronometer``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Liquid Gallery Pro without a purchase. Pro is a single local flag with no server-side check, so switching it on enables the Pro features the app gates on device.``` | ```Liquid Gallery``` | ```All versions``` |
