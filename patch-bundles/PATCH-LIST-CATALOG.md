@@ -38,7 +38,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [LoV432](#-lov432-bundle-patch-list) | 1 | 1 | Generated |
 | [Alim-zanibekov](#-alim-zanibekov-bundle-patch-list) | 1 | 1 | Generated |
 | [Daboynb](#-daboynb-bundle-patch-list) | 1 | 1 | Generated |
-| [MojiRS-RIF](#-mojirs-rif-bundle-patch-list) | 2 | 1 | Generated |
+| [MojiRS-RIF](#-mojirs-rif-bundle-patch-list) | 3 | 1 | Generated |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -3711,11 +3711,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 MojiRS-RIF Bundle Patch List:
 [📦 MojiRS-RIF-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-mojirs-rif-patches-bundle-api-v4)
 <details>
-<summary><b>MojiRS-RIF</b> - 2 patches, 1 app</summary>
+<summary><b>MojiRS-RIF</b> - 3 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable ads``` | ```Removes AppLovin native feed ads, banner ads, and image-viewer ads from rif is fun.``` | ```com.andrewshu.android.reddit``` | ```All versions``` |
-| ```Inline comment images``` | ```Renders direct image links in comments as embedded inline images (static + animated GIFs).``` | ```com.andrewshu.android.reddit``` | ```All versions``` |
+| ```Inline comment images``` | ```Renders image links in comment and text-post bodies as embedded inline images (static + animated GIFs, common hosts).``` | ```com.andrewshu.android.reddit``` | ```All versions``` |
+| ```Reddit video links``` | ```Opens Reddit video player links (reddit.com/link/.../video/.../player) in the app instead of failing in a browser, by routing them to the post.``` | ```com.andrewshu.android.reddit``` | ```All versions``` |
 
 </details>

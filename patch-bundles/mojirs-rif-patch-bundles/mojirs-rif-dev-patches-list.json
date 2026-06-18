@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.1-rc1",
+    "version": "v1.3.0-rc2",
     "patches": [
         {
             "compatiblePackages": {
@@ -22,8 +22,18 @@
                 "Patch",
                 "Patch"
             ],
-            "description": "Renders direct image links in comments as embedded inline images (static + animated GIFs).",
+            "description": "Renders image links in comment and text-post bodies as embedded inline images (static + animated GIFs, common hosts).",
             "name": "Inline comment images",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.andrewshu.android.reddit": null
+            },
+            "dependencies": [],
+            "description": "Opens Reddit video player links (reddit.com/link/.../video/.../player) in the app instead of failing in a browser, by routing them to the post.",
+            "name": "Reddit video links",
             "options": [],
             "use": true
         }
