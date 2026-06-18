@@ -45,7 +45,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | --- | ---: | ---: | --- |
 | [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 4 | 1 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 9 | 9 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 10 | 10 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 10 | 7 | Generated |
@@ -154,7 +154,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Hoomans-Morphe Bundle Patch List:
 [?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 9 patches, 9 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 10 patches, 10 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -167,6 +167,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Pro``` | ```Unlocks the Pro features in Photo Editor Polish without a subscription. Pro is decided on-device from one cached flag that every premium gate reads, so forcing it on enables the locally-gated tools and drops the ads and upgrade prompts. Content generated or validated on the developer's servers (AI tools, cloud assets) stays locked.``` | ```Photo Editor Polish``` | ```All versions``` |
 | ```Unlock Plus``` | ```Removes ads and unlocks the locally-gated Quizlet Plus features by forcing the account's upgrade type to Plus. Plus status and ad display are decided on-device from a cached flag, so this works without a subscription. Server-side Plus features (AI "Magic Notes"/generation and other cloud/metered tools) are validated and produced on Quizlet's servers and stay locked.``` | ```Quizlet``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Teach Me Anatomy's Pro features without a subscription: no upgrade banners or ads, plus the gated reference articles, quizzes, and flashcards. Content you have already synced works offline. Features served from the server still need a real account.``` | ```Teach Me Anatomy``` | ```All versions``` |
+| ```Unlock Pro``` | ```Forces Tracked's local Pro flag on, unlocking the premium training tools it gates on device, like muscle analytics and training programs, without a subscription. These run on the workout data already on your device, so they keep working offline. Your account's official subscription status is validated by RevenueCat and is unaffected, and the separate human-coaching marketplace still needs its own subscription.``` | ```Tracked``` | ```All versions``` |
 
 </details>
 

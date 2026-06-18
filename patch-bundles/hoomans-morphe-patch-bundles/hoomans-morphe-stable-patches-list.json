@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.1",
+    "version": "v1.10.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -240,6 +240,31 @@
                 "RawResourcePatch"
             ],
             "description": "Unlocks the Pro features in Photo Editor Polish without a subscription. Pro is decided on-device from one cached flag that every premium gate reads, so forcing it on enables the locally-gated tools and drops the ads and upgrade prompts. Content generated or validated on the developer's servers (AI tools, cloud assets) stays locked.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#3FD080",
+                    "description": null,
+                    "name": "Tracked",
+                    "packageName": "com.tracked.mobile",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.0.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces Tracked's local Pro flag on, unlocking the premium training tools it gates on device, like muscle analytics and training programs, without a subscription. These run on the workout data already on your device, so they keep working offline. Your account's official subscription status is validated by RevenueCat and is unaffected, and the separate human-coaching marketplace still needs its own subscription.",
             "name": "Unlock Pro",
             "options": []
         }
