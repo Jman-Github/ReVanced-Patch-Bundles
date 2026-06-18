@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0",
+    "version": "v1.9.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -125,31 +125,6 @@
             "default": true,
             "dependencies": [],
             "description": "Forces Alpha Progression's local Pro flag on, unlocking the premium training tools — the training-plan generator, charts, exercise evaluations, warmup calculator, progression recommendations, deload, periodisation and RIR tracking — without a subscription. These run on the workout data already on your device, so they keep working offline. Your account's official subscription status is validated by RevenueCat and is unaffected.",
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#3070E0",
-                    "description": null,
-                    "name": "LingQ",
-                    "packageName": "com.linguist",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "6.1.23"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks LingQ's Premium and Premium Plus tiers without a subscription. Membership is decided on-device from the account tier and the cached subscription details, so forcing the premium check and the cached Premium/Premium Plus flags turns on the locally-gated features. Lesson content, courses, and anything LingQ generates or counts on its servers (imports, AI, sync quotas) is validated server-side and stays tied to the real account.",
             "name": "Unlock Premium",
             "options": []
         },
