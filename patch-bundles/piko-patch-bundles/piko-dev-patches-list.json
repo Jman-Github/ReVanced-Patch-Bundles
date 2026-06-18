@@ -1,5 +1,5 @@
 {
-    "version": "v3.5.1-dev.1",
+    "version": "v3.6.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -137,6 +137,57 @@
             "dependencies": [],
             "description": "Replaces Instagram's dark-mode background greys with pure black for AMOLED displays.",
             "name": "Amoled theme",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.80.0-alpha.1"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.82.0-beta.1"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.81.0-release.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.99.0-release-ripped.1"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.0.0-release.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Blocks redirecting to the new X Android UI on launch",
+            "name": "Block redirecting to X Lite",
             "options": []
         },
         {

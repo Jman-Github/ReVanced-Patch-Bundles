@@ -51,7 +51,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Lain](#-lain-bundle-patch-list) | 10 | 7 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
-| [Piko](#-piko-bundle-patch-list) | 121 | 2 | Generated |
+| [Piko](#-piko-bundle-patch-list) | 122 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 7 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 23 | 14 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
@@ -829,7 +829,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Piko Bundle Patch List:
 [📦 Piko-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-patches-bundle-morphe)
 <details>
-<summary><b>Piko</b> - 121 patches, 2 apps</summary>
+<summary><b>Piko</b> - 122 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -884,6 +884,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```View stories anonymously``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```View story mentions``` | ```Add option to view visible and hidden story mentions.``` | ```Instagram``` | ```All versions``` |
 | ```Add ability to copy media link``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Block redirecting to X Lite``` | ```Blocks redirecting to the new X Android UI on launch``` | ```X``` | ```All versions``` |
 | ```Bring back twitter``` | ```Bring back old twitter logo and name``` | ```X``` | ```All versions``` |
 | ```Browse tweet object``` | ```Adds an option to browse the tweet object in the share menu.``` | ```X``` | ```All versions``` |
 | ```Change app icon``` | ```N/A``` | ```X``` | ```All versions``` |
