@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-rc2",
+    "version": "v1.3.0-rc3",
     "patches": [
         {
             "compatiblePackages": {
@@ -32,7 +32,7 @@
                 "com.andrewshu.android.reddit": null
             },
             "dependencies": [],
-            "description": "Opens Reddit video player links (reddit.com/link/.../video/.../player) in the app instead of failing in a browser, by routing them to the post.",
+            "description": "Opens Reddit video player links (reddit.com/link/.../video/.../player) in rif's built-in video player instead of failing in a browser.",
             "name": "Reddit video links",
             "options": [],
             "use": true

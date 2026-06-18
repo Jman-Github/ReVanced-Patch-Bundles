@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-06-18T14:43:58",
-  "description": "Test build. v1.3.0 candidate: selftext inline images + Reddit video player links.\n\nrc2 change: video player links now route to the v.redd.it video (native rif player) instead of the post permalink, which failed to load.",
-  "download_url": "https://github.com/MojiRS/revanced-rif-patches/releases/download/v1.3.0-rc2/patches.rvp",
+  "created_at": "2026-06-18T15:43:04",
+  "description": "Test build. v1.3.0 candidate: selftext inline images + Reddit video player links.\n\nrc3: video player links now open in rif's native ExoPlayer (via MainActivity), using rif's working /api/info.json metadata path. Replaces the rc1 (post permalink) and rc2 (v.redd.it rewrite) approaches, both of which hit rif loaders that fail without post context.",
+  "download_url": "https://github.com/MojiRS/revanced-rif-patches/releases/download/v1.3.0-rc3/patches.rvp",
   "signature_download_url": "N/A",
-  "version": "v1.3.0-rc2"
+  "version": "v1.3.0-rc3"
 }

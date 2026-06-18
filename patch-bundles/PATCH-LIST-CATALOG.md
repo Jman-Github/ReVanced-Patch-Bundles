@@ -3717,6 +3717,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```Disable ads``` | ```Removes AppLovin native feed ads, banner ads, and image-viewer ads from rif is fun.``` | ```com.andrewshu.android.reddit``` | ```All versions``` |
 | ```Inline comment images``` | ```Renders image links in comment and text-post bodies as embedded inline images (static + animated GIFs, common hosts).``` | ```com.andrewshu.android.reddit``` | ```All versions``` |
-| ```Reddit video links``` | ```Opens Reddit video player links (reddit.com/link/.../video/.../player) in the app instead of failing in a browser, by routing them to the post.``` | ```com.andrewshu.android.reddit``` | ```All versions``` |
+| ```Reddit video links``` | ```Opens Reddit video player links (reddit.com/link/.../video/.../player) in rif's built-in video player instead of failing in a browser.``` | ```com.andrewshu.android.reddit``` | ```All versions``` |
 
 </details>
