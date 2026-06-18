@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-06-15T00:12:02",
-  "description": "Adds: links whose display text is [gif] (Reddit-app gif uploads) are hidden and replaced inline, like a bare link. Includes rc1 (giphy/tenor/animated-webp). Prerelease for testing.",
-  "download_url": "https://github.com/MojiRS/revanced-rif-patches/releases/download/v1.2.0-rc2/patches.rvp",
+  "created_at": "2026-06-18T00:55:39",
+  "description": "Inline image robustness: download cap 16->32MB, read timeout 15->30s, browser-like User-Agent. Adds logcat diagnostics (tag RifInlineImages) on image fetch/decode failures. Prerelease for testing.",
+  "download_url": "https://github.com/MojiRS/revanced-rif-patches/releases/download/v1.2.1-rc1/patches.rvp",
   "signature_download_url": "N/A",
-  "version": "v1.2.0-rc2"
+  "version": "v1.2.1-rc1"
 }
