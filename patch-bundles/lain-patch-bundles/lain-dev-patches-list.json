@@ -1,6 +1,44 @@
 {
-    "version": "v1.1.0-dev.3",
+    "version": "v1.1.0-dev.4",
     "patches": [
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+            "name": "Change package name",
+            "options": [
+                {
+                    "default": "Default",
+                    "description": "The name of the package to rename the app to.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "key": "updatePermissions",
+                    "required": false,
+                    "title": "Update permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "key": "updateProviders",
+                    "required": false,
+                    "title": "Update providers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
         {
             "compatiblePackages": [
                 {
@@ -41,13 +79,19 @@
                             "isExperimental": false,
                             "minSdk": null,
                             "version": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.5.3-build01"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disable banner, splash and video player ads.",
+            "description": "Disable banner & splash ads.",
             "name": "Disable Ads",
             "options": []
         },
@@ -108,6 +152,37 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#FFFFFF",
+                    "description": null,
+                    "name": "MediBang Paint",
+                    "packageName": "com.medibang.android.paint.tablet",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "28.24"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Disables app tracker, Google & Firebase Analytics",
+            "name": "Disable Analytics",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#FBC5D1",
                     "description": null,
                     "name": "Nekopoi",
@@ -119,6 +194,12 @@
                             "isExperimental": false,
                             "minSdk": null,
                             "version": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.5.3-build01"
                         }
                     ]
                 }
@@ -127,6 +208,45 @@
             "dependencies": [],
             "description": "Disable Anti-Tamper detection that force quit the app.",
             "name": "Disable Anti-Tamper Detection",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.",
+            "name": "Disable Pairip license check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FBC5D1",
+                    "description": null,
+                    "name": "Nekopoi",
+                    "packageName": "com.kcstream.cing",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.5.3-build01"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allow app network traffic to be inspected.",
+            "name": "Enable Certificate Pinning",
             "options": []
         },
         {
@@ -205,6 +325,14 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the app icon from the Android launcher.",
+            "name": "Hide app icon",
+            "options": []
+        },
+        {
             "compatiblePackages": [
                 {
                     "apkFileType": null,
@@ -252,6 +380,103 @@
             "dependencies": [],
             "description": "Unlock higher resolutions that limited by the app.",
             "name": "Higher Video Resolution",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy.",
+            "name": "Override certificate pinning",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#5F7C8A",
+                    "description": null,
+                    "name": "Fake GPS Location",
+                    "packageName": "com.hopefactory2021.fakegpslocation",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "113.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock premium features.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2C303B",
+                    "description": null,
+                    "name": "Hidden Settings",
+                    "packageName": "com.ceyhan.sets",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.34"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Unlock premium features such as Disable Ads and access AI Assistant.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FFFFFF",
+                    "description": null,
+                    "name": "MediBang Paint",
+                    "packageName": "com.medibang.android.paint.tablet",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "28.24"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock premium features such as No Ads, Premium Brushes, Filters & Fonts; Simultaneous Layer Operation. Server-side features is NOT included!",
+            "name": "Unlock Premium",
             "options": []
         },
         {
