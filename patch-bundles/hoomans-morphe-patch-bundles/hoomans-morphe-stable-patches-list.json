@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.0",
+    "version": "v1.12.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -150,6 +150,31 @@
             "default": true,
             "dependencies": [],
             "description": "Forces Alpha Progression's local Pro flag on, unlocking the premium training tools — the training-plan generator, charts, exercise evaluations, warmup calculator, progression recommendations, deload, periodisation and RIR tracking — without a subscription. These run on the workout data already on your device, so they keep working offline. Your account's official subscription status is validated by RevenueCat and is unaffected.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#00204B",
+                    "description": null,
+                    "name": "Collectr",
+                    "packageName": "com.collectrinc.collectr",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.5.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Collectr's client-gated premium features, like unlimited collections, price alerts, and the advanced analytics, by forcing the local membership tier to pro so the on-device checks treat the account as premium. This is the arm64 build. Anything Collectr's servers authorize or serve on their own (account-bound data the backend gates) is not granted by a local flag.",
             "name": "Unlock Premium",
             "options": []
         },

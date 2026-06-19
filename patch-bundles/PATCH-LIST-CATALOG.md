@@ -45,7 +45,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | --- | ---: | ---: | --- |
 | [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 11 | 11 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 12 | 12 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 19 | 11 | Generated |
@@ -65,7 +65,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 22 | 11 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 73 | 50 | Generated |
-| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 83 | 7 | Generated |
+| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 85 | 7 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 115 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
@@ -156,7 +156,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Hoomans-Morphe Bundle Patch List:
 [?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 11 patches, 11 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 12 patches, 12 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -164,6 +164,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium``` | ```Forces Alpha Progression's local Pro flag on, unlocking the premium training tools — the training-plan generator, charts, exercise evaluations, warmup calculator, progression recommendations, deload, periodisation and RIR tracking — without a subscription. These run on the workout data already on your device, so they keep working offline. Your account's official subscription status is validated by RevenueCat and is unaffected.``` | ```Alpha Progression``` | ```All versions``` |
 | ```Unlock Membership``` | ```Unlocks the BandLab Membership tools that run on the device. The app decides membership from one cached status object read through a single repository, so forcing the member flag and the per-feature check turns on the in-Studio tools a subscription would give. That covers the extra effects and instruments, the larger track count, pitch tools like AutoPitch and manual correction, the voice changer, mastering EQ and presets, comping, and audio-to-MIDI. Anything BandLab renders on its servers (stem Splitter, AI video, distribution, members-only beats) still checks the account server-side and stays locked.``` | ```BandLab``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks BlockerHero's premium features without a subscription or Google sign-in: uninstall protection, focus mode, custom blocklists, daily and weekly time limits, block-on-restart, and blocking the recent-apps screen.``` | ```BlockerHero``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Collectr's client-gated premium features, like unlimited collections, price alerts, and the advanced analytics, by forcing the local membership tier to pro so the on-device checks treat the account as premium. This is the arm64 build. Anything Collectr's servers authorize or serve on their own (account-bound data the backend gates) is not granted by a local flag.``` | ```Collectr``` | ```All versions``` |
 | ```Unlock Gold``` | ```Forces Cronometer's local Gold flag on, unlocking custom charts, advanced reports, the fasting tracker, custom biometrics, diary timestamps and groups, and an ad-free view without a subscription. These features run on the diary data already on your device, so they keep working offline. Anything Cronometer computes on its own servers still needs a subscription.``` | ```Cronometer``` | ```All versions``` |
 | ```Unlock Pro``` | ```Forces Essence's local Pro flag on, unlocking the premium tools that run on the device without a subscription: the detailed statistics and insights, the custom color themes, app lock, data export, and the other locally-gated premium features. The flag is read from one cached status, so it works offline. The AI recovery coach and anything else Essence generates or serves from its backend still checks the account and stays locked.``` | ```Essence``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Liquid Gallery Pro without a purchase. Pro is a single local flag with no server-side check, so switching it on enables the Pro features the app gates on device.``` | ```Liquid Gallery``` | ```All versions``` |
@@ -2319,7 +2320,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle-morphe)
 <details>
-<summary><b>AmpleReVanced</b> - 83 patches, 7 apps</summary>
+<summary><b>AmpleReVanced</b> - 85 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2383,6 +2384,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Force enable debug mode``` | ```Enables debug mode in the app.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Force enable emoticon plus feature``` | ```Force enable emoticon plus feature (Unpurchased emoticon can be sent once per day)``` | ```Kakao Talk``` | ```All versions``` |
 | ```Ghost Mode``` | ```Don't expose your typing status to the other party.``` | ```Kakao Talk``` | ```All versions``` |
+| ```Hide More tab components``` | ```Adds options to hide components from the More tab.``` | ```Kakao Talk``` | ```All versions``` |
+| ```Hide More tab Game tab``` | ```Hides the Game tab from the More tab.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Hook Package Manager``` | ```Hooks the Package Manager to bypass integrity checks.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Override feature flag``` | ```Overrides the feature flag to enable the feature.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Play YouTube player in chat room``` | ```Allows playing YouTube videos in KakaoTalk chat rooms.``` | ```Kakao Talk``` | ```All versions``` |
