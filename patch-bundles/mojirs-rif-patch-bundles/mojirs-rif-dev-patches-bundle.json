@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-06-18T18:46:23",
-  "description": "Test build. v1.3.0 candidate: selftext inline images + Reddit video player links.\n\nrc4: rif cannot play these player links natively (its built-in player resolves video metadata from media_metadata, which standard single-video posts lack). So tapping a video player link now resolves the post permalink on-device and opens the POST, where rif plays the video inline as with any post link. Brief network delay on tap.",
-  "download_url": "https://github.com/MojiRS/revanced-rif-patches/releases/download/v1.3.0-rc4/patches.rvp",
+  "created_at": "2026-06-19T15:39:59",
+  "description": "Test build. Fix: inline GIFs no longer restart when a comment is re-bound in place (e.g. upvoting). attach() now leaves already-running animatables alone and only stops ones that left the recycled view.",
+  "download_url": "https://github.com/MojiRS/revanced-rif-patches/releases/download/v1.3.1-rc1/patches.rvp",
   "signature_download_url": "N/A",
-  "version": "v1.3.0-rc4"
+  "version": "v1.3.1-rc1"
 }
