@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-06-19T22:12:32",
-  "description": "Adds Nutrilio Local backup & restore: a button on the Backup screen that opens Nutrilios built-in local file backup/restore. Exports all entries, images and settings to a portable .nutrilio file (a ZIP) via share; restores from a picked file. No Google account or premium needed. Plus existing SonyLIV, Threads and Arrow Puzzle patches.\n\nVerified: morphe-cli applies; baksmali confirms the injection + merged extension. Runtime not device-verified.",
-  "download_url": "https://github.com/durgesh0505/chiggi_morphe_patches/releases/download/v1.12.0/patches-1.12.0.mpp",
+  "created_at": "2026-06-19T22:41:22",
+  "description": "Nutrilio Local backup & restore now adds native Export backup file and Import backup file rows to the Backup screen (above Restore Backup) instead of a button. Both drive Nutrilios built-in local file backup/restore (all entries, images and settings to a portable .nutrilio ZIP; restore from a picked file; no Google account or premium). Plus existing SonyLIV, Threads and Arrow Puzzle patches.\n\nVerified: morphe-cli applies; baksmali confirms both injections. Row rendering not device-verified.",
+  "download_url": "https://github.com/durgesh0505/chiggi_morphe_patches/releases/download/v1.13.0/patches-1.13.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.12.0"
+  "version": "v1.13.0"
 }

@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.0",
+    "version": "v1.13.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -579,7 +579,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Adds a \"Local backup & restore\" button to the Backup screen that opens Nutrilio's built-in (but normally hidden) local file backup/restore. Exports a complete backup — all entries, images and settings — to a portable .nutrilio file (a ZIP) via the share sheet, and restores one from a file you pick. No Google account, no premium needed. (Google Drive auto-backup is separate and still requires sign-in, which does not work on a re-signed app.)",
+            "description": "Adds native \"Export backup file\" and \"Import backup file\" rows to the Backup screen (above Restore Backup) that drive Nutrilio's built-in (but normally hidden) local file backup/restore. Exports a complete backup — all entries, images and settings — to a portable .nutrilio file (a ZIP) via the share sheet, and restores one from a file you pick. No Google account, no premium needed. (Google Drive auto-backup is separate and still requires sign-in, which does not work on a re-signed app.)",
             "name": "Local backup & restore",
             "options": []
         },
