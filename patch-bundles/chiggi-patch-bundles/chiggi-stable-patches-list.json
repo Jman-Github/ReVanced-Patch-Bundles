@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.4",
+    "version": "v1.10.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -152,6 +152,41 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "Threads",
+                    "packageName": "com.instagram.barcelona",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "434.0.0.41.74"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Changes the app name shown under the launcher icon. Set the desired name in the patch options.",
+            "name": "Change app name",
+            "options": [
+                {
+                    "default": "Threads Morphe",
+                    "description": "The name shown under the app icon.",
+                    "key": "appName",
+                    "required": true,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
                     "appIconColor": "#36D4C3",
                     "description": null,
                     "name": "Nutrilio",
@@ -210,6 +245,41 @@
                 {
                     "default": "com.sonyliv.chiggi",
                     "description": "The new application package name (e.g. com.sonyliv.chiggi).",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "Threads",
+                    "packageName": "com.instagram.barcelona",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "434.0.0.41.74"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Changes the app package name so the patched app installs alongside the original Threads. Set the desired package name in the patch options. WARNING: Meta apps hardcode many component/provider references — renaming the package can break Facebook login (SSO), content providers, or push. Disable this patch if you hit such issues.",
+            "name": "Change package name",
+            "options": [
+                {
+                    "default": "com.instagram.barcelona.morphe",
+                    "description": "The new application package name (e.g. com.instagram.barcelona.morphe).",
                     "key": "packageName",
                     "required": true,
                     "title": "Package name",
@@ -346,6 +416,31 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "Threads",
+                    "packageName": "com.instagram.barcelona",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "434.0.0.41.74"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides sponsored posts and injected \"suggested\" netego units from the Threads feed. Marks every media as organic (Media.DED) and blocks the feed ad-injection scheduler (BarcelonaSpoolFeedCacheHandler). Client-side only.",
+            "name": "Hide ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#7460A4",
                     "description": null,
@@ -366,6 +461,31 @@
             "dependencies": [],
             "description": "Hides the CleverTap-driven subscribe/premium promo banners and promo trays on the home screen. Content rows and CleverTap pop-ups/overlays are not affected.",
             "name": "Hide promo banners",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "Threads",
+                    "packageName": "com.instagram.barcelona",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "434.0.0.41.74"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the advertising-id (AD_ID) permissions so the device advertising id cannot be read for ad tracking. Does not disable Meta's core analytics.",
+            "name": "Remove AD_ID permission",
             "options": []
         },
         {

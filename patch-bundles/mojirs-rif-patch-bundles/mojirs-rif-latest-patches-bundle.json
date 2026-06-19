@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-06-18T18:46:23",
-  "description": "Test build. v1.3.0 candidate: selftext inline images + Reddit video player links.\n\nrc4: rif cannot play these player links natively (its built-in player resolves video metadata from media_metadata, which standard single-video posts lack). So tapping a video player link now resolves the post permalink on-device and opens the POST, where rif plays the video inline as with any post link. Brief network delay on tap.",
-  "download_url": "https://github.com/MojiRS/revanced-rif-patches/releases/download/v1.3.0-rc4/patches.rvp",
+  "created_at": "2026-06-19T02:34:01",
+  "description": "Inline images now render in text-post (selftext) bodies, not just comments (static + animated GIFs, common hosts). Adblock, settings, and all prior inline-image features unchanged.",
+  "download_url": "https://github.com/MojiRS/revanced-rif-patches/releases/download/v1.3.0/patches.rvp",
   "signature_download_url": "N/A",
-  "version": "v1.3.0-rc4"
+  "version": "v1.3.0"
 }

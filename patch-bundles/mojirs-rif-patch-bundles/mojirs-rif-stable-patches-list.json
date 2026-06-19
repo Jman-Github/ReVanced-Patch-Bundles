@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.1",
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -22,7 +22,7 @@
                 "Patch",
                 "Patch"
             ],
-            "description": "Renders direct image links in comments as embedded inline images (static + animated GIFs).",
+            "description": "Renders image links in comment and text-post bodies as embedded inline images (static + animated GIFs, common hosts).",
             "name": "Inline comment images",
             "options": [],
             "use": true

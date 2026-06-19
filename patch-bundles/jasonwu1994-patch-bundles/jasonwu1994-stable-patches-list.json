@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.1",
+    "version": "v1.10.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -10,6 +10,18 @@
             "dependencies": [],
             "description": "攔截 Gboard 的簽章白名單檢查並強制通過\nBypass Gboard signature whitelist checks and force them to pass.",
             "name": "Add Gboard Signature Bypass",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "啟用 AI 撰寫工具，支援所有語言\nEnable AI writing tools with support for all languages.",
+            "name": "AI Writing Tools",
             "options": [],
             "use": true
         },
