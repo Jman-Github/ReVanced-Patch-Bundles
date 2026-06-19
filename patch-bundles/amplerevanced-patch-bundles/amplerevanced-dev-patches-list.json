@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.4",
+    "version": "v1.2.0-dev.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -1647,6 +1647,33 @@
             "dependencies": [],
             "description": "Hides the main ad in the app.",
             "name": "Hide Main Ad",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#3D4491",
+                    "description": null,
+                    "name": "dcinside",
+                    "packageName": "com.dcinside.app.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.2.15"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds a setting to hide the mini gallery cover image above post lists.",
+            "name": "Hide mini gallery cover image",
             "options": []
         },
         {

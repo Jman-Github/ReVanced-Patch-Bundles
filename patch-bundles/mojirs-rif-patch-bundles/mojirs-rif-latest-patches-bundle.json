@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-06-19T15:39:59",
-  "description": "Test build. Fix: inline GIFs no longer restart when a comment is re-bound in place (e.g. upvoting). attach() now leaves already-running animatables alone and only stops ones that left the recycled view.",
-  "download_url": "https://github.com/MojiRS/revanced-rif-patches/releases/download/v1.3.1-rc1/patches.rvp",
+  "created_at": "2026-06-19T15:45:58",
+  "description": "Fix: inline GIFs no longer restart when a comment is re-bound in place (e.g. upvoting/downvoting). They keep playing, and still animate correctly when scrolled off-screen and back.",
+  "download_url": "https://github.com/MojiRS/revanced-rif-patches/releases/download/v1.3.1/patches.rvp",
   "signature_download_url": "N/A",
-  "version": "v1.3.1-rc1"
+  "version": "v1.3.1"
 }
