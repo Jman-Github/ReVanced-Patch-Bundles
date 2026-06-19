@@ -44,7 +44,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
 | [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
-| [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 4 | 1 | Generated |
+| [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
 | [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 10 | 10 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
@@ -139,7 +139,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? iHealth-Morphe Bundle Patch List:
 [?? iHealth-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ihealth-morphe-patches-bundle-morphe)
 <details>
-<summary><b>iHealth-Morphe</b> - 4 patches, 1 app</summary>
+<summary><b>iHealth-Morphe</b> - 6 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -147,6 +147,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Disable AI motivational modal``` | ```Prevents the AI-generated motivational modal from appearing after a blood pressure reading.``` | ```iHealth MyVitals``` | ```All versions``` |
 | ```Hide buy more devices link``` | ```Hides the 'Buy more iHealth devices?' link at the bottom of the Devices screen.``` | ```iHealth MyVitals``` | ```All versions``` |
 | ```Rebrand app``` | ```Changes the package name to allow installation alongside the original app and renames the app to 'iHealth Morphe'. Disables Firebase initialization, which would otherwise crash on startup when the new package name is not registered.``` | ```iHealth MyVitals``` | ```All versions``` |
+| ```Bypass DRM``` | ```Prevents PairIP license check from running so the app does not redirect to the Play Store paywall on launch.``` | ```MultiTimer - Multiple Timers``` | ```All versions``` |
+| ```Enable PRO``` | ```Unlocks all PRO features by short-circuiting the purchase status check to always return true.``` | ```MultiTimer - Multiple Timers``` | ```All versions``` |
 
 </details>
 

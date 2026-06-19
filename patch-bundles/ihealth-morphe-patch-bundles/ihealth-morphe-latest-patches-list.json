@@ -1,6 +1,31 @@
 {
-    "version": "v1.0.1",
+    "version": "v1.1.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF5722",
+                    "description": null,
+                    "name": "MultiTimer - Multiple Timers",
+                    "packageName": "com.persapps.multitimer",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.12"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents PairIP license check from running so the app does not redirect to the Play Store paywall on launch.",
+            "name": "Bypass DRM",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -49,6 +74,31 @@
             "dependencies": [],
             "description": "Prevents the AI-generated motivational modal from appearing after a blood pressure reading.",
             "name": "Disable AI motivational modal",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF5722",
+                    "description": null,
+                    "name": "MultiTimer - Multiple Timers",
+                    "packageName": "com.persapps.multitimer",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.12"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all PRO features by short-circuiting the purchase status check to always return true.",
+            "name": "Enable PRO",
             "options": []
         },
         {
