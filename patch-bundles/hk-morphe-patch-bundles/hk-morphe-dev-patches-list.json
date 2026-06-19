@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.5-dev.1",
+    "version": "v1.3.4-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -57,73 +57,6 @@
             "description": "Fixes the \"Other Discussions\" feature.",
             "name": "Fix \"Other Discussions\"",
             "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "Sync for Reddit",
-                    "packageName": "com.laurencedawson.reddit_sync",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "v23.06.30-13:39"
-                        }
-                    ]
-                },
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "Sync for Reddit Pro",
-                    "packageName": "com.laurencedawson.reddit_sync.pro",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
-                        }
-                    ]
-                },
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "Sync for Reddit Dev",
-                    "packageName": "com.laurencedawson.reddit_sync.dev",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Restores native Imgur Album/Gallery viewing by bypassing the dead syncforreddit proxy and communicating directly with the official Imgur API.",
-            "name": "Fix Imgur Albums",
-            "options": [
-                {
-                    "default": "546c25a59c58ad7",
-                    "description": "Your Imgur API Client ID. This is required to fix album loading. The default value is the official Imgur App Client ID, which bypasses registration.",
-                    "key": "imgur-client-id",
-                    "required": true,
-                    "title": "Imgur Client ID",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
         },
         {
             "compatiblePackages": [
