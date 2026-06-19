@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0",
+    "version": "v1.11.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -24,6 +24,31 @@
             "dependencies": [],
             "description": "Unlocks BlockerHero's premium features without a subscription or Google sign-in: uninstall protection, focus mode, custom blocklists, daily and weekly time limits, block-on-restart, and blocking the recent-apps screen.",
             "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F88828",
+                    "description": null,
+                    "name": "AGAMA Car Launcher",
+                    "packageName": "altergames.carlauncher",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.0.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks AGAMA Car Launcher's paid full version without buying it, so the pro widgets, theme editor and other locked extras all open up. Full versus trial is just a stored flag that the Google Play purchase writes and never reads back, so forcing it on works without paying and survives reboots. The launcher runs everything on-device with no server entitlement, so nothing stays locked.",
+            "name": "Unlock Full Version",
             "options": []
         },
         {

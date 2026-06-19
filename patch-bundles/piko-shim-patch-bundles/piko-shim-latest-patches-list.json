@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0",
+    "version": "v1.6.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -15,31 +15,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.1.0-release.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "12.0.1-release.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "11.99.0-release.1"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "11.95.1-release.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "11.88.0-release.0"
+                            "version": null
                         }
                     ]
                 }
@@ -86,31 +62,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.1.0-release.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "12.0.1-release.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "11.99.0-release.1"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "11.95.1-release.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "11.88.0-release.0"
+                            "version": null
                         }
                     ]
                 }
@@ -143,7 +95,7 @@
             "options": [
                 {
                     "default": false,
-                    "description": "If true, a shim layer for the synthetic method is added.\n\nThis option is enabled by default in the supported version.",
+                    "description": "If true, a shim layer for the synthetic method is added.\n\nEnable if testing is required.",
                     "key": "advancedMode",
                     "required": true,
                     "title": "Advanced Mode",
@@ -166,31 +118,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.1.0-release.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "12.0.1-release.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "11.99.0-release.1"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "11.95.1-release.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "11.88.0-release.0"
+                            "version": null
                         }
                     ]
                 }
