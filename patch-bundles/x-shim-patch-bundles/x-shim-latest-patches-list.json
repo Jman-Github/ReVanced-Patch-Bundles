@@ -1,0 +1,135 @@
+{
+    "version": "v1.6.2",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an abstracted shim layer for fields, which improves compatibility to allow legacy patches to work.",
+            "name": "Abstract shim layer",
+            "options": [
+                {
+                    "default": "",
+                    "description": "JSON containing static field initialization strings. If this is not provided, the patch may fail.",
+                    "key": "fieldJSON",
+                    "required": true,
+                    "title": "Field JSON",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": [],
+                    "description": "Strings that must be used as local variables rather than global variables to restore the original method structure",
+                    "key": "exceptions",
+                    "required": false,
+                    "title": "Exceptions",
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an abstracted shim layer for methods, which improves compatibility to allow legacy patches to work.",
+            "name": "Abstract shim layer for method",
+            "options": [
+                {
+                    "default": false,
+                    "description": "If true, a shim layer for the synthetic method is added.\n\nEnable if testing is required.",
+                    "key": "advancedMode",
+                    "required": true,
+                    "title": "Advanced Mode",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Adds an abstracted shim layer for native libraries, which improves compatibility to allow legacy patches to work.",
+            "name": "Abstract shim layer for native library",
+            "options": []
+        }
+    ]
+}

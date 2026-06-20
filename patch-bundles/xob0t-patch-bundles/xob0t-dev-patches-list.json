@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.7-dev.1",
+    "version": "v1.4.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -11,6 +11,12 @@
                     "packageName": "com.avito.android",
                     "signatures": null,
                     "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "226.5"
+                        },
                         {
                             "description": null,
                             "isExperimental": false,
@@ -36,6 +42,52 @@
             "dependencies": [],
             "description": "Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.",
             "name": "Avito privacy",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00AAFF",
+                    "description": null,
+                    "name": "Avito",
+                    "packageName": "com.avito.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "226.5"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "225.5"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "224.6"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Hides Avito offers from blacklisted adverts or sellers and adds a blacklist manager (import/export compatible with the Ave Blacklist extension).",
+            "name": "Block listings",
             "options": []
         },
         {
@@ -157,6 +209,12 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "226.5"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "225.5"
                         },
                         {
@@ -175,8 +233,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Prevents Avito's force-update screen opener from launching update screens.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Prevents Avito's force-update screen opener from launching update screens. Toggleable in Настройки Morphe.",
             "name": "Disable update prompts",
             "options": []
         },
@@ -190,6 +250,12 @@
                     "packageName": "com.avito.android",
                     "signatures": null,
                     "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "226.5"
+                        },
                         {
                             "description": null,
                             "isExperimental": false,
@@ -212,8 +278,10 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
-            "description": "Removes the Avi assistant button from Avito's bottom navigation bar.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes the Avi assistant button from Avito's bottom navigation bar. Toggleable in Настройки Morphe (needs an app restart to apply).",
             "name": "Hide Avi bottom tab",
             "options": []
         },
@@ -227,6 +295,57 @@
                     "packageName": "com.avito.android",
                     "signatures": null,
                     "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "226.5"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "225.5"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "224.6"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Adds a \"Настройки Morphe\" entry to Avito's settings that hosts the configuration for the other Morphe patches.",
+            "name": "Morphe settings",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00AAFF",
+                    "description": null,
+                    "name": "Avito",
+                    "packageName": "com.avito.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "226.5"
+                        },
                         {
                             "description": null,
                             "isExperimental": false,
@@ -384,6 +503,51 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00AAFF",
+                    "description": null,
+                    "name": "Avito",
+                    "packageName": "com.avito.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "226.5"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "225.5"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "224.6"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Collapses the home-screen category rubricator from two rows into a single horizontally scrollable row. Toggleable in Настройки Morphe (needs an app restart to apply).",
+            "name": "Single-row home categories",
+            "options": []
         },
         {
             "compatiblePackages": null,

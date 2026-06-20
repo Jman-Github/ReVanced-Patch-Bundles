@@ -95,7 +95,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [PawiX25](#-pawix25-bundle-patch-list) | 17 | 10 | Generated |
 | [Ameenalasady](#-ameenalasady-bundle-patch-list) | 1 | 1 | Generated |
 | [Lynx6319](#-lynx6319-bundle-patch-list) | 1 | 1 | Generated |
-| [Xob0t](#-xob0t-bundle-patch-list) | 21 | 5 | Generated |
+| [Xob0t](#-xob0t-bundle-patch-list) | 24 | 5 | Generated |
 | [Bannerhub](#-bannerhub-bundle-patch-list) | 60 | 2 | Generated |
 | [Eksi](#-eksi-bundle-patch-list) | 1 | 1 | Generated |
 | [Ameen-Morphe](#-ameen-morphe-bundle-patch-list) | 2 | 2 | Generated |
@@ -2442,7 +2442,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove shop tab``` | ```Removes the shop tab from the bottom navigation bar.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Remove Short-form Tab``` | ```Removes the Short-form tab from the now fragment.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Show chatroom channel ID``` | ```Shows the channel ID in chatroom settings and copies it when tapping the chat side title.``` | ```Kakao Talk``` | ```All versions``` |
-| ```Show deleted or hidden messages``` | ```Allows you to see deleted/hidden messages in chat logs.``` | ```Kakao Talk``` | ```All versions``` |
+| ```Show deleted, hidden, or edited messages``` | ```Allows you to see deleted, hidden, and edited message history in chat logs.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Spoof apk checksums``` | ```Spoofs the apk checksums to pass integrity checks.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Spoof App ID``` | ```Spoofs the App ID to bypass integrity checks. (to bypass biometric auth etc.)``` | ```Kakao Talk``` | ```All versions``` |
 | ```Spoof signature``` | ```Spoofs the app signature to pass integrity checks.``` | ```Kakao Talk``` | ```All versions``` |
@@ -3496,14 +3496,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Xob0t Bundle Patch List:
 [📦 Xob0t-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-xob0t-patches-bundle-morphe)
 <details>
-<summary><b>Xob0t</b> - 21 patches, 5 apps</summary>
+<summary><b>Xob0t</b> - 24 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Avito privacy``` | ```Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.``` | ```Avito``` | ```All versions``` |
-| ```Disable update prompts``` | ```Prevents Avito's force-update screen opener from launching update screens.``` | ```Avito``` | ```All versions``` |
-| ```Hide Avi bottom tab``` | ```Removes the Avi assistant button from Avito's bottom navigation bar.``` | ```Avito``` | ```All versions``` |
+| ```Block listings``` | ```Hides Avito offers from blacklisted adverts or sellers and adds a blacklist manager (import/export compatible with the Ave Blacklist extension).``` | ```Avito``` | ```All versions``` |
+| ```Disable update prompts``` | ```Prevents Avito's force-update screen opener from launching update screens. Toggleable in Настройки Morphe.``` | ```Avito``` | ```All versions``` |
+| ```Hide Avi bottom tab``` | ```Removes the Avi assistant button from Avito's bottom navigation bar. Toggleable in Настройки Morphe (needs an app restart to apply).``` | ```Avito``` | ```All versions``` |
+| ```Morphe settings``` | ```Adds a "Настройки Morphe" entry to Avito's settings that hosts the configuration for the other Morphe patches.``` | ```Avito``` | ```All versions``` |
 | ```Remove ads``` | ```Disables Avito ads by removing ad SDK entry points and short-circuiting commercial banner loading.``` | ```Avito``` | ```All versions``` |
+| ```Single-row home categories``` | ```Collapses the home-screen category rubricator from two rows into a single horizontally scrollable row. Toggleable in Настройки Morphe (needs an app restart to apply).``` | ```Avito``` | ```All versions``` |
 | ```Remove Ozon ads``` | ```Removes Ozon ad widgets, banner carousels, video ads, and PDP promo blocks.``` | ```Ozon``` | ```All versions``` |
 | ```Bypass anti-tamper``` | ```Stubs TBank's native RASP executor calls and neutralizes tamper flag reporting.``` | ```TBank``` | ```All versions``` |
 | ```Remove TBank ads``` | ```Removes TBank stories and promotional surfaces.``` | ```TBank``` | ```All versions``` |

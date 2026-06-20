@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.5",
+    "version": "v1.2.0-dev.6",
     "patches": [
         {
             "compatiblePackages": [
@@ -2152,10 +2152,11 @@
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
-            "description": "Allows you to see deleted/hidden messages in chat logs.",
-            "name": "Show deleted or hidden messages",
+            "description": "Allows you to see deleted, hidden, and edited message history in chat logs.",
+            "name": "Show deleted, hidden, or edited messages",
             "options": [
                 {
                     "default": "0xFFFF4444",
