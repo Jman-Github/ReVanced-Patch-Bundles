@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.86",
+    "version": "v1.4.87",
     "patches": [
         {
             "compatibility": [
@@ -167,33 +167,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Suppresses all ad delivery systems in Fox One Android TV.",
-            "name": "Skip ads",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatibility": [
-                {
-                    "appIconColor": 84368,
-                    "description": null,
-                    "name": "Fox Sports Android TV",
-                    "packageName": "com.foxsports.android",
-                    "targets": [
-                        {
-                            "experimental": false,
-                            "version": "5.152.0"
-                        }
-                    ]
-                }
-            ],
-            "compatiblePackages": {
-                "com.foxsports.android": [
-                    "5.152.0"
-                ]
-            },
-            "dependencies": [],
-            "description": "Suppresses all Yospace SSAI ad delivery in Fox Sports Android TV.",
+            "description": "Suppresses all ad delivery systems in Fox One Android TV: Google IMA/DAI for VOD, Yospace SSAI for live content.",
             "name": "Skip ads",
             "options": [],
             "use": true
