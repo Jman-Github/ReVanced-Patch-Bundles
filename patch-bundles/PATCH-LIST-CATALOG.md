@@ -75,7 +75,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Almewty](#-almewty-bundle-patch-list) | 3 | 2 | Generated |
 | [Anddea-Morphed](#-anddea-morphed-bundle-patch-list) | 133 | 6 | Generated |
 | [RookieEnough](#-rookieenough-bundle-patch-list) | 84 | 35 | Generated |
-| [Adobo](#-adobo-bundle-patch-list) | 37 | 5 | Generated |
+| [Adobo](#-adobo-bundle-patch-list) | 38 | 5 | Generated |
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 2 | 1 | Generated |
@@ -3057,7 +3057,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Adobo Bundle Patch List:
 [📦 Adobo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-adobo-patches-bundle-morphe)
 <details>
-<summary><b>Adobo</b> - 37 patches, 5 apps</summary>
+<summary><b>Adobo</b> - 38 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3071,6 +3071,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Toggle feature flags``` | ```Toggles Gboard feature flags to enable or disable experimental or hidden features.``` | ```Gboard``` | ```All versions``` |
 | ```Remove IMDb's ads, trackers, and analytics``` | ```Removes ads, trackers, and analytics in the IMDb app.``` | ```IMDb``` | ```All versions``` |
 | ```Colorize comment indent lines``` | ```Replaces the default gray comment indent lines with color-coded lines.``` | ```Reddit``` | ```All versions``` |
+| ```Disable home feed auto-refresh``` | ```Disables the automatic refresh of the home feed after reading a post or after being away from the app.``` | ```Reddit``` | ```All versions``` |
 | ```Disable home feed swipe``` | ```Disables the horizontal page swipe gesture used to switch feeds.``` | ```Reddit``` | ```All versions``` |
 | ```Disable home screen redirect``` | ```Disables the automatic redirect to the home screen after being away from the app or returning from the background.``` | ```Reddit``` | ```All versions``` |
 | ```Disable post detail swipe``` | ```Disables the horizontal swipe gesture used to navigate between posts.``` | ```Reddit``` | ```All versions``` |
@@ -3079,7 +3080,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide awards``` | ```Hides the awards on Reddit posts and comments.``` | ```Reddit``` | ```All versions``` |
 | ```Hide community highlights``` | ```Hides the community highlights section.``` | ```Reddit``` | ```All versions``` |
 | ```Hide post view counts``` | ```Removes the "views" indicator from the post metadata.``` | ```Reddit``` | ```All versions``` |
-| ```Hide prominent search bar``` | ```Hides the new prominent search bar on the main screen.``` | ```Reddit``` | ```All versions``` |
+| ```Hide prominent search bar``` | ```Hides the new prominent search bar on the main screen. Applicable only to version 2026.24.0 and earlier.``` | ```Reddit``` | ```All versions``` |
 | ```Hide share count``` | ```Hides the share count on Reddit posts.``` | ```Reddit``` | ```All versions``` |
 | ```Hide upvote scores``` | ```Hides the scores on Reddit posts and comments.``` | ```Reddit``` | ```All versions``` |
 | ```Hide user community badges``` | ```Hides the user community badges on Reddit comments.``` | ```Reddit``` | ```All versions``` |
