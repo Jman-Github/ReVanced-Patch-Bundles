@@ -1,5 +1,5 @@
 {
-    "version": "v1.16.0",
+    "version": "v1.17.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -308,6 +308,31 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Collectr's premium features without a subscription, like unlimited collections, price alerts, and the advanced analytics. This is the arm64 build. Anything Collectr serves from its own servers still needs the real subscription.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#406FB8",
+                    "description": null,
+                    "name": "FolderSync",
+                    "packageName": "dk.tacit.android.foldersync.lite",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.9.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks FolderSync's premium without the in-app purchase and removes the ads, so you get unlimited sync pairs and the advanced options.",
             "name": "Unlock Premium",
             "options": []
         },
