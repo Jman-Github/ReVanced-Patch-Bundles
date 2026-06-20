@@ -1,5 +1,5 @@
 {
-    "version": "v1.19.1",
+    "version": "v1.20.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -412,6 +412,31 @@
                 "BytecodePatch"
             ],
             "description": "Unlocks Essence's premium tools without a subscription, like the detailed statistics and insights, custom themes, app lock, data export, and more. They run on your device, so they work offline. The AI recovery coach and anything else Essence makes on its servers still needs the real subscription.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF2558",
+                    "description": null,
+                    "name": "InShot",
+                    "packageName": "com.camerasideas.instashot",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.214.1539"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks InShot's Pro features without a subscription: no export watermark, no ads, and the paid filters, effects, transitions, stickers and HD export open. The on-device AI tools (background remover, AI retouch, auto captions) verify the original signing key in native code, so those may not run on a re-signed build; the rest of Pro works offline.",
             "name": "Unlock Pro",
             "options": []
         },
