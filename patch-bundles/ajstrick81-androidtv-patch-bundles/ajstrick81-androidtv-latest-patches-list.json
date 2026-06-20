@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.85",
+    "version": "v1.4.86",
     "patches": [
         {
             "compatibility": [
@@ -193,7 +193,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Suppresses all ad delivery systems in Fox Sports Android TV.",
+            "description": "Suppresses all Yospace SSAI ad delivery in Fox Sports Android TV.",
             "name": "Skip ads",
             "options": [],
             "use": true
@@ -273,7 +273,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Eliminates all Tubi ad types: intercepts DAI stream requests before they reach dai.google.com to prevent pre-roll stitching, blocks IMA ad events from reaching FoxPlayer, prevents AdsManager from priming the cold-launch pre-roll, and suppresses the pause-screen image overlay ad.",
+            "description": "Suppresses all ad delivery systems in Tubi Android TV.",
             "name": "Skip ads",
             "options": [],
             "use": true

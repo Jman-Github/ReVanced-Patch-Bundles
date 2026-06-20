@@ -45,7 +45,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | --- | ---: | ---: | --- |
 | [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 13 | 13 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 15 | 14 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 19 | 11 | Generated |
@@ -156,7 +156,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Hoomans-Morphe Bundle Patch List:
 [?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 13 patches, 13 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 15 patches, 14 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -173,6 +173,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Plus``` | ```Removes ads and unlocks the locally-gated Quizlet Plus features by forcing the account's upgrade type to Plus. Plus status and ad display are decided on-device from a cached flag, so this works without a subscription. Server-side Plus features (AI "Magic Notes"/generation and other cloud/metered tools) are validated and produced on Quizlet's servers and stay locked.``` | ```Quizlet``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Teach Me Anatomy's Pro features without a subscription: no upgrade banners or ads, plus the gated reference articles, quizzes, and flashcards. Content you have already synced works offline. Features served from the server still need a real account.``` | ```Teach Me Anatomy``` | ```All versions``` |
 | ```Unlock Pro``` | ```Forces Tracked's local Pro flag on, unlocking the premium training tools it gates on device, like muscle analytics and training programs, without a subscription. These run on the workout data already on your device, so they keep working offline. Your account's official subscription status is validated by RevenueCat and is unaffected, and the separate human-coaching marketplace still needs its own subscription.``` | ```Tracked``` | ```All versions``` |
+| ```Block live ads``` | ```Removes the ads stitched into live streams (SureStream) by routing the HLS manifest request through the Luminous ad-block proxy (eu.luminous.dev) instead of Twitch's own usher server. The proxy fetches a clean manifest, so the stream comes back without the server-inserted ad segments. It relies on that third-party proxy staying up; if it goes down, live streams stop loading until you remove the patch. This covers the stitched live-stream ads only; VOD ads are not touched.``` | ```Twitch``` | ```All versions``` |
+| ```Hide display ads``` | ```Hides the banner, overlay, and in-feed display ads Twitch renders around the app (not the video ads in the stream itself). Every one of those ads is fetched from Twitch's ad edge and runs through a single parser before anything is drawn; forcing that parser to report no ad means none of them render. The decision is on-device, so this needs no account change and leaves the rest of the app alone.``` | ```Twitch``` | ```All versions``` |
 
 </details>
 
@@ -3625,9 +3627,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Paramount+ Android TV``` | ```Removes VOD ads and pause ads while preserving live TV.``` | ```com.cbs.ott``` | ```16.12.0, 16.8.0``` |
 | ```Disney+ Android TV``` | ```Removes mid-roll / pre-roll ads and pause ads.``` | ```com.disney.disneyplus``` | ```26.6.0+rc5-2026.04.21, 26.8.0+rc6-2026.05.20, 26.9.2+rc1-2026.06.12``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox One Android TV.``` | ```com.fox.foxone``` | ```1.9.2``` |
-| ```Skip ads``` | ```Suppresses all ad delivery systems in Fox Sports Android TV.``` | ```com.foxsports.android``` | ```5.152.0``` |
+| ```Skip ads``` | ```Suppresses all Yospace SSAI ad delivery in Fox Sports Android TV.``` | ```com.foxsports.android``` | ```5.152.0``` |
 | ```Skip ads``` | ```Disables ad delivery via Sky SDK surgical targets (FreeWheel DI module skip, MediaTailor SSAI layers), OkHttp interceptor, and WebView shouldInterceptRequest wrapper. Validated v7.5.102.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102``` |
-| ```Skip ads``` | ```Eliminates all Tubi ad types: intercepts DAI stream requests before they reach dai.google.com to prevent pre-roll stitching, blocks IMA ad events from reaching FoxPlayer, prevents AdsManager from priming the cold-launch pre-roll, and suppresses the pause-screen image overlay ad.``` | ```com.tubitv``` | ```10.20.5000``` |
+| ```Skip ads``` | ```Suppresses all ad delivery systems in Tubi Android TV.``` | ```com.tubitv``` | ```10.20.5000``` |
 | ```Skip ads``` | ```Suppresses ViX ad delivery by disabling the FreeWheel ad provider at the config level and preventing the Innovid SSAI overlay from mounting.``` | ```com.univision.prendetv``` | ```4.46.0_tv``` |
 | ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.hbomax``` | ```7.2.0.41``` |
 

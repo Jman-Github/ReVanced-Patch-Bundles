@@ -1,6 +1,31 @@
 {
-    "version": "v1.13.0",
+    "version": "v1.14.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#9147FF",
+                    "description": null,
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "29.9.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the ads stitched into live streams (SureStream) by routing the HLS manifest request through the Luminous ad-block proxy (eu.luminous.dev) instead of Twitch's own usher server. The proxy fetches a clean manifest, so the stream comes back without the server-inserted ad segments. It relies on that third-party proxy staying up; if it goes down, live streams stop loading until you remove the patch. This covers the stitched live-stream ads only; VOD ads are not touched.",
+            "name": "Block live ads",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -30,6 +55,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#9147FF",
+                    "description": null,
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "29.9.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the banner, overlay, and in-feed display ads Twitch renders around the app (not the video ads in the stream itself). Every one of those ads is fetched from Twitch's ad edge and runs through a single parser before anything is drawn; forcing that parser to report no ad means none of them render. The decision is on-device, so this needs no account change and leaves the rest of the app alone.",
+            "name": "Hide display ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#F88828",
                     "description": null,
                     "name": "AGAMA Car Launcher",
@@ -46,7 +96,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Unlocks AGAMA Car Launcher's paid full version without buying it, so the pro widgets, theme editor and other locked extras all open up. Full versus trial is just a stored flag that the Google Play purchase writes and never reads back, so forcing it on works without paying and survives reboots. The launcher runs everything on-device with no server entitlement, so nothing stays locked.",
             "name": "Unlock Full Version",
             "options": []
