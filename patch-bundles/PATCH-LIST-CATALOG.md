@@ -43,6 +43,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
+| [TS-Patches](#-ts-patches-bundle-patch-list) | 1 | 1 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
 | [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 19 | 16 | Generated |
@@ -119,7 +121,33 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
 
 ---
-### ?? Zpatches Bundle Patch List:
+### 🧩 Morphe-Portal Bundle Patch List:
+[📦 Morphe-Portal-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-portal-patches-bundle-morphe)
+<details>
+<summary><b>Morphe-Portal</b> - 3 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Custom DPI``` | ```Forces a custom display density in dots-per-inch for YouTube and YouTube Music.``` | ```YouTube, YouTube Music``` | ```20.51.39, 8.51.51``` |
+| ```Custom version name``` | ```Overrides android:versionName so a repatched build can install as an update.``` | ```YouTube, YouTube Music``` | ```20.51.39, 8.51.51``` |
+| ```Hide version notice``` | ```Hides the version notice dialog.``` | ```YouTube, YouTube Music``` | ```20.51.39, 8.51.51``` |
+
+</details>
+
+---
+### 🧩 TS-Patches Bundle Patch List:
+[📦 TS-Patches-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ts-patches-patches-bundle-morphe)
+<details>
+<summary><b>TS-Patches</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable ads``` | ```Removes ads by forcing TeamSnap+ Tier 1 subscription status.``` | ```TeamSnap``` | ```7.63.0``` |
+
+</details>
+
+---
+### 🧩 Zpatches Bundle Patch List:
 [?? Zpatches-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-zpatches-patches-bundle-morphe)
 <details>
 <summary><b>Zpatches</b> - 6 patches, 3 apps</summary>

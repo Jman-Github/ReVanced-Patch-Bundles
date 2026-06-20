@@ -1344,6 +1344,32 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 ---
 ---
+### 📦 Morphe-Portal-Patches-Bundle [Morphe]:
+[🧩 Morphe-Portal Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-morphe-portal-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-portal-patch-bundles/morphe-portal-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-portal-patch-bundles/morphe-portal-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-portal-patch-bundles/morphe-portal-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 TS-Patches-Patches-Bundle [Morphe]:
+[🧩 TS-Patches Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ts-patches-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ts-patches-patch-bundles/ts-patches-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ts-patches-patch-bundles/ts-patches-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ts-patches-patch-bundles/ts-patches-dev-patches-bundle.json```
+</details>
+
+---
 ### 📦 Zpatches-Patches-Bundle [Morphe]:
 [🧩 Zpatches Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-zpatches-bundle-patch-list)
 <details>
@@ -1599,6 +1625,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Realme-Link-Patches-Bundle](https://github.com/lyyako/realme-link-patches)
 
 #### 🏷️ [HK-Morphe-Patches-Bundle](https://github.com/humzakh/HK-Morphe-Patches)
+#### 🏷️ [Morphe-Portal-Patches-Bundle](https://github.com/andronedev/morphe-portal-patch)
+
+#### 🏷️ [TS-Patches-Patches-Bundle](https://github.com/osirisad/ts-patches)
+
 #### 🏷️ [Zpatches-Patches-Bundle](https://github.com/cesbar/zpatches)
 
 #### 🏷️ [iHealth-Morphe-Patches-Bundle](https://github.com/bdgerszewski/morphe-patches-ihealth)
