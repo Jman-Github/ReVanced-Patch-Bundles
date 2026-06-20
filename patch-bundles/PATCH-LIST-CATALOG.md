@@ -3508,10 +3508,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Block listings``` | ```Hides Avito offers from blacklisted adverts or sellers and adds a blacklist manager (import/export compatible with the Ave Blacklist extension).``` | ```Avito``` | ```All versions``` |
 | ```Disable telemetry``` | ```Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.``` | ```Avito``` | ```All versions``` |
 | ```Disable update prompts``` | ```Prevents Avito's force-update screen opener from launching update screens. Toggleable in Настройки Morphe.``` | ```Avito``` | ```All versions``` |
-| ```Hide Avi bottom tab``` | ```Removes the Avi assistant button from Avito's bottom navigation bar. Toggleable in Настройки Morphe (needs an app restart to apply).``` | ```Avito``` | ```All versions``` |
 | ```Morphe settings``` | ```Adds a "Настройки Morphe" entry to Avito's settings that hosts the configuration for the other Morphe patches.``` | ```Avito``` | ```All versions``` |
 | ```Remove ads``` | ```Disables Avito ads by removing ad SDK entry points and short-circuiting commercial banner loading.``` | ```Avito``` | ```All versions``` |
 | ```Single-row home categories``` | ```Collapses the home-screen category rubricator from two rows into a single horizontally scrollable row. Toggleable in Настройки Morphe (needs an app restart to apply).``` | ```Avito``` | ```All versions``` |
+| ```UI tweaks``` | ```Optional interface tweaks, each toggleable in Настройки Morphe: hide the "Подписки" tab in Избранное, and hide the Avi assistant tab in the bottom navigation.``` | ```Avito``` | ```All versions``` |
 | ```Remove Ozon ads``` | ```Removes Ozon ad widgets, banner carousels, video ads, and PDP promo blocks.``` | ```Ozon``` | ```All versions``` |
 | ```Bypass anti-tamper``` | ```Stubs TBank's native RASP executor calls and neutralizes tamper flag reporting.``` | ```TBank``` | ```All versions``` |
 | ```Remove TBank ads``` | ```Removes TBank stories and promotional surfaces.``` | ```TBank``` | ```All versions``` |
@@ -3662,7 +3662,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
-| ```Skip ads``` | ```Suppresses ad schedule and seeks past playing ads using the Player reference available in getStreamPositionUs.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
+| ```Skip ads``` | ```Multi-layer ad suppression targeting SSAI schedule, active ad playback, and impression reporting.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```MLB At Bat Android TV``` | ```Removes VOD ads and between-innings gambling ads while preserving live game playback.``` | ```com.bamnetworks.mobile.android.gameday.atbat``` | ```26.8.1.1``` |
 | ```Paramount+ Android TV``` | ```Removes VOD ads and pause ads while preserving live TV.``` | ```com.cbs.ott``` | ```16.12.0, 16.8.0``` |
 | ```Disney+ Android TV``` | ```Removes mid-roll / pre-roll ads and pause ads.``` | ```com.disney.disneyplus``` | ```26.6.0+rc5-2026.04.21, 26.8.0+rc6-2026.05.20, 26.9.2+rc1-2026.06.12``` |

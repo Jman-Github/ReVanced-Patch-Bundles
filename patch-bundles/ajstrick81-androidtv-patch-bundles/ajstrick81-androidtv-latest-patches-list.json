@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.87",
+    "version": "v1.4.88",
     "patches": [
         {
             "compatibility": [
@@ -221,7 +221,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Suppresses ad schedule and seeks past playing ads using the Player reference available in getStreamPositionUs.",
+            "description": "Multi-layer ad suppression targeting SSAI schedule, active ad playback, and impression reporting.",
             "name": "Skip ads",
             "options": [],
             "use": true
