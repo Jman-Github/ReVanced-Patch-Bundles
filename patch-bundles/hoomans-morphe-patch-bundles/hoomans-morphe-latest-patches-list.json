@@ -1,5 +1,5 @@
 {
-    "version": "v1.17.0",
+    "version": "v1.18.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -74,6 +74,31 @@
             "dependencies": [],
             "description": "Hides the banner, overlay, and in-feed display ads Twitch shows around the app. This doesn't touch the video ads in the stream itself.",
             "name": "Hide display ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#327CB5",
+                    "description": null,
+                    "name": "Flightradar24",
+                    "packageName": "com.flightradar24free",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.6.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the ads in Flightradar24. The Gold map layers, flight history, and 3D view are produced on Flightradar24's servers and still need a subscription.",
+            "name": "Remove ads",
             "options": []
         },
         {
