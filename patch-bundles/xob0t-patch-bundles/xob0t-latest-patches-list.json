@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.6",
+    "version": "v1.4.0-dev.7",
     "patches": [
         {
             "compatiblePackages": [
@@ -374,6 +374,12 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": 26,
+                            "version": "19.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
                             "version": "19.16.0"
                         },
                         {
@@ -496,57 +502,6 @@
             ]
         },
         {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#00AAFF",
-                    "description": null,
-                    "name": "Avito",
-                    "packageName": "com.avito.android",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "227.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "226.5"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "225.5"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "224.6"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": null
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Collapses the home-screen category rubricator from two rows into a single horizontally scrollable row. Toggleable in Настройки Morphe (needs an app restart to apply).",
-            "name": "Single-row home categories",
-            "options": []
-        },
-        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -625,7 +580,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Optional interface tweaks, each toggleable in Настройки Morphe: hide the \"Подписки\" tab in Избранное, and hide the Avi assistant tab in the bottom navigation.",
+            "description": "Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the \"Подписки\" tab in Избранное, hide installments (Рассрочка) and the \"Спросите у продавца\" block on offers, and hide the Avi assistant tab in the bottom navigation.",
             "name": "UI tweaks",
             "options": []
         }
