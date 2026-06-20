@@ -62,7 +62,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Chiggi](#-chiggi-bundle-patch-list) | 26 | 4 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 1 | 1 | Generated |
 | [EE-Morphe](#-ee-morphe-bundle-patch-list) | 10 | 4 | Generated |
-| [Piko-Shim](#-piko-shim-bundle-patch-list) | 3 | 1 | Generated |
+| [X-Shim](#-x-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 22 | 11 | Generated |
@@ -2084,10 +2084,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 </details>
 
 ---
-### 🧩 Piko-Shim Bundle Patch List:
-[📦 Piko-Shim-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-shim-patches-bundle-morphe)
+### 🧩 X-Shim Bundle Patch List:
+[📦 X-Shim-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-x-shim-patches-bundle-morphe)
 <details>
-<summary><b>Piko-Shim</b> - 3 patches, 1 app</summary>
+<summary><b>X-Shim</b> - 3 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
