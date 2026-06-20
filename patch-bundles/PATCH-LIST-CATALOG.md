@@ -47,7 +47,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [TS-Patches](#-ts-patches-bundle-patch-list) | 1 | 1 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 21 | 18 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 22 | 18 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 21 | 13 | Generated |
@@ -65,7 +65,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [X-Shim](#-x-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
-| [Kondratjev](#-kondratjev-bundle-patch-list) | 22 | 11 | Generated |
+| [Kondratjev](#-kondratjev-bundle-patch-list) | 23 | 12 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 73 | 50 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 87 | 7 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 115 | 4 | Generated |
@@ -184,7 +184,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Hoomans-Morphe Bundle Patch List:
 [?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 21 patches, 18 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 22 patches, 18 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -198,6 +198,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Gold``` | ```Unlocks Cronometer Gold without a subscription, like custom charts, advanced reports, the fasting tracker, custom biometrics, an ad-free view, and more. Anything Cronometer works out on its own servers still needs Gold.``` | ```Cronometer``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Essence's premium tools without a subscription, like the detailed statistics and insights, custom themes, app lock, data export, and more. They run on your device, so they work offline. The AI recovery coach and anything else Essence makes on its servers still needs the real subscription.``` | ```Essence``` | ```All versions``` |
 | ```Remove ads``` | ```Removes the ads in Flightradar24. The Gold map layers, flight history, and 3D view are produced on Flightradar24's servers and still need a subscription.``` | ```Flightradar24``` | ```All versions``` |
+| ```Unlock aircraft data``` | ```Shows the squawk code and vertical speed in the flight detail panel instead of the "Unlock feature" lock. Both values are already in the live feed the app receives, so this only stops hiding them. The Gold map layers, flight history, and 3D view come from Flightradar24's servers and still need a subscription.``` | ```Flightradar24``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks FolderSync's premium without the in-app purchase and removes the ads, so you get unlimited sync pairs and the advanced options.``` | ```FolderSync``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all of Liquid Gallery's Pro features without a purchase.``` | ```Liquid Gallery``` | ```All versions``` |
 | ```Remove ads``` | ```Removes the ads Moovit shows around the map and search and between screens.``` | ```Moovit``` | ```All versions``` |
@@ -2143,7 +2144,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kondratjev Bundle Patch List:
 [📦 Kondratjev-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kondratjev-patches-bundle-morphe)
 <details>
-<summary><b>Kondratjev</b> - 22 patches, 11 apps</summary>
+<summary><b>Kondratjev</b> - 23 patches, 12 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2152,6 +2153,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Lifesum``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Lyfta``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Medisafe``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks part of Ornament Pro features.``` | ```Ornament``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium features.``` | ```Parcels``` | ```All versions``` |
 | ```Disable Pulse tracking``` | ```Disables PulseSDK analytics sending events to events.pillo.care.``` | ```Pillo``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium features and removes ads.``` | ```Pillo``` | ```All versions``` |

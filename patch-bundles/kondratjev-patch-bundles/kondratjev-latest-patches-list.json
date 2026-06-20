@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0-dev.1",
+    "version": "v1.13.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -420,6 +420,33 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all premium features.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#6750A4",
+                    "description": null,
+                    "name": "Ornament",
+                    "packageName": "com.ornament.monitor",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.15.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Unlocks part of Ornament Pro features.",
             "name": "Unlock Premium",
             "options": []
         },
