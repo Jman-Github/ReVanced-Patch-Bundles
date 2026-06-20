@@ -1,55 +1,6 @@
 {
-    "version": "v1.4.0-dev.2",
+    "version": "v1.4.0-dev.3",
     "patches": [
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#00AAFF",
-                    "description": null,
-                    "name": "Avito",
-                    "packageName": "com.avito.android",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "227.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "226.5"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "225.5"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "224.6"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": null
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.",
-            "name": "Avito privacy",
-            "options": []
-        },
         {
             "compatiblePackages": [
                 {
@@ -205,6 +156,55 @@
             "dependencies": [],
             "description": "Disables Sentry telemetry by turning off SDK auto-init and clearing the DSN.",
             "name": "Disable Sentry telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00AAFF",
+                    "description": null,
+                    "name": "Avito",
+                    "packageName": "com.avito.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "227.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "226.5"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "225.5"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "224.6"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.",
+            "name": "Disable telemetry",
             "options": []
         },
         {

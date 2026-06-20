@@ -67,7 +67,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 22 | 11 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 73 | 50 | Generated |
-| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 86 | 7 | Generated |
+| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 87 | 7 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 115 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
@@ -2363,7 +2363,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle-morphe)
 <details>
-<summary><b>AmpleReVanced</b> - 86 patches, 7 apps</summary>
+<summary><b>AmpleReVanced</b> - 87 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2389,6 +2389,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide mini gallery cover image``` | ```Adds a setting to hide the mini gallery cover image above post lists.``` | ```dcinside``` | ```All versions``` |
 | ```Register settings activity``` | ```Registers the Morphe settings activity in the app manifest.``` | ```dcinside``` | ```All versions``` |
 | ```Render big DCCon as normal size``` | ```Adds a setting to render big DCCon at normal DCCon size.``` | ```dcinside``` | ```All versions``` |
+| ```Restore old post icons``` | ```Adds a setting to restore DCInside 4.7.x post list and read footer icons.``` | ```dcinside``` | ```All versions``` |
 | ```Spoof Signature``` | ```Spoofs the app signature to bypass integrity checks.``` | ```dcinside``` | ```All versions``` |
 | ```Unlock Premium features``` | ```Enables app features locked behind the subscription paywall.``` | ```Flexcil``` | ```All versions``` |
 | ```Add Packet Handler``` | ```Adding the Loco Packet Handler allows external applications to handle the app's packets, which may compromise security. Conflicts may occur on some systems.``` | ```Kakao Talk``` | ```All versions``` |
@@ -3501,8 +3502,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Avito privacy``` | ```Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.``` | ```Avito``` | ```All versions``` |
 | ```Block listings``` | ```Hides Avito offers from blacklisted adverts or sellers and adds a blacklist manager (import/export compatible with the Ave Blacklist extension).``` | ```Avito``` | ```All versions``` |
+| ```Disable telemetry``` | ```Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.``` | ```Avito``` | ```All versions``` |
 | ```Disable update prompts``` | ```Prevents Avito's force-update screen opener from launching update screens. Toggleable in Настройки Morphe.``` | ```Avito``` | ```All versions``` |
 | ```Hide Avi bottom tab``` | ```Removes the Avi assistant button from Avito's bottom navigation bar. Toggleable in Настройки Morphe (needs an app restart to apply).``` | ```Avito``` | ```All versions``` |
 | ```Morphe settings``` | ```Adds a "Настройки Morphe" entry to Avito's settings that hosts the configuration for the other Morphe patches.``` | ```Avito``` | ```All versions``` |
