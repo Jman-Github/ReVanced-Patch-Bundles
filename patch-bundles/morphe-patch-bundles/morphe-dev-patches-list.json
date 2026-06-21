@@ -1,5 +1,5 @@
 {
-    "version": "v1.32.0-dev.4",
+    "version": "v1.32.0-dev.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -462,6 +462,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -1241,6 +1242,12 @@
                             "description": null,
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.24.0"
                         },
                         {
@@ -1248,12 +1255,6 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "2026.23.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.22.0"
                         },
                         {
                             "description": null,
@@ -1750,6 +1751,7 @@
             "default": true,
             "dependencies": [
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to disable server side layout updates and use an older UI.",
@@ -1772,6 +1774,12 @@
                             "description": null,
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.24.0"
                         },
                         {
@@ -1779,12 +1787,6 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "2026.23.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.22.0"
                         },
                         {
                             "description": null,
@@ -1803,9 +1805,10 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds an option to disable the modern home UI.",
+            "description": "Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.",
             "name": "Disable modern home",
             "options": []
         },
@@ -2095,6 +2098,12 @@
                             "description": null,
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.24.0"
                         },
                         {
@@ -2102,12 +2111,6 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "2026.23.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.22.0"
                         },
                         {
                             "description": null,
@@ -3194,6 +3197,12 @@
                             "description": null,
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.24.0"
                         },
                         {
@@ -3201,12 +3210,6 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "2026.23.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.22.0"
                         },
                         {
                             "description": null,
@@ -3318,6 +3321,12 @@
                             "description": null,
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.24.0"
                         },
                         {
@@ -3325,12 +3334,6 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "2026.23.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.22.0"
                         },
                         {
                             "description": null,
@@ -3905,6 +3908,12 @@
                             "description": null,
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.24.0"
                         },
                         {
@@ -3912,12 +3921,6 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "2026.23.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.22.0"
                         },
                         {
                             "description": null,
@@ -3936,6 +3939,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds options to hide buttons in the navigation bar.",
@@ -4100,6 +4104,12 @@
                             "description": null,
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.24.0"
                         },
                         {
@@ -4107,12 +4117,6 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "2026.23.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.22.0"
                         },
                         {
                             "description": null,
@@ -4154,6 +4158,12 @@
                             "description": null,
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.24.0"
                         },
                         {
@@ -4161,12 +4171,6 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "2026.23.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.22.0"
                         },
                         {
                             "description": null,
@@ -4435,6 +4439,12 @@
                             "description": null,
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.24.0"
                         },
                         {
@@ -4442,12 +4452,6 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "2026.23.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.22.0"
                         },
                         {
                             "description": null,
@@ -4555,6 +4559,12 @@
                             "description": null,
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.24.0"
                         },
                         {
@@ -4562,12 +4572,6 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "2026.23.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.22.0"
                         },
                         {
                             "description": null,
@@ -4653,6 +4657,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -5149,6 +5154,12 @@
                             "description": null,
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.24.0"
                         },
                         {
@@ -5156,12 +5167,6 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "2026.23.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.22.0"
                         },
                         {
                             "description": null,
@@ -5203,6 +5208,12 @@
                             "description": null,
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.24.0"
                         },
                         {
@@ -5210,12 +5221,6 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "2026.23.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.22.0"
                         },
                         {
                             "description": null,
@@ -6009,6 +6014,12 @@
                             "description": null,
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.24.0"
                         },
                         {
@@ -6016,12 +6027,6 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "2026.23.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.22.0"
                         },
                         {
                             "description": null,
@@ -6178,6 +6183,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds an option to show the dislike count of videos with Return YouTube Dislike.",
@@ -6261,6 +6267,12 @@
                             "description": null,
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.24.0"
                         },
                         {
@@ -6268,12 +6280,6 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "2026.23.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.22.0"
                         },
                         {
                             "description": null,
@@ -6593,6 +6599,12 @@
                             "description": null,
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.24.0"
                         },
                         {
@@ -6600,12 +6612,6 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "2026.23.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.22.0"
                         },
                         {
                             "description": null,
@@ -6856,6 +6862,12 @@
                             "description": null,
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.24.0"
                         },
                         {
@@ -6863,12 +6875,6 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "2026.23.0"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.22.0"
                         },
                         {
                             "description": null,

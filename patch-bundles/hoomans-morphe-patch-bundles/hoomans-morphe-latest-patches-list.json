@@ -1,6 +1,31 @@
 {
-    "version": "v1.22.0",
+    "version": "v1.23.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#9147FF",
+                    "description": null,
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "29.9.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Claims the channel points bonus chest for you automatically. Whenever Twitch makes a bonus available, the claim fires on its own so you don't have to tap the chest.",
+            "name": "Auto claim channel points",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -159,6 +184,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#9147FF",
+                    "description": null,
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "29.9.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Keeps deleted or moderated chat messages readable instead of replacing them with \"<message deleted>\". The message turns into a tappable spoiler: tap it to reveal the original text. Normally only moderators can do this; the patch grants that access to everyone.",
+            "name": "Show deleted messages",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#327CB5",
                     "description": null,
                     "name": "Flightradar24",
@@ -284,7 +334,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Unlocks the Moovit+ extras without paying, like the extra sort and time-of-travel options and compare-on-map. Things Moovit runs on its servers, like transit ticketing, still need the real subscription. Pair this with Remove ads for the ad-free part of Moovit+.",
+            "description": "Unlocks the Moovit+ extras without paying, like the extra sort and time-of-travel options and compare-on-map, and stops the upgrade-to-Moovit+ popups that nag you on app open. Things Moovit runs on its servers, like transit ticketing, still need the real subscription. Pair this with Remove ads for the ad-free part of Moovit+.",
             "name": "Unlock Moovit+",
             "options": []
         },

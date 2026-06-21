@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.8",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -11,6 +11,12 @@
                     "packageName": "com.avito.android",
                     "signatures": null,
                     "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "227.0"
+                        },
                         {
                             "description": null,
                             "isExperimental": false,
@@ -38,10 +44,13 @@
                     ]
                 }
             ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.",
-            "name": "Avito privacy",
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Hides Avito offers from blacklisted adverts or sellers and adds a blacklist manager (import/export compatible with the Ave Blacklist extension).",
+            "name": "Block listings",
             "options": []
         },
         {
@@ -163,6 +172,12 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "227.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "226.5"
                         },
                         {
@@ -188,7 +203,58 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Prevents Avito's force-update screen opener from launching update screens.",
+            "description": "Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.",
+            "name": "Disable telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00AAFF",
+                    "description": null,
+                    "name": "Avito",
+                    "packageName": "com.avito.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "227.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "226.5"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "225.5"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "224.6"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Prevents Avito's force-update screen opener from launching update screens. Toggleable in Настройки Morphe.",
             "name": "Disable update prompts",
             "options": []
         },
@@ -202,6 +268,12 @@
                     "packageName": "com.avito.android",
                     "signatures": null,
                     "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "227.0"
+                        },
                         {
                             "description": null,
                             "isExperimental": false,
@@ -230,9 +302,11 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
-            "description": "Removes the Avi assistant button from Avito's bottom navigation bar.",
-            "name": "Hide Avi bottom tab",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Adds a \"Настройки Morphe\" entry to Avito's settings that hosts the configuration for the other Morphe patches.",
+            "name": "Morphe settings",
             "options": []
         },
         {
@@ -245,6 +319,12 @@
                     "packageName": "com.avito.android",
                     "signatures": null,
                     "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "227.0"
+                        },
                         {
                             "description": null,
                             "isExperimental": false,
@@ -290,6 +370,12 @@
                     "packageName": "ru.ozon.app.android",
                     "signatures": null,
                     "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "19.22.0"
+                        },
                         {
                             "description": null,
                             "isExperimental": false,
@@ -376,6 +462,12 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": 26,
+                            "version": "7.6.8001"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
                             "version": "7.6.1000-rustore"
                         },
                         {
@@ -439,6 +531,57 @@
             "dependencies": [],
             "description": "Spoofs VPN state through common Android network APIs.",
             "name": "Spoof VPN status",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00AAFF",
+                    "description": null,
+                    "name": "Avito",
+                    "packageName": "com.avito.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "227.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "226.5"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "225.5"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "224.6"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the \"Подписки\" tab in Избранное, hide installments (Рассрочка) and the \"Спросите у продавца\" block on offers, and hide the Avi assistant tab in the bottom navigation.",
+            "name": "UI tweaks",
             "options": []
         }
     ]
