@@ -1,5 +1,5 @@
 {
-    "version": "v2.7.0-dev.3",
+    "version": "v2.7.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -461,9 +461,28 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).",
+            "description": "Choose the suggested content to hide using the patch options.",
             "name": "Hide suggested content",
-            "options": []
+            "options": [
+                {
+                    "default": true,
+                    "description": "Hides suggested reels from feed and reels tab.",
+                    "key": "hideSuggestedReels",
+                    "required": false,
+                    "title": "Hide suggested reels",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides suggested stories/users from story tray.",
+                    "key": "hideSuggestedStories",
+                    "required": false,
+                    "title": "Hide suggested stories",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
