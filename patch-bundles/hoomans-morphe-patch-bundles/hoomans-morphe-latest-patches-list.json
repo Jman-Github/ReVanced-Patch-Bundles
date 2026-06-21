@@ -1,5 +1,5 @@
 {
-    "version": "v1.23.0",
+    "version": "v1.24.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -469,6 +469,33 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#EE3D1F",
+                    "description": null,
+                    "name": "Money Manager",
+                    "packageName": "com.realbyteapps.moneymanagerfree",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.11.1 GF"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Money Manager's premium and removes the ads: passcode lock, more accounts, custom categories and themes, repeat transactions, advanced stats, and local backup all open. PC/web sync and cloud backup stay tied to the server (it issues an expiry the app checks online), so those keep needing a real subscription.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#00A99D",
                     "description": null,
                     "name": "Teach Me Anatomy",
@@ -652,6 +679,33 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Tracked's premium training tools without a subscription, like muscle analytics and training programs. They run on the workout data already on your device, so they keep working offline. The separate human-coaching marketplace still needs its own subscription.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F75940",
+                    "description": null,
+                    "name": "Wanderlog",
+                    "packageName": "com.wanderlog.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.208"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Lifts Wanderlog's free-tier caps without a subscription: unlimited places per trip, the in-app feature gates unlocked, and no more upgrade nags. Your trips already sync on any tier, so this surfaces them rather than faking data. Features that run on Wanderlog's own servers still need the real subscription and may not work with this alone, including the AI Trip Assistant (the query cap is lifted on-device, but the assistant itself is server-run), offline guide downloads, and live flight-price tracking.",
             "name": "Unlock Pro",
             "options": []
         },

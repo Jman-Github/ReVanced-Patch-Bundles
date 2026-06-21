@@ -50,7 +50,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [TS-Patches](#-ts-patches-bundle-patch-list) | 1 | 1 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 27 | 20 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 29 | 22 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 21 | 13 | Generated |
@@ -225,7 +225,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Hoomans-Morphe Bundle Patch List:
 [?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 27 patches, 20 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 29 patches, 22 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -244,6 +244,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium``` | ```Unlocks FolderSync's premium without the in-app purchase and removes the ads, so you get unlimited sync pairs and the advanced options.``` | ```FolderSync``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks InShot's Pro features without a subscription: no export watermark, no ads, and the paid filters, effects, transitions, stickers and HD export open. The on-device AI tools (background remover, AI retouch, auto captions) verify the original signing key in native code, so those may not run on a re-signed build; the rest of Pro works offline.``` | ```InShot``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all of Liquid Gallery's Pro features without a purchase.``` | ```Liquid Gallery``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Money Manager's premium and removes the ads: passcode lock, more accounts, custom categories and themes, repeat transactions, advanced stats, and local backup all open. PC/web sync and cloud backup stay tied to the server (it issues an expiry the app checks online), so those keep needing a real subscription.``` | ```Money Manager``` | ```All versions``` |
 | ```Remove ads``` | ```Removes the ads Moovit shows around the map and search and between screens.``` | ```Moovit``` | ```All versions``` |
 | ```Unlock Moovit+``` | ```Unlocks the Moovit+ extras without paying, like the extra sort and time-of-travel options and compare-on-map, and stops the upgrade-to-Moovit+ popups that nag you on app open. Things Moovit runs on its servers, like transit ticketing, still need the real subscription. Pair this with Remove ads for the ad-free part of Moovit+.``` | ```Moovit``` | ```All versions``` |
 | ```Use your own Maps API key [REQUIRED]``` | ```Required for the map to load. Patching breaks Moovit's built-in Google Maps key, so you have to supply your own from a free Google Cloud project. In this patch's option, create a project, enable Maps SDK for Android, turn on billing, make an API key, and paste it in (leaving it unrestricted is easiest). Remove ads and Unlock Moovit+ both pull this in, so the map keeps working with either.``` | ```Moovit``` | ```All versions``` |
@@ -255,6 +256,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Block live ads``` | ```Removes the ads baked into live streams. It works through a free third-party proxy, so live streams need that proxy to be up; if it ever goes down, turn this patch off. VOD ads aren't covered.``` | ```Twitch``` | ```All versions``` |
 | ```Hide display ads``` | ```Hides the banner, overlay, and in-feed display ads Twitch shows around the app. This doesn't touch the video ads in the stream itself.``` | ```Twitch``` | ```All versions``` |
 | ```Show deleted messages``` | ```Keeps deleted or moderated chat messages readable instead of replacing them with "<message deleted>". The message turns into a tappable spoiler: tap it to reveal the original text. Normally only moderators can do this; the patch grants that access to everyone.``` | ```Twitch``` | ```All versions``` |
+| ```Unlock Pro``` | ```Lifts Wanderlog's free-tier caps without a subscription: unlimited places per trip, the in-app feature gates unlocked, and no more upgrade nags. Your trips already sync on any tier, so this surfaces them rather than faking data. Features that run on Wanderlog's own servers still need the real subscription and may not work with this alone, including the AI Trip Assistant (the query cap is lifted on-device, but the assistant itself is server-run), offline guide downloads, and live flight-price tracking.``` | ```Wanderlog``` | ```All versions``` |
 | ```Remove ads``` | ```Removes the ads WEBTOON shows while reading and browsing: the in-viewer top and end ads, the home feed ads, and the title-page banner. Locked episodes (Fast Pass, Daily Pass, coin-unlocked) are served by WEBTOON's servers and still need coins or a wait, so this does not unlock them.``` | ```WEBTOON``` | ```All versions``` |
 
 </details>
