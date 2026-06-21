@@ -529,6 +529,16 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "perplexity-stt-stable": {
+        "patches": "https://api.github.com/repos/dalapenko/perplexity-stt-android-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "browzomje-stable": {
+        "patches": "https://api.github.com/repos/browzomje/browzomje-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -1054,6 +1064,16 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
+    "perplexity-stt-dev": {
+        "patches": "https://api.github.com/repos/dalapenko/perplexity-stt-android-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "browzomje-dev": {
+        "patches": "https://api.github.com/repos/browzomje/browzomje-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
     "piko-latest": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -1576,6 +1596,16 @@
     },
     "ts-patches-latest": {
         "patches": "https://api.github.com/repos/osirisad/ts-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "perplexity-stt-latest": {
+        "patches": "https://api.github.com/repos/dalapenko/perplexity-stt-android-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "browzomje-latest": {
+        "patches": "https://api.github.com/repos/browzomje/browzomje-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

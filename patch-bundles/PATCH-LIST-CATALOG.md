@@ -43,6 +43,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [Perplexity-STT](#-perplexity-stt-bundle-patch-list) | 1 | 1 | Generated |
+| [Browzomje](#-browzomje-bundle-patch-list) | 1 | 1 | Generated |
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
 | [TS-Patches](#-ts-patches-bundle-patch-list) | 1 | 1 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
@@ -119,6 +121,30 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [AyushTNM](#-ayushtnm-bundle-patch-list) | 3 | 1 | Generated |
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
+
+---
+### 🧩 Perplexity-STT Bundle Patch List:
+[📦 Perplexity-STT-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-perplexity-stt-patches-bundle-morphe)
+<details>
+<summary><b>Perplexity-STT</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Force Native Speech-to-Text``` | ```Forces Perplexity to use the native Google Speech-to-Text engine instead of the Soniox engine.``` | ```Perplexity``` | ```2.90.0``` |
+
+</details>
+
+---
+### 🧩 Browzomje Bundle Patch List:
+[📦 Browzomje-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-browzomje-patches-bundle-morphe)
+<details>
+<summary><b>Browzomje</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Pinterest sponsored ad removed``` | ```Inhibiting sponsored pin detection.``` | ```Pinterest``` | ```14.23.0``` |
+
+</details>
 
 ---
 ### 🧩 Morphe-Portal Bundle Patch List:

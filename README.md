@@ -1344,6 +1344,32 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 ---
 ---
+### 📦 Perplexity-STT-Patches-Bundle [Morphe]:
+[🧩 Perplexity-STT Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-perplexity-stt-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/perplexity-stt-patch-bundles/perplexity-stt-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/perplexity-stt-patch-bundles/perplexity-stt-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/perplexity-stt-patch-bundles/perplexity-stt-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Browzomje-Patches-Bundle [Morphe]:
+[🧩 Browzomje Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-browzomje-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/browzomje-patch-bundles/browzomje-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/browzomje-patch-bundles/browzomje-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/browzomje-patch-bundles/browzomje-dev-patches-bundle.json```
+</details>
+
+---
 ### 📦 Morphe-Portal-Patches-Bundle [Morphe]:
 [🧩 Morphe-Portal Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-morphe-portal-bundle-patch-list)
 <details>
@@ -1625,6 +1651,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Realme-Link-Patches-Bundle](https://github.com/lyyako/realme-link-patches)
 
 #### 🏷️ [HK-Morphe-Patches-Bundle](https://github.com/humzakh/HK-Morphe-Patches)
+#### 🏷️ [Perplexity-STT-Patches-Bundle](https://github.com/dalapenko/perplexity-stt-android-patches)
+
+#### 🏷️ [Browzomje-Patches-Bundle](https://github.com/browzomje/browzomje-patches)
+
 #### 🏷️ [Morphe-Portal-Patches-Bundle](https://github.com/andronedev/morphe-portal-patch)
 
 #### 🏷️ [TS-Patches-Patches-Bundle](https://github.com/osirisad/ts-patches)
