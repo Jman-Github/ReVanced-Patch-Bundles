@@ -1973,7 +1973,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Hide Reels save button``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Hide reshare button``` | ```Hides the reshare button from both posts and reels.``` | ```Instagram``` | ```All versions``` |
 | ```Hide Stories from Home``` | ```Hides Stories from the main page, by removing the buttons.``` | ```Instagram``` | ```All versions``` |
-| ```Hide suggested content``` | ```Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).``` | ```Instagram``` | ```All versions``` |
+| ```Hide suggested content``` | ```Choose the suggested content to hide using the patch options.``` | ```Instagram``` | ```All versions``` |
 | ```Hide Threads profile button``` | ```Hides the Threads button from the profile page action bar (top right of the profile page).``` | ```Instagram``` | ```All versions``` |
 | ```Limit feed to following profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```Instagram``` | ```All versions``` |
 | ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```Instagram``` | ```All versions``` |
