@@ -1,5 +1,5 @@
 {
-    "version": "v2.6.3",
+    "version": "v2.7.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -45,8 +45,56 @@
                     ]
                 }
             ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Changes the package name and the app name. This allows you to install the patched app alongside the original Instagram app.\nCaution: Do not select the official Morphe's \"Change package name\" universal patch.",
+            "name": "Clone",
+            "options": [
+                {
+                    "default": "com.instagram.android.brosssh",
+                    "description": "A new package name for the patched app.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "Instagram Distraction Free",
+                    "description": "A new app name (label). Entering \"Instagram\" will skip changing the app name.",
+                    "key": "appName",
+                    "required": true,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "430.0.0.53.80"
+                        }
+                    ]
+                }
+            ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.",
             "name": "Disable Reels scrolling",
             "options": []
@@ -411,12 +459,30 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).",
+            "description": "Choose the suggested content to hide using the patch options.",
             "name": "Hide suggested content",
-            "options": []
+            "options": [
+                {
+                    "default": true,
+                    "description": "Hides suggested reels from feed and reels tab.",
+                    "key": "hideSuggestedReels",
+                    "required": false,
+                    "title": "Hide suggested reels",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides suggested stories/users from story tray.",
+                    "key": "hideSuggestedStories",
+                    "required": false,
+                    "title": "Hide suggested stories",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
