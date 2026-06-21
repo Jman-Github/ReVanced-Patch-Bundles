@@ -1,1 +1,17 @@
-{"version":"1.0.0","patches":[{"name":"Force Native Speech-to-Text","description":"Forces Perplexity to use the native Google Speech-to-Text engine instead of the Soniox engine.","default":true,"dependencies":[],"compatiblePackages":[{"packageName":"ai.perplexity.app.android","name":"Perplexity","description":null,"apkFileType":"APK","appIconColor":"#000000","signatures":null,"targets":[{"version":"2.90.0","isExperimental":false,"minSdk":null,"description":null}],"versions":["2.90.0"]}],"options":[]}]}
+{
+    "version": "1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "ai.perplexity.app.android": [
+                    "2.90.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Forces the application to use the native Google Speech-to-Text engine instead of the third-party Soniox engine by disabling the Soniox realtime configuration.",
+            "name": "Force Native Speech-to-Text",
+            "options": [],
+            "use": true
+        }
+    ]
+}

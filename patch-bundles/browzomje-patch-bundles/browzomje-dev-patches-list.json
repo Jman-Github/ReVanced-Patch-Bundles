@@ -1,1 +1,30 @@
-{"version":"v1.0.0-dev.1","patches":[{"name":"Pinterest sponsored ad removed","description":"Inhibiting sponsored pin detection.","default":true,"dependencies":[],"compatiblePackages":[{"packageName":"com.pinterest","name":"Pinterest","description":null,"apkFileType":"APK","appIconColor":"#E60023","signatures":null,"targets":[{"version":"14.23.0","isExperimental":false,"minSdk":null,"description":null}],"versions":["14.23.0"]}],"options":[]}]}
+{
+    "version": "v1.0.0-dev.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "description": null,
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "14.23.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Inhibiting sponsored pin detection (AdCheckUtils).",
+            "name": "Pinterest sponsored ad removed",
+            "options": []
+        }
+    ]
+}
