@@ -49,10 +49,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [TS-Patches](#-ts-patches-bundle-patch-list) | 1 | 1 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 19 | 16 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 22 | 19 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
-| [Lain](#-lain-bundle-patch-list) | 19 | 11 | Generated |
+| [Lain](#-lain-bundle-patch-list) | 21 | 13 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 122 | 2 | Generated |
@@ -63,13 +63,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
 | [Chiggi](#-chiggi-bundle-patch-list) | 26 | 4 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 1 | 1 | Generated |
-| [EE-Morphe](#-ee-morphe-bundle-patch-list) | 10 | 4 | Generated |
+| [EE-Morphe](#-ee-morphe-bundle-patch-list) | 11 | 5 | Generated |
 | [X-Shim](#-x-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
-| [Kondratjev](#-kondratjev-bundle-patch-list) | 22 | 11 | Generated |
+| [Kondratjev](#-kondratjev-bundle-patch-list) | 23 | 12 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 73 | 50 | Generated |
-| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 86 | 7 | Generated |
+| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 87 | 7 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 115 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
@@ -77,7 +77,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Almewty](#-almewty-bundle-patch-list) | 3 | 2 | Generated |
 | [Anddea-Morphed](#-anddea-morphed-bundle-patch-list) | 133 | 6 | Generated |
 | [RookieEnough](#-rookieenough-bundle-patch-list) | 84 | 35 | Generated |
-| [Adobo](#-adobo-bundle-patch-list) | 37 | 5 | Generated |
+| [Adobo](#-adobo-bundle-patch-list) | 38 | 5 | Generated |
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 2 | 1 | Generated |
@@ -97,13 +97,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [PawiX25](#-pawix25-bundle-patch-list) | 17 | 10 | Generated |
 | [Ameenalasady](#-ameenalasady-bundle-patch-list) | 1 | 1 | Generated |
 | [Lynx6319](#-lynx6319-bundle-patch-list) | 1 | 1 | Generated |
-| [Xob0t](#-xob0t-bundle-patch-list) | 21 | 5 | Generated |
+| [Xob0t](#-xob0t-bundle-patch-list) | 23 | 5 | Generated |
 | [Bannerhub](#-bannerhub-bundle-patch-list) | 60 | 2 | Generated |
 | [Eksi](#-eksi-bundle-patch-list) | 1 | 1 | Generated |
 | [Ameen-Morphe](#-ameen-morphe-bundle-patch-list) | 2 | 2 | Generated |
 | [Kolaron](#-kolaron-bundle-patch-list) | 1 | 1 | Generated |
 | [ImmortalZeus](#-immortalzeus-bundle-patch-list) | 2 | 2 | Generated |
-| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 10 | 9 | Generated |
+| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 12 | 9 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 15 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
 | [Rushiranpise](#-rushiranpise-bundle-patch-list) | 40 | 30 | Generated |
@@ -210,7 +210,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Hoomans-Morphe Bundle Patch List:
 [?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 19 patches, 16 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 22 patches, 19 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -223,6 +223,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium``` | ```Unlocks Collectr's premium features without a subscription, like unlimited collections, price alerts, and the advanced analytics. This is the arm64 build. Anything Collectr serves from its own servers still needs the real subscription.``` | ```Collectr``` | ```All versions``` |
 | ```Unlock Gold``` | ```Unlocks Cronometer Gold without a subscription, like custom charts, advanced reports, the fasting tracker, custom biometrics, an ad-free view, and more. Anything Cronometer works out on its own servers still needs Gold.``` | ```Cronometer``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Essence's premium tools without a subscription, like the detailed statistics and insights, custom themes, app lock, data export, and more. They run on your device, so they work offline. The AI recovery coach and anything else Essence makes on its servers still needs the real subscription.``` | ```Essence``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks FolderSync's premium without the in-app purchase and removes the ads, so you get unlimited sync pairs and the advanced options.``` | ```FolderSync``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks InShot's Pro features without a subscription: no export watermark, no ads, and the paid filters, effects, transitions, stickers and HD export open. The on-device AI tools (background remover, AI retouch, auto captions) verify the original signing key in native code, so those may not run on a re-signed build; the rest of Pro works offline.``` | ```InShot``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all of Liquid Gallery's Pro features without a purchase.``` | ```Liquid Gallery``` | ```All versions``` |
 | ```Remove ads``` | ```Removes the ads Moovit shows around the map and search and between screens.``` | ```Moovit``` | ```All versions``` |
 | ```Unlock Moovit+``` | ```Unlocks the Moovit+ extras without paying, like the extra sort and time-of-travel options and compare-on-map. Things Moovit runs on its servers, like transit ticketing, still need the real subscription. Pair this with Remove ads for the ad-free part of Moovit+.``` | ```Moovit``` | ```All versions``` |
@@ -233,6 +235,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Pro``` | ```Unlocks Tracked's premium training tools without a subscription, like muscle analytics and training programs. They run on the workout data already on your device, so they keep working offline. The separate human-coaching marketplace still needs its own subscription.``` | ```Tracked``` | ```All versions``` |
 | ```Block live ads``` | ```Removes the ads baked into live streams. It works through a free third-party proxy, so live streams need that proxy to be up; if it ever goes down, turn this patch off. VOD ads aren't covered.``` | ```Twitch``` | ```All versions``` |
 | ```Hide display ads``` | ```Hides the banner, overlay, and in-feed display ads Twitch shows around the app. This doesn't touch the video ads in the stream itself.``` | ```Twitch``` | ```All versions``` |
+| ```Remove ads``` | ```Removes the ads WEBTOON shows while reading and browsing: the in-viewer top and end ads, the home feed ads, and the title-page banner. Locked episodes (Fast Pass, Daily Pass, coin-unlocked) are served by WEBTOON's servers and still need coins or a wait, so this does not unlock them.``` | ```WEBTOON``` | ```All versions``` |
 
 </details>
 
@@ -735,11 +738,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Lain Bundle Patch List:
 [📦 Lain-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lain-patches-bundle-morphe)
 <details>
-<summary><b>Lain</b> - 19 patches, 11 apps</summary>
+<summary><b>Lain</b> - 21 patches, 13 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable Ads``` | ```Disable banner, splash, and rewarded ads.``` | ```Android Proxy Server``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlock premium features.``` | ```AudioRelay``` | ```All versions``` |
 | ```Enable Raw Capture``` | ```Force enable DNG raw capture option.``` | ```Camera FV-5 Lite``` | ```All versions``` |
 | ```Fix Video Recording Intent``` | ```Fix opening Cinema FV-5 Lite from video recording menu.``` | ```Camera FV-5 Lite``` | ```All versions``` |
 | ```Higher Image Resolution``` | ```Unlock higher image resolutions that the device support.``` | ```Camera FV-5 Lite``` | ```All versions``` |
@@ -752,6 +756,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Disable Ads``` | ```Disable banner & splash ads.``` | ```Nekopoi``` | ```All versions``` |
 | ```Disable Anti-Tamper Detection``` | ```Disable Anti-Tamper detection that force quit the app.``` | ```Nekopoi``` | ```All versions``` |
 | ```Enable Certificate Pinning``` | ```Allow app network traffic to be inspected.``` | ```Nekopoi``` | ```All versions``` |
+| ```Enable Premium``` | ```Disable trial time counter.``` | ```Paletta``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock 'Remove Ads' premium feature.``` | ```PixelLab``` | ```All versions``` |
 | ```Disable Ads``` | ```Disable banner ads.``` | ```Timestamp Camera Enterprise Free, Timestamp Camera Free``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
@@ -2092,12 +2097,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 EE-Morphe Bundle Patch List:
 [📦 EE-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ee-morphe-patches-bundle-morphe)
 <details>
-<summary><b>EE-Morphe</b> - 10 patches, 4 apps</summary>
+<summary><b>EE-Morphe</b> - 11 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Online Pro``` | ```Experimental companion patch that keeps byAir's online Pro gates open without forcing the crash-prone global entitlement refresh path.``` | ```byAir``` | ```All versions``` |
 | ```Enable Pro``` | ```Suppresses the main byAir paywall, unlock banners, and local user gating without forcing the shared entitlement path globally.``` | ```byAir``` | ```All versions``` |
+| ```Enable Pro``` | ```Returns a synthetic active Financeguru Plus purchase from the React Native billing bridge.``` | ```Financeguru``` | ```All versions``` |
 | ```Enable Pro``` | ```Forces HypnoBox subscription entitlement checks to always pass.``` | ```HypnoBox``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Clone app``` | ```Renames the app and manifest package so it can be installed alongside another copy. By default this appends " B" to the launcher name and appends "B" to the package's main segment.``` | ```Universal``` | ```All versions``` |
@@ -2165,7 +2171,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kondratjev Bundle Patch List:
 [📦 Kondratjev-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kondratjev-patches-bundle-morphe)
 <details>
-<summary><b>Kondratjev</b> - 22 patches, 11 apps</summary>
+<summary><b>Kondratjev</b> - 23 patches, 12 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2174,6 +2180,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Lifesum``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Lyfta``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Medisafe``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks part of Ornament Pro features.``` | ```Ornament``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium features.``` | ```Parcels``` | ```All versions``` |
 | ```Disable Pulse tracking``` | ```Disables PulseSDK analytics sending events to events.pillo.care.``` | ```Pillo``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium features and removes ads.``` | ```Pillo``` | ```All versions``` |
@@ -2388,7 +2395,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle-morphe)
 <details>
-<summary><b>AmpleReVanced</b> - 86 patches, 7 apps</summary>
+<summary><b>AmpleReVanced</b> - 87 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2414,6 +2421,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide mini gallery cover image``` | ```Adds a setting to hide the mini gallery cover image above post lists.``` | ```dcinside``` | ```All versions``` |
 | ```Register settings activity``` | ```Registers the Morphe settings activity in the app manifest.``` | ```dcinside``` | ```All versions``` |
 | ```Render big DCCon as normal size``` | ```Adds a setting to render big DCCon at normal DCCon size.``` | ```dcinside``` | ```All versions``` |
+| ```Restore old post icons``` | ```Adds a setting to restore DCInside 4.7.x post list and read footer icons.``` | ```dcinside``` | ```All versions``` |
 | ```Spoof Signature``` | ```Spoofs the app signature to bypass integrity checks.``` | ```dcinside``` | ```All versions``` |
 | ```Unlock Premium features``` | ```Enables app features locked behind the subscription paywall.``` | ```Flexcil``` | ```All versions``` |
 | ```Add Packet Handler``` | ```Adding the Loco Packet Handler allows external applications to handle the app's packets, which may compromise security. Conflicts may occur on some systems.``` | ```Kakao Talk``` | ```All versions``` |
@@ -2468,7 +2476,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove shop tab``` | ```Removes the shop tab from the bottom navigation bar.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Remove Short-form Tab``` | ```Removes the Short-form tab from the now fragment.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Show chatroom channel ID``` | ```Shows the channel ID in chatroom settings and copies it when tapping the chat side title.``` | ```Kakao Talk``` | ```All versions``` |
-| ```Show deleted or hidden messages``` | ```Allows you to see deleted/hidden messages in chat logs.``` | ```Kakao Talk``` | ```All versions``` |
+| ```Show deleted, hidden, or edited messages``` | ```Allows you to see deleted, hidden, and edited message history in chat logs.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Spoof apk checksums``` | ```Spoofs the apk checksums to pass integrity checks.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Spoof App ID``` | ```Spoofs the App ID to bypass integrity checks. (to bypass biometric auth etc.)``` | ```Kakao Talk``` | ```All versions``` |
 | ```Spoof signature``` | ```Spoofs the app signature to pass integrity checks.``` | ```Kakao Talk``` | ```All versions``` |
@@ -2572,7 +2580,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app browser.``` | ```YouTube``` | ```All versions``` |
 | ```Open Shorts in regular player``` | ```Adds options to open Shorts in the regular video player.``` | ```YouTube``` | ```All versions``` |
 | ```Open system share sheet``` | ```Adds an option to always open the system share sheet instead of the in-app share sheet.``` | ```YouTube``` | ```All versions``` |
-| ```Open videos fullscreen``` | ```Adds an option to open videos in full screen portrait mode.``` | ```YouTube``` | ```All versions``` |
+| ```Open videos fullscreen``` | ```Adds options to automatically open videos in fullscreen portrait or landscape mode.``` | ```YouTube``` | ```All versions``` |
 | ```Override YouTube Music buttons``` | ```Overrides YouTube Music buttons to open Morphe Music or any compatible third-party client.``` | ```YouTube``` | ```All versions``` |
 | ```Play all``` | ```Adds an option to play all the videos from a channel and to display play all button in the video player.``` | ```YouTube``` | ```All versions``` |
 | ```Playback speed``` | ```Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.``` | ```YouTube``` | ```All versions``` |
@@ -3078,7 +3086,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Adobo Bundle Patch List:
 [📦 Adobo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-adobo-patches-bundle-morphe)
 <details>
-<summary><b>Adobo</b> - 37 patches, 5 apps</summary>
+<summary><b>Adobo</b> - 38 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3092,6 +3100,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Toggle feature flags``` | ```Toggles Gboard feature flags to enable or disable experimental or hidden features.``` | ```Gboard``` | ```All versions``` |
 | ```Remove IMDb's ads, trackers, and analytics``` | ```Removes ads, trackers, and analytics in the IMDb app.``` | ```IMDb``` | ```All versions``` |
 | ```Colorize comment indent lines``` | ```Replaces the default gray comment indent lines with color-coded lines.``` | ```Reddit``` | ```All versions``` |
+| ```Disable home feed auto-refresh``` | ```Disables the automatic refresh of the home feed after reading a post or after being away from the app.``` | ```Reddit``` | ```All versions``` |
 | ```Disable home feed swipe``` | ```Disables the horizontal page swipe gesture used to switch feeds.``` | ```Reddit``` | ```All versions``` |
 | ```Disable home screen redirect``` | ```Disables the automatic redirect to the home screen after being away from the app or returning from the background.``` | ```Reddit``` | ```All versions``` |
 | ```Disable post detail swipe``` | ```Disables the horizontal swipe gesture used to navigate between posts.``` | ```Reddit``` | ```All versions``` |
@@ -3100,7 +3109,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide awards``` | ```Hides the awards on Reddit posts and comments.``` | ```Reddit``` | ```All versions``` |
 | ```Hide community highlights``` | ```Hides the community highlights section.``` | ```Reddit``` | ```All versions``` |
 | ```Hide post view counts``` | ```Removes the "views" indicator from the post metadata.``` | ```Reddit``` | ```All versions``` |
-| ```Hide prominent search bar``` | ```Hides the new prominent search bar on the main screen.``` | ```Reddit``` | ```All versions``` |
+| ```Hide prominent search bar``` | ```Hides the new prominent search bar on the main screen. Applicable only to version 2026.24.0 and earlier.``` | ```Reddit``` | ```All versions``` |
 | ```Hide share count``` | ```Hides the share count on Reddit posts.``` | ```Reddit``` | ```All versions``` |
 | ```Hide upvote scores``` | ```Hides the scores on Reddit posts and comments.``` | ```Reddit``` | ```All versions``` |
 | ```Hide user community badges``` | ```Hides the user community badges on Reddit comments.``` | ```Reddit``` | ```All versions``` |
@@ -3522,14 +3531,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Xob0t Bundle Patch List:
 [📦 Xob0t-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-xob0t-patches-bundle-morphe)
 <details>
-<summary><b>Xob0t</b> - 21 patches, 5 apps</summary>
+<summary><b>Xob0t</b> - 23 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Avito privacy``` | ```Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.``` | ```Avito``` | ```All versions``` |
-| ```Disable update prompts``` | ```Prevents Avito's force-update screen opener from launching update screens.``` | ```Avito``` | ```All versions``` |
-| ```Hide Avi bottom tab``` | ```Removes the Avi assistant button from Avito's bottom navigation bar.``` | ```Avito``` | ```All versions``` |
+| ```Block listings``` | ```Hides Avito offers from blacklisted adverts or sellers and adds a blacklist manager (import/export compatible with the Ave Blacklist extension).``` | ```Avito``` | ```All versions``` |
+| ```Disable telemetry``` | ```Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.``` | ```Avito``` | ```All versions``` |
+| ```Disable update prompts``` | ```Prevents Avito's force-update screen opener from launching update screens. Toggleable in Настройки Morphe.``` | ```Avito``` | ```All versions``` |
+| ```Morphe settings``` | ```Adds a "Настройки Morphe" entry to Avito's settings that hosts the configuration for the other Morphe patches.``` | ```Avito``` | ```All versions``` |
 | ```Remove ads``` | ```Disables Avito ads by removing ad SDK entry points and short-circuiting commercial banner loading.``` | ```Avito``` | ```All versions``` |
+| ```UI tweaks``` | ```Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the "Подписки" tab in Избранное, hide installments (Рассрочка) and the "Спросите у продавца" block on offers, and hide the Avi assistant tab in the bottom navigation.``` | ```Avito``` | ```All versions``` |
 | ```Remove Ozon ads``` | ```Removes Ozon ad widgets, banner carousels, video ads, and PDP promo blocks.``` | ```Ozon``` | ```All versions``` |
 | ```Bypass anti-tamper``` | ```Stubs TBank's native RASP executor calls and neutralizes tamper flag reporting.``` | ```TBank``` | ```All versions``` |
 | ```Remove TBank ads``` | ```Removes TBank stories and promotional surfaces.``` | ```TBank``` | ```All versions``` |
@@ -3675,17 +3686,19 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Ajstrick81-AndroidTV Bundle Patch List:
 [📦 Ajstrick81-AndroidTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ajstrick81-androidtv-patches-bundle-morphe)
 <details>
-<summary><b>Ajstrick81-AndroidTV</b> - 10 patches, 9 apps</summary>
+<summary><b>Ajstrick81-AndroidTV</b> - 12 patches, 9 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Disable auto-updates``` | ```Prevents Google Play Store from automatically replacing the patched APK with the official unpatched version.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
+| ```Override certificate pinning``` | ```Allows HTTPS traffic inspection tools like AdGuard Premium to intercept app connections. Enables consistent pre-roll suppression when used alongside AdGuard Premium.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
-| ```Skip ads``` | ```Suppresses ad schedule and seeks past playing ads using the Player reference available in getStreamPositionUs.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
+| ```Skip ads``` | ```Multi-layer ad suppression targeting SSAI schedule, active ad playback, and impression reporting.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```MLB At Bat Android TV``` | ```Removes VOD ads and between-innings gambling ads while preserving live game playback.``` | ```com.bamnetworks.mobile.android.gameday.atbat``` | ```26.8.1.1``` |
 | ```Paramount+ Android TV``` | ```Removes VOD ads and pause ads while preserving live TV.``` | ```com.cbs.ott``` | ```16.12.0, 16.8.0``` |
 | ```Disney+ Android TV``` | ```Removes mid-roll / pre-roll ads and pause ads.``` | ```com.disney.disneyplus``` | ```26.6.0+rc5-2026.04.21, 26.8.0+rc6-2026.05.20, 26.9.2+rc1-2026.06.12``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox One Android TV: Google IMA/DAI for VOD, Yospace SSAI for live content.``` | ```com.fox.foxone``` | ```1.9.2``` |
-| ```Skip ads``` | ```Disables ad delivery via Sky SDK surgical targets (FreeWheel DI module skip, MediaTailor SSAI layers), OkHttp interceptor, and WebView shouldInterceptRequest wrapper. Validated v7.5.102.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102``` |
+| ```Skip ads``` | ```Disables ad delivery via Sky SDK surgical targets (FreeWheel DI module skip, MediaTailor SSAI layers, ad-break-started no-op), OkHttp interceptor, and WebView shouldInterceptRequest wrapper. Validated v7.5.102.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Tubi Android TV.``` | ```com.tubitv``` | ```10.20.5000``` |
 | ```Skip ads``` | ```Suppresses ViX ad delivery by disabling the FreeWheel ad provider at the config level and preventing the Innovid SSAI overlay from mounting.``` | ```com.univision.prendetv``` | ```4.46.0_tv``` |
 | ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.hbomax``` | ```7.2.0.41``` |

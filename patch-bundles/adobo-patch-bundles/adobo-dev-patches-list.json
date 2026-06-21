@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.9",
+    "version": "v1.3.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -134,8 +134,32 @@
                         {
                             "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
+                            "minSdk": 29,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.23.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -321,8 +345,85 @@
                         {
                             "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
+                            "minSdk": 29,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.23.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Disables the automatic refresh of the home feed after reading a post or after being away from the app.",
+            "name": "Disable home feed auto-refresh",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.23.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -350,8 +451,32 @@
                         {
                             "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
+                            "minSdk": 29,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.23.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -495,8 +620,32 @@
                         {
                             "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
+                            "minSdk": 29,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.23.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -524,8 +673,32 @@
                         {
                             "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
+                            "minSdk": 29,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.23.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -703,8 +876,32 @@
                         {
                             "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
+                            "minSdk": 29,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.23.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -732,8 +929,32 @@
                         {
                             "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
+                            "minSdk": 29,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.23.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -761,8 +982,32 @@
                         {
                             "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
+                            "minSdk": 29,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.23.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -790,8 +1035,32 @@
                         {
                             "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
+                            "minSdk": 29,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.23.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -819,8 +1088,32 @@
                         {
                             "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
+                            "minSdk": 29,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.23.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -829,7 +1122,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Hides the new prominent search bar on the main screen.",
+            "description": "Hides the new prominent search bar on the main screen. Applicable only to version 2026.24.0 and earlier.",
             "name": "Hide prominent search bar",
             "options": []
         },
@@ -848,8 +1141,32 @@
                         {
                             "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
+                            "minSdk": 29,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.23.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -877,8 +1194,32 @@
                         {
                             "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
+                            "minSdk": 29,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.23.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -925,8 +1266,32 @@
                         {
                             "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
+                            "minSdk": 29,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.23.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -954,8 +1319,32 @@
                         {
                             "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
+                            "minSdk": 29,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.23.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -983,8 +1372,32 @@
                         {
                             "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
+                            "minSdk": 29,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.23.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -1048,8 +1461,32 @@
                         {
                             "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
+                            "minSdk": 29,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.23.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -1114,8 +1551,32 @@
                         {
                             "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
+                            "minSdk": 29,
+                            "version": "2026.25.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.23.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.22.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }

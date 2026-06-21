@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.0-dev.3",
+    "version": "v1.13.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -233,7 +233,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "0.6.10"
+                            "version": "0.6.11"
                         }
                     ]
                 }
@@ -360,7 +360,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "20.6.1"
+                            "version": "20.7.0"
                         }
                     ]
                 }
@@ -427,6 +427,33 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#6750A4",
+                    "description": null,
+                    "name": "Ornament",
+                    "packageName": "com.ornament.monitor",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.15.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Unlocks part of Ornament Pro features.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#6B4EFF",
                     "description": null,
                     "name": "Parcels",
@@ -464,7 +491,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "0.6.10"
+                            "version": "0.6.11"
                         }
                     ]
                 }

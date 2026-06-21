@@ -1,6 +1,32 @@
 {
-    "version": "v1.4.87",
+    "version": "v1.4.93",
     "patches": [
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 1539022,
+                    "description": null,
+                    "name": "Prime Video Android TV",
+                    "packageName": "com.amazon.amazonvideo.livingroom",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "6.23.23+v15.5.0.70-armv7a"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.amazon.amazonvideo.livingroom": [
+                    "6.23.23+v15.5.0.70-armv7a"
+                ]
+            },
+            "dependencies": [],
+            "description": "Prevents Google Play Store from automatically replacing the patched APK with the official unpatched version.",
+            "name": "Disable auto-updates",
+            "options": [],
+            "use": true
+        },
         {
             "compatibility": [
                 {
@@ -86,6 +112,32 @@
             "dependencies": [],
             "description": "Removes VOD ads and between-innings gambling ads while preserving live game playback.",
             "name": "MLB At Bat Android TV",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 1539022,
+                    "description": null,
+                    "name": "Prime Video Android TV",
+                    "packageName": "com.amazon.amazonvideo.livingroom",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "6.23.23+v15.5.0.70-armv7a"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.amazon.amazonvideo.livingroom": [
+                    "6.23.23+v15.5.0.70-armv7a"
+                ]
+            },
+            "dependencies": [],
+            "description": "Allows HTTPS traffic inspection tools like AdGuard Premium to intercept app connections. Enables consistent pre-roll suppression when used alongside AdGuard Premium.",
+            "name": "Override certificate pinning",
             "options": [],
             "use": true
         },
@@ -193,7 +245,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Disables ad delivery via Sky SDK surgical targets (FreeWheel DI module skip, MediaTailor SSAI layers), OkHttp interceptor, and WebView shouldInterceptRequest wrapper. Validated v7.5.102.",
+            "description": "Disables ad delivery via Sky SDK surgical targets (FreeWheel DI module skip, MediaTailor SSAI layers, ad-break-started no-op), OkHttp interceptor, and WebView shouldInterceptRequest wrapper. Validated v7.5.102.",
             "name": "Skip ads",
             "options": [],
             "use": true
@@ -221,7 +273,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Suppresses ad schedule and seeks past playing ads using the Player reference available in getStreamPositionUs.",
+            "description": "Multi-layer ad suppression targeting SSAI schedule, active ad playback, and impression reporting.",
             "name": "Skip ads",
             "options": [],
             "use": true

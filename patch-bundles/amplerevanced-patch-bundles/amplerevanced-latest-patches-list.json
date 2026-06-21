@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.5",
+    "version": "v1.2.0-dev.7",
     "patches": [
         {
             "compatiblePackages": [
@@ -2103,6 +2103,35 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#3D4491",
+                    "description": null,
+                    "name": "dcinside",
+                    "packageName": "com.dcinside.app.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.2.15"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds a setting to restore DCInside 4.7.x post list and read footer icons.",
+            "name": "Restore old post icons",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FEE500",
                     "description": null,
@@ -2152,10 +2181,11 @@
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
-            "description": "Allows you to see deleted/hidden messages in chat logs.",
-            "name": "Show deleted or hidden messages",
+            "description": "Allows you to see deleted, hidden, and edited message history in chat logs.",
+            "name": "Show deleted, hidden, or edited messages",
             "options": [
                 {
                     "default": "0xFFFF4444",

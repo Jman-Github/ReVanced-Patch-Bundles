@@ -1,60 +1,29 @@
 {
-    "version": "v1.3.0-dev.1",
+    "version": "v1.19.0",
     "patches": [
         {
             "compatiblePackages": [
                 {
                     "apkFileType": null,
-                    "appIconColor": "#6750A4",
+                    "appIconColor": "#9147FF",
                     "description": null,
-                    "name": "Liquid Gallery",
-                    "packageName": "com.soepic.photogallery.release",
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
                     "signatures": null,
                     "targets": [
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "2.0.14"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "2.1.11"
+                            "version": "29.9.1"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the PairIP Google Play license check that returns NOT_LICENSED on a sideloaded (patched) install and shuts the app down (\"Local install check failed due to wrong installer\"). Required alongside Unlock Pro for the patched app to launch.",
-            "name": "Disable License Check",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#00A99D",
-                    "description": null,
-                    "name": "Teach Me Anatomy",
-                    "packageName": "com.atomengineapps.teachmeanatomy",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.115"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the PairIP Google Play license check that otherwise shows a paywall and kills the app on any sideloaded (patched) install. Required for the patched app to launch at all.",
-            "name": "Disable License Check",
+            "description": "Removes the ads baked into live streams. It works through a free third-party proxy, so live streams need that proxy to be up; if it ever goes down, turn this patch off. VOD ads aren't covered.",
+            "name": "Block live ads",
             "options": []
         },
         {
@@ -78,8 +47,137 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks the premium features (uninstall protection, focus mode, custom blocklists, daily/weekly time limits, block-on-restart, block recent-apps screen, etc.) without a subscription or Google login.",
+            "description": "Unlocks BlockerHero's premium features without a subscription or Google sign-in, like uninstall protection, focus mode, custom blocklists, daily and weekly time limits, and more.",
             "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#9147FF",
+                    "description": null,
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "29.9.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the banner, overlay, and in-feed display ads Twitch shows around the app. This doesn't touch the video ads in the stream itself.",
+            "name": "Hide display ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#327CB5",
+                    "description": null,
+                    "name": "Flightradar24",
+                    "packageName": "com.flightradar24free",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.6.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the ads in Flightradar24. The Gold map layers, flight history, and 3D view are produced on Flightradar24's servers and still need a subscription.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF6400",
+                    "description": null,
+                    "name": "Moovit",
+                    "packageName": "com.tranzmate",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.194.0.1785"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Removes the ads Moovit shows around the map and search and between screens.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#327CB5",
+                    "description": null,
+                    "name": "Flightradar24",
+                    "packageName": "com.flightradar24free",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.6.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Shows the squawk code and vertical speed in the flight detail panel instead of the \"Unlock feature\" lock. Both values are already in the live feed the app receives, so this only stops hiding them. The Gold map layers, flight history, and 3D view come from Flightradar24's servers and still need a subscription.",
+            "name": "Unlock aircraft data",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F88828",
+                    "description": null,
+                    "name": "AGAMA Car Launcher",
+                    "packageName": "altergames.carlauncher",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.0.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks the paid full version of AGAMA Car Launcher, so the pro widgets, theme editor, and the other locked extras open up without buying it.",
+            "name": "Unlock Full Version",
             "options": []
         },
         {
@@ -103,8 +201,62 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks Cronometer Gold (custom charts, advanced reports, fasting tracker, custom biometrics, diary timestamps & groups, ad-free, and the other Gold gates) without a subscription, by forcing the app's local Gold override on. Gold features run on your own on-device diary data, so they work offline; anything genuinely served from Cronometer's servers still needs a real account.",
+            "description": "Unlocks Cronometer Gold without a subscription, like custom charts, advanced reports, the fasting tracker, custom biometrics, an ad-free view, and more. Anything Cronometer works out on its own servers still needs Gold.",
             "name": "Unlock Gold",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F02010",
+                    "description": null,
+                    "name": "BandLab",
+                    "packageName": "com.bandlab.bandlab",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.25.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks the BandLab Membership tools that run inside the app without a subscription, like the extra effects and instruments, more tracks, pitch tools, the voice changer, mastering, and more. Anything BandLab makes on its servers, like the stem Splitter, AI video, and distribution, still needs a real membership.",
+            "name": "Unlock Membership",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF6400",
+                    "description": null,
+                    "name": "Moovit",
+                    "packageName": "com.tranzmate",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.194.0.1785"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks the Moovit+ extras without paying, like the extra sort and time-of-travel options and compare-on-map. Things Moovit runs on its servers, like transit ticketing, still need the real subscription. Pair this with Remove ads for the ad-free part of Moovit+.",
+            "name": "Unlock Moovit+",
             "options": []
         },
         {
@@ -128,8 +280,110 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes ads and unlocks the locally-gated Quizlet Plus features by forcing the account's upgrade type to Plus. Plus status and ad display are decided on-device from a cached flag, so this works without a subscription. Server-side Plus features (AI \"Magic Notes\"/generation and other cloud/metered tools) are validated and produced on Quizlet's servers and stay locked.",
+            "description": "Removes ads and unlocks the on-device Quizlet Plus features without a subscription. The AI tools, like Magic Notes and generation, run on Quizlet's servers and stay locked.",
             "name": "Unlock Plus",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#0091FF",
+                    "description": null,
+                    "name": "Alpha Progression",
+                    "packageName": "com.alphaprogression.alphaprogression",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "6.8.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Alpha Progression's premium training tools without a subscription, like the training-plan generator, charts, exercise evaluations, the warmup calculator, and more. They run on the workout data already on your device, so they keep working offline.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "AT4K Launcher",
+                    "packageName": "com.overdevs.at4k",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "0.99"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks AT4K Launcher's premium features without paying, like more apps per row and the premium wallpaper options. It all runs on the device, so nothing stays locked.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#00204B",
+                    "description": null,
+                    "name": "Collectr",
+                    "packageName": "com.collectrinc.collectr",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.5.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Collectr's premium features without a subscription, like unlimited collections, price alerts, and the advanced analytics. This is the arm64 build. Anything Collectr serves from its own servers still needs the real subscription.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#406FB8",
+                    "description": null,
+                    "name": "FolderSync",
+                    "packageName": "dk.tacit.android.foldersync.lite",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.9.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks FolderSync's premium without the in-app purchase and removes the ads, so you get unlimited sync pairs and the advanced options.",
+            "name": "Unlock Premium",
             "options": []
         },
         {
@@ -152,9 +406,63 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Unlocks Pro — removes the upgrade banners and ads, and unlocks the gated reference articles, quizzes and flashcards — without a subscription. Pro is a local flag so already-synced content works offline; genuinely server-side features still require a real account.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Teach Me Anatomy's premium features without a subscription, dropping the upgrade banners and ads and opening up the locked articles, quizzes, and flashcards. Content served from the server still needs a real account.",
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#B30B00",
+                    "description": null,
+                    "name": "Adobe Acrobat",
+                    "packageName": "com.adobe.reader",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.5.0.45958"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the Acrobat Pro tools that work on your device, like editing text and images and rearranging pages, without paying. The parts Adobe runs on its servers, such as Export to Office, Create PDF, and cloud storage, still need a real subscription.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#005030",
+                    "description": null,
+                    "name": "Essence",
+                    "packageName": "com.appfactory.essence",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.2.8"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Essence's premium tools without a subscription, like the detailed statistics and insights, custom themes, app lock, data export, and more. They run on your device, so they work offline. The AI recovery coach and anything else Essence makes on its servers still needs the real subscription.",
+            "name": "Unlock Pro",
             "options": []
         },
         {
@@ -183,10 +491,100 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Unlocks Liquid Gallery Pro (all premium features) without a purchase. Pro is a single local SharedPreferences flag with no server-side gate, so forcing it on unlocks everything the app gates locally.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks all of Liquid Gallery's Pro features without a purchase.",
             "name": "Unlock Pro",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F82888",
+                    "description": null,
+                    "name": "Photo Editor Polish",
+                    "packageName": "photo.editor.photoeditor.photoeditorpro",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.763.262"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "RawResourcePatch"
+            ],
+            "description": "Unlocks the Pro features in Photo Editor Polish without a subscription and drops the ads and upgrade prompts. The AI tools and cloud assets, which the developer runs on its servers, stay locked.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#3FD080",
+                    "description": null,
+                    "name": "Tracked",
+                    "packageName": "com.tracked.mobile",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.0.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Tracked's premium training tools without a subscription, like muscle analytics and training programs. They run on the workout data already on your device, so they keep working offline. The separate human-coaching marketplace still needs its own subscription.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF6400",
+                    "description": null,
+                    "name": "Moovit",
+                    "packageName": "com.tranzmate",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.194.0.1785"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Required for the map to load. Patching breaks Moovit's built-in Google Maps key, so you have to supply your own from a free Google Cloud project. In this patch's option, create a project, enable Maps SDK for Android, turn on billing, make an API key, and paste it in (leaving it unrestricted is easiest). Remove ads and Unlock Moovit+ both pull this in, so the map keeps working with either.",
+            "name": "Use your own Maps API key [REQUIRED]",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Your own Google Maps Android API key (free). In the Google Cloud Console: create a project, enable \"Maps SDK for Android\", and turn on billing for the project (Maps needs a billing account, but normal use stays inside the free monthly credit). Then under Credentials create an API key and paste it here. Easiest is to leave the key unrestricted. If you do restrict it, set Application restrictions to Android apps and add package com.tranzmate with the SHA-1 of the certificate your patched build is signed with (read it from the patched APK). A blank map means the key is empty, restricted to a different cert, or its project is missing \"Maps SDK for Android\" or billing.",
+                    "key": "mapsApiKey",
+                    "required": true,
+                    "title": "Google Maps API key",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         }
     ]
 }

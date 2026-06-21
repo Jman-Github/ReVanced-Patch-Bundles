@@ -1,5 +1,5 @@
 {
-    "version": "v1.16.0",
+    "version": "v1.21.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -100,6 +100,31 @@
                 "ResourcePatch"
             ],
             "description": "Removes the ads Moovit shows around the map and search and between screens.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#00DC64",
+                    "description": null,
+                    "name": "WEBTOON",
+                    "packageName": "com.naver.linewebtoon",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.9.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the ads WEBTOON shows while reading and browsing: the in-viewer top and end ads, the home feed ads, and the title-page banner. Locked episodes (Fast Pass, Daily Pass, coin-unlocked) are served by WEBTOON's servers and still need coins or a wait, so this does not unlock them.",
             "name": "Remove ads",
             "options": []
         },
@@ -315,6 +340,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#406FB8",
+                    "description": null,
+                    "name": "FolderSync",
+                    "packageName": "dk.tacit.android.foldersync.lite",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.9.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks FolderSync's premium without the in-app purchase and removes the ads, so you get unlimited sync pairs and the advanced options.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#00A99D",
                     "description": null,
                     "name": "Teach Me Anatomy",
@@ -387,6 +437,31 @@
                 "BytecodePatch"
             ],
             "description": "Unlocks Essence's premium tools without a subscription, like the detailed statistics and insights, custom themes, app lock, data export, and more. They run on your device, so they work offline. The AI recovery coach and anything else Essence makes on its servers still needs the real subscription.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF2558",
+                    "description": null,
+                    "name": "InShot",
+                    "packageName": "com.camerasideas.instashot",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.214.1539"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks InShot's Pro features without a subscription: no export watermark, no ads, and the paid filters, effects, transitions, stickers and HD export open. The on-device AI tools (background remover, AI retouch, auto captions) verify the original signing key in native code, so those may not run on a re-signed build; the rest of Pro works offline.",
             "name": "Unlock Pro",
             "options": []
         },
