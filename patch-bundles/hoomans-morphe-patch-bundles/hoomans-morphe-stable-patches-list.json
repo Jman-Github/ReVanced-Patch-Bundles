@@ -1,5 +1,5 @@
 {
-    "version": "v1.20.0",
+    "version": "v1.21.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -100,6 +100,31 @@
                 "ResourcePatch"
             ],
             "description": "Removes the ads Moovit shows around the map and search and between screens.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#00DC64",
+                    "description": null,
+                    "name": "WEBTOON",
+                    "packageName": "com.naver.linewebtoon",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.9.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the ads WEBTOON shows while reading and browsing: the in-viewer top and end ads, the home feed ads, and the title-page banner. Locked episodes (Fast Pass, Daily Pass, coin-unlocked) are served by WEBTOON's servers and still need coins or a wait, so this does not unlock them.",
             "name": "Remove ads",
             "options": []
         },
