@@ -1,0 +1,89 @@
+{
+  "version": "v6.2.1",
+  "patches": [
+    {
+      "name": "Voice Over Translation Bytecode Hooks",
+      "description": "Hooks YouTube video time, speed, status, and player controls overlay buttons.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.google.android.youtube",
+          "name": "YouTube",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#FF0000",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "20.40.45",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ],
+          "versions": [
+            "20.40.45"
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "VOT Original Audio Volume Hook",
+      "description": "Hooks AudioTrack.setVolume to dim original audio when voice-over translation is playing.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.google.android.youtube",
+          "name": "YouTube",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#FF0000",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "20.40.45",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ],
+          "versions": [
+            "20.40.45"
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Yandex Voice Over Translation",
+      "description": "Adds Yandex Voice Over Translation to YouTube.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.google.android.youtube",
+          "name": "YouTube",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#FF0000",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "20.40.45",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ],
+          "versions": [
+            "20.40.45"
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
+}

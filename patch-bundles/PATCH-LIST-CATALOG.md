@@ -43,6 +43,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [YT-YA-Voiceover](#-yt-ya-voiceover-bundle-patch-list) | 3 | 1 | Generated |
 | [Perplexity-STT](#-perplexity-stt-bundle-patch-list) | 1 | 1 | Generated |
 | [Browzomje](#-browzomje-bundle-patch-list) | 1 | 1 | Generated |
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
@@ -121,6 +122,20 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [AyushTNM](#-ayushtnm-bundle-patch-list) | 3 | 1 | Generated |
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
+
+---
+### 🧩 YT-YA-Voiceover Bundle Patch List:
+[📦 YT-YA-Voiceover-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-yt-ya-voiceover-patches-bundle-morphe)
+<details>
+<summary><b>YT-YA-Voiceover</b> - 3 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Voice Over Translation Bytecode Hooks``` | ```Hooks YouTube video time, speed, status, and player controls overlay buttons.``` | ```YouTube``` | ```20.40.45``` |
+| ```VOT Original Audio Volume Hook``` | ```Hooks AudioTrack.setVolume to dim original audio when voice-over translation is playing.``` | ```YouTube``` | ```20.40.45``` |
+| ```Yandex Voice Over Translation``` | ```Adds Yandex Voice Over Translation to YouTube.``` | ```YouTube``` | ```20.40.45``` |
+
+</details>
 
 ---
 ### 🧩 Perplexity-STT Bundle Patch List:
