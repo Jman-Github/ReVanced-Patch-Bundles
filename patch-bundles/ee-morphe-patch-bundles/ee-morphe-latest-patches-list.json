@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.1",
+    "version": "v1.3.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -202,8 +202,8 @@
                     "apkFileType": null,
                     "appIconColor": "#00C29A",
                     "description": null,
-                    "name": "Finanzguru",
-                    "packageName": "de.dwins.finanzguru",
+                    "name": "Financeguru",
+                    "packageName": "de.dwins.financeguru",
                     "signatures": null,
                     "targets": [
                         {
@@ -219,7 +219,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Returns a synthetic active Finanzguru Plus purchase from the React Native billing bridge.",
+            "description": "Returns a synthetic active Financeguru Plus purchase from the React Native billing bridge.",
             "name": "Enable Pro",
             "options": []
         },

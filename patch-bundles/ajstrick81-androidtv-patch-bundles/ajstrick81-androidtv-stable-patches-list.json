@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.89",
+    "version": "v1.4.92",
     "patches": [
         {
             "compatibility": [
@@ -245,7 +245,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Disables ad delivery via Sky SDK surgical targets (FreeWheel DI module skip, MediaTailor SSAI layers), OkHttp interceptor, and WebView shouldInterceptRequest wrapper. Validated v7.5.102.",
+            "description": "Disables ad delivery via Sky SDK surgical targets (FreeWheel DI module skip, MediaTailor SSAI layers, ad-break-started no-op), OkHttp interceptor, and WebView shouldInterceptRequest wrapper. Validated v7.5.102.",
             "name": "Skip ads",
             "options": [],
             "use": true
