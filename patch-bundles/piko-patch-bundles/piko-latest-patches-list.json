@@ -1,5 +1,5 @@
 {
-    "version": "v3.6.0",
+    "version": "v3.7.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -74,7 +74,8 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Adds settings to control preferences are patching",
             "name": "Add settings",
