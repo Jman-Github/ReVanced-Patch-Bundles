@@ -1,1 +1,31 @@
-{"version":"v1.0.0","patches":[{"name":"Remove Ads","description":"Removes ads from Venabox Hub.","default":true,"dependencies":[],"compatiblePackages":[{"packageName":"com.dubani.dub","name":"Venabox Hub","description":null,"apkFileType":"APK","appIconColor":"#1A237E","signatures":null,"targets":[{"version":null,"isExperimental":false,"minSdk":null,"description":null}],"versions":["All versions"]}],"options":[]}]}
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A237E",
+                    "description": null,
+                    "name": "Venabox Hub",
+                    "packageName": "com.dubani.dub",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null,
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes ads from Venabox Hub.",
+            "name": "Remove Ads",
+            "options": []
+        }
+    ]
+}

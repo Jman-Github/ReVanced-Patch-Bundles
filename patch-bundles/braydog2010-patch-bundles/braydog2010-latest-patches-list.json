@@ -1,1 +1,57 @@
-{"version":"v1.0.0","patches":[{"name":"Remove Ads","description":"Removes ads from Venabox Hub.","default":true,"dependencies":[],"compatiblePackages":[{"packageName":"com.dubani.dub","name":"Venabox Hub","description":null,"apkFileType":"APK","appIconColor":"#1A237E","signatures":null,"targets":[{"version":null,"isExperimental":false,"minSdk":null,"description":null}],"versions":["All versions"]}],"options":[]}]}
+{
+    "version": "v1.1.0-dev.2",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A237E",
+                    "description": null,
+                    "name": "Venabox Hub",
+                    "packageName": "com.dubani.dub",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null,
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks analytics and tracking. The app routes every event through the util.n1 dispatcher, which forwards each one to both Firebase Analytics and Facebook (AppEventsLogger). This neutralizes that dispatcher so no tracking event is ever sent.",
+            "name": "Block trackers",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A237E",
+                    "description": null,
+                    "name": "Venabox Hub",
+                    "packageName": "com.dubani.dub",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null,
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium. Forces the app's account/entitlement checks to report an active subscription so locked content and premium-only features become available, and removes ads. Note: media that the server streams and authorizes per-account may still depend on the backend honouring the account.",
+            "name": "Premium",
+            "options": []
+        }
+    ]
+}

@@ -1,1 +1,31 @@
-{"version":"v1.0.1","patches":[{"name":"Disable ads","description":"Removes ads by forcing TeamSnap+ Tier 1 subscription status.","default":true,"dependencies":[],"compatiblePackages":[{"packageName":"com.teamsnap.teamsnap","name":"TeamSnap","description":null,"apkFileType":"APK","appIconColor":"#1D4E89","signatures":null,"targets":[{"version":"7.63.0","isExperimental":false,"minSdk":null,"description":null}],"versions":["7.63.0"]}],"options":[]}]}
+{
+    "version": "v1.0.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "TeamSnap",
+                    "packageName": "com.teamsnap.teamsnap",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.63.0",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes ads by forcing TeamSnap+ Tier 1 subscription status.",
+            "name": "Disable ads",
+            "options": []
+        }
+    ]
+}

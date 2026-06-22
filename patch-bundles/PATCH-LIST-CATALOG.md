@@ -43,7 +43,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
-| [BrayDog2010](#-braydog2010-bundle-patch-list) | 1 | 1 | Generated |
+| [BrayDog2010](#-braydog2010-bundle-patch-list) | 2 | 1 | Generated |
 | [TS2](#-ts2-bundle-patch-list) | 1 | 1 | Generated |
 | [Samsung-Morphe](#-samsung-morphe-bundle-patch-list) | 2 | 1 | Generated |
 | [YT-YA-Voiceover](#-yt-ya-voiceover-bundle-patch-list) | 3 | 1 | Generated |
@@ -130,11 +130,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 BrayDog2010 Bundle Patch List:
 [📦 BrayDog2010-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-braydog2010-patches-bundle-morphe)
 <details>
-<summary><b>BrayDog2010</b> - 1 patch, 1 app</summary>
+<summary><b>BrayDog2010</b> - 2 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Remove Ads``` | ```Removes ads from Venabox Hub.``` | ```Venabox Hub``` | ```All versions``` |
+| ```Block trackers``` | ```Blocks analytics and tracking. The app routes every event through the util.n1 dispatcher, which forwards each one to both Firebase Analytics and Facebook (AppEventsLogger). This neutralizes that dispatcher so no tracking event is ever sent.``` | ```Venabox Hub``` | ```All versions``` |
+| ```Premium``` | ```Unlocks premium. Forces the app's account/entitlement checks to report an active subscription so locked content and premium-only features become available, and removes ads. Note: media that the server streams and authorizes per-account may still depend on the backend honouring the account.``` | ```Venabox Hub``` | ```All versions``` |
 
 </details>
 
@@ -146,7 +147,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable ads``` | ```Removes ads by forcing TeamSnap+ Tier 1 subscription status.``` | ```TeamSnap``` | ```7.63.0``` |
+| ```Disable ads``` | ```Removes ads by forcing TeamSnap+ Tier 1 subscription status.``` | ```TeamSnap``` | ```All versions``` |
 
 </details>
 
