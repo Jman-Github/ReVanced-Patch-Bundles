@@ -1,5 +1,5 @@
 {
-    "version": "v1.25.0",
+    "version": "v1.26.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -80,6 +80,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#001935",
+                    "description": null,
+                    "name": "Tumblr",
+                    "packageName": "com.tumblr",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "45.0.0.109"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Turns on the cosmetic Tumblr Premium look: the premium badge and the premium settings entry. This only changes how the app looks on your device. It does not buy or unlock anything on Tumblr's side, so ad-free, the badge on your blog, and anything the server checks still need a real subscription. Use \"Remove ads\" for an actually ad-free feed.",
+            "name": "Enable premium UI",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#9147FF",
                     "description": null,
                     "name": "Twitch",
@@ -152,6 +177,31 @@
                 "ResourcePatch"
             ],
             "description": "Removes the ads Moovit shows around the map and search and between screens.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#001935",
+                    "description": null,
+                    "name": "Tumblr",
+                    "packageName": "com.tumblr",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "45.0.0.109"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the ads in Tumblr: the dashboard ads from the ad networks and the Blaze posts (the paid-promoted posts other people pay to inject into the feed). It leaves your own following feed and reblogs untouched. Premium content like ad-free badges and TumblrMart items are sold by Tumblr's servers and still need a purchase.",
             "name": "Remove ads",
             "options": []
         },

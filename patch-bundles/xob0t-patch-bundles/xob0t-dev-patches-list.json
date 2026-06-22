@@ -1,6 +1,55 @@
 {
-    "version": "v1.5.0-dev.2",
+    "version": "v1.5.0-dev.3",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00AAFF",
+                    "description": null,
+                    "name": "Avito",
+                    "packageName": "com.avito.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "227.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "226.5"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "225.5"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "224.6"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Makes the dark theme fully pure-black (AMOLED): backgrounds and surfaces/cards/bars become #000000. Dark mode only; borders, dividers and branded fills are kept for readability.",
+            "name": "AMOLED dark theme",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
