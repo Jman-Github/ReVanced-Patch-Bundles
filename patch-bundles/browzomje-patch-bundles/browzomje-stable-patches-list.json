@@ -22,8 +22,60 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Restituisce un Google Advertising ID vuoto e forza 'limit ad tracking', azzerando il tracciamento pubblicitario senza rompere l'app.",
+            "name": "Pinterest privacy: neutralize advertising ID",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "description": null,
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "14.23.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Inhibiting sponsored pin detection (AdCheckUtils).",
             "name": "Pinterest sponsored ad removed",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "description": null,
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "14.23.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Aggiunge al menu del pin l'opzione \"Imposta come sfondo\" che scarica/usa l'immagine e la imposta come sfondo del dispositivo.",
+            "name": "Pinterest: set pin as wallpaper",
             "options": []
         }
     ]

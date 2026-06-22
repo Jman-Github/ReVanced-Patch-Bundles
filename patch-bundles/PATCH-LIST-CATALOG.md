@@ -45,7 +45,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | --- | ---: | ---: | --- |
 | [YT-YA-Voiceover](#-yt-ya-voiceover-bundle-patch-list) | 3 | 1 | Generated |
 | [Perplexity-STT](#-perplexity-stt-bundle-patch-list) | 1 | 1 | Generated |
-| [Browzomje](#-browzomje-bundle-patch-list) | 1 | 1 | Generated |
+| [Browzomje](#-browzomje-bundle-patch-list) | 3 | 1 | Generated |
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
 | [TS-Patches](#-ts-patches-bundle-patch-list) | 1 | 1 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
@@ -153,11 +153,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Browzomje Bundle Patch List:
 [📦 Browzomje-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-browzomje-patches-bundle-morphe)
 <details>
-<summary><b>Browzomje</b> - 1 patch, 1 app</summary>
+<summary><b>Browzomje</b> - 3 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Pinterest privacy: neutralize advertising ID``` | ```Restituisce un Google Advertising ID vuoto e forza 'limit ad tracking', azzerando il tracciamento pubblicitario senza rompere l'app.``` | ```Pinterest``` | ```All versions``` |
 | ```Pinterest sponsored ad removed``` | ```Inhibiting sponsored pin detection (AdCheckUtils).``` | ```Pinterest``` | ```All versions``` |
+| ```Pinterest: set pin as wallpaper``` | ```Aggiunge al menu del pin l'opzione "Imposta come sfondo" che scarica/usa l'immagine e la imposta come sfondo del dispositivo.``` | ```Pinterest``` | ```All versions``` |
 
 </details>
 
