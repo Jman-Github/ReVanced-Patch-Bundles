@@ -72,7 +72,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 23 | 12 | Generated |
-| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 73 | 50 | Generated |
+| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 72 | 50 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 87 | 7 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 115 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
@@ -135,7 +135,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Block trackers``` | ```Blocks analytics and tracking. The app routes every event through the util.n1 dispatcher, which forwards each one to both Firebase Analytics and Facebook (AppEventsLogger). This neutralizes that dispatcher so no tracking event is ever sent.``` | ```Venabox Hub``` | ```All versions``` |
-| ```Premium``` | ```Unlocks premium. Forces the app's account/entitlement checks to report an active subscription so locked content and premium-only features become available, and removes ads. Note: media that the server streams and authorizes per-account may still depend on the backend honouring the account.``` | ```Venabox Hub``` | ```All versions``` |
+| ```Premium``` | ```Unlocks premium. Makes the app's session helper report a valid, active subscription so locked content and premium-only features become available, and removes ads. Note: media that the server streams and authorizes per-account may still depend on the backend honouring the account.``` | ```Venabox Hub``` | ```All versions``` |
 
 </details>
 
@@ -2274,7 +2274,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Hoo-dles Bundle Patch List:
 [📦 Hoo-dles-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoo-dles-patches-bundle-morphe)
 <details>
-<summary><b>Hoo-dles</b> - 73 patches, 50 apps</summary>
+<summary><b>Hoo-dles</b> - 72 patches, 50 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2348,7 +2348,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```World Map Quiz``` | ```All versions``` |
 | ```Disable anti-tamper``` | ```Disables various anti-tamper checks that causes the app to force-close.``` | ```WPS Office``` | ```All versions``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall. Login is required and AI functionality is unavailable.``` | ```WPS Office``` | ```All versions``` |
-| ```Disable signature check``` | ```Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.``` | ```Xodo``` | ```All versions``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Xodo``` | ```All versions``` |
 | ```Enable Pro``` | ```N/A``` | ```XRecorder``` | ```All versions``` |
 
@@ -3772,7 +3771,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Skip ads``` | ```Disables ad delivery via Sky SDK surgical targets (FreeWheel DI module skip, MediaTailor SSAI layers, ad-break-started no-op), OkHttp interceptor, and WebView shouldInterceptRequest wrapper. Validated v7.5.102.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Tubi Android TV.``` | ```com.tubitv``` | ```10.20.5000``` |
 | ```Skip ads``` | ```Suppresses ViX ad delivery by disabling the FreeWheel ad provider at the config level and preventing the Innovid SSAI overlay from mounting.``` | ```com.univision.prendetv``` | ```4.46.0_tv``` |
-| ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.hbomax``` | ```7.2.0.41``` |
+| ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.hbomax``` | ```7.5.0.73, 7.2.0.41``` |
 
 </details>
 
