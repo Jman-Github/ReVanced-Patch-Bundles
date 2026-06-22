@@ -1344,6 +1344,32 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 ---
 ---
+### 📦 BrayDog2010-Patches-Bundle [Morphe]:
+[🧩 BrayDog2010 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-braydog2010-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/braydog2010-patch-bundles/braydog2010-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/braydog2010-patch-bundles/braydog2010-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/braydog2010-patch-bundles/braydog2010-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 TS2-Patches-Bundle [Morphe]:
+[🧩 TS2 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ts2-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ts2-patch-bundles/ts2-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ts2-patch-bundles/ts2-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ts2-patch-bundles/ts2-dev-patches-bundle.json```
+</details>
+
+---
 ### 📦 Samsung-Morphe-Patches-Bundle [Morphe]:
 [🧩 Samsung-Morphe Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-samsung-morphe-bundle-patch-list)
 <details>
@@ -1677,6 +1703,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Realme-Link-Patches-Bundle](https://github.com/lyyako/realme-link-patches)
 
 #### 🏷️ [HK-Morphe-Patches-Bundle](https://github.com/humzakh/HK-Morphe-Patches)
+#### 🏷️ [BrayDog2010-Patches-Bundle](https://github.com/BrayDog2010/morphe-patches)
+
+#### 🏷️ [TS2-Patches-Bundle](https://github.com/osirisad/teamSnap-patches)
+
 #### 🏷️ [Samsung-Morphe-Patches-Bundle](https://github.com/bigyank/morphe-patches-samsung)
 
 #### 🏷️ [YT-YA-Voiceover-Patches-Bundle](https://github.com/dalapenko/yt-ya.voiceover-android-patches)
