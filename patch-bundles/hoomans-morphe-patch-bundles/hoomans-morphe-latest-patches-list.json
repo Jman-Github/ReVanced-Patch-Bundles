@@ -1,5 +1,5 @@
 {
-    "version": "v1.23.0",
+    "version": "v1.26.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -47,7 +47,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the ads baked into live streams. It works through a free third-party proxy, so live streams need that proxy to be up; if it ever goes down, turn this patch off. VOD ads aren't covered.",
+            "description": "Routes live streams through a free third-party proxy that strips the ads baked into the stream, so the proxy has to be up for playback to work; turn this patch off if it goes down. Mid-stream ads get dropped reliably, but a single preroll can still slip through when you first open a channel and Twitch has flagged the shared proxy. VOD ads aren't covered.",
             "name": "Block live ads",
             "options": []
         },
@@ -74,6 +74,31 @@
             "dependencies": [],
             "description": "Unlocks BlockerHero's premium features without a subscription or Google sign-in, like uninstall protection, focus mode, custom blocklists, daily and weekly time limits, and more.",
             "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#001935",
+                    "description": null,
+                    "name": "Tumblr",
+                    "packageName": "com.tumblr",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "45.0.0.109"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Turns on the cosmetic Tumblr Premium look: the premium badge and the premium settings entry. This only changes how the app looks on your device. It does not buy or unlock anything on Tumblr's side, so ad-free, the badge on your blog, and anything the server checks still need a real subscription. Use \"Remove ads\" for an actually ad-free feed.",
+            "name": "Enable premium UI",
             "options": []
         },
         {
@@ -152,6 +177,31 @@
                 "ResourcePatch"
             ],
             "description": "Removes the ads Moovit shows around the map and search and between screens.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#001935",
+                    "description": null,
+                    "name": "Tumblr",
+                    "packageName": "com.tumblr",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "45.0.0.109"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the ads in Tumblr: the dashboard ads from the ad networks and the Blaze posts (the paid-promoted posts other people pay to inject into the feed). It leaves your own following feed and reblogs untouched. Premium content like ad-free badges and TumblrMart items are sold by Tumblr's servers and still need a purchase.",
             "name": "Remove ads",
             "options": []
         },
@@ -469,6 +519,58 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#EE3D1F",
+                    "description": null,
+                    "name": "Money Manager",
+                    "packageName": "com.realbyteapps.moneymanagerfree",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.11.1 GF"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Money Manager's premium and removes the ads: passcode lock, more accounts, custom categories and themes, repeat transactions, advanced stats, and local backup all open. PC/web sync and cloud backup stay tied to the server (it issues an expiry the app checks online), so those keep needing a real subscription.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#85C742",
+                    "description": null,
+                    "name": "Rumble",
+                    "packageName": "com.rumble.battles",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.14.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Turns on Rumble Premium without a subscription: removes the ad-supported playback, drops the premium upsell, and unlocks the premium-only videos. The premium flag is read from your account profile when you sign in, so it takes effect on a logged-in Rumble account.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#00A99D",
                     "description": null,
                     "name": "Teach Me Anatomy",
@@ -490,6 +592,31 @@
             ],
             "description": "Unlocks Teach Me Anatomy's premium features without a subscription, dropping the upgrade banners and ads and opening up the locked articles, quizzes, and flashcards. Content served from the server still needs a real account.",
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1B7080",
+                    "description": null,
+                    "name": "Battery Guru",
+                    "packageName": "com.paget96.batteryguru",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.4.8.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Battery Guru's PRO and removes the ads. PRO is decided on the device, so the deep sleep stats, charge history, themes, and the ad-free view all open up.",
+            "name": "Unlock PRO",
             "options": []
         },
         {
@@ -652,6 +779,33 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Tracked's premium training tools without a subscription, like muscle analytics and training programs. They run on the workout data already on your device, so they keep working offline. The separate human-coaching marketplace still needs its own subscription.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F75940",
+                    "description": null,
+                    "name": "Wanderlog",
+                    "packageName": "com.wanderlog.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.208"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Lifts Wanderlog's free-tier caps without a subscription: unlimited places per trip, the in-app feature gates unlocked, and no more upgrade nags. Your trips already sync on any tier, so this surfaces them rather than faking data. Features that run on Wanderlog's own servers still need the real subscription and may not work with this alone, including the AI Trip Assistant (the query cap is lifted on-device, but the assistant itself is server-run), offline guide downloads, and live flight-price tracking.",
             "name": "Unlock Pro",
             "options": []
         },

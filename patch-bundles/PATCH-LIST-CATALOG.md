@@ -46,12 +46,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Samsung-Morphe](#-samsung-morphe-bundle-patch-list) | 2 | 1 | Generated |
 | [YT-YA-Voiceover](#-yt-ya-voiceover-bundle-patch-list) | 3 | 1 | Generated |
 | [Perplexity-STT](#-perplexity-stt-bundle-patch-list) | 1 | 1 | Generated |
-| [Browzomje](#-browzomje-bundle-patch-list) | 1 | 1 | Generated |
+| [Browzomje](#-browzomje-bundle-patch-list) | 3 | 1 | Generated |
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
 | [TS-Patches](#-ts-patches-bundle-patch-list) | 1 | 1 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 27 | 20 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 33 | 25 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 21 | 13 | Generated |
@@ -83,7 +83,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 2 | 1 | Generated |
-| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 19 | 1 | Generated |
+| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 20 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
 | [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 55 | 20 | Generated |
 | [Binarymend](#-binarymend-bundle-patch-list) | 11 | 7 | Generated |
@@ -99,7 +99,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [PawiX25](#-pawix25-bundle-patch-list) | 17 | 10 | Generated |
 | [Ameenalasady](#-ameenalasady-bundle-patch-list) | 1 | 1 | Generated |
 | [Lynx6319](#-lynx6319-bundle-patch-list) | 1 | 1 | Generated |
-| [Xob0t](#-xob0t-bundle-patch-list) | 23 | 5 | Generated |
+| [Xob0t](#-xob0t-bundle-patch-list) | 24 | 5 | Generated |
 | [Bannerhub](#-bannerhub-bundle-patch-list) | 60 | 2 | Generated |
 | [Eksi](#-eksi-bundle-patch-list) | 1 | 1 | Generated |
 | [Ameen-Morphe](#-ameen-morphe-bundle-patch-list) | 2 | 2 | Generated |
@@ -167,11 +167,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Browzomje Bundle Patch List:
 [📦 Browzomje-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-browzomje-patches-bundle-morphe)
 <details>
-<summary><b>Browzomje</b> - 1 patch, 1 app</summary>
+<summary><b>Browzomje</b> - 3 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Pinterest sponsored ad removed``` | ```Inhibiting sponsored pin detection (AdCheckUtils).``` | ```Pinterest``` | ```All versions``` |
+| ```Disable ads``` | ```Removes sponsored pins.``` | ```Pinterest``` | ```All versions``` |
+| ```Neutralize advertising ID``` | ```Returns an empty Google Advertising ID and forces ‘limit ad tracking’, disabling ad tracking without causing the app to crash.``` | ```Pinterest``` | ```All versions``` |
+| ```Set pin as wallpaper``` | ```It adds the ‘Set as wallpaper’ option to the pin menu, which downloads uses the image and sets it as the device’s wallpaper.``` | ```Pinterest``` | ```All versions``` |
 
 </details>
 
@@ -239,7 +241,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Hoomans-Morphe Bundle Patch List:
 [?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 27 patches, 20 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 33 patches, 25 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -248,6 +250,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium``` | ```Unlocks Alpha Progression's premium training tools without a subscription, like the training-plan generator, charts, exercise evaluations, the warmup calculator, and more. They run on the workout data already on your device, so they keep working offline.``` | ```Alpha Progression``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks AT4K Launcher's premium features without paying, like more apps per row and the premium wallpaper options. It all runs on the device, so nothing stays locked.``` | ```AT4K Launcher``` | ```All versions``` |
 | ```Unlock Membership``` | ```Unlocks the BandLab Membership tools that run inside the app without a subscription, like the extra effects and instruments, more tracks, pitch tools, the voice changer, mastering, and more. Anything BandLab makes on its servers, like the stem Splitter, AI video, and distribution, still needs a real membership.``` | ```BandLab``` | ```All versions``` |
+| ```Unlock PRO``` | ```Unlocks Battery Guru's PRO and removes the ads. PRO is decided on the device, so the deep sleep stats, charge history, themes, and the ad-free view all open up.``` | ```Battery Guru``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks BlockerHero's premium features without a subscription or Google sign-in, like uninstall protection, focus mode, custom blocklists, daily and weekly time limits, and more.``` | ```BlockerHero``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Collectr's premium features without a subscription, like unlimited collections, price alerts, and the advanced analytics. This is the arm64 build. Anything Collectr serves from its own servers still needs the real subscription.``` | ```Collectr``` | ```All versions``` |
 | ```Unlock Gold``` | ```Unlocks Cronometer Gold without a subscription, like custom charts, advanced reports, the fasting tracker, custom biometrics, an ad-free view, and more. Anything Cronometer works out on its own servers still needs Gold.``` | ```Cronometer``` | ```All versions``` |
@@ -258,17 +261,22 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium``` | ```Unlocks FolderSync's premium without the in-app purchase and removes the ads, so you get unlimited sync pairs and the advanced options.``` | ```FolderSync``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks InShot's Pro features without a subscription: no export watermark, no ads, and the paid filters, effects, transitions, stickers and HD export open. The on-device AI tools (background remover, AI retouch, auto captions) verify the original signing key in native code, so those may not run on a re-signed build; the rest of Pro works offline.``` | ```InShot``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all of Liquid Gallery's Pro features without a purchase.``` | ```Liquid Gallery``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Money Manager's premium and removes the ads: passcode lock, more accounts, custom categories and themes, repeat transactions, advanced stats, and local backup all open. PC/web sync and cloud backup stay tied to the server (it issues an expiry the app checks online), so those keep needing a real subscription.``` | ```Money Manager``` | ```All versions``` |
 | ```Remove ads``` | ```Removes the ads Moovit shows around the map and search and between screens.``` | ```Moovit``` | ```All versions``` |
 | ```Unlock Moovit+``` | ```Unlocks the Moovit+ extras without paying, like the extra sort and time-of-travel options and compare-on-map, and stops the upgrade-to-Moovit+ popups that nag you on app open. Things Moovit runs on its servers, like transit ticketing, still need the real subscription. Pair this with Remove ads for the ad-free part of Moovit+.``` | ```Moovit``` | ```All versions``` |
 | ```Use your own Maps API key [REQUIRED]``` | ```Required for the map to load. Patching breaks Moovit's built-in Google Maps key, so you have to supply your own from a free Google Cloud project. In this patch's option, create a project, enable Maps SDK for Android, turn on billing, make an API key, and paste it in (leaving it unrestricted is easiest). Remove ads and Unlock Moovit+ both pull this in, so the map keeps working with either.``` | ```Moovit``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks the Pro features in Photo Editor Polish without a subscription and drops the ads and upgrade prompts. The AI tools and cloud assets, which the developer runs on its servers, stay locked.``` | ```Photo Editor Polish``` | ```All versions``` |
 | ```Unlock Plus``` | ```Removes ads and unlocks the on-device Quizlet Plus features without a subscription. The AI tools, like Magic Notes and generation, run on Quizlet's servers and stay locked.``` | ```Quizlet``` | ```All versions``` |
+| ```Unlock Premium``` | ```Turns on Rumble Premium without a subscription: removes the ad-supported playback, drops the premium upsell, and unlocks the premium-only videos. The premium flag is read from your account profile when you sign in, so it takes effect on a logged-in Rumble account.``` | ```Rumble``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Teach Me Anatomy's premium features without a subscription, dropping the upgrade banners and ads and opening up the locked articles, quizzes, and flashcards. Content served from the server still needs a real account.``` | ```Teach Me Anatomy``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Tracked's premium training tools without a subscription, like muscle analytics and training programs. They run on the workout data already on your device, so they keep working offline. The separate human-coaching marketplace still needs its own subscription.``` | ```Tracked``` | ```All versions``` |
+| ```Enable premium UI``` | ```Turns on the cosmetic Tumblr Premium look: the premium badge and the premium settings entry. This only changes how the app looks on your device. It does not buy or unlock anything on Tumblr's side, so ad-free, the badge on your blog, and anything the server checks still need a real subscription. Use "Remove ads" for an actually ad-free feed.``` | ```Tumblr``` | ```All versions``` |
+| ```Remove ads``` | ```Removes the ads in Tumblr: the dashboard ads from the ad networks and the Blaze posts (the paid-promoted posts other people pay to inject into the feed). It leaves your own following feed and reblogs untouched. Premium content like ad-free badges and TumblrMart items are sold by Tumblr's servers and still need a purchase.``` | ```Tumblr``` | ```All versions``` |
 | ```Auto claim channel points``` | ```Claims the channel points bonus chest for you automatically. Whenever Twitch makes a bonus available, the claim fires on its own so you don't have to tap the chest.``` | ```Twitch``` | ```All versions``` |
-| ```Block live ads``` | ```Removes the ads baked into live streams. It works through a free third-party proxy, so live streams need that proxy to be up; if it ever goes down, turn this patch off. VOD ads aren't covered.``` | ```Twitch``` | ```All versions``` |
+| ```Block live ads``` | ```Routes live streams through a free third-party proxy that strips the ads baked into the stream, so the proxy has to be up for playback to work; turn this patch off if it goes down. Mid-stream ads get dropped reliably, but a single preroll can still slip through when you first open a channel and Twitch has flagged the shared proxy. VOD ads aren't covered.``` | ```Twitch``` | ```All versions``` |
 | ```Hide display ads``` | ```Hides the banner, overlay, and in-feed display ads Twitch shows around the app. This doesn't touch the video ads in the stream itself.``` | ```Twitch``` | ```All versions``` |
 | ```Show deleted messages``` | ```Keeps deleted or moderated chat messages readable instead of replacing them with "<message deleted>". The message turns into a tappable spoiler: tap it to reveal the original text. Normally only moderators can do this; the patch grants that access to everyone.``` | ```Twitch``` | ```All versions``` |
+| ```Unlock Pro``` | ```Lifts Wanderlog's free-tier caps without a subscription: unlimited places per trip, the in-app feature gates unlocked, and no more upgrade nags. Your trips already sync on any tier, so this surfaces them rather than faking data. Features that run on Wanderlog's own servers still need the real subscription and may not work with this alone, including the AI Trip Assistant (the query cap is lifted on-device, but the assistant itself is server-run), offline guide downloads, and live flight-price tracking.``` | ```Wanderlog``` | ```All versions``` |
 | ```Remove ads``` | ```Removes the ads WEBTOON shows while reading and browsing: the in-viewer top and end ads, the home feed ads, and the title-page banner. Locked episodes (Fast Pass, Daily Pass, coin-unlocked) are served by WEBTOON's servers and still need coins or a wait, so this does not unlock them.``` | ```WEBTOON``` | ```All versions``` |
 
 </details>
@@ -3235,7 +3243,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Jasonwu1994 Bundle Patch List:
 [📦 Jasonwu1994-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jasonwu1994-patches-bundle-morphe)
 <details>
-<summary><b>Jasonwu1994</b> - 19 patches, 1 app</summary>
+<summary><b>Jasonwu1994</b> - 20 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3247,6 +3255,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Clipboard Item Edit``` | ```長按 剪貼簿 顯示編輯 Enable Edit when long-pressing a clipboard item.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 | ```Custom Symbols``` | ```新增獨立的特殊符號分頁，長按逗號->愛心 Add a dedicated custom symbols tab and replace the long-press comma entry with a heart shortcut.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 | ```Emojis, stickers & GIFs Tab Order``` | ```自訂 Gboard「Emojis, stickers & GIFs」底部 tabs 的排序，支援拖曳調整 Customize the bottom tab order in Gboard's Emojis, stickers & GIFs panel with drag-and-drop reordering.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
+| ```Enable Inline Autofill Suggestions``` | ```啟用內嵌自動填入建議 / Enable Inline Autofill Suggestions``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 | ```Enable Undo/Redo feature``` | ```啟用 Undo/Redo 功能 Enable the Undo/Redo feature.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 | ```English QWERTY Up-Flick Uppercase``` | ```英文 QWERTY 鍵盤上滑大小寫 Flick up on the English QWERTY keyboard to toggle uppercase and lowercase.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
 | ```Grammar Checker``` | ```啟用 修正和建議 > 文法檢查 Enable Text correction > Grammar check.``` | ```com.google.android.inputmethod.latin``` | ```17.0.10.880768217-release-arm64-v8a``` |
@@ -3565,10 +3574,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Xob0t Bundle Patch List:
 [📦 Xob0t-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-xob0t-patches-bundle-morphe)
 <details>
-<summary><b>Xob0t</b> - 23 patches, 5 apps</summary>
+<summary><b>Xob0t</b> - 24 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```AMOLED dark theme``` | ```Makes the dark theme fully pure-black (AMOLED): backgrounds and surfaces/cards/bars become #000000. Dark mode only; borders, dividers and branded fills are kept for readability.``` | ```Avito``` | ```All versions``` |
 | ```Block listings``` | ```Hides Avito offers from blacklisted adverts or sellers and adds a blacklist manager (import/export compatible with the Ave Blacklist extension).``` | ```Avito``` | ```All versions``` |
 | ```Disable telemetry``` | ```Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.``` | ```Avito``` | ```All versions``` |
 | ```Disable update prompts``` | ```Prevents Avito's force-update screen opener from launching update screens. Toggleable in Настройки Morphe.``` | ```Avito``` | ```All versions``` |
@@ -3727,7 +3737,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable auto-updates``` | ```Prevents Google Play Store from automatically replacing the patched APK with the official unpatched version.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Override certificate pinning``` | ```Allows HTTPS traffic inspection tools like AdGuard Premium to intercept app connections. Enables consistent pre-roll suppression when used alongside AdGuard Premium.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
-| ```Skip ads``` | ```Multi-layer ad suppression targeting the SSAI schedule and impression reporting.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
+| ```Skip ads``` | ```Multi-layer ad suppression targeting the SSAI schedule, impression reporting, and the Volley network chokepoint.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```MLB At Bat Android TV``` | ```Removes VOD ads and between-innings gambling ads while preserving live game playback.``` | ```com.bamnetworks.mobile.android.gameday.atbat``` | ```26.8.1.1``` |
 | ```Paramount+ Android TV``` | ```Removes VOD ads and pause ads while preserving live TV.``` | ```com.cbs.ott``` | ```16.12.0, 16.8.0``` |
 | ```Disney+ Android TV``` | ```Removes mid-roll / pre-roll ads and pause ads.``` | ```com.disney.disneyplus``` | ```26.6.0+rc5-2026.04.21, 26.8.0+rc6-2026.05.20, 26.9.2+rc1-2026.06.12``` |

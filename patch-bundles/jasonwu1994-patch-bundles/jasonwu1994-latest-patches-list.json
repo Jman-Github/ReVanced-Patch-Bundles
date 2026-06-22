@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.0",
+    "version": "v1.12.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -94,6 +94,18 @@
             "dependencies": [],
             "description": "自訂 Gboard「Emojis, stickers & GIFs」底部 tabs 的排序，支援拖曳調整\nCustomize the bottom tab order in Gboard's Emojis, stickers & GIFs panel with drag-and-drop reordering.",
             "name": "Emojis, stickers & GIFs Tab Order",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "啟用內嵌自動填入建議 / Enable Inline Autofill Suggestions",
+            "name": "Enable Inline Autofill Suggestions",
             "options": [],
             "use": true
         },
