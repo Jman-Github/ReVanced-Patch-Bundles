@@ -132,8 +132,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Bypass Samsung Account provider checks``` | ```Replaces Samsung Account provider checks and routes account lookups through Android AccountManager.``` | ```Samsung Health``` | ```6.32.0.001, 6.31.3.013``` |
-| ```Disable Knox integrity checks``` | ```Bypasses Knox, root, warranty bit, and SAK checks so Samsung Health runs on Knox-tripped devices.``` | ```Samsung Health``` | ```6.32.0.001, 6.31.3.013``` |
+| ```Bypass Samsung Account provider checks``` | ```Replaces com.osp.app.signin with com.notsamsung.dummy in dex and routes account lookups through Android AccountManager instead of Samsung Account's provider.``` | ```Samsung Health``` | ```All versions``` |
+| ```Disable Knox integrity checks``` | ```Bypass Knox, root, warranty bit, and SAK checks so Samsung Health runs on Knox-tripped devices (0x1) without root.``` | ```Samsung Health``` | ```All versions``` |
 
 </details>
 
