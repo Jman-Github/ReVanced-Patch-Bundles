@@ -1344,6 +1344,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 ---
 ---
+### 📦 Samsung-Morphe-Patches-Bundle [Morphe]:
+[🧩 Samsung-Morphe Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-samsung-morphe-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/samsung-morphe-patch-bundles/samsung-morphe-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/samsung-morphe-patch-bundles/samsung-morphe-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/samsung-morphe-patch-bundles/samsung-morphe-dev-patches-bundle.json```
+</details>
+
+---
 ### 📦 YT-YA-Voiceover-Patches-Bundle [Morphe]:
 [🧩 YT-YA-Voiceover Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-yt-ya-voiceover-bundle-patch-list)
 <details>
@@ -1664,6 +1677,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Realme-Link-Patches-Bundle](https://github.com/lyyako/realme-link-patches)
 
 #### 🏷️ [HK-Morphe-Patches-Bundle](https://github.com/humzakh/HK-Morphe-Patches)
+#### 🏷️ [Samsung-Morphe-Patches-Bundle](https://github.com/bigyank/morphe-patches-samsung)
+
 #### 🏷️ [YT-YA-Voiceover-Patches-Bundle](https://github.com/dalapenko/yt-ya.voiceover-android-patches)
 
 #### 🏷️ [Perplexity-STT-Patches-Bundle](https://github.com/dalapenko/perplexity-stt-android-patches)

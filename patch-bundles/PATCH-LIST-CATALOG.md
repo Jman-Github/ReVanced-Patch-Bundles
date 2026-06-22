@@ -43,6 +43,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [Samsung-Morphe](#-samsung-morphe-bundle-patch-list) | 2 | 1 | Generated |
 | [YT-YA-Voiceover](#-yt-ya-voiceover-bundle-patch-list) | 3 | 1 | Generated |
 | [Perplexity-STT](#-perplexity-stt-bundle-patch-list) | 1 | 1 | Generated |
 | [Browzomje](#-browzomje-bundle-patch-list) | 1 | 1 | Generated |
@@ -122,6 +123,19 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [AyushTNM](#-ayushtnm-bundle-patch-list) | 3 | 1 | Generated |
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
+
+---
+### 🧩 Samsung-Morphe Bundle Patch List:
+[📦 Samsung-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-samsung-morphe-patches-bundle-morphe)
+<details>
+<summary><b>Samsung-Morphe</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Bypass Samsung Account provider checks``` | ```Replaces Samsung Account provider checks and routes account lookups through Android AccountManager.``` | ```Samsung Health``` | ```6.32.0.001, 6.31.3.013``` |
+| ```Disable Knox integrity checks``` | ```Bypasses Knox, root, warranty bit, and SAK checks so Samsung Health runs on Knox-tripped devices.``` | ```Samsung Health``` | ```6.32.0.001, 6.31.3.013``` |
+
+</details>
 
 ---
 ### 🧩 YT-YA-Voiceover Bundle Patch List:

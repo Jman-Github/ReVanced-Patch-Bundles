@@ -1,0 +1,75 @@
+{
+  "version": "v1.0.15",
+  "patches": [
+    {
+      "name": "Bypass Samsung Account provider checks",
+      "description": "Replaces Samsung Account provider checks and routes account lookups through Android AccountManager.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.sec.android.app.shealth",
+          "name": "Samsung Health",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#1DC9A0",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "6.32.0.001",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "6.31.3.013",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ],
+          "versions": [
+            "6.32.0.001",
+            "6.31.3.013"
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Disable Knox integrity checks",
+      "description": "Bypasses Knox, root, warranty bit, and SAK checks so Samsung Health runs on Knox-tripped devices.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.sec.android.app.shealth",
+          "name": "Samsung Health",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#1DC9A0",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "6.32.0.001",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "6.31.3.013",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ],
+          "versions": [
+            "6.32.0.001",
+            "6.31.3.013"
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
+}
