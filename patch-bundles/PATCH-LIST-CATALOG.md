@@ -50,7 +50,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [TS-Patches](#-ts-patches-bundle-patch-list) | 1 | 1 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 29 | 22 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 31 | 24 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 21 | 13 | Generated |
@@ -225,7 +225,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Hoomans-Morphe Bundle Patch List:
 [?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 29 patches, 22 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 31 patches, 24 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -234,6 +234,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium``` | ```Unlocks Alpha Progression's premium training tools without a subscription, like the training-plan generator, charts, exercise evaluations, the warmup calculator, and more. They run on the workout data already on your device, so they keep working offline.``` | ```Alpha Progression``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks AT4K Launcher's premium features without paying, like more apps per row and the premium wallpaper options. It all runs on the device, so nothing stays locked.``` | ```AT4K Launcher``` | ```All versions``` |
 | ```Unlock Membership``` | ```Unlocks the BandLab Membership tools that run inside the app without a subscription, like the extra effects and instruments, more tracks, pitch tools, the voice changer, mastering, and more. Anything BandLab makes on its servers, like the stem Splitter, AI video, and distribution, still needs a real membership.``` | ```BandLab``` | ```All versions``` |
+| ```Unlock PRO``` | ```Unlocks Battery Guru's PRO and removes the ads. PRO is decided on the device, so the deep sleep stats, charge history, themes, and the ad-free view all open up.``` | ```Battery Guru``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks BlockerHero's premium features without a subscription or Google sign-in, like uninstall protection, focus mode, custom blocklists, daily and weekly time limits, and more.``` | ```BlockerHero``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Collectr's premium features without a subscription, like unlimited collections, price alerts, and the advanced analytics. This is the arm64 build. Anything Collectr serves from its own servers still needs the real subscription.``` | ```Collectr``` | ```All versions``` |
 | ```Unlock Gold``` | ```Unlocks Cronometer Gold without a subscription, like custom charts, advanced reports, the fasting tracker, custom biometrics, an ad-free view, and more. Anything Cronometer works out on its own servers still needs Gold.``` | ```Cronometer``` | ```All versions``` |
@@ -250,6 +251,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Use your own Maps API key [REQUIRED]``` | ```Required for the map to load. Patching breaks Moovit's built-in Google Maps key, so you have to supply your own from a free Google Cloud project. In this patch's option, create a project, enable Maps SDK for Android, turn on billing, make an API key, and paste it in (leaving it unrestricted is easiest). Remove ads and Unlock Moovit+ both pull this in, so the map keeps working with either.``` | ```Moovit``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks the Pro features in Photo Editor Polish without a subscription and drops the ads and upgrade prompts. The AI tools and cloud assets, which the developer runs on its servers, stay locked.``` | ```Photo Editor Polish``` | ```All versions``` |
 | ```Unlock Plus``` | ```Removes ads and unlocks the on-device Quizlet Plus features without a subscription. The AI tools, like Magic Notes and generation, run on Quizlet's servers and stay locked.``` | ```Quizlet``` | ```All versions``` |
+| ```Unlock Premium``` | ```Turns on Rumble Premium without a subscription: removes the ad-supported playback, drops the premium upsell, and unlocks the premium-only videos. The premium flag is read from your account profile when you sign in, so it takes effect on a logged-in Rumble account.``` | ```Rumble``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Teach Me Anatomy's premium features without a subscription, dropping the upgrade banners and ads and opening up the locked articles, quizzes, and flashcards. Content served from the server still needs a real account.``` | ```Teach Me Anatomy``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Tracked's premium training tools without a subscription, like muscle analytics and training programs. They run on the workout data already on your device, so they keep working offline. The separate human-coaching marketplace still needs its own subscription.``` | ```Tracked``` | ```All versions``` |
 | ```Auto claim channel points``` | ```Claims the channel points bonus chest for you automatically. Whenever Twitch makes a bonus available, the claim fires on its own so you don't have to tap the chest.``` | ```Twitch``` | ```All versions``` |
@@ -3715,7 +3717,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable auto-updates``` | ```Prevents Google Play Store from automatically replacing the patched APK with the official unpatched version.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Override certificate pinning``` | ```Allows HTTPS traffic inspection tools like AdGuard Premium to intercept app connections. Enables consistent pre-roll suppression when used alongside AdGuard Premium.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
-| ```Skip ads``` | ```Multi-layer ad suppression targeting the SSAI schedule and impression reporting.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
+| ```Skip ads``` | ```Multi-layer ad suppression targeting the SSAI schedule, impression reporting, and the Volley network chokepoint.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```MLB At Bat Android TV``` | ```Removes VOD ads and between-innings gambling ads while preserving live game playback.``` | ```com.bamnetworks.mobile.android.gameday.atbat``` | ```26.8.1.1``` |
 | ```Paramount+ Android TV``` | ```Removes VOD ads and pause ads while preserving live TV.``` | ```com.cbs.ott``` | ```16.12.0, 16.8.0``` |
 | ```Disney+ Android TV``` | ```Removes mid-roll / pre-roll ads and pause ads.``` | ```com.disney.disneyplus``` | ```26.6.0+rc5-2026.04.21, 26.8.0+rc6-2026.05.20, 26.9.2+rc1-2026.06.12``` |

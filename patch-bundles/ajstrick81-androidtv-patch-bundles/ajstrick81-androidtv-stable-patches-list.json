@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.97",
+    "version": "v1.4.99",
     "patches": [
         {
             "compatibility": [
@@ -273,7 +273,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Multi-layer ad suppression targeting the SSAI schedule and impression reporting.",
+            "description": "Multi-layer ad suppression targeting the SSAI schedule, impression reporting, and the Volley network chokepoint.",
             "name": "Skip ads",
             "options": [],
             "use": true
