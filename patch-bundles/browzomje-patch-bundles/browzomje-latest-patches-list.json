@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0",
+    "version": "v1.0.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -22,8 +22,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Restituisce un Google Advertising ID vuoto e forza 'limit ad tracking', azzerando il tracciamento pubblicitario senza rompere l'app.",
-            "name": "Pinterest privacy: neutralize advertising ID",
+            "description": "Removes sponsored pins.",
+            "name": "Disable ads",
             "options": []
         },
         {
@@ -47,8 +47,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Inhibiting sponsored pin detection (AdCheckUtils).",
-            "name": "Pinterest sponsored ad removed",
+            "description": "Returns an empty Google Advertising ID and forces ‘limit ad tracking’, disabling ad tracking without causing the app to crash.",
+            "name": "Neutralize advertising ID",
             "options": []
         },
         {
@@ -74,8 +74,8 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Aggiunge al menu del pin l'opzione \"Imposta come sfondo\" che scarica/usa l'immagine e la imposta come sfondo del dispositivo.",
-            "name": "Pinterest: set pin as wallpaper",
+            "description": "It adds the ‘Set as wallpaper’ option to the pin menu, which downloads uses the image and sets it as the device’s wallpaper.",
+            "name": "Set pin as wallpaper",
             "options": []
         }
     ]

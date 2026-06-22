@@ -157,9 +157,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Pinterest privacy: neutralize advertising ID``` | ```Restituisce un Google Advertising ID vuoto e forza 'limit ad tracking', azzerando il tracciamento pubblicitario senza rompere l'app.``` | ```Pinterest``` | ```All versions``` |
-| ```Pinterest sponsored ad removed``` | ```Inhibiting sponsored pin detection (AdCheckUtils).``` | ```Pinterest``` | ```All versions``` |
-| ```Pinterest: set pin as wallpaper``` | ```Aggiunge al menu del pin l'opzione "Imposta come sfondo" che scarica/usa l'immagine e la imposta come sfondo del dispositivo.``` | ```Pinterest``` | ```All versions``` |
+| ```Disable ads``` | ```Removes sponsored pins.``` | ```Pinterest``` | ```All versions``` |
+| ```Neutralize advertising ID``` | ```Returns an empty Google Advertising ID and forces ‘limit ad tracking’, disabling ad tracking without causing the app to crash.``` | ```Pinterest``` | ```All versions``` |
+| ```Set pin as wallpaper``` | ```It adds the ‘Set as wallpaper’ option to the pin menu, which downloads uses the image and sets it as the device’s wallpaper.``` | ```Pinterest``` | ```All versions``` |
 
 </details>
 
