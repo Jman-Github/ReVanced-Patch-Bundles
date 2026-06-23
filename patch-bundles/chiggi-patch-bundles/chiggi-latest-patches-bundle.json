@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-06-23T23:03:35",
-  "description": "CrazyGames fix \u2014 adds \"Bypass Play license check\". The 1.14.0 build was redirected to the Play Store on launch (\"get it on Google Play\"): root cause is Google Play Automatic Integrity Protection (PairIP), com.pairip.licensecheck.LicenseClient, which fails the licensing verdict on a re-signed sideload and redirects to the store. This patch neuters both LicenseClient entry points so the check never runs; it is on by default and required for the patched app to open. No PairIP code-virtualization (VMRunner) in this build, so it is safe. Other CrazyGames patches unchanged (Remove ads incl. auto-reward, Disable analytics, Remove AD_ID, Change app name; package kept so login works).",
-  "download_url": "https://github.com/durgesh0505/chiggi_morphe_patches/releases/download/v1.14.1/patches-1.14.1.mpp",
+  "created_at": "2026-06-23T23:48:30",
+  "description": "CrazyGames rewarded-ad fix. The auto-reward was firing only the Reward listener event, but the web finishes the rewarded flow (credits the reward and dismisses the loading overlay) on the Dismissed event, gated on Reward having fired first. So it stuck on the loading screen. Now fires Reward then Dismissed (in order) for both showRewardVideoAd and showRewardInterstitialAd, then resolves the call. Other patches unchanged: Bypass Play license check, Remove ads, Disable analytics, Remove AD_ID, Change app name.",
+  "download_url": "https://github.com/durgesh0505/chiggi_morphe_patches/releases/download/v1.14.2/patches-1.14.2.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.14.1"
+  "version": "v1.14.2"
 }
