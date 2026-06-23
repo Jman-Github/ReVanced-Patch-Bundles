@@ -2033,6 +2033,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Disable story auto flipping``` | ```Disable stories automatically flipping/skipping after some seconds.``` | ```Instagram``` | ```All versions``` |
 | ```Disable video autoplay``` | ```Disable video autoplay from feed``` | ```Instagram``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```Hide all stories``` | ```Hides all stories from the tray in the feed page. You may need to clean app data after the initial use of this patch to see its effects.``` | ```Instagram``` | ```All versions``` |
 | ```Hide explore feed``` | ```Hides posts and reels from the explore/search page.``` | ```Instagram``` | ```All versions``` |
 | ```Hide feed content``` | ```Hide the feed content, leaving only stories in the home page.``` | ```Instagram``` | ```All versions``` |
 | ```Hide Instants``` | ```Hides Instants from DMs page.``` | ```Instagram``` | ```All versions``` |
@@ -2040,7 +2041,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Hide notes tray``` | ```Hides the notes tray from the direct tab.``` | ```Instagram``` | ```All versions``` |
 | ```Hide Reels save button``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Hide reshare button``` | ```Hides the reshare button from both posts and reels.``` | ```Instagram``` | ```All versions``` |
-| ```Hide Stories from Home``` | ```Hides Stories from the main page, by removing the buttons.``` | ```Instagram``` | ```All versions``` |
 | ```Hide suggested content``` | ```Choose the suggested content to hide using the patch options.``` | ```Instagram``` | ```All versions``` |
 | ```Hide Threads profile button``` | ```Hides the Threads button from the profile page action bar (top right of the profile page).``` | ```Instagram``` | ```All versions``` |
 | ```Limit feed to following profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```Instagram``` | ```All versions``` |

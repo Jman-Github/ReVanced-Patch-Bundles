@@ -1,5 +1,5 @@
 {
-    "version": "v2.8.0-dev.1",
+    "version": "v2.8.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -198,6 +198,37 @@
             ],
             "description": null,
             "name": "Hide ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "430.0.0.53.80",
+                            "versionCodes": {
+                                "ARM64_V8A": 383611190,
+                                "ARMEABI_V7A": 383710475
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "\n        Hides all stories from the tray in the feed page.\n        You may need to clean app data after the initial use of this patch to see its effects.\n    ",
+            "name": "Hide all stories",
             "options": []
         },
         {
@@ -463,35 +494,6 @@
             "dependencies": [],
             "description": "Hides the reshare button from both posts and reels.",
             "name": "Hide reshare button",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "description": null,
-                    "name": "Instagram",
-                    "packageName": "com.instagram.android",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "430.0.0.53.80",
-                            "versionCodes": {
-                                "ARM64_V8A": 383611190,
-                                "ARMEABI_V7A": 383710475
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Hides Stories from the main page, by removing the buttons.",
-            "name": "Hide Stories from Home",
             "options": []
         },
         {
