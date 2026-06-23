@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.1",
+    "version": "v1.6.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -93,7 +93,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch"
@@ -625,7 +625,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],

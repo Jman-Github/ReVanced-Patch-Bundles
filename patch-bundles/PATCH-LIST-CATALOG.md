@@ -110,7 +110,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 12 | 9 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 15 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 55 | 45 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 67 | 47 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 3 | 1 | Generated |
 
 ### Legacy
@@ -3822,7 +3822,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 55 patches, 45 apps</summary>
+<summary><b>Rushiranpise</b> - 67 patches, 47 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3880,6 +3880,18 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Ads``` | ```Prevents the AppOpen ad preloader from initialising.``` | ```Universal TV Remote Control``` | ```All versions``` |
 | ```Suppress Paywall``` | ```Suppresses the in-app paywall.``` | ```Universal TV Remote Control``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Universal TV Remote Control``` | ```All versions``` |
+| ```Alert Distances``` | ```Configures radar/camera and hazard alert announcement distances. Credits: Waze CGE Mod.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
+| ```AutoZoom``` | ```Controls how aggressively the map zooms in/out based on driving speed. Credits: Waze Chuppito Mod``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
+| ```Disable Ads``` | ```Suppresses all Waze ad systems via bundled preferences file: • AdMob SDK (Ad_.*) • Google Ads (Google_Ads.*) • Ads Inventory Prediction • ExternalPOI pins, coupons, popups (ExternalPO_ + Extern__POI both key variants) • Search autocomplete server ads Credits: Waze CGE Mod (ExternalPOI keys), Waze Chuppito (dual-key coverage).``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
+| ```Disable Advil Ad Requests``` | ```Stubs AdvilRequest.getPageUrl() → "" so the Advil ad server receives no page URL and returns no ad content.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
+| ```Enlarged Speedometer``` | ```Increases speedometer digit size for better readability.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
+| ```Map Skin (Vitamin C)``` | ```Applies Chuppito's 'Vitamin C' map skin. All visual values configurable. • Night: true black AMOLED background (saves battery, prevents burn-in) • Day: warm beige background • Larger font labels across the board • Wider navigation arrow head for better visibility • Custom car 3D models: Batmobile, Riddler, race car, 3D arrow Credits: ALEX02-GTT (skin design), Waze Chuppito Mod (integration).``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
+| ```Navigation & Map``` | ```Configures navigation and map behaviour: • Nearing destination distance (Credits: CGE Mod) • Android Auto head-up alert distances • Map turn mode (auto-zoom to upcoming turn) • Traffic bar minimum time threshold • GPS icon visibility • Route notifications (hazard, school zone) both disabled by default Credits: Waze CGE Mod (nearing destination), Waze Chuppito (remaining keys).``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
+| ```Popup Suppression``` | ```Prevents promotional and ad popups from appearing while driving. Raises the minimum trigger speed to a near-impossible value so popups never appear. Credits: Waze Chuppito Mod.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
+| ```Radar Sound (Any Speed)``` | ```Plays radar/speed camera sound alerts regardless of current speed. Official Waze only alerts when over the speed limit.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
+| ```Report Speed Limit``` | ```Adds a Report option when tapping the speedometer to report wrong or missing speed limits. Not available in the official version.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
+| ```Speed Limit Sign``` | ```Sets the speed limit sign style shown on the map.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
+| ```Uncensored Radar / Camera Display``` | ```Shows exact fixed and mobile speed camera locations, including those not yet in the official Waze radar zone. Enables enforcement alerts via preferences keys: Credits: Waze CGE Mod.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
 | ```Unlock VIP``` | ```Unlocks Yatri VIP by forcing active plan status and spoofing active plan DB query.``` | ```Yatri``` | ```All versions``` |
 
 </details>
