@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0-dev.2",
+    "version": "v1.7.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -318,31 +318,6 @@
             "dependencies": [],
             "description": "Disables App Analytics / Telemetry.",
             "name": "Disable Analytics / Telemetry",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#8B3DFF",
-                    "description": null,
-                    "name": "Canva",
-                    "packageName": "com.canva.editor",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "2.365.o"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes restricted/locked indicators on premium media in Canva.",
-            "name": "Disable Restricted Access",
             "options": []
         },
         {
@@ -1968,7 +1943,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks Dubox Drive VIP/SVIP (Premium+).",
+            "description": "Unlocks Dubox Drive VIP/SVIP (Premium+)",
             "name": "Unlock VIP",
             "options": []
         },
