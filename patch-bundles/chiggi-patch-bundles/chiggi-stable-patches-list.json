@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.1",
+    "version": "v1.14.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -82,6 +82,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#0C0D14",
+                    "description": null,
+                    "name": "CrazyGames",
+                    "packageName": "com.crazygames.crazygamesapp",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.6.7"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops Google Play's Automatic Integrity Protection (PairIP) license check that, on a re-signed/sideloaded build, redirects the app to the Play Store (\"get it on Google Play\"). Neuters both entry points of com.pairip.licensecheck.LicenseClient (checkLicense / initializeLicenseCheck) so the check never runs. Required for the patched app to open at all.",
+            "name": "Bypass Play license check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#2D6CDF",
                     "description": null,
                     "name": "Arrow Puzzle",
@@ -104,6 +129,41 @@
             "options": [
                 {
                     "default": "Arrow Puzzle Morphe",
+                    "description": "The name shown under the app icon.",
+                    "key": "appName",
+                    "required": true,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0C0D14",
+                    "description": null,
+                    "name": "CrazyGames",
+                    "packageName": "com.crazygames.crazygamesapp",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.6.7"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Changes the app name shown under the launcher icon. Set the desired name in the patch options.",
+            "name": "Change app name",
+            "options": [
+                {
+                    "default": "CrazyGames Morphe",
                     "description": "The name shown under the app icon.",
                     "key": "appName",
                     "required": true,
@@ -386,6 +446,31 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0C0D14",
+                    "description": null,
+                    "name": "CrazyGames",
+                    "packageName": "com.crazygames.crazygamesapp",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.6.7"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops native Sentry crash/telemetry upload by neutering the Capacitor Sentry plugin's native init (io.sentry.capacitor.SentryCapacitor.initNativeSdk), so it resolves without starting the native Sentry SDK. Firebase auth, ConfigCat and push are unaffected.",
+            "name": "Disable analytics",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS",
                     "appIconColor": "#36D4C3",
                     "description": null,
@@ -611,6 +696,31 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0C0D14",
+                    "description": null,
+                    "name": "CrazyGames",
+                    "packageName": "com.crazygames.crazygamesapp",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.6.7"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the advertising-id and Ad Services (Privacy Sandbox) permissions so the device advertising id, Topics, Attribution and Custom Audience signals cannot be read for ad tracking.",
+            "name": "Remove AD_ID permission",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS",
                     "appIconColor": "#000000",
                     "description": null,
@@ -655,6 +765,31 @@
             "default": true,
             "dependencies": [],
             "description": "Removes ALL ads (banner, interstitial and rewarded) by neutering the Unity<->Android ad facade (com.easybrain.ads.unity.AdsPlugin): availability/show booleans return false, banner shows are no-ops and banner height is 0. The game treats every ad type as never ready. Note: rewarded ads are also removed, so watch-to-earn rewards no longer work.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0C0D14",
+                    "description": null,
+                    "name": "CrazyGames",
+                    "packageName": "com.crazygames.crazygamesapp",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.6.7"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes native ads (AdMob and its Pangle/Audience Network mediation) by neutering the Capacitor AdMob plugin (com.getcapacitor.community.admob.AdMob): interstitial and banner shows resolve immediately with nothing displayed, and rewarded ads auto-grant their reward without playing a video. Note: in-page web video ads served remotely inside the WebView (from crazygames.com) are not part of the app bytecode and cannot be removed here.",
             "name": "Remove ads",
             "options": []
         },
