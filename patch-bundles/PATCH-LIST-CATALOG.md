@@ -110,7 +110,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 12 | 9 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 15 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 53 | 43 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 55 | 45 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 3 | 1 | Generated |
 
 ### Legacy
@@ -3822,7 +3822,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 53 patches, 43 apps</summary>
+<summary><b>Rushiranpise</b> - 55 patches, 45 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3838,6 +3838,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove Watermark``` | ```Removes watermarks from Canva exports and previews.``` | ```Canva``` | ```All versions``` |
 | ```Remove Ads``` | ```Removes interstitial, app-open and native ads.``` | ```Case Tracker - Immigration``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Case Tracker - Immigration``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlock Pro Features in Cashew App``` | ```Cashew - Budget & Finance App``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all Citizen Plus/Protect features: Safety Network, Safety Center, Zones, Live Agent, Offender alerts, Clarity crime map, incident video, and more.``` | ```Citizen - Safety Alert``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium in Clickmate``` | ```Clickmate``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium features in app.``` | ```CPU-Z``` | ```All versions``` |
@@ -3866,6 +3867,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Lifetime``` | ```Unlocks all Lifetime features in Proxyman.``` | ```Proxyman``` | ```All versions``` |
 | ```Remove Ads / Unlock Premium``` | ```Forces SubscriptionStateImpl.getStatus() (LB2/c.h) to always return HAS_UNLIMITED_SUBSCRIPTION and getPurchase() (LB2/c.g) to return a well-formed fake Purchase, removing ads and the upgrade button/banner without crashing on the now-expected non-null Purchase object.``` | ```Psiphon Pro``` | ```All versions``` |
 | ```Unlock Pro``` | ```Removes ads and unlocks the no-ads subscription in RAR.``` | ```RAR``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Rocket Money Premium Features.``` | ```Rocket Money``` | ```All versions``` |
 | ```Unlock Premium``` | ```Bypasses PairIP license check, paywall, ads, and pro upsell in SAI.``` | ```SAI``` | ```All versions``` |
 | ```Unlock Lifetime``` | ```Unlocks SHAREit lifetime premium.``` | ```SHAREit Premium``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Premium features in Snipd: AI Podcast Player by spoofing the RevenueCat CustomerInfo.``` | ```Snipd: AI Podcast Player``` | ```All versions``` |
@@ -3874,7 +3876,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Pro``` | ```Unlocks Splitwise Pro features, removes ad banners, and suppresses all upgrade upsell prompts.``` | ```Splitwise``` | ```All versions``` |
 | ```Unlock Subscription``` | ```Unlocks all subscription features in TWT App.``` | ```Stargazing Hub``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Tasker Pro features.``` | ```Tasker``` | ```All versions``` |
-| ```Unlock VIP``` | ```Unlocks Dubox Drive VIP/SVIP (Premium+)``` | ```TeraBox``` | ```All versions``` |
+| ```Unlock VIP``` | ```Unlocks Dubox Drive VIP/SVIP (Premium+).``` | ```TeraBox``` | ```All versions``` |
 | ```Disable Ads``` | ```Prevents the AppOpen ad preloader from initialising.``` | ```Universal TV Remote Control``` | ```All versions``` |
 | ```Suppress Paywall``` | ```Suppresses the in-app paywall.``` | ```Universal TV Remote Control``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Universal TV Remote Control``` | ```All versions``` |
