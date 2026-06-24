@@ -1,5 +1,5 @@
 {
-    "version": "v1.29.0",
+    "version": "v1.30.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -537,6 +537,31 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks FolderSync's premium without the in-app purchase and removes the ads, so you get unlimited sync pairs and the advanced options.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#5065A1",
+                    "description": null,
+                    "name": "Mixel",
+                    "packageName": "com.cfdrink",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.19.11"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Mixel's Premium tier without a subscription: the Pro feature gates open and the premium recipe packs show as entitled. Both gates are read client-side from RevenueCat's entitlements, so this lifts them on-device. Anything Mixel actually checks server-side (if a later build moves a gate there) won't be covered.",
             "name": "Unlock Premium",
             "options": []
         },
