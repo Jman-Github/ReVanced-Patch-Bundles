@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.1",
+    "version": "v1.2.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -35,6 +35,41 @@
                     "required": false,
                     "title": "Update providers",
                     "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FFFFFF",
+                    "description": null,
+                    "name": "UDisc",
+                    "packageName": "com.regasoftware.udisc",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "24.1.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Fix course maps not rendered by using your own Google Maps API key.",
+            "name": "Course Maps Fix",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The API key you created in Google Cloud Console. The Free key should be enough for normal daily use. DON'T SHARE YOUR OWN KEY!\nIn the Google Cloud Console: Create a project -> Enable Maps SDK for Android -> A billing account is required, you will be prompted to create one if none exists (You will not get charged as long the monthly $200 limit not passed, use wisely) -> Under Credentials, create an API key. The easiest way is to leave it unrestricted. If you do, fill in the patched app package name and SHA-1 signature. -> If the maps still blank, either the app signature is invalid; the project missing Maps SDK for Android or billing account.",
+                    "key": "apiKey",
+                    "required": true,
+                    "title": "Google Maps API Key",
+                    "type": "kotlin.String",
                     "values": null
                 }
             ]
@@ -414,12 +449,57 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FFFFFF",
+                    "description": null,
+                    "name": "UDisc",
+                    "packageName": "com.regasoftware.udisc",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "24.1.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Fix login issue by spoofing the installation source to Play Store.",
+            "name": "Login Fix",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy.",
             "name": "Override certificate pinning",
             "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Spoofs package installer checks to report the configured package name as the installation source. Default is Play Store.",
+            "name": "Spoof Install Source",
+            "options": [
+                {
+                    "default": "com.android.vending",
+                    "description": "The package name of the installation source.",
+                    "key": "packageName",
+                    "required": false,
+                    "title": "Installer Package Name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "com.android.vending": "com.android.vending"
+                    }
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -480,6 +560,37 @@
             "default": true,
             "dependencies": [],
             "description": "Unlock premium features.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#E35252",
+                    "description": null,
+                    "name": "Hermit",
+                    "packageName": "com.chimbori.hermitcrab",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "31.6.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enable premium features.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -569,6 +680,31 @@
             "default": true,
             "dependencies": [],
             "description": "Unlock 'Remove Ads' premium feature.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FFFFFF",
+                    "description": null,
+                    "name": "UDisc",
+                    "packageName": "com.regasoftware.udisc",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "24.1.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enable premium features.",
             "name": "Unlock Premium",
             "options": []
         }

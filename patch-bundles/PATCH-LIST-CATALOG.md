@@ -48,7 +48,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Samsung-Morphe](#-samsung-morphe-bundle-patch-list) | 2 | 1 | Generated |
 | [YT-YA-Voiceover](#-yt-ya-voiceover-bundle-patch-list) | 3 | 1 | Generated |
 | [Perplexity-STT](#-perplexity-stt-bundle-patch-list) | 1 | 1 | Generated |
-| [Browzomje](#-browzomje-bundle-patch-list) | 4 | 1 | Generated |
+| [Browzomje](#-browzomje-bundle-patch-list) | 6 | 1 | Generated |
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
 | [TS-Patches](#-ts-patches-bundle-patch-list) | 1 | 1 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
@@ -56,7 +56,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 40 | 32 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
-| [Lain](#-lain-bundle-patch-list) | 21 | 13 | Generated |
+| [Lain](#-lain-bundle-patch-list) | 26 | 15 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 122 | 2 | Generated |
@@ -93,7 +93,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Eyalm2000](#-eyalm2000-bundle-patch-list) | 2 | 1 | Generated |
 | [Vladon](#-vladon-bundle-patch-list) | 3 | 1 | Generated |
 | [Ariecos](#-ariecos-bundle-patch-list) | 2 | 2 | Generated |
-| [Joristdh](#-joristdh-bundle-patch-list) | 1 | 1 | Generated |
+| [Joristdh](#-joristdh-bundle-patch-list) | 2 | 4 | Generated |
 | [Meridianfresco](#-meridianfresco-bundle-patch-list) | 2 | 1 | Generated |
 | [Loskutov](#-loskutov-bundle-patch-list) | 2 | 2 | Generated |
 | [Kareemlukitomo](#-kareemlukitomo-bundle-patch-list) | 8 | 5 | Generated |
@@ -194,14 +194,16 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Browzomje Bundle Patch List:
 [📦 Browzomje-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-browzomje-patches-bundle-morphe)
 <details>
-<summary><b>Browzomje</b> - 4 patches, 1 app</summary>
+<summary><b>Browzomje</b> - 6 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Copy direct link``` | ```Adds a 'Copy direct link' option to the pin menu to copy a link under the direct CDN media format instead of the standard Pinterest web link.``` | ```Pinterest``` | ```All versions``` |
-| ```Disable ads``` | ```Removes sponsored pins.``` | ```Pinterest``` | ```All versions``` |
+| ```Disable ads``` | ```Removes sponsored (promoted) pins from the home feed and from search/related/board feeds.``` | ```Pinterest``` | ```All versions``` |
+| ```Download video``` | ```Adds a 'Download video' option to the pin menu for video pins, saving the clip to the Downloads folder.``` | ```Pinterest``` | ```All versions``` |
 | ```Neutralize advertising ID``` | ```Returns an empty Google Advertising ID and forces ‘limit ad tracking’, disabling ad tracking without causing the app to crash.``` | ```Pinterest``` | ```All versions``` |
 | ```Set pin as wallpaper``` | ```It adds the ‘Set as wallpaper’ option to the pin menu, which downloads uses the image and sets it as the device’s wallpaper.``` | ```Pinterest``` | ```All versions``` |
+| ```Spoof signature``` | ```Spoofs the application signature SHA-1 sent during App Integrity checks to bypass server-side signature validation.``` | ```Pinterest``` | ```All versions``` |
 
 </details>
 
@@ -815,7 +817,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Lain Bundle Patch List:
 [📦 Lain-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lain-patches-bundle-morphe)
 <details>
-<summary><b>Lain</b> - 21 patches, 13 apps</summary>
+<summary><b>Lain</b> - 26 patches, 15 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -827,6 +829,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Fix Camera Mode Intent``` | ```Fix opening Camera FV-5 Lite when entering camera mode.``` | ```Cinema FV-5 Lite``` | ```All versions``` |
 | ```Higher Video Resolution``` | ```Unlock higher resolutions that limited by the app.``` | ```Cinema FV-5 Lite``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock premium features.``` | ```Fake GPS Location``` | ```All versions``` |
+| ```Unlock Premium``` | ```Enable premium features.``` | ```Hermit``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock premium features such as Disable Ads and access AI Assistant.``` | ```Hidden Settings``` | ```All versions``` |
 | ```Disable Analytics``` | ```Disables app tracker, Google & Firebase Analytics``` | ```MediBang Paint``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock premium features such as No Ads, Premium Brushes, Filters & Fonts; Simultaneous Layer Operation. Server-side features is NOT included!``` | ```MediBang Paint``` | ```All versions``` |
@@ -836,10 +839,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Enable Premium``` | ```Disable trial time counter.``` | ```Paletta``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock 'Remove Ads' premium feature.``` | ```PixelLab``` | ```All versions``` |
 | ```Disable Ads``` | ```Disable banner ads.``` | ```Timestamp Camera Enterprise Free, Timestamp Camera Free``` | ```All versions``` |
+| ```Course Maps Fix``` | ```Fix course maps not rendered by using your own Google Maps API key.``` | ```UDisc``` | ```All versions``` |
+| ```Login Fix``` | ```Fix login issue by spoofing the installation source to Play Store.``` | ```UDisc``` | ```All versions``` |
+| ```Unlock Premium``` | ```Enable premium features.``` | ```UDisc``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
 | ```Hide app icon``` | ```Hides the app icon from the Android launcher.``` | ```Universal``` | ```All versions``` |
 | ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Install Source``` | ```Spoofs package installer checks to report the configured package name as the installation source. Default is Play Store.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -1014,7 +1021,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```Instagram``` | ```All versions``` |
 | ```Download voice message``` | ```Enables ability to download voice messages``` | ```Instagram``` | ```All versions``` |
 | ```External downloader``` | ```Adds support to share post links directly to external downloader``` | ```Instagram``` | ```All versions``` |
-| ```Follow back indicator``` | ```Adds a label on the profile page, indicating whether a user is follows you back.``` | ```Instagram``` | ```All versions``` |
+| ```Friendship status indicator``` | ```Adds a follows you back status label on the profile page andshows a detailed friendship status breakdown on click``` | ```Instagram``` | ```All versions``` |
 | ```Hide group creation button on sharesheet``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button.``` | ```Instagram``` | ```All versions``` |
 | ```Hide notes tray``` | ```Hides notes tray in DM section``` | ```Instagram``` | ```All versions``` |
@@ -3494,10 +3501,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Joristdh Bundle Patch List:
 [📦 Joristdh-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-joristdh-patches-bundle-morphe)
 <details>
-<summary><b>Joristdh</b> - 1 patch, 1 app</summary>
+<summary><b>Joristdh</b> - 2 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Experimental: Restore "Swipe to return" translucency``` | ```Fixes the opaque background when using the "Swipe to return" option. Experimental due to animation issues. Incompatible with the Predictive Back Gesture patch.``` | ```com.laurencedawson.reddit_sync, com.laurencedawson.reddit_sync.dev, com.laurencedawson.reddit_sync.pro``` | ```v23.06.30-13:39``` |
 | ```Predictive back gesture``` | ```Enables the predictive back gesture introduced on Android 13.``` | ```Universal``` | ```All versions``` |
 
 </details>

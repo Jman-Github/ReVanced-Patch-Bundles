@@ -1,5 +1,5 @@
 {
-    "version": "v3.7.0-dev.3",
+    "version": "v3.7.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -27,13 +27,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -60,7 +60,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -95,7 +95,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -123,7 +123,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -160,19 +160,20 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Blocks redirecting to the new X Android UI on launch",
@@ -205,13 +206,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -250,13 +251,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -297,13 +298,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -331,7 +332,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -370,13 +371,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 },
@@ -392,7 +393,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -442,13 +443,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -475,7 +476,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -533,13 +534,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -566,7 +567,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -611,13 +612,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -656,13 +657,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -702,13 +703,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -748,13 +749,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -794,13 +795,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -827,7 +828,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -854,7 +855,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -893,13 +894,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -938,13 +939,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -983,13 +984,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -1028,13 +1029,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -1074,13 +1075,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -1119,13 +1120,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -1164,13 +1165,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -1209,13 +1210,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -1254,13 +1255,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -1299,13 +1300,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -1344,13 +1345,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -1377,7 +1378,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -1405,7 +1406,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -1445,13 +1446,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -1490,13 +1491,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -1524,7 +1525,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -1552,7 +1553,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -1580,7 +1581,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -1611,7 +1612,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -1639,7 +1640,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -1667,7 +1668,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -1692,7 +1693,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -1719,7 +1720,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -1747,7 +1748,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -1774,7 +1775,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -1802,7 +1803,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -1829,13 +1830,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
@@ -1881,7 +1882,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -1931,13 +1932,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -1964,7 +1965,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -2004,13 +2005,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2047,13 +2048,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2093,13 +2094,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2139,13 +2140,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2184,13 +2185,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2229,13 +2230,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2260,7 +2261,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -2280,35 +2281,6 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
-                    "appIconColor": "#FC483C",
-                    "description": null,
-                    "name": "Instagram",
-                    "packageName": "com.instagram.android",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "430.0.0.53.80"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Adds a label on the profile page, indicating whether a user is follows you back.",
-            "name": "Follow back indicator",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
                     "appIconColor": "#000000",
                     "description": null,
                     "name": "X",
@@ -2331,13 +2303,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2355,6 +2327,35 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "435.0.0.37.76"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds a follows you back status label on the profile page andshows a detailed friendship status breakdown on click",
+            "name": "Friendship status indicator",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
                     "appIconColor": "#000000",
                     "description": null,
                     "name": "X",
@@ -2377,13 +2378,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2448,13 +2449,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2493,13 +2494,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2538,13 +2539,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2584,13 +2585,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2629,13 +2630,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2675,13 +2676,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2720,13 +2721,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2766,13 +2767,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2799,7 +2800,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -2838,13 +2839,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2883,13 +2884,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2929,13 +2930,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -2962,7 +2963,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -2989,7 +2990,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -3028,13 +3029,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -3073,13 +3074,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -3118,13 +3119,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -3164,13 +3165,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -3210,13 +3211,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -3243,7 +3244,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -3270,7 +3271,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -3298,7 +3299,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -3337,13 +3338,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -3383,13 +3384,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -3418,7 +3419,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -3457,13 +3458,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -3491,7 +3492,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -3530,13 +3531,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -3563,7 +3564,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -3592,7 +3593,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -3623,7 +3624,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -3664,13 +3665,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -3712,13 +3713,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -3760,13 +3761,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -3807,13 +3808,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -3840,7 +3841,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -3879,13 +3880,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -3924,13 +3925,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -3958,7 +3959,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -3985,7 +3986,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -4024,13 +4025,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -4069,13 +4070,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -4114,13 +4115,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -4160,13 +4161,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -4193,7 +4194,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -4220,7 +4221,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -4265,13 +4266,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -4311,13 +4312,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -4358,13 +4359,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -4403,13 +4404,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -4448,13 +4449,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -4493,13 +4494,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.99.0-release.1"
+                            "version": "12.0.0-release.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "12.0.0-release.0"
+                            "version": "12.2.0-release.0"
                         }
                     ]
                 }
@@ -4526,7 +4527,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -4553,7 +4554,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -4582,7 +4583,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -4611,7 +4612,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -4638,7 +4639,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -4665,7 +4666,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -4693,7 +4694,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -4722,7 +4723,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
@@ -4751,7 +4752,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "430.0.0.53.80"
+                            "version": "435.0.0.37.76"
                         }
                     ]
                 }
