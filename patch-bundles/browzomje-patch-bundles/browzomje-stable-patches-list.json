@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.1",
+    "version": "v1.2.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -22,8 +22,58 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes sponsored pins.",
+            "description": "Adds a 'Copy direct link' option to the pin menu to copy a link under the direct CDN media format instead of the standard Pinterest web link.",
+            "name": "Copy direct link",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "description": null,
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "14.23.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes sponsored (promoted) pins from the home feed and from search/related/board feeds.",
             "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "description": null,
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "14.23.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds a 'Download video' option to the pin menu for video pins, saving the clip to the Downloads folder.",
+            "name": "Download video",
             "options": []
         },
         {
@@ -76,6 +126,31 @@
             ],
             "description": "It adds the ‘Set as wallpaper’ option to the pin menu, which downloads uses the image and sets it as the device’s wallpaper.",
             "name": "Set pin as wallpaper",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "description": null,
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "14.23.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs the application signature SHA-1 sent during App Integrity checks to bypass server-side signature validation.",
+            "name": "Spoof signature",
             "options": []
         }
     ]
