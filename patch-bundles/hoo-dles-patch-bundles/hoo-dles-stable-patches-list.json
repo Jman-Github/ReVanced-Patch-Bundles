@@ -1,5 +1,5 @@
 {
-    "version": "v1.36.1",
+    "version": "v1.37.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -15,7 +15,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.255.0"
+                            "version": "1.255.0",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -42,7 +43,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "2026.04.27-release"
+                            "version": "2026.04.27-release",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -69,7 +71,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.2.75"
+                            "version": "1.2.75",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -134,7 +137,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": null
+                            "version": null,
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -159,7 +163,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "25.12.17"
+                            "version": "25.12.17",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -184,7 +189,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "18.24"
+                            "version": "18.24",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -209,7 +215,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "6.84.4"
+                            "version": "6.84.4",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -244,7 +251,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "6.6 build 002"
+                            "version": "6.6 build 002",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -269,7 +277,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "7.15.5.2604080000"
+                            "version": "7.15.5.2604080000",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -296,13 +305,15 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.9.3-GooglePlay"
+                            "version": "1.9.3-GooglePlay",
+                            "versionCodes": null
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.9.3-storage"
+                            "version": "1.9.3-storage",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -329,7 +340,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "2026.04.27-release"
+                            "version": "2026.04.27-release",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -338,6 +350,32 @@
             "dependencies": [],
             "description": "Disables SoundCloud's telemetry system.",
             "name": "Disable telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#4285F4",
+                    "description": null,
+                    "name": "Google News",
+                    "packageName": "com.google.android.apps.magazines",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.161.0.931240252",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Open articles using your default browser.",
+            "name": "Enable custom tabs",
             "options": []
         },
         {
@@ -362,7 +400,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "6.84.4"
+                            "version": "6.84.4",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -389,7 +428,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "226.16092.20260302"
+                            "version": "226.16092.20260302",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -416,7 +456,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.16.7"
+                            "version": "1.16.7",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -443,7 +484,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.3.20"
+                            "version": "26.3.20",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -468,7 +510,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "6.4.0"
+                            "version": "6.4.0",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -495,7 +538,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "4.12.81"
+                            "version": "4.12.81",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -520,7 +564,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.0.18"
+                            "version": "3.0.18",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -545,7 +590,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "32.30.0(1575420)"
+                            "version": "32.30.0(1575420)",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -570,7 +616,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "7.15.5.2604080000"
+                            "version": "7.15.5.2604080000",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -597,7 +644,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "6.0.7"
+                            "version": "6.0.7",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -624,7 +672,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "6.84.4"
+                            "version": "6.84.4",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -664,7 +713,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "4.12.19"
+                            "version": "4.12.19",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -689,7 +739,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.34.2"
+                            "version": "3.34.2",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -714,7 +765,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "7.10.20"
+                            "version": "7.10.20",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -741,7 +793,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.1.0"
+                            "version": "1.1.0",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -769,7 +822,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.2.75"
+                            "version": "1.2.75",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -796,7 +850,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.551"
+                            "version": "1.551",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -823,7 +878,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.7.8"
+                            "version": "5.7.8",
+                            "versionCodes": null
                         }
                     ]
                 },
@@ -839,7 +895,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.2.1"
+                            "version": "1.2.1",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -867,7 +924,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "2026.4"
+                            "version": "2026.4",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -892,7 +950,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "8.3_arm64"
+                            "version": "8.3_arm64",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -919,7 +978,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.70.0"
+                            "version": "3.70.0",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -944,7 +1004,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "20260526"
+                            "version": "20260526",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -969,7 +1030,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "2.27.3.6291"
+                            "version": "2.27.3.6291",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -994,7 +1056,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.21.16"
+                            "version": "1.21.16",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1019,7 +1082,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.16.0"
+                            "version": "1.16.0",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1046,7 +1110,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "53.1"
+                            "version": "53.1",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1071,7 +1136,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.61.01"
+                            "version": "3.61.01",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1096,7 +1162,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": null
+                            "version": null,
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1121,7 +1188,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "50.0.2"
+                            "version": "50.1.1",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1148,7 +1216,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.21.1"
+                            "version": "26.21.1",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1173,7 +1242,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "81042 (8.5.1)"
+                            "version": "81042 (8.5.1)",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1198,7 +1268,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "14.0.4"
+                            "version": "14.0.4",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1225,7 +1296,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "4.6826"
+                            "version": "4.6826",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1250,7 +1322,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "9.11"
+                            "version": "9.11",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1277,7 +1350,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "2.2.2"
+                            "version": "2.2.2",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1304,7 +1378,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.9.8"
+                            "version": "3.9.8",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1329,7 +1404,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "6.6 build 002"
+                            "version": "6.6 build 002",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1356,7 +1432,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.4.1"
+                            "version": "3.4.1",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1381,7 +1458,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "18.24"
+                            "version": "18.24",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1408,7 +1486,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "10.15.0"
+                            "version": "10.15.0",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1435,7 +1514,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "2.5.1.1"
+                            "version": "2.5.1.1",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1462,7 +1542,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "2026.04.27-release"
+                            "version": "2026.04.27-release",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1489,7 +1570,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.0.452.1047"
+                            "version": "3.0.452.1047",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1514,7 +1596,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "4.12.19"
+                            "version": "4.12.19",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1547,12 +1630,43 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "6.0.7"
+                            "version": "6.0.7",
+                            "versionCodes": null
                         }
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
+            "name": "MicroG integration",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#4285F4",
+                    "description": null,
+                    "name": "Google News",
+                    "packageName": "com.google.android.apps.magazines",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.161.0.931240252",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
@@ -1576,12 +1690,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "2026.4"
+                            "version": "2026.4",
+                            "versionCodes": null
                         }
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
@@ -1605,12 +1720,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.4.1"
+                            "version": "3.4.1",
+                            "versionCodes": null
                         }
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
@@ -1634,12 +1750,13 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.21.16"
+                            "version": "1.21.16",
+                            "versionCodes": null
                         }
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
@@ -1663,7 +1780,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.17.72.0"
+                            "version": "5.17.72.0",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1688,13 +1806,15 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.9.3-GooglePlay"
+                            "version": "1.9.3-GooglePlay",
+                            "versionCodes": null
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.9.3-storage"
+                            "version": "1.9.3-storage",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1721,7 +1841,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.0.452.1047"
+                            "version": "3.0.452.1047",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1746,7 +1867,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.0.452.1047"
+                            "version": "3.0.452.1047",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1773,7 +1895,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": null
+                            "version": null,
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1798,7 +1921,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.17.72.0"
+                            "version": "5.17.72.0",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1823,7 +1947,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.17.72.0"
+                            "version": "5.17.72.0",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1848,7 +1973,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.21.0-release"
+                            "version": "1.21.0-release",
+                            "versionCodes": null
                         }
                     ]
                 }
@@ -1875,7 +2001,8 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.17.72.0"
+                            "version": "5.17.72.0",
+                            "versionCodes": null
                         }
                     ]
                 }
