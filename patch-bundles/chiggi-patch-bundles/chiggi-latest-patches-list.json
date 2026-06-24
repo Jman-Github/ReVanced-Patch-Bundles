@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.2",
+    "version": "v1.14.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -789,7 +789,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes native ads (AdMob and its Pangle/Audience Network mediation) by neutering the Capacitor AdMob plugin (com.getcapacitor.community.admob.AdMob): interstitial and banner shows resolve immediately with nothing displayed, and rewarded ads auto-grant their reward without playing a video. Note: in-page web video ads served remotely inside the WebView (from crazygames.com) are not part of the app bytecode and cannot be removed here.",
+            "description": "Removes native ads (AdMob and its Pangle/Audience Network mediation) by neutering the Capacitor AdMob plugin (com.getcapacitor.community.admob.AdMob): no video is shown for interstitial or rewarded ads — instead the show methods fire the ad's lifecycle events so the game's loading overlay dismisses and rewarded ads still credit their reward; banners never display. Note: in-page web video ads served remotely inside the WebView (from crazygames.com) are not part of the app bytecode and cannot be removed here.",
             "name": "Remove ads",
             "options": []
         },

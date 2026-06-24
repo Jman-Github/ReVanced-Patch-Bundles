@@ -1,5 +1,5 @@
 {
-    "version": "v1.36.2-dev.1",
+    "version": "v1.37.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -350,6 +350,32 @@
             "dependencies": [],
             "description": "Disables SoundCloud's telemetry system.",
             "name": "Disable telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#4285F4",
+                    "description": null,
+                    "name": "Google News",
+                    "packageName": "com.google.android.apps.magazines",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.161.0.931240252",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Open articles using your default browser.",
+            "name": "Enable custom tabs",
             "options": []
         },
         {
@@ -1610,7 +1636,37 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
+            "name": "MicroG integration",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#4285F4",
+                    "description": null,
+                    "name": "Google News",
+                    "packageName": "com.google.android.apps.magazines",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.161.0.931240252",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
@@ -1640,7 +1696,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
@@ -1670,7 +1726,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
@@ -1700,7 +1756,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
