@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.2.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -126,31 +126,6 @@
             ],
             "description": "It adds the ‘Set as wallpaper’ option to the pin menu, which downloads uses the image and sets it as the device’s wallpaper.",
             "name": "Set pin as wallpaper",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#E60023",
-                    "description": null,
-                    "name": "Pinterest",
-                    "packageName": "com.pinterest",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "14.23.0"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Spoofs the application signature SHA-1 sent during App Integrity checks to bypass server-side signature validation.",
-            "name": "Spoof signature",
             "options": []
         }
     ]
