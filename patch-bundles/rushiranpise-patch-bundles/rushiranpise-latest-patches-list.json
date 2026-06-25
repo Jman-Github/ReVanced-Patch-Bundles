@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0-dev.3",
+    "version": "v1.7.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -1576,6 +1576,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#00AEEF",
+                    "description": null,
+                    "name": "Windscribe VPN",
+                    "packageName": "com.windscribe.vpn",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.1.2274"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Windscribe premium account.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#4CAF50",
                     "description": null,
                     "name": "Clickmate",
@@ -1595,6 +1620,31 @@
             "dependencies": [],
             "description": "Unlocks premium in Clickmate",
             "name": "Unlock Premium ",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#F25C1B",
+                    "description": null,
+                    "name": "AccuWeather: Weather Radar",
+                    "packageName": "com.accuweather.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "21.1.11-1-rc"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks AccuWeather's Premium+ subscription tier without a Play Store purchase. Enables the full 15-day and hourly forecast detail, MinuteCast extended precision, air quality and health indexes, real-feel temperature, severe weather notifications, and widget customisation.",
+            "name": "Unlock Premium+",
             "options": []
         },
         {
