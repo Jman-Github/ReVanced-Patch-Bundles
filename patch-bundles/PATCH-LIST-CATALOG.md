@@ -74,7 +74,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 23 | 12 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 74 | 51 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 87 | 7 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 115 | 4 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 117 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 2 | 2 | Generated |
@@ -2597,7 +2597,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 115 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 117 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2606,11 +2606,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```All versions``` |
 | ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```All versions``` |
 | ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```All versions``` |
+| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```All versions``` |
 | ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```All versions``` |
-| ```Hide recommended communities shelf``` | ```Adds an option to hide the recommended communities shelves in subreddits.``` | ```Reddit``` | ```All versions``` |
 | ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```All versions``` |
 | ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```All versions``` |
-| ```Hide Trending Today shelf``` | ```Adds an option to hide the Trending Today shelf from search suggestions.``` | ```Reddit``` | ```All versions``` |
+| ```Hide Trending shelves``` | ```Adds an option to hide Trending shelves from search suggestions.``` | ```Reddit``` | ```All versions``` |
 | ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```All versions``` |
 | ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```All versions``` |
 | ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```All versions``` |
@@ -2666,6 +2666,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Media notification controls``` | ```Adds options to disable the seekbar and previous/next buttons in the media notification and headphone controls.``` | ```YouTube``` | ```All versions``` |
 | ```Miniplayer``` | ```Adds options to change the in-app minimized player.``` | ```YouTube``` | ```All versions``` |
 | ```Navigation bar``` | ```Adds options to hide and change the bottom navigation bar (such as the Shorts button) and the upper navigation toolbar. Patching version 20.21.37 and lower also adds a setting to use a wide searchbar.``` | ```YouTube``` | ```All versions``` |
+| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy.``` | ```YouTube``` | ```All versions``` |
 | ```Open channel of live avatar``` | ```Adds an option to prevent a channel's current live video from opening when tapping its avatar.``` | ```YouTube``` | ```All versions``` |
 | ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app browser.``` | ```YouTube``` | ```All versions``` |
 | ```Open Shorts in regular player``` | ```Adds options to open Shorts in the regular video player.``` | ```YouTube``` | ```All versions``` |
@@ -2710,6 +2711,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide music video ads``` | ```Adds an option to hide ads that appear while listening to or streaming music videos, podcasts, or songs.``` | ```YouTube Music``` | ```All versions``` |
 | ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```All versions``` |
 | ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```All versions``` |
+| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy.``` | ```YouTube Music``` | ```All versions``` |
 | ```Permanent repeat``` | ```Adds an option to always repeat even if the playlist ends or another track is played.``` | ```YouTube Music``` | ```All versions``` |
 | ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```All versions``` |
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```All versions``` |
