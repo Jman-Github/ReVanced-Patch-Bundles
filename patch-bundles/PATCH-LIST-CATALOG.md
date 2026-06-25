@@ -111,7 +111,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 15 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
 | [Rushiranpise](#-rushiranpise-bundle-patch-list) | 69 | 49 | Generated |
-| [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 3 | 1 | Generated |
+| [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -3923,10 +3923,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Sjshb57-PairIP Bundle Patch List:
 [📦 Sjshb57-PairIP-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-sjshb57-pairip-patches-bundle-morphe)
 <details>
-<summary><b>Sjshb57-PairIP</b> - 3 patches, 1 app</summary>
+<summary><b>Sjshb57-PairIP</b> - 4 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Inline pairip call wrappers``` | ```Inlines pairip's static call-wrapper stubs ($<number>) back into their call sites and removes the stubs.``` | ```Universal``` | ```All versions``` |
 | ```Remove pairip protection``` | ```Restores obfuscated strings and removes pairip bytecode protection.``` | ```Universal``` | ```All versions``` |
 | ```Restore extracted methods``` | ```Inlines methods hidden in $c<number> helper classes back into the host class, then removes those helper and reflection method-holder classes.``` | ```Universal``` | ```All versions``` |
 | ```Strip debug info``` | ```Removes .line (line numbers) and .source (source file name) debug data from every class. Optional, disabled by default.``` | ```Universal``` | ```All versions``` |

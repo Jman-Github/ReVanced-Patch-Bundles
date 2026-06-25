@@ -1,5 +1,5 @@
 {
-    "version": "v2.8.0-dev.2",
+    "version": "v2.8.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -522,6 +522,7 @@
             "default": true,
             "dependencies": [
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Choose the suggested content to hide using the patch options.",
@@ -551,6 +552,15 @@
                     "key": "hideHighlightStories",
                     "required": false,
                     "title": "Hide highlights in stories",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides suggested accounts from the list of followers and from other profiles.",
+                    "key": "hideSuggestedAccount",
+                    "required": false,
+                    "title": "Hide suggested accounts",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
