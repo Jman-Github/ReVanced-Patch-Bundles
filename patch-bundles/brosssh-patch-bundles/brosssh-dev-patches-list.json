@@ -1,5 +1,5 @@
 {
-    "version": "v2.8.1-dev.1",
+    "version": "v2.8.1-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -227,7 +227,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "\n        Hides all stories from the tray in the feed page.\n        You may need to clean app data after the initial use of this patch to see its effects.\n    ",
+            "description": "Hides all stories from the tray in the feed page.\nYou may need to clean app data after the initial use of this patch to see its effects.",
             "name": "Hide all stories",
             "options": []
         },
