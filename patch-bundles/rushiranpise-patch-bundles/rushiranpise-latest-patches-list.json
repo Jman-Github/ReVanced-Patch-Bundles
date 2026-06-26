@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0-dev.5",
+    "version": "v1.7.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -104,43 +104,6 @@
                     "required": false,
                     "title": "Min between alerts (m)",
                     "type": "kotlin.Long",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#33CCFF",
-                    "description": null,
-                    "name": "Waze - GPS, Maps & Traffic",
-                    "packageName": "com.waze",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.19.0.2"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Allows third-party audio apps (like Morphe YouTube Music) to be recognized as official partners by Waze AudioKit.",
-            "name": "AudioKit Integration",
-            "options": [
-                {
-                    "default": "app.morphe.android.apps.youtube.music",
-                    "description": "The package name of the YouTube Music app to spoof.",
-                    "key": "packageName",
-                    "required": false,
-                    "title": "Target Package Name",
-                    "type": "kotlin.String",
                     "values": null
                 }
             ]
@@ -1956,31 +1919,6 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Splitwise Pro features, removes ad banners, and suppresses all upgrade upsell prompts.",
-            "name": "Unlock Pro",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#263238",
-                    "description": null,
-                    "name": "Tasker",
-                    "packageName": "net.dinglisch.android.taskerm",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "6.6.20"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks Tasker Pro features.",
             "name": "Unlock Pro",
             "options": []
         },
