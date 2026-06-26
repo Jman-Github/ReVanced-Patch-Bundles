@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.0-dev.1",
+    "version": "v1.13.0-dev.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -202,6 +202,18 @@
             "dependencies": [],
             "description": "允許切換新版或舊版 Gboard 設定頁面\nAllow switching between the new and legacy Gboard settings pages.",
             "name": "Settings Homepage Override",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "滑動鍵盤第一排，在原生列與可自訂文字/JavaScript 列之間切換\nSwipe the keyboard top row to switch between the stock row and a customizable text/JavaScript row.",
+            "name": "Swipeable Custom Top Row",
             "options": [],
             "use": true
         },
