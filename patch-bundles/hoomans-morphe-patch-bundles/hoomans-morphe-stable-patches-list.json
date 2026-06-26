@@ -1,5 +1,5 @@
 {
-    "version": "v1.31.0",
+    "version": "v1.31.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -816,7 +816,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "RawResourcePatch"
+            ],
             "description": "Unlocks InShot's Pro features without a subscription: no export watermark, no ads, and the paid filters, effects, transitions, stickers and HD export open. The on-device AI tools (background remover, AI retouch, auto captions) verify the original signing key in native code, so those may not run on a re-signed build; the rest of Pro works offline.",
             "name": "Unlock Pro",
             "options": []
