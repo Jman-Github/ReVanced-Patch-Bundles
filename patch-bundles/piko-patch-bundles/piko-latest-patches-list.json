@@ -1,5 +1,5 @@
 {
-    "version": "v3.7.0-dev.7",
+    "version": "v3.7.0-dev.9",
     "patches": [
         {
             "compatiblePackages": [
@@ -911,7 +911,8 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": null,
             "name": "Customise story ring size",
@@ -1950,6 +1951,7 @@
             "default": true,
             "dependencies": [
                 "BytecodePatch",
+                "ResourcePatch",
                 "BytecodePatch"
             ],
             "description": null,
@@ -3550,7 +3552,8 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Hides the reshare button from both posts and reels.",
             "name": "Hide reshare button",
