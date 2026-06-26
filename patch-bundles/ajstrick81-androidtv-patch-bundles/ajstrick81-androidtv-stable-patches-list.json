@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.7",
+    "version": "v1.6.0",
     "patches": [
         {
             "compatibility": [
@@ -60,6 +60,34 @@
             "dependencies": [],
             "description": "Removes mid-roll / pre-roll ads and pause ads.",
             "name": "Disney+ Android TV",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 1539022,
+                    "description": null,
+                    "name": "Prime Video Android TV",
+                    "packageName": "com.amazon.amazonvideo.livingroom",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "6.23.23+v15.5.0.70-armv7a"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.amazon.amazonvideo.livingroom": [
+                    "6.23.23+v15.5.0.70-armv7a"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Diagnostic-only: logs outbound GMB messages (Java→native) to logcat to test whether the send direction carries ad-related traffic.",
+            "name": "GMB send diagnostic (debug)",
             "options": [],
             "use": true
         },
@@ -141,7 +169,33 @@
                 ]
             },
             "dependencies": [],
-            "description": "Allows HTTPS traffic inspection tools like AdGuard Premium to intercept app connections. Enables consistent pre-roll suppression when used alongside AdGuard Premium.",
+            "description": "Adds a network_security_config trusting user CAs (no pin sets) so AdGuard Premium can inspect the app's platform-stack HTTPS. Optional adjunct: Prime Video's ad plane is largely native libcurl, so DNS blocking is the primary tool.",
+            "name": "Override certificate pinning",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 41193,
+                    "description": null,
+                    "name": "ViX Android TV",
+                    "packageName": "com.univision.prendetv",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "4.46.0_tv"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.univision.prendetv": [
+                    "4.46.0_tv"
+                ]
+            },
+            "dependencies": [],
+            "description": "Allows HTTPS traffic inspection tools like AdGuard Premium to intercept app connections. Enables ViX live (Lura SSAI) ad suppression when used alongside AdGuard Premium.",
             "name": "Override certificate pinning",
             "options": [],
             "use": true
@@ -335,7 +389,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Suppresses ViX ad delivery by disabling the FreeWheel ad provider at the config level and preventing the Innovid SSAI overlay from mounting.",
+            "description": "Suppresses ViX ad delivery by stopping the LuraPlayer linear ad-break scheduler (client-side VAST) and preventing the Innovid SSAI ad overlay from mounting.",
             "name": "Skip ads",
             "options": [],
             "use": true
