@@ -72,7 +72,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 23 | 12 | Generated |
-| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 74 | 51 | Generated |
+| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 75 | 52 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 87 | 7 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 118 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
@@ -2294,12 +2294,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Hoo-dles Bundle Patch List:
 [📦 Hoo-dles-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoo-dles-patches-bundle-morphe)
 <details>
-<summary><b>Hoo-dles</b> - 74 patches, 51 apps</summary>
+<summary><b>Hoo-dles</b> - 75 patches, 52 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```AdGuard``` | ```All versions``` |
-| ```Enable Peak membership``` | ```Enables app features locked behind the subscription paywall.``` | ```AllTrails``` | ```All versions``` |
+| ```Enable Peak membership``` | ```Enables some app features locked behind the subscription paywall. Not all premium functionality is available.``` | ```AllTrails``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Avocards``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Busuu``` | ```All versions``` |
 | ```Enable Plus``` | ```Enable Plus membership (not all features are available). There is a strict version requirement for this patch.``` | ```Cake``` | ```All versions``` |
@@ -2314,6 +2314,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Force Native Keyboard``` | ```When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.``` | ```Eggbun``` | ```All versions``` |
 | ```Enable FotMob+``` | ```Enables app features locked behind the subscription paywall.``` | ```FotMob``` | ```All versions``` |
 | ```AMOLED dark theme``` | ```Changes the default dark theme to use true blacks for AMOLED screens.``` | ```GitHub``` | ```All versions``` |
+| ```Disable ads``` | ```Disables all ads contained within the UI.``` | ```Goodreads``` | ```All versions``` |
 | ```Enable custom tabs``` | ```Open articles using your default browser.``` | ```Google News``` | ```All versions``` |
 | ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```Google News``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```HelloChinese``` | ```All versions``` |
