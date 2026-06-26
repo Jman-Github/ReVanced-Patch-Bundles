@@ -6,6 +6,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### API v4
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [AppleMusic](#-applemusic-bundle-patch-list) | 2 | 1 | Generated |
 | [ReVanced](#-revanced-bundle-patch-list) | 288 | 89 | Generated |
 | [Inotia00](#-inotia00-bundle-patch-list) | 127 | 4 | Generated |
 | [MTGA](#-mtga-bundle-patch-list) | 22 | 1 | Generated |
@@ -43,6 +44,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [Ynotzort](#-ynotzort-bundle-patch-list) | 1 | 1 | Generated |
 | [BrayDog2010](#-braydog2010-bundle-patch-list) | 2 | 1 | Generated |
 | [TS2](#-ts2-bundle-patch-list) | 1 | 1 | Generated |
 | [Samsung-Morphe](#-samsung-morphe-bundle-patch-list) | 2 | 1 | Generated |
@@ -125,6 +127,31 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [AyushTNM](#-ayushtnm-bundle-patch-list) | 3 | 1 | Generated |
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
+
+---
+### 🧩 AppleMusic Bundle Patch List:
+[📦 AppleMusic-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-applemusic-patches-bundle-api-v4)
+<details>
+<summary><b>AppleMusic</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Fix Dolby Atmos for TV``` | ```Replaces audio/eac3-joc to audio/eac3 to make it working on TV!``` | ```com.apple.android.music``` | ```All versions``` |
+| ```Fix leanback for TV``` | ```Make leanback & touchscreen not required!``` | ```com.apple.android.music``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Ynotzort Bundle Patch List:
+[📦 Ynotzort-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ynotzort-patches-bundle-morphe)
+<details>
+<summary><b>Ynotzort</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable TargoBank root check``` | ```Neutralises the splash 'rooted device' block by forcing the security verdict getters (o.aNj.con/Aux/AuX) to return false, so the app proceeds to the login screen. Validated on V12.68.1 (versionCode 2019102761). Note: re-signing breaks Play Integrity app-recognition; keep the app in the Magisk denylist.``` | ```TARGOBANK``` | ```All versions``` |
+
+</details>
 
 ---
 ### 🧩 BrayDog2010 Bundle Patch List:

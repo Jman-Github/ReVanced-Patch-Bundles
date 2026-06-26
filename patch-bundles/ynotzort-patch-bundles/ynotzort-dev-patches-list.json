@@ -1,0 +1,33 @@
+{
+    "version": "v1.0.0-dev.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "TARGOBANK",
+                    "packageName": "com.targo_prod.bad",
+                    "signatures": [
+                        "543468cf37c5536717b8950168f7990e7d5bc61ea8dc5b39d8d4ff249f892a4c"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "V12.68.1",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralises the splash 'rooted device' block by forcing the security verdict getters (o.aNj.con/Aux/AuX) to return false, so the app proceeds to the login screen. Validated on V12.68.1 (versionCode 2019102761). Note: re-signing breaks Play Integrity app-recognition; keep the app in the Magisk denylist.",
+            "name": "Disable TargoBank root check",
+            "options": []
+        }
+    ]
+}

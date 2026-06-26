@@ -1,0 +1,25 @@
+{
+    "version": "v1.2.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.apple.android.music": []
+            },
+            "dependencies": [],
+            "description": "Replaces audio/eac3-joc to audio/eac3 to make it working on TV!",
+            "name": "Fix Dolby Atmos for TV",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.apple.android.music": []
+            },
+            "dependencies": [],
+            "description": "Make leanback & touchscreen not required!",
+            "name": "Fix leanback for TV",
+            "options": [],
+            "use": true
+        }
+    ]
+}
