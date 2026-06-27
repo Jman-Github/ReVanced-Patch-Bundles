@@ -2635,7 +2635,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```All versions``` |
 | ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```All versions``` |
 | ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```All versions``` |
-| ```Hide Trending shelves``` | ```Adds an option to hide Trending shelves from search suggestions.``` | ```Reddit``` | ```All versions``` |
+| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```All versions``` |
 | ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```All versions``` |
 | ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```All versions``` |
 | ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```All versions``` |
