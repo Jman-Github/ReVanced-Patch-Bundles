@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0-dev.6",
+    "version": "v1.8.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -201,6 +201,37 @@
                     "apkFileType": null,
                     "appIconColor": "#E53935",
                     "description": null,
+                    "name": "MovieBox TV",
+                    "packageName": "com.community.oneroom",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.0.15.0616.03"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.0.2.0526.03"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces MemberCheckResult.isPassed() to always return Boolean.TRUE, bypassing the server-side membership gate and preventing the 'Get Premium / 7-day trial' dialog.",
+            "name": "Bypass member rights check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#E53935",
+                    "description": null,
                     "name": "Crime Radar",
                     "packageName": "com.newsbreak.crimeradar",
                     "signatures": null,
@@ -218,6 +249,37 @@
             "dependencies": [],
             "description": "Bypasses the subscription paywall in-app.",
             "name": "Bypass Subscription Paywall",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#E53935",
+                    "description": null,
+                    "name": "MovieBox TV",
+                    "packageName": "com.community.oneroom",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.0.15.0616.03"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.0.2.0526.03"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces MemberResolutionBean.getVipResolutionTip() to always return Boolean.FALSE, suppressing any 'VIP only' badge shown on resolution options.",
+            "name": "Clear VIP resolution tip",
             "options": []
         },
         {
@@ -876,6 +938,99 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#E53935",
+                    "description": null,
+                    "name": "MovieBox TV",
+                    "packageName": "com.community.oneroom",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.0.15.0616.03"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.0.2.0526.03"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces MemberInfo.isActive() to always return true, making the app believe the membership subscription is active.",
+            "name": "Spoof member active status",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#E53935",
+                    "description": null,
+                    "name": "MovieBox TV",
+                    "packageName": "com.community.oneroom",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.0.15.0616.03"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.0.2.0526.03"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces MemberInfo.getDaysLeft() to always return 3650 (10 years), preventing the '0 days left' display on the premium screen.",
+            "name": "Spoof member days left",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#E53935",
+                    "description": null,
+                    "name": "MovieBox TV",
+                    "packageName": "com.community.oneroom",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.0.15.0616.03"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.0.2.0526.03"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces MemberProvider.c() (kv_is_pay_enable_member) and MemberProvider.e() (kv_is_skip_ad) to always return true.",
+            "name": "Spoof member provider flags",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#F48120",
                     "description": null,
                     "name": "1.1.1.1 + WARP",
@@ -895,6 +1050,37 @@
             "dependencies": [],
             "description": "Unlocks WARP+ UI locally.",
             "name": "Spoof WARP+ Unlimited UI",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#E53935",
+                    "description": null,
+                    "name": "MovieBox TV",
+                    "packageName": "com.community.oneroom",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.0.15.0616.03"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.0.2.0526.03"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Makes MemberProvider.w(F)V return immediately, suppressing the 'Claim 7-day trial / newbies bonus' ClaimMemberDialog popup.",
+            "name": "Suppress newbie bonus dialog",
             "options": []
         },
         {
@@ -1228,6 +1414,37 @@
                     "apkFileType": null,
                     "appIconColor": "#E53935",
                     "description": null,
+                    "name": "MovieBox TV",
+                    "packageName": "com.community.oneroom",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.0.15.0616.03"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.0.2.0526.03"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces MemberResolutionBean.isUnlock() to always return Boolean.TRUE, making all locally-cached episodes appear as unlocked to the playback layer.",
+            "name": "Unlock member resolution",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#E53935",
+                    "description": null,
                     "name": "Call Recorder - Automatic",
                     "packageName": "com.catalinagroup.callrecorder",
                     "signatures": null,
@@ -1401,6 +1618,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#1A1A2E",
+                    "description": null,
+                    "name": "Ninja VPN",
+                    "packageName": "app.ninjavpn.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.4.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Ninja VPN premium.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#FF6B9D",
                     "description": null,
                     "name": "Photo Editor",
@@ -1551,6 +1793,106 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#E53935",
+                    "description": null,
+                    "name": "Strength Training: Gym Workout",
+                    "packageName": "air.com.musclemotion.strength.mobile",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.5.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium content in Strength Training by Muscle Motion. ",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1B6AC9",
+                    "description": null,
+                    "name": "The Weather Channel",
+                    "packageName": "com.weather.Weather",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "16.10.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks The Weather Channel's Premium and Premium Pro subscription tiers. Enables the ad-free experience, extended 15-day hourly forecast, real-feel temperature, air quality index, minute-by-minute precipitation, severe weather notifications, and radar overlays gated behind the subscription paywall.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1565C0",
+                    "description": null,
+                    "name": "TiviMate IPTV Player",
+                    "packageName": "ar.tvplayer.tv",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.3.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks TiviMate Premium.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#DF1B12",
+                    "description": null,
+                    "name": "TomTom GO Navigation",
+                    "packageName": "com.tomtom.gplay.navapp",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.6.316-beta"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks car and truck premium features.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#1565C0",
                     "description": null,
                     "name": "Universal TV Remote Control",
@@ -1594,6 +1936,31 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Windscribe premium account.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#0FA0EB",
+                    "description": null,
+                    "name": "Windy: Weather Radar & Forecast",
+                    "packageName": "com.windyty.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Windy Pro features.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -1686,7 +2053,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "0.1297.0"
+                            "version": "0.1298.0"
                         }
                     ]
                 }
@@ -1844,6 +2211,35 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Pro features in app.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1565C0",
+                    "description": null,
+                    "name": "1Tap Cleaner",
+                    "packageName": "com.a0soft.gphone.acc.free",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.18"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Unlocks 1Tap Cleaner PRO: history export, app-group filters, unlimited cache targets, ad removal.",
             "name": "Unlock Pro",
             "options": []
         },
