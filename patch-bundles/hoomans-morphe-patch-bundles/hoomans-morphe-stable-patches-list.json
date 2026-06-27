@@ -1,5 +1,5 @@
 {
-    "version": "v1.31.1",
+    "version": "v1.31.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -853,34 +853,6 @@
                 "BytecodePatch"
             ],
             "description": "Unlocks all of Liquid Gallery's Pro features without a purchase.",
-            "name": "Unlock Pro",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#F82888",
-                    "description": null,
-                    "name": "Photo Editor Polish",
-                    "packageName": "photo.editor.photoeditor.photoeditorpro",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.763.262"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "RawResourcePatch"
-            ],
-            "description": "Unlocks the Pro features in Photo Editor Polish without a subscription and drops the ads and upgrade prompts. The AI tools and cloud assets, which the developer runs on its servers, stay locked.",
             "name": "Unlock Pro",
             "options": []
         },
