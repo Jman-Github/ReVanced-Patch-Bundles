@@ -1,5 +1,5 @@
 {
-    "version": "v1.37.0",
+    "version": "v1.38.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -122,6 +122,34 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#EAE2D6",
+                    "description": null,
+                    "name": "Goodreads",
+                    "packageName": "com.goodreads",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.75.0 Build 3",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Disables all ads contained within the UI.",
+            "name": "Disable ads",
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -492,7 +520,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Enables app features locked behind the subscription paywall.",
+            "description": "Enables some app features locked behind the subscription paywall. Not all premium functionality is available.",
             "name": "Enable Peak membership",
             "options": []
         },
