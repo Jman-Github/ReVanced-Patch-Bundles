@@ -2232,7 +2232,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Pro``` | ```Forces HypnoBox subscription entitlement checks to always pass.``` | ```HypnoBox``` | ```All versions``` |
 | ```Enable Pro``` | ```Unlock all Takeoff / First Class content without a paid membership.``` | ```Jack's Flight Club``` | ```All versions``` |
 | ```Enable Pro``` | ```Forces the RevenueCat SDK to report that all entitlements are active, bypassing premium restrictions.``` | ```Seedlang``` | ```All versions``` |
-| ```Enable Pro JS``` | ```Intercepts the React Native JS bundle and mocks subscription properties.``` | ```Seedlang``` | ```All versions``` |
+| ```Enable Pro JS``` | ```Patches the JS bundle to bypass Seedlang's membership gates for pro.``` | ```Seedlang``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Clone app``` | ```Renames the app and manifest package so it can be installed alongside another copy. By default this appends " B" to the launcher name and appends "B" to the package's main segment.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |

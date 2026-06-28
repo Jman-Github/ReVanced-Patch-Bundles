@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.9",
+    "version": "v1.3.0-dev.10",
     "patches": [
         {
             "compatiblePackages": null,
@@ -285,7 +285,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Intercepts the React Native JS bundle and mocks subscription properties.",
+            "description": "Patches the JS bundle to bypass Seedlang's membership gates for pro.",
             "name": "Enable Pro JS",
             "options": []
         },
