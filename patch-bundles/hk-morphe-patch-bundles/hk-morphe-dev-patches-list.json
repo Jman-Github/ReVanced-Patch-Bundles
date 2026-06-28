@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.1-dev.1",
+    "version": "v1.4.1-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -111,9 +111,10 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Fixes the \"Restore Comment\" feature (requires Sync Ultra) by fetching from an alternative API. Also adds a more accessible button for this feature.",
+            "description": "Fixes the \"Restore Comment\" feature (requires Sync Ultra) by fetching from an alternative API. Also includes UI changes to make this feature more accessible.",
             "name": "Fix \"Restore Comment\"",
             "options": []
         },
@@ -290,7 +291,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Enables the predictive back gesture with fixes for Reddit Sync.",
             "name": "Predictive back gesture (Reddit Sync)",
