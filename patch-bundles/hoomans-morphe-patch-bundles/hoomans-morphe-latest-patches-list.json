@@ -1,5 +1,5 @@
 {
-    "version": "v1.32.0",
+    "version": "v1.33.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -49,6 +49,137 @@
             "dependencies": [],
             "description": "Routes live streams through a free third-party proxy that strips the ads baked into the stream, so the proxy has to be up for playback to work; turn this patch off if it goes down. Mid-stream ads get dropped reliably, but a single preroll can still slip through when you first open a channel and Twitch has flagged the shared proxy. VOD ads aren't covered.",
             "name": "Block live ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#001935",
+                    "description": null,
+                    "name": "Tumblr",
+                    "packageName": "com.tumblr",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "45.0.0.109"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the banner with the frog that prompts you to buy Tumblr Ad-Free.",
+            "name": "Disable ad-free banner",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#001935",
+                    "description": null,
+                    "name": "Tumblr",
+                    "packageName": "com.tumblr",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "45.0.0.109"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the reminder asking you to enable notifications for blogs you visit.",
+            "name": "Disable blog notification reminder",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#001935",
+                    "description": null,
+                    "name": "Tumblr",
+                    "packageName": "com.tumblr",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "45.0.0.109"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the popup that suggests buying TumblrMart items for other people.",
+            "name": "Disable gift message popup",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#001935",
+                    "description": null,
+                    "name": "Tumblr",
+                    "packageName": "com.tumblr",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "45.0.0.109"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Turns off the in-app update check and the update prompt.",
+            "name": "Disable in-app update",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#001935",
+                    "description": null,
+                    "name": "Tumblr",
+                    "packageName": "com.tumblr",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "45.0.0.109"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes the Tumblr TV tab from the bottom navigation bar.",
+            "name": "Disable Tumblr TV",
             "options": []
         },
         {
