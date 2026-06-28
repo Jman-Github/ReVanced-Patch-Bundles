@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.3",
+    "version": "v1.3.0-dev.6",
     "patches": [
         {
             "compatiblePackages": null,
@@ -193,6 +193,68 @@
             "default": true,
             "dependencies": [],
             "description": "Forces HypnoBox subscription entitlement checks to always pass.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1D3557",
+                    "description": null,
+                    "name": "Jack's Flight Club",
+                    "packageName": "com.jacks_flights",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.103.0"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": ">=3.103.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock all Takeoff / First Class content without a paid membership.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "Seedlang",
+                    "packageName": "com.seedlang.mobile.android.all",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.9.28"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": ">=1.9.28"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces the RevenueCat SDK to report that all entitlements are active, bypassing premium restrictions.",
             "name": "Enable Pro",
             "options": []
         },
