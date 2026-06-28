@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.1",
+    "version": "v1.2.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -117,37 +117,6 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
-                    "appIconColor": "#3F6DFF",
-                    "description": null,
-                    "name": "Wanderlog",
-                    "packageName": "com.wanderlog.android",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.0.6"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": ">=1.0.6"
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Allows Wanderlog to run without login by injecting a local guest user and bypassing auth gates.",
-            "name": "Enable Offline Mode",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
                     "appIconColor": "#1F6FEB",
                     "description": null,
                     "name": "byAir",
@@ -224,37 +193,6 @@
             "default": true,
             "dependencies": [],
             "description": "Forces HypnoBox subscription entitlement checks to always pass.",
-            "name": "Enable Pro",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#3F6DFF",
-                    "description": null,
-                    "name": "Wanderlog",
-                    "packageName": "com.wanderlog.android",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.0.6"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": ">=1.0.6"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Forces pro entitlement checks to always pass.",
             "name": "Enable Pro",
             "options": []
         },
