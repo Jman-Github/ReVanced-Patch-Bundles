@@ -61,7 +61,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Lain](#-lain-bundle-patch-list) | 29 | 18 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
-| [Piko](#-piko-bundle-patch-list) | 122 | 2 | Generated |
+| [Piko](#-piko-bundle-patch-list) | 124 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 8 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
@@ -1027,7 +1027,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Piko Bundle Patch List:
 [📦 Piko-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-patches-bundle-morphe)
 <details>
-<summary><b>Piko</b> - 122 patches, 2 apps</summary>
+<summary><b>Piko</b> - 124 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1091,6 +1091,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Custom download folder``` | ```Change the download directory for video downloads``` | ```X``` | ```All versions``` |
 | ```Custom emoji font``` | ```Customise emoji font style``` | ```X``` | ```All versions``` |
 | ```Custom font``` | ```Customise font style``` | ```X``` | ```All versions``` |
+| ```Custom share menu``` | ```Overrides existing share menu and adds a new one``` | ```X``` | ```All versions``` |
 | ```Custom sharing domain``` | ```Allows for using domains like fxtwitter when sharing tweets/posts.``` | ```X``` | ```All versions``` |
 | ```Customise post font size``` | ```N/A``` | ```X``` | ```All versions``` |
 | ```Customize default reply sorting``` | ```N/A``` | ```X``` | ```All versions``` |
@@ -1152,6 +1153,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Show poll results``` | ```Adds an option to show poll results without voting``` | ```X``` | ```All versions``` |
 | ```Show post source label``` | ```Source label will be shown only on public posts``` | ```X``` | ```All versions``` |
 | ```Show sensitive media``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Support external downloader``` | ```N/A``` | ```X``` | ```All versions``` |
 | ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```X, Instagram``` | ```All versions``` |
 
 </details>
