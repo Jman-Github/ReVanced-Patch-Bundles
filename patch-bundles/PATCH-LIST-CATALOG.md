@@ -62,7 +62,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 122 | 2 | Generated |
-| [HK-Morphe](#-hk-morphe-bundle-patch-list) | 7 | 4 | Generated |
+| [HK-Morphe](#-hk-morphe-bundle-patch-list) | 8 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 22 | 5 | Generated |
@@ -1152,16 +1152,17 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 HK-Morphe Bundle Patch List:
 [📦 HK-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hk-morphe-patches-bundle-morphe)
 <details>
-<summary><b>HK-Morphe</b> - 7 patches, 4 apps</summary>
+<summary><b>HK-Morphe</b> - 8 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Fix "Other Discussions"``` | ```Fixes the "Other Discussions" feature.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Fix "Restore Comment"``` | ```Fixes the "Restore Comment" feature (requires Sync Ultra) by fetching from an alternative API. Also adds a more accessible button for this feature.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Fix imgur links``` | ```Fixes imgur.com/a/ links to properly display in the image viewer.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Fix r/random``` | ```Restores random subreddit functionality by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Predictive back gesture (Reddit Sync)``` | ```Enables the predictive back gesture with fixes for Reddit Sync.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID (default included).``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
-| ```Unlock Sync Ultra``` | ```Unlocks Sync Ultra and fixes the "Restore Comment" premium feature by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Unlock Sync Ultra``` | ```Unlocks Sync Ultra Lifetime.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Predictive back gesture``` | ```Enables the predictive back gesture introduced in Android 13.``` | ```Universal``` | ```All versions``` |
 
 </details>

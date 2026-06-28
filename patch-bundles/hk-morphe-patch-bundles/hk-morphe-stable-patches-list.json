@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.5",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -31,7 +31,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": null
+                            "version": "v23.06.30-13:39"
                         }
                     ]
                 },
@@ -47,7 +47,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": null
+                            "version": "v23.06.30-13:39"
                         }
                     ]
                 }
@@ -88,7 +88,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": null
+                            "version": "v23.06.30-13:39"
                         }
                     ]
                 },
@@ -104,7 +104,66 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": null
+                            "version": "v23.06.30-13:39"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Fixes the \"Restore Comment\" feature (requires Sync Ultra) by fetching from an alternative API. Also adds a more accessible button for this feature.",
+            "name": "Fix \"Restore Comment\"",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Sync for Reddit",
+                    "packageName": "com.laurencedawson.reddit_sync",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "v23.06.30-13:39"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Sync for Reddit Pro",
+                    "packageName": "com.laurencedawson.reddit_sync.pro",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "v23.06.30-13:39"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Sync for Reddit Dev",
+                    "packageName": "com.laurencedawson.reddit_sync.dev",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "v23.06.30-13:39"
                         }
                     ]
                 }
@@ -145,7 +204,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": null
+                            "version": "v23.06.30-13:39"
                         }
                     ]
                 },
@@ -161,7 +220,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": null
+                            "version": "v23.06.30-13:39"
                         }
                     ]
                 }
@@ -210,7 +269,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": null
+                            "version": "v23.06.30-13:39"
                         }
                     ]
                 },
@@ -226,7 +285,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": null
+                            "version": "v23.06.30-13:39"
                         }
                     ]
                 }
@@ -267,7 +326,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": null
+                            "version": "v23.06.30-13:39"
                         }
                     ]
                 },
@@ -283,7 +342,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": null
+                            "version": "v23.06.30-13:39"
                         }
                     ]
                 }
@@ -354,7 +413,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": null
+                            "version": "v23.06.30-13:39"
                         }
                     ]
                 },
@@ -370,16 +429,14 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": null
+                            "version": "v23.06.30-13:39"
                         }
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Unlocks Sync Ultra and fixes the \"Restore Comment\" premium feature by fetching from an alternative API.",
+            "dependencies": [],
+            "description": "Unlocks Sync Ultra Lifetime.",
             "name": "Unlock Sync Ultra",
             "options": []
         }
