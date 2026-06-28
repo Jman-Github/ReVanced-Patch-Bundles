@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.7",
+    "version": "v1.3.0-dev.8",
     "patches": [
         {
             "compatiblePackages": null,
@@ -256,6 +256,37 @@
             "dependencies": [],
             "description": "Forces the RevenueCat SDK to report that all entitlements are active, bypassing premium restrictions.",
             "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "Seedlang",
+                    "packageName": "com.seedlang.mobile.android.all",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.9.28"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": ">=1.9.28"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Intercepts the React Native JS bundle and mocks subscription properties.",
+            "name": "Enable Pro JS",
             "options": []
         },
         {
