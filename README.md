@@ -1512,6 +1512,71 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ynotzort-patch-bundles/ynotzort-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 Prathxm-Patches-Bundle [Morphe]:
+[🧩 Prathxm Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-prathxm-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/prathxm-patch-bundles/prathxm-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/prathxm-patch-bundles/prathxm-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/prathxm-patch-bundles/prathxm-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Telegram-Morphe-Patches-Bundle [Morphe]:
+[🧩 Telegram-Morphe Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-telegram-morphe-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/telegram-morphe-patch-bundles/telegram-morphe-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/telegram-morphe-patch-bundles/telegram-morphe-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/telegram-morphe-patch-bundles/telegram-morphe-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Morphe-Screenshot-Patches-Bundle [Morphe]:
+[🧩 Morphe-Screenshot Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-morphe-screenshot-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-screenshot-patch-bundles/morphe-screenshot-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-screenshot-patch-bundles/morphe-screenshot-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-screenshot-patch-bundles/morphe-screenshot-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 NPCI-BHIM-Patches-Bundle [Morphe]:
+[🧩 NPCI-BHIM Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-npci-bhim-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/npci-bhim-patch-bundles/npci-bhim-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/npci-bhim-patch-bundles/npci-bhim-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/npci-bhim-patch-bundles/npci-bhim-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Prathxm-YTMusic-Patches-Bundle [Morphe]:
+[🧩 Prathxm-YTMusic Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-prathxm-ytmusic-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/prathxm-ytmusic-patch-bundles/prathxm-ytmusic-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/prathxm-ytmusic-patch-bundles/prathxm-ytmusic-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/prathxm-ytmusic-patch-bundles/prathxm-ytmusic-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -1754,6 +1819,16 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [AppleMusic-Patches-Bundle](https://github.com/VinkyV/AppleMusicPatches)
 
 #### 🏷️ [Ynotzort-Patches-Bundle](https://github.com/ynotzort/morphe-patches)
+
+#### 🏷️ [Prathxm-Patches-Bundle](https://github.com/PrathxmOp/Prathxm-Patches)
+
+#### 🏷️ [Telegram-Morphe-Patches-Bundle](https://github.com/MoonShadowKeeper/Telegram-patchesMorphe)
+
+#### 🏷️ [Morphe-Screenshot-Patches-Bundle](https://github.com/Pa-kon/morphe-screenshot-patches)
+
+#### 🏷️ [NPCI-BHIM-Patches-Bundle](https://github.com/kun-codes/npci-bhim-morphe-patches)
+
+#### 🏷️ [Prathxm-YTMusic-Patches-Bundle](https://github.com/PrathxmOp/ytmusic-patches)
 
 </details>
 

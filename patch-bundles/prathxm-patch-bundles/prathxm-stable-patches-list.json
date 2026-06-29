@@ -1,0 +1,73 @@
+{
+    "version": "v1.3.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#81B64C",
+                    "description": null,
+                    "name": "Chess.com",
+                    "packageName": "com.chess",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.9.49",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.9.49-googleplay",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Removes advertisements, unlocks ad-free features, and enables local Stockfish engine for post-game review & analysis.",
+            "name": "Ad-Free & Local Analysis",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#81B64C",
+                    "description": null,
+                    "name": "Chess.com",
+                    "packageName": "com.chess",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.9.49",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.9.49-googleplay",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Changes the package name to com.chess.prathxm, allowing the patched app to be installed side-by-side with the original Chess.com app.",
+            "name": "Clone Chess.com",
+            "options": []
+        }
+    ]
+}

@@ -1,0 +1,178 @@
+{
+    "version": "v1.38.0",
+    "patches": [
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+            "name": "Change package name",
+            "options": [
+                {
+                    "default": "Default",
+                    "description": "The name of the package to rename the app to.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "key": "updatePermissions",
+                    "required": false,
+                    "title": "Update permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "key": "updateProviders",
+                    "required": false,
+                    "title": "Update providers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Update additional provider names declared by the app in the strings.xml file. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "key": "updateProvidersStrings",
+                    "required": false,
+                    "title": "Update providers strings",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0000",
+                    "description": null,
+                    "name": "YouTube Music",
+                    "packageName": "com.google.android.apps.youtube.music",
+                    "signatures": [
+                        "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+                        "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.24.51"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.23.52"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.22.53"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "9.15.51"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "8.51.51"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.29.52"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Displays the currently playing track on your Discord profile.",
+            "name": "Discord Rich Presence",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0000",
+                    "description": null,
+                    "name": "YouTube Music",
+                    "packageName": "com.google.android.apps.youtube.music",
+                    "signatures": [
+                        "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+                        "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.24.51"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.23.52"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.22.53"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "9.15.51"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "8.51.51"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.29.52"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to add played tracks to Last.fm and ListenBrainz.",
+            "name": "Scrobbling",
+            "options": []
+        }
+    ]
+}

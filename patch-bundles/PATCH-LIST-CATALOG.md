@@ -44,6 +44,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [Prathxm](#-prathxm-bundle-patch-list) | 2 | 1 | Generated |
+| [Telegram-Morphe](#-telegram-morphe-bundle-patch-list) | 10 | 1 | Generated |
+| [Morphe-Screenshot](#-morphe-screenshot-bundle-patch-list) | 1 | 1 | Generated |
+| [NPCI-BHIM](#-npci-bhim-bundle-patch-list) | 6 | 1 | Generated |
+| [Prathxm-YTMusic](#-prathxm-ytmusic-bundle-patch-list) | 3 | 2 | Generated |
 | [Ynotzort](#-ynotzort-bundle-patch-list) | 1 | 1 | Generated |
 | [BrayDog2010](#-braydog2010-bundle-patch-list) | 2 | 1 | Generated |
 | [TS2](#-ts2-bundle-patch-list) | 1 | 1 | Generated |
@@ -127,6 +132,83 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [AyushTNM](#-ayushtnm-bundle-patch-list) | 3 | 1 | Generated |
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
+
+---
+### 🧩 Prathxm Bundle Patch List:
+[📦 Prathxm-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-prathxm-patches-bundle-morphe)
+<details>
+<summary><b>Prathxm</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Ad-Free & Local Analysis``` | ```Removes advertisements, unlocks ad-free features, and enables local Stockfish engine for post-game review & analysis.``` | ```Chess.com``` | ```All versions``` |
+| ```Clone Chess.com``` | ```Changes the package name to com.chess.prathxm, allowing the patched app to be installed side-by-side with the original Chess.com app.``` | ```Chess.com``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Telegram-Morphe Bundle Patch List:
+[📦 Telegram-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-telegram-morphe-patches-bundle-morphe)
+<details>
+<summary><b>Telegram-Morphe</b> - 10 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Anti-delete messages``` | ```Prevents deleted messages from being removed locally.``` | ```Telegram``` | ```All versions``` |
+| ```Anti-disappearing media``` | ```Keeps view-once and self-destructing media viewable forever.``` | ```Telegram``` | ```All versions``` |
+| ```Bypass channel restrictions``` | ```Allows opening copyrighted, sensitive, and temporarily disabled channels.``` | ```Telegram``` | ```All versions``` |
+| ```Bypass content restrictions``` | ```Allows saving from restricted channels.``` | ```Telegram``` | ```All versions``` |
+| ```Bypass integrity``` | ```Bypasses integrity check to allow login on patched app.``` | ```Telegram``` | ```All versions``` |
+| ```Disable auto update``` | ```Disables automatic app update checks.``` | ```Telegram``` | ```All versions``` |
+| ```Download speed boost``` | ```Increases download chunk size and max concurrent requests.``` | ```Telegram``` | ```All versions``` |
+| ```Hide typing indicator``` | ```Hides your typing indicator from other users.``` | ```Telegram``` | ```All versions``` |
+| ```Remove ads``` | ```Removes sponsored messages and video ads.``` | ```Telegram``` | ```All versions``` |
+| ```Telegram Premium``` | ```Unlocks premium features.``` | ```Telegram``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Morphe-Screenshot Bundle Patch List:
+[📦 Morphe-Screenshot-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-screenshot-patches-bundle-morphe)
+<details>
+<summary><b>Morphe-Screenshot</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Remove screenshot restriction``` | ```Removes FLAG_SECURE from all windows so screenshots and screen recordings work in Instagram.``` | ```Instagram``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 NPCI-BHIM Bundle Patch List:
+[📦 NPCI-BHIM-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-npci-bhim-patches-bundle-morphe)
+<details>
+<summary><b>NPCI-BHIM</b> - 6 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Bypass License Activity``` | ```Neutralizes LicenseActivity.onStart to prevent the paywall and error dialog from being displayed, acting as a catch-all guard if LicenseActivity is ever started.``` | ```BHIM UPI``` | ```All versions``` |
+| ```Bypass License Check``` | ```Bypasses Google Play Store license verification in com.pairip.licensecheck.LicenseClient to prevent System.exit(0) on non-Play Store installs.``` | ```BHIM UPI``` | ```All versions``` |
+| ```Bypass License Paywall``` | ```Neutralizes the license paywall and error dialog at the source by patching LicenseClient.processResponse, startPaywallActivity, and handleError to return immediately.``` | ```BHIM UPI``` | ```All versions``` |
+| ```Bypass Signature Verification``` | ```Bypasses APK signature verification in com.pairip.SignatureCheck to prevent SignatureTamperedException on modified APKs.``` | ```BHIM UPI``` | ```All versions``` |
+| ```Disable Blacklisting``` | ```Disables the blacklisting check in the affirmation flow to prevent the app from blocking rooted devices server-side.``` | ```BHIM UPI``` | ```All versions``` |
+| ```Force Safe Root Status``` | ```Forces the root status to 'safe' in device details and skips root status comparison logic to bypass root detection on the client side.``` | ```BHIM UPI``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Prathxm-YTMusic Bundle Patch List:
+[📦 Prathxm-YTMusic-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-prathxm-ytmusic-patches-bundle-morphe)
+<details>
+<summary><b>Prathxm-YTMusic</b> - 3 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
+| ```Discord Rich Presence``` | ```Displays the currently playing track on your Discord profile.``` | ```YouTube Music``` | ```All versions``` |
+| ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```All versions``` |
+
+</details>
 
 ---
 ### 🧩 AppleMusic Bundle Patch List:

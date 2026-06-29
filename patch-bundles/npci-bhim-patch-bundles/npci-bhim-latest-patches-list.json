@@ -1,0 +1,161 @@
+{
+    "version": "v1.3.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#097969",
+                    "description": null,
+                    "name": "BHIM UPI",
+                    "packageName": "in.org.npci.upiapp",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.0.24",
+                            "versionCodes": {}
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes LicenseActivity.onStart to prevent the paywall and error dialog from being displayed, acting as a catch-all guard if LicenseActivity is ever started.",
+            "name": "Bypass License Activity",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#097969",
+                    "description": null,
+                    "name": "BHIM UPI",
+                    "packageName": "in.org.npci.upiapp",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.0.24",
+                            "versionCodes": {}
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses Google Play Store license verification in com.pairip.licensecheck.LicenseClient to prevent System.exit(0) on non-Play Store installs.",
+            "name": "Bypass License Check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#097969",
+                    "description": null,
+                    "name": "BHIM UPI",
+                    "packageName": "in.org.npci.upiapp",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.0.24",
+                            "versionCodes": {}
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes the license paywall and error dialog at the source by patching LicenseClient.processResponse, startPaywallActivity, and handleError to return immediately.",
+            "name": "Bypass License Paywall",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#097969",
+                    "description": null,
+                    "name": "BHIM UPI",
+                    "packageName": "in.org.npci.upiapp",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.0.24",
+                            "versionCodes": {}
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses APK signature verification in com.pairip.SignatureCheck to prevent SignatureTamperedException on modified APKs.",
+            "name": "Bypass Signature Verification",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#097969",
+                    "description": null,
+                    "name": "BHIM UPI",
+                    "packageName": "in.org.npci.upiapp",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.0.24",
+                            "versionCodes": {}
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the blacklisting check in the affirmation flow to prevent the app from blocking rooted devices server-side.",
+            "name": "Disable Blacklisting",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#097969",
+                    "description": null,
+                    "name": "BHIM UPI",
+                    "packageName": "in.org.npci.upiapp",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.0.24",
+                            "versionCodes": {}
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces the root status to 'safe' in device details and skips root status comparison logic to bypass root detection on the client side.",
+            "name": "Force Safe Root Status",
+            "options": []
+        }
+    ]
+}

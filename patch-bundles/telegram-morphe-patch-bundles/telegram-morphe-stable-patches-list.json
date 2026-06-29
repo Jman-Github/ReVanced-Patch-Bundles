@@ -1,0 +1,255 @@
+{
+    "version": "v1.20.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.8.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents deleted messages from being removed locally.",
+            "name": "Anti-delete messages",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.8.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Keeps view-once and self-destructing media viewable forever.",
+            "name": "Anti-disappearing media",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.8.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows opening copyrighted, sensitive, and temporarily disabled channels.",
+            "name": "Bypass channel restrictions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.8.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows saving from restricted channels.",
+            "name": "Bypass content restrictions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.8.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses integrity check to allow login on patched app.",
+            "name": "Bypass integrity",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.8.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables automatic app update checks.",
+            "name": "Disable auto update",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.8.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Increases download chunk size and max concurrent requests.",
+            "name": "Download speed boost",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.8.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides your typing indicator from other users.",
+            "name": "Hide typing indicator",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.8.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes sponsored messages and video ads.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2AABEE",
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.8.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features.",
+            "name": "Telegram Premium",
+            "options": []
+        }
+    ]
+}
