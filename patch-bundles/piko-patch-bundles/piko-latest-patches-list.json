@@ -1,5 +1,5 @@
 {
-    "version": "v3.7.0-dev.9",
+    "version": "v3.8.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -289,6 +289,7 @@
             ],
             "default": false,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
@@ -786,6 +787,58 @@
             ],
             "description": "Customise font style",
             "name": "Custom font",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.81.0-release.0",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.99.0-release-ripped.1",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.0.0-release.0",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.2.0-release.0",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Overrides existing share menu and adds a new one",
+            "name": "Custom share menu",
             "options": []
         },
         {
@@ -4024,6 +4077,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Requires X 11.0.0-release.0 or higher.",
@@ -4076,6 +4130,7 @@
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Requires X 11.0.0-release.0 or higher.",
@@ -4125,6 +4180,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
@@ -4729,6 +4785,7 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Share tweets as rendered image. Requires X 11.0.0-release.0 or higher.",
@@ -4959,6 +5016,57 @@
             ],
             "description": null,
             "name": "Stories audio autoplay",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.81.0-release.0",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.99.0-release-ripped.1",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.0.0-release.0",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "12.2.0-release.0",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Support external downloader",
             "options": []
         },
         {

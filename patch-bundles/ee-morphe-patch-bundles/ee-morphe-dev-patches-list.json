@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.2",
+    "version": "v1.3.0-dev.11",
     "patches": [
         {
             "compatiblePackages": null,
@@ -117,37 +117,6 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
-                    "appIconColor": "#3F6DFF",
-                    "description": null,
-                    "name": "Wanderlog",
-                    "packageName": "com.wanderlog.android",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.0.6"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": ">=1.0.6"
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Allows Wanderlog to run without login by injecting a local guest user and bypassing auth gates.",
-            "name": "Enable Offline Mode",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
                     "appIconColor": "#1F6FEB",
                     "description": null,
                     "name": "byAir",
@@ -200,33 +169,6 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
-                    "appIconColor": "#00C29A",
-                    "description": null,
-                    "name": "Financeguru",
-                    "packageName": "de.dwins.financeguru",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "2.143.13"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Returns a synthetic active Financeguru Plus purchase from the React Native billing bridge.",
-            "name": "Enable Pro",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
                     "appIconColor": "#5EA15A",
                     "description": null,
                     "name": "HypnoBox",
@@ -258,31 +200,93 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
-                    "appIconColor": "#3F6DFF",
+                    "appIconColor": "#1D3557",
                     "description": null,
-                    "name": "Wanderlog",
-                    "packageName": "com.wanderlog.android",
+                    "name": "Jack's Flight Club",
+                    "packageName": "com.jacks_flights",
                     "signatures": null,
                     "targets": [
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.0.6"
+                            "version": "3.103.0"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": ">=1.0.6"
+                            "version": ">=3.103.0"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces pro entitlement checks to always pass.",
+            "description": "Unlock all Takeoff / First Class content without a paid membership.",
             "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "Seedlang",
+                    "packageName": "com.seedlang.mobile.android.all",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.9.28"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": ">=1.9.28"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces the RevenueCat SDK to report that all entitlements are active, bypassing premium restrictions.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "Seedlang",
+                    "packageName": "com.seedlang.mobile.android.all",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.9.28"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": ">=1.9.28"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Patches the JS bundle to bypass Seedlang's membership gates for pro.",
+            "name": "Enable Pro JS",
             "options": []
         },
         {

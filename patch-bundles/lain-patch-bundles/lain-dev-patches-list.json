@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.2",
+    "version": "v1.2.0-dev.3",
     "patches": [
         {
             "compatiblePackages": null,
@@ -505,6 +505,33 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#E8BF55",
+                    "description": null,
+                    "name": "Boorusama (Play Store)",
+                    "packageName": "com.degenk.boorusama",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.5.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Unlock plus features such as Exclusive Themes, Custom Layout & Home Screen, Enhanced Bulk Downloader.",
+            "name": "Unlock Plus",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#2196F2",
                     "description": null,
                     "name": "AudioRelay",
@@ -706,6 +733,64 @@
             "dependencies": [],
             "description": "Enable premium features.",
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FFFFFF",
+                    "description": null,
+                    "name": "Collage Maker - PhotoFancie",
+                    "packageName": "com.surmin.photofancie.lite",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.8.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enable pro features.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#0078B7",
+                    "description": null,
+                    "name": "Super Proxy",
+                    "packageName": "com.scheler.superproxy",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.2.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Unlock pro features such as Unlimited proxy usage, Allow/disallow specific apps, Block apps in firewall and many more...",
+            "name": "Unlock Pro",
             "options": []
         }
     ]

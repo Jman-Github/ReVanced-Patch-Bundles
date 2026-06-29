@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.7",
+    "version": "v1.2.0-dev.8",
     "patches": [
         {
             "compatiblePackages": [
@@ -15,7 +15,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -50,8 +50,7 @@
             "default": false,
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Adding the Loco Packet Handler allows external applications to handle the app's packets, which may compromise security.\nConflicts may occur on some systems.",
             "name": "Add Packet Handler",
@@ -96,7 +95,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -127,7 +126,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -228,7 +227,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -363,7 +362,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -469,7 +468,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -586,7 +585,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -699,7 +698,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -778,7 +777,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -878,7 +877,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -928,7 +927,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -1005,7 +1004,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -1037,7 +1036,6 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds a setting to disable comments in open chat rooms.",
@@ -1226,33 +1224,6 @@
             "options": []
         },
         {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF4500",
-                    "description": null,
-                    "name": "Unicorn Pro",
-                    "packageName": "com.unicornsoft.android.unicornpro",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.30.471"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Disables Sentry reporting",
-            "name": "Disable Sentry",
-            "options": []
-        },
-        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1324,7 +1295,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -1401,7 +1372,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -1584,7 +1555,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -1611,7 +1582,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -1638,7 +1609,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -1663,7 +1634,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -1835,7 +1806,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -2087,7 +2058,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -2114,7 +2085,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -2179,6 +2150,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
@@ -2271,7 +2243,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.2.15"
+                            "version": "5.2.17"
                         }
                     ]
                 }
@@ -2332,33 +2304,6 @@
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Unlock Premium features",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF4500",
-                    "description": null,
-                    "name": "Unicorn Pro",
-                    "packageName": "com.unicornsoft.android.unicornpro",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.30.471"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Makes Unicorn Pro report an active Pro license while preserving the original native object graph.",
-            "name": "Unlock Pro features",
             "options": []
         },
         {

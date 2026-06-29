@@ -1,5 +1,5 @@
 {
-    "version": "v1.31.1",
+    "version": "v1.35.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -49,6 +49,137 @@
             "dependencies": [],
             "description": "Routes live streams through a free third-party proxy that strips the ads baked into the stream, so the proxy has to be up for playback to work; turn this patch off if it goes down. Mid-stream ads get dropped reliably, but a single preroll can still slip through when you first open a channel and Twitch has flagged the shared proxy. VOD ads aren't covered.",
             "name": "Block live ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#001935",
+                    "description": null,
+                    "name": "Tumblr",
+                    "packageName": "com.tumblr",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "45.0.0.109"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the banner with the frog that prompts you to buy Tumblr Ad-Free.",
+            "name": "Disable ad-free banner",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#001935",
+                    "description": null,
+                    "name": "Tumblr",
+                    "packageName": "com.tumblr",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "45.0.0.109"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the reminder asking you to enable notifications for blogs you visit.",
+            "name": "Disable blog notification reminder",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#001935",
+                    "description": null,
+                    "name": "Tumblr",
+                    "packageName": "com.tumblr",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "45.0.0.109"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the popup that suggests buying TumblrMart items for other people.",
+            "name": "Disable gift message popup",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#001935",
+                    "description": null,
+                    "name": "Tumblr",
+                    "packageName": "com.tumblr",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "45.0.0.109"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Turns off the in-app update check and the update prompt.",
+            "name": "Disable in-app update",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#001935",
+                    "description": null,
+                    "name": "Tumblr",
+                    "packageName": "com.tumblr",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "45.0.0.109"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes the Tumblr TV tab from the bottom navigation bar.",
+            "name": "Disable Tumblr TV",
             "options": []
         },
         {
@@ -280,6 +411,31 @@
             ],
             "description": "Shows the squawk code and vertical speed in the flight detail panel instead of the \"Unlock feature\" lock. Both values are already in the live feed the app receives, so this only stops hiding them. The Gold map layers, flight history, and 3D view come from Flightradar24's servers and still need a subscription.",
             "name": "Unlock aircraft data",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#EF5350",
+                    "description": null,
+                    "name": "Smart AudioBook Player",
+                    "packageName": "ak.alizandro.smartaudiobookplayer",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.7.8"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Smart AudioBook Player's full version by forcing the local license decision to Full.",
+            "name": "Unlock Full",
             "options": []
         },
         {
@@ -596,6 +752,33 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#FF6A00",
+                    "description": null,
+                    "name": "Poweramp",
+                    "packageName": "com.maxmpz.audioplayer",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "build-1025-bundle-play"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Unlocks Poweramp's full version state and Feature Package #1.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#F08029",
                     "description": null,
                     "name": "Projectivy Launcher",
@@ -606,7 +789,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "4.68"
+                            "version": "4.70"
                         }
                     ]
                 }
@@ -709,6 +892,12 @@
                             "isExperimental": false,
                             "minSdk": null,
                             "version": "2.4.8.1"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.5.0.2-beta1"
                         }
                     ]
                 }
@@ -853,34 +1042,6 @@
                 "BytecodePatch"
             ],
             "description": "Unlocks all of Liquid Gallery's Pro features without a purchase.",
-            "name": "Unlock Pro",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#F82888",
-                    "description": null,
-                    "name": "Photo Editor Polish",
-                    "packageName": "photo.editor.photoeditor.photoeditorpro",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.763.262"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "RawResourcePatch"
-            ],
-            "description": "Unlocks the Pro features in Photo Editor Polish without a subscription and drops the ads and upgrade prompts. The AI tools and cloud assets, which the developer runs on its servers, stay locked.",
             "name": "Unlock Pro",
             "options": []
         },

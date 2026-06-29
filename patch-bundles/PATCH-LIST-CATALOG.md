@@ -60,14 +60,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [TS-Patches](#-ts-patches-bundle-patch-list) | 1 | 1 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 41 | 33 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 47 | 34 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
-| [Lain](#-lain-bundle-patch-list) | 26 | 15 | Generated |
+| [Lain](#-lain-bundle-patch-list) | 29 | 18 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
-| [Piko](#-piko-bundle-patch-list) | 122 | 2 | Generated |
-| [HK-Morphe](#-hk-morphe-bundle-patch-list) | 7 | 4 | Generated |
+| [Piko](#-piko-bundle-patch-list) | 124 | 2 | Generated |
+| [HK-Morphe](#-hk-morphe-bundle-patch-list) | 8 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 22 | 5 | Generated |
@@ -80,8 +80,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 23 | 12 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 75 | 52 | Generated |
-| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 87 | 7 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 118 | 4 | Generated |
+| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 85 | 6 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 121 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 2 | 2 | Generated |
@@ -114,10 +114,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ameen-Morphe](#-ameen-morphe-bundle-patch-list) | 2 | 2 | Generated |
 | [Kolaron](#-kolaron-bundle-patch-list) | 1 | 1 | Generated |
 | [ImmortalZeus](#-immortalzeus-bundle-patch-list) | 2 | 2 | Generated |
-| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 14 | 9 | Generated |
+| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 13 | 9 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 15 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 67 | 48 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 85 | 60 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Legacy
@@ -379,7 +379,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Hoomans-Morphe Bundle Patch List:
 [?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 41 patches, 33 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 47 patches, 34 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -407,14 +407,20 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Remove ads``` | ```Removes the ads Moovit shows around the map and search and between screens.``` | ```Moovit``` | ```All versions``` |
 | ```Unlock Moovit+``` | ```Unlocks the Moovit+ extras without paying, like the extra sort and time-of-travel options and compare-on-map, and stops the upgrade-to-Moovit+ popups that nag you on app open. Things Moovit runs on its servers, like transit ticketing, still need the real subscription. Pair this with Remove ads for the ad-free part of Moovit+.``` | ```Moovit``` | ```All versions``` |
 | ```Use your own Maps API key [REQUIRED]``` | ```Required for the map to load. Patching breaks Moovit's built-in Google Maps key, so you have to supply your own from a free Google Cloud project. In this patch's option, create a project, enable Maps SDK for Android, turn on billing, make an API key, and paste it in (leaving it unrestricted is easiest). Remove ads and Unlock Moovit+ both pull this in, so the map keeps working with either.``` | ```Moovit``` | ```All versions``` |
-| ```Unlock Pro``` | ```Unlocks the Pro features in Photo Editor Polish without a subscription and drops the ads and upgrade prompts. The AI tools and cloud assets, which the developer runs on its servers, stay locked.``` | ```Photo Editor Polish``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Poweramp's full version state and Feature Package #1.``` | ```Poweramp``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Projectivy Launcher's premium so the paywall stops sending you to the upgrade screen. Display profiles, custom wallpapers and backgrounds, parental controls, and the locked settings and customization options all open up. The gate is decided on the device, so there is no account to sign in to.``` | ```Projectivy Launcher``` | ```All versions``` |
 | ```Unlock Plus``` | ```Removes ads and unlocks the on-device Quizlet Plus features without a subscription. The AI tools, like Magic Notes and generation, run on Quizlet's servers and stay locked.``` | ```Quizlet``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Replaio's premium and removes the ads, so the equalizer, sleep timer, alarm, recording, and favorites all open up. Data Replaio keeps on its servers (synced favorites past the free cap) still needs an account that paid.``` | ```Replaio``` | ```All versions``` |
 | ```Unlock Premium``` | ```Turns on Rumble Premium without a subscription: removes the ad-supported playback, drops the premium upsell, and unlocks the premium-only videos. The premium flag is read from your account profile when you sign in, so it takes effect on a logged-in Rumble account.``` | ```Rumble``` | ```All versions``` |
+| ```Unlock Full``` | ```Unlocks Smart AudioBook Player's full version by forcing the local license decision to Full.``` | ```Smart AudioBook Player``` | ```All versions``` |
 | ```Unlock Pro``` | ```Turns on Stash Pro and removes the ads. Pro is a flag the server sends with your account, so the unlock takes effect on a signed-in account once it loads. With it on the ads go away and the Pro-gated UI opens up: the Become Pro upsell card, the home screen block layout, custom collection cover images, and the locked review detail fields. Anything the Stash server checks for a non-paying account is unaffected, so data kept behind a paid account does not sync. Re-signing breaks Google and Facebook login, so sign in with email.``` | ```Stash``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Teach Me Anatomy's premium features without a subscription, dropping the upgrade banners and ads and opening up the locked articles, quizzes, and flashcards. Content served from the server still needs a real account.``` | ```Teach Me Anatomy``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Tracked's premium training tools without a subscription, like muscle analytics and training programs. They run on the workout data already on your device, so they keep working offline. The separate human-coaching marketplace still needs its own subscription.``` | ```Tracked``` | ```All versions``` |
+| ```Disable ad-free banner``` | ```Hides the banner with the frog that prompts you to buy Tumblr Ad-Free.``` | ```Tumblr``` | ```All versions``` |
+| ```Disable blog notification reminder``` | ```Stops the reminder asking you to enable notifications for blogs you visit.``` | ```Tumblr``` | ```All versions``` |
+| ```Disable gift message popup``` | ```Stops the popup that suggests buying TumblrMart items for other people.``` | ```Tumblr``` | ```All versions``` |
+| ```Disable in-app update``` | ```Turns off the in-app update check and the update prompt.``` | ```Tumblr``` | ```All versions``` |
+| ```Disable Tumblr TV``` | ```Removes the Tumblr TV tab from the bottom navigation bar.``` | ```Tumblr``` | ```All versions``` |
 | ```Enable premium UI``` | ```Turns on the cosmetic Tumblr Premium look: the premium badge and the premium settings entry. This only changes how the app looks on your device. It does not buy or unlock anything on Tumblr's side, so ad-free, the badge on your blog, and anything the server checks still need a real subscription. Use "Remove ads" for an actually ad-free feed.``` | ```Tumblr``` | ```All versions``` |
 | ```Remove ads``` | ```Removes the ads in Tumblr: the dashboard ads from the ad networks and the Blaze posts (the paid-promoted posts other people pay to inject into the feed). It leaves your own following feed and reblogs untouched. Premium content like ad-free badges and TumblrMart items are sold by Tumblr's servers and still need a purchase.``` | ```Tumblr``` | ```All versions``` |
 | ```Auto claim channel points``` | ```Claims the channel points bonus chest for you automatically. Whenever Twitch makes a bonus available, the claim fires on its own so you don't have to tap the chest.``` | ```Twitch``` | ```All versions``` |
@@ -926,17 +932,19 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Lain Bundle Patch List:
 [📦 Lain-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lain-patches-bundle-morphe)
 <details>
-<summary><b>Lain</b> - 26 patches, 15 apps</summary>
+<summary><b>Lain</b> - 29 patches, 18 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable Ads``` | ```Disable banner, splash, and rewarded ads.``` | ```Android Proxy Server``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock premium features.``` | ```AudioRelay``` | ```All versions``` |
+| ```Unlock Plus``` | ```Unlock plus features such as Exclusive Themes, Custom Layout & Home Screen, Enhanced Bulk Downloader.``` | ```Boorusama (Play Store)``` | ```All versions``` |
 | ```Enable Raw Capture``` | ```Force enable DNG raw capture option.``` | ```Camera FV-5 Lite``` | ```All versions``` |
 | ```Fix Video Recording Intent``` | ```Fix opening Cinema FV-5 Lite from video recording menu.``` | ```Camera FV-5 Lite``` | ```All versions``` |
 | ```Higher Image Resolution``` | ```Unlock higher image resolutions that the device support.``` | ```Camera FV-5 Lite``` | ```All versions``` |
 | ```Fix Camera Mode Intent``` | ```Fix opening Camera FV-5 Lite when entering camera mode.``` | ```Cinema FV-5 Lite``` | ```All versions``` |
 | ```Higher Video Resolution``` | ```Unlock higher resolutions that limited by the app.``` | ```Cinema FV-5 Lite``` | ```All versions``` |
+| ```Unlock Pro``` | ```Enable pro features.``` | ```Collage Maker - PhotoFancie``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock premium features.``` | ```Fake GPS Location``` | ```All versions``` |
 | ```Unlock Premium``` | ```Enable premium features.``` | ```Hermit``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock premium features such as Disable Ads and access AI Assistant.``` | ```Hidden Settings``` | ```All versions``` |
@@ -947,6 +955,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Enable Certificate Pinning``` | ```Allow app network traffic to be inspected.``` | ```Nekopoi``` | ```All versions``` |
 | ```Enable Premium``` | ```Disable trial time counter.``` | ```Paletta``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock 'Remove Ads' premium feature.``` | ```PixelLab``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlock pro features such as Unlimited proxy usage, Allow/disallow specific apps, Block apps in firewall and many more...``` | ```Super Proxy``` | ```All versions``` |
 | ```Disable Ads``` | ```Disable banner ads.``` | ```Timestamp Camera Enterprise Free, Timestamp Camera Free``` | ```All versions``` |
 | ```Course Maps Fix``` | ```Fix course maps not rendered by using your own Google Maps API key.``` | ```UDisc``` | ```All versions``` |
 | ```Login Fix``` | ```Fix login issue by spoofing the installation source to Play Store.``` | ```UDisc``` | ```All versions``` |
@@ -1102,7 +1111,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Piko Bundle Patch List:
 [📦 Piko-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-patches-bundle-morphe)
 <details>
-<summary><b>Piko</b> - 122 patches, 2 apps</summary>
+<summary><b>Piko</b> - 124 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1166,6 +1175,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Custom download folder``` | ```Change the download directory for video downloads``` | ```X``` | ```All versions``` |
 | ```Custom emoji font``` | ```Customise emoji font style``` | ```X``` | ```All versions``` |
 | ```Custom font``` | ```Customise font style``` | ```X``` | ```All versions``` |
+| ```Custom share menu``` | ```Overrides existing share menu and adds a new one``` | ```X``` | ```All versions``` |
 | ```Custom sharing domain``` | ```Allows for using domains like fxtwitter when sharing tweets/posts.``` | ```X``` | ```All versions``` |
 | ```Customise post font size``` | ```N/A``` | ```X``` | ```All versions``` |
 | ```Customize default reply sorting``` | ```N/A``` | ```X``` | ```All versions``` |
@@ -1227,6 +1237,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Show poll results``` | ```Adds an option to show poll results without voting``` | ```X``` | ```All versions``` |
 | ```Show post source label``` | ```Source label will be shown only on public posts``` | ```X``` | ```All versions``` |
 | ```Show sensitive media``` | ```N/A``` | ```X``` | ```All versions``` |
+| ```Support external downloader``` | ```N/A``` | ```X``` | ```All versions``` |
 | ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```X, Instagram``` | ```All versions``` |
 
 </details>
@@ -1235,16 +1246,17 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 HK-Morphe Bundle Patch List:
 [📦 HK-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hk-morphe-patches-bundle-morphe)
 <details>
-<summary><b>HK-Morphe</b> - 7 patches, 4 apps</summary>
+<summary><b>HK-Morphe</b> - 8 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Fix "Other Discussions"``` | ```Fixes the "Other Discussions" feature.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Fix "Restore Comment"``` | ```Fixes the "Restore Comment" feature (requires Sync Ultra) by fetching from an alternative API. Also includes UI changes to make this feature more accessible.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Fix imgur links``` | ```Fixes imgur.com/a/ links to properly display in the image viewer.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Fix r/random``` | ```Restores random subreddit functionality by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Predictive back gesture (Reddit Sync)``` | ```Enables the predictive back gesture with fixes for Reddit Sync.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID (default included).``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
-| ```Unlock Sync Ultra``` | ```Unlocks Sync Ultra and fixes the "Restore Comment" premium feature by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Unlock Sync Ultra``` | ```Unlocks Sync Ultra Lifetime.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Predictive back gesture``` | ```Enables the predictive back gesture introduced in Android 13.``` | ```Universal``` | ```All versions``` |
 
 </details>
@@ -2301,15 +2313,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Online Pro``` | ```Experimental companion patch that keeps byAir's online Pro gates open without forcing the crash-prone global entitlement refresh path.``` | ```byAir``` | ```All versions``` |
 | ```Enable Pro``` | ```Suppresses the main byAir paywall, unlock banners, and local user gating without forcing the shared entitlement path globally.``` | ```byAir``` | ```All versions``` |
-| ```Enable Pro``` | ```Returns a synthetic active Financeguru Plus purchase from the React Native billing bridge.``` | ```Financeguru``` | ```All versions``` |
 | ```Enable Pro``` | ```Forces HypnoBox subscription entitlement checks to always pass.``` | ```HypnoBox``` | ```All versions``` |
+| ```Enable Pro``` | ```Unlock all Takeoff / First Class content without a paid membership.``` | ```Jack's Flight Club``` | ```All versions``` |
+| ```Enable Pro``` | ```Forces the RevenueCat SDK to report that all entitlements are active, bypassing premium restrictions.``` | ```Seedlang``` | ```All versions``` |
+| ```Enable Pro JS``` | ```Patches the JS bundle to bypass Seedlang's membership gates for pro.``` | ```Seedlang``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Clone app``` | ```Renames the app and manifest package so it can be installed alongside another copy. By default this appends " B" to the launcher name and appends "B" to the package's main segment.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
 | ```Enable debug``` | ```Enables debugging on the app by setting android:debuggable="true".``` | ```Universal``` | ```All versions``` |
 | ```Hide app icon``` | ```Hides the app icon from the Android launcher.``` | ```Universal``` | ```All versions``` |
-| ```Enable Offline Mode``` | ```Allows Wanderlog to run without login by injecting a local guest user and bypassing auth gates.``` | ```Wanderlog``` | ```All versions``` |
-| ```Enable Pro``` | ```Forces pro entitlement checks to always pass.``` | ```Wanderlog``` | ```All versions``` |
 
 </details>
 
@@ -2595,7 +2607,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle-morphe)
 <details>
-<summary><b>AmpleReVanced</b> - 87 patches, 7 apps</summary>
+<summary><b>AmpleReVanced</b> - 85 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2682,8 +2694,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Spoof signature``` | ```Spoofs the app signature to pass integrity checks.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Version info patch``` | ```Patches the version info to include '(ReVanced)' in the version string.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Disable P2P``` | ```Disables SOOP peer-assisted grid streaming.``` | ```SOOP``` | ```All versions``` |
-| ```Disable Sentry``` | ```Disables Sentry reporting``` | ```Unicorn Pro``` | ```All versions``` |
-| ```Unlock Pro features``` | ```Makes Unicorn Pro report an active Pro license while preserving the original native object graph.``` | ```Unicorn Pro``` | ```All versions``` |
 | ```Add shared user ID``` | ```Adds or updates the sharedUserId attribute in the app's manifest. This allows multiple apps with the same sharedUserId to share data and run in the same process. Use with caution as this can affect app permissions and data isolation.``` | ```Universal``` | ```All versions``` |
 | ```Disable Sentry telemetry``` | ```Disables Sentry telemetry. See https://sentry.io/for/android/ for more information.``` | ```Universal``` | ```All versions``` |
 
@@ -2707,7 +2717,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 118 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 121 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2720,7 +2730,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```All versions``` |
 | ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```All versions``` |
 | ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```All versions``` |
-| ```Hide Trending shelves``` | ```Adds an option to hide Trending shelves from search suggestions.``` | ```Reddit``` | ```All versions``` |
+| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```All versions``` |
 | ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```All versions``` |
 | ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```All versions``` |
 | ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```All versions``` |
@@ -2730,6 +2740,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch does not work if the app is installed by mounting and may cause unexpected issues with some apps.``` | ```Universal``` | ```All versions``` |
 | ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
+| ```Add to queue``` | ```Overrides the feed flyout 'Play next in queue' with the Morphe video queue.``` | ```YouTube``` | ```All versions``` |
 | ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```YouTube``` | ```All versions``` |
 | ```Ambient mode``` | ```Adds options to bypass power saving restrictions for Ambient mode and disable it entirely or in fullscreen.``` | ```YouTube``` | ```All versions``` |
 | ```Bypass image region restrictions``` | ```Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.``` | ```YouTube``` | ```All versions``` |
@@ -2826,6 +2837,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Permanent repeat``` | ```Adds an option to always repeat even if the playlist ends or another track is played.``` | ```YouTube Music``` | ```All versions``` |
 | ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```All versions``` |
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```All versions``` |
+| ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```All versions``` |
+| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```All versions``` |
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```All versions``` |
 | ```Theme``` | ```Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).``` | ```YouTube Music``` | ```All versions``` |
 | ```Track crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```All versions``` |
@@ -3893,12 +3906,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Ajstrick81-AndroidTV Bundle Patch List:
 [📦 Ajstrick81-AndroidTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ajstrick81-androidtv-patches-bundle-morphe)
 <details>
-<summary><b>Ajstrick81-AndroidTV</b> - 14 patches, 9 apps</summary>
+<summary><b>Ajstrick81-AndroidTV</b> - 13 patches, 9 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable auto-updates``` | ```Prevents Google Play Store from automatically replacing the patched APK with the official unpatched version.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
-| ```GMB send diagnostic (debug)``` | ```Diagnostic-only: logs outbound GMB messages (Java→native) to logcat to test whether the send direction carries ad-related traffic.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Override certificate pinning``` | ```Adds a network_security_config trusting user CAs (no pin sets) so AdGuard Premium can inspect the app's platform-stack HTTPS. Optional adjunct: Prime Video's ad plane is largely native libcurl, so DNS blocking is the primary tool.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Skip ads``` | ```Multi-layer ad suppression targeting the SSAI schedule, impression reporting, and the Volley network chokepoint.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
@@ -3957,12 +3969,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 67 patches, 48 apps</summary>
+<summary><b>Rushiranpise</b> - 85 patches, 60 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable Analytics / Telemetry``` | ```Disables App Analytics / Telemetry.``` | ```1.1.1.1 + WARP``` | ```All versions``` |
 | ```Spoof WARP+ Unlimited UI``` | ```Unlocks WARP+ UI locally.``` | ```1.1.1.1 + WARP``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks 1Tap Cleaner PRO: history export, app-group filters, unlimited cache targets, ad removal.``` | ```1Tap Cleaner``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium content in Anatomy by Muscle Motion.``` | ```3D Anatomy & Physiology``` | ```All versions``` |
 | ```Unlock Premium+``` | ```Unlocks AccuWeather's Premium+ subscription tier without a Play Store purchase. Enables the full 15-day and hourly forecast detail, MinuteCast extended precision, air quality and health indexes, real-feel temperature, severe weather notifications, and widget customisation.``` | ```AccuWeather: Weather Radar``` | ```All versions``` |
 | ```Unlock Lifetime Premium``` | ```Unlocks all features locked behind the subscription paywall.``` | ```AdGuard Nightly``` | ```All versions``` |
 | ```Remove ads``` | ```Stubs all ad loading paths: banner/interstitial loaders, billing callbacks, and ad SDK init.``` | ```AIDA64``` | ```All versions``` |
@@ -3989,15 +4003,25 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```N/A``` | ```Hola VPN Proxy Plus``` | ```All versions``` |
 | ```Unlock VIP (Lifetime)``` | ```Forces permanent professional VIP tier, removes ads and upgrade popups, bypasses PairIP.``` | ```HTTP Sniffer``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in KillApps.``` | ```KillApps``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium content.``` | ```Kyphosis Exercises - Hunchback``` | ```All versions``` |
 | ```Remove Ads``` | ```Removes interstitial and exit native ads from m-Indicator.``` | ```m-Indicator``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in ML Manager.``` | ```ML Manager``` | ```All versions``` |
+| ```Bypass member rights check``` | ```Forces MemberCheckResult.isPassed() to always return Boolean.TRUE, bypassing the server-side membership gate and preventing the 'Get Premium / 7-day trial' dialog.``` | ```MovieBox TV``` | ```All versions``` |
+| ```Clear VIP resolution tip``` | ```Forces MemberResolutionBean.getVipResolutionTip() to always return Boolean.FALSE, suppressing any 'VIP only' badge shown on resolution options.``` | ```MovieBox TV``` | ```All versions``` |
+| ```Spoof member active status``` | ```Forces MemberInfo.isActive() to always return true, making the app believe the membership subscription is active.``` | ```MovieBox TV``` | ```All versions``` |
+| ```Spoof member days left``` | ```Forces MemberInfo.getDaysLeft() to always return 3650 (10 years), preventing the '0 days left' display on the premium screen.``` | ```MovieBox TV``` | ```All versions``` |
+| ```Spoof member provider flags``` | ```Forces MemberProvider.c() (kv_is_pay_enable_member) and MemberProvider.e() (kv_is_skip_ad) to always return true.``` | ```MovieBox TV``` | ```All versions``` |
+| ```Suppress newbie bonus dialog``` | ```Makes MemberProvider.w(F)V return immediately, suppressing the 'Claim 7-day trial / newbies bonus' ClaimMemberDialog popup.``` | ```MovieBox TV``` | ```All versions``` |
+| ```Unlock member resolution``` | ```Forces MemberResolutionBean.isUnlock() to always return Boolean.TRUE, making all locally-cached episodes appear as unlocked to the playback layer.``` | ```MovieBox TV``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in NetGuard.``` | ```NetGuard``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```NetMonster``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Pro features in app.``` | ```NetShare - Hotspot & Wifi Direct``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Ninja VPN premium.``` | ```Ninja VPN``` | ```All versions``` |
 | ```Unlock All Access``` | ```Unlocks All access in Nzb360.``` | ```nzb360``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all Pro features in app.``` | ```Permission Pilot``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Photo Editor premium features by bypassing license checks.``` | ```Photo Editor``` | ```All versions``` |
 | ```Unlock All Features``` | ```Bypasses PairIP DRM license check, removes all paywalls, and unlocks all premium features including cloud sync and remote access.``` | ```Pialytic``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium content in Posture Correction by Muscle Motion.``` | ```Posture Correction Exercises``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks local Proton VPN premium features.``` | ```Proton VPN``` | ```All versions``` |
 | ```Unlock Lifetime``` | ```Unlocks all Lifetime features in Proxyman.``` | ```Proxyman``` | ```All versions``` |
 | ```Remove Ads / Unlock Premium``` | ```Forces SubscriptionStateImpl.getStatus() (LB2/c.h) to always return HAS_UNLIMITED_SUBSCRIPTION and getPurchase() (LB2/c.g) to return a well-formed fake Purchase, removing ads and the upgrade button/banner without crashing on the now-expected non-null Purchase object.``` | ```Psiphon Pro``` | ```All versions``` |
@@ -4010,7 +4034,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Ad-Free``` | ```Removes ads and unlocks ad-free status in Speedtest by Ookla.``` | ```Speedtest by Ookla``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Splitwise Pro features, removes ad banners, and suppresses all upgrade upsell prompts.``` | ```Splitwise``` | ```All versions``` |
 | ```Unlock Subscription``` | ```Unlocks all subscription features in TWT App.``` | ```Stargazing Hub``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium content in Strength Training by Muscle Motion.``` | ```Strength Training: Gym Workout``` | ```All versions``` |
 | ```Unlock VIP``` | ```Unlocks Dubox Drive VIP/SVIP (Premium+)``` | ```TeraBox``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks The Weather Channel's Premium and Premium Pro subscription tiers. Enables the ad-free experience, extended 15-day hourly forecast, real-feel temperature, air quality index, minute-by-minute precipitation, severe weather notifications, and radar overlays gated behind the subscription paywall.``` | ```The Weather Channel``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks car and truck premium features.``` | ```TomTom GO Navigation``` | ```All versions``` |
 | ```Disable Ads``` | ```Prevents the AppOpen ad preloader from initialising.``` | ```Universal TV Remote Control``` | ```All versions``` |
 | ```Suppress Paywall``` | ```Suppresses the in-app paywall.``` | ```Universal TV Remote Control``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Universal TV Remote Control``` | ```All versions``` |
@@ -4027,7 +4054,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Speed Limit Sign``` | ```Sets the speed limit sign style shown on the map.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
 | ```Uncensored Radar / Camera Display``` | ```Shows exact fixed and mobile speed camera locations, including those not yet in the official Waze radar zone. Enables enforcement alerts via preferences keys: Credits: Waze CGE Mod.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Windscribe premium account.``` | ```Windscribe VPN``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Windy Pro features.``` | ```Windy: Weather Radar & Forecast``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium content.``` | ```Workout & Gym Training Plan``` | ```All versions``` |
 | ```Unlock VIP``` | ```Unlocks Yatri VIP by forcing active plan status and spoofing active plan DB query.``` | ```Yatri``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium content in Yoga by Muscle Motion.``` | ```Yoga - Poses & Classes``` | ```All versions``` |
 
 </details>
 

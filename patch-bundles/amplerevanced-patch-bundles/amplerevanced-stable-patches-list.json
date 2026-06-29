@@ -1199,33 +1199,6 @@
             "options": []
         },
         {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF4500",
-                    "description": null,
-                    "name": "Unicorn Pro",
-                    "packageName": "com.unicornsoft.android.unicornpro",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.30.471"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Disables Sentry reporting",
-            "name": "Disable Sentry",
-            "options": []
-        },
-        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2194,33 +2167,6 @@
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Unlock Premium features",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF4500",
-                    "description": null,
-                    "name": "Unicorn Pro",
-                    "packageName": "com.unicornsoft.android.unicornpro",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.30.471"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Makes Unicorn Pro report an active Pro license while preserving the original native object graph.",
-            "name": "Unlock Pro features",
             "options": []
         },
         {
