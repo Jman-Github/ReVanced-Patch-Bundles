@@ -175,7 +175,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Remove screenshot restriction``` | ```Removes FLAG_SECURE from all windows so screenshots and screen recordings work in Instagram.``` | ```Instagram``` | ```All versions``` |
+| ```Remove screenshot restriction``` | ```Removes FLAG_SECURE from all windows so screenshots and screen recordings work in any app.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
