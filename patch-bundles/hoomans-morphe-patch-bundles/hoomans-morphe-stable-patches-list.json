@@ -1,5 +1,5 @@
 {
-    "version": "v1.33.0",
+    "version": "v1.34.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -720,6 +720,33 @@
                 "BytecodePatch"
             ],
             "description": "Unlocks Money Manager's premium and removes the ads: passcode lock, more accounts, custom categories and themes, repeat transactions, advanced stats, and local backup all open. PC/web sync and cloud backup stay tied to the server (it issues an expiry the app checks online), so those keep needing a real subscription.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF6A00",
+                    "description": null,
+                    "name": "Poweramp",
+                    "packageName": "com.maxmpz.audioplayer",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "build-1025-bundle-play"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Unlocks Poweramp's full version state and Feature Package #1.",
             "name": "Unlock Premium",
             "options": []
         },
