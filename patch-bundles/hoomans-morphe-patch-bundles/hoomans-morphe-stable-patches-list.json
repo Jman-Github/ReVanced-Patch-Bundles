@@ -1,5 +1,5 @@
 {
-    "version": "v1.34.1",
+    "version": "v1.35.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -411,6 +411,31 @@
             ],
             "description": "Shows the squawk code and vertical speed in the flight detail panel instead of the \"Unlock feature\" lock. Both values are already in the live feed the app receives, so this only stops hiding them. The Gold map layers, flight history, and 3D view come from Flightradar24's servers and still need a subscription.",
             "name": "Unlock aircraft data",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#EF5350",
+                    "description": null,
+                    "name": "Smart AudioBook Player",
+                    "packageName": "ak.alizandro.smartaudiobookplayer",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.7.8"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Smart AudioBook Player's full version by forcing the local license decision to Full.",
+            "name": "Unlock Full",
             "options": []
         },
         {
