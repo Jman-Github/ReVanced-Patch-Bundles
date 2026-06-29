@@ -112,7 +112,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 13 | 9 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 15 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 81 | 56 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 85 | 60 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Legacy
@@ -3887,13 +3887,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 81 patches, 56 apps</summary>
+<summary><b>Rushiranpise</b> - 85 patches, 60 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable Analytics / Telemetry``` | ```Disables App Analytics / Telemetry.``` | ```1.1.1.1 + WARP``` | ```All versions``` |
 | ```Spoof WARP+ Unlimited UI``` | ```Unlocks WARP+ UI locally.``` | ```1.1.1.1 + WARP``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks 1Tap Cleaner PRO: history export, app-group filters, unlimited cache targets, ad removal.``` | ```1Tap Cleaner``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium content in Anatomy by Muscle Motion.``` | ```3D Anatomy & Physiology``` | ```All versions``` |
 | ```Unlock Premium+``` | ```Unlocks AccuWeather's Premium+ subscription tier without a Play Store purchase. Enables the full 15-day and hourly forecast detail, MinuteCast extended precision, air quality and health indexes, real-feel temperature, severe weather notifications, and widget customisation.``` | ```AccuWeather: Weather Radar``` | ```All versions``` |
 | ```Unlock Lifetime Premium``` | ```Unlocks all features locked behind the subscription paywall.``` | ```AdGuard Nightly``` | ```All versions``` |
 | ```Remove ads``` | ```Stubs all ad loading paths: banner/interstitial loaders, billing callbacks, and ad SDK init.``` | ```AIDA64``` | ```All versions``` |
@@ -3920,6 +3921,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```N/A``` | ```Hola VPN Proxy Plus``` | ```All versions``` |
 | ```Unlock VIP (Lifetime)``` | ```Forces permanent professional VIP tier, removes ads and upgrade popups, bypasses PairIP.``` | ```HTTP Sniffer``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in KillApps.``` | ```KillApps``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium content.``` | ```Kyphosis Exercises - Hunchback``` | ```All versions``` |
 | ```Remove Ads``` | ```Removes interstitial and exit native ads from m-Indicator.``` | ```m-Indicator``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in ML Manager.``` | ```ML Manager``` | ```All versions``` |
 | ```Bypass member rights check``` | ```Forces MemberCheckResult.isPassed() to always return Boolean.TRUE, bypassing the server-side membership gate and preventing the 'Get Premium / 7-day trial' dialog.``` | ```MovieBox TV``` | ```All versions``` |
@@ -3937,6 +3939,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Pro``` | ```Unlocks all Pro features in app.``` | ```Permission Pilot``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Photo Editor premium features by bypassing license checks.``` | ```Photo Editor``` | ```All versions``` |
 | ```Unlock All Features``` | ```Bypasses PairIP DRM license check, removes all paywalls, and unlocks all premium features including cloud sync and remote access.``` | ```Pialytic``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium content in Posture Correction by Muscle Motion.``` | ```Posture Correction Exercises``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks local Proton VPN premium features.``` | ```Proton VPN``` | ```All versions``` |
 | ```Unlock Lifetime``` | ```Unlocks all Lifetime features in Proxyman.``` | ```Proxyman``` | ```All versions``` |
 | ```Remove Ads / Unlock Premium``` | ```Forces SubscriptionStateImpl.getStatus() (LB2/c.h) to always return HAS_UNLIMITED_SUBSCRIPTION and getPurchase() (LB2/c.g) to return a well-formed fake Purchase, removing ads and the upgrade button/banner without crashing on the now-expected non-null Purchase object.``` | ```Psiphon Pro``` | ```All versions``` |
@@ -3952,7 +3955,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks all premium content in Strength Training by Muscle Motion.``` | ```Strength Training: Gym Workout``` | ```All versions``` |
 | ```Unlock VIP``` | ```Unlocks Dubox Drive VIP/SVIP (Premium+)``` | ```TeraBox``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks The Weather Channel's Premium and Premium Pro subscription tiers. Enables the ad-free experience, extended 15-day hourly forecast, real-feel temperature, air quality index, minute-by-minute precipitation, severe weather notifications, and radar overlays gated behind the subscription paywall.``` | ```The Weather Channel``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks TiviMate Premium.``` | ```TiviMate IPTV Player``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks car and truck premium features.``` | ```TomTom GO Navigation``` | ```All versions``` |
 | ```Disable Ads``` | ```Prevents the AppOpen ad preloader from initialising.``` | ```Universal TV Remote Control``` | ```All versions``` |
 | ```Suppress Paywall``` | ```Suppresses the in-app paywall.``` | ```Universal TV Remote Control``` | ```All versions``` |
@@ -3971,7 +3973,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Uncensored Radar / Camera Display``` | ```Shows exact fixed and mobile speed camera locations, including those not yet in the official Waze radar zone. Enables enforcement alerts via preferences keys: Credits: Waze CGE Mod.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Windscribe premium account.``` | ```Windscribe VPN``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Windy Pro features.``` | ```Windy: Weather Radar & Forecast``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium content.``` | ```Workout & Gym Training Plan``` | ```All versions``` |
 | ```Unlock VIP``` | ```Unlocks Yatri VIP by forcing active plan status and spoofing active plan DB query.``` | ```Yatri``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium content in Yoga by Muscle Motion.``` | ```Yoga - Poses & Classes``` | ```All versions``` |
 
 </details>
 
