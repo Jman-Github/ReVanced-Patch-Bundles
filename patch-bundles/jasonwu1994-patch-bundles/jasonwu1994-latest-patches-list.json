@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0",
+    "version": "v1.14.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -226,6 +226,18 @@
             "dependencies": [],
             "description": "新增手機自架的 Web Clipboard，支援瀏覽器同步、配對碼與快速設定開關\nAdd the phone-hosted Web Clipboard with browser sync, pairing, and a Quick Settings Tile.",
             "name": "Web Clipboard",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.0.10.880768217-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "調整注音鍵盤底排按鍵大小\nAdjust Zhuyin keyboard bottom-row key sizes.",
+            "name": "Zhuyin Bottom Row Key Sizes",
             "options": [],
             "use": true
         },
