@@ -44,6 +44,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [Nai64](#-nai64-bundle-patch-list) | 1 | 1 | Generated |
+| [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
 | [Prathxm](#-prathxm-bundle-patch-list) | 2 | 1 | Generated |
 | [Telegram-Morphe](#-telegram-morphe-bundle-patch-list) | 10 | 1 | Generated |
 | [Morphe-Screenshot](#-morphe-screenshot-bundle-patch-list) | 1 | 1 | Generated |
@@ -132,6 +134,31 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [AyushTNM](#-ayushtnm-bundle-patch-list) | 3 | 1 | Generated |
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
+
+---
+### ?? Nai64 Bundle Patch List:
+[?? Nai64-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nai64-patches-bundle-morphe)
+<details>
+<summary><b>Nai64</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Ads Free Rewards``` | ```Auto-claim rewarded ad rewards without watching ads. Works with the AppLovin MAX SDK (Unity).``` | ```Universal``` | ```All versions``` |
+
+</details>
+
+---
+### ?? Morphe-Google Bundle Patch List:
+[?? Morphe-Google-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-google-patches-bundle-morphe)
+<details>
+<summary><b>Morphe-Google</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Install as standalone app``` | ```Changes the Google app package identity so the patched APK can be installed beside the system Google app.``` | ```Google``` | ```All versions``` |
+| ```Remove Discover feed ads``` | ```Filters likely ad nodes from the Google app Discover feed.``` | ```Google``` | ```All versions``` |
+
+</details>
 
 ---
 ### 🧩 Prathxm Bundle Patch List:

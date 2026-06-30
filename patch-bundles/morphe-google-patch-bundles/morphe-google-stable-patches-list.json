@@ -1,0 +1,80 @@
+{
+    "version": "v1.1.4",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#4285F4",
+                    "description": null,
+                    "name": "Google",
+                    "packageName": "com.google.android.googlequicksearchbox",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "17.34.30.ve.arm64",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Changes the Google app package identity so the patched APK can be installed beside the system Google app.",
+            "name": "Install as standalone app",
+            "options": [
+                {
+                    "default": "app.ripthulhu.googlequicksearchbox",
+                    "description": "The package name to use for the standalone patched app.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "app.ripthulhu.googlequicksearchbox"
+                    }
+                },
+                {
+                    "default": "Google Morphe",
+                    "description": "The launcher name to use for the standalone patched app.",
+                    "key": "appName",
+                    "required": true,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "Google Morphe"
+                    }
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#4285F4",
+                    "description": null,
+                    "name": "Google",
+                    "packageName": "com.google.android.googlequicksearchbox",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "17.34.30.ve.arm64",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Filters likely ad nodes from the Google app Discover feed.",
+            "name": "Remove Discover feed ads",
+            "options": []
+        }
+    ]
+}

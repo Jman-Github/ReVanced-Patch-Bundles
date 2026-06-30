@@ -1577,6 +1577,32 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/prathxm-ytmusic-patch-bundles/prathxm-ytmusic-dev-patches-bundle.json```
 </details>
 
+---
+### ?? Nai64-Patches-Bundle [Morphe]:
+[?? Nai64 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-nai64-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nai64-patch-bundles/nai64-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nai64-patch-bundles/nai64-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nai64-patch-bundles/nai64-dev-patches-bundle.json```
+</details>
+
+---
+### ?? Morphe-Google-Patches-Bundle [Morphe]:
+[?? Morphe-Google Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-morphe-google-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-google-patch-bundles/morphe-google-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-google-patch-bundles/morphe-google-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-google-patch-bundles/morphe-google-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -1829,6 +1855,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [NPCI-BHIM-Patches-Bundle](https://github.com/kun-codes/npci-bhim-morphe-patches)
 
 #### 🏷️ [Prathxm-YTMusic-Patches-Bundle](https://github.com/PrathxmOp/ytmusic-patches)
+
+#### ??? [Nai64-Patches-Bundle](https://github.com/Nai64/Nai64Patches)
+
+#### ??? [Morphe-Google-Patches-Bundle](https://github.com/Ripthulhu/morphe-google-patches)
 
 </details>
 
