@@ -1,5 +1,5 @@
 {
-    "version": "v1.37.0",
+    "version": "v1.38.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -255,6 +255,31 @@
             "dependencies": [],
             "description": "Hides the banner, overlay, and in-feed display ads Twitch shows around the app. This doesn't touch the video ads in the stream itself.",
             "name": "Hide display ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1E88E5",
+                    "description": null,
+                    "name": "Advanced Download Manager",
+                    "packageName": "com.dv.adm",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "14.0.39"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the ads in Advanced Download Manager. ADM's paid state is the ad-free RevenueCat entitlement cached on the device, so the app also labels itself Pro.",
+            "name": "Remove ads",
             "options": []
         },
         {

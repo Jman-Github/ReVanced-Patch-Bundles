@@ -62,7 +62,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [TS-Patches](#-ts-patches-bundle-patch-list) | 1 | 1 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 49 | 36 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 50 | 37 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 29 | 18 | Generated |
@@ -409,11 +409,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Hoomans-Morphe Bundle Patch List:
 [?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 49 patches, 36 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 50 patches, 37 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Pro``` | ```Unlocks the Acrobat Pro tools that work on your device, like editing text and images and rearranging pages, without paying. The parts Adobe runs on its servers, such as Export to Office, Create PDF, and cloud storage, still need a real subscription.``` | ```Adobe Acrobat``` | ```All versions``` |
+| ```Remove ads``` | ```Removes the ads in Advanced Download Manager. ADM's paid state is the ad-free RevenueCat entitlement cached on the device, so the app also labels itself Pro.``` | ```Advanced Download Manager``` | ```All versions``` |
 | ```Unlock Full Version``` | ```Unlocks the paid full version of AGAMA Car Launcher, so the pro widgets, theme editor, and the other locked extras open up without buying it.``` | ```AGAMA Car Launcher``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Alpha Progression's premium training tools without a subscription, like the training-plan generator, charts, exercise evaluations, the warmup calculator, and more. They run on the workout data already on your device, so they keep working offline.``` | ```Alpha Progression``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks AT4K Launcher's premium features without paying, like more apps per row and the premium wallpaper options. It all runs on the device, so nothing stays locked.``` | ```AT4K Launcher``` | ```All versions``` |
