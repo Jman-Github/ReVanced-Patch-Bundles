@@ -1,12 +1,28 @@
 {
-    "version": "1.3.0",
+    "version": "1.5.0",
     "patches": [
         {
             "compatiblePackages": null,
-            "default": true,
+            "default": false,
             "dependencies": [],
-            "description": "Auto-claim rewarded ad rewards without watching ads. Works with the AppLovin MAX SDK (Unity).",
+            "description": "Auto-claim rewarded ad rewards without watching ads. Supports MAX Unity, native MAX.",
             "name": "Ads Free Rewards",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Blocks all non-rewarded ads: interstitial, banner, app open, MREC. Supports MAX Unity and native MAX.",
+            "name": "No Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes the app think it was installed from Google Play Store. Prevents Pairip license check from failing.",
+            "name": "Spoof Play Store Install Source",
             "options": []
         }
     ]

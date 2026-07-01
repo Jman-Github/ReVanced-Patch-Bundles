@@ -44,7 +44,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
-| [Nai64](#-nai64-bundle-patch-list) | 1 | 1 | Generated |
+| [Nai64](#-nai64-bundle-patch-list) | 3 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
 | [Prathxm](#-prathxm-bundle-patch-list) | 2 | 1 | Generated |
 | [Telegram-Morphe](#-telegram-morphe-bundle-patch-list) | 10 | 1 | Generated |
@@ -139,11 +139,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Nai64 Bundle Patch List:
 [?? Nai64-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nai64-patches-bundle-morphe)
 <details>
-<summary><b>Nai64</b> - 1 patch, 1 app</summary>
+<summary><b>Nai64</b> - 3 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Ads Free Rewards``` | ```Auto-claim rewarded ad rewards without watching ads. Works with the AppLovin MAX SDK (Unity).``` | ```Universal``` | ```All versions``` |
+| ```Ads Free Rewards``` | ```Auto-claim rewarded ad rewards without watching ads. Supports MAX Unity, native MAX.``` | ```Universal``` | ```All versions``` |
+| ```No Ads``` | ```Blocks all non-rewarded ads: interstitial, banner, app open, MREC. Supports MAX Unity and native MAX.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Play Store Install Source``` | ```Makes the app think it was installed from Google Play Store. Prevents Pairip license check from failing.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
