@@ -62,7 +62,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [TS-Patches](#-ts-patches-bundle-patch-list) | 1 | 1 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 48 | 35 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 49 | 36 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 29 | 18 | Generated |
@@ -408,7 +408,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Hoomans-Morphe Bundle Patch List:
 [?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 48 patches, 35 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 49 patches, 36 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -428,6 +428,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock aircraft data``` | ```Shows the squawk code and vertical speed in the flight detail panel instead of the "Unlock feature" lock. Both values are already in the live feed the app receives, so this only stops hiding them. The Gold map layers, flight history, and 3D view come from Flightradar24's servers and still need a subscription.``` | ```Flightradar24``` | ```All versions``` |
 | ```Use your own Maps API key [REQUIRED]``` | ```Required for the map to load. Patching breaks Flightradar24's built-in Google Maps key, so you have to supply your own from a free Google Cloud project. In this patch's option, create a project, enable Maps SDK for Android, turn on billing, make an API key, and paste it in (leaving it unrestricted is easiest). Remove ads and Unlock aircraft data both pull this in, so the map keeps working with either.``` | ```Flightradar24``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks FolderSync's premium without the in-app purchase and removes the ads, so you get unlimited sync pairs and the advanced options.``` | ```FolderSync``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks Hevy's Pro features without a subscription, like unlimited routines and advanced workout analytics. They run on the workout data on your device. Anything Hevy serves only to subscribed accounts can still stay locked.``` | ```Hevy``` | ```All versions``` |
 | ```Unlock Sober Plus``` | ```Unlocks the client-side Sober Plus gates backed by the app's local RevenueCat state, including locked-access settings, extra reaction types, skins, workbook and urge logging entries, and the Sober Plus dashboard. Server-hosted services can still require a real account subscription.``` | ```I Am Sober``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks InShot's Pro features without a subscription: no export watermark, no ads, and the paid filters, effects, transitions, stickers and HD export open. The on-device AI tools (background remover, AI retouch, auto captions) verify the original signing key in native code, so those may not run on a re-signed build; the rest of Pro works offline.``` | ```InShot``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all of Liquid Gallery's Pro features without a purchase.``` | ```Liquid Gallery``` | ```All versions``` |

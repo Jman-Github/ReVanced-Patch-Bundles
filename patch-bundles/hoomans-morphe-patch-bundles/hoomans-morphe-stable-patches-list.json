@@ -1,5 +1,5 @@
 {
-    "version": "v1.36.0",
+    "version": "v1.37.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -1007,6 +1007,31 @@
                 "BytecodePatch"
             ],
             "description": "Unlocks Essence's premium tools without a subscription, like the detailed statistics and insights, custom themes, app lock, data export, and more. They run on your device, so they work offline. The AI recovery coach and anything else Essence makes on its servers still needs the real subscription.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#101012",
+                    "description": null,
+                    "name": "Hevy",
+                    "packageName": "com.hevy",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.1.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Hevy's Pro features without a subscription, like unlimited routines and advanced workout analytics. They run on the workout data on your device. Anything Hevy serves only to subscribed accounts can still stay locked.",
             "name": "Unlock Pro",
             "options": []
         },
