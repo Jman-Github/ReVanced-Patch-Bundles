@@ -143,9 +143,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Ads Free Rewards``` | ```Auto-claim rewarded ad rewards without watching ads. Supports MAX Unity, native MAX.``` | ```Universal``` | ```All versions``` |
-| ```No Ads``` | ```Blocks all non-rewarded ads: interstitial, banner, app open, MREC. Supports MAX Unity and native MAX.``` | ```Universal``` | ```All versions``` |
-| ```Spoof Play Store Install Source``` | ```Makes the app think it was installed from Google Play Store. Prevents Pairip license check from failing.``` | ```Universal``` | ```All versions``` |
+| ```Ads Free Rewards``` | ```Auto-claim rewarded ad rewards without watching ads. Supports MAX Unity, native MAX. Enabling No Ads will prevent rewards from being claimed.``` | ```Universal``` | ```All versions``` |
+| ```No Ads``` | ```Blocks all non-rewarded ads: interstitial, banner, app open, MREC. Supports MAX Unity and native MAX. Enabling alongside Ads Free Rewards will prevent rewards from being claimed.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Play Store Install Source``` | ```Makes the app think it was installed from Google Play Store. Prevents Pairip license check from failing. Recommended if the app is installed from Play Store.``` | ```Universal``` | ```All versions``` |
 
 </details>
 

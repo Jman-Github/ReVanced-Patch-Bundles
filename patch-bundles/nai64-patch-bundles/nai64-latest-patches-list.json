@@ -1,11 +1,11 @@
 {
-    "version": "1.5.2",
+    "version": "1.5.6",
     "patches": [
         {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Auto-claim rewarded ad rewards without watching ads. Supports MAX Unity, native MAX.",
+            "description": "Auto-claim rewarded ad rewards without watching ads. Supports MAX Unity, native MAX. Enabling No Ads will prevent rewards from being claimed.",
             "name": "Ads Free Rewards",
             "options": []
         },
@@ -13,7 +13,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Blocks all non-rewarded ads: interstitial, banner, app open, MREC. Supports MAX Unity and native MAX.",
+            "description": "Blocks all non-rewarded ads: interstitial, banner, app open, MREC. Supports MAX Unity and native MAX. Enabling alongside Ads Free Rewards will prevent rewards from being claimed.",
             "name": "No Ads",
             "options": []
         },
@@ -21,7 +21,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Makes the app think it was installed from Google Play Store. Prevents Pairip license check from failing.",
+            "description": "Makes the app think it was installed from Google Play Store. Prevents Pairip license check from failing. Recommended if the app is installed from Play Store.",
             "name": "Spoof Play Store Install Source",
             "options": []
         }
