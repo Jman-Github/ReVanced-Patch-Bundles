@@ -1,5 +1,5 @@
 {
-    "version": "v1.15.0",
+    "version": "v1.16.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -123,7 +123,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.5.0.4"
+                            "version": "11.6.0.1"
                         }
                     ]
                 }
@@ -134,6 +134,31 @@
             ],
             "description": "Hides the News/Community tab from the bottom navigation.",
             "name": "Disable community tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#00897B",
+                    "description": null,
+                    "name": "FatSecret",
+                    "packageName": "com.fatsecret.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.6.0.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Makes the 'App must update' dialog skippable by forcing is_cancelable=true.",
+            "name": "Disable force update dialog",
             "options": []
         },
         {
@@ -333,7 +358,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.5.0.4"
+                            "version": "11.6.0.1"
                         }
                     ]
                 }

@@ -81,7 +81,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [X-Shim](#-x-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
-| [Kondratjev](#-kondratjev-bundle-patch-list) | 23 | 12 | Generated |
+| [Kondratjev](#-kondratjev-bundle-patch-list) | 24 | 12 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 75 | 52 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 85 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 121 | 4 | Generated |
@@ -2433,11 +2433,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kondratjev Bundle Patch List:
 [📦 Kondratjev-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kondratjev-patches-bundle-morphe)
 <details>
-<summary><b>Kondratjev</b> - 23 patches, 12 apps</summary>
+<summary><b>Kondratjev</b> - 24 patches, 12 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable community tab``` | ```Hides the News/Community tab from the bottom navigation.``` | ```FatSecret``` | ```All versions``` |
+| ```Disable force update dialog``` | ```Makes the 'App must update' dialog skippable by forcing is_cancelable=true.``` | ```FatSecret``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all FatSecret Gold features and hides the Premium tab.``` | ```FatSecret``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Lifesum``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Lyfta``` | ```All versions``` |
