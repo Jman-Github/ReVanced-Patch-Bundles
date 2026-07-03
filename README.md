@@ -1603,6 +1603,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-google-patch-bundles/morphe-google-dev-patches-bundle.json```
 </details>
 
+---
+### ?? Arunpdl-Patches-Bundle [Morphe]:
+[?? Arunpdl Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-arunpdl-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/arunpdl-patch-bundles/arunpdl-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/arunpdl-patch-bundles/arunpdl-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/arunpdl-patch-bundles/arunpdl-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -1859,6 +1872,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### ??? [Nai64-Patches-Bundle](https://github.com/Nai64/Nai64Patches)
 
 #### ??? [Morphe-Google-Patches-Bundle](https://github.com/Ripthulhu/morphe-google-patches)
+
+#### ??? [Arunpdl-Patches-Bundle](https://github.com/arunpdl/morphe-patches)
 
 </details>
 
