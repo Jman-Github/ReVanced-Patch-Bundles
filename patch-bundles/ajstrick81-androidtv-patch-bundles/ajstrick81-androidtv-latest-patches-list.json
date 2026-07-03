@@ -1,6 +1,32 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.8.0",
     "patches": [
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 1539022,
+                    "description": null,
+                    "name": "Prime Video Android TV",
+                    "packageName": "com.amazon.amazonvideo.livingroom",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "6.23.23+v15.5.0.70-armv7a"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.amazon.amazonvideo.livingroom": [
+                    "6.23.23+v15.5.0.70-armv7a"
+                ]
+            },
+            "dependencies": [],
+            "description": "Renames the package to <original>.mod (and its provider authorities / custom permissions) so the patched app installs side-by-side with a non-removable system Prime Video. Opt-in.",
+            "name": "Clone Prime Video",
+            "options": [],
+            "use": false
+        },
         {
             "compatibility": [
                 {

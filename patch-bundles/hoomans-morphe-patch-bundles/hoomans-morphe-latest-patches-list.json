@@ -1,5 +1,5 @@
 {
-    "version": "v1.36.0",
+    "version": "v1.40.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -255,6 +255,31 @@
             "dependencies": [],
             "description": "Hides the banner, overlay, and in-feed display ads Twitch shows around the app. This doesn't touch the video ads in the stream itself.",
             "name": "Hide display ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1E88E5",
+                    "description": null,
+                    "name": "Advanced Download Manager",
+                    "packageName": "com.dv.adm",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "14.0.39"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the ads in Advanced Download Manager. ADM's paid state is the ad-free RevenueCat entitlement cached on the device, so the app also labels itself Pro.",
+            "name": "Remove ads",
             "options": []
         },
         {
@@ -789,6 +814,12 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
+                            "version": "4.68"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
                             "version": "4.70"
                         }
                     ]
@@ -1014,6 +1045,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#101012",
+                    "description": null,
+                    "name": "Hevy",
+                    "packageName": "com.hevy",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.1.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Hevy's Pro features without a subscription, like unlimited routines and advanced workout analytics. They run on the workout data on your device. Anything Hevy serves only to subscribed accounts can still stay locked.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#FF2558",
                     "description": null,
                     "name": "InShot",
@@ -1092,6 +1148,31 @@
             "default": true,
             "dependencies": [],
             "description": "Turns on Stash Pro and removes the ads. Pro is a flag the server sends with your account, so the unlock takes effect on a signed-in account once it loads. With it on the ads go away and the Pro-gated UI opens up: the Become Pro upsell card, the home screen block layout, custom collection cover images, and the locked review detail fields. Anything the Stash server checks for a non-paying account is unaffected, so data kept behind a paid account does not sync. Re-signing breaks Google and Facebook login, so sign in with email.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#E44332",
+                    "description": null,
+                    "name": "Todoist",
+                    "packageName": "com.todoist",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "v12190"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Turns on Todoist Pro on the signed-in account: the project, task, section, filter and label caps go to unlimited, reminders, comments, deadlines, durations, calendar layout, the activity log, file uploads and the paid templates all open, and the plan badge reads Pro. Pro on Todoist is a plan the server sends down and the app caches, so the unlock takes hold once a signed-in account loads and it holds across a sync. Anything the Todoist server runs itself is untouched: the AI assistant, real team/Business collaboration, and server-enforced storage still need a paid account. Re-signing breaks Google sign-in, so sign in with email and password.",
             "name": "Unlock Pro",
             "options": []
         },

@@ -45,9 +45,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
 | [Arunpdl](#-arunpdl-bundle-patch-list) | 5 | 2 | Generated |
-| [Nai64](#-nai64-bundle-patch-list) | 1 | 1 | Generated |
+| [Nai64](#-nai64-bundle-patch-list) | 3 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
-| [Prathxm](#-prathxm-bundle-patch-list) | 2 | 1 | Generated |
+| [Prathxm](#-prathxm-bundle-patch-list) | 3 | 1 | Generated |
 | [Telegram-Morphe](#-telegram-morphe-bundle-patch-list) | 10 | 1 | Generated |
 | [Morphe-Screenshot](#-morphe-screenshot-bundle-patch-list) | 1 | 1 | Generated |
 | [NPCI-BHIM](#-npci-bhim-bundle-patch-list) | 6 | 1 | Generated |
@@ -63,14 +63,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [TS-Patches](#-ts-patches-bundle-patch-list) | 1 | 1 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 48 | 35 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 51 | 38 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 29 | 18 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 114 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 124 | 2 | Generated |
-| [HK-Morphe](#-hk-morphe-bundle-patch-list) | 8 | 4 | Generated |
+| [HK-Morphe](#-hk-morphe-bundle-patch-list) | 9 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 22 | 5 | Generated |
@@ -117,10 +117,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ameen-Morphe](#-ameen-morphe-bundle-patch-list) | 2 | 2 | Generated |
 | [Kolaron](#-kolaron-bundle-patch-list) | 1 | 1 | Generated |
 | [ImmortalZeus](#-immortalzeus-bundle-patch-list) | 2 | 2 | Generated |
-| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 13 | 9 | Generated |
+| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 14 | 9 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 15 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 85 | 60 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 85 | 59 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Legacy
@@ -156,11 +156,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Nai64 Bundle Patch List:
 [?? Nai64-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nai64-patches-bundle-morphe)
 <details>
-<summary><b>Nai64</b> - 1 patch, 1 app</summary>
+<summary><b>Nai64</b> - 3 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Ads Free Rewards``` | ```Auto-claim rewarded ad rewards without watching ads. Works with the AppLovin MAX SDK (Unity).``` | ```Universal``` | ```All versions``` |
+| ```Ads Free Rewards``` | ```Auto-claim rewarded ad rewards without watching ads. Supports MAX Unity, native MAX, Unity Ads. WARNING: Enabling No Ads alongside this patch will prevent rewards from being claimed.``` | ```Universal``` | ```All versions``` |
+| ```No Ads``` | ```Blocks all non-rewarded ads: interstitial, banner, app open, MREC. Supports MAX Unity and native MAX. WARNING: Enabling Ads Free Rewards alongside this patch will cause it to NOT work (No Ads takes priority).``` | ```Universal``` | ```All versions``` |
+| ```Spoof Play Store Install Source``` | ```Makes the app think it was installed from Google Play Store. Prevents Pairip license check from failing. Recommended if the app is installed from Play Store.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -181,12 +183,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Prathxm Bundle Patch List:
 [📦 Prathxm-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-prathxm-patches-bundle-morphe)
 <details>
-<summary><b>Prathxm</b> - 2 patches, 1 app</summary>
+<summary><b>Prathxm</b> - 3 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Ad-Free & Local Analysis``` | ```Removes advertisements, unlocks ad-free features, and enables local Stockfish engine for post-game review & analysis.``` | ```Chess.com``` | ```All versions``` |
 | ```Clone Chess.com``` | ```Changes the package name to com.chess.prathxm, allowing the patched app to be installed side-by-side with the original Chess.com app.``` | ```Chess.com``` | ```All versions``` |
+| ```Lichess Puzzles``` | ```Loads daily puzzles from Lichess and bypasses Chess.com puzzle premium limits.``` | ```Chess.com``` | ```All versions``` |
 
 </details>
 
@@ -423,11 +426,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Hoomans-Morphe Bundle Patch List:
 [?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 48 patches, 35 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 51 patches, 38 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Pro``` | ```Unlocks the Acrobat Pro tools that work on your device, like editing text and images and rearranging pages, without paying. The parts Adobe runs on its servers, such as Export to Office, Create PDF, and cloud storage, still need a real subscription.``` | ```Adobe Acrobat``` | ```All versions``` |
+| ```Remove ads``` | ```Removes the ads in Advanced Download Manager. ADM's paid state is the ad-free RevenueCat entitlement cached on the device, so the app also labels itself Pro.``` | ```Advanced Download Manager``` | ```All versions``` |
 | ```Unlock Full Version``` | ```Unlocks the paid full version of AGAMA Car Launcher, so the pro widgets, theme editor, and the other locked extras open up without buying it.``` | ```AGAMA Car Launcher``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Alpha Progression's premium training tools without a subscription, like the training-plan generator, charts, exercise evaluations, the warmup calculator, and more. They run on the workout data already on your device, so they keep working offline.``` | ```Alpha Progression``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks AT4K Launcher's premium features without paying, like more apps per row and the premium wallpaper options. It all runs on the device, so nothing stays locked.``` | ```AT4K Launcher``` | ```All versions``` |
@@ -443,6 +447,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock aircraft data``` | ```Shows the squawk code and vertical speed in the flight detail panel instead of the "Unlock feature" lock. Both values are already in the live feed the app receives, so this only stops hiding them. The Gold map layers, flight history, and 3D view come from Flightradar24's servers and still need a subscription.``` | ```Flightradar24``` | ```All versions``` |
 | ```Use your own Maps API key [REQUIRED]``` | ```Required for the map to load. Patching breaks Flightradar24's built-in Google Maps key, so you have to supply your own from a free Google Cloud project. In this patch's option, create a project, enable Maps SDK for Android, turn on billing, make an API key, and paste it in (leaving it unrestricted is easiest). Remove ads and Unlock aircraft data both pull this in, so the map keeps working with either.``` | ```Flightradar24``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks FolderSync's premium without the in-app purchase and removes the ads, so you get unlimited sync pairs and the advanced options.``` | ```FolderSync``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks Hevy's Pro features without a subscription, like unlimited routines and advanced workout analytics. They run on the workout data on your device. Anything Hevy serves only to subscribed accounts can still stay locked.``` | ```Hevy``` | ```All versions``` |
 | ```Unlock Sober Plus``` | ```Unlocks the client-side Sober Plus gates backed by the app's local RevenueCat state, including locked-access settings, extra reaction types, skins, workbook and urge logging entries, and the Sober Plus dashboard. Server-hosted services can still require a real account subscription.``` | ```I Am Sober``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks InShot's Pro features without a subscription: no export watermark, no ads, and the paid filters, effects, transitions, stickers and HD export open. The on-device AI tools (background remover, AI retouch, auto captions) verify the original signing key in native code, so those may not run on a re-signed build; the rest of Pro works offline.``` | ```InShot``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all of Liquid Gallery's Pro features without a purchase.``` | ```Liquid Gallery``` | ```All versions``` |
@@ -460,6 +465,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Pro``` | ```Turns on Stash Pro and removes the ads. Pro is a flag the server sends with your account, so the unlock takes effect on a signed-in account once it loads. With it on the ads go away and the Pro-gated UI opens up: the Become Pro upsell card, the home screen block layout, custom collection cover images, and the locked review detail fields. Anything the Stash server checks for a non-paying account is unaffected, so data kept behind a paid account does not sync. Re-signing breaks Google and Facebook login, so sign in with email.``` | ```Stash``` | ```All versions``` |
 | ```Unlock Premium``` | ```Turns on Symfonium's paid features. The build ships as a public beta with a built-in trial: a license value the app keeps locally decides whether the paid UI is open, and two timers (the beta cutoff and the trial countdown) lock the app once they pass. This forces the license read to "licensed" so the paid screens open, drops the "trial expires on ..." line from settings, and stops the cutoff from triggering by cutting off the trusted-time lookup the timers rely on, which leaves the app in its offline state where neither timer fires. The license is checked on the client (a local Play purchase verify), so the unlock holds without an account. Connecting Plex, Jellyfin and other media servers is untouched.``` | ```Symfonium``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Teach Me Anatomy's premium features without a subscription, dropping the upgrade banners and ads and opening up the locked articles, quizzes, and flashcards. Content served from the server still needs a real account.``` | ```Teach Me Anatomy``` | ```All versions``` |
+| ```Unlock Pro``` | ```Turns on Todoist Pro on the signed-in account: the project, task, section, filter and label caps go to unlimited, reminders, comments, deadlines, durations, calendar layout, the activity log, file uploads and the paid templates all open, and the plan badge reads Pro. Pro on Todoist is a plan the server sends down and the app caches, so the unlock takes hold once a signed-in account loads and it holds across a sync. Anything the Todoist server runs itself is untouched: the AI assistant, real team/Business collaboration, and server-enforced storage still need a paid account. Re-signing breaks Google sign-in, so sign in with email and password.``` | ```Todoist``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Tracked's premium training tools without a subscription, like muscle analytics and training programs. They run on the workout data already on your device, so they keep working offline. The separate human-coaching marketplace still needs its own subscription.``` | ```Tracked``` | ```All versions``` |
 | ```Disable ad-free banner``` | ```Hides the banner with the frog that prompts you to buy Tumblr Ad-Free.``` | ```Tumblr``` | ```All versions``` |
 | ```Disable blog notification reminder``` | ```Stops the reminder asking you to enable notifications for blogs you visit.``` | ```Tumblr``` | ```All versions``` |
@@ -1291,12 +1297,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 HK-Morphe Bundle Patch List:
 [📦 HK-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hk-morphe-patches-bundle-morphe)
 <details>
-<summary><b>HK-Morphe</b> - 8 patches, 4 apps</summary>
+<summary><b>HK-Morphe</b> - 9 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Fix "Other Discussions"``` | ```Fixes the "Other Discussions" feature.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Fix "Restore Comment"``` | ```Fixes the "Restore Comment" feature (requires Sync Ultra) by fetching from an alternative API. Also includes UI changes to make this feature more accessible.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Fix Image Post Selftext``` | ```Makes body text in image posts function like regular selftext posts (selectable text, hyperlinked URLs [WIP]).``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Fix imgur links``` | ```Fixes imgur.com/a/ links to properly display in the image viewer.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Fix r/random``` | ```Restores random subreddit functionality by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Predictive back gesture (Reddit Sync)``` | ```Enables the predictive back gesture with fixes for Reddit Sync.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
@@ -3952,10 +3959,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Ajstrick81-AndroidTV Bundle Patch List:
 [📦 Ajstrick81-AndroidTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ajstrick81-androidtv-patches-bundle-morphe)
 <details>
-<summary><b>Ajstrick81-AndroidTV</b> - 13 patches, 9 apps</summary>
+<summary><b>Ajstrick81-AndroidTV</b> - 14 patches, 9 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Clone Prime Video``` | ```Renames the package to <original>.mod (and its provider authorities / custom permissions) so the patched app installs side-by-side with a non-removable system Prime Video. Opt-in.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Disable auto-updates``` | ```Prevents Google Play Store from automatically replacing the patched APK with the official unpatched version.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Override certificate pinning``` | ```Adds a network_security_config trusting user CAs (no pin sets) so AdGuard Premium can inspect the app's platform-stack HTTPS. Optional adjunct: Prime Video's ad plane is largely native libcurl, so DNS blocking is the primary tool.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
@@ -4015,26 +4023,25 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 85 patches, 60 apps</summary>
+<summary><b>Rushiranpise</b> - 85 patches, 59 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable Analytics / Telemetry``` | ```Disables App Analytics / Telemetry.``` | ```1.1.1.1 + WARP``` | ```All versions``` |
-| ```Spoof WARP+ Unlimited UI``` | ```Unlocks WARP+ UI locally.``` | ```1.1.1.1 + WARP``` | ```All versions``` |
+| ```Disable Analytics / Telemetry``` | ```Disables App Analytics / Telemetry.``` | ```1.1.1.1``` | ```All versions``` |
+| ```Spoof WARP+ Unlimited UI``` | ```Unlocks WARP+ UI locally.``` | ```1.1.1.1``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks 1Tap Cleaner PRO: history export, app-group filters, unlimited cache targets, ad removal.``` | ```1Tap Cleaner``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks all premium content in Anatomy by Muscle Motion.``` | ```3D Anatomy & Physiology``` | ```All versions``` |
-| ```Unlock Premium+``` | ```Unlocks AccuWeather's Premium+ subscription tier without a Play Store purchase. Enables the full 15-day and hourly forecast detail, MinuteCast extended precision, air quality and health indexes, real-feel temperature, severe weather notifications, and widget customisation.``` | ```AccuWeather: Weather Radar``` | ```All versions``` |
+| ```Unlock Premium+``` | ```Unlocks AccuWeather's Premium+ subscription tier without a Play Store purchase. Enables the full 15-day and hourly forecast detail, MinuteCast extended precision, air quality and health indexes, real-feel temperature, severe weather notifications, and widget customisation.``` | ```AccuWeather``` | ```All versions``` |
 | ```Unlock Lifetime Premium``` | ```Unlocks all features locked behind the subscription paywall.``` | ```AdGuard Nightly``` | ```All versions``` |
 | ```Remove ads``` | ```Stubs all ad loading paths: banner/interstitial loaders, billing callbacks, and ad SDK init.``` | ```AIDA64``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium content in Anatomy by Muscle Motion.``` | ```Anatomy``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all Pro features in app.``` | ```App Permission Manager``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium in Beta by Mirko.``` | ```Beta Maniac``` | ```All versions``` |
 | ```Unlock Lifetime``` | ```Unlocks lifetime subscription features in BlockerHero.``` | ```BlockerHero``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Call Recorder - Automatic``` | ```All versions``` |
 | ```Remove Watermark``` | ```Removes watermarks from Canva exports and previews.``` | ```Canva``` | ```All versions``` |
-| ```Remove Ads``` | ```Removes interstitial, app-open and native ads.``` | ```Case Tracker - Immigration``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Case Tracker - Immigration``` | ```All versions``` |
-| ```Unlock Pro``` | ```Unlock Pro Features in Cashew App``` | ```Cashew - Budget & Finance App``` | ```All versions``` |
-| ```Unlock Pro``` | ```Unlocks all Citizen Plus/Protect features: Safety Network, Safety Center, Zones, Live Agent, Offender alerts, Clarity crime map, incident video, and more.``` | ```Citizen - Safety Alert``` | ```All versions``` |
+| ```Remove Ads``` | ```Removes interstitial, app-open and native ads.``` | ```Case Tracker``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Case Tracker``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlock Pro Features in Cashew App``` | ```Cashew``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks all Citizen Plus/Protect features: Safety Network, Safety Center, Zones, Live Agent, Offender alerts, Clarity crime map, incident video, and more.``` | ```Citizen``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium in Clickmate``` | ```Clickmate``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium features in app.``` | ```CPU-Z``` | ```All versions``` |
 | ```Bypass License Check``` | ```Bypasses PairIP DRM license verification to prevent forced app shutdown on non-Play-licensed installs.``` | ```Crime Radar``` | ```All versions``` |
@@ -4043,13 +4050,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Suppress Premium Promotions``` | ```Supress all premium promotions in-app.``` | ```Crime Radar``` | ```All versions``` |
 | ```Unlock Followed Locations``` | ```Unlocks the Followed Locations premium feature.``` | ```Crime Radar``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Crime Radar``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Cube ACR``` | ```All versions``` |
 | ```Unlock Business Premium``` | ```Unlocks Business/Gold premium features in Flightradar24: ad-free map, weather layers, ATC, 3D view, flight history, and unlimited saved locations.``` | ```Flightradar24``` | ```All versions``` |
 | ```Unlock Donation Features``` | ```Unlocks all premium donation features in Greenify.``` | ```Greenify``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in Hibernator.``` | ```Hibernator``` | ```All versions``` |
 | ```Unlock Premium``` | ```N/A``` | ```Hola VPN Proxy Plus``` | ```All versions``` |
 | ```Unlock VIP (Lifetime)``` | ```Forces permanent professional VIP tier, removes ads and upgrade popups, bypasses PairIP.``` | ```HTTP Sniffer``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in KillApps.``` | ```KillApps``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks all premium content.``` | ```Kyphosis Exercises - Hunchback``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium content.``` | ```Kyphosis``` | ```All versions``` |
 | ```Remove Ads``` | ```Removes interstitial and exit native ads from m-Indicator.``` | ```m-Indicator``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in ML Manager.``` | ```ML Manager``` | ```All versions``` |
 | ```Bypass member rights check``` | ```Forces MemberCheckResult.isPassed() to always return Boolean.TRUE, bypassing the server-side membership gate and preventing the 'Get Premium / 7-day trial' dialog.``` | ```MovieBox TV``` | ```All versions``` |
@@ -4061,13 +4069,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock member resolution``` | ```Forces MemberResolutionBean.isUnlock() to always return Boolean.TRUE, making all locally-cached episodes appear as unlocked to the playback layer.``` | ```MovieBox TV``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in NetGuard.``` | ```NetGuard``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```NetMonster``` | ```All versions``` |
-| ```Unlock Pro``` | ```Unlocks Pro features in app.``` | ```NetShare - Hotspot & Wifi Direct``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks Pro features in app.``` | ```NetShare``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Ninja VPN premium.``` | ```Ninja VPN``` | ```All versions``` |
 | ```Unlock All Access``` | ```Unlocks All access in Nzb360.``` | ```nzb360``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all Pro features in app.``` | ```Permission Pilot``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Photo Editor premium features by bypassing license checks.``` | ```Photo Editor``` | ```All versions``` |
 | ```Unlock All Features``` | ```Bypasses PairIP DRM license check, removes all paywalls, and unlocks all premium features including cloud sync and remote access.``` | ```Pialytic``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks all premium content in Posture Correction by Muscle Motion.``` | ```Posture Correction Exercises``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium content in Posture Correction by Muscle Motion.``` | ```Posture``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks local Proton VPN premium features.``` | ```Proton VPN``` | ```All versions``` |
 | ```Unlock Lifetime``` | ```Unlocks all Lifetime features in Proxyman.``` | ```Proxyman``` | ```All versions``` |
 | ```Remove Ads / Unlock Premium``` | ```Forces SubscriptionStateImpl.getStatus() (LB2/c.h) to always return HAS_UNLIMITED_SUBSCRIPTION and getPurchase() (LB2/c.g) to return a well-formed fake Purchase, removing ads and the upgrade button/banner without crashing on the now-expected non-null Purchase object.``` | ```Psiphon Pro``` | ```All versions``` |
@@ -4075,35 +4083,35 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks Rocket Money Premium Features.``` | ```Rocket Money``` | ```All versions``` |
 | ```Unlock Premium``` | ```Bypasses PairIP license check, paywall, ads, and pro upsell in SAI.``` | ```SAI``` | ```All versions``` |
 | ```Unlock Lifetime``` | ```Unlocks SHAREit lifetime premium.``` | ```SHAREit Premium``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks all Premium features in Snipd: AI Podcast Player by spoofing the RevenueCat CustomerInfo.``` | ```Snipd: AI Podcast Player``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all Premium features in Snipd: AI Podcast Player by spoofing the RevenueCat CustomerInfo.``` | ```Snipd``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Social Gamebox premium features.``` | ```Social Gamebox``` | ```All versions``` |
-| ```Unlock Ad-Free``` | ```Removes ads and unlocks ad-free status in Speedtest by Ookla.``` | ```Speedtest by Ookla``` | ```All versions``` |
+| ```Unlock Ad-Free``` | ```Removes ads and unlocks ad-free status in Speedtest by Ookla.``` | ```Speedtest``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Splitwise Pro features, removes ad banners, and suppresses all upgrade upsell prompts.``` | ```Splitwise``` | ```All versions``` |
 | ```Unlock Subscription``` | ```Unlocks all subscription features in TWT App.``` | ```Stargazing Hub``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks all premium content in Strength Training by Muscle Motion.``` | ```Strength Training: Gym Workout``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium content in Strength Training by Muscle Motion.``` | ```Strength Training``` | ```All versions``` |
 | ```Unlock VIP``` | ```Unlocks Dubox Drive VIP/SVIP (Premium+)``` | ```TeraBox``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks The Weather Channel's Premium and Premium Pro subscription tiers. Enables the ad-free experience, extended 15-day hourly forecast, real-feel temperature, air quality index, minute-by-minute precipitation, severe weather notifications, and radar overlays gated behind the subscription paywall.``` | ```The Weather Channel``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks car and truck premium features.``` | ```TomTom GO Navigation``` | ```All versions``` |
-| ```Disable Ads``` | ```Prevents the AppOpen ad preloader from initialising.``` | ```Universal TV Remote Control``` | ```All versions``` |
-| ```Suppress Paywall``` | ```Suppresses the in-app paywall.``` | ```Universal TV Remote Control``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Universal TV Remote Control``` | ```All versions``` |
-| ```Alert Distances``` | ```Configures radar/camera and hazard alert announcement distances. Credits: Waze CGE Mod.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
-| ```AutoZoom``` | ```Controls how aggressively the map zooms in/out based on driving speed. Credits: Waze Chuppito Mod``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
-| ```Disable Ads``` | ```Suppresses all Waze ad systems via bundled preferences file: • AdMob SDK (Ad_.*) • Google Ads (Google_Ads.*) • Ads Inventory Prediction • ExternalPOI pins, coupons, popups (ExternalPO_ + Extern__POI both key variants) • Search autocomplete server ads Credits: Waze CGE Mod (ExternalPOI keys), Waze Chuppito (dual-key coverage).``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
-| ```Disable Advil Ad Requests``` | ```Stubs AdvilRequest.getPageUrl() → "" so the Advil ad server receives no page URL and returns no ad content.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
-| ```Enlarged Speedometer``` | ```Increases speedometer digit size for better readability.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
-| ```Map Skin (Vitamin C)``` | ```Applies Chuppito's 'Vitamin C' map skin. All visual values configurable. • Night: true black AMOLED background (saves battery, prevents burn-in) • Day: warm beige background • Larger font labels across the board • Wider navigation arrow head for better visibility • Custom car 3D models: Batmobile, Riddler, race car, 3D arrow Credits: ALEX02-GTT (skin design), Waze Chuppito Mod (integration).``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
-| ```Navigation & Map``` | ```Configures navigation and map behaviour: • Nearing destination distance (Credits: CGE Mod) • Android Auto head-up alert distances • Map turn mode (auto-zoom to upcoming turn) • Traffic bar minimum time threshold • GPS icon visibility • Route notifications (hazard, school zone) both disabled by default Credits: Waze CGE Mod (nearing destination), Waze Chuppito (remaining keys).``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
-| ```Popup Suppression``` | ```Prevents promotional and ad popups from appearing while driving. Raises the minimum trigger speed to a near-impossible value so popups never appear. Credits: Waze Chuppito Mod.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
-| ```Radar Sound (Any Speed)``` | ```Plays radar/speed camera sound alerts regardless of current speed. Official Waze only alerts when over the speed limit.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
-| ```Report Speed Limit``` | ```Adds a Report option when tapping the speedometer to report wrong or missing speed limits. Not available in the official version.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
-| ```Speed Limit Sign``` | ```Sets the speed limit sign style shown on the map.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
-| ```Uncensored Radar / Camera Display``` | ```Shows exact fixed and mobile speed camera locations, including those not yet in the official Waze radar zone. Enables enforcement alerts via preferences keys: Credits: Waze CGE Mod.``` | ```Waze - GPS, Maps & Traffic``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks car and truck premium features.``` | ```TomTom GO``` | ```All versions``` |
+| ```Disable Ads``` | ```Prevents the AppOpen ad preloader from initialising.``` | ```Unimote``` | ```All versions``` |
+| ```Suppress Paywall``` | ```Suppresses the in-app paywall.``` | ```Unimote``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Unimote``` | ```All versions``` |
+| ```Alert Distances``` | ```Configures radar/camera and hazard alert announcement distances. Credits: Waze CGE Mod.``` | ```Waze``` | ```All versions``` |
+| ```AutoZoom``` | ```Controls how aggressively the map zooms in/out based on driving speed. Credits: Waze Chuppito Mod``` | ```Waze``` | ```All versions``` |
+| ```Disable Ads``` | ```Suppresses all Waze ad systems via bundled preferences file: • AdMob SDK (Ad_.*) • Google Ads (Google_Ads.*) • Ads Inventory Prediction • ExternalPOI pins, coupons, popups (ExternalPO_ + Extern__POI both key variants) • Search autocomplete server ads Credits: Waze CGE Mod (ExternalPOI keys), Waze Chuppito (dual-key coverage).``` | ```Waze``` | ```All versions``` |
+| ```Disable Advil Ad Requests``` | ```Stubs AdvilRequest.getPageUrl() → "" so the Advil ad server receives no page URL and returns no ad content.``` | ```Waze``` | ```All versions``` |
+| ```Enlarged Speedometer``` | ```Increases speedometer digit size for better readability.``` | ```Waze``` | ```All versions``` |
+| ```Map Skin (Vitamin C)``` | ```Applies Chuppito's 'Vitamin C' map skin. All visual values configurable. • Night: true black AMOLED background (saves battery, prevents burn-in) • Day: warm beige background • Larger font labels across the board • Wider navigation arrow head for better visibility • Custom car 3D models: Batmobile, Riddler, race car, 3D arrow Credits: ALEX02-GTT (skin design), Waze Chuppito Mod (integration).``` | ```Waze``` | ```All versions``` |
+| ```Navigation & Map``` | ```Configures navigation and map behaviour: • Nearing destination distance (Credits: CGE Mod) • Android Auto head-up alert distances • Map turn mode (auto-zoom to upcoming turn) • Traffic bar minimum time threshold • GPS icon visibility • Route notifications (hazard, school zone) both disabled by default Credits: Waze CGE Mod (nearing destination), Waze Chuppito (remaining keys).``` | ```Waze``` | ```All versions``` |
+| ```Popup Suppression``` | ```Prevents promotional and ad popups from appearing while driving. Raises the minimum trigger speed to a near-impossible value so popups never appear. Credits: Waze Chuppito Mod.``` | ```Waze``` | ```All versions``` |
+| ```Radar Sound (Any Speed)``` | ```Plays radar/speed camera sound alerts regardless of current speed. Official Waze only alerts when over the speed limit.``` | ```Waze``` | ```All versions``` |
+| ```Report Speed Limit``` | ```Adds a Report option when tapping the speedometer to report wrong or missing speed limits. Not available in the official version.``` | ```Waze``` | ```All versions``` |
+| ```Speed Limit Sign``` | ```Sets the speed limit sign style shown on the map.``` | ```Waze``` | ```All versions``` |
+| ```Uncensored Radar / Camera Display``` | ```Shows exact fixed and mobile speed camera locations, including those not yet in the official Waze radar zone. Enables enforcement alerts via preferences keys: Credits: Waze CGE Mod.``` | ```Waze``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Windscribe premium account.``` | ```Windscribe VPN``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks Windy Pro features.``` | ```Windy: Weather Radar & Forecast``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks all premium content.``` | ```Workout & Gym Training Plan``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Windy Pro features.``` | ```Windy``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium content.``` | ```Workout``` | ```All versions``` |
 | ```Unlock VIP``` | ```Unlocks Yatri VIP by forcing active plan status and spoofing active plan DB query.``` | ```Yatri``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks all premium content in Yoga by Muscle Motion.``` | ```Yoga - Poses & Classes``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium content in Yoga by Muscle Motion.``` | ```Yoga``` | ```All versions``` |
 
 </details>
 
