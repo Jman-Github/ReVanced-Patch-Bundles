@@ -175,9 +175,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Ads Free Rewards``` | ```Auto-claim rewarded ad rewards without watching ads. Supports MAX Unity, native MAX, Unity Ads, LevelPlay. WARNING: Enabling No Ads alongside this patch will prevent rewards from being claimed.``` | ```Universal``` | ```All versions``` |
-| ```No Ads``` | ```Blocks all non-rewarded ads: interstitial, banner, app open, MREC. Supports MAX Unity and native MAX. WARNING: Enabling Ads Free Rewards alongside this patch will cause it to NOT work (No Ads takes priority).``` | ```Universal``` | ```All versions``` |
-| ```Spoof Play Store Install Source``` | ```Makes the app think it was installed from Google Play Store. Supports Pairip and generic installer check methods. Recommended if the app has a Play Store license check.``` | ```Universal``` | ```All versions``` |
+| ```Ads Free Rewards``` | ```Auto-claim rewarded ad rewards without watching ads. WARNING: Enabling No Ads alongside this patch will prevent rewards from being claimed.``` | ```Universal``` | ```All versions``` |
+| ```No Ads``` | ```Blocks all non-rewarded ads: interstitial, banner, app open, MREC. WARNING: Enabling Ads Free Rewards alongside this patch will cause it to NOT work (No Ads takes priority).``` | ```Universal``` | ```All versions``` |
+| ```Spoof Play Store Install Source``` | ```Makes the app think it was installed from Google Play Store. Recommended if the app has a Play Store license check.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
