@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.13",
+    "version": "v1.3.0-dev.15",
     "patches": [
         {
             "compatiblePackages": null,
@@ -224,6 +224,31 @@
             "default": true,
             "dependencies": [],
             "description": "Forces HypnoBox subscription entitlement checks to always pass.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#6668BC",
+                    "description": null,
+                    "name": "LingQ",
+                    "packageName": "com.linguist",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "6.1.24"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces LingQ Premium entitlement checks to always pass.",
             "name": "Enable Pro",
             "options": []
         },
