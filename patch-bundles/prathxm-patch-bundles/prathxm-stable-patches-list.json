@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0",
+    "version": "v1.9.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -98,41 +98,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Allows users to load and display custom titles (e.g. GM, IM, FM, etc.) next to their username inside the app.",
+            "description": "Fetches and applies custom titles for users from a remote database. DM PrathxmOp to get yours for fun lol!",
             "name": "Custom Titles",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#81B64C",
-                    "description": null,
-                    "name": "Chess.com",
-                    "packageName": "com.chess",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "4.9.49",
-                            "versionCodes": null
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "4.9.49-googleplay",
-                            "versionCodes": null
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Completely disables Firebase Crashlytics and telemetry reporting to protect account privacy and prevent bans.",
-            "name": "Disable Analytics & Telemetry",
             "options": []
         },
         {
@@ -166,7 +133,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Loads daily puzzles from Lichess and bypasses Chess.com puzzle daily limits.",
+            "description": "Loads daily puzzles from Lichess and bypasses Chess.com puzzle premium limits.",
             "name": "Lichess Puzzles",
             "options": []
         },
@@ -199,7 +166,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks all locked and restricted bots in the Versus Bots feature.",
+            "description": "Unlocks all premium and restricted bots in the Versus Bots feature.",
             "name": "Unlock All Bots",
             "options": []
         }
