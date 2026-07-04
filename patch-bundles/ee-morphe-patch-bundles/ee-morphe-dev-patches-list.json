@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.12",
+    "version": "v1.3.0-dev.13",
     "patches": [
         {
             "compatiblePackages": null,
@@ -103,6 +103,37 @@
             "dependencies": [],
             "description": "Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.",
             "name": "Disable Pairip license check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#6668BC",
+                    "description": null,
+                    "name": "Readle",
+                    "packageName": "com.hello.german",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.7.3"
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": ">=4.7.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents LicenseActivity from showing the paywall by neutering startPaywallActivity.",
+            "name": "Disable Readle Paywall",
             "options": []
         },
         {
@@ -222,8 +253,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Forces Readle Pro entitlement checks to always pass.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Forces Readle premium/pro entitlement checks to always pass.",
             "name": "Enable Pro",
             "options": []
         },
