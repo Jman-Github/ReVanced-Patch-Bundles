@@ -67,7 +67,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 52 | 39 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
-| [Lain](#-lain-bundle-patch-list) | 29 | 18 | Generated |
+| [Lain](#-lain-bundle-patch-list) | 31 | 20 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 115 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 124 | 2 | Generated |
@@ -1000,7 +1000,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Lain Bundle Patch List:
 [📦 Lain-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lain-patches-bundle-morphe)
 <details>
-<summary><b>Lain</b> - 29 patches, 18 apps</summary>
+<summary><b>Lain</b> - 31 patches, 20 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1016,6 +1016,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium``` | ```Unlock premium features.``` | ```Fake GPS Location``` | ```All versions``` |
 | ```Unlock Premium``` | ```Enable premium features.``` | ```Hermit``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock premium features such as Disable Ads and access AI Assistant.``` | ```Hidden Settings``` | ```All versions``` |
+| ```Enable Premium``` | ```Unlock premium features such as Unlimited access to PDF tools, Enable Cloud Storage; Split, Merge, Compress documents, and more. Google login or Google Drive storage is broken, need MicroG integration patch.``` | ```iLovePDF``` | ```All versions``` |
 | ```Disable Analytics``` | ```Disables app tracker, Google & Firebase Analytics``` | ```MediBang Paint``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock premium features such as No Ads, Premium Brushes, Filters & Fonts; Simultaneous Layer Operation. Server-side features is NOT included!``` | ```MediBang Paint``` | ```All versions``` |
 | ```Disable Ads``` | ```Disable banner & splash ads.``` | ```Nekopoi``` | ```All versions``` |
@@ -1023,6 +1024,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Enable Certificate Pinning``` | ```Allow app network traffic to be inspected.``` | ```Nekopoi``` | ```All versions``` |
 | ```Enable Premium``` | ```Disable trial time counter.``` | ```Paletta``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock 'Remove Ads' premium feature.``` | ```PixelLab``` | ```All versions``` |
+| ```Enable Premium``` | ```Unlock premium features such as Advanced Color Tools, Clipping Masks & Alpha Masks, Manage layers with Groups, Import & customize brushes, and more...``` | ```Sketchbook``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlock pro features such as Unlimited proxy usage, Allow/disallow specific apps, Block apps in firewall and many more...``` | ```Super Proxy``` | ```All versions``` |
 | ```Disable Ads``` | ```Disable banner ads.``` | ```Timestamp Camera Enterprise Free, Timestamp Camera Free``` | ```All versions``` |
 | ```Course Maps Fix``` | ```Fix course maps not rendered by using your own Google Maps API key.``` | ```UDisc``` | ```All versions``` |
