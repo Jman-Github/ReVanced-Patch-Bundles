@@ -1,5 +1,5 @@
 {
-    "version": "v1.40.0",
+    "version": "v1.41.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -255,6 +255,31 @@
             "dependencies": [],
             "description": "Hides the banner, overlay, and in-feed display ads Twitch shows around the app. This doesn't touch the video ads in the stream itself.",
             "name": "Hide display ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#374DF5",
+                    "description": null,
+                    "name": "SofaScore",
+                    "packageName": "com.sofascore.results",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "26.06.23"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the banner and interstitial ads SofaScore shows around scores and between screens. Every ad site reads one decision method off the cached account, and the app's own ad master switch caches that method's result, so forcing it to \"no ads\" turns them all off with no login needed. The result holds across a sync because the switch re-reads the same method. Ads that are served by the video/story SDK inside embedded content are not affected.",
+            "name": "Remove Ads",
             "options": []
         },
         {

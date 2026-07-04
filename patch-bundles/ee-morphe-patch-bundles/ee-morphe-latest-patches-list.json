@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.11",
+    "version": "v1.3.0-dev.12",
     "patches": [
         {
             "compatiblePackages": null,
@@ -200,93 +200,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
-                    "appIconColor": "#1D3557",
+                    "appIconColor": "#6668BC",
                     "description": null,
-                    "name": "Jack's Flight Club",
-                    "packageName": "com.jacks_flights",
+                    "name": "Readle",
+                    "packageName": "com.hello.german",
                     "signatures": null,
                     "targets": [
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.103.0"
+                            "version": "4.7.3"
                         },
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": ">=3.103.0"
+                            "version": ">=4.7.3"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlock all Takeoff / First Class content without a paid membership.",
+            "description": "Forces Readle Pro entitlement checks to always pass.",
             "name": "Enable Pro",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#4CAF50",
-                    "description": null,
-                    "name": "Seedlang",
-                    "packageName": "com.seedlang.mobile.android.all",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.9.28"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": ">=1.9.28"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Forces the RevenueCat SDK to report that all entitlements are active, bypassing premium restrictions.",
-            "name": "Enable Pro",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#4CAF50",
-                    "description": null,
-                    "name": "Seedlang",
-                    "packageName": "com.seedlang.mobile.android.all",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.9.28"
-                        },
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": ">=1.9.28"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Patches the JS bundle to bypass Seedlang's membership gates for pro.",
-            "name": "Enable Pro JS",
             "options": []
         },
         {

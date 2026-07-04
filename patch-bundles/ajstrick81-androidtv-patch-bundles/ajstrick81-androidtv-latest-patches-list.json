@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0",
+    "version": "v1.9.0",
     "patches": [
         {
             "compatibility": [
@@ -143,6 +143,32 @@
             "dependencies": [],
             "description": "Removes VOD ads and shows a commercial-break overlay over live gambling ads while preserving live game playback.",
             "name": "MLB At Bat Android TV",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 12103684,
+                    "description": null,
+                    "name": "Pluto TV Android TV",
+                    "packageName": "tv.pluto.android",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "5.66.0-leanback"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "tv.pluto.android": [
+                    "5.66.0-leanback"
+                ]
+            },
+            "dependencies": [],
+            "description": "Edits Pluto's network_security_config to trust user CAs (system + user, overridePins) on both a new base-config and every existing domain-config — including the pluto.tv entry that is otherwise system-only — so an HTTPS-filtering proxy can inspect the HLS manifest. Optional adjunct to the manifest-rewrite ad approach.",
+            "name": "Override certificate pinning",
             "options": [],
             "use": true
         },
@@ -308,6 +334,32 @@
             },
             "dependencies": [],
             "description": "Disables ad delivery via Sky SDK surgical targets (FreeWheel DI module skip, MediaTailor SSAI layers, ad-break-started no-op), AdBlockInterceptor wiring on the app NetworkingKt OkHttp client, and a WebView shouldInterceptRequest wrapper. Pair with DNS filtering for full ad suppression. Validated v7.5.102 and v7.6.100.",
+            "name": "Skip ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 12103684,
+                    "description": null,
+                    "name": "Pluto TV Android TV",
+                    "packageName": "tv.pluto.android",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "5.66.0-leanback"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "tv.pluto.android": [
+                    "5.66.0-leanback"
+                ]
+            },
+            "dependencies": [],
+            "description": "Suppresses Pluto TV's ads. Empties the client-side ad-break timeline (StitcherSession.adBreaks) — the same data AdGuard strips via jsonprune — which removes on-demand (VOD) ad breaks entirely: ad video, markers, overlays, and beacons. Also no-ops pause ads and clickable-ad overlays. LIVE TV ads are real broadcast time in the linear feed and are not removable. Validated on-device, 5.66.0-leanback.",
             "name": "Skip ads",
             "options": [],
             "use": true

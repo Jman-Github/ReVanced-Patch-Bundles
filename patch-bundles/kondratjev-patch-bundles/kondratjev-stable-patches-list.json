@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.0",
+    "version": "v1.16.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -36,7 +36,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.103.0.3"
+                            "version": "1.104.0.2"
                         }
                     ]
                 }
@@ -71,7 +71,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.103.0.3"
+                            "version": "1.104.0.2"
                         }
                     ]
                 }
@@ -98,7 +98,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.103.0.3"
+                            "version": "1.104.0.2"
                         }
                     ]
                 }
@@ -123,7 +123,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.5.0.4"
+                            "version": "11.6.0.1"
                         }
                     ]
                 }
@@ -140,6 +140,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#00897B",
+                    "description": null,
+                    "name": "FatSecret",
+                    "packageName": "com.fatsecret.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "11.6.0.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Makes the 'App must update' dialog skippable by forcing is_cancelable=true.",
+            "name": "Disable force update dialog",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#0077FF",
                     "description": null,
                     "name": "RuStore",
@@ -150,7 +175,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.103.0.3"
+                            "version": "1.104.0.2"
                         }
                     ]
                 }
@@ -175,7 +200,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.103.0.3"
+                            "version": "1.104.0.2"
                         }
                     ]
                 }
@@ -200,7 +225,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "2026.06.03-release"
+                            "version": "2026.06.25-release"
                         }
                     ]
                 }
@@ -233,7 +258,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "0.6.11"
+                            "version": "0.6.12"
                         }
                     ]
                 }
@@ -258,7 +283,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "2026.06.03-release"
+                            "version": "2026.06.25-release"
                         }
                     ]
                 }
@@ -283,7 +308,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "2026.06.03-release"
+                            "version": "2026.06.25-release"
                         }
                     ]
                 }
@@ -308,7 +333,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.103.0.3"
+                            "version": "1.104.0.2"
                         }
                     ]
                 }
@@ -333,7 +358,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "11.5.0.4"
+                            "version": "11.6.0.1"
                         }
                     ]
                 }
@@ -385,7 +410,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.573"
+                            "version": "1.575"
                         }
                     ]
                 }
@@ -491,7 +516,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "0.6.11"
+                            "version": "0.6.12"
                         }
                     ]
                 }
