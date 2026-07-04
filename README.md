@@ -1616,6 +1616,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/arunpdl-patch-bundles/arunpdl-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 Xhehab-Patches-Bundle [Morphe]:
+[🧩 Xhehab Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-xhehab-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xhehab-patch-bundles/xhehab-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xhehab-patch-bundles/xhehab-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xhehab-patch-bundles/xhehab-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -1874,6 +1887,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### ??? [Morphe-Google-Patches-Bundle](https://github.com/Ripthulhu/morphe-google-patches)
 
 #### ??? [Arunpdl-Patches-Bundle](https://github.com/arunpdl/morphe-patches)
+
+#### 🏷️ [Xhehab-Patches-Bundle](https://github.com/Xhehab/Xhehab-Patches)
 
 </details>
 

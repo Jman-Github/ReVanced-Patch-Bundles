@@ -44,6 +44,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [Xhehab](#-xhehab-bundle-patch-list) | 3 | 3 | Generated |
 | [Arunpdl](#-arunpdl-bundle-patch-list) | 5 | 2 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 3 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -135,6 +136,20 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [AyushTNM](#-ayushtnm-bundle-patch-list) | 3 | 1 | Generated |
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
+
+---
+### 🧩 Xhehab Bundle Patch List:
+[📦 Xhehab-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-xhehab-patches-bundle-morphe)
+<details>
+<summary><b>Xhehab</b> - 3 patches, 3 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock FST-7 Subscription``` | ```Unlock all Paid features``` | ```FST-7``` | ```All versions``` |
+| ```Unlock STNDRD Premium``` | ```Unlock all Paid features``` | ```STNDRD - Workout & Fitness Plans``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlock all Paid features``` | ```TrainWise - Workout & Fitness Coach``` | ```All versions``` |
+
+</details>
 
 ---
 ### ?? Arunpdl Bundle Patch List:
