@@ -1,11 +1,11 @@
 {
-    "version": "1.9.0",
+    "version": "1.10.2",
     "patches": [
         {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Auto-claim rewarded ad rewards without watching ads. Supports MAX Unity, native MAX, Unity Ads, LevelPlay. WARNING: Enabling No Ads alongside this patch will prevent rewards from being claimed.",
+            "description": "Auto-claim rewarded ad rewards without watching ads. WARNING: Enabling No Ads alongside this patch will prevent rewards from being claimed.",
             "name": "Ads Free Rewards",
             "options": []
         },
@@ -13,7 +13,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Blocks all non-rewarded ads: interstitial, banner, app open, MREC. Supports MAX Unity and native MAX. WARNING: Enabling Ads Free Rewards alongside this patch will cause it to NOT work (No Ads takes priority).",
+            "description": "Blocks all non-rewarded ads: interstitial, banner, app open, MREC. WARNING: Enabling Ads Free Rewards alongside this patch will cause it to NOT work (No Ads takes priority).",
             "name": "No Ads",
             "options": []
         },
@@ -21,7 +21,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Makes the app think it was installed from Google Play Store. Supports Pairip and generic installer check methods. Recommended if the app has a Play Store license check.",
+            "description": "Makes the app think it was installed from Google Play Store. Recommended if the app has a Play Store license check.",
             "name": "Spoof Play Store Install Source",
             "options": []
         }

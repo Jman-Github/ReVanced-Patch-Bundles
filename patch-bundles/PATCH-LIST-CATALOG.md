@@ -49,7 +49,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Arunpdl](#-arunpdl-bundle-patch-list) | 5 | 2 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 3 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
-| [Prathxm](#-prathxm-bundle-patch-list) | 4 | 1 | Generated |
+| [Prathxm](#-prathxm-bundle-patch-list) | 6 | 1 | Generated |
 | [Telegram-Morphe](#-telegram-morphe-bundle-patch-list) | 10 | 1 | Generated |
 | [Morphe-Screenshot](#-morphe-screenshot-bundle-patch-list) | 1 | 1 | Generated |
 | [NPCI-BHIM](#-npci-bhim-bundle-patch-list) | 6 | 1 | Generated |
@@ -68,7 +68,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 52 | 39 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
-| [Lain](#-lain-bundle-patch-list) | 29 | 18 | Generated |
+| [Lain](#-lain-bundle-patch-list) | 31 | 20 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 115 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 124 | 2 | Generated |
@@ -79,7 +79,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
 | [Chiggi](#-chiggi-bundle-patch-list) | 31 | 5 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 1 | 1 | Generated |
-| [EE-Morphe](#-ee-morphe-bundle-patch-list) | 9 | 4 | Generated |
+| [EE-Morphe](#-ee-morphe-bundle-patch-list) | 11 | 5 | Generated |
 | [X-Shim](#-x-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
@@ -188,9 +188,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Ads Free Rewards``` | ```Auto-claim rewarded ad rewards without watching ads. Supports MAX Unity, native MAX, Unity Ads, LevelPlay. WARNING: Enabling No Ads alongside this patch will prevent rewards from being claimed.``` | ```Universal``` | ```All versions``` |
-| ```No Ads``` | ```Blocks all non-rewarded ads: interstitial, banner, app open, MREC. Supports MAX Unity and native MAX. WARNING: Enabling Ads Free Rewards alongside this patch will cause it to NOT work (No Ads takes priority).``` | ```Universal``` | ```All versions``` |
-| ```Spoof Play Store Install Source``` | ```Makes the app think it was installed from Google Play Store. Supports Pairip and generic installer check methods. Recommended if the app has a Play Store license check.``` | ```Universal``` | ```All versions``` |
+| ```Ads Free Rewards``` | ```Auto-claim rewarded ad rewards without watching ads. WARNING: Enabling No Ads alongside this patch will prevent rewards from being claimed.``` | ```Universal``` | ```All versions``` |
+| ```No Ads``` | ```Blocks all non-rewarded ads: interstitial, banner, app open, MREC. WARNING: Enabling Ads Free Rewards alongside this patch will cause it to NOT work (No Ads takes priority).``` | ```Universal``` | ```All versions``` |
+| ```Spoof Play Store Install Source``` | ```Makes the app think it was installed from Google Play Store. Recommended if the app has a Play Store license check.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -211,14 +211,16 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Prathxm Bundle Patch List:
 [📦 Prathxm-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-prathxm-patches-bundle-morphe)
 <details>
-<summary><b>Prathxm</b> - 4 patches, 1 app</summary>
+<summary><b>Prathxm</b> - 6 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Ad-Free & Local Analysis``` | ```Removes advertisements, unlocks ad-free features, and enables local Stockfish engine for post-game review & analysis.``` | ```Chess.com``` | ```All versions``` |
 | ```Clone Chess.com``` | ```Changes the package name to com.chess.prathxm, allowing the patched app to be installed side-by-side with the original Chess.com app.``` | ```Chess.com``` | ```All versions``` |
-| ```Lichess Puzzles``` | ```Loads daily puzzles from Lichess and bypasses Chess.com puzzle premium limits.``` | ```Chess.com``` | ```All versions``` |
-| ```Unlock All Bots``` | ```Unlocks all premium and restricted bots in the Versus Bots feature.``` | ```Chess.com``` | ```All versions``` |
+| ```Custom Titles``` | ```Allows users to load and display custom titles (e.g. GM, IM, FM, etc.) next to their username inside the app.``` | ```Chess.com``` | ```All versions``` |
+| ```Disable Analytics & Telemetry``` | ```Completely disables Firebase Crashlytics and telemetry reporting to protect account privacy and prevent bans.``` | ```Chess.com``` | ```All versions``` |
+| ```Lichess Puzzles``` | ```Loads daily puzzles from Lichess and bypasses Chess.com puzzle daily limits.``` | ```Chess.com``` | ```All versions``` |
+| ```Unlock All Bots``` | ```Unlocks all locked and restricted bots in the Versus Bots feature.``` | ```Chess.com``` | ```All versions``` |
 
 </details>
 
@@ -491,7 +493,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium``` | ```Unlocks Replaio's premium and removes the ads, so the equalizer, sleep timer, alarm, recording, and favorites all open up. Data Replaio keeps on its servers (synced favorites past the free cap) still needs an account that paid.``` | ```Replaio``` | ```All versions``` |
 | ```Unlock Premium``` | ```Turns on Rumble Premium without a subscription: removes the ad-supported playback, drops the premium upsell, and unlocks the premium-only videos. The premium flag is read from your account profile when you sign in, so it takes effect on a logged-in Rumble account.``` | ```Rumble``` | ```All versions``` |
 | ```Unlock Full``` | ```Unlocks Smart AudioBook Player's full version by forcing the local license decision to Full.``` | ```Smart AudioBook Player``` | ```All versions``` |
-| ```Remove Ads``` | ```Stops the banner and interstitial ads SofaScore shows around scores and between screens. Every ad site reads one decision method off the cached account, and the app's own ad master switch caches that method's result, so forcing it to "no ads" turns them all off with no login needed. The result holds across a sync because the switch re-reads the same method. Ads that are served by the video/story SDK inside embedded content are not affected.``` | ```SofaScore``` | ```All versions``` |
+| ```Remove Ads``` | ```Stops the banner and interstitial ads SofaScore shows around scores and between screens. Every ad site reads one decision method off the cached account, and the app's own ad master switch caches that method's result, so forcing it to "no ads" turns them all off with no login needed. The result holds across a sync because the switch re-reads the same method. Ads that are served by the video/story SDK inside embedded content are not affected. Re-signing breaks SofaScore's login (it only offers Google and Facebook sign-in, both of which reject the new signature), but removing ads does not need an account so the patch still works.``` | ```SofaScore``` | ```All versions``` |
 | ```Unlock Pro``` | ```Turns on Stash Pro and removes the ads. Pro is a flag the server sends with your account, so the unlock takes effect on a signed-in account once it loads. With it on the ads go away and the Pro-gated UI opens up: the Become Pro upsell card, the home screen block layout, custom collection cover images, and the locked review detail fields. Anything the Stash server checks for a non-paying account is unaffected, so data kept behind a paid account does not sync. Re-signing breaks Google and Facebook login, so sign in with email.``` | ```Stash``` | ```All versions``` |
 | ```Unlock Premium``` | ```Turns on Symfonium's paid features. The build ships as a public beta with a built-in trial: a license value the app keeps locally decides whether the paid UI is open, and two timers (the beta cutoff and the trial countdown) lock the app once they pass. This forces the license read to "licensed" so the paid screens open, drops the "trial expires on ..." line from settings, and stops the cutoff from triggering by cutting off the trusted-time lookup the timers rely on, which leaves the app in its offline state where neither timer fires. The license is checked on the client (a local Play purchase verify), so the unlock holds without an account. Connecting Plex, Jellyfin and other media servers is untouched.``` | ```Symfonium``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Teach Me Anatomy's premium features without a subscription, dropping the upgrade banners and ads and opening up the locked articles, quizzes, and flashcards. Content served from the server still needs a real account.``` | ```Teach Me Anatomy``` | ```All versions``` |
@@ -1013,7 +1015,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Lain Bundle Patch List:
 [📦 Lain-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lain-patches-bundle-morphe)
 <details>
-<summary><b>Lain</b> - 29 patches, 18 apps</summary>
+<summary><b>Lain</b> - 31 patches, 20 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1029,6 +1031,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium``` | ```Unlock premium features.``` | ```Fake GPS Location``` | ```All versions``` |
 | ```Unlock Premium``` | ```Enable premium features.``` | ```Hermit``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock premium features such as Disable Ads and access AI Assistant.``` | ```Hidden Settings``` | ```All versions``` |
+| ```Enable Premium``` | ```Unlock premium features such as Unlimited access to PDF tools, Enable Cloud Storage; Split, Merge, Compress documents, and more. Google login or Google Drive storage is broken, need MicroG integration patch.``` | ```iLovePDF``` | ```All versions``` |
 | ```Disable Analytics``` | ```Disables app tracker, Google & Firebase Analytics``` | ```MediBang Paint``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock premium features such as No Ads, Premium Brushes, Filters & Fonts; Simultaneous Layer Operation. Server-side features is NOT included!``` | ```MediBang Paint``` | ```All versions``` |
 | ```Disable Ads``` | ```Disable banner & splash ads.``` | ```Nekopoi``` | ```All versions``` |
@@ -1036,6 +1039,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Enable Certificate Pinning``` | ```Allow app network traffic to be inspected.``` | ```Nekopoi``` | ```All versions``` |
 | ```Enable Premium``` | ```Disable trial time counter.``` | ```Paletta``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock 'Remove Ads' premium feature.``` | ```PixelLab``` | ```All versions``` |
+| ```Enable Premium``` | ```Unlock premium features such as Advanced Color Tools, Clipping Masks & Alpha Masks, Manage layers with Groups, Import & customize brushes, and more...``` | ```Sketchbook``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlock pro features such as Unlimited proxy usage, Allow/disallow specific apps, Block apps in firewall and many more...``` | ```Super Proxy``` | ```All versions``` |
 | ```Disable Ads``` | ```Disable banner ads.``` | ```Timestamp Camera Enterprise Free, Timestamp Camera Free``` | ```All versions``` |
 | ```Course Maps Fix``` | ```Fix course maps not rendered by using your own Google Maps API key.``` | ```UDisc``` | ```All versions``` |
@@ -2390,14 +2394,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 EE-Morphe Bundle Patch List:
 [📦 EE-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ee-morphe-patches-bundle-morphe)
 <details>
-<summary><b>EE-Morphe</b> - 9 patches, 4 apps</summary>
+<summary><b>EE-Morphe</b> - 11 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Online Pro``` | ```Experimental companion patch that keeps byAir's online Pro gates open without forcing the crash-prone global entitlement refresh path.``` | ```byAir``` | ```All versions``` |
 | ```Enable Pro``` | ```Suppresses the main byAir paywall, unlock banners, and local user gating without forcing the shared entitlement path globally.``` | ```byAir``` | ```All versions``` |
 | ```Enable Pro``` | ```Forces HypnoBox subscription entitlement checks to always pass.``` | ```HypnoBox``` | ```All versions``` |
-| ```Enable Pro``` | ```Forces Readle Pro entitlement checks to always pass.``` | ```Readle``` | ```All versions``` |
+| ```Enable Pro``` | ```Forces LingQ Premium entitlement checks to always pass.``` | ```LingQ``` | ```All versions``` |
+| ```Disable Readle Paywall``` | ```Prevents LicenseActivity from showing the paywall by neutering startPaywallActivity.``` | ```Readle``` | ```All versions``` |
+| ```Enable Pro``` | ```Forces Readle premium/pro entitlement checks to always pass.``` | ```Readle``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Clone app``` | ```Renames the app and manifest package so it can be installed alongside another copy. By default this appends " B" to the launcher name and appends "B" to the package's main segment.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |

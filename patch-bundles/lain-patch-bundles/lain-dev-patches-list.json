@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.3",
+    "version": "v1.3.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -290,6 +290,37 @@
                     "apkFileType": null,
                     "appIconColor": "#FFFFFF",
                     "description": null,
+                    "name": "iLovePDF",
+                    "packageName": "com.ilovepdf.www",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.0.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock premium features such as Unlimited access to PDF tools, Enable Cloud Storage; Split, Merge, Compress documents, and more. Google login or Google Drive storage is broken, need MicroG integration patch.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FFFFFF",
+                    "description": null,
                     "name": "Paletta",
                     "packageName": "com.medibang.android.medibangpro",
                     "signatures": null,
@@ -312,6 +343,37 @@
             "default": true,
             "dependencies": [],
             "description": "Disable trial time counter.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#E45A36",
+                    "description": null,
+                    "name": "Sketchbook",
+                    "packageName": "com.adsk.sketchbook",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "6.2.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock premium features such as Advanced Color Tools, Clipping Masks & Alpha Masks, Manage layers with Groups, Import & customize brushes, and more...",
             "name": "Enable Premium",
             "options": []
         },
