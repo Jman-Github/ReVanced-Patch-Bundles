@@ -1,5 +1,5 @@
 {
-    "version": "v1.16.0",
+    "version": "v1.17.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -61,6 +61,33 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#7C4DFF",
+                    "description": null,
+                    "name": "Pillo",
+                    "packageName": "xyz.rtrvr.pillo",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "0.6.12"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Disables PulseSDK analytics.",
+            "name": "Disable analytics",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#0077FF",
                     "description": null,
                     "name": "RuStore",
@@ -78,9 +105,37 @@
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Disables VK-specific analytics.",
+            "name": "Disable analytics",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#FF5500",
+                    "description": null,
+                    "name": "SoundCloud",
+                    "packageName": "com.soundcloud.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2026.06.25-release"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Disables SoundCloud's analytics.",
             "name": "Disable analytics",
             "options": []
         },
@@ -140,6 +195,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#FF5500",
+                    "description": null,
+                    "name": "SoundCloud",
+                    "packageName": "com.soundcloud.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2026.06.25-release"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the OneTrust consent/cookies popup on first launch.",
+            "name": "Disable consent popup",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#00897B",
                     "description": null,
                     "name": "FatSecret",
@@ -157,7 +237,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Makes the 'App must update' dialog skippable by forcing is_cancelable=true.",
+            "description": "Makes the 'App must update' dialog skippable.",
             "name": "Disable force update dialog",
             "options": []
         },
@@ -212,86 +292,11 @@
             "options": []
         },
         {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#FF5500",
-                    "description": null,
-                    "name": "SoundCloud",
-                    "packageName": "com.soundcloud.android",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "2026.06.25-release"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables the OneTrust consent/cookies popup on first launch.",
-            "name": "Disable OneTrust consent popup",
-            "options": []
-        },
-        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Disables the Pairip license verification check.",
             "name": "Disable Pairip license check",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#7C4DFF",
-                    "description": null,
-                    "name": "Pillo",
-                    "packageName": "xyz.rtrvr.pillo",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "0.6.12"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables PulseSDK analytics sending events to events.pillo.care.",
-            "name": "Disable Pulse tracking",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#FF5500",
-                    "description": null,
-                    "name": "SoundCloud",
-                    "packageName": "com.soundcloud.android",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "2026.06.25-release"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables SoundCloud's telemetry system.",
-            "name": "Disable telemetry",
             "options": []
         },
         {
@@ -445,6 +450,31 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all premium features.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "Muscle Motion Strength Training",
+                    "packageName": "air.com.musclemotion.strength.mobile",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.5.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all Muscle Motion Strength Training Pro/Individual/Business features.",
             "name": "Unlock Premium",
             "options": []
         },

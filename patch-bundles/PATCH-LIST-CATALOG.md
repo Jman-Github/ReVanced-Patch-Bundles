@@ -71,7 +71,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Lain](#-lain-bundle-patch-list) | 31 | 20 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 115 | 3 | Generated |
-| [Piko](#-piko-bundle-patch-list) | 124 | 2 | Generated |
+| [Piko](#-piko-bundle-patch-list) | 125 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 9 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
@@ -83,7 +83,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [X-Shim](#-x-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
-| [Kondratjev](#-kondratjev-bundle-patch-list) | 24 | 12 | Generated |
+| [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 75 | 52 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 85 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 122 | 4 | Generated |
@@ -1199,7 +1199,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Piko Bundle Patch List:
 [📦 Piko-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-patches-bundle-morphe)
 <details>
-<summary><b>Piko</b> - 124 patches, 2 apps</summary>
+<summary><b>Piko</b> - 125 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1309,6 +1309,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Import/Export login token``` | ```Adds an feature to export and import the token of accounts. This is useful when logging in on your second device or when re-installing piko.``` | ```X``` | ```All versions``` |
 | ```Legacy share links``` | ```Brings back username on post share links. Works post 11.4x.xx``` | ```X``` | ```All versions``` |
 | ```Log server response``` | ```Log json responses received from server``` | ```X``` | ```All versions``` |
+| ```More information on profile``` | ```Adds more details on the profile page``` | ```X``` | ```All versions``` |
 | ```Native downloader``` | ```Requires X 11.0.0-release.0 or higher.``` | ```X``` | ```All versions``` |
 | ```Native reader mode``` | ```Requires X 11.0.0-release.0 or higher.``` | ```X``` | ```All versions``` |
 | ```Native translator``` | ```Requires X 11.0.0-release.0 or higher.``` | ```X``` | ```All versions``` |
@@ -2468,19 +2469,20 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kondratjev Bundle Patch List:
 [📦 Kondratjev-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kondratjev-patches-bundle-morphe)
 <details>
-<summary><b>Kondratjev</b> - 24 patches, 12 apps</summary>
+<summary><b>Kondratjev</b> - 25 patches, 13 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable community tab``` | ```Hides the News/Community tab from the bottom navigation.``` | ```FatSecret``` | ```All versions``` |
-| ```Disable force update dialog``` | ```Makes the 'App must update' dialog skippable by forcing is_cancelable=true.``` | ```FatSecret``` | ```All versions``` |
+| ```Disable force update dialog``` | ```Makes the 'App must update' dialog skippable.``` | ```FatSecret``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all FatSecret Gold features and hides the Premium tab.``` | ```FatSecret``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Lifesum``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Lyfta``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Medisafe``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all Muscle Motion Strength Training Pro/Individual/Business features.``` | ```Muscle Motion Strength Training``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks part of Ornament Pro features.``` | ```Ornament``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium features.``` | ```Parcels``` | ```All versions``` |
-| ```Disable Pulse tracking``` | ```Disables PulseSDK analytics sending events to events.pillo.care.``` | ```Pillo``` | ```All versions``` |
+| ```Disable analytics``` | ```Disables PulseSDK analytics.``` | ```Pillo``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium features and removes ads.``` | ```Pillo``` | ```All versions``` |
 | ```Disable ads``` | ```Removes all advertisements from the app.``` | ```RuStore``` | ```All versions``` |
 | ```Disable analytics``` | ```Disables VK-specific analytics.``` | ```RuStore``` | ```All versions``` |
@@ -2488,8 +2490,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable gaming profile``` | ```Removes the Game Profile section from the Mine screen, including the button and the usage statistics screen.``` | ```RuStore``` | ```All versions``` |
 | ```Disable Mine redesign``` | ```Reverts the Mine screen to the classic layout, disabling the redesigned V2/V3 interface.``` | ```RuStore``` | ```All versions``` |
 | ```Skip update auth``` | ```Removes the login requirement when updating apps.``` | ```RuStore``` | ```All versions``` |
-| ```Disable OneTrust consent popup``` | ```Disables the OneTrust consent/cookies popup on first launch.``` | ```SoundCloud``` | ```All versions``` |
-| ```Disable telemetry``` | ```Disables SoundCloud's telemetry system.``` | ```SoundCloud``` | ```All versions``` |
+| ```Disable analytics``` | ```Disables SoundCloud's analytics.``` | ```SoundCloud``` | ```All versions``` |
+| ```Disable consent popup``` | ```Disables the OneTrust consent/cookies popup on first launch.``` | ```SoundCloud``` | ```All versions``` |
 | ```Enable SoundCloud Go+``` | ```Enables all premium features, hides upsell UI and ads.``` | ```SoundCloud``` | ```All versions``` |
 | ```Change version code``` | ```Changes the app version code, allowing installation over existing versions.``` | ```Universal``` | ```All versions``` |
 | ```Disable analytics``` | ```Disables analytics and tracking from multiple SDKs, including AppMetrica, MyTracker, Firebase, Sentry, Google Analytics, Amplitude, Mixpanel, Adjust, AppsFlyer, Facebook, MoEngage, and comScore.``` | ```Universal``` | ```All versions``` |
