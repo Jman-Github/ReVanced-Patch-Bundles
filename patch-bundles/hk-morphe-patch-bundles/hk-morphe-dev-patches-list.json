@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.2",
+    "version": "v1.5.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -171,7 +171,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Makes body text in image posts function like regular selftext posts (selectable text, hyperlinked URLs [WIP]).",
+            "description": "Fixes selftext in image posts to properly render Markdown.",
             "name": "Fix Image Post Selftext",
             "options": []
         },

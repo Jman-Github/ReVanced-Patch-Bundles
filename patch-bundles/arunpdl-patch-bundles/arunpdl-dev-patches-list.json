@@ -1,6 +1,60 @@
 {
-    "version": "v1.0.2-dev.1",
+    "version": "v1.0.4-dev.2",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1F6FEB",
+                    "description": null,
+                    "name": "byAir",
+                    "packageName": "com.byairapp.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.37.0",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Experimental companion patch that keeps byAir's online Pro gates open without forcing the crash-prone global entitlement refresh path.",
+            "name": "Enable Online Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1F6FEB",
+                    "description": null,
+                    "name": "byAir",
+                    "packageName": "com.byairapp.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.37.0",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Suppresses the main byAir paywall, unlock banners, and local user gating.",
+            "name": "Enable Pro",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
