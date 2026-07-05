@@ -46,7 +46,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | --- | ---: | ---: | --- |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 3 | 3 | Generated |
-| [Arunpdl](#-arunpdl-bundle-patch-list) | 7 | 3 | Generated |
+| [Arunpdl](#-arunpdl-bundle-patch-list) | 8 | 4 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 3 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
 | [Prathxm](#-prathxm-bundle-patch-list) | 5 | 1 | Generated |
@@ -93,7 +93,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Almewty](#-almewty-bundle-patch-list) | 3 | 2 | Generated |
 | [Anddea-Morphed](#-anddea-morphed-bundle-patch-list) | 133 | 6 | Generated |
 | [RookieEnough](#-rookieenough-bundle-patch-list) | 84 | 35 | Generated |
-| [Adobo](#-adobo-bundle-patch-list) | 38 | 5 | Generated |
+| [Adobo](#-adobo-bundle-patch-list) | 39 | 5 | Generated |
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 2 | 1 | Generated |
@@ -168,7 +168,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Arunpdl Bundle Patch List:
 [?? Arunpdl-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-arunpdl-patches-bundle-morphe)
 <details>
-<summary><b>Arunpdl</b> - 7 patches, 3 apps</summary>
+<summary><b>Arunpdl</b> - 8 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -176,6 +176,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Enable Pro``` | ```Suppresses the main byAir paywall, unlock banners, and local user gating.``` | ```byAir``` | ```All versions``` |
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```JellyWatch``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features and shop items in JellyWatch.``` | ```JellyWatch``` | ```All versions``` |
+| ```Unlock Premium``` | ```Patches Dart AOT-compiled libapp.so to unlock all premium features. Forces hasPremiumAccess and isPaidUser to always return true by NOPing their ARM64 conditional branch instructions.``` | ```Mero Karobar``` | ```All versions``` |
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```Prismatica Pro``` | ```All versions``` |
 | ```Remove License Check``` | ```Bypasses the PairIP Google Play Licensing check so the app runs without a valid Play Store license.``` | ```Prismatica Pro``` | ```All versions``` |
 | ```Remove Watermark``` | ```Patches the procedural GLSL shader in libharwin_native.so to disable the "PRISMATICA" watermark in the video player and exported videos.``` | ```Prismatica Pro``` | ```All versions``` |
@@ -3393,7 +3394,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Adobo Bundle Patch List:
 [📦 Adobo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-adobo-patches-bundle-morphe)
 <details>
-<summary><b>Adobo</b> - 38 patches, 5 apps</summary>
+<summary><b>Adobo</b> - 39 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3407,7 +3408,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Toggle feature flags``` | ```Toggles Gboard feature flags to enable or disable experimental or hidden features.``` | ```Gboard``` | ```All versions``` |
 | ```Remove IMDb's ads, trackers, and analytics``` | ```Removes ads, trackers, and analytics in the IMDb app.``` | ```IMDb``` | ```All versions``` |
 | ```Colorize comment indent lines``` | ```Replaces the default gray comment indent lines with color-coded lines.``` | ```Reddit``` | ```All versions``` |
-| ```Disable home feed auto-refresh``` | ```Disables the automatic refresh of the home feed after reading a post or after being away from the app.``` | ```Reddit``` | ```All versions``` |
+| ```Disable home feed auto-refresh``` | ```Disables the automatic refresh of the home feed after viewing a post or after being away from the app.``` | ```Reddit``` | ```All versions``` |
 | ```Disable home feed swipe``` | ```Disables the horizontal page swipe gesture used to switch feeds.``` | ```Reddit``` | ```All versions``` |
 | ```Disable home screen redirect``` | ```Disables the automatic redirect to the home screen after being away from the app or returning from the background.``` | ```Reddit``` | ```All versions``` |
 | ```Disable post detail swipe``` | ```Disables the horizontal swipe gesture used to navigate between posts.``` | ```Reddit``` | ```All versions``` |
@@ -3432,6 +3433,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable metrics collection in WebView``` | ```Disables the collection of diagnostic data or usage statistics that are sent to Google.``` | ```Universal``` | ```All versions``` |
 | ```Disable mobile ads``` | ```Disables banner, interstitial, and other ad formats.``` | ```Universal``` | ```All versions``` |
 | ```Remove internet permission``` | ```Removes unnecessary internet permission from apps that can still work without internet access.``` | ```Universal``` | ```All versions``` |
+| ```Replace Google Maps API key``` | ```Replaces the Google Maps API key with a custom key.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Advertising ID``` | ```Spoofs the device's advertising ID with a string of zeros.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Firebase certificate hash``` | ```Spoofs the app's package certificate hash used by Firebase Installations so that push notifications, remote config, and other Firebase services continue to work as expected.``` | ```Universal``` | ```All versions``` |
 | ```Spoof signature verification``` | ```Spoofs the signature verification when the app starts up. It is recommended to use the unmodified app to work properly.``` | ```Universal``` | ```All versions``` |
