@@ -86,7 +86,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 24 | 12 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 75 | 52 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 85 | 6 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 121 | 4 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 122 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 2 | 2 | Generated |
@@ -2805,7 +2805,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 121 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 122 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2909,6 +2909,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Custom branding``` | ```Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.``` | ```YouTube Music``` | ```All versions``` |
 | ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```All versions``` |
 | ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube Music``` | ```All versions``` |
+| ```Downloads``` | ```Adds support to download songs with an external downloader app using the in-app download button.``` | ```YouTube Music``` | ```All versions``` |
 | ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube Music``` | ```All versions``` |
 | ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```YouTube Music``` | ```All versions``` |
 | ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```YouTube Music``` | ```All versions``` |
