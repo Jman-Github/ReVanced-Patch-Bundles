@@ -1,5 +1,5 @@
 {
-    "version": "v1.42.0",
+    "version": "v1.43.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -743,6 +743,31 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Collectr's premium features without a subscription, like unlimited collections, price alerts, and the advanced analytics. This is the arm64 build. Anything Collectr serves from its own servers still needs the real subscription.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2196F3",
+                    "description": null,
+                    "name": "DirectChat",
+                    "packageName": "net.uniquegem.directchat",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.9.8"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks DirectChat's premium without the in-app purchase, so the chat-head styles and themes, extra bubble options and the other paid settings all open, and the ad inside the message bubble is hidden too. Premium is a local flag the app seeds from its own purchase, so the unlock holds across restarts on a free account.",
             "name": "Unlock Premium",
             "options": []
         },
