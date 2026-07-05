@@ -47,7 +47,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 3 | 3 | Generated |
 | [Arunpdl](#-arunpdl-bundle-patch-list) | 8 | 4 | Generated |
-| [Nai64](#-nai64-bundle-patch-list) | 3 | 1 | Generated |
+| [Nai64](#-nai64-bundle-patch-list) | 4 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
 | [Prathxm](#-prathxm-bundle-patch-list) | 5 | 1 | Generated |
 | [Telegram-Morphe](#-telegram-morphe-bundle-patch-list) | 10 | 1 | Generated |
@@ -187,12 +187,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Nai64 Bundle Patch List:
 [?? Nai64-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nai64-patches-bundle-morphe)
 <details>
-<summary><b>Nai64</b> - 3 patches, 1 app</summary>
+<summary><b>Nai64</b> - 4 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Ads Free Rewards``` | ```Auto-claim rewarded ad rewards without watching ads. WARNING: Enabling No Ads alongside this patch will prevent rewards from being claimed.``` | ```Universal``` | ```All versions``` |
-| ```No Ads``` | ```Blocks all non-rewarded ads: interstitial, banner, app open, MREC. WARNING: Enabling Ads Free Rewards alongside this patch will cause it to NOT work (No Ads takes priority).``` | ```Universal``` | ```All versions``` |
+| ```No Ads``` | ```Blocks ads: interstitial, banner, app open, MREC. Each ad type can be toggled individually. WARNING: Enabling Ads Free Rewards alongside this patch will cause it to NOT work (No Ads takes priority).``` | ```Universal``` | ```All versions``` |
+| ```Pairip Application Redirect``` | ```Changes AndroidManifest.xml to redirect Pairip's Application entry point to the real app's Application class, preventing Pairip from ever starting. Auto-discovers the real app class from Pairip's DEX if not specified manually.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Play Store Install Source``` | ```Makes the app think it was installed from Google Play Store. Recommended if the app has a Play Store license check.``` | ```Universal``` | ```All versions``` |
 
 </details>

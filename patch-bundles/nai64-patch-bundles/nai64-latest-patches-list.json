@@ -1,5 +1,5 @@
 {
-    "version": "1.11.0",
+    "version": "1.13.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -13,9 +13,73 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Blocks all non-rewarded ads: interstitial, banner, app open, MREC. WARNING: Enabling Ads Free Rewards alongside this patch will cause it to NOT work (No Ads takes priority).",
+            "description": "Blocks ads: interstitial, banner, app open, MREC. Each ad type can be toggled individually. WARNING: Enabling Ads Free Rewards alongside this patch will cause it to NOT work (No Ads takes priority).",
             "name": "No Ads",
-            "options": []
+            "options": [
+                {
+                    "default": true,
+                    "description": "Blocks interstitial and app open ads.",
+                    "key": "blockInterstitials",
+                    "required": false,
+                    "title": "Block Interstitials",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Blocks banner and MREC ads.",
+                    "key": "blockBanners",
+                    "required": false,
+                    "title": "Block Banners",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Blocks app open ads.",
+                    "key": "blockAppOpen",
+                    "required": false,
+                    "title": "Block App Open",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Blocks MREC ads.",
+                    "key": "blockMRec",
+                    "required": false,
+                    "title": "Block MREC",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Blocks rewarded ads. Disable this if using Ads Free Rewards patch.",
+                    "key": "blockRewarded",
+                    "required": false,
+                    "title": "Block Rewarded",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Changes AndroidManifest.xml to redirect Pairip's Application entry point to the real app's Application class, preventing Pairip from ever starting. Auto-discovers the real app class from Pairip's DEX if not specified manually.",
+            "name": "Pairip Application Redirect",
+            "options": [
+                {
+                    "default": "",
+                    "description": "The real app's Application class name (e.g., com.example.app.App). Leave empty to auto-discover from Pairip's DEX.",
+                    "key": "realAppClass",
+                    "required": false,
+                    "title": "Real Application Class",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": null,
