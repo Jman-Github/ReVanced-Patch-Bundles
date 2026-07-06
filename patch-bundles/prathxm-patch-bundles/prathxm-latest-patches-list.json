@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.2-dev.3",
+    "version": "v1.10.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -100,6 +100,41 @@
             "dependencies": [],
             "description": "Fetches and applies custom titles for users from a remote database. DM PrathxmOp to get yours for fun lol!",
             "name": "Custom Titles",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#81B64C",
+                    "description": null,
+                    "name": "Chess.com",
+                    "packageName": "com.chess",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.9.49",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.9.49-googleplay",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Catches uncaught exceptions and displays a custom crash screen with details to report issues.",
+            "name": "Global Crash Handler",
             "options": []
         },
         {

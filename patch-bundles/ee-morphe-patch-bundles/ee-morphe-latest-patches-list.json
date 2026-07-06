@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.24",
+    "version": "v1.3.0-dev.25",
     "patches": [
         {
             "compatiblePackages": null,
@@ -223,12 +223,21 @@
             "name": "Enable Pro",
             "options": [
                 {
-                    "default": "plus",
+                    "default": "premium",
                     "description": "Custom string to use for the Tier.",
                     "key": "customTierString",
                     "required": true,
                     "title": "Tier Name",
                     "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Set grandfathered status to true.",
+                    "key": "enableGrandfatherMode",
+                    "required": false,
+                    "title": "Enable Grandfather Mode",
+                    "type": "kotlin.Boolean",
                     "values": null
                 }
             ]
