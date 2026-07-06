@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.1",
+    "version": "v1.10.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -15,7 +15,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -122,7 +122,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -184,7 +184,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.23.2"
+                            "version": "26.26.0"
                         }
                     ]
                 }
@@ -209,7 +209,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.0.15.0616.03"
+                            "version": "3.0.16.0703.03"
                         }
                     ]
                 }
@@ -218,56 +218,6 @@
             "dependencies": [],
             "description": "Forces MemberCheckResult.isPassed() to always return Boolean.TRUE, bypassing the server-side membership gate and preventing the 'Get Premium / 7-day trial' dialog.",
             "name": "Bypass member rights check",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#42A5F5",
-                    "description": null,
-                    "name": "BlurWall",
-                    "packageName": "apps.automan.blurwallpaper",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "2.9.2"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Bypasses PairIP License check.",
-            "name": "Bypass PairIP License Check",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#6344CC",
-                    "description": null,
-                    "name": "Inmigreat",
-                    "packageName": "com.changayaf.inmigreat",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "2.2.83"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Makes LicenseClient.checkLicense() a no-op so the app never shows the license-denied blocking screen.",
-            "name": "Bypass PairIP License Check",
             "options": []
         },
         {
@@ -284,7 +234,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.23.2"
+                            "version": "26.26.0"
                         }
                     ]
                 }
@@ -309,7 +259,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.0.15.0616.03"
+                            "version": "3.0.16.0703.03"
                         }
                     ]
                 }
@@ -359,7 +309,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -384,7 +334,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -424,50 +374,25 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
-                    "appIconColor": "#42A5F5",
+                    "appIconColor": "#19BCAA",
                     "description": null,
-                    "name": "BlurWall",
-                    "packageName": "apps.automan.blurwallpaper",
+                    "name": "CamScanner",
+                    "packageName": "com.intsig.camscanner",
                     "signatures": null,
                     "targets": [
                         {
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "2.9.2"
+                            "version": "7.20.0.2606230000"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables License Check",
-            "name": "Disable License Check",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": null,
-                    "appIconColor": "#2F7D62",
-                    "description": null,
-                    "name": "SkinSort",
-                    "packageName": "com.skinsort",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "description": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "version": "1.15"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables SkinSort local paywall configuration.",
-            "name": "Disable Paywall Config",
+            "description": "Disables CamScanner's custom telemetry/log-agent system.",
+            "name": "Disable telemetry",
             "options": []
         },
         {
@@ -484,7 +409,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -585,7 +510,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -674,7 +599,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -784,7 +709,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -900,7 +825,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -925,7 +850,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "18.0.352"
+                            "version": "18.0.356"
                         }
                     ]
                 }
@@ -975,7 +900,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "476"
+                            "version": "479"
                         }
                     ]
                 }
@@ -1000,7 +925,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.23.2"
+                            "version": "26.26.0"
                         }
                     ]
                 }
@@ -1025,7 +950,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "2.365.o"
+                            "version": "2.367.0"
                         }
                     ]
                 }
@@ -1050,7 +975,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -1075,7 +1000,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -1159,7 +1084,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.0.15.0616.03"
+                            "version": "3.0.16.0703.03"
                         }
                     ]
                 }
@@ -1184,7 +1109,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.0.15.0616.03"
+                            "version": "3.0.16.0703.03"
                         }
                     ]
                 }
@@ -1209,7 +1134,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.0.15.0616.03"
+                            "version": "3.0.16.0703.03"
                         }
                     ]
                 }
@@ -1295,7 +1220,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.0.15.0616.03"
+                            "version": "3.0.16.0703.03"
                         }
                     ]
                 }
@@ -1345,7 +1270,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.23.2"
+                            "version": "26.26.0"
                         }
                     ]
                 }
@@ -1370,7 +1295,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -1395,7 +1320,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "7.0.4"
+                            "version": "7.0.6"
                         }
                     ]
                 }
@@ -1445,7 +1370,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.2.8"
+                            "version": "1.3.0"
                         }
                     ]
                 }
@@ -1510,6 +1435,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#2196F3",
+                    "description": null,
+                    "name": "Weawow: Weather & Widget",
+                    "packageName": "com.weawow",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.1.7"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces h0() to return \"yes\" so donate dialog never shows and providers unlock.",
+            "name": "Unlock donation",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#4CAF50",
                     "description": null,
                     "name": "Greenify",
@@ -1545,7 +1495,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.2.7.0"
+                            "version": "3.27.0"
                         }
                     ]
                 }
@@ -1595,7 +1545,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.23.2"
+                            "version": "26.26.0"
                         }
                     ]
                 }
@@ -1604,6 +1554,31 @@
             "dependencies": [],
             "description": "Unlocks the Followed Locations premium feature.",
             "name": "Unlock Followed Locations",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#6200EE",
+                    "description": null,
+                    "name": "Inure App Manager",
+                    "packageName": "app.simple.inure.play",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "build107.0.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all features in Inure App Manager.",
+            "name": "Unlock Full Version",
             "options": []
         },
         {
@@ -1645,7 +1620,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.16.0"
+                            "version": "1.18.0"
                         }
                     ]
                 }
@@ -1720,7 +1695,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.0.15.0616.03"
+                            "version": "3.0.16.0703.03"
                         }
                     ]
                 }
@@ -1754,6 +1729,56 @@
             "dependencies": [],
             "description": "Unlocks Moovit+",
             "name": "Unlock Moovit+",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1C9BE6",
+                    "description": null,
+                    "name": "SpotAngels",
+                    "packageName": "com.spotangels.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "15.2.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all SpotAngels Plus features in app",
+            "name": "Unlock Plus",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1565C0",
+                    "description": null,
+                    "name": "All Reader",
+                    "packageName": "alldocumentreader.office.viewer.filereader.pdfviewer",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.2.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium.",
+            "name": "Unlock Premium",
             "options": []
         },
         {
@@ -1801,7 +1826,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
             "description": "Unlock Premium Features in app.",
             "name": "Unlock Premium",
             "options": []
@@ -1895,7 +1923,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.23.2"
+                            "version": "26.26.0"
                         }
                     ]
                 }
@@ -1928,6 +1956,31 @@
             "default": true,
             "dependencies": [],
             "description": null,
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1565C0",
+                    "description": null,
+                    "name": "Image & Video Date Fixer",
+                    "packageName": "eu.duong.imagedatefixer",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.7.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features in Image & Video Date Fixer.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -2072,7 +2125,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.4.6"
+                            "version": "1.4.7"
                         }
                     ]
                 }
@@ -2097,7 +2150,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "13.3"
+                            "version": "13.3.1"
                         }
                     ]
                 }
@@ -2105,6 +2158,31 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all Photo Editor premium features by bypassing license checks.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#2563EB",
+                    "description": null,
+                    "name": "pkge",
+                    "packageName": "net.pkge.pkge",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "19.0.13"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock Premium features in app.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -2147,7 +2225,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.18.84.0"
+                            "version": "5.19.16.0"
                         }
                     ]
                 }
@@ -2155,6 +2233,31 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks local Proton VPN premium  features.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1565C0",
+                    "description": null,
+                    "name": "Rename & Organize",
+                    "packageName": "eu.duong.picturemanager",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "8.25.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features in Rename & Organize.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -2222,13 +2325,15 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "1.15"
+                            "version": "1.19"
                         }
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "RawResourcePatch"
+            ],
             "description": "Unlocks SkinSort premium features.",
             "name": "Unlock Premium",
             "options": []
@@ -2312,6 +2417,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#E53935",
+                    "description": null,
+                    "name": "Strength Training",
+                    "packageName": "air.com.musclemotion.strength.mobile",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "3.5.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium content in Strength Training by Muscle Motion. Note: Create an exercise plan to access videos",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#1B6AC9",
                     "description": null,
                     "name": "The Weather Channel",
@@ -2322,7 +2452,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "16.10.1"
+                            "version": "16.11.0"
                         }
                     ]
                 }
@@ -2362,6 +2492,58 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "Toxly",
+                    "packageName": "com.mindful.code.studio.toxly.scanner",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.16.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Toxly Premium",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#020617",
+                    "description": null,
+                    "name": "Tracked",
+                    "packageName": "com.tracked.mobile",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.0.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Unlocks Premium Features.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#1565C0",
                     "description": null,
                     "name": "Unimote",
@@ -2387,6 +2569,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#0077CC",
+                    "description": null,
+                    "name": "Wavve Boating",
+                    "packageName": "com.wavve.boating.gps",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.6.9"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all Wavve Boating GPS premium features: charts, weather, tide data, and removes subscription paywall.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#00AEEF",
                     "description": null,
                     "name": "Windscribe VPN",
@@ -2397,7 +2604,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "4.1.2274"
+                            "version": "4.1.2284"
                         }
                     ]
                 }
@@ -2522,7 +2729,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "21.1.11-1-rc"
+                            "version": "21.1.12-2-rc"
                         }
                     ]
                 }
@@ -2547,7 +2754,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.5.1"
+                            "version": "5.5.2"
                         }
                     ]
                 }
@@ -2653,7 +2860,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Unlock Pro Features in app.",
             "name": "Unlock Pro",
             "options": []
@@ -2772,7 +2981,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "UI/link-274"
+                            "version": "276"
                         }
                     ]
                 }
@@ -2797,7 +3006,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.18"
+                            "version": "5.19"
                         }
                     ]
                 }
@@ -2851,7 +3060,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "7.20.build131"
+                            "version": "7.23.build133"
                         }
                     ]
                 }
@@ -2901,7 +3110,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "26.5.5"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -2941,6 +3150,56 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#1A1A2E",
+                    "description": null,
+                    "name": "KineStop",
+                    "packageName": "com.urbandroid.kinestop",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all pro features.",
+            "name": "Unlock pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1565C0",
+                    "description": null,
+                    "name": "TurboScan",
+                    "packageName": "com.piksoft.turboscan.free",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.7.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock Pro features in app.",
+            "name": "Unlock Pro features",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#00B2A9",
                     "description": null,
                     "name": "Transit",
@@ -2966,6 +3225,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": null,
+                    "appIconColor": "#2563EB",
+                    "description": null,
+                    "name": "SPIN",
+                    "packageName": "com.nationaledtech.spinbrowser",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "70.3.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks SPIN Plus",
+            "name": "Unlock SPIN Plus",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
                     "appIconColor": "#1A1A2E",
                     "description": null,
                     "name": "Stargazing Hub",
@@ -2976,7 +3260,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "3.2.1"
+                            "version": "3.3.1"
                         }
                     ]
                 }
@@ -2985,6 +3269,31 @@
             "dependencies": [],
             "description": "Unlocks all subscription features in TWT App.",
             "name": "Unlock Subscription",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1565C0",
+                    "description": null,
+                    "name": "Genius Scan",
+                    "packageName": "com.thegrizzlylabs.geniusscan.free",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.40.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Ultra features in app.",
+            "name": "Unlock Ultra",
             "options": []
         },
         {
@@ -3026,7 +3335,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "5.0.3"
+                            "version": "5.0.4"
                         }
                     ]
                 }
@@ -3051,7 +3360,7 @@
                             "description": null,
                             "isExperimental": false,
                             "minSdk": null,
-                            "version": "2.11.0-ad_mob"
+                            "version": "2.11.1-ad_mob"
                         }
                     ]
                 }
@@ -3060,6 +3369,31 @@
             "dependencies": [],
             "description": "Forces permanent professional VIP tier, removes ads and upgrade popups, bypasses PairIP.",
             "name": "Unlock VIP (Lifetime)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#19BCAA",
+                    "description": null,
+                    "name": "CamScanner",
+                    "packageName": "com.intsig.camscanner",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.20.0.2606230000"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features without login. Note: Login Won't Work",
+            "name": "Yearly Unlock",
             "options": []
         }
     ]
