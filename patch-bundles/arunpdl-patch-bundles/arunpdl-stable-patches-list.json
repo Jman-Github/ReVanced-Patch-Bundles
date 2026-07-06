@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.4",
+    "version": "v1.0.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -182,6 +182,32 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all premium features and shop items in JellyWatch.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": "#1565C0",
+                    "description": null,
+                    "name": "Mero Karobar",
+                    "packageName": "com.bytecaretech.merokarobar",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.8.0",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Patches Dart AOT-compiled libapp.so to unlock all premium features. Forces hasPremiumAccess and isPaidUser to always return true by NOPing their ARM64 conditional branch instructions.",
             "name": "Unlock Premium",
             "options": []
         }
