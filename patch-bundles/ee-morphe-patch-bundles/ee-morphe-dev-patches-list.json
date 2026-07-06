@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.17",
+    "version": "v1.3.0-dev.24",
     "patches": [
         {
             "compatiblePackages": null,
@@ -216,10 +216,22 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Forces LingQ Premium entitlement checks to always pass by overriding model fields.",
             "name": "Enable Pro",
-            "options": []
+            "options": [
+                {
+                    "default": "plus",
+                    "description": "Custom string to use for the Tier.",
+                    "key": "customTierString",
+                    "required": true,
+                    "title": "Tier Name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": null,
