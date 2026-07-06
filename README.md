@@ -1642,6 +1642,58 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/okish-morphe-patch-bundles/okish-morphe-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 Bufferk-Patches-Bundle [Morphe]:
+[🧩 Bufferk Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-bufferk-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bufferk-patch-bundles/bufferk-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bufferk-patch-bundles/bufferk-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bufferk-patch-bundles/bufferk-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Franticg33k-Patches-Bundle [Morphe]:
+[🧩 Franticg33k Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-franticg33k-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/franticg33k-patch-bundles/franticg33k-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/franticg33k-patch-bundles/franticg33k-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/franticg33k-patch-bundles/franticg33k-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Modx-Patches-Bundle [Morphe]:
+[🧩 Modx Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-modx-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/modx-patch-bundles/modx-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/modx-patch-bundles/modx-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/modx-patch-bundles/modx-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Gryphous-Morphe-Patches-Bundle [Morphe]:
+[🧩 Gryphous-Morphe Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-gryphous-morphe-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/gryphous-morphe-patch-bundles/gryphous-morphe-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/gryphous-morphe-patch-bundles/gryphous-morphe-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/gryphous-morphe-patch-bundles/gryphous-morphe-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -1904,6 +1956,14 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Xhehab-Patches-Bundle](https://github.com/Xhehab/Xhehab-Patches)
 
 #### 🏷️ [Okish-Morphe-Patches-Bundle](https://github.com/byehi98/okish-morphe-patches)
+
+#### 🏷️ [Bufferk-Patches-Bundle](https://github.com/bufferk/morphe-patches)
+
+#### 🏷️ [Franticg33k-Patches-Bundle](https://github.com/franticg33k/morphe-patches)
+
+#### 🏷️ [Modx-Patches-Bundle](https://github.com/Utsavrajputt/Modx-patches)
+
+#### 🏷️ [Gryphous-Morphe-Patches-Bundle](https://github.com/NekoGryphou/gryphous-morphe-patches)
 
 </details>
 

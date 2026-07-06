@@ -1,0 +1,27 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF5C00",
+                    "name": "Crunchyroll",
+                    "packageName": "com.crunchyroll.crunchyroid",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.112.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Enables automatic Android Picture-in-Picture when leaving Crunchyroll playback.",
+            "name": "Enable Picture-in-Picture",
+            "options": []
+        }
+    ]
+}

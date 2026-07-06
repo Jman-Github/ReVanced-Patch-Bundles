@@ -1,0 +1,367 @@
+{
+    "version":  "v1.6.12",
+    "patches":  [
+                    {
+                        "compatiblePackages":  [
+                                                   {
+                                                       "apkFileType":  "APK",
+                                                       "appIconColor":  "#FF6600",
+                                                       "name":  "Bounce Companion",
+                                                       "packageName":  "com.bounce.connect",
+                                                       "targets":  [
+                                                                       {
+                                                                           "isExperimental":  false,
+                                                                           "version":  "7.0.7"
+                                                                       },
+                                                                       {
+                                                                           "isExperimental":  false
+                                                                       }
+                                                                   ]
+                                                   }
+                                               ],
+                        "default":  true,
+                        "dependencies":  [
+
+                                         ],
+                        "description":  "Bypasses the Google Play LVL backend license check, allowing full app access without activation.",
+                        "name":  "Bypass license check",
+                        "options":  [
+
+                                    ]
+                    },
+                    {
+                        "compatiblePackages":  [
+                                                   {
+                                                       "apkFileType":  "APKM",
+                                                       "appIconColor":  "#005AF0",
+                                                       "name":  "Truecaller",
+                                                       "packageName":  "com.truecaller",
+                                                       "targets":  [
+                                                                       {
+                                                                           "isExperimental":  false,
+                                                                           "minSdk":  24,
+                                                                           "version":  "26.10.6"
+                                                                       }
+                                                                   ]
+                                                   }
+                                               ],
+                        "default":  true,
+                        "dependencies":  [
+
+                                         ],
+                        "description":  "Suppresses Truecaller\u0027s CleverTap behavioural event tracking to prevent user-activity telemetry.",
+                        "name":  "Disable analytics",
+                        "options":  [
+
+                                    ]
+                    },
+                    {
+                        "compatiblePackages":  [
+                                                   {
+                                                       "apkFileType":  "APKM",
+                                                       "appIconColor":  "#005AF0",
+                                                       "name":  "Truecaller",
+                                                       "packageName":  "com.truecaller",
+                                                       "targets":  [
+                                                                       {
+                                                                           "isExperimental":  false,
+                                                                           "minSdk":  24,
+                                                                           "version":  "26.10.6"
+                                                                       }
+                                                                   ]
+                                                   }
+                                               ],
+                        "default":  true,
+                        "dependencies":  [
+
+                                         ],
+                        "description":  "Unlocks all client-side premium features by bypassing the feature-availability gate.",
+                        "name":  "Enable premium features",
+                        "options":  [
+
+                                    ]
+                    },
+                    {
+                        "compatiblePackages":  [
+                                                   {
+                                                       "apkFileType":  "XAPK",
+                                                       "appIconColor":  "#1A73E8",
+                                                       "name":  "MyGate",
+                                                       "packageName":  "com.mygate.user",
+                                                       "targets":  [
+                                                                       {
+                                                                           "isExperimental":  false,
+                                                                           "minSdk":  26,
+                                                                           "version":  "7.26.1"
+                                                                       }
+                                                                   ]
+                                                   }
+                                               ],
+                        "default":  true,
+                        "dependencies":  [
+
+                                         ],
+                        "description":  "Forces premium status inside the JSON payload sent to Flutter",
+                        "name":  "Flutter Premium Bypass",
+                        "options":  [
+
+                                    ]
+                    },
+                    {
+                        "compatiblePackages":  [
+                                                   {
+                                                       "apkFileType":  "APK",
+                                                       "appIconColor":  "#000000",
+                                                       "name":  "Medium",
+                                                       "packageName":  "com.medium.reader",
+                                                       "targets":  [
+                                                                       {
+                                                                           "isExperimental":  false,
+                                                                           "minSdk":  32,
+                                                                           "version":  "4.5.1302097"
+                                                                       }
+                                                                   ]
+                                                   }
+                                               ],
+                        "default":  true,
+                        "dependencies":  [
+
+                                         ],
+                        "description":  "Adds a profile setting to choose the Freedium Mirror host, and a floating button on articles that opens the current article using the chosen Freedium Mirror in a webview.",
+                        "name":  "Freedium",
+                        "options":  [
+
+                                    ]
+                    },
+                    {
+                        "compatiblePackages":  [
+                                                   {
+                                                       "apkFileType":  "APKM",
+                                                       "appIconColor":  "#005AF0",
+                                                       "name":  "Truecaller",
+                                                       "packageName":  "com.truecaller",
+                                                       "targets":  [
+                                                                       {
+                                                                           "isExperimental":  false,
+                                                                           "minSdk":  24,
+                                                                           "version":  "26.10.6"
+                                                                       }
+                                                                   ]
+                                                   }
+                                               ],
+                        "default":  true,
+                        "dependencies":  [
+
+                                         ],
+                        "description":  "Dismisses premium upgrade prompts and paywall screens automatically.",
+                        "name":  "Hide \u0027Get Premium\u0027 banners",
+                        "options":  [
+
+                                    ]
+                    },
+                    {
+                        "compatiblePackages":  [
+                                                   {
+                                                       "apkFileType":  "XAPK",
+                                                       "appIconColor":  "#1A73E8",
+                                                       "name":  "MyGate",
+                                                       "packageName":  "com.mygate.user",
+                                                       "targets":  [
+                                                                       {
+                                                                           "isExperimental":  false,
+                                                                           "minSdk":  26,
+                                                                           "version":  "7.26.1"
+                                                                       }
+                                                                   ]
+                                                   }
+                                               ],
+                        "default":  true,
+                        "dependencies":  [
+
+                                         ],
+                        "description":  "Removes MyGate in-app ads (pre-approval screen, allow-entries screen, activity feed, and visitor profile masthead).",
+                        "name":  "Hide ads",
+                        "options":  [
+
+                                    ]
+                    },
+                    {
+                        "compatiblePackages":  [
+                                                   {
+                                                       "apkFileType":  "APKM",
+                                                       "appIconColor":  "#005AF0",
+                                                       "name":  "Truecaller",
+                                                       "packageName":  "com.truecaller",
+                                                       "targets":  [
+                                                                       {
+                                                                           "isExperimental":  false,
+                                                                           "minSdk":  24,
+                                                                           "version":  "26.10.6"
+                                                                       }
+                                                                   ]
+                                                   }
+                                               ],
+                        "default":  true,
+                        "dependencies":  [
+
+                                         ],
+                        "description":  "Removes ads from the after-call screen and caller-ID overlay.",
+                        "name":  "Hide ads",
+                        "options":  [
+
+                                    ]
+                    },
+                    {
+                        "compatiblePackages":  [
+                                                   {
+                                                       "apkFileType":  "APKM",
+                                                       "appIconColor":  "#005AF0",
+                                                       "name":  "Truecaller",
+                                                       "packageName":  "com.truecaller",
+                                                       "targets":  [
+                                                                       {
+                                                                           "isExperimental":  false,
+                                                                           "minSdk":  24,
+                                                                           "version":  "26.10.6"
+                                                                       }
+                                                                   ]
+                                                   }
+                                               ],
+                        "default":  true,
+                        "dependencies":  [
+
+                                         ],
+                        "description":  "Removes \u0027Get Premium\u0027 and \u0027Switch to Premium\u0027 buttons from the nav bar, settings, and profile.",
+                        "name":  "Hide premium upgrade prompts",
+                        "options":  [
+
+                                    ]
+                    },
+                    {
+                        "compatiblePackages":  [
+                                                   {
+                                                       "apkFileType":  "APKM",
+                                                       "appIconColor":  "#005AF0",
+                                                       "name":  "Truecaller",
+                                                       "packageName":  "com.truecaller",
+                                                       "targets":  [
+                                                                       {
+                                                                           "isExperimental":  false,
+                                                                           "minSdk":  24,
+                                                                           "version":  "26.10.6"
+                                                                       }
+                                                                   ]
+                                                   }
+                                               ],
+                        "default":  true,
+                        "dependencies":  [
+
+                                         ],
+                        "description":  "Always shows the premium/gold badge and unlocks premium UI features.",
+                        "name":  "Mock premium",
+                        "options":  [
+
+                                    ]
+                    },
+                    {
+                        "compatiblePackages":  [
+                                                   {
+                                                       "apkFileType":  "APKM",
+                                                       "appIconColor":  "#005AF0",
+                                                       "name":  "Truecaller",
+                                                       "packageName":  "com.truecaller",
+                                                       "targets":  [
+                                                                       {
+                                                                           "isExperimental":  false,
+                                                                           "minSdk":  24,
+                                                                           "version":  "26.10.6"
+                                                                       }
+                                                                   ]
+                                                   }
+                                               ],
+                        "default":  true,
+                        "dependencies":  [
+
+                                         ],
+                        "description":  "Removes the Premium tab from the bottom navigation bar and the Premium row in the profile section.",
+                        "name":  "Remove Premium UI",
+                        "options":  [
+
+                                    ]
+                    },
+                    {
+                        "compatiblePackages":  [
+                                                   {
+                                                       "apkFileType":  "XAPK",
+                                                       "appIconColor":  "#1A73E8",
+                                                       "name":  "MyGate",
+                                                       "packageName":  "com.mygate.user",
+                                                       "targets":  [
+                                                                       {
+                                                                           "isExperimental":  false,
+                                                                           "minSdk":  26,
+                                                                           "version":  "7.26.1"
+                                                                       }
+                                                                   ]
+                                                   }
+                                               ],
+                        "default":  true,
+                        "dependencies":  [
+
+                                         ],
+                        "description":  "Unlocks all MyGate premium features: spoofs USER_PREMIUM_PLAN status, suppresses upgrade dialogs and paywalls, enables frequent pre-approvals for deliveries, cabs and visiting help, unlocks surprise delivery and the always-approve-entries toggle.",
+                        "name":  "Unlock premium",
+                        "options":  [
+
+                                    ]
+                    },
+                    {
+                        "compatiblePackages":  [
+                                                   {
+                                                       "packageName":  "com.overdevs.at4k",
+                                                       "targets":  [
+                                                                       {
+                                                                           "isExperimental":  false
+                                                                       }
+                                                                   ],
+                                                       "name":  "com.overdevs.at4k"
+                                                   }
+                                               ],
+                        "default":  true,
+                        "dependencies":  [
+
+                                         ],
+                        "description":  "Unlocks all AT4K premium features by forcing the premium status to true.",
+                        "name":  "Unlock premium",
+                        "options":  [
+
+                                    ]
+                    },
+                    {
+                        "compatiblePackages":  [
+                                                   {
+                                                       "apkFileType":  "APK",
+                                                       "appIconColor":  "#1EC86A",
+                                                       "name":  "Splitwise",
+                                                       "packageName":  "com.Splitwise.SplitwiseMobile",
+                                                       "targets":  [
+                                                                       {
+                                                                           "isExperimental":  false,
+                                                                           "minSdk":  28,
+                                                                           "version":  "26.4.4"
+                                                                       }
+                                                                   ]
+                                                   }
+                                               ],
+                        "default":  true,
+                        "dependencies":  [
+
+                                         ],
+                        "description":  "Spoofs Splitwise Pro subscription status everywhere it is checked â€” bypasses the server-driven feature gate (charts, receipt scanning, currency conversion, default splits, auto-split, transaction import, itemization), forces Person.isPro() to true for receipt quality and UI gating, and suppresses all in-app upsell ad banners (home-screen, recent activity, post-add-expense). Works entirely client-side with no server interaction.",
+                        "name":  "Unlock Pro",
+                        "options":  [
+
+                                    ]
+                    }
+                ]
+}

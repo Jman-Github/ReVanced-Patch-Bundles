@@ -44,6 +44,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [Bufferk](#-bufferk-bundle-patch-list) | 14 | 6 | Generated |
+| [Franticg33k](#-franticg33k-bundle-patch-list) | 9 | 5 | Generated |
+| [Modx](#-modx-bundle-patch-list) | 1 | 1 | Generated |
+| [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 3 | 3 | Generated |
 | [Arunpdl](#-arunpdl-bundle-patch-list) | 5 | 2 | Generated |
@@ -137,6 +141,75 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [AyushTNM](#-ayushtnm-bundle-patch-list) | 3 | 1 | Generated |
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
+
+---
+### 🧩 Bufferk Bundle Patch List:
+[📦 Bufferk-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bufferk-patches-bundle-morphe)
+<details>
+<summary><b>Bufferk</b> - 14 patches, 6 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Bypass license check``` | ```Bypasses the Google Play LVL backend license check, allowing full app access without activation.``` | ```Bounce Companion``` | ```All versions``` |
+| ```Unlock premium``` | ```Unlocks all AT4K premium features by forcing the premium status to true.``` | ```com.overdevs.at4k``` | ```All versions``` |
+| ```Freedium``` | ```Adds a profile setting to choose the Freedium Mirror host, and a floating button on articles that opens the current article using the chosen Freedium Mirror in a webview.``` | ```Medium``` | ```All versions``` |
+| ```Flutter Premium Bypass``` | ```Forces premium status inside the JSON payload sent to Flutter``` | ```MyGate``` | ```All versions``` |
+| ```Hide ads``` | ```Removes MyGate in-app ads (pre-approval screen, allow-entries screen, activity feed, and visitor profile masthead).``` | ```MyGate``` | ```All versions``` |
+| ```Unlock premium``` | ```Unlocks all MyGate premium features: spoofs USER_PREMIUM_PLAN status, suppresses upgrade dialogs and paywalls, enables frequent pre-approvals for deliveries, cabs and visiting help, unlocks surprise delivery and the always-approve-entries toggle.``` | ```MyGate``` | ```All versions``` |
+| ```Unlock Pro``` | ```Spoofs Splitwise Pro subscription status everywhere it is checked â€” bypasses the server-driven feature gate (charts, receipt scanning, currency conversion, default splits, auto-split, transaction import, itemization), forces Person.isPro() to true for receipt quality and UI gating, and suppresses all in-app upsell ad banners (home-screen, recent activity, post-add-expense). Works entirely client-side with no server interaction.``` | ```Splitwise``` | ```All versions``` |
+| ```Disable analytics``` | ```Suppresses Truecaller's CleverTap behavioural event tracking to prevent user-activity telemetry.``` | ```Truecaller``` | ```All versions``` |
+| ```Enable premium features``` | ```Unlocks all client-side premium features by bypassing the feature-availability gate.``` | ```Truecaller``` | ```All versions``` |
+| ```Hide 'Get Premium' banners``` | ```Dismisses premium upgrade prompts and paywall screens automatically.``` | ```Truecaller``` | ```All versions``` |
+| ```Hide ads``` | ```Removes ads from the after-call screen and caller-ID overlay.``` | ```Truecaller``` | ```All versions``` |
+| ```Hide premium upgrade prompts``` | ```Removes 'Get Premium' and 'Switch to Premium' buttons from the nav bar, settings, and profile.``` | ```Truecaller``` | ```All versions``` |
+| ```Mock premium``` | ```Always shows the premium/gold badge and unlocks premium UI features.``` | ```Truecaller``` | ```All versions``` |
+| ```Remove Premium UI``` | ```Removes the Premium tab from the bottom navigation bar and the Premium row in the profile section.``` | ```Truecaller``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Franticg33k Bundle Patch List:
+[📦 Franticg33k-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-franticg33k-patches-bundle-morphe)
+<details>
+<summary><b>Franticg33k</b> - 9 patches, 5 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Enable Online Pro``` | ```Experimental companion patch that keeps byAir's online Pro gates open without forcing the crash-prone global entitlement refresh path.``` | ```byAir``` | ```All versions``` |
+| ```Enable Pro``` | ```Suppresses the main byAir paywall, unlock banners, and local user gating.``` | ```byAir``` | ```All versions``` |
+| ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```JellyWatch``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium features and shop items in JellyWatch.``` | ```JellyWatch``` | ```All versions``` |
+| ```Unlock Premium``` | ```Patches Dart AOT-compiled libapp.so to unlock all premium features. Forces hasPremiumAccess and isPaidUser to always return true by NOPing their ARM64 conditional branch instructions.``` | ```Mero Karobar``` | ```All versions``` |
+| ```Remove Ads``` | ```Disables all ad serving from Facebook Audience Network (FAN) and Google Mobile Ads (AdMob). No-ops the plugin bridges so no ads are shown.``` | ```Nepalipatro``` | ```All versions``` |
+| ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```Prismatica Pro``` | ```All versions``` |
+| ```Remove License Check``` | ```Bypasses the PairIP Google Play Licensing check so the app runs without a valid Play Store license.``` | ```Prismatica Pro``` | ```All versions``` |
+| ```Remove Watermark``` | ```Patches the procedural GLSL shader in libharwin_native.so to disable the "PRISMATICA" watermark in the video player and exported videos.``` | ```Prismatica Pro``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Modx Bundle Patch List:
+[📦 Modx-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-modx-patches-bundle-morphe)
+<details>
+<summary><b>Modx</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable video ads``` | ```Disables video ads by patching the native library.``` | ```MX Player``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Gryphous-Morphe Bundle Patch List:
+[📦 Gryphous-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-gryphous-morphe-patches-bundle-morphe)
+<details>
+<summary><b>Gryphous-Morphe</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Enable Picture-in-Picture``` | ```Enables automatic Android Picture-in-Picture when leaving Crunchyroll playback.``` | ```Crunchyroll``` | ```All versions``` |
+
+</details>
 
 ---
 ### 🧩 Okish-Morphe Bundle Patch List:
