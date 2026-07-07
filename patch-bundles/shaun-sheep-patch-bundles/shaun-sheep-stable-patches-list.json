@@ -1,0 +1,31 @@
+{
+    "version": "v1.0.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FFC107",
+                    "description": null,
+                    "name": "KineStop",
+                    "packageName": "com.urbandroid.kinestop",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.1",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features by forcing KineService.Companion.isTrial() to return false (pro state).",
+            "name": "Unlock Premium",
+            "options": []
+        }
+    ]
+}

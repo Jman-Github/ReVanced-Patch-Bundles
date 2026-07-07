@@ -1,0 +1,47 @@
+{
+    "version": "v1.3.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": []
+            },
+            "dependencies": [],
+            "description": "Adds a 'Revanced patch version' field below the current and latest version in Settings > About.",
+            "name": "Add ReVanced patch version field",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": []
+            },
+            "dependencies": [],
+            "description": "Presents the original signing certificate to the app's own tamper checks so the re-signed build passes verification.",
+            "name": "Spoof signature",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": []
+            },
+            "dependencies": [
+                "Voice reply file upload resources"
+            ],
+            "description": "Adds an upload button to the voice-reply record tab so an existing AAC audio file can be sent as a voice reply.",
+            "name": "Voice reply file upload",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": []
+            },
+            "dependencies": [],
+            "description": "Layout and manifest changes for the voice-reply audio file picker.",
+            "name": "Voice reply file upload resources",
+            "options": [],
+            "use": false
+        }
+    ]
+}

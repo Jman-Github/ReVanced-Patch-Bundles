@@ -1694,6 +1694,32 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/gryphous-morphe-patch-bundles/gryphous-morphe-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 Coronenic-Patches-Bundle [ReVanced]:
+[🧩 Coronenic Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-coronenic-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/coronenic-patch-bundles/coronenic-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/coronenic-patch-bundles/coronenic-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/coronenic-patch-bundles/coronenic-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Shaun-Sheep-Patches-Bundle [Morphe]:
+[🧩 Shaun-Sheep Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-shaun-sheep-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/shaun-sheep-patch-bundles/shaun-sheep-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/shaun-sheep-patch-bundles/shaun-sheep-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/shaun-sheep-patch-bundles/shaun-sheep-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -1964,6 +1990,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Modx-Patches-Bundle](https://github.com/Utsavrajputt/Modx-patches)
 
 #### 🏷️ [Gryphous-Morphe-Patches-Bundle](https://github.com/NekoGryphou/gryphous-morphe-patches)
+
+#### 🏷️ [Coronenic-Patches-Bundle](https://github.com/coronenic/revanced-patches)
+
+#### 🏷️ [Shaun-Sheep-Patches-Bundle](https://github.com/shaun-the-sheep-patches/morphe-patches)
 
 </details>
 

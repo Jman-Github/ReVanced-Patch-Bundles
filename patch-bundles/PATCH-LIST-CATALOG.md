@@ -40,10 +40,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Alim-zanibekov](#-alim-zanibekov-bundle-patch-list) | 1 | 1 | Generated |
 | [Daboynb](#-daboynb-bundle-patch-list) | 1 | 1 | Generated |
 | [MojiRS-RIF](#-mojirs-rif-bundle-patch-list) | 2 | 1 | Generated |
+| [Coronenic](#-coronenic-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 1 | 1 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 14 | 6 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 9 | 5 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 1 | 1 | Generated |
@@ -141,6 +143,34 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [AyushTNM](#-ayushtnm-bundle-patch-list) | 3 | 1 | Generated |
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
+
+
+---
+### 🧩 Coronenic Bundle Patch List:
+[📦 Coronenic-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-coronenic-patches-bundle-revanced)
+<details>
+<summary><b>Coronenic</b> - 4 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Add ReVanced patch version field``` | ```Adds a 'Revanced patch version' field below the current and latest version in Settings > About.``` | ```com.dcinside.app.android``` | ```All versions``` |
+| ```Spoof signature``` | ```Presents the original signing certificate to the app's own tamper checks so the re-signed build passes verification.``` | ```com.dcinside.app.android``` | ```All versions``` |
+| ```Voice reply file upload``` | ```Adds an upload button to the voice-reply record tab so an existing AAC audio file can be sent as a voice reply.``` | ```com.dcinside.app.android``` | ```All versions``` |
+| ```Voice reply file upload resources``` | ```Layout and manifest changes for the voice-reply audio file picker.``` | ```com.dcinside.app.android``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Shaun-Sheep Bundle Patch List:
+[📦 Shaun-Sheep-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-shaun-sheep-patches-bundle-morphe)
+<details>
+<summary><b>Shaun-Sheep</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock Premium``` | ```Unlocks all premium features by forcing KineService.Companion.isTrial() to return false (pro state).``` | ```KineStop``` | ```All versions``` |
+
+</details>
 
 ---
 ### 🧩 Bufferk Bundle Patch List:
