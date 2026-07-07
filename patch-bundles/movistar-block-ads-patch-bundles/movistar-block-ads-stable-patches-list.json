@@ -1,0 +1,26 @@
+{
+    "version": "v1.0.9",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00A9E0",
+                    "name": "Movistar Plus",
+                    "packageName": "com.movistarplus.androidtv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.03.100"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks advertisements and promo clips.",
+            "name": "Block Ads",
+            "options": []
+        }
+    ]
+}
