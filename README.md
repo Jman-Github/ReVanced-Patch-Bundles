@@ -1999,11 +1999,11 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [Prathxm-YTMusic-Patches-Bundle](https://github.com/PrathxmOp/ytmusic-patches)
 
-#### ??? [Nai64-Patches-Bundle](https://github.com/Nai64/Nai64Patches)
+#### 🏷️ [Nai64-Patches-Bundle](https://github.com/Nai64/Nai64Patches)
 
-#### ??? [Morphe-Google-Patches-Bundle](https://github.com/Ripthulhu/morphe-google-patches)
+#### 🏷️ [Morphe-Google-Patches-Bundle](https://github.com/Ripthulhu/morphe-google-patches)
 
-#### ??? [Arunpdl-Patches-Bundle](https://github.com/arunpdl/morphe-patches)
+#### 🏷️ [Arunpdl-Patches-Bundle](https://github.com/arunpdl/morphe-patches)
 
 #### 🏷️ [Xhehab-Patches-Bundle](https://github.com/Xhehab/Xhehab-Patches)
 
