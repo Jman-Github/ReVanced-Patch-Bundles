@@ -1733,6 +1733,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/movistar-block-ads-patch-bundles/movistar-block-ads-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 Pinterest-Morphed-Patches-Bundle [Morphe]:
+[🧩 Pinterest-Morphed Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-pinterest-morphed-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pinterest-morphed-patch-bundles/pinterest-morphed-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pinterest-morphed-patch-bundles/pinterest-morphed-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pinterest-morphed-patch-bundles/pinterest-morphed-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -2009,6 +2022,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Shaun-Sheep-Patches-Bundle](https://github.com/shaun-the-sheep-patches/morphe-patches)
 
 #### 🏷️ [Movistar-Block-Ads-Patches-Bundle](https://github.com/Tornillo2/movistar-block-ads-morphe)
+
+#### 🏷️ [Pinterest-Morphed-Patches-Bundle](https://github.com/SouBryan/pinterest-morphed)
 
 </details>
 
