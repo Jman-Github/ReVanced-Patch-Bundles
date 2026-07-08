@@ -302,7 +302,7 @@ private fun extractPatchName(element: JsonElement): String {
 }
 
 private fun canonicalizePatchArray(patches: JsonArray): JsonArray {
-    val cleaned = sanitizeDependencies(patches)
+    val cleaned = sanitizeCompatiblePackages(sanitizeDependencies(patches))
     val canonicalized = cleaned.mapIndexed { index, element ->
         Triple(index, extractPatchName(element), canonicalizeElement(element))
     }
@@ -328,6 +328,56 @@ private fun sanitizeDependencies(patches: JsonArray): JsonArray {
                 for ((key, value) in obj) {
                     if (key == "dependencies") {
                         put(key, sanitized)
+                    } else {
+                        put(key, value)
+                    }
+                }
+            }
+        }
+    )
+}
+
+private fun removeNullFields(element: JsonElement): JsonElement {
+    return when (element) {
+        is JsonObject -> buildJsonObject {
+            for ((key, value) in element) {
+                if (value != JsonNull) {
+                    put(key, removeNullFields(value))
+                }
+            }
+        }
+        is JsonArray -> JsonArray(element.map(::removeNullFields))
+        else -> element
+    }
+}
+
+private fun sanitizeCompatiblePackages(patches: JsonArray): JsonArray {
+    return JsonArray(
+        patches.map { element ->
+            val obj = element as? JsonObject ?: return@map element
+            val compatiblePackages = obj["compatiblePackages"] as? JsonArray ?: return@map element
+            val sanitizedPackages = JsonArray(
+                compatiblePackages.mapNotNull { packageElement ->
+                    val packageObject = packageElement as? JsonObject ?: return@mapNotNull null
+                    val fallbackName = packageObject["packageName"]?.jsonPrimitive?.contentOrNull
+                    val packageName = packageObject["name"]?.jsonPrimitive?.contentOrNull ?: fallbackName
+                    if (packageName.isNullOrBlank()) {
+                        return@mapNotNull null
+                    }
+                    buildJsonObject {
+                        put("name", JsonPrimitive(packageName))
+                        for ((key, value) in packageObject) {
+                            if (key != "name" && value != JsonNull) {
+                                put(key, removeNullFields(value))
+                            }
+                        }
+                    }
+                }
+            )
+            buildJsonObject {
+                for ((key, value) in obj) {
+                    if (key == "compatiblePackages") {
+                        put(key, sanitizedPackages)
                     } else {
                         put(key, value)
                     }
