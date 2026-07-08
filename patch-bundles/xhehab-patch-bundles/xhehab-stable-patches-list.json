@@ -1,5 +1,5 @@
 {
-    "version": "v2.0.0",
+    "version": "v2.0.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -55,7 +55,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.1.43"
+                            "version": "4.1.44"
                         }
                     ]
                 }
@@ -64,6 +64,27 @@
             "dependencies": [],
             "description": "Unlock all Paid features",
             "name": "Unlock STNDRD Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#18DC14",
+                    "name": "Video Player All Format",
+                    "packageName": "video.player.videoplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.6.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock all Paid features",
+            "name": "Unlock Video Player Premium",
             "options": []
         }
     ]

@@ -52,7 +52,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Modx](#-modx-bundle-patch-list) | 1 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Xhehab](#-xhehab-bundle-patch-list) | 3 | 3 | Generated |
+| [Xhehab](#-xhehab-bundle-patch-list) | 4 | 4 | Generated |
 | [Arunpdl](#-arunpdl-bundle-patch-list) | 8 | 4 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 4 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -298,13 +298,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Xhehab Bundle Patch List:
 [📦 Xhehab-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-xhehab-patches-bundle-morphe)
 <details>
-<summary><b>Xhehab</b> - 3 patches, 3 apps</summary>
+<summary><b>Xhehab</b> - 4 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock FST-7 Subscription``` | ```Unlock all Paid features``` | ```FST-7``` | ```All versions``` |
 | ```Unlock STNDRD Premium``` | ```Unlock all Paid features``` | ```STNDRD - Workout & Fitness Plans``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock all Paid features``` | ```TrainWise - Workout & Fitness Coach``` | ```All versions``` |
+| ```Unlock Video Player Premium``` | ```Unlock all Paid features``` | ```Video Player All Format``` | ```All versions``` |
 
 </details>
 
