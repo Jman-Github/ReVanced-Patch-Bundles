@@ -1,64 +1,68 @@
 {
-    "version": "v1.10.0-dev.1",
+    "version": "v1.12.1-dev.1",
     "patches": [
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#81B64C",
-                    "description": null,
                     "name": "Chess.com",
                     "packageName": "com.chess",
-                    "signatures": null,
+                    "signatures": [
+                        "aa8c9ff93efbdc4226a113e49fc9645b2c02092a314305da2d76be6cdf8abfc3"
+                    ],
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "4.9.49",
-                            "versionCodes": null
+                            "version": "4.9.49"
                         },
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "4.9.49-googleplay",
-                            "versionCodes": null
+                            "version": "4.9.49-googleplay"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.0-googleplay"
                         }
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Removes advertisements, unlocks ad-free features, and enables local Stockfish engine for post-game review & analysis.",
-            "name": "Ad-Free & Local Analysis",
+            "dependencies": [],
+            "description": "Removes advertisements",
+            "name": "Ad-Free",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#81B64C",
-                    "description": null,
                     "name": "Chess.com",
                     "packageName": "com.chess",
-                    "signatures": null,
+                    "signatures": [
+                        "aa8c9ff93efbdc4226a113e49fc9645b2c02092a314305da2d76be6cdf8abfc3"
+                    ],
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "4.9.49",
-                            "versionCodes": null
+                            "version": "4.9.49"
                         },
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "4.9.49-googleplay",
-                            "versionCodes": null
+                            "version": "4.9.49-googleplay"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.0-googleplay"
                         }
                     ]
                 }
@@ -72,26 +76,29 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#81B64C",
-                    "description": null,
                     "name": "Chess.com",
                     "packageName": "com.chess",
-                    "signatures": null,
+                    "signatures": [
+                        "aa8c9ff93efbdc4226a113e49fc9645b2c02092a314305da2d76be6cdf8abfc3"
+                    ],
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "4.9.49",
-                            "versionCodes": null
+                            "version": "4.9.49"
                         },
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "4.9.49-googleplay",
-                            "versionCodes": null
+                            "version": "4.9.49-googleplay"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.0-googleplay"
                         }
                     ]
                 }
@@ -105,26 +112,29 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#81B64C",
-                    "description": null,
                     "name": "Chess.com",
                     "packageName": "com.chess",
-                    "signatures": null,
+                    "signatures": [
+                        "aa8c9ff93efbdc4226a113e49fc9645b2c02092a314305da2d76be6cdf8abfc3"
+                    ],
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "4.9.49",
-                            "versionCodes": null
+                            "version": "4.9.49"
                         },
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "4.9.49-googleplay",
-                            "versionCodes": null
+                            "version": "4.9.49-googleplay"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.0-googleplay"
                         }
                     ]
                 }
@@ -140,26 +150,29 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#81B64C",
-                    "description": null,
                     "name": "Chess.com",
                     "packageName": "com.chess",
-                    "signatures": null,
+                    "signatures": [
+                        "aa8c9ff93efbdc4226a113e49fc9645b2c02092a314305da2d76be6cdf8abfc3"
+                    ],
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "4.9.49",
-                            "versionCodes": null
+                            "version": "4.9.49"
                         },
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "4.9.49-googleplay",
-                            "versionCodes": null
+                            "version": "4.9.49-googleplay"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.0-googleplay"
                         }
                     ]
                 }
@@ -175,26 +188,67 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#81B64C",
-                    "description": null,
                     "name": "Chess.com",
                     "packageName": "com.chess",
-                    "signatures": null,
+                    "signatures": [
+                        "aa8c9ff93efbdc4226a113e49fc9645b2c02092a314305da2d76be6cdf8abfc3"
+                    ],
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "4.9.49",
-                            "versionCodes": null
+                            "version": "4.9.49"
                         },
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "4.9.49-googleplay",
-                            "versionCodes": null
+                            "version": "4.9.49-googleplay"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.0-googleplay"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Enables local Stockfish engine for post-game review & analysis.",
+            "name": "Local Stockfish Analysis",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#81B64C",
+                    "name": "Chess.com",
+                    "packageName": "com.chess",
+                    "signatures": [
+                        "aa8c9ff93efbdc4226a113e49fc9645b2c02092a314305da2d76be6cdf8abfc3"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.9.49"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.9.49-googleplay"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.0-googleplay"
                         }
                     ]
                 }

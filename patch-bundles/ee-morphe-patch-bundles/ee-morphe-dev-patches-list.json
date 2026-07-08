@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.25",
+    "version": "v1.3.0-dev.28",
     "patches": [
         {
             "compatiblePackages": null,
@@ -106,6 +106,24 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "name": "MacroDroid",
+                    "packageName": "com.arlosoft.macrodroid",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Substitutes specific 'exploration' strings with 'dog'.",
+            "name": "Dog Patch",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -116,17 +134,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1F6FEB",
-                    "description": null,
                     "name": "byAir",
                     "packageName": "com.byairapp.android",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "2.36.0"
                         }
                     ]
@@ -143,17 +156,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1F6FEB",
-                    "description": null,
                     "name": "byAir",
                     "packageName": "com.byairapp.android",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "2.36.0"
                         }
                     ]
@@ -168,23 +176,16 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#5EA15A",
-                    "description": null,
                     "name": "HypnoBox",
                     "packageName": "epixler.de.hypnobox_android",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "4.2.81"
                         },
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": ">=4.2.81"
                         }
                     ]
@@ -199,17 +200,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#6668BC",
-                    "description": null,
                     "name": "LingQ",
                     "packageName": "com.linguist",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "6.1.24"
                         }
                     ]

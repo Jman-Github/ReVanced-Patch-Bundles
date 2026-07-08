@@ -1,21 +1,16 @@
 {
-    "version": "v1.10.1-dev.1",
+    "version": "v1.11.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#33CCFF",
-                    "description": null,
                     "name": "Waze",
                     "packageName": "com.waze",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -111,18 +106,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#33CCFF",
-                    "description": null,
                     "name": "Waze",
                     "packageName": "com.waze",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -173,17 +163,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#E53935",
-                    "description": null,
                     "name": "Crime Radar",
                     "packageName": "com.newsbreak.crimeradar",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "26.23.2"
                         }
                     ]
@@ -198,17 +183,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#E53935",
-                    "description": null,
                     "name": "MovieBox TV",
                     "packageName": "com.community.oneroom",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "3.0.15.0616.03"
                         }
                     ]
@@ -223,17 +203,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#E53935",
-                    "description": null,
                     "name": "Crime Radar",
                     "packageName": "com.newsbreak.crimeradar",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "26.23.2"
                         }
                     ]
@@ -248,17 +223,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#E53935",
-                    "description": null,
                     "name": "MovieBox TV",
                     "packageName": "com.community.oneroom",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "3.0.15.0616.03"
                         }
                     ]
@@ -273,17 +243,48 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
-                    "appIconColor": "#1565C0",
-                    "description": null,
-                    "name": "Unimote",
-                    "packageName": "sensustech.universal.tv.remote.control",
-                    "signatures": null,
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon Shopping",
+                    "packageName": "com.amazon.mShop.android.shopping",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
+                            "version": "32.12.4.100"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Force dark mode for Amazon Shopping.",
+            "name": "Dark mode",
+            "options": [
+                {
+                    "default": "follow_system",
+                    "description": "Off / Follow system / Always on.",
+                    "key": "amazonDarkMode",
+                    "required": false,
+                    "title": "Dark mode",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Always on": "on",
+                        "Follow system": "follow_system",
+                        "Off": "off"
+                    }
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1565C0",
+                    "name": "Unimote",
+                    "packageName": "sensustech.universal.tv.remote.control",
+                    "targets": [
+                        {
+                            "isExperimental": false,
                             "version": "1.8.1"
                         }
                     ]
@@ -298,18 +299,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#33CCFF",
-                    "description": null,
                     "name": "Waze",
                     "packageName": "com.waze",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -323,18 +319,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#33CCFF",
-                    "description": null,
                     "name": "Waze",
                     "packageName": "com.waze",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -348,17 +339,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#F48120",
-                    "description": null,
                     "name": "1.1.1.1",
                     "packageName": "com.cloudflare.onedotonedotonedotone",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "6.38.7"
                         }
                     ]
@@ -373,17 +359,32 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
-                    "appIconColor": "#19BCAA",
-                    "description": null,
-                    "name": "CamScanner",
-                    "packageName": "com.intsig.camscanner",
-                    "signatures": null,
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon Shopping",
+                    "packageName": "com.amazon.mShop.android.shopping",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
+                            "version": "32.12.4.100"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents search keypress and focus events from being sent with suggestion requests.",
+            "name": "Disable search suggestions tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#19BCAA",
+                    "name": "CamScanner",
+                    "packageName": "com.intsig.camscanner",
+                    "targets": [
+                        {
+                            "isExperimental": false,
                             "version": "7.20.0.2606230000"
                         }
                     ]
@@ -398,18 +399,33 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
-                    "appIconColor": "#33CCFF",
-                    "description": null,
-                    "name": "Waze",
-                    "packageName": "com.waze",
-                    "signatures": null,
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon Shopping",
+                    "packageName": "com.amazon.mShop.android.shopping",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "32.12.4.100"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents product and ad videos from autoplaying.",
+            "name": "Disable video autoplay",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#33CCFF",
+                    "name": "Waze",
+                    "packageName": "com.waze",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -499,18 +515,33 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
-                    "appIconColor": "#33CCFF",
-                    "description": null,
-                    "name": "Waze",
-                    "packageName": "com.waze",
-                    "signatures": null,
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon Shopping",
+                    "packageName": "com.amazon.mShop.android.shopping",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "32.12.4.100"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the Rufus AI assistant tab from Amazon's bottom navigation bar.",
+            "name": "Hide Rufus tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#33CCFF",
+                    "name": "Waze",
+                    "packageName": "com.waze",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -588,18 +619,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#33CCFF",
-                    "description": null,
                     "name": "Waze",
                     "packageName": "com.waze",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -698,18 +724,33 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
-                    "appIconColor": "#33CCFF",
-                    "description": null,
-                    "name": "Waze",
-                    "packageName": "com.waze",
-                    "signatures": null,
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon Shopping",
+                    "packageName": "com.amazon.mShop.android.shopping",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "32.12.4.100"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Opens non-Amazon URLs in the default browser instead of the in-app WebView.",
+            "name": "Open links in browser",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#33CCFF",
+                    "name": "Waze",
+                    "packageName": "com.waze",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -767,6 +808,26 @@
             ]
         },
         {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon Shopping",
+                    "packageName": "com.amazon.mShop.android.shopping",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "32.12.4.100"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Injects Keepa and CamelCamelCamel price history charts on Amazon product pages.",
+            "name": "Price history charts",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -814,18 +875,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#33CCFF",
-                    "description": null,
                     "name": "Waze",
                     "packageName": "com.waze",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -839,18 +895,33 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
-                    "appIconColor": "#1565C0",
-                    "description": null,
-                    "name": "m-Indicator",
-                    "packageName": "com.mobond.mindicator",
-                    "signatures": null,
+                    "appIconColor": "#E53935",
+                    "name": "Toomics",
+                    "packageName": "com.toomics.global.google",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "18.0.352"
+                            "version": "1.6.7"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Remove in-app ads",
+            "name": "Remove ADS",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1565C0",
+                    "name": "m-Indicator",
+                    "packageName": "com.mobond.mindicator",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.356"
                         }
                     ]
                 }
@@ -864,17 +935,32 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
-                    "appIconColor": "#1565C0",
-                    "description": null,
-                    "name": "AIDA64",
-                    "packageName": "com.finalwire.aida64",
-                    "signatures": null,
+                    "appIconColor": "#E53935",
+                    "name": "VIZ Manga",
+                    "packageName": "com.vizmanga.android",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
+                            "version": "4.13.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Remove in-app ads.",
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1565C0",
+                    "name": "AIDA64",
+                    "packageName": "com.finalwire.aida64",
+                    "targets": [
+                        {
+                            "isExperimental": false,
                             "version": "2.21"
                         }
                     ]
@@ -889,18 +975,55 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
-                    "appIconColor": "#6A1B9A",
-                    "description": null,
-                    "name": "Psiphon Pro",
-                    "packageName": "com.psiphon3.subscription",
-                    "signatures": null,
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon Shopping",
+                    "packageName": "com.amazon.mShop.android.shopping",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "476"
+                            "version": "32.12.4.100"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides sponsored and ad content in Amazon Shopping via CSS injection.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#3B82F6",
+                    "name": "Block Puzzle",
+                    "packageName": "game.puzzle.blockpuzzle",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables Block Puzzle AdMob initialization, banner, and interstitial ads.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6A1B9A",
+                    "name": "Psiphon Pro",
+                    "packageName": "com.psiphon3.subscription",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "479"
                         }
                     ]
                 }
@@ -914,17 +1037,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#E53935",
-                    "description": null,
                     "name": "Crime Radar",
                     "packageName": "com.newsbreak.crimeradar",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "26.23.2"
                         }
                     ]
@@ -939,18 +1057,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#8B3DFF",
-                    "description": null,
                     "name": "Canva",
                     "packageName": "com.canva.editor",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "2.365.o"
+                            "version": "2.367.0"
                         }
                     ]
                 }
@@ -964,18 +1077,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#33CCFF",
-                    "description": null,
                     "name": "Waze",
                     "packageName": "com.waze",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -989,18 +1097,33 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
-                    "appIconColor": "#33CCFF",
-                    "description": null,
-                    "name": "Waze",
-                    "packageName": "com.waze",
-                    "signatures": null,
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon Shopping",
+                    "packageName": "com.amazon.mShop.android.shopping",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "32.12.4.100"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Strips tracking parameters from copied/shared Amazon links, leaving only the clean product URL.",
+            "name": "Sanitize share links",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#33CCFF",
+                    "name": "Waze",
+                    "packageName": "com.waze",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -1073,17 +1196,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#E53935",
-                    "description": null,
                     "name": "MovieBox TV",
                     "packageName": "com.community.oneroom",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "3.0.15.0616.03"
                         }
                     ]
@@ -1098,17 +1216,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#E53935",
-                    "description": null,
                     "name": "MovieBox TV",
                     "packageName": "com.community.oneroom",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "3.0.15.0616.03"
                         }
                     ]
@@ -1123,17 +1236,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#E53935",
-                    "description": null,
                     "name": "MovieBox TV",
                     "packageName": "com.community.oneroom",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "3.0.15.0616.03"
                         }
                     ]
@@ -1148,17 +1256,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#F48120",
-                    "description": null,
                     "name": "1.1.1.1",
                     "packageName": "com.cloudflare.onedotonedotonedotone",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "6.38.7"
                         }
                     ]
@@ -1209,17 +1312,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#E53935",
-                    "description": null,
                     "name": "MovieBox TV",
                     "packageName": "com.community.oneroom",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "3.0.15.0616.03"
                         }
                     ]
@@ -1234,17 +1332,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1565C0",
-                    "description": null,
                     "name": "Unimote",
                     "packageName": "sensustech.universal.tv.remote.control",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "1.8.1"
                         }
                     ]
@@ -1259,17 +1352,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#E53935",
-                    "description": null,
                     "name": "Crime Radar",
                     "packageName": "com.newsbreak.crimeradar",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "26.23.2"
                         }
                     ]
@@ -1284,18 +1372,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#33CCFF",
-                    "description": null,
                     "name": "Waze",
                     "packageName": "com.waze",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.19.0.2"
+                            "version": "5.21.0.0"
                         }
                     ]
                 }
@@ -1309,18 +1392,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#141C4C",
-                    "description": null,
                     "name": "Speedtest",
                     "packageName": "org.zwanoo.android.speedtest",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "7.0.4"
+                            "version": "7.0.6"
                         }
                     ]
                 }
@@ -1334,17 +1412,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1565C0",
-                    "description": null,
                     "name": "nzb360",
                     "packageName": "com.kevinforeman.nzb360",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "23.5"
                         }
                     ]
@@ -1359,17 +1432,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#2196F3",
-                    "description": null,
                     "name": "Pialytic",
                     "packageName": "verbosus.pialytic",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "1.2.8"
                         }
                     ]
@@ -1384,17 +1452,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#327CB5",
-                    "description": null,
                     "name": "Flightradar24",
                     "packageName": "com.flightradar24free",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "11.6.1"
                         }
                     ]
@@ -1409,17 +1472,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#00A862",
-                    "description": null,
                     "name": "Citymapper",
                     "packageName": "com.citymapper.app.release",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "11.55.1"
                         }
                     ]
@@ -1434,17 +1492,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#2196F3",
-                    "description": null,
                     "name": "Weawow: Weather & Widget",
                     "packageName": "com.weawow",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "7.1.7"
                         }
                     ]
@@ -1459,17 +1512,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#4CAF50",
-                    "description": null,
                     "name": "Greenify",
                     "packageName": "com.oasisfeng.greenify",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "5.1.1"
                         }
                     ]
@@ -1484,18 +1532,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#E53935",
-                    "description": null,
                     "name": "Scoopz",
                     "packageName": "com.localaiapp.scoops",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "3.2.7.0"
+                            "version": "3.28.0"
                         }
                     ]
                 }
@@ -1509,17 +1552,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#2563EB",
-                    "description": null,
                     "name": "MigraConnect",
                     "packageName": "com.tecso.MigraConnect",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "2.8.1"
                         }
                     ]
@@ -1534,17 +1572,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#E53935",
-                    "description": null,
                     "name": "Crime Radar",
                     "packageName": "com.newsbreak.crimeradar",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "26.23.2"
                         }
                     ]
@@ -1559,17 +1592,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#6200EE",
-                    "description": null,
                     "name": "Inure App Manager",
                     "packageName": "app.simple.inure.play",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "build107.0.5"
                         }
                     ]
@@ -1584,17 +1612,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#FF5252",
-                    "description": null,
                     "name": "BlockerHero",
                     "packageName": "com.blockerhero",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "1.5.0"
                         }
                     ]
@@ -1609,17 +1632,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#FF6B35",
-                    "description": null,
                     "name": "Proxyman",
                     "packageName": "com.proxyman.proxymanandroid",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "1.16.0"
                         }
                     ]
@@ -1634,17 +1652,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#FF4B00",
-                    "description": null,
                     "name": "SHAREit Premium",
                     "packageName": "shareit.premium",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "1.1.98"
                         }
                     ]
@@ -1659,17 +1672,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#67B346",
-                    "description": null,
                     "name": "AdGuard Nightly",
                     "packageName": "com.adguard.android",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "4.14.68"
                         }
                     ]
@@ -1684,17 +1692,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#E53935",
-                    "description": null,
                     "name": "MovieBox TV",
                     "packageName": "com.community.oneroom",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "3.0.15.0616.03"
                         }
                     ]
@@ -1709,17 +1712,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#0066FF",
-                    "description": null,
                     "name": "Moovit",
                     "packageName": "com.tranzmate",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "5.195.0.1789"
                         }
                     ]
@@ -1734,17 +1732,32 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
-                    "appIconColor": "#1C9BE6",
-                    "description": null,
-                    "name": "SpotAngels",
-                    "packageName": "com.spotangels.android",
-                    "signatures": null,
+                    "appIconColor": "#F43E37",
+                    "name": "Pocket Casts",
+                    "packageName": "au.com.shiftyjelly.pocketcasts",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
+                            "version": "8.14"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Pocket Casts Patron yearly feature checks.",
+            "name": "Unlock Patron",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1C9BE6",
+                    "name": "SpotAngels",
+                    "packageName": "com.spotangels.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
                             "version": "15.2.2"
                         }
                     ]
@@ -1759,17 +1772,34 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1565C0",
-                    "description": null,
-                    "name": "All Reader",
-                    "packageName": "alldocumentreader.office.viewer.filereader.pdfviewer",
-                    "signatures": null,
+                    "name": "Subway Now",
+                    "packageName": "io.goodservice.theweekendest",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
+                            "version": "1.2.8"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks Subway Now Plus.",
+            "name": "Unlock Plus",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1565C0",
+                    "name": "All Reader",
+                    "packageName": "alldocumentreader.office.viewer.filereader.pdfviewer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
                             "version": "3.2.3"
                         }
                     ]
@@ -1784,17 +1814,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1565C0",
-                    "description": null,
                     "name": "Anatomy",
                     "packageName": "air.com.musclemotion.anatomy",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "3.2.0"
                         }
                     ]
@@ -1809,17 +1834,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#42A5F5",
-                    "description": null,
                     "name": "BlurWall",
                     "packageName": "apps.automan.blurwallpaper",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "2.9.2"
                         }
                     ]
@@ -1837,17 +1857,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#E53935",
-                    "description": null,
                     "name": "Cube ACR",
                     "packageName": "com.catalinagroup.callrecorder",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "2.4.281"
                         }
                     ]
@@ -1862,17 +1877,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#111111",
-                    "description": null,
                     "name": "Carbon",
                     "packageName": "com.joincarbon.nutrition",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "2.76.5784"
                         }
                     ]
@@ -1887,17 +1897,34 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
-                    "appIconColor": "#2A3B4C",
-                    "description": null,
-                    "name": "CPU-Z",
-                    "packageName": "com.cpuid.cpu_z",
-                    "signatures": null,
+                    "appIconColor": "#F2C200",
+                    "name": "ColorNote",
+                    "packageName": "com.socialnmobile.dictapps.notepad.color.note",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
+                            "version": "4.8.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks ColorNote premium and removes advertising ID permissions.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#2A3B4C",
+                    "name": "CPU-Z",
+                    "packageName": "com.cpuid.cpu_z",
+                    "targets": [
+                        {
+                            "isExperimental": false,
                             "version": "1.59"
                         }
                     ]
@@ -1912,17 +1939,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#E53935",
-                    "description": null,
                     "name": "Crime Radar",
                     "packageName": "com.newsbreak.crimeradar",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "26.23.2"
                         }
                     ]
@@ -1937,17 +1959,32 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
-                    "appIconColor": "#FF5722",
-                    "description": null,
-                    "name": "Hola VPN Proxy Plus",
-                    "packageName": "org.hola.play",
-                    "signatures": null,
+                    "appIconColor": "#FF3D00",
+                    "name": "Fitbod",
+                    "packageName": "com.fitbod.fitbod",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
+                            "version": "8.24.0-1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all Fitbod premium features.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF5722",
+                    "name": "Hola VPN Proxy Plus",
+                    "packageName": "org.hola.play",
+                    "targets": [
+                        {
+                            "isExperimental": false,
                             "version": "AARCH64_1.248.400"
                         }
                     ]
@@ -1962,17 +1999,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1565C0",
-                    "description": null,
                     "name": "Image & Video Date Fixer",
                     "packageName": "eu.duong.imagedatefixer",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "3.7.1"
                         }
                     ]
@@ -1987,17 +2019,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#E65100",
-                    "description": null,
                     "name": "Kyphosis",
                     "packageName": "air.com.musclemotion.kyphosis",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "1.4.9"
                         }
                     ]
@@ -2012,17 +2039,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#0D47A1",
-                    "description": null,
                     "name": "Lawfully",
                     "packageName": "com.lawfully.lawfully_ai_tracker",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "6.6.2"
                         }
                     ]
@@ -2039,17 +2061,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#FF5722",
-                    "description": null,
                     "name": "Beta Maniac",
                     "packageName": "it.mirko.beta",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "0.9.4"
                         }
                     ]
@@ -2064,17 +2081,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1565C0",
-                    "description": null,
                     "name": "NetMonster",
                     "packageName": "cz.mroczis.netmonster",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "3.4.1"
                         }
                     ]
@@ -2089,17 +2101,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#E53935",
-                    "description": null,
                     "name": "NewsBreak",
                     "packageName": "com.particlenews.newsbreak",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "26.27.0"
                         }
                     ]
@@ -2114,17 +2121,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1A1A2E",
-                    "description": null,
                     "name": "Ninja VPN",
                     "packageName": "app.ninjavpn.android",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "1.4.6"
                         }
                     ]
@@ -2139,18 +2141,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#FF6B9D",
-                    "description": null,
                     "name": "Photo Editor",
                     "packageName": "com.iudesk.android.photo.editor",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "13.3"
+                            "version": "13.3.1"
                         }
                     ]
                 }
@@ -2164,17 +2161,60 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
-                    "appIconColor": "#2563EB",
-                    "description": null,
-                    "name": "pkge",
-                    "packageName": "net.pkge.pkge",
-                    "signatures": null,
+                    "appIconColor": "#7A4A24",
+                    "name": "Picture Mushroom - Mushroom ID",
+                    "packageName": "com.glority.picturemushroom",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
+                            "version": "2.9.31"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Picture Mushroom premium features.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#4CAF50",
+                    "name": "PictureThis - Plant Identifier",
+                    "packageName": "cn.danatech.xingseus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.29.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Unlocks PictureThis premium features.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#2563EB",
+                    "name": "pkge",
+                    "packageName": "net.pkge.pkge",
+                    "targets": [
+                        {
+                            "isExperimental": false,
                             "version": "19.0.13"
                         }
                     ]
@@ -2189,17 +2229,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#00897B",
-                    "description": null,
                     "name": "Posture",
                     "packageName": "air.com.musclemotion.posture",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "3.2.0"
                         }
                     ]
@@ -2214,18 +2249,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#6D4AFF",
-                    "description": null,
                     "name": "Proton VPN",
                     "packageName": "ch.protonvpn.android",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.18.84.0"
+                            "version": "5.19.16.0"
                         }
                     ]
                 }
@@ -2239,17 +2269,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1565C0",
-                    "description": null,
                     "name": "Rename & Organize",
                     "packageName": "eu.duong.picturemanager",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "8.25.1"
                         }
                     ]
@@ -2264,17 +2289,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#DE3341",
-                    "description": null,
                     "name": "Rocket Money",
                     "packageName": "com.truebill",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "13.15.0"
                         }
                     ]
@@ -2289,17 +2309,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1565C0",
-                    "description": null,
                     "name": "SAI",
                     "packageName": "com.mtv.sai",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "2.2.8"
                         }
                     ]
@@ -2314,17 +2329,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#2F7D62",
-                    "description": null,
                     "name": "SkinSort",
                     "packageName": "com.skinsort",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "1.15"
                         }
                     ]
@@ -2341,17 +2351,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1CC29F",
-                    "description": null,
                     "name": "Snipd",
                     "packageName": "ai.topicfinder.podcastdiscovery",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "4.1.14"
                         }
                     ]
@@ -2366,17 +2371,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#CA0013",
-                    "description": null,
                     "name": "Snow-Forecast.com",
                     "packageName": "com.snow_forecast.snowforecast",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "8.0.6"
                         }
                     ]
@@ -2391,17 +2391,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#7C4DFF",
-                    "description": null,
                     "name": "Social Gamebox",
                     "packageName": "com.app.social_gamebox",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "1.1.3"
                         }
                     ]
@@ -2416,17 +2411,32 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
-                    "appIconColor": "#E53935",
-                    "description": null,
-                    "name": "Strength Training",
-                    "packageName": "air.com.musclemotion.strength.mobile",
-                    "signatures": null,
+                    "appIconColor": "#00A884",
+                    "name": "Sticker Maker",
+                    "packageName": "com.marsvard.stickermakerforwhatsapp",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
+                            "version": "1.0.10-5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Sticker Maker premium and ad-free checks.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E53935",
+                    "name": "Strength Training",
+                    "packageName": "air.com.musclemotion.strength.mobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
                             "version": "3.5.0"
                         }
                     ]
@@ -2441,18 +2451,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1B6AC9",
-                    "description": null,
                     "name": "The Weather Channel",
                     "packageName": "com.weather.Weather",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "16.10.1"
+                            "version": "16.12.0"
                         }
                     ]
                 }
@@ -2466,17 +2471,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#DF1B12",
-                    "description": null,
                     "name": "TomTom GO",
                     "packageName": "com.tomtom.gplay.navapp",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "3.6.316-beta"
                         }
                     ]
@@ -2491,17 +2491,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#4CAF50",
-                    "description": null,
                     "name": "Toxly",
                     "packageName": "com.mindful.code.studio.toxly.scanner",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "1.15.3"
                         }
                     ]
@@ -2516,17 +2511,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#020617",
-                    "description": null,
                     "name": "Tracked",
                     "packageName": "com.tracked.mobile",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "7.0.0"
                         }
                     ]
@@ -2543,17 +2533,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1565C0",
-                    "description": null,
                     "name": "Unimote",
                     "packageName": "sensustech.universal.tv.remote.control",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "1.8.1"
                         }
                     ]
@@ -2568,17 +2553,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#0077CC",
-                    "description": null,
                     "name": "Wavve Boating",
                     "packageName": "com.wavve.boating.gps",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "5.6.9"
                         }
                     ]
@@ -2593,18 +2573,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#00AEEF",
-                    "description": null,
                     "name": "Windscribe VPN",
                     "packageName": "com.windscribe.vpn",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "4.1.2274"
+                            "version": "4.1.2284"
                         }
                     ]
                 }
@@ -2618,17 +2593,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#0FA0EB",
-                    "description": null,
                     "name": "Windy",
                     "packageName": "com.windyty.android",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "50.1.1"
                         }
                     ]
@@ -2643,17 +2613,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#C62828",
-                    "description": null,
                     "name": "Workout",
                     "packageName": "air.com.musclemotion.workout",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "1.2.0"
                         }
                     ]
@@ -2668,17 +2633,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#7B1FA2",
-                    "description": null,
                     "name": "Yoga",
                     "packageName": "air.com.musclemotion.yoga",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "3.2.0"
                         }
                     ]
@@ -2693,17 +2653,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#4CAF50",
-                    "description": null,
                     "name": "Clickmate",
                     "packageName": "com.inscode.autoclicker",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "7.1.4"
                         }
                     ]
@@ -2718,18 +2673,35 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
-                    "appIconColor": "#F25C1B",
-                    "description": null,
-                    "name": "AccuWeather",
-                    "packageName": "com.accuweather.android",
-                    "signatures": null,
+                    "appIconColor": "#000000",
+                    "name": "AmoledPix",
+                    "packageName": "com.androholic.amoledpix",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "21.1.11-1-rc"
+                            "version": "7.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks AmoledPix premium features and disables ads.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F25C1B",
+                    "name": "AccuWeather",
+                    "packageName": "com.accuweather.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "21.1.12-2-rc"
                         }
                     ]
                 }
@@ -2743,18 +2715,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1565C0",
-                    "description": null,
                     "name": "Case Tracker",
                     "packageName": "com.saldous.casetracker",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.5.1"
+                            "version": "5.5.2"
                         }
                     ]
                 }
@@ -2768,17 +2735,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#FFB300",
-                    "description": null,
                     "name": "Cashew",
                     "packageName": "com.budget.tracker_app",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "6.5.9"
                         }
                     ]
@@ -2793,17 +2755,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#0066FF",
-                    "description": null,
                     "name": "Citizen",
                     "packageName": "sp0n.citizen",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "0.1298.0"
                         }
                     ]
@@ -2818,17 +2775,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#4CAF50",
-                    "description": null,
                     "name": "Hibernator",
                     "packageName": "com.tafayor.hibernator",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "2.56.10"
                         }
                     ]
@@ -2843,17 +2795,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#6344CC",
-                    "description": null,
                     "name": "Inmigreat",
                     "packageName": "com.changayaf.inmigreat",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "2.2.83"
                         }
                     ]
@@ -2870,17 +2817,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#F44336",
-                    "description": null,
                     "name": "KillApps",
                     "packageName": "com.tafayor.killall",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "1.57.9"
                         }
                     ]
@@ -2895,17 +2837,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#2196F3",
-                    "description": null,
                     "name": "ML Manager",
                     "packageName": "com.javiersantos.mlmanager",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "5.0"
                         }
                     ]
@@ -2920,17 +2857,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#4CAF50",
-                    "description": null,
                     "name": "Permission Pilot",
                     "packageName": "eu.darken.myperm",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "2.1.1-rc0"
                         }
                     ]
@@ -2945,17 +2877,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#4CAF50",
-                    "description": null,
                     "name": "NetGuard",
                     "packageName": "eu.faircode.netguard",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "2.335"
                         }
                     ]
@@ -2970,18 +2897,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1976D2",
-                    "description": null,
                     "name": "NetShare",
                     "packageName": "kha.prog.mikrotik",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "UI/link-274"
+                            "version": "277"
                         }
                     ]
                 }
@@ -2995,17 +2917,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1565C0",
-                    "description": null,
                     "name": "1Tap Cleaner",
                     "packageName": "com.a0soft.gphone.acc.free",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "5.18"
                         }
                     ]
@@ -3024,18 +2941,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#0D47A1",
-                    "description": null,
                     "name": "Police Scanner",
                     "packageName": "police.scanner.radio.broadcastify.citizen",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": null
+                            "version": "1.29.0-260420093"
                         }
                     ]
                 }
@@ -3049,18 +2961,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#4CAF50",
-                    "description": null,
                     "name": "RAR",
                     "packageName": "com.rarlab.rar",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "7.20.build131"
+                            "version": "7.23.build133"
                         }
                     ]
                 }
@@ -3074,17 +2981,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1565C0",
-                    "description": null,
                     "name": "App Permission Manager",
                     "packageName": "com.shexa.permissionmanager",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "3.4.6.2"
                         }
                     ]
@@ -3099,18 +3001,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1CC29F",
-                    "description": null,
                     "name": "Splitwise",
                     "packageName": "com.Splitwise.SplitwiseMobile",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "26.5.5"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -3124,17 +3021,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#F47C20",
-                    "description": null,
                     "name": "UDisc",
                     "packageName": "com.regasoftware.udisc",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "24.2.1"
                         }
                     ]
@@ -3149,17 +3041,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1A1A2E",
-                    "description": null,
                     "name": "KineStop",
                     "packageName": "com.urbandroid.kinestop",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "5.1"
                         }
                     ]
@@ -3174,17 +3061,32 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
-                    "appIconColor": "#1565C0",
-                    "description": null,
-                    "name": "TurboScan",
-                    "packageName": "com.piksoft.turboscan.free",
-                    "signatures": null,
+                    "appIconColor": "#1E88E5",
+                    "name": "TrackChecker Mobile",
+                    "packageName": "com.metalsoft.trackchecker_mobile",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
+                            "version": "2.29.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Pro/No Ads feature in app",
+            "name": "Unlock Pro / No Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1565C0",
+                    "name": "TurboScan",
+                    "packageName": "com.piksoft.turboscan.free",
+                    "targets": [
+                        {
+                            "isExperimental": false,
                             "version": "1.7.3"
                         }
                     ]
@@ -3199,17 +3101,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#00B2A9",
-                    "description": null,
                     "name": "Transit",
                     "packageName": "com.thetransitapp.droid",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "6.1.12"
                         }
                     ]
@@ -3224,17 +3121,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#2563EB",
-                    "description": null,
                     "name": "SPIN",
                     "packageName": "com.nationaledtech.spinbrowser",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "70.3.0"
                         }
                     ]
@@ -3249,18 +3141,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#1A1A2E",
-                    "description": null,
                     "name": "Stargazing Hub",
                     "packageName": "com.twtapp",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "3.2.1"
+                            "version": "3.3.1"
                         }
                     ]
                 }
@@ -3274,17 +3161,34 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
-                    "appIconColor": "#1565C0",
-                    "description": null,
-                    "name": "Genius Scan",
-                    "packageName": "com.thegrizzlylabs.geniusscan.free",
-                    "signatures": null,
+                    "appIconColor": "#FF9800",
+                    "name": "APKMirror Installer",
+                    "packageName": "com.apkmirror.helper.prod",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
+                            "version": "2.0.3 (41-d04e542)"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks Ultimate Ad-Free + Android TV.",
+            "name": "Unlock Ultimate",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1565C0",
+                    "name": "Genius Scan",
+                    "packageName": "com.thegrizzlylabs.geniusscan.free",
+                    "targets": [
+                        {
+                            "isExperimental": false,
                             "version": "7.40.0"
                         }
                     ]
@@ -3299,17 +3203,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#2EAAFF",
-                    "description": null,
                     "name": "TeraBox",
                     "packageName": "com.dubox.drive",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "4.20.1"
                         }
                     ]
@@ -3324,18 +3223,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#FF6B00",
-                    "description": null,
                     "name": "Yatri",
                     "packageName": "com.yatrirailways.yatri",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.0.3"
+                            "version": "5.0.4"
                         }
                     ]
                 }
@@ -3349,18 +3243,13 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#2196F3",
-                    "description": null,
                     "name": "HTTP Sniffer",
                     "packageName": "com.anetcapture.mock",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "2.11.0-ad_mob"
+                            "version": "2.11.1-ad_mob"
                         }
                     ]
                 }
@@ -3374,17 +3263,12 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": null,
                     "appIconColor": "#19BCAA",
-                    "description": null,
                     "name": "CamScanner",
                     "packageName": "com.intsig.camscanner",
-                    "signatures": null,
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
                             "version": "7.20.0.2606230000"
                         }
                     ]

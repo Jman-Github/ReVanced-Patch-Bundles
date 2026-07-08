@@ -1,22 +1,38 @@
 {
-    "version": "v1.0.1",
+    "version": "v1.1.0",
     "patches": [
         {
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#FFC107",
-                    "description": null,
-                    "name": "KineStop",
-                    "packageName": "com.urbandroid.kinestop",
-                    "signatures": null,
+                    "appIconColor": "#FF4500",
+                    "name": "RSS Reader",
+                    "packageName": "com.vanniktech.rssreader",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.1",
-                            "versionCodes": null
+                            "version": "1.48.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock premium features and remove ads in RSS Reader.",
+            "name": "RSS Reader Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FFC107",
+                    "name": "KineStop",
+                    "packageName": "com.urbandroid.kinestop",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.1"
                         }
                     ]
                 }

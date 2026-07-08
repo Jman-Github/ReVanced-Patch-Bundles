@@ -1,30 +1,25 @@
 {
-  "version": "v1.0.0",
-  "patches": [
-    {
-      "name": "Bypass Session Expiry",
-      "description": "Kills session expiry dialogs",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
+    "version": "v1.0.0",
+    "patches": [
         {
-          "packageName": "com.realme.link",
-          "name": "Realme Link",
-          "description": null,
-          "apkFileType": "APK",
-          "appIconColor": "#927DFD",
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#927DFD",
+                    "name": "Realme Link",
+                    "packageName": "com.realme.link",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Kills session expiry dialogs",
+            "name": "Bypass Session Expiry",
+            "options": []
         }
-      ],
-      "options": []
-    }
-  ]
+    ]
 }

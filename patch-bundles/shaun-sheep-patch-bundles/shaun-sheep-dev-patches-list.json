@@ -1,22 +1,59 @@
 {
-    "version": "v1.0.1-dev.1",
+    "version": "v1.1.3-dev.1",
     "patches": [
         {
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#FFC107",
-                    "description": null,
-                    "name": "KineStop",
-                    "packageName": "com.urbandroid.kinestop",
-                    "signatures": null,
+                    "appIconColor": "#2196F3",
+                    "name": "Flud",
+                    "packageName": "com.delphicoder.flud",
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "version": "5.1",
-                            "versionCodes": null
+                            "version": "2.0.12"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock ad-free experience (disable banners/interstitials), bypass storage permission setup block, and disable Google Play Integrity licensing check.",
+            "name": "Flud Ad-Free & Bypasses",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "name": "RSS Reader",
+                    "packageName": "com.vanniktech.rssreader",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.48.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock premium features and remove ads in RSS Reader.",
+            "name": "RSS Reader Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FFC107",
+                    "name": "KineStop",
+                    "packageName": "com.urbandroid.kinestop",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.1"
                         }
                     ]
                 }

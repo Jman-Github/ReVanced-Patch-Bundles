@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.2",
+    "version": "v1.1.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -176,6 +176,25 @@
             "default": true,
             "dependencies": [],
             "description": "Patches Dart AOT-compiled libapp.so to unlock all premium features. Forces hasPremiumAccess and isPaidUser to always return true by NOPing their ARM64 conditional branch instructions.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E53935",
+                    "name": "MoneyMitra",
+                    "packageName": "com.ideapreneurnepal.moneymitra",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features in MoneyMitra by forcing RevenueCat's EntitlementInfo.isActive(), willRenew(), CustomerInfo.activeSubscriptions and allPurchasedProductIdentifiers to return premium status. This removes paywalls and enables premium course access without a subscription.",
             "name": "Unlock Premium",
             "options": []
         }
