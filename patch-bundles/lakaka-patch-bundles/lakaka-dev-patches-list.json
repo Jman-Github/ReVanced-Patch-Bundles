@@ -1,6 +1,45 @@
 {
-    "version": "v1.2.0-dev.1",
+    "version": "v1.3.0-dev.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#000000",
+                    "name": "Soundbrenner",
+                    "packageName": "com.soundbrenner.pulse",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.33.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all Soundbrenner Plus features and Home Customization.",
+            "name": "Unlock Plus",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FFFFFF",
+                    "name": "Instapaper",
+                    "packageName": "com.instapaper.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features (search, speed reading, unlimited highlights).",
+            "name": "Unlock Premium",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {

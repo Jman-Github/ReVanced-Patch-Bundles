@@ -85,7 +85,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Brosssh](#-brosssh-bundle-patch-list) | 22 | 5 | Generated |
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
 | [Chiggi](#-chiggi-bundle-patch-list) | 31 | 5 | Generated |
-| [LaKaka](#-lakaka-bundle-patch-list) | 1 | 1 | Generated |
+| [LaKaka](#-lakaka-bundle-patch-list) | 3 | 3 | Generated |
 | [EE-Morphe](#-ee-morphe-bundle-patch-list) | 10 | 5 | Generated |
 | [X-Shim](#-x-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
@@ -2508,11 +2508,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 LaKaka Bundle Patch List:
 [📦 LaKaka-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lakaka-patches-bundle-morphe)
 <details>
-<summary><b>LaKaka</b> - 1 patch, 1 app</summary>
+<summary><b>LaKaka</b> - 3 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Premium``` | ```Unlocks all premium wallpapers and removes license verification features.``` | ```Depth Wallpapers & Live Clock``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium features (search, speed reading, unlimited highlights).``` | ```Instapaper``` | ```All versions``` |
+| ```Unlock Plus``` | ```Unlocks all Soundbrenner Plus features and Home Customization.``` | ```Soundbrenner``` | ```All versions``` |
 
 </details>
 
