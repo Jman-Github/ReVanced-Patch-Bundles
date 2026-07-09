@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.5",
+    "version": "v1.3.8",
     "patches": [
         {
             "compatiblePackages": [
@@ -21,7 +21,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Skips Google Play Billing and credits IAP items (gem packs, coin packs, starter packs) directly. Tap any buy button in the shop and the item is granted instantly without payment. If the Contacting screen stays, just press the back button to dismiss it. Also disables the startup purchase-restore flow.",
+            "description": "Skips Google Play Billing and credits IAP items (gem packs, coin packs, starter packs) directly. Lets the original failure path run after crediting to close the Contacting screen naturally. Also disables the startup purchase-restore flow.",
             "name": "Free in-app purchases",
             "options": []
         },
