@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.0-dev.3",
+    "version": "v1.11.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -184,12 +184,12 @@
             "compatiblePackages": [
                 {
                     "appIconColor": "#E53935",
-                    "name": "MovieBox TV",
+                    "name": "MovieBox",
                     "packageName": "com.community.oneroom",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.0.15.0616.03"
+                            "version": "3.0.16.0703.03"
                         }
                     ]
                 }
@@ -225,18 +225,49 @@
                 {
                     "appIconColor": "#E53935",
                     "name": "MovieBox TV",
-                    "packageName": "com.community.oneroom",
+                    "packageName": "com.community.mbox.tv",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.0.15.0616.03"
+                            "version": "1.1.1.0702.03"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces MemberResolutionBean.getVipResolutionTip() to always return Boolean.FALSE, suppressing any 'VIP only' badge shown on resolution options.",
+            "description": "Forces BffSubjectInfo.isVip() to always return false, making every episode appear as non-VIP-only so playback is not blocked. This is the primary content gate in com.community.mbox.tv — checked in DetailFragment before playback is permitted.",
+            "name": "Bypass TV episode VIP gate",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox",
+                    "packageName": "com.community.oneroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.0.16.0703.03"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox TV",
+                    "packageName": "com.community.mbox.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.1.0702.03"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces MemberResolutionBean.getVipResolutionTip() to always return Boolean.FALSE.",
             "name": "Clear VIP resolution tip",
             "options": []
         },
@@ -250,6 +281,17 @@
                         {
                             "isExperimental": false,
                             "version": "32.12.4.100"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon India",
+                    "packageName": "in.amazon.mShop.android.shopping",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "32.12.4.300"
                         }
                     ]
                 }
@@ -368,6 +410,17 @@
                             "version": "32.12.4.100"
                         }
                     ]
+                },
+                {
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon India",
+                    "packageName": "in.amazon.mShop.android.shopping",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "32.12.4.300"
+                        }
+                    ]
                 }
             ],
             "default": true,
@@ -385,7 +438,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.20.0.2606230000"
+                            "version": "7.20.5.2606250000"
                         }
                     ]
                 }
@@ -408,12 +461,43 @@
                             "version": "32.12.4.100"
                         }
                     ]
+                },
+                {
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon India",
+                    "packageName": "in.amazon.mShop.android.shopping",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "32.12.4.300"
+                        }
+                    ]
                 }
             ],
             "default": true,
             "dependencies": [],
             "description": "Prevents product and ad videos from autoplaying.",
             "name": "Disable video autoplay",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#58CC02",
+                    "name": "Duolingo",
+                    "packageName": "com.duolingo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.87.6"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Enables Duolingo's hidden debug menu in settings.",
+            "name": "Enable Debug Menu",
             "options": []
         },
         {
@@ -522,6 +606,17 @@
                         {
                             "isExperimental": false,
                             "version": "32.12.4.100"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon India",
+                    "packageName": "in.amazon.mShop.android.shopping",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "32.12.4.300"
                         }
                     ]
                 }
@@ -733,6 +828,17 @@
                             "version": "32.12.4.100"
                         }
                     ]
+                },
+                {
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon India",
+                    "packageName": "in.amazon.mShop.android.shopping",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "32.12.4.300"
+                        }
+                    ]
                 }
             ],
             "default": false,
@@ -817,6 +923,17 @@
                         {
                             "isExperimental": false,
                             "version": "32.12.4.100"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon India",
+                    "packageName": "in.amazon.mShop.android.shopping",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "32.12.4.300"
                         }
                     ]
                 }
@@ -941,7 +1058,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.13.5"
+                            "version": "4.14.0"
                         }
                     ]
                 }
@@ -984,6 +1101,17 @@
                             "version": "32.12.4.100"
                         }
                     ]
+                },
+                {
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon India",
+                    "packageName": "in.amazon.mShop.android.shopping",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "32.12.4.300"
+                        }
+                    ]
                 }
             ],
             "default": true,
@@ -1011,6 +1139,48 @@
                 "ResourcePatch"
             ],
             "description": "Disables Block Puzzle AdMob initialization, banner, and interstitial ads.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E7392C",
+                    "name": "Carousell",
+                    "packageName": "com.thecarousell.Carousell",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.461.8"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables interstitial/banner ad loaders, hides promoted listings and profiles from search feeds.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E30613",
+                    "name": "LiveScore",
+                    "packageName": "com.livescore",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.7.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables LiveScore banner, native, and interstitial ad requests.",
             "name": "Remove ads",
             "options": []
         },
@@ -1106,6 +1276,17 @@
                             "version": "32.12.4.100"
                         }
                     ]
+                },
+                {
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon India",
+                    "packageName": "in.amazon.mShop.android.shopping",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "32.12.4.300"
+                        }
+                    ]
                 }
             ],
             "default": true,
@@ -1197,19 +1378,19 @@
             "compatiblePackages": [
                 {
                     "appIconColor": "#E53935",
-                    "name": "MovieBox TV",
+                    "name": "MovieBox",
                     "packageName": "com.community.oneroom",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.0.15.0616.03"
+                            "version": "3.0.16.0703.03"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces MemberInfo.isActive() to always return true, making the app believe the membership subscription is active.",
+            "description": "Forces MemberInfo.isActive() to always return true.",
             "name": "Spoof member active status",
             "options": []
         },
@@ -1217,19 +1398,19 @@
             "compatiblePackages": [
                 {
                     "appIconColor": "#E53935",
-                    "name": "MovieBox TV",
+                    "name": "MovieBox",
                     "packageName": "com.community.oneroom",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.0.15.0616.03"
+                            "version": "3.0.16.0703.03"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces MemberInfo.getDaysLeft() to always return 3650 (10 years), preventing the '0 days left' display on the premium screen.",
+            "description": "Forces MemberInfo.getDaysLeft() to return 3650 (10 years) and MemberInfo.getExpiryDate() to return '2035-12-31'. The UI shows 'Valid Until <expiryDate>' — patching getDaysLeft alone left the display null because the UI uses getExpiryDate(), not getDaysLeft().",
             "name": "Spoof member days left",
             "options": []
         },
@@ -1237,20 +1418,40 @@
             "compatiblePackages": [
                 {
                     "appIconColor": "#E53935",
-                    "name": "MovieBox TV",
+                    "name": "MovieBox",
                     "packageName": "com.community.oneroom",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.0.15.0616.03"
+                            "version": "3.0.16.0703.03"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces MemberProvider.c() (kv_is_pay_enable_member) and MemberProvider.e() (kv_is_skip_ad) to always return true.",
+            "description": "Forces MemberProvider.e() (kv_is_pay_enable_member) and MemberProvider.f() (kv_is_skip_ad) to always return true. Renamed from c()/e() in v3.0.15 to e()/f() in v3.0.16.",
             "name": "Spoof member provider flags",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox TV",
+                    "packageName": "com.community.mbox.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.1.0702.03"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces BffGetVipUserInfoData.isVip() to always return Boolean.TRUE, making the app treat the account as a VIP subscriber.",
+            "name": "Spoof TV account VIP status",
             "options": []
         },
         {
@@ -1313,19 +1514,19 @@
             "compatiblePackages": [
                 {
                     "appIconColor": "#E53935",
-                    "name": "MovieBox TV",
+                    "name": "MovieBox",
                     "packageName": "com.community.oneroom",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.0.15.0616.03"
+                            "version": "3.0.16.0703.03"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Makes MemberProvider.w(F)V return immediately, suppressing the 'Claim 7-day trial / newbies bonus' ClaimMemberDialog popup.",
+            "description": "Makes MemberProvider.z(F)V return immediately, suppressing the 'Claim 7-day trial / newbies bonus' ClaimMemberDialog popup. Renamed from w(F)V in v3.0.15 to z(F)V in v3.0.16.",
             "name": "Suppress newbie bonus dialog",
             "options": []
         },
@@ -1392,13 +1593,33 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#1565C0",
+                    "name": "FlightAware",
+                    "packageName": "com.flightaware.android.liveFlightTracker",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.15.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces FlightAware ad-free subscribed state.",
+            "name": "Unlock Ad-Free",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#141C4C",
                     "name": "Speedtest",
                     "packageName": "org.zwanoo.android.speedtest",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.0.6"
+                            "version": "7.0.7"
                         }
                     ]
                 }
@@ -1458,7 +1679,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.6.1"
+                            "version": "11.7.0"
                         }
                     ]
                 }
@@ -1467,6 +1688,26 @@
             "dependencies": [],
             "description": "Unlocks Business/Gold premium features in Flightradar24: ad-free map, weather layers, ATC, 3D view, flight history, and unlimited saved locations.",
             "name": "Unlock Business Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1565C0",
+                    "name": "Blurams",
+                    "packageName": "com.blurams.ipc",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.1049.4.908"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks BluramsGuard cloud storage, AI detection, and playback features.",
+            "name": "Unlock Cloud Service",
             "options": []
         },
         {
@@ -1552,6 +1793,26 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#1A73E8",
+                    "name": "JEFIT",
+                    "packageName": "je.fit",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "17.1.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks JEFIT Elite features in app.",
+            "name": "Unlock Elite",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#2563EB",
                     "name": "MigraConnect",
                     "packageName": "com.tecso.MigraConnect",
@@ -1567,6 +1828,33 @@
             "dependencies": [],
             "description": "Unlocks Enterprise features in app.",
             "name": "Unlock Enterprise",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1B5E20",
+                    "name": "Excel",
+                    "packageName": "com.microsoft.office.excel",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "16.0.20131.20080"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Removes login requirement, unlocks premium, blocks ads, bypasses signature and code transparency checks.",
+            "name": "Unlock Excel",
             "options": []
         },
         {
@@ -1638,7 +1926,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.16.0"
+                            "version": "1.18.0"
                         }
                     ]
                 }
@@ -1693,19 +1981,30 @@
             "compatiblePackages": [
                 {
                     "appIconColor": "#E53935",
-                    "name": "MovieBox TV",
+                    "name": "MovieBox",
                     "packageName": "com.community.oneroom",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.0.15.0616.03"
+                            "version": "3.0.16.0703.03"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox TV",
+                    "packageName": "com.community.mbox.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.1.0702.03"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces MemberResolutionBean.isUnlock() to always return Boolean.TRUE, making all locally-cached episodes appear as unlocked to the playback layer.",
+            "description": "Forces MemberResolutionBean.isUnlock() to always return Boolean.TRUE.",
             "name": "Unlock member resolution",
             "options": []
         },
@@ -1718,7 +2017,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.195.0.1789"
+                            "version": "5.195.2.1792"
                         }
                     ]
                 }
@@ -1772,6 +2071,26 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#00ADEF",
+                    "name": "Sticker.ly",
+                    "packageName": "com.snowcorp.stickerly.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.35.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Sticker.ly PLUS subscription.",
+            "name": "Unlock Plus",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#1565C0",
                     "name": "Subway Now",
                     "packageName": "io.goodservice.theweekendest",
@@ -1789,6 +2108,26 @@
             ],
             "description": "Unlocks Subway Now Plus.",
             "name": "Unlock Plus",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#2563EB",
+                    "name": "AiScore",
+                    "packageName": "com.onesports.score",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.2.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks AiScore Premium Features in app.",
+            "name": "Unlock Premium",
             "options": []
         },
         {
@@ -1814,13 +2153,33 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#CC1F3C",
+                    "name": "AMBOSS",
+                    "packageName": "com.amboss.medical.knowledge",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.115.1.4408"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all medical content.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#1565C0",
                     "name": "Anatomy",
                     "packageName": "air.com.musclemotion.anatomy",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.2.0"
+                            "version": "3.2.1"
                         }
                     ]
                 }
@@ -1979,6 +2338,48 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#1565C0",
+                    "name": "Flightsky",
+                    "packageName": "com.live.flight.tracker",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.7.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks premium features in app.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1565C0",
+                    "name": "Historical Calendar",
+                    "packageName": "com.alexandrucene.dayhistory",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.5.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock Premium features in app.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#FF5722",
                     "name": "Hola VPN Proxy Plus",
                     "packageName": "org.hola.play",
@@ -2045,7 +2446,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.6.2"
+                            "version": "6.7.1"
                         }
                     ]
                 }
@@ -2075,6 +2476,26 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks premium in Beta by Mirko.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1A6FBF",
+                    "name": "MyRadar",
+                    "packageName": "com.acmeaom.android.myradar",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.71.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks MyRadar's yearly premium features",
             "name": "Unlock Premium",
             "options": []
         },
@@ -2127,7 +2548,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.4.6"
+                            "version": "1.4.7"
                         }
                     ]
                 }
@@ -2147,14 +2568,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "13.3.1"
+                            "version": "13.4"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks all Photo Editor premium features by bypassing license checks.",
+            "description": "Unlocks all Photo Editor premium features",
             "name": "Unlock Premium",
             "options": []
         },
@@ -2229,13 +2650,35 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#1D5CFF",
+                    "name": "Pocket Prep",
+                    "packageName": "com.pocketprep.android.itcybersecurity",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.27.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks Pocket Prep premium subscription gates.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#00897B",
                     "name": "Posture",
                     "packageName": "air.com.musclemotion.posture",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.2.0"
+                            "version": "3.2.1"
                         }
                     ]
                 }
@@ -2263,6 +2706,26 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks local Proton VPN premium  features.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E65100",
+                    "name": "RecipeBro",
+                    "packageName": "com.recipebro.cookingbuddy",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.3.74"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock premium features in RecipeBro.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -2323,6 +2786,26 @@
             "default": true,
             "dependencies": [],
             "description": "Bypasses PairIP license check, paywall, ads, and pro upsell in SAI.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#EFC67A",
+                    "name": "SCRL",
+                    "packageName": "com.appostrophe.scrl",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.21"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium feature in app.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -2437,14 +2920,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.5.0"
+                            "version": "3.5.1"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks all premium content in Strength Training by Muscle Motion. Note: Create an exercise plan to access videos",
+            "description": "Unlocks all premium content in Strength Training by Muscle Motion. Note: Create an exercise plan to access all videos",
             "name": "Unlock Premium",
             "options": []
         },
@@ -2484,9 +2967,22 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks car and truck premium features.",
+            "description": "Unlocks TomTom GO premium features for the selected vehicle type.",
             "name": "Unlock Premium",
-            "options": []
+            "options": [
+                {
+                    "default": "car",
+                    "description": "Choose which premium path to unlock.",
+                    "key": "vehicleType",
+                    "required": false,
+                    "title": "Vehicle type",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Car": "car",
+                        "Truck": "truck"
+                    }
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -2497,7 +2993,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.15.3"
+                            "version": "1.16.6"
                         }
                     ]
                 }
@@ -2527,6 +3023,26 @@
                 "RawResourcePatch"
             ],
             "description": "Unlocks Premium Features.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#2962FF",
+                    "name": "TradingView",
+                    "packageName": "com.tradingview.tradingviewapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.20.77.0.1002295"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock premium features in app.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -2579,7 +3095,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.1.2284"
+                            "version": "4.2.2326"
                         }
                     ]
                 }
@@ -2639,7 +3155,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.2.0"
+                            "version": "3.2.1"
                         }
                     ]
                 }
@@ -2701,7 +3217,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "21.1.12-2-rc"
+                            "version": "21.1.13-1-rc"
                         }
                     ]
                 }
@@ -3101,6 +3617,26 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#DD1100",
+                    "name": "WolframAlpha",
+                    "packageName": "com.wolfram.android.alphapro",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.8.20260601651"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Professional features inapp.",
+            "name": "Unlock Professional",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#00B2A9",
                     "name": "Transit",
                     "packageName": "com.thetransitapp.droid",
@@ -3137,6 +3673,46 @@
             "description": "Unlocks SPIN Plus",
             "name": "Unlock SPIN Plus",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#58CC02",
+                    "name": "Duolingo",
+                    "packageName": "com.duolingo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.87.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks user-selectable Duolingo subscription tiers.",
+            "name": "Unlock Subscription",
+            "options": [
+                {
+                    "default": "max",
+                    "description": "Choose Super, Max, Lite, or Immersive metadata.",
+                    "key": "subscriptionTier",
+                    "required": false,
+                    "title": "Subscription tier",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Lite": "lite",
+                        "Max": "max",
+                        "Max Family": "max_family",
+                        "Max Immersive": "max_immersive",
+                        "Max Immersive Family": "max_immersive_family",
+                        "Super": "super",
+                        "Super Family": "super_family",
+                        "Super Immersive": "super_immersive",
+                        "Super Immersive Family": "super_immersive_family"
+                    }
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -3263,13 +3839,40 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#1A237E",
+                    "name": "Word",
+                    "packageName": "com.microsoft.office.word",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "16.0.20131.20080"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Removes login requirement, unlocks premium, blocks ads, bypasses signature and code transparency checks.",
+            "name": "Unlock Word",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#19BCAA",
                     "name": "CamScanner",
                     "packageName": "com.intsig.camscanner",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.20.0.2606230000"
+                            "version": "7.20.5.2606250000"
                         }
                     ]
                 }

@@ -1,6 +1,105 @@
 {
-    "version": "v2.0.2",
+    "version": "v3.0.2",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00C853",
+                    "name": "TrainWise - Workout & Fitness Coach",
+                    "packageName": "com.trainwiseapp.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.10"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2563EB",
+                    "name": "MH Physique",
+                    "packageName": "app.mhphysique.fitness",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.28.2"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#EC0915",
+                    "name": "RP Hypertrophy",
+                    "packageName": "com.rp.hypertrophy",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.2.0"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#E53935",
+                    "name": "THENX",
+                    "packageName": "com.sysops.thenx",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.7.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disable the PairIP client-side license check",
+            "name": "Disable PairIP license check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2A2132",
+                    "name": "Boostcamp",
+                    "packageName": "com.bpmhealth.boostcamp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "262"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock all Paid features",
+            "name": "Unlock Boostcamp Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#111827",
+                    "name": "Built With Science",
+                    "packageName": "com.bws.appv2",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.18.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock all Paid features",
+            "name": "Unlock Built With Science Premium",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -28,6 +127,72 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
+                    "appIconColor": "#111111",
+                    "name": "Ganbaru Method",
+                    "packageName": "com.ganbaru.method",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.46.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock all Paid features",
+            "name": "Unlock Ganbaru Method Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2563EB",
+                    "name": "MH Physique",
+                    "packageName": "app.mhphysique.fitness",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.28.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch",
+                "Disable PairIP license check"
+            ],
+            "description": "Unlock all Paid features",
+            "name": "Unlock MH Physique Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#111111",
+                    "name": "MyoAdapt - Build Muscle Fast",
+                    "packageName": "com.myoadapt.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.5.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock all Paid features",
+            "name": "Unlock MyoAdapt Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#00C853",
                     "name": "TrainWise - Workout & Fitness Coach",
                     "packageName": "com.trainwiseapp.app",
@@ -40,9 +205,34 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "Disable PairIP license check"
+            ],
             "description": "Unlock all Paid features",
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#EC0915",
+                    "name": "RP Hypertrophy",
+                    "packageName": "com.rp.hypertrophy",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.2.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "Disable PairIP license check"
+            ],
+            "description": "Unlock all Paid features",
+            "name": "Unlock RP Hypertrophy Premium",
             "options": []
         },
         {
@@ -64,6 +254,29 @@
             "dependencies": [],
             "description": "Unlock all Paid features",
             "name": "Unlock STNDRD Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#E53935",
+                    "name": "THENX",
+                    "packageName": "com.sysops.thenx",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.7.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "Disable PairIP license check"
+            ],
+            "description": "Unlock all Paid features",
+            "name": "Unlock THENX Premium",
             "options": []
         },
         {
