@@ -49,8 +49,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 3 | 3 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 14 | 6 | Generated |
-| [Franticg33k](#-franticg33k-bundle-patch-list) | 10 | 6 | Generated |
-| [Modx](#-modx-bundle-patch-list) | 1 | 1 | Generated |
+| [Franticg33k](#-franticg33k-bundle-patch-list) | 11 | 6 | Generated |
+| [Modx](#-modx-bundle-patch-list) | 3 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 12 | 11 | Generated |
@@ -76,7 +76,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 54 | 41 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
-| [Lain](#-lain-bundle-patch-list) | 31 | 20 | Generated |
+| [Lain](#-lain-bundle-patch-list) | 35 | 22 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 115 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 125 | 2 | Generated |
@@ -94,7 +94,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 75 | 52 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 86 | 6 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 122 | 4 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 123 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 2 | 2 | Generated |
@@ -255,7 +255,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Franticg33k Bundle Patch List:
 [📦 Franticg33k-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-franticg33k-patches-bundle-morphe)
 <details>
-<summary><b>Franticg33k</b> - 10 patches, 6 apps</summary>
+<summary><b>Franticg33k</b> - 11 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -264,6 +264,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```JellyWatch``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features and shop items in JellyWatch.``` | ```JellyWatch``` | ```All versions``` |
 | ```Unlock Premium``` | ```Patches Dart AOT-compiled libapp.so to unlock all premium features. Forces hasPremiumAccess and isPaidUser to always return true by NOPing their ARM64 conditional branch instructions.``` | ```Mero Karobar``` | ```All versions``` |
+| ```Force Active Subscription``` | ```Patches Dart AOT-compiled libapp.so to force the active_subscription field in the /profile response deserializer to always be true. Replaces `ldur x1, [x29, -8]` (load parsed JSON active value) with `add x1, x22, #0x20` (load Dart `true` object) at the StoreField instruction in ActiveSubscription.fromJson.``` | ```MoneyMitra``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in MoneyMitra by forcing RevenueCat's EntitlementInfo.isActive(), willRenew(), CustomerInfo.activeSubscriptions and allPurchasedProductIdentifiers to return premium status. This removes paywalls and enables premium course access without a subscription.``` | ```MoneyMitra``` | ```All versions``` |
 | ```Remove Ads``` | ```Disables all ad serving from Facebook Audience Network (FAN) and Google Mobile Ads (AdMob). No-ops the plugin bridges so no ads are shown.``` | ```Nepalipatro``` | ```All versions``` |
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```Prismatica Pro``` | ```All versions``` |
@@ -276,11 +277,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Modx Bundle Patch List:
 [📦 Modx-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-modx-patches-bundle-morphe)
 <details>
-<summary><b>Modx</b> - 1 patch, 1 app</summary>
+<summary><b>Modx</b> - 3 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable video ads``` | ```Disables video ads by patching the native library.``` | ```MX Player``` | ```All versions``` |
+| ```Hide Video/OTT tab``` | ```Hides the Video/OTT download tab from the home screen by forcing its visibility flag to always report disabled.``` | ```MX Player``` | ```All versions``` |
+| ```Redirect avatar click to Settings``` | ```Makes the top-right avatar open Settings directly instead of the Me/Profile tab.``` | ```MX Player``` | ```All versions``` |
 
 </details>
 
@@ -1189,7 +1192,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Lain Bundle Patch List:
 [📦 Lain-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lain-patches-bundle-morphe)
 <details>
-<summary><b>Lain</b> - 31 patches, 20 apps</summary>
+<summary><b>Lain</b> - 35 patches, 22 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1202,10 +1205,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Fix Camera Mode Intent``` | ```Fix opening Camera FV-5 Lite when entering camera mode.``` | ```Cinema FV-5 Lite``` | ```All versions``` |
 | ```Higher Video Resolution``` | ```Unlock higher resolutions that limited by the app.``` | ```Cinema FV-5 Lite``` | ```All versions``` |
 | ```Unlock Pro``` | ```Enable pro features.``` | ```Collage Maker - PhotoFancie``` | ```All versions``` |
+| ```Disable Region Lock``` | ```Bypass restricted region contents; access it anywhere, anytime.``` | ```Epic!``` | ```All versions``` |
+| ```Enable Epic Family``` | ```Unlock access to all books, videos and audiobooks for lifetime.``` | ```Epic!``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock premium features.``` | ```Fake GPS Location``` | ```All versions``` |
 | ```Unlock Premium``` | ```Enable premium features.``` | ```Hermit``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock premium features such as Disable Ads and access AI Assistant.``` | ```Hidden Settings``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlock premium features such as Unlimited access to PDF tools, Enable Cloud Storage; Split, Merge, Compress documents, and more. Google login or Google Drive storage is broken, need MicroG integration patch.``` | ```iLovePDF``` | ```All versions``` |
+| ```Bypass Reading Limitation``` | ```Bypass 'First Time Free' read limitation for all languages. Only affect 'Standard/Deluxe' plan titles, exclusive 'Deluxe' plan titles are server-driven.``` | ```Manga Plus``` | ```All versions``` |
+| ```Enable Deluxe Plan``` | ```Enable Deluxe plan badge on settings. Bypass the 'First Time Free' read limitation only for English language on 'Standard/Deluxe' plan titles. Other languages aren't affected.``` | ```Manga Plus``` | ```All versions``` |
 | ```Disable Analytics``` | ```Disables app tracker, Google & Firebase Analytics``` | ```MediBang Paint``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock premium features such as No Ads, Premium Brushes, Filters & Fonts; Simultaneous Layer Operation. Server-side features is NOT included!``` | ```MediBang Paint``` | ```All versions``` |
 | ```Disable Ads``` | ```Disable banner & splash ads.``` | ```Nekopoi``` | ```All versions``` |
@@ -2984,7 +2991,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 122 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 123 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3099,6 +3106,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```All versions``` |
 | ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```All versions``` |
 | ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```All versions``` |
+| ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```All versions``` |
 | ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```All versions``` |
 | ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```All versions``` |
 | ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy.``` | ```YouTube Music``` | ```All versions``` |

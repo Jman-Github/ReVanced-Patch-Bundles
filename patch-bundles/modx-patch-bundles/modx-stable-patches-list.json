@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.1",
+    "version": "v1.2.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -20,6 +20,48 @@
             "dependencies": [],
             "description": "Disables video ads by patching the native library.",
             "name": "Disable video ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E63030",
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.14.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the Video/OTT download tab from the home screen by forcing its visibility flag to always report disabled.",
+            "name": "Hide Video/OTT tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E63030",
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.14.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Makes the top-right avatar open Settings directly instead of the Me/Profile tab.",
+            "name": "Redirect avatar click to Settings",
             "options": []
         }
     ]

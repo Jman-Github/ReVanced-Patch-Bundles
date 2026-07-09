@@ -1,6 +1,29 @@
 {
-    "version": "v1.3.0-dev.1",
+    "version": "v1.3.0-dev.2",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FFFFFF",
+                    "name": "Manga Plus",
+                    "packageName": "jp.co.shueisha.mangaplus",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "2.4.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypass 'First Time Free' read limitation for all languages. Only affect 'Standard/Deluxe' plan titles, exclusive 'Deluxe' plan titles are server-driven.",
+            "name": "Bypass Reading Limitation",
+            "options": []
+        },
         {
             "compatiblePackages": null,
             "default": false,
@@ -206,6 +229,29 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#0B96E7",
+                    "name": "Epic!",
+                    "packageName": "com.getepic.Epic",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.141.43"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypass restricted region contents; access it anywhere, anytime.",
+            "name": "Disable Region Lock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#FBC5D1",
                     "name": "Nekopoi",
                     "packageName": "com.kcstream.cing",
@@ -224,6 +270,52 @@
             "dependencies": [],
             "description": "Allow app network traffic to be inspected.",
             "name": "Enable Certificate Pinning",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FFFFFF",
+                    "name": "Manga Plus",
+                    "packageName": "jp.co.shueisha.mangaplus",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "2.4.1"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Enable Deluxe plan badge on settings. Bypass the 'First Time Free' read limitation only for English language on 'Standard/Deluxe' plan titles. Other languages aren't affected.",
+            "name": "Enable Deluxe Plan",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0B96E7",
+                    "name": "Epic!",
+                    "packageName": "com.getepic.Epic",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.141.43"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock access to all books, videos and audiobooks for lifetime.",
+            "name": "Enable Epic Family",
             "options": []
         },
         {
