@@ -1,0 +1,53 @@
+{
+    "version": "v1.2.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#29CC29",
+                    "name": "CubeX Solver",
+                    "packageName": "diozz.cubex",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.0"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces zc.k.h() to return false so the relaunch / start-like-pro decision gate is suppressed. Combined with the Unlock premium patch, this prevents the \"Baixe este app na Play Store\" screen from appearing.",
+            "name": "Remove relaunch protection",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#29CC29",
+                    "name": "CubeX Solver",
+                    "packageName": "diozz.cubex",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.0"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium-gated features (Advanced Solver / Kociemba, custom color schemes, VIP support, no relaunch screens). Returns true from PremiumHelper.hasActivePurchase() so the entire app behaves as if a premium subscription is active.",
+            "name": "Unlock premium",
+            "options": []
+        }
+    ]
+}
