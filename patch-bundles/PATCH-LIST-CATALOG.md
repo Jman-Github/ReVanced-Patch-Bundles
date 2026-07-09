@@ -159,7 +159,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Free in-app purchases``` | ```Skips Google Play Billing and credits IAP items (gem packs, coin packs, starter packs) directly. Tap any buy button in the shop and the item is granted instantly without payment. Also disables the startup purchase-restore flow.``` | ```Anger of Stick 5``` | ```All versions``` |
+| ```Free in-app purchases``` | ```Skips Google Play Billing and credits IAP items (gem packs, coin packs, starter packs) directly. Tap any buy button in the shop and the item is granted instantly without payment. If the Contacting screen stays, just press the back button to dismiss it. Also disables the startup purchase-restore flow.``` | ```Anger of Stick 5``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks all premium-gated features (Advanced Solver / Kociemba, custom color schemes, VIP support, no relaunch screens). Returns true from PremiumHelper.hasActivePurchase() so the entire app behaves as if a premium subscription is active.``` | ```CubeX Solver``` | ```All versions``` |
 
 </details>
