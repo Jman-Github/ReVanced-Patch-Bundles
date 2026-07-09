@@ -44,12 +44,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
-| [Miguel](#-miguel-bundle-patch-list) | 2 | 1 | Generated |
+| [Miguel](#-miguel-bundle-patch-list) | 2 | 2 | Generated |
 | [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 10 | 1 | Generated |
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 3 | 3 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 14 | 6 | Generated |
-| [Franticg33k](#-franticg33k-bundle-patch-list) | 11 | 6 | Generated |
+| [Franticg33k](#-franticg33k-bundle-patch-list) | 9 | 5 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 3 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 1 | 1 | Generated |
@@ -155,11 +155,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Miguel Bundle Patch List:
 [📦 Miguel-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-miguel-patches-bundle-morphe)
 <details>
-<summary><b>Miguel</b> - 2 patches, 1 app</summary>
+<summary><b>Miguel</b> - 2 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Remove relaunch protection``` | ```Forces zc.k.h() to return false so the relaunch / start-like-pro decision gate is suppressed. Combined with the Unlock premium patch, this prevents the "Baixe este app na Play Store" screen from appearing.``` | ```CubeX Solver``` | ```All versions``` |
+| ```Free in-app purchases``` | ```Skips Google Play Billing and credits IAP items (gem packs, coin packs, starter packs) directly. Tap any buy button in the shop and the item is granted instantly without payment. Also disables the startup purchase-restore flow.``` | ```Anger of Stick 5``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks all premium-gated features (Advanced Solver / Kociemba, custom color schemes, VIP support, no relaunch screens). Returns true from PremiumHelper.hasActivePurchase() so the entire app behaves as if a premium subscription is active.``` | ```CubeX Solver``` | ```All versions``` |
 
 </details>
@@ -255,7 +255,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Franticg33k Bundle Patch List:
 [📦 Franticg33k-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-franticg33k-patches-bundle-morphe)
 <details>
-<summary><b>Franticg33k</b> - 11 patches, 6 apps</summary>
+<summary><b>Franticg33k</b> - 9 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -264,8 +264,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```JellyWatch``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features and shop items in JellyWatch.``` | ```JellyWatch``` | ```All versions``` |
 | ```Unlock Premium``` | ```Patches Dart AOT-compiled libapp.so to unlock all premium features. Forces hasPremiumAccess and isPaidUser to always return true by NOPing their ARM64 conditional branch instructions.``` | ```Mero Karobar``` | ```All versions``` |
-| ```Force Active Subscription``` | ```Patches Dart AOT-compiled libapp.so to force the active_subscription field in the /profile response deserializer to always be true. Replaces `ldur x1, [x29, -8]` (load parsed JSON active value) with `add x1, x22, #0x20` (load Dart `true` object) at the StoreField instruction in ActiveSubscription.fromJson.``` | ```MoneyMitra``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks all premium features in MoneyMitra by forcing RevenueCat's EntitlementInfo.isActive(), willRenew(), CustomerInfo.activeSubscriptions and allPurchasedProductIdentifiers to return premium status. This removes paywalls and enables premium course access without a subscription.``` | ```MoneyMitra``` | ```All versions``` |
 | ```Remove Ads``` | ```Disables all ad serving from Facebook Audience Network (FAN) and Google Mobile Ads (AdMob). No-ops the plugin bridges so no ads are shown.``` | ```Nepalipatro``` | ```All versions``` |
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```Prismatica Pro``` | ```All versions``` |
 | ```Remove License Check``` | ```Bypasses the PairIP Google Play Licensing check so the app runs without a valid Play Store license.``` | ```Prismatica Pro``` | ```All versions``` |

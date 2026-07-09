@@ -1,17 +1,17 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.4",
     "patches": [
         {
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#29CC29",
-                    "name": "CubeX Solver",
-                    "packageName": "diozz.cubex",
+                    "appIconColor": "#C62828",
+                    "name": "Anger of Stick 5",
+                    "packageName": "jpark.AOS5",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.1.0"
+                            "version": "1.1.94"
                         },
                         {
                             "isExperimental": true
@@ -21,8 +21,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces zc.k.h() to return false so the relaunch / start-like-pro decision gate is suppressed. Combined with the Unlock premium patch, this prevents the \"Baixe este app na Play Store\" screen from appearing.",
-            "name": "Remove relaunch protection",
+            "description": "Skips Google Play Billing and credits IAP items (gem packs, coin packs, starter packs) directly. Tap any buy button in the shop and the item is granted instantly without payment. Also disables the startup purchase-restore flow.",
+            "name": "Free in-app purchases",
             "options": []
         },
         {

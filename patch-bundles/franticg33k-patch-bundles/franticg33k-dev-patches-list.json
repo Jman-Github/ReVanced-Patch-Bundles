@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.4",
+    "version": "v1.1.1-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -39,25 +39,6 @@
             "dependencies": [],
             "description": "Suppresses the main byAir paywall, unlock banners, and local user gating.",
             "name": "Enable Pro",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#E53935",
-                    "name": "MoneyMitra",
-                    "packageName": "com.ideapreneurnepal.moneymitra",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Patches Dart AOT-compiled libapp.so to force the active_subscription field in the /profile response deserializer to always be true. Replaces `ldur x1, [x29, -8]` (load parsed JSON active value) with `add x1, x22, #0x20` (load Dart `true` object) at the StoreField instruction in ActiveSubscription.fromJson.",
-            "name": "Force Active Subscription",
             "options": []
         },
         {
