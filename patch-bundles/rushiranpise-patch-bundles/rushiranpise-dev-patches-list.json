@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.0-dev.4",
+    "version": "v1.11.0-dev.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -192,11 +192,22 @@
                             "version": "3.0.16.0703.03"
                         }
                     ]
+                },
+                {
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox (India)",
+                    "packageName": "com.community.mbox.in",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.0.16.0707.03"
+                        }
+                    ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces MemberCheckResult.isPassed() to always return Boolean.TRUE, bypassing the server-side membership gate and preventing the 'Get Premium / 7-day trial' dialog.",
+            "description": "Forces MemberCheckResult.isPassed() to always return Boolean.TRUE.",
             "name": "Bypass member rights check",
             "options": []
         },
@@ -236,7 +247,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces BffSubjectInfo.isVip() to always return false, making every episode appear as non-VIP-only so playback is not blocked. This is the primary content gate in com.community.mbox.tv — checked in DetailFragment before playback is permitted.",
+            "description": "Forces BffSubjectInfo.isVip() to always return false, making every episode appear as non-VIP-only so playback is not blocked in DetailFragment.",
             "name": "Bypass TV episode VIP gate",
             "options": []
         },
@@ -250,6 +261,17 @@
                         {
                             "isExperimental": false,
                             "version": "3.0.16.0703.03"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox (India)",
+                    "packageName": "com.community.mbox.in",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.0.16.0707.03"
                         }
                     ]
                 },
@@ -538,6 +560,37 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon Shopping",
+                    "packageName": "com.amazon.mShop.android.shopping",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "32.12.4.100"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon India",
+                    "packageName": "in.amazon.mShop.android.shopping",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "32.12.4.300"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Updates shared Amazon permissions so other Amazon apps can coexist.",
+            "name": "Fix Amazon manifest conflicts",
+            "options": []
         },
         {
             "compatiblePackages": null,
@@ -1386,12 +1439,23 @@
                             "version": "3.0.16.0703.03"
                         }
                     ]
+                },
+                {
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox (India)",
+                    "packageName": "com.community.mbox.in",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.0.16.0707.03"
+                        }
+                    ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces MemberInfo.isActive() to always return true.",
-            "name": "Spoof member active status",
+            "description": "Forces MemberBriefInfo.isActive()=true, getMemberType()=2, getExpiryDate()='2035-12-31'. MemberBriefInfo is a lightweight summary bean used in home/profile cards — discovered via MovieboxHooker (Kero309x) analysis.",
+            "name": "Spoof member brief info",
             "options": []
         },
         {
@@ -1406,12 +1470,23 @@
                             "version": "3.0.16.0703.03"
                         }
                     ]
+                },
+                {
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox (India)",
+                    "packageName": "com.community.mbox.in",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.0.16.0707.03"
+                        }
+                    ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces MemberInfo.getDaysLeft() to return 3650 (10 years) and MemberInfo.getExpiryDate() to return '2035-12-31'. The UI shows 'Valid Until <expiryDate>' — patching getDaysLeft alone left the display null because the UI uses getExpiryDate(), not getDaysLeft().",
-            "name": "Spoof member days left",
+            "description": "Forces MemberInfo active=true, memberType=2 (VIP), days=3650, expiryDate/nextRenewDate='2035-12-31'. Previously only patched isActive+getDaysLeft+getExpiryDate; now also patches getMemberType()+getNextRenewDate() discovered via MovieboxHooker analysis.",
+            "name": "Spoof member info",
             "options": []
         },
         {
@@ -1426,11 +1501,22 @@
                             "version": "3.0.16.0703.03"
                         }
                     ]
+                },
+                {
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox (India)",
+                    "packageName": "com.community.mbox.in",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.0.16.0707.03"
+                        }
+                    ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces MemberProvider.e() (kv_is_pay_enable_member) and MemberProvider.f() (kv_is_skip_ad) to always return true. Renamed from c()/e() in v3.0.15 to e()/f() in v3.0.16.",
+            "description": "Forces MMKV member gates to true. Phone (com.community.oneroom): e()Z=kv_is_pay_enable_member, f()Z=kv_is_skip_ad. India (com.community.mbox.in): d()Z=kv_is_pay_enable_member, f()Z=kv_is_skip_ad. Both share f()Z for kv_is_skip_ad; primary gate method differs per package.",
             "name": "Spoof member provider flags",
             "options": []
         },
@@ -1450,7 +1536,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces BffGetVipUserInfoData.isVip() to always return Boolean.TRUE, making the app treat the account as a VIP subscriber.",
+            "description": "Forces BffGetVipUserInfoData.isVip() to always return Boolean.TRUE.",
             "name": "Spoof TV account VIP status",
             "options": []
         },
@@ -1522,11 +1608,22 @@
                             "version": "3.0.16.0703.03"
                         }
                     ]
+                },
+                {
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox (India)",
+                    "packageName": "com.community.mbox.in",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.0.16.0707.03"
+                        }
+                    ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Makes MemberProvider.z(F)V return immediately, suppressing the 'Claim 7-day trial / newbies bonus' ClaimMemberDialog popup. Renamed from w(F)V in v3.0.15 to z(F)V in v3.0.16.",
+            "description": "Makes MemberProvider ClaimMemberDialog trigger return-void. Phone (com.community.oneroom): z(F)V. India (com.community.mbox.in): w(F)V. Both suppressed via name search.",
             "name": "Suppress newbie bonus dialog",
             "options": []
         },
@@ -1774,6 +1871,37 @@
             "compatiblePackages": [
                 {
                     "appIconColor": "#E53935",
+                    "name": "MovieBox",
+                    "packageName": "com.community.oneroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.0.16.0703.03"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox (India)",
+                    "packageName": "com.community.mbox.in",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.0.16.0707.03"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces DownloadBean.getRequireMemberType() to always return Integer(0), making all download items appear as freely downloadable regardless of VIP tier. Discovered via MovieboxHooker (Kero309x) analysis.",
+            "name": "Unlock download member requirement",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E53935",
                     "name": "Scoopz",
                     "packageName": "com.localaiapp.scoops",
                     "targets": [
@@ -1799,7 +1927,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "17.1.0"
+                            "version": "17.2.5"
                         }
                     ]
                 }
@@ -1992,6 +2120,17 @@
                 },
                 {
                     "appIconColor": "#E53935",
+                    "name": "MovieBox (India)",
+                    "packageName": "com.community.mbox.in",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.0.16.0707.03"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#E53935",
                     "name": "MovieBox TV",
                     "packageName": "com.community.mbox.tv",
                     "targets": [
@@ -2046,6 +2185,31 @@
             "dependencies": [],
             "description": "Unlocks Pocket Casts Patron yearly feature checks.",
             "name": "Unlock Patron",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#5D2DE6",
+                    "name": "Life360",
+                    "packageName": "com.life360.android.safetymapd",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.25.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Life360 Platinum feature in app.",
+            "name": "Unlock Platinum",
             "options": []
         },
         {
@@ -2147,26 +2311,6 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks premium.",
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#CC1F3C",
-                    "name": "AMBOSS",
-                    "packageName": "com.amboss.medical.knowledge",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.115.1.4408"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks all medical content.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -2798,7 +2942,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.21"
+                            "version": "1.22"
                         }
                     ]
                 }
@@ -2806,28 +2950,6 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all premium feature in app.",
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#2F7D62",
-                    "name": "SkinSort",
-                    "packageName": "com.skinsort",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.15"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "RawResourcePatch"
-            ],
-            "description": "Unlocks SkinSort premium features.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -2954,6 +3076,26 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#2196F3",
+                    "name": "Today Weather",
+                    "packageName": "mobi.lockdown.weather",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.5.0-5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#DF1B12",
                     "name": "TomTom GO",
                     "packageName": "com.tomtom.gplay.navapp",
@@ -3001,28 +3143,6 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Toxly Premium",
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#020617",
-                    "name": "Tracked",
-                    "packageName": "com.tracked.mobile",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "7.0.0"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "RawResourcePatch"
-            ],
-            "description": "Unlocks Premium Features.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -3095,7 +3215,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.2.2326"
+                            "version": "4.2.2328"
                         }
                     ]
                 }
@@ -3531,6 +3651,26 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Splitwise Pro features, removes ad banners, and suppresses all upgrade upsell prompts.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0D47A1",
+                    "name": "UbikiTouch",
+                    "packageName": "eu.toneiv.ubktouch",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.16.13"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks UbikiTouch Pro features in app.",
             "name": "Unlock Pro",
             "options": []
         },
