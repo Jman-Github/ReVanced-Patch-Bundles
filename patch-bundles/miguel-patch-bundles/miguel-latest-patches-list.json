@@ -1,6 +1,30 @@
 {
-    "version": "v1.4.3",
+    "version": "v1.6.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A1A1A",
+                    "name": "Hunter Assassin",
+                    "packageName": "com.rubygames.assassin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.041"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "When a rewarded ad is closed, the game always thinks you watched the entire ad. You get the reward even if you skip or close the ad immediately.",
+            "name": "Auto reward ads",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -22,6 +46,30 @@
             "default": true,
             "dependencies": [],
             "description": "When you try to buy something, the purchase is immediately marked as successful without contacting Google Play. The EA Nimble MTX system receives a null error (success) and grants the item.",
+            "name": "Free in-app purchases",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A1A1A",
+                    "name": "Hunter Assassin",
+                    "packageName": "com.rubygames.assassin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.041"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips Google Play Billing and reports the purchase as successful immediately. When you tap buy, the item is granted without payment or Play Store popup.",
             "name": "Free in-app purchases",
             "options": []
         },
