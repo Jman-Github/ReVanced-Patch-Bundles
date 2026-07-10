@@ -1,6 +1,30 @@
 {
-    "version": "v1.3.8",
+    "version": "v1.4.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4CAF50",
+                    "name": "Plants vs. Zombies FREE",
+                    "packageName": "com.ea.game.pvzfree_row",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.16.0"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "When you try to buy something, the purchase is immediately marked as successful without contacting Google Play. The EA Nimble MTX system receives a null error (success) and grants the item.",
+            "name": "Free in-app purchases",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -29,10 +53,62 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#4CAF50",
+                    "name": "Plants vs. Zombies FREE",
+                    "packageName": "com.ea.game.pvzfree_row",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.16.0"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "When the game tries to show a rewarded ad, it immediately fires the ad-clicked and ad-closed callbacks without actually showing the ad. You get the reward instantly.",
+            "name": "Free reward ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4CAF50",
+                    "name": "Plants vs. Zombies FREE",
+                    "packageName": "com.ea.game.pvzfree_row",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.16.0"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents video ads from loading. When the game tries to load an ad, nothing happens. Ads will not be shown.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#29CC29",
                     "name": "CubeX Solver",
                     "packageName": "diozz.cubex",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1"
+                        },
                         {
                             "isExperimental": false,
                             "version": "4.1.0"

@@ -2,13 +2,12 @@
     "version": "v1.0.8",
     "patches": [
         {
-            "compatiblePackages": {},
+            "compatiblePackages": null,
             "default": true,
             "dependencies": [],
             "description": "Removes FLAG_SECURE from all windows so screenshots and screen recordings work in any app.",
             "name": "Remove screenshot restriction",
-            "options": [],
-            "use": true
+            "options": []
         }
     ]
 }
