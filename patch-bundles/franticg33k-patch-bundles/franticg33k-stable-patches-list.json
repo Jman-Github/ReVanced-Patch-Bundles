@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.2",
+    "version": "v1.2.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -104,6 +104,26 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Provide Lite",
+                    "packageName": "com.providelite.epicplay",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the PairIP LicenseActivity and LicenseContentProvider from AndroidManifest.xml and the com.android.vending.CHECK_LICENSE permission, so the app runs without a valid Play Store license (required because the APK is re-signed during patching).",
+            "name": "Remove License Activity",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#8B5CF6",
                     "name": "Prismatica Pro",
                     "packageName": "com.harwin.prismatica",
@@ -176,6 +196,26 @@
             "default": true,
             "dependencies": [],
             "description": "Patches Dart AOT-compiled libapp.so to unlock all premium features. Forces hasPremiumAccess and isPaidUser to always return true by NOPing their ARM64 conditional branch instructions.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Provide Lite",
+                    "packageName": "com.providelite.epicplay",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Patches the Dart AOT-compiled libapp.so to unlock all premium / VIP features. Forces the VIP state to always be true by rewriting the constant-pool loads (add xN, x22, #0x30 -> add xN, x22, #0x20) inside the cacheIsVipKey readers and the validatePurchase function. Verified on v1.4.0 (Dart 3.7.0, arm64, obfuscated).",
             "name": "Unlock Premium",
             "options": []
         }

@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.28",
+    "version": "v1.3.0-dev.29",
     "patches": [
         {
             "compatiblePackages": null,
@@ -106,24 +106,6 @@
             "options": []
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "MacroDroid",
-                    "packageName": "com.arlosoft.macrodroid",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Substitutes specific 'exploration' strings with 'dog'.",
-            "name": "Dog Patch",
-            "options": []
-        },
-        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -176,6 +158,29 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#004449",
+                    "name": "Going",
+                    "packageName": "com.going.mobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.18.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Forces Going app pro/subscription entitlement checks to always pass.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#5EA15A",
                     "name": "HypnoBox",
                     "packageName": "epixler.de.hypnobox_android",
@@ -196,47 +201,6 @@
             "description": "Forces HypnoBox subscription entitlement checks to always pass.",
             "name": "Enable Pro",
             "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#6668BC",
-                    "name": "LingQ",
-                    "packageName": "com.linguist",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "6.1.24"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Forces LingQ Premium entitlement checks to always pass by overriding model fields.",
-            "name": "Enable Pro",
-            "options": [
-                {
-                    "default": "premium",
-                    "description": "Custom string to use for the Tier.",
-                    "key": "customTierString",
-                    "required": true,
-                    "title": "Tier Name",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Set grandfathered status to true.",
-                    "key": "enableGrandfatherMode",
-                    "required": false,
-                    "title": "Enable Grandfather Mode",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
         },
         {
             "compatiblePackages": null,

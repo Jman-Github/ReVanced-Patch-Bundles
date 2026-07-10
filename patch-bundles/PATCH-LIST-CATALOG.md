@@ -49,7 +49,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 3 | 3 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 14 | 6 | Generated |
-| [Franticg33k](#-franticg33k-bundle-patch-list) | 9 | 5 | Generated |
+| [Franticg33k](#-franticg33k-bundle-patch-list) | 11 | 6 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 4 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 1 | 1 | Generated |
@@ -87,7 +87,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
 | [Chiggi](#-chiggi-bundle-patch-list) | 31 | 5 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 3 | 3 | Generated |
-| [EE-Morphe](#-ee-morphe-bundle-patch-list) | 10 | 5 | Generated |
+| [EE-Morphe](#-ee-morphe-bundle-patch-list) | 9 | 4 | Generated |
 | [X-Shim](#-x-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
@@ -162,7 +162,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Free in-app purchases``` | ```Skips Google Play Billing and credits IAP items (gem packs, coin packs, starter packs) directly. Lets the original failure path run after crediting to close the Contacting screen naturally. Also disables the startup purchase-restore flow.``` | ```Anger of Stick 5``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks all premium-gated features (Advanced Solver / Kociemba, custom color schemes, VIP support, no relaunch screens). Returns true from PremiumHelper.hasActivePurchase() so the entire app behaves as if a premium subscription is active.``` | ```CubeX Solver``` | ```All versions``` |
 | ```Auto reward ads``` | ```When a rewarded ad is closed, the game always thinks you watched the entire ad. You get the reward even if you skip or close the ad immediately.``` | ```Hunter Assassin``` | ```All versions``` |
-| ```Unlimited gems, keys & unlock all``` | ```Sets gems to 9999999, keys to 9999999, unlocks VIP (removes ads) and all assassin characters (2-35) by writing directly to the game's SharedPreferences on startup. Based on the Lucky Patcher custom patch approach.``` | ```Hunter Assassin``` | ```All versions``` |
+| ```Unlimited gems, keys & unlock all``` | ```Sets gems, keys, crystals and cash to 9999999. Unlocks VIP (removes ads), all assassin characters (2-35), all special characters (Dracula, Grinch, Myers, Nutcracker, Santa, Scarecrow, Thor, Wolverine) and all special knives (AuroraFang, CandyBlade, Cricket, Dracula, Myers, PineBlade, Scarecrow, Thor, Wolverine).``` | ```Hunter Assassin``` | ```All versions``` |
 | ```Free in-app purchases``` | ```When you try to buy something, the purchase is immediately marked as successful without contacting Google Play. The EA Nimble MTX system receives a null error (success) and grants the item.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Free reward ads``` | ```When the game tries to show a rewarded ad, it immediately fires the ad-clicked and ad-closed callbacks without actually showing the ad. You get the reward instantly.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Remove ads``` | ```Prevents video ads from loading. When the game tries to load an ad, nothing happens. Ads will not be shown.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
@@ -260,7 +260,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Franticg33k Bundle Patch List:
 [📦 Franticg33k-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-franticg33k-patches-bundle-morphe)
 <details>
-<summary><b>Franticg33k</b> - 9 patches, 5 apps</summary>
+<summary><b>Franticg33k</b> - 11 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -273,6 +273,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```Prismatica Pro``` | ```All versions``` |
 | ```Remove License Check``` | ```Bypasses the PairIP Google Play Licensing check so the app runs without a valid Play Store license.``` | ```Prismatica Pro``` | ```All versions``` |
 | ```Remove Watermark``` | ```Patches the procedural GLSL shader in libharwin_native.so to disable the "PRISMATICA" watermark in the video player and exported videos.``` | ```Prismatica Pro``` | ```All versions``` |
+| ```Remove License Activity``` | ```Removes the PairIP LicenseActivity and LicenseContentProvider from AndroidManifest.xml and the com.android.vending.CHECK_LICENSE permission, so the app runs without a valid Play Store license (required because the APK is re-signed during patching).``` | ```Provide Lite``` | ```All versions``` |
+| ```Unlock Premium``` | ```Patches the Dart AOT-compiled libapp.so to unlock all premium / VIP features. Forces the VIP state to always be true by rewriting the constant-pool loads (add xN, x22, #0x30 -> add xN, x22, #0x20) inside the cacheIsVipKey readers and the validatePurchase function. Verified on v1.4.0 (Dart 3.7.0, arm64, obfuscated).``` | ```Provide Lite``` | ```All versions``` |
 
 </details>
 
@@ -2583,15 +2585,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 EE-Morphe Bundle Patch List:
 [📦 EE-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ee-morphe-patches-bundle-morphe)
 <details>
-<summary><b>EE-Morphe</b> - 10 patches, 5 apps</summary>
+<summary><b>EE-Morphe</b> - 9 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Online Pro``` | ```Experimental companion patch that keeps byAir's online Pro gates open without forcing the crash-prone global entitlement refresh path.``` | ```byAir``` | ```All versions``` |
 | ```Enable Pro``` | ```Suppresses the main byAir paywall, unlock banners, and local user gating without forcing the shared entitlement path globally.``` | ```byAir``` | ```All versions``` |
+| ```Enable Pro``` | ```Forces Going app pro/subscription entitlement checks to always pass.``` | ```Going``` | ```All versions``` |
 | ```Enable Pro``` | ```Forces HypnoBox subscription entitlement checks to always pass.``` | ```HypnoBox``` | ```All versions``` |
-| ```Enable Pro``` | ```Forces LingQ Premium entitlement checks to always pass by overriding model fields.``` | ```LingQ``` | ```All versions``` |
-| ```Dog Patch``` | ```Substitutes specific 'exploration' strings with 'dog'.``` | ```MacroDroid``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Clone app``` | ```Renames the app and manifest package so it can be installed alongside another copy. By default this appends " B" to the launcher name and appends "B" to the package's main segment.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
