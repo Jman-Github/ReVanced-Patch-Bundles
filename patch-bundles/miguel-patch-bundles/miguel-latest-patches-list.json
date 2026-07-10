@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0",
+    "version": "v1.6.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -46,30 +46,6 @@
             "default": true,
             "dependencies": [],
             "description": "When you try to buy something, the purchase is immediately marked as successful without contacting Google Play. The EA Nimble MTX system receives a null error (success) and grants the item.",
-            "name": "Free in-app purchases",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1A1A1A",
-                    "name": "Hunter Assassin",
-                    "packageName": "com.rubygames.assassin",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.041"
-                        },
-                        {
-                            "isExperimental": true
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Skips Google Play Billing and reports the purchase as successful immediately. When you tap buy, the item is granted without payment or Play Store popup.",
             "name": "Free in-app purchases",
             "options": []
         },
@@ -143,6 +119,30 @@
             "dependencies": [],
             "description": "Prevents video ads from loading. When the game tries to load an ad, nothing happens. Ads will not be shown.",
             "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A1A1A",
+                    "name": "Hunter Assassin",
+                    "packageName": "com.rubygames.assassin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.041"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Sets gems to 9999999, keys to 9999999, unlocks VIP (removes ads) and all assassin characters (2-35) by writing directly to the game's SharedPreferences on startup. Based on the Lucky Patcher custom patch approach.",
+            "name": "Unlimited gems, keys & unlock all",
             "options": []
         },
         {
