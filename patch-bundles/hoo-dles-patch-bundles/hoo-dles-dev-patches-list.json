@@ -1,5 +1,5 @@
 {
-    "version": "v1.39.0-dev.1",
+    "version": "v1.39.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -1040,15 +1040,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "14.0.4"
+                            "version": "14.0.6"
                         }
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "RawResourcePatch"
-            ],
+            "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Prime membership",
             "options": []

@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.2",
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -60,8 +60,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Makes the top-right avatar open Settings directly instead of the Me/Profile tab.",
-            "name": "Redirect avatar click to Settings",
+            "description": "Redirects the Search tab to the Modx Tools screen and the Games tab to the Modx About screen.",
+            "name": "Repurpose Search/Games tabs to Tools/About",
             "options": []
         }
     ]
