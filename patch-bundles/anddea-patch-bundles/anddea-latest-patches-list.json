@@ -1,5 +1,5 @@
 {
-    "version": "v4.2.0-dev.2",
+    "version": "v4.2.0-dev.3",
     "patches": [
         {
             "compatiblePackages": {
@@ -1983,11 +1983,6 @@
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch",
-                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds support to download videos with an external downloader app using the in-app download button.",
@@ -2328,6 +2323,7 @@
                 ]
             },
             "dependencies": [
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Removes restrictions on background playback, including for kids videos.",
@@ -2466,7 +2462,6 @@
             },
             "dependencies": [
                 "ResourcePatch",
-                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
