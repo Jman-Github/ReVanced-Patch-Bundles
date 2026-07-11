@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.32",
+    "version": "v1.3.0-dev.34",
     "patches": [
         {
             "compatiblePackages": null,
@@ -133,6 +133,26 @@
             ],
             "description": "Experimental companion patch that keeps byAir's online Pro gates open without forcing the crash-prone global entitlement refresh path.",
             "name": "Enable Online Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#428BCA",
+                    "name": "AppSales",
+                    "packageName": "net.tsapps.appsales",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables app features locked behind the subscription paywall and disables UI prompts.",
+            "name": "Enable Pro",
             "options": []
         },
         {
