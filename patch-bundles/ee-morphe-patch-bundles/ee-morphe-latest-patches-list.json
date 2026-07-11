@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.29",
+    "version": "v1.3.0-dev.32",
     "patches": [
         {
             "compatiblePackages": null,
@@ -171,10 +171,8 @@
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Forces Going app pro/subscription entitlement checks to always pass.",
+            "dependencies": [],
+            "description": "Forces Going subscription checks to always pass and disables the app-specific PairIP license redirect.",
             "name": "Enable Pro",
             "options": []
         },
