@@ -44,7 +44,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
-| [Miguel](#-miguel-bundle-patch-list) | 7 | 4 | Generated |
+| [Miguel](#-miguel-bundle-patch-list) | 14 | 5 | Generated |
 | [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 10 | 1 | Generated |
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 3 | 3 | Generated |
@@ -155,7 +155,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Miguel Bundle Patch List:
 [📦 Miguel-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-miguel-patches-bundle-morphe)
 <details>
-<summary><b>Miguel</b> - 7 patches, 4 apps</summary>
+<summary><b>Miguel</b> - 14 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -166,6 +166,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Free in-app purchases``` | ```When you try to buy something, the purchase is immediately marked as successful without contacting Google Play. The EA Nimble MTX system receives a null error (success) and grants the item.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Free reward ads``` | ```When the game tries to show a rewarded ad, it immediately fires the ad-clicked and ad-closed callbacks without actually showing the ad. You get the reward instantly.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Remove ads``` | ```Prevents video ads from loading. When the game tries to load an ad, nothing happens. Ads will not be shown.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
+| ```Universal billing bypass``` | ```Patches Google Play In-App Billing classes to simulate successful purchases.``` | ```Universal``` | ```All versions``` |
+| ```Universal disable ad components``` | ```Disables ad-related activities, receivers, and services in AndroidManifest.xml.``` | ```Universal``` | ```All versions``` |
+| ```Universal offline mode``` | ```Makes the app think it has no internet connection by patching network-checking methods.``` | ```Universal``` | ```All versions``` |
+| ```Universal remove ads``` | ```Scans the target APK for common ad SDK classes and patches their ad-loading methods to do nothing.``` | ```Universal``` | ```All versions``` |
+| ```Universal remove license verification``` | ```Patches Google Play License Verification Library (LVL) classes to always return licensed.``` | ```Universal``` | ```All versions``` |
+| ```Universal SharedPreferences injector``` | ```Injects SharedPreferences values into the app at runtime. Configure via the 'prefs-data' option with format: file:type:key:value,file2:type2:key2:value2. Supported types: int, boolean, string, long, float.``` | ```Universal``` | ```All versions``` |
+| ```Universal signature bypass``` | ```Bypasses signature verification by injecting a Proxy of IPackageManager that returns the original APK signatures. Also spoofs getInstallerPackageName to return 'com.android.vending'. Provide the original signatures via the 'signatures-base64' option (from 'apksigner verify --print-certs'). Equivalent to Lucky Patcher's 'Signature verification killer' (sigkill.dex).``` | ```Universal``` | ```All versions``` |
 
 </details>
 

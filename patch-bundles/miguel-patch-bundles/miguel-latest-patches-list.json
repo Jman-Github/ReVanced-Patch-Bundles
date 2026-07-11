@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.9",
+    "version": "v1.7.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -120,6 +120,82 @@
             "description": "Prevents video ads from loading. When the game tries to load an ad, nothing happens. Ads will not be shown.",
             "name": "Remove ads",
             "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Patches Google Play In-App Billing classes to simulate successful purchases.",
+            "name": "Universal billing bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Disables ad-related activities, receivers, and services in AndroidManifest.xml.",
+            "name": "Universal disable ad components",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes the app think it has no internet connection by patching network-checking methods.",
+            "name": "Universal offline mode",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Scans the target APK for common ad SDK classes and patches their ad-loading methods to do nothing.",
+            "name": "Universal remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Patches Google Play License Verification Library (LVL) classes to always return licensed.",
+            "name": "Universal remove license verification",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Injects SharedPreferences values into the app at runtime. Configure via the 'prefs-data' option with format: file:type:key:value,file2:type2:key2:value2. Supported types: int, boolean, string, long, float.",
+            "name": "Universal SharedPreferences injector",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Comma-separated list of prefs to inject. Format: file:type:key:value,file2:type2:key2:value2. Types: int, boolean, string, long, float. Example: game_prefs:int:coins:99999,game_prefs:boolean:premium:true",
+                    "key": "prefs-data",
+                    "required": true,
+                    "title": "SharedPreferences data",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Bypasses signature verification by injecting a Proxy of IPackageManager that returns the original APK signatures. Also spoofs getInstallerPackageName to return 'com.android.vending'. Provide the original signatures via the 'signatures-base64' option (from 'apksigner verify --print-certs'). Equivalent to Lucky Patcher's 'Signature verification killer' (sigkill.dex).",
+            "name": "Universal signature bypass",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Base64-encoded original APK signatures. If empty, only installer package name is spoofed. Format: 1 byte count + (4 byte length + signature bytes) for each cert.",
+                    "key": "signatures-base64",
+                    "required": false,
+                    "title": "Original signatures (Base64)",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
