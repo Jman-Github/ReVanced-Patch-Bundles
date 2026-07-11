@@ -49,7 +49,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 3 | 3 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 14 | 6 | Generated |
-| [Franticg33k](#-franticg33k-bundle-patch-list) | 11 | 6 | Generated |
+| [Franticg33k](#-franticg33k-bundle-patch-list) | 12 | 6 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 4 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 1 | 1 | Generated |
@@ -260,7 +260,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Franticg33k Bundle Patch List:
 [📦 Franticg33k-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-franticg33k-patches-bundle-morphe)
 <details>
-<summary><b>Franticg33k</b> - 11 patches, 6 apps</summary>
+<summary><b>Franticg33k</b> - 12 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -273,8 +273,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```Prismatica Pro``` | ```All versions``` |
 | ```Remove License Check``` | ```Bypasses the PairIP Google Play Licensing check so the app runs without a valid Play Store license.``` | ```Prismatica Pro``` | ```All versions``` |
 | ```Remove Watermark``` | ```Patches the procedural GLSL shader in libharwin_native.so to disable the "PRISMATICA" watermark in the video player and exported videos.``` | ```Prismatica Pro``` | ```All versions``` |
+| ```Remove Ads``` | ```Blocks all ad display in Provide Lite by forcing the app's central ad gate (in libapp.so) to always take its 'skip' path. Two branch instructions are rewritten to unconditional skips: the global 'ad enabled' flag check (tbz -> b #skip) and the interstitial/rewarded cooldown gate (b.ge -> b #skip). Verified on v1.4.6 (Dart 3.7.0, arm64, obfuscated) — no ad-show invocation is reached.``` | ```Provide Lite``` | ```All versions``` |
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity and LicenseContentProvider from AndroidManifest.xml and the com.android.vending.CHECK_LICENSE permission, so the app runs without a valid Play Store license (required because the APK is re-signed during patching).``` | ```Provide Lite``` | ```All versions``` |
-| ```Unlock Premium``` | ```Patches the Dart AOT-compiled libapp.so to unlock all premium / VIP features. Forces the VIP state to always be true by rewriting the constant-pool loads (add xN, x22, #0x30 -> add xN, x22, #0x20) inside the cacheIsVipKey readers and the validatePurchase function. Verified on v1.4.0 (Dart 3.7.0, arm64, obfuscated).``` | ```Provide Lite``` | ```All versions``` |
+| ```Unlock Premium``` | ```Patches the Dart AOT-compiled libapp.so to unlock all premium / VIP features. Forces the VIP state to always be true by rewriting the constant-pool loads (add xN, x22, #0x30 -> add xN, x22, #0x20) inside the cacheIsVipKey readers (getter + 3 callers). Verified on v1.4.6 (Dart 3.7.0, arm64, obfuscated) — flutter.cacheIsVipKey=true on device.``` | ```Provide Lite``` | ```All versions``` |
 
 </details>
 

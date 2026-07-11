@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.2",
+    "version": "v1.2.1-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -57,6 +57,26 @@
             "default": true,
             "dependencies": [],
             "description": "Disables all ad serving from Facebook Audience Network (FAN) and Google Mobile Ads (AdMob). No-ops the plugin bridges so no ads are shown.",
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Provide Lite",
+                    "packageName": "com.providelite.epicplay",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks all ad display in Provide Lite by forcing the app's central ad gate (in libapp.so) to always take its 'skip' path. Two branch instructions are rewritten to unconditional skips: the global 'ad enabled' flag check (tbz -> b #skip) and the interstitial/rewarded cooldown gate (b.ge -> b #skip). Verified on v1.4.6 (Dart 3.7.0, arm64, obfuscated) — no ad-show invocation is reached.",
             "name": "Remove Ads",
             "options": []
         },
@@ -215,7 +235,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Patches the Dart AOT-compiled libapp.so to unlock all premium / VIP features. Forces the VIP state to always be true by rewriting the constant-pool loads (add xN, x22, #0x30 -> add xN, x22, #0x20) inside the cacheIsVipKey readers and the validatePurchase function. Verified on v1.4.0 (Dart 3.7.0, arm64, obfuscated).",
+            "description": "Patches the Dart AOT-compiled libapp.so to unlock all premium / VIP features. Forces the VIP state to always be true by rewriting the constant-pool loads (add xN, x22, #0x30 -> add xN, x22, #0x20) inside the cacheIsVipKey readers (getter + 3 callers). Verified on v1.4.6 (Dart 3.7.0, arm64, obfuscated) — flutter.cacheIsVipKey=true on device.",
             "name": "Unlock Premium",
             "options": []
         }
