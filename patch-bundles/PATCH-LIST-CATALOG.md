@@ -166,7 +166,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Free in-app purchases``` | ```When you try to buy something, the purchase is immediately marked as successful without contacting Google Play. The EA Nimble MTX system receives a null error (success) and grants the item.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Free reward ads``` | ```When the game tries to show a rewarded ad, it immediately fires the ad-clicked and ad-closed callbacks without actually showing the ad. You get the reward instantly.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Remove ads``` | ```Prevents video ads from loading. When the game tries to load an ad, nothing happens. Ads will not be shown.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
-| ```Billing bypass``` | ```Patches Google Play In-App Billing to simulate successful purchases. Intercepts IInAppBillingService (v3/v6) and BillingClient (v4+) methods. isBillingSupported returns OK, queryPurchases returns void, consumePurchase returns success, isReady returns true, startConnection is skipped. Based on Lucky Patcher's InApp emulation.``` | ```Universal``` | ```All versions``` |
+| ```Billing bypass``` | ```Patches Google Play In-App Billing to simulate successful purchases. Calls billing callbacks with success results via an extension. Based on Lucky Patcher's InApp emulation approach.``` | ```Universal``` | ```All versions``` |
 
 </details>
 

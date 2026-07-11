@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.2",
+    "version": "v1.7.6",
     "patches": [
         {
             "compatiblePackages": [
@@ -29,7 +29,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Patches Google Play In-App Billing to simulate successful purchases. Intercepts IInAppBillingService (v3/v6) and BillingClient (v4+) methods. isBillingSupported returns OK, queryPurchases returns void, consumePurchase returns success, isReady returns true, startConnection is skipped. Based on Lucky Patcher's InApp emulation.",
+            "description": "Patches Google Play In-App Billing to simulate successful purchases. Calls billing callbacks with success results via an extension. Based on Lucky Patcher's InApp emulation approach.",
             "name": "Billing bypass",
             "options": []
         },
