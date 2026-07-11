@@ -289,7 +289,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 |----------|---------------|---------------------|-------------------------|
 | ```Disable video ads``` | ```Disables video ads by patching the native library.``` | ```MX Player``` | ```All versions``` |
 | ```Hide Video/OTT tab``` | ```Hides the Video/OTT download tab from the home screen by forcing its visibility flag to always report disabled.``` | ```MX Player``` | ```All versions``` |
-| ```Register Modx extension activities``` | ```Declares the Modx extension module's activities in AndroidManifest.xml so they can be launched via explicit Intent from the repurposed tabs.``` | ```MX Player``` | ```All versions``` |
+| ```Register Modx extension activities``` | ```Adds the ToolsActivity/AboutActivity/tool screens and FileProvider from the extensions/core module to the app's AndroidManifest.xml so they can actually be launched.``` | ```MX Player``` | ```All versions``` |
 | ```Repurpose Search/Games tabs to Tools/About``` | ```Redirects the Search tab to the Modx Tools screen and the Games tab to the Modx About screen.``` | ```MX Player``` | ```All versions``` |
 
 </details>

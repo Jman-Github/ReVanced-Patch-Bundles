@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.3",
+    "version": "v1.3.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -60,7 +60,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Declares the Modx extension module's activities in AndroidManifest.xml so they can be launched via explicit Intent from the repurposed tabs.",
+            "description": "Adds the ToolsActivity/AboutActivity/tool screens and FileProvider from the extensions/core module to the app's AndroidManifest.xml so they can actually be launched.",
             "name": "Register Modx extension activities",
             "options": []
         },
@@ -80,9 +80,7 @@
                 }
             ],
             "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
+            "dependencies": [],
             "description": "Redirects the Search tab to the Modx Tools screen and the Games tab to the Modx About screen.",
             "name": "Repurpose Search/Games tabs to Tools/About",
             "options": []
