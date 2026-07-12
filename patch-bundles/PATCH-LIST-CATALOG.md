@@ -50,7 +50,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Miguel](#-miguel-bundle-patch-list) | 8 | 5 | Generated |
 | [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 10 | 1 | Generated |
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
-| [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 3 | 3 | Generated |
+| [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 14 | 6 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 12 | 6 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 4 | 1 | Generated |
@@ -290,12 +290,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Shaun-Sheep Bundle Patch List:
 [📦 Shaun-Sheep-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-shaun-sheep-patches-bundle-morphe)
 <details>
-<summary><b>Shaun-Sheep</b> - 3 patches, 3 apps</summary>
+<summary><b>Shaun-Sheep</b> - 4 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Flud Ad-Free & Bypasses``` | ```Unlock ad-free experience (disable banners/interstitials), bypass storage permission setup block, and disable Google Play Integrity licensing check.``` | ```Flud``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features by forcing KineService.Companion.isTrial() to return false (pro state).``` | ```KineStop``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium features of Pinnit by bypassing the RevenueCat entitlement and purchase checks.``` | ```Pinnit``` | ```All versions``` |
 | ```RSS Reader Premium``` | ```Unlock premium features and remove ads in RSS Reader.``` | ```RSS Reader``` | ```All versions``` |
 
 </details>
