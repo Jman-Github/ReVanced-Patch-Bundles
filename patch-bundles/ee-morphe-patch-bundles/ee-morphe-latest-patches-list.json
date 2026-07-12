@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.2",
+    "version": "v1.5.0-dev.3",
     "patches": [
         {
             "compatiblePackages": null,
@@ -172,6 +172,27 @@
             "default": true,
             "dependencies": [],
             "description": "Suppresses the main byAir paywall, unlock banners, and local user gating without forcing the shared entitlement path globally.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#004449",
+                    "name": "Going",
+                    "packageName": "com.going.mobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.18.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces Going subscription checks to always pass and disables the app-specific PairIP license redirect.",
             "name": "Enable Pro",
             "options": []
         },

@@ -1,5 +1,5 @@
 {
-    "version": "v1.42.0",
+    "version": "v1.42.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -765,7 +765,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Turns on Symfonium's paid features. The build ships as a public beta with a built-in trial: a license value the app keeps locally decides whether the paid UI is open, and two timers (the beta cutoff and the trial countdown) lock the app once they pass. This forces the license read to \"licensed\" so the paid screens open, drops the \"trial expires on ...\" line from settings, and stops the cutoff from triggering by cutting off the trusted-time lookup the timers rely on, which leaves the app in its offline state where neither timer fires. The license is checked on the client (a local Play purchase verify), so the unlock holds without an account. Connecting Plex, Jellyfin and other media servers is untouched.",
+            "description": "Turns on Symfonium's paid features. The build ships as a public beta with a built-in trial: a license value the app keeps locally decides whether the paid UI is open, and two timers (the beta cutoff and the trial countdown) lock the app once they pass. This forces the license read to \"licensed\" so the paid screens open, drops the \"trial expires on ...\" line from settings, and freezes the trusted-time lookup the timers read at a fixed pre-cutoff instant so neither timer can fire. The license is checked on the client (a local Play purchase verify), so the unlock holds without an account. Connecting Plex, Jellyfin and other media servers is untouched.",
             "name": "Unlock Premium",
             "options": []
         },
