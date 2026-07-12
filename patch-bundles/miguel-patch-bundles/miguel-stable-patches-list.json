@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.8",
+    "version": "v1.9.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -29,7 +29,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Attempts to credit purchases by finding the app's own success callback method and calling it directly. Scans for methods like nativeOnSuccess, onPurchaseSuccess, onIAPSuccess, etc. Also supports Unity IL2CPP games by finding nativeOnPurchasesUpdated JNI bridge methods. If no success method is found, patches billing to return success without crediting.",
+            "description": "Attempts to credit purchases by finding the app's own success callback method and calling it directly. Scans for methods like nativeOnSuccess, onPurchaseSuccess, onIAPSuccess, etc. Also supports Unity IL2CPP games by finding nativeOnPurchasesUpdated JNI bridge methods and creating fake Purchase objects. If no success method is found, patches billing to return success without crediting.",
             "name": "Billing bypass",
             "options": []
         },
@@ -51,9 +51,9 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
-            "description": "Skips Google Play Billing by intercepting launchBillingFlow, extracting the SKU, creating a fake Purchase object, and calling nativeOnPurchasesUpdated(0, \"\", [fakePurchase]) directly. The Play Store UI never opens.",
+            "description": "Skips Google Play Billing by creating a fake Purchase and calling nativeOnPurchasesUpdated directly via extension.",
             "name": "Free in-app purchases",
             "options": []
         },
@@ -175,6 +175,30 @@
             "dependencies": [],
             "description": "Sets gems, rubies (diamonds), keys and tickets to 9999999. Unlocks VIP (removes ads + VIP rewards + Ninja Assassin VIP character), all assassin characters (2-44), including all Legendary characters (Scarecrow, Dracula, Thor, Wolverine, Myers, Santa, Grinch, Nutcracker, Cricket Player), and all special knives.",
             "name": "Unlimited gems, rubies & unlock all",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#3B5998",
+                    "name": "The Battle of Polytopia",
+                    "packageName": "air.com.midjiwan.polytopia",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.17.2.16299"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all 20 tribes by setting the debug flag in Unity PlayerPrefs via SharedPreferences.",
+            "name": "Unlock all tribes",
             "options": []
         },
         {

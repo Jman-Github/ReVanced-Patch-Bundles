@@ -47,7 +47,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pichiwa](#-pichiwa-bundle-patch-list) | 19 | 1 | Generated |
 | [Saiesh](#-saiesh-bundle-patch-list) | 10 | 3 | Generated |
 | [Letterboxd-Stremio](#-letterboxd-stremio-bundle-patch-list) | 3 | 1 | Generated |
-| [Miguel](#-miguel-bundle-patch-list) | 9 | 6 | Generated |
+| [Miguel](#-miguel-bundle-patch-list) | 10 | 6 | Generated |
 | [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 10 | 1 | Generated |
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
@@ -223,7 +223,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Miguel Bundle Patch List:
 [📦 Miguel-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-miguel-patches-bundle-morphe)
 <details>
-<summary><b>Miguel</b> - 9 patches, 6 apps</summary>
+<summary><b>Miguel</b> - 10 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -234,8 +234,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Free in-app purchases``` | ```When you try to buy something, the purchase is immediately marked as successful without contacting Google Play. The EA Nimble MTX system receives a null error (success) and grants the item.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Free reward ads``` | ```When the game tries to show a rewarded ad, it immediately fires the ad-clicked and ad-closed callbacks without actually showing the ad. You get the reward instantly.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Remove ads``` | ```Prevents video ads from loading. When the game tries to load an ad, nothing happens. Ads will not be shown.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
-| ```Free in-app purchases``` | ```Skips Google Play Billing by intercepting launchBillingFlow, extracting the SKU, creating a fake Purchase object, and calling nativeOnPurchasesUpdated(0, "", [fakePurchase]) directly. The Play Store UI never opens.``` | ```The Battle of Polytopia``` | ```All versions``` |
-| ```Billing bypass``` | ```Attempts to credit purchases by finding the app's own success callback method and calling it directly. Scans for methods like nativeOnSuccess, onPurchaseSuccess, onIAPSuccess, etc. Also supports Unity IL2CPP games by finding nativeOnPurchasesUpdated JNI bridge methods. If no success method is found, patches billing to return success without crediting.``` | ```Universal``` | ```All versions``` |
+| ```Free in-app purchases``` | ```Skips Google Play Billing by creating a fake Purchase and calling nativeOnPurchasesUpdated directly via extension.``` | ```The Battle of Polytopia``` | ```All versions``` |
+| ```Unlock all tribes``` | ```Unlocks all 20 tribes by setting the debug flag in Unity PlayerPrefs via SharedPreferences.``` | ```The Battle of Polytopia``` | ```All versions``` |
+| ```Billing bypass``` | ```Attempts to credit purchases by finding the app's own success callback method and calling it directly. Scans for methods like nativeOnSuccess, onPurchaseSuccess, onIAPSuccess, etc. Also supports Unity IL2CPP games by finding nativeOnPurchasesUpdated JNI bridge methods and creating fake Purchase objects. If no success method is found, patches billing to return success without crediting.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -4425,7 +4426,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove Ads``` | ```Removes interstitial and exit native ads from m-Indicator.``` | ```m-Indicator``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all Pro features.``` | ```MEGA``` | ```All versions``` |
 | ```Unlock Enterprise``` | ```Unlocks Enterprise features in app.``` | ```MigraConnect``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlockins all premium widgets.``` | ```Minimal Widgets``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlock all premium widgets.``` | ```Minimal Widgets``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in ML Manager.``` | ```ML Manager``` | ```All versions``` |
 | ```Unlock Moovit+``` | ```Unlocks Moovit+``` | ```Moovit``` | ```All versions``` |
 | ```Unlock VIP``` | ```Unlocks VIP Features in app.``` | ```MovieBox TV``` | ```All versions``` |
