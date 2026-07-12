@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0",
+    "version": "v1.11.0",
     "patches": [
         {
             "compatibility": [
@@ -323,13 +323,18 @@
                         {
                             "experimental": false,
                             "version": "4.46.0_tv"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "4.47.2_tv"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.univision.prendetv": [
-                    "4.46.0_tv"
+                    "4.46.0_tv",
+                    "4.47.2_tv"
                 ]
             },
             "dependencies": [],
@@ -543,13 +548,18 @@
                         {
                             "experimental": false,
                             "version": "4.46.0_tv"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "4.47.2_tv"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.univision.prendetv": [
-                    "4.46.0_tv"
+                    "4.46.0_tv",
+                    "4.47.2_tv"
                 ]
             },
             "dependencies": [],

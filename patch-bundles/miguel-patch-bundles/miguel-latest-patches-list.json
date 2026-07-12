@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.8",
+    "version": "v1.7.11",
     "patches": [
         {
             "compatiblePackages": [
@@ -29,7 +29,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Patches Google Play In-App Billing to simulate successful purchases without contacting Google Play.",
+            "description": "Attempts to credit purchases by finding the app's own success callback method and calling it directly. Scans for methods like nativeOnSuccess, onPurchaseSuccess, onIAPSuccess, etc. If no success method is found, patches billing to return success without crediting.",
             "name": "Billing bypass",
             "options": []
         },

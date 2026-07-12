@@ -42,6 +42,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "RawResourcePatch"
@@ -51,6 +52,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "RawResourcePatch",
@@ -77,58 +79,72 @@
                     }
                 },
                 {
+                    "default": null,
                     "description": "The app's main Activity class name ending with a semicolon, e.g. /MainActivity; Used to inject the MicroG check at startup. Leave blank for auto-detection.",
                     "key": "mainActivityName",
                     "required": false,
                     "title": "Main activity class (optional)",
-                    "type": "kotlin.String"
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "Rename the app to this package name. Leave blank to keep the original. Must be a valid package name (e.g. com.example.myapp).",
                     "key": "packageName",
                     "required": false,
                     "title": "Custom package name (optional)",
-                    "type": "kotlin.String"
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ]
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "By Default it Reads the signing certificate from the original app installed. Required for GmsCore, Firebase, and Signature spoof patches. Only fill options below if the original is uninstalled.",
             "name": "Provide Original app certificate",
             "options": [
                 {
+                    "default": null,
                     "description": "Full path to the original APK or .apks bundle. Example: /sdcard/Download/Waze.apks",
                     "key": "originalApkPath",
                     "required": false,
                     "title": "Path to original APK (if uninstalled)",
-                    "type": "kotlin.String"
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "40-char hex. Found on APKMirror under app signature info.",
                     "key": "manualCertSha1",
                     "required": false,
                     "title": "Certificate SHA-1 (manual)",
-                    "type": "kotlin.String"
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "64-char hex. Optional companion to SHA-1.",
                     "key": "manualCertSha256",
                     "required": false,
                     "title": "Certificate SHA-256 (manual)",
-                    "type": "kotlin.String"
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "Needed only for Signature spoof patch. Get it with: apksigner verify --print-certs original.apk",
                     "key": "manualCertBase64",
                     "required": false,
                     "title": "Certificate Base64 DER (manual)",
-                    "type": "kotlin.String"
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ]
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "ResourcePatch",
@@ -139,15 +155,18 @@
             "name": "Spoof app signature",
             "options": [
                 {
+                    "default": null,
                     "description": "Leave blank — read automatically from the app. Only set this if you changed the app's package name and the patch is using the wrong one.",
                     "key": "packageName",
                     "required": false,
                     "title": "Package name override (optional)",
-                    "type": "kotlin.String"
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ]
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Makes the app think it was installed from a specific store (default: Google Play).\n\nUseful when an app blocks features or shows errors because it detects it was not installed from the Play Store.\n\nOnly affects what the app itself sees - does not change the real system install record.",
@@ -171,6 +190,7 @@
             ]
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Reports Widevine L1 (hardware DRM) to apps that check DRM level locally.\n\nUseful for apps that refuse to play HD/4K content on L3 devices or after re-signing.\n\nDoes not bypass server-side DRM - Netflix, Disney+ and similar are not affected.",
