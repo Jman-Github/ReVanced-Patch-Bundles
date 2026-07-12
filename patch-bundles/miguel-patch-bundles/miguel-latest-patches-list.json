@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.11",
+    "version": "v1.8.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -29,8 +29,32 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Attempts to credit purchases by finding the app's own success callback method and calling it directly. Scans for methods like nativeOnSuccess, onPurchaseSuccess, onIAPSuccess, etc. If no success method is found, patches billing to return success without crediting.",
+            "description": "Attempts to credit purchases by finding the app's own success callback method and calling it directly. Scans for methods like nativeOnSuccess, onPurchaseSuccess, onIAPSuccess, etc. Also supports Unity IL2CPP games by finding nativeOnPurchasesUpdated JNI bridge methods. If no success method is found, patches billing to return success without crediting.",
             "name": "Billing bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#3B5998",
+                    "name": "The Battle of Polytopia",
+                    "packageName": "air.com.midjiwan.polytopia",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.17.2.16299"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips Google Play Billing and simulates successful purchases by creating a fake Purchase object and calling the billing callback directly via an extension.",
+            "name": "Free in-app purchases",
             "options": []
         },
         {
