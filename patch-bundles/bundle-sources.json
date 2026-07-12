@@ -664,6 +664,21 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "pichiwa-stable": {
+        "patches": "https://api.github.com/repos/alejandrobellver/pichiwa-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "saiesh-stable": {
+        "patches": "https://api.github.com/repos/saieshshirodkar/saiesh-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "letterboxd-stremio-stable": {
+        "patches": "https://api.github.com/repos/ethanm6/letterboxd-stremio-morphe-patch",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -1324,6 +1339,21 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
+    "pichiwa-dev": {
+        "patches": "https://api.github.com/repos/alejandrobellver/pichiwa-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "saiesh-dev": {
+        "patches": "https://api.github.com/repos/saieshshirodkar/saiesh-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "letterboxd-stremio-dev": {
+        "patches": "https://api.github.com/repos/ethanm6/letterboxd-stremio-morphe-patch",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
     "piko-latest": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -1981,6 +2011,21 @@
     },
     "miguel-latest": {
         "patches": "https://api.github.com/repos/MiguelNinja19/miguel-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "pichiwa-latest": {
+        "patches": "https://api.github.com/repos/alejandrobellver/pichiwa-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "saiesh-latest": {
+        "patches": "https://api.github.com/repos/saieshshirodkar/saiesh-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "letterboxd-stremio-latest": {
+        "patches": "https://api.github.com/repos/ethanm6/letterboxd-stremio-morphe-patch",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

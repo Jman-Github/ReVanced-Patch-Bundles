@@ -1,0 +1,65 @@
+{
+    "version": "v1.3.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#7B5EA7",
+                    "name": "Letterboxd",
+                    "packageName": "com.letterboxd.letterboxd",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds a purple Stremio button directly below the trailer button on film pages, styled identically to it. Takes the trailer button's position when there is no trailer. Opens the film directly in the Stremio app or web player.",
+            "name": "Add Stremio button",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#7B5EA7",
+                    "name": "Letterboxd",
+                    "packageName": "com.letterboxd.letterboxd",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the \"Rent from Letterboxd Video Store\" banner on film pages and the video store carousel row on the home feed. Can be toggled independently of the Stremio button patch.",
+            "name": "Hide Video Store",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#7B5EA7",
+                    "name": "Letterboxd",
+                    "packageName": "com.letterboxd.letterboxd",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the \"Where to watch\" streaming-service icon row on film pages. Can be toggled independently of the other patches.",
+            "name": "Hide Where to Watch",
+            "options": []
+        }
+    ]
+}

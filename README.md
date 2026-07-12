@@ -1759,6 +1759,45 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/miguel-patch-bundles/miguel-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 Pichiwa-Patches-Bundle [Morphe]:
+[🧩 Pichiwa Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-pichiwa-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pichiwa-patch-bundles/pichiwa-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pichiwa-patch-bundles/pichiwa-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pichiwa-patch-bundles/pichiwa-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Saiesh-Patches-Bundle [Morphe]:
+[🧩 Saiesh Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-saiesh-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/saiesh-patch-bundles/saiesh-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/saiesh-patch-bundles/saiesh-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/saiesh-patch-bundles/saiesh-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Letterboxd-Stremio-Patches-Bundle [Morphe]:
+[🧩 Letterboxd-Stremio Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-letterboxd-stremio-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/letterboxd-stremio-patch-bundles/letterboxd-stremio-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/letterboxd-stremio-patch-bundles/letterboxd-stremio-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/letterboxd-stremio-patch-bundles/letterboxd-stremio-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -2039,6 +2078,12 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Pinterest-Morphed-Patches-Bundle](https://github.com/SouBryan/pinterest-morphed)
 
 #### 🏷️ [Miguel-Patches-Bundle](https://github.com/MiguelNinja19/miguel-morphe-patches)
+
+#### 🏷️ [Pichiwa-Patches-Bundle](https://github.com/alejandrobellver/pichiwa-patches)
+
+#### 🏷️ [Saiesh-Patches-Bundle](https://github.com/saieshshirodkar/saiesh-morphe-patches)
+
+#### 🏷️ [Letterboxd-Stremio-Patches-Bundle](https://github.com/ethanm6/letterboxd-stremio-morphe-patch)
 
 </details>
 

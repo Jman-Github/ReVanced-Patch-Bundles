@@ -1,0 +1,404 @@
+{
+    "version": "v0.3.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Mantiene los mensajes temporales visibles.",
+            "name": "Anti Desaparecer",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypass detección de root, emulador y ROM personalizada.",
+            "name": "Anti Detector",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Evita que otros editen mensajes enviados.",
+            "name": "Anti Editar",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Evita la verificacion forzada de version y expiracion de WhatsApp.",
+            "name": "Anti Expiracion",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Evita que otros borren sus mensajes o estados.",
+            "name": "Anti Revoke",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Ve medios efímeros sin límite y permite capturas.",
+            "name": "Anti-View Once",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Permite copiar texto de estados de contactos.",
+            "name": "Copiar estados",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Guarda estados de foto y video directamente.",
+            "name": "Descargar estados",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "No marca mensajes como leídos al abrir chats.",
+            "name": "DND Mode",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Congela la hora de última conexión.",
+            "name": "Freeze Last Seen",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Envía imágenes y video sin compresión.",
+            "name": "HD Media",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Escribe sin mostrar \"escribiendo...\".",
+            "name": "Ocultar escritura",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Lee mensajes sin enviar ticks azules.",
+            "name": "Ocultar lectura",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Quita la etiqueta \"reenviado\" de los mensajes.",
+            "name": "Ocultar reenviado",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Oculta la pestaña de comunidades.",
+            "name": "Quitar Comunidades",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Oculta la pestaña de novedades/estados.",
+            "name": "Quitar Novedades",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Añade acceso a ajustes de PichiWA en el menú de Home.",
+            "name": "Settings Menu",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Reenvía mensajes a contactos ilimitados.",
+            "name": "Sin límite de reenvío",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#25D366",
+                    "name": "WhatsApp",
+                    "packageName": "com.whatsapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.27.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Finge instalación desde Google Play para evitar restricciones.",
+            "name": "Spoof instalador",
+            "options": []
+        }
+    ]
+}

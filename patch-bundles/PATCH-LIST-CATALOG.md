@@ -40,10 +40,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Alim-zanibekov](#-alim-zanibekov-bundle-patch-list) | 1 | 1 | Generated |
 | [Daboynb](#-daboynb-bundle-patch-list) | 1 | 1 | Generated |
 | [MojiRS-RIF](#-mojirs-rif-bundle-patch-list) | 2 | 1 | Generated |
+| [Coronenic](#-coronenic-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [Pichiwa](#-pichiwa-bundle-patch-list) | 19 | 1 | Generated |
+| [Saiesh](#-saiesh-bundle-patch-list) | 10 | 3 | Generated |
+| [Letterboxd-Stremio](#-letterboxd-stremio-bundle-patch-list) | 3 | 1 | Generated |
 | [Miguel](#-miguel-bundle-patch-list) | 8 | 5 | Generated |
 | [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 10 | 1 | Generated |
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
@@ -146,10 +150,71 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
 
-### Unknown
-| Bundle | Patches | Apps | Status |
-| --- | ---: | ---: | --- |
-| [Coronenic](#-coronenic-bundle-patch-list) | 4 | 1 | Generated |
+
+---
+### 🧩 Pichiwa Bundle Patch List:
+[📦 Pichiwa-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-pichiwa-patches-bundle-morphe)
+<details>
+<summary><b>Pichiwa</b> - 19 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Anti Desaparecer``` | ```Mantiene los mensajes temporales visibles.``` | ```WhatsApp``` | ```All versions``` |
+| ```Anti Detector``` | ```Bypass detección de root, emulador y ROM personalizada.``` | ```WhatsApp``` | ```All versions``` |
+| ```Anti Editar``` | ```Evita que otros editen mensajes enviados.``` | ```WhatsApp``` | ```All versions``` |
+| ```Anti Expiracion``` | ```Evita la verificacion forzada de version y expiracion de WhatsApp.``` | ```WhatsApp``` | ```All versions``` |
+| ```Anti Revoke``` | ```Evita que otros borren sus mensajes o estados.``` | ```WhatsApp``` | ```All versions``` |
+| ```Anti-View Once``` | ```Ve medios efímeros sin límite y permite capturas.``` | ```WhatsApp``` | ```All versions``` |
+| ```Copiar estados``` | ```Permite copiar texto de estados de contactos.``` | ```WhatsApp``` | ```All versions``` |
+| ```Descargar estados``` | ```Guarda estados de foto y video directamente.``` | ```WhatsApp``` | ```All versions``` |
+| ```DND Mode``` | ```No marca mensajes como leídos al abrir chats.``` | ```WhatsApp``` | ```All versions``` |
+| ```Freeze Last Seen``` | ```Congela la hora de última conexión.``` | ```WhatsApp``` | ```All versions``` |
+| ```HD Media``` | ```Envía imágenes y video sin compresión.``` | ```WhatsApp``` | ```All versions``` |
+| ```Ocultar escritura``` | ```Escribe sin mostrar "escribiendo...".``` | ```WhatsApp``` | ```All versions``` |
+| ```Ocultar lectura``` | ```Lee mensajes sin enviar ticks azules.``` | ```WhatsApp``` | ```All versions``` |
+| ```Ocultar reenviado``` | ```Quita la etiqueta "reenviado" de los mensajes.``` | ```WhatsApp``` | ```All versions``` |
+| ```Quitar Comunidades``` | ```Oculta la pestaña de comunidades.``` | ```WhatsApp``` | ```All versions``` |
+| ```Quitar Novedades``` | ```Oculta la pestaña de novedades/estados.``` | ```WhatsApp``` | ```All versions``` |
+| ```Settings Menu``` | ```Añade acceso a ajustes de PichiWA en el menú de Home.``` | ```WhatsApp``` | ```All versions``` |
+| ```Sin límite de reenvío``` | ```Reenvía mensajes a contactos ilimitados.``` | ```WhatsApp``` | ```All versions``` |
+| ```Spoof instalador``` | ```Finge instalación desde Google Play para evitar restricciones.``` | ```WhatsApp``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Saiesh Bundle Patch List:
+[📦 Saiesh-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-saiesh-patches-bundle-morphe)
+<details>
+<summary><b>Saiesh</b> - 10 patches, 3 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable PairIP DRM``` | ```Disables PairIP signature verification and Google Play LVL license check. Required for the app to launch after re-signing.``` | ```AT4K Launcher (Android TV)``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium features by forcing the premium state to true in the purchase manager.``` | ```AT4K Launcher (Android TV)``` | ```All versions``` |
+| ```Disable PairIP DRM``` | ```Disables PairIP signature verification, Google Play LVL license check, System.exit kill switch, checksum integrity verification, and MHSDK analytics. Required for the app to launch after re-signing.``` | ```Lightroom``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium features by forcing entitlement status to SUBSCRIPTION and making all premium gating checks return true.``` | ```Lightroom``` | ```All versions``` |
+| ```Fix Firebase after re-signing``` | ```Fixes Firebase services (push notifications, Remote Config, Firebase Auth) that break after Morphe re-signs the app with a different certificate. Apply with Original app certificate patch no other config needed.``` | ```Universal``` | ```All versions``` |
+| ```GmsCore support (MicroG)``` | ```Routes Google Play Services calls through MicroG instead of real GPS. Works for: Google apps (YouTube, Maps, News, Photos) and third-party apps using classic Google Sign-In (Android 13 and below). Does not work for: Android 14+ Credential Manager sign-in (most modern third-party apps), Play Integrity / SafetyNet checks, or apps with custom auth. Requires MicroG RE installed. Apply with Original app certificate patch.``` | ```Universal``` | ```All versions``` |
+| ```Provide Original app certificate``` | ```By Default it Reads the signing certificate from the original app installed. Required for GmsCore, Firebase, and Signature spoof patches. Only fill options below if the original is uninstalled.``` | ```Universal``` | ```All versions``` |
+| ```Spoof app signature``` | ```Makes the app think its signing certificate is unchanged after Morphe re-signs it. Useful when an app crashes or shows a tamper warning because it checks its own certificate. Does not bypass Play Integrity / SafetyNet hardware attestation. Apply with Original app certificate patch.``` | ```Universal``` | ```All versions``` |
+| ```Spoof install source``` | ```Makes the app think it was installed from a specific store (default: Google Play). Useful when an app blocks features or shows errors because it detects it was not installed from the Play Store. Only affects what the app itself sees - does not change the real system install record.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Widevine / DRM level``` | ```Reports Widevine L1 (hardware DRM) to apps that check DRM level locally. Useful for apps that refuse to play HD/4K content on L3 devices or after re-signing. Does not bypass server-side DRM - Netflix, Disney+ and similar are not affected.``` | ```Universal``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Letterboxd-Stremio Bundle Patch List:
+[📦 Letterboxd-Stremio-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-letterboxd-stremio-patches-bundle-morphe)
+<details>
+<summary><b>Letterboxd-Stremio</b> - 3 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Add Stremio button``` | ```Adds a purple Stremio button directly below the trailer button on film pages, styled identically to it. Takes the trailer button's position when there is no trailer. Opens the film directly in the Stremio app or web player.``` | ```Letterboxd``` | ```All versions``` |
+| ```Hide Video Store``` | ```Hides the "Rent from Letterboxd Video Store" banner on film pages and the video store carousel row on the home feed. Can be toggled independently of the Stremio button patch.``` | ```Letterboxd``` | ```All versions``` |
+| ```Hide Where to Watch``` | ```Hides the "Where to watch" streaming-service icon row on film pages. Can be toggled independently of the other patches.``` | ```Letterboxd``` | ```All versions``` |
+
+</details>
 
 ---
 ### 🧩 Miguel Bundle Patch List:
