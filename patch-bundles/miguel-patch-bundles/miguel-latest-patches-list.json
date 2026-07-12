@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.6",
+    "version": "v1.8.8",
     "patches": [
         {
             "compatiblePackages": [
@@ -53,7 +53,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Intercepts purchase callbacks to simulate successful purchases. Stores the SKU when launchBillingFlow is called, then intercepts onPurchasesUpdated to call nativeOnPurchasesUpdated with a fake Purchase.",
+            "description": "Skips Google Play Billing by intercepting launchBillingFlow, extracting the SKU, creating a fake Purchase object, and calling nativeOnPurchasesUpdated(0, \"\", [fakePurchase]) directly. The Play Store UI never opens.",
             "name": "Free in-app purchases",
             "options": []
         },
