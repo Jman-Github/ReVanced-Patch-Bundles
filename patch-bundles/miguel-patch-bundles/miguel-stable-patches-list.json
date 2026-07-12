@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.1",
+    "version": "v1.9.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -53,7 +53,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Skips Google Play Billing by creating a fake Purchase and calling nativeOnPurchasesUpdated directly via extension.",
+            "description": "Skips Google Play Billing by intercepting startConnection and launchBillingFlow. Store is marked as connected immediately, and purchases are credited via fake Purchase objects.",
             "name": "Free in-app purchases",
             "options": []
         },
@@ -197,7 +197,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks all 20 tribes by setting the debug flag in Unity PlayerPrefs via SharedPreferences.",
+            "description": "Unlocks all 20 tribes by setting the debug flag in Unity PlayerPrefs via extension.",
             "name": "Unlock all tribes",
             "options": []
         },

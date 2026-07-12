@@ -234,8 +234,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Free in-app purchases``` | ```When you try to buy something, the purchase is immediately marked as successful without contacting Google Play. The EA Nimble MTX system receives a null error (success) and grants the item.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Free reward ads``` | ```When the game tries to show a rewarded ad, it immediately fires the ad-clicked and ad-closed callbacks without actually showing the ad. You get the reward instantly.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Remove ads``` | ```Prevents video ads from loading. When the game tries to load an ad, nothing happens. Ads will not be shown.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
-| ```Free in-app purchases``` | ```Skips Google Play Billing by creating a fake Purchase and calling nativeOnPurchasesUpdated directly via extension.``` | ```The Battle of Polytopia``` | ```All versions``` |
-| ```Unlock all tribes``` | ```Unlocks all 20 tribes by setting the debug flag in Unity PlayerPrefs via SharedPreferences.``` | ```The Battle of Polytopia``` | ```All versions``` |
+| ```Free in-app purchases``` | ```Skips Google Play Billing by intercepting startConnection and launchBillingFlow. Store is marked as connected immediately, and purchases are credited via fake Purchase objects.``` | ```The Battle of Polytopia``` | ```All versions``` |
+| ```Unlock all tribes``` | ```Unlocks all 20 tribes by setting the debug flag in Unity PlayerPrefs via extension.``` | ```The Battle of Polytopia``` | ```All versions``` |
 | ```Billing bypass``` | ```Attempts to credit purchases by finding the app's own success callback method and calling it directly. Scans for methods like nativeOnSuccess, onPurchaseSuccess, onIAPSuccess, etc. Also supports Unity IL2CPP games by finding nativeOnPurchasesUpdated JNI bridge methods and creating fake Purchase objects. If no success method is found, patches billing to return success without crediting.``` | ```Universal``` | ```All versions``` |
 
 </details>
