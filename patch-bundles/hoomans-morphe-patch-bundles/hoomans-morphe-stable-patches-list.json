@@ -1,5 +1,5 @@
 {
-    "version": "v1.42.1",
+    "version": "v1.43.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -515,7 +515,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes ads and unlocks the on-device Quizlet Plus features without a subscription. The AI tools, like Magic Notes and generation, run on Quizlet's servers and stay locked.",
+            "description": "Removes ads and unlocks the on-device Quizlet Plus features without a subscription, including unlimited Learn and Test rounds and textbook explanation views that free accounts meter. The AI tools, like Magic Notes and generation, run on Quizlet's servers and stay locked.",
             "name": "Unlock Plus",
             "options": []
         },
@@ -529,6 +529,10 @@
                         {
                             "isExperimental": false,
                             "version": "6.8.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "7.1.1"
                         }
                     ]
                 }
@@ -1001,7 +1005,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks Tracked's premium training tools without a subscription, like muscle analytics and training programs. They run on the workout data already on your device, so they keep working offline. The separate human-coaching marketplace still needs its own subscription.",
+            "description": "Unlocks Tracked's premium training tools without a subscription, like muscle analytics, training programs, dashboard customization, and session density/net progression. They run on the workout data already on your device, so they keep working offline. The separate human-coaching marketplace still needs its own subscription.",
             "name": "Unlock Pro",
             "options": []
         },
