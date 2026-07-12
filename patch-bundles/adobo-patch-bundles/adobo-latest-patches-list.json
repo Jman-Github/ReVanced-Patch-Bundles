@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.2",
+    "version": "v1.3.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -681,6 +681,31 @@
                     ]
                 }
             ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables the redesign of the additional actions menu.",
+            "name": "Enable access points menu redesign",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
             "default": true,
             "dependencies": [
                 "BytecodePatch"
@@ -735,7 +760,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Enables OCR feature to extract text from images and insert it into text fields.",
+            "description": "Enables the Scan Text feature to extract text from images and insert them into text fields.",
             "name": "Enable OCR feature",
             "options": []
         },
@@ -760,7 +785,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Enables undo feature to quickly undo or correct typing mistakes.",
+            "description": "Enables the undo feature to quickly undo or correct typing mistakes.",
             "name": "Enable Undo feature",
             "options": []
         },
