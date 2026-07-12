@@ -2660,7 +2660,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall and disables UI prompts.``` | ```AppSales``` | ```All versions``` |
+| ```Enable Pro``` | ```Enables Appsales features locked behind the subscription paywall and disables UI prompts for Appsales Premium.``` | ```AppSales``` | ```All versions``` |
 | ```Enable Online Pro``` | ```Experimental companion patch that keeps byAir's online Pro gates open without forcing the crash-prone global entitlement refresh path.``` | ```byAir``` | ```All versions``` |
 | ```Enable Pro``` | ```Suppresses the main byAir paywall, unlock banners, and local user gating without forcing the shared entitlement path globally.``` | ```byAir``` | ```All versions``` |
 | ```Enable Pro``` | ```Forces HypnoBox subscription entitlement checks to always pass.``` | ```HypnoBox``` | ```All versions``` |
