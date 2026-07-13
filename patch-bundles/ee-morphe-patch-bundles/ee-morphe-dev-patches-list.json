@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.6",
+    "version": "v1.5.0-dev.7",
     "patches": [
         {
             "compatiblePackages": null,
@@ -246,6 +246,26 @@
             "dependencies": [],
             "description": "Hides the app icon from the Android launcher.",
             "name": "Hide app icon",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#5A4EE3",
+                    "name": "Inoreader",
+                    "packageName": "com.innologica.inoreader",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.9.11"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces daily usage and other limits to 500 when loading from server.",
+            "name": "Increase Daily Limits",
             "options": []
         }
     ]

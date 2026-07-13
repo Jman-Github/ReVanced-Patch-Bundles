@@ -40,7 +40,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Alim-zanibekov](#-alim-zanibekov-bundle-patch-list) | 1 | 1 | Generated |
 | [Daboynb](#-daboynb-bundle-patch-list) | 1 | 1 | Generated |
 | [MojiRS-RIF](#-mojirs-rif-bundle-patch-list) | 2 | 1 | Generated |
-| [Coronenic](#-coronenic-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -93,7 +92,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
 | [Chiggi](#-chiggi-bundle-patch-list) | 31 | 5 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 3 | 3 | Generated |
-| [EE-Morphe](#-ee-morphe-bundle-patch-list) | 11 | 6 | Generated |
+| [EE-Morphe](#-ee-morphe-bundle-patch-list) | 12 | 6 | Generated |
 | [X-Shim](#-x-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
@@ -152,6 +151,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
 
+### Unknown
+| Bundle | Patches | Apps | Status |
+| --- | ---: | ---: | --- |
+| [Coronenic](#-coronenic-bundle-patch-list) | 4 | 1 | Generated |
 
 ---
 ### 🧩 Babyhuehnchen Bundle Patch List:
@@ -256,8 +259,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Free in-app purchases``` | ```When you try to buy something, the purchase is immediately marked as successful without contacting Google Play. The EA Nimble MTX system receives a null error (success) and grants the item.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Free reward ads``` | ```When the game tries to show a rewarded ad, it immediately fires the ad-clicked and ad-closed callbacks without actually showing the ad. You get the reward instantly.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Remove ads``` | ```Prevents video ads from loading. When the game tries to load an ad, nothing happens. Ads will not be shown.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
-| ```Free in-app purchases``` | ```Forces Purchase.isAcknowledged() to return true and getPurchaseState() to return PURCHASED (1), so the game thinks every purchase is valid and completed. Also patches the billing bridge to report success on setup and purchase updates.``` | ```The Battle of Polytopia``` | ```All versions``` |
-| ```Unlock all tribes``` | ```Unlocks all 20 tribes (Xinxi, Imperius, Bardur, Oumaji, Kickoo, Hoodrick, Luxidoor, Vengir, Zebasi, Aimo, Aquarion, Elyrion, Polaris, Magma, Yadakk, Quetzali, Cymanti, Swamp, Ikarus, Urkaz) by activating the game's built-in DEBUG MODE. Writes a user.cfg file with debugUnlock=true before the game loads, which makes Polytopia use its internal EverythingUnlockedPlatformPurchaseManager (a debug class that unlocks everything for free).``` | ```The Battle of Polytopia``` | ```All versions``` |
+| ```Free in-app purchases``` | ```Skips Google Play Billing and credits IAP items (crystal packs, tribe skins) directly. Patches the billing bridge to report success, forces Purchase.isAcknowledged() and getPurchaseState() to return valid values, and swallows purchase errors so no error dialog appears.``` | ```The Battle of Polytopia``` | ```All versions``` |
+| ```Unlock all tribes``` | ```Unlocks all 20 tribes (Xinxi, Imperius, Bardur, Oumaji, Kickoo, Hoodrick, Luxidoor, Vengir, Zebasi, Aimo, Aquarion, Elyrion, Polaris, Magma, Yadakk, Quetzali, Cymanti, Swamp, Ikarus, Urkaz) and all skins by patching the native IL2CPP library (libil2cpp.so). Makes IsTribeUnlocked() and IsSkinUnlocked() always return true via ARM64 hex patching.``` | ```The Battle of Polytopia``` | ```All versions``` |
 | ```Billing bypass``` | ```Attempts to credit purchases by finding the app's own success callback method and calling it directly. Scans for methods like nativeOnSuccess, onPurchaseSuccess, onIAPSuccess, etc. Also supports Unity IL2CPP games by finding nativeOnPurchasesUpdated JNI bridge methods and creating fake Purchase objects. If no success method is found, patches billing to return success without crediting.``` | ```Universal``` | ```All versions``` |
 
 </details>
@@ -2693,7 +2696,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 EE-Morphe Bundle Patch List:
 [📦 EE-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ee-morphe-patches-bundle-morphe)
 <details>
-<summary><b>EE-Morphe</b> - 11 patches, 6 apps</summary>
+<summary><b>EE-Morphe</b> - 12 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2703,6 +2706,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Pro``` | ```Forces Going (Going) subscription checks to always pass and disables the app-specific PairIP license redirect.``` | ```Going``` | ```All versions``` |
 | ```Enable Pro``` | ```Forces HypnoBox subscription entitlement checks to always pass.``` | ```HypnoBox``` | ```All versions``` |
 | ```Enable Pro``` | ```Forces Inoreader to always pass pro checks and disables free.``` | ```Inoreader``` | ```All versions``` |
+| ```Increase Daily Limits``` | ```Forces daily usage and other limits to 500 when loading from server.``` | ```Inoreader``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Clone app``` | ```Renames the app and manifest package so it can be installed alongside another copy. By default this appends " B" to the launcher name and appends "B" to the package's main segment.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
