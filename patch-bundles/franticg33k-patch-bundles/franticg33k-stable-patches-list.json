@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.1",
+    "version": "v1.2.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -84,6 +84,26 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Atlas Photo",
+                    "packageName": "com.ensembleai.scoutai",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml.",
+            "name": "Remove License Activity",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#008577",
                     "name": "JellyWatch",
                     "packageName": "com.jellywatch.app",
@@ -138,6 +158,26 @@
             "dependencies": [],
             "description": "Removes the PairIP LicenseActivity and LicenseContentProvider from AndroidManifest.xml and the com.android.vending.CHECK_LICENSE permission, so the app runs without a valid Play Store license (required because the APK is re-signed during patching).",
             "name": "Remove License Activity",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Atlas Photo",
+                    "packageName": "com.ensembleai.scoutai",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the PairIP Google Play Licensing check so Atlas Photo runs without a valid Play Store license.",
+            "name": "Remove License Check",
             "options": []
         },
         {
@@ -237,6 +277,26 @@
             "dependencies": [],
             "description": "Patches the Dart AOT-compiled libapp.so to unlock all premium / VIP features. Forces the VIP state to always be true by rewriting the constant-pool loads (add xN, x22, #0x30 -> add xN, x22, #0x20) inside the cacheIsVipKey readers (getter + 3 callers). Verified on v1.4.6 (Dart 3.7.0, arm64, obfuscated) — flutter.cacheIsVipKey=true on device.",
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Atlas Photo",
+                    "packageName": "com.ensembleai.scoutai",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces Atlas Photo's Hermes (React Native) JS runtime to treat every session as a Pro subscriber by patching the setIsProMember reducer so its isPro field is always truthy. Unlocks all Pro features and removes the Pro paywall.",
+            "name": "Unlock Pro",
             "options": []
         }
     ]
