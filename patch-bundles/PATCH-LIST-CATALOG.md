@@ -90,7 +90,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
 | [Chiggi](#-chiggi-bundle-patch-list) | 31 | 5 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 3 | 3 | Generated |
-| [EE-Morphe](#-ee-morphe-bundle-patch-list) | 10 | 5 | Generated |
+| [EE-Morphe](#-ee-morphe-bundle-patch-list) | 11 | 6 | Generated |
 | [X-Shim](#-x-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
@@ -162,25 +162,25 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Anti Desaparecer``` | ```Mantiene los mensajes temporales visibles.``` | ```WhatsApp``` | ```All versions``` |
-| ```Anti Detector``` | ```Bypass detección de root, emulador y ROM personalizada.``` | ```WhatsApp``` | ```All versions``` |
-| ```Anti Editar``` | ```Evita que otros editen mensajes enviados.``` | ```WhatsApp``` | ```All versions``` |
-| ```Anti Expiracion``` | ```Evita la verificacion forzada de version y expiracion de WhatsApp.``` | ```WhatsApp``` | ```All versions``` |
-| ```Anti Revoke``` | ```Evita que otros borren sus mensajes o estados.``` | ```WhatsApp``` | ```All versions``` |
-| ```Anti-View Once``` | ```Ve medios efímeros sin límite y permite capturas.``` | ```WhatsApp``` | ```All versions``` |
-| ```Copiar estados``` | ```Permite copiar texto de estados de contactos.``` | ```WhatsApp``` | ```All versions``` |
-| ```Descargar estados``` | ```Guarda estados de foto y video directamente.``` | ```WhatsApp``` | ```All versions``` |
-| ```DND Mode``` | ```No marca mensajes como leídos al abrir chats.``` | ```WhatsApp``` | ```All versions``` |
-| ```Freeze Last Seen``` | ```Congela la hora de última conexión.``` | ```WhatsApp``` | ```All versions``` |
-| ```HD Media``` | ```Envía imágenes y video sin compresión.``` | ```WhatsApp``` | ```All versions``` |
-| ```Ocultar escritura``` | ```Escribe sin mostrar "escribiendo...".``` | ```WhatsApp``` | ```All versions``` |
-| ```Ocultar lectura``` | ```Lee mensajes sin enviar ticks azules.``` | ```WhatsApp``` | ```All versions``` |
-| ```Ocultar reenviado``` | ```Quita la etiqueta "reenviado" de los mensajes.``` | ```WhatsApp``` | ```All versions``` |
-| ```Quitar Comunidades``` | ```Oculta la pestaña de comunidades.``` | ```WhatsApp``` | ```All versions``` |
-| ```Quitar Novedades``` | ```Oculta la pestaña de novedades/estados.``` | ```WhatsApp``` | ```All versions``` |
-| ```Settings Menu``` | ```Añade acceso a ajustes de PichiWA en el menú de Home.``` | ```WhatsApp``` | ```All versions``` |
-| ```Sin límite de reenvío``` | ```Reenvía mensajes a contactos ilimitados.``` | ```WhatsApp``` | ```All versions``` |
-| ```Spoof instalador``` | ```Finge instalación desde Google Play para evitar restricciones.``` | ```WhatsApp``` | ```All versions``` |
+| ```Anti Desaparecer``` | ```Mantiene los mensajes temporales visibles.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Anti Detector``` | ```Bypass detección de root, emulador y ROM personalizada.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Anti Editar``` | ```Evita que otros editen mensajes enviados.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Anti Expiracion``` | ```Evita la verificacion forzada de version y expiracion de WhatsApp.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Anti Revoke``` | ```Evita que otros borren sus mensajes o estados.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Anti-View Once``` | ```Ve medios efímeros sin límite y permite capturas.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Copiar estados``` | ```Permite copiar texto de estados de contactos.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Descargar estados``` | ```Guarda estados de foto y video directamente.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```DND Mode``` | ```No marca mensajes como leídos al abrir chats.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Freeze Last Seen``` | ```Congela la hora de última conexión.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```HD Media``` | ```Envía imágenes y video sin compresión.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Ocultar escritura``` | ```Escribe sin mostrar "escribiendo...".``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Ocultar lectura``` | ```Lee mensajes sin enviar ticks azules.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Ocultar reenviado``` | ```Quita la etiqueta "reenviado" de los mensajes.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Quitar Comunidades``` | ```Oculta la pestaña de comunidades.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Quitar Novedades``` | ```Oculta la pestaña de novedades/estados.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Settings Menu``` | ```Añade acceso a ajustes de PichiWA en el menú de Home.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Sin límite de reenvío``` | ```Reenvía mensajes a contactos ilimitados.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Spoof instalador``` | ```Finge instalación desde Google Play para evitar restricciones.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 
 </details>
 
@@ -234,8 +234,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Free in-app purchases``` | ```When you try to buy something, the purchase is immediately marked as successful without contacting Google Play. The EA Nimble MTX system receives a null error (success) and grants the item.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Free reward ads``` | ```When the game tries to show a rewarded ad, it immediately fires the ad-clicked and ad-closed callbacks without actually showing the ad. You get the reward instantly.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Remove ads``` | ```Prevents video ads from loading. When the game tries to load an ad, nothing happens. Ads will not be shown.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
-| ```Free in-app purchases``` | ```Skips Google Play Billing by forcing store connection and creating fake Purchase objects.``` | ```The Battle of Polytopia``` | ```All versions``` |
-| ```Unlock all tribes``` | ```Unlocks all 20 tribes by setting the debug flag in Unity PlayerPrefs via extension.``` | ```The Battle of Polytopia``` | ```All versions``` |
+| ```Free in-app purchases``` | ```Skips Google Play Billing and credits IAP items (tribes, skins, crystal packs) directly. Patches the billing bridge to report success, forces Purchase.isAcknowledged() and getPurchaseState() to return valid values, and intercepts launchBillingFlow to create a fake Purchase with the product ID and feed it to the game's native billing callback — no payment, no Play Store dialog, instant credit.``` | ```The Battle of Polytopia``` | ```All versions``` |
+| ```Unlock all tribes``` | ```Unlocks all 20 tribes (Xinxi, Imperius, Bardur, Oumaji, Kickoo, Hoodrick, Luxidoor, Vengir, Zebasi, Aimo, Aquarion, Elyrion, Polaris, Magma, Yadakk, Quetzali, Cymanti, Swamp, Ikarus, Urkaz) by activating the game's built-in DEBUG MODE. Writes a user.cfg file with debugUnlock=true before the game loads, which makes Polytopia use its internal EverythingUnlockedPlatformPurchaseManager (a debug class that unlocks everything for free).``` | ```The Battle of Polytopia``` | ```All versions``` |
 | ```Billing bypass``` | ```Attempts to credit purchases by finding the app's own success callback method and calling it directly. Scans for methods like nativeOnSuccess, onPurchaseSuccess, onIAPSuccess, etc. Also supports Unity IL2CPP games by finding nativeOnPurchasesUpdated JNI bridge methods and creating fake Purchase objects. If no success method is found, patches billing to return success without crediting.``` | ```Universal``` | ```All versions``` |
 
 </details>
@@ -2663,7 +2663,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 EE-Morphe Bundle Patch List:
 [📦 EE-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ee-morphe-patches-bundle-morphe)
 <details>
-<summary><b>EE-Morphe</b> - 10 patches, 5 apps</summary>
+<summary><b>EE-Morphe</b> - 11 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2672,6 +2672,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Pro``` | ```Suppresses the main byAir paywall, unlock banners, and local user gating without forcing the shared entitlement path globally.``` | ```byAir``` | ```All versions``` |
 | ```Enable Pro``` | ```Forces Going (Going) subscription checks to always pass and disables the app-specific PairIP license redirect.``` | ```Going``` | ```All versions``` |
 | ```Enable Pro``` | ```Forces HypnoBox subscription entitlement checks to always pass.``` | ```HypnoBox``` | ```All versions``` |
+| ```Enable Pro``` | ```Forces Inoreader to always pass pro checks and disables free.``` | ```Inoreader``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Clone app``` | ```Renames the app and manifest package so it can be installed alongside another copy. By default this appends " B" to the launcher name and appends "B" to the package's main segment.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |

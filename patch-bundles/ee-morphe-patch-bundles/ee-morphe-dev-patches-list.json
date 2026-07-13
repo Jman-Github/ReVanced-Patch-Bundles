@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.5",
+    "version": "v1.5.0-dev.6",
     "patches": [
         {
             "compatiblePackages": null,
@@ -217,6 +217,26 @@
             "default": true,
             "dependencies": [],
             "description": "Forces HypnoBox subscription entitlement checks to always pass.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#5A4EE3",
+                    "name": "Inoreader",
+                    "packageName": "com.innologica.inoreader",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.9.11"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces Inoreader to always pass pro checks and disables free.",
             "name": "Enable Pro",
             "options": []
         },
