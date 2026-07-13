@@ -679,6 +679,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "cobalt-morphe-stable": {
+        "patches": "https://api.github.com/repos/skulldogged/cobalt-morphe",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -1354,6 +1359,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
+    "cobalt-morphe-dev": {
+        "patches": "https://api.github.com/repos/skulldogged/cobalt-morphe",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
     "piko-latest": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -2026,6 +2036,11 @@
     },
     "letterboxd-stremio-latest": {
         "patches": "https://api.github.com/repos/ethanm6/letterboxd-stremio-morphe-patch",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "cobalt-morphe-latest": {
+        "patches": "https://api.github.com/repos/skulldogged/cobalt-morphe",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

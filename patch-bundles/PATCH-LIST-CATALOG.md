@@ -45,6 +45,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [Cobalt-Morphe](#-cobalt-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Pichiwa](#-pichiwa-bundle-patch-list) | 19 | 1 | Generated |
 | [Saiesh](#-saiesh-bundle-patch-list) | 10 | 3 | Generated |
 | [Letterboxd-Stremio](#-letterboxd-stremio-bundle-patch-list) | 3 | 1 | Generated |
@@ -150,6 +151,18 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
 
+
+---
+### 🧩 Cobalt-Morphe Bundle Patch List:
+[📦 Cobalt-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-cobalt-morphe-patches-bundle-morphe)
+<details>
+<summary><b>Cobalt-Morphe</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Cobalt downloads``` | ```Replaces YouTube's native download action with a direct cobalt download.``` | ```YouTube``` | ```All versions``` |
+
+</details>
 
 ---
 ### 🧩 Pichiwa Bundle Patch List:
