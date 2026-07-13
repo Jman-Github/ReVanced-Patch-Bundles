@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0",
+    "version": "v1.4.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -52,8 +52,10 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
-            "description": "Replaces YouTube's native download action with a direct cobalt download.",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Replaces YouTube's download action and Downloads page with a native cobalt manager.",
             "name": "Cobalt downloads",
             "options": []
         }

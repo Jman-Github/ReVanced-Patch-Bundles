@@ -1,6 +1,27 @@
 {
-    "version": "v1.4.2",
+    "version": "v1.4.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E63030",
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.14.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Lets extension Activities (Tools/About) trigger a real MX Player tab switch instead of just finishing back to whatever tab was last visible.",
+            "name": "Capture tab host for programmatic tab switching",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {

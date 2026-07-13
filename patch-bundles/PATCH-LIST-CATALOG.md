@@ -45,7 +45,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
 | [Cobalt-Morphe](#-cobalt-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Pichiwa](#-pichiwa-bundle-patch-list) | 19 | 1 | Generated |
+| [Pichiwa](#-pichiwa-bundle-patch-list) | 18 | 1 | Generated |
 | [Saiesh](#-saiesh-bundle-patch-list) | 10 | 3 | Generated |
 | [Letterboxd-Stremio](#-letterboxd-stremio-bundle-patch-list) | 3 | 1 | Generated |
 | [Miguel](#-miguel-bundle-patch-list) | 10 | 6 | Generated |
@@ -54,7 +54,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 14 | 6 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 12 | 6 | Generated |
-| [Modx](#-modx-bundle-patch-list) | 4 | 1 | Generated |
+| [Modx](#-modx-bundle-patch-list) | 5 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 12 | 11 | Generated |
@@ -163,7 +163,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Cobalt downloads``` | ```Replaces YouTube's native download action with a direct cobalt download.``` | ```YouTube``` | ```All versions``` |
+| ```Cobalt downloads``` | ```Replaces YouTube's download action and Downloads page with a native cobalt manager.``` | ```YouTube``` | ```All versions``` |
 
 </details>
 
@@ -171,7 +171,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Pichiwa Bundle Patch List:
 [📦 Pichiwa-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-pichiwa-patches-bundle-morphe)
 <details>
-<summary><b>Pichiwa</b> - 19 patches, 1 app</summary>
+<summary><b>Pichiwa</b> - 18 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -182,10 +182,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Anti Revoke``` | ```Evita que otros borren sus mensajes o estados.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Anti-View Once``` | ```Ve medios efímeros sin límite y permite capturas.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Copiar estados``` | ```Permite copiar texto de estados de contactos.``` | ```com.whatsapp``` | ```2.26.27.4``` |
-| ```Descargar estados``` | ```Guarda estados de foto y video directamente.``` | ```com.whatsapp``` | ```2.26.27.4``` |
-| ```DND Mode``` | ```No marca mensajes como leídos al abrir chats.``` | ```com.whatsapp``` | ```2.26.27.4``` |
-| ```Freeze Last Seen``` | ```Congela la hora de última conexión.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Freeze Last Seen``` | ```Congela la hora de ultima conexion.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```HD Media``` | ```Envía imágenes y video sin compresión.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Modo Fantasma``` | ```No recibes ni envias mensajes mientras este activo.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Ocultar escritura``` | ```Escribe sin mostrar "escribiendo...".``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Ocultar lectura``` | ```Lee mensajes sin enviar ticks azules.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Ocultar reenviado``` | ```Quita la etiqueta "reenviado" de los mensajes.``` | ```com.whatsapp``` | ```2.26.27.4``` |
@@ -247,7 +246,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Free in-app purchases``` | ```When you try to buy something, the purchase is immediately marked as successful without contacting Google Play. The EA Nimble MTX system receives a null error (success) and grants the item.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Free reward ads``` | ```When the game tries to show a rewarded ad, it immediately fires the ad-clicked and ad-closed callbacks without actually showing the ad. You get the reward instantly.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Remove ads``` | ```Prevents video ads from loading. When the game tries to load an ad, nothing happens. Ads will not be shown.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
-| ```Free in-app purchases``` | ```Skips Google Play Billing and credits IAP items (tribes, skins, crystal packs) directly. Patches the billing bridge to report success, forces Purchase.isAcknowledged() and getPurchaseState() to return valid values, and intercepts launchBillingFlow to create a fake Purchase with the product ID and feed it to the game's native billing callback — no payment, no Play Store dialog, instant credit.``` | ```The Battle of Polytopia``` | ```All versions``` |
+| ```Free in-app purchases``` | ```Skips Google Play Billing and credits IAP items (tribes, skins, crystal packs) directly. Patches the billing bridge to report success, forces Purchase.isAcknowledged() and getPurchaseState() to return valid values, and intercepts launchBillingFlow to create a fake Purchase via Java extension and feed it to the game's native billing callback — no payment, no Play Store dialog, instant credit.``` | ```The Battle of Polytopia``` | ```All versions``` |
 | ```Unlock all tribes``` | ```Unlocks all 20 tribes (Xinxi, Imperius, Bardur, Oumaji, Kickoo, Hoodrick, Luxidoor, Vengir, Zebasi, Aimo, Aquarion, Elyrion, Polaris, Magma, Yadakk, Quetzali, Cymanti, Swamp, Ikarus, Urkaz) by activating the game's built-in DEBUG MODE. Writes a user.cfg file with debugUnlock=true before the game loads, which makes Polytopia use its internal EverythingUnlockedPlatformPurchaseManager (a debug class that unlocks everything for free).``` | ```The Battle of Polytopia``` | ```All versions``` |
 | ```Billing bypass``` | ```Attempts to credit purchases by finding the app's own success callback method and calling it directly. Scans for methods like nativeOnSuccess, onPurchaseSuccess, onIAPSuccess, etc. Also supports Unity IL2CPP games by finding nativeOnPurchasesUpdated JNI bridge methods and creating fake Purchase objects. If no success method is found, patches billing to return success without crediting.``` | ```Universal``` | ```All versions``` |
 
@@ -368,10 +367,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Modx Bundle Patch List:
 [📦 Modx-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-modx-patches-bundle-morphe)
 <details>
-<summary><b>Modx</b> - 4 patches, 1 app</summary>
+<summary><b>Modx</b> - 5 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Capture tab host for programmatic tab switching``` | ```Lets extension Activities (Tools/About) trigger a real MX Player tab switch instead of just finishing back to whatever tab was last visible.``` | ```MX Player``` | ```All versions``` |
 | ```Disable video ads``` | ```Disables video ads by patching the native library.``` | ```MX Player``` | ```All versions``` |
 | ```Hide Video/OTT tab``` | ```Hides the Video/OTT download tab from the home screen by forcing its visibility flag to always report disabled.``` | ```MX Player``` | ```All versions``` |
 | ```Register Modx extension activities``` | ```Adds the ToolsActivity/AboutActivity/tool screens and FileProvider from the extensions/core module to the app's AndroidManifest.xml so they can actually be launched.``` | ```MX Player``` | ```All versions``` |

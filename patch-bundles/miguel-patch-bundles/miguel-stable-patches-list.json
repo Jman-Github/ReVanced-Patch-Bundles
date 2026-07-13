@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.6",
+    "version": "v1.9.7",
     "patches": [
         {
             "compatiblePackages": [
@@ -53,7 +53,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Skips Google Play Billing and credits IAP items (tribes, skins, crystal packs) directly. Patches the billing bridge to report success, forces Purchase.isAcknowledged() and getPurchaseState() to return valid values, and intercepts launchBillingFlow to create a fake Purchase with the product ID and feed it to the game's native billing callback — no payment, no Play Store dialog, instant credit.",
+            "description": "Skips Google Play Billing and credits IAP items (tribes, skins, crystal packs) directly. Patches the billing bridge to report success, forces Purchase.isAcknowledged() and getPurchaseState() to return valid values, and intercepts launchBillingFlow to create a fake Purchase via Java extension and feed it to the game's native billing callback — no payment, no Play Store dialog, instant credit.",
             "name": "Free in-app purchases",
             "options": []
         },
