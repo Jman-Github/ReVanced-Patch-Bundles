@@ -47,7 +47,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | --- | ---: | ---: | --- |
 | [Babyhuehnchen](#-babyhuehnchen-bundle-patch-list) | 1 | 1 | Generated |
 | [Cobalt-Morphe](#-cobalt-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Pichiwa](#-pichiwa-bundle-patch-list) | 19 | 1 | Generated |
+| [Pichiwa](#-pichiwa-bundle-patch-list) | 18 | 1 | Generated |
 | [Saiesh](#-saiesh-bundle-patch-list) | 10 | 3 | Generated |
 | [Letterboxd-Stremio](#-letterboxd-stremio-bundle-patch-list) | 3 | 1 | Generated |
 | [Miguel](#-miguel-bundle-patch-list) | 10 | 6 | Generated |
@@ -55,8 +55,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 14 | 6 | Generated |
-| [Franticg33k](#-franticg33k-bundle-patch-list) | 12 | 6 | Generated |
-| [Modx](#-modx-bundle-patch-list) | 4 | 1 | Generated |
+| [Franticg33k](#-franticg33k-bundle-patch-list) | 15 | 7 | Generated |
+| [Modx](#-modx-bundle-patch-list) | 5 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 12 | 11 | Generated |
@@ -82,7 +82,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 54 | 41 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
-| [Lain](#-lain-bundle-patch-list) | 39 | 26 | Generated |
+| [Lain](#-lain-bundle-patch-list) | 43 | 30 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 115 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 126 | 2 | Generated |
@@ -100,7 +100,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 77 | 53 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 86 | 6 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 124 | 4 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 125 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 2 | 2 | Generated |
@@ -136,7 +136,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 20 | 10 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 15 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 212 | 142 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 215 | 144 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Legacy
@@ -173,7 +173,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Cobalt downloads``` | ```Replaces YouTube's native download action with a direct cobalt download.``` | ```YouTube``` | ```All versions``` |
+| ```Cobalt downloads``` | ```Replaces YouTube's download action and Downloads page with a native cobalt manager.``` | ```YouTube``` | ```All versions``` |
 
 </details>
 
@@ -181,7 +181,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Pichiwa Bundle Patch List:
 [📦 Pichiwa-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-pichiwa-patches-bundle-morphe)
 <details>
-<summary><b>Pichiwa</b> - 19 patches, 1 app</summary>
+<summary><b>Pichiwa</b> - 18 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -192,10 +192,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Anti Revoke``` | ```Evita que otros borren sus mensajes o estados.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Anti-View Once``` | ```Ve medios efímeros sin límite y permite capturas.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Copiar estados``` | ```Permite copiar texto de estados de contactos.``` | ```com.whatsapp``` | ```2.26.27.4``` |
-| ```Descargar estados``` | ```Guarda estados de foto y video directamente.``` | ```com.whatsapp``` | ```2.26.27.4``` |
-| ```DND Mode``` | ```No marca mensajes como leídos al abrir chats.``` | ```com.whatsapp``` | ```2.26.27.4``` |
-| ```Freeze Last Seen``` | ```Congela la hora de última conexión.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Freeze Last Seen``` | ```Congela la hora de ultima conexion.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```HD Media``` | ```Envía imágenes y video sin compresión.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Modo Fantasma``` | ```No recibes ni envias mensajes mientras este activo.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Ocultar escritura``` | ```Escribe sin mostrar "escribiendo...".``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Ocultar lectura``` | ```Lee mensajes sin enviar ticks azules.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Ocultar reenviado``` | ```Quita la etiqueta "reenviado" de los mensajes.``` | ```com.whatsapp``` | ```2.26.27.4``` |
@@ -257,7 +256,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Free in-app purchases``` | ```When you try to buy something, the purchase is immediately marked as successful without contacting Google Play. The EA Nimble MTX system receives a null error (success) and grants the item.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Free reward ads``` | ```When the game tries to show a rewarded ad, it immediately fires the ad-clicked and ad-closed callbacks without actually showing the ad. You get the reward instantly.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Remove ads``` | ```Prevents video ads from loading. When the game tries to load an ad, nothing happens. Ads will not be shown.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
-| ```Free in-app purchases``` | ```Skips Google Play Billing and credits IAP items (tribes, skins, crystal packs) directly. Patches the billing bridge to report success, forces Purchase.isAcknowledged() and getPurchaseState() to return valid values, and intercepts launchBillingFlow to create a fake Purchase with the product ID and feed it to the game's native billing callback — no payment, no Play Store dialog, instant credit.``` | ```The Battle of Polytopia``` | ```All versions``` |
+| ```Free in-app purchases``` | ```Forces Purchase.isAcknowledged() to return true and getPurchaseState() to return PURCHASED (1), so the game thinks every purchase is valid and completed. Also patches the billing bridge to report success on setup and purchase updates.``` | ```The Battle of Polytopia``` | ```All versions``` |
 | ```Unlock all tribes``` | ```Unlocks all 20 tribes (Xinxi, Imperius, Bardur, Oumaji, Kickoo, Hoodrick, Luxidoor, Vengir, Zebasi, Aimo, Aquarion, Elyrion, Polaris, Magma, Yadakk, Quetzali, Cymanti, Swamp, Ikarus, Urkaz) by activating the game's built-in DEBUG MODE. Writes a user.cfg file with debugUnlock=true before the game loads, which makes Polytopia use its internal EverythingUnlockedPlatformPurchaseManager (a debug class that unlocks everything for free).``` | ```The Battle of Polytopia``` | ```All versions``` |
 | ```Billing bypass``` | ```Attempts to credit purchases by finding the app's own success callback method and calling it directly. Scans for methods like nativeOnSuccess, onPurchaseSuccess, onIAPSuccess, etc. Also supports Unity IL2CPP games by finding nativeOnPurchasesUpdated JNI bridge methods and creating fake Purchase objects. If no success method is found, patches billing to return success without crediting.``` | ```Universal``` | ```All versions``` |
 
@@ -355,10 +354,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Franticg33k Bundle Patch List:
 [📦 Franticg33k-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-franticg33k-patches-bundle-morphe)
 <details>
-<summary><b>Franticg33k</b> - 12 patches, 6 apps</summary>
+<summary><b>Franticg33k</b> - 15 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```Atlas Photo``` | ```All versions``` |
+| ```Remove License Check``` | ```Bypasses the PairIP Google Play Licensing check so Atlas Photo runs without a valid Play Store license.``` | ```Atlas Photo``` | ```All versions``` |
+| ```Unlock Pro``` | ```Forces Atlas Photo's Hermes (React Native) JS runtime to treat every session as a Pro subscriber by patching the setIsProMember reducer so its isPro field is always truthy. Unlocks all Pro features and removes the Pro paywall.``` | ```Atlas Photo``` | ```All versions``` |
 | ```Enable Online Pro``` | ```Experimental companion patch that keeps byAir's online Pro gates open without forcing the crash-prone global entitlement refresh path.``` | ```byAir``` | ```All versions``` |
 | ```Enable Pro``` | ```Suppresses the main byAir paywall, unlock banners, and local user gating.``` | ```byAir``` | ```All versions``` |
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```JellyWatch``` | ```All versions``` |
@@ -378,10 +380,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Modx Bundle Patch List:
 [📦 Modx-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-modx-patches-bundle-morphe)
 <details>
-<summary><b>Modx</b> - 4 patches, 1 app</summary>
+<summary><b>Modx</b> - 5 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Capture tab host for programmatic tab switching``` | ```Lets extension Activities (Tools/About) trigger a real MX Player tab switch instead of just finishing back to whatever tab was last visible.``` | ```MX Player``` | ```All versions``` |
 | ```Disable video ads``` | ```Disables video ads by patching the native library.``` | ```MX Player``` | ```All versions``` |
 | ```Hide Video/OTT tab``` | ```Hides the Video/OTT download tab from the home screen by forcing its visibility flag to always report disabled.``` | ```MX Player``` | ```All versions``` |
 | ```Register Modx extension activities``` | ```Adds the ToolsActivity/AboutActivity/tool screens and FileProvider from the extensions/core module to the app's AndroidManifest.xml so they can actually be launched.``` | ```MX Player``` | ```All versions``` |
@@ -1294,7 +1297,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Lain Bundle Patch List:
 [📦 Lain-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lain-patches-bundle-morphe)
 <details>
-<summary><b>Lain</b> - 39 patches, 26 apps</summary>
+<summary><b>Lain</b> - 43 patches, 30 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1309,6 +1312,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Fix Camera Mode Intent``` | ```Fix opening Camera FV-5 Lite when entering camera mode.``` | ```Cinema FV-5 Lite``` | ```All versions``` |
 | ```Higher Video Resolution``` | ```Unlock higher resolutions that limited by the app.``` | ```Cinema FV-5 Lite``` | ```All versions``` |
 | ```Unlock Pro``` | ```Enable pro features.``` | ```Collage Maker - PhotoFancie``` | ```All versions``` |
+| ```Enable Premium``` | ```Unlock unlimited use of ISO Burner, disable ads and disable coins system.``` | ```DROFUS``` | ```All versions``` |
 | ```Disable Region Lock``` | ```Bypass restricted region contents; access it anywhere, anytime.``` | ```Epic!``` | ```All versions``` |
 | ```Enable Epic Family``` | ```Unlock access to all books, videos and audiobooks for lifetime.``` | ```Epic!``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock premium features.``` | ```Fake GPS Location``` | ```All versions``` |
@@ -1332,11 +1336,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Course Maps Fix``` | ```Fix course maps not rendered by using your own Google Maps API key.``` | ```UDisc``` | ```All versions``` |
 | ```Login Fix``` | ```Fix login issue by spoofing the installation source to Play Store.``` | ```UDisc``` | ```All versions``` |
 | ```Unlock Premium``` | ```Enable premium features.``` | ```UDisc``` | ```All versions``` |
+| ```Enable Premium``` | ```Unlock unlimited use of all tools, disable ads and disable coins system.``` | ```Ultimate USB``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
 | ```Hide app icon``` | ```Hides the app icon from the Android launcher.``` | ```Universal``` | ```All versions``` |
 | ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Install Source``` | ```Spoofs package installer checks to report the configured package name as the installation source. Default is Play Store.``` | ```Universal``` | ```All versions``` |
+| ```Enable Premium``` | ```Unlock unlimited use of Disk Management & Gaming Tools, disable ads and disable coins system.``` | ```USB TOOLS``` | ```All versions``` |
+| ```Enable Premium``` | ```Unlock unlimited use of Bootable USB drive creator, disable ads and disable coins system.``` | ```Ventoy``` | ```All versions``` |
 
 </details>
 
@@ -3101,7 +3108,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 124 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 125 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3202,6 +3209,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```All versions``` |
 | ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```All versions``` |
 | ```Custom branding``` | ```Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.``` | ```YouTube Music``` | ```All versions``` |
+| ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```All versions``` |
 | ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```All versions``` |
 | ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube Music``` | ```All versions``` |
 | ```Downloads``` | ```Adds support to download songs with an external downloader app using the in-app download button.``` | ```YouTube Music``` | ```All versions``` |
@@ -4368,7 +4376,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 212 patches, 142 apps</summary>
+<summary><b>Rushiranpise</b> - 215 patches, 144 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4424,6 +4432,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks all premium wallpapers.``` | ```Depth Live Wallpaper``` | ```All versions``` |
 | ```Enable Debug Menu``` | ```Enables Duolingo's hidden debug menu in settings.``` | ```Duolingo``` | ```All versions``` |
 | ```Unlock Subscription``` | ```Unlocks user-selectable Duolingo subscription tiers.``` | ```Duolingo``` | ```All versions``` |
+| ```Disable Tracking``` | ```Disables analytics and telemetry in ES File Explorer``` | ```ES File Explorer``` | ```All versions``` |
+| ```Unlock VIP Lifetime``` | ```Unlock Vip Features in APP.``` | ```ES File Explorer``` | ```All versions``` |
 | ```Unlock Excel``` | ```Removes login requirement, unlocks premium, blocks ads, bypasses signature and code transparency checks.``` | ```Excel``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Fitbod premium features.``` | ```Fitbod``` | ```All versions``` |
 | ```Unlock Ad-Free``` | ```Forces FlightAware ad-free subscribed state.``` | ```FlightAware``` | ```All versions``` |
@@ -4502,6 +4512,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks Premium features in app. Also re-enables password login after OTP.``` | ```Strava``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium content in Strength Training by Muscle Motion. Note: Create an exercise plan to access all videos``` | ```Strength Training``` | ```All versions``` |
 | ```Unlock Plus``` | ```Unlocks Subway Now Plus.``` | ```Subway Now``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks premium/lifetime featuers in app.``` | ```Super File``` | ```All versions``` |
 | ```Unlock VIP``` | ```Unlocks Dubox Drive VIP/SVIP (Premium+)``` | ```TeraBox``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks The Weather Channel's Premium and Premium Pro subscription tiers. Enables the ad-free experience, extended 15-day hourly forecast, real-feel temperature, air quality index, minute-by-minute precipitation, severe weather notifications, and radar overlays gated behind the subscription paywall.``` | ```The Weather Channel``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Today Weather``` | ```All versions``` |

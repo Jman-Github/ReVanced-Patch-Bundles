@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.3",
+    "version": "v1.4.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -407,6 +407,98 @@
             "default": true,
             "dependencies": [],
             "description": "Disable trial time counter.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F8F8F8",
+                    "name": "DROFUS",
+                    "packageName": "com.mixapplications.rufus",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "10.2.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock unlimited use of ISO Burner, disable ads and disable coins system.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F8F8F8",
+                    "name": "Ultimate USB",
+                    "packageName": "com.mixapplications.ultimateusb",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "10.2.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock unlimited use of all tools, disable ads and disable coins system.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F8F8F8",
+                    "name": "USB TOOLS",
+                    "packageName": "com.mixapplications.usbtools",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "10.2.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock unlimited use of Disk Management & Gaming Tools, disable ads and disable coins system.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F8F8F8",
+                    "name": "Ventoy",
+                    "packageName": "com.mixapplications.ventoy_app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "10.2.3 (1.1.16)"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock unlimited use of Bootable USB drive creator, disable ads and disable coins system.",
             "name": "Enable Premium",
             "options": []
         },

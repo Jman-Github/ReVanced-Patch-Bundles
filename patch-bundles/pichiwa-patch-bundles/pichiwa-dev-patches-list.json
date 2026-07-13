@@ -1,5 +1,5 @@
 {
-    "version": "v0.3.2-dev.2",
+    "version": "v0.3.2-dev.13",
     "patches": [
         {
             "compatiblePackages": {
@@ -92,31 +92,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Guarda estados de foto y video directamente.",
-            "name": "Descargar estados",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.whatsapp": [
-                    "2.26.27.4"
-                ]
-            },
-            "dependencies": [],
-            "description": "No marca mensajes como leídos al abrir chats.",
-            "name": "DND Mode",
-            "options": [],
-            "use": false
-        },
-        {
-            "compatiblePackages": {
-                "com.whatsapp": [
-                    "2.26.27.4"
-                ]
-            },
-            "dependencies": [],
-            "description": "Congela la hora de última conexión.",
+            "description": "Congela la hora de ultima conexion.",
             "name": "Freeze Last Seen",
             "options": [],
             "use": false
@@ -132,6 +108,18 @@
             "name": "HD Media",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.whatsapp": [
+                    "2.26.27.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "No recibes ni envias mensajes mientras este activo.",
+            "name": "Modo Fantasma",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
