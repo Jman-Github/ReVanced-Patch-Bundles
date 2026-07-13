@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.3-dev.1",
+    "version": "v1.2.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -61,6 +61,27 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all premium features by forcing KineService.Companion.isTrial() to return false (pro state).",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FFC107",
+                    "name": "Pinnit",
+                    "packageName": "dev.sasikanth.pinnit",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.12.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features of Pinnit by bypassing the RevenueCat entitlement and purchase checks.",
             "name": "Unlock Premium",
             "options": []
         }

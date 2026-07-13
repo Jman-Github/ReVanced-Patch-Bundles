@@ -40,7 +40,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Alim-zanibekov](#-alim-zanibekov-bundle-patch-list) | 1 | 1 | Generated |
 | [Daboynb](#-daboynb-bundle-patch-list) | 1 | 1 | Generated |
 | [MojiRS-RIF](#-mojirs-rif-bundle-patch-list) | 2 | 1 | Generated |
-| [Coronenic](#-coronenic-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -49,10 +48,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pichiwa](#-pichiwa-bundle-patch-list) | 19 | 1 | Generated |
 | [Saiesh](#-saiesh-bundle-patch-list) | 10 | 3 | Generated |
 | [Letterboxd-Stremio](#-letterboxd-stremio-bundle-patch-list) | 3 | 1 | Generated |
-| [Miguel](#-miguel-bundle-patch-list) | 8 | 5 | Generated |
+| [Miguel](#-miguel-bundle-patch-list) | 10 | 6 | Generated |
 | [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 10 | 1 | Generated |
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
-| [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 3 | 3 | Generated |
+| [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 14 | 6 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 12 | 6 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 4 | 1 | Generated |
@@ -81,10 +80,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 54 | 41 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
-| [Lain](#-lain-bundle-patch-list) | 35 | 22 | Generated |
+| [Lain](#-lain-bundle-patch-list) | 39 | 26 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 115 | 3 | Generated |
-| [Piko](#-piko-bundle-patch-list) | 125 | 2 | Generated |
+| [Piko](#-piko-bundle-patch-list) | 126 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 10 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
@@ -92,21 +91,21 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
 | [Chiggi](#-chiggi-bundle-patch-list) | 31 | 5 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 3 | 3 | Generated |
-| [EE-Morphe](#-ee-morphe-bundle-patch-list) | 9 | 4 | Generated |
+| [EE-Morphe](#-ee-morphe-bundle-patch-list) | 11 | 6 | Generated |
 | [X-Shim](#-x-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 77 | 53 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 86 | 6 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 123 | 4 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 124 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 2 | 2 | Generated |
 | [Almewty](#-almewty-bundle-patch-list) | 3 | 2 | Generated |
 | [Anddea-Morphed](#-anddea-morphed-bundle-patch-list) | 133 | 6 | Generated |
 | [RookieEnough](#-rookieenough-bundle-patch-list) | 84 | 35 | Generated |
-| [Adobo](#-adobo-bundle-patch-list) | 39 | 5 | Generated |
+| [Adobo](#-adobo-bundle-patch-list) | 40 | 5 | Generated |
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 2 | 1 | Generated |
@@ -135,7 +134,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 20 | 10 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 15 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 165 | 125 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 212 | 142 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Legacy
@@ -151,6 +150,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
 
+### Unknown
+| Bundle | Patches | Apps | Status |
+| --- | ---: | ---: | --- |
+| [Coronenic](#-coronenic-bundle-patch-list) | 4 | 1 | Generated |
 
 ---
 ### 🧩 Cobalt-Morphe Bundle Patch List:
@@ -172,25 +175,25 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Anti Desaparecer``` | ```Mantiene los mensajes temporales visibles.``` | ```WhatsApp``` | ```All versions``` |
-| ```Anti Detector``` | ```Bypass detección de root, emulador y ROM personalizada.``` | ```WhatsApp``` | ```All versions``` |
-| ```Anti Editar``` | ```Evita que otros editen mensajes enviados.``` | ```WhatsApp``` | ```All versions``` |
-| ```Anti Expiracion``` | ```Evita la verificacion forzada de version y expiracion de WhatsApp.``` | ```WhatsApp``` | ```All versions``` |
-| ```Anti Revoke``` | ```Evita que otros borren sus mensajes o estados.``` | ```WhatsApp``` | ```All versions``` |
-| ```Anti-View Once``` | ```Ve medios efímeros sin límite y permite capturas.``` | ```WhatsApp``` | ```All versions``` |
-| ```Copiar estados``` | ```Permite copiar texto de estados de contactos.``` | ```WhatsApp``` | ```All versions``` |
-| ```Descargar estados``` | ```Guarda estados de foto y video directamente.``` | ```WhatsApp``` | ```All versions``` |
-| ```DND Mode``` | ```No marca mensajes como leídos al abrir chats.``` | ```WhatsApp``` | ```All versions``` |
-| ```Freeze Last Seen``` | ```Congela la hora de última conexión.``` | ```WhatsApp``` | ```All versions``` |
-| ```HD Media``` | ```Envía imágenes y video sin compresión.``` | ```WhatsApp``` | ```All versions``` |
-| ```Ocultar escritura``` | ```Escribe sin mostrar "escribiendo...".``` | ```WhatsApp``` | ```All versions``` |
-| ```Ocultar lectura``` | ```Lee mensajes sin enviar ticks azules.``` | ```WhatsApp``` | ```All versions``` |
-| ```Ocultar reenviado``` | ```Quita la etiqueta "reenviado" de los mensajes.``` | ```WhatsApp``` | ```All versions``` |
-| ```Quitar Comunidades``` | ```Oculta la pestaña de comunidades.``` | ```WhatsApp``` | ```All versions``` |
-| ```Quitar Novedades``` | ```Oculta la pestaña de novedades/estados.``` | ```WhatsApp``` | ```All versions``` |
-| ```Settings Menu``` | ```Añade acceso a ajustes de PichiWA en el menú de Home.``` | ```WhatsApp``` | ```All versions``` |
-| ```Sin límite de reenvío``` | ```Reenvía mensajes a contactos ilimitados.``` | ```WhatsApp``` | ```All versions``` |
-| ```Spoof instalador``` | ```Finge instalación desde Google Play para evitar restricciones.``` | ```WhatsApp``` | ```All versions``` |
+| ```Anti Desaparecer``` | ```Mantiene los mensajes temporales visibles.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Anti Detector``` | ```Bypass detección de root, emulador y ROM personalizada.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Anti Editar``` | ```Evita que otros editen mensajes enviados.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Anti Expiracion``` | ```Evita la verificacion forzada de version y expiracion de WhatsApp.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Anti Revoke``` | ```Evita que otros borren sus mensajes o estados.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Anti-View Once``` | ```Ve medios efímeros sin límite y permite capturas.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Copiar estados``` | ```Permite copiar texto de estados de contactos.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Descargar estados``` | ```Guarda estados de foto y video directamente.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```DND Mode``` | ```No marca mensajes como leídos al abrir chats.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Freeze Last Seen``` | ```Congela la hora de última conexión.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```HD Media``` | ```Envía imágenes y video sin compresión.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Ocultar escritura``` | ```Escribe sin mostrar "escribiendo...".``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Ocultar lectura``` | ```Lee mensajes sin enviar ticks azules.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Ocultar reenviado``` | ```Quita la etiqueta "reenviado" de los mensajes.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Quitar Comunidades``` | ```Oculta la pestaña de comunidades.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Quitar Novedades``` | ```Oculta la pestaña de novedades/estados.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Settings Menu``` | ```Añade acceso a ajustes de PichiWA en el menú de Home.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Sin límite de reenvío``` | ```Reenvía mensajes a contactos ilimitados.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Spoof instalador``` | ```Finge instalación desde Google Play para evitar restricciones.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 
 </details>
 
@@ -233,7 +236,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Miguel Bundle Patch List:
 [📦 Miguel-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-miguel-patches-bundle-morphe)
 <details>
-<summary><b>Miguel</b> - 8 patches, 5 apps</summary>
+<summary><b>Miguel</b> - 10 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -244,7 +247,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Free in-app purchases``` | ```When you try to buy something, the purchase is immediately marked as successful without contacting Google Play. The EA Nimble MTX system receives a null error (success) and grants the item.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Free reward ads``` | ```When the game tries to show a rewarded ad, it immediately fires the ad-clicked and ad-closed callbacks without actually showing the ad. You get the reward instantly.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Remove ads``` | ```Prevents video ads from loading. When the game tries to load an ad, nothing happens. Ads will not be shown.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
-| ```Billing bypass``` | ```Patches Google Play In-App Billing to simulate successful purchases without contacting Google Play.``` | ```Universal``` | ```All versions``` |
+| ```Free in-app purchases``` | ```Skips Google Play Billing and credits IAP items (tribes, skins, crystal packs) directly. Patches the billing bridge to report success, forces Purchase.isAcknowledged() and getPurchaseState() to return valid values, and intercepts launchBillingFlow to create a fake Purchase with the product ID and feed it to the game's native billing callback — no payment, no Play Store dialog, instant credit.``` | ```The Battle of Polytopia``` | ```All versions``` |
+| ```Unlock all tribes``` | ```Unlocks all 20 tribes (Xinxi, Imperius, Bardur, Oumaji, Kickoo, Hoodrick, Luxidoor, Vengir, Zebasi, Aimo, Aquarion, Elyrion, Polaris, Magma, Yadakk, Quetzali, Cymanti, Swamp, Ikarus, Urkaz) by activating the game's built-in DEBUG MODE. Writes a user.cfg file with debugUnlock=true before the game loads, which makes Polytopia use its internal EverythingUnlockedPlatformPurchaseManager (a debug class that unlocks everything for free).``` | ```The Battle of Polytopia``` | ```All versions``` |
+| ```Billing bypass``` | ```Attempts to credit purchases by finding the app's own success callback method and calling it directly. Scans for methods like nativeOnSuccess, onPurchaseSuccess, onIAPSuccess, etc. Also supports Unity IL2CPP games by finding nativeOnPurchasesUpdated JNI bridge methods and creating fake Purchase objects. If no success method is found, patches billing to return success without crediting.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -300,12 +305,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Shaun-Sheep Bundle Patch List:
 [📦 Shaun-Sheep-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-shaun-sheep-patches-bundle-morphe)
 <details>
-<summary><b>Shaun-Sheep</b> - 3 patches, 3 apps</summary>
+<summary><b>Shaun-Sheep</b> - 4 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Flud Ad-Free & Bypasses``` | ```Unlock ad-free experience (disable banners/interstitials), bypass storage permission setup block, and disable Google Play Integrity licensing check.``` | ```Flud``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features by forcing KineService.Companion.isTrial() to return false (pro state).``` | ```KineStop``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium features of Pinnit by bypassing the RevenueCat entitlement and purchase checks.``` | ```Pinnit``` | ```All versions``` |
 | ```RSS Reader Premium``` | ```Unlock premium features and remove ads in RSS Reader.``` | ```RSS Reader``` | ```All versions``` |
 
 </details>
@@ -752,16 +758,16 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Use your own Maps API key [REQUIRED]``` | ```Required for the map to load. Patching breaks Moovit's built-in Google Maps key, so you have to supply your own from a free Google Cloud project. In this patch's option, create a project, enable Maps SDK for Android, turn on billing, make an API key, and paste it in (leaving it unrestricted is easiest). Remove ads and Unlock Moovit+ both pull this in, so the map keeps working with either.``` | ```Moovit``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Poweramp's full version state and Feature Package #1.``` | ```Poweramp``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Projectivy Launcher's premium so the paywall stops sending you to the upgrade screen. Display profiles, custom wallpapers and backgrounds, parental controls, and the locked settings and customization options all open up. The gate is decided on the device, so there is no account to sign in to.``` | ```Projectivy Launcher``` | ```All versions``` |
-| ```Unlock Plus``` | ```Removes ads and unlocks the on-device Quizlet Plus features without a subscription. The AI tools, like Magic Notes and generation, run on Quizlet's servers and stay locked.``` | ```Quizlet``` | ```All versions``` |
+| ```Unlock Plus``` | ```Removes ads and unlocks the on-device Quizlet Plus features without a subscription, including unlimited Learn and Test rounds and textbook explanation views that free accounts meter. The AI tools, like Magic Notes and generation, run on Quizlet's servers and stay locked.``` | ```Quizlet``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Replaio's premium and removes the ads, so the equalizer, sleep timer, alarm, recording, and favorites all open up. Data Replaio keeps on its servers (synced favorites past the free cap) still needs an account that paid.``` | ```Replaio``` | ```All versions``` |
 | ```Unlock Premium``` | ```Turns on Rumble Premium without a subscription: removes the ad-supported playback, drops the premium upsell, and unlocks the premium-only videos. The premium flag is read from your account profile when you sign in, so it takes effect on a logged-in Rumble account.``` | ```Rumble``` | ```All versions``` |
 | ```Unlock Full``` | ```Unlocks Smart AudioBook Player's full version by forcing the local license decision to Full.``` | ```Smart AudioBook Player``` | ```All versions``` |
 | ```Remove Ads``` | ```Stops the banner and interstitial ads SofaScore shows around scores and between screens. Every ad site reads one decision method off the cached account, and the app's own ad master switch caches that method's result, so forcing it to "no ads" turns them all off with no login needed. The result holds across a sync because the switch re-reads the same method. Ads that are served by the video/story SDK inside embedded content are not affected. Re-signing breaks SofaScore's login (it only offers Google and Facebook sign-in, both of which reject the new signature), but removing ads does not need an account so the patch still works.``` | ```SofaScore``` | ```All versions``` |
 | ```Unlock Pro``` | ```Turns on Stash Pro and removes the ads. Pro is a flag the server sends with your account, so the unlock takes effect on a signed-in account once it loads. With it on the ads go away and the Pro-gated UI opens up: the Become Pro upsell card, the home screen block layout, custom collection cover images, and the locked review detail fields. Anything the Stash server checks for a non-paying account is unaffected, so data kept behind a paid account does not sync. Re-signing breaks Google and Facebook login, so sign in with email.``` | ```Stash``` | ```All versions``` |
-| ```Unlock Premium``` | ```Turns on Symfonium's paid features. The build ships as a public beta with a built-in trial: a license value the app keeps locally decides whether the paid UI is open, and two timers (the beta cutoff and the trial countdown) lock the app once they pass. This forces the license read to "licensed" so the paid screens open, drops the "trial expires on ..." line from settings, and stops the cutoff from triggering by cutting off the trusted-time lookup the timers rely on, which leaves the app in its offline state where neither timer fires. The license is checked on the client (a local Play purchase verify), so the unlock holds without an account. Connecting Plex, Jellyfin and other media servers is untouched.``` | ```Symfonium``` | ```All versions``` |
+| ```Unlock Premium``` | ```Turns on Symfonium's paid features. The build ships as a public beta with a built-in trial: a license value the app keeps locally decides whether the paid UI is open, and two timers (the beta cutoff and the trial countdown) lock the app once they pass. This forces the license read to "licensed" so the paid screens open, drops the "trial expires on ..." line from settings, and freezes the trusted-time lookup the timers read at a fixed pre-cutoff instant so neither timer can fire. The license is checked on the client (a local Play purchase verify), so the unlock holds without an account. Connecting Plex, Jellyfin and other media servers is untouched.``` | ```Symfonium``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Teach Me Anatomy's premium features without a subscription, dropping the upgrade banners and ads and opening up the locked articles, quizzes, and flashcards. Content served from the server still needs a real account.``` | ```Teach Me Anatomy``` | ```All versions``` |
 | ```Unlock Pro``` | ```Turns on Todoist Pro on the signed-in account: the project, task, section, filter and label caps go to unlimited, reminders, comments, deadlines, durations, calendar layout, the activity log, file uploads and the paid templates all open, and the plan badge reads Pro. Pro on Todoist is a plan the server sends down and the app caches, so the unlock takes hold once a signed-in account loads and it holds across a sync. Anything the Todoist server runs itself is untouched: the AI assistant, real team/Business collaboration, and server-enforced storage still need a paid account. Re-signing breaks Google sign-in, so sign in with email and password.``` | ```Todoist``` | ```All versions``` |
-| ```Unlock Pro``` | ```Unlocks Tracked's premium training tools without a subscription, like muscle analytics and training programs. They run on the workout data already on your device, so they keep working offline. The separate human-coaching marketplace still needs its own subscription.``` | ```Tracked``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks Tracked's premium training tools without a subscription, like muscle analytics, training programs, dashboard customization, and session density/net progression. They run on the workout data already on your device, so they keep working offline. The separate human-coaching marketplace still needs its own subscription.``` | ```Tracked``` | ```All versions``` |
 | ```Disable ad-free banner``` | ```Hides the banner with the frog that prompts you to buy Tumblr Ad-Free.``` | ```Tumblr``` | ```All versions``` |
 | ```Disable blog notification reminder``` | ```Stops the reminder asking you to enable notifications for blogs you visit.``` | ```Tumblr``` | ```All versions``` |
 | ```Disable gift message popup``` | ```Stops the popup that suggests buying TumblrMart items for other people.``` | ```Tumblr``` | ```All versions``` |
@@ -1278,16 +1284,18 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Lain Bundle Patch List:
 [📦 Lain-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lain-patches-bundle-morphe)
 <details>
-<summary><b>Lain</b> - 35 patches, 22 apps</summary>
+<summary><b>Lain</b> - 39 patches, 26 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable Ads``` | ```Disable banner, splash, and rewarded ads.``` | ```Android Proxy Server``` | ```All versions``` |
+| ```Enable PRO+``` | ```Unlock all PRO+ features.``` | ```Atomic``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock premium features.``` | ```AudioRelay``` | ```All versions``` |
 | ```Unlock Plus``` | ```Unlock plus features such as Exclusive Themes, Custom Layout & Home Screen, Enhanced Bulk Downloader.``` | ```Boorusama (Play Store)``` | ```All versions``` |
 | ```Enable Raw Capture``` | ```Force enable DNG raw capture option.``` | ```Camera FV-5 Lite``` | ```All versions``` |
 | ```Fix Video Recording Intent``` | ```Fix opening Cinema FV-5 Lite from video recording menu.``` | ```Camera FV-5 Lite``` | ```All versions``` |
 | ```Higher Image Resolution``` | ```Unlock higher image resolutions that the device support.``` | ```Camera FV-5 Lite``` | ```All versions``` |
+| ```Enable Premium``` | ```Unlock all premium benefits.``` | ```ChatBoost``` | ```All versions``` |
 | ```Fix Camera Mode Intent``` | ```Fix opening Camera FV-5 Lite when entering camera mode.``` | ```Cinema FV-5 Lite``` | ```All versions``` |
 | ```Higher Video Resolution``` | ```Unlock higher resolutions that limited by the app.``` | ```Cinema FV-5 Lite``` | ```All versions``` |
 | ```Unlock Pro``` | ```Enable pro features.``` | ```Collage Maker - PhotoFancie``` | ```All versions``` |
@@ -1297,6 +1305,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium``` | ```Enable premium features.``` | ```Hermit``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock premium features such as Disable Ads and access AI Assistant.``` | ```Hidden Settings``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlock premium features such as Unlimited access to PDF tools, Enable Cloud Storage; Split, Merge, Compress documents, and more. Google login or Google Drive storage is broken, need MicroG integration patch.``` | ```iLovePDF``` | ```All versions``` |
+| ```Enable Premium``` | ```Unlock all features in Pro.``` | ```Keymate``` | ```All versions``` |
 | ```Bypass Reading Limitation``` | ```Bypass 'First Time Free' read limitation for all languages. Only affect 'Standard/Deluxe' plan titles, exclusive 'Deluxe' plan titles are server-driven.``` | ```Manga Plus``` | ```All versions``` |
 | ```Enable Deluxe Plan``` | ```Enable Deluxe plan badge on settings. Bypass the 'First Time Free' read limitation only for English language on 'Standard/Deluxe' plan titles. Other languages aren't affected.``` | ```Manga Plus``` | ```All versions``` |
 | ```Disable Analytics``` | ```Disables app tracker, Google & Firebase Analytics``` | ```MediBang Paint``` | ```All versions``` |
@@ -1305,6 +1314,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Disable Anti-Tamper Detection``` | ```Disable Anti-Tamper detection that force quit the app.``` | ```Nekopoi``` | ```All versions``` |
 | ```Enable Certificate Pinning``` | ```Allow app network traffic to be inspected.``` | ```Nekopoi``` | ```All versions``` |
 | ```Enable Premium``` | ```Disable trial time counter.``` | ```Paletta``` | ```All versions``` |
+| ```Enable Pro``` | ```Unlock all pro features.``` | ```Pixel Studio``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock 'Remove Ads' premium feature.``` | ```PixelLab``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlock premium features such as Advanced Color Tools, Clipping Masks & Alpha Masks, Manage layers with Groups, Import & customize brushes, and more...``` | ```Sketchbook``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlock pro features such as Unlimited proxy usage, Allow/disallow specific apps, Block apps in firewall and many more...``` | ```Super Proxy``` | ```All versions``` |
@@ -1464,7 +1474,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Piko Bundle Patch List:
 [📦 Piko-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-patches-bundle-morphe)
 <details>
-<summary><b>Piko</b> - 125 patches, 2 apps</summary>
+<summary><b>Piko</b> - 126 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1492,6 +1502,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```Instagram``` | ```All versions``` |
 | ```Download voice message``` | ```Enables ability to download voice messages``` | ```Instagram``` | ```All versions``` |
 | ```External downloader``` | ```Adds support to share post links directly to external downloader``` | ```Instagram``` | ```All versions``` |
+| ```Filter stories``` | ```Filter stories to hide based on different categories``` | ```Instagram``` | ```All versions``` |
 | ```Friendship status indicator``` | ```Adds a follows you back status label on the profile page andshows a detailed friendship status breakdown on click``` | ```Instagram``` | ```All versions``` |
 | ```Hide group creation button on sharesheet``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button.``` | ```Instagram``` | ```All versions``` |
@@ -1502,6 +1513,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Improve image viewing``` | ```Fetches max resolution images from server.``` | ```Instagram``` | ```All versions``` |
 | ```Limit feed to following profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```Instagram``` | ```All versions``` |
 | ```Make ephemeral media permanent``` | ```Changes unexpired view once, view twice media to permanent view.``` | ```Instagram``` | ```All versions``` |
+| ```Mark chat as read manually``` | ```Adds option to mark a thread aka message as read manually``` | ```Instagram``` | ```All versions``` |
 | ```More options on post``` | ```Adds an overflow menu button to get more options on post/reels, like copy description, copy username etc``` | ```Instagram``` | ```All versions``` |
 | ```More options on profile``` | ```Adds a new button to handle user related data like copy handle, download profile picture etc``` | ```Instagram``` | ```All versions``` |
 | ```Open links externally``` | ```Changes links to always open in your external browser, instead of the in-app browser.``` | ```Instagram``` | ```All versions``` |
@@ -1521,7 +1533,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Add ability to copy media link``` | ```N/A``` | ```X``` | ```All versions``` |
 | ```Block redirecting to X Lite``` | ```Blocks redirecting to the new X Android UI on launch``` | ```X``` | ```All versions``` |
 | ```Bring back twitter``` | ```Bring back old twitter logo and name``` | ```X``` | ```All versions``` |
-| ```Browse tweet object``` | ```Adds an option to browse the tweet object in the share menu.``` | ```X``` | ```All versions``` |
 | ```Change app icon``` | ```N/A``` | ```X``` | ```All versions``` |
 | ```Clear tracking params``` | ```Removes tracking parameters when sharing links``` | ```X``` | ```All versions``` |
 | ```Control video auto scroll``` | ```Control video auto scroll in immersive view``` | ```X``` | ```All versions``` |
@@ -2665,14 +2676,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 EE-Morphe Bundle Patch List:
 [📦 EE-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ee-morphe-patches-bundle-morphe)
 <details>
-<summary><b>EE-Morphe</b> - 9 patches, 4 apps</summary>
+<summary><b>EE-Morphe</b> - 11 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall and disables UI prompts.``` | ```AppSales``` | ```All versions``` |
+| ```Enable Pro``` | ```Enables Appsales features locked behind the subscription paywall and disables UI prompts for Appsales Premium.``` | ```AppSales``` | ```All versions``` |
 | ```Enable Online Pro``` | ```Experimental companion patch that keeps byAir's online Pro gates open without forcing the crash-prone global entitlement refresh path.``` | ```byAir``` | ```All versions``` |
 | ```Enable Pro``` | ```Suppresses the main byAir paywall, unlock banners, and local user gating without forcing the shared entitlement path globally.``` | ```byAir``` | ```All versions``` |
+| ```Enable Pro``` | ```Forces Going (Going) subscription checks to always pass and disables the app-specific PairIP license redirect.``` | ```Going``` | ```All versions``` |
 | ```Enable Pro``` | ```Forces HypnoBox subscription entitlement checks to always pass.``` | ```HypnoBox``` | ```All versions``` |
+| ```Enable Pro``` | ```Forces Inoreader to always pass pro checks and disables free.``` | ```Inoreader``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Clone app``` | ```Renames the app and manifest package so it can be installed alongside another copy. By default this appends " B" to the launcher name and appends "B" to the package's main segment.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
@@ -3078,7 +3091,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 123 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 124 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3166,7 +3179,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Seekbar``` | ```Adds options to disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, hiding the video player seekbar, enabling seeking in livestreams, and expanding the livestream DVR duration.``` | ```YouTube``` | ```All versions``` |
 | ```Shorts autoplay``` | ```Adds options to automatically play the next Short.``` | ```YouTube``` | ```All versions``` |
 | ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content.``` | ```YouTube``` | ```All versions``` |
-| ```Spoof app version``` | ```Adds an option to trick YouTube into thinking you are running an older version of the app. This can be used to restore old UI elements and features.``` | ```YouTube``` | ```All versions``` |
+| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube``` | ```All versions``` |
 | ```Spoof device dimensions``` | ```Adds an option to spoof the device dimensions which can unlock higher video qualities.``` | ```YouTube``` | ```All versions``` |
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube``` | ```All versions``` |
 | ```Swipe controls``` | ```Adds options to enable and configure volume and brightness swipe controls.``` | ```YouTube``` | ```All versions``` |
@@ -3202,6 +3215,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```All versions``` |
 | ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```All versions``` |
 | ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```All versions``` |
+| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```All versions``` |
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```All versions``` |
 | ```Theme``` | ```Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).``` | ```YouTube Music``` | ```All versions``` |
 | ```Track crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```All versions``` |
@@ -3665,16 +3679,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Adobo Bundle Patch List:
 [📦 Adobo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-adobo-patches-bundle-morphe)
 <details>
-<summary><b>Adobo</b> - 39 patches, 5 apps</summary>
+<summary><b>Adobo</b> - 40 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove 9GAG's ads, trackers, and analytics``` | ```Removes ads, trackers, and analytics in the 9GAG app.``` | ```9GAG``` | ```All versions``` |
 | ```Always-incognito mode``` | ```Always opens Gboard in incognito mode to disable typing history collection and personalization.``` | ```Gboard``` | ```All versions``` |
+| ```Enable access points menu redesign``` | ```Enables the redesign of the additional actions menu.``` | ```Gboard``` | ```All versions``` |
 | ```Enable clipboard in incognito``` | ```Enables clipboard support in incognito mode.``` | ```Gboard``` | ```All versions``` |
 | ```Enable key shape selection``` | ```Enables an option to select a key shape from the theme.``` | ```Gboard``` | ```All versions``` |
-| ```Enable OCR feature``` | ```Enables OCR feature to extract text from images and insert it into text fields.``` | ```Gboard``` | ```All versions``` |
-| ```Enable Undo feature``` | ```Enables undo feature to quickly undo or correct typing mistakes.``` | ```Gboard``` | ```All versions``` |
+| ```Enable OCR feature``` | ```Enables the Scan Text feature to extract text from images and insert them into text fields.``` | ```Gboard``` | ```All versions``` |
+| ```Enable Undo feature``` | ```Enables the undo feature to quickly undo or correct typing mistakes.``` | ```Gboard``` | ```All versions``` |
 | ```Enable voice typing in incognito``` | ```Enables voice typing in incognito mode.``` | ```Gboard``` | ```All versions``` |
 | ```Toggle feature flags``` | ```Toggles Gboard feature flags to enable or disable experimental or hidden features.``` | ```Gboard``` | ```All versions``` |
 | ```Remove IMDb's ads, trackers, and analytics``` | ```Removes ads, trackers, and analytics in the IMDb app.``` | ```IMDb``` | ```All versions``` |
@@ -4290,8 +4305,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable auto-updates``` | ```Stops the Google Play Store from silently updating Peacock back to the official version and wiping out the patch (which would bring the ads back). Works by setting the patched build's version number far ahead of anything on the Store, so it's treated as already up to date. You can still update deliberately by re-patching a newer APK in Morphe. Recommended to leave ON. Does not apply to mount-installed apps.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102, 7.6.100``` |
 | ```Skip ads``` | ```Disables ad delivery via Sky SDK surgical targets (FreeWheel DI module skip, MediaTailor SSAI layers, ad-break-started no-op), AdBlockInterceptor wiring on both the app NetworkingKt OkHttp client and the Sky SDK addon network client, and a WebView shouldInterceptRequest wrapper. Validated v7.5.102 and v7.6.100.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102, 7.6.100``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Tubi Android TV.``` | ```com.tubitv``` | ```10.20.5000``` |
-| ```Override certificate pinning``` | ```Allows HTTPS traffic inspection tools like AdGuard Premium to intercept app connections. Enables ViX live (Lura SSAI) ad suppression when used alongside AdGuard Premium.``` | ```com.univision.prendetv``` | ```4.46.0_tv``` |
-| ```Skip ads``` | ```Suppresses ViX ad delivery by stopping the LuraPlayer linear ad-break scheduler (client-side VAST) and preventing the Innovid SSAI ad overlay from mounting.``` | ```com.univision.prendetv``` | ```4.46.0_tv``` |
+| ```Override certificate pinning``` | ```Allows HTTPS traffic inspection tools like AdGuard Premium to intercept app connections. Enables ViX live (Lura SSAI) ad suppression when used alongside AdGuard Premium.``` | ```com.univision.prendetv``` | ```4.46.0_tv, 4.47.2_tv``` |
+| ```Skip ads``` | ```Suppresses ViX ad delivery by stopping the LuraPlayer linear ad-break scheduler (client-side VAST) and preventing the Innovid SSAI ad overlay from mounting.``` | ```com.univision.prendetv``` | ```4.46.0_tv, 4.47.2_tv``` |
 | ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.hbomax``` | ```7.5.0.73, 7.2.0.41``` |
 | ```Clone Pluto TV``` | ```Installs the patched Pluto TV as a separate app alongside the stock one, instead of replacing it. Enable this when Pluto TV is a preinstalled system app that can't be uninstalled — most commonly on Amazon Fire TV, and on some Android TV boxes and Onn devices. The clone gets its own package (suffix .mod), so it shows up as a second Pluto TV icon and keeps its own settings. Leave OFF if you were able to uninstall the original Pluto TV first (a normal in-place install is cleaner). Opt-in.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
 | ```Disable auto-updates``` | ```Stops the Google Play Store from silently updating Pluto TV back to the official version and wiping out the patch (which would bring the ads back). Works by setting the patched build's version number far ahead of anything on the Store, so it's treated as already up to date. You can still update deliberately by re-patching a newer APK in Morphe. Recommended to leave ON. Does not apply to mount-installed apps.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
@@ -4343,7 +4358,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 165 patches, 125 apps</summary>
+<summary><b>Rushiranpise</b> - 212 patches, 142 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4351,6 +4366,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Spoof WARP+ Unlimited UI``` | ```Unlocks WARP+ UI locally.``` | ```1.1.1.1``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks 1Tap Cleaner PRO: history export, app-group filters, unlimited cache targets, ad removal.``` | ```1Tap Cleaner``` | ```All versions``` |
 | ```Unlock Premium+``` | ```Unlocks AccuWeather's Premium+ subscription tier without a Play Store purchase. Enables the full 15-day and hourly forecast detail, MinuteCast extended precision, air quality and health indexes, real-feel temperature, severe weather notifications, and widget customisation.``` | ```AccuWeather``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks premium features in app.``` | ```Ace Ex File Manager``` | ```All versions``` |
 | ```Unlock Lifetime Premium``` | ```Unlocks all features locked behind the subscription paywall.``` | ```AdGuard Nightly``` | ```All versions``` |
 | ```Remove ads``` | ```Stubs all ad loading paths: banner/interstitial loaders, billing callbacks, and ad SDK init.``` | ```AIDA64``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks AiScore Premium Features in app.``` | ```AiScore``` | ```All versions``` |
@@ -4366,6 +4382,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Sanitize share links``` | ```Strips tracking parameters from copied/shared Amazon links, leaving only the clean product URL.``` | ```Amazon Shopping, Amazon India``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks AmoledPix premium features and disables ads.``` | ```AmoledPix``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium content in Anatomy by Muscle Motion.``` | ```Anatomy``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium wallpapers.``` | ```Anime Depth Wallpapers``` | ```All versions``` |
 | ```Unlock Ultimate``` | ```Unlocks Ultimate Ad-Free + Android TV.``` | ```APKMirror Installer``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all Pro features in app.``` | ```App Permission Manager``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium in Beta by Mirko.``` | ```Beta Maniac``` | ```All versions``` |
@@ -4373,6 +4390,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Lifetime``` | ```Unlocks lifetime subscription features in BlockerHero.``` | ```BlockerHero``` | ```All versions``` |
 | ```Unlock Cloud Service``` | ```Unlocks BluramsGuard cloud storage, AI detection, and playback features.``` | ```Blurams``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock Premium Features in app.``` | ```BlurWall``` | ```All versions``` |
+| ```Unlock SVIP``` | ```Unlocks SViP features in app.``` | ```BuzzCast``` | ```All versions``` |
 | ```Disable telemetry``` | ```Disables CamScanner's custom telemetry/log-agent system.``` | ```CamScanner``` | ```All versions``` |
 | ```Yearly Unlock``` | ```Unlocks premium features without login. Note: Login Won't Work``` | ```CamScanner``` | ```All versions``` |
 | ```Remove Watermark``` | ```Removes watermarks from Canva exports and previews.``` | ```Canva``` | ```All versions``` |
@@ -4392,6 +4410,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Followed Locations``` | ```Unlocks the Followed Locations premium feature.``` | ```Crime Radar``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Crime Radar``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Cube ACR``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks premium features after login.``` | ```Dailyhunt``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium wallpapers.``` | ```Depth Live Wallpaper``` | ```All versions``` |
 | ```Enable Debug Menu``` | ```Enables Duolingo's hidden debug menu in settings.``` | ```Duolingo``` | ```All versions``` |
 | ```Unlock Subscription``` | ```Unlocks user-selectable Duolingo subscription tiers.``` | ```Duolingo``` | ```All versions``` |
 | ```Unlock Excel``` | ```Removes login requirement, unlocks premium, blocks ads, bypasses signature and code transparency checks.``` | ```Excel``` | ```All versions``` |
@@ -4410,38 +4430,39 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Full Version``` | ```Unlocks all features in Inure App Manager.``` | ```Inure App Manager``` | ```All versions``` |
 | ```Unlock Elite``` | ```Unlocks JEFIT Elite features in app.``` | ```JEFIT``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in KillApps.``` | ```KillApps``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlock Premium features after login.``` | ```KineMaster``` | ```All versions``` |
 | ```Unlock pro``` | ```Unlocks all pro features.``` | ```KineStop``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks premium features and all map packs.``` | ```komoot``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium content.``` | ```Kyphosis``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks premium features in app.``` | ```Lark Player``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features in app.``` | ```Lawfully``` | ```All versions``` |
 | ```Unlock Platinum``` | ```Unlocks Life360 Platinum feature in app.``` | ```Life360``` | ```All versions``` |
 | ```Remove ads``` | ```Disables LiveScore banner, native, and interstitial ad requests.``` | ```LiveScore``` | ```All versions``` |
 | ```Remove Ads``` | ```Removes interstitial and exit native ads from m-Indicator.``` | ```m-Indicator``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks all Pro features.``` | ```MEGA``` | ```All versions``` |
 | ```Unlock Enterprise``` | ```Unlocks Enterprise features in app.``` | ```MigraConnect``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlock all premium widgets.``` | ```Minimal Widgets``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in ML Manager.``` | ```ML Manager``` | ```All versions``` |
 | ```Unlock Moovit+``` | ```Unlocks Moovit+``` | ```Moovit``` | ```All versions``` |
-| ```Bypass TV episode VIP gate``` | ```Forces BffSubjectInfo.isVip() to always return false, making every episode appear as non-VIP-only so playback is not blocked in DetailFragment.``` | ```MovieBox TV``` | ```All versions``` |
-| ```Spoof TV account VIP status``` | ```Forces BffGetVipUserInfoData.isVip() to always return Boolean.TRUE.``` | ```MovieBox TV``` | ```All versions``` |
-| ```Bypass member rights check``` | ```Forces MemberCheckResult.isPassed() to always return Boolean.TRUE.``` | ```MovieBox, MovieBox (India)``` | ```All versions``` |
-| ```Spoof member brief info``` | ```Forces MemberBriefInfo.isActive()=true, getMemberType()=2, getExpiryDate()='2035-12-31'. MemberBriefInfo is a lightweight summary bean used in home/profile cards — discovered via MovieboxHooker (Kero309x) analysis.``` | ```MovieBox, MovieBox (India)``` | ```All versions``` |
-| ```Spoof member info``` | ```Forces MemberInfo active=true, memberType=2 (VIP), days=3650, expiryDate/nextRenewDate='2035-12-31'. Previously only patched isActive+getDaysLeft+getExpiryDate; now also patches getMemberType()+getNextRenewDate() discovered via MovieboxHooker analysis.``` | ```MovieBox, MovieBox (India)``` | ```All versions``` |
-| ```Spoof member provider flags``` | ```Forces MMKV member gates to true. Phone (com.community.oneroom): e()Z=kv_is_pay_enable_member, f()Z=kv_is_skip_ad. India (com.community.mbox.in): d()Z=kv_is_pay_enable_member, f()Z=kv_is_skip_ad. Both share f()Z for kv_is_skip_ad; primary gate method differs per package.``` | ```MovieBox, MovieBox (India)``` | ```All versions``` |
-| ```Suppress newbie bonus dialog``` | ```Makes MemberProvider ClaimMemberDialog trigger return-void. Phone (com.community.oneroom): z(F)V. India (com.community.mbox.in): w(F)V. Both suppressed via name search.``` | ```MovieBox, MovieBox (India)``` | ```All versions``` |
-| ```Unlock download member requirement``` | ```Forces DownloadBean.getRequireMemberType() to always return Integer(0), making all download items appear as freely downloadable regardless of VIP tier. Discovered via MovieboxHooker (Kero309x) analysis.``` | ```MovieBox, MovieBox (India)``` | ```All versions``` |
-| ```Clear VIP resolution tip``` | ```Forces MemberResolutionBean.getVipResolutionTip() to always return Boolean.FALSE.``` | ```MovieBox, MovieBox (India), MovieBox TV``` | ```All versions``` |
-| ```Unlock member resolution``` | ```Forces MemberResolutionBean.isUnlock() to always return Boolean.TRUE.``` | ```MovieBox, MovieBox (India), MovieBox TV``` | ```All versions``` |
+| ```Unlock VIP``` | ```Unlocks VIP Features in app.``` | ```MovieBox TV``` | ```All versions``` |
+| ```Unlock VIP``` | ```Unlocks VIP features in app.``` | ```MovieBox, MovieBox (India)``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks MyRadar's yearly premium features``` | ```MyRadar``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in NetGuard.``` | ```NetGuard``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```NetMonster``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Pro features in app.``` | ```NetShare``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium features in app..``` | ```NewsBreak``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Ninja VPN premium.``` | ```Ninja VPN``` | ```All versions``` |
+| ```Unlock subscription``` | ```Unlocks subscription in app``` | ```NYT Games``` | ```All versions``` |
 | ```Unlock All Access``` | ```Unlocks All access in Nzb360.``` | ```nzb360``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all Pro features in app.``` | ```Permission Pilot``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Photo Editor premium features``` | ```Photo Editor``` | ```All versions``` |
 | ```Unlock All Features``` | ```Bypasses PairIP DRM license check, removes all paywalls, and unlocks all premium features including cloud sync and remote access.``` | ```Pialytic``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Picture Mushroom premium features.``` | ```Picture Mushroom - Mushroom ID``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks PictureThis premium features.``` | ```PictureThis - Plant Identifier``` | ```All versions``` |
+| ```Unlock PRO``` | ```Unlocks all PRO features in app``` | ```Pixel Habit Tracker``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock Premium features in app.``` | ```pkge``` | ```All versions``` |
+| ```Unlock VIP``` | ```Unlock VIP subscription in app.``` | ```PLAYit``` | ```All versions``` |
+| ```Unlock premium``` | ```Unlock Premium features in app``` | ```Pocket Bard``` | ```All versions``` |
 | ```Unlock Patron``` | ```Unlocks Pocket Casts Patron yearly feature checks.``` | ```Pocket Casts``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Pocket Prep premium subscription gates.``` | ```Pocket Prep``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks premium features in app.``` | ```Police Scanner``` | ```All versions``` |
@@ -4453,6 +4474,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlock premium features in RecipeBro.``` | ```RecipeBro``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in Rename & Organize.``` | ```Rename & Organize``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Rocket Money Premium Features.``` | ```Rocket Money``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks premium features in app.``` | ```RS File Manager``` | ```All versions``` |
 | ```Unlock Premium``` | ```Bypasses PairIP license check, paywall, ads, and pro upsell in SAI.``` | ```SAI``` | ```All versions``` |
 | ```Unlock Drama Episodes``` | ```Bypasses the IAA (ad-watch-to-unlock) episode gate for drama mini-series.``` | ```Scoopz``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium feature in app.``` | ```SCRL``` | ```All versions``` |
@@ -4466,7 +4488,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Plus``` | ```Unlocks all SpotAngels Plus features in app``` | ```SpotAngels``` | ```All versions``` |
 | ```Unlock Subscription``` | ```Unlocks all subscription features in TWT App.``` | ```Stargazing Hub``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Sticker Maker premium and ad-free checks.``` | ```Sticker Maker``` | ```All versions``` |
-| ```Unlock Plus``` | ```Unlocks Sticker.ly PLUS subscription.``` | ```Sticker.ly``` | ```All versions``` |
+| ```Unlock Plus``` | ```Unlocks Sticker.ly PLUS subscriptionNote: For Facebook Login, Uninstall Facebook App.``` | ```Sticker.ly``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Premium features in app. Also re-enables password login after OTP.``` | ```Strava``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium content in Strength Training by Muscle Motion. Note: Create an exercise plan to access all videos``` | ```Strength Training``` | ```All versions``` |
 | ```Unlock Plus``` | ```Unlocks Subway Now Plus.``` | ```Subway Now``` | ```All versions``` |
 | ```Unlock VIP``` | ```Unlocks Dubox Drive VIP/SVIP (Premium+)``` | ```TeraBox``` | ```All versions``` |
@@ -4484,12 +4507,51 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Ads``` | ```Prevents the AppOpen ad preloader from initialising.``` | ```Unimote``` | ```All versions``` |
 | ```Suppress Paywall``` | ```Suppresses the in-app paywall.``` | ```Unimote``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Unimote``` | ```All versions``` |
+| ```Add resource file``` | ```Adds or replaces one raw APK file from text options.``` | ```Universal``` | ```All versions``` |
+| ```Change package name``` | ```Changes manifest package and optionally provider/permission authorities.``` | ```Universal``` | ```All versions``` |
+| ```Change version code``` | ```Changes android:versionCode.``` | ```Universal``` | ```All versions``` |
+| ```Custom certificates``` | ```Adds a permissive network security config with system/user certs.``` | ```Universal``` | ```All versions``` |
+| ```Disable ad SDK calls``` | ```No-ops common ad SDK load/show/init/fetch methods in bundled ad packages.``` | ```Universal``` | ```All versions``` |
+| ```Disable clipboard access``` | ```Blocks app clipboard reads and writes.``` | ```Universal``` | ```All versions``` |
+| ```Disable Play Integrity``` | ```Blocks Play Integrity service binding.``` | ```Universal``` | ```All versions``` |
+| ```Disable shake ads``` | ```Skips SensorManager.registerListener calls that can power shake-to-ad behavior.``` | ```Universal``` | ```All versions``` |
+| ```Enable Android debugging``` | ```Sets android:debuggable=true.``` | ```Universal``` | ```All versions``` |
+| ```Enable debug build target``` | ```Forces compatible BUILD_TARGET debug providers to debug=true.``` | ```Universal``` | ```All versions``` |
+| ```Enable ROM signature spoofing``` | ```Adds fake-signature permission and metadata.``` | ```Universal``` | ```All versions``` |
+| ```Export all activities``` | ```Makes all activities exportable.``` | ```Universal``` | ```All versions``` |
+| ```Export internal data documents provider``` | ```Registers an extension DocumentsProvider for the app internal data directory.``` | ```Universal``` | ```All versions``` |
 | ```Fix Firebase after re-signing``` | ```Fixes Firebase services (push notifications, Remote Config, Firebase Auth) that break after Morphe re-signs the app with a different certificate. Apply with Original app certificate patch no other config needed.``` | ```Universal``` | ```All versions``` |
+| ```Force dark theme``` | ```Forces common AppCompat, UiModeManager, and Configuration dark-mode checks to night mode.``` | ```Universal``` | ```All versions``` |
 | ```GmsCore support (MicroG)``` | ```Routes Google Play Services calls through MicroG instead of real GPS. Works for: Google apps (YouTube, Maps, News, Photos) and third-party apps using classic Google Sign-In (Android 13 and below). Does not work for: Android 14+ Credential Manager sign-in (most modern third-party apps), Play Integrity / SafetyNet checks, or apps with custom auth. Requires MicroG RE installed. Apply with Original app certificate patch.``` | ```Universal``` | ```All versions``` |
+| ```Hex patch``` | ```Replaces one hex byte pattern inside one APK file.``` | ```Universal``` | ```All versions``` |
+| ```Hide ADB status``` | ```Hides adb_enabled and development_settings_enabled.``` | ```Universal``` | ```All versions``` |
+| ```Hide app icon``` | ```Removes launcher category from MAIN launcher filters.``` | ```Universal``` | ```All versions``` |
+| ```Hide mock location``` | ```Hides mock-location signals from app checks.``` | ```Universal``` | ```All versions``` |
+| ```Hide VPN and proxy``` | ```Hides common VPN transport/interface and Java proxy property checks.``` | ```Universal``` | ```All versions``` |
+| ```Override certificate pinning``` | ```Forces network security config trust anchors to override pins.``` | ```Universal``` | ```All versions``` |
+| ```Predictive back gesture``` | ```Enables Android predictive back gesture.``` | ```Universal``` | ```All versions``` |
 | ```Provide Original app certificate``` | ```By Default it Reads the signing certificate from the original app installed. Required for GmsCore, Firebase, and Signature spoof patches. Only fill options below if the original is uninstalled.``` | ```Universal``` | ```All versions``` |
+| ```Remove ad manifest entries``` | ```Removes common ad SDK permissions, services, providers, libraries, and metadata.``` | ```Universal``` | ```All versions``` |
+| ```Remove audio capture policy``` | ```Forces runtime audio capture policy to ALLOW_CAPTURE_BY_ALL.``` | ```Universal``` | ```All versions``` |
+| ```Remove screen capture restriction``` | ```Allows audio playback capture in the manifest.``` | ```Universal``` | ```All versions``` |
+| ```Remove screenshot restriction``` | ```Removes FLAG_SECURE and screenshot blocking.``` | ```Universal``` | ```All versions``` |
+| ```Remove share targets``` | ```Removes chooser/direct share targets.``` | ```Universal``` | ```All versions``` |
+| ```Set target SDK 34``` | ```Sets targetSdkVersion to 34.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Android ID``` | ```Spoofs Settings.Secure android_id reads.``` | ```Universal``` | ```All versions``` |
 | ```Spoof app signature``` | ```Makes the app think its signing certificate is unchanged after Morphe re-signs it. Useful when an app crashes or shows a tamper warning because it checks its own certificate. Does not bypass Play Integrity / SafetyNet hardware attestation. Apply with Original app certificate patch.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Bluetooth identifiers``` | ```Spoofs Bluetooth adapter name and MAC address reads.``` | ```Universal``` | ```All versions``` |
+| ```Spoof build info``` | ```Spoofs common android.os.Build fields with configurable values.``` | ```Universal``` | ```All versions``` |
 | ```Spoof install source``` | ```Makes the app think it was installed from a specific store (default: Google Play). Useful when an app blocks features or shows errors because it detects it was not installed from the Play Store. Only affects what the app itself sees - does not change the real system install record.``` | ```Universal``` | ```All versions``` |
+| ```Spoof keystore security level``` | ```Forces key/security level getters to software/trusted-environment style values.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Pixel device``` | ```Ports PixelSpoof-style Build, system property, and Pixel feature spoofing.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Play age signals``` | ```Spoofs Play age signal result getters.``` | ```Universal``` | ```All versions``` |
+| ```Spoof root of trust``` | ```Spoofs common RootOfTrust verified boot getters.``` | ```Universal``` | ```All versions``` |
+| ```Spoof SIM provider``` | ```Spoofs TelephonyManager SIM/network provider values.``` | ```Universal``` | ```All versions``` |
+| ```Spoof telephony IDs``` | ```Spoofs IMEI, MEID, subscriber ID, SIM serial, and line number reads.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Wi-Fi connection``` | ```Forces common connectivity checks to connected/unmetered.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Wi-Fi identifiers``` | ```Spoofs Wi-Fi SSID, BSSID, and MAC address reads.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Widevine / DRM level``` | ```Reports Widevine L1 (hardware DRM) to apps that check DRM level locally. Useful for apps that refuse to play HD/4K content on L3 devices or after re-signing. Does not bypass server-side DRM - Netflix, Disney+ and similar are not affected.``` | ```Universal``` | ```All versions``` |
+| ```Unlock Turbo``` | ```Unlocks Turbo subscription after login.``` | ```Uptodown App Store``` | ```All versions``` |
 | ```Remove Ads``` | ```Remove in-app ads.``` | ```VIZ Manga``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Wavve Boating GPS premium features: charts, weather, tide data, and removes subscription paywall.``` | ```Wavve Boating``` | ```All versions``` |
 | ```Alert Distances``` | ```Configures radar/camera and hazard alert announcement distances. Credits: Waze CGE Mod.``` | ```Waze``` | ```All versions``` |
