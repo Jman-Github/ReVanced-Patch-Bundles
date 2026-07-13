@@ -40,10 +40,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Alim-zanibekov](#-alim-zanibekov-bundle-patch-list) | 1 | 1 | Generated |
 | [Daboynb](#-daboynb-bundle-patch-list) | 1 | 1 | Generated |
 | [MojiRS-RIF](#-mojirs-rif-bundle-patch-list) | 2 | 1 | Generated |
+| [Coronenic](#-coronenic-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [Babyhuehnchen](#-babyhuehnchen-bundle-patch-list) | 1 | 1 | Generated |
 | [Cobalt-Morphe](#-cobalt-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Pichiwa](#-pichiwa-bundle-patch-list) | 19 | 1 | Generated |
 | [Saiesh](#-saiesh-bundle-patch-list) | 10 | 3 | Generated |
@@ -150,10 +152,18 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
 
-### Unknown
-| Bundle | Patches | Apps | Status |
-| --- | ---: | ---: | --- |
-| [Coronenic](#-coronenic-bundle-patch-list) | 4 | 1 | Generated |
+
+---
+### 🧩 Babyhuehnchen Bundle Patch List:
+[📦 Babyhuehnchen-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-babyhuehnchen-patches-bundle-morphe)
+<details>
+<summary><b>Babyhuehnchen</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Force dark mode``` | ```Enables hidden dark mode setting``` | ```ESApp``` | ```All versions``` |
+
+</details>
 
 ---
 ### 🧩 Cobalt-Morphe Bundle Patch List:

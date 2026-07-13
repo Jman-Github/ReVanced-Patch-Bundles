@@ -1,0 +1,23 @@
+{
+    "version": "v1.0.2",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "name": "ESApp",
+                    "packageName": "at.notrufnoe.edi",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Enables hidden dark mode setting",
+            "name": "Force dark mode",
+            "options": []
+        }
+    ]
+}
