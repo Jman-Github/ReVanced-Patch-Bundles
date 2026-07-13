@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.0-dev.1",
+    "version": "v1.13.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -498,6 +498,26 @@
             "dependencies": [],
             "description": "Disables CamScanner's custom telemetry/log-agent system.",
             "name": "Disable telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1976D2",
+                    "name": "ES File Explorer",
+                    "packageName": "com.estrongs.android.pop",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.4.3.7"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables analytics and telemetry in ES File Explorer",
+            "name": "Disable Tracking",
             "options": []
         },
         {
@@ -3136,7 +3156,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlockins all premium widgets.",
+            "description": "Unlock all premium widgets.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -3627,6 +3647,27 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all premium content in Strength Training by Muscle Motion. Note: Create an exercise plan to access all videos",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1565C0",
+                    "name": "Super File",
+                    "packageName": "com.esuper.file.explorer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.5.6.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium/lifetime featuers in app.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -4744,6 +4785,26 @@
             "dependencies": [],
             "description": "Forces permanent professional VIP tier, removes ads and upgrade popups, bypasses PairIP.",
             "name": "Unlock VIP (Lifetime)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1976D2",
+                    "name": "ES File Explorer",
+                    "packageName": "com.estrongs.android.pop",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.4.3.7"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock Vip Features in APP.",
+            "name": "Unlock VIP Lifetime",
             "options": []
         },
         {
