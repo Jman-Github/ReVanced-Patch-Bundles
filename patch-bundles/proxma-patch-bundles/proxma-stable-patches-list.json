@@ -1,0 +1,197 @@
+{
+    "version": "1.5.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#1E88E5",
+                    "name": "Investify",
+                    "packageName": "com.blueinklabs.investifystocks.free",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.6.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables Google PairIP's license/installer check (com.pairip.licensecheck) so a re-signed build runs on a real device instead of being redirected to the Play Store and killed. No-ops the LicenseContentProvider entry point and LicenseClient.initializeLicenseCheck().",
+            "name": "Bypass PairIP license check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF6B35",
+                    "name": "Simosa",
+                    "packageName": "com.jazz.jazzworld",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "3.3.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables Simosa's anti-tamper signature check so a re-signed APK launches normally instead of stalling on the splash / \"version is not correct\" dialog.",
+            "name": "Bypass signature verification",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#00A94F",
+                    "name": "MyZong",
+                    "packageName": "com.zong.customercare",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "5.19.19.112"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Removes every ad (AdMob) and every tracker (Firebase Analytics, AppsFlyer, Facebook, TikTok, and the Veridium SDK's own Google Analytics) — event sends, full SDK init (AppsFlyer init, TikTok initializeSdk/startTrack, MobileAds.initialize), and auto-collection. Pushwoosh push is left intact. The app then phones home only to its own Zong API.",
+            "name": "Remove ads & tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF6B35",
+                    "name": "Simosa",
+                    "packageName": "com.jazz.jazzworld",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "3.3.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Removes every ad (interstitial, banner, daily-reward) and every tracker (Mixpanel, Firebase, Facebook, AppsFlyer) — app events, network sends, ad-SDK requests (Google Ads / AppLovin / AnyMind / Prebid), SDK auto-collection, and the ipify IP leak. The app then phones home only to its own Jazz API.",
+            "name": "Remove ads & tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#F85606",
+                    "name": "Daraz",
+                    "packageName": "com.daraz.android",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "9.36.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "⚠️ WORK IN PROGRESS — not yet fully verified on-device; use at your own risk. No-ops the analytics/ad/fingerprint egress in Daraz — Alibaba UserTrack clickstream, AUDID/UTDID fingerprint upload, Behavix behavior collection, Meta/Facebook App Events + GAID, Firebase Analytics, Zalo device-tracking, Motu crash/APM, and the UCWeb webview telemetry uploaders — plus manifest auto-collection flags. Login, push (ACCS/FCM), eKYC and the app's own commerce API are left intact. Known gaps: Firebase Analytics runs inside Google Play Services (relies on the manifest flag, not a code stub), residual native UCWeb telemetry needs a DNS/host block, and the split-APK install is still being validated.",
+            "name": "Remove analytics & tracking (WIP)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#00A94F",
+                    "name": "MyZong",
+                    "packageName": "com.zong.customercare",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "5.19.19.112"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Claim MyZong's daily reward with no 'watch ad' popup and no ad. Forces the reward-bubble tap to take the app's own direct-claim branch (the same claim call the post-ad path makes), upstream of both the popup and the rewarded ad.",
+            "name": "Unlock daily reward (skip ad)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#00BCD4",
+                    "name": "NetMonster",
+                    "packageName": "cz.mroczis.netmonster",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "3.4.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks NetMonster Premium — forces the premium repo's derived flows so real-time LTE/NR-NSA location calculation is unlocked, ads are removed, and the status shows Active (far-future expiry) without an Adapty subscription.",
+            "name": "Unlock premium (NetMonster)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#1E88E5",
+                    "name": "Investify",
+                    "packageName": "com.blueinklabs.investifystocks.free",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.6.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Investify premium — forces the backend `no_ads` entitlement getter to report true in both the model and its Realm proxy, so the app treats the account as ad-free without any purchase. Ad SDK loads are gated on this flag app-wide.",
+            "name": "Unlock premium (remove ads)",
+            "options": []
+        }
+    ]
+}

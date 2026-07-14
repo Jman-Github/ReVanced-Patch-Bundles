@@ -6,6 +6,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### API v4
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [Coronenic](#-coronenic-bundle-patch-list) | 4 | 1 | Generated |
 | [AppleMusic](#-applemusic-bundle-patch-list) | 2 | 1 | Generated |
 | [ReVanced](#-revanced-bundle-patch-list) | 288 | 89 | Generated |
 | [Inotia00](#-inotia00-bundle-patch-list) | 127 | 4 | Generated |
@@ -40,11 +41,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Alim-zanibekov](#-alim-zanibekov-bundle-patch-list) | 1 | 1 | Generated |
 | [Daboynb](#-daboynb-bundle-patch-list) | 1 | 1 | Generated |
 | [MojiRS-RIF](#-mojirs-rif-bundle-patch-list) | 2 | 1 | Generated |
-| [Coronenic](#-coronenic-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [Proxma](#-proxma-bundle-patch-list) | 8 | 5 | Generated |
+| [Jouss](#-jouss-bundle-patch-list) | 58 | 23 | Generated |
 | [Babyhuehnchen](#-babyhuehnchen-bundle-patch-list) | 1 | 1 | Generated |
 | [Cobalt-Morphe](#-cobalt-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Pichiwa](#-pichiwa-bundle-patch-list) | 18 | 1 | Generated |
@@ -152,6 +154,93 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
 
+---
+### 🧩 Proxma Bundle Patch List:
+[📦 Proxma-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-proxma-patches-bundle-morphe)
+<details>
+<summary><b>Proxma</b> - 8 patches, 5 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Remove analytics & tracking (WIP)``` | ```⚠️ WORK IN PROGRESS — not yet fully verified on-device; use at your own risk. No-ops the analytics/ad/fingerprint egress in Daraz — Alibaba UserTrack clickstream, AUDID/UTDID fingerprint upload, Behavix behavior collection, Meta/Facebook App Events + GAID, Firebase Analytics, Zalo device-tracking, Motu crash/APM, and the UCWeb webview telemetry uploaders — plus manifest auto-collection flags. Login, push (ACCS/FCM), eKYC and the app's own commerce API are left intact. Known gaps: Firebase Analytics runs inside Google Play Services (relies on the manifest flag, not a code stub), residual native UCWeb telemetry needs a DNS/host block, and the split-APK install is still being validated.``` | ```Daraz``` | ```All versions``` |
+| ```Bypass PairIP license check``` | ```Disables Google PairIP's license/installer check (com.pairip.licensecheck) so a re-signed build runs on a real device instead of being redirected to the Play Store and killed. No-ops the LicenseContentProvider entry point and LicenseClient.initializeLicenseCheck().``` | ```Investify``` | ```All versions``` |
+| ```Unlock premium (remove ads)``` | ```Unlocks Investify premium — forces the backend `no_ads` entitlement getter to report true in both the model and its Realm proxy, so the app treats the account as ad-free without any purchase. Ad SDK loads are gated on this flag app-wide.``` | ```Investify``` | ```All versions``` |
+| ```Remove ads & tracking``` | ```Removes every ad (AdMob) and every tracker (Firebase Analytics, AppsFlyer, Facebook, TikTok, and the Veridium SDK's own Google Analytics) — event sends, full SDK init (AppsFlyer init, TikTok initializeSdk/startTrack, MobileAds.initialize), and auto-collection. Pushwoosh push is left intact. The app then phones home only to its own Zong API.``` | ```MyZong``` | ```All versions``` |
+| ```Unlock daily reward (skip ad)``` | ```Claim MyZong's daily reward with no 'watch ad' popup and no ad. Forces the reward-bubble tap to take the app's own direct-claim branch (the same claim call the post-ad path makes), upstream of both the popup and the rewarded ad.``` | ```MyZong``` | ```All versions``` |
+| ```Unlock premium (NetMonster)``` | ```Unlocks NetMonster Premium — forces the premium repo's derived flows so real-time LTE/NR-NSA location calculation is unlocked, ads are removed, and the status shows Active (far-future expiry) without an Adapty subscription.``` | ```NetMonster``` | ```All versions``` |
+| ```Bypass signature verification``` | ```Disables Simosa's anti-tamper signature check so a re-signed APK launches normally instead of stalling on the splash / "version is not correct" dialog.``` | ```Simosa``` | ```All versions``` |
+| ```Remove ads & tracking``` | ```Removes every ad (interstitial, banner, daily-reward) and every tracker (Mixpanel, Firebase, Facebook, AppsFlyer) — app events, network sends, ad-SDK requests (Google Ads / AppLovin / AnyMind / Prebid), SDK auto-collection, and the ipify IP leak. The app then phones home only to its own Jazz API.``` | ```Simosa``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Jouss Bundle Patch List:
+[📦 Jouss-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jouss-patches-bundle-morphe)
+<details>
+<summary><b>Jouss</b> - 58 patches, 23 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock Premium``` | ```Unlocks all premium missions — Lights On, Step & Walk Off, Push-Up, Squats, Jumping Jack, and Wake Up check.``` | ```Alarmo``` | ```All versions``` |
+| ```CREX Premium``` | ```Unlocks premium features and removes ads.``` | ```CREX - Just Cricket``` | ```All versions``` |
+| ```Cricbuzz Disable Ads``` | ```Removes all ads including banner, interstitial, video, and app open ads.``` | ```Cricbuzz``` | ```All versions``` |
+| ```Cricbuzz Premium``` | ```Unlocks premium features like live streaming and premium articles.``` | ```Cricbuzz``` | ```All versions``` |
+| ```Doc Scanner Premium``` | ```Unlocks all premium features, removes ads, and enables pro themes.``` | ```Document Scanner``` | ```All versions``` |
+| ```Eyecon Premium``` | ```Unlocks premium features.``` | ```Eyecon Caller ID & Spam Block``` | ```All versions``` |
+| ```Fing Premium``` | ```Unlocks premium network tools and features.``` | ```Fing``` | ```All versions``` |
+| ```Bypass signature check``` | ```Bypasses app signature verification to allow API access.``` | ```JioHotstar``` | ```All versions``` |
+| ```Enable all codecs``` | ```Enables all video codecs (H265, VP9, AV1) and 4K resolution by bypassing blacklist and capability checks.``` | ```JioHotstar``` | ```All versions``` |
+| ```Enable screen mirroring``` | ```Allows playback while screen mirroring or HDMI is connected.``` | ```JioHotstar``` | ```All versions``` |
+| ```Enable screenshots``` | ```Removes screenshot and screen recording restrictions.``` | ```JioHotstar``` | ```All versions``` |
+| ```Force HDR10``` | ```Forces HDR10 and HDR10+ playback on compatible devices by bypassing blacklist and capability checks.``` | ```JioHotstar``` | ```All versions``` |
+| ```Premium unlock``` | ```Unlocks premium UI features, removes subscription nudges, and enables downloads.``` | ```JioHotstar``` | ```All versions``` |
+| ```Remove ads``` | ```Removes pre-roll, mid-roll, and live match video ads.``` | ```JioHotstar``` | ```All versions``` |
+| ```Lumina Premium``` | ```Unlocks all premium wallpapers and categories.``` | ```Lumina Walls``` | ```All versions``` |
+| ```MacroDroid Premium``` | ```Unlocks premium features and removes macro limits.``` | ```MacroDroid``` | ```All versions``` |
+| ```Mark Premium``` | ```Unlocks premium features and removes ads.``` | ```Mark``` | ```All versions``` |
+| ```Morolingo Premium``` | ```Unlocks premium features in the Morolingo Darija & Amazigh learning app. Bypasses Pairip license check, RevenueCat entitlement check, and Superwall paywall.``` | ```Morolingo``` | ```All versions``` |
+| ```MX Player Pro License``` | ```Bypasses license verification and signature checks in MX Player Pro.``` | ```MX Player Pro``` | ```All versions``` |
+| ```Anti-delete messages``` | ```Prevents deleted messages from being removed locally.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Anti-disappearing media``` | ```Keeps view-once and self-destructing media viewable forever.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Anti-screenshot notification``` | ```Blocks screenshot notifications from being sent to the other user.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Bypass channel restrictions``` | ```Allows copying text, saving media, and opening blocked channels. Forwarding is server-side blocked and won't work.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Bypass integrity``` | ```Bypasses integrity check to allow login on patched app.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Disable analytics``` | ```Blocks all analytics and tracking.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Disable auto update``` | ```Disables automatic app update checks.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Hide typing indicator``` | ```Prevents typing status from being sent to other users.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Plus Premium``` | ```Unlocks premium feature UI and shows premium badge on self only.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Remove ads``` | ```Removes all ads including Plus banner ads and Telegram sponsored messages.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Teleprompter Premium``` | ```Unlocks premium features in Teleprompter Vlog & Scripts app.``` | ```Prompter Pal``` | ```All versions``` |
+| ```Disable telemetry``` | ```Blocks all telemetry, analytics, and observability data collection.``` | ```Proton VPN``` | ```All versions``` |
+| ```Proton VPN Premium``` | ```Unlocks premium UI features: removes upsells, enables NetShield ad-blocker, hides upgrade prompts, shows free servers with premium interface (Plus badge, no speed limits display, all feature flags enabled).``` | ```Proton VPN``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks SD Maid SE Pro features — full history, scheduled operations, extra options, custom rules.``` | ```SD Maid SE``` | ```All versions``` |
+| ```StarSense Unlock``` | ```Bypasses the unlock code check to enable all features.``` | ```StarSense Explorer``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks Pro features — auto refresh, advanced process management, and all settings.``` | ```TaskManager``` | ```All versions``` |
+| ```Anti-delete messages``` | ```Prevents deleted messages from being removed locally.``` | ```Telegram``` | ```All versions``` |
+| ```Anti-disappearing media``` | ```Keeps view-once and self-destructing media viewable forever.``` | ```Telegram``` | ```All versions``` |
+| ```Bypass channel restrictions``` | ```Allows opening copyrighted, sensitive, and temporarily disabled channels.``` | ```Telegram``` | ```All versions``` |
+| ```Bypass content restrictions``` | ```Allows saving from restricted channels.``` | ```Telegram``` | ```All versions``` |
+| ```Bypass integrity``` | ```Bypasses integrity check to allow login on patched app.``` | ```Telegram``` | ```All versions``` |
+| ```Disable auto update``` | ```Disables automatic app update checks.``` | ```Telegram``` | ```All versions``` |
+| ```Download speed boost``` | ```Increases download chunk size and max concurrent requests.``` | ```Telegram``` | ```All versions``` |
+| ```Hide typing indicator``` | ```Hides your typing indicator from other users.``` | ```Telegram``` | ```All versions``` |
+| ```Remove ads``` | ```Removes sponsored messages and video ads.``` | ```Telegram``` | ```All versions``` |
+| ```Telegram Premium``` | ```Unlocks premium features.``` | ```Telegram``` | ```All versions``` |
+| ```TickTick Premium``` | ```Unlocks premium features, removes limits, and enables AI tools.``` | ```TickTick``` | ```All versions``` |
+| ```TrackIt Premium``` | ```Unlocks premium features.``` | ```TrackIt``` | ```All versions``` |
+| ```Disable telemetry``` | ```Disables AppStartTracker and other telemetry points.``` | ```Truecaller``` | ```All versions``` |
+| ```Disable update check``` | ```Disables the in-app update check.``` | ```Truecaller``` | ```All versions``` |
+| ```GMS sign-in bypass``` | ```Forces SMS-based OTP verification instead of GMS SmsRetriever, fixing sign-in on re-signed APKs.``` | ```Truecaller``` | ```All versions``` |
+| ```Hide Assistant tab``` | ```Hides the Assistant tab from the bottom navigation bar.``` | ```Truecaller``` | ```All versions``` |
+| ```Hide Family Protection button``` | ```Hides the Family Protection button from the bottom navigation bar.``` | ```Truecaller``` | ```All versions``` |
+| ```Hide Premium from settings``` | ```Hides the Premium options from the settings and user details pages.``` | ```Truecaller``` | ```All versions``` |
+| ```Hide Premium tab``` | ```Hides the Premium tab from the bottom navigation bar.``` | ```Truecaller``` | ```All versions``` |
+| ```Hide Scams tab``` | ```Hides the Scams tab from the bottom navigation bar.``` | ```Truecaller``` | ```All versions``` |
+| ```Neutralize third-party SDKs``` | ```Disables telemetry, ad, and tracking SDK initializations. Fixes #84.``` | ```Truecaller``` | ```All versions``` |
+| ```Truecaller Premium``` | ```Unlocks premium features.``` | ```Truecaller``` | ```All versions``` |
+| ```VN Premium``` | ```Unlocks premium features, removes watermark, and hides Pro tab.``` | ```VN``` | ```All versions``` |
+
+</details>
 
 ---
 ### 🧩 Babyhuehnchen Bundle Patch List:
@@ -297,7 +386,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 ---
 ### 🧩 Coronenic Bundle Patch List:
-[📦 Coronenic-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-coronenic-patches-bundle-revanced)
+[📦 Coronenic-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-coronenic-patches-bundle-api-v4)
 <details>
 <summary><b>Coronenic</b> - 4 patches, 1 app</summary>
 

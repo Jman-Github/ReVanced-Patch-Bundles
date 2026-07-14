@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-07-13T17:39:19",
+  "description": "### THE REAL FIX\n\nPatch CustomerInfo.getActiveSubscriptions() to return a non-empty set.\n\n**Root cause:** The JS app checks `activeSubscriptions.length > 0` FIRST in `hasActiveEntitlementOrSubscription()`. If the user never subscribed, RevenueCat returns an empty set. Our `EntitlementInfo.isActive()` patch was useless because there were ZERO `EntitlementInfo` objects to call it on.\n\n**Fix:** `CustomerInfo.getActiveSubscriptions()` now returns `Collections.singleton(\"premium\")` so JS sees an active subscription and calls `setIsPremiumUser(true)`.",
+  "download_url": "https://github.com/Joussflls10/Jouss-Patches/releases/download/v1.21.0/patches-1.21.0.mpp",
+  "signature_download_url": "N/A",
+  "version": "v1.21.0"
+}

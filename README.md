@@ -1824,6 +1824,32 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/babyhuehnchen-patch-bundles/babyhuehnchen-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 Proxma-Patches-Bundle [Morphe]:
+[🧩 Proxma Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-proxma-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/proxma-patch-bundles/proxma-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/proxma-patch-bundles/proxma-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/proxma-patch-bundles/proxma-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Jouss-Patches-Bundle [Morphe]:
+[🧩 Jouss Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-jouss-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jouss-patch-bundles/jouss-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jouss-patch-bundles/jouss-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jouss-patch-bundles/jouss-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -2114,6 +2140,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Cobalt-Morphe-Patches-Bundle](https://github.com/skulldogged/cobalt-morphe)
 
 #### 🏷️ [Babyhuehnchen-Patches-Bundle](https://github.com/babyhuehnchen/morphe-patches)
+
+#### 🏷️ [Proxma-Patches-Bundle](https://github.com/totsiaw/proxma-patches)
+
+#### 🏷️ [Jouss-Patches-Bundle](https://github.com/Joussflls10/Jouss-Patches)
 
 </details>
 
