@@ -49,11 +49,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Jouss](#-jouss-bundle-patch-list) | 58 | 23 | Generated |
 | [Babyhuehnchen](#-babyhuehnchen-bundle-patch-list) | 1 | 1 | Generated |
 | [Cobalt-Morphe](#-cobalt-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Pichiwa](#-pichiwa-bundle-patch-list) | 19 | 1 | Generated |
+| [Pichiwa](#-pichiwa-bundle-patch-list) | 20 | 1 | Generated |
 | [Saiesh](#-saiesh-bundle-patch-list) | 10 | 3 | Generated |
 | [Letterboxd-Stremio](#-letterboxd-stremio-bundle-patch-list) | 3 | 1 | Generated |
 | [Miguel](#-miguel-bundle-patch-list) | 10 | 6 | Generated |
-| [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 10 | 1 | Generated |
+| [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 11 | 1 | Generated |
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 14 | 6 | Generated |
@@ -138,7 +138,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 20 | 10 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 15 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 215 | 144 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 218 | 147 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Legacy
@@ -270,7 +270,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Pichiwa Bundle Patch List:
 [📦 Pichiwa-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-pichiwa-patches-bundle-morphe)
 <details>
-<summary><b>Pichiwa</b> - 19 patches, 1 app</summary>
+<summary><b>Pichiwa</b> - 20 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -293,6 +293,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Remove Updates``` | ```Hide the updates/statuses tab.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Settings Menu``` | ```Add the Pichiwa menu in settings.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Spoof Installer``` | ```Fake installation from Google Play to avoid restrictions.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Spoof Signature``` | ```Forces WhatsApp signature checks to pass by patching the equals method comparison.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 
 </details>
 
@@ -356,7 +357,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Pinterest-Morphed Bundle Patch List:
 [📦 Pinterest-Morphed-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-pinterest-morphed-patches-bundle-morphe)
 <details>
-<summary><b>Pinterest-Morphed</b> - 10 patches, 1 app</summary>
+<summary><b>Pinterest-Morphed</b> - 11 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -366,9 +367,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Disable Google Ads SDK``` | ```Removes the Google Mobile Ads (AdMob) initialization metadata so the SDK never starts.``` | ```Pinterest``` | ```All versions``` |
 | ```Disable Google Engage integration``` | ```Removes the Google Engage broadcast receiver so Pinterest cannot publish content recommendations back to Google (Discover, Assistant, Play Store, etc.).``` | ```Pinterest``` | ```All versions``` |
 | ```Disable Google Engage worker``` | ```Rewrites GoogleEngageWorker.createWork() to return null so WorkManager fails the periodic job and no content recommendations are ever published to Google.``` | ```Pinterest``` | ```All versions``` |
-| ```Hide promoted pins``` | ```Overrides every `isPromoted` getter on the Pinterest pin/story models to return false, so ad chrome, ad beacons and click-out CTAs are never rendered or fired.``` | ```Pinterest``` | ```All versions``` |
+| ```Hide promoted pins``` | ```Neutralises every ad-indicator field on the Pinterest pin/story models (is_promoted, promoted_is_*, is_native, ad_data, ...) so Promoted Pins, shopping-carousel ads, native-content ads and click-out CTAs are never rendered or fired.``` | ```Pinterest``` | ```All versions``` |
 | ```Opt out of Google Analytics``` | ```Sets the default Google Analytics consent flags to false so the Firebase Measurement SDK does not collect analytics, ad data or personalization signals.``` | ```Pinterest``` | ```All versions``` |
 | ```Remove Advertising ID permission``` | ```Strips the com.google.android.gms.permission.AD_ID permission so any residual SDK cannot read the device's Google Advertising ID.``` | ```Pinterest``` | ```All versions``` |
+| ```Sanitize copied links``` | ```Resolves Pinterest short URLs (pin.it/…, pinterest.com/url_shortener/…) to their canonical pin URL before they are placed on the system clipboard, so "Copy link" no longer produces a fingerprinted short link.``` | ```Pinterest``` | ```All versions``` |
 | ```Sanitize sharing links``` | ```Strips UTM and click-ID tracking parameters from the URL the app puts on the Android share sheet, so friends receive clean pin links.``` | ```Pinterest``` | ```All versions``` |
 
 </details>
@@ -4467,7 +4469,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 215 patches, 144 apps</summary>
+<summary><b>Rushiranpise</b> - 218 patches, 147 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4495,6 +4497,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Ultimate``` | ```Unlocks Ultimate Ad-Free + Android TV.``` | ```APKMirror Installer``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all Pro features in app.``` | ```App Permission Manager``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium in Beta by Mirko.``` | ```Beta Maniac``` | ```All versions``` |
+| ```Unlock VIP``` | ```Unlock ViP features in app.``` | ```Block Blast!``` | ```All versions``` |
 | ```Remove ads``` | ```Disables Block Puzzle AdMob initialization, banner, and interstitial ads.``` | ```Block Puzzle``` | ```All versions``` |
 | ```Unlock Lifetime``` | ```Unlocks lifetime subscription features in BlockerHero.``` | ```BlockerHero``` | ```All versions``` |
 | ```Unlock Cloud Service``` | ```Unlocks BluramsGuard cloud storage, AI detection, and playback features.``` | ```Blurams``` | ```All versions``` |
@@ -4540,6 +4543,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Pro``` | ```Unlock Pro Features in app.``` | ```Inmigreat``` | ```All versions``` |
 | ```Unlock Full Version``` | ```Unlocks all features in Inure App Manager.``` | ```Inure App Manager``` | ```All versions``` |
 | ```Unlock Elite``` | ```Unlocks JEFIT Elite features in app.``` | ```JEFIT``` | ```All versions``` |
+| ```Unlock Gold``` | ```Unlocks Kahoot! Plus Gold features in app.``` | ```Kahoot!``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in KillApps.``` | ```KillApps``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock Premium features after login.``` | ```KineMaster``` | ```All versions``` |
 | ```Unlock pro``` | ```Unlocks all pro features.``` | ```KineStop``` | ```All versions``` |
@@ -4558,6 +4562,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock VIP``` | ```Unlocks VIP Features in app.``` | ```MovieBox TV``` | ```All versions``` |
 | ```Unlock VIP``` | ```Unlocks VIP features in app.``` | ```MovieBox, MovieBox (India)``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks MyRadar's yearly premium features``` | ```MyRadar``` | ```All versions``` |
+| ```Unlock premium``` | ```Unlocks NAVITIME Japan Travel Premium features in app``` | ```NAVITIME``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in NetGuard.``` | ```NetGuard``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```NetMonster``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Pro features in app.``` | ```NetShare``` | ```All versions``` |

@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0-dev.1",
+    "version": "v1.13.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -37,7 +37,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.21.0.0"
+                            "version": "5.21.90.800"
                         }
                     ]
                 }
@@ -139,7 +139,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.21.0.0"
+                            "version": "5.21.90.800"
                         }
                     ]
                 }
@@ -374,7 +374,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.21.0.0"
+                            "version": "5.21.90.800"
                         }
                     ]
                 }
@@ -394,7 +394,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.21.0.0"
+                            "version": "5.21.90.800"
                         }
                     ]
                 }
@@ -614,7 +614,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.21.0.0"
+                            "version": "5.21.90.800"
                         }
                     ]
                 }
@@ -907,7 +907,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.21.0.0"
+                            "version": "5.21.90.800"
                         }
                     ]
                 }
@@ -991,7 +991,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.21.0.0"
+                            "version": "5.21.90.800"
                         }
                     ]
                 }
@@ -1135,7 +1135,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.21.0.0"
+                            "version": "5.21.90.800"
                         }
                     ]
                 }
@@ -1285,7 +1285,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.21.0.0"
+                            "version": "5.21.90.800"
                         }
                     ]
                 }
@@ -1560,7 +1560,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.367.0"
+                            "version": "2.368.0"
                         }
                     ]
                 }
@@ -1580,7 +1580,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.21.0.0"
+                            "version": "5.21.90.800"
                         }
                     ]
                 }
@@ -1639,7 +1639,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.21.0.0"
+                            "version": "5.21.90.800"
                         }
                     ]
                 }
@@ -2146,7 +2146,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.21.0.0"
+                            "version": "5.21.90.800"
                         }
                     ]
                 }
@@ -2226,7 +2226,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.2.8"
+                            "version": "1.3.0"
                         }
                     ]
                 }
@@ -2366,7 +2366,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "17.2.5"
+                            "version": "17.2.6"
                         }
                     ]
                 }
@@ -2467,6 +2467,27 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#46178F",
+                    "name": "Kahoot!",
+                    "packageName": "no.mobitroll.kahoot.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.6.7"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Kahoot! Plus Gold features in app.",
+            "name": "Unlock Gold",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#FF5252",
                     "name": "BlockerHero",
                     "packageName": "com.blockerhero",
@@ -2493,7 +2514,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.18.0"
+                            "version": "1.19.0"
                         }
                     ]
                 }
@@ -2700,7 +2721,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.2.4"
+                            "version": "4.2.6"
                         }
                     ]
                 }
@@ -3149,7 +3170,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.0.08"
+                            "version": "1.1.01"
                         }
                     ]
                 }
@@ -3189,7 +3210,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.71.2"
+                            "version": "8.71.3"
                         }
                     ]
                 }
@@ -3229,7 +3250,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.27.0"
+                            "version": "26.28.0"
                         }
                     ]
                 }
@@ -3559,7 +3580,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.0.6"
+                            "version": "8.0.8"
                         }
                     ]
                 }
@@ -3660,7 +3681,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.5.6.2"
+                            "version": "1.5.6.3"
                         }
                     ]
                 }
@@ -3943,6 +3964,27 @@
                 "ResourcePatch"
             ],
             "description": "Unlocks AmoledPix premium features and disables ads.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#003087",
+                    "name": "NAVITIME",
+                    "packageName": "com.navitime.inbound.walk",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.0.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks NAVITIME Japan Travel Premium features in app",
             "name": "Unlock premium",
             "options": []
         },
@@ -4654,6 +4696,27 @@
             "dependencies": [],
             "description": "Unlocks Ultra features in app.",
             "name": "Unlock Ultra",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#4CAF50",
+                    "name": "Block Blast!",
+                    "packageName": "com.block.juggle",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "10.3.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock ViP features in app.",
+            "name": "Unlock VIP",
             "options": []
         },
         {
