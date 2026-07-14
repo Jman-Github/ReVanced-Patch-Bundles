@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.2-dev.1",
+    "version": "v1.3.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -39,6 +39,25 @@
             "dependencies": [],
             "description": "Suppresses the main byAir paywall, unlock banners, and local user gating.",
             "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E2231A",
+                    "name": "Hamropatro",
+                    "packageName": "com.hamropatro",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables all ad serving in Hamro Patro by no-oping the native ad-placement resolver (HamroAdsPlacements). Every banner, native, interstitial, fullscreen and roadblock placement funnels through these leaf builders, so returning an empty list means no ad request is ever built for AdMob, Pangle, IronSource or Facebook Audience Network. Verified on v10.7.30.",
+            "name": "Remove Ads",
             "options": []
         },
         {
