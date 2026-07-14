@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0-dev.2",
+    "version": "v1.13.0-dev.3",
     "patches": [
         {
             "compatiblePackages": null,
@@ -483,6 +483,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#19BCAA",
                     "name": "CamScanner",
                     "packageName": "com.intsig.camscanner",
@@ -503,6 +504,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
                     "appIconColor": "#1976D2",
                     "name": "ES File Explorer",
                     "packageName": "com.estrongs.android.pop",
@@ -570,6 +572,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#58CC02",
                     "name": "Duolingo",
                     "packageName": "com.duolingo",
@@ -706,7 +709,9 @@
         {
             "compatiblePackages": null,
             "default": false,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": "Forces common AppCompat, UiModeManager, and Configuration dark-mode checks to night mode.",
             "name": "Force dark theme",
             "options": []
@@ -2240,6 +2245,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#327CB5",
                     "name": "Flightradar24",
                     "packageName": "com.flightradar24free",
@@ -2260,6 +2266,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#1565C0",
                     "name": "Blurams",
                     "packageName": "com.blurams.ipc",
@@ -2360,6 +2367,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#1A73E8",
                     "name": "JEFIT",
                     "packageName": "je.fit",
@@ -2528,6 +2536,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#FF4B00",
                     "name": "SHAREit Premium",
                     "packageName": "shareit.premium",
@@ -2568,6 +2577,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#0066FF",
                     "name": "Moovit",
                     "packageName": "com.tranzmate",
@@ -2588,6 +2598,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#F43E37",
                     "name": "Pocket Casts",
                     "packageName": "au.com.shiftyjelly.pocketcasts",
@@ -2608,6 +2619,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#5D2DE6",
                     "name": "Life360",
                     "packageName": "com.life360.android.safetymapd",
@@ -2653,6 +2665,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#00ADEF",
                     "name": "Sticker.ly",
                     "packageName": "com.snowcorp.stickerly.android",
@@ -2695,6 +2708,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
                     "appIconColor": "#1565C0",
                     "name": "Ace Ex File Manager",
                     "packageName": "com.ace.ex.file.manager",
@@ -2715,6 +2729,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#2563EB",
                     "name": "AiScore",
                     "packageName": "com.onesports.score",
@@ -2755,26 +2770,7 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#1565C0",
-                    "name": "Anatomy",
-                    "packageName": "air.com.musclemotion.anatomy",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.2.1"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks all premium content in Anatomy by Muscle Motion.",
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
+                    "apkFileType": "APKS",
                     "appIconColor": "#6A1B9A",
                     "name": "Anime Depth Wallpapers",
                     "packageName": "com.jndapp.anime.depth.live.wallpaper",
@@ -2880,6 +2876,27 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#2196F3",
+                    "name": "Countdown Widget",
+                    "packageName": "me.gira.widget.countdown",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features in Countdown Widget",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#2A3B4C",
                     "name": "CPU-Z",
                     "packageName": "com.cpuid.cpu_z",
@@ -2920,6 +2937,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#E53935",
                     "name": "Dailyhunt",
                     "packageName": "com.eterno",
@@ -2940,6 +2958,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#1565C0",
                     "name": "Depth Live Wallpaper",
                     "packageName": "com.jndapp.depth.live.wallpaper",
@@ -2980,6 +2999,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#1565C0",
                     "name": "Flightsky",
                     "packageName": "com.live.flight.tracker",
@@ -3062,6 +3082,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#1B54C8",
                     "name": "KineMaster",
                     "packageName": "com.nexstreaming.app.kinemasterfree",
@@ -3082,6 +3103,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#65AB1E",
                     "name": "komoot",
                     "packageName": "de.komoot.android",
@@ -3102,26 +3124,7 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#E65100",
-                    "name": "Kyphosis",
-                    "packageName": "air.com.musclemotion.kyphosis",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.4.9"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks all premium content.",
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
+                    "apkFileType": "APKS",
                     "appIconColor": "#1DB954",
                     "name": "Lark Player",
                     "packageName": "com.dywx.larkplayer",
@@ -3164,6 +3167,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#212121",
                     "name": "Minimal Widgets",
                     "packageName": "com.jndapp.minimal.widgets",
@@ -3204,6 +3208,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#1A6FBF",
                     "name": "MyRadar",
                     "packageName": "com.acmeaom.android.myradar",
@@ -3352,26 +3357,7 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#2563EB",
-                    "name": "pkge",
-                    "packageName": "net.pkge.pkge",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "19.0.13"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlock Premium features in app.",
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
+                    "apkFileType": "APKS",
                     "appIconColor": "#1D5CFF",
                     "name": "Pocket Prep",
                     "packageName": "com.pocketprep.android.itcybersecurity",
@@ -3388,26 +3374,6 @@
                 "ResourcePatch"
             ],
             "description": "Unlocks Pocket Prep premium subscription gates.",
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#00897B",
-                    "name": "Posture",
-                    "packageName": "air.com.musclemotion.posture",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.2.1"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks all premium content in Posture Correction by Muscle Motion.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -3494,6 +3460,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
                     "appIconColor": "#0D47A1",
                     "name": "RS File Manager",
                     "packageName": "com.rs.explorer.filemanager",
@@ -3534,6 +3501,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#EFC67A",
                     "name": "SCRL",
                     "packageName": "com.appostrophe.scrl",
@@ -3614,6 +3582,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#00A884",
                     "name": "Sticker Maker",
                     "packageName": "com.marsvard.stickermakerforwhatsapp",
@@ -3634,6 +3603,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#FC4C02",
                     "name": "Strava",
                     "packageName": "com.strava",
@@ -3648,26 +3618,6 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Premium features in app. Also re-enables password login after OTP.",
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#E53935",
-                    "name": "Strength Training",
-                    "packageName": "air.com.musclemotion.strength.mobile",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.5.1"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks all premium content in Strength Training by Muscle Motion. Note: Create an exercise plan to access all videos",
             "name": "Unlock Premium",
             "options": []
         },
@@ -3701,7 +3651,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "16.12.0"
+                            "version": "16.13.0"
                         }
                     ]
                 }
@@ -3715,6 +3665,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#2196F3",
                     "name": "Today Weather",
                     "packageName": "mobi.lockdown.weather",
@@ -3768,6 +3719,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#4CAF50",
                     "name": "Toxly",
                     "packageName": "com.mindful.code.studio.toxly.scanner",
@@ -3788,13 +3740,14 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#2962FF",
                     "name": "TradingView",
                     "packageName": "com.tradingview.tradingviewapp",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.20.77.0.1002295"
+                            "version": "1.20.78.0.1002325"
                         }
                     ]
                 }
@@ -3888,46 +3841,6 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#C62828",
-                    "name": "Workout",
-                    "packageName": "air.com.musclemotion.workout",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.2.0"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks all premium content.",
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#7B1FA2",
-                    "name": "Yoga",
-                    "packageName": "air.com.musclemotion.yoga",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.2.1"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks all premium content in Yoga by Muscle Motion.",
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#4CAF50",
                     "name": "Clickmate",
                     "packageName": "com.inscode.autoclicker",
@@ -3948,6 +3861,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#000000",
                     "name": "AmoledPix",
                     "packageName": "com.androholic.amoledpix",
@@ -3991,6 +3905,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#6A0DAD",
                     "name": "Pocket Bard",
                     "packageName": "com.MojoFilterMediaLLC.RPGSoundSystem",
@@ -4031,6 +3946,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#FF6B35",
                     "name": "Pixel Habit Tracker",
                     "packageName": "com.pixel.al.pixelhabittracker",
@@ -4173,6 +4089,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#D9272E",
                     "name": "MEGA",
                     "packageName": "mega.privacy.android.app",
@@ -4291,6 +4208,26 @@
                 "BytecodePatch"
             ],
             "description": "Unlocks 1Tap Cleaner PRO: history export, app-group filters, unlimited cache targets, ad removal.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00BCD4",
+                    "name": "Parallel Space Pro",
+                    "packageName": "com.parallel.space.pro",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.9123"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Pro Features in app.",
             "name": "Unlock Pro",
             "options": []
         },
@@ -4477,6 +4414,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#DD1100",
                     "name": "WolframAlpha",
                     "packageName": "com.wolfram.android.alphapro",
@@ -4537,6 +4475,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#58CC02",
                     "name": "Duolingo",
                     "packageName": "com.duolingo",
@@ -4597,6 +4536,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#000000",
                     "name": "NYT Games",
                     "packageName": "com.nytimes.crossword",
@@ -4617,6 +4557,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#7C3AED",
                     "name": "BuzzCast",
                     "packageName": "com.guochao.faceshow",
@@ -4793,6 +4734,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#FF5722",
                     "name": "PLAYit",
                     "packageName": "com.playit.videoplayer",
@@ -4839,7 +4781,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.11.1-ad_mob"
+                            "version": "2.11.4-ad_mob"
                         }
                     ]
                 }
@@ -4853,6 +4795,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
                     "appIconColor": "#1976D2",
                     "name": "ES File Explorer",
                     "packageName": "com.estrongs.android.pop",
@@ -4900,6 +4843,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#19BCAA",
                     "name": "CamScanner",
                     "packageName": "com.intsig.camscanner",

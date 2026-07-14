@@ -1,5 +1,5 @@
 {
-    "version": "v0.4.0-dev.5",
+    "version": "v0.4.0-dev.11",
     "patches": [
         {
             "compatiblePackages": {
@@ -166,6 +166,18 @@
             "dependencies": [],
             "description": "Escribe sin mostrar \"escribiendo...\".",
             "name": "Hide Typing",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.whatsapp": [
+                    "2.26.27.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Redirects Play Integrity to microG-RE and prompts auto-install if missing.",
+            "name": "MicroG Support",
             "options": [],
             "use": true
         },
