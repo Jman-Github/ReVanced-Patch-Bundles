@@ -1,0 +1,47 @@
+{
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0045",
+                    "name": "ZTE Gallery",
+                    "packageName": "com.android.gallery3d",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "16.0.002.000.2601041449"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Patch to make the PolicyForegroundService background service not start.",
+            "name": "Fix Background Service",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0045",
+                    "name": "ZTE Gallery",
+                    "packageName": "com.android.gallery3d",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "16.0.002.000.2601041449"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Patch to fix the storage permission.",
+            "name": "Fix storage permission",
+            "options": []
+        }
+    ],
+    "version": "v1.0.0"
+}

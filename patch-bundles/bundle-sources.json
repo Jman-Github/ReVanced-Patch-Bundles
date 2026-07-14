@@ -524,11 +524,6 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
-    "ts-patches-stable": {
-        "patches": "https://api.github.com/repos/osirisad/ts-patches",
-        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
-        "prerelease": false
-    },
     "perplexity-stt-stable": {
         "patches": "https://api.github.com/repos/dalapenko/perplexity-stt-android-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
@@ -601,11 +596,6 @@
     },
     "morphe-google-stable": {
         "patches": "https://api.github.com/repos/Ripthulhu/morphe-google-patches",
-        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
-        "prerelease": false
-    },
-    "arunpdl-stable": {
-        "patches": "https://api.github.com/repos/arunpdl/morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
@@ -696,6 +686,26 @@
     },
     "jouss-stable": {
         "patches": "https://api.github.com/repos/Joussflls10/Jouss-Patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "itsthejoker-stable": {
+        "patches": "https://api.github.com/repos/itsthejoker/itsthejoker-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "gmaps-stable": {
+        "patches": "https://api.github.com/repos/fangkampanat/gmaps-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "seobject-stable": {
+        "patches": "https://api.github.com/repos/Seobject/Seobject-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "abeja-stable": {
+        "patches": "https://api.github.com/repos/TheRealCrazyfuy/abeja-morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
@@ -1219,11 +1229,6 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
-    "ts-patches-dev": {
-        "patches": "https://api.github.com/repos/osirisad/ts-patches",
-        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
-        "prerelease": true
-    },
     "perplexity-stt-dev": {
         "patches": "https://api.github.com/repos/dalapenko/perplexity-stt-android-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
@@ -1296,11 +1301,6 @@
     },
     "morphe-google-dev": {
         "patches": "https://api.github.com/repos/Ripthulhu/morphe-google-patches",
-        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
-        "prerelease": true
-    },
-    "arunpdl-dev": {
-        "patches": "https://api.github.com/repos/arunpdl/morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -1391,6 +1391,26 @@
     },
     "jouss-dev": {
         "patches": "https://api.github.com/repos/Joussflls10/Jouss-Patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "itsthejoker-dev": {
+        "patches": "https://api.github.com/repos/itsthejoker/itsthejoker-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "gmaps-dev": {
+        "patches": "https://api.github.com/repos/fangkampanat/gmaps-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "seobject-dev": {
+        "patches": "https://api.github.com/repos/Seobject/Seobject-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "abeja-dev": {
+        "patches": "https://api.github.com/repos/TheRealCrazyfuy/abeja-morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -1914,11 +1934,6 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     },
-    "ts-patches-latest": {
-        "patches": "https://api.github.com/repos/osirisad/ts-patches",
-        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
-        "latest": true
-    },
     "perplexity-stt-latest": {
         "patches": "https://api.github.com/repos/dalapenko/perplexity-stt-android-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
@@ -1991,11 +2006,6 @@
     },
     "morphe-google-latest": {
         "patches": "https://api.github.com/repos/Ripthulhu/morphe-google-patches",
-        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
-        "latest": true
-    },
-    "arunpdl-latest": {
-        "patches": "https://api.github.com/repos/arunpdl/morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     },
@@ -2086,6 +2096,26 @@
     },
     "jouss-latest": {
         "patches": "https://api.github.com/repos/Joussflls10/Jouss-Patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "itsthejoker-latest": {
+        "patches": "https://api.github.com/repos/itsthejoker/itsthejoker-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "gmaps-latest": {
+        "patches": "https://api.github.com/repos/fangkampanat/gmaps-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "seobject-latest": {
+        "patches": "https://api.github.com/repos/Seobject/Seobject-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "abeja-latest": {
+        "patches": "https://api.github.com/repos/TheRealCrazyfuy/abeja-morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

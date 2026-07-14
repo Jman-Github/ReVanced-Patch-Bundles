@@ -1,0 +1,68 @@
+{
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2A1E9E",
+                    "name": "Roost",
+                    "packageName": "com.rookery.courier",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.12"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Multiplies the player's bullet damage by 10 in the Bullet Hell minigame (damage 1 -> 10), applied to both enemies and bosses.",
+            "name": "10x Bullet Damage",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2A1E9E",
+                    "name": "Roost",
+                    "packageName": "com.rookery.courier",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.12"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the PairIP Play-license check so a non-Play (e.g. patched/sideloaded) install no longer redirects to the \"get it on Google Play\" wall on launch.",
+            "name": "Bypass Play Store license check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2A1E9E",
+                    "name": "Roost",
+                    "packageName": "com.rookery.courier",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.12"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Triples the on-screen size of the player's bullets in the Bullet Hell minigame (sizePx 6.0 -> 18.0).",
+            "name": "Triple Bullet Size",
+            "options": []
+        }
+    ],
+    "version": "v1.1.0"
+}

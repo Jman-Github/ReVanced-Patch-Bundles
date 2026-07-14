@@ -45,6 +45,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
+| [ItsTheJoker](#-itsthejoker-bundle-patch-list) | 3 | 1 | Generated |
+| [Gmaps](#-gmaps-bundle-patch-list) | 1 | 1 | Generated |
+| [Seobject](#-seobject-bundle-patch-list) | 1 | 1 | Generated |
+| [Abeja](#-abeja-bundle-patch-list) | 2 | 1 | Generated |
 | [Proxma](#-proxma-bundle-patch-list) | 8 | 5 | Generated |
 | [Jouss](#-jouss-bundle-patch-list) | 58 | 23 | Generated |
 | [Babyhuehnchen](#-babyhuehnchen-bundle-patch-list) | 1 | 1 | Generated |
@@ -62,7 +66,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 12 | 11 | Generated |
-| [Arunpdl](#-arunpdl-bundle-patch-list) | 8 | 4 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 4 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
 | [Prathxm](#-prathxm-bundle-patch-list) | 7 | 1 | Generated |
@@ -78,7 +81,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Perplexity-STT](#-perplexity-stt-bundle-patch-list) | 1 | 1 | Generated |
 | [Browzomje](#-browzomje-bundle-patch-list) | 5 | 1 | Generated |
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
-| [TS-Patches](#-ts-patches-bundle-patch-list) | 1 | 1 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
 | [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 54 | 41 | Generated |
@@ -153,6 +155,57 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [AyushTNM](#-ayushtnm-bundle-patch-list) | 3 | 1 | Generated |
 | [Arsclib](#-arsclib-bundle-patch-list) | 16 | 2 | Generated |
 | [Hepolise](#-hepolise-bundle-patch-list) | 1 | 1 | Generated |
+
+---
+### 🧩 ItsTheJoker Bundle Patch List:
+[📦 ItsTheJoker-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-itsthejoker-patches-bundle-morphe)
+<details>
+<summary><b>ItsTheJoker</b> - 3 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```10x Bullet Damage``` | ```Multiplies the player's bullet damage by 10 in the Bullet Hell minigame (damage 1 -> 10), applied to both enemies and bosses.``` | ```Roost``` | ```All versions``` |
+| ```Bypass Play Store license check``` | ```Disables the PairIP Play-license check so a non-Play (e.g. patched/sideloaded) install no longer redirects to the "get it on Google Play" wall on launch.``` | ```Roost``` | ```All versions``` |
+| ```Triple Bullet Size``` | ```Triples the on-screen size of the player's bullets in the Bullet Hell minigame (sizePx 6.0 -> 18.0).``` | ```Roost``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Gmaps Bundle Patch List:
+[📦 Gmaps-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-gmaps-patches-bundle-morphe)
+<details>
+<summary><b>Gmaps</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Google Maps MicroG``` | ```Routes supported Google Maps builds through ReVanced GmsCore using the patched Maps package and known Google Maps certificate spoof metadata.``` | ```Google Maps``` | ```26.26.04.935742811, 26.27.05.941319029``` |
+
+</details>
+
+---
+### 🧩 Seobject Bundle Patch List:
+[📦 Seobject-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-seobject-patches-bundle-morphe)
+<details>
+<summary><b>Seobject</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Pin playlists``` | ```Replaces Speed Dial pinning with persistent Library playlist pinning.``` | ```YouTube Music``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Abeja Bundle Patch List:
+[📦 Abeja-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-abeja-patches-bundle-morphe)
+<details>
+<summary><b>Abeja</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Fix Background Service``` | ```Patch to make the PolicyForegroundService background service not start.``` | ```ZTE Gallery``` | ```All versions``` |
+| ```Fix storage permission``` | ```Patch to fix the storage permission.``` | ```ZTE Gallery``` | ```All versions``` |
+
+</details>
 
 ---
 ### 🧩 Proxma Bundle Patch List:
@@ -534,25 +587,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 </details>
 
 ---
-### ?? Arunpdl Bundle Patch List:
-[?? Arunpdl-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-arunpdl-patches-bundle-morphe)
-<details>
-<summary><b>Arunpdl</b> - 8 patches, 4 apps</summary>
-
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Enable Online Pro``` | ```Experimental companion patch that keeps byAir's online Pro gates open without forcing the crash-prone global entitlement refresh path.``` | ```byAir``` | ```All versions``` |
-| ```Enable Pro``` | ```Suppresses the main byAir paywall, unlock banners, and local user gating.``` | ```byAir``` | ```All versions``` |
-| ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```JellyWatch``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks all premium features and shop items in JellyWatch.``` | ```JellyWatch``` | ```All versions``` |
-| ```Unlock Premium``` | ```Patches Dart AOT-compiled libapp.so to unlock all premium features. Forces hasPremiumAccess and isPaidUser to always return true by NOPing their ARM64 conditional branch instructions.``` | ```Mero Karobar``` | ```All versions``` |
-| ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```Prismatica Pro``` | ```All versions``` |
-| ```Remove License Check``` | ```Bypasses the PairIP Google Play Licensing check so the app runs without a valid Play Store license.``` | ```Prismatica Pro``` | ```All versions``` |
-| ```Remove Watermark``` | ```Patches the procedural GLSL shader in libharwin_native.so to disable the "PRISMATICA" watermark in the video player and exported videos.``` | ```Prismatica Pro``` | ```All versions``` |
-
-</details>
-
----
 ### ?? Nai64 Bundle Patch List:
 [?? Nai64-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nai64-patches-bundle-morphe)
 <details>
@@ -778,18 +812,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Custom DPI``` | ```Forces a custom display density in dots-per-inch for YouTube and YouTube Music.``` | ```YouTube, YouTube Music``` | ```20.51.39, 8.51.51``` |
 | ```Custom version name``` | ```Overrides android:versionName so a repatched build can install as an update.``` | ```YouTube, YouTube Music``` | ```20.51.39, 8.51.51``` |
 | ```Hide version notice``` | ```Hides the version notice dialog.``` | ```YouTube, YouTube Music``` | ```20.51.39, 8.51.51``` |
-
-</details>
-
----
-### 🧩 TS-Patches Bundle Patch List:
-[📦 TS-Patches-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ts-patches-patches-bundle-morphe)
-<details>
-<summary><b>TS-Patches</b> - 1 patch, 1 app</summary>
-
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Disable ads``` | ```Removes ads by forcing TeamSnap+ Tier 1 subscription status.``` | ```TeamSnap``` | ```7.63.0``` |
 
 </details>
 
