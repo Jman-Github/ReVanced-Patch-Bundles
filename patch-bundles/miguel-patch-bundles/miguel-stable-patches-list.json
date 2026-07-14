@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.10",
+    "version": "v1.9.11",
     "patches": [
         {
             "compatiblePackages": [
@@ -53,7 +53,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Skips Google Play Billing and credits IAP items (crystal packs, tribe skins) directly. Patches the billing bridge to report success, forces Purchase.isAcknowledged() and getPurchaseState() to return valid values, and swallows purchase errors so no error dialog appears.",
+            "description": "Bypasses Polytopia's purchase validation by patching the native IL2CPP library (libil2cpp.so). Makes IsProductUnlocked return true, skips the purchase flow, and suppresses the 'Purchase error' dialog. Pure hex patching, no smali, no extension.",
             "name": "Free in-app purchases",
             "options": []
         },
