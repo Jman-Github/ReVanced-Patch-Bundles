@@ -2199,10 +2199,4 @@ Implemented a patch serializer for all `.rvp` (API v4) patch bundles in this
 
 ## ⭐ Star History
 
-<a href="https://www.star-history.com/?repos=Jman-Github%2FRevanced-Patch-Bundlestype=date&legend=top-left">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Jman-Github/Revanced-Patch-Bundles&type=date&theme=dark&legend=top-left" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Jman-Github/Revanced-Patch-Bundles&type=date&legend=top-left" />
-    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Jman-Github/Revanced-Patch-Bundles&type=date&legend=top-left" />
-  </picture>
-</a>
+[![Star History Chart](https://api.star-history.com/chart?repos=Jman-Github/Revanced-Patch-Bundlestype=date&type=date&legend=top-left&sealed_token=ORKUsht4OVNKSfhsXvs3ZJepz2X0oR7wgn7Eam-hPnsfIyJ-7843-C-shDPjdqC3W-LHutXghTgPXKtKsgaake_XbwSX4aZWMkWBDKEYvkVxbEvK82pcWg)](https://www.star-history.com/?repos=Jman-Github%2FRevanced-Patch-Bundlestype%3Ddate&type=date&legend=top-left)
