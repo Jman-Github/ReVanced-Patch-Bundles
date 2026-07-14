@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.11",
+    "version": "v1.9.12",
     "patches": [
         {
             "compatiblePackages": [
@@ -28,8 +28,10 @@
         {
             "compatiblePackages": null,
             "default": false,
-            "dependencies": [],
-            "description": "Attempts to credit purchases by scanning the app for billing code and applying the appropriate bypass. Runs 4 phases: (1) Cocos2d-x helper — finds app-level success methods. (2) Google Play Billing — patches Purchase.isAcknowledged and getPurchaseState. (3) Unity billing — patches zzbq bridge callbacks (onBillingSetupFinished, onPurchasesUpdated). (4) Fallback — patches billing to return success without crediting.",
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Attempts to credit purchases by scanning the app for billing code and applying the appropriate bypass. Runs 4 phases.",
             "name": "Billing bypass",
             "options": []
         },
@@ -53,7 +55,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Bypasses Polytopia's purchase validation by patching the native IL2CPP library (libil2cpp.so). Makes IsProductUnlocked return true, skips the purchase flow, and suppresses the 'Purchase error' dialog. Pure hex patching, no smali, no extension.",
+            "description": "Patches the Google Play Billing bridge to report success and validate purchases. Handles crystal packs and other IAP items at the billing layer. For unlocking tribes and skins, use the 'Unlock all tribes' patch instead.",
             "name": "Free in-app purchases",
             "options": []
         },
@@ -154,6 +156,14 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Patches libil2cpp.so to bypass Unity IL2CPP billing validation.",
+            "name": "Unity IL2CPP hex patch",
+            "options": []
+        },
+        {
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -197,7 +207,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks all 20 tribes (Xinxi, Imperius, Bardur, Oumaji, Kickoo, Hoodrick, Luxidoor, Vengir, Zebasi, Aimo, Aquarion, Elyrion, Polaris, Magma, Yadakk, Quetzali, Cymanti, Swamp, Ikarus, Urkaz) and all skins by patching the native IL2CPP library (libil2cpp.so). Makes IsTribeUnlocked() and IsSkinUnlocked() always return true via ARM64 hex patching.",
+            "description": "Unlocks all 20 tribes (Xinxi, Imperius, Bardur, Oumaji, Kickoo, Hoodrick, Luxidoor, Vengir, Zebasi, Aimo, Aquarion, Elyrion, Polaris, Magma, Yadakk, Quetzali, Cymanti, Swamp, Ikarus, Urkaz) and all skins by patching the native IL2CPP library (libil2cpp.so). Makes IsProductUnlocked return true, skips the purchase flow, and suppresses the 'Purchase error' dialog. Pure ARM64 hex patching, no smali, no extension.",
             "name": "Unlock all tribes",
             "options": []
         },
