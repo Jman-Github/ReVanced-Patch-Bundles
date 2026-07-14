@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.9",
+    "version": "v1.9.10",
     "patches": [
         {
             "compatiblePackages": [
@@ -29,7 +29,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Attempts to credit purchases by finding the app's own success callback method and calling it directly. Scans for methods like nativeOnSuccess, onPurchaseSuccess, onIAPSuccess, etc. Also supports Unity IL2CPP games by finding nativeOnPurchasesUpdated JNI bridge methods and creating fake Purchase objects. If no success method is found, patches billing to return success without crediting.",
+            "description": "Attempts to credit purchases by scanning the app for billing code and applying the appropriate bypass. Runs 4 phases: (1) Cocos2d-x helper — finds app-level success methods. (2) Google Play Billing — patches Purchase.isAcknowledged and getPurchaseState. (3) Unity billing — patches zzbq bridge callbacks (onBillingSetupFinished, onPurchasesUpdated). (4) Fallback — patches billing to return success without crediting.",
             "name": "Billing bypass",
             "options": []
         },
