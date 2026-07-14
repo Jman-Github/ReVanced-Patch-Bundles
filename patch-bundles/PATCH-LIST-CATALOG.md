@@ -48,7 +48,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ItsTheJoker](#-itsthejoker-bundle-patch-list) | 3 | 1 | Generated |
 | [Gmaps](#-gmaps-bundle-patch-list) | 1 | 1 | Generated |
 | [Seobject](#-seobject-bundle-patch-list) | 1 | 1 | Generated |
-| [Abeja](#-abeja-bundle-patch-list) | 2 | 1 | Generated |
+| [Abeja](#-abeja-bundle-patch-list) | 3 | 1 | Generated |
 | [Proxma](#-proxma-bundle-patch-list) | 8 | 5 | Generated |
 | [Jouss](#-jouss-bundle-patch-list) | 58 | 23 | Generated |
 | [Babyhuehnchen](#-babyhuehnchen-bundle-patch-list) | 1 | 1 | Generated |
@@ -57,7 +57,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Saiesh](#-saiesh-bundle-patch-list) | 10 | 3 | Generated |
 | [Letterboxd-Stremio](#-letterboxd-stremio-bundle-patch-list) | 3 | 1 | Generated |
 | [Miguel](#-miguel-bundle-patch-list) | 10 | 6 | Generated |
-| [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 11 | 1 | Generated |
+| [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 12 | 1 | Generated |
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 14 | 6 | Generated |
@@ -198,10 +198,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Abeja Bundle Patch List:
 [📦 Abeja-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-abeja-patches-bundle-morphe)
 <details>
-<summary><b>Abeja</b> - 2 patches, 1 app</summary>
+<summary><b>Abeja</b> - 3 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Disable AI features``` | ```Patch to disable the AI features.``` | ```ZTE Gallery``` | ```All versions``` |
 | ```Fix Background Service``` | ```Patch to make the PolicyForegroundService background service not start.``` | ```ZTE Gallery``` | ```All versions``` |
 | ```Fix storage permission``` | ```Patch to fix the storage permission.``` | ```ZTE Gallery``` | ```All versions``` |
 
@@ -411,7 +412,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Pinterest-Morphed Bundle Patch List:
 [📦 Pinterest-Morphed-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-pinterest-morphed-patches-bundle-morphe)
 <details>
-<summary><b>Pinterest-Morphed</b> - 11 patches, 1 app</summary>
+<summary><b>Pinterest-Morphed</b> - 12 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -421,6 +422,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Disable Google Ads SDK``` | ```Removes the Google Mobile Ads (AdMob) initialization metadata so the SDK never starts.``` | ```Pinterest``` | ```All versions``` |
 | ```Disable Google Engage integration``` | ```Removes the Google Engage broadcast receiver so Pinterest cannot publish content recommendations back to Google (Discover, Assistant, Play Store, etc.).``` | ```Pinterest``` | ```All versions``` |
 | ```Disable Google Engage worker``` | ```Rewrites GoogleEngageWorker.createWork() to return null so WorkManager fails the periodic job and no content recommendations are ever published to Google.``` | ```Pinterest``` | ```All versions``` |
+| ```Hide ad views``` | ```Collapses Pinterest's ad-specific views (TextAdView, promoted closeup action bars, board sponsor headers, …) to zero-size on construction, so ad chrome never draws even if the feed adapter tries to render one.``` | ```Pinterest``` | ```All versions``` |
 | ```Hide promoted pins``` | ```Neutralises every ad-indicator field on the Pinterest pin/story models (is_promoted, promoted_is_*, is_native, ad_data, ...) so Promoted Pins, shopping-carousel ads, native-content ads and click-out CTAs are never rendered or fired.``` | ```Pinterest``` | ```All versions``` |
 | ```Opt out of Google Analytics``` | ```Sets the default Google Analytics consent flags to false so the Firebase Measurement SDK does not collect analytics, ad data or personalization signals.``` | ```Pinterest``` | ```All versions``` |
 | ```Remove Advertising ID permission``` | ```Strips the com.google.android.gms.permission.AD_ID permission so any residual SDK cannot read the device's Google Advertising ID.``` | ```Pinterest``` | ```All versions``` |

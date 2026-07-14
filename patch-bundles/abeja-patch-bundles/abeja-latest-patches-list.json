@@ -1,4 +1,5 @@
 {
+    "version": "v1.1.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -8,6 +9,33 @@
                     "name": "ZTE Gallery",
                     "packageName": "com.android.gallery3d",
                     "targets": [
+                        {
+                            "isExperimental": true
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "16.0.002.000.2601041449"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Patch to disable the AI features.",
+            "name": "Disable AI features",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0045",
+                    "name": "ZTE Gallery",
+                    "packageName": "com.android.gallery3d",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        },
                         {
                             "isExperimental": false,
                             "version": "16.0.002.000.2601041449"
@@ -30,6 +58,9 @@
                     "packageName": "com.android.gallery3d",
                     "targets": [
                         {
+                            "isExperimental": true
+                        },
+                        {
                             "isExperimental": false,
                             "version": "16.0.002.000.2601041449"
                         }
@@ -42,6 +73,5 @@
             "name": "Fix storage permission",
             "options": []
         }
-    ],
-    "version": "v1.0.0"
+    ]
 }
