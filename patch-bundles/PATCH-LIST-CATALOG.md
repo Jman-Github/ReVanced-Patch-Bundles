@@ -49,7 +49,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Jouss](#-jouss-bundle-patch-list) | 58 | 23 | Generated |
 | [Babyhuehnchen](#-babyhuehnchen-bundle-patch-list) | 1 | 1 | Generated |
 | [Cobalt-Morphe](#-cobalt-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Pichiwa](#-pichiwa-bundle-patch-list) | 18 | 1 | Generated |
+| [Pichiwa](#-pichiwa-bundle-patch-list) | 19 | 1 | Generated |
 | [Saiesh](#-saiesh-bundle-patch-list) | 10 | 3 | Generated |
 | [Letterboxd-Stremio](#-letterboxd-stremio-bundle-patch-list) | 3 | 1 | Generated |
 | [Miguel](#-miguel-bundle-patch-list) | 10 | 6 | Generated |
@@ -270,7 +270,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Pichiwa Bundle Patch List:
 [📦 Pichiwa-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-pichiwa-patches-bundle-morphe)
 <details>
-<summary><b>Pichiwa</b> - 18 patches, 1 app</summary>
+<summary><b>Pichiwa</b> - 19 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -285,6 +285,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Ghost Mode``` | ```Do not receive or send messages while active.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```HD Media``` | ```Send images and videos without compression.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Hide Forwarded``` | ```Quita la etiqueta "reenviado" de los mensajes.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Hide GMS``` | ```Pretends that Google Play Services is missing to force fallback registration flows.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Hide Read Receipts``` | ```Read messages without sending blue ticks.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Hide Typing``` | ```Escribe sin mostrar "escribiendo...".``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```No Forward Limit``` | ```Forward messages to unlimited contacts.``` | ```com.whatsapp``` | ```2.26.27.4``` |

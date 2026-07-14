@@ -1,5 +1,5 @@
 {
-    "version": "v0.3.2-dev.20",
+    "version": "v0.4.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -132,6 +132,18 @@
             "name": "Hide Forwarded",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.whatsapp": [
+                    "2.26.27.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Pretends that Google Play Services is missing to force fallback registration flows.",
+            "name": "Hide GMS",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {
