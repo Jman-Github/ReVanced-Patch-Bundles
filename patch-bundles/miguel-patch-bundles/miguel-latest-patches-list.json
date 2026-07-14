@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.8",
+    "version": "v1.9.10",
     "patches": [
         {
             "compatiblePackages": [
@@ -29,7 +29,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Attempts to credit purchases by finding the app's own success callback method and calling it directly. Scans for methods like nativeOnSuccess, onPurchaseSuccess, onIAPSuccess, etc. Also supports Unity IL2CPP games by finding nativeOnPurchasesUpdated JNI bridge methods and creating fake Purchase objects. If no success method is found, patches billing to return success without crediting.",
+            "description": "Attempts to credit purchases by scanning the app for billing code and applying the appropriate bypass. Runs 4 phases: (1) Cocos2d-x helper — finds app-level success methods. (2) Google Play Billing — patches Purchase.isAcknowledged and getPurchaseState. (3) Unity billing — patches zzbq bridge callbacks (onBillingSetupFinished, onPurchasesUpdated). (4) Fallback — patches billing to return success without crediting.",
             "name": "Billing bypass",
             "options": []
         },
@@ -53,7 +53,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Forces Purchase.isAcknowledged() to return true and getPurchaseState() to return PURCHASED (1), so the game thinks every purchase is valid and completed. Also patches the billing bridge to report success on setup and purchase updates.",
+            "description": "Skips Google Play Billing and credits IAP items (crystal packs, tribe skins) directly. Patches the billing bridge to report success, forces Purchase.isAcknowledged() and getPurchaseState() to return valid values, and swallows purchase errors so no error dialog appears.",
             "name": "Free in-app purchases",
             "options": []
         },
@@ -197,7 +197,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks all 20 tribes (Xinxi, Imperius, Bardur, Oumaji, Kickoo, Hoodrick, Luxidoor, Vengir, Zebasi, Aimo, Aquarion, Elyrion, Polaris, Magma, Yadakk, Quetzali, Cymanti, Swamp, Ikarus, Urkaz) by activating the game's built-in DEBUG MODE. Writes a user.cfg file with debugUnlock=true before the game loads, which makes Polytopia use its internal EverythingUnlockedPlatformPurchaseManager (a debug class that unlocks everything for free).",
+            "description": "Unlocks all 20 tribes (Xinxi, Imperius, Bardur, Oumaji, Kickoo, Hoodrick, Luxidoor, Vengir, Zebasi, Aimo, Aquarion, Elyrion, Polaris, Magma, Yadakk, Quetzali, Cymanti, Swamp, Ikarus, Urkaz) and all skins by patching the native IL2CPP library (libil2cpp.so). Makes IsTribeUnlocked() and IsSkinUnlocked() always return true via ARM64 hex patching.",
             "name": "Unlock all tribes",
             "options": []
         },
