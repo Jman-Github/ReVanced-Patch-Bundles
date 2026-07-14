@@ -1,5 +1,5 @@
 {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -95,31 +95,6 @@
             ],
             "description": "Removes every ad (interstitial, banner, daily-reward) and every tracker (Mixpanel, Firebase, Facebook, AppsFlyer) — app events, network sends, ad-SDK requests (Google Ads / AppLovin / AnyMind / Prebid), SDK auto-collection, and the ipify IP leak. The app then phones home only to its own Jazz API.",
             "name": "Remove ads & tracking",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK_REQUIRED",
-                    "appIconColor": "#F85606",
-                    "name": "Daraz",
-                    "packageName": "com.daraz.android",
-                    "signatures": [],
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "minSdk": 21,
-                            "version": "9.36.2"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "⚠️ WORK IN PROGRESS — not yet fully verified on-device; use at your own risk. No-ops the analytics/ad/fingerprint egress in Daraz — Alibaba UserTrack clickstream, AUDID/UTDID fingerprint upload, Behavix behavior collection, Meta/Facebook App Events + GAID, Firebase Analytics, Zalo device-tracking, Motu crash/APM, and the UCWeb webview telemetry uploaders — plus manifest auto-collection flags. Login, push (ACCS/FCM), eKYC and the app's own commerce API are left intact. Known gaps: Firebase Analytics runs inside Google Play Services (relies on the manifest flag, not a code stub), residual native UCWeb telemetry needs a DNS/host block, and the split-APK install is still being validated.",
-            "name": "Remove analytics & tracking (WIP)",
             "options": []
         },
         {

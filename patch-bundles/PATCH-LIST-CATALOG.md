@@ -45,11 +45,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
-| [ItsTheJoker](#-itsthejoker-bundle-patch-list) | 3 | 1 | Generated |
+| [ItsTheJoker](#-itsthejoker-bundle-patch-list) | 6 | 1 | Generated |
 | [Gmaps](#-gmaps-bundle-patch-list) | 1 | 1 | Generated |
 | [Seobject](#-seobject-bundle-patch-list) | 1 | 1 | Generated |
 | [Abeja](#-abeja-bundle-patch-list) | 3 | 1 | Generated |
-| [Proxma](#-proxma-bundle-patch-list) | 8 | 5 | Generated |
+| [Proxma](#-proxma-bundle-patch-list) | 7 | 4 | Generated |
 | [Jouss](#-jouss-bundle-patch-list) | 58 | 23 | Generated |
 | [Babyhuehnchen](#-babyhuehnchen-bundle-patch-list) | 1 | 1 | Generated |
 | [Cobalt-Morphe](#-cobalt-morphe-bundle-patch-list) | 1 | 1 | Generated |
@@ -160,12 +160,15 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 ItsTheJoker Bundle Patch List:
 [📦 ItsTheJoker-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-itsthejoker-patches-bundle-morphe)
 <details>
-<summary><b>ItsTheJoker</b> - 3 patches, 1 app</summary>
+<summary><b>ItsTheJoker</b> - 6 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```10x Bullet Damage``` | ```Multiplies the player's bullet damage by 10 in the Bullet Hell minigame (damage 1 -> 10), applied to both enemies and bosses.``` | ```Roost``` | ```All versions``` |
+| ```Beam of Death (10x Fire Rate)``` | ```Multiplies the player's firing speed by 10 in the Bullet Hell minigame (fire interval 0.15 -> 0.015, and rapid-fire 0.1 -> 0.01) for a near-continuous beam.``` | ```Roost``` | ```All versions``` |
 | ```Bypass Play Store license check``` | ```Disables the PairIP Play-license check so a non-Play (e.g. patched/sideloaded) install no longer redirects to the "get it on Google Play" wall on launch.``` | ```Roost``` | ```All versions``` |
+| ```Redirect Google login to microG``` | ```Routes Roost's Google Play Services calls to microG RE so a patched install can sign in with Google. Requires microG RE (app.revanced.android.gms) installed.``` | ```Roost``` | ```All versions``` |
+| ```Skip Play Integrity (fix microG Firebase delay)``` | ```Makes Play Integrity attestation fail fast instead of hanging ~60s under microG, removing the delay before Firebase logins, leaderboards, and other backend calls.``` | ```Roost``` | ```All versions``` |
 | ```Triple Bullet Size``` | ```Triples the on-screen size of the player's bullets in the Bullet Hell minigame (sizePx 6.0 -> 18.0).``` | ```Roost``` | ```All versions``` |
 
 </details>
@@ -190,7 +193,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Pin playlists``` | ```Replaces Speed Dial pinning with persistent Library playlist pinning.``` | ```YouTube Music``` | ```All versions``` |
+| ```Pin playlists (dev)``` | ```Experimental YouTube Music 9.24.51, 9.25.50, and 9.26.51 patch that replaces Speed Dial pinning with persistent Library playlist pinning.``` | ```YouTube Music``` | ```All versions``` |
 
 </details>
 
@@ -212,11 +215,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Proxma Bundle Patch List:
 [📦 Proxma-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-proxma-patches-bundle-morphe)
 <details>
-<summary><b>Proxma</b> - 8 patches, 5 apps</summary>
+<summary><b>Proxma</b> - 7 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Remove analytics & tracking (WIP)``` | ```⚠️ WORK IN PROGRESS — not yet fully verified on-device; use at your own risk. No-ops the analytics/ad/fingerprint egress in Daraz — Alibaba UserTrack clickstream, AUDID/UTDID fingerprint upload, Behavix behavior collection, Meta/Facebook App Events + GAID, Firebase Analytics, Zalo device-tracking, Motu crash/APM, and the UCWeb webview telemetry uploaders — plus manifest auto-collection flags. Login, push (ACCS/FCM), eKYC and the app's own commerce API are left intact. Known gaps: Firebase Analytics runs inside Google Play Services (relies on the manifest flag, not a code stub), residual native UCWeb telemetry needs a DNS/host block, and the split-APK install is still being validated.``` | ```Daraz``` | ```All versions``` |
 | ```Bypass PairIP license check``` | ```Disables Google PairIP's license/installer check (com.pairip.licensecheck) so a re-signed build runs on a real device instead of being redirected to the Play Store and killed. No-ops the LicenseContentProvider entry point and LicenseClient.initializeLicenseCheck().``` | ```Investify``` | ```All versions``` |
 | ```Unlock premium (remove ads)``` | ```Unlocks Investify premium — forces the backend `no_ads` entitlement getter to report true in both the model and its Realm proxy, so the app treats the account as ad-free without any purchase. Ad SDK loads are gated on this flag app-wide.``` | ```Investify``` | ```All versions``` |
 | ```Remove ads & tracking``` | ```Removes every ad (AdMob) and every tracker (Firebase Analytics, AppsFlyer, Facebook, TikTok, and the Veridium SDK's own Google Analytics) — event sends, full SDK init (AppsFlyer init, TikTok initializeSdk/startTrack, MobileAds.initialize), and auto-collection. Pushwoosh push is left intact. The app then phones home only to its own Zong API.``` | ```MyZong``` | ```All versions``` |
