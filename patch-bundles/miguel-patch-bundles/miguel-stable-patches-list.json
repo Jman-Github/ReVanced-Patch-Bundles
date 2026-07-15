@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.12",
+    "version": "v1.10.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -31,7 +31,7 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": "Attempts to credit purchases by scanning the app for billing code and applying the appropriate bypass. Runs 4 phases.",
+            "description": "Attempts to credit purchases by scanning the app for billing code and applying the appropriate bypass. Runs 5 phases: (1) Cocos2d-x helper, (2) GameMaker verifyPurchase, (3) Google Play Billing, (4) Unity billing bridge, (5) Fallback. Also depends on Unity IL2CPP hex patch.",
             "name": "Billing bypass",
             "options": []
         },
@@ -80,6 +80,30 @@
             "default": true,
             "dependencies": [],
             "description": "When you try to buy something, the purchase is immediately marked as successful without contacting Google Play. The EA Nimble MTX system receives a null error (success) and grants the item.",
+            "name": "Free in-app purchases",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#4CAF50",
+                    "name": "Climb!",
+                    "packageName": "com.IvanAF.ClimbAMIYPfree",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.0.5"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Skips purchase signature verification and forces billing to report success. Patches RunnerBillingSecurity.verifyPurchase to always return true, Purchase.isAcknowledged/getPurchaseState to return valid values, and the billing bridge callbacks.",
             "name": "Free in-app purchases",
             "options": []
         },
@@ -152,6 +176,30 @@
             "default": true,
             "dependencies": [],
             "description": "Prevents video ads from loading. When the game tries to load an ad, nothing happens. Ads will not be shown.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#4CAF50",
+                    "name": "Climb!",
+                    "packageName": "com.IvanAF.ClimbAMIYPfree",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.0.5"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Simulates the purchase of the 'climbnoads' IAP product so the game thinks you bought No Ads and stops showing ads naturally. Injects a fake Purchase with productId='climbnoads' into the purchase list when the game queries purchases.",
             "name": "Remove ads",
             "options": []
         },
