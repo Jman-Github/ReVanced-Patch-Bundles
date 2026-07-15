@@ -1,5 +1,5 @@
 {
-    "version": "v0.4.0-dev.22",
+    "version": "v0.4.0-dev.30",
     "patches": [
         {
             "compatiblePackages": {
@@ -164,6 +164,18 @@
                 ]
             },
             "dependencies": [],
+            "description": "Bypasses verification bans by spoofing signatures, installers, and faking GMS checks. REQUIRED: You must manually install microG-RE for Play Integrity to pass.",
+            "name": "Login Fix",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.whatsapp": [
+                    "2.26.27.4"
+                ]
+            },
+            "dependencies": [],
             "description": "Forward messages to unlimited contacts.",
             "name": "No Forward Limit",
             "options": [],
@@ -202,18 +214,6 @@
             "dependencies": [],
             "description": "Add the Pichiwa menu in settings.",
             "name": "Settings Menu",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.whatsapp": [
-                    "2.26.27.4"
-                ]
-            },
-            "dependencies": [],
-            "description": "Bypasses SMS verification bans by spoofing signatures, installers, and hiding GMS. REQUIRED: You must manually install microG-RE for Play Integrity to pass.",
-            "name": "SMS Verification Bypass",
             "options": [],
             "use": true
         }
