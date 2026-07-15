@@ -140,7 +140,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 20 | 10 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 15 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 214 | 143 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 215 | 144 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Legacy
@@ -4498,7 +4498,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 214 patches, 143 apps</summary>
+<summary><b>Rushiranpise</b> - 215 patches, 144 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4521,6 +4521,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove ads``` | ```Hides sponsored and ad content in Amazon Shopping via CSS injection.``` | ```Amazon Shopping, Amazon India``` | ```All versions``` |
 | ```Sanitize share links``` | ```Strips tracking parameters from copied/shared Amazon links, leaving only the clean product URL.``` | ```Amazon Shopping, Amazon India``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks AmoledPix premium features and disables ads.``` | ```AmoledPix``` | ```All versions``` |
+| ```Bypass developer verification``` | ```Forces all APK install verification sessions to be bypassed, preventing the verifier from blocking sideloaded or unsigned apps on Android 16+ devices.Important: Requires pushing the patched APK as a system app replacement (e.g. via Magisk module or ADB with root)since the original holds DEVELOPER_VERIFICATION_AGENT permission. ADB installs are exempt from verification regardless.``` | ```Android Developer Verifier``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium wallpapers.``` | ```Anime Depth Wallpapers``` | ```All versions``` |
 | ```Unlock Ultimate``` | ```Unlocks Ultimate Ad-Free + Android TV.``` | ```APKMirror Installer``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all Pro features in app.``` | ```App Permission Manager``` | ```All versions``` |

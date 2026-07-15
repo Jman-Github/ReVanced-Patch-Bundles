@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0-dev.4",
+    "version": "v1.13.0-dev.5",
     "patches": [
         {
             "compatiblePackages": null,
@@ -186,6 +186,27 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#4285F4",
+                    "name": "Android Developer Verifier",
+                    "packageName": "com.google.android.verifier",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.940985764"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces all APK install verification sessions to be bypassed, preventing the verifier from blocking sideloaded or unsigned apps on Android 16+ devices.Important: Requires pushing the patched APK as a system app replacement (e.g. via Magisk module or ADB with root)since the original holds DEVELOPER_VERIFICATION_AGENT permission. ADB installs are exempt from verification regardless.",
+            "name": "Bypass developer verification",
+            "options": []
         },
         {
             "compatiblePackages": [
