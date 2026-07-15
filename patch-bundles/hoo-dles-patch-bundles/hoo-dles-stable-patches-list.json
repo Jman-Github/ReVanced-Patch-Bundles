@@ -1,5 +1,5 @@
 {
-    "version": "v1.38.2",
+    "version": "v1.39.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -195,7 +195,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.85.7"
+                            "version": "6.86.5"
                         }
                     ]
                 }
@@ -308,6 +308,28 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#F79729",
+                    "name": "SuperChinese",
+                    "packageName": "com.superchinese",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.6.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Blocks SuperChinese's custom telemetry reporting.",
+            "name": "Disable telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#4285F4",
                     "name": "Google News",
                     "packageName": "com.google.android.apps.magazines",
@@ -342,7 +364,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.85.7"
+                            "version": "6.86.5"
                         }
                     ]
                 }
@@ -387,6 +409,10 @@
                         {
                             "isExperimental": false,
                             "version": "1.16.7"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.16.15"
                         }
                     ]
                 }
@@ -555,7 +581,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.85.7"
+                            "version": "6.86.5"
                         }
                     ]
                 }
@@ -1018,15 +1044,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "14.0.4"
+                            "version": "14.0.6"
                         }
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "RawResourcePatch"
-            ],
+            "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Prime membership",
             "options": []
@@ -1243,7 +1267,7 @@
                 "BytecodePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
-            "name": "Enable SoundCloud Go+",
+            "name": "Enable SoundCloud Go",
             "options": []
         },
         {
@@ -1519,6 +1543,28 @@
             "dependencies": [],
             "description": "Disables the limit for skipping songs during playback.",
             "name": "Unlimited skips",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F79729",
+                    "name": "SuperChinese",
+                    "packageName": "com.superchinese",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.6.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Only unlocks lessons on the client UI! This is useful for pre-downloading content during free trial periods.",
+            "name": "Unlock all lessons",
             "options": []
         },
         {

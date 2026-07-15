@@ -1,5 +1,5 @@
 {
-    "version": "v1.39.0-dev.4",
+    "version": "v1.39.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -409,6 +409,10 @@
                         {
                             "isExperimental": false,
                             "version": "1.16.7"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.16.15"
                         }
                     ]
                 }
@@ -1263,7 +1267,7 @@
                 "BytecodePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
-            "name": "Enable SoundCloud Go+",
+            "name": "Enable SoundCloud Go",
             "options": []
         },
         {
