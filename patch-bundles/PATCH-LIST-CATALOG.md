@@ -62,7 +62,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 14 | 6 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 16 | 8 | Generated |
-| [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
+| [Modx](#-modx-bundle-patch-list) | 5 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 12 | 11 | Generated |
@@ -103,7 +103,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 77 | 53 | Generated |
-| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 86 | 6 | Generated |
+| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 85 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 126 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
@@ -529,7 +529,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Modx Bundle Patch List:
 [📦 Modx-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-modx-patches-bundle-morphe)
 <details>
-<summary><b>Modx</b> - 7 patches, 1 app</summary>
+<summary><b>Modx</b> - 5 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -538,8 +538,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Hide Video/OTT tab``` | ```Hides the Video/OTT download tab from the home screen by forcing its visibility flag to always report disabled.``` | ```MX Player``` | ```All versions``` |
 | ```Register Modx extension activities``` | ```Adds the ToolsActivity/AboutActivity/tool screens and FileProvider from the extensions/core module to the app's AndroidManifest.xml so they can actually be launched.``` | ```MX Player``` | ```All versions``` |
 | ```Repurpose Search/Games tabs to Tools/About``` | ```Redirects the Search tab to the Modx Tools screen and the Games tab to the Modx About screen.``` | ```MX Player``` | ```All versions``` |
-| ```Restyle Search/Games tab icons to Tools/About``` | ```Overrides the native Search/Games bottom-nav icons with the Modx Tools/About artwork.``` | ```MX Player``` | ```All versions``` |
-| ```Restyle Search/Games tab labels to Tools/About``` | ```Renames the native Search/Games tab labels to Tools/About.``` | ```MX Player``` | ```All versions``` |
 
 </details>
 
@@ -3118,7 +3116,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle-morphe)
 <details>
-<summary><b>AmpleReVanced</b> - 86 patches, 6 apps</summary>
+<summary><b>AmpleReVanced</b> - 85 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3179,7 +3177,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable verifying signature``` | ```Disables the signature verification check that prevents the app from running.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Enable Markdown``` | ```Render plain text messages with markdown-style formatting.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Enable reaction mention flag``` | ```Enables the reaction mention flag in KakaoTalk chat logs.``` | ```Kakao Talk``` | ```All versions``` |
-| ```Enable recording pause/resume feature``` | ```Enable recording pause/resume feature in KakaoTalk``` | ```Kakao Talk``` | ```All versions``` |
 | ```Enable send big text``` | ```Allows sending big text messages in KakaoTalk.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Force enable debug mode``` | ```Enables debug mode in the app.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Force enable emoticon plus feature``` | ```Force enable emoticon plus feature (Unpurchased emoticon can be sent once per day)``` | ```Kakao Talk``` | ```All versions``` |
@@ -3189,7 +3186,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hook Package Manager``` | ```Hooks the Package Manager to bypass integrity checks.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Open profile from open chat feed``` | ```Opens open chat member profiles from join and leave feed messages.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Override feature flag``` | ```Overrides the feature flag to enable the feature.``` | ```Kakao Talk``` | ```All versions``` |
-| ```Play YouTube player in chat room``` | ```Allows playing YouTube videos in KakaoTalk chat rooms.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Register settings activity``` | ```Registers the Morphe settings activity in the app manifest.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Remove BizBoard ads``` | ```Removes the BizBoard ad by forcing its dimensions to 0x0 and visibility to GONE in onMeasure.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Remove feed ad``` | ```Removes the feed ad from the app.``` | ```Kakao Talk``` | ```All versions``` |
@@ -3201,6 +3197,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove Short-form Tab``` | ```Removes the Short-form tab from the now fragment.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Show chatroom channel ID``` | ```Shows the channel ID in chatroom settings and copies it when tapping the chat side title.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Show deleted, hidden, or edited messages``` | ```Allows you to see deleted, hidden, and edited message history in chat logs.``` | ```Kakao Talk``` | ```All versions``` |
+| ```Show message read receipts``` | ```Shows the members who have or have not read each chat message.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Spoof apk checksums``` | ```Spoofs the apk checksums to pass integrity checks.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Spoof App ID``` | ```Spoofs the App ID to bypass integrity checks. (to bypass biometric auth etc.)``` | ```Kakao Talk``` | ```All versions``` |
 | ```Spoof signature``` | ```Spoofs the app signature to pass integrity checks.``` | ```Kakao Talk``` | ```All versions``` |
