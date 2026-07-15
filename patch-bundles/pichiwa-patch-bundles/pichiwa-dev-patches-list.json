@@ -1,5 +1,5 @@
 {
-    "version": "v0.4.0-dev.17",
+    "version": "v0.4.0-dev.22",
     "patches": [
         {
             "compatiblePackages": {
@@ -140,18 +140,6 @@
                 ]
             },
             "dependencies": [],
-            "description": "Pretends that Google Play Services is missing to force fallback registration flows.",
-            "name": "Hide GMS",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.whatsapp": [
-                    "2.26.27.4"
-                ]
-            },
-            "dependencies": [],
             "description": "Read messages without sending blue ticks.",
             "name": "Hide Read Receipts",
             "options": [],
@@ -166,18 +154,6 @@
             "dependencies": [],
             "description": "Escribe sin mostrar \"escribiendo...\".",
             "name": "Hide Typing",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.whatsapp": [
-                    "2.26.27.4"
-                ]
-            },
-            "dependencies": [],
-            "description": "Redirects Play Integrity to microG-RE and prompts auto-install if missing.",
-            "name": "MicroG Support",
             "options": [],
             "use": true
         },
@@ -236,20 +212,8 @@
                 ]
             },
             "dependencies": [],
-            "description": "Fake installation from Google Play to avoid restrictions.",
-            "name": "Spoof Installer",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.whatsapp": [
-                    "2.26.27.4"
-                ]
-            },
-            "dependencies": [],
-            "description": "Forces WhatsApp signature checks to pass by patching the equals method comparison.",
-            "name": "Spoof Signature",
+            "description": "Bypasses SMS verification bans by spoofing signatures, installers, and hiding GMS. REQUIRED: You must manually install microG-RE for Play Integrity to pass.",
+            "name": "SMS Verification Bypass",
             "options": [],
             "use": true
         }
