@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.2",
+    "version": "v1.5.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -123,8 +123,29 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Renames the native Search/Games tab labels to Tools/About and swaps their bottom-nav icons to match the repurposed extension screens.",
-            "name": "Restyle Search/Games tabs to Tools/About",
+            "description": "Overrides the native Search/Games bottom-nav icons with the Modx Tools/About artwork.",
+            "name": "Restyle Search/Games tab icons to Tools/About",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E63030",
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.14.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Renames the native Search/Games tab labels to Tools/About.",
+            "name": "Restyle Search/Games tab labels to Tools/About",
             "options": []
         }
     ]

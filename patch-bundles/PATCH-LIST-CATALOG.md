@@ -62,7 +62,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 14 | 6 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 16 | 8 | Generated |
-| [Modx](#-modx-bundle-patch-list) | 6 | 1 | Generated |
+| [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 12 | 11 | Generated |
@@ -529,7 +529,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Modx Bundle Patch List:
 [📦 Modx-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-modx-patches-bundle-morphe)
 <details>
-<summary><b>Modx</b> - 6 patches, 1 app</summary>
+<summary><b>Modx</b> - 7 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -538,7 +538,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Hide Video/OTT tab``` | ```Hides the Video/OTT download tab from the home screen by forcing its visibility flag to always report disabled.``` | ```MX Player``` | ```All versions``` |
 | ```Register Modx extension activities``` | ```Adds the ToolsActivity/AboutActivity/tool screens and FileProvider from the extensions/core module to the app's AndroidManifest.xml so they can actually be launched.``` | ```MX Player``` | ```All versions``` |
 | ```Repurpose Search/Games tabs to Tools/About``` | ```Redirects the Search tab to the Modx Tools screen and the Games tab to the Modx About screen.``` | ```MX Player``` | ```All versions``` |
-| ```Restyle Search/Games tabs to Tools/About``` | ```Renames the native Search/Games tab labels to Tools/About and swaps their bottom-nav icons to match the repurposed extension screens.``` | ```MX Player``` | ```All versions``` |
+| ```Restyle Search/Games tab icons to Tools/About``` | ```Overrides the native Search/Games bottom-nav icons with the Modx Tools/About artwork.``` | ```MX Player``` | ```All versions``` |
+| ```Restyle Search/Games tab labels to Tools/About``` | ```Renames the native Search/Games tab labels to Tools/About.``` | ```MX Player``` | ```All versions``` |
 
 </details>
 
