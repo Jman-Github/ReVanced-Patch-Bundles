@@ -54,7 +54,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Babyhuehnchen](#-babyhuehnchen-bundle-patch-list) | 1 | 1 | Generated |
 | [Cobalt-Morphe](#-cobalt-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Pichiwa](#-pichiwa-bundle-patch-list) | 18 | 1 | Generated |
-| [Saiesh](#-saiesh-bundle-patch-list) | 10 | 3 | Generated |
+| [Saiesh](#-saiesh-bundle-patch-list) | 10 | 4 | Generated |
 | [Letterboxd-Stremio](#-letterboxd-stremio-bundle-patch-list) | 3 | 1 | Generated |
 | [Miguel](#-miguel-bundle-patch-list) | 11 | 6 | Generated |
 | [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 12 | 1 | Generated |
@@ -355,14 +355,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Saiesh Bundle Patch List:
 [📦 Saiesh-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-saiesh-patches-bundle-morphe)
 <details>
-<summary><b>Saiesh</b> - 10 patches, 3 apps</summary>
+<summary><b>Saiesh</b> - 10 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable PairIP DRM``` | ```Disables PairIP signature verification and Google Play LVL license check. Required for the app to launch after re-signing.``` | ```AT4K Launcher (Android TV)``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features by forcing the premium state to true in the purchase manager.``` | ```AT4K Launcher (Android TV)``` | ```All versions``` |
-| ```Disable PairIP DRM``` | ```Disables PairIP signature verification, Google Play LVL license check, System.exit kill switch, checksum integrity verification, and MHSDK analytics. Required for the app to launch after re-signing.``` | ```Lightroom``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks all premium features by forcing entitlement status to SUBSCRIPTION and making all premium gating checks return true.``` | ```Lightroom``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium features by forcing the pro_version SharedPreferences check to always return true.``` | ```ISS Live Now``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium features by bypassing the native library premium check.``` | ```Projectivy Launcher``` | ```All versions``` |
 | ```Fix Firebase after re-signing``` | ```Fixes Firebase services (push notifications, Remote Config, Firebase Auth) that break after Morphe re-signs the app with a different certificate. Apply with Original app certificate patch no other config needed.``` | ```Universal``` | ```All versions``` |
 | ```GmsCore support (MicroG)``` | ```Routes Google Play Services calls through MicroG instead of real GPS. Works for: Google apps (YouTube, Maps, News, Photos) and third-party apps using classic Google Sign-In (Android 13 and below). Does not work for: Android 14+ Credential Manager sign-in (most modern third-party apps), Play Integrity / SafetyNet checks, or apps with custom auth. Requires MicroG RE installed. Apply with Original app certificate patch.``` | ```Universal``` | ```All versions``` |
 | ```Provide Original app certificate``` | ```By Default it Reads the signing certificate from the original app installed. Required for GmsCore, Firebase, and Signature spoof patches. Only fill options below if the original is uninstalled.``` | ```Universal``` | ```All versions``` |

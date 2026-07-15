@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-14T15:51:11",
-  "description": "## Changes\r\n\r\n- Enable `Google Maps MicroG` by default for Morphe Desktop Quick mode.\r\n- Update the README with the Quick mode patch-source setup flow.\r\n- Keep the supported Google Maps versions and patch logic unchanged.\r\n\r\n## Artifact\r\n\r\n`patches-1.0.3.mpp`\r\nSHA-256: `C07B85B1D4EEE50C447C0B7519C0C4119FFAC6F1FAAB2F53705D9CA004C163EF`",
-  "download_url": "https://github.com/fangkampanat/gmaps-patches/releases/download/v1.0.3/patches-1.0.3.mpp",
+  "created_at": "2026-07-15T18:01:59",
+  "description": "Adds inspected compatibility for Google Maps 26.28.03.942936911 (versionCode 1068670201, minSdk 28).\n\n- Adds the application, activity, and Google Play services availability fingerprints confirmed in the new APK.\n- Keeps Google Maps 26.27.05.941319029 and 26.26.04.935742811 compatibility.\n- Runtime validation for 26.28.03 is still pending; 26.27.05 remains the BYD-validated stable build.\n\nThis release contains a Morphe patch bundle only. Users must supply their own clean APK and patch it with Morphe Desktop.",
+  "download_url": "https://github.com/fangkampanat/gmaps-patches/releases/download/v1.0.4/patches-1.0.4.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.0.3"
+  "version": "v1.0.4"
 }

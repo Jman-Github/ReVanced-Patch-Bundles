@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.4",
+    "version": "v1.0.7",
     "patches": [
         {
             "compatiblePackages": [
@@ -18,26 +18,6 @@
             "default": true,
             "dependencies": [],
             "description": "Disables PairIP signature verification and Google Play LVL license check. Required for the app to launch after re-signing.",
-            "name": "Disable PairIP DRM",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#31ADFF",
-                    "name": "Lightroom",
-                    "packageName": "com.adobe.lrmobile",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "11.4.4"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables PairIP signature verification, Google Play LVL license check, System.exit kill switch, checksum integrity verification, and MHSDK analytics. Required for the app to launch after re-signing.",
             "name": "Disable PairIP DRM",
             "options": []
         },
@@ -248,20 +228,40 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#31ADFF",
-                    "name": "Lightroom",
-                    "packageName": "com.adobe.lrmobile",
+                    "appIconColor": "#1A73E8",
+                    "name": "ISS Live Now",
+                    "packageName": "com.nicedayapps.iss_free",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.4.4"
+                            "version": "8.5.3"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks all premium features by forcing entitlement status to SUBSCRIPTION and making all premium gating checks return true.",
+            "description": "Unlocks all premium features by forcing the pro_version SharedPreferences check to always return true.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FFDD00",
+                    "name": "Projectivy Launcher",
+                    "packageName": "com.spocky.projengmenu",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.71"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features by bypassing the native library premium check.",
             "name": "Unlock Premium",
             "options": []
         }
