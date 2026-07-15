@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0",
+    "version": "v1.10.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -91,6 +91,10 @@
                     "name": "Climb!",
                     "packageName": "com.IvanAF.ClimbAMIYPfree",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.0.6"
+                        },
                         {
                             "isExperimental": false,
                             "version": "6.0.5"
@@ -189,6 +193,10 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "6.0.6"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "6.0.5"
                         },
                         {
@@ -199,7 +207,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Simulates the purchase of the 'climbnoads' IAP product so the game thinks you bought No Ads and stops showing ads naturally. Injects a fake Purchase with productId='climbnoads' into the purchase list when the game queries purchases.",
+            "description": "Simulates the purchase of the 'climbnoads' IAP product so the game thinks you bought No Ads and stops showing ads naturally. Patches GPBilling_Purchase_GetState to return PURCHASED when called with 'climbnoads'.",
             "name": "Remove ads",
             "options": []
         },
