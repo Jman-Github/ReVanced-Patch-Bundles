@@ -1,5 +1,5 @@
 {
-    "version": "v1.34.0",
+    "version": "v1.35.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -36,6 +36,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -53,6 +58,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -94,6 +100,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -155,6 +166,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -273,6 +289,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -329,6 +350,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -392,6 +418,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -448,6 +479,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -573,6 +609,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -794,6 +835,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -906,6 +952,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -960,6 +1011,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -1103,6 +1159,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -1163,17 +1224,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.28.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.27.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.26.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.25.0"
                         },
                         {
                             "isExperimental": true,
@@ -1248,6 +1304,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -1271,6 +1332,60 @@
             ],
             "description": "Adds an option to change the opacity of the video player background when player controls are visible.",
             "name": "Custom player overlay opacity",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0000",
+                    "name": "YouTube Music",
+                    "packageName": "com.google.android.apps.youtube.music",
+                    "signatures": [
+                        "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+                        "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.26.51"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.25.50"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.24.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "9.15.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "8.51.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.29.52"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to prevent skipping to the next track when the dislike button is pressed.",
+            "name": "Disable dislike redirection",
             "options": []
         },
         {
@@ -1304,6 +1419,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -1423,6 +1543,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -1479,6 +1604,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -1542,6 +1672,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -1600,6 +1735,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -1639,17 +1779,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.28.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.27.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.26.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.25.0"
                         },
                         {
                             "isExperimental": true,
@@ -1717,6 +1852,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -1834,6 +1974,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -1893,6 +2038,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -1931,17 +2081,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.28.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.27.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.26.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.25.0"
                         },
                         {
                             "isExperimental": true,
@@ -2000,6 +2145,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -2064,6 +2214,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -2124,6 +2279,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -2179,6 +2339,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -2297,6 +2462,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -2408,6 +2578,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -2636,6 +2811,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -2752,6 +2932,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -2868,6 +3053,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -2964,17 +3154,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.28.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.27.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.26.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.25.0"
                         },
                         {
                             "isExperimental": true,
@@ -3038,6 +3223,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -3080,17 +3270,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.28.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.27.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.26.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.25.0"
                         },
                         {
                             "isExperimental": true,
@@ -3151,6 +3336,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -3249,17 +3439,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.28.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.27.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.26.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.25.0"
                         },
                         {
                             "isExperimental": true,
@@ -3323,6 +3508,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -3380,6 +3570,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -3552,6 +3747,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -3668,6 +3868,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -3772,17 +3977,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.28.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.27.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.26.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.25.0"
                         },
                         {
                             "isExperimental": true,
@@ -3842,6 +4042,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -3910,6 +4115,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -3951,17 +4161,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.28.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.27.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.26.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.25.0"
                         },
                         {
                             "isExperimental": true,
@@ -4020,6 +4225,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -4084,6 +4294,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -4140,6 +4355,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -4207,17 +4427,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.28.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.27.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.26.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.25.0"
                         },
                         {
                             "isExperimental": true,
@@ -4280,6 +4495,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -4318,17 +4538,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.28.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.27.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.26.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.25.0"
                         },
                         {
                             "isExperimental": true,
@@ -4388,6 +4603,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -4457,6 +4677,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -4517,6 +4742,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -4572,6 +4802,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -4747,6 +4982,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -4866,6 +5106,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -4926,6 +5171,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -4965,17 +5215,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.28.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.27.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.26.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.25.0"
                         },
                         {
                             "isExperimental": true,
@@ -5018,17 +5263,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.28.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.27.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.26.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.25.0"
                         },
                         {
                             "isExperimental": true,
@@ -5092,6 +5332,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -5144,6 +5389,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -5212,6 +5462,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -5229,7 +5484,6 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -5270,6 +5524,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -5343,6 +5602,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -5365,60 +5629,6 @@
             ],
             "description": "Overrides YouTube Music buttons to open Morphe Music or any compatible third-party client.",
             "name": "Override YouTube Music buttons",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK_REQUIRED",
-                    "appIconColor": "#FF0000",
-                    "name": "YouTube Music",
-                    "packageName": "com.google.android.apps.youtube.music",
-                    "signatures": [
-                        "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
-                        "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
-                    ],
-                    "targets": [
-                        {
-                            "isExperimental": true,
-                            "minSdk": 26,
-                            "version": "9.26.51"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 26,
-                            "version": "9.25.50"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 26,
-                            "version": "9.24.51"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 26,
-                            "version": "9.15.51"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 26,
-                            "version": "8.51.51"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 26,
-                            "version": "7.29.52"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Adds an option to always repeat even if the playlist ends or another track is played.",
-            "name": "Permanent repeat",
             "options": []
         },
         {
@@ -5452,6 +5662,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -5518,6 +5733,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -5574,6 +5794,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -5653,6 +5878,116 @@
             "default": true,
             "dependencies": [
                 "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to remember the repeat state when playing a new track or playlist.",
+            "name": "Remember repeat state",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0000",
+                    "name": "YouTube Music",
+                    "packageName": "com.google.android.apps.youtube.music",
+                    "signatures": [
+                        "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+                        "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.26.51"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.25.50"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.24.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "9.15.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "8.51.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.29.52"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to remember the shuffle state when playing a new track or playlist.",
+            "name": "Remember shuffle state",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0000",
+                    "name": "YouTube Music",
+                    "packageName": "com.google.android.apps.youtube.music",
+                    "signatures": [
+                        "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+                        "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.26.51"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.25.50"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.24.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "9.15.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "8.51.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.29.52"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -5691,6 +6026,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -5738,17 +6078,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.28.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.27.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.26.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.25.0"
                         },
                         {
                             "isExperimental": true,
@@ -5811,6 +6146,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -5866,6 +6206,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -5966,17 +6311,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.28.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.27.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.26.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.25.0"
                         },
                         {
                             "isExperimental": true,
@@ -6039,6 +6379,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -6094,6 +6439,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -6217,6 +6567,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -6279,6 +6634,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -6319,17 +6679,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.28.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.27.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.26.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.25.0"
                         },
                         {
                             "isExperimental": true,
@@ -6449,6 +6804,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -6482,61 +6842,53 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK_REQUIRED",
-                    "appIconColor": "#FF0033",
-                    "name": "YouTube",
-                    "packageName": "com.google.android.youtube",
+                    "appIconColor": "#FF0000",
+                    "name": "YouTube Music",
+                    "packageName": "com.google.android.apps.youtube.music",
                     "signatures": [
-                        "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
-                        "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+                        "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+                        "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
                     ],
                     "targets": [
                         {
                             "isExperimental": true,
-                            "minSdk": 29,
-                            "version": "21.26.360"
+                            "minSdk": 26,
+                            "version": "9.26.51"
                         },
                         {
                             "isExperimental": true,
-                            "minSdk": 29,
-                            "version": "21.25.523"
+                            "minSdk": 26,
+                            "version": "9.25.50"
                         },
                         {
                             "isExperimental": true,
-                            "minSdk": 29,
-                            "version": "21.24.360"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "21.05.265"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.31.42"
+                            "minSdk": 26,
+                            "version": "9.24.51"
                         },
                         {
                             "isExperimental": false,
                             "minSdk": 26,
-                            "version": "20.21.37"
+                            "version": "9.15.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "8.51.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.29.52"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch",
-                "BytecodePatch",
-                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds an option to trick YouTube into thinking you are running an older version of the app. This can be used to restore old UI elements and features.",
+            "description": "Adds an option to trick the app into thinking you are running an older version.",
             "name": "Spoof app version",
             "options": []
         },
@@ -6571,6 +6923,78 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "20.51.39"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "20.31.42"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "20.21.37"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to trick the app into thinking you are running an older version.",
+            "name": "Spoof app version",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0033",
+                    "name": "YouTube",
+                    "packageName": "com.google.android.youtube",
+                    "signatures": [
+                        "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+                        "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.26.360"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.25.523"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.24.360"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -6613,17 +7037,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
+                            "version": "2026.28.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
                             "version": "2026.27.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.26.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.25.0"
                         },
                         {
                             "isExperimental": true,
@@ -6745,6 +7164,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -6804,6 +7228,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -6944,6 +7373,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,
@@ -7115,6 +7549,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "20.51.39"
                         },
                         {
@@ -7173,6 +7612,11 @@
                             "isExperimental": true,
                             "minSdk": 28,
                             "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
                         },
                         {
                             "isExperimental": false,

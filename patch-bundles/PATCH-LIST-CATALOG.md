@@ -142,7 +142,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
 | [Rushiranpise](#-rushiranpise-bundle-patch-list) | 207 | 144 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
-| [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 28 | 2 | Generated |
+| [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 126 | 4 | Generated |
 
 ### Legacy
@@ -4749,7 +4749,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 RIVanced-Universal Bundle Patch List:
 [📦 RIVanced-Universal-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rivanced-universal-patches-bundle-morphe)
 <details>
-<summary><b>RIVanced-Universal</b> - 28 patches, 2 apps</summary>
+<summary><b>RIVanced-Universal</b> - 27 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4780,7 +4780,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Spoof root of trust``` | ```Spoofs device integrity states (Locked Bootloader, Verified OS) for apps that perform local certificate attestation.``` | ```Universal``` | ```All versions``` |
 | ```Spoof SIM provider``` | ```Spoofs information about the SIM card provider.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Wi-Fi connection``` | ```Spoofs an existing Wi-Fi connection.``` | ```Universal``` | ```All versions``` |
-| ```Example Patch``` | ```Example patch to start with.``` | ```XYZ app``` | ```All versions``` |
 
 </details>
 
