@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.5",
+    "version": "v1.1.0-dev.7",
     "patches": [
         {
             "compatiblePackages": [
@@ -32,9 +32,11 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Experimental YouTube Music 9.24.51, 9.25.50, and 9.26.51 patch that replaces Speed Dial pinning with persistent Library playlist pinning.",
-            "name": "Pin playlists (dev)",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Pins playlists to the top of the YouTube Music Library.",
+            "name": "Pin playlists",
             "options": []
         }
     ]
