@@ -1876,6 +1876,32 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/abeja-patch-bundles/abeja-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 RIVanced-Universal-Patches-Bundle [Morphe]:
+[🧩 RIVanced-Universal Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-rivanced-universal-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rivanced-universal-patch-bundles/rivanced-universal-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rivanced-universal-patch-bundles/rivanced-universal-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rivanced-universal-patch-bundles/rivanced-universal-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Variablenine-Patches-Bundle [Morphe]:
+[🧩 Variablenine Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-variablenine-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/variablenine-patch-bundles/variablenine-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/variablenine-patch-bundles/variablenine-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/variablenine-patch-bundles/variablenine-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -2176,6 +2202,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Abeja-Patches-Bundle](https://github.com/TheRealCrazyfuy/abeja-morphe-patches)
 
 </details>
+
+#### 🏷️ [RIVanced-Universal-Patches-Bundle](https://github.com/rushiranpise/RI-Vanced-Universal-Morphe-Patches)
+
+#### 🏷️ [Variablenine-Patches-Bundle](https://github.com/variablenine/morphe-patches)
 
 ## 🖇 Integrations Repositories In Use
 
