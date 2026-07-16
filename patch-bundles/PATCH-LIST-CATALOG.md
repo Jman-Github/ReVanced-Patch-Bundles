@@ -409,7 +409,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock all tribes``` | ```Unlocks all 20 tribes (Xinxi, Imperius, Bardur, Oumaji, Kickoo, Hoodrick, Luxidoor, Vengir, Zebasi, Aimo, Aquarion, Elyrion, Polaris, Magma, Yadakk, Quetzali, Cymanti, Swamp, Ikarus, Urkaz) and all skins by patching the native IL2CPP library (libil2cpp.so). Makes IsProductUnlocked return true, skips the purchase flow, and suppresses the 'Purchase error' dialog. Pure ARM64 hex patching, no smali, no extension.``` | ```The Battle of Polytopia``` | ```All versions``` |
 | ```Billing bypass``` | ```Attempts to credit purchases by scanning the app for billing code and applying the appropriate bypass. Runs 5 phases: (1) Cocos2d-x helper, (2) GameMaker verifyPurchase, (3) Google Play Billing, (4) Unity billing bridge, (5) Fallback. Also depends on Unity IL2CPP hex patch.``` | ```Universal``` | ```All versions``` |
 | ```Unity IL2CPP hex patch``` | ```Patches libil2cpp.so to bypass Unity IL2CPP billing validation.``` | ```Universal``` | ```All versions``` |
-| ```Unlock all``` | ```Unlocks everything, sets all currencies to 999999999, bypasses PairIP anti-tamper, and fixes 'Get this app from Play' by forcing billing connection to report success.``` | ```Zombie Catchers``` | ```All versions``` |
+| ```Unlock all``` | ```Hex patches libcocos2dcpp.so to: bypass Play Store redirect (openPlayStore, openUrl, quitApplication), skip billing connection, return null from getSHA256, and make getIntegerForKey return 999999999 for Balance keys. Pure native patching — no DEX modification, no C++ integrity check trigger.``` | ```Zombie Catchers``` | ```All versions``` |
 
 </details>
 

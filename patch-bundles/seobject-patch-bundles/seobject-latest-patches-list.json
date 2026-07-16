@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.9",
+    "version": "v1.0.7",
     "patches": [
         {
             "compatiblePackages": [
@@ -14,19 +14,9 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": true,
+                            "isExperimental": false,
                             "minSdk": 26,
-                            "version": "9.26.51"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 26,
-                            "version": "9.25.50"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 26,
-                            "version": "9.24.51"
+                            "version": "9.15.51"
                         }
                     ]
                 }

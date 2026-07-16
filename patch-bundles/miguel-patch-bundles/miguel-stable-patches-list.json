@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.4",
+    "version": "v1.11.7",
     "patches": [
         {
             "compatiblePackages": [
@@ -263,7 +263,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks everything, sets all currencies to 999999999, bypasses PairIP anti-tamper, and fixes 'Get this app from Play' by forcing billing connection to report success.",
+            "description": "Hex patches libcocos2dcpp.so to: bypass Play Store redirect (openPlayStore, openUrl, quitApplication), skip billing connection, return null from getSHA256, and make getIntegerForKey return 999999999 for Balance keys. Pure native patching — no DEX modification, no C++ integrity check trigger.",
             "name": "Unlock all",
             "options": []
         },
