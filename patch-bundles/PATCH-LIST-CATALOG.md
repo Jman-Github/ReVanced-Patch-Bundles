@@ -62,7 +62,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 14 | 6 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 16 | 8 | Generated |
-| [Modx](#-modx-bundle-patch-list) | 5 | 1 | Generated |
+| [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 12 | 11 | Generated |
@@ -140,7 +140,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 20 | 10 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 15 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 215 | 144 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 207 | 144 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 28 | 2 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 126 | 4 | Generated |
@@ -345,7 +345,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Hide Forwarded``` | ```Quita la etiqueta "reenviado" de los mensajes.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Hide Read Receipts``` | ```Read messages without sending blue ticks.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Hide Typing``` | ```Escribe sin mostrar "escribiendo...".``` | ```com.whatsapp``` | ```2.26.27.4``` |
-| ```Login Fix``` | ```Bypasses verification bans by spoofing signatures and faking GMS checks. REQUIRED: You must manually install microG-RE for Play Integrity to pass.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Login Fix``` | ```Bypasses verification bans by spoofing signatures, installers, and faking GMS checks. REQUIRED: You must manually install microG-RE for Play Integrity to pass.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```No Forward Limit``` | ```Forward messages to unlimited contacts.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Remove Communities``` | ```Hide the communities tab.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Remove Updates``` | ```Hide the updates/statuses tab.``` | ```com.whatsapp``` | ```2.26.27.4``` |
@@ -534,7 +534,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Modx Bundle Patch List:
 [📦 Modx-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-modx-patches-bundle-morphe)
 <details>
-<summary><b>Modx</b> - 5 patches, 1 app</summary>
+<summary><b>Modx</b> - 7 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -543,6 +543,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Hide Video/OTT tab``` | ```Hides the Video/OTT download tab from the home screen by forcing its visibility flag to always report disabled.``` | ```MX Player``` | ```All versions``` |
 | ```Register Modx extension activities``` | ```Adds the ToolsActivity/AboutActivity/tool screens and FileProvider from the extensions/core module to the app's AndroidManifest.xml so they can actually be launched.``` | ```MX Player``` | ```All versions``` |
 | ```Repurpose Search/Games tabs to Tools/About``` | ```Redirects the Search tab to the Modx Tools screen and the Games tab to the Modx About screen.``` | ```MX Player``` | ```All versions``` |
+| ```Restyle Search/Games tab icons to Tools/About``` | ```Overrides the native Search/Games bottom-nav icons with the Modx Tools/About artwork.``` | ```MX Player``` | ```All versions``` |
+| ```Restyle Search/Games tab labels to Tools/About``` | ```Renames the native Search/Games tab labels to Tools/About.``` | ```MX Player``` | ```All versions``` |
 
 </details>
 
@@ -4501,7 +4503,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 215 patches, 144 apps</summary>
+<summary><b>Rushiranpise</b> - 207 patches, 144 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4655,13 +4657,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Ads``` | ```Prevents the AppOpen ad preloader from initialising.``` | ```Unimote``` | ```All versions``` |
 | ```Suppress Paywall``` | ```Suppresses the in-app paywall.``` | ```Unimote``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Unimote``` | ```All versions``` |
-| ```Add resource file``` | ```Adds or replaces one raw APK file from text options.``` | ```Universal``` | ```All versions``` |
-| ```Change package name``` | ```Changes manifest package and optionally provider/permission authorities.``` | ```Universal``` | ```All versions``` |
 | ```Change version code``` | ```Changes android:versionCode.``` | ```Universal``` | ```All versions``` |
-| ```Custom certificates``` | ```Adds a permissive network security config with system/user certs.``` | ```Universal``` | ```All versions``` |
 | ```Disable ad SDK calls``` | ```No-ops common ad SDK load/show/init/fetch methods in bundled ad packages.``` | ```Universal``` | ```All versions``` |
 | ```Disable clipboard access``` | ```Blocks app clipboard reads and writes.``` | ```Universal``` | ```All versions``` |
-| ```Disable Play Integrity``` | ```Blocks Play Integrity service binding.``` | ```Universal``` | ```All versions``` |
 | ```Disable shake ads``` | ```Skips SensorManager.registerListener calls that can power shake-to-ad behavior.``` | ```Universal``` | ```All versions``` |
 | ```Enable Android debugging``` | ```Sets android:debuggable=true.``` | ```Universal``` | ```All versions``` |
 | ```Enable debug build target``` | ```Forces compatible BUILD_TARGET debug providers to debug=true.``` | ```Universal``` | ```All versions``` |
@@ -4671,7 +4669,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Fix Firebase after re-signing``` | ```Fixes Firebase services (push notifications, Remote Config, Firebase Auth) that break after Morphe re-signs the app with a different certificate. Apply with Original app certificate patch no other config needed.``` | ```Universal``` | ```All versions``` |
 | ```Force dark theme``` | ```Forces common AppCompat, UiModeManager, and Configuration dark-mode checks to night mode.``` | ```Universal``` | ```All versions``` |
 | ```GmsCore support (MicroG)``` | ```Routes Google Play Services calls through MicroG instead of real GPS. Works for: Google apps (YouTube, Maps, News, Photos) and third-party apps using classic Google Sign-In (Android 13 and below). Does not work for: Android 14+ Credential Manager sign-in (most modern third-party apps), Play Integrity / SafetyNet checks, or apps with custom auth. Requires MicroG RE installed. Apply with Original app certificate patch.``` | ```Universal``` | ```All versions``` |
-| ```Hex patch``` | ```Replaces one hex byte pattern inside one APK file.``` | ```Universal``` | ```All versions``` |
 | ```Hide ADB status``` | ```Hides adb_enabled and development_settings_enabled.``` | ```Universal``` | ```All versions``` |
 | ```Hide app icon``` | ```Removes launcher category from MAIN launcher filters.``` | ```Universal``` | ```All versions``` |
 | ```Hide mock location``` | ```Hides mock-location signals from app checks.``` | ```Universal``` | ```All versions``` |
@@ -4680,9 +4677,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Predictive back gesture``` | ```Enables Android predictive back gesture.``` | ```Universal``` | ```All versions``` |
 | ```Provide Original app certificate``` | ```By Default it Reads the signing certificate from the original app installed. Required for GmsCore, Firebase, and Signature spoof patches. Only fill options below if the original is uninstalled.``` | ```Universal``` | ```All versions``` |
 | ```Remove ad manifest entries``` | ```Removes common ad SDK permissions, services, providers, libraries, and metadata.``` | ```Universal``` | ```All versions``` |
-| ```Remove audio capture policy``` | ```Forces runtime audio capture policy to ALLOW_CAPTURE_BY_ALL.``` | ```Universal``` | ```All versions``` |
-| ```Remove screen capture restriction``` | ```Allows audio playback capture in the manifest.``` | ```Universal``` | ```All versions``` |
-| ```Remove screenshot restriction``` | ```Removes FLAG_SECURE and screenshot blocking.``` | ```Universal``` | ```All versions``` |
 | ```Remove share targets``` | ```Removes chooser/direct share targets.``` | ```Universal``` | ```All versions``` |
 | ```Set target SDK 34``` | ```Sets targetSdkVersion to 34.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Android ID``` | ```Spoofs Settings.Secure android_id reads.``` | ```Universal``` | ```All versions``` |

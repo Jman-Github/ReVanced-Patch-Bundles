@@ -1,4 +1,5 @@
 {
+    "version": "v1.1.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -590,11 +591,13 @@
             "name": "Change header",
             "options": [
                 {
+                    "default": null,
                     "description": "Folder with images to use as a custom header logo.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- drawable-hdpi\n- drawable-xhdpi\n- drawable-xxhdpi\n- drawable-xxxhdpi\n\nEach of the folders must contain the following file(s):\n- morphe_header_custom_dark.png\n\nRequired dimensions:\n- drawable-hdpi: 121x36 px\n- drawable-xhdpi: 160x48 px\n- drawable-xxhdpi: 240x72 px\n- drawable-xxxhdpi: 320x96 px",
                     "key": "custom",
                     "required": false,
                     "title": "Custom header logo",
-                    "type": "kotlin.String"
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ]
         },
@@ -656,11 +659,13 @@
             "name": "Change header",
             "options": [
                 {
+                    "default": null,
                     "description": "Folder with images to use as a custom header logo.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- drawable-hdpi\n- drawable-xhdpi\n- drawable-xxhdpi\n- drawable-xxxhdpi\n\nEach of the folders must contain the following file(s):\n- morphe_header_custom_light.png\n- morphe_header_custom_dark.png\n\nRequired dimensions:\n- drawable-hdpi: 194x72 px\n- drawable-xhdpi: 258x96 px\n- drawable-xxhdpi: 387x144 px\n- drawable-xxxhdpi: 512x192 px",
                     "key": "custom",
                     "required": false,
                     "title": "Custom header logo",
-                    "type": "kotlin.String"
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ]
         },
@@ -720,6 +725,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "BytecodePatch"
@@ -744,7 +750,8 @@
                     "key": "updatePermissions",
                     "required": false,
                     "title": "Update permissions",
-                    "type": "kotlin.Boolean"
+                    "type": "kotlin.Boolean",
+                    "values": null
                 },
                 {
                     "default": false,
@@ -752,7 +759,8 @@
                     "key": "updateProviders",
                     "required": false,
                     "title": "Update providers",
-                    "type": "kotlin.Boolean"
+                    "type": "kotlin.Boolean",
+                    "values": null
                 }
             ]
         },
@@ -1100,18 +1108,22 @@
             "name": "Custom branding",
             "options": [
                 {
+                    "default": null,
                     "description": "Custom app name.",
                     "key": "customName",
                     "required": false,
                     "title": "App name",
-                    "type": "kotlin.String"
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nmorphe_adaptive_background_custom.png\nmorphe_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with a monochrome icon file:\nmorphe_adaptive_monochrome_custom.xml\n\nOptionally, the path contains a notification icon in one of the following formats:\n- XML vector drawable placed in 'drawable':\nmorphe_notification_icon_custom.xml\n- PNG raster images placed in the matching 'drawable-<dpi>' folders:\n- drawable-mdpi/morphe_notification_icon_custom.png (24x24 px)\n- drawable-hdpi/morphe_notification_icon_custom.png (36x36 px)\n- drawable-xhdpi/morphe_notification_icon_custom.png (48x48 px)\n- drawable-xxhdpi/morphe_notification_icon_custom.png (72x72 px)\n- drawable-xxxhdpi/morphe_notification_icon_custom.png (96x96 px)",
                     "key": "customIcon",
                     "required": false,
                     "title": "Custom icon",
-                    "type": "kotlin.String"
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ]
         },
@@ -1177,18 +1189,22 @@
             "name": "Custom branding",
             "options": [
                 {
+                    "default": null,
                     "description": "Custom app name.",
                     "key": "customName",
                     "required": false,
                     "title": "App name",
-                    "type": "kotlin.String"
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nmorphe_adaptive_background_custom.png\nmorphe_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with a monochrome icon file:\nmorphe_adaptive_monochrome_custom.xml\n\nOptionally, the path contains a notification icon in one of the following formats:\n- XML vector drawable placed in 'drawable':\nmorphe_notification_icon_custom.xml\n- PNG raster images placed in the matching 'drawable-<dpi>' folders:\n- drawable-mdpi/morphe_notification_icon_custom.png (24x24 px)\n- drawable-hdpi/morphe_notification_icon_custom.png (36x36 px)\n- drawable-xhdpi/morphe_notification_icon_custom.png (48x48 px)\n- drawable-xxhdpi/morphe_notification_icon_custom.png (72x72 px)\n- drawable-xxxhdpi/morphe_notification_icon_custom.png (96x96 px)",
                     "key": "customIcon",
                     "required": false,
                     "title": "Custom icon",
-                    "type": "kotlin.String"
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ]
         },
@@ -1766,6 +1782,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Disables Play Store updates by setting the version code to the maximum allowed. This patch does not work if the app is installed by mounting and may cause unexpected issues with some apps.",
@@ -4235,7 +4252,8 @@
                     "key": "hideShortsAppShortcut",
                     "required": false,
                     "title": "Hide Shorts app shortcut",
-                    "type": "kotlin.Boolean"
+                    "type": "kotlin.Boolean",
+                    "values": null
                 },
                 {
                     "default": false,
@@ -4243,7 +4261,8 @@
                     "key": "hideShortsWidget",
                     "required": false,
                     "title": "Hide Shorts widget",
-                    "type": "kotlin.Boolean"
+                    "type": "kotlin.Boolean",
+                    "values": null
                 }
             ]
         },
@@ -5334,6 +5353,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy.",
@@ -7272,6 +7292,5 @@
             "name": "Voice over translation",
             "options": []
         }
-    ],
-    "version": "v1.1.0"
+    ]
 }

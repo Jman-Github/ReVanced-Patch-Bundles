@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0",
+    "version": "v1.5.16",
     "patches": [
         {
             "compatiblePackages": [
@@ -104,6 +104,48 @@
             "dependencies": [],
             "description": "Redirects the Search tab to the Modx Tools screen and the Games tab to the Modx About screen.",
             "name": "Repurpose Search/Games tabs to Tools/About",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E63030",
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.14.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Overrides the native Search/Games bottom-nav icons with the Modx Tools/About artwork.",
+            "name": "Restyle Search/Games tab icons to Tools/About",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E63030",
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.14.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Renames the native Search/Games tab labels to Tools/About.",
+            "name": "Restyle Search/Games tab labels to Tools/About",
             "options": []
         }
     ]

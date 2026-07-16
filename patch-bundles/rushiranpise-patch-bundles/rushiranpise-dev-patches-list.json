@@ -1,33 +1,6 @@
 {
-    "version": "v1.13.0-dev.5",
+    "version": "v1.13.0-dev.6",
     "patches": [
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Adds or replaces one raw APK file from text options.",
-            "name": "Add resource file",
-            "options": [
-                {
-                    "default": "res/values/morphe_added.xml",
-                    "description": null,
-                    "key": "universalAddResourcePath",
-                    "required": true,
-                    "title": "Target path",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "",
-                    "description": null,
-                    "key": "universalAddResourceContent",
-                    "required": false,
-                    "title": "File content",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
         {
             "compatiblePackages": [
                 {
@@ -254,33 +227,6 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Changes manifest package and optionally provider/permission authorities.",
-            "name": "Change package name",
-            "options": [
-                {
-                    "default": "append.morphe",
-                    "description": null,
-                    "key": "universalNewPackageName",
-                    "required": true,
-                    "title": "New package or suffix",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "true",
-                    "description": null,
-                    "key": "universalRewriteAuthorities",
-                    "required": true,
-                    "title": "Rewrite authorities",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
             "description": "Changes android:versionCode.",
             "name": "Change version code",
             "options": [
@@ -290,24 +236,6 @@
                     "key": "universalVersionCode",
                     "required": true,
                     "title": "Version code",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Adds a permissive network security config with system/user certs.",
-            "name": "Custom certificates",
-            "options": [
-                {
-                    "default": "true",
-                    "description": null,
-                    "key": "universalAllowCleartext",
-                    "required": true,
-                    "title": "Allow cleartext",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -456,14 +384,6 @@
             "dependencies": [],
             "description": "Blocks app clipboard reads and writes.",
             "name": "Disable clipboard access",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Blocks Play Integrity service binding.",
-            "name": "Disable Play Integrity",
             "options": []
         },
         {
@@ -786,42 +706,6 @@
                     "key": "packageName",
                     "required": false,
                     "title": "Custom package name (optional)",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Replaces one hex byte pattern inside one APK file.",
-            "name": "Hex patch",
-            "options": [
-                {
-                    "default": "classes.dex",
-                    "description": null,
-                    "key": "universalHexTargetPath",
-                    "required": true,
-                    "title": "Target path",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "",
-                    "description": null,
-                    "key": "universalHexFrom",
-                    "required": true,
-                    "title": "Find hex",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "",
-                    "description": null,
-                    "key": "universalHexTo",
-                    "required": true,
-                    "title": "Replace hex",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -1538,14 +1422,6 @@
             "options": []
         },
         {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Forces runtime audio capture policy to ALLOW_CAPTURE_BY_ALL.",
-            "name": "Remove audio capture policy",
-            "options": []
-        },
-        {
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
@@ -1564,22 +1440,6 @@
             "dependencies": [],
             "description": "Removes all  item limits in-app.",
             "name": "Remove Item Limits",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Allows audio playback capture in the manifest.",
-            "name": "Remove screen capture restriction",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Removes FLAG_SECURE and screenshot blocking.",
-            "name": "Remove screenshot restriction",
             "options": []
         },
         {

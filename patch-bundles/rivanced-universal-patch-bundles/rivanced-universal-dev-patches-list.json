@@ -1,6 +1,8 @@
 {
+    "version": "v1.0.0-dev.3",
     "patches": [
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Appends \".rivanced\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
@@ -11,6 +13,7 @@
                     "description": "The name of the package to rename the app to.",
                     "key": "Package name",
                     "required": true,
+                    "title": null,
                     "type": "kotlin.String",
                     "values": {
                         "Default": "Default"
@@ -21,18 +24,23 @@
                     "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
                     "key": "Update permissions",
                     "required": false,
-                    "type": "kotlin.Boolean"
+                    "title": null,
+                    "type": "kotlin.Boolean",
+                    "values": null
                 },
                 {
                     "default": false,
                     "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
                     "key": "Update providers",
                     "required": false,
-                    "type": "kotlin.Boolean"
+                    "title": null,
+                    "type": "kotlin.Boolean",
+                    "values": null
                 }
             ]
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.",
@@ -43,6 +51,7 @@
                     "description": "The version code to use. Using the highest value turns off app store updates and allows downgrading an existing app install to an older app version.",
                     "key": "Version code",
                     "required": true,
+                    "title": null,
                     "type": "kotlin.Int",
                     "values": {
                         "Highest": 2147483647,
@@ -52,6 +61,7 @@
             ]
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Allows trusting custom certificate authorities for a specific domain.",
@@ -64,52 +74,68 @@
                     "description": "List of domains to which the custom trust configuration will be applied (one domain per entry).",
                     "key": "Target domains",
                     "required": true,
-                    "type": "kotlin.collections.List<kotlin.String>"
+                    "title": null,
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
                 },
                 {
                     "default": false,
                     "description": "Applies the configuration to all subdomains of the target domains.",
                     "key": "Include subdomains",
                     "required": true,
-                    "type": "kotlin.Boolean"
+                    "title": null,
+                    "type": "kotlin.Boolean",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "List of paths to files in PEM or DER format (one file path per entry).\n\nMakes an app trust the provided custom certificate authorities (CAs),\nfor the specified domains, and if the option \"Include Subdomains\" is enabled then also the subdomains.\n\n\nCA files will be bundled in res/raw/ of resulting APK",
                     "key": "Custom CA file paths",
                     "required": false,
-                    "type": "kotlin.collections.List<kotlin.String>"
+                    "title": null,
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
                 },
                 {
                     "default": false,
                     "description": "Makes an app trust certificates from the Android user store for the specified domains, and if the option \"Include Subdomains\" is enabled then also the subdomains.",
                     "key": "Trust user added CAs",
                     "required": true,
-                    "type": "kotlin.Boolean"
+                    "title": null,
+                    "type": "kotlin.Boolean",
+                    "values": null
                 },
                 {
                     "default": true,
                     "description": "Makes an app trust certificates from the Android system store for the specified domains, and and if the option \"Include Subdomains\" is enabled then also the subdomains.",
                     "key": "Trust system CAs",
                     "required": true,
-                    "type": "kotlin.Boolean"
+                    "title": null,
+                    "type": "kotlin.Boolean",
+                    "values": null
                 },
                 {
                     "default": false,
                     "description": "Allows unencrypted HTTP traffic for the specified domains, and if \"Include Subdomains\" is enabled then also the subdomains.",
                     "key": "Allow cleartext traffic (HTTP)",
                     "required": true,
-                    "type": "kotlin.Boolean"
+                    "title": null,
+                    "type": "kotlin.Boolean",
+                    "values": null
                 },
                 {
                     "default": false,
                     "description": "Overrides certificate pinning for the specified domains and their subdomains if the option \"Include Subdomains\" is enabled to allow inspecting app traffic via a proxy.",
                     "key": "Override certificate pinning",
                     "required": true,
-                    "type": "kotlin.Boolean"
+                    "title": null,
+                    "type": "kotlin.Boolean",
+                    "values": null
                 }
             ]
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Disable PairIP license and VM checks.",
@@ -120,11 +146,14 @@
                     "description": "Enables detailed native library and VM logging for debugging PairIP.",
                     "key": "Enable VM logging",
                     "required": false,
-                    "type": "kotlin.Boolean"
+                    "title": null,
+                    "type": "kotlin.Boolean",
+                    "values": null
                 }
             ]
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "BytecodePatch"
@@ -134,6 +163,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Disables Sentry telemetry. See https://sentry.io/for/android/ for more information.",
@@ -141,6 +171,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Enables Android debugging capabilities. This can slow down the app.",
@@ -148,16 +179,20 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Spoofs the signature via the manifest meta-data \"fake-signature\". This patch only works with ROMs that support signature spoofing.",
             "name": "Enable ROM signature spoofing",
             "options": [
                 {
+                    "default": null,
                     "description": "The hex-encoded signature or path to an APK file with the desired signature.",
                     "key": "Signature or APK file path",
                     "required": true,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ]
         },
@@ -189,6 +224,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Makes all app activities exportable.",
@@ -196,6 +232,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "BytecodePatch"
@@ -205,6 +242,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "RawResourcePatch"
@@ -213,14 +251,18 @@
             "name": "Hex",
             "options": [
                 {
+                    "default": null,
                     "description": "Hexadecimal patterns to search for and replace with another in a target file.\n\nA pattern is a sequence of case insensitive strings, each representing hexadecimal bytes, separated by spaces.\nAn example pattern is 'aa 01 02 FF'.\n\nEvery pattern must be followed by a pipe ('|'), the replacement pattern,\nanother pipe ('|'), and the path to the file to make the changes in relative to the APK root. \nThe replacement pattern must be shorter or equal in length to the pattern.\n\nFull example of a valid replacement:\n'01 02 aa FF|03 04|path/to/file'",
                     "key": "Replacements",
                     "required": true,
-                    "type": "kotlin.collections.List<kotlin.String>"
+                    "title": null,
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
                 }
             ]
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "BytecodePatch"
@@ -230,6 +272,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Hides the app icon from the Android launcher.",
@@ -237,6 +280,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "BytecodePatch"
@@ -246,6 +290,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "ResourcePatch"
@@ -255,6 +300,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Enables the predictive back gesture introduced on Android 13.",
@@ -262,6 +308,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "BytecodePatch"
@@ -271,6 +318,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "ResourcePatch",
@@ -281,6 +329,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "BytecodePatch",
@@ -291,6 +340,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Removes share targets like directly sharing to a frequent contact.",
@@ -298,6 +348,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Changes the target SDK to version 34 (Android 14). For devices running Android 15+, this will disable edge-to-edge display.",
@@ -305,6 +356,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "BytecodePatch"
@@ -313,152 +365,225 @@
             "name": "Spoof build info",
             "options": [
                 {
+                    "default": null,
                     "description": "The name of the underlying board, like \"goldfish\".",
                     "key": "Board",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "The system bootloader version number.",
                     "key": "Bootloader",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "The consumer-visible brand with which the product/hardware will be associated, if any.",
                     "key": "Brand",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "This field was deprecated in API level 21. Use SUPPORTED_ABIS instead.",
                     "key": "CPU ABI",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "This field was deprecated in API level 21. Use SUPPORTED_ABIS instead.",
                     "key": "CPU ABI 2",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "The name of the industrial design.",
                     "key": "Device",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "A build ID string meant for displaying to the user.",
                     "key": "Display",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "A string that uniquely identifies this build.",
                     "key": "Fingerprint",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "The name of the hardware (from the kernel command line or /proc).",
                     "key": "Hardware",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "The host.",
                     "key": "Host",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "Either a changelist number, or a label like \"M4-rc20\".",
                     "key": "ID",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "The manufacturer of the product/hardware.",
                     "key": "Manufacturer",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "The end-user-visible name for the end product.",
                     "key": "Model",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "The SKU of the device as set by the original design manufacturer (ODM).",
                     "key": "ODM SKU",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "The name of the overall product.",
                     "key": "Product",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "This field was deprecated in API level 15. The radio firmware version is frequently not available when this class is initialized, leading to a blank or \"unknown\" value for this string. Use getRadioVersion() instead.",
                     "key": "Radio",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "This field was deprecated in API level 26. Use getSerial() instead.",
                     "key": "Serial",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "The SKU of the hardware (from the kernel command line).",
                     "key": "SKU",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "The manufacturer of the device's primary system-on-chip.",
                     "key": "SOC manufacturer",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "The model name of the device's primary system-on-chip.",
                     "key": "SOC model",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "Comma-separated tags describing the build, like \"unsigned,debug\".",
                     "key": "Tags",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "The time at which the build was produced, given in milliseconds since the UNIX epoch.",
                     "key": "Time",
                     "required": false,
-                    "type": "kotlin.Long"
+                    "title": null,
+                    "type": "kotlin.Long",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "The type of build, like \"user\" or \"eng\".",
                     "key": "Type",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "The user.",
                     "key": "User",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ]
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Forces apps to see Keymaster and Attestation security levels as 'StrongBox' (Level 2).",
@@ -466,6 +591,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Spoofs Google Play data about the user's age and verification status.",
@@ -476,20 +602,25 @@
                     "description": "A positive integer.",
                     "key": "Lower age bound",
                     "required": false,
-                    "type": "kotlin.Int"
+                    "title": null,
+                    "type": "kotlin.Int",
+                    "values": null
                 },
                 {
                     "default": 2147483647,
                     "description": "A positive integer. Must be greater than the lower age bound.",
                     "key": "Upper age bound",
                     "required": false,
-                    "type": "kotlin.Int"
+                    "title": null,
+                    "type": "kotlin.Int",
+                    "values": null
                 },
                 {
                     "default": 0,
                     "description": "An integer representing the user status.",
                     "key": "User status",
                     "required": false,
+                    "title": null,
                     "type": "kotlin.Int",
                     "values": {
                         "DECLARED": 5,
@@ -503,6 +634,7 @@
             ]
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Spoofs device integrity states (Locked Bootloader, Verified OS) for apps that perform local certificate attestation.",
@@ -510,6 +642,7 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "BytecodePatch"
@@ -518,6 +651,8 @@
             "name": "Spoof SIM provider",
             "options": [
                 {
+                    "default": null,
+                    "description": null,
                     "key": "Network ISO country code",
                     "required": false,
                     "title": "ISO-3166-1 alpha-2 country code equivalent for the SIM provider's country code.",
@@ -775,18 +910,26 @@
                     }
                 },
                 {
+                    "default": null,
                     "description": "The 5 or 6 digits MCC+MNC (Mobile Country Code + Mobile Network Code) of the network operator.",
                     "key": "MCC+MNC network operator code",
                     "required": false,
-                    "type": "kotlin.Int"
+                    "title": null,
+                    "type": "kotlin.Int",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "The full name of the network operator.",
                     "key": "Network operator name",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
+                    "description": null,
                     "key": "SIM ISO country code",
                     "required": false,
                     "title": "ISO-3166-1 alpha-2 country code equivalent for the SIM provider's country code.",
@@ -1044,50 +1187,72 @@
                     }
                 },
                 {
+                    "default": null,
                     "description": "The 5 or 6 digits MCC+MNC (Mobile Country Code + Mobile Network Code) of the SIM operator.",
                     "key": "MCC+MNC SIM operator code",
                     "required": false,
-                    "type": "kotlin.Int"
+                    "title": null,
+                    "type": "kotlin.Int",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "The full name of the SIM operator.",
                     "key": "SIM operator name",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "15-digit IMEI to spoof, blank to skip, or 'random'.",
                     "key": "IMEI value",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "14-char hex MEID to spoof, blank to skip, or 'random'.",
                     "key": "MEID value",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "15-digit IMSI to spoof, blank to skip, or 'random'.",
                     "key": "IMSI (Subscriber ID)",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "19-digit ICCID to spoof, blank to skip, or 'random'.",
                     "key": "ICCID (SIM Serial)",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
+                    "default": null,
                     "description": "Phone number to spoof, blank to skip, or 'random'.",
                     "key": "Phone number",
                     "required": false,
-                    "type": "kotlin.String"
+                    "title": null,
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ]
         },
         {
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "BytecodePatch"
@@ -1096,6 +1261,5 @@
             "name": "Spoof Wi-Fi connection",
             "options": []
         }
-    ],
-    "version": "v1.0.0-dev.3"
+    ]
 }
