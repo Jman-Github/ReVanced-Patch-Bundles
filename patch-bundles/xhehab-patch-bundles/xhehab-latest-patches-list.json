@@ -1,5 +1,5 @@
 {
-    "version": "v3.0.15",
+    "version": "v3.3.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -56,6 +56,29 @@
             "dependencies": [],
             "description": "Disable the PairIP client-side license check",
             "name": "Disable PairIP license check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#DDFF00",
+                    "name": "BASE Strength AI",
+                    "packageName": "com.skynetcoaching.bromleyapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.0.82"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Unlock all Paid features",
+            "name": "Unlock BASE Strength Premium",
             "options": []
         },
         {
@@ -142,6 +165,27 @@
             "dependencies": [],
             "description": "Unlock all Paid features",
             "name": "Unlock Ganbaru Method Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#111316",
+                    "name": "JuggernautAI",
+                    "packageName": "com.jtsstrength.juggernautai",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.6.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock all Paid features",
+            "name": "Unlock JuggernautAI Premium",
             "options": []
         },
         {
@@ -289,7 +333,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.6.2"
+                            "version": "2.7.3"
                         }
                     ]
                 }

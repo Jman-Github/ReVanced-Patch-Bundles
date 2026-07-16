@@ -65,7 +65,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Xhehab](#-xhehab-bundle-patch-list) | 12 | 11 | Generated |
+| [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 4 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
 | [Prathxm](#-prathxm-bundle-patch-list) | 7 | 1 | Generated |
@@ -577,14 +577,16 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Xhehab Bundle Patch List:
 [📦 Xhehab-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-xhehab-patches-bundle-morphe)
 <details>
-<summary><b>Xhehab</b> - 12 patches, 11 apps</summary>
+<summary><b>Xhehab</b> - 14 patches, 13 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Unlock BASE Strength Premium``` | ```Unlock all Paid features``` | ```BASE Strength AI``` | ```All versions``` |
 | ```Unlock Boostcamp Premium``` | ```Unlock all Paid features``` | ```Boostcamp``` | ```All versions``` |
 | ```Unlock Built With Science Premium``` | ```Unlock all Paid features``` | ```Built With Science``` | ```All versions``` |
 | ```Unlock FST-7 Subscription``` | ```Unlock all Paid features``` | ```FST-7``` | ```All versions``` |
 | ```Unlock Ganbaru Method Premium``` | ```Unlock all Paid features``` | ```Ganbaru Method``` | ```All versions``` |
+| ```Unlock JuggernautAI Premium``` | ```Unlock all Paid features``` | ```JuggernautAI``` | ```All versions``` |
 | ```Unlock MH Physique Premium``` | ```Unlock all Paid features``` | ```MH Physique``` | ```All versions``` |
 | ```Unlock MyoAdapt Premium``` | ```Unlock all Paid features``` | ```MyoAdapt - Build Muscle Fast``` | ```All versions``` |
 | ```Unlock RP Hypertrophy Premium``` | ```Unlock all Paid features``` | ```RP Hypertrophy``` | ```All versions``` |
