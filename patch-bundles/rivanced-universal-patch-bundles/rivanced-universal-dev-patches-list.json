@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.3",
+    "version": "v1.0.2-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -195,33 +195,6 @@
                     "values": null
                 }
             ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF0045",
-                    "name": "XYZ app",
-                    "packageName": "com.example.app",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.0.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "1.0.2"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Example patch to start with.",
-            "name": "Example Patch",
-            "options": []
         },
         {
             "compatiblePackages": null,
