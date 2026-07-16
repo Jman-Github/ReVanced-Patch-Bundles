@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.1",
+    "version": "v1.10.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -207,7 +207,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Simulates the purchase of the 'climbnoads' IAP product so the game thinks you bought No Ads and stops showing ads naturally. Patches GPBilling_Purchase_GetState to return PURCHASED when called with 'climbnoads'.",
+            "description": "Simulates the purchase of the 'climbnoads' IAP product by injecting a fake Purchase into the purchase list when the game queries purchases. The game finds 'climbnoads' and treats No Ads as purchased.",
             "name": "Remove ads",
             "options": []
         },

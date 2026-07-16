@@ -1,5 +1,5 @@
 {
-    "version": "v0.4.0-dev.44",
+    "version": "v0.4.0-dev.52",
     "patches": [
         {
             "compatiblePackages": {
@@ -164,7 +164,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Bypasses verification bans by spoofing signatures, installers, and faking GMS checks. REQUIRED: You must manually install microG-RE for Play Integrity to pass.",
+            "description": "Bypasses verification bans by spoofing signatures and faking GMS checks. REQUIRED: You must manually install microG-RE for Play Integrity to pass.",
             "name": "Login Fix",
             "options": [],
             "use": true
