@@ -1,9 +1,12 @@
 {
+    "version": "v1.0.1",
     "patches": [
         {
             "compatiblePackages": [
                 {
-                    "name": "com.spocky.projengmenu",
+                    "apkFileType": "APK",
+                    "appIconColor": "#F08029",
+                    "name": "Projectivy Launcher",
                     "packageName": "com.spocky.projengmenu",
                     "targets": [
                         {
@@ -21,7 +24,9 @@
         {
             "compatiblePackages": [
                 {
-                    "name": "com.myvitale.forus",
+                    "apkFileType": "APK",
+                    "appIconColor": "#0772BA",
+                    "name": "ForusApp",
                     "packageName": "com.myvitale.forus",
                     "targets": [
                         {
@@ -39,7 +44,9 @@
         {
             "compatiblePackages": [
                 {
-                    "name": "com.spocky.projengmenu",
+                    "apkFileType": "APK",
+                    "appIconColor": "#F08029",
+                    "name": "Projectivy Launcher",
                     "packageName": "com.spocky.projengmenu",
                     "targets": [
                         {
@@ -57,7 +64,9 @@
         {
             "compatiblePackages": [
                 {
-                    "name": "com.michaldrabik.showly2",
+                    "apkFileType": "APK",
+                    "appIconColor": "#F44336",
+                    "name": "Showly",
                     "packageName": "com.michaldrabik.showly2",
                     "targets": [
                         {
@@ -74,6 +83,5 @@
             "name": "Unlock premium",
             "options": []
         }
-    ],
-    "version": "v1.0.0"
+    ]
 }
