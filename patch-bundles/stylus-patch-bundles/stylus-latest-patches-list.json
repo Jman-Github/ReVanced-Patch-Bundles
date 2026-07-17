@@ -1,4 +1,5 @@
 {
+    "version": "v1.0.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -52,11 +53,13 @@
             "name": "Custom font",
             "options": [
                 {
+                    "default": null,
                     "description": "The file path to your font file. Tap the file picker and select it. The font file must be in TTF or OTF format. A variable font is recommended so heading and body text keep their different weights.",
                     "key": "customFontFile",
                     "required": true,
                     "title": "Custom font",
-                    "type": "kotlin.String"
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ]
         },
@@ -110,6 +113,5 @@
             "name": "Force system font",
             "options": []
         }
-    ],
-    "version": "v1.0.0"
+    ]
 }

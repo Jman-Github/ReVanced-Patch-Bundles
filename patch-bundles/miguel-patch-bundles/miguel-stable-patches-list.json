@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.9",
+    "version": "v1.11.10",
     "patches": [
         {
             "compatiblePackages": [
@@ -262,8 +262,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Unlocks everything, sets all currencies to 999999999, and bypasses PairIP anti-tamper using 10 strategies from Nai64.",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Removes PairIP from manifest, hex patches libcocos2dcpp.so for unlimited currencies (plutonium, coins, squeezer parts) and blocks Play Store redirect. Based on working mod analysis.",
             "name": "Unlock all",
             "options": []
         },
