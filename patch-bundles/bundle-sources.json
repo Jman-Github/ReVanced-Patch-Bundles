@@ -719,6 +719,21 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "stylus-stable": {
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "patches": "https://api.github.com/repos/ch3thanhs/stylus",
+        "prerelease": false
+    },
+    "hxreborn-stable": {
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "patches": "https://api.github.com/repos/hxreborn/morphe-patches",
+        "prerelease": false
+    },
+    "ikura-stable": {
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "patches": "https://api.github.com/repos/Ikuradachi/ikura-patches",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -1434,6 +1449,21 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
+    "stylus-dev": {
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "patches": "https://api.github.com/repos/ch3thanhs/stylus",
+        "prerelease": true
+    },
+    "hxreborn-dev": {
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "patches": "https://api.github.com/repos/hxreborn/morphe-patches",
+        "prerelease": true
+    },
+    "ikura-dev": {
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "patches": "https://api.github.com/repos/Ikuradachi/ikura-patches",
+        "prerelease": true
+    },
     "piko-latest": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -2147,6 +2177,21 @@
     "variablenine-latest": {
         "patches": "https://api.github.com/repos/variablenine/morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "stylus-latest": {
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "patches": "https://api.github.com/repos/ch3thanhs/stylus",
+        "latest": true
+    },
+    "hxreborn-latest": {
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "patches": "https://api.github.com/repos/hxreborn/morphe-patches",
+        "latest": true
+    },
+    "ikura-latest": {
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "patches": "https://api.github.com/repos/Ikuradachi/ikura-patches",
         "latest": true
     }
 }

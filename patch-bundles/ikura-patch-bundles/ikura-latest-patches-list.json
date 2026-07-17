@@ -1,0 +1,95 @@
+{
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "CarbitLink",
+                    "packageName": "net.easyconn.carman.wws",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.4.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables YouTube, third-party apps, built-in browser, and unlocks all connection profiles/brands.",
+            "name": "CarbitLink Customizations",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "CarbitLink",
+                    "packageName": "net.easyconn.carman.wws",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.4.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses Google account login for Google Maps, Mapbox, and Spotify dashboard cards.",
+            "name": "CarbitLink Login Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "CarbitLink",
+                    "packageName": "net.easyconn.carman.wws",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.4.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Google Maps, Mapbox, Spotify, and Twin Space premium features and shows supported dashboard cards.",
+            "name": "CarbitLink Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0045",
+                    "name": "XYZ app",
+                    "packageName": "com.example.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.0.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Example patch to start with.",
+            "name": "Example Patch",
+            "options": []
+        }
+    ],
+    "version": "v1.0.0"
+}

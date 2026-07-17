@@ -1902,6 +1902,45 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/variablenine-patch-bundles/variablenine-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 Stylus-Patches-Bundle [Morphe]:
+[🧩 Stylus Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-stylus-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/stylus-patch-bundles/stylus-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/stylus-patch-bundles/stylus-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/stylus-patch-bundles/stylus-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 HXReborn-Patches-Bundle [Morphe]:
+[🧩 HXReborn Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hxreborn-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hxreborn-patch-bundles/hxreborn-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hxreborn-patch-bundles/hxreborn-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hxreborn-patch-bundles/hxreborn-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Ikura-Patches-Bundle [Morphe]:
+[🧩 Ikura Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ikura-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ikura-patch-bundles/ikura-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ikura-patch-bundles/ikura-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ikura-patch-bundles/ikura-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -2206,6 +2245,12 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [RIVanced-Universal-Patches-Bundle](https://github.com/rushiranpise/RI-Vanced-Universal-Morphe-Patches)
 
 #### 🏷️ [Variablenine-Patches-Bundle](https://github.com/variablenine/morphe-patches)
+
+#### 🩹 [Stylus-Patches-Bundle](https://github.com/ch3thanhs/stylus)
+
+#### 🩹 [HXReborn-Patches-Bundle](https://github.com/hxreborn/morphe-patches)
+
+#### 🩹 [Ikura-Patches-Bundle](https://github.com/Ikuradachi/ikura-patches)
 
 ## 🖇 Integrations Repositories In Use
 

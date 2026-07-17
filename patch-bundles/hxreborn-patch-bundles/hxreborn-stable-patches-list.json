@@ -1,0 +1,79 @@
+{
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.spocky.projengmenu",
+                    "packageName": "com.spocky.projengmenu",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables analytics and crash reporting.",
+            "name": "Disable tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.myvitale.forus",
+                    "packageName": "com.myvitale.forus",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.spocky.projengmenu",
+                    "packageName": "com.spocky.projengmenu",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.michaldrabik.showly2",
+                    "packageName": "com.michaldrabik.showly2",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets.",
+            "name": "Unlock premium",
+            "options": []
+        }
+    ],
+    "version": "v1.0.0"
+}

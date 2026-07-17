@@ -144,6 +144,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 126 | 4 | Generated |
+| [Stylus](#-stylus-bundle-patch-list) | 2 | 1 | Generated |
+| [HXReborn](#-hxreborn-bundle-patch-list) | 4 | 3 | Generated |
+| [Ikura](#-ikura-bundle-patch-list) | 4 | 2 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -4927,5 +4930,48 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```All versions``` |
 | ```Theme``` | ```Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).``` | ```YouTube Music``` | ```All versions``` |
 | ```Track crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Stylus Bundle Patch List:
+[📦 Stylus-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-stylus-patches-bundle-morphe)
+<details>
+<summary><b>Stylus</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Custom font``` | ```Applies a custom font selected while patching, replacing Reddit Sans / Roboto. A variable font is recommended so heading and body text keep their different weights. Do not enable "Force system font" at the same time.``` | ```Reddit``` | ```All versions``` |
+| ```Force system font``` | ```Renders the app using the device's system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 HXReborn Bundle Patch List:
+[📦 HXReborn-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hxreborn-patches-bundle-morphe)
+<details>
+<summary><b>HXReborn</b> - 4 patches, 3 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock premium``` | ```Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets.``` | ```com.michaldrabik.showly2``` | ```All versions``` |
+| ```Unlock premium``` | ```Unlocks premium features.``` | ```com.myvitale.forus``` | ```All versions``` |
+| ```Disable tracking``` | ```Disables analytics and crash reporting.``` | ```com.spocky.projengmenu``` | ```All versions``` |
+| ```Unlock premium``` | ```Unlocks premium features.``` | ```com.spocky.projengmenu``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Ikura Bundle Patch List:
+[📦 Ikura-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ikura-patches-bundle-morphe)
+<details>
+<summary><b>Ikura</b> - 4 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```CarbitLink Customizations``` | ```Enables YouTube, third-party apps, built-in browser, and unlocks all connection profiles/brands.``` | ```CarbitLink``` | ```All versions``` |
+| ```CarbitLink Login Bypass``` | ```Bypasses Google account login for Google Maps, Mapbox, and Spotify dashboard cards.``` | ```CarbitLink``` | ```All versions``` |
+| ```CarbitLink Premium``` | ```Unlocks Google Maps, Mapbox, Spotify, and Twin Space premium features and shows supported dashboard cards.``` | ```CarbitLink``` | ```All versions``` |
+| ```Example Patch``` | ```Example patch to start with.``` | ```XYZ app``` | ```All versions``` |
 
 </details>

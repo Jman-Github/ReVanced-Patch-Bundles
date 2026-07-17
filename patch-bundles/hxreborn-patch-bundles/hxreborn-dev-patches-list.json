@@ -1,0 +1,87 @@
+{
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#F08029",
+                    "name": "Projectivy Launcher",
+                    "packageName": "com.spocky.projengmenu",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables analytics and crash reporting.",
+            "name": "Disable tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0772BA",
+                    "name": "ForusApp",
+                    "packageName": "com.myvitale.forus",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#F08029",
+                    "name": "Projectivy Launcher",
+                    "packageName": "com.spocky.projengmenu",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#F44336",
+                    "name": "Showly",
+                    "packageName": "com.michaldrabik.showly2",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets.",
+            "name": "Unlock premium",
+            "options": []
+        }
+    ],
+    "version": "v1.0.1-dev.1"
+}
