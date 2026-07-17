@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.1-dev.1",
+    "version": "v1.14.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -1261,6 +1261,27 @@
             "default": true,
             "dependencies": [],
             "description": "Removes interstitial and exit native ads from m-Indicator.",
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1976D2",
+                    "name": "TorrDroid",
+                    "packageName": "intelligems.torrdroid",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.0.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes ads from TorrDroid.",
             "name": "Remove Ads",
             "options": []
         },
@@ -3215,6 +3236,27 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1565C0",
+                    "name": "PC Remote - Desktop & Phone",
+                    "packageName": "com.monect.portable",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.3.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features after login.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#FF6B9D",
                     "name": "Photo Editor",
                     "packageName": "com.iudesk.android.photo.editor",
@@ -3891,6 +3933,27 @@
             "dependencies": [],
             "description": "Unlocks all PRO features in app",
             "name": "Unlock PRO",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#E10600",
+                    "name": "Box Box",
+                    "packageName": "club.boxbox.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.4.13"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Box Box Pro",
+            "name": "Unlock Pro",
             "options": []
         },
         {
