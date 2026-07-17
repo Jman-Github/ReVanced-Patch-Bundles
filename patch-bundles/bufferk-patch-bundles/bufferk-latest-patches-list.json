@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.15-dev.7",
+    "version": "v1.7.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -45,6 +45,26 @@
             "dependencies": [],
             "description": "Suppresses Truecaller's CleverTap behavioural event tracking to prevent user-activity telemetry.",
             "name": "Disable analytics",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Browser",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables Brave Origin features by default.",
+            "name": "Enable Brave Origin",
             "options": []
         },
         {

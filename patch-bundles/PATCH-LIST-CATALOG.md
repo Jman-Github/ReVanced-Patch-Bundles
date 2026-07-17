@@ -60,7 +60,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 14 | 1 | Generated |
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
-| [Bufferk](#-bufferk-bundle-patch-list) | 14 | 6 | Generated |
+| [Bufferk](#-bufferk-bundle-patch-list) | 15 | 7 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 16 | 8 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
@@ -490,11 +490,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Bufferk Bundle Patch List:
 [📦 Bufferk-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bufferk-patches-bundle-morphe)
 <details>
-<summary><b>Bufferk</b> - 14 patches, 6 apps</summary>
+<summary><b>Bufferk</b> - 15 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass license check``` | ```Bypasses the Google Play LVL backend license check, allowing full app access without activation.``` | ```Bounce Companion``` | ```All versions``` |
+| ```Enable Brave Origin``` | ```Enables Brave Origin features by default.``` | ```Brave Browser``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks all AT4K premium features by forcing the premium status to true.``` | ```com.overdevs.at4k``` | ```All versions``` |
 | ```Freedium``` | ```Adds a profile setting to choose the Freedium Mirror host, and a floating button on articles that opens the current article using the chosen Freedium Mirror in a webview.``` | ```Medium``` | ```All versions``` |
 | ```Flutter Premium Bypass``` | ```Forces premium status inside the JSON payload sent to Flutter``` | ```MyGate``` | ```All versions``` |

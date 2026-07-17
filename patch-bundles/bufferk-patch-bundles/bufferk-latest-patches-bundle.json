@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-10T17:50:44",
-  "description": "## [1.6.15-dev.7](https://github.com/bufferk/morphe-patches/compare/v1.6.15-dev.6...v1.6.15-dev.7) (2026-07-10)\n\n### \ud83d\udc1b Bug Fixes\n\n* **mygate:** spoof firebase installations package certificate signature SHA-1 to restore push notifications ([1a4c9d8](https://github.com/bufferk/morphe-patches/commit/1a4c9d8a51f2cd7f8a6749e94484a7352b41bf52))\n",
-  "download_url": "https://github.com/bufferk/morphe-patches/releases/download/v1.6.15-dev.7/patches-1.6.15-dev.7.mpp",
+  "created_at": "2026-07-17T20:43:55",
+  "description": "## [1.7.0-dev.1](https://github.com/bufferk/morphe-patches/compare/v1.6.15-dev.6...v1.7.0-dev.1) (2026-07-17)\n\n### \ud83d\udc1b Bug Fixes\n\n* **mygate:** rewrite firebase Installations cert spoof to avoid NPEs ([4f7238f](https://github.com/bufferk/morphe-patches/commit/4f7238f5517954e9647757de147f71087a2eb48f))\n* **mygate:** rewrite firebase installations cert spoof using reflection to bypass R8 optimization NPEs on ART ([f54572a](https://github.com/bufferk/morphe-patches/commit/f54572aab33a90152c88a15f0bbf2fbbc5ae2246))\n\n### \u2728 New Features\n\n* patch brave app ([a8ef687](https://github.com/bufferk/morphe-patches/commit/a8ef687d5a06874b6de60a7de6ddf4848f81c57f))\n",
+  "download_url": "https://github.com/bufferk/morphe-patches/releases/download/v1.7.0-dev.1/patches-1.7.0-dev.1.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.6.15-dev.7"
+  "version": "v1.7.0-dev.1"
 }
