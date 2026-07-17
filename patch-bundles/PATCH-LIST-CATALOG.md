@@ -57,7 +57,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Saiesh](#-saiesh-bundle-patch-list) | 10 | 4 | Generated |
 | [Letterboxd-Stremio](#-letterboxd-stremio-bundle-patch-list) | 3 | 1 | Generated |
 | [Miguel](#-miguel-bundle-patch-list) | 14 | 8 | Generated |
-| [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 13 | 1 | Generated |
+| [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 14 | 1 | Generated |
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 14 | 6 | Generated |
@@ -345,7 +345,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Hide Forwarded``` | ```Quita la etiqueta "reenviado" de los mensajes.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Hide Read Receipts``` | ```Read messages without sending blue ticks.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Hide Typing``` | ```Escribe sin mostrar "escribiendo...".``` | ```com.whatsapp``` | ```2.26.27.4``` |
-| ```Login Fix``` | ```Bypasses verification bans by spoofing signatures, installers, and faking GMS checks. REQUIRED: You must manually install microG-RE for Play Integrity to pass.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Login Fix``` | ```Bypasses verification bans by spoofing signature hashes and installer. REQUIRED: Install microG-RE for Play Integrity.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```No Forward Limit``` | ```Forward messages to unlimited contacts.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Remove Communities``` | ```Hide the communities tab.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Remove Updates``` | ```Hide the updates/statuses tab.``` | ```com.whatsapp``` | ```2.26.27.4``` |
@@ -417,7 +417,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Pinterest-Morphed Bundle Patch List:
 [📦 Pinterest-Morphed-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-pinterest-morphed-patches-bundle-morphe)
 <details>
-<summary><b>Pinterest-Morphed</b> - 13 patches, 1 app</summary>
+<summary><b>Pinterest-Morphed</b> - 14 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -432,6 +432,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Hide promoted pins``` | ```Neutralises every ad-indicator field on the Pinterest pin/story models (is_promoted, promoted_is_*, is_native, ad_data, ...) so Promoted Pins, shopping-carousel ads, native-content ads and click-out CTAs are never rendered or fired.``` | ```Pinterest``` | ```All versions``` |
 | ```Opt out of Google Analytics``` | ```Sets the default Google Analytics consent flags to false so the Firebase Measurement SDK does not collect analytics, ad data or personalization signals.``` | ```Pinterest``` | ```All versions``` |
 | ```Remove Advertising ID permission``` | ```Strips the com.google.android.gms.permission.AD_ID permission so any residual SDK cannot read the device's Google Advertising ID.``` | ```Pinterest``` | ```All versions``` |
+| ```Restore Google login (microG-RE)``` | ```Adds the microG-RE signature-spoof meta-data so "Continue with Google" works on devices that use microG-RE instead of Google Play Services. Ignored by vanilla Play Services.``` | ```Pinterest``` | ```All versions``` |
 | ```Sanitize copied links``` | ```Resolves Pinterest short URLs (pin.it/…, pinterest.com/url_shortener/…) to their canonical pin URL before they are placed on the system clipboard, so "Copy link" no longer produces a fingerprinted short link.``` | ```Pinterest``` | ```All versions``` |
 | ```Sanitize sharing links``` | ```Strips UTM and click-ID tracking parameters from the URL the app puts on the Android share sheet, so friends receive clean pin links.``` | ```Pinterest``` | ```All versions``` |
 

@@ -1,5 +1,5 @@
 {
-    "version": "v1.40.0-dev.1",
+    "version": "v1.40.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -745,7 +745,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.7.8"
+                            "version": "5.7.9"
                         }
                     ]
                 },
@@ -763,6 +763,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
