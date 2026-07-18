@@ -60,7 +60,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 14 | 1 | Generated |
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
-| [Bufferk](#-bufferk-bundle-patch-list) | 15 | 7 | Generated |
+| [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 16 | 8 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
@@ -490,7 +490,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Bufferk Bundle Patch List:
 [📦 Bufferk-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bufferk-patches-bundle-morphe)
 <details>
-<summary><b>Bufferk</b> - 15 patches, 7 apps</summary>
+<summary><b>Bufferk</b> - 13 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -498,9 +498,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Brave Origin``` | ```Unlocks Brave Origin and enables feature toggle controls.``` | ```Brave Browser``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks all AT4K premium features by forcing the premium status to true.``` | ```com.overdevs.at4k``` | ```All versions``` |
 | ```Freedium``` | ```Adds a profile setting to choose the Freedium Mirror host, and a floating button on articles that opens the current article using the chosen Freedium Mirror in a webview.``` | ```Medium``` | ```All versions``` |
-| ```Flutter Premium Bypass``` | ```Forces premium status inside the JSON payload sent to Flutter``` | ```MyGate``` | ```All versions``` |
-| ```Hide ads``` | ```Removes MyGate in-app ads (pre-approval screen, allow-entries screen, activity feed, and visitor profile masthead).``` | ```MyGate``` | ```All versions``` |
-| ```Unlock premium``` | ```Unlocks all MyGate premium features: spoofs USER_PREMIUM_PLAN status, suppresses upgrade dialogs and paywalls, enables frequent pre-approvals for deliveries, cabs and visiting help, unlocks surprise delivery and the always-approve-entries toggle.``` | ```MyGate``` | ```All versions``` |
+| ```MyGate``` | ```Unlocks MyGate premium, removes ads, fixes notifications and e-Intercom.``` | ```MyGate``` | ```All versions``` |
 | ```Unlock Pro``` | ```Spoofs Splitwise Pro subscription status everywhere it is checked — bypasses the server-driven feature gate (charts, receipt scanning, currency conversion, default splits, auto-split, transaction import, itemization), forces Person.isPro() to true for receipt quality and UI gating, and suppresses all in-app upsell ad banners (home-screen, recent activity, post-add-expense). Works entirely client-side with no server interaction.``` | ```Splitwise``` | ```All versions``` |
 | ```Disable analytics``` | ```Suppresses Truecaller's CleverTap behavioural event tracking to prevent user-activity telemetry.``` | ```Truecaller``` | ```All versions``` |
 | ```Enable premium features``` | ```Unlocks all client-side premium features by bypassing the feature-availability gate.``` | ```Truecaller``` | ```All versions``` |
