@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.12",
+    "version": "v1.12.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -262,8 +262,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Removes PairIP from manifest and hex patches libcocos2dcpp.so for unlimited currencies and Play Store bypass.",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Removes PairIP StartupLauncher from ComponentFactory and depends on hex patch for manifest + .so patching.",
             "name": "Unlock all",
             "options": []
         },
@@ -295,6 +297,30 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#FF9800",
+                    "name": "Oddmar",
+                    "packageName": "com.mobge.Oddmar",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.111"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all levels by making the game think the 'unlock_all_levels' IAP product was purchased. Patches HasProductBeenPurchasedCall to always report success.",
+            "name": "Unlock full game",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#29CC29",
                     "name": "CubeX Solver",
                     "packageName": "diozz.cubex",
@@ -317,6 +343,30 @@
             "dependencies": [],
             "description": "Unlocks all premium-gated features (Advanced Solver / Kociemba, custom color schemes, VIP support, no relaunch screens). Returns true from PremiumHelper.hasActivePurchase() so the entire app behaves as if a premium subscription is active.",
             "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#8BC34A",
+                    "name": "Zombie Catchers",
+                    "packageName": "fi.twomenandadog.zombiecatchers",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.67.15"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Changes manifest and hex patches libcocos2dcpp.so",
+            "name": "ZC hex patch",
             "options": []
         }
     ]

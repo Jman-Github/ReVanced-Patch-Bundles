@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.2",
+    "version": "v1.12.3",
     "patches": [
         {
             "compatibility": [
@@ -213,6 +213,10 @@
                     "targets": [
                         {
                             "experimental": false,
+                            "version": "7.7.0.78"
+                        },
+                        {
+                            "experimental": false,
                             "version": "7.5.0.73"
                         },
                         {
@@ -224,6 +228,7 @@
             ],
             "compatiblePackages": {
                 "com.wbd.hbomax": [
+                    "7.7.0.78",
                     "7.5.0.73",
                     "7.2.0.41"
                 ]

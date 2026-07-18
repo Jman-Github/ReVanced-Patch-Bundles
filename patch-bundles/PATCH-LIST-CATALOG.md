@@ -56,7 +56,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pichiwa](#-pichiwa-bundle-patch-list) | 18 | 1 | Generated |
 | [Saiesh](#-saiesh-bundle-patch-list) | 10 | 4 | Generated |
 | [Letterboxd-Stremio](#-letterboxd-stremio-bundle-patch-list) | 3 | 1 | Generated |
-| [Miguel](#-miguel-bundle-patch-list) | 14 | 8 | Generated |
+| [Miguel](#-miguel-bundle-patch-list) | 16 | 9 | Generated |
 | [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 14 | 1 | Generated |
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
@@ -398,7 +398,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Miguel Bundle Patch List:
 [📦 Miguel-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-miguel-patches-bundle-morphe)
 <details>
-<summary><b>Miguel</b> - 14 patches, 8 apps</summary>
+<summary><b>Miguel</b> - 16 patches, 9 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -408,6 +408,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock premium``` | ```Unlocks all premium-gated features (Advanced Solver / Kociemba, custom color schemes, VIP support, no relaunch screens). Returns true from PremiumHelper.hasActivePurchase() so the entire app behaves as if a premium subscription is active.``` | ```CubeX Solver``` | ```All versions``` |
 | ```Auto reward ads``` | ```When a rewarded ad is closed, the game always thinks you watched the entire ad. You get the reward even if you skip or close the ad immediately.``` | ```Hunter Assassin``` | ```All versions``` |
 | ```Unlimited gems, rubies & unlock all``` | ```Sets gems, rubies (diamonds), keys and tickets to 9999999. Unlocks VIP (removes ads + VIP rewards + Ninja Assassin VIP character), all assassin characters (2-44), including all Legendary characters (Scarecrow, Dracula, Thor, Wolverine, Myers, Santa, Grinch, Nutcracker, Cricket Player), and all special knives.``` | ```Hunter Assassin``` | ```All versions``` |
+| ```Unlock full game``` | ```Unlocks all levels by making the game think the 'unlock_all_levels' IAP product was purchased. Patches HasProductBeenPurchasedCall to always report success.``` | ```Oddmar``` | ```All versions``` |
 | ```Free in-app purchases``` | ```When you try to buy something, the purchase is immediately marked as successful without contacting Google Play. The EA Nimble MTX system receives a null error (success) and grants the item.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Free reward ads``` | ```When the game tries to show a rewarded ad, it immediately fires the ad-clicked and ad-closed callbacks without actually showing the ad. You get the reward instantly.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
 | ```Remove ads``` | ```Prevents video ads from loading. When the game tries to load an ad, nothing happens. Ads will not be shown.``` | ```Plants vs. Zombies FREE``` | ```All versions``` |
@@ -415,7 +416,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock all tribes``` | ```Unlocks all 20 tribes (Xinxi, Imperius, Bardur, Oumaji, Kickoo, Hoodrick, Luxidoor, Vengir, Zebasi, Aimo, Aquarion, Elyrion, Polaris, Magma, Yadakk, Quetzali, Cymanti, Swamp, Ikarus, Urkaz) and all skins by patching the native IL2CPP library (libil2cpp.so). Makes IsProductUnlocked return true, skips the purchase flow, and suppresses the 'Purchase error' dialog. Pure ARM64 hex patching, no smali, no extension.``` | ```The Battle of Polytopia``` | ```All versions``` |
 | ```Billing bypass``` | ```Attempts to credit purchases by scanning the app for billing code and applying the appropriate bypass. Runs 5 phases: (1) Cocos2d-x helper, (2) GameMaker verifyPurchase, (3) Google Play Billing, (4) Unity billing bridge, (5) Fallback. Also depends on Unity IL2CPP hex patch.``` | ```Universal``` | ```All versions``` |
 | ```Unity IL2CPP hex patch``` | ```Patches libil2cpp.so to bypass Unity IL2CPP billing validation.``` | ```Universal``` | ```All versions``` |
-| ```Unlock all``` | ```Removes PairIP from manifest and hex patches libcocos2dcpp.so for unlimited currencies and Play Store bypass.``` | ```Zombie Catchers``` | ```All versions``` |
+| ```Unlock all``` | ```Removes PairIP StartupLauncher from ComponentFactory and depends on hex patch for manifest + .so patching.``` | ```Zombie Catchers``` | ```All versions``` |
+| ```ZC hex patch``` | ```Changes manifest and hex patches libcocos2dcpp.so``` | ```Zombie Catchers``` | ```All versions``` |
 
 </details>
 
@@ -4464,7 +4466,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Tubi Android TV.``` | ```com.tubitv``` | ```10.20.5000``` |
 | ```Override certificate pinning``` | ```Allows HTTPS traffic inspection tools like AdGuard Premium to intercept app connections. Enables ViX live (Lura SSAI) ad suppression when used alongside AdGuard Premium.``` | ```com.univision.prendetv``` | ```4.46.0_tv, 4.47.2_tv``` |
 | ```Skip ads``` | ```Suppresses ViX ad delivery by stopping the LuraPlayer linear ad-break scheduler (client-side VAST) and preventing the Innovid SSAI ad overlay from mounting.``` | ```com.univision.prendetv``` | ```4.46.0_tv, 4.47.2_tv``` |
-| ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.hbomax``` | ```7.5.0.73, 7.2.0.41``` |
+| ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.hbomax``` | ```7.7.0.78, 7.5.0.73, 7.2.0.41``` |
 | ```Clone Pluto TV``` | ```Installs the patched Pluto TV as a separate app alongside the stock one, instead of replacing it. Enable this when Pluto TV is a preinstalled system app that can't be uninstalled — most commonly on Amazon Fire TV, and on some Android TV boxes and Onn devices. The clone gets its own package (suffix .mod), so it shows up as a second Pluto TV icon and keeps its own settings. Leave OFF if you were able to uninstall the original Pluto TV first (a normal in-place install is cleaner). Opt-in.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
 | ```Disable auto-updates``` | ```Stops the Google Play Store from silently updating Pluto TV back to the official version and wiping out the patch (which would bring the ads back). Works by setting the patched build's version number far ahead of anything on the Store, so it's treated as already up to date. You can still update deliberately by re-patching a newer APK in Morphe. Recommended to leave ON. Does not apply to mount-installed apps.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
 | ```Override certificate pinning``` | ```Edits Pluto's network_security_config to trust user CAs (system + user, overridePins) on both a new base-config and every existing domain-config — including the pluto.tv entry that is otherwise system-only — so an HTTPS-filtering proxy can inspect the HLS manifest. Optional adjunct to the manifest-rewrite ad approach.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
