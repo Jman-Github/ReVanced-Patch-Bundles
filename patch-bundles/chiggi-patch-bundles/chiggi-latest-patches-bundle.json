@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-06-24T01:02:13",
-  "description": "CrazyGames interstitial fix. Mid-game interstitial ads drove the same loading-overlay state machine as rewarded ads: the web waits for the interstitial Showed and Dismissed lifecycle events to dismiss the overlay. showInterstitial only resolved the call (firing neither event), so it hung. Interstitial events are named differently from rewarded (interstitialAdShowed/interstitialAdDismissed vs onRewarded*); the extension is generalized to fireAdEvents and now fires Showed+Dismissed for interstitial and Reward+Dismissed for rewarded. Other patches unchanged: Bypass Play license check, Disable analytics, Remove AD_ID, Change app name.",
-  "download_url": "https://github.com/durgesh0505/chiggi_morphe_patches/releases/download/v1.14.3/patches-1.14.3.mpp",
+  "created_at": "2026-07-18T15:56:26",
+  "description": "Adds three native Android TV OTT apps (all clean re-sign, no anti-tamper). JioHotstar (in.startv.hotstar 26.06.22.3): novel VPN/proxy-block bypass (device-confirmed India VPN + playback), remove ads, integrity spoof, analytics off, AD_ID, premium UI, screenshots/mirroring/4K/HDR, change name. Vi Movies and TV (com.vimtv 10.8): remove ads, analytics off, AD_ID, change name, premium UI. JioTV+ (com.jio.media.jiotvplus 2.6.4_2076): remove ads (JioAds + player VMAP), analytics off, AD_ID, change name. Existing apps unchanged (SonyLIV, Nutrilio, Threads, Arrow Puzzle, CrazyGames). Ads/premium are client-side; real content stays server-entitlement + Widevine gated. JioHotstar ad/premium/UX hooks adapted from Paresh-Maheshwari (GPL-3.0).",
+  "download_url": "https://github.com/durgesh0505/chiggi_morphe_patches/releases/download/v1.15.0/patches-1.15.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.14.3"
+  "version": "v1.15.0"
 }
