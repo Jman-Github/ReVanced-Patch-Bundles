@@ -1,5 +1,5 @@
 {
-    "version": "v1.35.0-dev.6",
+    "version": "v1.36.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -1096,6 +1096,62 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.",
+            "name": "Crossfade",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0000",
+                    "name": "YouTube Music",
+                    "packageName": "com.google.android.apps.youtube.music",
+                    "signatures": [
+                        "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+                        "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.26.51"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.25.50"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.24.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "9.15.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "8.51.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.29.52"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -1224,12 +1280,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.28.0"
+                            "version": "2026.29.0"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.27.0"
+                            "version": "2026.28.0"
                         },
                         {
                             "isExperimental": true,
@@ -1779,12 +1835,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.28.0"
+                            "version": "2026.29.0"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.27.0"
+                            "version": "2026.28.0"
                         },
                         {
                             "isExperimental": true,
@@ -2081,12 +2137,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.28.0"
+                            "version": "2026.29.0"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.27.0"
+                            "version": "2026.28.0"
                         },
                         {
                             "isExperimental": true,
@@ -3154,12 +3210,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.28.0"
+                            "version": "2026.29.0"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.27.0"
+                            "version": "2026.28.0"
                         },
                         {
                             "isExperimental": true,
@@ -3270,12 +3326,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.28.0"
+                            "version": "2026.29.0"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.27.0"
+                            "version": "2026.28.0"
                         },
                         {
                             "isExperimental": true,
@@ -3439,12 +3495,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.28.0"
+                            "version": "2026.29.0"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.27.0"
+                            "version": "2026.28.0"
                         },
                         {
                             "isExperimental": true,
@@ -3977,12 +4033,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.28.0"
+                            "version": "2026.29.0"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.27.0"
+                            "version": "2026.28.0"
                         },
                         {
                             "isExperimental": true,
@@ -4161,12 +4217,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.28.0"
+                            "version": "2026.29.0"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.27.0"
+                            "version": "2026.28.0"
                         },
                         {
                             "isExperimental": true,
@@ -4427,12 +4483,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.28.0"
+                            "version": "2026.29.0"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.27.0"
+                            "version": "2026.28.0"
                         },
                         {
                             "isExperimental": true,
@@ -4538,12 +4594,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.28.0"
+                            "version": "2026.29.0"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.27.0"
+                            "version": "2026.28.0"
                         },
                         {
                             "isExperimental": true,
@@ -5215,12 +5271,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.28.0"
+                            "version": "2026.29.0"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.27.0"
+                            "version": "2026.28.0"
                         },
                         {
                             "isExperimental": true,
@@ -5263,12 +5319,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.28.0"
+                            "version": "2026.29.0"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.27.0"
+                            "version": "2026.28.0"
                         },
                         {
                             "isExperimental": true,
@@ -6078,12 +6134,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.28.0"
+                            "version": "2026.29.0"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.27.0"
+                            "version": "2026.28.0"
                         },
                         {
                             "isExperimental": true,
@@ -6173,6 +6229,62 @@
             ],
             "description": "Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.",
             "name": "Remove viewer discretion dialog",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0000",
+                    "name": "YouTube Music",
+                    "packageName": "com.google.android.apps.youtube.music",
+                    "signatures": [
+                        "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+                        "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.26.51"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.25.50"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.24.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "9.15.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "8.51.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.29.52"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to show the dislike count of tracks with Return YouTube Dislike.",
+            "name": "Return YouTube Dislike",
             "options": []
         },
         {
@@ -6311,12 +6423,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.28.0"
+                            "version": "2026.29.0"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.27.0"
+                            "version": "2026.28.0"
                         },
                         {
                             "isExperimental": true,
@@ -6679,12 +6791,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.28.0"
+                            "version": "2026.29.0"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.27.0"
+                            "version": "2026.28.0"
                         },
                         {
                             "isExperimental": true,
@@ -7037,12 +7149,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.28.0"
+                            "version": "2026.29.0"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "2026.27.0"
+                            "version": "2026.28.0"
                         },
                         {
                             "isExperimental": true,
@@ -7457,62 +7569,6 @@
                     }
                 }
             ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK_REQUIRED",
-                    "appIconColor": "#FF0000",
-                    "name": "YouTube Music",
-                    "packageName": "com.google.android.apps.youtube.music",
-                    "signatures": [
-                        "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
-                        "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
-                    ],
-                    "targets": [
-                        {
-                            "isExperimental": true,
-                            "minSdk": 26,
-                            "version": "9.26.51"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 26,
-                            "version": "9.25.50"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 26,
-                            "version": "9.24.51"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 26,
-                            "version": "9.15.51"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 26,
-                            "version": "8.51.51"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 26,
-                            "version": "7.29.52"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
-            "description": "Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.",
-            "name": "Track crossfade",
-            "options": []
         },
         {
             "compatiblePackages": [
