@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.0-dev.1",
+    "version": "v1.14.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -1242,6 +1242,27 @@
             "dependencies": [],
             "description": "Remove in-app ads",
             "name": "Remove ADS",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#F16522",
+                    "name": "Flud",
+                    "packageName": "com.delphicoder.flud",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.0.13"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes all ads in app",
+            "name": "Remove Ads",
             "options": []
         },
         {
@@ -3108,6 +3129,27 @@
                 "RawResourcePatch"
             ],
             "description": "Unlocks Premium Features in app.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#E03C31",
+                    "name": "Mapy",
+                    "packageName": "cz.seznam.mapy",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.7.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Premium features in app after login.",
             "name": "Unlock Premium",
             "options": []
         },
