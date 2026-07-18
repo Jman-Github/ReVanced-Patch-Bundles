@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.7",
+    "version": "v1.5.0-dev.8",
     "patches": [
         {
             "compatiblePackages": null,
@@ -217,6 +217,46 @@
             "default": true,
             "dependencies": [],
             "description": "Forces HypnoBox subscription entitlement checks to always pass.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#005B8E",
+                    "name": "ImmoScout24",
+                    "packageName": "de.is24.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "30.7.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces ImmoScout24 to always grant full Plus membership (WohnenPlus, MieterPlus, KaeuferPlus) and enables pro / subscription features.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1A73E8",
+                    "name": "Immowelt",
+                    "packageName": "de.immowelt.android.immobiliensuche",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "11.47.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces Immowelt (Purchasely SDK) to always report an active subscription / pro subscription, bypassing all subscriber-only gates.",
             "name": "Enable Pro",
             "options": []
         },
