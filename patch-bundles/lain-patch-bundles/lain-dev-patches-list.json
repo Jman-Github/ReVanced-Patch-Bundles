@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.1",
+    "version": "v1.4.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -316,6 +316,29 @@
             "dependencies": [],
             "description": "Unlock access to all books, videos and audiobooks for lifetime.",
             "name": "Enable Epic Family",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#C9B44D",
+                    "name": "Kapi Cam",
+                    "packageName": "com.sensemobile.action",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.32.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock all features of Kapi Pro lifetime membership.",
+            "name": "Enable Kapi Pro",
             "options": []
         },
         {
@@ -836,6 +859,29 @@
                 "RawResourcePatch"
             ],
             "description": "Unlock premium features such as Disable Ads and access AI Assistant.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FFFFFF",
+                    "name": "Key Mapper",
+                    "packageName": "io.github.sds100.keymapper",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.2.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enable Floating Buttons and Assistant Trigger features.",
             "name": "Unlock Premium",
             "options": []
         },

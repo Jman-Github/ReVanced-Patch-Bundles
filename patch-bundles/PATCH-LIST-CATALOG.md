@@ -86,7 +86,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 54 | 41 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
-| [Lain](#-lain-bundle-patch-list) | 43 | 30 | Generated |
+| [Lain](#-lain-bundle-patch-list) | 45 | 32 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 115 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 126 | 2 | Generated |
@@ -415,7 +415,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock all tribes``` | ```Unlocks all 20 tribes (Xinxi, Imperius, Bardur, Oumaji, Kickoo, Hoodrick, Luxidoor, Vengir, Zebasi, Aimo, Aquarion, Elyrion, Polaris, Magma, Yadakk, Quetzali, Cymanti, Swamp, Ikarus, Urkaz) and all skins by patching the native IL2CPP library (libil2cpp.so). Makes IsProductUnlocked return true, skips the purchase flow, and suppresses the 'Purchase error' dialog. Pure ARM64 hex patching, no smali, no extension.``` | ```The Battle of Polytopia``` | ```All versions``` |
 | ```Billing bypass``` | ```Attempts to credit purchases by scanning the app for billing code and applying the appropriate bypass. Runs 5 phases: (1) Cocos2d-x helper, (2) GameMaker verifyPurchase, (3) Google Play Billing, (4) Unity billing bridge, (5) Fallback. Also depends on Unity IL2CPP hex patch.``` | ```Universal``` | ```All versions``` |
 | ```Unity IL2CPP hex patch``` | ```Patches libil2cpp.so to bypass Unity IL2CPP billing validation.``` | ```Universal``` | ```All versions``` |
-| ```Unlock all``` | ```Removes PairIP from manifest, hex patches libcocos2dcpp.so for unlimited currencies (plutonium, coins, squeezer parts) and blocks Play Store redirect. Based on working mod analysis.``` | ```Zombie Catchers``` | ```All versions``` |
+| ```Unlock all``` | ```Removes PairIP from manifest and hex patches libcocos2dcpp.so for unlimited currencies and Play Store bypass.``` | ```Zombie Catchers``` | ```All versions``` |
 
 </details>
 
@@ -1433,7 +1433,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Lain Bundle Patch List:
 [📦 Lain-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lain-patches-bundle-morphe)
 <details>
-<summary><b>Lain</b> - 43 patches, 30 apps</summary>
+<summary><b>Lain</b> - 45 patches, 32 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1455,6 +1455,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium``` | ```Enable premium features.``` | ```Hermit``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock premium features such as Disable Ads and access AI Assistant.``` | ```Hidden Settings``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlock premium features such as Unlimited access to PDF tools, Enable Cloud Storage; Split, Merge, Compress documents, and more. Google login or Google Drive storage is broken, need MicroG integration patch.``` | ```iLovePDF``` | ```All versions``` |
+| ```Enable Kapi Pro``` | ```Unlock all features of Kapi Pro lifetime membership.``` | ```Kapi Cam``` | ```All versions``` |
+| ```Unlock Premium``` | ```Enable Floating Buttons and Assistant Trigger features.``` | ```Key Mapper``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlock all features in Pro.``` | ```Keymate``` | ```All versions``` |
 | ```Bypass Reading Limitation``` | ```Bypass 'First Time Free' read limitation for all languages. Only affect 'Standard/Deluxe' plan titles, exclusive 'Deluxe' plan titles are server-driven.``` | ```Manga Plus``` | ```All versions``` |
 | ```Enable Deluxe Plan``` | ```Enable Deluxe plan badge on settings. Bypass the 'First Time Free' read limitation only for English language on 'Standard/Deluxe' plan titles. Other languages aren't affected.``` | ```Manga Plus``` | ```All versions``` |
@@ -3905,8 +3907,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide ads``` | ```Hides sponsored ads and Google Ads. Also disables Microsoft Clarity analytics.``` | ```com.ebay.kleinanzeigen``` | ```2026.16.1, 2026.14.2, 2026.14.0``` |
 | ```Hide Pur``` | ```Hides the Pur ad-free subscription option from the settings menu.``` | ```com.ebay.kleinanzeigen``` | ```2026.16.1, 2026.14.2, 2026.14.0``` |
 | ```Remove tracking parameters from share URLs``` | ```Strips UTM tracking parameters from URLs shared via the in-app share function.``` | ```com.ebay.kleinanzeigen``` | ```2026.16.1, 2026.14.2, 2026.14.0``` |
-| ```Enable CustomTabs``` | ```Enables CustomTabs to open articles in your default browser.``` | ```com.google.android.apps.magazines``` | ```5.161.0.931240252``` |
-| ```GmsCore support``` | ```Allows Google News to sign in via MicroG (GmsCore) instead of Google Play Services when installed under a renamed package.``` | ```com.google.android.apps.magazines``` | ```5.161.0.931240252, 5.158.0.908428942, 5.156.0.892791979``` |
+| ```Enable CustomTabs``` | ```Enables CustomTabs to open articles in your default browser.``` | ```com.google.android.apps.magazines``` | ```5.163.0.947799485``` |
+| ```GmsCore support``` | ```Allows Google News to sign in via MicroG (GmsCore) instead of Google Play Services when installed under a renamed package.``` | ```com.google.android.apps.magazines``` | ```5.163.0.947799485, 5.161.0.931240252, 5.158.0.908428942, 5.156.0.892791979``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 
 </details>

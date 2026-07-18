@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.10",
+    "version": "v1.11.12",
     "patches": [
         {
             "compatiblePackages": [
@@ -262,10 +262,8 @@
                 }
             ],
             "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Removes PairIP from manifest, hex patches libcocos2dcpp.so for unlimited currencies (plutonium, coins, squeezer parts) and blocks Play Store redirect. Based on working mod analysis.",
+            "dependencies": [],
+            "description": "Removes PairIP from manifest and hex patches libcocos2dcpp.so for unlimited currencies and Play Store bypass.",
             "name": "Unlock all",
             "options": []
         },
