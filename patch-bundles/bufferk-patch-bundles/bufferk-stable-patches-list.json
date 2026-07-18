@@ -1,6 +1,29 @@
 {
-    "version": "v1.6.12",
+    "version": "v1.7.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Browser",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.92.140"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks Brave Origin and enables feature toggle controls.",
+            "name": "Brave Origin",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -248,6 +271,24 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "com.overdevs.at4k",
+                    "packageName": "com.overdevs.at4k",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all AT4K premium features by forcing the premium status to true.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#1A73E8",
                     "name": "MyGate",
@@ -264,24 +305,6 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all MyGate premium features: spoofs USER_PREMIUM_PLAN status, suppresses upgrade dialogs and paywalls, enables frequent pre-approvals for deliveries, cabs and visiting help, unlocks surprise delivery and the always-approve-entries toggle.",
-            "name": "Unlock premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "com.overdevs.at4k",
-                    "packageName": "com.overdevs.at4k",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks all AT4K premium features by forcing the premium status to true.",
             "name": "Unlock premium",
             "options": []
         },

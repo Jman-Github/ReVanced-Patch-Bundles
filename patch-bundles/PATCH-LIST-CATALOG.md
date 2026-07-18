@@ -351,7 +351,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Hide Forwarded``` | ```Quita la etiqueta "reenviado" de los mensajes.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Hide Read Receipts``` | ```Read messages without sending blue ticks.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Hide Typing``` | ```Escribe sin mostrar "escribiendo...".``` | ```com.whatsapp``` | ```2.26.27.4``` |
-| ```Login Fix``` | ```Bypasses verification bans by spoofing signature hashes. REQUIRED: Install microG-RE for Play Integrity.``` | ```com.whatsapp``` | ```2.26.27.4``` |
+| ```Login Fix``` | ```Bypasses verification bans by spoofing signature hashes.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```No Forward Limit``` | ```Forward messages to unlimited contacts.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Remove Communities``` | ```Hide the communities tab.``` | ```com.whatsapp``` | ```2.26.27.4``` |
 | ```Remove Updates``` | ```Hide the updates/statuses tab.``` | ```com.whatsapp``` | ```2.26.27.4``` |
@@ -495,7 +495,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass license check``` | ```Bypasses the Google Play LVL backend license check, allowing full app access without activation.``` | ```Bounce Companion``` | ```All versions``` |
-| ```Enable Brave Origin``` | ```Enables Brave Origin features by default.``` | ```Brave Browser``` | ```All versions``` |
+| ```Brave Origin``` | ```Unlocks Brave Origin and enables feature toggle controls.``` | ```Brave Browser``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks all AT4K premium features by forcing the premium status to true.``` | ```com.overdevs.at4k``` | ```All versions``` |
 | ```Freedium``` | ```Adds a profile setting to choose the Freedium Mirror host, and a floating button on articles that opens the current article using the chosen Freedium Mirror in a webview.``` | ```Medium``` | ```All versions``` |
 | ```Flutter Premium Bypass``` | ```Forces premium status inside the JSON payload sent to Flutter``` | ```MyGate``` | ```All versions``` |
