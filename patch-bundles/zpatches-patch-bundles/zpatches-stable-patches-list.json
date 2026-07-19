@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.1",
+    "version": "v1.6.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -25,6 +25,17 @@
         },
         {
             "compatiblePackages": {
+                "ee.dustland.android.minesweeper": null,
+                "ee.dustland.android.solitaire": null
+            },
+            "dependencies": [],
+            "description": "Disable Internet and Telemetry by removing all non-necessary permissions from the manifest",
+            "name": "Disable Internet and Telemetry",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.jcdecaux.vls.lyon": [
                     "3.1.1"
                 ]
@@ -32,6 +43,17 @@
             "dependencies": [],
             "description": "Disable the map zoom-in animation",
             "name": "Disable map animations",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "ee.dustland.android.minesweeper": null,
+                "ee.dustland.android.solitaire": null
+            },
+            "dependencies": [],
+            "description": "Unlock all purchasables options",
+            "name": "Enable Premium",
             "options": [],
             "use": true
         },
@@ -52,18 +74,6 @@
             "dependencies": [],
             "description": "Allows you to unlock a bike even if you're not near the station.",
             "name": "No geolocalisation check",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "ee.dustland.android.minesweeper": [
-                    "1.21.1"
-                ]
-            },
-            "dependencies": [],
-            "description": "Unlock all purchasables options",
-            "name": "Premium",
             "options": [],
             "use": true
         },

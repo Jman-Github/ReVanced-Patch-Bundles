@@ -81,7 +81,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Perplexity-STT](#-perplexity-stt-bundle-patch-list) | 1 | 1 | Generated |
 | [Browzomje](#-browzomje-bundle-patch-list) | 5 | 1 | Generated |
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
-| [Zpatches](#-zpatches-bundle-patch-list) | 6 | 3 | Generated |
+| [Zpatches](#-zpatches-bundle-patch-list) | 7 | 4 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
 | [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 54 | 41 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
@@ -89,13 +89,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Lain](#-lain-bundle-patch-list) | 45 | 32 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 115 | 3 | Generated |
-| [Piko](#-piko-bundle-patch-list) | 126 | 2 | Generated |
+| [Piko](#-piko-bundle-patch-list) | 127 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 10 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 22 | 5 | Generated |
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
-| [Chiggi](#-chiggi-bundle-patch-list) | 52 | 8 | Generated |
+| [Chiggi](#-chiggi-bundle-patch-list) | 53 | 8 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 3 | 3 | Generated |
 | [EE-Morphe](#-ee-morphe-bundle-patch-list) | 12 | 6 | Generated |
 | [X-Shim](#-x-shim-bundle-patch-list) | 3 | 1 | Generated |
@@ -842,7 +842,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Zpatches Bundle Patch List:
 [?? Zpatches-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-zpatches-patches-bundle-morphe)
 <details>
-<summary><b>Zpatches</b> - 6 patches, 3 apps</summary>
+<summary><b>Zpatches</b> - 7 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -850,7 +850,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Disable map animations``` | ```Disable the map zoom-in animation``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
 | ```No geolocalisation check``` | ```Allows you to unlock a bike even if you're not near the station.``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
 | ```Spoof package signature``` | ```Spoofs the package signature required for Firebase, fixes notifications``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
-| ```Premium``` | ```Unlock all purchasables options``` | ```ee.dustland.android.minesweeper``` | ```1.21.1``` |
+| ```Disable Internet and Telemetry``` | ```Disable Internet and Telemetry by removing all non-necessary permissions from the manifest``` | ```ee.dustland.android.minesweeper, ee.dustland.android.solitaire``` | ```All versions``` |
+| ```Enable Premium``` | ```Unlock all purchasables options``` | ```ee.dustland.android.minesweeper, ee.dustland.android.solitaire``` | ```All versions``` |
 | ```Export all activities``` | ```Makes all activities launchable externally by setting android:exported="true" in the manifest``` | ```Universal``` | ```All versions``` |
 
 </details>
@@ -1632,7 +1633,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Piko Bundle Patch List:
 [📦 Piko-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-patches-bundle-morphe)
 <details>
-<summary><b>Piko</b> - 126 patches, 2 apps</summary>
+<summary><b>Piko</b> - 127 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1655,6 +1656,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Disable screenshot detection``` | ```Disables screenshots detection in DM``` | ```Instagram``` | ```All versions``` |
 | ```Disable stories``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Disable story flipping``` | ```Disable automatic flipping/moving to next story``` | ```Instagram``` | ```All versions``` |
+| ```Disable swipe to create``` | ```Prevents opening the creation screen by swiping right on the home tab.``` | ```Instagram``` | ```All versions``` |
 | ```Disable typing status``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Disable video autoplay``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```Instagram``` | ```All versions``` |
@@ -2738,7 +2740,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Chiggi Bundle Patch List:
 [📦 Chiggi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-chiggi-patches-bundle-morphe)
 <details>
-<summary><b>Chiggi</b> - 52 patches, 8 apps</summary>
+<summary><b>Chiggi</b> - 53 patches, 8 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2763,6 +2765,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Premium unlock``` | ```Unlocks premium UI state: shows the subscribed badge, enables the download button for all content and suppresses subscription nudges during playback. This is a UI unlock only — it does not grant access to DRM content you are not entitled to. Approach adapted from Paresh-Maheshwari's patches (GPL-3.0).``` | ```JioHotstar``` | ```All versions``` |
 | ```Remove AD_ID permission``` | ```Removes the advertising-id and Ad Services (Privacy Sandbox) permissions so the device advertising id, Attribution and Topics signals cannot be read for ad tracking.``` | ```JioHotstar``` | ```All versions``` |
 | ```Remove ads``` | ```Removes pre-roll, mid-roll and live-match video ads by clearing the SSAI ad tag in the AdMetadata constructor, so the client requests a clean, non-ad-stitched stream at the source. This surgical approach lets the app's own ad machinery see "no ads" and behave normally (no retry loops, no empty ad slots). Approach adapted from Paresh-Maheshwari's patches (GPL-3.0).``` | ```JioHotstar``` | ```All versions``` |
+| ```Spoof device attestation``` | ```Forces the device-attestation blob JioHotstar sends to the server to report a clean device (IsTampered/IsRooted/IsProxy/isVpnActive/IsEmulator/suspicious-file/open-ports/debugger all false). The re-signed build otherwise sends IsTampered=true, which the server flags as "suspicious activity" and locks the account for 24 hours (error NM-4290). WARNING: this reduces one client-sent signal but does NOT make the account safe — the server still sees the VPN exit IP, and an already-flagged account stays on Hotstar's radar. Do not run this on an account you cannot afford to lose.``` | ```JioHotstar``` | ```All versions``` |
 | ```Spoof device-integrity self-report``` | ```Forces JioHotstar's security-suite checks (VPN, proxy, root, debugger, open ports, suspicious files) to report false, so the device-integrity attestation the app sends to the server looks clean. Helps rooted/modded devices and complements the VPN bypass. Note: the attestation is also server-validated (signed nonce) and the server sees the connection IP, so this is not guaranteed to defeat a server-side check on its own.``` | ```JioHotstar``` | ```All versions``` |
 | ```Change app name``` | ```Changes the app name shown under the launcher icon. Set the desired name in the patch options.``` | ```Jiotv+: LiveTV & OTT``` | ```All versions``` |
 | ```Disable analytics``` | ```Disables Firebase/Google Analytics, Crashlytics and Performance data collection via manifest flags. CleverTap is left intact (it drives in-app UI and disabling it would crash the app). Push notifications are unaffected.``` | ```Jiotv+: LiveTV & OTT``` | ```All versions``` |

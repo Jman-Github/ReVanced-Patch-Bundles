@@ -1,5 +1,5 @@
 {
-    "version": "v3.8.0-dev.4",
+    "version": "v3.8.0-dev.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -1170,6 +1170,32 @@
             ],
             "description": "Disable automatic flipping/moving to next story",
             "name": "Disable story flipping",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "435.0.0.37.76",
+                            "versionCodes": {
+                                "ARM64_V8A": 384109456
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Prevents opening the creation screen by swiping right on the home tab.",
+            "name": "Disable swipe to create",
             "options": []
         },
         {

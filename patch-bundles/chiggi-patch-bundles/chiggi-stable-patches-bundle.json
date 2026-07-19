@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-18T15:56:26",
-  "description": "Adds three native Android TV OTT apps (all clean re-sign, no anti-tamper). JioHotstar (in.startv.hotstar 26.06.22.3): novel VPN/proxy-block bypass (device-confirmed India VPN + playback), remove ads, integrity spoof, analytics off, AD_ID, premium UI, screenshots/mirroring/4K/HDR, change name. Vi Movies and TV (com.vimtv 10.8): remove ads, analytics off, AD_ID, change name, premium UI. JioTV+ (com.jio.media.jiotvplus 2.6.4_2076): remove ads (JioAds + player VMAP), analytics off, AD_ID, change name. Existing apps unchanged (SonyLIV, Nutrilio, Threads, Arrow Puzzle, CrazyGames). Ads/premium are client-side; real content stays server-entitlement + Widevine gated. JioHotstar ad/premium/UX hooks adapted from Paresh-Maheshwari (GPL-3.0).",
-  "download_url": "https://github.com/durgesh0505/chiggi_morphe_patches/releases/download/v1.15.0/patches-1.15.0.mpp",
+  "created_at": "2026-07-19T15:34:53",
+  "description": "JioHotstar account-flag fix. The re-signed build was sending IsTampered=true in the device-attestation blob (Kg/b) it posts to the server, which locked the account 24h for \"suspicious activity\" (error NM-4290). Adds \"Spoof device attestation\": forces all 8 attestation security flags (IsEmulator/IsRooted/IsTampered/IsProxy/isVpnActive/isSuspiciousFileExists/isPortsOpen/isDebuggerEnabled) to false at the blob constructor, so the app reports a clean device. WARNING: this only removes a client-sent signal \u2014 the server still sees the VPN exit IP and an already-flagged account stays on Hotstars radar. Do NOT run on an account you cannot afford to lose; test on a throwaway Jio number first. Other apps unchanged.",
+  "download_url": "https://github.com/durgesh0505/chiggi_morphe_patches/releases/download/v1.15.1/patches-1.15.1.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.15.0"
+  "version": "v1.15.1"
 }
