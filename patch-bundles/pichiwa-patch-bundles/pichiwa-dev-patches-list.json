@@ -1,5 +1,5 @@
 {
-    "version": "v0.4.0-dev.63",
+    "version": "v0.4.0-dev.65",
     "patches": [
         {
             "compatiblePackages": {
@@ -164,7 +164,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Bypasses verification bans by spoofing signature hashes.",
+            "description": "Bypasses verification bans. REQUIRED: Install microG-RE for Play Integrity.",
             "name": "Login Fix",
             "options": [],
             "use": true

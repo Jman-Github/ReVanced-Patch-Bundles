@@ -1,18 +1,43 @@
 {
+    "version": "v1.0.4",
     "patches": [
         {
-            "compatiblePackages": {
-                "Google Maps": [
-                    "26.26.04.935742811",
-                    "26.27.05.941319029"
-                ]
-            },
-            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "signatures": [
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83",
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "26.26.04.935742811"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "26.27.05.941319029"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "26.28.03.942936911"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": "Routes supported Google Maps builds through ReVanced GmsCore using the patched Maps package and known Google Maps certificate spoof metadata.",
             "name": "Google Maps MicroG",
-            "options": [],
-            "use": true
+            "options": []
         }
-    ],
-    "version": "v1.0.3"
+    ]
 }
