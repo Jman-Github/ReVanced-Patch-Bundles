@@ -1,4 +1,5 @@
 {
+    "version": "v1.1.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -24,6 +25,90 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Mail",
+                    "packageName": "ch.protonmail.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "4.15.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 11782,
+                                "ARMEABI_V7A": 11782,
+                                "X86": 11782,
+                                "X86_64": 11782
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the 'Upgrade to Mail Plus' entry from the sidebar.",
+            "name": "Hide sidebar upselling",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Mail",
+                    "packageName": "ch.protonmail.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "4.15.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 11782,
+                                "ARMEABI_V7A": 11782,
+                                "X86": 11782,
+                                "X86_64": 11782
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the 'Sent from Proton Mail mobile' signature from emails.",
+            "name": "Remove 'Sent from' signature",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Mail",
+                    "packageName": "ch.protonmail.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "4.15.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 11782,
+                                "ARMEABI_V7A": 11782,
+                                "X86": 11782,
+                                "X86_64": 11782
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the limit for maximum free accounts logged in.",
+            "name": "Remove free accounts limit",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#0772BA",
                     "name": "ForusApp",
                     "packageName": "com.myvitale.forus",
@@ -36,7 +121,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks premium features.",
+            "description": "Unlocks all premium features.",
             "name": "Unlock premium",
             "options": []
         },
@@ -56,7 +141,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks premium features.",
+            "description": "Unlocks all premium features.",
             "name": "Unlock premium",
             "options": []
         },
@@ -82,6 +167,5 @@
             "name": "Unlock premium",
             "options": []
         }
-    ],
-    "version": "v1.0.1-dev.1"
+    ]
 }
