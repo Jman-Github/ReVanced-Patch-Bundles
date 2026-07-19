@@ -49,7 +49,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Gmaps](#-gmaps-bundle-patch-list) | 1 | 1 | Generated |
 | [Seobject](#-seobject-bundle-patch-list) | 1 | 1 | Generated |
 | [Abeja](#-abeja-bundle-patch-list) | 3 | 1 | Generated |
-| [Proxma](#-proxma-bundle-patch-list) | 10 | 5 | Generated |
+| [Proxma](#-proxma-bundle-patch-list) | 11 | 5 | Generated |
 | [Jouss](#-jouss-bundle-patch-list) | 58 | 23 | Generated |
 | [Babyhuehnchen](#-babyhuehnchen-bundle-patch-list) | 1 | 1 | Generated |
 | [Cobalt-Morphe](#-cobalt-morphe-bundle-patch-list) | 1 | 1 | Generated |
@@ -220,7 +220,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Proxma Bundle Patch List:
 [📦 Proxma-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-proxma-patches-bundle-morphe)
 <details>
-<summary><b>Proxma</b> - 10 patches, 5 apps</summary>
+<summary><b>Proxma</b> - 11 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -228,6 +228,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock premium (remove ads)``` | ```Unlocks Investify premium — forces the backend `no_ads` entitlement getter to report true in both the model and its Realm proxy, so the app treats the account as ad-free without any purchase. Ad SDK loads are gated on this flag app-wide.``` | ```Investify``` | ```All versions``` |
 | ```Block trackers``` | ```Stops the Insider, TikTok Business SDK and Mixpanel Session Replay trackers from initializing (event/attribution/session-replay tracking never starts). Leaves AWS Amplify, Firebase core/RemoteConfig/FCM and Google Ads init untouched so app data, push and the remote ad-config the ads patch relies on keep working.``` | ```My Telenor``` | ```All versions``` |
 | ```Block trackers (manifest flags)``` | ```Disables Firebase Analytics + Google advertiser-id auto-collection and the Facebook SDK's auto app-events / advertiser-id / auto-init via AndroidManifest <meta-data> flags — the SDK-side auto-collection that no bytecode init-stub can reach. Leaves Firebase core (FCM push, RemoteConfig) and the Facebook ContentProvider intact. Separate from the bytecode Block trackers patch so you can pick either or both.``` | ```My Telenor``` | ```All versions``` |
+| ```Bypass device validation``` | ```Neutralizes the client-side device-validation gate (anti-root / anti-emulator / anti-Frida / anti-Xposed / anti-tamper battery) that shows a "Device validation failed" toast and kills the app via finishAffinity() on a rooted, emulated or re-signed build. Redirects the single failure callback to the success path so all ~16 checks report as passed and the app keeps running pre- and post-login.``` | ```My Telenor``` | ```All versions``` |
 | ```Remove ads``` | ```Removes every Google Ad Manager ad (banners + interstitials) across Daily Rewards, Home, Test Your Skills and Explore by nulling the remote ad-config chokepoint, so each surface renders its no-ads layout and never requests an interstitial.``` | ```My Telenor``` | ```All versions``` |
 | ```Remove ads & tracking``` | ```Removes every ad (AdMob) and every tracker (Firebase Analytics, AppsFlyer, Facebook, TikTok, and the Veridium SDK's own Google Analytics) — event sends, full SDK init (AppsFlyer init, TikTok initializeSdk/startTrack, MobileAds.initialize), and auto-collection. Pushwoosh push is left intact. The app then phones home only to its own Zong API.``` | ```MyZong``` | ```All versions``` |
 | ```Unlock daily reward (skip ad)``` | ```Claim MyZong's daily reward with no 'watch ad' popup and no ad. Forces the reward-bubble tap to take the app's own direct-claim branch (the same claim call the post-ad path makes), upstream of both the popup and the rewarded ad.``` | ```MyZong``` | ```All versions``` |
