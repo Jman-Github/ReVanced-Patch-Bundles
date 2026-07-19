@@ -1,5 +1,5 @@
 {
-    "version": "1.7.0",
+    "version": "1.8.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -114,6 +114,29 @@
             "dependencies": [],
             "description": "Disables Simosa's anti-tamper signature check so a re-signed APK launches normally instead of stalling on the splash / \"version is not correct\" dialog.",
             "name": "Bypass signature verification",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#0088CC",
+                    "name": "MTProxy",
+                    "packageName": "com.sdev.mtproxy",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2.1.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes every AdMob ad — the interstitial (rerouted to its onAdFailedToLoad branch so the proxy-apply action still runs, but no ad loads or shows) and the on-screen banner (load skipped). No feature is lost.",
+            "name": "Remove ads",
             "options": []
         },
         {
