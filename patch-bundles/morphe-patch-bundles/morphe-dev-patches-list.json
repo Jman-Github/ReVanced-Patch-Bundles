@@ -1,5 +1,5 @@
 {
-    "version": "v1.36.0-dev.4",
+    "version": "v1.36.0-dev.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -1324,6 +1324,53 @@
                     }
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.28.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "2026.14.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "2026.04.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.",
+            "name": "Custom font",
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -3016,6 +3063,53 @@
             ],
             "description": "Adds an option to always use the original audio track.",
             "name": "Force original audio",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.28.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "2026.14.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "2026.04.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.",
+            "name": "Force system font",
             "options": []
         },
         {
