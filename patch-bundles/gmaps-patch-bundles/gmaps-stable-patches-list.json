@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.4",
+    "version": "v1.0.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -27,6 +27,11 @@
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "26.28.03.942936911"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "26.29.02.946673643"
                         }
                     ]
                 }
@@ -36,7 +41,7 @@
                 "ResourcePatch"
             ],
             "description": "Routes supported Google Maps builds through ReVanced GmsCore using the patched Maps package and known Google Maps certificate spoof metadata.",
-            "name": "Google Maps MicroG",
+            "name": "Google Maps for ReVanced GmsCore",
             "options": []
         }
     ]

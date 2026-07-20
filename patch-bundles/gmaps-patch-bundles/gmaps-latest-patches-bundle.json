@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-15T18:01:59",
-  "description": "Adds inspected compatibility for Google Maps 26.28.03.942936911 (versionCode 1068670201, minSdk 28).\n\n- Adds the application, activity, and Google Play services availability fingerprints confirmed in the new APK.\n- Keeps Google Maps 26.27.05.941319029 and 26.26.04.935742811 compatibility.\n- Runtime validation for 26.28.03 is still pending; 26.27.05 remains the BYD-validated stable build.\n\nThis release contains a Morphe patch bundle only. Users must supply their own clean APK and patch it with Morphe Desktop.",
-  "download_url": "https://github.com/fangkampanat/gmaps-patches/releases/download/v1.0.4/patches-1.0.4.mpp",
+  "created_at": "2026-07-20T16:38:25",
+  "description": "Stable Google Maps patch bundle for ReVanced GmsCore.\n\n- Patch: Google Maps for ReVanced GmsCore\n- Added support for Google Maps 26.29.02.946673643\n- SHA-256: 7cc4a68757d80b57adbc081cc5452fed7a1807a6cef6d88d864c2cc94d39a726",
+  "download_url": "https://github.com/fangkampanat/gmaps-patches/releases/download/v1.0.5/patches-1.0.5.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.0.4"
+  "version": "v1.0.5"
 }
