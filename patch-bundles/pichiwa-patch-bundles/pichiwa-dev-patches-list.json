@@ -1,5 +1,5 @@
 {
-    "version": "v0.4.0-dev.70",
+    "version": "v0.4.0-dev.72",
     "patches": [
         {
             "compatiblePackages": {
@@ -166,6 +166,18 @@
             "dependencies": [],
             "description": "Bypasses verification bans by spoofing signatures, installers, and faking GMS checks. REQUIRED: You must manually install microG-RE for Play Integrity to pass.",
             "name": "Login Fix",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.whatsapp": [
+                    "2.26.27.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Habilita la intercepci�n de red (MITM) agregando un archivo limpio de configuraci�n.",
+            "name": "Network Security Config",
             "options": [],
             "use": true
         },
