@@ -144,7 +144,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 127 | 4 | Generated |
-| [Stylus](#-stylus-bundle-patch-list) | 2 | 1 | Generated |
+| [Stylus](#-stylus-bundle-patch-list) | 3 | 2 | Generated |
 | [HXReborn](#-hxreborn-bundle-patch-list) | 7 | 4 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 4 | 2 | Generated |
 
@@ -4979,10 +4979,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Stylus Bundle Patch List:
 [📦 Stylus-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-stylus-patches-bundle-morphe)
 <details>
-<summary><b>Stylus</b> - 2 patches, 1 app</summary>
+<summary><b>Stylus</b> - 3 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Force system font (Bitwarden)``` | ```Renders the app using the device's system font instead of DM Sans / Roboto.``` | ```Bitwarden``` | ```All versions``` |
 | ```Custom font``` | ```Applies a custom font selected while patching, replacing Reddit Sans / Roboto. A variable font is recommended so heading and body text keep their different weights. Do not enable "Force system font" at the same time.``` | ```Reddit``` | ```All versions``` |
 | ```Force system font``` | ```Renders the app using the device's system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```All versions``` |
 

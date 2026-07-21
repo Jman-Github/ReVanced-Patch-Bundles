@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.1-dev.1",
+    "version": "v1.1.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -111,6 +111,31 @@
             "dependencies": [],
             "description": "Renders the app using the device's system font instead of Reddit Sans / Roboto.",
             "name": "Force system font",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#175DDC",
+                    "name": "Bitwarden",
+                    "packageName": "com.x8bit.bitwarden",
+                    "signatures": [
+                        "24e06c04c208048f19f1c993b4dda4430ea8b06db8375ea0e37b834696b9ac3a"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.6.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Renders the app using the device's system font instead of DM Sans / Roboto.",
+            "name": "Force system font (Bitwarden)",
             "options": []
         }
     ]
