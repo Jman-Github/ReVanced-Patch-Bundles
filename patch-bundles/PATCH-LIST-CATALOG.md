@@ -104,7 +104,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 77 | 53 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 85 | 6 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 129 | 4 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 131 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 2 | 2 | Generated |
@@ -3272,7 +3272,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 129 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 131 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3342,7 +3342,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide video action buttons``` | ```Adds options to hide video action buttons in fullscreen and portrait modes.``` | ```YouTube``` | ```All versions``` |
 | ```Loop video``` | ```Adds an option to loop videos and display loop video button in the video player.``` | ```YouTube``` | ```All versions``` |
 | ```Media notification controls``` | ```Adds options to disable the seekbar and previous/next buttons in the media notification and headphone controls.``` | ```YouTube``` | ```All versions``` |
-| ```Miniplayer``` | ```Adds options to change the in-app minimized player.``` | ```YouTube``` | ```All versions``` |
+| ```Miniplayer``` | ```Adds options to change the in-app minimized player. Patching 21.28.206 and lower has more miniplayer types to choose from.``` | ```YouTube``` | ```All versions``` |
 | ```Navigation bar``` | ```Adds options to hide and change the bottom navigation bar (such as the Shorts button) and the upper navigation toolbar. Patching version 20.21.37 and lower also adds a setting to use a wide searchbar.``` | ```YouTube``` | ```All versions``` |
 | ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy.``` | ```YouTube``` | ```All versions``` |
 | ```Open channel of live avatar``` | ```Adds an option to prevent a channel's current live video from opening when tapping its avatar.``` | ```YouTube``` | ```All versions``` |
@@ -3360,6 +3360,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube``` | ```All versions``` |
 | ```Save to watch later``` | ```Adds an option to display save to watch later button in the video player.``` | ```YouTube``` | ```All versions``` |
 | ```Seekbar``` | ```Adds options to disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, hiding the video player seekbar, enabling seeking in livestreams, and expanding the livestream DVR duration.``` | ```YouTube``` | ```All versions``` |
+| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube settings screen by their visible name.``` | ```YouTube``` | ```All versions``` |
 | ```Shorts autoplay``` | ```Adds options to automatically play the next Short.``` | ```YouTube``` | ```All versions``` |
 | ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content.``` | ```YouTube``` | ```All versions``` |
 | ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube``` | ```All versions``` |
@@ -3401,6 +3402,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of tracks with Return YouTube Dislike.``` | ```YouTube Music``` | ```All versions``` |
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```All versions``` |
 | ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```All versions``` |
+| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```YouTube Music``` | ```All versions``` |
 | ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```All versions``` |
 | ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```All versions``` |
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```All versions``` |
