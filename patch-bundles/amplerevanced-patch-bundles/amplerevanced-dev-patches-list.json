@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.13",
+    "version": "v1.2.0-dev.16",
     "patches": [
         {
             "compatiblePackages": [
@@ -366,6 +366,27 @@
             "dependencies": [],
             "description": "Bypass the limit of input mentions in non-multichat rooms",
             "name": "Bypass input mention limit in non-multichat",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#0096FA",
+                    "name": "Flexcil",
+                    "packageName": "com.flexcil.flexcilnote",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.4.9"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips the mandatory account sign-in on launch and opens the app directly.",
+            "name": "Bypass login",
             "options": []
         },
         {

@@ -95,7 +95,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 22 | 5 | Generated |
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
-| [Chiggi](#-chiggi-bundle-patch-list) | 53 | 8 | Generated |
+| [Chiggi](#-chiggi-bundle-patch-list) | 58 | 11 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 3 | 3 | Generated |
 | [EE-Morphe](#-ee-morphe-bundle-patch-list) | 12 | 6 | Generated |
 | [X-Shim](#-x-shim-bundle-patch-list) | 3 | 1 | Generated |
@@ -103,7 +103,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 77 | 53 | Generated |
-| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 85 | 6 | Generated |
+| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 86 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 131 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
@@ -2741,7 +2741,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Chiggi Bundle Patch List:
 [📦 Chiggi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-chiggi-patches-bundle-morphe)
 <details>
-<summary><b>Chiggi</b> - 53 patches, 8 apps</summary>
+<summary><b>Chiggi</b> - 58 patches, 11 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2750,11 +2750,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable analytics``` | ```Stops Easybrain analytics event upload (Unity AnalyticsPlugin send + the central AnalyticsController collector). SDK init is left intact so ad removal stays stable. Does not disable deep GMS/Firebase auto-collection; pair with Remove AD_ID for advertising-id.``` | ```Arrow Puzzle``` | ```All versions``` |
 | ```Remove AD_ID permission``` | ```Removes the advertising-id and Ad Services (Privacy Sandbox) permissions so the device advertising id, Topics and Attribution signals cannot be read for ad tracking.``` | ```Arrow Puzzle``` | ```All versions``` |
 | ```Remove ads``` | ```Removes ALL ads (banner, interstitial and rewarded) by neutering the Unity<->Android ad facade (com.easybrain.ads.unity.AdsPlugin): availability/show booleans return false, banner shows are no-ops and banner height is 0. The game treats every ad type as never ready. Note: rewarded ads are also removed, so watch-to-earn rewards no longer work.``` | ```Arrow Puzzle``` | ```All versions``` |
+| ```Unlock premium``` | ```Unlocks AYA Baby AI premium without a purchase by forcing the Apphud SDK entitlement checks Apphud.hasPremiumAccess() and hasActiveSubscription() to return true. The app gates premium features on these, so the app treats the user as subscribed. Because it uses an ads-or-premium model, unlocking premium also stops the Appodeal/AdMob ads. No Google Play purchase is made or needed.``` | ```AYA Baby AI``` | ```All versions``` |
 | ```Bypass Play license check``` | ```Stops Google Play's Automatic Integrity Protection (PairIP) license check that, on a re-signed/sideloaded build, redirects the app to the Play Store ("get it on Google Play"). Neuters both entry points of com.pairip.licensecheck.LicenseClient (checkLicense / initializeLicenseCheck) so the check never runs. Required for the patched app to open at all.``` | ```CrazyGames``` | ```All versions``` |
 | ```Change app name``` | ```Changes the app name shown under the launcher icon. Set the desired name in the patch options.``` | ```CrazyGames``` | ```All versions``` |
 | ```Disable analytics``` | ```Stops native Sentry crash/telemetry upload by neutering the Capacitor Sentry plugin's native init (io.sentry.capacitor.SentryCapacitor.initNativeSdk), so it resolves without starting the native Sentry SDK. Firebase auth, ConfigCat and push are unaffected.``` | ```CrazyGames``` | ```All versions``` |
 | ```Remove AD_ID permission``` | ```Removes the advertising-id and Ad Services (Privacy Sandbox) permissions so the device advertising id, Topics, Attribution and Custom Audience signals cannot be read for ad tracking.``` | ```CrazyGames``` | ```All versions``` |
 | ```Remove ads``` | ```Removes native ads (AdMob and its Pangle/Audience Network mediation) by neutering the Capacitor AdMob plugin (com.getcapacitor.community.admob.AdMob): no video is shown for interstitial or rewarded ads — instead the show methods fire the ad's lifecycle events so the game's loading overlay dismisses and rewarded ads still credit their reward; banners never display. Note: in-page web video ads served remotely inside the WebView (from crazygames.com) are not part of the app bytecode and cannot be removed here.``` | ```CrazyGames``` | ```All versions``` |
+| ```Unlock premium``` | ```Unlocks Cry Analyzer premium and removes all usage limits without a purchase. Forces BillingClientWrapper.isPurchased(...) true (every ownership check reports owned) and UserData.getRestrictionRelease() true (the master 'restrictions removed' flag). Together this gives unlimited analyses with no free-count / rewarded-ad requirement, no ads, and no free-analysis reminder nag. No Google Play purchase is made or needed.``` | ```Cry Analyzer``` | ```All versions``` |
+| ```Unlock premium``` | ```Unlocks the paid 'premium' upgrade (IAP com.mediocre.commute.premium) without a purchase. The native game asks the Java billing bridge AndroidStore whether the product is owned via isProductIdRestored() and reads the store status via getStatusAsString(); this forces the former to true and the latter to "2" (STORE_SUCCEEDED), so the game treats premium as owned. No Play purchase is made or needed. Note: the game's actual entitlement logic is in native libcommute.so, which cannot be patched here — if it independently re-verifies the purchase, this may not take effect.``` | ```Does Not Commute``` | ```All versions``` |
 | ```Bypass proxy/VPN security block``` | ```Stops the "Something is interfering with your secure connection" (NET_201) screen that JioHotstar shows when it detects a VPN/proxy. The app self-enforces a proxy verdict the server sends via the X-Hs-SetProxyState response header: the client stores it and, when it is BLOCKED/RESTRICTED, shows the security error. This neuters the handler that stores that verdict, so the client keeps reporting a clean (unblocked) proxy state and never blocks itself. It also neuters the store's periodic proxy-state refresh coroutines, which would otherwise re-fetch endlessly (the verdict is never stored, so the TTL check always sees it expired) and make the app feel laggy/retrying. Note: if JioHotstar also refuses playback server-side based on the connection IP, video may still fail even though the error screen is gone.``` | ```JioHotstar``` | ```All versions``` |
 | ```Change app name``` | ```Changes the app name shown under the launcher icon. Set the desired name in the patch options.``` | ```JioHotstar``` | ```All versions``` |
 | ```Disable analytics``` | ```Disables Firebase/Google Analytics, Crashlytics and Performance data collection via manifest flags. CleverTap is left intact (it drives in-app UI and disabling it would crash the app). Push notifications are unaffected.``` | ```JioHotstar``` | ```All versions``` |
@@ -2795,9 +2798,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove AD_ID permission``` | ```Removes the advertising-id (AD_ID) permissions so the device advertising id cannot be read for ad tracking. Does not disable Meta's core analytics.``` | ```Threads``` | ```All versions``` |
 | ```Change app name``` | ```Changes the app name shown under the launcher icon. Set the desired name in the patch options.``` | ```Vi Movies and TV``` | ```All versions``` |
 | ```Disable analytics``` | ```Disables Firebase/Google Analytics, Crashlytics and Performance data collection via manifest flags. CleverTap is left intact (it drives in-app UI and disabling it would crash the app). Push notifications are unaffected.``` | ```Vi Movies and TV``` | ```All versions``` |
+| ```Disable forced update``` | ```Removes the 'update available' popup (both the forced/non-cancelable and the optional variant) shown on splash/home. The pinned 10.8 re-signed build would otherwise be nagged — or hard-blocked — to update whenever the server reports a newer version. The popup is gated on ClientInfo.getVersionNumber(); forcing it to "0" makes the version check in SplashActivity and MainActivity conclude no update is needed.``` | ```Vi Movies and TV``` | ```All versions``` |
 | ```Premium unlock (UI)``` | ```Forces the client 'subscribed' flags true so premium UI state shows unlocked. OFF by default: Vi Movies and TV enforces entitlement server-side with Widevine DRM, so this does NOT grant content you are not entitled to — it only changes UI, and content that appears playable may still be refused by the server. Cosmetic UI change only.``` | ```Vi Movies and TV``` | ```All versions``` |
 | ```Remove AD_ID permission``` | ```Removes the advertising-id and Ad Services (Privacy Sandbox) permissions so the device advertising id, Attribution and Topics signals cannot be read for ad tracking.``` | ```Vi Movies and TV``` | ```All versions``` |
 | ```Remove ads``` | ```Removes pre-roll, mid-roll and SSAI video ads. The player builds its IMA/SSAI ad-tag URL from AdUrlResponse.getAdUrlTypes(); forcing that to null (and the TorcAiAdConfig.isAdEnabled() gate to false) means no ad tag is ever loaded, so no ad plays.``` | ```Vi Movies and TV``` | ```All versions``` |
+| ```Remove player watermark``` | ```Removes the per-content watermark/logo overlaid on the video (the one that changes depending on what you play). The player only shows the watermark ImageView when Configs.getWaterMarkInfoOnPlayer() returns non-empty JSON; forcing that getter to null makes the player's own guard hide the overlay. Client render only, so this is fully removable (it is not baked into the stream).``` | ```Vi Movies and TV``` | ```All versions``` |
 
 </details>
 
@@ -3164,7 +3169,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle-morphe)
 <details>
-<summary><b>AmpleReVanced</b> - 85 patches, 6 apps</summary>
+<summary><b>AmpleReVanced</b> - 86 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3192,6 +3197,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Render big DCCon as normal size``` | ```Adds a setting to render big DCCon at normal DCCon size.``` | ```dcinside``` | ```All versions``` |
 | ```Restore old post icons``` | ```Adds a setting to restore DCInside 4.7.x post list and read footer icons.``` | ```dcinside``` | ```All versions``` |
 | ```Spoof Signature``` | ```Spoofs the app signature to bypass integrity checks.``` | ```dcinside``` | ```All versions``` |
+| ```Bypass login``` | ```Skips the mandatory account sign-in on launch and opens the app directly.``` | ```Flexcil``` | ```All versions``` |
 | ```Unlock Premium features``` | ```Enables app features locked behind the subscription paywall.``` | ```Flexcil``` | ```All versions``` |
 | ```Add Packet Handler``` | ```Adding the Loco Packet Handler allows external applications to handle the app's packets, which may compromise security. Conflicts may occur on some systems.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Add Pine Lib``` | ```add libpine.so to the app's native libraries``` | ```Kakao Talk``` | ```All versions``` |

@@ -1,5 +1,5 @@
 {
-    "version": "v1.15.1",
+    "version": "v1.17.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -698,6 +698,28 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#EE1C25",
+                    "name": "Vi Movies and TV",
+                    "packageName": "com.vimtv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "10.8"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the 'update available' popup (both the forced/non-cancelable and the optional variant) shown on splash/home. The pinned 10.8 re-signed build would otherwise be nagged — or hard-blocked — to update whenever the server reports a newer version. The popup is gated on ClientInfo.getVersionNumber(); forcing it to \"0\" makes the version check in SplashActivity and MainActivity conclude no update is needed.",
+            "name": "Disable forced update",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#1F80E0",
                     "name": "JioHotstar",
@@ -1182,6 +1204,28 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#EE1C25",
+                    "name": "Vi Movies and TV",
+                    "packageName": "com.vimtv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "10.8"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the per-content watermark/logo overlaid on the video (the one that changes depending on what you play). The player only shows the watermark ImageView when Configs.getWaterMarkInfoOnPlayer() returns non-empty JSON; forcing that getter to null makes the player's own guard hide the overlay. Client render only, so this is fully removable (it is not baked into the stream).",
+            "name": "Remove player watermark",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#7460A4",
                     "name": "SonyLIV",
@@ -1287,6 +1331,72 @@
             "dependencies": [],
             "description": "Unlocks Nutrilio PLUS+ by forcing the premium gate (PremiumModule.t2()) to return true. Every premium feature (custom colors, all charts, app lock, all tracking options) and the paywall treat the user as a subscriber. Client-side only; does not grant a real Google Play subscription.",
             "name": "Unlock Plus",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#F5A8C0",
+                    "name": "AYA Baby AI",
+                    "packageName": "com.cry.analyzer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "6.8"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks AYA Baby AI premium without a purchase by forcing the Apphud SDK entitlement checks Apphud.hasPremiumAccess() and hasActiveSubscription() to return true. The app gates premium features on these, so the app treats the user as subscribed. Because it uses an ads-or-premium model, unlocking premium also stops the Appodeal/AdMob ads. No Google Play purchase is made or needed.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2E7D6F",
+                    "name": "Does Not Commute",
+                    "packageName": "com.mediocre.commute",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "1.5.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the paid 'premium' upgrade (IAP com.mediocre.commute.premium) without a purchase. The native game asks the Java billing bridge AndroidStore whether the product is owned via isProductIdRestored() and reads the store status via getStatusAsString(); this forces the former to true and the latter to \"2\" (STORE_SUCCEEDED), so the game treats premium as owned. No Play purchase is made or needed. Note: the game's actual entitlement logic is in native libcommute.so, which cannot be patched here — if it independently re-verifies the purchase, this may not take effect.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4FC3F7",
+                    "name": "Cry Analyzer",
+                    "packageName": "jp.firstascent.cryanalyzer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "1.3.28"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Cry Analyzer premium and removes all usage limits without a purchase. Forces BillingClientWrapper.isPurchased(...) true (every ownership check reports owned) and UserData.getRestrictionRelease() true (the master 'restrictions removed' flag). Together this gives unlimited analyses with no free-count / rewarded-ad requirement, no ads, and no free-analysis reminder nag. No Google Play purchase is made or needed.",
+            "name": "Unlock premium",
             "options": []
         }
     ]

@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-19T15:34:53",
-  "description": "JioHotstar account-flag fix. The re-signed build was sending IsTampered=true in the device-attestation blob (Kg/b) it posts to the server, which locked the account 24h for \"suspicious activity\" (error NM-4290). Adds \"Spoof device attestation\": forces all 8 attestation security flags (IsEmulator/IsRooted/IsTampered/IsProxy/isVpnActive/isSuspiciousFileExists/isPortsOpen/isDebuggerEnabled) to false at the blob constructor, so the app reports a clean device. WARNING: this only removes a client-sent signal \u2014 the server still sees the VPN exit IP and an already-flagged account stays on Hotstars radar. Do NOT run on an account you cannot afford to lose; test on a throwaway Jio number first. Other apps unchanged.",
-  "download_url": "https://github.com/durgesh0505/chiggi_morphe_patches/releases/download/v1.15.1/patches-1.15.1.mpp",
+  "created_at": "2026-07-22T16:15:56",
+  "description": "## [1.17.0](https://github.com/durgesh0505/chiggi_morphe_patches/compare/v1.16.0...v1.17.0) (2026-07-22)\n\n### \u2728 New Features\n\n* **cryanalyzer:** remove analysis limit (unlimited, no rewarded-ad) ([8d34ac9](https://github.com/durgesh0505/chiggi_morphe_patches/commit/8d34ac9fdd7eb9060979e15e7bfd55a20c869e1b))\n",
+  "download_url": "https://github.com/durgesh0505/chiggi_morphe_patches/releases/download/v1.17.0/patches-1.17.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.15.1"
+  "version": "v1.17.0"
 }
