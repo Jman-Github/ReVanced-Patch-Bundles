@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0",
+    "version": "v1.14.0",
     "patches": [
         {
             "compatibility": [
@@ -186,6 +186,10 @@
                         {
                             "experimental": false,
                             "version": "26.9.2+rc1-2026.06.12"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "26.12.1+rc1-2026.07.15"
                         }
                     ]
                 }
@@ -194,7 +198,8 @@
                 "com.disney.disneyplus": [
                     "26.6.0+rc5-2026.04.21",
                     "26.8.0+rc6-2026.05.20",
-                    "26.9.2+rc1-2026.06.12"
+                    "26.9.2+rc1-2026.06.12",
+                    "26.12.1+rc1-2026.07.15"
                 ]
             },
             "dependencies": [],
