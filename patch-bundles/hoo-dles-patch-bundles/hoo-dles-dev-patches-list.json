@@ -1,5 +1,5 @@
 {
-    "version": "v1.40.0-dev.2",
+    "version": "v1.40.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -1059,6 +1059,28 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#F8485E",
+                    "name": "Ling",
+                    "packageName": "com.simyasolutions.ling.universal",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.4.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#C93133",
                     "name": "Meme Generator",
                     "packageName": "com.zombodroid.MemeGenerator",
@@ -1448,7 +1470,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.17.72.0"
+                            "version": "5.19.43.0"
                         }
                     ]
                 }
@@ -1577,7 +1599,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.17.72.0"
+                            "version": "5.19.43.0"
                         }
                     ]
                 }
@@ -1597,7 +1619,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.17.72.0"
+                            "version": "5.19.43.0"
                         }
                     ]
                 }
@@ -1639,7 +1661,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.17.72.0"
+                            "version": "5.19.43.0"
                         }
                     ]
                 }
