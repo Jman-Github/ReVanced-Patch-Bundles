@@ -619,10 +619,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Ads Free Rewards``` | ```Auto-claim rewarded ad rewards without watching ads. WARNING: Enabling No Ads alongside this patch will prevent rewards from being claimed.``` | ```Universal``` | ```All versions``` |
-| ```No Ads``` | ```Blocks ads: interstitial, banner, app open, MREC. Each ad type can be toggled individually. WARNING: Enabling Ads Free Rewards alongside this patch will cause it to NOT work (No Ads takes priority).``` | ```Universal``` | ```All versions``` |
-| ```Pairip Application Redirect``` | ```Changes AndroidManifest.xml to redirect Pairip's Application entry point to the real app's Application class, preventing Pairip from ever starting. Auto-discovers the real app class from Pairip's DEX if not specified manually.``` | ```Universal``` | ```All versions``` |
-| ```Spoof Play Store Install Source``` | ```Makes the app think it was installed from Google Play Store. Recommended if the app has a Play Store license check.``` | ```Universal``` | ```All versions``` |
+| ```Ads Free Rewards``` | ```N/A``` | ```Universal``` | ```All versions``` |
+| ```No Ads``` | ```N/A``` | ```Universal``` | ```All versions``` |
+| ```Pairip Application Redirect``` | ```N/A``` | ```Universal``` | ```All versions``` |
+| ```Spoof Play Store Install Source``` | ```N/A``` | ```Universal``` | ```All versions``` |
 
 </details>
 

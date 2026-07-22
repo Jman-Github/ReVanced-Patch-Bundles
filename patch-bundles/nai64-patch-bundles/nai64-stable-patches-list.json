@@ -1,11 +1,11 @@
 {
-    "version": "1.13.0",
+    "version": "1.13.1",
     "patches": [
         {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Auto-claim rewarded ad rewards without watching ads. WARNING: Enabling No Ads alongside this patch will prevent rewards from being claimed.",
+            "description": null,
             "name": "Ads Free Rewards",
             "options": []
         },
@@ -13,7 +13,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Blocks ads: interstitial, banner, app open, MREC. Each ad type can be toggled individually. WARNING: Enabling Ads Free Rewards alongside this patch will cause it to NOT work (No Ads takes priority).",
+            "description": null,
             "name": "No Ads",
             "options": [
                 {
@@ -67,12 +67,12 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Changes AndroidManifest.xml to redirect Pairip's Application entry point to the real app's Application class, preventing Pairip from ever starting. Auto-discovers the real app class from Pairip's DEX if not specified manually.",
+            "description": null,
             "name": "Pairip Application Redirect",
             "options": [
                 {
                     "default": "",
-                    "description": "The real app's Application class name (e.g., com.example.app.App). Leave empty to auto-discover from Pairip's DEX.",
+                    "description": "The real app's Application class. Leave empty to auto-discover.",
                     "key": "realAppClass",
                     "required": false,
                     "title": "Real Application Class",
@@ -85,7 +85,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Makes the app think it was installed from Google Play Store. Recommended if the app has a Play Store license check.",
+            "description": null,
             "name": "Spoof Play Store Install Source",
             "options": []
         }
