@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-20T16:38:25",
-  "description": "Stable Google Maps patch bundle for ReVanced GmsCore.\n\n- Patch: Google Maps for ReVanced GmsCore\n- Added support for Google Maps 26.29.02.946673643\n- SHA-256: 7cc4a68757d80b57adbc081cc5452fed7a1807a6cef6d88d864c2cc94d39a726",
-  "download_url": "https://github.com/fangkampanat/gmaps-patches/releases/download/v1.0.5/patches-1.0.5.mpp",
+  "created_at": "2026-07-23T15:35:02",
+  "description": "Google Maps for ReVanced GmsCore\n\nChanges:\n- Fixed Timeline and GmsCore service routing by preserving original Google Intent actions.\n- Rewrote only the required GmsCore package, provider, permission, and account identifiers.\n- Preserved Semantic Location, Clearcut, C2DM, and other supported START/BIND actions.\n\nPatch bundle SHA-256: 0346989efa025d0dd7a49b0572f79bfdd1af386b49cb9a5922030b551a9ef544",
+  "download_url": "https://github.com/fangkampanat/gmaps-patches/releases/download/v1.0.6/patches-1.0.6.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.0.5"
+  "version": "v1.0.6"
 }
