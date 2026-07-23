@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-dev.3",
+    "version": "v1.7.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -9,6 +9,11 @@
                     "name": "Avito",
                     "packageName": "com.avito.android",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "229.1"
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 28,
@@ -55,6 +60,11 @@
                     "name": "Avito",
                     "packageName": "com.avito.android",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "229.1"
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 28,
@@ -107,6 +117,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "7.40.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "7.36.0"
                         },
                         {
@@ -120,7 +135,17 @@
             "dependencies": [],
             "description": "Stubs TBank's native RASP executor calls and neutralizes tamper flag reporting.",
             "name": "Bypass anti-tamper",
-            "options": []
+            "options": [
+                {
+                    "default": false,
+                    "description": "Fails when a current integrity-check target no longer matches. Intended for automated builds.",
+                    "key": "strictTargets",
+                    "required": false,
+                    "title": "Require all current targets",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": null,
@@ -207,6 +232,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "229.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "228.0"
                         },
                         {
@@ -240,7 +270,17 @@
             "dependencies": [],
             "description": "Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.",
             "name": "Disable telemetry",
-            "options": []
+            "options": [
+                {
+                    "default": false,
+                    "description": "Fail patching when a known Avito telemetry entry point cannot be found.",
+                    "key": "strictTargets",
+                    "required": false,
+                    "title": "Strict telemetry target validation",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -250,6 +290,11 @@
                     "name": "Avito",
                     "packageName": "com.avito.android",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "229.1"
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 28,
@@ -301,6 +346,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "229.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "228.0"
                         },
                         {
@@ -336,7 +386,17 @@
             ],
             "description": "Adds a \"Настройки Morphe\" entry to Avito's settings that hosts the configuration for the other Morphe patches.",
             "name": "Morphe settings",
-            "options": []
+            "options": [
+                {
+                    "default": false,
+                    "description": "Fail patching when the Avito settings entry or Konveyor bind hook cannot be applied.",
+                    "key": "strictHooks",
+                    "required": false,
+                    "title": "Strict settings hook validation",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -346,6 +406,11 @@
                     "name": "Avito",
                     "packageName": "com.avito.android",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "229.1"
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 28,
@@ -397,6 +462,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 26,
+                            "version": "19.27.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
                             "version": "19.22.0"
                         },
                         {
@@ -431,6 +501,15 @@
                     "title": "Hide recommendation grids",
                     "type": "kotlin.Boolean",
                     "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Fails when a current ad surface no longer matches. Intended for automated builds.",
+                    "key": "strictTargets",
+                    "required": false,
+                    "title": "Require all current targets",
+                    "type": "kotlin.Boolean",
+                    "values": null
                 }
             ]
         },
@@ -442,6 +521,11 @@
                     "name": "TBank",
                     "packageName": "com.idamob.tinkoff.android",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "7.40.0"
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 28,
@@ -460,7 +544,17 @@
             ],
             "description": "Removes TBank stories and promotional surfaces.",
             "name": "Remove TBank ads",
-            "options": []
+            "options": [
+                {
+                    "default": false,
+                    "description": "Fails when a current promotional surface no longer matches. Intended for automated builds.",
+                    "key": "strictTargets",
+                    "required": false,
+                    "title": "Require all current targets",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -470,6 +564,11 @@
                     "name": "Wildberries",
                     "packageName": "com.wildberries.ru",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.7.2001-rustore"
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 26,
@@ -503,6 +602,15 @@
                     "key": "hideRecommendationGrids",
                     "required": false,
                     "title": "Hide recommendation grids",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Fails when a current banner or recommendation surface no longer matches. Intended for automated builds.",
+                    "key": "strictTargets",
+                    "required": false,
+                    "title": "Require all current targets",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -551,6 +659,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "229.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "228.0"
                         },
                         {
@@ -586,7 +699,17 @@
             ],
             "description": "Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the \"Подписки\" tab in Избранное, hide installments (Рассрочка) and the \"Спросите у продавца\" block on offers, expand descriptions by default (no \"Читать далее\"), and hide the Avi assistant tab in the bottom navigation.",
             "name": "UI tweaks",
-            "options": []
+            "options": [
+                {
+                    "default": false,
+                    "description": "Fail patching when the Favorites-tab filtering hook cannot be applied.",
+                    "key": "strictFavoritesTabs",
+                    "required": false,
+                    "title": "Strict Favorites tab validation",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         }
     ]
 }
