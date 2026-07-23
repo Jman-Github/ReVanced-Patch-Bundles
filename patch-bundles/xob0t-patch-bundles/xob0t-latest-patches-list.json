@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.1",
+    "version": "v1.7.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -48,7 +48,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Makes the dark theme fully pure-black (AMOLED): backgrounds and surfaces/cards/bars become #000000. Dark mode only; borders, dividers and branded fills are kept for readability.",
+            "description": "Makes dark-theme page and navigation backgrounds pure black (AMOLED) while keeping elevated cards, sheets and controls gray so their boundaries remain visible.",
             "name": "AMOLED dark theme",
             "options": []
         },
