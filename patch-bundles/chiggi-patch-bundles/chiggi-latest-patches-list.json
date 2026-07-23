@@ -1,5 +1,5 @@
 {
-    "version": "v1.17.0",
+    "version": "v1.18.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -1265,6 +1265,28 @@
             "dependencies": [],
             "description": "Forces the device-attestation blob JioHotstar sends to the server to report a clean device (IsTampered/IsRooted/IsProxy/isVpnActive/IsEmulator/suspicious-file/open-ports/debugger all false). The re-signed build otherwise sends IsTampered=true, which the server flags as \"suspicious activity\" and locks the account for 24 hours (error NM-4290). WARNING: this reduces one client-sent signal but does NOT make the account safe — the server still sees the VPN exit IP, and an already-flagged account stays on Hotstar's radar. Do not run this on an account you cannot afford to lose.",
             "name": "Spoof device attestation",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1F80E0",
+                    "name": "JioHotstar",
+                    "packageName": "in.startv.hotstar",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "26.06.22.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Replaces the device id JioHotstar derives from Settings.Secure ANDROID_ID with a stable-per-install random UUID, so the re-signed build presents as a device the server has never flagged. This is the verified single source of both the X-HS-Device-Id request header and the /v2/start body device ids; ANDROID_ID otherwise survives an app-data clear (it is keyed to the signing key), which is why a flagged device kept getting the \"device logged out / suspicious activity\" page on every launch. The id is persisted, and regenerates on an app-data clear so a re-flagged device can be rotated. NOTE: the server also sees the connection IP — pair this with a clean (ideally residential) India IP; a flagged exit IP is not something the client can change. Do not run on an account you cannot afford to lose.",
+            "name": "Spoof device id",
             "options": []
         },
         {

@@ -95,7 +95,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 22 | 5 | Generated |
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
-| [Chiggi](#-chiggi-bundle-patch-list) | 58 | 11 | Generated |
+| [Chiggi](#-chiggi-bundle-patch-list) | 59 | 11 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 3 | 3 | Generated |
 | [EE-Morphe](#-ee-morphe-bundle-patch-list) | 12 | 6 | Generated |
 | [X-Shim](#-x-shim-bundle-patch-list) | 3 | 1 | Generated |
@@ -2741,7 +2741,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Chiggi Bundle Patch List:
 [📦 Chiggi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-chiggi-patches-bundle-morphe)
 <details>
-<summary><b>Chiggi</b> - 58 patches, 11 apps</summary>
+<summary><b>Chiggi</b> - 59 patches, 11 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2770,6 +2770,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove AD_ID permission``` | ```Removes the advertising-id and Ad Services (Privacy Sandbox) permissions so the device advertising id, Attribution and Topics signals cannot be read for ad tracking.``` | ```JioHotstar``` | ```All versions``` |
 | ```Remove ads``` | ```Removes pre-roll, mid-roll and live-match video ads by clearing the SSAI ad tag in the AdMetadata constructor, so the client requests a clean, non-ad-stitched stream at the source. This surgical approach lets the app's own ad machinery see "no ads" and behave normally (no retry loops, no empty ad slots). Approach adapted from Paresh-Maheshwari's patches (GPL-3.0).``` | ```JioHotstar``` | ```All versions``` |
 | ```Spoof device attestation``` | ```Forces the device-attestation blob JioHotstar sends to the server to report a clean device (IsTampered/IsRooted/IsProxy/isVpnActive/IsEmulator/suspicious-file/open-ports/debugger all false). The re-signed build otherwise sends IsTampered=true, which the server flags as "suspicious activity" and locks the account for 24 hours (error NM-4290). WARNING: this reduces one client-sent signal but does NOT make the account safe — the server still sees the VPN exit IP, and an already-flagged account stays on Hotstar's radar. Do not run this on an account you cannot afford to lose.``` | ```JioHotstar``` | ```All versions``` |
+| ```Spoof device id``` | ```Replaces the device id JioHotstar derives from Settings.Secure ANDROID_ID with a stable-per-install random UUID, so the re-signed build presents as a device the server has never flagged. This is the verified single source of both the X-HS-Device-Id request header and the /v2/start body device ids; ANDROID_ID otherwise survives an app-data clear (it is keyed to the signing key), which is why a flagged device kept getting the "device logged out / suspicious activity" page on every launch. The id is persisted, and regenerates on an app-data clear so a re-flagged device can be rotated. NOTE: the server also sees the connection IP — pair this with a clean (ideally residential) India IP; a flagged exit IP is not something the client can change. Do not run on an account you cannot afford to lose.``` | ```JioHotstar``` | ```All versions``` |
 | ```Spoof device-integrity self-report``` | ```Forces JioHotstar's security-suite checks (VPN, proxy, root, debugger, open ports, suspicious files) to report false, so the device-integrity attestation the app sends to the server looks clean. Helps rooted/modded devices and complements the VPN bypass. Note: the attestation is also server-validated (signed nonce) and the server sees the connection IP, so this is not guaranteed to defeat a server-side check on its own.``` | ```JioHotstar``` | ```All versions``` |
 | ```Change app name``` | ```Changes the app name shown under the launcher icon. Set the desired name in the patch options.``` | ```Jiotv+: LiveTV & OTT``` | ```All versions``` |
 | ```Disable analytics``` | ```Disables Firebase/Google Analytics, Crashlytics and Performance data collection via manifest flags. CleverTap is left intact (it drives in-app UI and disabling it would crash the app). Push notifications are unaffected.``` | ```Jiotv+: LiveTV & OTT``` | ```All versions``` |
