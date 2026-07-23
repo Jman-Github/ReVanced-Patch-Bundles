@@ -1,26 +1,6 @@
 {
-    "version": "v1.15.0-dev.1",
+    "version": "v1.15.0-dev.2",
     "patches": [
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#00BCD4",
-                    "name": "AccuBattery",
-                    "packageName": "com.digibites.accubattery",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.1.8"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks AccuBattery Pro by bypassing server offer validity, the Google Play purchase gate, and all UI premium banners.",
-            "name": "AccuBattery Premium",
-            "options": []
-        },
         {
             "compatiblePackages": [
                 {
@@ -133,7 +113,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.84.0.949657053"
+                            "version": "7.85.0.950510832"
                         }
                     ]
                 }
@@ -232,7 +212,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.28.0"
+                            "version": "26.29.0"
                         }
                     ]
                 }
@@ -253,7 +233,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.28.0"
+                            "version": "26.29.0"
                         }
                     ]
                 }
@@ -268,76 +248,13 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#FF5722",
-                    "name": "calimoto",
-                    "packageName": "com.calimoto.calimoto",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.07.2"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks Calimoto LIFETIME membership by spoofing the membership getter.",
-            "name": "Calimoto Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#4A90D9",
-                    "name": "Calm: Sleep & Meditation",
-                    "packageName": "com.calm.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "6.99.1"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks Calm lifetime subscription",
-            "name": "Calm Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#FF6B35",
-                    "name": "Calory - Calorie Counter & Diet",
-                    "packageName": "com.funnmedia.calory",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.6.2"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks Calory Pro and removes ads.",
-            "name": "Calory Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
                     "appIconColor": "#4285F4",
                     "name": "Google Photos",
                     "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.84.0.949657053"
+                            "version": "7.85.0.950510832"
                         }
                     ]
                 }
@@ -694,7 +611,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.84.0.949657053"
+                            "version": "7.85.0.950510832"
                         }
                     ]
                 }
@@ -851,7 +768,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.84.0.949657053"
+                            "version": "7.85.0.950510832"
                         }
                     ]
                 }
@@ -892,7 +809,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.84.0.949657053"
+                            "version": "7.85.0.950510832"
                         }
                     ]
                 }
@@ -1060,27 +977,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#E53935",
-                    "name": "MANGA Plus by SHUEISHA",
-                    "packageName": "jp.co.shueisha.mangaplus",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.5.0"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks the Deluxe subscription.",
-            "name": "Manga Plus Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#33CCFF",
                     "name": "Waze",
                     "packageName": "com.waze",
@@ -1161,27 +1057,6 @@
                     "values": null
                 }
             ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#6750A4",
-                    "name": "Material Capsule",
-                    "packageName": "com.pryshedko.mtisland",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "15.5"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks Material Capsule pro.",
-            "name": "Material Capsule Premium",
-            "options": []
         },
         {
             "compatiblePackages": [
@@ -1291,27 +1166,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#E53935",
-                    "name": "OBD Android",
-                    "packageName": "ai.metaverselabs.obdandroid",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "4.9"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks all premium features including advanced diagnostics, live sensor data, freeze frame, and removes the daily usage quota.",
-            "name": "OBD Android Premium Unlock",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#FF9900",
                     "name": "Amazon Shopping",
@@ -1347,27 +1201,6 @@
             "dependencies": [],
             "description": "Forces network security config trust anchors to override pins.",
             "name": "Override certificate pinning",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#1A73E8",
-                    "name": "PodsLink",
-                    "packageName": "net.podslink",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.3.5"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks lifetime pro by bypassing all entitlement checks and poisoning the account cache.",
-            "name": "PodsLink Premium",
             "options": []
         },
         {
@@ -1634,6 +1467,27 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#4FC3F7",
+                    "name": "qBitConnect",
+                    "packageName": "com.bluematter.qbitconnect",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.0.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the Remove Ads purchase in qBitConnect by injecting IAP ownership flags into SharedPreferences before Flutter reads them.",
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS",
                     "appIconColor": "#1565C0",
                     "name": "Send Files To TV",
@@ -1819,7 +1673,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.28.0"
+                            "version": "26.29.0"
                         }
                     ]
                 }
@@ -1906,27 +1760,6 @@
             "dependencies": [],
             "description": "Sets targetSdkVersion to 34.",
             "name": "Set target SDK 34",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#1565C0",
-                    "name": "Slopes",
-                    "packageName": "com.consumedbycode.slopes",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.14"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks all premium features.",
-            "name": "Slopes Premium Unlock",
             "options": []
         },
         {
@@ -2120,7 +1953,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.84.0.949657053"
+                            "version": "7.85.0.950510832"
                         }
                     ]
                 }
@@ -2513,7 +2346,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.28.0"
+                            "version": "26.29.0"
                         }
                     ]
                 }
@@ -2522,48 +2355,6 @@
             "dependencies": [],
             "description": "Supress all premium promotions in-app.",
             "name": "Suppress Premium Promotions",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#1A1A1A",
-                    "name": "The Athletic",
-                    "packageName": "com.theathletic",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "13.141.0"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Bypasses The Athletic article paywall by spoofing the NYT subscription entitlement check.",
-            "name": "The Athletic Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#2962FF",
-                    "name": "TradingView",
-                    "packageName": "com.tradingview.tradingviewapp",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.20.78.1.1002330"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks Ultimate plan features, disables all paywalls and upgrade dialogs, suppresses payment-banned blocking errors, and grants access to all benefits including bar replay, custom intervals, multiple charts, study-on-study, server-side alerts, and ad-free charts.",
-            "name": "TradingView Unlock Premium",
             "options": []
         },
         {
@@ -2637,7 +2428,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "24"
+                            "version": "24.1"
                         }
                     ]
                 }
@@ -2734,9 +2525,30 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#E53935",
+                    "name": "MANGA Plus by SHUEISHA",
+                    "packageName": "jp.co.shueisha.mangaplus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.6.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the Deluxe subscription.",
+            "name": "Unlock Deluxe",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#2196F3",
-                    "name": "Weawow: Weather & Widget",
+                    "name": "Weawow",
                     "packageName": "com.weawow",
                     "targets": [
                         {
@@ -2803,7 +2615,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "17.2.8"
+                            "version": "17.2.9"
                         }
                     ]
                 }
@@ -2872,7 +2684,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.28.0"
+                            "version": "26.29.0"
                         }
                     ]
                 }
@@ -3050,14 +2862,14 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#5D2DE6",
                     "name": "Life360",
                     "packageName": "com.life360.android.safetymapd",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.26.0"
+                            "version": "26.27.0"
                         }
                     ]
                 }
@@ -3161,6 +2973,26 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#00BCD4",
+                    "name": "AccuBattery",
+                    "packageName": "com.digibites.accubattery",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.1.8"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks AccuBattery Pro by bypassing server offer validity, the Google Play purchase gate, and all UI premium banners.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#1565C0",
                     "name": "Ace Ex File Manager",
@@ -3182,14 +3014,14 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2563EB",
                     "name": "AiScore",
                     "packageName": "com.onesports.score",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.2.6"
+                            "version": "4.2.7"
                         }
                     ]
                 }
@@ -3223,13 +3055,14 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
                     "appIconColor": "#FF9800",
                     "name": "Ampere",
                     "packageName": "com.gombosdev.ampere",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "v4.36.1"
+                            "version": "v4.37.0"
                         }
                     ]
                 }
@@ -3286,13 +3119,34 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
+                    "appIconColor": "#1B7080",
+                    "name": "Battery Guru",
+                    "packageName": "com.paget96.batteryguru",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.5.0.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium and marks the yearly plan as purchased.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#4CAF50",
                     "name": "BatteryPods",
                     "packageName": "com.sumyapplications.bluetooth.earphone",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.10"
+                            "version": "7.20"
                         }
                     ]
                 }
@@ -3306,13 +3160,14 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#42A5F5",
                     "name": "BlurWall",
                     "packageName": "apps.automan.blurwallpaper",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.9.2"
+                            "version": "2.9.4"
                         }
                     ]
                 }
@@ -3323,6 +3178,27 @@
                 "BytecodePatch"
             ],
             "description": "Unlock Premium Features in app.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "calimoto",
+                    "packageName": "com.calimoto.calimoto",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.07.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Calimoto LIFETIME membership by spoofing the membership getter.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -3343,6 +3219,48 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Premium Features In the App.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#4A90D9",
+                    "name": "Calm: Sleep & Meditation",
+                    "packageName": "com.calm.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.100.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Calm lifetime subscription",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#FF6B35",
+                    "name": "Calory",
+                    "packageName": "com.funnmedia.calory",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.6.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Calory Pro and removes ads.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -3461,7 +3379,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.28.0"
+                            "version": "26.29.0"
                         }
                     ]
                 }
@@ -3475,14 +3393,14 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#E53935",
                     "name": "Dailyhunt",
                     "packageName": "com.eterno",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "33.5.4"
+                            "version": "34.0.4"
                         }
                     ]
                 }
@@ -3545,7 +3463,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.25.0-2"
+                            "version": "8.26.0-0"
                         }
                     ]
                 }
@@ -3750,6 +3668,27 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
+                    "appIconColor": "#6750A4",
+                    "name": "Material Capsule",
+                    "packageName": "com.pryshedko.mtisland",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "15.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Material Capsule pro.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
                     "appIconColor": "#1B72E8",
                     "name": "MaterialPods",
                     "packageName": "com.pryshedko.materialpods",
@@ -3913,6 +3852,27 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#E53935",
+                    "name": "OBD Android",
+                    "packageName": "ai.metaverselabs.obdandroid",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.9"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features including advanced diagnostics, live sensor data, freeze frame, and removes the daily usage quota.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#FF6B35",
                     "name": "Parcels — Package Tracker",
@@ -3920,7 +3880,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.0.10"
+                            "version": "3.0.11"
                         }
                     ]
                 }
@@ -4000,14 +3960,14 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#4CAF50",
                     "name": "PictureThis - Plant Identifier",
                     "packageName": "cn.danatech.xingseus",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.30.0"
+                            "version": "5.31.0"
                         }
                     ]
                 }
@@ -4026,12 +3986,132 @@
                 {
                     "apkFileType": "APKS",
                     "appIconColor": "#1D5CFF",
-                    "name": "Pocket Prep",
+                    "name": "Pocket Prep IT Cybersecurity",
                     "packageName": "com.pocketprep.android.itcybersecurity",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.27.2"
+                            "version": "3.28.0"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1D5CFF",
+                    "name": "Pocket Prep Professional",
+                    "packageName": "com.pocketprep.android.professional",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.28.0"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1D5CFF",
+                    "name": "Pocket Prep Behavioral Health",
+                    "packageName": "com.pocketprep.android.behavioralhealth",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.28.0"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1D5CFF",
+                    "name": "Pocket Prep Medical",
+                    "packageName": "com.pocketprep.android.medical",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.28.0"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1D5CFF",
+                    "name": "Pocket Prep Nursing School",
+                    "packageName": "com.pocketprep.android.nursingschool",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.28.0"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1D5CFF",
+                    "name": "Pocket Prep Nursing",
+                    "packageName": "com.pocketprep.android.nursing",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.28.0"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1D5CFF",
+                    "name": "Pocket Prep EMS",
+                    "packageName": "com.pocketprep.android.ems",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.28.0"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1D5CFF",
+                    "name": "Pocket Prep Skilled Trades",
+                    "packageName": "com.pocketprep.android.automotive",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.28.0"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1D5CFF",
+                    "name": "Pocket Prep Fitness",
+                    "packageName": "com.pocketprep.android.fitness",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.28.0"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1D5CFF",
+                    "name": "Pocket Prep Essentials",
+                    "packageName": "com.pocketprep.android.essentials",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.28.0"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1D5CFF",
+                    "name": "Pocket Prep",
+                    "packageName": "com.pocketprep.android.pocketprep",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.28.0"
                         }
                     ]
                 }
@@ -4040,7 +4120,28 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Unlocks Pocket Prep premium subscription gates.",
+            "description": "Unlocks Pocket Prep premium subscription gates and full question bank.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1A73E8",
+                    "name": "PodsLink",
+                    "packageName": "net.podslink",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.3.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks lifetime pro by bypassing all entitlement checks and poisoning the account cache.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -4150,35 +4251,14 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#1565C0",
-                    "name": "SAI",
-                    "packageName": "com.mtv.sai",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.2.8"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Bypasses PairIP license check, paywall, ads, and pro upsell in SAI.",
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#EFC67A",
                     "name": "SCRL",
                     "packageName": "com.appostrophe.scrl",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.22"
+                            "version": "1.23.1"
                         }
                     ]
                 }
@@ -4186,6 +4266,27 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all premium feature in app.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1565C0",
+                    "name": "Slopes",
+                    "packageName": "com.consumedbycode.slopes",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.14"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -4317,7 +4418,7 @@
                 {
                     "apkFileType": "APKS",
                     "appIconColor": "#2196F3",
-                    "name": "Tag Tracker: Find Lost Items",
+                    "name": "Tag Tracker",
                     "packageName": "com.makeevapps.tagtracker",
                     "targets": [
                         {
@@ -4336,13 +4437,35 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1A1A1A",
+                    "name": "The Athletic",
+                    "packageName": "com.theathletic",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "13.141.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses The Athletic article paywall by spoofing the NYT subscription entitlement check.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#1B6AC9",
                     "name": "The Weather Channel",
                     "packageName": "com.weather.Weather",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "16.13.0"
+                            "version": "16.14.1"
                         }
                     ]
                 }
@@ -4425,6 +4548,27 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Toxly Premium",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2962FF",
+                    "name": "TradingView",
+                    "packageName": "com.tradingview.tradingviewapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.20.79.0.1002355"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Ultimate plan features, disables all paywalls and upgrade dialogs, suppresses payment-banned blocking errors, and grants access to all benefits including bar replay, custom intervals, multiple charts, study-on-study, server-side alerts, and ad-free charts.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -5054,6 +5198,50 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1565C0",
+                    "name": "SAI",
+                    "packageName": "com.mtv.sai",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks SAI PRO gates and removes ads.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#4CAF50",
+                    "name": "SD Maid SE",
+                    "packageName": "eu.darken.sdmse",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.7.5-rc0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks SD Maid SE Pro features.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#1565C0",
                     "name": "App Permission Manager",
                     "packageName": "com.shexa.permissionmanager",
@@ -5237,27 +5425,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#4FC3F7",
-                    "name": "qBitConnect",
-                    "packageName": "com.bluematter.qbitconnect",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.0.1"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks the Remove Ads purchase in qBitConnect by injecting IAP ownership flags into SharedPreferences before Flutter reads them.",
-            "name": "Unlock Remove Ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#00B2A9",
                     "name": "Transit",
                     "packageName": "com.thetransitapp.droid",
@@ -5388,7 +5555,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.2.81"
+                            "version": "3.2.82"
                         }
                     ]
                 }
@@ -5446,13 +5613,14 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#1565C0",
                     "name": "Genius Scan",
                     "packageName": "com.thegrizzlylabs.geniusscan.free",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.40.0"
+                            "version": "7.41.0"
                         }
                     ]
                 }
@@ -5473,7 +5641,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "10.3.9"
+                            "version": "10.4.3"
                         }
                     ]
                 }
