@@ -1,5 +1,5 @@
 {
-    "version": "v1.40.0-dev.3",
+    "version": "v1.40.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -65,6 +65,26 @@
             ],
             "description": "Blocks the request of notification permissions on load of app.",
             "name": "Block Permissions Request",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#52DBD7",
+                    "name": "Teuida",
+                    "packageName": "net.teuida.teuida",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.21.16"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks the nag that forces a required update from the Play Store.",
+            "name": "Block update nag",
             "options": []
         },
         {
