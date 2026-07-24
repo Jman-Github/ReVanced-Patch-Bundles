@@ -1,5 +1,5 @@
 {
-    "version": "v3.7.0",
+    "version": "v3.8.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -11,19 +11,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -101,49 +89,13 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
-                    "appIconColor": "#FC483C",
-                    "name": "Instagram",
-                    "packageName": "com.instagram.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "435.0.0.37.76",
-                            "versionCodes": {
-                                "ARM64_V8A": 384109456
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Replaces Instagram's dark-mode background greys with pure black for AMOLED displays.",
-            "name": "Amoled theme",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
                     "appIconColor": "#000000",
                     "name": "X",
                     "packageName": "com.twitter.android",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -151,7 +103,8 @@
             "default": true,
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Blocks redirecting to the new X Android UI on launch",
             "name": "Block redirecting to X Lite",
@@ -167,19 +120,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -202,56 +143,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Adds an option to browse the tweet object in the share menu.",
-            "name": "Browse tweet object",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#000000",
-                    "name": "X",
-                    "packageName": "com.twitter.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -301,19 +193,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 },
@@ -362,19 +242,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -442,19 +310,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -509,19 +365,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -544,19 +388,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -580,19 +412,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -616,19 +436,34 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
+                            "version": "12.7.1-release.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Overrides existing share menu and adds a new one",
+            "name": "Custom share menu",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -652,19 +487,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -740,19 +563,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -775,19 +586,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -810,19 +609,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -845,19 +632,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -881,19 +656,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -916,19 +679,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -951,19 +702,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -986,19 +725,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -1021,19 +748,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -1056,19 +771,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -1091,19 +794,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -1180,19 +871,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -1215,19 +894,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -1502,8 +1169,35 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Prevents opening the creation screen by swiping right on the home tab.",
+            "name": "Disable swipe to create",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "435.0.0.37.76",
+                            "versionCodes": {
+                                "ARM64_V8A": 384109456
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,
@@ -1546,19 +1240,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.2.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.81.0-release.0"
+                            "version": "12.7.1-release.0"
                         },
                         {
                             "isExperimental": false,
@@ -1623,19 +1305,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -1685,19 +1355,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -1718,19 +1376,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -1754,19 +1400,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -1790,19 +1424,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -1825,19 +1447,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -1860,19 +1470,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -1916,25 +1514,41 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "435.0.0.37.76",
+                            "versionCodes": {
+                                "ARM64_V8A": 384109456
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Filter stories to hide based on different categories",
+            "name": "Filter stories",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
                     "appIconColor": "#000000",
                     "name": "X",
                     "packageName": "com.twitter.android",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -1986,19 +1600,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2047,19 +1649,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2082,19 +1672,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2117,19 +1695,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2153,19 +1719,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2188,19 +1742,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2224,19 +1766,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2259,19 +1789,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2295,19 +1813,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2356,19 +1862,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2391,19 +1885,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2427,19 +1909,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2498,7 +1968,8 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Hides notes tray in DM section",
             "name": "Hide notes tray",
@@ -2514,19 +1985,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2549,19 +2008,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2584,19 +2031,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2620,19 +2055,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2656,19 +2079,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2771,19 +2182,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2807,19 +2206,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2870,19 +2257,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2932,19 +2307,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -2983,6 +2346,59 @@
             ],
             "description": "Changes unexpired view once, view twice media to permanent view.",
             "name": "Make ephemeral media permanent",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "435.0.0.37.76",
+                            "versionCodes": {
+                                "ARM64_V8A": 384109456
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds option to mark a thread aka message as read manually",
+            "name": "Mark chat as read manually",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.7.1-release.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds more details on the profile page",
+            "name": "More information on profile",
             "options": []
         },
         {
@@ -3053,25 +2469,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3091,19 +2497,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -3111,6 +2505,8 @@
             "default": true,
             "dependencies": [
                 "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
@@ -3129,25 +2525,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
@@ -3166,19 +2552,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -3227,19 +2601,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -3262,19 +2624,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -3350,19 +2700,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -3385,19 +2723,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -3420,19 +2746,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -3456,26 +2770,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Enable or disable rounding off numbers",
             "name": "Round off numbers",
@@ -3549,19 +2852,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -3585,25 +2876,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
@@ -3622,19 +2903,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -3657,19 +2926,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -3692,19 +2949,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -3727,19 +2972,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.81.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "11.99.0-release-ripped.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.0.0-release.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.2.0-release.0"
+                            "version": "12.7.1-release.0"
                         }
                     ]
                 }
@@ -3777,6 +3010,66 @@
             "description": null,
             "name": "Stories audio autoplay",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.7.1-release.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": null,
+            "name": "Support external downloader",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "435.0.0.37.76",
+                            "versionCodes": {
+                                "ARM64_V8A": 384109456
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Applies either amoled or material you theme for Instagram at patch time. [default = material you]",
+            "name": "Theme",
+            "options": [
+                {
+                    "default": false,
+                    "description": "By default this patch applies a Material You dynamic theme that follows your device's light/dark setting. Turn this on to override it with a pure-black AMOLED theme instead. Note: a few server-driven pages (notifications, DM inbox, About-this-account) and full-screen media/Reels keep Instagram's own colours in both modes.",
+                    "key": "amoled",
+                    "required": false,
+                    "title": "Pure-black AMOLED theme",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -3907,6 +3200,7 @@
             "default": true,
             "dependencies": [
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,
@@ -3935,6 +3229,7 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": null,
@@ -3961,6 +3256,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
