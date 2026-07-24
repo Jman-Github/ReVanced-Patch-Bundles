@@ -88,7 +88,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 45 | 32 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
-| [Anddea](#-anddea-bundle-patch-list) | 115 | 3 | Generated |
+| [Anddea](#-anddea-bundle-patch-list) | 119 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 127 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 10 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
@@ -103,7 +103,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 79 | 54 | Generated |
-| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 98 | 6 | Generated |
+| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 99 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 131 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
@@ -143,7 +143,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Rushiranpise](#-rushiranpise-bundle-patch-list) | 247 | 191 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
-| [Variablenine](#-variablenine-bundle-patch-list) | 127 | 4 | Generated |
+| [Variablenine](#-variablenine-bundle-patch-list) | 132 | 4 | Generated |
 | [Stylus](#-stylus-bundle-patch-list) | 1 | 1 | Generated |
 | [HXReborn](#-hxreborn-bundle-patch-list) | 7 | 4 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 4 | 2 | Generated |
@@ -1508,7 +1508,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Anddea Bundle Patch List:
 [📦 Anddea-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-anddea-patches-bundle-morphe)
 <details>
-<summary><b>Anddea</b> - 115 patches, 3 apps</summary>
+<summary><b>Anddea</b> - 119 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1546,8 +1546,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Return YouTube Username``` | ```Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54, 9.15.51``` |
 | ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54, 9.15.51``` |
 | ```Settings for YouTube Music``` | ```Applies mandatory patches to implement ReVanced Extended settings into the application.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54, 9.15.51``` |
+| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54, 9.15.51``` |
 | ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as non-music sections.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54, 9.15.51``` |
 | ```Spoof app version for lyrics``` | ```Adds options to spoof the YouTube Music client version. This can be used to restore old lyrics UI.``` | ```com.google.android.apps.youtube.music``` | ```6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54, 9.15.51``` |
+| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54, 9.15.51``` |
 | ```Track crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54, 9.15.51``` |
 | ```Translations for YouTube Music``` | ```Add translations or remove string resources.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54, 9.15.51``` |
 | ```Video playback``` | ```Adds options to customize settings related to video playback, such as default video quality and playback speed.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54, 9.15.51``` |
@@ -1609,10 +1611,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Seekbar components``` | ```Adds options to hide or change components related to the seekbar.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Set transcript cookies``` | ```Adds an option to set Cookies in YouTube Transcript API requests.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Settings for YouTube``` | ```Applies mandatory patches to implement ReVanced Extended settings into the application.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
+| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube settings screen by their visible name.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Shorts components``` | ```Adds options to hide or change components related to YouTube Shorts.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Snack bar components``` | ```Adds options to hide or change components related to the snack bar.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Spoof app version``` | ```Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
+| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Spoof watch history``` | ```Adds an option to change the domain of the watch history or check its status.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Swipe controls``` | ```Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Theme``` | ```Changes the app's themes to the values specified in patch options.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
@@ -3172,7 +3176,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle-morphe)
 <details>
-<summary><b>AmpleReVanced</b> - 98 patches, 6 apps</summary>
+<summary><b>AmpleReVanced</b> - 99 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3202,6 +3206,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Register settings activity``` | ```Registers the Morphe settings activity in the app manifest.``` | ```dcinside``` | ```All versions``` |
 | ```Render big DCCon as normal size``` | ```Adds a setting to render big DCCon at normal DCCon size.``` | ```dcinside``` | ```All versions``` |
 | ```Restore old post icons``` | ```Adds a setting to restore DCInside 4.7.x post list and read footer icons.``` | ```dcinside``` | ```All versions``` |
+| ```Show author identifier``` | ```Adds options to show the author identifier next to the nickname in posts, post lists, and the recently-viewed posts list. The recently-viewed list only shows it for posts opened after this patch is installed.``` | ```dcinside``` | ```All versions``` |
 | ```Spoof Signature``` | ```Spoofs the app signature to bypass integrity checks.``` | ```dcinside``` | ```All versions``` |
 | ```Bypass login``` | ```Skips the mandatory account sign-in on launch and opens the app directly.``` | ```Flexcil``` | ```All versions``` |
 | ```Unlock Premium features``` | ```Enables app features locked behind the subscription paywall.``` | ```Flexcil``` | ```All versions``` |
@@ -4892,13 +4897,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Variablenine Bundle Patch List:
 [📦 Variablenine-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-variablenine-patches-bundle-morphe)
 <details>
-<summary><b>Variablenine</b> - 127 patches, 4 apps</summary>
+<summary><b>Variablenine</b> - 132 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```All versions``` |
+| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```All versions``` |
 | ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```All versions``` |
 | ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```All versions``` |
+| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```All versions``` |
 | ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```All versions``` |
 | ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```All versions``` |
 | ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```All versions``` |
@@ -4961,7 +4968,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide video action buttons``` | ```Adds options to hide video action buttons in fullscreen and portrait modes.``` | ```YouTube``` | ```All versions``` |
 | ```Loop video``` | ```Adds an option to loop videos and display loop video button in the video player.``` | ```YouTube``` | ```All versions``` |
 | ```Media notification controls``` | ```Adds options to disable the seekbar and previous/next buttons in the media notification and headphone controls.``` | ```YouTube``` | ```All versions``` |
-| ```Miniplayer``` | ```Adds options to change the in-app minimized player.``` | ```YouTube``` | ```All versions``` |
+| ```Miniplayer``` | ```Adds options to change the in-app minimized player. Patching 21.28.206 and lower has more miniplayer types to choose from.``` | ```YouTube``` | ```All versions``` |
 | ```Navigation bar``` | ```Adds options to hide and change the bottom navigation bar (such as the Shorts button) and the upper navigation toolbar. Patching version 20.21.37 and lower also adds a setting to use a wide searchbar.``` | ```YouTube``` | ```All versions``` |
 | ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy.``` | ```YouTube``` | ```All versions``` |
 | ```Open channel of live avatar``` | ```Adds an option to prevent a channel's current live video from opening when tapping its avatar.``` | ```YouTube``` | ```All versions``` |
@@ -4979,6 +4986,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube``` | ```All versions``` |
 | ```Save to watch later``` | ```Adds an option to display save to watch later button in the video player.``` | ```YouTube``` | ```All versions``` |
 | ```Seekbar``` | ```Adds options to disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, hiding the video player seekbar, enabling seeking in livestreams, and expanding the livestream DVR duration.``` | ```YouTube``` | ```All versions``` |
+| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube settings screen by their visible name.``` | ```YouTube``` | ```All versions``` |
 | ```Shorts autoplay``` | ```Adds options to automatically play the next Short.``` | ```YouTube``` | ```All versions``` |
 | ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content.``` | ```YouTube``` | ```All versions``` |
 | ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube``` | ```All versions``` |
@@ -4993,6 +5001,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```All versions``` |
 | ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```All versions``` |
 | ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```All versions``` |
+| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```All versions``` |
 | ```Custom branding``` | ```Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.``` | ```YouTube Music``` | ```All versions``` |
 | ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```All versions``` |
 | ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```All versions``` |
@@ -5016,13 +5025,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remember repeat state``` | ```Adds an option to remember the repeat state when playing a new track or playlist.``` | ```YouTube Music``` | ```All versions``` |
 | ```Remember shuffle state``` | ```Adds an option to remember the shuffle state when playing a new track or playlist.``` | ```YouTube Music``` | ```All versions``` |
 | ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```All versions``` |
+| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of tracks with Return YouTube Dislike.``` | ```YouTube Music``` | ```All versions``` |
 | ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```All versions``` |
 | ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```All versions``` |
+| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```YouTube Music``` | ```All versions``` |
 | ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```All versions``` |
 | ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```All versions``` |
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```All versions``` |
 | ```Theme``` | ```Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).``` | ```YouTube Music``` | ```All versions``` |
-| ```Track crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```All versions``` |
 
 </details>
 

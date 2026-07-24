@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.19",
+    "version": "v1.2.0-dev.20",
     "patches": [
         {
             "compatiblePackages": [
@@ -2177,6 +2177,30 @@
             ],
             "description": "Adds a setting to restore DCInside 4.7.x post list and read footer icons.",
             "name": "Restore old post icons",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#3D4491",
+                    "name": "dcinside",
+                    "packageName": "com.dcinside.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.3.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to show the author identifier next to the nickname in posts, post lists, and the recently-viewed posts list. The recently-viewed list only shows it for posts opened after this patch is installed.",
+            "name": "Show author identifier",
             "options": []
         },
         {
