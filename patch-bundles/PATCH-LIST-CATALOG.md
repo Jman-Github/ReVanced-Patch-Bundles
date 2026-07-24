@@ -103,7 +103,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 79 | 54 | Generated |
-| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 86 | 6 | Generated |
+| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 93 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 131 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
@@ -3172,7 +3172,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle-morphe)
 <details>
-<summary><b>AmpleReVanced</b> - 86 patches, 6 apps</summary>
+<summary><b>AmpleReVanced</b> - 93 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3260,6 +3260,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Spoof signature``` | ```Spoofs the app signature to pass integrity checks.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Version info patch``` | ```Patches the version info to include '(ReVanced)' in the version string.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Disable P2P``` | ```Disables SOOP peer-assisted grid streaming.``` | ```SOOP``` | ```All versions``` |
+| ```Remove banner ads``` | ```Removes the VOD companion and search banner ads.``` | ```SOOP``` | ```All versions``` |
+| ```Remove intro ads``` | ```Removes the image, video and cinema intro ad banners shown on launch.``` | ```SOOP``` | ```All versions``` |
+| ```Remove list banner ads``` | ```Removes the native banner ads under the live player and in feeds by stopping their ad request, so no banner is fetched or shown.``` | ```SOOP``` | ```All versions``` |
+| ```Remove live ads``` | ```Removes the live pre-roll ad by routing every ad decision into the app's own no-video path so the stream starts immediately.``` | ```SOOP``` | ```All versions``` |
+| ```Remove live banner ads``` | ```Removes the banner ads shown under the live player by stopping their driver from attaching the banner fragments.``` | ```SOOP``` | ```All versions``` |
+| ```Remove main board ads``` | ```Removes the native "main board" banner ad shown in feeds and under the live player.``` | ```SOOP``` | ```All versions``` |
+| ```Remove VOD ads``` | ```Removes VOD pre-roll ads by reporting every stream as QuickView Plus to the player's own ad-skip check.``` | ```SOOP``` | ```All versions``` |
 | ```Add shared user ID``` | ```Adds or updates the sharedUserId attribute in the app's manifest. This allows multiple apps with the same sharedUserId to share data and run in the same process. Use with caution as this can affect app permissions and data isolation.``` | ```Universal``` | ```All versions``` |
 | ```Disable Sentry telemetry``` | ```Disables Sentry telemetry. See https://sentry.io/for/android/ for more information.``` | ```Universal``` | ```All versions``` |
 

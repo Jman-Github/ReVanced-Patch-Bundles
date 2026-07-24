@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.17",
+    "version": "v1.2.0-dev.18",
     "patches": [
         {
             "compatiblePackages": [
@@ -1709,6 +1709,27 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0068FF",
+                    "name": "SOOP",
+                    "packageName": "kr.co.nowcom.mobile.afreeca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.28.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the VOD companion and search banner ads.",
+            "name": "Remove banner ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
@@ -1776,6 +1797,111 @@
             "dependencies": [],
             "description": "Removes the focus ad from the app.",
             "name": "Remove focus ad",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0068FF",
+                    "name": "SOOP",
+                    "packageName": "kr.co.nowcom.mobile.afreeca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.28.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the image, video and cinema intro ad banners shown on launch.",
+            "name": "Remove intro ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0068FF",
+                    "name": "SOOP",
+                    "packageName": "kr.co.nowcom.mobile.afreeca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.28.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the native banner ads under the live player and in feeds by stopping their ad request, so no banner is fetched or shown.",
+            "name": "Remove list banner ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0068FF",
+                    "name": "SOOP",
+                    "packageName": "kr.co.nowcom.mobile.afreeca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.28.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the live pre-roll ad by routing every ad decision into the app's own no-video path so the stream starts immediately.",
+            "name": "Remove live ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0068FF",
+                    "name": "SOOP",
+                    "packageName": "kr.co.nowcom.mobile.afreeca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.28.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the banner ads shown under the live player by stopping their driver from attaching the banner fragments.",
+            "name": "Remove live banner ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0068FF",
+                    "name": "SOOP",
+                    "packageName": "kr.co.nowcom.mobile.afreeca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.28.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the native \"main board\" banner ad shown in feeds and under the live player.",
+            "name": "Remove main board ads",
             "options": []
         },
         {
@@ -1898,6 +2024,27 @@
             ],
             "description": "Removes the Short-form tab from the now fragment.",
             "name": "Remove Short-form Tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0068FF",
+                    "name": "SOOP",
+                    "packageName": "kr.co.nowcom.mobile.afreeca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.28.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes VOD pre-roll ads by reporting every stream as QuickView Plus to the player's own ad-skip check.",
+            "name": "Remove VOD ads",
             "options": []
         },
         {
