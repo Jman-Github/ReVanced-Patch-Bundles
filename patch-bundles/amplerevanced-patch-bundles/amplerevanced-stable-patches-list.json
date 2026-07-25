@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -11,7 +11,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -31,10 +31,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -42,8 +45,7 @@
             "default": false,
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Adding the Loco Packet Handler allows external applications to handle the app's packets, which may compromise security.\nConflicts may occur on some systems.",
             "name": "Add Packet Handler",
@@ -56,10 +58,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -80,7 +85,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -107,7 +112,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -125,10 +130,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -146,10 +154,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -196,7 +207,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -224,10 +235,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -245,10 +259,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -266,10 +283,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -290,7 +310,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.6.0"
+                            "version": "3.9.0"
                         }
                     ]
                 }
@@ -311,7 +331,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -331,10 +351,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -348,14 +371,38 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#0096FA",
+                    "name": "Flexcil",
+                    "packageName": "com.flexcil.flexcilnote",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.4.9"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips the mandatory account sign-in on launch and opens the app directly.",
+            "name": "Bypass login",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -375,10 +422,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -401,7 +451,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -453,10 +503,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -510,7 +563,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -552,10 +605,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -585,10 +641,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -611,7 +670,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -631,10 +690,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -652,10 +714,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -678,7 +743,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -692,14 +757,38 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00FFA3",
+                    "name": "Chzzk",
+                    "packageName": "com.navercorp.game.android.community",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.9.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables CHZZK advertisements, including live stream pre-roll, mid-roll and post-roll ads and clip feed ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -717,10 +806,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -738,10 +830,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -762,7 +857,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -780,10 +875,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -804,7 +902,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -824,10 +922,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -845,10 +946,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -869,7 +973,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -887,17 +991,19 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds a setting to disable comments in open chat rooms.",
@@ -911,10 +1017,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -935,7 +1044,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.6.0"
+                            "version": "3.9.0"
                         }
                     ]
                 }
@@ -949,14 +1058,40 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0068FF",
+                    "name": "SOOP",
+                    "packageName": "kr.co.nowcom.mobile.afreeca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.28.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables SOOP peer-assisted grid streaming.",
+            "name": "Disable P2P",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -974,10 +1109,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -995,10 +1133,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1018,10 +1159,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1049,10 +1193,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1070,10 +1217,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1094,7 +1244,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -1112,10 +1262,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1133,10 +1286,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1159,7 +1315,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -1177,10 +1333,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1198,33 +1357,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Enable recording pause/resume feature in KakaoTalk",
-            "name": "Enable recording pause/resume feature",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FEE500",
-                    "name": "Kakao Talk",
-                    "packageName": "com.kakao.talk",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1244,10 +1383,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1267,10 +1409,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1288,10 +1433,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1314,7 +1462,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -1331,13 +1479,34 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
+                    "appIconColor": "#00FFA3",
+                    "name": "Chzzk",
+                    "packageName": "com.navercorp.game.android.community",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.9.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides promotional banners on the CHZZK home recommend tab, including the top banner carousel and the in-feed event and image banners.",
+            "name": "Hide home banners",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#3D4491",
                     "name": "dcinside",
                     "packageName": "com.dcinside.app.android",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -1360,7 +1529,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -1374,14 +1543,92 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#3D4491",
+                    "name": "dcinside",
+                    "packageName": "com.dcinside.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.3.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds a setting to hide the mini gallery cover image above post lists.",
+            "name": "Hide mini gallery cover image",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds options to hide components from the More tab.",
+            "name": "Hide More tab components",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.6.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the Game tab from the More tab.",
+            "name": "Hide More tab Game tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1401,10 +1648,39 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Opens open chat member profiles from join and leave feed messages.",
+            "name": "Open profile from open chat feed",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1430,29 +1706,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FEE500",
-                    "name": "Kakao Talk",
-                    "packageName": "com.kakao.talk",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.4.2"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Allows playing YouTube videos in KakaoTalk chat rooms.",
-            "name": "Play YouTube player in chat room",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#3D4491",
                     "name": "dcinside",
@@ -1460,7 +1713,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -1478,10 +1731,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1495,14 +1751,38 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0068FF",
+                    "name": "SOOP",
+                    "packageName": "kr.co.nowcom.mobile.afreeca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.28.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the VOD companion and search banner ads.",
+            "name": "Remove banner ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1516,14 +1796,59 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0068FF",
+                    "name": "SOOP",
+                    "packageName": "kr.co.nowcom.mobile.afreeca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.28.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the ads inserted between clips in the Catch feed by reporting no ad slots.",
+            "name": "Remove Catch ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0068FF",
+                    "name": "SOOP",
+                    "packageName": "kr.co.nowcom.mobile.afreeca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.28.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the ad area shown in the app-exit confirmation dialog, keeping the dialog itself.",
+            "name": "Remove exit dialog ad",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1541,10 +1866,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1558,14 +1886,122 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0068FF",
+                    "name": "SOOP",
+                    "packageName": "kr.co.nowcom.mobile.afreeca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.28.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the image, video and cinema intro ad banners shown on launch.",
+            "name": "Remove intro ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0068FF",
+                    "name": "SOOP",
+                    "packageName": "kr.co.nowcom.mobile.afreeca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.28.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the native banner ads under the live player and in feeds by stopping their ad request, so no banner is fetched or shown.",
+            "name": "Remove list banner ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0068FF",
+                    "name": "SOOP",
+                    "packageName": "kr.co.nowcom.mobile.afreeca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.28.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the live pre-roll ad by routing every ad decision into the app's own no-video path so the stream starts immediately.",
+            "name": "Remove live ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0068FF",
+                    "name": "SOOP",
+                    "packageName": "kr.co.nowcom.mobile.afreeca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.28.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the banner ads shown under the live player by stopping their driver from attaching the banner fragments.",
+            "name": "Remove live banner ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0068FF",
+                    "name": "SOOP",
+                    "packageName": "kr.co.nowcom.mobile.afreeca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.28.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the native \"main board\" banner ad shown in feeds and under the live player.",
+            "name": "Remove main board ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1583,10 +2019,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1604,10 +2043,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1625,10 +2067,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1646,10 +2091,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1665,6 +2113,27 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0068FF",
+                    "name": "SOOP",
+                    "packageName": "kr.co.nowcom.mobile.afreeca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.28.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes VOD pre-roll ads by reporting every stream as QuickView Plus to the player's own ad-skip check.",
+            "name": "Remove VOD ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#3D4491",
                     "name": "dcinside",
@@ -1672,7 +2141,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -1688,14 +2157,66 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#3D4491",
+                    "name": "dcinside",
+                    "packageName": "com.dcinside.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.3.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds a setting to restore DCInside 4.7.x post list and read footer icons.",
+            "name": "Restore old post icons",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#3D4491",
+                    "name": "dcinside",
+                    "packageName": "com.dcinside.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.3.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to show the author identifier next to the nickname in posts, post lists, and the recently-viewed posts list. The recently-viewed list only shows it for posts opened after this patch is installed.",
+            "name": "Show author identifier",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1717,10 +2238,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1728,11 +2252,13 @@
             "default": true,
             "dependencies": [
                 "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
-            "description": "Allows you to see deleted/hidden messages in chat logs.",
-            "name": "Show deleted or hidden messages",
+            "description": "Allows you to see deleted, hidden, and edited message history in chat logs.",
+            "name": "Show deleted, hidden, or edited messages",
             "options": [
                 {
                     "default": "0xFFFF4444",
@@ -1761,10 +2287,43 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Shows the members who have or have not read each chat message.",
+            "name": "Show message read receipts",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1782,10 +2341,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1806,7 +2368,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.9"
+                            "version": "5.3.0"
                         }
                     ]
                 }
@@ -1826,10 +2388,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
@@ -1844,13 +2409,34 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
+                    "appIconColor": "#00FFA3",
+                    "name": "Chzzk",
+                    "packageName": "com.navercorp.game.android.community",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.9.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks CHZZK cheat key subscription benefits without an active subscription.",
+            "name": "Unlock cheat key",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#0096FA",
                     "name": "Flexcil",
                     "packageName": "com.flexcil.flexcilnote",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.4.3.30"
+                            "version": "1.4.4.9"
                         }
                     ]
                 }
@@ -1868,10 +2454,13 @@
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
                     "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.4.2"
+                            "version": "26.6.1"
                         }
                     ]
                 }
