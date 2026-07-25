@@ -1,0 +1,67 @@
+{
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#41CD8C",
+                    "name": "Lifesum",
+                    "packageName": "com.sillens.shapeupclub",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "20.8.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock Lifesum Premium",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F8485E",
+                    "name": "Ling",
+                    "packageName": "com.simyasolutions.ling.universal",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.4.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Unlocks Ling Pro",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#2AB7A9",
+                    "name": "Sponge",
+                    "packageName": "com.prismtree.sponge",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.8.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock Sponge Premium",
+            "name": "Enable Premium",
+            "options": []
+        }
+    ],
+    "version": "v1.2.0"
+}

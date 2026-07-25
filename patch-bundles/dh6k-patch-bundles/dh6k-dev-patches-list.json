@@ -1,0 +1,81 @@
+{
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Browser",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.92.140"
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Beta",
+                    "packageName": "com.brave.browser_beta",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Nightly",
+                    "packageName": "com.brave.browser_nightly",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks Brave Origin and enables feature toggle controls.",
+            "name": "Brave Origin",
+            "options": []
+        },
+        {
+            "default": false,
+            "dependencies": [],
+            "description": "Changes the Android launcher icon using a custom PNG image. Use a square image with transparent adaptive-icon padding.",
+            "name": "Change app icon",
+            "options": [
+                {
+                    "description": "Square PNG, 48-4096 px, maximum 256 KiB. Recommended: 432x432 px with transparent padding.",
+                    "key": "customIcon",
+                    "required": true,
+                    "title": "Custom app icon",
+                    "type": "kotlin.String"
+                }
+            ]
+        },
+        {
+            "default": false,
+            "dependencies": [],
+            "description": "Changes the app name shown by Android launchers. Set the desired name in the patch options.",
+            "name": "Change app name",
+            "options": [
+                {
+                    "default": "Patched",
+                    "description": "The name shown under the app icon.",
+                    "key": "appName",
+                    "required": true,
+                    "title": "App name",
+                    "type": "kotlin.String"
+                }
+            ]
+        }
+    ],
+    "version": "v1.1.0-dev.4"
+}

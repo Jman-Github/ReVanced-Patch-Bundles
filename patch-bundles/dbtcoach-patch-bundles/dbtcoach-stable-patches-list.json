@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "name": "DBT Coach",
+                    "packageName": "co.swasth.dbtcoach",
+                    "versions": [
+                        "6.4.2",
+                        "6.4.1",
+                        "6.4.0",
+                        "6.1.3"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Déverrouille toutes les fonctionnalités premium de DBT Coach en court-circuitant la vérification d'abonnement RevenueCat.",
+            "name": "Unlock premium",
+            "options": []
+        }
+    ],
+    "version": "v1.0.0"
+}

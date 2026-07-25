@@ -1941,6 +1941,85 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ikura-patch-bundles/ikura-dev-patches-bundle.json```
 </details>
 
+
+---
+### 📦 DH6K-Patches-Bundle [Morphe]:
+[🧩 DH6K Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-dh6k-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dh6k-patch-bundles/dh6k-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dh6k-patch-bundles/dh6k-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dh6k-patch-bundles/dh6k-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 AndrewLiang25-Patches-Bundle [Morphe]:
+[🧩 AndrewLiang25 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-andrewliang25-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/andrewliang25-patch-bundles/andrewliang25-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/andrewliang25-patch-bundles/andrewliang25-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/andrewliang25-patch-bundles/andrewliang25-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Morning-Entree-Patches-Bundle [Morphe]:
+[🧩 Morning-Entree Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-morning-entree-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morning-entree-patch-bundles/morning-entree-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morning-entree-patch-bundles/morning-entree-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morning-entree-patch-bundles/morning-entree-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 VocaColle-Patches-Bundle [Morphe]:
+[🧩 VocaColle Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-vocacolle-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vocacolle-patch-bundles/vocacolle-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vocacolle-patch-bundles/vocacolle-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vocacolle-patch-bundles/vocacolle-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 DBTCoach-Patches-Bundle [Morphe]:
+[🧩 DBTCoach Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-dbtcoach-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dbtcoach-patch-bundles/dbtcoach-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dbtcoach-patch-bundles/dbtcoach-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dbtcoach-patch-bundles/dbtcoach-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Yandex-VoT-Patches-Bundle [Morphe]:
+[🧩 Yandex-VoT Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-yandex-vot-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/yandex-vot-patch-bundles/yandex-vot-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/yandex-vot-patch-bundles/yandex-vot-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/yandex-vot-patch-bundles/yandex-vot-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -2251,6 +2330,18 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [HXReborn-Patches-Bundle](https://github.com/hxreborn/morphe-patches)
 
 #### 🩹 [Ikura-Patches-Bundle](https://github.com/Ikuradachi/ikura-patches)
+
+#### 🩹 [DH6K-Patches-Bundle](https://github.com/dh6k/morphe-patches)
+
+#### 🩹 [AndrewLiang25-Patches-Bundle](https://github.com/andrewliang25/morphe-patches)
+
+#### 🩹 [Morning-Entree-Patches-Bundle](https://github.com/Entree3k/Morning-Entree-Patches)
+
+#### 🩹 [VocaColle-Patches-Bundle](https://github.com/ilikeadofai/vocacolle-morphe-patches)
+
+#### 🩹 [DBTCoach-Patches-Bundle](https://github.com/mxkrgt/dbtcoach-morphe-patches)
+
+#### 🩹 [Yandex-VoT-Patches-Bundle](https://github.com/MarcaDian/morphe-patches-yavot)
 
 ## 🖇 Integrations Repositories In Use
 
