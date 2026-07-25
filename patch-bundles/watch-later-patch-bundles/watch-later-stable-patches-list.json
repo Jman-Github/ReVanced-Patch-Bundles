@@ -1,0 +1,86 @@
+{
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0033",
+                    "description": null,
+                    "name": "YouTube",
+                    "packageName": "com.google.android.youtube",
+                    "signatures": [
+                        "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+                        "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+                    ],
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.29.366",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.28.204",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.26.360",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "21.05.265",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "20.51.39",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "20.31.42",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "20.21.37",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Aggiunge un pulsante 'Later' alla barra di navigazione in basso, che apre la playlist Guarda piu tardi.",
+            "name": "Watch later button",
+            "options": []
+        }
+    ],
+    "version": "v1.1.0"
+}

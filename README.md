@@ -2020,6 +2020,20 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/yandex-vot-patch-bundles/yandex-vot-dev-patches-bundle.json```
 </details>
 
+
+---
+### 📦 Watch-Later-Patches-Bundle [Morphe]:
+[🧩 Watch-Later Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-watch-later-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/watch-later-patch-bundles/watch-later-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/watch-later-patch-bundles/watch-later-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/watch-later-patch-bundles/watch-later-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -2342,6 +2356,9 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [DBTCoach-Patches-Bundle](https://github.com/mxkrgt/dbtcoach-morphe-patches)
 
 #### 🩹 [Yandex-VoT-Patches-Bundle](https://github.com/MarcaDian/morphe-patches-yavot)
+
+
+#### 🩹 [Watch-Later-Patches-Bundle](https://github.com/ciraolone/morphe-watch-later)
 
 ## 🖇 Integrations Repositories In Use
 

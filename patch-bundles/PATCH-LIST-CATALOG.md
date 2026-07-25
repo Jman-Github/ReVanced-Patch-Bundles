@@ -153,6 +153,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [VocaColle](#-vocacolle-bundle-patch-list) | 6 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
 | [Yandex-VoT](#-yandex-vot-bundle-patch-list) | 1 | 1 | Generated |
+| [Watch-Later](#-watch-later-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -5174,5 +5175,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Voice Over Translation (Yandex)``` | ```Adds an option to enable Yandex voice-over translation of video audio tracks.``` | ```YouTube``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Watch-Later Bundle Patch List:
+[📦 Watch-Later-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-watch-later-patches-bundle-morphe)
+<details>
+<summary><b>Watch-Later</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Watch later button``` | ```Aggiunge un pulsante 'Later' alla barra di navigazione in basso, che apre la playlist Guarda piu tardi.``` | ```YouTube``` | ```All versions``` |
 
 </details>
