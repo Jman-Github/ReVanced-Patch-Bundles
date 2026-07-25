@@ -1,4 +1,5 @@
 {
+    "version": "v1.1.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -25,7 +26,8 @@
                     "key": "vocacolleAppName",
                     "required": false,
                     "title": "App name",
-                    "type": "kotlin.String"
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
                     "default": "",
@@ -33,7 +35,8 @@
                     "key": "vocacolleAppIconPath",
                     "required": false,
                     "title": "App icon PNG path",
-                    "type": "kotlin.String"
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ]
         },
@@ -125,6 +128,5 @@
             "name": "VocaColle Morphe settings",
             "options": []
         }
-    ],
-    "version": "v1.1.0"
+    ]
 }

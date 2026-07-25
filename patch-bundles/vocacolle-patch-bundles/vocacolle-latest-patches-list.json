@@ -1,4 +1,5 @@
 {
+    "version": "v1.2.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -25,7 +26,8 @@
                     "key": "vocacolleAppName",
                     "required": false,
                     "title": "App name",
-                    "type": "kotlin.String"
+                    "type": "kotlin.String",
+                    "values": null
                 },
                 {
                     "default": "",
@@ -33,7 +35,8 @@
                     "key": "vocacolleAppIconPath",
                     "required": false,
                     "title": "App icon PNG path",
-                    "type": "kotlin.String"
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ]
         },
@@ -100,6 +103,28 @@
                 }
             ],
             "default": false,
+            "dependencies": [
+                "VocaColle Morphe settings"
+            ],
+            "description": "Adds opt-in controls for VocaColle advertising surfaces.",
+            "name": "VocaColle ad control",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "VocaColle",
+                    "packageName": "jp.nicovideo.nicobox",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.40.0"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [],
             "description": "Verifies that VocaColle 7.40.0 can be decoded, rebuilt, and signed without changing app behavior.",
             "name": "VocaColle compatibility probe",
@@ -125,6 +150,5 @@
             "name": "VocaColle Morphe settings",
             "options": []
         }
-    ],
-    "version": "v1.1.0"
+    ]
 }

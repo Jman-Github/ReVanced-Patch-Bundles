@@ -150,7 +150,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [DH6K](#-dh6k-bundle-patch-list) | 3 | 4 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 12 | 1 | Generated |
 | [Morning-Entree](#-morning-entree-bundle-patch-list) | 3 | 3 | Generated |
-| [VocaColle](#-vocacolle-bundle-patch-list) | 5 | 1 | Generated |
+| [VocaColle](#-vocacolle-bundle-patch-list) | 6 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
 | [Yandex-VoT](#-yandex-vot-bundle-patch-list) | 1 | 1 | Generated |
 
@@ -5140,13 +5140,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 VocaColle Bundle Patch List:
 [📦 VocaColle-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-vocacolle-patches-bundle-morphe)
 <details>
-<summary><b>VocaColle</b> - 5 patches, 1 app</summary>
+<summary><b>VocaColle</b> - 6 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Customize VocaColle branding``` | ```Optionally changes the launcher name and icon while preserving the original Japanese branding by default.``` | ```VocaColle``` | ```All versions``` |
 | ```English UI``` | ```Adds complete English static, hardcoded, and server-provided UI localization.``` | ```VocaColle``` | ```All versions``` |
 | ```Korean UI``` | ```Adds complete Korean static, hardcoded, and server-provided UI localization.``` | ```VocaColle``` | ```All versions``` |
+| ```VocaColle ad control``` | ```Adds opt-in controls for VocaColle advertising surfaces.``` | ```VocaColle``` | ```All versions``` |
 | ```VocaColle compatibility probe``` | ```Verifies that VocaColle 7.40.0 can be decoded, rebuilt, and signed without changing app behavior.``` | ```VocaColle``` | ```All versions``` |
 | ```VocaColle Morphe settings``` | ```Adds display-language, cache, diagnostic, and patch-version controls to native Morphe settings.``` | ```VocaColle``` | ```All versions``` |
 
