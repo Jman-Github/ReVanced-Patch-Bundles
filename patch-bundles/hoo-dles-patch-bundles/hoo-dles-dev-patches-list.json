@@ -68,26 +68,6 @@
             "options": []
         },
         {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#52DBD7",
-                    "name": "Teuida",
-                    "packageName": "net.teuida.teuida",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.21.16"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Blocks the nag that forces a required update from the Play Store.",
-            "name": "Block update nag",
-            "options": []
-        },
-        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -896,26 +876,6 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#52DBD7",
-                    "name": "Teuida",
-                    "packageName": "net.teuida.teuida",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.21.16"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Enables app features locked behind the subscription paywall.",
-            "name": "Enable Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#F45925",
                     "name": "TTMIK Stories",
                     "packageName": "app.ttmikstories.android",
@@ -1443,30 +1403,6 @@
                         {
                             "isExperimental": false,
                             "version": "3.4.1"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
-            "name": "MicroG integration",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#52DBD7",
-                    "name": "Teuida",
-                    "packageName": "net.teuida.teuida",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.21.16"
                         }
                     ]
                 }
