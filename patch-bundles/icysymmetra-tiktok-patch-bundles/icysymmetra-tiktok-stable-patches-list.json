@@ -1,5 +1,5 @@
 {
-    "version": "v0.3.1",
+    "version": "v0.4.0",
     "patches": [
         {
             "compatibility": [
@@ -24,8 +24,8 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Adds Auto comment translation controls that translates all non default langauge comments that are loaded. Supports TikTok 43.8.3.",
-            "name": "Auto Translate comments",
+            "description": "Always shows the publish date in video author information. Thanks to lyyako for the original implementation.",
+            "name": "Always show publish date",
             "options": [],
             "use": true
         },
@@ -52,7 +52,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Copies only the comment text when copying TikTok comments. (Supports TikTok 43.8.3.)",
+            "description": "Copies only the comment text without including the creator's username.",
             "name": "Copy comments without username",
             "options": [],
             "use": true
@@ -78,7 +78,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Adds a configurable custom option to TikTok's offline videos menu. (Supports TikTok 43.8.3.)",
+            "description": "Adds a custom entry to TikTok's offline videos menu with a configurable limit of up to 500 videos.",
             "name": "Custom offline videos limit",
             "options": [],
             "use": true
@@ -104,7 +104,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Disables mandatory login for TikTok. (Supports TikTok 43.8.3.)",
+            "description": "Removes TikTok's mandatory login gate from supported flows.",
             "name": "Disable login requirement",
             "options": [],
             "use": true
@@ -132,7 +132,35 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Downloads videos and images without watermark, saves comment stickers/images, and adds download-related controls. (Supports TikTok 43.8.3.)",
+            "description": "Prevents TikTok from detecting screenshots and screen recordings.",
+            "name": "Disable screen capture detection",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds watermark-free video and photo downloads, comment sticker saving, and configurable download-folder controls.",
             "name": "Downloads",
             "options": [],
             "use": true
@@ -186,9 +214,38 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Removes ads, livestreams, stories, image videos and videos with a specific amount of views or likes from the feed. (Supports TikTok 43.8.3.)",
+            "description": "Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.",
+            "name": "Feature Gate Lab",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides feed ads, TikTok Shop items, livestreams, stories, photo posts, and videos outside configured view or like ranges.",
             "name": "Feed filter",
             "options": [],
             "use": true
@@ -216,7 +273,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Adds controls to choose which top feed tabs are visible. For You stays enabled for stability. Supports TikTok 43.8.3.",
+            "description": "Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.",
             "name": "Feed tab navigation",
             "options": [],
             "use": true
@@ -242,7 +299,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Allows logging in with a Google account. (Supports TikTok 43.8.3.)",
+            "description": "Restores Google account sign-in after patching.",
             "name": "Fix Google login",
             "options": [],
             "use": true
@@ -270,7 +327,119 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Enables the playback speed option for all videos and retains the speed configurations in between videos. (Supports TikTok 43.8.3.)",
+            "description": "Prevents client-side verification puzzle dialogs from opening, including those shown while browsing LIVE. This does not bypass server-side checks.",
+            "name": "Hide CAPTCHA popups",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes floating promotional badges, coin icons, and timer banners from the Home feed.",
+            "name": "Hide floating promotions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.",
+            "name": "Hold-and-slide 2x lock",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.",
+            "name": "Open external links directly",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables playback-speed controls for all videos and remembers the selected speed between videos.",
             "name": "Playback speed",
             "options": [],
             "use": true
@@ -296,7 +465,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Remembers the clear display configurations in between videos. (Supports TikTok 43.8.3.)",
+            "description": "Remembers TikTok's clear-display state between videos.",
             "name": "Remember clear display",
             "options": [],
             "use": true
@@ -324,7 +493,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Removes tracking parameters from shared links. (Supports TikTok 43.8.3.)",
+            "description": "Removes tracking parameters from TikTok links before they are shared.",
             "name": "Sanitize sharing links",
             "options": [],
             "use": true
@@ -352,7 +521,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Adds Morphe settings to TikTok. Supports TikTok 43.8.3.",
+            "description": "Adds the Morphe settings screen inside TikTok.",
             "name": "Settings",
             "options": [],
             "use": true
@@ -377,8 +546,10 @@
                     "43.8.3"
                 ]
             },
-            "dependencies": [],
-            "description": "Shows a progress bar for all videos. (Supports TikTok 43.8.3.)",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Shows TikTok's native video seekbar where it would normally be hidden.",
             "name": "Show seekbar",
             "options": [],
             "use": true
@@ -409,6 +580,34 @@
             ],
             "description": "Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.",
             "name": "SIM spoof",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "43.8.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "43.8.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds comment translation controls using TikTok's translation system, with selectable language exclusions.",
+            "name": "Translate comments",
             "options": [],
             "use": true
         }
