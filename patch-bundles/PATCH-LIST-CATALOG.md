@@ -1667,6 +1667,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Disable double tap like``` | ```Disable double tap like on post, reel, comment and message``` | ```Instagram``` | ```All versions``` |
 | ```Disable explore``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Disable highlights``` | ```N/A``` | ```Instagram``` | ```All versions``` |
+| ```Disable onboarding permission prompts``` | ```Prevents contacts and location permission onboarding prompts from appearing on launch.``` | ```Instagram``` | ```All versions``` |
 | ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.``` | ```Instagram``` | ```All versions``` |
 | ```Disable screenshot detection``` | ```Disables screenshots detection in DM``` | ```Instagram``` | ```All versions``` |
 | ```Disable stories``` | ```N/A``` | ```Instagram``` | ```All versions``` |
@@ -1731,7 +1732,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Delete from database``` | ```Delete entries from database(cache)``` | ```X``` | ```All versions``` |
 | ```Disable auto timeline scroll on launch``` | ```N/A``` | ```X``` | ```All versions``` |
 | ```Disable chirp font``` | ```N/A``` | ```X``` | ```All versions``` |
-| ```Disunify xchat system``` | ```Bring back legacy features like messages and share sheet.``` | ```X``` | ```All versions``` |
 | ```Download patch``` | ```Unlocks the ability to download videos and gifs from Twitter/X``` | ```X``` | ```All versions``` |
 | ```Dynamic color``` | ```Replaces the default Twitter Blue with the user's Material You palette.``` | ```X``` | ```All versions``` |
 | ```Enable debug menu for posts``` | ```N/A``` | ```X``` | ```All versions``` |
@@ -1768,7 +1768,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```No shortened URL``` | ```Get rid of t.co short urls.``` | ```X``` | ```All versions``` |
 | ```Pause search suggestions``` | ```Search suggestions will not be saved locally``` | ```X``` | ```All versions``` |
 | ```Remove Ads``` | ```Removed promoted posts, trends and google ads``` | ```X``` | ```All versions``` |
-| ```Remove premium upsell``` | ```Removes premium upsell in home timeline``` | ```X``` | ```All versions``` |
+| ```Remove premium upsell``` | ```Removes premium upsells``` | ```X``` | ```All versions``` |
 | ```Remove search suggestions``` | ```Hide/Remove search suggestion in explore section``` | ```X``` | ```All versions``` |
 | ```Remove view count``` | ```Removes the view count from the bottom of tweets``` | ```X``` | ```All versions``` |
 | ```Round off numbers``` | ```Enable or disable rounding off numbers``` | ```X``` | ```All versions``` |
