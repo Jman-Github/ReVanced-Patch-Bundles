@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.1",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -10,6 +10,28 @@
             "name": "Add ReVanced patch version field",
             "options": [],
             "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": null
+            },
+            "dependencies": [
+                "Remove advertisements resources"
+            ],
+            "description": "Removes all advertisements: banners, native ads, in-feed ad rows, DCInside's own script ads and Naver PowerLink. No ad SDK is initialised and no ad is ever requested.",
+            "name": "Remove advertisements",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": null
+            },
+            "dependencies": [],
+            "description": "Collapses the empty quick-menu banner slot at the bottom of the post list.",
+            "name": "Remove advertisements resources",
+            "options": [],
+            "use": false
         },
         {
             "compatiblePackages": {
