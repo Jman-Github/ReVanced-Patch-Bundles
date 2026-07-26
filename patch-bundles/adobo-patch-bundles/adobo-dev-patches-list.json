@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.11",
+    "version": "v1.3.0-dev.12",
     "patches": [
         {
             "compatiblePackages": [
@@ -159,6 +159,15 @@
             "description": "Replaces the default gray comment indent lines with color-coded lines.",
             "name": "Colorize comment indent lines",
             "options": [
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "isCurrentLevelOnly",
+                    "required": false,
+                    "title": "Show indent line at current depth only",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
                 {
                     "default": "#2A9D8F",
                     "description": "The hex color (#RRGGBB or #AARRGGBB) for comment indent line at depth 1.",
