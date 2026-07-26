@@ -81,7 +81,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Perplexity-STT](#-perplexity-stt-bundle-patch-list) | 1 | 1 | Generated |
 | [Browzomje](#-browzomje-bundle-patch-list) | 5 | 1 | Generated |
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
-| [Zpatches](#-zpatches-bundle-patch-list) | 8 | 5 | Generated |
+| [Zpatches](#-zpatches-bundle-patch-list) | 9 | 6 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
 | [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 53 | 40 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
@@ -853,11 +853,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Zpatches Bundle Patch List:
 [?? Zpatches-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-zpatches-patches-bundle-morphe)
 <details>
-<summary><b>Zpatches</b> - 8 patches, 5 apps</summary>
+<summary><b>Zpatches</b> - 9 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Custom Maps API Key``` | ```Replace Velo'v Google Maps key with your own to fix it``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
+| ```Enable Club``` | ```Enable Citymapper Club subscription``` | ```com.citymapper.app.release``` | ```All versions``` |
+| ```Google Maps API key``` | ```Use a different Google Maps API key to fix modified apps``` | ```com.citymapper.app.release, com.jcdecaux.vls.lyon``` | ```3.1.1``` |
 | ```Disable map animations``` | ```Disable the map zoom-in animation``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
 | ```No geolocalisation check``` | ```Allows you to unlock a bike even if you're not near the station.``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
 | ```Spoof package signature``` | ```Spoofs the package signature required for Firebase, fixes notifications``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |

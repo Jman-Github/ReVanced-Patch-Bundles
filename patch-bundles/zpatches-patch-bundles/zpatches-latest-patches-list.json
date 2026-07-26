@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.8.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -9,28 +9,6 @@
             "description": "Bypass the PairIp license check preventing app modification",
             "name": "Bypass PairIp",
             "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.jcdecaux.vls.lyon": [
-                    "3.1.1"
-                ]
-            },
-            "dependencies": [],
-            "description": "Replace Velo'v Google Maps key with your own to fix it",
-            "name": "Custom Maps API Key",
-            "options": [
-                {
-                    "default": "",
-                    "description": "Google Maps API key",
-                    "key": "mapApiKey",
-                    "required": true,
-                    "title": "Google Maps API key",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ],
             "use": true
         },
         {
@@ -59,6 +37,16 @@
         },
         {
             "compatiblePackages": {
+                "com.citymapper.app.release": null
+            },
+            "dependencies": [],
+            "description": "Enable Citymapper Club subscription",
+            "name": "Enable Club",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "ee.dustland.android.dustlandsudoku": null,
                 "ee.dustland.android.minesweeper": null,
                 "ee.dustland.android.solitaire": null
@@ -76,6 +64,29 @@
             "name": "Export all activities",
             "options": [],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.citymapper.app.release": null,
+                "com.jcdecaux.vls.lyon": [
+                    "3.1.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Use a different Google Maps API key to fix modified apps",
+            "name": "Google Maps API key",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Google Maps API key",
+                    "key": "mapApiKey",
+                    "required": true,
+                    "title": "Google Maps API key",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": true
         },
         {
             "compatiblePackages": {
