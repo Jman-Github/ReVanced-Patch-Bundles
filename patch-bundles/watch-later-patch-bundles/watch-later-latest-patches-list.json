@@ -1,11 +1,11 @@
 {
+    "version": "v1.1.0",
     "patches": [
         {
             "compatiblePackages": [
                 {
                     "apkFileType": "APK_REQUIRED",
                     "appIconColor": "#FF0033",
-                    "description": null,
                     "name": "YouTube",
                     "packageName": "com.google.android.youtube",
                     "signatures": [
@@ -14,60 +14,44 @@
                     ],
                     "targets": [
                         {
-                            "description": null,
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.29.366",
-                            "versionCodes": null
+                            "version": "21.29.366"
                         },
                         {
-                            "description": null,
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.28.204",
-                            "versionCodes": null
+                            "version": "21.28.204"
                         },
                         {
-                            "description": null,
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.26.360",
-                            "versionCodes": null
+                            "version": "21.26.360"
                         },
                         {
-                            "description": null,
                             "isExperimental": true,
                             "minSdk": 28,
-                            "version": "21.05.265",
-                            "versionCodes": null
+                            "version": "21.05.265"
                         },
                         {
-                            "description": null,
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223",
-                            "versionCodes": null
+                            "version": "21.04.223"
                         },
                         {
-                            "description": null,
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "20.51.39",
-                            "versionCodes": null
+                            "version": "20.51.39"
                         },
                         {
-                            "description": null,
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "20.31.42",
-                            "versionCodes": null
+                            "version": "20.31.42"
                         },
                         {
-                            "description": null,
                             "isExperimental": false,
                             "minSdk": 26,
-                            "version": "20.21.37",
-                            "versionCodes": null
+                            "version": "20.21.37"
                         }
                     ]
                 }
@@ -81,6 +65,5 @@
             "name": "Watch later button",
             "options": []
         }
-    ],
-    "version": "v1.1.0"
+    ]
 }
