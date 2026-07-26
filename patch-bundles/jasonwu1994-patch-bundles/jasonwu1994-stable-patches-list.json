@@ -1,5 +1,5 @@
 {
-    "version": "v2.0.0",
+    "version": "v2.1.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -46,6 +46,18 @@
             "dependencies": [],
             "description": "新增獨立的特殊符號分頁，長按逗號->愛心\nAdd a dedicated custom symbols tab and replace the long-press comma entry with a heart shortcut.",
             "name": "Custom Symbols",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.7.7.932364120-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "啟用 開發人員選項 與 Flag 編輯器，你可以自己修改Flag的值\nEnable Developer options and the Flag Editor, allowing you to modify flag values.",
+            "name": "Developer options",
             "options": [],
             "use": true
         },
