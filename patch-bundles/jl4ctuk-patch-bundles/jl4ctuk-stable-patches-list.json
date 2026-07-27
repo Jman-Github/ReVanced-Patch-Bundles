@@ -1,0 +1,516 @@
+{
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0077FF",
+                    "description": null,
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.106.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 1106003,
+                                "ARMEABI_V7A": 1106003,
+                                "X86": 1106003,
+                                "X86_64": 1106003
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes advertisements and recommendations from search.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0077FF",
+                    "description": null,
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.106.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 1106003,
+                                "ARMEABI_V7A": 1106003,
+                                "X86": 1106003,
+                                "X86_64": 1106003
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Disables analytics and tracking in RuStore.",
+            "name": "Disable analytics",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0077FF",
+                    "description": null,
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.106.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 1106003,
+                                "ARMEABI_V7A": 1106003,
+                                "X86": 1106003,
+                                "X86_64": 1106003
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the periodic Kaspersky background device scan.",
+            "name": "Disable background scan",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#005BFF",
+                    "description": null,
+                    "name": "Ozon",
+                    "packageName": "ru.ozon.app.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "19.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2698,
+                                "ARMEABI_V7A": 2698,
+                                "X86": 2698,
+                                "X86_64": 2698
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes courier tips UI and prevents tip IDs or tip API calls from being submitted.",
+            "name": "Disable checkout tips",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0077FF",
+                    "description": null,
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.106.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 1106003,
+                                "ARMEABI_V7A": 1106003,
+                                "X86": 1106003,
+                                "X86_64": 1106003
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the Game Profile section from the Mine screen, including the button and the usage statistics screen.",
+            "name": "Disable gaming profile",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#005BFF",
+                    "description": null,
+                    "name": "Ozon",
+                    "packageName": "ru.ozon.app.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "19.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2698,
+                                "ARMEABI_V7A": 2698,
+                                "X86": 2698,
+                                "X86_64": 2698
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables lottery onboarding and the in-app push SDK used for reward popups.",
+            "name": "Disable lottery and in-app pushes",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0077FF",
+                    "description": null,
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.106.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 1106003,
+                                "ARMEABI_V7A": 1106003,
+                                "X86": 1106003,
+                                "X86_64": 1106003
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Reverts the Mine screen to the classic layout, disabling the redesigned V2/V3 interface.",
+            "name": "Disable Mine redesign",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#005BFF",
+                    "description": null,
+                    "name": "Ozon",
+                    "packageName": "ru.ozon.app.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "19.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2698,
+                                "ARMEABI_V7A": 2698,
+                                "X86": 2698,
+                                "X86_64": 2698
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables Ozon analytics, attribution, crash reporting, and telemetry uploads.",
+            "name": "Disable telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#005BFF",
+                    "description": null,
+                    "name": "Ozon",
+                    "packageName": "ru.ozon.app.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "19.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2698,
+                                "ARMEABI_V7A": 2698,
+                                "X86": 2698,
+                                "X86_64": 2698
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the lottery entry banner and review feed shortcut from the account screen.",
+            "name": "Hide account lottery and review feed",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0077FF",
+                    "description": null,
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.106.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 1106003,
+                                "ARMEABI_V7A": 1106003,
+                                "X86": 1106003,
+                                "X86_64": 1106003
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the Featured and Games tabs and opens Apps by default.",
+            "name": "Hide Featured and Games tabs",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0077FF",
+                    "description": null,
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.106.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 1106003,
+                                "ARMEABI_V7A": 1106003,
+                                "X86": 1106003,
+                                "X86_64": 1106003
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes notification buttons from the search bar and Mine screen.",
+            "name": "Hide notification buttons",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#005BFF",
+                    "description": null,
+                    "name": "Ozon",
+                    "packageName": "ru.ozon.app.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "19.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2698,
+                                "ARMEABI_V7A": 2698,
+                                "X86": 2698,
+                                "X86_64": 2698
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the advertising banner carousel from the Ozon Bank screen.",
+            "name": "Hide Ozon Bank ad banner",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#005BFF",
+                    "description": null,
+                    "name": "Ozon",
+                    "packageName": "ru.ozon.app.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "19.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2698,
+                                "ARMEABI_V7A": 2698,
+                                "X86": 2698,
+                                "X86_64": 2698
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the post-purchase seller rating prompt.",
+            "name": "Hide seller rating prompt",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#005BFF",
+                    "description": null,
+                    "name": "Ozon",
+                    "packageName": "ru.ozon.app.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "19.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2698,
+                                "ARMEABI_V7A": 2698,
+                                "X86": 2698,
+                                "X86_64": 2698
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes Ozon ad widgets, checkout promotions, floating promotions, banner carousels, and PDP promo blocks.",
+            "name": "Remove Ozon ads",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Removes recommendation grids from product, cart, profile, and favorites screens.",
+                    "key": "hideRecommendationGrids",
+                    "required": false,
+                    "title": "Hide recommendation grids",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#005BFF",
+                    "description": null,
+                    "name": "Ozon",
+                    "packageName": "ru.ozon.app.android",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "19.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2698,
+                                "ARMEABI_V7A": 2698,
+                                "X86": 2698,
+                                "X86_64": 2698
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides crossed-out prices, discount percentages, and redundant price rows in the cart total.",
+            "name": "Show final prices only",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0077FF",
+                    "description": null,
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.106.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 1106003,
+                                "ARMEABI_V7A": 1106003,
+                                "X86": 1106003,
+                                "X86_64": 1106003
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the login requirement when updating apps.",
+            "name": "Skip update auth",
+            "options": []
+        }
+    ],
+    "version": "v1.2.0"
+}

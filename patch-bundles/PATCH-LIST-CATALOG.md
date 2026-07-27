@@ -155,6 +155,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Yandex-VoT](#-yandex-vot-bundle-patch-list) | 1 | 1 | Generated |
 | [Watch-Later](#-watch-later-bundle-patch-list) | 1 | 1 | Generated |
 | [SofaTime](#-sofatime-bundle-patch-list) | 2 | 1 | Generated |
+| [Hiosdra](#-hiosdra-bundle-patch-list) | 4 | 2 | Generated |
+| [Jl4cTuk](#-jl4ctuk-bundle-patch-list) | 16 | 2 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -5212,5 +5214,47 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```SofaTime License Check Bypass``` | ```Bypasses PairIP license verification.``` | ```SofaTime``` | ```All versions``` |
 | ```SofaTime Premium``` | ```Unlocks all premium features.``` | ```SofaTime``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Hiosdra Bundle Patch List:
+[📦 Hiosdra-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hiosdra-patches-bundle-morphe)
+<details>
+<summary><b>Hiosdra</b> - 4 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```F1 TV - Background playback``` | ```Keeps the F1 TV player alive when the activity goes to the background or the screen turns off.``` | ```F1 TV``` | ```All versions``` |
+| ```F1 TV - Foreground playback service``` | ```Keeps background F1 TV playback alive with an Android media playback notification and playback/PiP controls.``` | ```F1 TV``` | ```All versions``` |
+| ```F1 TV - Picture-in-Picture``` | ```Keeps F1 TV playback alive while entering Android Picture-in-Picture mode.``` | ```F1 TV``` | ```All versions``` |
+| ```Compile-only example``` | ```Provides a no-op patch for validating the project build.``` | ```Universal``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Jl4cTuk Bundle Patch List:
+[📦 Jl4cTuk-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jl4ctuk-patches-bundle-morphe)
+<details>
+<summary><b>Jl4cTuk</b> - 16 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable checkout tips``` | ```Removes courier tips UI and prevents tip IDs or tip API calls from being submitted.``` | ```Ozon``` | ```All versions``` |
+| ```Disable lottery and in-app pushes``` | ```Disables lottery onboarding and the in-app push SDK used for reward popups.``` | ```Ozon``` | ```All versions``` |
+| ```Disable telemetry``` | ```Disables Ozon analytics, attribution, crash reporting, and telemetry uploads.``` | ```Ozon``` | ```All versions``` |
+| ```Hide account lottery and review feed``` | ```Removes the lottery entry banner and review feed shortcut from the account screen.``` | ```Ozon``` | ```All versions``` |
+| ```Hide Ozon Bank ad banner``` | ```Removes the advertising banner carousel from the Ozon Bank screen.``` | ```Ozon``` | ```All versions``` |
+| ```Hide seller rating prompt``` | ```Removes the post-purchase seller rating prompt.``` | ```Ozon``` | ```All versions``` |
+| ```Remove Ozon ads``` | ```Removes Ozon ad widgets, checkout promotions, floating promotions, banner carousels, and PDP promo blocks.``` | ```Ozon``` | ```All versions``` |
+| ```Show final prices only``` | ```Hides crossed-out prices, discount percentages, and redundant price rows in the cart total.``` | ```Ozon``` | ```All versions``` |
+| ```Disable ads``` | ```Removes advertisements and recommendations from search.``` | ```RuStore``` | ```All versions``` |
+| ```Disable analytics``` | ```Disables analytics and tracking in RuStore.``` | ```RuStore``` | ```All versions``` |
+| ```Disable background scan``` | ```Disables the periodic Kaspersky background device scan.``` | ```RuStore``` | ```All versions``` |
+| ```Disable gaming profile``` | ```Removes the Game Profile section from the Mine screen, including the button and the usage statistics screen.``` | ```RuStore``` | ```All versions``` |
+| ```Disable Mine redesign``` | ```Reverts the Mine screen to the classic layout, disabling the redesigned V2/V3 interface.``` | ```RuStore``` | ```All versions``` |
+| ```Hide Featured and Games tabs``` | ```Removes the Featured and Games tabs and opens Apps by default.``` | ```RuStore``` | ```All versions``` |
+| ```Hide notification buttons``` | ```Removes notification buttons from the search bar and Mine screen.``` | ```RuStore``` | ```All versions``` |
+| ```Skip update auth``` | ```Removes the login requirement when updating apps.``` | ```RuStore``` | ```All versions``` |
 
 </details>

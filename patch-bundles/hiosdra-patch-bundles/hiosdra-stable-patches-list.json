@@ -1,0 +1,96 @@
+{
+    "patches": [
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Provides a no-op patch for validating the project build.",
+            "name": "Compile-only example",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E10600",
+                    "description": "F1 TV mobile APK",
+                    "name": "F1 TV",
+                    "packageName": "com.formulaone.production",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "3.0.48.1-SP157.6.0-release-R52-mobile",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Keeps the F1 TV player alive when the activity goes to the background or the screen turns off.",
+            "name": "F1 TV - Background playback",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E10600",
+                    "description": "F1 TV mobile APK",
+                    "name": "F1 TV",
+                    "packageName": "com.formulaone.production",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "3.0.48.1-SP157.6.0-release-R52-mobile",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Keeps background F1 TV playback alive with an Android media playback notification and playback/PiP controls.",
+            "name": "F1 TV - Foreground playback service",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E10600",
+                    "description": "F1 TV mobile APK",
+                    "name": "F1 TV",
+                    "packageName": "com.formulaone.production",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "3.0.48.1-SP157.6.0-release-R52-mobile",
+                            "versionCodes": null
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Keeps F1 TV playback alive while entering Android Picture-in-Picture mode.",
+            "name": "F1 TV - Picture-in-Picture",
+            "options": []
+        }
+    ],
+    "version": "v1.3.0"
+}
