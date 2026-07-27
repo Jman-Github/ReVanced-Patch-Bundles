@@ -154,6 +154,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
 | [Yandex-VoT](#-yandex-vot-bundle-patch-list) | 1 | 1 | Generated |
 | [Watch-Later](#-watch-later-bundle-patch-list) | 1 | 1 | Generated |
+| [SofaTime](#-sofatime-bundle-patch-list) | 2 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -5198,5 +5199,18 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Watch later button``` | ```Aggiunge un pulsante 'Later' alla barra di navigazione in basso, che apre la playlist Guarda piu tardi.``` | ```YouTube``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 SofaTime Bundle Patch List:
+[📦 SofaTime-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-sofatime-patches-bundle-morphe)
+<details>
+<summary><b>SofaTime</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```SofaTime License Check Bypass``` | ```Bypasses PairIP license verification.``` | ```SofaTime``` | ```All versions``` |
+| ```SofaTime Premium``` | ```Unlocks all premium features.``` | ```SofaTime``` | ```All versions``` |
 
 </details>

@@ -769,6 +769,11 @@
         "patches": "https://api.github.com/repos/ciraolone/morphe-watch-later",
         "prerelease": false
     },
+    "sofatime-stable": {
+        "patches": "https://api.github.com/repos/alan7383/sofatime-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -1534,6 +1539,11 @@
         "patches": "https://api.github.com/repos/ciraolone/morphe-watch-later",
         "prerelease": true
     },
+    "sofatime-dev": {
+        "patches": "https://api.github.com/repos/alan7383/sofatime-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
     "piko-latest": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -2297,6 +2307,11 @@
     "watch-later-latest": {
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "patches": "https://api.github.com/repos/ciraolone/morphe-watch-later",
+        "latest": true
+    },
+    "sofatime-latest": {
+        "patches": "https://api.github.com/repos/alan7383/sofatime-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }
 }

@@ -2034,6 +2034,20 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/watch-later-patch-bundles/watch-later-dev-patches-bundle.json```
 </details>
 
+
+---
+### 📦 SofaTime-Patches-Bundle [Morphe]:
+[🧩 SofaTime Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-sofatime-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sofatime-patch-bundles/sofatime-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sofatime-patch-bundles/sofatime-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sofatime-patch-bundles/sofatime-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -2359,6 +2373,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 
 #### 🩹 [Watch-Later-Patches-Bundle](https://github.com/ciraolone/morphe-watch-later)
+
+#### 🩹 [SofaTime-Patches-Bundle](https://github.com/alan7383/sofatime-patches)
 
 ## 🖇 Integrations Repositories In Use
 
