@@ -1565,7 +1565,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
-### ?? Nai64-Patches-Bundle [Morphe]:
+### 📦 Nai64-Patches-Bundle [Morphe]:
 [?? Nai64 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-nai64-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -1578,7 +1578,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
-### ?? Morphe-Google-Patches-Bundle [Morphe]:
+### 📦 Morphe-Google-Patches-Bundle [Morphe]:
 [?? Morphe-Google Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-morphe-google-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
