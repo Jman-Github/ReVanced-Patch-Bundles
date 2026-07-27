@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.2",
+    "version": "v1.12.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -295,32 +295,6 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
-                    "appIconColor": "#8BC34A",
-                    "name": "Zombie Catchers",
-                    "packageName": "fi.twomenandadog.zombiecatchers",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.67.15"
-                        },
-                        {
-                            "isExperimental": true
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Removes PairIP StartupLauncher from ComponentFactory and depends on hex patch for manifest + .so patching.",
-            "name": "Unlock all",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
                     "appIconColor": "#3B5998",
                     "name": "The Battle of Polytopia",
                     "packageName": "air.com.midjiwan.polytopia",
@@ -391,30 +365,6 @@
             "dependencies": [],
             "description": "Unlocks all premium-gated features (Advanced Solver / Kociemba, custom color schemes, VIP support, no relaunch screens). Returns true from PremiumHelper.hasActivePurchase() so the entire app behaves as if a premium subscription is active.",
             "name": "Unlock premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#8BC34A",
-                    "name": "Zombie Catchers",
-                    "packageName": "fi.twomenandadog.zombiecatchers",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.67.15"
-                        },
-                        {
-                            "isExperimental": true
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Changes manifest and hex patches libcocos2dcpp.so",
-            "name": "ZC hex patch",
             "options": []
         }
     ]
