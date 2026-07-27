@@ -1,4 +1,5 @@
 {
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -61,7 +62,585 @@
             "description": "Unlock Sponge Premium",
             "name": "Enable Premium",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#C7604F",
+                    "name": "Vocabulary",
+                    "packageName": "com.hrd.vocabulary",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.5.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Vocabulary Premium",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#023C69",
+                    "name": "CCNA 200-301",
+                    "packageName": "com.trieudadlovestun.ccna200301",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.15"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "ServiceNow CSA",
+                    "packageName": "com.trieudadlovestun.servicenowsystemadmin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.10"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "SC-900",
+                    "packageName": "com.trieudadlovestun.sc900",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.10"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "AWS SAA-C02",
+                    "packageName": "com.trieudadlovestun.saac02ver3",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.18"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "ISTQB Foundation",
+                    "packageName": "com.trieudadlovestun.istqbfoundation",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.15"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "AZ-104",
+                    "packageName": "com.trieudadlovestun.az104",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.16"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "PCEP-30-02",
+                    "packageName": "com.trieudadlovestun.pcep3002",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.9"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "CompTIA A+ Core 1",
+                    "packageName": "com.trieudadlovestun.comptiacore1",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.11"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "CCNP 350-401",
+                    "packageName": "com.trieudadlovestun.ccnp350401",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.18"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "SC-200",
+                    "packageName": "com.trieudadlovestun.sc200exam",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.2"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "CISM",
+                    "packageName": "com.trieudadlovestun.cism",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.9"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "AWS SCS-C01",
+                    "packageName": "com.trieudadlovestun.scsc01",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.14"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "AI-900",
+                    "packageName": "com.trieudadlovestun.ai900exam",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.1"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "Salesforce Admin",
+                    "packageName": "com.trieudadlovestun.salesforceadmin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.16"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "SnowPro Core",
+                    "packageName": "com.trieudadlovestun.snowprocore",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.10"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "CCNP SCOR 350-701",
+                    "packageName": "com.trieudadlovestun.scor350701",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.8"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "CompTIA A+ Core 2",
+                    "packageName": "com.trieudadlovestun.comptiacore2",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.12"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "AZ-900",
+                    "packageName": "com.trieudadlovestun.az900ver3",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.23"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "CEH v11",
+                    "packageName": "com.trieudadlovestun.cehv11",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.20"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "AWS CLF-C01",
+                    "packageName": "com.trieudadlovestun.clfc01",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.20"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "CompTIA Security+",
+                    "packageName": "com.trieudadlovestun.comptiasecurityplus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.16"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "CompTIA Server+",
+                    "packageName": "com.trieudadlovestun.comptiaserverplus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.10"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "CompTIA CySA+",
+                    "packageName": "com.trieudadlovestun.comptiacysa",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.12"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "AZ-500",
+                    "packageName": "com.trieudadlovestun.az500",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.8"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "CompTIA SecurityX",
+                    "packageName": "com.trieudadlovestun.comptiasecux",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.1"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "CompTIA PenTest+",
+                    "packageName": "com.trieudadlovestun.pentestplusexam",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.1"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "AWS MLA-C01",
+                    "packageName": "com.trieudadlovestun.mlac01exam",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.3"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "DASM",
+                    "packageName": "com.trieudadlovestun.dasm",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.9"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "CAPM",
+                    "packageName": "com.trieudadlovestun.capm",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.8"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "AZ-400",
+                    "packageName": "com.trieudadlovestun.az400",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.8"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "DP-203",
+                    "packageName": "com.trieudadlovestun.dp203",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.9"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "PSPO I",
+                    "packageName": "com.trieudadlovestun.pspooneexam",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.1"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "AWS SOA-C02",
+                    "packageName": "com.trieudadlovestun.soac02",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.9"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "AWS DOP-C01",
+                    "packageName": "com.trieudadlovestun.dopc01",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.6"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "PSM II",
+                    "packageName": "com.trieudadlovestun.psm2",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.9"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "AZ-700",
+                    "packageName": "com.trieudadlovestun.az700exam",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.1"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "AWS SAP-C01",
+                    "packageName": "com.trieudadlovestun.sapc01",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.8"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "GCP Associate Cloud Engineer",
+                    "packageName": "com.trieudadlovestun.gcpassociatecloudengineer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.8"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "DP-900",
+                    "packageName": "com.trieudadlovestun.dp900",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.10"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "CompTIA Linux+",
+                    "packageName": "com.trieudadlovestun.comptialinuxplusexam",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.2"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "AWS AIF-C01",
+                    "packageName": "com.trieudadlovestun.aifc01exam",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.1"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "PMI-ACP",
+                    "packageName": "com.trieudadlovestun.pmiacp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.6"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "CompTIA ITF+",
+                    "packageName": "com.trieudadlovestun.comptiaitf",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.14"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "AWS DVA-C01",
+                    "packageName": "com.trieudadlovestun.dvac01ver3",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.12"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "AZ-204",
+                    "packageName": "com.trieudadlovestun.az204ver2022",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.9"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "DP-300",
+                    "packageName": "com.trieudadlovestun.dp300",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.6"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "CISSP",
+                    "packageName": "com.trieudadlovestun.cissp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.10"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "Tableau Desktop",
+                    "packageName": "com.trieudadlovestun.tableaudesktop",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.8"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "CompTIA SecAI",
+                    "packageName": "com.trieudadlovestun.comptiasecai",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.1"
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#023C69",
+                    "name": "Terraform Associate",
+                    "packageName": "com.trieudadlovestun.terraform",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.10"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all exam questions",
+            "name": "Unlock all questions",
+            "options": []
         }
-    ],
-    "version": "v1.2.0"
+    ]
 }
