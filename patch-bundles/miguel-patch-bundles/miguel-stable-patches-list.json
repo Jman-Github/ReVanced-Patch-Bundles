@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.2",
+    "version": "v1.12.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -33,30 +33,6 @@
             ],
             "description": "Attempts to credit purchases by scanning the app for billing code and applying the appropriate bypass. Runs 5 phases: (1) Cocos2d-x helper, (2) GameMaker verifyPurchase, (3) Google Play Billing, (4) Unity billing bridge, (5) Fallback. Also depends on Unity IL2CPP hex patch.",
             "name": "Billing bypass",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#C2185B",
-                    "name": "Oddmar",
-                    "packageName": "com.mobge.Oddmar",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "0.111"
-                        },
-                        {
-                            "isExperimental": true
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Suppresses the Google Play Games sign-in popup ONLY when the user has already signed in before. On first launch (or after signing out) the popup still appears so the user can authenticate and get cloud saves. On subsequent launches the popup is suppressed because getAccount() returns the cached GoogleSignInAccount. Cloud saves, leaderboards and achievements continue to work normally. The in-game Sign In button is unaffected. Fixes the issue where the popup reappeared on every launch even after the user had already signed in.",
-            "name": "Disable Google Play Games sign-in prompt when already signed in",
             "options": []
         },
         {
@@ -295,32 +271,6 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
-                    "appIconColor": "#8BC34A",
-                    "name": "Zombie Catchers",
-                    "packageName": "fi.twomenandadog.zombiecatchers",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.67.15"
-                        },
-                        {
-                            "isExperimental": true
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Removes PairIP StartupLauncher from ComponentFactory and depends on hex patch for manifest + .so patching.",
-            "name": "Unlock all",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
                     "appIconColor": "#3B5998",
                     "name": "The Battle of Polytopia",
                     "packageName": "air.com.midjiwan.polytopia",
@@ -391,30 +341,6 @@
             "dependencies": [],
             "description": "Unlocks all premium-gated features (Advanced Solver / Kociemba, custom color schemes, VIP support, no relaunch screens). Returns true from PremiumHelper.hasActivePurchase() so the entire app behaves as if a premium subscription is active.",
             "name": "Unlock premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#8BC34A",
-                    "name": "Zombie Catchers",
-                    "packageName": "fi.twomenandadog.zombiecatchers",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.67.15"
-                        },
-                        {
-                            "isExperimental": true
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Changes manifest and hex patches libcocos2dcpp.so",
-            "name": "ZC hex patch",
             "options": []
         }
     ]
