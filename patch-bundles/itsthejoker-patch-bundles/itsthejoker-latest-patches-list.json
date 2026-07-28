@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.5.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -39,7 +39,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Multiplies the player's firing speed by 10 in the Bullet Hell minigame (fire interval 0.15 -> 0.015, and rapid-fire 0.1 -> 0.01) for a near-continuous beam.",
+            "description": "Multiplies the player's firing speed by 10 in the Bullet Hell minigame (fire interval 0.15 -> 0.015) for a near-continuous beam.",
             "name": "Beam of Death (10x Fire Rate)",
             "options": []
         },
@@ -62,6 +62,27 @@
             "dependencies": [],
             "description": "Disables the PairIP Play-license check so a non-Play (e.g. patched/sideloaded) install no longer redirects to the \"get it on Google Play\" wall on launch.",
             "name": "Bypass Play Store license check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2A1E9E",
+                    "name": "Roost",
+                    "packageName": "com.rookery.courier",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.12"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the client-side cooldown timer check on the nest-egg free-bird claim button so the claim request is sent to the server on every tap. The server still controls eligibility; this only stops the client from blocking the request.",
+            "name": "Free Nest Egg (bypass claim cooldown)",
             "options": []
         },
         {

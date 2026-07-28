@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.1",
+    "version": "v1.5.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -39,7 +39,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Multiplies the player's firing speed by 10 in the Bullet Hell minigame (fire interval 0.15 -> 0.015, and rapid-fire 0.1 -> 0.01) for a near-continuous beam.",
+            "description": "Multiplies the player's firing speed by 10 in the Bullet Hell minigame (fire interval 0.15 -> 0.015) for a near-continuous beam.",
             "name": "Beam of Death (10x Fire Rate)",
             "options": []
         },

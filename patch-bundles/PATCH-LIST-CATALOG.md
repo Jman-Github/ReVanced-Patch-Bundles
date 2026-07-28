@@ -45,7 +45,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### Morphe
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
-| [ItsTheJoker](#-itsthejoker-bundle-patch-list) | 6 | 1 | Generated |
+| [ItsTheJoker](#-itsthejoker-bundle-patch-list) | 7 | 1 | Generated |
 | [Gmaps](#-gmaps-bundle-patch-list) | 1 | 1 | Generated |
 | [Seobject](#-seobject-bundle-patch-list) | 1 | 1 | Generated |
 | [Abeja](#-abeja-bundle-patch-list) | 3 | 1 | Generated |
@@ -137,7 +137,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ameen-Morphe](#-ameen-morphe-bundle-patch-list) | 2 | 2 | Generated |
 | [Kolaron](#-kolaron-bundle-patch-list) | 1 | 1 | Generated |
 | [ImmortalZeus](#-immortalzeus-bundle-patch-list) | 2 | 2 | Generated |
-| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 20 | 10 | Generated |
+| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 22 | 10 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 22 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
 | [Rushiranpise](#-rushiranpise-bundle-patch-list) | 247 | 191 | Generated |
@@ -175,13 +175,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 ItsTheJoker Bundle Patch List:
 [📦 ItsTheJoker-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-itsthejoker-patches-bundle-morphe)
 <details>
-<summary><b>ItsTheJoker</b> - 6 patches, 1 app</summary>
+<summary><b>ItsTheJoker</b> - 7 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```10x Bullet Damage``` | ```Multiplies the player's bullet damage by 10 in the Bullet Hell minigame (damage 1 -> 10), applied to both enemies and bosses.``` | ```Roost``` | ```All versions``` |
-| ```Beam of Death (10x Fire Rate)``` | ```Multiplies the player's firing speed by 10 in the Bullet Hell minigame (fire interval 0.15 -> 0.015, and rapid-fire 0.1 -> 0.01) for a near-continuous beam.``` | ```Roost``` | ```All versions``` |
+| ```Beam of Death (10x Fire Rate)``` | ```Multiplies the player's firing speed by 10 in the Bullet Hell minigame (fire interval 0.15 -> 0.015) for a near-continuous beam.``` | ```Roost``` | ```All versions``` |
 | ```Bypass Play Store license check``` | ```Disables the PairIP Play-license check so a non-Play (e.g. patched/sideloaded) install no longer redirects to the "get it on Google Play" wall on launch.``` | ```Roost``` | ```All versions``` |
+| ```Free Nest Egg (bypass claim cooldown)``` | ```Removes the client-side cooldown timer check on the nest-egg free-bird claim button so the claim request is sent to the server on every tap. The server still controls eligibility; this only stops the client from blocking the request.``` | ```Roost``` | ```All versions``` |
 | ```Redirect Google login to microG``` | ```Routes Roost's Google Play Services calls to microG RE so a patched install can sign in with Google. Requires microG RE (app.revanced.android.gms) installed.``` | ```Roost``` | ```All versions``` |
 | ```Skip Play Integrity (fix microG Firebase delay)``` | ```Makes Play Integrity attestation fail fast instead of hanging ~60s under microG, removing the delay before Firebase logins, leaderboards, and other backend calls.``` | ```Roost``` | ```All versions``` |
 | ```Triple Bullet Size``` | ```Triples the on-screen size of the player's bullets in the Bullet Hell minigame (sizePx 6.0 -> 18.0).``` | ```Roost``` | ```All versions``` |
@@ -4512,12 +4513,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Ajstrick81-AndroidTV Bundle Patch List:
 [📦 Ajstrick81-AndroidTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ajstrick81-androidtv-patches-bundle-morphe)
 <details>
-<summary><b>Ajstrick81-AndroidTV</b> - 20 patches, 10 apps</summary>
+<summary><b>Ajstrick81-AndroidTV</b> - 22 patches, 10 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Bundle native ad-strip hook``` | ```Packages libpvhook.so into the APK's native lib dir for the in-process PRS Remote-item strip (libignite memcpy/memmove GOT/PLT import hook).``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Clone Prime Video``` | ```Renames the package to <original>.mod (and its provider authorities / custom permissions) so the patched app installs side-by-side with a non-removable system Prime Video. Opt-in.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Disable auto-updates``` | ```Prevents Google Play Store from automatically replacing the patched APK with the official unpatched version.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
+| ```Load native ad-strip hook``` | ```Loads libpvhook.so at startup to blank Remote (ad) items from the PRS intraTitlePlaylist in-process (libignite memcpy/memmove GOT/PLT import hook).``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Override certificate pinning``` | ```Adds a network_security_config trusting user CAs (no pin sets) so AdGuard Premium can inspect the app's platform-stack HTTPS. Optional adjunct: Prime Video's ad plane is largely native libcurl, so DNS blocking is the primary tool.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Skip ads``` | ```Multi-layer ad suppression targeting the SSAI schedule, impression reporting, and the Volley network chokepoint.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
