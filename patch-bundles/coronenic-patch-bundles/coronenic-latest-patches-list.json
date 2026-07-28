@@ -1,16 +1,6 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.5.0",
     "patches": [
-        {
-            "compatiblePackages": {
-                "com.dcinside.app.android": null
-            },
-            "dependencies": [],
-            "description": "Adds a 'Revanced 패치 버전' field below the current and latest version in Settings > About.",
-            "name": "Add ReVanced patch version field",
-            "options": [],
-            "use": true
-        },
         {
             "compatiblePackages": {
                 "com.dcinside.app.android": null
@@ -37,6 +27,28 @@
             "compatiblePackages": {
                 "com.dcinside.app.android": null
             },
+            "dependencies": [
+                "ReVanced settings resources"
+            ],
+            "description": "Makes the 'ReVanced 패치 버전' field in Settings > About open a ReVanced settings page, which lists the settings of the applied patches.",
+            "name": "ReVanced settings",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": null
+            },
+            "dependencies": [],
+            "description": "Layout + manifest changes for the ReVanced settings page.",
+            "name": "ReVanced settings resources",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.dcinside.app.android": null
+            },
             "dependencies": [],
             "description": "Presents the original signing certificate to the app's own tamper checks so the re-signed build passes client- and server-side verification (fixes the blank 실시간 베스트 feed, error 2109, and the intermittent \"error\" popup on post submission).",
             "name": "Spoof signature",
@@ -48,9 +60,10 @@
                 "com.dcinside.app.android": null
             },
             "dependencies": [
-                "Voice reply file upload resources"
+                "Voice reply file upload resources",
+                "ReVanced settings"
             ],
-            "description": "Adds an upload button to the voice-reply record tab so an existing .m4a (AAC) audio file can be sent as a voice reply, like a recording.",
+            "description": "Adds an upload button to the voice-reply record tab so an existing audio file can be sent as a voice reply, like a recording. Audio that is not already the MPEG-4/AAC the recorder writes is converted, unless the ReVanced settings say to keep it as-is.",
             "name": "Voice reply file upload",
             "options": [],
             "use": true

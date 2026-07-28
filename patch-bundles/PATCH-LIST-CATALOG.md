@@ -6,7 +6,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### API v4
 | Bundle | Patches | Apps | Status |
 | --- | ---: | ---: | --- |
-| [Coronenic](#-coronenic-bundle-patch-list) | 6 | 1 | Generated |
+| [Coronenic](#-coronenic-bundle-patch-list) | 7 | 1 | Generated |
 | [AppleMusic](#-applemusic-bundle-patch-list) | 2 | 1 | Generated |
 | [ReVanced](#-revanced-bundle-patch-list) | 288 | 89 | Generated |
 | [Inotia00](#-inotia00-bundle-patch-list) | 127 | 4 | Generated |
@@ -61,7 +61,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
-| [Franticg33k](#-franticg33k-bundle-patch-list) | 17 | 9 | Generated |
+| [Franticg33k](#-franticg33k-bundle-patch-list) | 16 | 8 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 1 | 1 | Generated |
@@ -475,15 +475,16 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Coronenic Bundle Patch List:
 [📦 Coronenic-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-coronenic-patches-bundle-api-v4)
 <details>
-<summary><b>Coronenic</b> - 6 patches, 1 app</summary>
+<summary><b>Coronenic</b> - 7 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Add ReVanced patch version field``` | ```Adds a 'Revanced 패치 버전' field below the current and latest version in Settings > About.``` | ```com.dcinside.app.android``` | ```All versions``` |
 | ```Remove advertisements``` | ```Removes all advertisements: banners, native ads, in-feed ad rows, DCInside's own script ads and Naver PowerLink. No ad SDK is initialised and no ad is ever requested.``` | ```com.dcinside.app.android``` | ```All versions``` |
 | ```Remove advertisements resources``` | ```Collapses the empty quick-menu banner slot at the bottom of the post list.``` | ```com.dcinside.app.android``` | ```All versions``` |
+| ```ReVanced settings``` | ```Makes the 'ReVanced 패치 버전' field in Settings > About open a ReVanced settings page, which lists the settings of the applied patches.``` | ```com.dcinside.app.android``` | ```All versions``` |
+| ```ReVanced settings resources``` | ```Layout + manifest changes for the ReVanced settings page.``` | ```com.dcinside.app.android``` | ```All versions``` |
 | ```Spoof signature``` | ```Presents the original signing certificate to the app's own tamper checks so the re-signed build passes client- and server-side verification (fixes the blank 실시간 베스트 feed, error 2109, and the intermittent "error" popup on post submission).``` | ```com.dcinside.app.android``` | ```All versions``` |
-| ```Voice reply file upload``` | ```Adds an upload button to the voice-reply record tab so an existing .m4a (AAC) audio file can be sent as a voice reply, like a recording.``` | ```com.dcinside.app.android``` | ```All versions``` |
+| ```Voice reply file upload``` | ```Adds an upload button to the voice-reply record tab so an existing audio file can be sent as a voice reply, like a recording. Audio that is not already the MPEG-4/AAC the recorder writes is converted, unless the ReVanced settings say to keep it as-is.``` | ```com.dcinside.app.android``` | ```All versions``` |
 | ```Voice reply file upload resources``` | ```Layout + manifest changes for the voice-reply audio file picker.``` | ```com.dcinside.app.android``` | ```All versions``` |
 
 </details>
@@ -531,7 +532,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Franticg33k Bundle Patch List:
 [📦 Franticg33k-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-franticg33k-patches-bundle-morphe)
 <details>
-<summary><b>Franticg33k</b> - 17 patches, 9 apps</summary>
+<summary><b>Franticg33k</b> - 16 patches, 8 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -545,7 +546,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium``` | ```Unlocks all premium features and shop items in JellyWatch.``` | ```JellyWatch``` | ```All versions``` |
 | ```Unlock Premium``` | ```Patches Dart AOT-compiled libapp.so to unlock all premium features. Forces hasPremiumAccess and isPaidUser to always return true by NOPing their ARM64 conditional branch instructions.``` | ```Mero Karobar``` | ```All versions``` |
 | ```Remove Ads``` | ```Disables all ad serving from Facebook Audience Network (FAN) and Google Mobile Ads (AdMob). No-ops the plugin bridges so no ads are shown.``` | ```Nepalipatro``` | ```All versions``` |
-| ```Enable Pro``` | ```Unlocks all pro/premium features by bypassing purchase validation and SharedPreferences checks.``` | ```OldRoll``` | ```All versions``` |
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```Prismatica Pro``` | ```All versions``` |
 | ```Remove License Check``` | ```Bypasses the PairIP Google Play Licensing check so the app runs without a valid Play Store license.``` | ```Prismatica Pro``` | ```All versions``` |
 | ```Remove Watermark``` | ```Patches the procedural GLSL shader in libharwin_native.so to disable the "PRISMATICA" watermark in the video player and exported videos.``` | ```Prismatica Pro``` | ```All versions``` |
