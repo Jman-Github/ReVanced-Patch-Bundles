@@ -1,5 +1,5 @@
 {
-    "version": "v1.37.1-dev.1",
+    "version": "v1.38.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -5041,7 +5041,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds options to hide and change the bottom navigation bar (such as the Shorts button)  and the upper navigation toolbar. Patching version 20.21.37 and lower also adds a setting to use a wide searchbar.",
+            "description": "Adds options to hide and change the bottom navigation bar (such as the Shorts button)  and the upper navigation toolbar.",
             "name": "Navigation bar",
             "options": []
         },
@@ -7739,6 +7739,73 @@
             ],
             "description": "Adds additional voice over languages using text-to-speech synchronized to the video playback.",
             "name": "Voice over translation",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0033",
+                    "name": "YouTube",
+                    "packageName": "com.google.android.youtube",
+                    "signatures": [
+                        "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+                        "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.29.366"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.28.204"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.26.360"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "21.05.265"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "20.51.39"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "20.31.42"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "20.21.37"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds a wide search bar to the top of the home and subscription feed.",
+            "name": "Wide search bar",
             "options": []
         }
     ]

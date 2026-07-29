@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.1",
+    "version": "v1.4.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -104,6 +104,32 @@
             "dependencies": [],
             "description": "Forces RevenueCat entitlements active. Experimental: premium is server-authoritative, so this likely unlocks nothing.",
             "name": "Movie Paradise - Force RevenueCat entitlement (experimental)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#111827",
+                    "description": "Movie Paradise (Flutter) — distributed as split APK (XAPK)",
+                    "name": "Movie Paradise",
+                    "packageName": "com.techkitlabs.movieparadise",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.2.0"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Routes Google Play Services through microG (MicroG-RE) so Google sign-in works without stock Play Services.",
+            "name": "Movie Paradise - GmsCore support (microG login)",
             "options": []
         },
         {

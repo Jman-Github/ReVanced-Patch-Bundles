@@ -104,7 +104,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 76 | 53 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 99 | 6 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 131 | 4 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 132 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 2 | 2 | Generated |
@@ -155,7 +155,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Yandex-VoT](#-yandex-vot-bundle-patch-list) | 1 | 1 | Generated |
 | [Watch-Later](#-watch-later-bundle-patch-list) | 1 | 1 | Generated |
 | [SofaTime](#-sofatime-bundle-patch-list) | 4 | 1 | Generated |
-| [Hiosdra](#-hiosdra-bundle-patch-list) | 6 | 3 | Generated |
+| [Hiosdra](#-hiosdra-bundle-patch-list) | 7 | 3 | Generated |
 | [Jl4cTuk](#-jl4ctuk-bundle-patch-list) | 16 | 2 | Generated |
 
 ### Legacy
@@ -3312,7 +3312,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 131 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 132 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3383,7 +3383,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Loop video``` | ```Adds an option to loop videos and display loop video button in the video player.``` | ```YouTube``` | ```All versions``` |
 | ```Media notification controls``` | ```Adds options to disable the seekbar and previous/next buttons in the media notification and headphone controls.``` | ```YouTube``` | ```All versions``` |
 | ```Miniplayer``` | ```Adds options to change the in-app minimized player. Patching 21.28.206 and lower has more miniplayer types to choose from.``` | ```YouTube``` | ```All versions``` |
-| ```Navigation bar``` | ```Adds options to hide and change the bottom navigation bar (such as the Shorts button) and the upper navigation toolbar. Patching version 20.21.37 and lower also adds a setting to use a wide searchbar.``` | ```YouTube``` | ```All versions``` |
+| ```Navigation bar``` | ```Adds options to hide and change the bottom navigation bar (such as the Shorts button) and the upper navigation toolbar.``` | ```YouTube``` | ```All versions``` |
 | ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy.``` | ```YouTube``` | ```All versions``` |
 | ```Open channel of live avatar``` | ```Adds an option to prevent a channel's current live video from opening when tapping its avatar.``` | ```YouTube``` | ```All versions``` |
 | ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app browser.``` | ```YouTube``` | ```All versions``` |
@@ -3410,6 +3410,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Theme``` | ```Adds options for theming and applies a custom background theme (dark background theme defaults to pure black).``` | ```YouTube``` | ```All versions``` |
 | ```Video quality``` | ```Adds options to set default video qualities and always use the advanced video quality menu.``` | ```YouTube``` | ```All versions``` |
 | ```Voice over translation``` | ```Adds additional voice over languages using text-to-speech synchronized to the video playback.``` | ```YouTube``` | ```All versions``` |
+| ```Wide search bar``` | ```Adds a wide search bar to the top of the home and subscription feed.``` | ```YouTube``` | ```All versions``` |
 | ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```YouTube Music``` | ```All versions``` |
 | ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube Music``` | ```All versions``` |
 | ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```All versions``` |
@@ -5238,7 +5239,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Hiosdra Bundle Patch List:
 [📦 Hiosdra-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hiosdra-patches-bundle-morphe)
 <details>
-<summary><b>Hiosdra</b> - 6 patches, 3 apps</summary>
+<summary><b>Hiosdra</b> - 7 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5246,6 +5247,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```F1 TV - Foreground playback service``` | ```Keeps background F1 TV playback alive with an Android media playback notification and playback/PiP controls.``` | ```F1 TV``` | ```All versions``` |
 | ```F1 TV - Picture-in-Picture``` | ```Keeps F1 TV playback alive while entering Android Picture-in-Picture mode.``` | ```F1 TV``` | ```All versions``` |
 | ```Movie Paradise - Force RevenueCat entitlement (experimental)``` | ```Forces RevenueCat entitlements active. Experimental: premium is server-authoritative, so this likely unlocks nothing.``` | ```Movie Paradise``` | ```All versions``` |
+| ```Movie Paradise - GmsCore support (microG login)``` | ```Routes Google Play Services through microG (MicroG-RE) so Google sign-in works without stock Play Services.``` | ```Movie Paradise``` | ```All versions``` |
 | ```Movie Paradise - PairIP license bypass``` | ```Neutralises Google Play integrity/license checks (PairIP) so a repackaged build launches.``` | ```Movie Paradise``` | ```All versions``` |
 | ```Compile-only example``` | ```Provides a no-op patch for validating the project build.``` | ```Universal``` | ```All versions``` |
 

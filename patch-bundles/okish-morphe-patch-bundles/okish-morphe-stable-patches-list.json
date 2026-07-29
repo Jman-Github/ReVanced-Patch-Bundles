@@ -1,6 +1,48 @@
 {
-    "version": "v1.0.0",
+    "version": "v1.1.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#1565C0",
+                    "name": "FreeJobAlert",
+                    "packageName": "com.freejobalert",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes all Google AdMob ads (banner, interstitial, rewarded, app open, native).",
+            "name": "FreeJobAlert Ad Removal",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#1565C0",
+                    "name": "FreeJobAlert",
+                    "packageName": "com.freejobalert",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the Pairip Play Store installation check so the app launches normally.",
+            "name": "FreeJobAlert License Bypass",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
