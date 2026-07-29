@@ -1,4 +1,5 @@
 {
+    "version": "v1.1.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -80,8 +81,29 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the calendar button from the top of the Chats tab header.",
-            "name": "Hide calendar button",
+            "description": "Removes all the server-provided extra tools from a chat room's + attach menu (Poll, Reservation, Schedule, Ladder shuffle, and any others). The built-in tiles (camera, gallery, files, contact, etc.) are unaffected.",
+            "name": "Hide attach menu extra tools",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#06C755",
+                    "name": "LINE",
+                    "packageName": "jp.naver.line.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.11.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes every LINE Calendar button inside the messenger: the one in the Chats-tab header, and the four inside a chat room — the top toolbar, the + attach menu, the slide-out chat menu, and the message long-press menu.",
+            "name": "Hide calendar buttons",
             "options": []
         },
         {
@@ -122,6 +144,27 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Removes the \"Events\" row from a chat room's slide-out menu. (Events is a separate feature from LINE Calendar — it opens a server-hosted page.)",
+            "name": "Hide Events button",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#06C755",
+                    "name": "LINE",
+                    "packageName": "jp.naver.line.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.11.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Hides Home-tab clutter modules: the recommended stickers/content section, the real-time hot-topics (即時夯話題) block, and Home feed ads.",
             "name": "Hide Home modules",
             "options": []
@@ -143,8 +186,50 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Removes the LINE GIFT tile from a chat room's + attach menu.",
+            "name": "Hide LINE GIFT button",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#06C755",
+                    "name": "LINE",
+                    "packageName": "jp.naver.line.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.11.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Removes the LINE TODAY (News) tab from the main bottom navigation, in both the news-tab and news-row layouts.",
             "name": "Hide LINE TODAY tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#06C755",
+                    "name": "LINE",
+                    "packageName": "jp.naver.line.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.11.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the Transfer (LINE Pay) tile from a chat room's + attach menu.",
+            "name": "Hide Transfer button",
             "options": []
         },
         {
@@ -252,6 +337,5 @@
             "name": "Remove banner ads",
             "options": []
         }
-    ],
-    "version": "v1.0.0"
+    ]
 }
