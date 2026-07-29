@@ -1,5 +1,5 @@
 {
-    "version": "v2.1.0",
+    "version": "v2.2.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -178,6 +178,18 @@
             "dependencies": [],
             "description": "滑動鍵盤第一排，在原生列與可自訂文字/JavaScript 列之間切換\nSwipe the keyboard top row to switch between the stock row and a customizable text/JavaScript row.",
             "name": "Swipeable Custom Top Row",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.7.7.932364120-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "啟用 語音輸入 -> 使用藍芽麥克風\nEnable Voice typing -> Use Bluetooth microphone.",
+            "name": "Use Bluetooth Microphone",
             "options": [],
             "use": true
         },

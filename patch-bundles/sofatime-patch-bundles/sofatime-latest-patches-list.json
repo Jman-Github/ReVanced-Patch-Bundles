@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.1",
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -19,7 +19,7 @@
             "default": true,
             "dependencies": [],
             "description": "Bypasses SHA-1 check by using embedded WebView OAuth for Google Sign-In.",
-            "name": "SofaTime Google Sign-In Bypass",
+            "name": "Bypass Google Sign-In",
             "options": []
         },
         {
@@ -40,7 +40,28 @@
             "default": true,
             "dependencies": [],
             "description": "Bypasses PairIP license verification.",
-            "name": "SofaTime License Check Bypass",
+            "name": "Bypass license check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1E1E2E",
+                    "name": "SofaTime",
+                    "packageName": "com.theclashsoft.sofatime",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables Firebase Crashlytics, Sessions, and Analytics.",
+            "name": "Disable telemetry",
             "options": []
         },
         {
@@ -61,7 +82,7 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all premium capabilities.",
-            "name": "SofaTime Premium",
+            "name": "Unlock premium features",
             "options": []
         }
     ]

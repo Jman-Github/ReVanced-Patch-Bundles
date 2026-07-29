@@ -148,13 +148,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HXReborn](#-hxreborn-bundle-patch-list) | 7 | 4 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 4 | 2 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 3 | 4 | Generated |
-| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 12 | 1 | Generated |
+| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 16 | 1 | Generated |
 | [Morning-Entree](#-morning-entree-bundle-patch-list) | 10 | 57 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 6 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
 | [Yandex-VoT](#-yandex-vot-bundle-patch-list) | 1 | 1 | Generated |
 | [Watch-Later](#-watch-later-bundle-patch-list) | 1 | 1 | Generated |
-| [SofaTime](#-sofatime-bundle-patch-list) | 3 | 1 | Generated |
+| [SofaTime](#-sofatime-bundle-patch-list) | 4 | 1 | Generated |
 | [Hiosdra](#-hiosdra-bundle-patch-list) | 4 | 2 | Generated |
 | [Jl4cTuk](#-jl4ctuk-bundle-patch-list) | 16 | 2 | Generated |
 
@@ -5120,17 +5120,21 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AndrewLiang25 Bundle Patch List:
 [📦 AndrewLiang25-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-andrewliang25-patches-bundle-morphe)
 <details>
-<summary><b>AndrewLiang25</b> - 12 patches, 1 app</summary>
+<summary><b>AndrewLiang25</b> - 16 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable LINE Pay``` | ```Closes any LINE Pay screen immediately on open, so Pay flows (and their device-integrity check) never run. Messaging is unaffected.``` | ```LINE``` | ```All versions``` |
 | ```Disable VOOM``` | ```Neutralizes VOOM entry points: VOOM deep links, shares, and notifications (line://home/*) do nothing, and the standalone VOOM feed closes on open. Also disables VOOM LIVE, the birthday board, and share-to-VOOM. Messaging, friend profiles, and other tabs are unaffected.``` | ```LINE``` | ```All versions``` |
 | ```Hide ad views``` | ```Hides LINE display ad views — the LINE Ads SDK containers across the app, the chat-list Smart Channel banner, and Google AdManager ads.``` | ```LINE``` | ```All versions``` |
-| ```Hide calendar button``` | ```Removes the calendar button from the top of the Chats tab header.``` | ```LINE``` | ```All versions``` |
+| ```Hide attach menu extra tools``` | ```Removes all the server-provided extra tools from a chat room's + attach menu (Poll, Reservation, Schedule, Ladder shuffle, and any others). The built-in tiles (camera, gallery, files, contact, etc.) are unaffected.``` | ```LINE``` | ```All versions``` |
+| ```Hide calendar buttons``` | ```Removes every LINE Calendar button inside the messenger: the one in the Chats-tab header, and the four inside a chat room — the top toolbar, the + attach menu, the slide-out chat menu, and the message long-press menu.``` | ```LINE``` | ```All versions``` |
 | ```Hide community button``` | ```Removes the community (OpenChat) button from the top of the Chats tab header.``` | ```LINE``` | ```All versions``` |
+| ```Hide Events button``` | ```Removes the "Events" row from a chat room's slide-out menu. (Events is a separate feature from LINE Calendar — it opens a server-hosted page.)``` | ```LINE``` | ```All versions``` |
 | ```Hide Home modules``` | ```Hides Home-tab clutter modules: the recommended stickers/content section, the real-time hot-topics (即時夯話題) block, and Home feed ads.``` | ```LINE``` | ```All versions``` |
+| ```Hide LINE GIFT button``` | ```Removes the LINE GIFT tile from a chat room's + attach menu.``` | ```LINE``` | ```All versions``` |
 | ```Hide LINE TODAY tab``` | ```Removes the LINE TODAY (News) tab from the main bottom navigation, in both the news-tab and news-row layouts.``` | ```LINE``` | ```All versions``` |
+| ```Hide Transfer button``` | ```Removes the Transfer (LINE Pay) tile from a chat room's + attach menu.``` | ```LINE``` | ```All versions``` |
 | ```Hide VOOM tab``` | ```Removes the VOOM (formerly Timeline) tab from the main bottom navigation.``` | ```LINE``` | ```All versions``` |
 | ```Hide Wallet tab``` | ```Removes the Wallet (LINE Pay) tab from the main bottom navigation, in both the normal and mini-tab layouts.``` | ```LINE``` | ```All versions``` |
 | ```Keep chats unread``` | ```Opening a 1:1 or group chat no longer marks it read — it stays unread and no read receipt is sent. Manually using "Mark as read" / "Mark all as read" still marks the chat read and sends the receipt as normal.``` | ```LINE``` | ```All versions``` |
@@ -5217,13 +5221,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 SofaTime Bundle Patch List:
 [📦 SofaTime-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-sofatime-patches-bundle-morphe)
 <details>
-<summary><b>SofaTime</b> - 3 patches, 1 app</summary>
+<summary><b>SofaTime</b> - 4 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```SofaTime Google Sign-In Bypass``` | ```Bypasses SHA-1 check by using embedded WebView OAuth for Google Sign-In.``` | ```SofaTime``` | ```All versions``` |
-| ```SofaTime License Check Bypass``` | ```Bypasses PairIP license verification.``` | ```SofaTime``` | ```All versions``` |
-| ```SofaTime Premium``` | ```Unlocks all premium capabilities.``` | ```SofaTime``` | ```All versions``` |
+| ```Bypass Google Sign-In``` | ```Bypasses SHA-1 check by using embedded WebView OAuth for Google Sign-In.``` | ```SofaTime``` | ```All versions``` |
+| ```Bypass license check``` | ```Bypasses PairIP license verification.``` | ```SofaTime``` | ```All versions``` |
+| ```Disable telemetry``` | ```Disables Firebase Crashlytics, Sessions, and Analytics.``` | ```SofaTime``` | ```All versions``` |
+| ```Unlock premium features``` | ```Unlocks all premium capabilities.``` | ```SofaTime``` | ```All versions``` |
 
 </details>
 
