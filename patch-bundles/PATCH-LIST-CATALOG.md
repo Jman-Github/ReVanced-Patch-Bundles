@@ -64,7 +64,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 16 | 8 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 1 | 1 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 3 | 2 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 4 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -155,7 +155,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Yandex-VoT](#-yandex-vot-bundle-patch-list) | 1 | 1 | Generated |
 | [Watch-Later](#-watch-later-bundle-patch-list) | 1 | 1 | Generated |
 | [SofaTime](#-sofatime-bundle-patch-list) | 4 | 1 | Generated |
-| [Hiosdra](#-hiosdra-bundle-patch-list) | 4 | 2 | Generated |
+| [Hiosdra](#-hiosdra-bundle-patch-list) | 6 | 3 | Generated |
 | [Jl4cTuk](#-jl4ctuk-bundle-patch-list) | 16 | 2 | Generated |
 
 ### Legacy
@@ -589,10 +589,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 1 patch, 1 app</summary>
+<summary><b>Okish-Morphe</b> - 3 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```FreeJobAlert Ad Removal``` | ```Removes all Google AdMob ads (banner, interstitial, rewarded, app open, native).``` | ```FreeJobAlert``` | ```All versions``` |
+| ```FreeJobAlert License Bypass``` | ```Bypasses the Pairip Play Store installation check so the app launches normally.``` | ```FreeJobAlert``` | ```All versions``` |
 | ```TrueCloud Ad Removal``` | ```Consolidated patch to remove all ads, boot pages, cloud popups, and the help center robot.``` | ```TrueCloud``` | ```All versions``` |
 
 </details>
@@ -5236,13 +5238,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Hiosdra Bundle Patch List:
 [📦 Hiosdra-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hiosdra-patches-bundle-morphe)
 <details>
-<summary><b>Hiosdra</b> - 4 patches, 2 apps</summary>
+<summary><b>Hiosdra</b> - 6 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```F1 TV - Background playback``` | ```Keeps the F1 TV player alive when the activity goes to the background or the screen turns off.``` | ```F1 TV``` | ```All versions``` |
 | ```F1 TV - Foreground playback service``` | ```Keeps background F1 TV playback alive with an Android media playback notification and playback/PiP controls.``` | ```F1 TV``` | ```All versions``` |
 | ```F1 TV - Picture-in-Picture``` | ```Keeps F1 TV playback alive while entering Android Picture-in-Picture mode.``` | ```F1 TV``` | ```All versions``` |
+| ```Movie Paradise - Force RevenueCat entitlement (experimental)``` | ```Forces RevenueCat entitlements active. Experimental: premium is server-authoritative, so this likely unlocks nothing.``` | ```Movie Paradise``` | ```All versions``` |
+| ```Movie Paradise - PairIP license bypass``` | ```Neutralises Google Play integrity/license checks (PairIP) so a repackaged build launches.``` | ```Movie Paradise``` | ```All versions``` |
 | ```Compile-only example``` | ```Provides a no-op patch for validating the project build.``` | ```Universal``` | ```All versions``` |
 
 </details>
