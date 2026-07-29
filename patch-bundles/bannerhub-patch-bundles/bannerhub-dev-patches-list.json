@@ -1,4 +1,920 @@
 {
-  "version": "N/A",
-  "patches": []
+    "version": "v1.0.0-610-pcengine",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Adds the bh_bt_* vector drawables (vibration, gpu_spoof, renderer, game_id, audio, gog, overlay, root) to res/drawable. Rendered by the Banner Tools dialog's tile grid.",
+            "name": "Banner Tools drawables",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "Per-game menu id capture (shared)",
+                "PC Vibration Settings menu row",
+                "Banner Tools drawables"
+            ],
+            "description": "Adds a single 'Banner Tools' row to GameHub's per-game menus. Tapping it opens a dialog with PC Vibration / GPU Spoof / Renderer / Show Game ID entries that dispatch into the existing per-feature handlers. Replaces the 4 standalone BannerHub rows to keep the per-game menu short.",
+            "name": "Banner Tools menu row",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bypasses the login requirement by replacing the auth-session StateFlow getters with synthetic always-true / always-non-null values, plus short-circuiting the navigator gates and the navigation interceptor.",
+            "name": "Bypass login",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Replaces five drawables in the patched APK with BannerHub branding: the launcher adaptive-icon foreground (deleting the stock vector so the new raster wins on every density), the in-app Wine logo, the auth-screen landscape + overseas logos, and the splash screen banner — the last three are shipped as Compose Multiplatform resources under assets/composeResources/. Background drawable and CN-locale variants are left as-is.",
+            "name": "Change app icon",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Changes the display name of the app in the launcher.",
+            "name": "Change app name",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The name to display in the launcher.",
+                    "name": "appName",
+                    "required": true,
+                    "type": "java.lang.String (Kotlin reflection is not available)",
+                    "values": null
+                }
+            ],
+            "use": false
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Appends \".revanced\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+            "name": "Change package name",
+            "options": [
+                {
+                    "default": "Default",
+                    "description": "The name of the package to rename the app to.",
+                    "name": "packageName",
+                    "required": true,
+                    "type": "java.lang.String (Kotlin reflection is not available)",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "name": "updatePermissions",
+                    "required": false,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "name": "updateProviders",
+                    "required": false,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                }
+            ],
+            "use": false
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Allows trusting custom certificate authorities for a specific domain.",
+            "name": "Custom network security",
+            "options": [
+                {
+                    "default": [
+                        "example.com"
+                    ],
+                    "description": "List of domains to which the custom trust configuration will be applied (one domain per entry).",
+                    "name": "targetDomains",
+                    "required": true,
+                    "type": "java.util.List<java.lang.String> (Kotlin reflection is not available)",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Applies the configuration to all subdomains of the target domains.",
+                    "name": "includeSubdomains",
+                    "required": true,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "List of paths to files in PEM or DER format (one file path per entry).\n\nMakes an app trust the provided custom certificate authorities (CAs),\nfor the specified domains, and if the option \"Include Subdomains\" is enabled then also the subdomains.\n\n\nCA files will be bundled in res/raw/ of resulting APK",
+                    "name": "customCAFilePaths",
+                    "required": false,
+                    "type": "java.util.List<java.lang.String> (Kotlin reflection is not available)",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Makes an app trust certificates from the Android user store for the specified domains, and if the option \"Include Subdomains\" is enabled then also the subdomains.",
+                    "name": "allowUserCerts",
+                    "required": true,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Makes an app trust certificates from the Android system store for the specified domains, and and if the option \"Include Subdomains\" is enabled then also the subdomains.",
+                    "name": "allowSystemCerts",
+                    "required": true,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Allows unencrypted HTTP traffic for the specified domains, and if \"Include Subdomains\" is enabled then also the subdomains.",
+                    "name": "allowCleartextTraffic",
+                    "required": true,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Overrides certificate pinning for the specified domains and their subdomains if the option \"Include Subdomains\" is enabled to allow inspecting app traffic via a proxy.",
+                    "name": "overridePins",
+                    "required": true,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                }
+            ],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Marks the APK debuggable and routes diagnostic probes through DebugTrace. Writes to logcat with tag GH600-DEBUG at Log.i level (the device filter strips app-tagged Log.e but lets Log.i through) and also appends to a file on external storage at /storage/emulated/0/Android/data/com.xiaoji.egggame/files/gh600-debug.log as a backup channel.",
+            "name": "Debug logging",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Neutralises the Alibaba/Aliyun carrier one-tap phone-login SDK (com.mobile.auth.gatewayauth.*). Stubs the sole System.loadLibrary site for libpns-*-alijtca_plus.so to a no-op, then strips the native lib. Dead weight under BannerHub's login bypass and an identity / anti-tamper fingerprint surface. ~0.5 MB APK reduction.",
+            "name": "Disable Aliyun NumberAuth",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Adds Firebase's manifest kill-switch <meta-data> entries so the bundled Firebase Analytics SDK never initializes data collection. Stops all auto-collected and custom events from being sent to app-measurement.com. Firebase Cloud Messaging, Firebase Auth, and Firebase Remote Config are unaffected (GameHub 6.0.4 bundles Remote Config but never invokes it — verified zero call sites in the host APK).",
+            "name": "Disable Firebase Analytics",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Stops the AndroidApp Firebase-setup helper from re-enabling Firebase/Crashlytics data collection at runtime (it wrote firebase_data_collection_default_enabled=true and firebase_crashlytics_collection_enabled=true, silently overriding the manifest kill switches). Returns right after FirebaseApp init but before the collection re-enable, so FirebaseApp still initializes (other code needs it) while Crashlytics stays off — removing the residual firebase-settings.crashlytics.com / firebaselogging-pa.googleapis.com / firebaseinstallations.googleapis.com traffic. Anchored on the app class + a stable Firebase error string; cut at the first monitor-enter.",
+            "name": "Disable Firebase auto-init",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Forces Firebase Crashlytics data collection off via manifest meta-data (firebase_crashlytics_collection_enabled + firebase_data_collection_default_enabled = false). 6.0.7's Crashlytics SDK auto-initialises through its ContentProvider regardless of app code, so the collection flags — not a bytecode strip — are what stop it reporting. Stock 6.0.7 already sets these false and never re-enables them; this enforces it and future-proofs against a flip.",
+            "name": "Disable Firebase Crashlytics",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the three Google Play Services Measurement manifest components (AppMeasurementReceiver, AppMeasurementService, AppMeasurementJobService) by flipping android:enabled to false. Complementary to 'Disable Firebase Analytics' — that patch stops the bundled Firebase SDK from initialising, but GMS Measurement runs as a separate Play Services component and is unaffected by Firebase's manifest kill switch. With both patches applied, no app_instance_id / session_id is written to GMS-side shared_prefs and the Play Services-backed analytics pipeline stays dormant.",
+            "name": "Disable GMS Measurement",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables XiaoJi's WineGameUsageTracker automatic server-heartbeat (heartbeat/game/{start,update,end}) so no playtime telemetry is sent and no per-tick work runs. Anchored on the stable URL-path strings, not class letters. On 6.0.7 the user-initiated getUserPlayTimeList read is left active (its result wrapper changed and is crash-risky to fabricate); the automatic egress is stopped.",
+            "name": "Disable heartbeat",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Stops the bundled Mob Push SDK (com.mob.*) from initialising. Removes the two policy-grant call sites in XiaoJi's bootstrap code and the push-receiver registration in BaseAndroidApp.onCreate, then disables every Mob-namespaced <provider>/<service>/<receiver>/<activity> in the manifest so the SDK can't bootstrap via its ContentProvider auto-init either. Inbound push delivery and Mob's device-ID collection (MobIDService/MobIDActivity) are both stopped. The 'cn.fly.*' Mob analytics submodule is neutralised by the same rules.",
+            "name": "Disable Mob Push tracking",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Neutralises the periodic phone-home check at https://www.xiaoji.com/firmware/update/x1 by overwriting the URL register with http://127.0.0.1 immediately after the const-string load. The OTA call then fails silently with a connection-refused. Also strips the JieLi gamepad-firmware native libs (libJieLiUsbOta.so, libjl_ota_auth.so) which are dead weight on phone installs.",
+            "name": "Disable OTA updates",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Enables Android debugging capabilities. This can slow down the app.",
+            "name": "Enable Android debugging",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.example.app": [
+                    "1.0.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "This is an example patch to start with.",
+            "name": "Example Patch",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Adds the Explore screen's card artwork (GOG logo) to res/drawable, rendered by BannerExploreActivity's GOG card.",
+            "name": "Explore drawables",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bundles the Explore manifest (assets/bh_explore.json) so the Explore screen shows BannerHub's shipped rails offline on a fresh install, instead of falling back to an older cached release manifest.",
+            "name": "Explore manifest asset",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Registers the BannerHub-owned Explore screen (BannerExploreActivity), shown when the Explore bottom-nav tab is tapped. Internal activity; content comes from a bundled manifest and cards route to BannerHub's own handlers (GOG, etc.).",
+            "name": "Explore screen activity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Opens the BannerHub-owned Explore screen when the Explore bottom-nav tab is tapped, instead of xiaoji's server-driven feed. Intercepts the bottom-nav controller's tab-select dispatch (w1a.q); fail-safe falls through to the native Explore on any error.",
+            "name": "Explore tab hijack",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bundles the build's own version (assets/bh_version.json) so the Explore screen can compare it against the latest release and show an in-app update banner.",
+            "name": "Explore version stamp",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Patch"
+            ],
+            "description": "Enables launching games from external frontends like ES-DE, Daijishou, and Beacon. Keeps PlayDay's 5.3.5 '<variant_package>.LAUNCH_GAME' intent contract; translates the 5.3.5 extras (steamAppId / localGameId / autoStartGame) onto GameHub 6.0.4's native DeepLinkActivity 'app_nav_*' dispatch.",
+            "name": "External launcher support",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Change package name"
+            ],
+            "description": "Adds a DocumentsProvider so that MT File Manager and other Storage Access Framework clients can browse the app's internal storage directories.",
+            "name": "File manager access",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Registers the ported BannerHub-3.7.x GOG activities (login / library / detail / downloads / folder-picker). Phase 1 = standalone login + owned-library + download validation; the GameHub-library/launch bridge and the production Profile-screen entry row are deferred to Phase 2. GogMainActivity is exported in Phase 1 only as the temporary adb dev entry.",
+            "name": "GOG activities (Phase 1)",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "RETIRED (§34): the seeded library card was a handheld-only entry — explore mode is a separate library surface that never renders it. The per-game \"GOG\" menu row (GogMenuRowPatch) is now the sole, mode-independent entry. This patch now only DELETES the legacy sentinel row at MainActivity.onCreate so the card disappears on existing installs too. (Name kept stable to preserve any letter-map / dependency wiring.)",
+            "name": "GOG library card (permanent)",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "PC Vibration Settings menu row"
+            ],
+            "description": "Adds a 'GOG' row to GameHub's game-details More Menu. Tapping it opens the GOG login / library hub (GogMainActivity). Mode-independent entry point (works in handheld + explore); the seeded library card only covers handheld. Injects after the existing rows so stock behaviour is preserved.",
+            "name": "GOG menu row",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "GPU spoof settings activity"
+            ],
+            "description": "Force-writes dxgi/d3d9/dxvk customVendorId/customDeviceId into a per-game dxvk.conf and points DXVK_CONFIG_FILE at it, after the Wine env builder's conditional DXVK block, so the spoof always applies. No-ops when the game's spoof mode is Off.",
+            "name": "GPU spoof DXVK plumbing",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Per-game menu id capture (shared)",
+                "PC Vibration Settings menu row"
+            ],
+            "description": "Adds a 'GPU Spoof' row to GameHub's per-game menus. Tapping it launches BhGpuSpoofSettingsActivity scoped to the active game. Injects after the existing rows so stock behaviour is preserved.",
+            "name": "GPU Spoof menu row",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Registers BhGpuSpoofSettingsActivity in the manifest so the per-game GPU-identity dialog can be launched by explicit-Intent. Internal-only (android:exported=\"false\"); no <intent-filter>.",
+            "name": "GPU spoof settings activity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Adds a draggable edge pill + slide-out panel over the Wine game surface with two root-gated toggles — Sustained Performance Mode (locks all CPU cores to the 'performance' governor) and Max Adreno Clocks (pins the KGSL GPU min_freq to max_freq). Both auto-revert to defaults when the game exits. Root is checked once and cached; the toggles are greyed until granted.",
+            "name": "In-game performance overlay",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Steam chat image-picker activity",
+                "Steam chat voice permission",
+                "Steam chat ringtone-picker activity",
+                "Steam chat ringtone assets"
+            ],
+            "description": "Adds a draggable pill + slide-out panel over the Wine game surface that shows your Steam friends list, presence, and a friend's recent message history (read-only). Reads GameHub's in-process Steam client via the steam_sdk JSON-RPC bridge. Off by default; toggle from Banner Tools -> Steam Chat.",
+            "name": "In-game Steam chat overlay",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Renderer settings activity",
+                "Legacy renderer libxserver bundle"
+            ],
+            "description": "Per-game gates the proven 6.0.2 libxserver swap + JNI bridge: adds the setRenderingEnabled native, routes XServer's loadLibrary and setFlipEnabled call sites through BhRendererController. New mode = stock, zero regression.",
+            "name": "Legacy renderer conditional swap",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bundles the 6.0.2 GLES2-era libxserver.so + libwinemu.so as *_legacy.so alongside the stock 6.0.4 ones (additive, never overwrites stock). The conditional loaders choose per game.",
+            "name": "Legacy renderer libxserver bundle",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "On app start, scans GameHub's library DB for games stuck at a sentinel server_game_id (-1 for PC imports without a catalog match; 0 for Epic-library and GOG-imported games) and rewrites each one with a stable synthetic integer derived from the row's local_* UUID. After the scan, those games become individually addressable instead of all colliding on the same sentinel value. Note: unique IDs are necessary but not sufficient for Beacon/ES-DE launching of Epic/GOG games — the source-specific dispatch path is a separate patch. Idempotent and self-healing: rows whose ID is later overwritten by GameHub with a real catalog value are left alone on re-run.",
+            "name": "Local game-id assignment",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Replaces every .wav file in the GameHub Compose UI sound asset folder with a 50ms silent PCM clip so all click / focus / launch sounds play silently. Filenames are preserved so every Compose audio lookup still resolves.",
+            "name": "Mute UI sounds",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Replaces gof.a (the picker's per-type component-list feed) with a delegating call: offline it returns the user's downloaded components (from sp_winemu_unified_resources, filtered by ComponentType) so GPU driver / DXVK / VKD3D / FEXCore / Box64 / container pickers list them offline; online it reflectively invokes the original suspend impl unchanged. Register-safe, fail-safe.",
+            "name": "Offline component picker — local list",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [
+                "Enable Android debugging"
+            ],
+            "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy.",
+            "name": "Override certificate pinning",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Neutralizes ComboLite's install-time host-vs-plugin signature enforcement in the :pcengine host process (the IllegalArgumentException 'Plugin signatures do not exactly match host signatures'). This is a third check, hard-coded and independent of ValidationStrategy, that runs when the plugin is committed. Forces the void install-validator method to return immediately so a re-signed BannerHub host can install XiaoJi's genuine pcengine plugin on GameHub 6.1.0+. Anchored on the unique error string.",
+            "name": "PC engine plugin — bypass install-time signature check",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Neutralizes the pcengine plugin manager's own host-vs-plugin signing-certificate comparison (separate from the com.combo ValidationStrategy gate) by forcing its check method to report a match. Lets a re-signed BannerHub build load XiaoJi's genuine pcengine plugin on GameHub 6.1.0+ instead of rejecting it with '插件签名与宿主不一致'. Anchored on the unique mismatch string the method builds. Pairs with the ValidationStrategy patch (both gates are required).",
+            "name": "PC engine plugin — bypass manager signature check",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Forces the com.combo plugin framework's ValidationStrategy accessor to return Insecure so the pcengine plugin's signing certificate is not required to match the (re-signed) host. Without this, a re-signed BannerHub build rejects XiaoJi's genuine plugin and PC emulation never loads on GameHub 6.1.0+. Pairs with the pcengine manager signature-check bypass (both gates are required).",
+            "name": "PC engine plugin — force Insecure validation",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Appends a 'bh_pc_vibration_label' = 'PC Vibration Settings' string entry to features.home Compose Multiplatform resources so the library-tile popup row's Lell-typed label can resolve to our text.",
+            "name": "PC Vibration Settings label resource",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "PC Vibration Settings label resource",
+                "Per-game menu id capture (shared)"
+            ],
+            "description": "Adds a 'PC Vibration Settings' row to the per-game library popup menu. Tapping it launches BhVibrationSettingsActivity with the active game's id when a WineActivity is on the stack. Injects after the existing rows so stock behavior is preserved.",
+            "name": "PC Vibration Settings menu row",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Vibration settings activity"
+            ],
+            "description": "Routes Wine XInput rumble (low, high) into Android's VibratorManager with dual-motor independent dispatch on multi-motor controllers, sustained holds (preload-free: an in-process hook patches every winebus.so on disk so SDL2's ~1s rumble_expiration never fires — no libevshim.so, no LD_PRELOAD, no extra mapping in the Wine subprocess), and instant release. Adapted from TideGear/GameHub-Vibration-Fix (GameNative PR #1214 lineage) with the author's permission.",
+            "name": "PC-accurate vibration",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Captures the per-game gameId from the menu-data param at entry of GameHub's two per-game menu builders so BannerHub's injected rows (Renderer / GPU Spoof / PC Vibration) scope to the correct game even from a pre-launch menu. Shared by all three.",
+            "name": "Per-game menu id capture (shared)",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "Redirect catalog API"
+            ],
+            "description": "Prepends \"v6/\" to every relative API path emitted by zdb.b(qx9, path), the single helper through which GameHub 6.0 funnels all simulator/v2/* and other catalog requests. The BannerHub Worker strips the prefix and uses it to branch 6.0-only response variants (e.g. firmware 1.3.4 vs 1.3.3, base.fileType=0 vs default 4). Pairs with Redirect catalog API — that patch swaps the host; this one tags the path. Full URLs (http://, https://) are passed through untouched so direct downloads still work.",
+            "name": "Prefix API path with /v6",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Recording-compatible audio settings activity"
+            ],
+            "description": "Lets PulseAudio game audio be captured by screen recording. When the global toggle (Banner Tools → Audio) is on, appends pm=0 to the module-aaudio-sink config line so the AAudio stream leaves the MMAP fast path and sits on the normal mixer the recorder taps. Default off — stock low-latency audio, no change for non-recorders.",
+            "name": "Recording-compatible audio",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Registers BhAudioSettingsActivity in the manifest so the Banner Tools \"Audio\" tile can launch it by explicit-Intent. Internal-only (android:exported=\"false\"); no <intent-filter>.",
+            "name": "Recording-compatible audio settings activity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Redirects GameHub 6.0's catalog API (simulator/v2/* — getAllComponentList, getContainerList, getContainerDetail, getDefaultComponent, getImagefsDetail, executeScript) from landscape-api-{cn,oversea}.vgabc.com to the BannerHub Cloudflare Worker, which serves the curated catalog from the412banner.github.io/bannerhub-api and falls back to vgabc for unallowlisted paths. Patches the two host string literals in the Online enum value's <clinit> initializer in mcj.smali. Beta + Test enum values, the analytics hosts (landscape-api-*-*.vgabc.com/events), the clientapi host (clientgsw.vgabc.com), and the component CDN (zlyer-cdn-comps-en.bigeyes.com) are intentionally left untouched.",
+            "name": "Redirect catalog API",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Renderer settings activity",
+                "Per-game menu id capture (shared)",
+                "PC Vibration Settings menu row"
+            ],
+            "description": "Adds a 'Renderer' row to GameHub's per-game menus. Tapping it launches BhRendererSettingsActivity scoped to the active game (New Vulkan / Legacy GLES2). Injects after the existing rows so stock behaviour and the GPU-Spoof row are preserved.",
+            "name": "Renderer menu row",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.0.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Registers BhRendererSettingsActivity in the manifest so the per-game renderer dialog can be launched by explicit-Intent. Internal-only (android:exported=\"false\"); no <intent-filter>.",
+            "name": "Renderer settings activity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "Change package name"
+            ],
+            "description": "Renames upstream-baked custom permissions (e.g. com.xiaoji.egggame.permission.C2D_MESSAGE) to use the variant package, so multiple variants can install side-by-side without INSTALL_FAILED_DUPLICATE_PERMISSION on Android 7+ (which surfaces as \"package conflicts with a current package\" in the package installer UI). ChangePackageNamePatch's updatePermissions option only rewrites the hardcoded DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION; this patch handles the rest.",
+            "name": "Rewrite custom permissions per variant",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Appends a 'bh_gameid_label' = 'Show Game ID' string entry to features.home Compose Multiplatform resources so the library-list popup row's Lell-typed label has a registered key. Runtime resolution is handled by the shared resolver hook in BhMenuRowClick.",
+            "name": "Show Game ID label resource",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "Per-game menu id capture (shared)",
+                "PC Vibration Settings menu row",
+                "Show Game ID label resource"
+            ],
+            "description": "Adds a 'Show Game ID' row to GameHub's per-game menus. Tapping it pops a dialog with the gameId (with Copy button) so users can configure external launchers (Beacon / ES-DE / Daijishou) without grepping a logcat. Injects after the existing rows so stock behaviour is preserved.",
+            "name": "Show Game ID menu row",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Forces the 'PC Game Settings' row to appear in the Explorer game-detail More Menu for every game type, including Steam-linked games where XiaoJi-native logic would normally hide it. Removes the single if-eqz gate immediately preceding the row's construction in the menu Composable. Other rows keep their native gating.",
+            "name": "Show PC Game Settings row",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Registers BhSteamImagePickerActivity in the manifest so the in-game Steam chat overlay can pick a gallery image and send it via friends.upload_chat_image. Internal-only (android:exported=\"false\"); no <intent-filter>.",
+            "name": "Steam chat image-picker activity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bundles the built-in incoming-call ringtones (assets/bh_ringtones/*.mp3) used by the in-game Steam chat overlay's call settings.",
+            "name": "Steam chat ringtone assets",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Registers BhRingtonePickerActivity so the in-game Steam chat call settings can pick a custom MP3 ringtone (persistable URI), and adds the VIBRATE permission for vibrate-on-incoming-call. Internal-only (android:exported=\"false\"); no-ops if already present.",
+            "name": "Steam chat ringtone-picker activity",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Adds RECORD_AUDIO (+ MODIFY_AUDIO_SETTINGS) so the in-game Steam chat overlay can run a WebRTC voice call (WebView getUserMedia). No-op if the permissions are already present.",
+            "name": "Steam chat voice permission",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the three <uses-permission> declarations that mark the app as requesting Google's advertising-ID, AdServices attribution, and AdServices ad-ID. Strengthens 'Disable Firebase Analytics': that patch disables runtime collection via Firebase's manifest kill-switch, this one removes the declared permission fingerprint that privacy scanners (Exodus Privacy etc.) flag.",
+            "name": "Strip Ad-ID permissions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Removes the Haima cloud-gaming stack (~21.5 MB): the 4 Haima WebRTC/IJK native libs and the features.cloud Compose asset module. Stubs the IjkMediaPlayer + hmwebrtc native load sites first so the strip cannot crash if a cloud entry point is reached. Cloud gaming is non-functional under the BannerHub catalog redirect anyway.",
+            "name": "Strip cloud gaming",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Redirects XiaoJi's analytics-event POST URLs (the /events batch reporter and /events/device-performance-config) to http://127.0.0.1 so no telemetry reaches statistic-gamehub-api.vgabc.com. Anchored on the stable URL strings (all dev2/beta/prod environment variants are redirected); the reporters' own error paths swallow the connection-refused, so nothing crashes.",
+            "name": "Stub analytics events",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.xiaoji.egggame": [
+                    "6.1.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Registers BhVibrationSettingsActivity in the manifest so the Mode/Intensity dialog can be launched by an explicit-Intent from anywhere. Internal-only (android:exported=\"false\"); no <intent-filter>.",
+            "name": "Vibration settings activity",
+            "options": [],
+            "use": true
+        }
+    ]
 }
