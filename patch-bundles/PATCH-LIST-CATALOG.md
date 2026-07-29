@@ -154,7 +154,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
 | [Yandex-VoT](#-yandex-vot-bundle-patch-list) | 1 | 1 | Generated |
 | [Watch-Later](#-watch-later-bundle-patch-list) | 1 | 1 | Generated |
-| [SofaTime](#-sofatime-bundle-patch-list) | 2 | 1 | Generated |
+| [SofaTime](#-sofatime-bundle-patch-list) | 3 | 1 | Generated |
 | [Hiosdra](#-hiosdra-bundle-patch-list) | 4 | 2 | Generated |
 | [Jl4cTuk](#-jl4ctuk-bundle-patch-list) | 16 | 2 | Generated |
 
@@ -5217,12 +5217,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 SofaTime Bundle Patch List:
 [📦 SofaTime-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-sofatime-patches-bundle-morphe)
 <details>
-<summary><b>SofaTime</b> - 2 patches, 1 app</summary>
+<summary><b>SofaTime</b> - 3 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```SofaTime Google Sign-In Bypass``` | ```Bypasses SHA-1 check by using embedded WebView OAuth for Google Sign-In.``` | ```SofaTime``` | ```All versions``` |
 | ```SofaTime License Check Bypass``` | ```Bypasses PairIP license verification.``` | ```SofaTime``` | ```All versions``` |
-| ```SofaTime Premium``` | ```Unlocks all premium features.``` | ```SofaTime``` | ```All versions``` |
+| ```SofaTime Premium``` | ```Unlocks all premium capabilities.``` | ```SofaTime``` | ```All versions``` |
 
 </details>
 

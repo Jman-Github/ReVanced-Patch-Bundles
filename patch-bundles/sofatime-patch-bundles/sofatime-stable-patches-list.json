@@ -1,6 +1,27 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1E1E2E",
+                    "name": "SofaTime",
+                    "packageName": "com.theclashsoft.sofatime",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses SHA-1 check by using embedded WebView OAuth for Google Sign-In.",
+            "name": "SofaTime Google Sign-In Bypass",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -39,7 +60,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks all premium features.",
+            "description": "Unlocks all premium capabilities.",
             "name": "SofaTime Premium",
             "options": []
         }
