@@ -116,7 +116,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 2 | 1 | Generated |
-| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 20 | 1 | Generated |
+| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 21 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
 | [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 57 | 22 | Generated |
 | [Binarymend](#-binarymend-bundle-patch-list) | 11 | 7 | Generated |
@@ -4047,7 +4047,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Jasonwu1994 Bundle Patch List:
 [📦 Jasonwu1994-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jasonwu1994-patches-bundle-morphe)
 <details>
-<summary><b>Jasonwu1994</b> - 20 patches, 1 app</summary>
+<summary><b>Jasonwu1994</b> - 21 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4063,6 +4063,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Inline Suggestions``` | ```啟用 修正和建議 > 智慧撰寫 Enable Text correction > Smart Compose.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Key Shape Selection``` | ```啟用圓角按鍵，主題詳情 > 按鍵形狀 Enable Key shape in Theme details.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Latin Globe Key Ignore Interval``` | ```新增英文鍵盤地球鍵忽略時間覆寫，可獨立控制輸入後切語言延遲 Add an independent English globe key ignore interval override for post-typing language-switch delay.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
+| ```Long-Press Editing Shortcuts``` | ```在英文 QWERTY 與注音鍵盤加入全選、復原、複製、剪下、貼上與重做長按快捷鍵 Add Select all, Undo, Copy, Cut, Paste, and Redo long-press shortcuts to English QWERTY and Zhuyin.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Package Rename``` | ```將套件名稱改成 dev.jason.com.google.android.inputmethod.latin 以便共存安裝 Rename the package to dev.jason.com.google.android.inputmethod.latin so it can be installed alongside the official Gboard.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Settings Homepage Override``` | ```允許切換新版或舊版 Gboard 設定頁面 Allow switching between the new and legacy Gboard settings pages.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Swipeable Custom Top Row``` | ```滑動鍵盤第一排，在原生列與可自訂文字/JavaScript 列之間切換 Swipe the keyboard top row to switch between the stock row and a customizable text/JavaScript row.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
