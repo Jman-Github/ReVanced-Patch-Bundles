@@ -1,5 +1,5 @@
 {
-    "version": "1.13.1",
+    "version": "1.15.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -7,6 +7,130 @@
             "dependencies": [],
             "description": null,
             "name": "Ads Free Rewards",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": null,
+            "name": "Disable Root Checks",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": null,
+            "name": "Disable Telemetry",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Blocks Firebase Analytics and Crashlytics.",
+                    "key": "blockFirebase",
+                    "required": false,
+                    "title": "Block Firebase Analytics",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Blocks AppsFlyer SDK.",
+                    "key": "blockAppsFlyer",
+                    "required": false,
+                    "title": "Block AppsFlyer",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Blocks Adjust SDK.",
+                    "key": "blockAdjust",
+                    "required": false,
+                    "title": "Block Adjust",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Blocks Amplitude.",
+                    "key": "blockAmplitude",
+                    "required": false,
+                    "title": "Block Amplitude",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Blocks Mixpanel.",
+                    "key": "blockMixpanel",
+                    "required": false,
+                    "title": "Block Mixpanel",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Blocks CleverTap.",
+                    "key": "blockCleverTap",
+                    "required": false,
+                    "title": "Block CleverTap",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Blocks Segment.",
+                    "key": "blockSegment",
+                    "required": false,
+                    "title": "Block Segment",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Blocks Facebook Analytics.",
+                    "key": "blockFacebook",
+                    "required": false,
+                    "title": "Block Facebook Analytics",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Blocks Branch.io.",
+                    "key": "blockBranch",
+                    "required": false,
+                    "title": "Block Branch.io",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Blocks Unity Analytics.",
+                    "key": "blockUnity",
+                    "required": false,
+                    "title": "Block Unity Analytics",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Blocks Flurry.",
+                    "key": "blockFlurry",
+                    "required": false,
+                    "title": "Block Flurry",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": null,
+            "name": "Disable Update Checks",
             "options": []
         },
         {
@@ -87,6 +211,14 @@
             "dependencies": [],
             "description": null,
             "name": "Spoof Play Store Install Source",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": null,
+            "name": "Unlock RevenueCat Entitlements",
             "options": []
         }
     ]
