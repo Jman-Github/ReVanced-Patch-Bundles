@@ -640,7 +640,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Disable Telemetry``` | ```N/A``` | ```Universal``` | ```All versions``` |
 | ```Disable Update Checks``` | ```N/A``` | ```Universal``` | ```All versions``` |
 | ```No Ads``` | ```N/A``` | ```Universal``` | ```All versions``` |
-| ```Pairip Application Redirect``` | ```N/A``` | ```Universal``` | ```All versions``` |
+| ```Pairip Bypass (Experimental)``` | ```N/A``` | ```Universal``` | ```All versions``` |
 | ```Spoof Play Store Install Source``` | ```N/A``` | ```Universal``` | ```All versions``` |
 | ```Unlock RevenueCat Entitlements``` | ```N/A``` | ```Universal``` | ```All versions``` |
 

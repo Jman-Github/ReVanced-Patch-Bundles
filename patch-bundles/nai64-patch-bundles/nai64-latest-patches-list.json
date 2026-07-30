@@ -1,5 +1,5 @@
 {
-    "version": "1.15.0",
+    "version": "1.16.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -26,7 +26,7 @@
             "options": [
                 {
                     "default": true,
-                    "description": "Blocks Firebase Analytics and Crashlytics.",
+                    "description": "",
                     "key": "blockFirebase",
                     "required": false,
                     "title": "Block Firebase Analytics",
@@ -35,7 +35,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Blocks AppsFlyer SDK.",
+                    "description": "",
                     "key": "blockAppsFlyer",
                     "required": false,
                     "title": "Block AppsFlyer",
@@ -44,7 +44,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Blocks Adjust SDK.",
+                    "description": "",
                     "key": "blockAdjust",
                     "required": false,
                     "title": "Block Adjust",
@@ -53,7 +53,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Blocks Amplitude.",
+                    "description": "",
                     "key": "blockAmplitude",
                     "required": false,
                     "title": "Block Amplitude",
@@ -62,7 +62,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Blocks Mixpanel.",
+                    "description": "",
                     "key": "blockMixpanel",
                     "required": false,
                     "title": "Block Mixpanel",
@@ -71,7 +71,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Blocks CleverTap.",
+                    "description": "",
                     "key": "blockCleverTap",
                     "required": false,
                     "title": "Block CleverTap",
@@ -80,7 +80,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Blocks Segment.",
+                    "description": "",
                     "key": "blockSegment",
                     "required": false,
                     "title": "Block Segment",
@@ -89,7 +89,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Blocks Facebook Analytics.",
+                    "description": "",
                     "key": "blockFacebook",
                     "required": false,
                     "title": "Block Facebook Analytics",
@@ -98,7 +98,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Blocks Branch.io.",
+                    "description": "",
                     "key": "blockBranch",
                     "required": false,
                     "title": "Block Branch.io",
@@ -107,7 +107,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Blocks Unity Analytics.",
+                    "description": "",
                     "key": "blockUnity",
                     "required": false,
                     "title": "Block Unity Analytics",
@@ -116,7 +116,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Blocks Flurry.",
+                    "description": "",
                     "key": "blockFlurry",
                     "required": false,
                     "title": "Block Flurry",
@@ -142,7 +142,7 @@
             "options": [
                 {
                     "default": true,
-                    "description": "Blocks interstitial and app open ads.",
+                    "description": "",
                     "key": "blockInterstitials",
                     "required": false,
                     "title": "Block Interstitials",
@@ -151,7 +151,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Blocks banner and MREC ads.",
+                    "description": "",
                     "key": "blockBanners",
                     "required": false,
                     "title": "Block Banners",
@@ -160,7 +160,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Blocks app open ads.",
+                    "description": "",
                     "key": "blockAppOpen",
                     "required": false,
                     "title": "Block App Open",
@@ -169,7 +169,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Blocks MREC ads.",
+                    "description": "",
                     "key": "blockMRec",
                     "required": false,
                     "title": "Block MREC",
@@ -178,7 +178,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Blocks rewarded ads. Disable this if using Ads Free Rewards patch.",
+                    "description": "",
                     "key": "blockRewarded",
                     "required": false,
                     "title": "Block Rewarded",
@@ -190,20 +190,12 @@
         {
             "compatiblePackages": null,
             "default": false,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": null,
-            "name": "Pairip Application Redirect",
-            "options": [
-                {
-                    "default": "",
-                    "description": "The real app's Application class. Leave empty to auto-discover.",
-                    "key": "realAppClass",
-                    "required": false,
-                    "title": "Real Application Class",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
+            "name": "Pairip Bypass (Experimental)",
+            "options": []
         },
         {
             "compatiblePackages": null,
