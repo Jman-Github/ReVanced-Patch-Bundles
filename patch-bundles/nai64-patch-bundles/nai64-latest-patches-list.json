@@ -1,5 +1,5 @@
 {
-    "version": "1.16.0",
+    "version": "1.17.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -8,6 +8,44 @@
             "description": null,
             "name": "Ads Free Rewards",
             "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": null,
+            "name": "Custom App Resolution (Experimental)",
+            "options": [
+                {
+                    "default": false,
+                    "description": "",
+                    "key": "enableCustomResolution",
+                    "required": false,
+                    "title": "Enable Custom Resolution",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": 1920,
+                    "description": "",
+                    "key": "width",
+                    "required": false,
+                    "title": "Resolution width (px)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": 1080,
+                    "description": "",
+                    "key": "height",
+                    "required": false,
+                    "title": "Resolution height (px)",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": null,

@@ -67,7 +67,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 3 | 2 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
-| [Nai64](#-nai64-bundle-patch-list) | 8 | 1 | Generated |
+| [Nai64](#-nai64-bundle-patch-list) | 9 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
 | [Prathxm](#-prathxm-bundle-patch-list) | 7 | 1 | Generated |
 | [Telegram-Morphe](#-telegram-morphe-bundle-patch-list) | 10 | 1 | Generated |
@@ -103,7 +103,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
-| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 76 | 53 | Generated |
+| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 78 | 54 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 99 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 132 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
@@ -632,11 +632,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Nai64 Bundle Patch List:
 [?? Nai64-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nai64-patches-bundle-morphe)
 <details>
-<summary><b>Nai64</b> - 8 patches, 1 app</summary>
+<summary><b>Nai64</b> - 9 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Ads Free Rewards``` | ```N/A``` | ```Universal``` | ```All versions``` |
+| ```Custom App Resolution (Experimental)``` | ```N/A``` | ```Universal``` | ```All versions``` |
 | ```Disable Root Checks``` | ```N/A``` | ```Universal``` | ```All versions``` |
 | ```Disable Telemetry``` | ```N/A``` | ```Universal``` | ```All versions``` |
 | ```Disable Update Checks``` | ```N/A``` | ```Universal``` | ```All versions``` |
@@ -3012,7 +3013,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Hoo-dles Bundle Patch List:
 [📦 Hoo-dles-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoo-dles-patches-bundle-morphe)
 <details>
-<summary><b>Hoo-dles</b> - 76 patches, 53 apps</summary>
+<summary><b>Hoo-dles</b> - 78 patches, 54 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3038,6 +3039,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```HelloChinese``` | ```All versions``` |
 | ```Enable Prime membership``` | ```Enables app features locked behind the subscription paywall.``` | ```IbisPaint X``` | ```All versions``` |
 | ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. Some UI elements may not show an active membership, but this does not effect functionality.``` | ```Icon Packer``` | ```All versions``` |
+| ```Bypass login``` | ```Allows app use without login. BUT breaks many features. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lightroom Mobile``` | ```All versions``` |
+| ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lightroom Mobile``` | ```All versions``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Ling``` | ```All versions``` |
 | ```Block Permissions Request``` | ```Blocks the request of notification permissions on load of app.``` | ```Lingory``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lingory``` | ```All versions``` |
@@ -5317,13 +5320,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Chrome Web Store extension installation``` | ```Включает обычную установку с сайта Chrome Web Store и автоматически активирует установленные расширения.``` | ```Microsoft Edge Canary``` | ```All versions``` |
-| ```Custom new tab``` | ```Открывает выбранную веб-страницу вместо встроенной новой вкладки Edge.``` | ```Microsoft Edge Canary``` | ```All versions``` |
-| ```Dismiss Microsoft account notice``` | ```Автоматически закрывает повторяющееся информационное окно Microsoft после входа, не отключая аккаунт и синхронизацию.``` | ```Microsoft Edge Canary``` | ```All versions``` |
-| ```Edge ReVanced branding``` | ```Переименовывает приложение, заменяет Canary-иконку и устанавливает фирменный splash Edge ReVanced.``` | ```Microsoft Edge Canary``` | ```All versions``` |
-| ```Mobile DevTools``` | ```Добавляет мобильный DevTools с локальным подключением к текущей вкладке Edge.``` | ```Microsoft Edge Canary``` | ```All versions``` |
-| ```Side-by-side test installation``` | ```Устанавливает мод рядом с официальным Edge Canary, не удаляя его данные.``` | ```Microsoft Edge Canary``` | ```All versions``` |
-| ```Swipe up to tabs``` | ```Открывает экран вкладок свайпом вверх по панели инструментов независимо от её положения.``` | ```Microsoft Edge Canary``` | ```All versions``` |
-| ```Thumb-reach tab switcher``` | ```Размещает старые вкладки снизу справа, а новые добавляет вверх для управления большим пальцем.``` | ```Microsoft Edge Canary``` | ```All versions``` |
+| ```Chrome Web Store extension installation``` | ```Включает обычную установку с сайта Chrome Web Store и автоматически активирует установленные расширения.``` | ```com.microsoft.emmx.canary``` | ```All versions``` |
+| ```Custom new tab``` | ```Открывает выбранную веб-страницу вместо встроенной новой вкладки Edge.``` | ```com.microsoft.emmx.canary``` | ```All versions``` |
+| ```Dismiss Microsoft account notice``` | ```Автоматически закрывает повторяющееся информационное окно Microsoft после входа, не отключая аккаунт и синхронизацию.``` | ```com.microsoft.emmx.canary``` | ```All versions``` |
+| ```Edge ReVanced branding``` | ```Переименовывает приложение, заменяет Canary-иконку и устанавливает фирменный splash Edge ReVanced.``` | ```com.microsoft.emmx.canary``` | ```All versions``` |
+| ```Mobile DevTools``` | ```Добавляет мобильный DevTools с локальным подключением к текущей вкладке Edge.``` | ```com.microsoft.emmx.canary``` | ```All versions``` |
+| ```Side-by-side test installation``` | ```Устанавливает мод рядом с официальным Edge Canary, не удаляя его данные.``` | ```com.microsoft.emmx.canary``` | ```All versions``` |
+| ```Swipe up to tabs``` | ```Открывает экран вкладок свайпом вверх по панели инструментов независимо от её положения.``` | ```com.microsoft.emmx.canary``` | ```All versions``` |
+| ```Thumb-reach tab switcher``` | ```Размещает старые вкладки снизу справа, а новые добавляет вверх для управления большим пальцем.``` | ```com.microsoft.emmx.canary``` | ```All versions``` |
 
 </details>
