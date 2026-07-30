@@ -1,6 +1,36 @@
 {
-    "version": "v1.0.1",
+    "version": "v1.1.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Mail",
+                    "packageName": "ch.protonmail.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.10.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 17667,
+                                "ARMEABI_V7A": 17667,
+                                "X86": 17667,
+                                "X86_64": 17667
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Replaces the dark theme background with pure black.",
+            "name": "AMOLED dark theme",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -25,6 +55,92 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Mail",
+                    "packageName": "ch.protonmail.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.10.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 17667,
+                                "ARMEABI_V7A": 17667,
+                                "X86": 17667,
+                                "X86_64": 17667
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Hides the top-bar upgrade button and promotional sidebar rows.",
+            "name": "Hide upgrade upselling",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Mail",
+                    "packageName": "ch.protonmail.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.10.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 17667,
+                                "ARMEABI_V7A": 17667,
+                                "X86": 17667,
+                                "X86_64": 17667
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the 'Sent from Proton Mail' signature from emails.",
+            "name": "Remove 'Sent from' signature",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Mail",
+                    "packageName": "ch.protonmail.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.10.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 17667,
+                                "ARMEABI_V7A": 17667,
+                                "X86": 17667,
+                                "X86_64": 17667
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the limit for maximum free accounts logged in.",
+            "name": "Remove free accounts limit",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#0772BA",
                     "name": "ForusApp",
                     "packageName": "com.myvitale.forus",
@@ -37,7 +153,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks premium features.",
+            "description": "Unlocks all premium features.",
             "name": "Unlock premium",
             "options": []
         },
@@ -57,7 +173,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks premium features.",
+            "description": "Unlocks all premium features.",
             "name": "Unlock premium",
             "options": []
         },

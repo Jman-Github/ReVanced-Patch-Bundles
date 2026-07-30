@@ -1,6 +1,36 @@
 {
-    "version": "v1.1.0-dev.1",
+    "version": "v1.1.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Mail",
+                    "packageName": "ch.protonmail.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.10.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 17667,
+                                "ARMEABI_V7A": 17667,
+                                "X86": 17667,
+                                "X86_64": 17667
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Replaces the dark theme background with pure black.",
+            "name": "AMOLED dark theme",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -31,22 +61,24 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "4.15.0",
+                            "minSdk": 29,
+                            "version": "7.10.4",
                             "versionCodes": {
-                                "ARM64_V8A": 11782,
-                                "ARMEABI_V7A": 11782,
-                                "X86": 11782,
-                                "X86_64": 11782
+                                "ARM64_V8A": 17667,
+                                "ARMEABI_V7A": 17667,
+                                "X86": 17667,
+                                "X86_64": 17667
                             }
                         }
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Hides the 'Upgrade to Mail Plus' entry from the sidebar.",
-            "name": "Hide sidebar upselling",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Hides the top-bar upgrade button and promotional sidebar rows.",
+            "name": "Hide upgrade upselling",
             "options": []
         },
         {
@@ -59,13 +91,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "4.15.0",
+                            "minSdk": 29,
+                            "version": "7.10.4",
                             "versionCodes": {
-                                "ARM64_V8A": 11782,
-                                "ARMEABI_V7A": 11782,
-                                "X86": 11782,
-                                "X86_64": 11782
+                                "ARM64_V8A": 17667,
+                                "ARMEABI_V7A": 17667,
+                                "X86": 17667,
+                                "X86_64": 17667
                             }
                         }
                     ]
@@ -73,7 +105,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the 'Sent from Proton Mail mobile' signature from emails.",
+            "description": "Removes the 'Sent from Proton Mail' signature from emails.",
             "name": "Remove 'Sent from' signature",
             "options": []
         },
@@ -87,13 +119,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "4.15.0",
+                            "minSdk": 29,
+                            "version": "7.10.4",
                             "versionCodes": {
-                                "ARM64_V8A": 11782,
-                                "ARMEABI_V7A": 11782,
-                                "X86": 11782,
-                                "X86_64": 11782
+                                "ARM64_V8A": 17667,
+                                "ARMEABI_V7A": 17667,
+                                "X86": 17667,
+                                "X86_64": 17667
                             }
                         }
                     ]
