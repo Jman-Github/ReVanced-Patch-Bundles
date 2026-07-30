@@ -41,6 +41,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Alim-zanibekov](#-alim-zanibekov-bundle-patch-list) | 1 | 1 | Generated |
 | [Daboynb](#-daboynb-bundle-patch-list) | 1 | 1 | Generated |
 | [MojiRS-RIF](#-mojirs-rif-bundle-patch-list) | 2 | 1 | Generated |
+| [Edge-ReVanced](#-edge-revanced-bundle-patch-list) | 8 | 1 | Generated |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -5306,5 +5307,23 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide Featured and Games tabs``` | ```Removes the Featured and Games tabs and opens Apps by default.``` | ```RuStore``` | ```All versions``` |
 | ```Hide notification buttons``` | ```Removes notification buttons from the search bar and Mine screen.``` | ```RuStore``` | ```All versions``` |
 | ```Skip update auth``` | ```Removes the login requirement when updating apps.``` | ```RuStore``` | ```All versions``` |
+
+</details>
+---
+### 🧩 Edge-ReVanced Bundle Patch List:
+[📦 Edge-ReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-edge-revanced-patches-bundle-api-v4)
+<details>
+<summary><b>Edge-ReVanced</b> - 8 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Chrome Web Store extension installation``` | ```Включает обычную установку с сайта Chrome Web Store и автоматически активирует установленные расширения.``` | ```Microsoft Edge Canary``` | ```All versions``` |
+| ```Custom new tab``` | ```Открывает выбранную веб-страницу вместо встроенной новой вкладки Edge.``` | ```Microsoft Edge Canary``` | ```All versions``` |
+| ```Dismiss Microsoft account notice``` | ```Автоматически закрывает повторяющееся информационное окно Microsoft после входа, не отключая аккаунт и синхронизацию.``` | ```Microsoft Edge Canary``` | ```All versions``` |
+| ```Edge ReVanced branding``` | ```Переименовывает приложение, заменяет Canary-иконку и устанавливает фирменный splash Edge ReVanced.``` | ```Microsoft Edge Canary``` | ```All versions``` |
+| ```Mobile DevTools``` | ```Добавляет мобильный DevTools с локальным подключением к текущей вкладке Edge.``` | ```Microsoft Edge Canary``` | ```All versions``` |
+| ```Side-by-side test installation``` | ```Устанавливает мод рядом с официальным Edge Canary, не удаляя его данные.``` | ```Microsoft Edge Canary``` | ```All versions``` |
+| ```Swipe up to tabs``` | ```Открывает экран вкладок свайпом вверх по панели инструментов независимо от её положения.``` | ```Microsoft Edge Canary``` | ```All versions``` |
+| ```Thumb-reach tab switcher``` | ```Размещает старые вкладки снизу справа, а новые добавляет вверх для управления большим пальцем.``` | ```Microsoft Edge Canary``` | ```All versions``` |
 
 </details>

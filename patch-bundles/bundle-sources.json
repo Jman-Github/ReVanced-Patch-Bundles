@@ -784,6 +784,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "edge-revanced-stable": {
+        "patches": "https://api.github.com/repos/AriesAlex/edge-revanced",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -1564,6 +1569,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
+    "edge-revanced-dev": {
+        "patches": "https://api.github.com/repos/AriesAlex/edge-revanced",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
     "piko-latest": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -2341,6 +2351,11 @@
     },
     "jl4ctuk-latest": {
         "patches": "https://api.github.com/repos/Jl4cTuk/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "edge-revanced-latest": {
+        "patches": "https://api.github.com/repos/AriesAlex/edge-revanced",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

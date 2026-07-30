@@ -1,0 +1,93 @@
+{
+    "version": "edge-canary-152.0.4184.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Microsoft Edge Canary",
+                    "packageName": "com.microsoft.emmx.canary",
+                    "versions": null
+                }
+            ],
+            "description": "Включает обычную установку с сайта Chrome Web Store и автоматически активирует установленные расширения.",
+            "name": "Chrome Web Store extension installation"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Microsoft Edge Canary",
+                    "packageName": "com.microsoft.emmx.canary",
+                    "versions": null
+                }
+            ],
+            "description": "Открывает выбранную веб-страницу вместо встроенной новой вкладки Edge.",
+            "name": "Custom new tab"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Microsoft Edge Canary",
+                    "packageName": "com.microsoft.emmx.canary",
+                    "versions": null
+                }
+            ],
+            "description": "Автоматически закрывает повторяющееся информационное окно Microsoft после входа, не отключая аккаунт и синхронизацию.",
+            "name": "Dismiss Microsoft account notice"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Microsoft Edge Canary",
+                    "packageName": "com.microsoft.emmx.canary",
+                    "versions": null
+                }
+            ],
+            "description": "Переименовывает приложение, заменяет Canary-иконку и устанавливает фирменный splash Edge ReVanced.",
+            "name": "Edge ReVanced branding"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Microsoft Edge Canary",
+                    "packageName": "com.microsoft.emmx.canary",
+                    "versions": null
+                }
+            ],
+            "description": "Добавляет мобильный DevTools с локальным подключением к текущей вкладке Edge.",
+            "name": "Mobile DevTools"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Microsoft Edge Canary",
+                    "packageName": "com.microsoft.emmx.canary",
+                    "versions": null
+                }
+            ],
+            "description": "Устанавливает мод рядом с официальным Edge Canary, не удаляя его данные.",
+            "name": "Side-by-side test installation"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Microsoft Edge Canary",
+                    "packageName": "com.microsoft.emmx.canary",
+                    "versions": null
+                }
+            ],
+            "description": "Открывает экран вкладок свайпом вверх по панели инструментов независимо от её положения.",
+            "name": "Swipe up to tabs"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Microsoft Edge Canary",
+                    "packageName": "com.microsoft.emmx.canary",
+                    "versions": null
+                }
+            ],
+            "description": "Размещает старые вкладки снизу справа, а новые добавляет вверх для управления большим пальцем.",
+            "name": "Thumb-reach tab switcher"
+        }
+    ]
+}
