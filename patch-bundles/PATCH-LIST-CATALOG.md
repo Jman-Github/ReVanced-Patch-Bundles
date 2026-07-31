@@ -158,6 +158,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [SofaTime](#-sofatime-bundle-patch-list) | 4 | 1 | Generated |
 | [Hiosdra](#-hiosdra-bundle-patch-list) | 7 | 3 | Generated |
 | [Jl4cTuk](#-jl4ctuk-bundle-patch-list) | 16 | 2 | Generated |
+| [LaBlazer](#-lablazer-bundle-patch-list) | 1 | 1 | Generated |
+| [D0NJ](#-d0nj-bundle-patch-list) | 1 | 1 | Generated |
+| [Morphe-NL](#-morphe-nl-bundle-patch-list) | 3 | 1 | Generated |
+| [TIDAL](#-tidal-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -5325,5 +5329,55 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Side-by-side test installation``` | ```Устанавливает мод рядом с официальным Edge Canary, не удаляя его данные.``` | ```Microsoft Edge Canary``` | ```All versions``` |
 | ```Swipe up to tabs``` | ```Открывает экран вкладок свайпом вверх по панели инструментов независимо от её положения.``` | ```Microsoft Edge Canary``` | ```All versions``` |
 | ```Thumb-reach tab switcher``` | ```Размещает старые вкладки снизу справа, а новые добавляет вверх для управления большим пальцем.``` | ```Microsoft Edge Canary``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 LaBlazer Bundle Patch List:
+[📦 LaBlazer-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lablazer-patches-bundle-morphe)
+<details>
+<summary><b>LaBlazer</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Enable premium features``` | ```Bypasses the premium/licence gate so premium content and unlimited tests become available.``` | ```eTesty Autoškola``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 D0NJ Bundle Patch List:
+[📦 D0NJ-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-d0nj-patches-bundle-morphe)
+<details>
+<summary><b>D0NJ</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock premium``` | ```Makes isPremium() always return true in AI Audio Novel Reader. Unlocks all premium features and disables the 10-hour trial countdown.``` | ```AI Audio Novel Reader``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Morphe-NL Bundle Patch List:
+[📦 Morphe-NL-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-nl-patches-bundle-morphe)
+<details>
+<summary><b>Morphe-NL</b> - 3 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Bypass license check``` | ```Bypasses the Google Play license and APK signature checks so the app starts without the "Get this app from Google Play" paywall.``` | ```Flitsmeister``` | ```All versions``` |
+| ```Remove ads``` | ```Disables general advertisements and keeps the ads setting turned off.``` | ```Flitsmeister``` | ```All versions``` |
+| ```Unlock PRO``` | ```Unlocks Flitsmeister PRO status and enables all PRO features on the client.``` | ```Flitsmeister``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 TIDAL Bundle Patch List:
+[📦 TIDAL-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-tidal-patches-bundle-morphe)
+<details>
+<summary><b>TIDAL</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Swipe to add to queue``` | ```Adds a Spotify style swipe right gesture that adds the swiped item to the play queue, on every screen that lists tracks, albums, playlists or mixes.``` | ```TIDAL``` | ```All versions``` |
 
 </details>

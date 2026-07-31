@@ -1,0 +1,61 @@
+{
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APKM",
+          "appIconColor": "#2094F4",
+          "description": null,
+          "name": "Flitsmeister",
+          "packageName": "nl.flitsmeister",
+          "signatures": null,
+          "targets": [
+            {
+              "description": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "version": "14.11",
+              "versionCodes": {
+                "ARM64_V8A": 1266
+              }
+            }
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Disables general advertisements and keeps the ads setting turned off.",
+      "name": "Remove ads",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APKM",
+          "appIconColor": "#2094F4",
+          "description": null,
+          "name": "Flitsmeister",
+          "packageName": "nl.flitsmeister",
+          "signatures": null,
+          "targets": [
+            {
+              "description": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "version": "14.11",
+              "versionCodes": {
+                "ARM64_V8A": 1266
+              }
+            }
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Unlocks Flitsmeister PRO status and enables all PRO features on the client.",
+      "name": "Unlock PRO",
+      "options": []
+    }
+  ],
+  "version": "v1.0.0-dev.1"
+}

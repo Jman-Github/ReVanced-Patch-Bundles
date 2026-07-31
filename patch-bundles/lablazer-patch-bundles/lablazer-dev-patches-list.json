@@ -1,0 +1,31 @@
+{
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#FF6B35",
+          "description": null,
+          "name": "eTesty Autoškola",
+          "packageName": "cz.etesty.autoskola",
+          "signatures": null,
+          "targets": [
+            {
+              "description": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "version": "2025.01",
+              "versionCodes": null
+            }
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Bypasses the premium/licence gate so premium content and unlimited tests become available.",
+      "name": "Enable premium features",
+      "options": []
+    }
+  ],
+  "version": "v1.0.0-dev.1"
+}

@@ -2088,6 +2088,58 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/edge-revanced-patch-bundles/edge-revanced-dev-patches-bundle.json```
 </details>
+---
+### 📦 LaBlazer-Patches-Bundle [Morphe]:
+[🧩 LaBlazer Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-lablazer-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lablazer-patch-bundles/lablazer-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lablazer-patch-bundles/lablazer-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lablazer-patch-bundles/lablazer-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 D0NJ-Patches-Bundle [Morphe]:
+[🧩 D0NJ Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-d0nj-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/d0nj-patch-bundles/d0nj-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/d0nj-patch-bundles/d0nj-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/d0nj-patch-bundles/d0nj-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Morphe-NL-Patches-Bundle [Morphe]:
+[🧩 Morphe-NL Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-morphe-nl-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-nl-patch-bundles/morphe-nl-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-nl-patch-bundles/morphe-nl-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-nl-patch-bundles/morphe-nl-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 TIDAL-Patches-Bundle [Morphe]:
+[🧩 TIDAL Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-tidal-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tidal-patch-bundles/tidal-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tidal-patch-bundles/tidal-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tidal-patch-bundles/tidal-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -2421,6 +2473,14 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Jl4cTuk-Patches-Bundle](https://github.com/Jl4cTuk/morphe-patches)
 
 #### 🩹 [Edge-ReVanced-Patches-Bundle](https://github.com/AriesAlex/edge-revanced)
+
+#### 🩹 [LaBlazer-Patches-Bundle](https://github.com/LaBlazer/morphe-patches)
+
+#### 🩹 [D0NJ-Patches-Bundle](https://github.com/d0nj/morphe-patches)
+
+#### 🩹 [Morphe-NL-Patches-Bundle](https://github.com/claviola/morphe-patches-nl)
+
+#### 🩹 [TIDAL-Patches-Bundle](https://github.com/chukfinley/tidal-patches)
 
 ## 🖇 Integrations Repositories In Use
 

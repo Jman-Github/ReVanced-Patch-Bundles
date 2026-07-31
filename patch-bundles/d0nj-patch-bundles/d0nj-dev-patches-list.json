@@ -1,0 +1,31 @@
+{
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": null,
+          "appIconColor": "#6200EE",
+          "description": null,
+          "name": "AI Audio Novel Reader",
+          "packageName": "com.thien.novelreader",
+          "signatures": null,
+          "targets": [
+            {
+              "description": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "version": "3.3.23",
+              "versionCodes": null
+            }
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Makes isPremium() always return true in AI Audio Novel Reader. Unlocks all premium features and disables the 10-hour trial countdown.",
+      "name": "Unlock premium",
+      "options": []
+    }
+  ],
+  "version": "v1.1.0-dev.1"
+}
