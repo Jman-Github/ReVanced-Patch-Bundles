@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0",
+    "version": "v1.6.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -284,6 +284,28 @@
                 "BytecodePatch"
             ],
             "description": "Unlocks Premium. Use With Spoof Install Source.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6C63FF",
+                    "name": "Phi Launcher",
+                    "packageName": "com.launcher.hype",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.5.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Phi Launcher Pro",
             "name": "Enable Premium",
             "options": []
         },
