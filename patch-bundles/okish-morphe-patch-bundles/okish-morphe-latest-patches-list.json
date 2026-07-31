@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -41,6 +41,27 @@
             "dependencies": [],
             "description": "Bypasses the Pairip Play Store installation check so the app launches normally.",
             "name": "FreeJobAlert License Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Smash Hit",
+                    "packageName": "com.mediocre.smashhit",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.5.14"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium and all game modes without purchase.",
+            "name": "Smash Hit Premium Unlock",
             "options": []
         },
         {
