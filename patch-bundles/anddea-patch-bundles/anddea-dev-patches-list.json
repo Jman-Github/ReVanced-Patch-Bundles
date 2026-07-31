@@ -1,5 +1,5 @@
 {
-    "version": "v4.2.0-dev.8",
+    "version": "v4.2.0-dev.9",
     "patches": [
         {
             "compatiblePackages": {
@@ -728,12 +728,18 @@
                     "values": {
                         "Amoled Black": "@android:color/black",
                         "Catppuccin (Mocha)": "#FF181825",
+                        "Classic (Old YouTube)": "#FF212121",
                         "Dark Blue": "#FF001029",
                         "Dark Green": "#FF002905",
                         "Dark Orange": "#FF291800",
                         "Dark Pink": "#FF290025",
                         "Dark Red": "#FF290000",
-                        "Dark Yellow": "#FF282900"
+                        "Dark Yellow": "#FF282900",
+                        "Material You (Neutral)": "@android:color/system_neutral1_900",
+                        "Material You - Primary": "@android:color/system_accent1_800",
+                        "Material You - Secondary": "@android:color/system_accent2_800",
+                        "Material You - Tertiary": "@android:color/system_accent3_800",
+                        "Modern YouTube": "#FF0F0F0F"
                     }
                 },
                 {
@@ -2585,7 +2591,9 @@
                 "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Adds options to hide or change components related to the seekbar.",
             "name": "Seekbar components",
@@ -2844,12 +2852,18 @@
                     "values": {
                         "Amoled Black": "@android:color/black",
                         "Catppuccin (Mocha)": "#FF181825",
+                        "Classic (Old YouTube)": "#FF212121",
                         "Dark Blue": "#FF001029",
                         "Dark Green": "#FF002905",
                         "Dark Orange": "#FF291800",
                         "Dark Pink": "#FF290025",
                         "Dark Red": "#FF290000",
                         "Dark Yellow": "#FF282900",
+                        "Material You (Neutral)": "@android:color/system_neutral1_900",
+                        "Material You - Primary": "@android:color/system_accent1_800",
+                        "Material You - Secondary": "@android:color/system_accent2_800",
+                        "Material You - Tertiary": "@android:color/system_accent3_800",
+                        "Modern YouTube": "#FF0F0F0F",
                         "YouTube Dark": "@color/yt_black3"
                     }
                 },
@@ -2868,6 +2882,10 @@
                         "Light Pink": "#FFFCCFF3",
                         "Light Red": "#FFFFD6D6",
                         "Light Yellow": "#FFFDFFCC",
+                        "Material You (Neutral)": "@android:color/system_neutral1_100",
+                        "Material You - Primary": "@android:color/system_accent1_200",
+                        "Material You - Secondary": "@android:color/system_accent2_200",
+                        "Material You - Tertiary": "@android:color/system_accent3_200",
                         "White": "@android:color/white",
                         "YouTube Light": "@color/yt_white3"
                     }
@@ -3175,7 +3193,12 @@
                         "Dark Orange": "#FF291800",
                         "Dark Pink": "#FF290025",
                         "Dark Red": "#FF290000",
-                        "Dark Yellow": "#FF282900"
+                        "Dark Yellow": "#FF282900",
+                        "Material You (Neutral)": "@android:color/system_neutral1_900",
+                        "Material You - Primary": "@android:color/system_accent1_800",
+                        "Material You - Secondary": "@android:color/system_accent2_800",
+                        "Material You - Tertiary": "@android:color/system_accent3_800",
+                        "Modern YouTube": "#FF0F0F0F"
                     }
                 },
                 {
@@ -3193,6 +3216,10 @@
                         "Light Pink": "#FFFCCFF3",
                         "Light Red": "#FFFFD6D6",
                         "Light Yellow": "#FFFDFFCC",
+                        "Material You (Neutral)": "@android:color/system_neutral1_100",
+                        "Material You - Primary": "@android:color/system_accent1_200",
+                        "Material You - Secondary": "@android:color/system_accent2_200",
+                        "Material You - Tertiary": "@android:color/system_accent3_200",
                         "Pale Blue": "#FFD4FFF8",
                         "Pale Green": "#FFD1FFCC",
                         "Pale Yellow": "#FFFFE9AA",
@@ -3414,7 +3441,8 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Adds options to customize settings related to video playback, such as default video quality and playback speed.",
             "name": "Video playback",
@@ -3566,6 +3594,32 @@
             ],
             "description": "Adds an option to change the domain of the watch history or check its status.",
             "name": "Watch history",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.43.41",
+                    "19.44.39",
+                    "19.47.53",
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch",
+                "ResourcePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds a wide search bar to the top of the home and subscription feed.",
+            "name": "Wide search bar",
             "options": [],
             "use": true
         }

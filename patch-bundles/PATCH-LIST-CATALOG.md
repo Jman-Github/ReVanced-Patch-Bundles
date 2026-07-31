@@ -89,7 +89,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 45 | 32 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
-| [Anddea](#-anddea-bundle-patch-list) | 119 | 3 | Generated |
+| [Anddea](#-anddea-bundle-patch-list) | 120 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 127 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 10 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
@@ -147,7 +147,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Variablenine](#-variablenine-bundle-patch-list) | 132 | 4 | Generated |
 | [Stylus](#-stylus-bundle-patch-list) | 1 | 1 | Generated |
 | [HXReborn](#-hxreborn-bundle-patch-list) | 8 | 4 | Generated |
-| [Ikura](#-ikura-bundle-patch-list) | 4 | 2 | Generated |
+| [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 3 | 4 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 16 | 1 | Generated |
 | [Morning-Entree](#-morning-entree-bundle-patch-list) | 19 | 63 | Generated |
@@ -1546,7 +1546,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Anddea Bundle Patch List:
 [📦 Anddea-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-anddea-patches-bundle-morphe)
 <details>
-<summary><b>Anddea</b> - 119 patches, 3 apps</summary>
+<summary><b>Anddea</b> - 120 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1663,6 +1663,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Video playback``` | ```Adds options to customize settings related to video playback, such as default video quality and playback speed.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Visual preferences icons for YouTube``` | ```Adds icons to specific preferences in the settings.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Voice Over Translation``` | ```Adds an option to enable Yandex voice-over translation of video audio tracks.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
+| ```Wide search bar``` | ```Adds a wide search bar to the top of the home and subscription feed.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Change installer package name``` | ```Spoof the installer package name to make it appear that the app was installed from the Google Play Store.``` | ```Universal``` | ```All versions``` |
 | ```Change version code``` | ```Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.``` | ```Universal``` | ```All versions``` |
 | ```Disable edge-to-edge display``` | ```Disable forced edge-to-edge display on Android 15+ by changing the app's target SDK version. This patch does not work if the app is installed by mounting.``` | ```Universal``` | ```All versions``` |
@@ -5124,14 +5125,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Ikura Bundle Patch List:
 [📦 Ikura-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ikura-patches-bundle-morphe)
 <details>
-<summary><b>Ikura</b> - 4 patches, 2 apps</summary>
+<summary><b>Ikura</b> - 6 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```CarbitLink Customizations``` | ```Enables YouTube, third-party apps, built-in browser, and unlocks all connection profiles/brands.``` | ```CarbitLink``` | ```All versions``` |
-| ```CarbitLink Login Bypass``` | ```Bypasses Google account login for Google Maps, Mapbox, and Spotify dashboard cards.``` | ```CarbitLink``` | ```All versions``` |
-| ```CarbitLink Premium``` | ```Unlocks Google Maps, Mapbox, Spotify, and Twin Space premium features and shows supported dashboard cards.``` | ```CarbitLink``` | ```All versions``` |
-| ```Example Patch``` | ```Example patch to start with.``` | ```XYZ app``` | ```All versions``` |
+| ```Bypass anti-debug``` | ```Disables debugger detection and process tracer exit checks.``` | ```CarbitLink``` | ```All versions``` |
+| ```Bypass local account login requirement``` | ```Forces Accounts.isLogin() to return true, enabling account-gated cards and feature tiles without signing in.``` | ```CarbitLink``` | ```All versions``` |
+| ```MicroG / GmsCore support for Google login``` | ```Redirects Google Play Services authorization calls to MicroG (app.revanced.android.gms) to fix Google login failure.``` | ```CarbitLink``` | ```All versions``` |
+| ```Premium bypass``` | ```Unlocks Google Maps, Mapbox, Spotify, and Twin Space features.``` | ```CarbitLink``` | ```All versions``` |
+| ```Unlock feature gates``` | ```Enables Twin Space, Mapbox visibility, Mapbox demo validity, dashboard VIP tile badges, and Member Center card.``` | ```CarbitLink``` | ```All versions``` |
+| ```Unlock Web Browser & Screen Mirroring``` | ```Enables Web Browser tile, bypasses driving video motion masks, and forces screen mirroring support.``` | ```CarbitLink``` | ```All versions``` |
 
 </details>
 
