@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.5",
+    "version": "v1.3.6",
     "patches": [
         {
             "compatiblePackages": [
@@ -38,26 +38,6 @@
             "default": true,
             "dependencies": [],
             "description": "Suppresses the main byAir paywall, unlock banners, and local user gating.",
-            "name": "Enable Pro",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF6B35",
-                    "name": "OldRoll",
-                    "packageName": "com.accordion.analogcam",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks all pro/premium features by bypassing purchase validation and SharedPreferences checks.",
             "name": "Enable Pro",
             "options": []
         },
@@ -295,6 +275,26 @@
             "default": true,
             "dependencies": [],
             "description": "Patches Dart AOT-compiled libapp.so to unlock all premium features. Forces hasPremiumAccess and isPaidUser to always return true by NOPing their ARM64 conditional branch instructions.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#D0BCFF",
+                    "name": "Native Camera",
+                    "packageName": "com.rawcam.app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces the premium entitlement in Native Camera. Premium status is a local 'is_premium' SharedPreferences flag read on startup behind PairIP's Play Store licensing, so this unlocks RAW DNG, 10-bit video, HLG/UHDR and the boosted-ISO seekbar.",
             "name": "Unlock Premium",
             "options": []
         },

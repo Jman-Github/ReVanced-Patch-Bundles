@@ -1,31 +1,26 @@
 {
-  "patches": [
-    {
-      "compatiblePackages": [
+    "version": "v1.0.0-dev.1",
+    "patches": [
         {
-          "apkFileType": "APK",
-          "appIconColor": "#FF6B35",
-          "description": null,
-          "name": "eTesty Autoškola",
-          "packageName": "cz.etesty.autoskola",
-          "signatures": null,
-          "targets": [
-            {
-              "description": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "version": "2025.01",
-              "versionCodes": null
-            }
-          ]
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF6B35",
+                    "name": "eTesty Autoškola",
+                    "packageName": "cz.etesty.autoskola",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2025.01"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the premium/licence gate so premium content and unlimited tests become available.",
+            "name": "Enable premium features",
+            "options": []
         }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Bypasses the premium/licence gate so premium content and unlimited tests become available.",
-      "name": "Enable premium features",
-      "options": []
-    }
-  ],
-  "version": "v1.0.0-dev.1"
+    ]
 }
