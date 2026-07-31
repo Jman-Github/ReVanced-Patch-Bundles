@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.4",
+    "version": "v1.13.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -54,9 +54,35 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Bypasses Google Play's PairIP by changing the application class in AndroidManifest.xml from com.pairip.application.Application to com.jeffprod.cubesolver.App. This completely skips the PairIP attachBaseContext which runs the APK signature check (crashes on patched APK) and the Google Play licensing check (redirects to Play Store). Also removes LicenseActivity and CHECK_LICENSE permission from the manifest. The PairIP VM is NOT disabled — it provides real onCreate implementations via reflection. REQUIRED for all other patches.",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Completely bypasses Google Play's PairIP by (1) disabling the PairIP VM (prevents native integrity checks and Play Store redirects from libpairipcore.so), (2) replacing MainActivity.onCreate with direct WebView setup (no VM needed), and (3) no-oping openPlayStore. The native library libpairipcore.so is never loaded, so it can't do JNI-based redirects. Also applies the manifest modifications from the companion 'Bypass PairIP manifest' patch. REQUIRED for all other patches.",
             "name": "Bypass PairIP integrity check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#F57C00",
+                    "name": "Cube Solver",
+                    "packageName": "com.jeffprod.cubesolver",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Modifies AndroidManifest.xml to skip the PairIP Application class, remove LicenseActivity, and remove CHECK_LICENSE permission. Part of the PairIP bypass.",
+            "name": "Bypass PairIP manifest",
             "options": []
         },
         {
@@ -279,7 +305,7 @@
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Removes all advertisements (rewarded ads and interstitial ads) from the app. When the user taps 'Watch ad to unlock' on a locked design, the ad is skipped and the design is unlocked instantly — the reward is granted without showing any ad. Also disables rewarded ad preloading to save bandwidth. Note: this patch does NOT automatically unlock designs — the user must still tap each locked design to unlock it (the ad is just skipped). For automatic unlock of ALL designs at startup, enable the 'Unlock all designs' patch. Requires the 'Bypass PairIP integrity check' patch.",
             "name": "Remove ads",
@@ -337,7 +363,7 @@
             ],
             "default": false,
             "dependencies": [
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Unlocks all puzzle designs (kilominx, mirror 2x2x2, and all other premium designs) by injecting localStorage[\"ulcsall\"] = \"ok\" into the WebView when the app starts. The JS-side isPaidUser() function checks this key and, when it returns true, treats every design as unlocked. Also skips the GDPR consent popup. Note: setting ulcsall=ok also removes all ads as a side effect (because the JS ad functions check isPaidUser first), so this patch is a superset of the 'Remove ads' patch. If you only want to remove ads without unlocking everything, use only the 'Remove ads' patch. Requires the 'Bypass PairIP integrity check' patch.",
             "name": "Unlock all designs",
