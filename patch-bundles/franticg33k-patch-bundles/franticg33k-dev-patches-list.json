@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.6-dev.1",
+    "version": "v1.3.6-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -275,6 +275,26 @@
             "default": true,
             "dependencies": [],
             "description": "Patches Dart AOT-compiled libapp.so to unlock all premium features. Forces hasPremiumAccess and isPaidUser to always return true by NOPing their ARM64 conditional branch instructions.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#D0BCFF",
+                    "name": "Native Camera",
+                    "packageName": "com.rawcam.app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces the premium entitlement in Native Camera. Premium status is a local 'is_premium' SharedPreferences flag read on startup behind PairIP's Play Store licensing, so this unlocks RAW DNG, 10-bit video, HLG/UHDR and the boosted-ISO seekbar.",
             "name": "Unlock Premium",
             "options": []
         },
