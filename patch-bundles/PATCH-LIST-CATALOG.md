@@ -62,12 +62,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
-| [Franticg33k](#-franticg33k-bundle-patch-list) | 16 | 8 | Generated |
+| [Franticg33k](#-franticg33k-bundle-patch-list) | 17 | 9 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 3 | 2 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
-| [Nai64](#-nai64-bundle-patch-list) | 8 | 1 | Generated |
+| [Nai64](#-nai64-bundle-patch-list) | 9 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
 | [Prathxm](#-prathxm-bundle-patch-list) | 7 | 1 | Generated |
 | [Telegram-Morphe](#-telegram-morphe-bundle-patch-list) | 10 | 1 | Generated |
@@ -103,7 +103,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
-| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 76 | 53 | Generated |
+| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 78 | 54 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 99 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 132 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
@@ -116,7 +116,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 2 | 1 | Generated |
-| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 20 | 1 | Generated |
+| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 21 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
 | [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 57 | 22 | Generated |
 | [Binarymend](#-binarymend-bundle-patch-list) | 11 | 7 | Generated |
@@ -540,7 +540,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Franticg33k Bundle Patch List:
 [📦 Franticg33k-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-franticg33k-patches-bundle-morphe)
 <details>
-<summary><b>Franticg33k</b> - 16 patches, 8 apps</summary>
+<summary><b>Franticg33k</b> - 17 patches, 9 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -553,6 +553,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```JellyWatch``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features and shop items in JellyWatch.``` | ```JellyWatch``` | ```All versions``` |
 | ```Unlock Premium``` | ```Patches Dart AOT-compiled libapp.so to unlock all premium features. Forces hasPremiumAccess and isPaidUser to always return true by NOPing their ARM64 conditional branch instructions.``` | ```Mero Karobar``` | ```All versions``` |
+| ```Unlock Premium``` | ```Forces the premium entitlement in Native Camera. Premium status is a local 'is_premium' SharedPreferences flag read on startup behind PairIP's Play Store licensing, so this unlocks RAW DNG, 10-bit video, HLG/UHDR and the boosted-ISO seekbar.``` | ```Native Camera``` | ```All versions``` |
 | ```Remove Ads``` | ```Disables all ad serving from Facebook Audience Network (FAN) and Google Mobile Ads (AdMob). No-ops the plugin bridges so no ads are shown.``` | ```Nepalipatro``` | ```All versions``` |
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```Prismatica Pro``` | ```All versions``` |
 | ```Remove License Check``` | ```Bypasses the PairIP Google Play Licensing check so the app runs without a valid Play Store license.``` | ```Prismatica Pro``` | ```All versions``` |
@@ -636,11 +637,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Nai64 Bundle Patch List:
 [?? Nai64-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nai64-patches-bundle-morphe)
 <details>
-<summary><b>Nai64</b> - 8 patches, 1 app</summary>
+<summary><b>Nai64</b> - 9 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Ads Free Rewards``` | ```N/A``` | ```Universal``` | ```All versions``` |
+| ```Custom App Resolution (Experimental)``` | ```N/A``` | ```Universal``` | ```All versions``` |
 | ```Disable Root Checks``` | ```N/A``` | ```Universal``` | ```All versions``` |
 | ```Disable Telemetry``` | ```N/A``` | ```Universal``` | ```All versions``` |
 | ```Disable Update Checks``` | ```N/A``` | ```Universal``` | ```All versions``` |
@@ -3016,7 +3018,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Hoo-dles Bundle Patch List:
 [📦 Hoo-dles-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoo-dles-patches-bundle-morphe)
 <details>
-<summary><b>Hoo-dles</b> - 76 patches, 53 apps</summary>
+<summary><b>Hoo-dles</b> - 78 patches, 54 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3042,6 +3044,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```HelloChinese``` | ```All versions``` |
 | ```Enable Prime membership``` | ```Enables app features locked behind the subscription paywall.``` | ```IbisPaint X``` | ```All versions``` |
 | ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. Some UI elements may not show an active membership, but this does not effect functionality.``` | ```Icon Packer``` | ```All versions``` |
+| ```Bypass login``` | ```Allows app use without login. BUT breaks many features. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lightroom Mobile``` | ```All versions``` |
+| ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lightroom Mobile``` | ```All versions``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Ling``` | ```All versions``` |
 | ```Block Permissions Request``` | ```Blocks the request of notification permissions on load of app.``` | ```Lingory``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lingory``` | ```All versions``` |
@@ -4048,7 +4052,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Jasonwu1994 Bundle Patch List:
 [📦 Jasonwu1994-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jasonwu1994-patches-bundle-morphe)
 <details>
-<summary><b>Jasonwu1994</b> - 20 patches, 1 app</summary>
+<summary><b>Jasonwu1994</b> - 21 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4064,6 +4068,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Inline Suggestions``` | ```啟用 修正和建議 > 智慧撰寫 Enable Text correction > Smart Compose.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Key Shape Selection``` | ```啟用圓角按鍵，主題詳情 > 按鍵形狀 Enable Key shape in Theme details.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Latin Globe Key Ignore Interval``` | ```新增英文鍵盤地球鍵忽略時間覆寫，可獨立控制輸入後切語言延遲 Add an independent English globe key ignore interval override for post-typing language-switch delay.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
+| ```Long-Press Editing Shortcuts``` | ```在英文 QWERTY 與注音鍵盤加入全選、復原、複製、剪下、貼上與重做長按快捷鍵 Add Select all, Undo, Copy, Cut, Paste, and Redo long-press shortcuts to English QWERTY and Zhuyin.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Package Rename``` | ```將套件名稱改成 dev.jason.com.google.android.inputmethod.latin 以便共存安裝 Rename the package to dev.jason.com.google.android.inputmethod.latin so it can be installed alongside the official Gboard.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Settings Homepage Override``` | ```允許切換新版或舊版 Gboard 設定頁面 Allow switching between the new and legacy Gboard settings pages.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Swipeable Custom Top Row``` | ```滑動鍵盤第一排，在原生列與可自訂文字/JavaScript 列之間切換 Swipe the keyboard top row to switch between the stock row and a customizable text/JavaScript row.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
@@ -5321,14 +5326,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Chrome Web Store extension installation``` | ```Включает обычную установку с сайта Chrome Web Store и автоматически активирует установленные расширения.``` | ```Microsoft Edge Canary``` | ```All versions``` |
-| ```Custom new tab``` | ```Открывает выбранную веб-страницу вместо встроенной новой вкладки Edge.``` | ```Microsoft Edge Canary``` | ```All versions``` |
-| ```Dismiss Microsoft account notice``` | ```Автоматически закрывает повторяющееся информационное окно Microsoft после входа, не отключая аккаунт и синхронизацию.``` | ```Microsoft Edge Canary``` | ```All versions``` |
-| ```Edge ReVanced branding``` | ```Переименовывает приложение, заменяет Canary-иконку и устанавливает фирменный splash Edge ReVanced.``` | ```Microsoft Edge Canary``` | ```All versions``` |
-| ```Mobile DevTools``` | ```Добавляет мобильный DevTools с локальным подключением к текущей вкладке Edge.``` | ```Microsoft Edge Canary``` | ```All versions``` |
-| ```Side-by-side test installation``` | ```Устанавливает мод рядом с официальным Edge Canary, не удаляя его данные.``` | ```Microsoft Edge Canary``` | ```All versions``` |
-| ```Swipe up to tabs``` | ```Открывает экран вкладок свайпом вверх по панели инструментов независимо от её положения.``` | ```Microsoft Edge Canary``` | ```All versions``` |
-| ```Thumb-reach tab switcher``` | ```Размещает старые вкладки снизу справа, а новые добавляет вверх для управления большим пальцем.``` | ```Microsoft Edge Canary``` | ```All versions``` |
+| ```Chrome Web Store extension installation``` | ```Включает обычную установку с сайта Chrome Web Store и автоматически активирует установленные расширения.``` | ```com.microsoft.emmx.canary``` | ```All versions``` |
+| ```Custom new tab``` | ```Открывает выбранную веб-страницу вместо встроенной новой вкладки Edge.``` | ```com.microsoft.emmx.canary``` | ```All versions``` |
+| ```Dismiss Microsoft account notice``` | ```Автоматически закрывает повторяющееся информационное окно Microsoft после входа, не отключая аккаунт и синхронизацию.``` | ```com.microsoft.emmx.canary``` | ```All versions``` |
+| ```Edge ReVanced branding``` | ```Переименовывает приложение, заменяет Canary-иконку и устанавливает фирменный splash Edge ReVanced.``` | ```com.microsoft.emmx.canary``` | ```All versions``` |
+| ```Mobile DevTools``` | ```Добавляет мобильный DevTools с локальным подключением к текущей вкладке Edge.``` | ```com.microsoft.emmx.canary``` | ```All versions``` |
+| ```Side-by-side test installation``` | ```Устанавливает мод рядом с официальным Edge Canary, не удаляя его данные.``` | ```com.microsoft.emmx.canary``` | ```All versions``` |
+| ```Swipe up to tabs``` | ```Открывает экран вкладок свайпом вверх по панели инструментов независимо от её положения.``` | ```com.microsoft.emmx.canary``` | ```All versions``` |
+| ```Thumb-reach tab switcher``` | ```Размещает старые вкладки снизу справа, а новые добавляет вверх для управления большим пальцем.``` | ```com.microsoft.emmx.canary``` | ```All versions``` |
 
 </details>
 
