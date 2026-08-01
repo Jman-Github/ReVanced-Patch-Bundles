@@ -104,7 +104,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 78 | 54 | Generated |
-| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 99 | 6 | Generated |
+| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 101 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 133 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
@@ -3223,7 +3223,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle-morphe)
 <details>
-<summary><b>AmpleReVanced</b> - 99 patches, 6 apps</summary>
+<summary><b>AmpleReVanced</b> - 101 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3262,6 +3262,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Add settings resources``` | ```Adds Morphe settings layout resources to the app.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Add settings tab``` | ```Adds a settings tab to the app.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Allow Hide on Any Chat``` | ```Users with hiding privileges can hide any chat, including their own messages.``` | ```Kakao Talk``` | ```All versions``` |
+| ```Allow invisible characters``` | ```Stops zero width and other invisible characters from being stripped out of the chat input and out of the messages shown in a chat room.``` | ```Kakao Talk``` | ```All versions``` |
+| ```Allow profile media download``` | ```Adds the save option of the profile media viewer to the profile pictures and background images of other people.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Allow reply to feed``` | ```Allows replying to feed messages``` | ```Kakao Talk``` | ```All versions``` |
 | ```Always Show Kick Button``` | ```Always shows the kick button in group member management.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Bypass input mention limit in non-multichat``` | ```Bypass the limit of input mentions in non-multichat rooms``` | ```Kakao Talk``` | ```All versions``` |
@@ -5171,8 +5173,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable LINE Premium``` | ```Hides all LINE Yahoo Premium (LYP) surfaces — upsell popups/banners, premium badges & locks, the "LINE Premium" settings page and its entry rows, and the subscribe/manage flows — by forcing the app's own "premium available in this market" flag off. The app then behaves exactly as it does in a region where LYP isn't offered. Does not unlock anything (premium is server-enforced); it only removes premium from view. A LYP subscriber would lose their in-app premium management UI.``` | ```LINE``` | ```All versions``` |
-| ```Disable VOOM``` | ```Neutralizes VOOM entry points: VOOM deep links, shares, and notifications (line://home/*) do nothing, and the standalone VOOM feed closes on open. Also disables VOOM LIVE, the birthday board, and share-to-VOOM. Messaging, friend profiles, and other tabs are unaffected.``` | ```LINE``` | ```All versions``` |
+| ```Disable LINE Premium``` | ```Hides all LINE Yahoo Premium (LYP) surfaces — upsells, badges, the Premium settings page, and subscribe/manage flows. Doesn't unlock anything (premium is server-enforced).``` | ```LINE``` | ```All versions``` |
+| ```Disable VOOM``` | ```Neutralizes VOOM entry points — deep links, shares, and notifications do nothing and the standalone VOOM feed closes on open. Messaging and other tabs are unaffected.``` | ```LINE``` | ```All versions``` |
 | ```Hide ad views``` | ```Hides LINE display ad views — the LINE Ads SDK containers across the app, the chat-list Smart Channel banner, and Google AdManager ads.``` | ```LINE``` | ```All versions``` |
 | ```Hide attach menu extra tools``` | ```Removes all the server-provided extra tools from a chat room's + attach menu (Poll, Reservation, Schedule, Ladder shuffle, and any others). The built-in tiles (camera, gallery, files, contact, etc.) are unaffected.``` | ```LINE``` | ```All versions``` |
 | ```Hide calendar buttons``` | ```Removes every LINE Calendar button inside the messenger: the one in the Chats-tab header, and the four inside a chat room — the top toolbar, the + attach menu, the slide-out chat menu, and the message long-press menu.``` | ```LINE``` | ```All versions``` |
@@ -5181,13 +5183,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide Home modules``` | ```Hides Home-tab clutter modules: the recommended stickers/content section, the real-time hot-topics (即時夯話題) block, and Home feed ads.``` | ```LINE``` | ```All versions``` |
 | ```Hide LINE GIFT button``` | ```Removes the LINE GIFT tile from a chat room's + attach menu.``` | ```LINE``` | ```All versions``` |
 | ```Hide LINE TODAY tab``` | ```Removes the LINE TODAY (News) tab from the main bottom navigation, in both the news-tab and news-row layouts.``` | ```LINE``` | ```All versions``` |
-| ```Hide premium unsend upsells``` | ```Removes the two LYP premium-unsend upsells that survive "Disable LINE Premium" (they read config directly instead of the market-availability flag): the "Unsend discreetly" button in the unsend-message confirmation dialog, and the "How to unsend discreetly" promotion link shown after unsending. The dialog keeps its ordinary "Unsend" and "Close" buttons. Also removes the "Unsend" long-press option for messages older than the free unsend window (~1h) so it no longer shows the "Give yourself more time" upgrade upsell — matching how messages past the premium window behave.``` | ```LINE``` | ```All versions``` |
+| ```Hide premium unsend upsells``` | ```Removes the LYP premium-unsend upsells that survive "Disable LINE Premium": the "Unsend discreetly" button, the post-unsend promo link, and the expired-window unsend upsell. Ordinary unsend still works.``` | ```LINE``` | ```All versions``` |
 | ```Hide Transfer button``` | ```Removes the Transfer (LINE Pay) tile from a chat room's + attach menu.``` | ```LINE``` | ```All versions``` |
 | ```Hide VOOM tab``` | ```Removes the VOOM (formerly Timeline) tab from the main bottom navigation.``` | ```LINE``` | ```All versions``` |
 | ```Hide Wallet tab``` | ```Removes the Wallet (LINE Pay) tab from the main bottom navigation, in both the normal and mini-tab layouts.``` | ```LINE``` | ```All versions``` |
 | ```Keep chats unread``` | ```Opening a 1:1 or group chat no longer marks it read — it stays unread and no read receipt is sent. Manually using "Mark as read" / "Mark all as read" still marks the chat read and sends the receipt as normal.``` | ```LINE``` | ```All versions``` |
 | ```Open links in external browser``` | ```Opens tapped web links (http/https) in your default browser instead of LINE's in-app browser. LIFF mini-apps and LINE deep links are unaffected.``` | ```LINE``` | ```All versions``` |
-| ```Redirect LINE Pay``` | ```Forwards LINE Pay flows to the separately-installed standalone LINE Pay app instead of running them inside the messenger, so the in-app device-integrity check (which fails on a re-signed build) never runs. Falls back to closing the Pay screen if the standalone app can't be opened. Messaging is unaffected.``` | ```LINE``` | ```All versions``` |
+| ```Redirect LINE Pay``` | ```Forwards LINE Pay flows to the standalone LINE Pay app instead of running them in-app, so the device-integrity check that fails on a re-signed build never runs. Messaging is unaffected.``` | ```LINE``` | ```All versions``` |
 | ```Remove banner ads``` | ```Stops LINE from loading Smart Channel banner ads (neutralizes the getBanners and getPrefetchableBanners responses).``` | ```LINE``` | ```All versions``` |
 
 </details>

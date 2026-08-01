@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.20",
+    "version": "v1.3.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -11,7 +11,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -37,7 +37,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -64,7 +64,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -85,7 +85,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -112,7 +112,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -136,7 +136,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -160,7 +160,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -207,7 +207,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -241,7 +241,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -265,7 +265,60 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Stops zero width and other invisible characters from being stripped out of the chat input and out of the messages shown in a chat room.",
+            "name": "Allow invisible characters",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.6.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds the save option of the profile media viewer to the profile pictures and background images of other people.",
+            "name": "Allow profile media download",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -289,7 +342,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -308,6 +361,10 @@
                     "name": "Chzzk",
                     "packageName": "com.navercorp.game.android.community",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.10.0"
+                        },
                         {
                             "isExperimental": false,
                             "version": "3.9.0"
@@ -331,7 +388,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -357,7 +414,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -376,6 +433,10 @@
                     "name": "Flexcil",
                     "packageName": "com.flexcil.flexcilnote",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.4.10"
+                        },
                         {
                             "isExperimental": false,
                             "version": "1.4.4.9"
@@ -402,7 +463,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -428,7 +489,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -451,7 +512,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -509,7 +570,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -563,7 +624,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -611,7 +672,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -647,7 +708,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -670,7 +731,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -696,7 +757,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -720,7 +781,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -743,7 +804,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -762,6 +823,10 @@
                     "name": "Chzzk",
                     "packageName": "com.navercorp.game.android.community",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.10.0"
+                        },
                         {
                             "isExperimental": false,
                             "version": "3.9.0"
@@ -788,7 +853,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -812,7 +877,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -836,7 +901,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -857,7 +922,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -881,7 +946,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -902,7 +967,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -928,7 +993,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -952,7 +1017,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -973,7 +1038,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -997,7 +1062,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1023,7 +1088,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1042,6 +1107,10 @@
                     "name": "Chzzk",
                     "packageName": "com.navercorp.game.android.community",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.10.0"
+                        },
                         {
                             "isExperimental": false,
                             "version": "3.9.0"
@@ -1065,7 +1134,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.28.3"
+                            "version": "8.28.5"
                         }
                     ]
                 }
@@ -1091,7 +1160,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1115,7 +1184,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1139,7 +1208,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1165,7 +1234,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1199,7 +1268,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1223,7 +1292,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1244,7 +1313,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -1268,7 +1337,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1292,7 +1361,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1315,7 +1384,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -1339,7 +1408,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1363,7 +1432,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1389,7 +1458,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1415,7 +1484,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1439,7 +1508,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1462,7 +1531,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -1483,6 +1552,10 @@
                     "name": "Chzzk",
                     "packageName": "com.navercorp.game.android.community",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.10.0"
+                        },
                         {
                             "isExperimental": false,
                             "version": "3.9.0"
@@ -1506,7 +1579,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -1529,7 +1602,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -1550,7 +1623,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -1576,7 +1649,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1602,7 +1675,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1628,7 +1701,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1654,7 +1727,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1680,7 +1753,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1713,7 +1786,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -1737,7 +1810,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1758,7 +1831,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.28.3"
+                            "version": "8.28.5"
                         }
                     ]
                 }
@@ -1782,7 +1855,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1803,7 +1876,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.28.3"
+                            "version": "8.28.5"
                         }
                     ]
                 }
@@ -1824,7 +1897,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.28.3"
+                            "version": "8.28.5"
                         }
                     ]
                 }
@@ -1848,7 +1921,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1872,7 +1945,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -1893,7 +1966,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.28.3"
+                            "version": "8.28.5"
                         }
                     ]
                 }
@@ -1914,7 +1987,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.28.3"
+                            "version": "8.28.5"
                         }
                     ]
                 }
@@ -1935,7 +2008,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.28.3"
+                            "version": "8.28.5"
                         }
                     ]
                 }
@@ -1956,7 +2029,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.28.3"
+                            "version": "8.28.5"
                         }
                     ]
                 }
@@ -1977,7 +2050,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.28.3"
+                            "version": "8.28.5"
                         }
                     ]
                 }
@@ -2001,7 +2074,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -2025,7 +2098,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -2049,7 +2122,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -2073,7 +2146,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -2097,7 +2170,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -2120,7 +2193,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.28.3"
+                            "version": "8.28.5"
                         }
                     ]
                 }
@@ -2141,7 +2214,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -2164,7 +2237,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -2189,7 +2262,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -2216,7 +2289,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -2244,7 +2317,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -2293,7 +2366,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -2323,7 +2396,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -2347,7 +2420,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -2368,7 +2441,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.0"
+                            "version": "5.3.2"
                         }
                     ]
                 }
@@ -2394,7 +2467,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
@@ -2413,6 +2486,10 @@
                     "name": "Chzzk",
                     "packageName": "com.navercorp.game.android.community",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.10.0"
+                        },
                         {
                             "isExperimental": false,
                             "version": "3.9.0"
@@ -2434,6 +2511,10 @@
                     "name": "Flexcil",
                     "packageName": "com.flexcil.flexcilnote",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.4.10"
+                        },
                         {
                             "isExperimental": false,
                             "version": "1.4.4.9"
@@ -2460,7 +2541,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.1"
+                            "version": "26.6.3"
                         }
                     ]
                 }
