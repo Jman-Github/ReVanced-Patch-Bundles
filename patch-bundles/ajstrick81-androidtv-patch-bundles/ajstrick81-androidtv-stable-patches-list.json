@@ -1,5 +1,5 @@
 {
-    "version": "v1.17.0",
+    "version": "v1.18.0",
     "patches": [
         {
             "compatibility": [
@@ -598,6 +598,32 @@
             },
             "dependencies": [],
             "description": "Suppresses all ad delivery systems in Tubi Android TV.",
+            "name": "Skip ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 9520895,
+                    "description": null,
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "30.2.2"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "tv.twitch.android.app": [
+                    "30.2.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Reduces Twitch live ads: spoofs the stream access-token playerType to \"embed\" (usher serves an ad-free stream for that context — kills the long SSAI mid-rolls), forces the GrandDads ad-eligibility response to AdContextUnavailable, and forces the ExoPlayer stitched-ad (SSAI) metadata parser to treat every segment as non-ad (suppresses ad tracking/beacons). On-device (v30.2.2, Onn 4K): the long mid-roll ads are gone and the join pre-roll drops to ~15s; a residual short pre-roll remains because it is server-stitched in the native IVS path, which bytecode cannot reach.",
             "name": "Skip ads",
             "options": [],
             "use": true
