@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.1",
+    "version": "v1.4.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -18,7 +18,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Hides all LINE Yahoo Premium (LYP) surfaces — upsell popups/banners, premium badges & locks, the \"LINE Premium\" settings page and its entry rows, and the subscribe/manage flows — by forcing the app's own \"premium available in this market\" flag off. The app then behaves exactly as it does in a region where LYP isn't offered. Does not unlock anything (premium is server-enforced); it only removes premium from view. A LYP subscriber would lose their in-app premium management UI.",
+            "description": "Hides all LINE Yahoo Premium (LYP) surfaces — upsells, badges, the Premium settings page, and subscribe/manage flows. Doesn't unlock anything (premium is server-enforced).",
             "name": "Disable LINE Premium",
             "options": []
         },
@@ -39,8 +39,29 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Neutralizes VOOM entry points: VOOM deep links, shares, and notifications (line://home/*) do nothing, and the standalone VOOM feed closes on open. Also disables VOOM LIVE, the birthday board, and share-to-VOOM. Messaging, friend profiles, and other tabs are unaffected.",
+            "description": "Neutralizes VOOM entry points — deep links, shares, and notifications do nothing and the standalone VOOM feed closes on open. Messaging and other tabs are unaffected.",
             "name": "Disable VOOM",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#06C755",
+                    "name": "LINE",
+                    "packageName": "jp.naver.line.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.11.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Restores push notifications on re-signed builds when LINE is fully closed. If they still don't arrive, use a Root Mount install.",
+            "name": "Fix push notifications",
             "options": []
         },
         {
@@ -228,7 +249,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the two LYP premium-unsend upsells that survive \"Disable LINE Premium\" (they read config directly instead of the market-availability flag): the \"Unsend discreetly\" button in the unsend-message confirmation dialog, and the \"How to unsend discreetly\" promotion link shown after unsending. The dialog keeps its ordinary \"Unsend\" and \"Close\" buttons. Also removes the \"Unsend\" long-press option for messages older than the free unsend window (~1h) so it no longer shows the \"Give yourself more time\" upgrade upsell — matching how messages past the premium window behave.",
+            "description": "Removes the LYP premium-unsend upsells that survive \"Disable LINE Premium\": the \"Unsend discreetly\" button, the post-unsend promo link, and the expired-window unsend upsell. Ordinary unsend still works.",
             "name": "Hide premium unsend upsells",
             "options": []
         },
@@ -354,7 +375,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forwards LINE Pay flows to the separately-installed standalone LINE Pay app instead of running them inside the messenger, so the in-app device-integrity check (which fails on a re-signed build) never runs. Falls back to closing the Pay screen if the standalone app can't be opened. Messaging is unaffected.",
+            "description": "Forwards LINE Pay flows to the standalone LINE Pay app instead of running them in-app, so the device-integrity check that fails on a re-signed build never runs. Messaging is unaffected.",
             "name": "Redirect LINE Pay",
             "options": []
         },

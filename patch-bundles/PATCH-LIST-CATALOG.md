@@ -149,7 +149,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HXReborn](#-hxreborn-bundle-patch-list) | 8 | 4 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 3 | 4 | Generated |
-| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 18 | 1 | Generated |
+| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 19 | 1 | Generated |
 | [Morning-Entree](#-morning-entree-bundle-patch-list) | 20 | 64 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 6 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
@@ -5169,12 +5169,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AndrewLiang25 Bundle Patch List:
 [📦 AndrewLiang25-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-andrewliang25-patches-bundle-morphe)
 <details>
-<summary><b>AndrewLiang25</b> - 18 patches, 1 app</summary>
+<summary><b>AndrewLiang25</b> - 19 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable LINE Premium``` | ```Hides all LINE Yahoo Premium (LYP) surfaces — upsells, badges, the Premium settings page, and subscribe/manage flows. Doesn't unlock anything (premium is server-enforced).``` | ```LINE``` | ```All versions``` |
 | ```Disable VOOM``` | ```Neutralizes VOOM entry points — deep links, shares, and notifications do nothing and the standalone VOOM feed closes on open. Messaging and other tabs are unaffected.``` | ```LINE``` | ```All versions``` |
+| ```Fix push notifications``` | ```Restores push notifications on re-signed builds when LINE is fully closed. If they still don't arrive, use a Root Mount install.``` | ```LINE``` | ```All versions``` |
 | ```Hide ad views``` | ```Hides LINE display ad views — the LINE Ads SDK containers across the app, the chat-list Smart Channel banner, and Google AdManager ads.``` | ```LINE``` | ```All versions``` |
 | ```Hide attach menu extra tools``` | ```Removes all the server-provided extra tools from a chat room's + attach menu (Poll, Reservation, Schedule, Ladder shuffle, and any others). The built-in tiles (camera, gallery, files, contact, etc.) are unaffected.``` | ```LINE``` | ```All versions``` |
 | ```Hide calendar buttons``` | ```Removes every LINE Calendar button inside the messenger: the one in the Chats-tab header, and the four inside a chat room — the top toolbar, the + attach menu, the slide-out chat menu, and the message long-press menu.``` | ```LINE``` | ```All versions``` |
