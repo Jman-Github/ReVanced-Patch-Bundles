@@ -3253,7 +3253,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Register settings activity``` | ```Registers the Morphe settings activity in the app manifest.``` | ```dcinside``` | ```All versions``` |
 | ```Render big DCCon as normal size``` | ```Adds a setting to render big DCCon at normal DCCon size.``` | ```dcinside``` | ```All versions``` |
 | ```Restore old post icons``` | ```Adds a setting to restore DCInside 4.7.x post list and read footer icons.``` | ```dcinside``` | ```All versions``` |
-| ```Show author identifier``` | ```Adds options to show the author identifier next to the nickname in posts, post lists, and the recently-viewed posts list. The recently-viewed list only shows it for posts opened after this patch is installed.``` | ```dcinside``` | ```All versions``` |
+| ```Show author identifier``` | ```Adds options to show the author identifier next to the nickname in posts, post lists, comments, and the recently-viewed posts list. The recently-viewed list only shows it for posts opened after this patch is installed.``` | ```dcinside``` | ```All versions``` |
 | ```Spoof Signature``` | ```Spoofs the app signature to bypass integrity checks.``` | ```dcinside``` | ```All versions``` |
 | ```Bypass login``` | ```Skips the mandatory account sign-in on launch and opens the app directly.``` | ```Flexcil``` | ```All versions``` |
 | ```Unlock Premium features``` | ```Enables app features locked behind the subscription paywall.``` | ```Flexcil``` | ```All versions``` |
@@ -3264,7 +3264,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Allow Hide on Any Chat``` | ```Users with hiding privileges can hide any chat, including their own messages.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Allow invisible characters``` | ```Stops zero width and other invisible characters from being stripped out of the chat input and out of the messages shown in a chat room.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Allow profile media download``` | ```Adds the save option of the profile media viewer to the profile pictures and background images of other people.``` | ```Kakao Talk``` | ```All versions``` |
-| ```Allow reply to feed``` | ```Allows replying to feed messages``` | ```Kakao Talk``` | ```All versions``` |
+| ```Allow reply to feed``` | ```Allows swiping feed messages to reply, or to comment where chat room comments are enabled.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Always Show Kick Button``` | ```Always shows the kick button in group member management.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Bypass input mention limit in non-multichat``` | ```Bypass the limit of input mentions in non-multichat rooms``` | ```Kakao Talk``` | ```All versions``` |
 | ```Bypass Moat check``` | ```Add a setting to bypass the Moat integrity check that can prevent KakaoPay from running.``` | ```Kakao Talk``` | ```All versions``` |

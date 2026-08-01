@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.1",
+    "version": "v1.3.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -325,7 +325,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Allows replying to feed messages",
+            "description": "Allows swiping feed messages to reply, or to comment where chat room comments are enabled.",
             "name": "Allow reply to feed",
             "options": []
         },
@@ -2272,7 +2272,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds options to show the author identifier next to the nickname in posts, post lists, and the recently-viewed posts list. The recently-viewed list only shows it for posts opened after this patch is installed.",
+            "description": "Adds options to show the author identifier next to the nickname in posts, post lists, comments, and the recently-viewed posts list. The recently-viewed list only shows it for posts opened after this patch is installed.",
             "name": "Show author identifier",
             "options": []
         },
