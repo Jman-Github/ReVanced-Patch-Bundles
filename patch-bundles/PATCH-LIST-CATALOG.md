@@ -5264,7 +5264,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Voice Over Translation (Yandex)``` | ```Adds an option to enable Yandex voice-over translation of video audio tracks.``` | ```YouTube``` | ```All versions``` |
+| ```Voice Over Translation (Yandex)``` | ```Adds an option to enable Yandex voice-over translation of video audio tracks. Requires the "Add-on support" patch of Morphe Patches.``` | ```YouTube``` | ```All versions``` |
 
 </details>
 

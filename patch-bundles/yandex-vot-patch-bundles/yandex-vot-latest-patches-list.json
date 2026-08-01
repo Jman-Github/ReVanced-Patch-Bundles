@@ -1,4 +1,5 @@
 {
+    "version": "v1.0.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -13,44 +14,7 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "minSdk": 29,
-                            "version": "21.29.366"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 29,
-                            "version": "21.28.204"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 29,
-                            "version": "21.26.360"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "21.05.265"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.31.42"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 26,
-                            "version": "20.21.37"
+                            "isExperimental": false
                         }
                     ]
                 }
@@ -60,10 +24,9 @@
                 "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds an option to enable Yandex voice-over translation of video audio tracks.",
+            "description": "Adds an option to enable Yandex voice-over translation of video audio tracks. Requires the \"Add-on support\" patch of Morphe Patches.",
             "name": "Voice Over Translation (Yandex)",
             "options": []
         }
-    ],
-    "version": "v1.0.0"
+    ]
 }
