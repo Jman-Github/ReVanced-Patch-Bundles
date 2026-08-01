@@ -65,7 +65,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 17 | 9 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 5 | 4 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 6 | 5 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 9 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -80,7 +80,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Samsung-Morphe](#-samsung-morphe-bundle-patch-list) | 2 | 1 | Generated |
 | [YT-YA-Voiceover](#-yt-ya-voiceover-bundle-patch-list) | 3 | 1 | Generated |
 | [Perplexity-STT](#-perplexity-stt-bundle-patch-list) | 1 | 1 | Generated |
-| [Browzomje](#-browzomje-bundle-patch-list) | 14 | 1 | Generated |
+| [Browzomje](#-browzomje-bundle-patch-list) | 19 | 2 | Generated |
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 9 | 6 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
@@ -599,12 +599,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 5 patches, 4 apps</summary>
+<summary><b>Okish-Morphe</b> - 6 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```FreeJobAlert Ad Removal``` | ```Removes all Google AdMob ads (banner, interstitial, rewarded, app open, native).``` | ```FreeJobAlert``` | ```All versions``` |
 | ```FreeJobAlert License Bypass``` | ```Bypasses the Pairip Play Store installation check so the app launches normally.``` | ```FreeJobAlert``` | ```All versions``` |
+| ```Jetpack Joyride Billing Bypass``` | ```Intercepts all in-app purchases and reports instant success to the game engine.``` | ```Jetpack Joyride``` | ```All versions``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```All versions``` |
 | ```Swordigo Premium Unlock``` | ```Enables ad-free, guiding compass, and coin doubler without purchase.``` | ```Swordigo``` | ```All versions``` |
 | ```TrueCloud Ad Removal``` | ```Consolidated patch to remove all ads, boot pages, cloud popups, and the help center robot.``` | ```TrueCloud``` | ```All versions``` |
@@ -844,10 +845,15 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Browzomje Bundle Patch List:
 [📦 Browzomje-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-browzomje-patches-bundle-morphe)
 <details>
-<summary><b>Browzomje</b> - 14 patches, 1 app</summary>
+<summary><b>Browzomje</b> - 19 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Disable ad SDK``` | ```Stops the AppLovin MAX mediation stack — and with it Pangle, Amazon APS, Chartboost, InMobi, Mintegral, Fyber, Bigo and the rest — from ever initialising. The game starts faster and makes no ad-network requests at all. Requires "Remove ads": on its own it would only make the app fail to find ads, not stop asking for them.``` | ```Easy Sudoku``` | ```All versions``` |
+| ```Disable tracking``` | ```Hands out an empty Google Advertising ID with "limit ad tracking" turned on, and stops AppsFlyer from sending install attribution and events. The game keeps working normally: nothing in it waits for attribution data.``` | ```Easy Sudoku``` | ```All versions``` |
+| ```Instant rewards``` | ```Grants the reward of every "watch an ad" button — hints, streak repairs, extra puzzles — immediately, without playing a video. This is what keeps those buttons working once "Remove ads" is enabled: without it the game believes no video is available and hands out nothing.``` | ```Easy Sudoku``` | ```All versions``` |
+| ```Reclaim ad banner space``` | ```Collapses the empty strip the banner used to occupy at the bottom of the board, so the puzzle gets the space back instead of staring at a blank rectangle. Only useful together with "Remove ads".``` | ```Easy Sudoku``` | ```All versions``` |
+| ```Remove ads``` | ```Turns off every ad Easy Sudoku shows: the home banner, the interstitials between puzzles, the app-open ad and all the background preloading. It works by telling the game its own "ads removed" purchase is already active, which also unlocks the Fun, Ice and Killer Sudoku modes that are otherwise gated behind watching ads. Keep "Instant rewards" enabled too, or the "watch an ad for a hint" buttons stop giving anything.``` | ```Easy Sudoku``` | ```All versions``` |
 | ```Copy direct link``` | ```Adds a 'Copy direct link' option to the pin menu to copy a link under the direct CDN media format instead of the standard Pinterest web link.``` | ```Pinterest``` | ```All versions``` |
 | ```Disable ads``` | ```Removes sponsored (promoted) pins from the home feed and from search/related/board feeds. Also carries the optional "Hide product pins" filter, which is off by default and is turned on from the Morphe settings screen.``` | ```Pinterest``` | ```All versions``` |
 | ```Disable email confirmation dialog``` | ```Immediately closes the "confirm your email" modal (and similar ones: connect Google, etc.) if enabled in Morphe settings.``` | ```Pinterest``` | ```All versions``` |
