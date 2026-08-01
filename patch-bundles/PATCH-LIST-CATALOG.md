@@ -3015,7 +3015,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Skip update auth``` | ```Removes the login requirement when updating apps.``` | ```RuStore``` | ```All versions``` |
 | ```Disable analytics``` | ```Disables SoundCloud's analytics.``` | ```SoundCloud``` | ```All versions``` |
 | ```Disable consent popup``` | ```Disables the OneTrust consent/cookies popup on first launch.``` | ```SoundCloud``` | ```All versions``` |
-| ```Enable SoundCloud Go+``` | ```Enables all premium features, hides upsell UI and ads.``` | ```SoundCloud``` | ```All versions``` |
+| ```Enable SoundCloud Go``` | ```Enables SoundCloud Go premium features.``` | ```SoundCloud``` | ```All versions``` |
 | ```Change version code``` | ```Changes the app version code, allowing installation over existing versions.``` | ```Universal``` | ```All versions``` |
 | ```Disable analytics``` | ```Disables analytics and tracking from multiple SDKs, including AppMetrica, MyTracker, Firebase, Sentry, Google Analytics, Amplitude, Mixpanel, Adjust, AppsFlyer, Facebook, MoEngage, and comScore.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables the Pairip license verification check.``` | ```Universal``` | ```All versions``` |

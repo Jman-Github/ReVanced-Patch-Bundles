@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.0-dev.1",
+    "version": "v1.18.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -106,7 +106,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2026.06.25-release"
+                            "version": "2026.07.23-release"
                         }
                     ]
                 }
@@ -170,7 +170,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2026.06.25-release"
+                            "version": "2026.07.23-release"
                         }
                     ]
                 }
@@ -258,15 +258,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2026.06.25-release"
+                            "version": "2026.07.23-release"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Enables all premium features, hides upsell UI and ads.",
-            "name": "Enable SoundCloud Go+",
+            "description": "Enables SoundCloud Go premium features.",
+            "name": "Enable SoundCloud Go",
             "options": []
         },
         {
