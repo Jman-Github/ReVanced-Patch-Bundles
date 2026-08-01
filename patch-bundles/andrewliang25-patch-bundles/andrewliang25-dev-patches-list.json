@@ -1,27 +1,6 @@
 {
-    "version": "v1.2.0-dev.1",
+    "version": "v1.3.0-dev.1",
     "patches": [
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#06C755",
-                    "name": "LINE",
-                    "packageName": "jp.naver.line.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.11.0"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Closes any LINE Pay screen immediately on open, so Pay flows (and their device-integrity check) never run. Messaging is unaffected.",
-            "name": "Disable LINE Pay",
-            "options": []
-        },
         {
             "compatiblePackages": [
                 {
@@ -249,7 +228,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the two LYP premium-unsend upsells that survive \"Disable LINE Premium\" (they read config directly instead of the market-availability flag): the \"Unsend discreetly\" button in the unsend-message confirmation dialog, and the \"How to unsend discreetly\" promotion link shown after unsending. The dialog keeps its ordinary \"Unsend\" and \"Close\" buttons.",
+            "description": "Removes the two LYP premium-unsend upsells that survive \"Disable LINE Premium\" (they read config directly instead of the market-availability flag): the \"Unsend discreetly\" button in the unsend-message confirmation dialog, and the \"How to unsend discreetly\" promotion link shown after unsending. The dialog keeps its ordinary \"Unsend\" and \"Close\" buttons. Also removes the \"Unsend\" long-press option for messages older than the free unsend window (~1h) so it no longer shows the \"Give yourself more time\" upgrade upsell — matching how messages past the premium window behave.",
             "name": "Hide premium unsend upsells",
             "options": []
         },
@@ -356,6 +335,27 @@
             "dependencies": [],
             "description": "Opens tapped web links (http/https) in your default browser instead of LINE's in-app browser. LIFF mini-apps and LINE deep links are unaffected.",
             "name": "Open links in external browser",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#06C755",
+                    "name": "LINE",
+                    "packageName": "jp.naver.line.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.11.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forwards LINE Pay flows to the separately-installed standalone LINE Pay app instead of running them inside the messenger, so the in-app device-integrity check (which fails on a re-signed build) never runs. Falls back to closing the Pay screen if the standalone app can't be opened. Messaging is unaffected.",
+            "name": "Redirect LINE Pay",
             "options": []
         },
         {
