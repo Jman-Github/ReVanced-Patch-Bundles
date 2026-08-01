@@ -65,7 +65,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 17 | 9 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 4 | 3 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 5 | 4 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 9 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -105,7 +105,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 78 | 54 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 99 | 6 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 132 | 4 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 133 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 2 | 2 | Generated |
@@ -157,7 +157,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Watch-Later](#-watch-later-bundle-patch-list) | 1 | 1 | Generated |
 | [SofaTime](#-sofatime-bundle-patch-list) | 4 | 1 | Generated |
 | [Hiosdra](#-hiosdra-bundle-patch-list) | 7 | 3 | Generated |
-| [Jl4cTuk](#-jl4ctuk-bundle-patch-list) | 19 | 3 | Generated |
+| [Jl4cTuk](#-jl4ctuk-bundle-patch-list) | 16 | 3 | Generated |
 | [LaBlazer](#-lablazer-bundle-patch-list) | 1 | 1 | Generated |
 | [D0NJ](#-d0nj-bundle-patch-list) | 1 | 1 | Generated |
 | [Morphe-NL](#-morphe-nl-bundle-patch-list) | 3 | 1 | Generated |
@@ -599,13 +599,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 4 patches, 3 apps</summary>
+<summary><b>Okish-Morphe</b> - 5 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```FreeJobAlert Ad Removal``` | ```Removes all Google AdMob ads (banner, interstitial, rewarded, app open, native).``` | ```FreeJobAlert``` | ```All versions``` |
 | ```FreeJobAlert License Bypass``` | ```Bypasses the Pairip Play Store installation check so the app launches normally.``` | ```FreeJobAlert``` | ```All versions``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```All versions``` |
+| ```Swordigo Premium Unlock``` | ```Enables ad-free, guiding compass, and coin doubler without purchase.``` | ```Swordigo``` | ```All versions``` |
 | ```TrueCloud Ad Removal``` | ```Consolidated patch to remove all ads, boot pages, cloud popups, and the help center robot.``` | ```TrueCloud``` | ```All versions``` |
 
 </details>
@@ -3340,7 +3341,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 132 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 133 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3362,6 +3363,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```All versions``` |
 | ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```All versions``` |
 | ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```All versions``` |
+| ```Change installer source``` | ```Spoofs the installer source so the app appears to be installed from an app store.``` | ```Universal``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch does not work if the app is installed by mounting and may cause unexpected issues with some apps.``` | ```Universal``` | ```All versions``` |
 | ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
@@ -5305,7 +5307,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Jl4cTuk Bundle Patch List:
 [📦 Jl4cTuk-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jl4ctuk-patches-bundle-morphe)
 <details>
-<summary><b>Jl4cTuk</b> - 19 patches, 3 apps</summary>
+<summary><b>Jl4cTuk</b> - 16 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5320,14 +5322,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Ozon Bank VPN warning``` | ```Removes the warning shown when Ozon Bank detects an active VPN connection.``` | ```Ozon Bank``` | ```All versions``` |
 | ```Hide Ozon Bank benefit sections``` | ```Adds options to hide selected non-advertising sections from the Benefit page.``` | ```Ozon Bank``` | ```All versions``` |
 | ```Hide Ozon Bank promotions``` | ```Uses the classic home design and removes promotional cards, sections, shortcuts, and the startup installment offer from Ozon Bank pages.``` | ```Ozon Bank``` | ```All versions``` |
-| ```Disable ads``` | ```Removes advertisements and recommendations from search.``` | ```RuStore``` | ```All versions``` |
+| ```Disable ads``` | ```Removes advertisements, search recommendations, and the unsolicited VK ID prompt, with options for additional interface cleanup.``` | ```RuStore``` | ```All versions``` |
 | ```Disable analytics``` | ```Disables analytics and tracking in RuStore.``` | ```RuStore``` | ```All versions``` |
 | ```Disable background scan``` | ```Disables the periodic Kaspersky background device scan.``` | ```RuStore``` | ```All versions``` |
-| ```Disable gaming profile``` | ```Removes the Game Profile section from the Mine screen, including the button and the usage statistics screen.``` | ```RuStore``` | ```All versions``` |
 | ```Disable Mine redesign``` | ```Reverts the Mine screen to the classic layout, disabling the redesigned V2/V3 interface.``` | ```RuStore``` | ```All versions``` |
-| ```Hide Featured and Games tabs``` | ```Removes the Featured and Games tabs and opens Apps by default.``` | ```RuStore``` | ```All versions``` |
-| ```Hide notification buttons``` | ```Removes notification buttons from the search bar and Mine screen.``` | ```RuStore``` | ```All versions``` |
-| ```Skip update auth``` | ```Removes the login requirement when updating apps.``` | ```RuStore``` | ```All versions``` |
+| ```Exclude Google Play apps from updates``` | ```Excludes Google Play installs from RuStore update checks while keeping RuStore and sideloaded apps.``` | ```RuStore``` | ```All versions``` |
 
 </details>
 ---

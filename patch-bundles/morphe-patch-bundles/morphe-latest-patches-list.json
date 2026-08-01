@@ -1,5 +1,5 @@
 {
-    "version": "v1.38.0-dev.3",
+    "version": "v1.38.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -638,6 +638,32 @@
                     "title": "Custom header logo",
                     "type": "kotlin.String",
                     "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Spoofs the installer source so the app appears to be installed from an app store.",
+            "name": "Change installer source",
+            "options": [
+                {
+                    "default": "com.android.vending",
+                    "description": null,
+                    "key": "packageInstallerName",
+                    "required": false,
+                    "title": "Spoofed package installer name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Amazon Appstore": "com.amazon.venezia",
+                        "Google Play": "com.android.vending",
+                        "Huawei AppGallery": "com.huawei.appmarket",
+                        "Samsung Galaxy Store": "com.sec.android.app.samsungapps",
+                        "Xiaomi GetApps": "com.xiaomi.mipicks"
+                    }
                 }
             ]
         },
@@ -7219,7 +7245,7 @@
             "default": true,
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch"
+                "ResourcePatch"
             ],
             "description": "Spoofs the signature of the app to fix notification issues.",
             "name": "Spoof signature",

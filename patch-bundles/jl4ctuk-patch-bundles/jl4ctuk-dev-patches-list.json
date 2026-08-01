@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.1",
+    "version": "v1.3.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -24,9 +24,46 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes advertisements and recommendations from search.",
+            "description": "Removes advertisements, search recommendations, and the unsolicited VK ID prompt, with options for additional interface cleanup.",
             "name": "Disable ads",
-            "options": []
+            "options": [
+                {
+                    "default": true,
+                    "description": "Removes the Game Profile section and usage statistics screen.",
+                    "key": "disableGamingProfile",
+                    "required": false,
+                    "title": "Disable gaming profile",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Disables loyalty onboarding, points, notifications, links, and the upper points banner.",
+                    "key": "disableLoyaltyProgram",
+                    "required": false,
+                    "title": "Disable loyalty program",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the Featured and Games tabs and opens Apps by default.",
+                    "key": "hideFeaturedAndGamesTabs",
+                    "required": false,
+                    "title": "Hide Featured and Games tabs",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes notification buttons from the search bar and Mine screen.",
+                    "key": "hideNotificationButtons",
+                    "required": false,
+                    "title": "Hide notification buttons",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -117,33 +154,6 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#0077FF",
-                    "name": "RuStore",
-                    "packageName": "ru.vk.store",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.106.0.3",
-                            "versionCodes": {
-                                "ARM64_V8A": 1106003,
-                                "ARMEABI_V7A": 1106003,
-                                "X86": 1106003,
-                                "X86_64": 1106003
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the Game Profile section from the Mine screen, including the button and the usage statistics screen.",
-            "name": "Disable gaming profile",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
                     "appIconColor": "#005BFF",
                     "name": "Ozon",
                     "packageName": "ru.ozon.app.android",
@@ -189,7 +199,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Reverts the Mine screen to the classic layout, disabling the redesigned V2/V3 interface.",
             "name": "Disable Mine redesign",
@@ -257,6 +267,33 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#0077FF",
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.106.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 1106003,
+                                "ARMEABI_V7A": 1106003,
+                                "X86": 1106003,
+                                "X86_64": 1106003
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Excludes Google Play installs from RuStore update checks while keeping RuStore and sideloaded apps.",
+            "name": "Exclude Google Play apps from updates",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#005BFF",
                     "name": "Ozon",
                     "packageName": "ru.ozon.app.android",
@@ -279,60 +316,6 @@
             "dependencies": [],
             "description": "Removes the lottery entry banner and review feed shortcut from the account screen.",
             "name": "Hide account lottery and review feed",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#0077FF",
-                    "name": "RuStore",
-                    "packageName": "ru.vk.store",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.106.0.3",
-                            "versionCodes": {
-                                "ARM64_V8A": 1106003,
-                                "ARMEABI_V7A": 1106003,
-                                "X86": 1106003,
-                                "X86_64": 1106003
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the Featured and Games tabs and opens Apps by default.",
-            "name": "Hide Featured and Games tabs",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#0077FF",
-                    "name": "RuStore",
-                    "packageName": "ru.vk.store",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.106.0.3",
-                            "versionCodes": {
-                                "ARM64_V8A": 1106003,
-                                "ARMEABI_V7A": 1106003,
-                                "X86": 1106003,
-                                "X86_64": 1106003
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes notification buttons from the search bar and Mine screen.",
-            "name": "Hide notification buttons",
             "options": []
         },
         {
@@ -548,33 +531,6 @@
             "dependencies": [],
             "description": "Hides crossed-out prices, discount percentages, and redundant price rows in the cart total.",
             "name": "Show final prices only",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#0077FF",
-                    "name": "RuStore",
-                    "packageName": "ru.vk.store",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.106.0.3",
-                            "versionCodes": {
-                                "ARM64_V8A": 1106003,
-                                "ARMEABI_V7A": 1106003,
-                                "X86": 1106003,
-                                "X86_64": 1106003
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the login requirement when updating apps.",
-            "name": "Skip update auth",
             "options": []
         }
     ]
