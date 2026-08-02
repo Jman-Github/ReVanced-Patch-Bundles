@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.1",
+    "version": "v1.0.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -24,7 +24,7 @@
                 "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds an option to enable Yandex voice-over translation of video audio tracks. Requires the \"Add-on support\" patch of Morphe Patches.",
+            "description": "Adds an option to enable Yandex voice-over translation of video audio tracks. Requires a Morphe Patches version with add-on support.",
             "name": "Voice Over Translation (Yandex)",
             "options": []
         }
