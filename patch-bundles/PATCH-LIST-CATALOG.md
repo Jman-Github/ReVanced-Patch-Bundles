@@ -65,7 +65,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 17 | 9 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 6 | 5 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 7 | 6 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 9 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -599,10 +599,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 6 patches, 5 apps</summary>
+<summary><b>Okish-Morphe</b> - 7 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Doodle Jump Billing Bypass``` | ```Unlocks the full game by bypassing Google Play billing.``` | ```Doodle Jump``` | ```All versions``` |
 | ```FreeJobAlert Ad Removal``` | ```Removes all Google AdMob ads (banner, interstitial, rewarded, app open, native).``` | ```FreeJobAlert``` | ```All versions``` |
 | ```FreeJobAlert License Bypass``` | ```Bypasses the Pairip Play Store installation check so the app launches normally.``` | ```FreeJobAlert``` | ```All versions``` |
 | ```Jetpack Joyride Billing Bypass``` | ```Intercepts all in-app purchases and reports instant success to the game engine.``` | ```Jetpack Joyride``` | ```All versions``` |

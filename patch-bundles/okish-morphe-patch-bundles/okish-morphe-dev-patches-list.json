@@ -1,6 +1,27 @@
 {
-    "version": "v1.4.0-dev.1",
+    "version": "v1.5.0-dev.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#66BB6A",
+                    "name": "Doodle Jump",
+                    "packageName": "com.lima.doodlejump",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.11.38"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the full game by bypassing Google Play billing.",
+            "name": "Doodle Jump Billing Bypass",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
