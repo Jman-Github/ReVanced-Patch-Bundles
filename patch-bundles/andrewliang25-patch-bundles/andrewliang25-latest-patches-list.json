@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.1",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -60,7 +60,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Restores push notifications on re-signed builds when LINE is fully closed. If they still don't arrive, use a Root Mount install.",
+            "description": "Restores push notifications on re-signed builds when LINE is fully closed. Root Mount install does not need this patch.",
             "name": "Fix push notifications",
             "options": []
         },

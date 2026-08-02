@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.0-dev.2",
+    "version": "v1.18.0-dev.3",
     "patches": [
         {
             "compatiblePackages": null,
@@ -44,7 +44,7 @@
         },
         {
             "compatiblePackages": null,
-            "default": true,
+            "default": false,
             "dependencies": [
                 "ResourcePatch"
             ],
@@ -267,6 +267,28 @@
             "dependencies": [],
             "description": "Enables SoundCloud Go premium features.",
             "name": "Enable SoundCloud Go",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#7C4DFF",
+                    "name": "Pillo",
+                    "packageName": "xyz.rtrvr.pillo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.6.16"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Routes Pillo Google services and legacy Google Sign-In through MicroG-RE.",
+            "name": "Pillo GmsCore support",
             "options": []
         },
         {
