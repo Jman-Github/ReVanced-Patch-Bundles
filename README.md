@@ -2140,6 +2140,32 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tidal-patch-bundles/tidal-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 Zarko-Patches-Bundle [Morphe]:
+[🧩 Zarko Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-zarko-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/zarko-patch-bundles/zarko-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/zarko-patch-bundles/zarko-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/zarko-patch-bundles/zarko-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 TikTok-Lite-Patches-Bundle [Morphe]:
+[🧩 TikTok-Lite Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-tiktok-lite-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tiktok-lite-patch-bundles/tiktok-lite-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tiktok-lite-patch-bundles/tiktok-lite-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tiktok-lite-patch-bundles/tiktok-lite-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -2481,6 +2507,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Morphe-NL-Patches-Bundle](https://github.com/claviola/morphe-patches-nl)
 
 #### 🩹 [TIDAL-Patches-Bundle](https://github.com/chukfinley/tidal-patches)
+
+#### 🩹 [Zarko-Patches-Bundle](https://github.com/eZ4RK0/morphe-patches)
+
+#### 🩹 [TikTok-Lite-Patches-Bundle](https://github.com/furkngld/tiktok-lite-patches-for-morphe)
 
 ## 🖇 Integrations Repositories In Use
 

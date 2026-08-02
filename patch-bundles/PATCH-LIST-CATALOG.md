@@ -162,6 +162,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [D0NJ](#-d0nj-bundle-patch-list) | 1 | 1 | Generated |
 | [Morphe-NL](#-morphe-nl-bundle-patch-list) | 3 | 1 | Generated |
 | [TIDAL](#-tidal-bundle-patch-list) | 1 | 1 | Generated |
+| [Zarko](#-zarko-bundle-patch-list) | 2 | 1 | Generated |
+| [TikTok-Lite](#-tiktok-lite-bundle-patch-list) | 34 | 2 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -5408,5 +5410,63 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Swipe to add to queue``` | ```Adds a Spotify style swipe right gesture that adds the swiped item to the play queue, on every screen that lists tracks, albums, playlists or mixes.``` | ```TIDAL``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Zarko Bundle Patch List:
+[📦 Zarko-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-zarko-patches-bundle-morphe)
+<details>
+<summary><b>Zarko</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable license check``` | ```Removes the PairIP LicenseClient.checkLicense() call, which otherwise force-closes a re-signed/sideloaded patched APK a short while after launch.``` | ```Sunrise Alarm: Wake-Up Light``` | ```All versions``` |
+| ```Unlock premium``` | ```Always report the 'remove_ads' and 'pro' in-app products as purchased, regardless of the real Play Billing purchase state.``` | ```Sunrise Alarm: Wake-Up Light``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 TikTok-Lite Bundle Patch List:
+[📦 TikTok-Lite-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-tiktok-lite-patches-bundle-morphe)
+<details>
+<summary><b>TikTok-Lite</b> - 34 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Always show publish date``` | ```Always shows the publish date in video author information. Thanks to lyyako for the original implementation.``` | ```TikTok``` | ```43.8.3``` |
+| ```Copy comments without username``` | ```Copies only the comment text without including the creator's username.``` | ```TikTok``` | ```43.8.3``` |
+| ```Custom offline videos limit``` | ```Adds a custom entry to TikTok's offline videos menu with a configurable limit of up to 500 videos.``` | ```TikTok``` | ```43.8.3``` |
+| ```Disable login requirement``` | ```Removes TikTok's mandatory login gate from supported flows.``` | ```TikTok``` | ```43.8.3``` |
+| ```Disable screen capture detection``` | ```Prevents TikTok from detecting screenshots and screen recordings.``` | ```TikTok``` | ```43.8.3``` |
+| ```Downloads``` | ```Adds watermark-free video and photo downloads, comment sticker saving, and configurable download-folder controls.``` | ```TikTok``` | ```43.8.3``` |
+| ```Enable Open Debug``` | ```Uses TikTok's hidden Open Debug settings cell as the entry point for Morphe settings. Required for the Morphe settings menu to appear. Supports TikTok 43.8.3.``` | ```TikTok``` | ```43.8.3``` |
+| ```Feature Gate Lab``` | ```Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.``` | ```TikTok``` | ```43.8.3``` |
+| ```Feed filter``` | ```Hides feed ads, TikTok Shop items, livestreams, stories, photo posts, and videos outside configured view or like ranges.``` | ```TikTok``` | ```43.8.3``` |
+| ```Feed tab navigation``` | ```Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.``` | ```TikTok``` | ```43.8.3``` |
+| ```Fix Google login``` | ```Restores Google account sign-in after patching.``` | ```TikTok``` | ```43.8.3``` |
+| ```Hide CAPTCHA popups``` | ```Prevents client-side verification puzzle dialogs from opening, including those shown while browsing LIVE. This does not bypass server-side checks.``` | ```TikTok``` | ```43.8.3``` |
+| ```Hide floating promotions``` | ```Removes floating promotional badges, coin icons, and timer banners from the Home feed.``` | ```TikTok``` | ```43.8.3``` |
+| ```Hold-and-slide 2x lock``` | ```Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.``` | ```TikTok``` | ```43.8.3``` |
+| ```Open external links directly``` | ```Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.``` | ```TikTok``` | ```43.8.3``` |
+| ```Playback speed``` | ```Enables playback-speed controls for all videos and remembers the selected speed between videos.``` | ```TikTok``` | ```43.8.3``` |
+| ```Remember clear display``` | ```Remembers TikTok's clear-display state between videos.``` | ```TikTok``` | ```43.8.3``` |
+| ```Sanitize sharing links``` | ```Removes tracking parameters from TikTok links before they are shared.``` | ```TikTok``` | ```43.8.3``` |
+| ```Settings``` | ```Adds the Morphe settings screen inside TikTok.``` | ```TikTok``` | ```43.8.3``` |
+| ```Show seekbar``` | ```Shows TikTok's native video seekbar where it would normally be hidden.``` | ```TikTok``` | ```43.8.3``` |
+| ```SIM spoof``` | ```Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.``` | ```TikTok``` | ```43.8.3``` |
+| ```Translate comments``` | ```Adds comment translation controls using TikTok's translation system, with selectable language exclusions.``` | ```TikTok``` | ```43.8.3``` |
+| ```Disable login requirement``` | ```Removes TikTok's mandatory login gate from supported flows.``` | ```TikTok Lite``` | ```44.9.2``` |
+| ```Disable screen capture detection``` | ```Prevents TikTok from detecting screenshots and screen recordings.``` | ```TikTok Lite``` | ```44.9.2``` |
+| ```Downloads``` | ```Adds watermark-free video downloads and configurable download-folder controls.``` | ```TikTok Lite``` | ```44.9.2``` |
+| ```Feature Gate Lab``` | ```Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.``` | ```TikTok Lite``` | ```44.9.2``` |
+| ```Fix Google login``` | ```Restores Google account sign-in after patching.``` | ```TikTok Lite``` | ```44.9.2``` |
+| ```Hide CAPTCHA popups``` | ```Prevents client-side verification puzzle dialogs from opening. This does not bypass server-side checks.``` | ```TikTok Lite``` | ```44.9.2``` |
+| ```Hide floating promotions``` | ```Removes floating promotional badges, coin icons, and timer banners from the Home feed.``` | ```TikTok Lite``` | ```44.9.2``` |
+| ```Open external links directly``` | ```Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.``` | ```TikTok Lite``` | ```44.9.2``` |
+| ```Playback speed``` | ```Enables playback-speed controls for all videos and remembers the selected speed between videos.``` | ```TikTok Lite``` | ```44.9.2``` |
+| ```Sanitize share URLs``` | ```Removes tracking (campaign) parameters from shared links.``` | ```TikTok Lite``` | ```44.9.2``` |
+| ```Settings``` | ```Adds the Morphe settings screen ('Premium features') reachable from every settings entry point, including the logged-out profile page.``` | ```TikTok Lite``` | ```44.9.2``` |
+| ```SIM spoof``` | ```Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.``` | ```TikTok Lite``` | ```44.9.2``` |
 
 </details>
