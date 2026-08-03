@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-31T07:54:13",
-  "description": "Google Maps for ReVanced GmsCore\n\n- Adds compatibility for Google Maps 26.30.09.950492155.\n- Supported Google Maps version: 26.30.09.950492155.\n- Patch bundle SHA-256: b15fc8cffe3d56994537ad6ec0be1bddfa577307792ac3d17643568dcb4f66e3",
-  "download_url": "https://github.com/fangkampanat/gmaps-patches/releases/download/v1.0.8/patches-1.0.8.mpp",
+  "created_at": "2026-08-03T04:19:10",
+  "description": "Google Maps for ReVanced GmsCore\n\n- Renames app-owned custom permissions to the patched Maps namespace, preventing duplicate-permission installation conflicts with original Google Maps.\n- Suppresses the misleading Google Play services update notification for an unavailable optional feature without reporting that feature as supported.\n- Supports Google Maps 26.30.09.950492155 and the earlier declared compatible versions.\n\nMPP SHA-256: 0aff2c6d0431cb78a8031eb550cb2f5f4751b4281f07553858bc924d89791485",
+  "download_url": "https://github.com/fangkampanat/gmaps-patches/releases/download/v1.0.9/patches-1.0.9.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.0.8"
+  "version": "v1.0.9"
 }
