@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.1",
+    "version": "v1.2.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -27,6 +27,26 @@
             "dependencies": [
                 "ResourcePatch"
             ],
+            "description": "Replaces the dark theme background with pure black.",
+            "name": "AMOLED dark theme",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#F44336",
+                    "name": "Showly",
+                    "packageName": "com.michaldrabik.showly2",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Replaces the dark theme background with pure black.",
             "name": "AMOLED dark theme",
             "options": []
@@ -186,7 +206,15 @@
                     "packageName": "com.michaldrabik.showly2",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "3.70.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 840,
+                                "ARMEABI_V7A": 840,
+                                "X86": 840,
+                                "X86_64": 840
+                            }
                         }
                     ]
                 }
