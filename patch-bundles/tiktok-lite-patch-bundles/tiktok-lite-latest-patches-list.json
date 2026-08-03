@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.2",
     "patches": [
         {
             "compatibility": [
@@ -852,7 +852,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Adds the Morphe settings screen ('Premium features') reachable from every settings entry point, including the logged-out profile page.",
+            "description": "Adds a native 'Premium features' row to the stock 'Settings and privacy' popup, opening the Morphe settings screen.",
             "name": "Settings",
             "options": [],
             "use": true

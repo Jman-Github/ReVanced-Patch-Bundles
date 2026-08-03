@@ -134,7 +134,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Lynx6319](#-lynx6319-bundle-patch-list) | 1 | 1 | Generated |
 | [Xob0t](#-xob0t-bundle-patch-list) | 25 | 5 | Generated |
 | [Bannerhub](#-bannerhub-bundle-patch-list) | 63 | 2 | Generated |
-| [Eksi](#-eksi-bundle-patch-list) | 1 | 1 | Generated |
+| [Eksi](#-eksi-bundle-patch-list) | 2 | 1 | Generated |
 | [Ameen-Morphe](#-ameen-morphe-bundle-patch-list) | 2 | 2 | Generated |
 | [Kolaron](#-kolaron-bundle-patch-list) | 1 | 1 | Generated |
 | [ImmortalZeus](#-immortalzeus-bundle-patch-list) | 2 | 2 | Generated |
@@ -4518,11 +4518,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Eksi Bundle Patch List:
 [📦 Eksi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-eksi-patches-bundle-morphe)
 <details>
-<summary><b>Eksi</b> - 1 patch, 1 app</summary>
+<summary><b>Eksi</b> - 2 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Hide ads``` | ```Removes Ekşi Sözlük ad placements and disables ad loading.``` | ```Ekşi Sözlük``` | ```All versions``` |
+| ```Open external links in browser``` | ```Opens external web links in the default browser instead of a Chrome Custom Tab.``` | ```Ekşi Sözlük``` | ```All versions``` |
 
 </details>
 
@@ -5496,7 +5497,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Playback speed``` | ```Enables playback-speed controls for all videos and remembers the selected speed between videos.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
 | ```Region bypass``` | ```Spoofs the store country reported to TikTok across every region signal (cookie, store region, sys_region, carrier region, TTP JSON) and suppresses the TTP region alert, so the app is not detected as being used in an unsupported region.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
 | ```Sanitize share URLs``` | ```Removes tracking (campaign) parameters from shared links.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
-| ```Settings``` | ```Adds the Morphe settings screen ('Premium features') reachable from every settings entry point, including the logged-out profile page.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
+| ```Settings``` | ```Adds a native 'Premium features' row to the stock 'Settings and privacy' popup, opening the Morphe settings screen.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
 | ```SIM spoof``` | ```Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
 
 </details>
