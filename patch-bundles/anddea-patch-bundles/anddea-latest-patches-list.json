@@ -1,5 +1,5 @@
 {
-    "version": "v4.2.0-dev.9",
+    "version": "v4.2.0-dev.11",
     "patches": [
         {
             "compatiblePackages": {
@@ -2894,7 +2894,7 @@
                     "default": "",
                     "description": "Specify a stroke color for the snack bar. You can specify hex color.",
                     "key": "strokeColor",
-                    "required": true,
+                    "required": false,
                     "title": "Stroke color",
                     "type": "kotlin.String",
                     "values": {
@@ -3305,7 +3305,7 @@
                     "default": "",
                     "description": "The path to the 'strings.xml' file.\nPlease note that applying the 'strings.xml' file will overwrite all existing translations.",
                     "key": "customTranslations",
-                    "required": true,
+                    "required": false,
                     "title": "Custom translations",
                     "type": "kotlin.String",
                     "values": null
@@ -3357,7 +3357,7 @@
                     "default": "",
                     "description": "The path to the 'strings.xml' file.\nPlease note that applying the 'strings.xml' file will overwrite all existing translations.",
                     "key": "customTranslations",
-                    "required": true,
+                    "required": false,
                     "title": "Custom translations",
                     "type": "kotlin.String",
                     "values": null

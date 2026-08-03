@@ -1,5 +1,5 @@
 {
-    "version": "v1.39.0-dev.1",
+    "version": "v1.39.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -5920,6 +5920,55 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0000",
+                    "name": "YouTube Music",
+                    "packageName": "com.google.android.apps.youtube.music",
+                    "signatures": [
+                        "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+                        "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.30.52"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.29.54"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.28.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "9.15.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.29.52"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.",
+            "name": "Remove viewer discretion dialog",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
                     "appIconColor": "#FF0033",
                     "name": "YouTube",
                     "packageName": "com.google.android.youtube",
@@ -7336,6 +7385,59 @@
                     }
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0000",
+                    "name": "YouTube Music",
+                    "packageName": "com.google.android.apps.youtube.music",
+                    "signatures": [
+                        "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+                        "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.30.52"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.29.54"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.28.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "9.15.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.29.52"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to show synced lyrics from LRCLIB or KuGou in the lyrics panel.",
+            "name": "Third-party lyrics",
+            "options": []
         },
         {
             "compatiblePackages": [
