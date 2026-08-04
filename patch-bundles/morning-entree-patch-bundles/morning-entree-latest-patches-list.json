@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.8.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -288,6 +288,26 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#007AFF",
+                    "name": "Listy",
+                    "packageName": "pro.listy",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.3.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Listy Premium",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#2196F3",
                     "name": "Panels",
                     "packageName": "com.fossor.panels",
@@ -372,6 +392,26 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#20C26B",
+                    "name": "Super Status Bar",
+                    "packageName": "com.tombayley.statusbar",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.13.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Super Status Bar Premium. Use with Spoof Install Source",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#00C9A7",
                     "name": "Todo Mate",
                     "packageName": "com.undefined.mate",
@@ -426,6 +466,26 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Vocabulary Premium",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#2D7AED",
+                    "name": "Volume Styles",
+                    "packageName": "com.tombayley.volumepanel",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.2.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Volume Styles Premium. Use with Spoof Install Source",
             "name": "Enable Premium",
             "options": []
         },
