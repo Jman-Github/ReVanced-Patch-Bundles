@@ -1,42 +1,30 @@
 {
-  "patches": [
-    {
-      "compatiblePackages": [
+    "version": "v1.0.1",
+    "patches": [
         {
-          "apkFileType": "APK",
-          "appIconColor": "#E53935",
-          "description": null,
-          "name": "SeriesGuide",
-          "packageName": "com.battlelancer.seriesguide",
-          "signatures": null,
-          "targets": [
-            {
-              "description": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "version": "2026.2.2",
-              "versionCodes": null
-            },
-            {
-              "description": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "version": "2026.3.0",
-              "versionCodes": null
-            }
-          ],
-          "versions": [
-            "2026.2.2",
-            "2026.3.0"
-          ]
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "SeriesGuide",
+                    "packageName": "com.battlelancer.seriesguide",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.2.2"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "2026.3.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features.",
+            "name": "Unlock Premium",
+            "options": []
         }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Unlocks all premium features.",
-      "name": "Unlock Premium",
-      "options": []
-    }
-  ],
-  "version": "v1.0.1"
+    ]
 }
