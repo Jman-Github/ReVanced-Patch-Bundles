@@ -5543,6 +5543,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Remove SDH Annotations``` | ```Adds Settings → Morphe → Subtitles and removes SDH annotations from Media3 subtitles when enabled.``` | ```NuvioTV``` | ```0.8.1-beta``` |
+| ```Remove SDH Annotations``` | ```Adds Settings → Morphe → Subtitles and removes SDH annotations from Media3 subtitles when enabled.``` | ```NuvioTV``` | ```All versions``` |
 
 </details>
