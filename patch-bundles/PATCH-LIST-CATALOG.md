@@ -167,6 +167,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Niconico-YT](#-niconico-yt-bundle-patch-list) | 1 | 1 | Generated |
 | [Alastor-Kaneki](#-alastor-kaneki-bundle-patch-list) | 1 | 1 | Generated |
 | [NuvioTV](#-nuviotv-bundle-patch-list) | 1 | 1 | Generated |
+| [GoldRift](#-goldrift-bundle-patch-list) | 1 | 1 | Generated |
+| [RoundSalmon4](#-roundsalmon4-bundle-patch-list) | 1 | 1 | Generated |
+| [Dexnis](#-dexnis-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -5544,5 +5547,41 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove SDH Annotations``` | ```Adds Settings → Morphe → Subtitles and removes SDH annotations from Media3 subtitles when enabled.``` | ```NuvioTV``` | ```0.8.1-beta``` |
+
+</details>
+
+---
+### 🧩 GoldRift Bundle Patch List:
+[📦 GoldRift-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-goldrift-patches-bundle-morphe)
+<details>
+<summary><b>GoldRift</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock Pro``` | ```Unlocks all Strong Pro features.``` | ```Strong``` | ```v6.2.2``` |
+
+</details>
+
+---
+### 🧩 RoundSalmon4 Bundle Patch List:
+[📦 RoundSalmon4-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-roundsalmon4-patches-bundle-morphe)
+<details>
+<summary><b>RoundSalmon4</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock Premium``` | ```Unlocks all premium features.``` | ```SeriesGuide``` | ```2026.2.2, 2026.3.0``` |
+
+</details>
+
+---
+### 🧩 Dexnis Bundle Patch List:
+[📦 Dexnis-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dexnis-patches-bundle-morphe)
+<details>
+<summary><b>Dexnis</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock premium``` | ```Spoofs the premium subscription check.``` | ```IDOS``` | ```All versions``` |
 
 </details>
