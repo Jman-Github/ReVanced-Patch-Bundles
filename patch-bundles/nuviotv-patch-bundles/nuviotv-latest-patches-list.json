@@ -1,0 +1,36 @@
+{
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#111827",
+          "description": null,
+          "name": "NuvioTV",
+          "packageName": "com.nuvio.tv",
+          "signatures": null,
+          "targets": [
+            {
+              "description": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "version": "0.8.1-beta",
+              "versionCodes": null
+            }
+          ],
+          "versions": [
+            "0.8.1-beta"
+          ]
+        }
+      ],
+      "default": false,
+      "dependencies": [
+        "ResourcePatch"
+      ],
+      "description": "Adds Settings → Morphe → Subtitles and removes SDH annotations from Media3 subtitles when enabled.",
+      "name": "Remove SDH Annotations",
+      "options": []
+    }
+  ],
+  "version": "v1.0.0-dev.5"
+}

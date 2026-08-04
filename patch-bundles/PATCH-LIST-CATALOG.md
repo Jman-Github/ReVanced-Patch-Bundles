@@ -164,6 +164,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [TIDAL](#-tidal-bundle-patch-list) | 1 | 1 | Generated |
 | [Zarko](#-zarko-bundle-patch-list) | 2 | 1 | Generated |
 | [TikTok-Lite](#-tiktok-lite-bundle-patch-list) | 35 | 2 | Generated |
+| [Niconico-YT](#-niconico-yt-bundle-patch-list) | 1 | 1 | Generated |
+| [Alastor-Kaneki](#-alastor-kaneki-bundle-patch-list) | 1 | 1 | Generated |
+| [NuvioTV](#-nuviotv-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -5505,5 +5508,41 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Sanitize share URLs``` | ```Removes tracking (campaign) parameters from shared links.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
 | ```Settings``` | ```Adds a native 'Premium features' row to the stock 'Settings and privacy' popup, opening the Morphe settings screen.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
 | ```SIM spoof``` | ```Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
+
+</details>
+
+---
+### 🧩 Niconico-YT Bundle Patch List:
+[📦 Niconico-YT-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-niconico-yt-patches-bundle-morphe)
+<details>
+<summary><b>Niconico-YT</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Niconico-style live/replay comments (Experimental)``` | ```Adds public live/replay chat overlays and a player on/off button.``` | ```YouTube``` | ```21.04.223``` |
+
+</details>
+
+---
+### 🧩 Alastor-Kaneki Bundle Patch List:
+[📦 Alastor-Kaneki-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-alastor-kaneki-patches-bundle-morphe)
+<details>
+<summary><b>Alastor-Kaneki</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Download GX mods as files``` | ```Adds a visible Download Mod button in Opera GX, with URL auto-detection and a Share fallback.``` | ```Opera GX``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 NuvioTV Bundle Patch List:
+[📦 NuvioTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nuviotv-patches-bundle-morphe)
+<details>
+<summary><b>NuvioTV</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Remove SDH Annotations``` | ```Adds Settings → Morphe → Subtitles and removes SDH annotations from Media3 subtitles when enabled.``` | ```NuvioTV``` | ```0.8.1-beta``` |
 
 </details>

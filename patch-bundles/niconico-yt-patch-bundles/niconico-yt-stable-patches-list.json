@@ -1,0 +1,21 @@
+{
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "name": "YouTube",
+          "packageName": "com.google.android.youtube",
+          "versions": [
+            "21.04.223"
+          ]
+        }
+      ],
+      "default": false,
+      "dependencies": [],
+      "description": "Adds public live/replay chat overlays and a player on/off button.",
+      "name": "Niconico-style live/replay comments (Experimental)",
+      "options": []
+    }
+  ],
+  "version": "260804"
+}
