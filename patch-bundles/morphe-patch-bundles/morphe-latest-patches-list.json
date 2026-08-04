@@ -1,5 +1,5 @@
 {
-    "version": "v1.39.0-dev.3",
+    "version": "v1.39.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -1634,6 +1634,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
