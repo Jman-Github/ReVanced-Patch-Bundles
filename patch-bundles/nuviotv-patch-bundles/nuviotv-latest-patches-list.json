@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.10",
+    "version": "v1.0.0-dev.12",
     "patches": [
         {
             "compatiblePackages": [
@@ -11,13 +11,38 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.1-beta"
+                            "version": "0.8.2-beta"
                         }
                     ]
                 }
             ],
             "default": false,
             "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds Settings > Morphe > Ratings with independent overall and episode rating controls.",
+            "name": "Rating Visibility",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#111827",
+                    "name": "NuvioTV",
+                    "packageName": "com.nuvio.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.8.2-beta"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Adds Settings → Morphe → Subtitles and removes SDH annotations from Media3 subtitles when enabled.",
