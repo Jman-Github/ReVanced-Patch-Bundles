@@ -170,6 +170,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [GoldRift](#-goldrift-bundle-patch-list) | 1 | 1 | Generated |
 | [RoundSalmon4](#-roundsalmon4-bundle-patch-list) | 1 | 1 | Generated |
 | [Dexnis](#-dexnis-bundle-patch-list) | 1 | 1 | Generated |
+| [HU-Liberator](#-hu-liberator-bundle-patch-list) | 11 | 2 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -5583,5 +5584,27 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock premium``` | ```Spoofs the premium subscription check.``` | ```IDOS``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 HU-Liberator Bundle Patch List:
+[📦 HU-Liberator-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hu-liberator-patches-bundle-morphe)
+<details>
+<summary><b>HU-Liberator</b> - 11 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Remove idokep ads``` | ```Removes ads from the idokep app.``` | ```Időkép``` | ```4.3.7, 1.0.2``` |
+| ```Disable broadcast receiver security check``` | ```Removes SecurityException throws gating a BroadcastReceiver's onReceive, which fail when the broadcast sender isn't verified as the real Play Store.``` | ```MÁVPlusz``` | ```2.4.19-prod``` |
+| ```Disable certificate pinning``` | ```Prevents the app's OkHttp CertificatePinner from ever being installed, allowing HTTPS traffic to be intercepted (e.g. by a proxy) for analysis.``` | ```MÁVPlusz``` | ```2.4.19-prod``` |
+| ```Disable Firebase Crashlytics``` | ```Adds the official firebase_crashlytics_collection_enabled=false manifest flag, disabling all crash/log reporting to Firebase Crashlytics at SDK init.``` | ```MÁVPlusz``` | ```2.4.19-prod``` |
+| ```Disable Pairip license check``` | ```Prevents the Pairip-injected Application class from binding to the Play Store licensing service, which would otherwise redirect to / force-close for a side-loaded APK.``` | ```MÁVPlusz``` | ```2.4.19-prod``` |
+| ```Disable Play Integrity failure crash``` | ```Prevents SecurityException when the Play Integrity API call itself fails (APP_NOT_INSTALLED / APP_UID_MISMATCH), as happens for side-loaded APKs.``` | ```MÁVPlusz``` | ```2.4.19-prod``` |
+| ```Disable Play Integrity gating flag wait``` | ```Stops the startup coroutine from waiting forever on a Remote-Config-backed flag to decide whether to run the Play Integrity flow, by always treating it as disabled.``` | ```MÁVPlusz``` | ```2.4.19-prod``` |
+| ```Disable Play Integrity token request``` | ```Makes the Play Integrity token request always fail immediately with an unclassified exception, so the app treats it as gracefully unavailable and continues initialization instead of getting stuck on a Play-Store-required gate.``` | ```MÁVPlusz``` | ```2.4.19-prod``` |
+| ```Disable Play Integrity verdict validation``` | ```Removes client-side SecurityException throws that reject unlicensed/unattested/unrecognized Play Integrity verdicts, without touching unrelated code sharing the same method.``` | ```MÁVPlusz``` | ```2.4.19-prod``` |
+| ```Disable StoreLogs telemetry``` | ```Prevents the app from uploading queued client-side log entries to its own backend telemetry endpoint (.../Log/StoreLogs).``` | ```MÁVPlusz``` | ```2.4.19-prod``` |
+| ```Trust user-installed certificates``` | ```Adds a user certificate trust anchor to the network security config, so a MITM proxy's installed CA is accepted (this is separate from and in addition to disabling OkHttp's code-level certificate pinning).``` | ```MÁVPlusz``` | ```2.4.19-prod``` |
 
 </details>

@@ -2243,6 +2243,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dexnis-patch-bundles/dexnis-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 HU-Liberator-Patches-Bundle [Morphe]:
+[🧩 HU-Liberator Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hu-liberator-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hu-liberator-patch-bundles/hu-liberator-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hu-liberator-patch-bundles/hu-liberator-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hu-liberator-patch-bundles/hu-liberator-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -2600,6 +2613,9 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [RoundSalmon4-Patches-Bundle](https://github.com/RoundSalmon4/morphe-patches-template)
 
 #### 🩹 [Dexnis-Patches-Bundle](https://github.com/dexnis-dev/morphe-patches)
+
+
+#### 🩹 [HU-Liberator-Patches-Bundle](https://github.com/hu-liberator/patches)
 
 ## 🖇 Integrations Repositories In Use
 
