@@ -1,6 +1,76 @@
 {
-    "version": "v1.2.0-dev.1",
+    "version": "v1.3.0-dev.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#181C20",
+                    "name": "GitHub",
+                    "packageName": "com.github.android",
+                    "signatures": [
+                        "df08c9f2d809189d9d506497c15745a7395a41536efb433e3aee1aedbe11b261"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "1.270.0"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces GitHub's bundled Inter and Mona Sans UI fonts with a custom font file.",
+            "name": "Custom font (GitHub)",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The file path to your font file. Tap the file picker and select it. The font file must be in TTF or OTF format. A variable font is recommended so heading and body text keep their different weights.",
+                    "key": "customFontFile",
+                    "required": true,
+                    "title": "Custom font",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#181C20",
+                    "name": "GitHub",
+                    "packageName": "com.github.android",
+                    "signatures": [
+                        "df08c9f2d809189d9d506497c15745a7395a41536efb433e3aee1aedbe11b261"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "1.270.0"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces GitHub's bundled Roboto Mono code font with a custom monospace font file.",
+            "name": "Custom monospace font (GitHub)",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The file path to your monospace font file. Tap the file picker and select it. The font file must be in TTF or OTF format.",
+                    "key": "customMonospaceFontFile",
+                    "required": true,
+                    "title": "Custom monospace font",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
         {
             "compatiblePackages": [
                 {
@@ -15,6 +85,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "2026.7.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "2026.6.1"
                         }
                     ]
@@ -24,6 +99,31 @@
             "dependencies": [],
             "description": "Renders the app using the device's system font instead of DM Sans / Roboto.",
             "name": "Force system font (Bitwarden)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#181C20",
+                    "name": "GitHub",
+                    "packageName": "com.github.android",
+                    "signatures": [
+                        "df08c9f2d809189d9d506497c15745a7395a41536efb433e3aee1aedbe11b261"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "1.270.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Renders GitHub UI text using the device system font by overriding bundled font resources at runtime.",
+            "name": "Force system font (GitHub)",
             "options": []
         }
     ]
