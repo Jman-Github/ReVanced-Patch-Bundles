@@ -5559,7 +5559,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Unlock Pro``` | ```Unlocks all Strong Pro features.``` | ```Strong``` | ```v6.2.2``` |
+| ```Unlock Pro``` | ```Unlocks all Strong Pro features.``` | ```Strong``` | ```All versions``` |
 
 </details>
 
@@ -5571,7 +5571,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Unlock Premium``` | ```Unlocks all premium features.``` | ```SeriesGuide``` | ```2026.2.2, 2026.3.0``` |
+| ```Unlock Premium``` | ```Unlocks all premium features.``` | ```SeriesGuide``` | ```All versions``` |
 
 </details>
 

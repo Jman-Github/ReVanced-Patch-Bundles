@@ -1,34 +1,26 @@
 {
-  "patches": [
-    {
-      "compatiblePackages": [
+    "version": "v1.0.0",
+    "patches": [
         {
-          "apkFileType": "APK",
-          "appIconColor": "#1565C0",
-          "description": null,
-          "name": "Strong",
-          "packageName": "io.strongapp.strong",
-          "signatures": null,
-          "targets": [
-            {
-              "description": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "version": "v6.2.2",
-              "versionCodes": null
-            }
-          ],
-          "versions": [
-            "v6.2.2"
-          ]
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1565C0",
+                    "name": "Strong",
+                    "packageName": "io.strongapp.strong",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "v6.2.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all Strong Pro features.",
+            "name": "Unlock Pro",
+            "options": []
         }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Unlocks all Strong Pro features.",
-      "name": "Unlock Pro",
-      "options": []
-    }
-  ],
-  "version": "v1.0.0"
+    ]
 }
