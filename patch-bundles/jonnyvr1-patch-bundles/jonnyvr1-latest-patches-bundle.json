@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-07-30T21:06:22",
+  "description": "## Dev2 Patchset - 29 New Patches\n\n### AnalyticsDisablePatch (+9)\n- Firebase Analytics disable\n- MoTracing (distributed tracing) disable\n- MEStatistics (XEngine media engine) disable\n- Device ID expansion (IMEI, Android ID, Google Advertising ID)\n- Network Metrics tracking disable\n- Push Notification Statistics disable\n- MediaLog/Battery Metrics disable\n- MoLive APM (FPS/CPU/temperature) disable\n- DNS SLA Logging disable\n\n### PrivacyControlsPatch (+3)\n- Contact Access Block (READ_CONTACTS)\n- Location Privacy (profile hideLocation)\n- Privacy Settings Force Enable (hideContacts, hideMutualContacts, hideSchool)\n\n### PremiumUnlockPatch (+1)\n- Live Streaming Permission Controls (canStartLive, canUseMaskMode, canVoiceLive)\n\n### DialogCleanupPatch (+2)\n- VIP Upgrade Popup suppression\n- Dislike Who Liked Me popup suppression\n\n### UiCleanupPatch (+11)\n- Privilege Enhanced Promotion Banner\n- Profile Thin Popup\n- Super Like Banner\n- Compliment Received Banner\n- Operation Banner\n- New User Special Like Banner\n- Profile Fake View\n- Super Like/Undo Guide Card\n- Boost Guide Card\n- City Top Greet Dialog\n- Multi Super Like Push Bubble\n\n### LiveStreamingPatch (+3)\n- Chat Rate Limiting removal\n- Voice Game Joining enable\n- PK Battle All-Day enable\n\n**Total: 80 patches across 7 patchsets**",
+  "download_url": "https://github.com/JonnyVR1/morph-patches/releases/download/v0.0.1-dev2/patches-0.0.1-dev2.mpp",
+  "signature_download_url": "N/A",
+  "version": "v0.0.1-dev2"
+}

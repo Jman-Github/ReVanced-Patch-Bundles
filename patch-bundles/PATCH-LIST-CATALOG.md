@@ -171,6 +171,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RoundSalmon4](#-roundsalmon4-bundle-patch-list) | 1 | 1 | Generated |
 | [Dexnis](#-dexnis-bundle-patch-list) | 1 | 1 | Generated |
 | [HU-Liberator](#-hu-liberator-bundle-patch-list) | 11 | 2 | Generated |
+| [JonnyVR1](#-jonnyvr1-bundle-patch-list) | 10 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -5616,5 +5617,26 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Play Integrity verdict validation``` | ```Removes client-side SecurityException throws that reject unlicensed/unattested/unrecognized Play Integrity verdicts, without touching unrelated code sharing the same method.``` | ```MÁVPlusz``` | ```All versions``` |
 | ```Disable StoreLogs telemetry``` | ```Prevents the app from uploading queued client-side log entries to its own backend telemetry endpoint (.../Log/StoreLogs).``` | ```MÁVPlusz``` | ```All versions``` |
 | ```Trust user-installed certificates``` | ```Adds a user certificate trust anchor to the network security config, so a MITM proxy's installed CA is accepted (this is separate from and in addition to disabling OkHttp's code-level certificate pinning).``` | ```MÁVPlusz``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 JonnyVR1 Bundle Patch List:
+[📦 JonnyVR1-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jonnyvr1-patches-bundle-morphe)
+<details>
+<summary><b>JonnyVR1</b> - 10 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Ad Removal``` | ```Removes all ad displays: navigation bar banner, native feed ads, live streaming banner ads, live square ads``` | ```Tantan``` | ```7.3.3``` |
+| ```Analytics Disable``` | ```Disables all analytics, telemetry, and device fingerprinting for privacy``` | ```Tantan``` | ```7.3.3``` |
+| ```Dialog Cleanup``` | ```Removes annoying promotional dialogs: 5-star rating, appstore rating, version upgrade, offline popup, notification permission, phone auth prompts, purchase pages``` | ```Tantan``` | ```7.3.3``` |
+| ```GMS Compatibility``` | ```Makes Google Maps and GMS-dependent features work in re-signed APKs. Includes signature spoofing, auth header fixes, MicroG support, and GMS availability bypass.``` | ```Tantan``` | ```7.3.3``` |
+| ```Live Streaming Enhancement``` | ```Live entry animation, push limit bypass, swipe card unlimited, chat rate limit removal, voice game access, all-day PK battles, gift leaderboard, knight privileges, entrance limits``` | ```Tantan``` | ```7.3.3``` |
+| ```Messaging Enhancement``` | ```Removes message limits, unlimited pin chat, voice/video calls, quick chat, typing indicator, free gifts, letter, greeting, ice breaker, read receipts, AI translation, message recall, group chat, live chat, message filter, chat partner config, ODiamond visitor config, prologue config, love buzz data, secret crush limit, boost limit``` | ```Tantan``` | ```7.3.3``` |
+| ```Premium Unlock``` | ```Unlocks all premium features, tier statuses, subscription validation, and display``` | ```Tantan``` | ```7.3.3``` |
+| ```Privacy Controls``` | ```Unlocks privacy features: hide from nearby, visitor footprint hiding, mysterious mode, nearby people access, read receipt unlock, read receipt dialog suppression, contact access block, location privacy, privacy settings force enable, hide activity time, hide age, hide icon, frozen activity, frozen time, hide distance, core service privacy gate, hide active from SVip, disable ad suggestions, live stealth privacy, online status visibility``` | ```Tantan``` | ```7.3.3``` |
+| ```Privacy Enhancement``` | ```Advanced privacy protections: root/emulator detection bypass, ShuMeng SDK blocking, package enumeration prevention``` | ```Tantan``` | ```7.3.3``` |
+| ```UI Cleanup``` | ```Removes guides, banners, stickers, decorations, and AI prompts``` | ```Tantan``` | ```7.3.3``` |
 
 </details>

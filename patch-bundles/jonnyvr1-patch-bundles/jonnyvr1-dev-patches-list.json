@@ -1,0 +1,297 @@
+{
+    "version": "v0.0.1-dev2",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": "Tantan - Global Dating App",
+                    "name": "Tantan",
+                    "packageName": "com.tantantribe.tribe",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.3.3",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "7.3.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes all ad displays: navigation bar banner, native feed ads, live streaming banner ads, live square ads",
+            "name": "Ad Removal",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": "Tantan - Global Dating App",
+                    "name": "Tantan",
+                    "packageName": "com.tantantribe.tribe",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.3.3",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "7.3.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables all analytics, telemetry, and device fingerprinting for privacy",
+            "name": "Analytics Disable",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": "Tantan - Global Dating App",
+                    "name": "Tantan",
+                    "packageName": "com.tantantribe.tribe",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.3.3",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "7.3.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes annoying promotional dialogs: 5-star rating, appstore rating, version upgrade, offline popup, notification permission, phone auth prompts, purchase pages",
+            "name": "Dialog Cleanup",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": "Tantan - Global Dating App",
+                    "name": "Tantan",
+                    "packageName": "com.tantantribe.tribe",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.3.3",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "7.3.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Makes Google Maps and GMS-dependent features work in re-signed APKs. Includes signature spoofing, auth header fixes, MicroG support, and GMS availability bypass.",
+            "name": "GMS Compatibility",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": "Tantan - Global Dating App",
+                    "name": "Tantan",
+                    "packageName": "com.tantantribe.tribe",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.3.3",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "7.3.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Live entry animation, push limit bypass, swipe card unlimited, chat rate limit removal, voice game access, all-day PK battles, gift leaderboard, knight privileges, entrance limits",
+            "name": "Live Streaming Enhancement",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": "Tantan - Global Dating App",
+                    "name": "Tantan",
+                    "packageName": "com.tantantribe.tribe",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.3.3",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "7.3.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes message limits, unlimited pin chat, voice/video calls, quick chat, typing indicator, free gifts, letter, greeting, ice breaker, read receipts, AI translation, message recall, group chat, live chat, message filter, chat partner config, ODiamond visitor config, prologue config, love buzz data, secret crush limit, boost limit",
+            "name": "Messaging Enhancement",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": "Tantan - Global Dating App",
+                    "name": "Tantan",
+                    "packageName": "com.tantantribe.tribe",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.3.3",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "7.3.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features, tier statuses, subscription validation, and display",
+            "name": "Premium Unlock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": "Tantan - Global Dating App",
+                    "name": "Tantan",
+                    "packageName": "com.tantantribe.tribe",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.3.3",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "7.3.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks privacy features: hide from nearby, visitor footprint hiding, mysterious mode, nearby people access, read receipt unlock, read receipt dialog suppression, contact access block, location privacy, privacy settings force enable, hide activity time, hide age, hide icon, frozen activity, frozen time, hide distance, core service privacy gate, hide active from SVip, disable ad suggestions, live stealth privacy, online status visibility",
+            "name": "Privacy Controls",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": "Tantan - Global Dating App",
+                    "name": "Tantan",
+                    "packageName": "com.tantantribe.tribe",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.3.3",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "7.3.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Advanced privacy protections: root/emulator detection bypass, ShuMeng SDK blocking, package enumeration prevention",
+            "name": "Privacy Enhancement",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": "Tantan - Global Dating App",
+                    "name": "Tantan",
+                    "packageName": "com.tantantribe.tribe",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "7.3.3",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "7.3.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes guides, banners, stickers, decorations, and AI prompts",
+            "name": "UI Cleanup",
+            "options": []
+        }
+    ]
+}
