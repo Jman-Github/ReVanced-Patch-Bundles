@@ -1,5 +1,5 @@
 {
-    "version": "v1.39.0-dev.4",
+    "version": "v1.39.0-dev.6",
     "patches": [
         {
             "compatiblePackages": [
@@ -2205,7 +2205,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds an option to disable the popup asking to sign into a TV on the same local network.",
+            "description": "Adds options to disable the popups asking to sign into or connect to a TV on the same local network.",
             "name": "Disable sign in to TV popup",
             "options": []
         },
