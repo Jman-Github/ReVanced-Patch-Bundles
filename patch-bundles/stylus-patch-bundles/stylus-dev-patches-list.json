@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.1",
+    "version": "v1.4.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -121,9 +121,38 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": "Renders GitHub UI text using the device system font by overriding bundled font resources at runtime.",
             "name": "Force system font (GitHub)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#181C20",
+                    "name": "GitHub",
+                    "packageName": "com.github.android",
+                    "signatures": [
+                        "df08c9f2d809189d9d506497c15745a7395a41536efb433e3aee1aedbe11b261"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "1.270.0"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Renders GitHub UI and monospace text using the device system UI font.",
+            "name": "Force system font (including monospace) (GitHub)",
             "options": []
         }
     ]
