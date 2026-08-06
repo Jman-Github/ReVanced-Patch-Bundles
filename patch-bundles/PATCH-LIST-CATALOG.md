@@ -172,6 +172,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Dexnis](#-dexnis-bundle-patch-list) | 1 | 1 | Generated |
 | [HU-Liberator](#-hu-liberator-bundle-patch-list) | 11 | 2 | Generated |
 | [JonnyVR1](#-jonnyvr1-bundle-patch-list) | 10 | 1 | Generated |
+| [Logm1lo](#-logm1lo-bundle-patch-list) | 1 | 1 | Generated |
+| [Heinrich26](#-heinrich26-bundle-patch-list) | 1 | 1 | Generated |
+| [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -5640,5 +5643,41 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Privacy Controls``` | ```Unlocks privacy features: hide from nearby, visitor footprint hiding, mysterious mode, nearby people access, read receipt unlock, read receipt dialog suppression, contact access block, location privacy, privacy settings force enable, hide activity time, hide age, hide icon, frozen activity, frozen time, hide distance, core service privacy gate, hide active from SVip, disable ad suggestions, live stealth privacy, online status visibility``` | ```Tantan``` | ```7.3.3``` |
 | ```Privacy Enhancement``` | ```Advanced privacy protections: root/emulator detection bypass, ShuMeng SDK blocking, package enumeration prevention``` | ```Tantan``` | ```7.3.3``` |
 | ```UI Cleanup``` | ```Removes guides, banners, stickers, decorations, and AI prompts``` | ```Tantan``` | ```7.3.3``` |
+
+</details>
+
+---
+### 🧩 Logm1lo Bundle Patch List:
+[📦 Logm1lo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-logm1lo-patches-bundle-morphe)
+<details>
+<summary><b>Logm1lo</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Premium Unlock``` | ```Unlocks all Calistree PRO features.``` | ```Calistree``` | ```5.8.5``` |
+
+</details>
+
+---
+### 🧩 Heinrich26 Bundle Patch List:
+[📦 Heinrich26-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-heinrich26-patches-bundle-morphe)
+<details>
+<summary><b>Heinrich26</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock Pro``` | ```N/A``` | ```MT Capsule``` | ```15.7``` |
+
+</details>
+
+---
+### 🧩 SpookyEXE Bundle Patch List:
+[📦 SpookyEXE-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-spookyexe-patches-bundle-morphe)
+<details>
+<summary><b>SpookyEXE</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock Beeline Plus features``` | ```Unlocks Beeline plus features such as round-trip generation, live traffic and premium map types.``` | ```Beeline``` | ```4.2.8014``` |
 
 </details>
