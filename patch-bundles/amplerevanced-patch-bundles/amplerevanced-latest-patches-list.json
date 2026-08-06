@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.5",
+    "version": "v1.3.0-dev.7",
     "patches": [
         {
             "compatiblePackages": [
@@ -459,6 +459,10 @@
                     "name": "Flexcil",
                     "packageName": "com.flexcil.flexcilnote",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.4.12"
+                        },
                         {
                             "isExperimental": false,
                             "version": "1.4.4.10"
@@ -2563,6 +2567,10 @@
                     "name": "Flexcil",
                     "packageName": "com.flexcil.flexcilnote",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.4.12"
+                        },
                         {
                             "isExperimental": false,
                             "version": "1.4.4.10"
