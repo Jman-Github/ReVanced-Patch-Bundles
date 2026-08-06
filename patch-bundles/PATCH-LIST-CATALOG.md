@@ -175,7 +175,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 1 | 1 | Generated |
 | [Heinrich26](#-heinrich26-bundle-patch-list) | 1 | 1 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
-| [PetalMaps-AndroidAuto](#-petalmaps-androidauto-bundle-patch-list) | 3 | 1 | Generated |
+| [PetalMaps-AndroidAuto](#-petalmaps-androidauto-bundle-patch-list) | 8 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -5641,7 +5641,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Ad Removal``` | ```Removes all ad displays: navigation bar banner, native feed ads, live streaming banner ads, live square ads, conversation Google ads, marriage guide card, four-select-one card, daily selection card, visitor list ads``` | ```Tantan``` | ```All versions``` |
+| ```Ad Removal``` | ```Removes all ad displays: navigation bar banner, native feed ads, live streaming banner ads, live video feed ads, live square ads, conversation Google ads, marriage guide card, four-select-one card, daily selection card, visitor list ads, likers ads, meet likers ads, meet visitor ads``` | ```Tantan``` | ```All versions``` |
 | ```Analytics Disable``` | ```Disables all analytics, telemetry, and device fingerprinting for privacy``` | ```Tantan``` | ```All versions``` |
 | ```Dialog Cleanup``` | ```Removes annoying promotional dialogs: 5-star rating, appstore rating, version upgrade, offline popup, notification permission, phone auth prompts, purchase pages``` | ```Tantan``` | ```All versions``` |
 | ```GMS Compatibility``` | ```Makes Google Maps and GMS-dependent features work in re-signed APKs. Includes signature spoofing, auth header fixes, MicroG support, and GMS availability bypass.``` | ```Tantan``` | ```All versions``` |
@@ -5694,12 +5694,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 PetalMaps-AndroidAuto Bundle Patch List:
 [📦 PetalMaps-AndroidAuto-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-petalmaps-androidauto-patches-bundle-morphe)
 <details>
-<summary><b>PetalMaps-AndroidAuto</b> - 3 patches, 1 app</summary>
+<summary><b>PetalMaps-AndroidAuto</b> - 8 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Android Auto``` | ```Injects full Android Auto support into Petal Maps, including CarAppService, manifest declarations, and required resources. Also apply 'Anti-Repack Bypass' and 'Manufacturer Check Bypass' for full functionality on non-Huawei devices.``` | ```Petal Maps``` | ```4.7.0.322(001)``` |
-| ```Anti-Repack Bypass``` | ```Neutralizes the native integrity check (SecurityDetect.irpj) that kills the process upon detecting APK re-signing.``` | ```Petal Maps``` | ```4.7.0.322(001)``` |
-| ```Manufacturer Check Bypass``` | ```Forces the Huawei manufacturer check to always return true, allowing non-Huawei devices to use the app.``` | ```Petal Maps``` | ```4.7.0.322(001)``` |
+| ```Android Auto``` | ```Injects full Android Auto support into Petal Maps, including CarAppService, manifest declarations, and required resources. Also apply 'Anti-Repack Bypass' and 'Manufacturer Check Bypass' for full functionality on non-Huawei devices.``` | ```Petal Maps``` | ```All versions``` |
+| ```Android Auto allowlist (root)``` | ```Registers the app in Android Auto's allowlist on startup when root is available; no-op without root.``` | ```Petal Maps``` | ```All versions``` |
+| ```Android Auto Manifest``` | ```Adds the Android Auto CarAppService declaration, meta-data, and permissions to AndroidManifest.xml.``` | ```Petal Maps``` | ```All versions``` |
+| ```Android Auto Resources``` | ```Adds the automotive_app_desc.xml resource required by Android Auto.``` | ```Petal Maps``` | ```All versions``` |
+| ```Anti-Repack Bypass``` | ```Neutralizes the native integrity check (SecurityDetect.irpj) that kills the process upon detecting APK re-signing.``` | ```Petal Maps``` | ```All versions``` |
+| ```Change package name``` | ```Changes the package name from com.huawei.maps.app to morphe.huawei.petal.maps by default, allowing the patched app to coexist with the original. Changing the package name can lead to unexpected issues.``` | ```Petal Maps``` | ```All versions``` |
+| ```Huawei login fix``` | ```Forces the Account Picker sign-in flow with WebView fallback, fixing login on devices without HMS Core.``` | ```Petal Maps``` | ```All versions``` |
+| ```Manufacturer Check Bypass``` | ```Forces the Huawei manufacturer check to always return true, allowing non-Huawei devices to use the app.``` | ```Petal Maps``` | ```All versions``` |
 
 </details>
