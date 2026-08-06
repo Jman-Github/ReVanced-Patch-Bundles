@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.19",
+    "version": "v1.1.0-dev.20",
     "patches": [
         {
             "compatiblePackages": [
@@ -37,9 +37,7 @@
                 }
             ],
             "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
+            "dependencies": [],
             "description": "Pins playlists to the top of the YouTube Music Library.",
             "name": "Pin playlists",
             "options": []

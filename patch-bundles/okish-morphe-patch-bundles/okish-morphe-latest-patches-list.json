@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0",
+    "version": "v1.6.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -20,6 +20,69 @@
             "dependencies": [],
             "description": "Unlocks the full game by bypassing Google Play billing.",
             "name": "Doodle Jump Billing Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#1565C0",
+                    "name": "Dr. Driving",
+                    "packageName": "com.ansangha.drdriving",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.73"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes all Google AdMob ads (banner, interstitial, rewarded).",
+            "name": "Dr. Driving Ad Removal",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#1565C0",
+                    "name": "Dr. Driving",
+                    "packageName": "com.ansangha.drdriving",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.73"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Coins inflated to 1,000,000,000 on save load; purchases, upgrades, rentals and repairs never cost coins.",
+            "name": "Dr. Driving Unlimited Coins",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#1565C0",
+                    "name": "Dr. Driving",
+                    "packageName": "com.ansangha.drdriving",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.73"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Gold is inflated to 1,000,000,000 on save load; gold packs in the store also grant gold.",
+            "name": "Dr. Driving Unlimited Gold",
             "options": []
         },
         {
