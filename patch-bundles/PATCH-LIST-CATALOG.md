@@ -5655,7 +5655,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Premium Unlock``` | ```Unlocks all Calistree PRO features.``` | ```Calistree``` | ```5.8.5``` |
+| ```Premium Unlock``` | ```Unlocks all Calistree PRO features.``` | ```Calistree``` | ```All versions``` |
 
 </details>
 
@@ -5667,7 +5667,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Unlock Pro``` | ```N/A``` | ```MT Capsule``` | ```15.7``` |
+| ```Unlock Pro``` | ```N/A``` | ```MT Capsule``` | ```All versions``` |
 
 </details>
 
@@ -5679,7 +5679,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Unlock Beeline Plus features``` | ```Unlocks Beeline plus features such as round-trip generation, live traffic and premium map types.``` | ```Beeline``` | ```4.2.8014``` |
+| ```Unlock Beeline Plus features``` | ```Unlocks Beeline plus features such as round-trip generation, live traffic and premium map types.``` | ```Beeline``` | ```All versions``` |
 
 </details>
 
