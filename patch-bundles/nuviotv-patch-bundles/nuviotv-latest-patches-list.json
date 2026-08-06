@@ -1,6 +1,30 @@
 {
-    "version": "v1.0.0-dev.13",
+    "version": "v1.0.0-dev.14",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#111827",
+                    "name": "NuvioTV",
+                    "packageName": "com.nuvio.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.8.2-beta"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Marks detected English SDH tracks in embedded and addon subtitle lists.",
+            "name": "Mark SDH Subtitles",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {

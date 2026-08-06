@@ -1,5 +1,5 @@
 {
-    "version": "v4.2.0-dev.11",
+    "version": "v4.2.0-dev.12",
     "patches": [
         {
             "compatiblePackages": {
@@ -587,6 +587,27 @@
                     "values": null
                 }
             ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.43.41",
+                    "19.44.39",
+                    "19.47.53",
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Forces a higher display density for this app only, so the whole UI scales up without changing system density.",
+            "name": "Custom DPI",
+            "options": [],
             "use": true
         },
         {
@@ -2221,6 +2242,28 @@
         },
         {
             "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.43.41",
+                    "19.44.39",
+                    "19.47.53",
+                    "20.05.46",
+                    "20.21.37",
+                    "20.31.42",
+                    "20.47.62",
+                    "20.51.39"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds the 'Playback in feeds' setting of YouTube to the RVX settings, where it is always available even if YouTube hides it.",
+            "name": "Playback in feeds",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
                 "com.google.android.apps.youtube.music": [
                     "6.20.51",
                     "6.29.59",
@@ -3228,6 +3271,25 @@
                 }
             ],
             "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "9.15.51"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to show synced lyrics from LRCLIB or KuGou in the lyrics panel.",
+            "name": "Third-party lyrics",
+            "options": [],
+            "use": true
         },
         {
             "compatiblePackages": {

@@ -65,7 +65,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 17 | 9 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 7 | 6 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 10 | 7 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 9 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -89,7 +89,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 45 | 32 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
-| [Anddea](#-anddea-bundle-patch-list) | 120 | 3 | Generated |
+| [Anddea](#-anddea-bundle-patch-list) | 123 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 127 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 10 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
@@ -166,7 +166,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [TikTok-Lite](#-tiktok-lite-bundle-patch-list) | 35 | 2 | Generated |
 | [Niconico-YT](#-niconico-yt-bundle-patch-list) | 1 | 1 | Generated |
 | [Alastor-Kaneki](#-alastor-kaneki-bundle-patch-list) | 1 | 1 | Generated |
-| [NuvioTV](#-nuviotv-bundle-patch-list) | 2 | 1 | Generated |
+| [NuvioTV](#-nuviotv-bundle-patch-list) | 3 | 1 | Generated |
 | [GoldRift](#-goldrift-bundle-patch-list) | 1 | 1 | Generated |
 | [RoundSalmon4](#-roundsalmon4-bundle-patch-list) | 1 | 1 | Generated |
 | [Dexnis](#-dexnis-bundle-patch-list) | 1 | 1 | Generated |
@@ -174,7 +174,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [JonnyVR1](#-jonnyvr1-bundle-patch-list) | 10 | 1 | Generated |
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 1 | 1 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
-| [PetalMaps-AndroidAuto](#-petalmaps-androidauto-bundle-patch-list) | 3 | 1 | Generated |
+| [PetalMaps-AndroidAuto](#-petalmaps-androidauto-bundle-patch-list) | 8 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -612,11 +612,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 7 patches, 6 apps</summary>
+<summary><b>Okish-Morphe</b> - 10 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Doodle Jump Billing Bypass``` | ```Unlocks the full game by bypassing Google Play billing.``` | ```Doodle Jump``` | ```All versions``` |
+| ```Dr. Driving Ad Removal``` | ```Removes all Google AdMob ads (banner, interstitial, rewarded).``` | ```Dr. Driving``` | ```All versions``` |
+| ```Dr. Driving Unlimited Coins``` | ```Coins inflated to 1,000,000,000 on save load; purchases, upgrades, rentals and repairs never cost coins.``` | ```Dr. Driving``` | ```All versions``` |
+| ```Dr. Driving Unlimited Gold``` | ```Gold is inflated to 1,000,000,000 on save load; gold packs in the store also grant gold.``` | ```Dr. Driving``` | ```All versions``` |
 | ```FreeJobAlert Ad Removal``` | ```Removes all Google AdMob ads (banner, interstitial, rewarded, app open, native).``` | ```FreeJobAlert``` | ```All versions``` |
 | ```FreeJobAlert License Bypass``` | ```Bypasses the Pairip Play Store installation check so the app launches normally.``` | ```FreeJobAlert``` | ```All versions``` |
 | ```Jetpack Joyride Billing Bypass``` | ```Intercepts all in-app purchases and reports instant success to the game engine.``` | ```Jetpack Joyride``` | ```All versions``` |
@@ -1569,7 +1572,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Anddea Bundle Patch List:
 [📦 Anddea-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-anddea-patches-bundle-morphe)
 <details>
-<summary><b>Anddea</b> - 120 patches, 3 apps</summary>
+<summary><b>Anddea</b> - 123 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1611,6 +1614,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as non-music sections.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54, 9.15.51``` |
 | ```Spoof app version for lyrics``` | ```Adds options to spoof the YouTube Music client version. This can be used to restore old lyrics UI.``` | ```com.google.android.apps.youtube.music``` | ```6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54, 9.15.51``` |
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54, 9.15.51``` |
+| ```Third-party lyrics``` | ```Adds an option to show synced lyrics from LRCLIB or KuGou in the lyrics panel.``` | ```com.google.android.apps.youtube.music``` | ```9.15.51``` |
 | ```Track crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54, 9.15.51``` |
 | ```Translations for YouTube Music``` | ```Add translations or remove string resources.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54, 9.15.51``` |
 | ```Video playback``` | ```Adds options to customize settings related to video playback, such as default video quality and playback speed.``` | ```com.google.android.apps.youtube.music``` | ```6.20.51, 6.29.59, 6.42.55, 6.51.53, 7.16.53, 7.25.53, 8.12.54, 8.28.54, 8.30.54, 9.15.51``` |
@@ -1627,6 +1631,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Custom branding icon for YouTube``` | ```Changes the YouTube app icon to the icon specified in patch options.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Custom branding name for YouTube``` | ```Changes the YouTube app name to the name specified in patch options.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Custom double tap length``` | ```Adds Double-tap to seek values that are specified in patch options.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
+| ```Custom DPI``` | ```Forces a higher display density for this app only, so the whole UI scales up without changing system density.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Custom header for YouTube``` | ```Applies a custom header in the top left corner within the app.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Custom Shorts action buttons``` | ```Changes, at compile time, the icon of the action buttons of the Shorts player.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Description components``` | ```Adds options to hide and disable description components.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
@@ -1662,6 +1667,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Navigation bar components``` | ```Adds options to hide or change components related to the navigation bar.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Open links externally``` | ```Adds an option to always open links in your browser instead of the in-app browser.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Overlay buttons``` | ```Adds options to display useful overlay buttons in the video player.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
+| ```Playback in feeds``` | ```Adds the 'Playback in feeds' setting of YouTube to the RVX settings, where it is always available even if YouTube hides it.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Player components``` | ```Adds options to hide or change components related to the video player.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Reload video``` | ```Adds an option to display a button in the video player to reload the current video.``` | ```com.google.android.youtube``` | ```20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
 | ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including for music and kids videos.``` | ```com.google.android.youtube``` | ```19.43.41, 19.44.39, 19.47.53, 20.05.46, 20.21.37, 20.31.42, 20.47.62, 20.51.39``` |
@@ -5558,10 +5564,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 NuvioTV Bundle Patch List:
 [📦 NuvioTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nuviotv-patches-bundle-morphe)
 <details>
-<summary><b>NuvioTV</b> - 2 patches, 1 app</summary>
+<summary><b>NuvioTV</b> - 3 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Mark SDH Subtitles``` | ```Marks detected English SDH tracks in embedded and addon subtitle lists.``` | ```NuvioTV``` | ```All versions``` |
 | ```Rating Visibility``` | ```Adds Settings > Morphe > Ratings with independent overall and episode rating controls.``` | ```NuvioTV``` | ```All versions``` |
 | ```Remove SDH Annotations``` | ```Adds Settings → Morphe → Subtitles and removes SDH annotations from Media3 subtitles when enabled.``` | ```NuvioTV``` | ```All versions``` |
 
@@ -5633,7 +5640,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Ad Removal``` | ```Removes all ad displays: navigation bar banner, native feed ads, live streaming banner ads, live square ads, conversation Google ads, marriage guide card, four-select-one card, daily selection card, visitor list ads``` | ```Tantan``` | ```All versions``` |
+| ```Ad Removal``` | ```Removes all ad displays: navigation bar banner, native feed ads, live streaming banner ads, live video feed ads, live square ads, conversation Google ads, marriage guide card, four-select-one card, daily selection card, visitor list ads, likers ads, meet likers ads, meet visitor ads``` | ```Tantan``` | ```All versions``` |
 | ```Analytics Disable``` | ```Disables all analytics, telemetry, and device fingerprinting for privacy``` | ```Tantan``` | ```All versions``` |
 | ```Dialog Cleanup``` | ```Removes annoying promotional dialogs: 5-star rating, appstore rating, version upgrade, offline popup, notification permission, phone auth prompts, purchase pages``` | ```Tantan``` | ```All versions``` |
 | ```GMS Compatibility``` | ```Makes Google Maps and GMS-dependent features work in re-signed APKs. Includes signature spoofing, auth header fixes, MicroG support, and GMS availability bypass.``` | ```Tantan``` | ```All versions``` |
@@ -5674,12 +5681,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 PetalMaps-AndroidAuto Bundle Patch List:
 [📦 PetalMaps-AndroidAuto-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-petalmaps-androidauto-patches-bundle-morphe)
 <details>
-<summary><b>PetalMaps-AndroidAuto</b> - 3 patches, 1 app</summary>
+<summary><b>PetalMaps-AndroidAuto</b> - 8 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Android Auto``` | ```Injects full Android Auto support into Petal Maps, including CarAppService, manifest declarations, and required resources. Also apply 'Anti-Repack Bypass' and 'Manufacturer Check Bypass' for full functionality on non-Huawei devices.``` | ```Petal Maps``` | ```4.7.0.322(001)``` |
-| ```Anti-Repack Bypass``` | ```Neutralizes the native integrity check (SecurityDetect.irpj) that kills the process upon detecting APK re-signing.``` | ```Petal Maps``` | ```4.7.0.322(001)``` |
-| ```Manufacturer Check Bypass``` | ```Forces the Huawei manufacturer check to always return true, allowing non-Huawei devices to use the app.``` | ```Petal Maps``` | ```4.7.0.322(001)``` |
+| ```Android Auto``` | ```Injects full Android Auto support into Petal Maps, including CarAppService, manifest declarations, and required resources. Also apply 'Anti-Repack Bypass' and 'Manufacturer Check Bypass' for full functionality on non-Huawei devices.``` | ```Petal Maps``` | ```All versions``` |
+| ```Android Auto allowlist (root)``` | ```Registers the app in Android Auto's allowlist on startup when root is available; no-op without root.``` | ```Petal Maps``` | ```All versions``` |
+| ```Android Auto Manifest``` | ```Adds the Android Auto CarAppService declaration, meta-data, and permissions to AndroidManifest.xml.``` | ```Petal Maps``` | ```All versions``` |
+| ```Android Auto Resources``` | ```Adds the automotive_app_desc.xml resource required by Android Auto.``` | ```Petal Maps``` | ```All versions``` |
+| ```Anti-Repack Bypass``` | ```Neutralizes the native integrity check (SecurityDetect.irpj) that kills the process upon detecting APK re-signing.``` | ```Petal Maps``` | ```All versions``` |
+| ```Change package name``` | ```Changes the package name from com.huawei.maps.app to morphe.huawei.petal.maps by default, allowing the patched app to coexist with the original. Changing the package name can lead to unexpected issues.``` | ```Petal Maps``` | ```All versions``` |
+| ```Huawei login fix``` | ```Forces the Account Picker sign-in flow with WebView fallback, fixing login on devices without HMS Core.``` | ```Petal Maps``` | ```All versions``` |
+| ```Manufacturer Check Bypass``` | ```Forces the Huawei manufacturer check to always return true, allowing non-Huawei devices to use the app.``` | ```Petal Maps``` | ```All versions``` |
 
 </details>
