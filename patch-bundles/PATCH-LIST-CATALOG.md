@@ -175,6 +175,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 1 | 1 | Generated |
 | [Heinrich26](#-heinrich26-bundle-patch-list) | 1 | 1 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
+| [PetalMaps-AndroidAuto](#-petalmaps-androidauto-bundle-patch-list) | 3 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -5679,5 +5680,19 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Beeline Plus features``` | ```Unlocks Beeline plus features such as round-trip generation, live traffic and premium map types.``` | ```Beeline``` | ```4.2.8014``` |
+
+</details>
+
+---
+### 🧩 PetalMaps-AndroidAuto Bundle Patch List:
+[📦 PetalMaps-AndroidAuto-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-petalmaps-androidauto-patches-bundle-morphe)
+<details>
+<summary><b>PetalMaps-AndroidAuto</b> - 3 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Android Auto``` | ```Injects full Android Auto support into Petal Maps, including CarAppService, manifest declarations, and required resources. Also apply 'Anti-Repack Bypass' and 'Manufacturer Check Bypass' for full functionality on non-Huawei devices.``` | ```Petal Maps``` | ```4.7.0.322(001)``` |
+| ```Anti-Repack Bypass``` | ```Neutralizes the native integrity check (SecurityDetect.irpj) that kills the process upon detecting APK re-signing.``` | ```Petal Maps``` | ```4.7.0.322(001)``` |
+| ```Manufacturer Check Bypass``` | ```Forces the Huawei manufacturer check to always return true, allowing non-Huawei devices to use the app.``` | ```Petal Maps``` | ```4.7.0.322(001)``` |
 
 </details>

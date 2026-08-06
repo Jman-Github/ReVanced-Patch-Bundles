@@ -1,0 +1,56 @@
+{
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Petal Maps",
+                    "packageName": "com.huawei.maps.app",
+                    "versions": [
+                        "4.7.0.322(001)"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "Android Auto Manifest",
+                "Android Auto Resources"
+            ],
+            "description": "Injects full Android Auto support into Petal Maps, including CarAppService, manifest declarations, and required resources. Also apply 'Anti-Repack Bypass' and 'Manufacturer Check Bypass' for full functionality on non-Huawei devices.",
+            "name": "Android Auto",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Petal Maps",
+                    "packageName": "com.huawei.maps.app",
+                    "versions": [
+                        "4.7.0.322(001)"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes the native integrity check (SecurityDetect.irpj) that kills the process upon detecting APK re-signing.",
+            "name": "Anti-Repack Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Petal Maps",
+                    "packageName": "com.huawei.maps.app",
+                    "versions": [
+                        "4.7.0.322(001)"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces the Huawei manufacturer check to always return true, allowing non-Huawei devices to use the app.",
+            "name": "Manufacturer Check Bypass",
+            "options": []
+        }
+    ],
+    "version": "v1.0.1"
+}
