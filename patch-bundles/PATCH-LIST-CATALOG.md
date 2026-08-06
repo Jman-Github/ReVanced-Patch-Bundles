@@ -173,7 +173,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HU-Liberator](#-hu-liberator-bundle-patch-list) | 11 | 2 | Generated |
 | [JonnyVR1](#-jonnyvr1-bundle-patch-list) | 10 | 1 | Generated |
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 1 | 1 | Generated |
-| [Heinrich26](#-heinrich26-bundle-patch-list) | 1 | 1 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 | [PetalMaps-AndroidAuto](#-petalmaps-androidauto-bundle-patch-list) | 3 | 1 | Generated |
 
@@ -5656,18 +5655,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Premium Unlock``` | ```Unlocks all Calistree PRO features.``` | ```Calistree``` | ```All versions``` |
-
-</details>
-
----
-### 🧩 Heinrich26 Bundle Patch List:
-[📦 Heinrich26-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-heinrich26-patches-bundle-morphe)
-<details>
-<summary><b>Heinrich26</b> - 1 patch, 1 app</summary>
-
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Unlock Pro``` | ```N/A``` | ```MT Capsule``` | ```All versions``` |
 
 </details>
 
