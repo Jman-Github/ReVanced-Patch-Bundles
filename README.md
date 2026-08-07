@@ -2729,4 +2729,5 @@ Implemented a patch serializer for all `.rvp` (API v4) patch bundles in this
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/chart?repos=Jman-Github/Revanced-Patch-Bundlestype=date&type=date&legend=top-left&sealed_token=ORKUsht4OVNKSfhsXvs3ZJepz2X0oR7wgn7Eam-hPnsfIyJ-7843-C-shDPjdqC3W-LHutXghTgPXKtKsgaake_XbwSX4aZWMkWBDKEYvkVxbEvK82pcWg)](https://www.star-history.com/?repos=Jman-Github%2FRevanced-Patch-Bundlestype%3Ddate&type=date&legend=top-left)
+[![Star History Chart](https://star-history.dera.page/svg?repos=Jman-Github/Revanced-Patch-Bundlestype=date&legend=top-left)](https://star-history.dera.page/#Jman-Github/Revanced-Patch-Bundles&type=date&legend=top-left)
+
