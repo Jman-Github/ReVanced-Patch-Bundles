@@ -166,7 +166,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [TikTok-Lite](#-tiktok-lite-bundle-patch-list) | 35 | 2 | Generated |
 | [Niconico-YT](#-niconico-yt-bundle-patch-list) | 1 | 1 | Generated |
 | [Alastor-Kaneki](#-alastor-kaneki-bundle-patch-list) | 1 | 1 | Generated |
-| [NuvioTV](#-nuviotv-bundle-patch-list) | 5 | 1 | Generated |
+| [NuvioTV](#-nuviotv-bundle-patch-list) | 6 | 1 | Generated |
 | [GoldRift](#-goldrift-bundle-patch-list) | 1 | 1 | Generated |
 | [RoundSalmon4](#-roundsalmon4-bundle-patch-list) | 1 | 1 | Generated |
 | [Dexnis](#-dexnis-bundle-patch-list) | 1 | 1 | Generated |
@@ -5569,12 +5569,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 NuvioTV Bundle Patch List:
 [📦 NuvioTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nuviotv-patches-bundle-morphe)
 <details>
-<summary><b>NuvioTV</b> - 5 patches, 1 app</summary>
+<summary><b>NuvioTV</b> - 6 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Allow Importing Subs from Local Storage``` | ```Adds Local Storage to Nuvio's ExoPlayer subtitle menu and imports subtitle files from the device.``` | ```NuvioTV``` | ```All versions``` |
 | ```Binge Group Manual Fallback``` | ```Adds Morphe > Playback control to open the source picker when no preferred binge-group stream is found.``` | ```NuvioTV``` | ```All versions``` |
-| ```Mark SDH Subtitles``` | ```Marks detected English SDH tracks in embedded and addon subtitle lists.``` | ```NuvioTV``` | ```All versions``` |
+| ```Mark SDH Subtitles``` | ```Marks explicitly labelled SDH tracks and detected English SDH subtitle files.``` | ```NuvioTV``` | ```All versions``` |
 | ```Random Episode``` | ```Adds Morphe > Detail Page > Show Random Episode Button and random series playback.``` | ```NuvioTV``` | ```All versions``` |
 | ```Rating Visibility``` | ```Adds Settings > Morphe > Ratings with independent overall and episode rating controls.``` | ```NuvioTV``` | ```All versions``` |
 | ```Remove SDH Annotations``` | ```Adds Settings → Morphe → Subtitles and removes SDH annotations from Media3 subtitles when enabled.``` | ```NuvioTV``` | ```All versions``` |
@@ -5647,12 +5648,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Ad Removal``` | ```Removes all ad displays: navigation bar banner, native feed ads, live streaming banner ads, live video feed ads, live square ads, conversation Google ads, marriage guide card, four-select-one card, daily selection card, visitor list ads, likers ads, meet likers ads, meet visitor ads``` | ```Tantan``` | ```All versions``` |
+| ```Ad Removal``` | ```Removes all ad displays: navigation bar banner, native feed ads, live streaming banner ads, live video feed ads, live square ads, conversation Google ads, marriage guide card, four-select-one card, daily selection card, visitor list ads, likers ads, meet likers ads, meet visitor ads, splash screen ads, profile photo carousel ads, incentive video ads``` | ```Tantan``` | ```All versions``` |
 | ```Analytics Disable``` | ```Disables all analytics, telemetry, and device fingerprinting for privacy``` | ```Tantan``` | ```All versions``` |
 | ```Dialog Cleanup``` | ```Removes annoying promotional dialogs: 5-star rating, appstore rating, version upgrade, offline popup, notification permission, phone auth prompts, purchase pages``` | ```Tantan``` | ```All versions``` |
 | ```GMS Compatibility``` | ```Makes Google Maps and GMS-dependent features work in re-signed APKs. Includes signature spoofing, auth header fixes, MicroG support, and GMS availability bypass.``` | ```Tantan``` | ```All versions``` |
 | ```Live Streaming Enhancement``` | ```Live streaming enhancement: push limit bypass, swipe card unlimited, chat rate limit removal, voice game access, all-day PK battles, gift leaderboard, knight privileges, entrance limits, permission control, daily payment, noble config, stealth privacy, video chat, voice features, monetization, game operations, star toggle``` | ```Tantan``` | ```All versions``` |
-| ```Messaging Enhancement``` | ```Removes message limits, unlimited pin chat, voice/video calls, quick chat, typing indicator, free gifts, letter, greeting, ice breaker, read receipts, AI translation, message recall, group chat, live chat, message filter, chat partner config, ODiamond visitor config, prologue config, love buzz data, secret crush limit, boost limit``` | ```Tantan``` | ```All versions``` |
+| ```Messaging Enhancement``` | ```Removes message limits, unlimited pin chat, voice/video calls, quick chat, typing indicator, free gifts, letter, greeting, ice breaker, read receipts, AI translation, message recall, group chat, live chat, message filter, chat partner config, ODiamond visitor config, prologue config, love buzz data, secret crush limit, boost limit, message tab revision, collapsible conversation, chat helper AI, call duration``` | ```Tantan``` | ```All versions``` |
 | ```Premium Unlock``` | ```Unlocks all premium features, tier statuses, subscription validation, and display``` | ```Tantan``` | ```All versions``` |
 | ```Privacy Controls``` | ```Unlocks privacy features: hide from nearby, visitor footprint hiding, mysterious mode, nearby people access, read receipt unlock, read receipt dialog suppression, contact access block, location privacy, privacy settings force enable, hide activity time, hide age, hide icon, frozen activity, frozen time, hide distance, core service privacy gate, hide active from SVip, disable ad suggestions, live stealth privacy, online status visibility, hide VIP badge, heartbeat disable, verified user messages, online reminder, unreplied reminder, greeting do not disturb, only show about me inside``` | ```Tantan``` | ```All versions``` |
 | ```Privacy Enhancement``` | ```Advanced privacy protections: root/emulator detection bypass, ShuMeng SDK blocking, Facebook SDK emulator detection bypass, APK signature verification bypass, package enumeration prevention``` | ```Tantan``` | ```All versions``` |
