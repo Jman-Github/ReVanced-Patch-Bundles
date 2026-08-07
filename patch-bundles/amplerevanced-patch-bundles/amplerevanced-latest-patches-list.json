@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.8",
+    "version": "v1.3.0-dev.9",
     "patches": [
         {
             "compatiblePackages": [
@@ -350,8 +350,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Allows swiping feed messages to reply, or to comment where chat room comments are enabled.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds a setting to allow swiping feed messages to reply, or to comment where chat room comments are enabled.",
             "name": "Allow reply to feed",
             "options": []
         },
@@ -402,6 +404,60 @@
             "dependencies": [],
             "description": "Automatically claims CHZZK TongPow rewards when they become available while watching streams.",
             "name": "Auto claim TongPow",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.6.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Stops reactions, including the double tap gesture, from being sent on messages that the server considers deleted or hidden and that are only still visible because they are kept by a patch.",
+            "name": "Block reactions on deleted or hidden messages",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.6.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Stops the swipe gesture, and any reply or comment send, from targeting messages that the server considers deleted or hidden and that are only still visible because they are kept by a patch.",
+            "name": "Block replies on deleted or hidden messages",
             "options": []
         },
         {
