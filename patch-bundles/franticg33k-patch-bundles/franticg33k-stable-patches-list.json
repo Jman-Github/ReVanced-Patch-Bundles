@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.6",
+    "version": "v1.3.7",
     "patches": [
         {
             "compatiblePackages": [
@@ -128,7 +128,29 @@
                     "packageName": "com.jellywatch.app",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "2.0.REV-1712"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml.",
+            "name": "Remove License Activity",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#008577",
+                    "name": "JellyWatch TV",
+                    "packageName": "com.jellywatch.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.REV-0207"
                         }
                     ]
                 }
@@ -248,7 +270,8 @@
                     "packageName": "com.jellywatch.app",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "2.0.REV-1712"
                         }
                     ]
                 }
@@ -262,8 +285,29 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#008577",
+                    "name": "JellyWatch TV",
+                    "packageName": "com.jellywatch.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.REV-0207"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features in JellyWatch TV. Premium entitlement is server-verified against verify.jellywatch.app and surfaced to the UI as a PremiumStatus data class (isPremium = first boolean field); the patch forces that field to true and neutralizes the PairIP Play Store license check that gates the app on launch.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#1565C0",
-                    "name": "Mero Karobar",
+                    "name": "Karobar",
                     "packageName": "com.bytecaretech.merokarobar",
                     "targets": [
                         {
@@ -287,7 +331,8 @@
                     "packageName": "com.rawcam.app",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "1.1.7"
                         }
                     ]
                 }

@@ -62,7 +62,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
-| [Franticg33k](#-franticg33k-bundle-patch-list) | 17 | 9 | Generated |
+| [Franticg33k](#-franticg33k-bundle-patch-list) | 19 | 10 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 10 | 7 | Generated |
@@ -554,7 +554,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Franticg33k Bundle Patch List:
 [📦 Franticg33k-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-franticg33k-patches-bundle-morphe)
 <details>
-<summary><b>Franticg33k</b> - 17 patches, 9 apps</summary>
+<summary><b>Franticg33k</b> - 19 patches, 10 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -566,6 +566,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Remove Ads``` | ```Disables all ad serving in Hamro Patro by no-oping the native ad-placement resolver (HamroAdsPlacements). Every banner, native, interstitial, fullscreen and roadblock placement funnels through these leaf builders, so returning an empty list means no ad request is ever built for AdMob, Pangle, IronSource or Facebook Audience Network. Verified on v10.7.30.``` | ```Hamropatro``` | ```All versions``` |
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```JellyWatch``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features and shop items in JellyWatch.``` | ```JellyWatch``` | ```All versions``` |
+| ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```JellyWatch TV``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium features in JellyWatch TV. Premium entitlement is server-verified against verify.jellywatch.app and surfaced to the UI as a PremiumStatus data class (isPremium = first boolean field); the patch forces that field to true and neutralizes the PairIP Play Store license check that gates the app on launch.``` | ```JellyWatch TV``` | ```All versions``` |
 | ```Unlock Premium``` | ```Patches Dart AOT-compiled libapp.so to unlock all premium features. Forces hasPremiumAccess and isPaidUser to always return true by NOPing their ARM64 conditional branch instructions.``` | ```Karobar``` | ```All versions``` |
 | ```Unlock Premium``` | ```Forces the premium entitlement in Native Camera. Premium status is a local 'is_premium' SharedPreferences flag read on startup behind PairIP's Play Store licensing, so this unlocks RAW DNG, 10-bit video, HLG/UHDR and the boosted-ISO seekbar.``` | ```Native Camera``` | ```All versions``` |
 | ```Remove Ads``` | ```Disables all ad serving from Facebook Audience Network (FAN) and Google Mobile Ads (AdMob). No-ops the plugin bridges so no ads are shown.``` | ```Nepalipatro``` | ```All versions``` |
@@ -4605,7 +4607,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Skip ads``` | ```Multi-layer ad suppression targeting the SSAI schedule, impression reporting, and the Volley network chokepoint.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```MLB At Bat Android TV``` | ```Removes VOD ads and shows a commercial-break overlay over live gambling ads while preserving live game playback.``` | ```com.bamnetworks.mobile.android.gameday.atbat``` | ```26.8.1.1``` |
-| ```Paramount+ Android TV``` | ```Removes VOD ads and pause ads while preserving live TV.``` | ```com.cbs.ott``` | ```16.12.0, 16.8.0``` |
+| ```Paramount+ Android TV``` | ```Removes VOD pre-roll ads and pause ads while preserving live TV.``` | ```com.cbs.ott``` | ```16.17.0, 16.12.0, 16.8.0``` |
 | ```Disney+ Android TV``` | ```Removes mid-roll / pre-roll ads and pause ads.``` | ```com.disney.disneyplus``` | ```26.6.0+rc5-2026.04.21, 26.8.0+rc6-2026.05.20, 26.9.2+rc1-2026.06.12, 26.12.1+rc1-2026.07.15``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox One Android TV: Google IMA/DAI for VOD, Yospace SSAI for live content.``` | ```com.fox.foxone``` | ```1.9.2``` |
 | ```Clone Peacock``` | ```Installs the patched Peacock as a separate app alongside the stock one, instead of replacing it. Enable this when Peacock is a preinstalled system app that can't be uninstalled — most commonly on Amazon Fire TV, and on some Android TV boxes and Onn devices. The clone gets its own package (suffix .mod), so it shows up as a second Peacock icon and keeps its own login. Leave OFF if you were able to uninstall the original Peacock first (a normal in-place install is cleaner). Opt-in.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102, 7.6.100``` |
