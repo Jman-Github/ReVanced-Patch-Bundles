@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.7-dev.1",
+    "version": "v1.11.8-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -326,6 +326,12 @@
                     "name": "Ozon",
                     "packageName": "ru.ozon.app.android",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "19.29.0",
+                            "versionCode": 2700
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 26,

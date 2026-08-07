@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.1",
+    "version": "v1.2.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -90,15 +90,14 @@
                     "packageName": "io.github.jqssun.helium",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "151.0.7922.71"
+                            "isExperimental": true
                         }
                     ]
                 }
             ],
             "default": false,
             "dependencies": [],
-            "description": "Experimental: applies to all Helium child processes; forces strongest binding. May increase RAM, battery, and process pressure; only reduces LMK probability. Does not detect, reload, or back off crashed extensions.",
+            "description": "Experimental: applies to all Helium child processes; forces STRONG binding at launch and IMPORTANT/STRONG on priority updates. May increase RAM, battery, and process pressure; only reduces LMK probability. Does not detect, reload, or back off crashed extensions.",
             "name": "Keep Helium Child Processes Alive",
             "options": []
         }

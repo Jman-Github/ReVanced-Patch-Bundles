@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.7",
+    "version": "v1.3.0-dev.8",
     "patches": [
         {
             "compatiblePackages": [
@@ -827,6 +827,30 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.6.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the abuse detection report that attests the app to the server on startup and during login, which cannot be spoofed locally because it carries a Google-signed Play Integrity token that exposes the re-signed certificate.",
+            "name": "Disable abuse detection report",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#3D4491",
                     "name": "dcinside",
@@ -1473,6 +1497,29 @@
             ],
             "description": "Allows sending big text messages in KakaoTalk.",
             "name": "Enable send big text",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#3D4491",
+                    "name": "dcinside",
+                    "packageName": "com.dcinside.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.3.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds a gallery filter below the recently viewed posts filters, which narrows the list down to the posts of a single gallery.",
+            "name": "Filter recently viewed posts by gallery",
             "options": []
         },
         {

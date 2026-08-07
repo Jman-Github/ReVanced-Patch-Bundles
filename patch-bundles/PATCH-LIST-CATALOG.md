@@ -104,7 +104,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 26 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 78 | 54 | Generated |
-| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 103 | 6 | Generated |
+| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 105 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 136 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
@@ -3246,7 +3246,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle-morphe)
 <details>
-<summary><b>AmpleReVanced</b> - 103 patches, 6 apps</summary>
+<summary><b>AmpleReVanced</b> - 105 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3269,6 +3269,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Image Ad``` | ```Disables the image ad in the app.``` | ```dcinside``` | ```All versions``` |
 | ```Disable update check``` | ```Disables the app's update check.``` | ```dcinside``` | ```All versions``` |
 | ```Enable OneStore feature``` | ```Enables the OneStore feature in DC Inside app.``` | ```dcinside``` | ```All versions``` |
+| ```Filter recently viewed posts by gallery``` | ```Adds a gallery filter below the recently viewed posts filters, which narrows the list down to the posts of a single gallery.``` | ```dcinside``` | ```All versions``` |
 | ```Hide DC official notices``` | ```Hides official DCInside operator notices from gallery notice lists.``` | ```dcinside``` | ```All versions``` |
 | ```Hide home components``` | ```Adds settings to hide selected DCInside home screen components.``` | ```dcinside``` | ```All versions``` |
 | ```Hide Main Ad``` | ```Hides the main ad in the app.``` | ```dcinside``` | ```All versions``` |
@@ -3298,6 +3299,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Default external browser``` | ```Sets the default external browser for KakaoTalk to the system's default browser.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Disable 300+ unread limit``` | ```Always show the real unread count instead of '300+' in chatroom list``` | ```Kakao Talk``` | ```All versions``` |
 | ```Disable 99 unread limit``` | ```Skip the 99-cap so unread count shows full value``` | ```Kakao Talk``` | ```All versions``` |
+| ```Disable abuse detection report``` | ```Stops the abuse detection report that attests the app to the server on startup and during login, which cannot be spoofed locally because it carries a Google-signed Play Integrity token that exposes the re-signed certificate.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Disable chat room list ad``` | ```Disable the chat room list ad.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Disable ChatRoomAdController``` | ```Disables the open-link chat room BizBoard ad controller.``` | ```Kakao Talk``` | ```All versions``` |
 | ```Disable Collapse Button``` | ```Disable collapse button on OpenChatList``` | ```Kakao Talk``` | ```All versions``` |
@@ -5227,7 +5229,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Brave Origin``` | ```Unlocks Brave Origin and enables feature toggle controls.``` | ```Brave Browser, Brave Beta, Brave Nightly``` | ```All versions``` |
-| ```Keep Helium Child Processes Alive``` | ```Experimental: applies to all Helium child processes; forces strongest binding. May increase RAM, battery, and process pressure; only reduces LMK probability. Does not detect, reload, or back off crashed extensions.``` | ```Helium Browser``` | ```All versions``` |
+| ```Keep Helium Child Processes Alive``` | ```Experimental: applies to all Helium child processes; forces STRONG binding at launch and IMPORTANT/STRONG on priority updates. May increase RAM, battery, and process pressure; only reduces LMK probability. Does not detect, reload, or back off crashed extensions.``` | ```Helium Browser``` | ```All versions``` |
 | ```Change app icon``` | ```Changes the Android launcher icon using a custom PNG image. Use a square image with transparent adaptive-icon padding.``` | ```Universal``` | ```All versions``` |
 | ```Change app name``` | ```Changes the app name shown by Android launchers. Set the desired name in the patch options.``` | ```Universal``` | ```All versions``` |
 
