@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.9",
+    "version": "v1.3.0-dev.10",
     "patches": [
         {
             "compatiblePackages": [
@@ -558,7 +558,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Add a setting to bypass the Moat integrity check that can prevent KakaoPay from running.",
+            "description": "Add a setting to bypass the KakaoPay Moat integrity check. It stops the native scan from running, so the tamper/root/hook verdict is never computed or reported and KakaoPay is not force-closed. Payments on a modified build are still risky.",
             "name": "Bypass Moat check",
             "options": []
         },
@@ -900,7 +900,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Stops the abuse detection report that attests the app to the server on startup and during login, which cannot be spoofed locally because it carries a Google-signed Play Integrity token that exposes the re-signed certificate.",
+            "description": "Answers the startup and login integrity challenge with an empty token and a benign Play Integrity failure code instead of a Google-signed token that would expose the re-signed certificate. The report itself is still sent, so the client does not go conspicuously silent on the server's nonce the way suppressing it entirely would.",
             "name": "Disable abuse detection report",
             "options": []
         },
@@ -2562,6 +2562,30 @@
             "dependencies": [],
             "description": "Spoofs the App ID to bypass integrity checks. (to bypass biometric auth etc.)",
             "name": "Spoof App ID",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.6.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Reports the original package name in the attestation report, which otherwise reveals a renamed install. Only the report is affected, so the app keeps using its real package name everywhere else.",
+            "name": "Spoof attestation package name",
             "options": []
         },
         {
