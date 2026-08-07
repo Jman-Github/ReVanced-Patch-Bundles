@@ -1,5 +1,5 @@
 {
-    "version": "v1.19.1-dev.2",
+    "version": "v1.20.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -10,11 +10,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.0.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.7.3.0"
+                            "version": "12.9.2.0"
                         }
                     ]
                 }
@@ -58,11 +54,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.0.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.7.3.0"
+                            "version": "12.9.2.0"
                         }
                     ]
                 }
@@ -106,11 +98,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.0.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.7.3.0"
+                            "version": "12.9.2.0"
                         }
                     ]
                 }
@@ -130,11 +118,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.0.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.7.3.0"
+                            "version": "12.9.2.0"
                         }
                     ]
                 }
@@ -202,11 +186,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.0.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.7.3.0"
+                            "version": "12.9.2.0"
                         }
                     ]
                 }
@@ -334,11 +314,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.0.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.7.3.0"
+                            "version": "12.9.2.0"
                         }
                     ]
                 }
@@ -358,11 +334,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.0.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.7.3.0"
+                            "version": "12.9.2.0"
                         }
                     ]
                 }
@@ -660,6 +632,27 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
+                    "appIconColor": "#4CAF50",
+                    "name": "HabitKit",
+                    "packageName": "com.roehl.habitkit",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.15.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features.",
+            "name": "HabitKit Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
                     "appIconColor": "#0028FF",
                     "name": "Truecaller",
                     "packageName": "com.truecaller",
@@ -770,11 +763,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.0.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.7.3.0"
+                            "version": "12.9.2.0"
                         }
                     ]
                 }
@@ -929,11 +918,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.0.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.7.3.0"
+                            "version": "12.9.2.0"
                         }
                     ]
                 }
@@ -1020,11 +1005,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.0.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "12.7.3.0"
+                            "version": "12.9.2.0"
                         }
                     ]
                 }
@@ -1057,6 +1038,26 @@
             "dependencies": [],
             "description": "Removes sponsored messages and video ads.",
             "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#2AABEE",
+                    "name": "Plus Messenger",
+                    "packageName": "org.telegram.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs the original signing certificate so Firebase Cloud Messaging accepts the re-signed app and background notifications keep working.",
+            "name": "Restore push notifications",
             "options": []
         },
         {

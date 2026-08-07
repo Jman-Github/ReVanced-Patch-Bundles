@@ -118,7 +118,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 2 | 1 | Generated |
 | [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 23 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
-| [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 57 | 22 | Generated |
+| [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 59 | 23 | Generated |
 | [Binarymend](#-binarymend-bundle-patch-list) | 11 | 7 | Generated |
 | [Polka-Bear](#-polka-bear-bundle-patch-list) | 4 | 2 | Generated |
 | [Eyalm2000](#-eyalm2000-bundle-patch-list) | 2 | 1 | Generated |
@@ -4146,7 +4146,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Paresh-Maheshwari Bundle Patch List:
 [📦 Paresh-Maheshwari-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-paresh-maheshwari-patches-bundle-morphe)
 <details>
-<summary><b>Paresh-Maheshwari</b> - 57 patches, 22 apps</summary>
+<summary><b>Paresh-Maheshwari</b> - 59 patches, 23 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4157,6 +4157,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Doc Scanner Premium``` | ```Unlocks all premium features, removes ads, and enables pro themes.``` | ```Document Scanner``` | ```All versions``` |
 | ```Eyecon Premium``` | ```Unlocks premium features.``` | ```Eyecon Caller ID & Spam Block``` | ```All versions``` |
 | ```Fing Premium``` | ```Unlocks premium network tools and features.``` | ```Fing``` | ```All versions``` |
+| ```HabitKit Premium``` | ```Unlocks all premium features.``` | ```HabitKit``` | ```All versions``` |
 | ```Bypass signature check``` | ```Bypasses app signature verification to allow API access.``` | ```JioHotstar``` | ```All versions``` |
 | ```Enable all codecs``` | ```Enables all video codecs (H265, VP9, AV1) and 4K resolution by bypassing blacklist and capability checks.``` | ```JioHotstar``` | ```All versions``` |
 | ```Enable screen mirroring``` | ```Allows playback while screen mirroring or HDMI is connected.``` | ```JioHotstar``` | ```All versions``` |
@@ -4178,6 +4179,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide typing indicator``` | ```Prevents typing status from being sent to other users.``` | ```Plus Messenger``` | ```All versions``` |
 | ```Plus Premium``` | ```Unlocks premium feature UI and shows premium badge on self only.``` | ```Plus Messenger``` | ```All versions``` |
 | ```Remove ads``` | ```Removes all ads including Plus banner ads and Telegram sponsored messages.``` | ```Plus Messenger``` | ```All versions``` |
+| ```Restore push notifications``` | ```Spoofs the original signing certificate so Firebase Cloud Messaging accepts the re-signed app and background notifications keep working.``` | ```Plus Messenger``` | ```All versions``` |
 | ```Teleprompter Premium``` | ```Unlocks premium features in Teleprompter Vlog & Scripts app.``` | ```Prompter Pal``` | ```All versions``` |
 | ```Disable telemetry``` | ```Blocks all telemetry, analytics, and observability data collection.``` | ```Proton VPN``` | ```All versions``` |
 | ```Proton VPN Premium``` | ```Unlocks premium UI features: removes upsells, enables NetShield ad-blocker, hides upgrade prompts, shows free servers with premium interface (Plus badge, no speed limits display, all feature flags enabled).``` | ```Proton VPN``` | ```All versions``` |
@@ -5649,12 +5651,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Ad Removal``` | ```Removes all ad displays: navigation bar banner, native feed ads, live streaming banner ads, live video feed ads, live square ads, conversation Google ads, marriage guide card, four-select-one card, daily selection card, visitor list ads, likers ads, meet likers ads, meet visitor ads``` | ```Tantan``` | ```All versions``` |
+| ```Ad Removal``` | ```Removes all ad displays: navigation bar banner, native feed ads, live streaming banner ads, live video feed ads, live square ads, conversation Google ads, marriage guide card, four-select-one card, daily selection card, visitor list ads, likers ads, meet likers ads, meet visitor ads, splash screen ads, profile photo carousel ads, incentive video ads``` | ```Tantan``` | ```All versions``` |
 | ```Analytics Disable``` | ```Disables all analytics, telemetry, and device fingerprinting for privacy``` | ```Tantan``` | ```All versions``` |
 | ```Dialog Cleanup``` | ```Removes annoying promotional dialogs: 5-star rating, appstore rating, version upgrade, offline popup, notification permission, phone auth prompts, purchase pages``` | ```Tantan``` | ```All versions``` |
 | ```GMS Compatibility``` | ```Makes Google Maps and GMS-dependent features work in re-signed APKs. Includes signature spoofing, auth header fixes, MicroG support, and GMS availability bypass.``` | ```Tantan``` | ```All versions``` |
 | ```Live Streaming Enhancement``` | ```Live streaming enhancement: push limit bypass, swipe card unlimited, chat rate limit removal, voice game access, all-day PK battles, gift leaderboard, knight privileges, entrance limits, permission control, daily payment, noble config, stealth privacy, video chat, voice features, monetization, game operations, star toggle``` | ```Tantan``` | ```All versions``` |
-| ```Messaging Enhancement``` | ```Removes message limits, unlimited pin chat, voice/video calls, quick chat, typing indicator, free gifts, letter, greeting, ice breaker, read receipts, AI translation, message recall, group chat, live chat, message filter, chat partner config, ODiamond visitor config, prologue config, love buzz data, secret crush limit, boost limit``` | ```Tantan``` | ```All versions``` |
+| ```Messaging Enhancement``` | ```Removes message limits, unlimited pin chat, voice/video calls, quick chat, typing indicator, free gifts, letter, greeting, ice breaker, read receipts, AI translation, message recall, group chat, live chat, message filter, chat partner config, ODiamond visitor config, prologue config, love buzz data, secret crush limit, boost limit, message tab revision, collapsible conversation, chat helper AI, call duration``` | ```Tantan``` | ```All versions``` |
 | ```Premium Unlock``` | ```Unlocks all premium features, tier statuses, subscription validation, and display``` | ```Tantan``` | ```All versions``` |
 | ```Privacy Controls``` | ```Unlocks privacy features: hide from nearby, visitor footprint hiding, mysterious mode, nearby people access, read receipt unlock, read receipt dialog suppression, contact access block, location privacy, privacy settings force enable, hide activity time, hide age, hide icon, frozen activity, frozen time, hide distance, core service privacy gate, hide active from SVip, disable ad suggestions, live stealth privacy, online status visibility, hide VIP badge, heartbeat disable, verified user messages, online reminder, unreplied reminder, greeting do not disturb, only show about me inside``` | ```Tantan``` | ```All versions``` |
 | ```Privacy Enhancement``` | ```Advanced privacy protections: root/emulator detection bypass, ShuMeng SDK blocking, Facebook SDK emulator detection bypass, APK signature verification bypass, package enumeration prevention``` | ```Tantan``` | ```All versions``` |
