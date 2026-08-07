@@ -1,5 +1,5 @@
 {
-    "version": "v1.16.0",
+    "version": "v1.17.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -11,7 +11,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.8.5"
+                            "version": "2.8.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 47,
+                                "ARMEABI_V7A": 47,
+                                "X86": 47,
+                                "X86_64": 47
+                            }
                         }
                     ]
                 }
@@ -32,7 +38,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.8.5"
+                            "version": "2.8.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 47,
+                                "ARMEABI_V7A": 47,
+                                "X86": 47,
+                                "X86_64": 47
+                            }
                         }
                     ]
                 }
@@ -67,6 +79,48 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#B30B00",
+                    "name": "Adobe Acrobat",
+                    "packageName": "com.adobe.reader",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.7.0.47169"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks on-device Acrobat Pro tools (edit, organise, crop) without a subscription.",
+            "name": "Adobe Acrobat Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#B30B00",
+                    "name": "Adobe Scan",
+                    "packageName": "com.adobe.scan.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.08.01"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium scanning and PDF tools in Adobe Scan.",
+            "name": "Adobe Scan Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#33CCFF",
                     "name": "Waze",
@@ -74,7 +128,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.22.0.2"
+                            "version": "5.22.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1030717,
+                                "ARMEABI_V7A": 1030717,
+                                "X86": 1030717,
+                                "X86_64": 1030717
+                            }
                         }
                     ]
                 }
@@ -170,14 +230,20 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKS",
                     "appIconColor": "#4285F4",
                     "name": "Google Photos",
                     "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.86.0.956040398"
+                            "version": "7.86.0.956040398",
+                            "versionCodes": {
+                                "ARM64_V8A": 52137100,
+                                "ARMEABI_V7A": 52137100,
+                                "X86": 52137100,
+                                "X86_64": 52137100
+                            }
                         }
                     ]
                 }
@@ -192,13 +258,145 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69912,
+                                "ARMEABI_V7A": 69912,
+                                "X86": 69912,
+                                "X86_64": 69912
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Web",
+                    "packageName": "org.telegram.messenger.web",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69919,
+                                "ARMEABI_V7A": 69919,
+                                "X86": 69919,
+                                "X86_64": 69919
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Plus",
+                    "packageName": "org.telegram.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.0.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 22437,
+                                "ARMEABI_V7A": 22437,
+                                "X86": 22437,
+                                "X86_64": 22437
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents messages deleted by other users from being removed locally.",
+            "name": "Anti-delete messages",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69912,
+                                "ARMEABI_V7A": 69912,
+                                "X86": 69912,
+                                "X86_64": 69912
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Web",
+                    "packageName": "org.telegram.messenger.web",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69919,
+                                "ARMEABI_V7A": 69919,
+                                "X86": 69919,
+                                "X86_64": 69919
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Plus",
+                    "packageName": "org.telegram.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.0.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 22437,
+                                "ARMEABI_V7A": 22437,
+                                "X86": 22437,
+                                "X86_64": 22437
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Keeps view-once photos, videos, voice messages, and round videos viewable indefinitely.",
+            "name": "Anti-disappearing media",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#0D47A1",
                     "name": "Auto Cursor",
                     "packageName": "eu.toneiv.cursor",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.11.1"
+                            "version": "1.11.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 23164,
+                                "ARMEABI_V7A": 23164,
+                                "X86": 23164,
+                                "X86_64": 23164
+                            }
                         }
                     ]
                 }
@@ -219,7 +417,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.22.0.2"
+                            "version": "5.22.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1030717,
+                                "ARMEABI_V7A": 1030717,
+                                "X86": 1030717,
+                                "X86_64": 1030717
+                            }
                         }
                     ]
                 }
@@ -270,6 +474,132 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69912,
+                                "ARMEABI_V7A": 69912,
+                                "X86": 69912,
+                                "X86_64": 69912
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Web",
+                    "packageName": "org.telegram.messenger.web",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69919,
+                                "ARMEABI_V7A": 69919,
+                                "X86": 69919,
+                                "X86_64": 69919
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Plus",
+                    "packageName": "org.telegram.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.0.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 22437,
+                                "ARMEABI_V7A": 22437,
+                                "X86": 22437,
+                                "X86_64": 22437
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows opening copyrighted, sensitive, and temporarily disabled channels.",
+            "name": "Bypass channel restrictions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69912,
+                                "ARMEABI_V7A": 69912,
+                                "X86": 69912,
+                                "X86_64": 69912
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Web",
+                    "packageName": "org.telegram.messenger.web",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69919,
+                                "ARMEABI_V7A": 69919,
+                                "X86": 69919,
+                                "X86_64": 69919
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Plus",
+                    "packageName": "org.telegram.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.0.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 22437,
+                                "ARMEABI_V7A": 22437,
+                                "X86": 22437,
+                                "X86_64": 22437
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows saving and forwarding content from restricted channels and chats.",
+            "name": "Bypass content restrictions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#4285F4",
                     "name": "Android Developer Verifier",
@@ -277,7 +607,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.0.943911795"
+                            "version": "1.0.943911795",
+                            "versionCodes": {
+                                "ARM64_V8A": 65354,
+                                "ARMEABI_V7A": 65354,
+                                "X86": 65354,
+                                "X86_64": 65354
+                            }
                         }
                     ]
                 }
@@ -291,6 +627,71 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69912,
+                                "ARMEABI_V7A": 69912,
+                                "X86": 69912,
+                                "X86_64": 69912
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Web",
+                    "packageName": "org.telegram.messenger.web",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69919,
+                                "ARMEABI_V7A": 69919,
+                                "X86": 69919,
+                                "X86_64": 69919
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Plus",
+                    "packageName": "org.telegram.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.0.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 22437,
+                                "ARMEABI_V7A": 22437,
+                                "X86": 22437,
+                                "X86_64": 22437
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Spoofs certificate fingerprint and SafetyNet results so login works on a patched APK.",
+            "name": "Bypass integrity check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS",
                     "appIconColor": "#E53935",
                     "name": "Crime Radar",
@@ -298,7 +699,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.30.0"
+                            "version": "26.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 26300005,
+                                "ARMEABI_V7A": 26300005,
+                                "X86": 26300005,
+                                "X86_64": 26300005
+                            }
                         }
                     ]
                 }
@@ -313,36 +720,19 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
-                    "appIconColor": "#3D5A80",
-                    "name": "WearOS Toolset",
-                    "packageName": "com.gs.complications.suite",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "6.1.2"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Bypasses Pairip DRM in WearOS Toolset by swapping the manifest application class to android.app.Application (skipping LicenseClient in attachBaseContext) and no-oping LicenseClient.checkLicense() directly. Required by the unlock patch.",
-            "name": "Bypass Pairip integrity check",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
                     "appIconColor": "#5B5EA6",
                     "name": "SocialLite",
                     "packageName": "com.sociallite.android",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.0.0.45"
+                            "version": "2.0.0.45",
+                            "versionCodes": {
+                                "ARM64_V8A": 73,
+                                "ARMEABI_V7A": 73,
+                                "X86": 73,
+                                "X86_64": 73
+                            }
                         }
                     ]
                 }
@@ -365,7 +755,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.30.0"
+                            "version": "26.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 26300005,
+                                "ARMEABI_V7A": 26300005,
+                                "X86": 26300005,
+                                "X86_64": 26300005
+                            }
                         }
                     ]
                 }
@@ -379,14 +775,20 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKS",
                     "appIconColor": "#4285F4",
                     "name": "Google Photos",
                     "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.86.0.956040398"
+                            "version": "7.86.0.956040398",
+                            "versionCodes": {
+                                "ARM64_V8A": 52137100,
+                                "ARMEABI_V7A": 52137100,
+                                "X86": 52137100,
+                                "X86_64": 52137100
+                            }
                         }
                     ]
                 }
@@ -444,7 +846,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.13.2.100"
+                            "version": "32.13.2.100",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241320216,
+                                "ARMEABI_V7A": 1241320216,
+                                "X86": 1241320216,
+                                "X86_64": 1241320216
+                            }
                         }
                     ]
                 },
@@ -455,7 +863,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.12.4.300"
+                            "version": "32.12.4.300",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241319416,
+                                "ARMEABI_V7A": 1241319416,
+                                "X86": 1241319416,
+                                "X86_64": 1241319416
+                            }
                         }
                     ]
                 }
@@ -520,7 +934,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.22.0.2"
+                            "version": "5.22.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1030717,
+                                "ARMEABI_V7A": 1030717,
+                                "X86": 1030717,
+                                "X86_64": 1030717
+                            }
                         }
                     ]
                 }
@@ -541,7 +961,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.22.0.2"
+                            "version": "5.22.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1030717,
+                                "ARMEABI_V7A": 1030717,
+                                "X86": 1030717,
+                                "X86_64": 1030717
+                            }
                         }
                     ]
                 }
@@ -562,7 +988,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.38.8"
+                            "version": "6.38.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 5431,
+                                "ARMEABI_V7A": 5431,
+                                "X86": 5431,
+                                "X86_64": 5431
+                            }
                         }
                     ]
                 }
@@ -571,6 +1003,69 @@
             "dependencies": [],
             "description": "Disables all Cloudflare telemetry by no-oping the analytics bundle builder and the Firebase event dispatchers.",
             "name": "Disable Analytics / Telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69912,
+                                "ARMEABI_V7A": 69912,
+                                "X86": 69912,
+                                "X86_64": 69912
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Web",
+                    "packageName": "org.telegram.messenger.web",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69919,
+                                "ARMEABI_V7A": 69919,
+                                "X86": 69919,
+                                "X86_64": 69919
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Plus",
+                    "packageName": "org.telegram.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.0.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 22437,
+                                "ARMEABI_V7A": 22437,
+                                "X86": 22437,
+                                "X86_64": 22437
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables automatic app update checks, the blocking update screen, and the proxy sponsor channel insertion.",
+            "name": "Disable auto-update",
             "options": []
         },
         {
@@ -591,7 +1086,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.13.2.100"
+                            "version": "32.13.2.100",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241320216,
+                                "ARMEABI_V7A": 1241320216,
+                                "X86": 1241320216,
+                                "X86_64": 1241320216
+                            }
                         }
                     ]
                 },
@@ -602,7 +1103,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.12.4.300"
+                            "version": "32.12.4.300",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241319416,
+                                "ARMEABI_V7A": 1241319416,
+                                "X86": 1241319416,
+                                "X86_64": 1241319416
+                            }
                         }
                     ]
                 }
@@ -631,7 +1138,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.38.8"
+                            "version": "6.38.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 5431,
+                                "ARMEABI_V7A": 5431,
+                                "X86": 5431,
+                                "X86_64": 5431
+                            }
                         }
                     ]
                 }
@@ -652,7 +1165,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.21.5.2607090000"
+                            "version": "7.21.5.2607090000",
+                            "versionCodes": {
+                                "ARM64_V8A": 72151,
+                                "ARMEABI_V7A": 72151,
+                                "X86": 72151,
+                                "X86_64": 72151
+                            }
                         }
                     ]
                 }
@@ -673,7 +1192,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.4.3.7"
+                            "version": "4.4.3.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 10353,
+                                "ARMEABI_V7A": 10353,
+                                "X86": 10353,
+                                "X86_64": 10353
+                            }
                         }
                     ]
                 }
@@ -694,7 +1219,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.13.2.100"
+                            "version": "32.13.2.100",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241320216,
+                                "ARMEABI_V7A": 1241320216,
+                                "X86": 1241320216,
+                                "X86_64": 1241320216
+                            }
                         }
                     ]
                 },
@@ -705,7 +1236,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.12.4.300"
+                            "version": "32.12.4.300",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241319416,
+                                "ARMEABI_V7A": 1241319416,
+                                "X86": 1241319416,
+                                "X86_64": 1241319416
+                            }
                         }
                     ]
                 }
@@ -726,7 +1263,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.13.2.100"
+                            "version": "32.13.2.100",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241320216,
+                                "ARMEABI_V7A": 1241320216,
+                                "X86": 1241320216,
+                                "X86_64": 1241320216
+                            }
                         }
                     ]
                 },
@@ -737,7 +1280,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.12.4.300"
+                            "version": "32.12.4.300",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241319416,
+                                "ARMEABI_V7A": 1241319416,
+                                "X86": 1241319416,
+                                "X86_64": 1241319416
+                            }
                         }
                     ]
                 }
@@ -746,6 +1295,69 @@
             "dependencies": [],
             "description": "Prevents product and ad videos from autoplaying.",
             "name": "Disable video autoplay",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69912,
+                                "ARMEABI_V7A": 69912,
+                                "X86": 69912,
+                                "X86_64": 69912
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Web",
+                    "packageName": "org.telegram.messenger.web",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69919,
+                                "ARMEABI_V7A": 69919,
+                                "X86": 69919,
+                                "X86_64": 69919
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Plus",
+                    "packageName": "org.telegram.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.0.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 22437,
+                                "ARMEABI_V7A": 22437,
+                                "X86": 22437,
+                                "X86_64": 22437
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Increases download chunk size to 512 KB and max concurrent requests to 8.",
+            "name": "Download speed boost",
             "options": []
         },
         {
@@ -759,14 +1371,20 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKS",
                     "appIconColor": "#4285F4",
                     "name": "Google Photos",
                     "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.86.0.956040398"
+                            "version": "7.86.0.956040398",
+                            "versionCodes": {
+                                "ARM64_V8A": 52137100,
+                                "ARMEABI_V7A": 52137100,
+                                "X86": 52137100,
+                                "X86_64": 52137100
+                            }
                         }
                     ]
                 }
@@ -795,7 +1413,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.88.2"
+                            "version": "6.90.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2422,
+                                "ARMEABI_V7A": 2422,
+                                "X86": 2422,
+                                "X86_64": 2422
+                            }
                         }
                     ]
                 }
@@ -834,7 +1458,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.22.0.2"
+                            "version": "5.22.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1030717,
+                                "ARMEABI_V7A": 1030717,
+                                "X86": 1030717,
+                                "X86_64": 1030717
+                            }
                         }
                     ]
                 }
@@ -892,7 +1522,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.13.2.100"
+                            "version": "32.13.2.100",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241320216,
+                                "ARMEABI_V7A": 1241320216,
+                                "X86": 1241320216,
+                                "X86_64": 1241320216
+                            }
                         }
                     ]
                 },
@@ -903,7 +1539,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.12.4.300"
+                            "version": "32.12.4.300",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241319416,
+                                "ARMEABI_V7A": 1241319416,
+                                "X86": 1241319416,
+                                "X86_64": 1241319416
+                            }
                         }
                     ]
                 }
@@ -917,14 +1559,20 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKS",
                     "appIconColor": "#4285F4",
                     "name": "Google Photos",
                     "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.86.0.956040398"
+                            "version": "7.86.0.956040398",
+                            "versionCodes": {
+                                "ARM64_V8A": 52137100,
+                                "ARMEABI_V7A": 52137100,
+                                "X86": 52137100,
+                                "X86_64": 52137100
+                            }
                         }
                     ]
                 }
@@ -958,14 +1606,19 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
                     "appIconColor": "#00BCD4",
                     "name": "Parallel Space Pro",
                     "packageName": "com.parallel.space.pro",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.0.9132"
+                            "version": "4.0.9159",
+                            "versionCodes": {
+                                "ARM64_V8A": 10933,
+                                "ARMEABI_V7A": 10933,
+                                "X86": 10933,
+                                "X86_64": 10933
+                            }
                         }
                     ]
                 }
@@ -979,14 +1632,20 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKS",
                     "appIconColor": "#4285F4",
                     "name": "Google Photos",
                     "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.86.0.956040398"
+                            "version": "7.86.0.956040398",
+                            "versionCodes": {
+                                "ARM64_V8A": 52137100,
+                                "ARMEABI_V7A": 52137100,
+                                "X86": 52137100,
+                                "X86_64": 52137100
+                            }
                         }
                     ]
                 }
@@ -1121,7 +1780,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.13.2.100"
+                            "version": "32.13.2.100",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241320216,
+                                "ARMEABI_V7A": 1241320216,
+                                "X86": 1241320216,
+                                "X86_64": 1241320216
+                            }
                         }
                     ]
                 },
@@ -1132,7 +1797,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.12.4.300"
+                            "version": "32.12.4.300",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241319416,
+                                "ARMEABI_V7A": 1241319416,
+                                "X86": 1241319416,
+                                "X86_64": 1241319416
+                            }
                         }
                     ]
                 }
@@ -1141,6 +1812,69 @@
             "dependencies": [],
             "description": "Removes the Rufus AI assistant tab from Amazon's bottom navigation bar.",
             "name": "Hide Rufus tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69912,
+                                "ARMEABI_V7A": 69912,
+                                "X86": 69912,
+                                "X86_64": 69912
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Web",
+                    "packageName": "org.telegram.messenger.web",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69919,
+                                "ARMEABI_V7A": 69919,
+                                "X86": 69919,
+                                "X86_64": 69919
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Plus",
+                    "packageName": "org.telegram.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.0.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 22437,
+                                "ARMEABI_V7A": 22437,
+                                "X86": 22437,
+                                "X86_64": 22437
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides your typing indicator from other users in all chats.",
+            "name": "Hide typing indicator",
             "options": []
         },
         {
@@ -1161,7 +1895,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.22.0.2"
+                            "version": "5.22.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1030717,
+                                "ARMEABI_V7A": 1030717,
+                                "X86": 1030717,
+                                "X86_64": 1030717
+                            }
                         }
                     ]
                 }
@@ -1239,52 +1979,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#1565C0",
-                    "name": "Mini Web Browser",
-                    "packageName": "com.somyac.watch.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.0.4"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Strips the Pairip v2 licence check from the Mini Web Browser companion app.",
-            "name": "Mini Web Browser Pairip Bypass",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#1565C0",
-                    "name": "Mini Web Browser",
-                    "packageName": "com.somyac.watch.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.0.4"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Unlocks premium by sending a valid licence to the watch and bypassing the watch-connection gate in the companion app.",
-            "name": "Mini Web Browser Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "APKM",
                     "appIconColor": "#33CCFF",
                     "name": "Waze",
@@ -1292,7 +1986,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.22.0.2"
+                            "version": "5.22.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1030717,
+                                "ARMEABI_V7A": 1030717,
+                                "X86": 1030717,
+                                "X86_64": 1030717
+                            }
                         }
                     ]
                 }
@@ -1398,7 +2098,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.13.2.100"
+                            "version": "32.13.2.100",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241320216,
+                                "ARMEABI_V7A": 1241320216,
+                                "X86": 1241320216,
+                                "X86_64": 1241320216
+                            }
                         }
                     ]
                 },
@@ -1409,7 +2115,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.12.4.300"
+                            "version": "32.12.4.300",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241319416,
+                                "ARMEABI_V7A": 1241319416,
+                                "X86": 1241319416,
+                                "X86_64": 1241319416
+                            }
                         }
                     ]
                 }
@@ -1431,6 +2143,33 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#CC0C00",
+                    "name": "Oxygen Updater",
+                    "packageName": "com.arjanvlek.oxygenupdater",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.1.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 135,
+                                "ARMEABI_V7A": 135,
+                                "X86": 135,
+                                "X86_64": 135
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes ads and hides the purchase button by patching all five contribute-flag gate sites across SharedPreferences, DataStore, and StateFlow.",
+            "name": "Oxygen Updater Contributor",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#33CCFF",
                     "name": "Waze",
@@ -1438,7 +2177,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.22.0.2"
+                            "version": "5.22.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1030717,
+                                "ARMEABI_V7A": 1030717,
+                                "X86": 1030717,
+                                "X86_64": 1030717
+                            }
                         }
                     ]
                 }
@@ -1513,7 +2258,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.13.2.100"
+                            "version": "32.13.2.100",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241320216,
+                                "ARMEABI_V7A": 1241320216,
+                                "X86": 1241320216,
+                                "X86_64": 1241320216
+                            }
                         }
                     ]
                 },
@@ -1524,7 +2275,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.12.4.300"
+                            "version": "32.12.4.300",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241319416,
+                                "ARMEABI_V7A": 1241319416,
+                                "X86": 1241319416,
+                                "X86_64": 1241319416
+                            }
                         }
                     ]
                 }
@@ -1590,7 +2347,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.22.0.2"
+                            "version": "5.22.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1030717,
+                                "ARMEABI_V7A": 1030717,
+                                "X86": 1030717,
+                                "X86_64": 1030717
+                            }
                         }
                     ]
                 }
@@ -1618,7 +2381,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.6.7"
+                            "version": "1.6.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 106,
+                                "ARMEABI_V7A": 106,
+                                "X86": 106,
+                                "X86_64": 106
+                            }
                         }
                     ]
                 }
@@ -1639,7 +2408,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.0.13-beta02"
+                            "version": "2.0.13",
+                            "versionCodes": {
+                                "ARM64_V8A": 100013352,
+                                "ARMEABI_V7A": 100013352,
+                                "X86": 100013352,
+                                "X86_64": 100013352
+                            }
                         }
                     ]
                 }
@@ -1660,7 +2435,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "18.0.362"
+                            "version": "18.0.362",
+                            "versionCodes": {
+                                "ARM64_V8A": 362,
+                                "ARMEABI_V7A": 362,
+                                "X86": 362,
+                                "X86_64": 362
+                            }
                         }
                     ]
                 }
@@ -1681,7 +2462,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "14.1.2254.83278"
+                            "version": "14.1.2254.83278",
+                            "versionCodes": {
+                                "ARM64_V8A": 141083278,
+                                "ARMEABI_V7A": 141083278,
+                                "X86": 141083278,
+                                "X86_64": 141083278
+                            }
                         }
                     ]
                 }
@@ -1702,7 +2489,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.0.6"
+                            "version": "2.0.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 66,
+                                "ARMEABI_V7A": 66,
+                                "X86": 66,
+                                "X86_64": 66
+                            }
                         }
                     ]
                 }
@@ -1723,7 +2516,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.4.22"
+                            "version": "1.4.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 69,
+                                "ARMEABI_V7A": 69,
+                                "X86": 69,
+                                "X86_64": 69
+                            }
                         }
                     ]
                 }
@@ -1744,7 +2543,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.0.0"
+                            "version": "2.0.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 10266,
+                                "ARMEABI_V7A": 10266,
+                                "X86": 10266,
+                                "X86_64": 10266
+                            }
                         }
                     ]
                 }
@@ -1765,7 +2570,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.14.3"
+                            "version": "4.14.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 241,
+                                "ARMEABI_V7A": 241,
+                                "X86": 241,
+                                "X86_64": 241
+                            }
                         }
                     ]
                 }
@@ -1785,7 +2596,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.21"
+                            "version": "2.21",
+                            "versionCodes": {
+                                "ARM64_V8A": 221,
+                                "ARMEABI_V7A": 221,
+                                "X86": 221,
+                                "X86_64": 221
+                            }
                         }
                     ]
                 }
@@ -1806,7 +2623,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.13.2.100"
+                            "version": "32.13.2.100",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241320216,
+                                "ARMEABI_V7A": 1241320216,
+                                "X86": 1241320216,
+                                "X86_64": 1241320216
+                            }
                         }
                     ]
                 },
@@ -1817,7 +2640,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.12.4.300"
+                            "version": "32.12.4.300",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241319416,
+                                "ARMEABI_V7A": 1241319416,
+                                "X86": 1241319416,
+                                "X86_64": 1241319416
+                            }
                         }
                     ]
                 }
@@ -1837,7 +2666,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.0"
+                            "version": "6.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 60,
+                                "ARMEABI_V7A": 60,
+                                "X86": 60,
+                                "X86_64": 60
+                            }
                         }
                     ]
                 }
@@ -1860,7 +2695,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "9.8"
+                            "version": "9.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 2088,
+                                "ARMEABI_V7A": 2088,
+                                "X86": 2088,
+                                "X86_64": 2088
+                            }
                         }
                     ]
                 }
@@ -1874,13 +2715,82 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69912,
+                                "ARMEABI_V7A": 69912,
+                                "X86": 69912,
+                                "X86_64": 69912
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Web",
+                    "packageName": "org.telegram.messenger.web",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69919,
+                                "ARMEABI_V7A": 69919,
+                                "X86": 69919,
+                                "X86_64": 69919
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Plus",
+                    "packageName": "org.telegram.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.0.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 22437,
+                                "ARMEABI_V7A": 22437,
+                                "X86": 22437,
+                                "X86_64": 22437
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes sponsored messages and video ads from all chats and channels.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#6A1B9A",
                     "name": "Psiphon Pro",
                     "packageName": "com.psiphon3.subscription",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "474"
+                            "version": "474",
+                            "versionCodes": {
+                                "ARM64_V8A": 474,
+                                "ARMEABI_V7A": 474,
+                                "X86": 474,
+                                "X86_64": 474
+                            }
                         }
                     ]
                 }
@@ -1901,7 +2811,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.30.0"
+                            "version": "26.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 26300005,
+                                "ARMEABI_V7A": 26300005,
+                                "X86": 26300005,
+                                "X86_64": 26300005
+                            }
                         }
                     ]
                 }
@@ -1930,7 +2846,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.2"
+                            "version": "1.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 9,
+                                "ARMEABI_V7A": 9,
+                                "X86": 9,
+                                "X86_64": 9
+                            }
                         }
                     ]
                 }
@@ -1951,7 +2873,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.371.0"
+                            "version": "2.371.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 29652157,
+                                "ARMEABI_V7A": 29652157,
+                                "X86": 29652157,
+                                "X86_64": 29652157
+                            }
                         }
                     ]
                 }
@@ -1972,7 +2900,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.22.0.2"
+                            "version": "5.22.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1030717,
+                                "ARMEABI_V7A": 1030717,
+                                "X86": 1030717,
+                                "X86_64": 1030717
+                            }
                         }
                     ]
                 }
@@ -2001,7 +2935,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.22.0.2"
+                            "version": "5.22.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1030717,
+                                "ARMEABI_V7A": 1030717,
+                                "X86": 1030717,
+                                "X86_64": 1030717
+                            }
                         }
                     ]
                 }
@@ -2176,14 +3116,20 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKS",
                     "appIconColor": "#4285F4",
                     "name": "Google Photos",
                     "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.86.0.956040398"
+                            "version": "7.86.0.956040398",
+                            "versionCodes": {
+                                "ARM64_V8A": 52137100,
+                                "ARMEABI_V7A": 52137100,
+                                "X86": 52137100,
+                                "X86_64": 52137100
+                            }
                         }
                     ]
                 }
@@ -2455,7 +3401,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.38.8"
+                            "version": "6.38.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 5431,
+                                "ARMEABI_V7A": 5431,
+                                "X86": 5431,
+                                "X86_64": 5431
+                            }
                         }
                     ]
                 }
@@ -2549,27 +3501,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#4F46E5",
-                    "name": "Wallverse",
-                    "packageName": "com.wallverse.wallpapers",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "4.2"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the Pairip startup license check.",
-            "name": "Strip Pairip",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#1565C0",
                     "name": "Unimote",
                     "packageName": "sensustech.universal.tv.remote.control",
@@ -2597,7 +3528,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.30.0"
+                            "version": "26.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 26300005,
+                                "ARMEABI_V7A": 26300005,
+                                "X86": 26300005,
+                                "X86_64": 26300005
+                            }
                         }
                     ]
                 }
@@ -2618,28 +3555,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.0.1"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the Pairip Play Store license verification check invoked at startup.",
-            "name": "TopWallpapers Disable License Check",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#1565C0",
-                    "name": "HD UHD Live Wallpapers",
-                    "packageName": "hd.uhd.live.wallpapers.topwallpapers",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "6.0.1"
+                            "version": "6.0.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 114,
+                                "ARMEABI_V7A": 114,
+                                "X86": 114,
+                                "X86_64": 114
+                            }
                         }
                     ]
                 }
@@ -2653,52 +3575,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#00897B",
-                    "name": "Translator",
-                    "packageName": "com.somyac.watch.translator",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.5.0"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Strips the Pairip v2 licence check from the Translator companion app.",
-            "name": "Translator Pairip Bypass",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#00897B",
-                    "name": "Translator",
-                    "packageName": "com.somyac.watch.translator",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.5.0"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Unlocks premium by sending a valid licence to the watch and bypassing the watch-connection gate in the companion app.",
-            "name": "Translator Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "APKM",
                     "appIconColor": "#33CCFF",
                     "name": "Waze",
@@ -2706,7 +3582,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.22.0.2"
+                            "version": "5.22.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1030717,
+                                "ARMEABI_V7A": 1030717,
+                                "X86": 1030717,
+                                "X86_64": 1030717
+                            }
                         }
                     ]
                 }
@@ -2727,7 +3609,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.15.5"
+                            "version": "5.15.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 501500500,
+                                "ARMEABI_V7A": 501500500,
+                                "X86": 501500500,
+                                "X86_64": 501500500
+                            }
                         }
                     ]
                 }
@@ -2741,13 +3629,20 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#141C4C",
+                    "apkFileType": "APK",
+                    "appIconColor": "#D81F26",
                     "name": "Speedtest",
                     "packageName": "org.zwanoo.android.speedtest",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.0.7"
+                            "version": "7.0.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 258530,
+                                "ARMEABI_V7A": 258530,
+                                "X86": 258530,
+                                "X86_64": 258530
+                            }
                         }
                     ]
                 }
@@ -2768,7 +3663,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "24.3"
+                            "version": "24.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 525,
+                                "ARMEABI_V7A": 525,
+                                "X86": 525,
+                                "X86_64": 525
+                            }
                         }
                     ]
                 }
@@ -2788,7 +3689,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.3.0"
+                            "version": "1.3.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 21,
+                                "ARMEABI_V7A": 21,
+                                "X86": 21,
+                                "X86_64": 21
+                            }
                         }
                     ]
                 }
@@ -2809,14 +3716,20 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.7.0"
+                            "version": "11.8.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 110807310,
+                                "ARMEABI_V7A": 110807310,
+                                "X86": 110807310,
+                                "X86_64": 110807310
+                            }
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks Business/Gold premium features in Flightradar24: ad-free map, weather layers, ATC, 3D view, flight history, and unlimited saved locations.",
+            "description": "Unlocks Business-tier features in Flightradar24: ad-free experience, weather layers, ATC routes, 3D view, flight history playback, and unlimited saved locations.",
             "name": "Unlock Business Premium",
             "options": []
         },
@@ -2830,7 +3743,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.1049.4.908"
+                            "version": "5.1049.4.921",
+                            "versionCodes": {
+                                "ARM64_V8A": 1921,
+                                "ARMEABI_V7A": 1921,
+                                "X86": 1921,
+                                "X86_64": 1921
+                            }
                         }
                     ]
                 }
@@ -2851,7 +3770,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.56.1"
+                            "version": "11.56.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 1156070,
+                                "ARMEABI_V7A": 1156070,
+                                "X86": 1156070,
+                                "X86_64": 1156070
+                            }
                         }
                     ]
                 }
@@ -2872,7 +3797,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.6.1"
+                            "version": "2.6.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 261,
+                                "ARMEABI_V7A": 261,
+                                "X86": 261,
+                                "X86_64": 261
+                            }
                         }
                     ]
                 }
@@ -2893,7 +3824,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.1.8"
+                            "version": "7.1.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 718,
+                                "ARMEABI_V7A": 718,
+                                "X86": 718,
+                                "X86_64": 718
+                            }
                         }
                     ]
                 }
@@ -2934,7 +3871,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.30.0"
+                            "version": "3.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 3300002,
+                                "ARMEABI_V7A": 3300002,
+                                "X86": 3300002,
+                                "X86_64": 3300002
+                            }
                         }
                     ]
                 }
@@ -2955,7 +3898,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "17.2.10"
+                            "version": "17.2.10",
+                            "versionCodes": {
+                                "ARM64_V8A": 2028,
+                                "ARMEABI_V7A": 2028,
+                                "X86": 2028,
+                                "X86_64": 2028
+                            }
                         }
                     ]
                 }
@@ -2976,7 +3925,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.8.2"
+                            "version": "2.8.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 119,
+                                "ARMEABI_V7A": 119,
+                                "X86": 119,
+                                "X86_64": 119
+                            }
                         }
                     ]
                 }
@@ -2996,7 +3951,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "16.0.20131.20080"
+                            "version": "16.0.20228.20090",
+                            "versionCodes": {
+                                "ARM64_V8A": 16843309,
+                                "ARMEABI_V7A": 16843309,
+                                "X86": 16843309,
+                                "X86_64": 16843309
+                            }
                         }
                     ]
                 }
@@ -3024,7 +3985,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.0.0.45"
+                            "version": "2.0.0.45",
+                            "versionCodes": {
+                                "ARM64_V8A": 73,
+                                "ARMEABI_V7A": 73,
+                                "X86": 73,
+                                "X86_64": 73
+                            }
                         }
                     ]
                 }
@@ -3047,7 +4014,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.30.0"
+                            "version": "26.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 26300005,
+                                "ARMEABI_V7A": 26300005,
+                                "X86": 26300005,
+                                "X86_64": 26300005
+                            }
                         }
                     ]
                 }
@@ -3068,7 +4041,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "build107.2.0"
+                            "version": "build107.2.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 10720,
+                                "ARMEABI_V7A": 10720,
+                                "X86": 10720,
+                                "X86_64": 10720
+                            }
                         }
                     ]
                 },
@@ -3080,7 +4059,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "build107.2.0"
+                            "version": "build107.2.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 10720,
+                                "ARMEABI_V7A": 10720,
+                                "X86": 10720,
+                                "X86_64": 10720
+                            }
                         }
                     ]
                 }
@@ -3101,7 +4086,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.6.7"
+                            "version": "6.6.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 3246,
+                                "ARMEABI_V7A": 3246,
+                                "X86": 3246,
+                                "X86_64": 3246
+                            }
                         }
                     ]
                 }
@@ -3136,35 +4127,19 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
-                    "appIconColor": "#3D5A80",
-                    "name": "WearOS Toolset",
-                    "packageName": "com.gs.complications.suite",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "6.1.2"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Unlocks WearOS Toolset by forcing both the Google Play Billing purchase evaluator and the DataStore cache fallback to return UnlockMode.LIFETIME, making isFull() return true and enabling all premium complications and features in all network conditions.",
-            "name": "Unlock Lifetime",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#FF6B35",
                     "name": "Proxyman",
                     "packageName": "com.proxyman.proxymanandroid",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.19.0"
+                            "version": "1.21.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 48,
+                                "ARMEABI_V7A": 48,
+                                "X86": 48,
+                                "X86_64": 48
+                            }
                         }
                     ]
                 }
@@ -3205,7 +4180,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.13.0"
+                            "version": "4.13.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 42117006,
+                                "ARMEABI_V7A": 42117006,
+                                "X86": 42117006,
+                                "X86_64": 42117006
+                            }
                         }
                     ]
                 }
@@ -3225,7 +4206,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.14.0"
+                            "version": "4.14.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 42218005,
+                                "ARMEABI_V7A": 42218005,
+                                "X86": 42218005,
+                                "X86_64": 42218005
+                            }
                         }
                     ]
                 }
@@ -3246,7 +4233,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.197.0.1799"
+                            "version": "5.197.0.1799",
+                            "versionCodes": {
+                                "ARM64_V8A": 1799,
+                                "ARMEABI_V7A": 1799,
+                                "X86": 1799,
+                                "X86_64": 1799
+                            }
                         }
                     ]
                 }
@@ -3267,7 +4260,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.16"
+                            "version": "8.16",
+                            "versionCodes": {
+                                "ARM64_V8A": 9441,
+                                "ARMEABI_V7A": 9441,
+                                "X86": 9441,
+                                "X86_64": 9441
+                            }
                         }
                     ]
                 }
@@ -3288,7 +4287,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.27.0"
+                            "version": "26.27.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2906670,
+                                "ARMEABI_V7A": 2906670,
+                                "X86": 2906670,
+                                "X86_64": 2906670
+                            }
                         }
                     ]
                 }
@@ -3314,7 +4319,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "263.0"
+                            "version": "263.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 3182,
+                                "ARMEABI_V7A": 3182,
+                                "X86": 3182,
+                                "X86_64": 3182
+                            }
                         }
                     ]
                 }
@@ -3334,7 +4345,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "15.2.2"
+                            "version": "15.2.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 10323,
+                                "ARMEABI_V7A": 10323,
+                                "X86": 10323,
+                                "X86_64": 10323
+                            }
                         }
                     ]
                 }
@@ -3355,7 +4372,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.36.0"
+                            "version": "3.36.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 1033600,
+                                "ARMEABI_V7A": 1033600,
+                                "X86": 1033600,
+                                "X86_64": 1033600
+                            }
                         }
                     ]
                 }
@@ -3376,7 +4399,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.2.10"
+                            "version": "1.2.10",
+                            "versionCodes": {
+                                "ARM64_V8A": 81,
+                                "ARMEABI_V7A": 81,
+                                "X86": 81,
+                                "X86_64": 81
+                            }
                         }
                     ]
                 }
@@ -3398,7 +4427,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.1.8"
+                            "version": "2.1.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 201008,
+                                "ARMEABI_V7A": 201008,
+                                "X86": 201008,
+                                "X86_64": 201008
+                            }
                         }
                     ]
                 }
@@ -3419,7 +4454,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.6.0.4"
+                            "version": "1.6.0.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 48,
+                                "ARMEABI_V7A": 48,
+                                "X86": 48,
+                                "X86_64": 48
+                            }
                         }
                     ]
                 }
@@ -3440,7 +4481,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.2.7"
+                            "version": "4.2.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 292,
+                                "ARMEABI_V7A": 292,
+                                "X86": 292,
+                                "X86_64": 292
+                            }
                         }
                     ]
                 }
@@ -3461,7 +4508,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.2.4"
+                            "version": "3.2.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 53,
+                                "ARMEABI_V7A": 53,
+                                "X86": 53,
+                                "X86_64": 53
+                            }
                         }
                     ]
                 }
@@ -3482,7 +4535,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "v4.37.0"
+                            "version": "v4.37.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 292,
+                                "ARMEABI_V7A": 292,
+                                "X86": 292,
+                                "X86_64": 292
+                            }
                         }
                     ]
                 }
@@ -3503,7 +4562,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.5.28"
+                            "version": "1.5.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 84,
+                                "ARMEABI_V7A": 84,
+                                "X86": 84,
+                                "X86_64": 84
+                            }
                         }
                     ]
                 }
@@ -3524,7 +4589,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.0.4"
+                            "version": "1.0.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 5,
+                                "ARMEABI_V7A": 5,
+                                "X86": 5,
+                                "X86_64": 5
+                            }
                         }
                     ]
                 }
@@ -3545,7 +4616,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.80"
+                            "version": "1.80",
+                            "versionCodes": {
+                                "ARM64_V8A": 306,
+                                "ARMEABI_V7A": 306,
+                                "X86": 306,
+                                "X86_64": 306
+                            }
                         }
                     ]
                 }
@@ -3560,13 +4637,46 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
+                    "appIconColor": "#1A237E",
+                    "name": "Awake",
+                    "packageName": "com.mk.awake",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.10.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 230020072,
+                                "ARMEABI_V7A": 230020072,
+                                "X86": 230020072,
+                                "X86_64": 230020072
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features in Awake by bypassing the RC entitlement check chain and the Pairip Play Licensing verification.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
                     "appIconColor": "#1B7080",
                     "name": "Battery Guru",
                     "packageName": "com.paget96.batteryguru",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.5.0.5"
+                            "version": "2.5.0.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 712,
+                                "ARMEABI_V7A": 712,
+                                "X86": 712,
+                                "X86_64": 712
+                            }
                         }
                     ]
                 }
@@ -3587,7 +4697,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.40"
+                            "version": "7.40",
+                            "versionCodes": {
+                                "ARM64_V8A": 7400,
+                                "ARMEABI_V7A": 7400,
+                                "X86": 7400,
+                                "X86_64": 7400
+                            }
                         }
                     ]
                 }
@@ -3608,7 +4724,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.0.11"
+                            "version": "4.0.11",
+                            "versionCodes": {
+                                "ARM64_V8A": 323,
+                                "ARMEABI_V7A": 323,
+                                "X86": 323,
+                                "X86_64": 323
+                            }
                         }
                     ]
                 }
@@ -3629,7 +4751,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.9.4"
+                            "version": "2.9.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 29,
+                                "ARMEABI_V7A": 29,
+                                "X86": 29,
+                                "X86_64": 29
+                            }
                         }
                     ]
                 }
@@ -3653,7 +4781,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.3.9"
+                            "version": "4.3.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 388,
+                                "ARMEABI_V7A": 388,
+                                "X86": 388,
+                                "X86_64": 388
+                            }
                         }
                     ]
                 }
@@ -3674,7 +4808,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2026.07.5"
+                            "version": "2026.07.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 622,
+                                "ARMEABI_V7A": 622,
+                                "X86": 622,
+                                "X86_64": 622
+                            }
                         }
                     ]
                 }
@@ -3715,7 +4855,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.100.2"
+                            "version": "6.100.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 4120449,
+                                "ARMEABI_V7A": 4120449,
+                                "X86": 4120449,
+                                "X86_64": 4120449
+                            }
                         }
                     ]
                 }
@@ -3736,7 +4882,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.6.2"
+                            "version": "3.6.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 201,
+                                "ARMEABI_V7A": 201,
+                                "X86": 201,
+                                "X86_64": 201
+                            }
                         }
                     ]
                 }
@@ -3756,7 +4908,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.76.5891"
+                            "version": "2.76.5966",
+                            "versionCodes": {
+                                "ARM64_V8A": 1633629252,
+                                "ARMEABI_V7A": 1633629252,
+                                "X86": 1633629252,
+                                "X86_64": 1633629252
+                            }
                         }
                     ]
                 }
@@ -3777,7 +4935,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.9.7"
+                            "version": "2.9.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 77,
+                                "ARMEABI_V7A": 77,
+                                "X86": 77,
+                                "X86_64": 77
+                            }
                         }
                     ]
                 }
@@ -3798,7 +4962,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.8.6"
+                            "version": "4.8.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 2104860,
+                                "ARMEABI_V7A": 2104860,
+                                "X86": 2104860,
+                                "X86_64": 2104860
+                            }
                         }
                     ]
                 }
@@ -3821,7 +4991,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.2.0"
+                            "version": "3.2.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 306,
+                                "ARMEABI_V7A": 306,
+                                "X86": 306,
+                                "X86_64": 306
+                            }
                         }
                     ]
                 }
@@ -3842,7 +5018,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.60"
+                            "version": "1.60",
+                            "versionCodes": {
+                                "ARM64_V8A": 60,
+                                "ARMEABI_V7A": 60,
+                                "X86": 60,
+                                "X86_64": 60
+                            }
                         }
                     ]
                 }
@@ -3863,7 +5045,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.30.0"
+                            "version": "26.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 26300005,
+                                "ARMEABI_V7A": 26300005,
+                                "X86": 26300005,
+                                "X86_64": 26300005
+                            }
                         }
                     ]
                 }
@@ -3884,7 +5072,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "34.0.4"
+                            "version": "34.0.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 10314,
+                                "ARMEABI_V7A": 10314,
+                                "X86": 10314,
+                                "X86_64": 10314
+                            }
                         }
                     ]
                 }
@@ -3905,7 +5099,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.1.06"
+                            "version": "2.1.06",
+                            "versionCodes": {
+                                "ARM64_V8A": 35,
+                                "ARMEABI_V7A": 35,
+                                "X86": 35,
+                                "X86_64": 35
+                            }
                         }
                     ]
                 }
@@ -3926,7 +5126,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.0.3"
+                            "version": "3.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 106,
+                                "ARMEABI_V7A": 106,
+                                "X86": 106,
+                                "X86_64": 106
+                            }
                         }
                     ]
                 }
@@ -3947,7 +5153,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.27.0-1"
+                            "version": "8.27.0-1",
+                            "versionCodes": {
+                                "ARM64_V8A": 10827001,
+                                "ARMEABI_V7A": 10827001,
+                                "X86": 10827001,
+                                "X86_64": 10827001
+                            }
                         }
                     ]
                 }
@@ -3962,13 +5174,46 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
+                    "appIconColor": "#FF5722",
+                    "name": "Fitia",
+                    "packageName": "com.nutrition.technologies.Fitia",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "25.0.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 1473,
+                                "ARMEABI_V7A": 1473,
+                                "X86": 1473,
+                                "X86_64": 1473
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all Fitia premium features by permanently reporting an active subscription.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
                     "appIconColor": "#1565C0",
                     "name": "Flightsky",
                     "packageName": "com.live.flight.tracker",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.7.1"
+                            "version": "1.7.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 23,
+                                "ARMEABI_V7A": 23,
+                                "X86": 23,
+                                "X86_64": 23
+                            }
                         }
                     ]
                 }
@@ -3984,13 +5229,46 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#FF6B00",
+                    "name": "Fuelio",
+                    "packageName": "com.kajda.fuelio",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "10.3.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 3435,
+                                "ARMEABI_V7A": 3435,
+                                "X86": 3435,
+                                "X86_64": 3435
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Fuelio Premium, restores Google Maps, and suppresses the Limited Promo paywall banner for unlocked users.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#1565C0",
                     "name": "Historical Calendar",
                     "packageName": "com.alexandrucene.dayhistory",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.5.4"
+                            "version": "7.5.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 376,
+                                "ARMEABI_V7A": 376,
+                                "X86": 376,
+                                "X86_64": 376
+                            }
                         }
                     ]
                 }
@@ -4030,7 +5308,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.7.1"
+                            "version": "3.7.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 30700100,
+                                "ARMEABI_V7A": 30700100,
+                                "X86": 30700100,
+                                "X86_64": 30700100
+                            }
                         }
                     ]
                 }
@@ -4051,7 +5335,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.1.13.36552.GP"
+                            "version": "8.1.13.36552.GP",
+                            "versionCodes": {
+                                "ARM64_V8A": 36552,
+                                "ARMEABI_V7A": 36552,
+                                "X86": 36552,
+                                "X86_64": 36552
+                            }
                         }
                     ]
                 }
@@ -4072,7 +5362,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2026.29.0"
+                            "version": "2026.31.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 263730002,
+                                "ARMEABI_V7A": 263730002,
+                                "X86": 263730002,
+                                "X86_64": 263730002
+                            }
                         }
                     ]
                 }
@@ -4093,7 +5389,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2026.10.5"
+                            "version": "2026.10.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 2026100509,
+                                "ARMEABI_V7A": 2026100509,
+                                "X86": 2026100509,
+                                "X86_64": 2026100509
+                            }
                         }
                     ]
                 }
@@ -4114,7 +5416,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.7.4"
+                            "version": "6.7.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 541,
+                                "ARMEABI_V7A": 541,
+                                "X86": 541,
+                                "X86_64": 541
+                            }
                         }
                     ]
                 }
@@ -4137,7 +5445,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.7.2"
+                            "version": "26.7.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 26070203,
+                                "ARMEABI_V7A": 26070203,
+                                "X86": 26070203,
+                                "X86_64": 26070203
+                            }
                         }
                     ]
                 }
@@ -4158,7 +5472,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.70"
+                            "version": "6.70",
+                            "versionCodes": {
+                                "ARM64_V8A": 670,
+                                "ARMEABI_V7A": 670,
+                                "X86": 670,
+                                "X86_64": 670
+                            }
                         }
                     ]
                 }
@@ -4179,7 +5499,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.3.01"
+                            "version": "1.3.01",
+                            "versionCodes": {
+                                "ARM64_V8A": 11,
+                                "ARMEABI_V7A": 11,
+                                "X86": 11,
+                                "X86_64": 11
+                            }
                         }
                     ]
                 }
@@ -4220,7 +5546,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "16.4.60095"
+                            "version": "16.5.60515",
+                            "versionCodes": {
+                                "ARM64_V8A": 60515,
+                                "ARMEABI_V7A": 60515,
+                                "X86": 60515,
+                                "X86_64": 60515
+                            }
                         }
                     ]
                 }
@@ -4241,7 +5573,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.0.67"
+                            "version": "1.0.67",
+                            "versionCodes": {
+                                "ARM64_V8A": 101,
+                                "ARMEABI_V7A": 101,
+                                "X86": 101,
+                                "X86_64": 101
+                            }
                         }
                     ]
                 }
@@ -4262,7 +5600,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.71.3"
+                            "version": "8.71.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 592,
+                                "ARMEABI_V7A": 592,
+                                "X86": 592,
+                                "X86_64": 592
+                            }
                         }
                     ]
                 }
@@ -4303,7 +5647,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.31.0"
+                            "version": "26.31.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 26310025,
+                                "ARMEABI_V7A": 26310025,
+                                "X86": 26310025,
+                                "X86_64": 26310025
+                            }
                         }
                     ]
                 }
@@ -4323,7 +5673,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.4.7"
+                            "version": "1.4.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 44,
+                                "ARMEABI_V7A": 44,
+                                "X86": 44,
+                                "X86_64": 44
+                            }
                         }
                     ]
                 }
@@ -4344,7 +5700,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.9"
+                            "version": "4.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 133,
+                                "ARMEABI_V7A": 133,
+                                "X86": 133,
+                                "X86_64": 133
+                            }
                         }
                     ]
                 }
@@ -4365,7 +5727,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.0.11"
+                            "version": "3.0.10",
+                            "versionCodes": {
+                                "ARM64_V8A": 287,
+                                "ARMEABI_V7A": 287,
+                                "X86": 287,
+                                "X86_64": 287
+                            }
                         }
                     ]
                 }
@@ -4380,13 +5748,40 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
+                    "appIconColor": "#4CAF50",
+                    "name": "Park4Night",
+                    "packageName": "fr.tramb.park4night",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.1.60"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Park4Night premium (Pro) access, removing all feature gates for offline maps, advanced filters, and publisher content.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
                     "appIconColor": "#1565C0",
                     "name": "PC Remote - Desktop & Phone",
                     "packageName": "com.monect.portable",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.3.5"
+                            "version": "8.3.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 144,
+                                "ARMEABI_V7A": 144,
+                                "X86": 144,
+                                "X86_64": 144
+                            }
                         }
                     ]
                 }
@@ -4406,7 +5801,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "13.4"
+                            "version": "13.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 2026072200,
+                                "ARMEABI_V7A": 2026072200,
+                                "X86": 2026072200,
+                                "X86_64": 2026072200
+                            }
                         }
                     ]
                 }
@@ -4426,7 +5827,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.9.31"
+                            "version": "2.9.31",
+                            "versionCodes": {
+                                "ARM64_V8A": 90,
+                                "ARMEABI_V7A": 90,
+                                "X86": 90,
+                                "X86_64": 90
+                            }
                         }
                     ]
                 }
@@ -4452,7 +5859,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.32.0"
+                            "version": "5.32.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 5088,
+                                "ARMEABI_V7A": 5088,
+                                "X86": 5088,
+                                "X86_64": 5088
+                            }
                         }
                     ]
                 }
@@ -4476,7 +5889,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.28.1"
+                            "version": "3.28.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 429,
+                                "ARMEABI_V7A": 429,
+                                "X86": 429,
+                                "X86_64": 429
+                            }
                         }
                     ]
                 },
@@ -4488,7 +5907,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.28.1"
+                            "version": "3.28.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 429,
+                                "ARMEABI_V7A": 429,
+                                "X86": 429,
+                                "X86_64": 429
+                            }
                         }
                     ]
                 },
@@ -4500,7 +5925,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.28.1"
+                            "version": "3.28.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 429,
+                                "ARMEABI_V7A": 429,
+                                "X86": 429,
+                                "X86_64": 429
+                            }
                         }
                     ]
                 },
@@ -4512,7 +5943,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.28.1"
+                            "version": "3.28.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 429,
+                                "ARMEABI_V7A": 429,
+                                "X86": 429,
+                                "X86_64": 429
+                            }
                         }
                     ]
                 },
@@ -4524,7 +5961,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.28.1"
+                            "version": "3.28.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 429,
+                                "ARMEABI_V7A": 429,
+                                "X86": 429,
+                                "X86_64": 429
+                            }
                         }
                     ]
                 },
@@ -4536,7 +5979,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.28.1"
+                            "version": "3.28.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 429,
+                                "ARMEABI_V7A": 429,
+                                "X86": 429,
+                                "X86_64": 429
+                            }
                         }
                     ]
                 },
@@ -4548,7 +5997,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.28.1"
+                            "version": "3.28.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 429,
+                                "ARMEABI_V7A": 429,
+                                "X86": 429,
+                                "X86_64": 429
+                            }
                         }
                     ]
                 },
@@ -4560,7 +6015,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.28.1"
+                            "version": "3.28.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 429,
+                                "ARMEABI_V7A": 429,
+                                "X86": 429,
+                                "X86_64": 429
+                            }
                         }
                     ]
                 },
@@ -4572,7 +6033,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.28.1"
+                            "version": "3.28.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 429,
+                                "ARMEABI_V7A": 429,
+                                "X86": 429,
+                                "X86_64": 429
+                            }
                         }
                     ]
                 },
@@ -4584,7 +6051,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.28.1"
+                            "version": "3.28.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 429,
+                                "ARMEABI_V7A": 429,
+                                "X86": 429,
+                                "X86_64": 429
+                            }
                         }
                     ]
                 },
@@ -4596,7 +6069,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.28.1"
+                            "version": "3.28.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 429,
+                                "ARMEABI_V7A": 429,
+                                "X86": 429,
+                                "X86_64": 429
+                            }
                         }
                     ]
                 }
@@ -4619,7 +6098,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.3.5"
+                            "version": "1.3.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 79,
+                                "ARMEABI_V7A": 79,
+                                "X86": 79,
+                                "X86_64": 79
+                            }
                         }
                     ]
                 }
@@ -4640,7 +6125,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.19.61.0"
+                            "version": "5.19.61.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605196100,
+                                "ARMEABI_V7A": 605196100,
+                                "X86": 605196100,
+                                "X86_64": 605196100
+                            }
                         }
                     ]
                 }
@@ -4661,14 +6152,74 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.4.22"
+                            "version": "1.7.21",
+                            "versionCodes": {
+                                "ARM64_V8A": 1502,
+                                "ARMEABI_V7A": 1502,
+                                "X86": 1502,
+                                "X86_64": 1502
+                            }
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlock premium features in RecipeBro.",
+            "description": "Unlocks RecipeBro premium by patching both CustomerInfo and FeatureFlagResponse premium gates.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1A1A2E",
+                    "name": "Relane VPN",
+                    "packageName": "xorsand.relane",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.0.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 16843307,
+                                "ARMEABI_V7A": 16843307,
+                                "X86": 16843307,
+                                "X86_64": 16843307
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Relane VPN Premium by patching the RevenueCat SDK to always report an active \"premium_vpn\" entitlement, enabling premium servers, unlimited data, and premium sync.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#FF6F00",
+                    "name": "re-Link",
+                    "packageName": "com.curiouscompany.relink",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.0.13",
+                            "versionCodes": {
+                                "ARM64_V8A": 34,
+                                "ARMEABI_V7A": 34,
+                                "X86": 34,
+                                "X86_64": 34
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features in re-Link by forcing the license StateFlow to always emit a Licensed state and the sync purchase check to always return true.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -4682,7 +6233,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.30.0"
+                            "version": "8.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 8300000,
+                                "ARMEABI_V7A": 8300000,
+                                "X86": 8300000,
+                                "X86_64": 8300000
+                            }
                         }
                     ]
                 }
@@ -4723,7 +6280,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.0.4"
+                            "version": "2.3.0.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 239,
+                                "ARMEABI_V7A": 239,
+                                "X86": 239,
+                                "X86_64": 239
+                            }
                         }
                     ]
                 }
@@ -4744,7 +6307,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.24.1"
+                            "version": "1.24.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 263,
+                                "ARMEABI_V7A": 263,
+                                "X86": 263,
+                                "X86_64": 263
+                            }
                         }
                     ]
                 }
@@ -4765,7 +6334,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2026.15"
+                            "version": "2026.15",
+                            "versionCodes": {
+                                "ARM64_V8A": 2559,
+                                "ARMEABI_V7A": 2559,
+                                "X86": 2559,
+                                "X86_64": 2559
+                            }
                         }
                     ]
                 }
@@ -4786,7 +6361,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.1.18"
+                            "version": "4.1.18",
+                            "versionCodes": {
+                                "ARM64_V8A": 4118,
+                                "ARMEABI_V7A": 4118,
+                                "X86": 4118,
+                                "X86_64": 4118
+                            }
                         }
                     ]
                 }
@@ -4806,7 +6387,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.0.8"
+                            "version": "8.0.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 2145,
+                                "ARMEABI_V7A": 2145,
+                                "X86": 2145,
+                                "X86_64": 2145
+                            }
                         }
                     ]
                 }
@@ -4847,7 +6434,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.0.10-5"
+                            "version": "1.0.10-5",
+                            "versionCodes": {
+                                "ARM64_V8A": 1001005,
+                                "ARMEABI_V7A": 1001005,
+                                "X86": 1001005,
+                                "X86_64": 1001005
+                            }
                         }
                     ]
                 }
@@ -4868,14 +6461,20 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "471.11"
+                            "version": "474.14",
+                            "versionCodes": {
+                                "ARM64_V8A": 12398925,
+                                "ARMEABI_V7A": 12398925,
+                                "X86": 12398925,
+                                "X86_64": 12398925
+                            }
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks Premium features in app. Also re-enables password login after OTP.",
+            "description": "Unlocks Strava Premium features. Also re-enables password login after OTP.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -4889,7 +6488,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.5.6.3"
+                            "version": "1.5.6.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 77,
+                                "ARMEABI_V7A": 77,
+                                "X86": 77,
+                                "X86_64": 77
+                            }
                         }
                     ]
                 }
@@ -4910,7 +6515,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.3.2"
+                            "version": "1.3.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 19,
+                                "ARMEABI_V7A": 19,
+                                "X86": 19,
+                                "X86_64": 19
+                            }
                         }
                     ]
                 }
@@ -4924,6 +6535,69 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69912,
+                                "ARMEABI_V7A": 69912,
+                                "X86": 69912,
+                                "X86_64": 69912
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Web",
+                    "packageName": "org.telegram.messenger.web",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69919,
+                                "ARMEABI_V7A": 69919,
+                                "X86": 69919,
+                                "X86_64": 69919
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Plus",
+                    "packageName": "org.telegram.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.0.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 22437,
+                                "ARMEABI_V7A": 22437,
+                                "X86": 22437,
+                                "X86_64": 22437
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Telegram Premium features for the current account.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS",
                     "appIconColor": "#1A1A1A",
                     "name": "The Athletic",
@@ -4931,7 +6605,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "13.144.0"
+                            "version": "13.144.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 33625654,
+                                "ARMEABI_V7A": 33625654,
+                                "X86": 33625654,
+                                "X86_64": 33625654
+                            }
                         }
                     ]
                 }
@@ -4952,7 +6632,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "16.16.0"
+                            "version": "16.16.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 1080013693,
+                                "ARMEABI_V7A": 1080013693,
+                                "X86": 1080013693,
+                                "X86_64": 1080013693
+                            }
                         }
                     ]
                 }
@@ -4973,7 +6659,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.5.0-6"
+                            "version": "2.5.0-6",
+                            "versionCodes": {
+                                "ARM64_V8A": 756,
+                                "ARMEABI_V7A": 756,
+                                "X86": 756,
+                                "X86_64": 756
+                            }
                         }
                     ]
                 }
@@ -4994,7 +6686,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.6.320"
+                            "version": "3.6.320",
+                            "versionCodes": {
+                                "ARM64_V8A": 1678697,
+                                "ARMEABI_V7A": 1678697,
+                                "X86": 1678697,
+                                "X86_64": 1678697
+                            }
                         }
                     ]
                 }
@@ -5028,7 +6726,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.18.16"
+                            "version": "1.18.16",
+                            "versionCodes": {
+                                "ARM64_V8A": 99,
+                                "ARMEABI_V7A": 99,
+                                "X86": 99,
+                                "X86_64": 99
+                            }
                         }
                     ]
                 }
@@ -5049,7 +6753,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.20.79.0.1002355"
+                            "version": "1.20.79.0.1002355",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002355,
+                                "ARMEABI_V7A": 1002355,
+                                "X86": 1002355,
+                                "X86_64": 1002355
+                            }
                         }
                     ]
                 }
@@ -5090,7 +6800,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.2"
+                            "version": "4.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 42,
+                                "ARMEABI_V7A": 42,
+                                "X86": 42,
+                                "X86_64": 42
+                            }
                         }
                     ]
                 }
@@ -5111,7 +6827,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.7.6"
+                            "version": "5.7.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 3186,
+                                "ARMEABI_V7A": 3186,
+                                "X86": 3186,
+                                "X86_64": 3186
+                            }
                         }
                     ]
                 }
@@ -5131,7 +6853,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.2.2328"
+                            "version": "4.2.2328",
+                            "versionCodes": {
+                                "ARM64_V8A": 2328,
+                                "ARMEABI_V7A": 2328,
+                                "X86": 2328,
+                                "X86_64": 2328
+                            }
                         }
                     ]
                 }
@@ -5152,7 +6880,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "50.1.1"
+                            "version": "50.1.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 5001014,
+                                "ARMEABI_V7A": 5001014,
+                                "X86": 5001014,
+                                "X86_64": 5001014
+                            }
                         }
                     ]
                 }
@@ -5193,7 +6927,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.3"
+                            "version": "7.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 81,
+                                "ARMEABI_V7A": 81,
+                                "X86": 81,
+                                "X86_64": 81
+                            }
                         }
                     ]
                 }
@@ -5216,7 +6956,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.0.8"
+                            "version": "12.0.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 371,
+                                "ARMEABI_V7A": 371,
+                                "X86": 371,
+                                "X86_64": 371
+                            }
                         }
                     ]
                 }
@@ -5237,7 +6983,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.1.16"
+                            "version": "3.1.16",
+                            "versionCodes": {
+                                "ARM64_V8A": 234,
+                                "ARMEABI_V7A": 234,
+                                "X86": 234,
+                                "X86_64": 234
+                            }
                         }
                     ]
                 }
@@ -5257,7 +7009,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "21.1.13-1-rc"
+                            "version": "21.1.13-1-rc",
+                            "versionCodes": {
+                                "ARM64_V8A": 210113001,
+                                "ARMEABI_V7A": 210113001,
+                                "X86": 210113001,
+                                "X86_64": 210113001
+                            }
                         }
                     ]
                 }
@@ -5278,7 +7036,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.2.2"
+                            "version": "2.2.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 100076,
+                                "ARMEABI_V7A": 100076,
+                                "X86": 100076,
+                                "X86_64": 100076
+                            }
                         }
                     ]
                 }
@@ -5299,7 +7063,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.4.3"
+                            "version": "3.4.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 30403000,
+                                "ARMEABI_V7A": 30403000,
+                                "X86": 30403000,
+                                "X86_64": 30403000
+                            }
                         }
                     ]
                 }
@@ -5320,7 +7090,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.4.15"
+                            "version": "5.4.15",
+                            "versionCodes": {
+                                "ARM64_V8A": 258,
+                                "ARMEABI_V7A": 258,
+                                "X86": 258,
+                                "X86_64": 258
+                            }
                         }
                     ]
                 }
@@ -5341,7 +7117,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.1"
+                            "version": "5.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 50201000,
+                                "ARMEABI_V7A": 50201000,
+                                "X86": 50201000,
+                                "X86_64": 50201000
+                            }
                         }
                     ]
                 }
@@ -5362,7 +7144,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.5.4"
+                            "version": "5.5.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 1054,
+                                "ARMEABI_V7A": 1054,
+                                "X86": 1054,
+                                "X86_64": 1054
+                            }
                         }
                     ]
                 }
@@ -5382,7 +7170,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.6.11"
+                            "version": "6.6.11",
+                            "versionCodes": {
+                                "ARM64_V8A": 510,
+                                "ARMEABI_V7A": 510,
+                                "X86": 510,
+                                "X86_64": 510
+                            }
                         }
                     ]
                 }
@@ -5403,7 +7197,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.1301.0"
+                            "version": "0.1301.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 1135,
+                                "ARMEABI_V7A": 1135,
+                                "X86": 1135,
+                                "X86_64": 1135
+                            }
                         }
                     ]
                 }
@@ -5417,6 +7217,33 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#0077B6",
+                    "name": "Drivvo",
+                    "packageName": "br.com.ctncardoso.ctncar",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.6.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 242,
+                                "ARMEABI_V7A": 242,
+                                "X86": 242,
+                                "X86_64": 242
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Drivvo Pro by patching all four gateway methods in the y9 subscription class: isPremium() → true, getPlanType() → 'pro', checkVehicleLimit() → true (no vehicle cap), checkPremiumScreen() → true (no screen lock).",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#4CAF50",
                     "name": "Hibernator",
@@ -5424,7 +7251,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.57.0"
+                            "version": "2.57.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 5230,
+                                "ARMEABI_V7A": 5230,
+                                "X86": 5230,
+                                "X86_64": 5230
+                            }
                         }
                     ]
                 }
@@ -5445,7 +7278,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.32"
+                            "version": "2.3.32",
+                            "versionCodes": {
+                                "ARM64_V8A": 713,
+                                "ARMEABI_V7A": 713,
+                                "X86": 713,
+                                "X86_64": 713
+                            }
                         }
                     ]
                 }
@@ -5468,7 +7307,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.58.0"
+                            "version": "1.58.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 1000,
+                                "ARMEABI_V7A": 1000,
+                                "X86": 1000,
+                                "X86_64": 1000
+                            }
                         }
                     ]
                 }
@@ -5489,7 +7334,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "16.10(261970902)(8daeddaf4d)"
+                            "version": "16.10(261970902)(8daeddaf4d)",
+                            "versionCodes": {
+                                "ARM64_V8A": 261970902,
+                                "ARMEABI_V7A": 261970902,
+                                "X86": 261970902,
+                                "X86_64": 261970902
+                            }
                         }
                     ]
                 }
@@ -5497,6 +7348,32 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all Pro features.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0063B1",
+                    "name": "MikroTik Network Tools",
+                    "packageName": "kha.prog.mikrotik",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "277",
+                            "versionCodes": {
+                                "ARM64_V8A": 277,
+                                "ARMEABI_V7A": 277,
+                                "X86": 277,
+                                "X86_64": 277
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the Google Play Billing purchase check, unlocking all pro features.",
             "name": "Unlock Pro",
             "options": []
         },
@@ -5530,7 +7407,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.2.0-rc0"
+                            "version": "2.2.0-rc0",
+                            "versionCodes": {
+                                "ARM64_V8A": 20200000,
+                                "ARMEABI_V7A": 20200000,
+                                "X86": 20200000,
+                                "X86_64": 20200000
+                            }
                         }
                     ]
                 }
@@ -5551,7 +7434,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.336"
+                            "version": "2.336",
+                            "versionCodes": {
+                                "ARM64_V8A": 2026073101,
+                                "ARMEABI_V7A": 2026073101,
+                                "X86": 2026073101,
+                                "X86_64": 2026073101
+                            }
                         }
                     ]
                 }
@@ -5565,26 +7454,6 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#1976D2",
-                    "name": "NetShare",
-                    "packageName": "kha.prog.mikrotik",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "277"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks Pro features in app.",
-            "name": "Unlock Pro",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "APKS",
                     "appIconColor": "#1565C0",
                     "name": "Network Guru - Net Analyzer",
@@ -5592,7 +7461,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.9-beta5"
+                            "version": "1.9-beta5",
+                            "versionCodes": {
+                                "ARM64_V8A": 156,
+                                "ARMEABI_V7A": 156,
+                                "X86": 156,
+                                "X86_64": 156
+                            }
                         }
                     ]
                 }
@@ -5613,7 +7488,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.1.0-rc0"
+                            "version": "1.1.0-rc0",
+                            "versionCodes": {
+                                "ARM64_V8A": 10100000,
+                                "ARMEABI_V7A": 10100000,
+                                "X86": 10100000,
+                                "X86_64": 10100000
+                            }
                         }
                     ]
                 }
@@ -5634,7 +7515,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.21"
+                            "version": "5.21",
+                            "versionCodes": {
+                                "ARM64_V8A": 240005219,
+                                "ARMEABI_V7A": 240005219,
+                                "X86": 240005219,
+                                "X86_64": 240005219
+                            }
                         }
                     ]
                 }
@@ -5680,7 +7567,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.23.build134"
+                            "version": "7.23.build134",
+                            "versionCodes": {
+                                "ARM64_V8A": 134,
+                                "ARMEABI_V7A": 134,
+                                "X86": 134,
+                                "X86_64": 134
+                            }
                         }
                     ]
                 }
@@ -5701,7 +7594,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.2"
+                            "version": "2.3.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 44,
+                                "ARMEABI_V7A": 44,
+                                "X86": 44,
+                                "X86_64": 44
+                            }
                         }
                     ]
                 }
@@ -5722,7 +7621,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.7.5-rc0"
+                            "version": "1.7.5-rc0",
+                            "versionCodes": {
+                                "ARM64_V8A": 10705000,
+                                "ARMEABI_V7A": 10705000,
+                                "X86": 10705000,
+                                "X86_64": 10705000
+                            }
                         }
                     ]
                 }
@@ -5756,21 +7661,26 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
                     "appIconColor": "#1CC29F",
                     "name": "Splitwise",
                     "packageName": "com.Splitwise.SplitwiseMobile",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.7.2"
+                            "version": "26.7.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 950,
+                                "ARMEABI_V7A": 950,
+                                "X86": 950,
+                                "X86_64": 950
+                            }
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks Splitwise Pro features, removes ad banners, and suppresses all upgrade upsell prompts.",
+            "description": "Unlocks Splitwise Pro features (charts, receipt scanning, itemization, default splits, transaction import), forces Person.isPro()=true, and suppresses all upsell banners and paywall prompts in the Account, Activity, and Balances tabs.",
             "name": "Unlock Pro",
             "options": []
         },
@@ -5784,7 +7694,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.3"
+                            "version": "2.3.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 233,
+                                "ARMEABI_V7A": 233,
+                                "X86": 233,
+                                "X86_64": 233
+                            }
                         }
                     ]
                 }
@@ -5804,7 +7720,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.17.7"
+                            "version": "1.17.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 78009,
+                                "ARMEABI_V7A": 78009,
+                                "X86": 78009,
+                                "X86_64": 78009
+                            }
                         }
                     ]
                 }
@@ -5824,7 +7746,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "24.2.6"
+                            "version": "24.2.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 9943,
+                                "ARMEABI_V7A": 9943,
+                                "X86": 9943,
+                                "X86_64": 9943
+                            }
                         }
                     ]
                 }
@@ -5838,13 +7766,46 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#FF6900",
+                    "name": "USB Hotspot",
+                    "packageName": "kha.prog.usbhotspot",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 6,
+                                "ARMEABI_V7A": 6,
+                                "X86": 6,
+                                "X86_64": 6
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the Google Play Billing premium check, unlocking pro features.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#1A1A2E",
                     "name": "KineStop",
                     "packageName": "com.urbandroid.kinestop",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.1"
+                            "version": "5.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 101,
+                                "ARMEABI_V7A": 101,
+                                "X86": 101,
+                                "X86_64": 101
+                            }
                         }
                     ]
                 }
@@ -5864,7 +7825,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.29.3"
+                            "version": "2.29.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 505,
+                                "ARMEABI_V7A": 505,
+                                "X86": 505,
+                                "X86_64": 505
+                            }
                         }
                     ]
                 }
@@ -5884,7 +7851,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.7.3"
+                            "version": "1.7.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 123,
+                                "ARMEABI_V7A": 123,
+                                "X86": 123,
+                                "X86_64": 123
+                            }
                         }
                     ]
                 }
@@ -5905,7 +7878,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.0.8.20260601651"
+                            "version": "1.0.8.20260601651",
+                            "versionCodes": {
+                                "ARM64_V8A": 117,
+                                "ARMEABI_V7A": 117,
+                                "X86": 117,
+                                "X86_64": 117
+                            }
                         }
                     ]
                 }
@@ -5925,7 +7904,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.1.12"
+                            "version": "6.1.12",
+                            "versionCodes": {
+                                "ARM64_V8A": 5125980,
+                                "ARMEABI_V7A": 5125980,
+                                "X86": 5125980,
+                                "X86_64": 5125980
+                            }
                         }
                     ]
                 }
@@ -5945,7 +7930,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "70.3.0"
+                            "version": "70.3.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2025061004,
+                                "ARMEABI_V7A": 2025061004,
+                                "X86": 2025061004,
+                                "X86_64": 2025061004
+                            }
                         }
                     ]
                 }
@@ -5966,7 +7957,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.88.2"
+                            "version": "6.90.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2422,
+                                "ARMEABI_V7A": 2422,
+                                "X86": 2422,
+                                "X86_64": 2422
+                            }
                         }
                     ]
                 }
@@ -6007,7 +8004,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.3.3"
+                            "version": "3.3.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 3030302,
+                                "ARMEABI_V7A": 3030302,
+                                "X86": 3030302,
+                                "X86_64": 3030302
+                            }
                         }
                     ]
                 }
@@ -6028,7 +8031,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.35.0"
+                            "version": "6.35.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 6426547,
+                                "ARMEABI_V7A": 6426547,
+                                "X86": 6426547,
+                                "X86_64": 6426547
+                            }
                         }
                     ]
                 }
@@ -6049,7 +8058,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.2.83"
+                            "version": "3.2.83",
+                            "versionCodes": {
+                                "ARM64_V8A": 3283,
+                                "ARMEABI_V7A": 3283,
+                                "X86": 3283,
+                                "X86_64": 3283
+                            }
                         }
                     ]
                 }
@@ -6071,7 +8086,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.37"
+                            "version": "7.37",
+                            "versionCodes": {
+                                "ARM64_V8A": 737,
+                                "ARMEABI_V7A": 737,
+                                "X86": 737,
+                                "X86_64": 737
+                            }
                         }
                     ]
                 }
@@ -6091,7 +8112,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.0.3 (41-d04e542)"
+                            "version": "2.0.3 (41-d04e542)",
+                            "versionCodes": {
+                                "ARM64_V8A": 41,
+                                "ARMEABI_V7A": 41,
+                                "X86": 41,
+                                "X86_64": 41
+                            }
                         }
                     ]
                 }
@@ -6114,7 +8141,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.41.0"
+                            "version": "7.41.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 7555,
+                                "ARMEABI_V7A": 7555,
+                                "X86": 7555,
+                                "X86_64": 7555
+                            }
                         }
                     ]
                 }
@@ -6135,7 +8168,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "10.4.5"
+                            "version": "10.4.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 10450,
+                                "ARMEABI_V7A": 10450,
+                                "X86": 10450,
+                                "X86_64": 10450
+                            }
                         }
                     ]
                 }
@@ -6156,7 +8195,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.22.1"
+                            "version": "4.22.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 625,
+                                "ARMEABI_V7A": 625,
+                                "X86": 625,
+                                "X86_64": 625
+                            }
                         }
                     ]
                 }
@@ -6176,7 +8221,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.0.16.0723.03"
+                            "version": "3.0.16.0723.03",
+                            "versionCodes": {
+                                "ARM64_V8A": 50020117,
+                                "ARMEABI_V7A": 50020117,
+                                "X86": 50020117,
+                                "X86_64": 50020117
+                            }
                         }
                     ]
                 },
@@ -6187,35 +8238,46 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.0.16.0707.03"
+                            "version": "3.0.16.0804.03",
+                            "versionCodes": {
+                                "ARM64_V8A": 50020116,
+                                "ARMEABI_V7A": 50020116,
+                                "X86": 50020116,
+                                "X86_64": 50020116
+                            }
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks VIP features in app.",
+            "description": "Unlocks VIP features in MovieBox and MovieBox India.",
             "name": "Unlock VIP",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
                     "appIconColor": "#E53935",
                     "name": "MovieBox TV",
                     "packageName": "com.community.mbox.tv",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.1.6.0723.03"
+                            "version": "1.1.6.0723.03",
+                            "versionCodes": {
+                                "ARM64_V8A": 50040011,
+                                "ARMEABI_V7A": 50040011,
+                                "X86": 50040011,
+                                "X86_64": 50040011
+                            }
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks VIP Features in app.",
+            "description": "Unlocks VIP features in MovieBox TV.",
             "name": "Unlock VIP",
             "options": []
         },
@@ -6229,7 +8291,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.7.50.12"
+                            "version": "2.7.50.12",
+                            "versionCodes": {
+                                "ARM64_V8A": 20750012,
+                                "ARMEABI_V7A": 20750012,
+                                "X86": 20750012,
+                                "X86_64": 20750012
+                            }
                         }
                     ]
                 }
@@ -6243,27 +8311,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#1565C0",
-                    "name": "WatchMaker",
-                    "packageName": "slide.watchFrenzy",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "10.2.8"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks WatchMaker VIP by forcing getHasVIP() to always return true, enabling watch downloads, Wear OS data sync, and all premium features gated on active subscription or companion app status.",
-            "name": "Unlock VIP",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#FF6B00",
                     "name": "Yatri",
@@ -6271,7 +8318,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.0.5"
+                            "version": "5.0.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 1003,
+                                "ARMEABI_V7A": 1003,
+                                "X86": 1003,
+                                "X86_64": 1003
+                            }
                         }
                     ]
                 }
@@ -6292,7 +8345,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.11.7-ad_mob"
+                            "version": "2.11.7-ad_mob",
+                            "versionCodes": {
+                                "ARM64_V8A": 139,
+                                "ARMEABI_V7A": 139,
+                                "X86": 139,
+                                "X86_64": 139
+                            }
                         }
                     ]
                 }
@@ -6313,7 +8372,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.4.3.7"
+                            "version": "4.4.3.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 10353,
+                                "ARMEABI_V7A": 10353,
+                                "X86": 10353,
+                                "X86_64": 10353
+                            }
                         }
                     ]
                 }
@@ -6333,7 +8398,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "16.0.20131.20080"
+                            "version": "16.0.20228.20090",
+                            "versionCodes": {
+                                "ARM64_V8A": 16843309,
+                                "ARMEABI_V7A": 16843309,
+                                "X86": 16843309,
+                                "X86_64": 16843309
+                            }
                         }
                     ]
                 }
@@ -6355,13 +8426,109 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69912,
+                                "ARMEABI_V7A": 69912,
+                                "X86": 69912,
+                                "X86_64": 69912
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Web",
+                    "packageName": "org.telegram.messenger.web",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 69919,
+                                "ARMEABI_V7A": 69919,
+                                "X86": 69919,
+                                "X86_64": 69919
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Plus",
+                    "packageName": "org.telegram.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.0.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 22437,
+                                "ARMEABI_V7A": 22437,
+                                "X86": 22437,
+                                "X86_64": 22437
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Plays voice notes in the full music player with seek bar and background playback.",
+            "name": "Voice to music",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1565C0",
+                    "name": "VRadio",
+                    "packageName": "com.ilv.vradio",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 90209002,
+                                "ARMEABI_V7A": 90209002,
+                                "X86": 90209002,
+                                "X86_64": 90209002
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all VRadio premium features by bypassing the SharedPreferences purchase gate.",
+            "name": "VRadio Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#00BFFF",
                     "name": "Vyxel Apps",
                     "packageName": "com.vythera.vyxelapps",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.0.7"
+                            "version": "1.0.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 7,
+                                "ARMEABI_V7A": 7,
+                                "X86": 7,
+                                "X86_64": 7
+                            }
                         }
                     ]
                 }
@@ -6375,48 +8542,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#1A73E8",
-                    "name": "WristBrowser",
-                    "packageName": "com.onnex.wristweb",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.1.8"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Prevents the Pairip Play Integrity license check from running.",
-            "name": "WristBrowser Pairip License Bypass",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#1A73E8",
-                    "name": "WristBrowser",
-                    "packageName": "com.onnex.wristweb",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.1.8"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks all premium features by spoofing RevenueCat entitlement checks as active.",
-            "name": "WristBrowser Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#19BCAA",
                     "name": "CamScanner",
@@ -6424,7 +8549,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.21.5.2607090000"
+                            "version": "7.21.5.2607090000",
+                            "versionCodes": {
+                                "ARM64_V8A": 72151,
+                                "ARMEABI_V7A": 72151,
+                                "X86": 72151,
+                                "X86_64": 72151
+                            }
                         }
                     ]
                 }
