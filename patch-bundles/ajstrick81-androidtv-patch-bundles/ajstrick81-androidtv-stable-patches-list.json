@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.1",
+    "version": "v1.19.0",
     "patches": [
         {
             "compatibility": [
@@ -418,6 +418,10 @@
                     "targets": [
                         {
                             "experimental": false,
+                            "version": "16.17.0"
+                        },
+                        {
+                            "experimental": false,
                             "version": "16.12.0"
                         },
                         {
@@ -429,12 +433,13 @@
             ],
             "compatiblePackages": {
                 "com.cbs.ott": [
+                    "16.17.0",
                     "16.12.0",
                     "16.8.0"
                 ]
             },
             "dependencies": [],
-            "description": "Removes VOD ads and pause ads while preserving live TV.",
+            "description": "Removes VOD pre-roll ads and pause ads while preserving live TV.",
             "name": "Paramount+ Android TV",
             "options": [],
             "use": true
