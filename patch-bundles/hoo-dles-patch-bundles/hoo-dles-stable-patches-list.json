@@ -1,5 +1,5 @@
 {
-    "version": "v1.39.0",
+    "version": "v1.40.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -10,12 +10,12 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.255.0"
+                            "version": "1.267.0"
                         }
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -65,6 +65,28 @@
             ],
             "description": "Blocks the request of notification permissions on load of app.",
             "name": "Block Permissions Request",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#001D35",
+                    "name": "Lightroom Mobile",
+                    "packageName": "com.adobe.lrmobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "11.4.5"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Allows app use without login. BUT breaks many features. There is a strict version requirement for this patch and only arm64-v8a devices are supported.",
+            "name": "Bypass login",
             "options": []
         },
         {
@@ -225,7 +247,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.6 build 002"
+                            "version": "6.6 build 014"
                         }
                     ]
                 }
@@ -477,7 +499,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.12.81"
+                            "version": "4.13.1"
                         }
                     ]
                 }
@@ -745,7 +767,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.7.8"
+                            "version": "5.7.9"
                         }
                     ]
                 },
@@ -763,6 +785,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -862,26 +885,6 @@
                         {
                             "isExperimental": false,
                             "version": "2.27.3.6291"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Enables app features locked behind the subscription paywall.",
-            "name": "Enable Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#52DBD7",
-                    "name": "Teuida",
-                    "packageName": "net.teuida.teuida",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.21.16"
                         }
                     ]
                 }
@@ -1024,7 +1027,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "81042 (8.5.1)"
+                            "version": "88600 (8.8.6)"
                         }
                     ]
                 }
@@ -1053,6 +1056,28 @@
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Prime membership",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F8485E",
+                    "name": "Ling",
+                    "packageName": "com.simyasolutions.ling.universal",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.4.4"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Pro",
             "options": []
         },
         {
@@ -1148,7 +1173,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.6 build 002"
+                            "version": "6.6 build 014"
                         }
                     ]
                 }
@@ -1170,7 +1195,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.4.1"
+                            "version": "3.5.16"
                         }
                     ]
                 }
@@ -1212,7 +1237,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "10.15.0"
+                            "version": "10.17.1"
                         }
                     ]
                 }
@@ -1399,31 +1424,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.4.1"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
-            "name": "MicroG integration",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#52DBD7",
-                    "name": "Teuida",
-                    "packageName": "net.teuida.teuida",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.21.16"
+                            "version": "3.5.16"
                         }
                     ]
                 }
@@ -1447,7 +1448,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.17.72.0"
+                            "version": "5.19.43.0"
                         }
                     ]
                 }
@@ -1576,7 +1577,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.17.72.0"
+                            "version": "5.19.43.0"
                         }
                     ]
                 }
@@ -1596,7 +1597,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.17.72.0"
+                            "version": "5.19.43.0"
                         }
                     ]
                 }
@@ -1632,13 +1633,35 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#001D35",
+                    "name": "Lightroom Mobile",
+                    "packageName": "com.adobe.lrmobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "11.4.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.",
+            "name": "Unlock premium features",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#6D4AFF",
                     "name": "Proton VPN",
                     "packageName": "ch.protonvpn.android",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.17.72.0"
+                            "version": "5.19.43.0"
                         }
                     ]
                 }

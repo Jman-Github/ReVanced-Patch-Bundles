@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-06T13:17:52",
-  "description": "New patch: **Android Auto allowlist (root)** \u2014 on app startup, detects root (KernelSU/Magisk) and registers the app in Android Auto's allowlist by writing to the GMS phenotype.db (merged whitelist, self-healing). No-op without root. Also includes AASelfTweaker extension and a hardened publish pipeline.",
-  "download_url": "https://github.com/andersonlucasg3/PetalMaps-AndroidAuto/releases/download/v1.1.3/patches-1.1.3.mpp",
+  "created_at": "2026-08-06T20:02:04",
+  "description": "Fix tweaker round 4 (root cause): run root commands in the GLOBAL mount namespace (su --mount-master). HyperOS overlays /data/data with a tmpfs in the app's namespace, hiding com.android.vending's dbs and making cp fail with ENOENT.",
+  "download_url": "https://github.com/andersonlucasg3/PetalMaps-AndroidAuto/releases/download/v1.1.9/patches-1.1.9.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.1.3"
+  "version": "v1.1.9"
 }
