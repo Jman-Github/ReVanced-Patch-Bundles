@@ -2308,6 +2308,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/petalmaps-androidauto-patch-bundles/petalmaps-androidauto-dev-patches-bundle.json```
 </details>
 
+---
+### ?? Dbhavsar76-Patches-Bundle [API v4]:
+[?? Dbhavsar76 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-dbhavsar76-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dbhavsar76-patch-bundles/dbhavsar76-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dbhavsar76-patch-bundles/dbhavsar76-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dbhavsar76-patch-bundles/dbhavsar76-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -2676,6 +2689,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [SpookyEXE-Patches-Bundle](https://github.com/spookyexe/morphe-patches)
 
 #### 🩹 [PetalMaps-AndroidAuto-Patches-Bundle](https://github.com/andersonlucasg3/PetalMaps-AndroidAuto)
+
+#### ??? [Dbhavsar76-Patches-Bundle](https://github.com/dbhavsar76/revanced-patches)
 
 ## 🖇 Integrations Repositories In Use
 

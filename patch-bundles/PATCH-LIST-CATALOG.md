@@ -42,6 +42,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Daboynb](#-daboynb-bundle-patch-list) | 1 | 1 | Generated |
 | [MojiRS-RIF](#-mojirs-rif-bundle-patch-list) | 2 | 1 | Generated |
 | [Edge-ReVanced](#-edge-revanced-bundle-patch-list) | 8 | 1 | Generated |
+| [Dbhavsar76](#-dbhavsar76-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -5717,5 +5718,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Change package name``` | ```Changes the package name from com.huawei.maps.app to morphe.huawei.petal.maps by default, allowing the patched app to coexist with the original. Changing the package name can lead to unexpected issues.``` | ```Petal Maps``` | ```All versions``` |
 | ```Huawei login fix``` | ```Forces the Account Picker sign-in flow with WebView fallback, fixing login on devices without HMS Core.``` | ```Petal Maps``` | ```All versions``` |
 | ```Manufacturer Check Bypass``` | ```Forces the Huawei manufacturer check to always return true, allowing non-Huawei devices to use the app.``` | ```Petal Maps``` | ```All versions``` |
+
+</details>
+
+---
+### ?? Dbhavsar76 Bundle Patch List:
+[?? Dbhavsar76-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dbhavsar76-patches-bundle-api-v4)
+<details>
+<summary><b>Dbhavsar76</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable ads``` | ```Removes pre-roll, mid-roll and post-roll video ads, on both on-demand content and live channels.``` | ```ZEE5``` | ```All versions``` |
 
 </details>
