@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -81,6 +81,26 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Helium Browser",
+                    "packageName": "io.github.jqssun.helium",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "151.0.7922.71"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Experimental: applies to all Helium child processes; forces strongest binding. May increase RAM, battery, and process pressure; only reduces LMK probability. Does not detect, reload, or back off crashed extensions.",
+            "name": "Keep Helium Child Processes Alive",
+            "options": []
         }
     ]
 }
