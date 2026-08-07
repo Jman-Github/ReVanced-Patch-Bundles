@@ -1,5 +1,5 @@
 {
-    "version": "v1.17.0",
+    "version": "v1.18.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -31,7 +31,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.104.0.2"
+                            "version": "1.106.0.3"
                         }
                     ]
                 }
@@ -44,7 +44,7 @@
         },
         {
             "compatiblePackages": null,
-            "default": true,
+            "default": false,
             "dependencies": [
                 "ResourcePatch"
             ],
@@ -61,15 +61,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.6.12"
+                            "version": "0.6.18"
                         }
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Disables PulseSDK analytics.",
             "name": "Disable analytics",
             "options": []
@@ -83,15 +81,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.104.0.2"
+                            "version": "1.106.0.3"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch",
-                "BytecodePatch"
+                "ResourcePatch"
             ],
             "description": "Disables VK-specific analytics.",
             "name": "Disable analytics",
@@ -106,15 +103,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2026.06.25-release"
+                            "version": "2026.07.23-release"
                         }
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Disables SoundCloud's analytics.",
             "name": "Disable analytics",
             "options": []
@@ -128,7 +123,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.104.0.2"
+                            "version": "1.106.0.3"
                         }
                     ]
                 }
@@ -148,7 +143,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.6.0.1"
+                            "version": "11.7.0.1"
                         }
                     ]
                 }
@@ -170,7 +165,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2026.06.25-release"
+                            "version": "2026.07.23-release"
                         }
                     ]
                 }
@@ -190,7 +185,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.6.0.1"
+                            "version": "11.7.0.1"
                         }
                     ]
                 }
@@ -210,7 +205,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.104.0.2"
+                            "version": "1.106.0.3"
                         }
                     ]
                 }
@@ -230,7 +225,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.104.0.2"
+                            "version": "1.106.0.3"
                         }
                     ]
                 }
@@ -258,15 +253,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2026.06.25-release"
+                            "version": "2026.07.23-release"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Enables all premium features, hides upsell UI and ads.",
-            "name": "Enable SoundCloud Go+",
+            "description": "Enables SoundCloud Go premium features.",
+            "name": "Enable SoundCloud Go",
             "options": []
         },
         {
@@ -278,7 +273,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.104.0.2"
+                            "version": "1.106.0.3"
                         }
                     ]
                 }
@@ -298,7 +293,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.6.0.1"
+                            "version": "11.7.0.1"
                         }
                     ]
                 }
@@ -320,7 +315,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "20.6.1"
+                            "version": "20.9.2"
                         }
                     ]
                 }
@@ -340,7 +335,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.575"
+                            "version": "1.583"
                         }
                     ]
                 }
@@ -362,7 +357,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "9.50.3"
+                            "version": "9.51.0"
                         }
                     ]
                 }
@@ -446,7 +441,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.6.12"
+                            "version": "0.6.18"
                         }
                     ]
                 }

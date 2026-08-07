@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.0-dev.3",
+    "version": "v1.18.0-dev.4",
     "patches": [
         {
             "compatiblePackages": null,
@@ -61,15 +61,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.6.16"
+                            "version": "0.6.18"
                         }
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Disables PulseSDK analytics.",
             "name": "Disable analytics",
             "options": []
@@ -90,8 +88,7 @@
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch",
-                "BytecodePatch"
+                "ResourcePatch"
             ],
             "description": "Disables VK-specific analytics.",
             "name": "Disable analytics",
@@ -112,9 +109,7 @@
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Disables SoundCloud's analytics.",
             "name": "Disable analytics",
             "options": []
@@ -148,7 +143,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.6.0.1"
+                            "version": "11.7.0.1"
                         }
                     ]
                 }
@@ -190,7 +185,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.6.0.1"
+                            "version": "11.7.0.1"
                         }
                     ]
                 }
@@ -272,28 +267,6 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#7C4DFF",
-                    "name": "Pillo",
-                    "packageName": "xyz.rtrvr.pillo",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "0.6.16"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Routes Pillo Google services and legacy Google Sign-In through MicroG-RE.",
-            "name": "Pillo GmsCore support",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#0077FF",
                     "name": "RuStore",
                     "packageName": "ru.vk.store",
@@ -320,7 +293,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.6.0.1"
+                            "version": "11.7.0.1"
                         }
                     ]
                 }
@@ -342,7 +315,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "20.6.1"
+                            "version": "20.9.2"
                         }
                     ]
                 }
@@ -362,7 +335,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.578"
+                            "version": "1.583"
                         }
                     ]
                 }
@@ -468,7 +441,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.6.16"
+                            "version": "0.6.18"
                         }
                     ]
                 }

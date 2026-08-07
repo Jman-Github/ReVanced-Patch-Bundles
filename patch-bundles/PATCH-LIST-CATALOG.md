@@ -102,7 +102,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [X-Shim](#-x-shim-bundle-patch-list) | 3 | 1 | Generated |
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
-| [Kondratjev](#-kondratjev-bundle-patch-list) | 26 | 13 | Generated |
+| [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 78 | 54 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 105 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 136 | 4 | Generated |
@@ -3014,7 +3014,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kondratjev Bundle Patch List:
 [📦 Kondratjev-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kondratjev-patches-bundle-morphe)
 <details>
-<summary><b>Kondratjev</b> - 26 patches, 13 apps</summary>
+<summary><b>Kondratjev</b> - 25 patches, 13 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3028,7 +3028,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks part of Ornament Pro features.``` | ```Ornament``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium features.``` | ```Parcels``` | ```All versions``` |
 | ```Disable analytics``` | ```Disables PulseSDK analytics.``` | ```Pillo``` | ```All versions``` |
-| ```Pillo GmsCore support``` | ```Routes Pillo Google services and legacy Google Sign-In through MicroG-RE.``` | ```Pillo``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium features and removes ads.``` | ```Pillo``` | ```All versions``` |
 | ```Disable ads``` | ```Removes all advertisements from the app.``` | ```RuStore``` | ```All versions``` |
 | ```Disable analytics``` | ```Disables VK-specific analytics.``` | ```RuStore``` | ```All versions``` |
