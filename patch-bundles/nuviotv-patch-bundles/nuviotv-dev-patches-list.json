@@ -1,6 +1,30 @@
 {
-    "version": "v1.0.0-dev.14",
+    "version": "v1.0.0-dev.15",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#111827",
+                    "name": "NuvioTV",
+                    "packageName": "com.nuvio.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.8.2-beta"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds Morphe > Playback control to open the source picker when no preferred binge-group stream is found.",
+            "name": "Binge Group Manual Fallback",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -23,6 +47,30 @@
             ],
             "description": "Marks detected English SDH tracks in embedded and addon subtitle lists.",
             "name": "Mark SDH Subtitles",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#111827",
+                    "name": "NuvioTV",
+                    "packageName": "com.nuvio.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.8.2-beta"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds Morphe > Detail Page > Show Random Episode Button and random series playback.",
+            "name": "Random Episode",
             "options": []
         },
         {
