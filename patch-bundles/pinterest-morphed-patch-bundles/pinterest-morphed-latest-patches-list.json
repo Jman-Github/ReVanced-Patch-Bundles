@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0-dev.3",
+    "version": "v1.7.0-dev.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -1291,9 +1291,9 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
-            "description": "Adds the signature-spoof metadata used by microG-RE (per-caller) and XSpoofSignatures (system-wide, via LSPosed) so \"Continue with Google\" works on both microG-RE and stock Google Play Services. No-op if neither is present.",
+            "description": "Experimental, off by default. Adds the signature-spoof metadata read by microG-RE and by the XSpoofSignatures LSPosed module, so \"Continue with Google\" may work on devices with a working signature-spoofing setup. Not confirmed working end-to-end; no-op without such a setup.",
             "name": "Restore Google login (signature spoofing)",
             "options": []
         },
