@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.10",
+    "version": "v1.5.0-dev.12",
     "patches": [
         {
             "compatiblePackages": null,
@@ -191,7 +191,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Bypasses the Pairip License check (DRM) to unlock pro status.",
+            "description": "Enables pro and unlocks all features (Übersetzungen, Notizen, Ordner/PDF) by bypassing pairip DRM, forcing IAP purchase states to PURCHASED, mocking IAP purchase lists, and forcing SharedPreferences & RemoteConfig booleans to true.",
             "name": "Enable Pro",
             "options": []
         },
