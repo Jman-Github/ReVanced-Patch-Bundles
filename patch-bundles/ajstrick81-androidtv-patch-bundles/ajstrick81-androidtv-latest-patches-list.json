@@ -1,32 +1,6 @@
 {
-    "version": "v1.20.0",
+    "version": "v1.21.1",
     "patches": [
-        {
-            "compatibility": [
-                {
-                    "appIconColor": 15010068,
-                    "description": null,
-                    "name": "Netflix Android TV",
-                    "packageName": "com.netflix.ninja",
-                    "targets": [
-                        {
-                            "experimental": false,
-                            "version": "13.0.1-25028-armv7a"
-                        }
-                    ]
-                }
-            ],
-            "compatiblePackages": {
-                "com.netflix.ninja": [
-                    "13.0.1-25028-armv7a"
-                ]
-            },
-            "dependencies": [],
-            "description": "Packages libgadget.so + its config into com.netflix.ninja for in-process, non-root capture of the appboot UI bundle (post-MSL, post-signature).",
-            "name": "Bundle frida-gadget (Netflix appboot capture)",
-            "options": [],
-            "use": true
-        },
         {
             "compatibility": [
                 {
@@ -63,21 +37,21 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "13.0.1-25028-armv7a"
+                            "version": "13.0.1 build 25028"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.netflix.ninja": [
-                    "13.0.1-25028-armv7a"
+                    "13.0.1 build 25028"
                 ]
             },
             "dependencies": [],
-            "description": "Installs the patched Netflix as a separate app alongside the stock one, instead of replacing it. Required on devices where Netflix is a preinstalled system app that can't be uninstalled (Onn, Fire TV, most Android TV boxes). The clone gets its own package (suffix .clone). EXPERIMENTAL capture tooling — Netflix binds ESN/MSL/Widevine to the package name, so the clone may not log in or play. Opt-in.",
+            "description": "Installs the patched Netflix as a separate app alongside the stock one (package suffix .clone), instead of replacing it. Required on devices where Netflix is a preinstalled system app that can't be uninstalled (Onn, Fire TV, most Android TV boxes). Keep the stock Netflix installed + enabled — the clone borrows its signature to pass Netflix's native tamper check (stock auto-updating is fine). You just launch the clone instead. Recommended: leave ON.",
             "name": "Clone Netflix",
             "options": [],
-            "use": false
+            "use": true
         },
         {
             "compatibility": [
@@ -255,14 +229,14 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "13.0.1-25028-armv7a"
+                            "version": "13.0.1 build 25028"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.netflix.ninja": [
-                    "13.0.1-25028-armv7a"
+                    "13.0.1 build 25028"
                 ]
             },
             "dependencies": [],
@@ -351,34 +325,6 @@
         {
             "compatibility": [
                 {
-                    "appIconColor": 15010068,
-                    "description": null,
-                    "name": "Netflix Android TV",
-                    "packageName": "com.netflix.ninja",
-                    "targets": [
-                        {
-                            "experimental": false,
-                            "version": "13.0.1-25028-armv7a"
-                        }
-                    ]
-                }
-            ],
-            "compatiblePackages": {
-                "com.netflix.ninja": [
-                    "13.0.1-25028-armv7a"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Loads libgadget.so at startup to capture the appboot UI bundle in-process on a non-rooted device (post-MSL, post-signature).",
-            "name": "Load frida-gadget (Netflix appboot capture)",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatibility": [
-                {
                     "appIconColor": 1539022,
                     "description": null,
                     "name": "Prime Video Android TV",
@@ -415,14 +361,14 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "13.0.1-25028-armv7a"
+                            "version": "13.0.1 build 25028"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.netflix.ninja": [
-                    "13.0.1-25028-armv7a"
+                    "13.0.1 build 25028"
                 ]
             },
             "dependencies": [
@@ -601,6 +547,60 @@
             "dependencies": [],
             "description": "Integrates the Prime Video ATV extension for ad group skipping.",
             "name": "Prime Video extension",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 15010068,
+                    "description": null,
+                    "name": "Netflix Android TV",
+                    "packageName": "com.netflix.ninja",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "13.0.1 build 25028"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.netflix.ninja": [
+                    "13.0.1 build 25028"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bundles the in-process ad-kill script (killads.js) and its loader into the app. This is the ad remover: at launch the app runs the script itself (script mode — no PC, no root, no frida server) and empties Netflix's ad breaks (pre-roll, mid-roll) and the pause-screen ad overlay. Pairs with the loader patch. Default ON.",
+            "name": "Remove Netflix ads (bundle engine)",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 15010068,
+                    "description": null,
+                    "name": "Netflix Android TV",
+                    "packageName": "com.netflix.ninja",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "13.0.1 build 25028"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.netflix.ninja": [
+                    "13.0.1 build 25028"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Arms the ad remover: injects the startup call that loads the in-process ad-kill engine (bundled by the companion patch) as early as possible, so ads are emptied before playback. Requires the bundle-engine patch. Default ON.",
+            "name": "Remove Netflix ads (loader)",
             "options": [],
             "use": true
         },
