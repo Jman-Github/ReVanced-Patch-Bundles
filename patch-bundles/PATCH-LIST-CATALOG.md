@@ -117,7 +117,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 2 | 1 | Generated |
-| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 23 | 1 | Generated |
+| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 24 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
 | [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 59 | 23 | Generated |
 | [Binarymend](#-binarymend-bundle-patch-list) | 11 | 7 | Generated |
@@ -173,7 +173,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Dexnis](#-dexnis-bundle-patch-list) | 1 | 1 | Generated |
 | [HU-Liberator](#-hu-liberator-bundle-patch-list) | 11 | 2 | Generated |
 | [JonnyVR1](#-jonnyvr1-bundle-patch-list) | 10 | 1 | Generated |
-| [Logm1lo](#-logm1lo-bundle-patch-list) | 1 | 1 | Generated |
+| [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 | [PetalMaps-AndroidAuto](#-petalmaps-androidauto-bundle-patch-list) | 8 | 1 | Generated |
 
@@ -4102,7 +4102,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Jasonwu1994 Bundle Patch List:
 [📦 Jasonwu1994-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jasonwu1994-patches-bundle-morphe)
 <details>
-<summary><b>Jasonwu1994</b> - 23 patches, 1 app</summary>
+<summary><b>Jasonwu1994</b> - 24 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4115,6 +4115,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Developer options``` | ```啟用 開發人員選項 與 Flag 編輯器，你可以自己修改Flag的值 Enable Developer options and the Flag Editor, allowing you to modify flag values.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Emojis, stickers & GIFs Tab Order``` | ```自訂 Gboard「Emojis, stickers & GIFs」底部 tabs 的排序，支援拖曳調整 Customize the bottom tab order in Gboard's Emojis, stickers & GIFs panel with drag-and-drop reordering.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Enable Inline Autofill Suggestions``` | ```啟用內嵌自動填入建議 Enable Inline Autofill Suggestions``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
+| ```Enable OCR / Scan Text``` | ```啟用 OCR / 掃描文字功能，支援 拉丁、中文、日文、韓文 與 天城文 辨識後端 Enable the OCR / Scan Text feature with Latin, Chinese, Japanese, Korean, and Devanagari recognition backends.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```English QWERTY Up-Flick Uppercase``` | ```英文 QWERTY 鍵盤上滑大小寫 Flick up on the English QWERTY keyboard to toggle uppercase and lowercase.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Grammar Checker``` | ```啟用 修正和建議 > 文法檢查 Enable Text correction > Grammar check.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Inline Suggestions``` | ```啟用 修正和建議 > 智慧撰寫 Enable Text correction > Smart Compose.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
@@ -5682,11 +5683,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Logm1lo Bundle Patch List:
 [📦 Logm1lo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-logm1lo-patches-bundle-morphe)
 <details>
-<summary><b>Logm1lo</b> - 1 patch, 1 app</summary>
+<summary><b>Logm1lo</b> - 4 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Dart Pro gates (libapp.so)``` | ```Applies the 10 Dart AOT hex patches to libapp.so that unlock the native Pro gates.``` | ```Calistree``` | ```All versions``` |
 | ```Premium Unlock``` | ```Unlocks all Calistree PRO features.``` | ```Calistree``` | ```All versions``` |
+| ```Puzzles Unlock``` | ```Unlocks all puzzles.``` | ```Cube Solver``` | ```All versions``` |
+| ```Remove Ads``` | ```Removes ads.``` | ```Cube Solver``` | ```All versions``` |
 
 </details>
 
