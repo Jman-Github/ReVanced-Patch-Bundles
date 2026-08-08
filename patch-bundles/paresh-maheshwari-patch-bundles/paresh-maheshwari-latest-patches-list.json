@@ -1,5 +1,5 @@
 {
-    "version": "v1.20.0-dev.1",
+    "version": "v1.20.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -1043,6 +1043,31 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#4870F8",
+                    "name": "TickTick",
+                    "packageName": "com.ticktick.task",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.1.3.3"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "8.0.6.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs the original signing certificate so Firebase Cloud Messaging accepts the re-signed app and task/reminder notifications keep working.",
+            "name": "Restore notifications",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#2AABEE",
                     "name": "Plus Messenger",
                     "packageName": "org.telegram.plus",
@@ -1138,6 +1163,10 @@
                     "name": "TickTick",
                     "packageName": "com.ticktick.task",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.1.3.3"
+                        },
                         {
                             "isExperimental": false,
                             "version": "8.0.6.1"
