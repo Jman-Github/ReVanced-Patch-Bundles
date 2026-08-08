@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0-dev.1",
+    "version": "v1.7.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -195,7 +195,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Fixes images in text posts showing as plain links instead of rendering inline.",
+            "description": "Fixes images in text posts showing as plain links instead of rendering inline. Also adds captions below the images where applicable.",
             "name": "Fix inline images",
             "options": []
         },
