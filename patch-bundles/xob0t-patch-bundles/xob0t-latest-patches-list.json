@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.9",
+    "version": "v1.11.10",
     "patches": [
         {
             "compatiblePackages": [
@@ -70,6 +70,12 @@
                     "name": "TBank",
                     "packageName": "com.idamob.tinkoff.android",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "8.0.0",
+                            "versionCode": 12925
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 28,
@@ -373,6 +379,12 @@
                     "name": "TBank",
                     "packageName": "com.idamob.tinkoff.android",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "8.0.0",
+                            "versionCode": 12925
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 28,
