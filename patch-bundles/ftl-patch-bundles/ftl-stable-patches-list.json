@@ -1,5 +1,5 @@
 {
-    "version": "v1.21.0",
+    "version": "v1.22.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -43,11 +43,11 @@
             "name": "Custom DPI (Universal)",
             "options": [
                 {
-                    "default": 240,
-                    "description": "Forced display density in dots-per-inch for this app only. 160 = system default (mdpi), 240 is roughly 1.5x larger. Range 96-640.",
+                    "default": 100,
+                    "description": "Scales this app's display relative to the device's own setting. 100% = no change, 150% = 1.5x larger, 50% = half size. Range 25-300%.",
                     "key": "dpi",
                     "required": false,
-                    "title": "Custom DPI",
+                    "title": "Display scale",
                     "type": "kotlin.Long",
                     "values": null
                 }

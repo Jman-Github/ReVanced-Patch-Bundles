@@ -1,5 +1,5 @@
 {
-    "version": "v1.21.0-dev.5",
+    "version": "v1.21.0-dev.4",
     "patches": [
         {
             "compatiblePackages": null,
@@ -39,7 +39,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Change this app's display size without touching your phone's system settings. Make it bigger if things look too small, or smaller to fit more on screen. Works on any app.",
+            "description": "Forces a higher display density for this app only, so the whole UI scales up without changing the system density. Works on any app that has an onCreate() in its Application class or launcher activity.",
             "name": "Custom DPI (Universal)",
             "options": [
                 {
