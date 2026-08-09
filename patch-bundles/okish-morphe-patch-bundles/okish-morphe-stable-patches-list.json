@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0",
+    "version": "v1.7.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -125,6 +125,69 @@
             "dependencies": [],
             "description": "Bypasses the Pairip Play Store installation check so the app launches normally.",
             "name": "FreeJobAlert License Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2E7D32",
+                    "name": "Hill Climb Racing",
+                    "packageName": "com.fingersoft.hillclimb",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.70.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.",
+            "name": "Hill Climb Racing Ad Removal",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2E7D32",
+                    "name": "Hill Climb Racing",
+                    "packageName": "com.fingersoft.hillclimb",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.70.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.",
+            "name": "Hill Climb Racing Free Store",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2E7D32",
+                    "name": "Hill Climb Racing",
+                    "packageName": "com.fingersoft.hillclimb",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.70.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.",
+            "name": "Hill Climb Racing Instant Rewarded Video Rewards",
             "options": []
         },
         {

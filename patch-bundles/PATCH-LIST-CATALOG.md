@@ -66,7 +66,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 19 | 10 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 10 | 7 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 13 | 8 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 9 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -618,7 +618,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 10 patches, 7 apps</summary>
+<summary><b>Okish-Morphe</b> - 13 patches, 8 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -628,6 +628,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Dr. Driving Unlimited Gold``` | ```Gold is inflated to 1,000,000,000 on save load; gold packs in the store also grant gold.``` | ```Dr. Driving``` | ```All versions``` |
 | ```FreeJobAlert Ad Removal``` | ```Removes all Google AdMob ads (banner, interstitial, rewarded, app open, native).``` | ```FreeJobAlert``` | ```All versions``` |
 | ```FreeJobAlert License Bypass``` | ```Bypasses the Pairip Play Store installation check so the app launches normally.``` | ```FreeJobAlert``` | ```All versions``` |
+| ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```All versions``` |
+| ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```All versions``` |
+| ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```All versions``` |
 | ```Jetpack Joyride Billing Bypass``` | ```Intercepts all in-app purchases and reports instant success to the game engine.``` | ```Jetpack Joyride``` | ```All versions``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```All versions``` |
 | ```Swordigo Premium Unlock``` | ```Enables ad-free, guiding compass, and coin doubler without purchase.``` | ```Swordigo``` | ```All versions``` |
