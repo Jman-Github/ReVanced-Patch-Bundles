@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -125,7 +125,29 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -137,6 +159,15 @@
             "description": "Replaces the default gray comment indent lines with color-coded lines.",
             "name": "Colorize comment indent lines",
             "options": [
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "isCurrentLevelOnly",
+                    "required": false,
+                    "title": "Show indent line at current depth only",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
                 {
                     "default": "#2A9D8F",
                     "description": "The hex color (#RRGGBB or #AARRGGBB) for comment indent line at depth 1.",
@@ -289,6 +320,52 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Prevents the bottom navigation bar from hiding when scrolling down.",
+            "name": "Disable bottom navigation bar auto-hide",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -307,7 +384,75 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Disables the automatic refresh of the home feed after viewing a post or after being away from the app.",
+            "name": "Disable home feed auto-refresh",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -331,7 +476,29 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -471,7 +638,29 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -495,7 +684,29 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -506,6 +717,31 @@
             ],
             "description": "Disables the banner that shows up after taking a screenshot.",
             "name": "Disable screenshot banner",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables the redesign of the additional actions menu.",
+            "name": "Enable access points menu redesign",
             "options": []
         },
         {
@@ -579,7 +815,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Enables OCR feature to extract text from images and insert it into text fields.",
+            "description": "Enables the Scan Text feature to extract text from images and insert them into text fields.",
             "name": "Enable OCR feature",
             "options": []
         },
@@ -604,7 +840,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Enables undo feature to quickly undo or correct typing mistakes.",
+            "description": "Enables the undo feature to quickly undo or correct typing mistakes.",
             "name": "Enable Undo feature",
             "options": []
         },
@@ -644,7 +880,29 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -668,7 +926,29 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -692,7 +972,29 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -716,7 +1018,75 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the red notification badge on the community menu (hamburger menu).",
+            "name": "Hide community menu badge",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -740,7 +1110,29 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -749,7 +1141,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Hides the new prominent search bar on the main screen.",
+            "description": "Hides the new prominent search bar on the main screen. Applicable only to version 2026.24.0 and earlier.",
             "name": "Hide prominent search bar",
             "options": []
         },
@@ -764,7 +1156,29 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -788,7 +1202,29 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -831,7 +1267,29 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -855,7 +1313,29 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -879,7 +1359,29 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -935,7 +1437,29 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
@@ -981,6 +1505,24 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces the Google Maps API key with a custom key.",
+            "name": "Replace Google Maps API key",
+            "options": [
+                {
+                    "default": null,
+                    "description": "This key must be a valid Google Maps API key starting with \"AIzaSy\". \n\nFollow the instructions at https://developers.google.com/maps/documentation/android-sdk/get-api-key to generate a new API key if you don't have one. \n\nLeave it unrestricted to use it with any app (recommended), or restrict it by adding the SHA-1 fingerprint of the app's signing certificate and the package name.",
+                    "key": "apiKey",
+                    "required": true,
+                    "title": "Maps API Key",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
@@ -991,7 +1533,29 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.31.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.30.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.29.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
                         }
                     ]
                 }
