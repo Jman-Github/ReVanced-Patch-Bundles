@@ -2321,6 +2321,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dbhavsar76-patch-bundles/dbhavsar76-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 FTL-Patches-Bundle [Morphe]:
+[🧩 FTL Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ftl-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ftl-patch-bundles/ftl-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ftl-patch-bundles/ftl-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ftl-patch-bundles/ftl-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -2691,6 +2704,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [PetalMaps-AndroidAuto-Patches-Bundle](https://github.com/andersonlucasg3/PetalMaps-AndroidAuto)
 
 #### ??? [Dbhavsar76-Patches-Bundle](https://github.com/dbhavsar76/revanced-patches)
+
+#### 🩹 [FTL-Patches-Bundle](https://github.com/BlazeFTL/FTL-Patches)
 
 ## 🖇 Integrations Repositories In Use
 
