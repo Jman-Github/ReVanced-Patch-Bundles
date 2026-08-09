@@ -1,0 +1,24 @@
+{
+  "version": "v0.1.7",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "name": "Skimboarding",
+          "packageName": "com.findthefirellc.findthefire",
+          "versions": [
+            "1.0.0"
+          ]
+        }
+      ],
+      "deprecated": false,
+      "description": "Unlocks FirePass premium features in Skimboarding: spot filtering by skill level, advanced map features, and session log tools.",
+      "excluded": false,
+      "identifier": "app.template.patches.findthefire.premium.FindTheFireUnlockFirePassPatch",
+      "name": "Unlock FirePass Premium",
+      "options": [],
+      "requiresIntegrations": false,
+      "use": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "version": "v1.0.1",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#1C1B33",
+          "description": null,
+          "name": "Waking Up",
+          "packageName": "org.wakingup.android",
+          "signatures": null,
+          "targets": [
+            {
+              "description": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "version": "3.24.1",
+              "versionCodes": null
+            }
+          ],
+          "versions": [
+            "3.24.1"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Unlocks all premium content and removes subscription banners.",
+      "name": "Unlock Premium",
+      "options": []
+    }
+  ]
+}

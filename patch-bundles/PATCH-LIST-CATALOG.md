@@ -177,6 +177,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 | [PetalMaps-AndroidAuto](#-petalmaps-androidauto-bundle-patch-list) | 8 | 1 | Generated |
 | [FTL](#-ftl-bundle-patch-list) | 6 | 1 | Generated |
+| [braiNtropy](#-braintropy-bundle-patch-list) | 1 | 1 | Generated |
+| [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -5780,5 +5782,31 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove Analytics``` | ```Disables tracking and crash-reporting tools, corrupts analytics web links inside the code, and removes background tracking services.``` | ```Universal``` | ```All versions``` |
 | ```Remove Duplicate Graphics``` | ```Keeps images for only one screen density (like xhdpi) and removes copies for all other densities. Android will automatically scale the kept images, making the app significantly smaller.``` | ```Universal``` | ```All versions``` |
 | ```Remove Languages``` | ```Removes translations for languages you don't use across ALL resource types (strings, drawables, layouts, raw, xml, etc.). Only keeps the languages you pick. Base resources with no language code are always preserved.``` | ```Universal``` | ```All versions``` |
+
+</details>
+
+
+---
+### 🧩 braiNtropy Bundle Patch List:
+[📦 braiNtropy-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-braintropy-patches-bundle-morphe)
+<details>
+<summary><b>braiNtropy</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock Premium``` | ```Unlocks all premium content and removes subscription banners.``` | ```Waking Up``` | ```3.24.1``` |
+
+</details>
+
+
+---
+### 🧩 Ang3lo Bundle Patch List:
+[📦 Ang3lo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ang3lo-patches-bundle-morphe)
+<details>
+<summary><b>Ang3lo</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock FirePass Premium``` | ```Unlocks FirePass premium features in Skimboarding: spot filtering by skill level, advanced map features, and session log tools.``` | ```Skimboarding``` | ```1.0.0``` |
 
 </details>
