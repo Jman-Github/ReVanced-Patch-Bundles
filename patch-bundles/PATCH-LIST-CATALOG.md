@@ -91,7 +91,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Lain](#-lain-bundle-patch-list) | 45 | 32 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 123 | 3 | Generated |
-| [Piko](#-piko-bundle-patch-list) | 127 | 2 | Generated |
+| [Piko](#-piko-bundle-patch-list) | 128 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 11 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
@@ -1716,7 +1716,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Piko Bundle Patch List:
 [📦 Piko-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-patches-bundle-morphe)
 <details>
-<summary><b>Piko</b> - 127 patches, 2 apps</summary>
+<summary><b>Piko</b> - 128 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1760,12 +1760,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```More options on post``` | ```Adds an overflow menu button to get more options on post/reels, like copy description, copy username etc``` | ```Instagram``` | ```All versions``` |
 | ```More options on profile``` | ```Adds a new button to handle user related data like copy handle, download profile picture etc``` | ```Instagram``` | ```All versions``` |
 | ```Open links externally``` | ```Changes links to always open in your external browser, instead of the in-app browser.``` | ```Instagram``` | ```All versions``` |
+| ```Recommended flags``` | ```Developer flags suggested by the community``` | ```Instagram``` | ```All versions``` |
 | ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```Instagram``` | ```All versions``` |
 | ```Remove empty bottom space``` | ```Removes empty space below bottom navigation bar``` | ```Instagram``` | ```All versions``` |
 | ```Sanitize share links``` | ```N/A``` | ```Instagram``` | ```All versions``` |
 | ```Save media comment``` | ```Adds a button to save media comments on posts and reels.``` | ```Instagram``` | ```All versions``` |
 | ```Stories audio autoplay``` | ```N/A``` | ```Instagram``` | ```All versions``` |
-| ```Theme``` | ```Adds Material You and AMOLED options to Instagram's Dark mode settings on Android 12 and later. On Android 8–11, it applies a fixed Material You-style theme or an optional AMOLED theme.``` | ```Instagram``` | ```All versions``` |
+| ```Theme``` | ```Adds Material You and AMOLED controls to Piko settings on Android 12 and later. On Android 8–11, it applies a fixed Material You-style theme or an optional AMOLED theme.``` | ```Instagram``` | ```All versions``` |
 | ```Unlock developer options``` | ```Unlocks developer option by long pressing home icon``` | ```Instagram``` | ```All versions``` |
 | ```Unlock employee options``` | ```Unlocks all options using by employee for debugging``` | ```Instagram``` | ```All versions``` |
 | ```Unlock Plus benefits``` | ```Unlocks 'Plus' subscription benefits that are checked locally. USE IT AT YOUR OWN RISK``` | ```Instagram``` | ```All versions``` |
@@ -1800,7 +1801,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Disable auto timeline scroll on launch``` | ```N/A``` | ```Twitter``` | ```All versions``` |
 | ```Disable chirp font``` | ```N/A``` | ```Twitter``` | ```All versions``` |
 | ```Download patch``` | ```Unlocks the ability to download videos and gifs from Twitter/X``` | ```Twitter``` | ```All versions``` |
-| ```Dynamic color``` | ```Adds an option to replace Twitter Blue with the user's Material You palette.``` | ```Twitter``` | ```All versions``` |
+| ```Dynamic color``` | ```Replaces the default Twitter Blue with the user's Material You palette.``` | ```Twitter``` | ```All versions``` |
 | ```Enable debug menu for posts``` | ```N/A``` | ```Twitter``` | ```All versions``` |
 | ```Enable force HD videos``` | ```Videos will be played in highest quality always``` | ```Twitter``` | ```All versions``` |
 | ```Enable PiP mode automatically``` | ```Enables PiP mode when you close the app``` | ```Twitter``` | ```All versions``` |
