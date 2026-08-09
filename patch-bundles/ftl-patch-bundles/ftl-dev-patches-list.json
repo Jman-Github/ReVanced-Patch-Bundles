@@ -1,5 +1,5 @@
 {
-    "version": "v1.20.0-dev.10",
+    "version": "v1.21.0-dev.5",
     "patches": [
         {
             "compatiblePackages": null,
@@ -30,6 +30,26 @@
                         "x86": "x86",
                         "x86_64": "x86_64"
                     }
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Change this app's display size without touching your phone's system settings. Make it bigger if things look too small, or smaller to fit more on screen. Works on any app.",
+            "name": "Custom DPI (Universal)",
+            "options": [
+                {
+                    "default": 240,
+                    "description": "Forced display density in dots-per-inch for this app only. 160 = system default (mdpi), 240 is roughly 1.5x larger. Range 96-640.",
+                    "key": "dpi",
+                    "required": false,
+                    "title": "Custom DPI",
+                    "type": "kotlin.Long",
+                    "values": null
                 }
             ]
         },
