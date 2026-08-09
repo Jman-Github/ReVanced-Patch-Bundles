@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0",
+    "version": "v1.11.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -308,6 +308,29 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#5F7C8A",
+                    "name": "Fake GPS Location",
+                    "packageName": "com.hopefactory2021.fakegpslocation",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "125.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Fake GPS Location Premium",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#6C7BFF",
                     "name": "Gradient Weather",
                     "packageName": "com.subtlesignals.gradientweather",
@@ -425,26 +448,6 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks MacroDroid Pro, Use With Spoof App Signature",
-            "name": "Enable Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#212121",
-                    "name": "Material Capsule",
-                    "packageName": "com.pryshedko.mtisland",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "15.7"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks Material Capsule Pro",
             "name": "Enable Premium",
             "options": []
         },
