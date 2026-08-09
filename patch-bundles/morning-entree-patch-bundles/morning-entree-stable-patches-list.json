@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0",
+    "version": "v1.9.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -166,6 +166,46 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#EF5350",
+                    "name": "Smart AudioBook Player",
+                    "packageName": "ak.alizandro.smartaudiobookplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "11.8.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the full version of Smart AudioBook Player",
+            "name": "Enable Full Version",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF5252",
+                    "name": "Arm Workout",
+                    "packageName": "armworkout.armworkoutformen.armexercises",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.4.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Arm Workout Premium. Use with Spoof App Signature",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#4CAF50",
                     "name": "AutoLocation",
                     "packageName": "com.joaomgcd.autolocation",
@@ -220,6 +260,48 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Boosted Premium",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2E7D6F",
+                    "name": "Does Not Commute",
+                    "packageName": "com.mediocre.commute",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.5.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Does Not Commute Premium. Just Tap Get Premium and Restore Purchase When Prompted",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1565C0",
+                    "name": "EOBD Facile",
+                    "packageName": "org.eobdfacile.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.87.1179"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks EOBD Facile Premium",
             "name": "Enable Premium",
             "options": []
         },
@@ -308,6 +390,87 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#0DA98D",
+                    "name": "Lose Weight App for Men",
+                    "packageName": "menloseweight.loseweightappformen.weightlossformen",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.4.37"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Lose Weight App for Men Premium. Use with Spoof App Signature",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#20334D",
+                    "name": "MacroDroid",
+                    "packageName": "com.arlosoft.macrodroid",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.65.9"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks MacroDroid Pro, Use With Spoof App Signature",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#212121",
+                    "name": "Material Capsule",
+                    "packageName": "com.pryshedko.mtisland",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "15.7"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Material Capsule Pro",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#17364C",
+                    "name": "Obd Mary",
+                    "packageName": "com.elm.elm327.obd2.eobd.obd.car.scanner.diagnostics.tool.dashboard.doctor.check.engine.torque.speed.trouble.codes.mary",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.318"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Obd Mary's Paid Features, Including the Diagnostics Edition",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#2196F3",
                     "name": "Panels",
                     "packageName": "com.fossor.panels",
@@ -352,6 +515,26 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#252525",
+                    "name": "Photon Camera",
+                    "packageName": "com.hinnka.mycamera",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.25.1.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Photon Camera Pro",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#E0563F",
                     "name": "Pinnit",
                     "packageName": "dev.sasikanth.pinnit2",
@@ -366,6 +549,68 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Pinnit Pro. Just Tap Restore Purchase When Prompted. Must be installed with either ADB/InstallerX Revived/Inure so it is not in Restricted Mode",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E91E63",
+                    "name": "PinOut",
+                    "packageName": "com.mediocre.pinout",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.7"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks PinOut Premium. Just Tap Get Premium and Restore Purchase When Prompted",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#80C583",
+                    "name": "Sleep as Android",
+                    "packageName": "com.urbandroid.sleep",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "20260616"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Sleep as Android Premium. Tap Wait I already Paid when Prompted",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Smash Hit",
+                    "packageName": "com.mediocre.smashhit",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.5.14"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Smash Hit. Just Tap Get Premium and Restore Purchase When Prompted",
             "name": "Enable Premium",
             "options": []
         },
@@ -513,6 +758,38 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Extracts and Base64-encodes the original app's signing certificate. Applied automatically by 'Spoof signature verification'; you normally do not need to touch it. Use 'Certificate source' to control where the certificate comes from.",
+            "name": "Provide original app certificate",
+            "options": [
+                {
+                    "default": "auto",
+                    "description": "Where to read the original signing certificate from.\n• Automatic: reads the APK you're patching (v1 META-INF), then an 'Original APK file' if set, then the installed app. Works for most apps with no extra input.\n• Simple / decoded APK only: v1 META-INF of the APK being patched (same as the basic extractor). Fails on v2/v3-only apps that have no v1 signature.\n• Original APK file: reads the certificate (incl. v2/v3) from the APK you point to below.\n• Installed app: reads it from the stock app installed on this device (on-device only).",
+                    "key": "certificateSource",
+                    "required": true,
+                    "title": "Certificate source",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Automatic (recommended)": "auto",
+                        "Installed app": "installed",
+                        "Original APK file": "apkFile",
+                        "Simple / decoded APK only": "simple"
+                    }
+                },
+                {
+                    "default": null,
+                    "description": "The original, unmodified APK (or .apks/.xapk bundle) to read the certificate from. Select a file or paste the full file path. Required when 'Certificate source' is 'Original APK file'; also used as a fallback in 'Automatic'.",
+                    "key": "originalApkPath",
+                    "required": false,
+                    "title": "Original APK file",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Removes the INTERNET permission so the app cannot access the network at all. Blocks all trackers, analytics and ads from phoning home, but also disables any legitimate online features. Only enable for apps you want fully offline.",
             "name": "Remove internet permission",
             "options": []
@@ -538,6 +815,39 @@
                         "Huawei AppGallery": "com.huawei.appmarket",
                         "Samsung Galaxy Store": "com.sec.android.app.samsungapps"
                     }
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "RawResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Spoofs the signature verification",
+            "name": "Spoof signature verification",
+            "options": [
+                {
+                    "default": "Default",
+                    "description": "The package name of the app, if modified. This must match the package name defined when the 'Change package name' patch is selected or as defined in the AndroidManifest.xml.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "default": "Default",
+                    "description": "The base64-encoded signature from the original, unmodified APK. Leave as \"Default\" to auto-extract the certificate from the APK. Otherwise, clear it and paste the full Base64 signature to override auto-extraction.",
+                    "key": "signature",
+                    "required": true,
+                    "title": "Base64-encoded signature",
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ]
         },

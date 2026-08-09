@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.10",
+    "version": "v1.3.0-dev.11",
     "patches": [
         {
             "compatiblePackages": [
@@ -923,6 +923,30 @@
             "dependencies": [],
             "description": "Disables the ad controller that manages ads in the app.",
             "name": "Disable ad controller",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.6.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the AdFit ad SDK from reporting a root or emulator verdict to its telemetry and ad request endpoints.",
+            "name": "Disable AdFit environment detection",
             "options": []
         },
         {
@@ -2586,6 +2610,30 @@
             "dependencies": [],
             "description": "Reports the original package name in the attestation report, which otherwise reveals a renamed install. Only the report is affected, so the app keeps using its real package name everywhere else.",
             "name": "Spoof attestation package name",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.6.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Reports Google Play as the install source in the integrity report, which otherwise reveals a sideloaded install.",
+            "name": "Spoof installer package name",
             "options": []
         },
         {

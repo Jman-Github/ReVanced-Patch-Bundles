@@ -1,6 +1,18 @@
 {
-    "version": "v1.9.1",
+    "version": "v1.10.0",
     "patches": [
+        {
+            "compatiblePackages": {
+                "com.jcdecaux.vls.lyon": [
+                    "3.1.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Block Didomi tracking SDK, disable consent prompt.",
+            "name": "Block data collection",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "ee.dustland.android.dustlandsudoku": null

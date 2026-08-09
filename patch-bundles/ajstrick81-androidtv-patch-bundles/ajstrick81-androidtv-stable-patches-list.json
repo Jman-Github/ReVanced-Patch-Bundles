@@ -1,5 +1,5 @@
 {
-    "version": "v1.19.0",
+    "version": "v1.21.1",
     "patches": [
         {
             "compatibility": [
@@ -24,6 +24,32 @@
             "dependencies": [],
             "description": "Packages libpvhook.so into the APK's native lib dir for the in-process PRS Remote-item strip (libignite memcpy/memmove GOT/PLT import hook).",
             "name": "Bundle native ad-strip hook",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 15010068,
+                    "description": null,
+                    "name": "Netflix Android TV",
+                    "packageName": "com.netflix.ninja",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "13.0.1 build 25028"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.netflix.ninja": [
+                    "13.0.1 build 25028"
+                ]
+            },
+            "dependencies": [],
+            "description": "Installs the patched Netflix as a separate app alongside the stock one (package suffix .clone), instead of replacing it. Required on devices where Netflix is a preinstalled system app that can't be uninstalled (Onn, Fire TV, most Android TV boxes). Keep the stock Netflix installed + enabled — the clone borrows its signature to pass Netflix's native tamper check (stock auto-updating is fine). You just launch the clone instead. Recommended: leave ON.",
+            "name": "Clone Netflix",
             "options": [],
             "use": true
         },
@@ -196,6 +222,32 @@
         {
             "compatibility": [
                 {
+                    "appIconColor": 15010068,
+                    "description": null,
+                    "name": "Netflix Android TV",
+                    "packageName": "com.netflix.ninja",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "13.0.1 build 25028"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.netflix.ninja": [
+                    "13.0.1 build 25028"
+                ]
+            },
+            "dependencies": [],
+            "description": "Neutralises Netflix's DexGuard signing-certificate anti-tamper check so a re-signed build doesn't self-crash on launch. Required for every Netflix patch.",
+            "name": "Disable Netflix CertCheck",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
                     "appIconColor": 1129679,
                     "description": null,
                     "name": "Disney+ Android TV",
@@ -298,6 +350,34 @@
             "name": "Load native ad-strip hook",
             "options": [],
             "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 15010068,
+                    "description": null,
+                    "name": "Netflix Android TV",
+                    "packageName": "com.netflix.ninja",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "13.0.1 build 25028"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.netflix.ninja": [
+                    "13.0.1 build 25028"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Blanks the local IP / MAC / Wi-Fi SSID the Netflix app reports about your network (keeps interface name/type) and stops the app from reporting your advertising ID (GAID) in its ad-collection telemetry. Reduces network + ad fingerprinting. Does NOT stop the server-side \"I'm traveling\"/household check (that's driven by your public IP — use a VPN for that). Opt-in / experimental; test on-device.",
+            "name": "Minimize Network Fingerprint",
+            "options": [],
+            "use": false
         },
         {
             "compatibility": [
@@ -467,6 +547,60 @@
             "dependencies": [],
             "description": "Integrates the Prime Video ATV extension for ad group skipping.",
             "name": "Prime Video extension",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 15010068,
+                    "description": null,
+                    "name": "Netflix Android TV",
+                    "packageName": "com.netflix.ninja",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "13.0.1 build 25028"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.netflix.ninja": [
+                    "13.0.1 build 25028"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bundles the in-process ad-kill script (killads.js) and its loader into the app. This is the ad remover: at launch the app runs the script itself (script mode — no PC, no root, no frida server) and empties Netflix's ad breaks (pre-roll, mid-roll) and the pause-screen ad overlay. Pairs with the loader patch. Default ON.",
+            "name": "Remove Netflix ads (bundle engine)",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 15010068,
+                    "description": null,
+                    "name": "Netflix Android TV",
+                    "packageName": "com.netflix.ninja",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "13.0.1 build 25028"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.netflix.ninja": [
+                    "13.0.1 build 25028"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Arms the ad remover: injects the startup call that loads the in-process ad-kill engine (bundled by the companion patch) as early as possible, so ads are emptied before playback. Requires the bundle-engine patch. Default ON.",
+            "name": "Remove Netflix ads (loader)",
             "options": [],
             "use": true
         },

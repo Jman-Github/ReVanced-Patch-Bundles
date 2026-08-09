@@ -1,5 +1,5 @@
 {
-    "version": "v2.6.0-dev.1",
+    "version": "v2.7.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -106,6 +106,18 @@
             "dependencies": [],
             "description": "啟用內嵌自動填入建議\nEnable Inline Autofill Suggestions",
             "name": "Enable Inline Autofill Suggestions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.7.7.932364120-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "啟用 OCR / 掃描文字功能，支援 拉丁、中文、日文、韓文 與 天城文 辨識後端\nEnable the OCR / Scan Text feature with Latin, Chinese, Japanese, Korean, and Devanagari recognition backends.",
+            "name": "Enable OCR / Scan Text",
             "options": [],
             "use": true
         },

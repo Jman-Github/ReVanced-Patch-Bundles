@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.9",
+    "version": "v1.5.0-dev.13",
     "patches": [
         {
             "compatiblePackages": null,
@@ -172,6 +172,26 @@
             "default": true,
             "dependencies": [],
             "description": "Suppresses the main byAir paywall, unlock banners, and local user gating without forcing the shared entitlement path globally.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FFFFFF",
+                    "name": "Derdy",
+                    "packageName": "com.fentek.derdy",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.21.9"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables pro and unlocks all features (Übersetzungen, Notizen, Ordner/PDF) by bypassing pairip DRM via processResponse spoofing, forcing IAP purchase states to PURCHASED, and forcing SharedPreferences & RemoteConfig booleans to true.",
             "name": "Enable Pro",
             "options": []
         },
