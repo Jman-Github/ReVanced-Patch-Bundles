@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0",
+    "version": "v1.10.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -465,6 +465,26 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Obd Mary's Paid Features, Including the Diagnostics Edition",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#009688",
+                    "name": "Paisa",
+                    "packageName": "dev.hemanths.paisa",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.06.230"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Paisa Premium. Use With Spoof Install Source",
             "name": "Enable Premium",
             "options": []
         },
