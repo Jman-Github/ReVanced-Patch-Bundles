@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0-dev.5",
+    "version": "v1.7.0-dev.6",
     "patches": [
         {
             "compatiblePackages": [
@@ -14,7 +14,40 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
+                            "version": "14.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14308020,
+                                "ARMEABI_V7A": 14308020,
+                                "X86": 14308020,
+                                "X86_64": 14308020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.29.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14298020,
+                                "ARMEABI_V7A": 14298020,
+                                "X86": 14298020,
+                                "X86_64": 14298020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14288010,
+                                "ARMEABI_V7A": 14288010,
+                                "X86": 14288010,
+                                "X86_64": 14288010
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "14.27.0",
                             "versionCodes": {
                                 "ARM64_V8A": 14278010,
@@ -122,7 +155,40 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
+                            "version": "14.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14308020,
+                                "ARMEABI_V7A": 14308020,
+                                "X86": 14308020,
+                                "X86_64": 14308020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.29.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14298020,
+                                "ARMEABI_V7A": 14298020,
+                                "X86": 14298020,
+                                "X86_64": 14298020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14288010,
+                                "ARMEABI_V7A": 14288010,
+                                "X86": 14288010,
+                                "X86_64": 14288010
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "14.27.0",
                             "versionCodes": {
                                 "ARM64_V8A": 14278010,
@@ -230,7 +296,40 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
+                            "version": "14.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14308020,
+                                "ARMEABI_V7A": 14308020,
+                                "X86": 14308020,
+                                "X86_64": 14308020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.29.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14298020,
+                                "ARMEABI_V7A": 14298020,
+                                "X86": 14298020,
+                                "X86_64": 14298020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14288010,
+                                "ARMEABI_V7A": 14288010,
+                                "X86": 14288010,
+                                "X86_64": 14288010
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "14.27.0",
                             "versionCodes": {
                                 "ARM64_V8A": 14278010,
@@ -338,7 +437,40 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
+                            "version": "14.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14308020,
+                                "ARMEABI_V7A": 14308020,
+                                "X86": 14308020,
+                                "X86_64": 14308020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.29.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14298020,
+                                "ARMEABI_V7A": 14298020,
+                                "X86": 14298020,
+                                "X86_64": 14298020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14288010,
+                                "ARMEABI_V7A": 14288010,
+                                "X86": 14288010,
+                                "X86_64": 14288010
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "14.27.0",
                             "versionCodes": {
                                 "ARM64_V8A": 14278010,
@@ -446,7 +578,40 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
+                            "version": "14.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14308020,
+                                "ARMEABI_V7A": 14308020,
+                                "X86": 14308020,
+                                "X86_64": 14308020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.29.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14298020,
+                                "ARMEABI_V7A": 14298020,
+                                "X86": 14298020,
+                                "X86_64": 14298020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14288010,
+                                "ARMEABI_V7A": 14288010,
+                                "X86": 14288010,
+                                "X86_64": 14288010
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "14.27.0",
                             "versionCodes": {
                                 "ARM64_V8A": 14278010,
@@ -554,7 +719,40 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
+                            "version": "14.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14308020,
+                                "ARMEABI_V7A": 14308020,
+                                "X86": 14308020,
+                                "X86_64": 14308020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.29.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14298020,
+                                "ARMEABI_V7A": 14298020,
+                                "X86": 14298020,
+                                "X86_64": 14298020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14288010,
+                                "ARMEABI_V7A": 14288010,
+                                "X86": 14288010,
+                                "X86_64": 14288010
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "14.27.0",
                             "versionCodes": {
                                 "ARM64_V8A": 14278010,
@@ -662,7 +860,40 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
+                            "version": "14.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14308020,
+                                "ARMEABI_V7A": 14308020,
+                                "X86": 14308020,
+                                "X86_64": 14308020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.29.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14298020,
+                                "ARMEABI_V7A": 14298020,
+                                "X86": 14298020,
+                                "X86_64": 14298020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14288010,
+                                "ARMEABI_V7A": 14288010,
+                                "X86": 14288010,
+                                "X86_64": 14288010
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "14.27.0",
                             "versionCodes": {
                                 "ARM64_V8A": 14278010,
@@ -770,7 +1001,40 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
+                            "version": "14.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14308020,
+                                "ARMEABI_V7A": 14308020,
+                                "X86": 14308020,
+                                "X86_64": 14308020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.29.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14298020,
+                                "ARMEABI_V7A": 14298020,
+                                "X86": 14298020,
+                                "X86_64": 14298020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14288010,
+                                "ARMEABI_V7A": 14288010,
+                                "X86": 14288010,
+                                "X86_64": 14288010
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "14.27.0",
                             "versionCodes": {
                                 "ARM64_V8A": 14278010,
@@ -878,7 +1142,40 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
+                            "version": "14.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14308020,
+                                "ARMEABI_V7A": 14308020,
+                                "X86": 14308020,
+                                "X86_64": 14308020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.29.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14298020,
+                                "ARMEABI_V7A": 14298020,
+                                "X86": 14298020,
+                                "X86_64": 14298020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14288010,
+                                "ARMEABI_V7A": 14288010,
+                                "X86": 14288010,
+                                "X86_64": 14288010
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "14.27.0",
                             "versionCodes": {
                                 "ARM64_V8A": 14278010,
@@ -986,7 +1283,40 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
+                            "version": "14.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14308020,
+                                "ARMEABI_V7A": 14308020,
+                                "X86": 14308020,
+                                "X86_64": 14308020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.29.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14298020,
+                                "ARMEABI_V7A": 14298020,
+                                "X86": 14298020,
+                                "X86_64": 14298020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14288010,
+                                "ARMEABI_V7A": 14288010,
+                                "X86": 14288010,
+                                "X86_64": 14288010
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "14.27.0",
                             "versionCodes": {
                                 "ARM64_V8A": 14278010,
@@ -1094,7 +1424,40 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
+                            "version": "14.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14308020,
+                                "ARMEABI_V7A": 14308020,
+                                "X86": 14308020,
+                                "X86_64": 14308020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.29.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14298020,
+                                "ARMEABI_V7A": 14298020,
+                                "X86": 14298020,
+                                "X86_64": 14298020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14288010,
+                                "ARMEABI_V7A": 14288010,
+                                "X86": 14288010,
+                                "X86_64": 14288010
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "14.27.0",
                             "versionCodes": {
                                 "ARM64_V8A": 14278010,
@@ -1202,7 +1565,40 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
+                            "version": "14.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14308020,
+                                "ARMEABI_V7A": 14308020,
+                                "X86": 14308020,
+                                "X86_64": 14308020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.29.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14298020,
+                                "ARMEABI_V7A": 14298020,
+                                "X86": 14298020,
+                                "X86_64": 14298020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14288010,
+                                "ARMEABI_V7A": 14288010,
+                                "X86": 14288010,
+                                "X86_64": 14288010
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "14.27.0",
                             "versionCodes": {
                                 "ARM64_V8A": 14278010,
@@ -1310,7 +1706,40 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
+                            "version": "14.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14308020,
+                                "ARMEABI_V7A": 14308020,
+                                "X86": 14308020,
+                                "X86_64": 14308020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.29.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14298020,
+                                "ARMEABI_V7A": 14298020,
+                                "X86": 14298020,
+                                "X86_64": 14298020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14288010,
+                                "ARMEABI_V7A": 14288010,
+                                "X86": 14288010,
+                                "X86_64": 14288010
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "14.27.0",
                             "versionCodes": {
                                 "ARM64_V8A": 14278010,
@@ -1418,7 +1847,40 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
+                            "version": "14.30.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14308020,
+                                "ARMEABI_V7A": 14308020,
+                                "X86": 14308020,
+                                "X86_64": 14308020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.29.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14298020,
+                                "ARMEABI_V7A": 14298020,
+                                "X86": 14298020,
+                                "X86_64": 14298020
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "14.28.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14288010,
+                                "ARMEABI_V7A": 14288010,
+                                "X86": 14288010,
+                                "X86_64": 14288010
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "14.27.0",
                             "versionCodes": {
                                 "ARM64_V8A": 14278010,
