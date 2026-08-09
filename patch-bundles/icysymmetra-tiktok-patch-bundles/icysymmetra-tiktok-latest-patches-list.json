@@ -1,5 +1,5 @@
 {
-    "version": "v0.5.0",
+    "version": "v0.6.0",
     "patches": [
         {
             "compatibility": [
@@ -217,7 +217,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Adds watermark-free video and photo downloads, comment sticker saving, and configurable download-folder controls.",
+            "description": "Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates.",
             "name": "Downloads",
             "options": [],
             "use": true

@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.5.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -335,6 +335,27 @@
             "dependencies": [],
             "description": "Opening a 1:1 or group chat no longer marks it read — it stays unread and no read receipt is sent. Manually using \"Mark as read\" / \"Mark all as read\" still marks the chat read and sends the receipt as normal.",
             "name": "Keep chats unread",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#06C755",
+                    "name": "LINE",
+                    "packageName": "jp.naver.line.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.11.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Keeps messages that were unsent in 1:1 and group chats on your device instead of destroying them, and shows the usual \"unsent a message\" notice directly below the message it kept. Doesn't apply to OpenChat.",
+            "name": "Keep unsent messages",
             "options": []
         },
         {
