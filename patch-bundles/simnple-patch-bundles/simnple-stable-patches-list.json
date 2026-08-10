@@ -2,186 +2,172 @@
     "version": "v1.4.1",
     "patches": [
         {
-            "compatiblePackages": [
-                {
-                    "name": "Goondori",
-                    "packageName": "com.goondori",
-                    "versions": [
-                        "5.6.0"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [],
             "description": "Prevents the Adrop advertising SDK from initializing and receiving a user ID.",
-            "name": "Disable Adrop Ads"
+            "name": "Disable Adrop Ads",
+            "options": [],
+            "use": true
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "Goondori",
-                    "packageName": "com.goondori",
-                    "versions": [
-                        "5.6.0"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [],
             "description": "Stops Adrop user properties and analytics events from crossing the React Native bridge.",
-            "name": "Disable Adrop Metrics"
+            "name": "Disable Adrop Metrics",
+            "options": [],
+            "use": true
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "Goondori",
-                    "packageName": "com.goondori",
-                    "versions": [
-                        "5.6.0"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [],
             "description": "Stops Goondori from logging Firebase events and attaching account or military metadata to Firebase Analytics.",
-            "name": "Disable Firebase Analytics"
+            "name": "Disable Firebase Analytics",
+            "options": [],
+            "use": true
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "Goondori",
-                    "packageName": "com.goondori",
-                    "versions": [
-                        "5.6.0"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [],
             "description": "Stops Firebase and Google DataTransport telemetry from sending through firebaselogging.googleapis.com.",
-            "name": "Disable Firebase Logging"
+            "name": "Disable Firebase Logging",
+            "options": [],
+            "use": true
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "Goondori",
-                    "packageName": "com.goondori",
-                    "versions": [
-                        "5.6.0"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [],
             "description": "Prevents Firebase Remote Config from fetching server-controlled settings.",
-            "name": "Disable Firebase Remote Config"
+            "name": "Disable Firebase Remote Config",
+            "options": [],
+            "use": true
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "Goondori",
-                    "packageName": "com.goondori",
-                    "versions": [
-                        "5.6.0"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [],
             "description": "Disables Firebase Analytics collection and advertising-personalization signals at startup.",
-            "name": "Disable Firebase Startup Collection"
+            "name": "Disable Firebase Startup Collection",
+            "options": [],
+            "use": true
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "Goondori",
-                    "packageName": "com.goondori",
-                    "versions": [
-                        "5.6.0"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [],
             "description": "Prevents Google Funding Choices and UMP from requesting advertising consent messages.",
-            "name": "Disable Funding Choices"
+            "name": "Disable Funding Choices",
+            "options": [],
+            "use": true
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "Goondori",
-                    "packageName": "com.goondori",
-                    "versions": [
-                        "5.6.0"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [],
             "description": "Makes Google Play PairIP accept Goondori installations from outside Google Play.",
-            "name": "Disable Google Play Automatic Protection"
+            "name": "Disable Google Play Automatic Protection",
+            "options": [],
+            "use": true
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "Goondori",
-                    "packageName": "com.goondori",
-                    "versions": [
-                        "5.6.0"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [],
             "description": "Prevents RevenueCat subscription, entitlement, purchase-status, and paywall requests.",
-            "name": "Disable RevenueCat"
+            "name": "Disable RevenueCat",
+            "options": [],
+            "use": true
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "Goondori",
-                    "packageName": "com.goondori",
-                    "versions": [
-                        "5.6.0"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [],
             "description": "Disables Sentry error and performance telemetry through Android manifest metadata.",
-            "name": "Disable Sentry"
+            "name": "Disable Sentry",
+            "options": [],
+            "use": true
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "Goondori",
-                    "packageName": "com.goondori",
-                    "versions": [
-                        "5.6.0"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [],
             "description": "Hides the Community tab from Goondori's bottom navigation.",
-            "name": "Hide Community Tab"
+            "name": "Hide Community Tab",
+            "options": [],
+            "use": true
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "Goondori",
-                    "packageName": "com.goondori",
-                    "versions": [
-                        "5.6.0"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [],
             "description": "Hides the Content tab from Goondori's bottom navigation.",
-            "name": "Hide Content Tab"
+            "name": "Hide Content Tab",
+            "options": [],
+            "use": true
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "Goondori",
-                    "packageName": "com.goondori",
-                    "versions": [
-                        "5.6.0"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [],
             "description": "Hides the Store tab from Goondori's bottom navigation.",
-            "name": "Hide Store Tab"
+            "name": "Hide Store Tab",
+            "options": [],
+            "use": true
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "Goondori",
-                    "packageName": "com.goondori",
-                    "versions": [
-                        "5.6.0"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [],
             "description": "Hides the Vacation tab from Goondori's bottom navigation.",
-            "name": "Hide Vacation Tab"
+            "name": "Hide Vacation Tab",
+            "options": [],
+            "use": true
         }
     ]
 }

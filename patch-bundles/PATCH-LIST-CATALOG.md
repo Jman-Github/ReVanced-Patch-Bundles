@@ -154,7 +154,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 4 | 5 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 20 | 1 | Generated |
-| [Morning-Entree](#-morning-entree-bundle-patch-list) | 41 | 83 | Generated |
+| [Morning-Entree](#-morning-entree-bundle-patch-list) | 44 | 86 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
 | [Yandex-VoT](#-yandex-vot-bundle-patch-list) | 1 | 1 | Generated |
@@ -186,7 +186,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Atharv](#-atharv-bundle-patch-list) | 2 | 1 | Generated |
 | [Tiaruebar](#-tiaruebar-bundle-patch-list) | 1 | 1 | Generated |
 | [FTL-Portal](#-ftl-portal-bundle-patch-list) | 3 | 2 | Generated |
-| [Google-Clock](#-google-clock-bundle-patch-list) | 4 | 2 | Generated |
+| [Google-Clock](#-google-clock-bundle-patch-list) | 2 | 2 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -5331,10 +5331,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morning-Entree Bundle Patch List:
 [📦 Morning-Entree-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morning-entree-patches-bundle-morphe)
 <details>
-<summary><b>Morning-Entree</b> - 41 patches, 83 apps</summary>
+<summary><b>Morning-Entree</b> - 44 patches, 86 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Enable Pro``` | ```Enables Appsales Premium.``` | ```AppSales``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks Arm Workout Premium. Use with Spoof App Signature``` | ```Arm Workout``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks AutoLocation's full version``` | ```AutoLocation``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks AutoTools``` | ```AutoTools``` | ```All versions``` |
@@ -5347,7 +5348,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Block tracking and analytics``` | ```Redirects Gboard's known tracking, analytics, and ad host literals to 0.0.0.0 using a built-in blocklist. Note: telemetry sent through Google Play Services is not affected; use the always-incognito patch for that.``` | ```Gboard``` | ```All versions``` |
 | ```Change package name``` | ```Installs Gboard as a clone by appending ".clone" to the package name (configurable), so it installs next to the stock Gboard. Changing an app's package name can lead to unexpected issues.``` | ```Gboard``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks Gradient Weather Premium. Use With Spoof Install Source``` | ```Gradient Weather``` | ```All versions``` |
-| ```Enable Premium``` | ```Unlocks Home Workout Premium``` | ```Home Workout - No Equipment``` | ```All versions``` |
+| ```Enable Premium``` | ```Unlocks Home Workout Premium. Use with Spoof Signature Verification``` | ```Home Workout - No Equipment``` | ```All versions``` |
+| ```Unlock Elite``` | ```Unlocks JEFIT Elite``` | ```JEFIT``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlock Lifesum Premium``` | ```Lifesum``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks Ling Pro``` | ```Ling``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks Listy Premium``` | ```Listy``` | ```All versions``` |
@@ -5363,6 +5365,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Unlocks Photon Camera Pro``` | ```Photon Camera``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks Pinnit Pro. Just Tap Restore Purchase When Prompted. Must be installed with either ADB/InstallerX Revived/Inure so it is not in Restricted Mode``` | ```Pinnit``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks PinOut Premium. Just Tap Get Premium and Restore Purchase When Prompted``` | ```PinOut``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Projectivy Launcher Premium``` | ```Projectivy Launcher``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks Sleep as Android Premium. Tap Wait I already Paid when Prompted``` | ```Sleep as Android``` | ```All versions``` |
 | ```Enable Full Version``` | ```Unlocks the full version of Smart AudioBook Player``` | ```Smart AudioBook Player``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks Smash Hit. Just Tap Get Premium and Restore Purchase When Prompted``` | ```Smash Hit``` | ```All versions``` |
@@ -5864,20 +5867,20 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable Adrop Ads``` | ```Prevents the Adrop advertising SDK from initializing and receiving a user ID.``` | ```Goondori``` | ```5.6.0``` |
-| ```Disable Adrop Metrics``` | ```Stops Adrop user properties and analytics events from crossing the React Native bridge.``` | ```Goondori``` | ```5.6.0``` |
-| ```Disable Firebase Analytics``` | ```Stops Goondori from logging Firebase events and attaching account or military metadata to Firebase Analytics.``` | ```Goondori``` | ```5.6.0``` |
-| ```Disable Firebase Logging``` | ```Stops Firebase and Google DataTransport telemetry from sending through firebaselogging.googleapis.com.``` | ```Goondori``` | ```5.6.0``` |
-| ```Disable Firebase Remote Config``` | ```Prevents Firebase Remote Config from fetching server-controlled settings.``` | ```Goondori``` | ```5.6.0``` |
-| ```Disable Firebase Startup Collection``` | ```Disables Firebase Analytics collection and advertising-personalization signals at startup.``` | ```Goondori``` | ```5.6.0``` |
-| ```Disable Funding Choices``` | ```Prevents Google Funding Choices and UMP from requesting advertising consent messages.``` | ```Goondori``` | ```5.6.0``` |
-| ```Disable Google Play Automatic Protection``` | ```Makes Google Play PairIP accept Goondori installations from outside Google Play.``` | ```Goondori``` | ```5.6.0``` |
-| ```Disable RevenueCat``` | ```Prevents RevenueCat subscription, entitlement, purchase-status, and paywall requests.``` | ```Goondori``` | ```5.6.0``` |
-| ```Disable Sentry``` | ```Disables Sentry error and performance telemetry through Android manifest metadata.``` | ```Goondori``` | ```5.6.0``` |
-| ```Hide Community Tab``` | ```Hides the Community tab from Goondori's bottom navigation.``` | ```Goondori``` | ```5.6.0``` |
-| ```Hide Content Tab``` | ```Hides the Content tab from Goondori's bottom navigation.``` | ```Goondori``` | ```5.6.0``` |
-| ```Hide Store Tab``` | ```Hides the Store tab from Goondori's bottom navigation.``` | ```Goondori``` | ```5.6.0``` |
-| ```Hide Vacation Tab``` | ```Hides the Vacation tab from Goondori's bottom navigation.``` | ```Goondori``` | ```5.6.0``` |
+| ```Disable Adrop Ads``` | ```Prevents the Adrop advertising SDK from initializing and receiving a user ID.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Disable Adrop Metrics``` | ```Stops Adrop user properties and analytics events from crossing the React Native bridge.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Disable Firebase Analytics``` | ```Stops Goondori from logging Firebase events and attaching account or military metadata to Firebase Analytics.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Disable Firebase Logging``` | ```Stops Firebase and Google DataTransport telemetry from sending through firebaselogging.googleapis.com.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Disable Firebase Remote Config``` | ```Prevents Firebase Remote Config from fetching server-controlled settings.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Disable Firebase Startup Collection``` | ```Disables Firebase Analytics collection and advertising-personalization signals at startup.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Disable Funding Choices``` | ```Prevents Google Funding Choices and UMP from requesting advertising consent messages.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Disable Google Play Automatic Protection``` | ```Makes Google Play PairIP accept Goondori installations from outside Google Play.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Disable RevenueCat``` | ```Prevents RevenueCat subscription, entitlement, purchase-status, and paywall requests.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Disable Sentry``` | ```Disables Sentry error and performance telemetry through Android manifest metadata.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Hide Community Tab``` | ```Hides the Community tab from Goondori's bottom navigation.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Hide Content Tab``` | ```Hides the Content tab from Goondori's bottom navigation.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Hide Store Tab``` | ```Hides the Store tab from Goondori's bottom navigation.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Hide Vacation Tab``` | ```Hides the Vacation tab from Goondori's bottom navigation.``` | ```com.goondori``` | ```5.6.0``` |
 
 </details>
 
@@ -5889,7 +5892,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable ads``` | ```Disables banner, interstitial, feed, native, preroll and rewarded ads.``` | ```Sofascore``` | ```26.07.27``` |
+| ```Disable ads``` | ```Disables banner, interstitial, feed, native, preroll and rewarded ads.``` | ```Sofascore``` | ```All versions``` |
 
 </details>
 
@@ -5901,8 +5904,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Force enable Megaphone, Tamper Detection, Krutrim and Kruti``` | ```Forces the Megaphone, Tamper & Fall Detection, Krutrim Assistant, and Kruti features to always report as available, regardless of the server-driven onboarding feature flags returned by the app's backend.``` | ```Ola Electric``` | ```5.4.0``` |
-| ```High quality document upload``` | ```Raises the JPEG re-encode quality used by the camera capture-with-compression flow from 0 to 100, and raises the 6MB per-file size limit enforced on document uploads to 100MB, so scanned documents and high-resolution photos are no longer degraded or rejected before upload.``` | ```Ola Electric``` | ```5.4.0``` |
+| ```Force enable Megaphone, Tamper Detection, Krutrim and Kruti``` | ```Forces the Megaphone, Tamper & Fall Detection, Krutrim Assistant, and Kruti features to always report as available, regardless of the server-driven onboarding feature flags returned by the app's backend.``` | ```Ola Electric``` | ```All versions``` |
+| ```High quality document upload``` | ```Raises the JPEG re-encode quality used by the camera capture-with-compression flow from 0 to 100, and raises the 6MB per-file size limit enforced on document uploads to 100MB, so scanned documents and high-resolution photos are no longer degraded or rejected before upload.``` | ```Ola Electric``` | ```All versions``` |
 
 </details>
 
@@ -5914,7 +5917,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Devices Tycoon Premium``` | ```Instantly completes all IAP purchases (remove ads, research coins, budget) on tap and disables all ads in Devices Tycoon.``` | ```Devices Tycoon``` | ```4.0.1``` |
+| ```Devices Tycoon Premium``` | ```Instantly completes all IAP purchases (remove ads, research coins, budget) on tap and disables all ads in Devices Tycoon.``` | ```Devices Tycoon``` | ```All versions``` |
 
 </details>
 
@@ -5926,9 +5929,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Custom DPI``` | ```Forces a higher display density for this app only, so the whole UI scales up without changing the system density. Intended for low-dpi devices such as Meta Portal (160 dpi).``` | ```YouTube, YouTube Music``` | ```20.51.39, 8.51.51``` |
-| ```Custom version name``` | ```Overrides the app versionName so a re-patched build of the same upstream version is recognised as a new version. Lets patch-only changes propagate as updates even when the upstream YouTube/YT Music version is unchanged.``` | ```YouTube, YouTube Music``` | ```20.51.39, 8.51.51``` |
-| ```Disable experimental notice``` | ```Removes the morphe experimental-version warning dialog, which otherwise nags on every re-patched build whose version differs from the recommended one.``` | ```YouTube, YouTube Music``` | ```20.51.39, 8.51.51``` |
+| ```Custom DPI``` | ```Forces a higher display density for this app only, so the whole UI scales up without changing the system density. Intended for low-dpi devices such as Meta Portal (160 dpi).``` | ```YouTube, YouTube Music``` | ```All versions``` |
+| ```Custom version name``` | ```Overrides the app versionName so a re-patched build of the same upstream version is recognised as a new version. Lets patch-only changes propagate as updates even when the upstream YouTube/YT Music version is unchanged.``` | ```YouTube, YouTube Music``` | ```All versions``` |
+| ```Disable experimental notice``` | ```Removes the morphe experimental-version warning dialog, which otherwise nags on every re-patched build whose version differs from the recommended one.``` | ```YouTube, YouTube Music``` | ```All versions``` |
 
 </details>
 
@@ -5948,13 +5951,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Google-Clock Bundle Patch List:
 [📦 Google-Clock-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-google-clock-patches-bundle-morphe)
 <details>
-<summary><b>Google-Clock</b> - 4 patches, 2 apps</summary>
+<summary><b>Google-Clock</b> - 2 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Diagnostic logging for YouTube Music alarms``` | ```Writes detailed MediaBrowser diagnostics to Download/ClockMorpheDiag-LAST.txt.``` | ```Clock``` | ```9.0 (943154005)``` |
-| ```Use Morphe YouTube Music for alarms``` | ```Redirects Google Clock to Morphe YouTube Music and converts its Premium-required playback session into Clock's normal ready MediaBrowser state.``` | ```Clock``` | ```9.0 (943154005)``` |
-| ```Google Clock alarm MediaBrowser bridge``` | ```Allows Google Clock to obtain a browsable root from Morphe-patched YouTube Music on non-Premium accounts.``` | ```YT Music Morphe``` | ```9.15.51``` |
-| ```YT Music MediaBrowser diagnostic logging``` | ```Safe diagnostic build: starts logging only when Google Clock requests MediaBrowser children; normal YT Music startup is untouched.``` | ```YT Music Morphe``` | ```9.15.51``` |
+| ```Use Morphe YouTube Music for alarms``` | ```Redirects Google Clock to the Morphe YouTube Music package.``` | ```Clock``` | ```All versions``` |
+| ```Google Clock alarm MediaBrowser bridge``` | ```Short-circuits YT Music's MediaBrowser capability gate before it can publish PlaybackState ERROR(7), keeps browse entitlement metadata coherent, bypasses the DeskClock browse-consent detour, and enables background alarm playback.``` | ```YT Music Morphe``` | ```All versions``` |
 
 </details>

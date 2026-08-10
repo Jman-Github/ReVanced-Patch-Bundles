@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.0",
+    "version": "v1.13.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -364,7 +364,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks Home Workout Premium",
+            "description": "Unlocks Home Workout Premium. Use with Spoof Signature Verification",
             "name": "Enable Premium",
             "options": []
         },
@@ -795,6 +795,26 @@
             "dependencies": [],
             "description": "Unlocks Nova Launcher Prime",
             "name": "Enable Prime",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#428BCA",
+                    "name": "AppSales",
+                    "packageName": "net.tsapps.appsales",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables Appsales Premium.",
+            "name": "Enable Pro",
             "options": []
         },
         {
@@ -1451,6 +1471,46 @@
             "dependencies": [],
             "description": "Unlocks all exam questions",
             "name": "Unlock all questions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0B6FB8",
+                    "name": "JEFIT",
+                    "packageName": "je.fit",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "17.2.10"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks JEFIT Elite",
+            "name": "Unlock Elite",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F08029",
+                    "name": "Projectivy Launcher",
+                    "packageName": "com.spocky.projengmenu",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.71"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Projectivy Launcher Premium",
+            "name": "Unlock Premium",
             "options": []
         }
     ]
