@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0",
+    "version": "v1.14.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -56,6 +56,53 @@
                     "key": "isWildcard",
                     "required": false,
                     "title": "Wildcard blocking",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Renames the app (default: append \".entree\") so it installs as a clone next to the original. The name is configurable. Changing a package name can lead to unexpected issues.",
+            "name": "Change package name",
+            "options": [
+                {
+                    "default": ".entree",
+                    "description": "A suffix (starting with \".\", appended to the original package) or a full replacement package name. Defaults to appending \".entree\".",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Append \".entree\"": ".entree"
+                    }
+                },
+                {
+                    "default": true,
+                    "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but can also break features in certain apps.",
+                    "key": "updatePermissions",
+                    "required": false,
+                    "title": "Update permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Update other permissions declared by the app. Enabling this can fix installation errors, but can also break features in certain apps.",
+                    "key": "updateOtherPermissions",
+                    "required": false,
+                    "title": "Update other permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Update content provider URI authorities. Enabling this can fix installation errors, but can also break features in certain apps.",
+                    "key": "updateProviders",
+                    "required": false,
+                    "title": "Update content providers",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -365,6 +412,29 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Home Workout Premium. Use with Spoof Signature Verification",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#2196F3",
+                    "name": "Hydro Coach",
+                    "packageName": "com.codium.hydrocoach",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.1.9"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Hydro Coach Pro",
             "name": "Enable Premium",
             "options": []
         },
@@ -1511,6 +1581,30 @@
             "dependencies": [],
             "description": "Unlocks Projectivy Launcher Premium",
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "Bluetooth Volume Manager",
+                    "packageName": "eu.darken.bluemusic",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.4.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the Pro",
+            "name": "Unlock Pro",
             "options": []
         }
     ]
