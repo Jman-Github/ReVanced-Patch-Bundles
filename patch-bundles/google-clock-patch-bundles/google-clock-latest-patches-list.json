@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0",
+    "version": "v2.0.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -18,6 +18,25 @@
             "default": true,
             "description": "Short-circuits YT Music's MediaBrowser capability gate before it can publish PlaybackState ERROR(7), keeps browse entitlement metadata coherent, bypasses the DeskClock browse-consent detour, and enables background alarm playback.",
             "name": "Google Clock alarm MediaBrowser bridge",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "YT Music Morphe",
+                    "packageName": "app.morphe.android.apps.youtube.music",
+                    "targets": [
+                        {
+                            "description": "For Morphe-patched YT Music 9.15.51.",
+                            "isExperimental": true,
+                            "version": "9.15.51"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "description": "Adds the YT Music loadChildren gate fix that prevents the Premium PlaybackState error after Google Clock subscribes. Depends on the base Google Clock alarm MediaBrowser bridge.",
+            "name": "Google Clock alarm MediaBrowser bridge v2",
             "options": []
         },
         {
