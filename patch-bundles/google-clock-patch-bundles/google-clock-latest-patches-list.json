@@ -1,5 +1,5 @@
 {
-    "version": "v2.0.0",
+    "version": "v2.1.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -37,6 +37,25 @@
             "default": true,
             "description": "Adds the YT Music loadChildren gate fix that prevents the Premium PlaybackState error after Google Clock subscribes. Depends on the base Google Clock alarm MediaBrowser bridge.",
             "name": "Google Clock alarm MediaBrowser bridge v2",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "YT Music Morphe",
+                    "packageName": "app.morphe.android.apps.youtube.music",
+                    "targets": [
+                        {
+                            "description": "Experimental upstream MediaBrowser compatibility port for Morphe-patched YT Music 9.15.51.",
+                            "isExperimental": true,
+                            "version": "9.15.51"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "description": "Isolated port of the upstream YT Music MediaBrowser unlock: bypasses the caller certificate gate and restores the original com.google.android.apps.youtube.music identity inside search_media_items.",
+            "name": "Google Clock MediaBrowser upstream compatibility",
             "options": []
         },
         {
