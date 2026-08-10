@@ -5841,6 +5841,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```ChMate ReVanced``` | ```Collapses ad slots, blocks ad network traffic, and adds configurable User-Agent and restart controls.``` | ```ChMate``` | ```All versions``` |
+| ```ChMate ReVanced``` | ```Collapses ad slots, blocks ad network traffic, and adds configurable User-Agent and restart controls.``` | ```jp.co.airfront.android.a2chMate``` | ```All versions``` |
 
 </details>

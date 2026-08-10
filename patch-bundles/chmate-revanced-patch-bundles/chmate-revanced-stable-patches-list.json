@@ -1,16 +1,17 @@
 {
-    "version": "v1.0.2",
+    "version": "v1.0.3",
     "patches": [
         {
-            "compatiblePackages": [
-                {
-                    "name": "ChMate",
-                    "packageName": "jp.co.airfront.android.a2chMate",
-                    "versions": null
-                }
+            "compatiblePackages": {
+                "jp.co.airfront.android.a2chMate": null
+            },
+            "dependencies": [
+                "Patch"
             ],
             "description": "Collapses ad slots, blocks ad network traffic, and adds configurable User-Agent and restart controls.",
-            "name": "ChMate ReVanced"
+            "name": "ChMate ReVanced",
+            "options": [],
+            "use": true
         }
     ]
 }
