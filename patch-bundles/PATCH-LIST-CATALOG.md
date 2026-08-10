@@ -43,6 +43,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [MojiRS-RIF](#-mojirs-rif-bundle-patch-list) | 2 | 1 | Generated |
 | [Edge-ReVanced](#-edge-revanced-bundle-patch-list) | 8 | 1 | Generated |
 | [Dbhavsar76](#-dbhavsar76-bundle-patch-list) | 1 | 1 | Generated |
+| [ChMate-ReVanced](#-chmate-revanced-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -5808,5 +5809,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock FirePass Premium``` | ```Unlocks FirePass premium features in Skimboarding: spot filtering by skill level, advanced map features, and session log tools.``` | ```Skimboarding``` | ```1.0.0``` |
+
+</details>
+---
+### ?? ChMate-ReVanced Bundle Patch List:
+[?? ChMate-ReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-chmate-revanced-patches-bundle-api-v4)
+<details>
+<summary><b>ChMate-ReVanced</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```ChMate ReVanced``` | ```Collapses ad slots, blocks ad network traffic, and adds configurable User-Agent and restart controls.``` | ```ChMate``` | ```All versions``` |
 
 </details>

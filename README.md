@@ -2309,7 +2309,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
-### ?? Dbhavsar76-Patches-Bundle [API v4]:
+### 📦 Dbhavsar76-Patches-Bundle [API v4]:
 [?? Dbhavsar76 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-dbhavsar76-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
@@ -2358,6 +2358,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ang3lo-patch-bundles/ang3lo-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ang3lo-patch-bundles/ang3lo-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 ChMate-ReVanced-Patches-Bundle [API v4]:
+[?? ChMate-ReVanced Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-chmate-revanced-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/chmate-revanced-patch-bundles/chmate-revanced-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/chmate-revanced-patch-bundles/chmate-revanced-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/chmate-revanced-patch-bundles/chmate-revanced-dev-patches-bundle.json```
 </details>
 
 ## 📱 Compatible Managers
@@ -2459,7 +2472,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [Kondratjev-Patches-Bundle](https://github.com/kondratjev/morphe-patches)
 
-
 #### 🏷️ [Hoo-dles-Patches-Bundle](https://github.com/hoo-dles/revanced-custom-patches)
 
 #### 🏷️ [VinceTheProgrammer-Patches-Bundle](https://github.com/vinceTheProgrammer/sticknodes-patches)
@@ -2467,7 +2479,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Hepolise-Patches-Bundle](https://github.com/Hepolise/LuckyToolPatches)
 
 #### 🏷️ [Kangrio-Patches-Bundle](https://github.com/kangrio/MicroG-Patches-Re)
-
 
 #### 🏷️ [Tosox-Patches-Bundle](https://github.com/Tosox/revanced-patches)
 
@@ -2521,7 +2532,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [Polka-Bear-Patches-Bundle](https://github.com/polka-bear/morphe-patches)
 
-
 #### 🏷️ [Eyalm2000-Patches-Bundle](https://github.com/eyalm2000/tidal-debug-menu)
 
 #### 🏷️ [Vladon-Patches-Bundle](https://github.com/vladon/morphe-patches-navi)
@@ -2572,11 +2582,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [MojiRS-RIF-Patches-Bundle](https://github.com/MojiRS/revanced-rif-patches)
 
-
-
 #### 🏷️ [Realme-Link-Patches-Bundle](https://github.com/lyyako/realme-link-patches)
 
 #### 🏷️ [HK-Morphe-Patches-Bundle](https://github.com/humzakh/HK-Morphe-Patches)
+
 #### 🏷️ [BrayDog2010-Patches-Bundle](https://github.com/BrayDog2010/morphe-patches)
 
 #### 🏷️ [TS2-Patches-Bundle](https://github.com/osirisad/teamSnap-patches)
@@ -2729,13 +2738,15 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🩹 [PetalMaps-AndroidAuto-Patches-Bundle](https://github.com/andersonlucasg3/PetalMaps-AndroidAuto)
 
-#### ??? [Dbhavsar76-Patches-Bundle](https://github.com/dbhavsar76/revanced-patches)
+#### 🩹 [Dbhavsar76-Patches-Bundle](https://github.com/dbhavsar76/revanced-patches)
 
 #### 🩹 [FTL-Patches-Bundle](https://github.com/BlazeFTL/FTL-Patches)
 
 #### 🩹 [braiNtropy-Patches-Bundle](https://github.com/braiNtropy/braintropy-patches)
 
 #### 🩹 [Ang3lo-Patches-Bundle](https://github.com/ang3lo-azevedo/morphe-patches)
+
+#### 🩹 [ChMate-ReVanced-Patches-Bundle](https://github.com/roflsunriz/chmate-revanced)
 
 ## 🖇 Integrations Repositories In Use
 
