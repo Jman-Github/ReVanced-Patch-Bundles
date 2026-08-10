@@ -84,7 +84,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Perplexity-STT](#-perplexity-stt-bundle-patch-list) | 1 | 1 | Generated |
 | [Browzomje](#-browzomje-bundle-patch-list) | 19 | 2 | Generated |
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
-| [Zpatches](#-zpatches-bundle-patch-list) | 11 | 6 | Generated |
+| [Zpatches](#-zpatches-bundle-patch-list) | 12 | 6 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
 | [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 53 | 40 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
@@ -152,7 +152,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 4 | 5 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 20 | 1 | Generated |
-| [Morning-Entree](#-morning-entree-bundle-patch-list) | 40 | 82 | Generated |
+| [Morning-Entree](#-morning-entree-bundle-patch-list) | 41 | 83 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
 | [Yandex-VoT](#-yandex-vot-bundle-patch-list) | 1 | 1 | Generated |
@@ -915,15 +915,16 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Zpatches Bundle Patch List:
 [?? Zpatches-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-zpatches-patches-bundle-morphe)
 <details>
-<summary><b>Zpatches</b> - 11 patches, 6 apps</summary>
+<summary><b>Zpatches</b> - 12 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Club``` | ```Enable Citymapper Club subscription``` | ```com.citymapper.app.release``` | ```All versions``` |
 | ```Google Maps API key``` | ```Use a different Google Maps API key to fix modified apps``` | ```com.citymapper.app.release, com.jcdecaux.vls.lyon``` | ```3.1.1``` |
-| ```Block data collection``` | ```Block Didomi tracking SDK, disable consent prompt.``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
+| ```Block data collection``` | ```Block Didomi & Matomo tracking SDKs, hide consent prompts for 3rd party & geolocation data``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
 | ```Disable map animations``` | ```Disable the map zoom-in animation``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
 | ```Easy deeplinks configuration``` | ```Allows easy configuration of deeplinks (velov.cyclocity.fr, velov.grandlyon.com) required by the app to sign-in``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
+| ```Hide onboarding screen``` | ```Hide the onboarding "Plan you journey" screen``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
 | ```No geolocalisation check``` | ```Allows you to unlock a bike even if you're not near the station.``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
 | ```Spoof package signature``` | ```Spoofs the package signature required for Firebase, fixes notifications``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
 | ```Bypass PairIp``` | ```Bypass the PairIp license check preventing app modification``` | ```ee.dustland.android.dustlandsudoku``` | ```All versions``` |
@@ -5323,7 +5324,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morning-Entree Bundle Patch List:
 [📦 Morning-Entree-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morning-entree-patches-bundle-morphe)
 <details>
-<summary><b>Morning-Entree</b> - 40 patches, 82 apps</summary>
+<summary><b>Morning-Entree</b> - 41 patches, 83 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5339,6 +5340,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Block tracking and analytics``` | ```Redirects Gboard's known tracking, analytics, and ad host literals to 0.0.0.0 using a built-in blocklist. Note: telemetry sent through Google Play Services is not affected; use the always-incognito patch for that.``` | ```Gboard``` | ```All versions``` |
 | ```Change package name``` | ```Installs Gboard as a clone by appending ".clone" to the package name (configurable), so it installs next to the stock Gboard. Changing an app's package name can lead to unexpected issues.``` | ```Gboard``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks Gradient Weather Premium. Use With Spoof Install Source``` | ```Gradient Weather``` | ```All versions``` |
+| ```Enable Premium``` | ```Unlocks Home Workout Premium``` | ```Home Workout - No Equipment``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlock Lifesum Premium``` | ```Lifesum``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks Ling Pro``` | ```Ling``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks Listy Premium``` | ```Listy``` | ```All versions``` |
