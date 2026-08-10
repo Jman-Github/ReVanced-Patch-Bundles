@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.0",
+    "version": "v1.12.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -345,6 +345,26 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Gradient Weather Premium. Use With Spoof Install Source",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#004AFF",
+                    "name": "Home Workout - No Equipment",
+                    "packageName": "homeworkout.homeworkouts.noequipment",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.7.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Home Workout Premium",
             "name": "Enable Premium",
             "options": []
         },

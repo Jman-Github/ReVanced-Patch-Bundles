@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.4",
+    "version": "v1.2.0-dev.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -148,6 +148,28 @@
             "dependencies": [],
             "description": "Adds display-language, cache, diagnostic, and patch-version controls to native Morphe settings.",
             "name": "VocaColle Morphe settings",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "VocaColle",
+                    "packageName": "jp.nicovideo.nicobox",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.40.0"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "VocaColle Morphe settings"
+            ],
+            "description": "Adds opt-in exact VocaDB title metadata to the full player.",
+            "name": "VocaDB player titles",
             "options": []
         }
     ]

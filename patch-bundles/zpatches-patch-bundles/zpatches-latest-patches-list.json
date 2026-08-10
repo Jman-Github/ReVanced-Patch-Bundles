@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0",
+    "version": "v1.11.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -8,7 +8,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Block Didomi tracking SDK, disable consent prompt.",
+            "description": "Block Didomi & Matomo tracking SDKs, hide consent prompts for 3rd party & geolocation data",
             "name": "Block data collection",
             "options": [],
             "use": true
@@ -110,6 +110,18 @@
                     "values": null
                 }
             ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.jcdecaux.vls.lyon": [
+                    "3.1.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hide the onboarding \"Plan you journey\" screen",
+            "name": "Hide onboarding screen",
+            "options": [],
             "use": true
         },
         {

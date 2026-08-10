@@ -21,30 +21,6 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Override A/B test group assignments to force default behavior",
-            "name": "AB Test Override",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK_REQUIRED",
-                    "description": "Tantan - Global Dating App",
-                    "name": "Tantan",
-                    "packageName": "com.tantantribe.tribe",
-                    "signatures": [
-                        "7c5d634c27841a5318a5bf47300e4415bee8011e009c74230b9aebca994d30c7"
-                    ],
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "7.3.6"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
             "description": "Removes all ad displays: navigation bar banner, native feed ads, live streaming banner ads, live video feed ads, live square ads, conversation Google ads, marriage guide card, four-select-one card, daily selection card, visitor list ads, likers ads, meet likers ads, meet visitor ads, splash screen ads, profile photo carousel ads, incentive video ads, fake splash view, video ad player, official advert, ad reward dialogs, live streaming ad user, treasure prize ads",
             "name": "Ad Removal",
             "options": []
@@ -143,7 +119,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Live streaming enhancement: push limit bypass, swipe card unlimited, chat rate limit removal, voice game access, all-day PK battles, gift leaderboard, knight privileges, entrance limits, permission control, daily payment, noble config, stealth privacy, video chat, voice features, monetization, game operations, star toggle, unlimited coins, free gifts, 1080p streaming, treasure box removal, beauty filters unlock",
+            "description": "Live streaming enhancement: push limit bypass, swipe card unlimited, chat rate limit removal, voice game access, all-day PK battles, gift leaderboard, knight privileges, entrance limits, permission control, daily payment, noble config, stealth privacy, video chat, voice features, monetization, game operations, star toggle",
             "name": "Live Streaming Enhancement",
             "options": []
         },
@@ -167,7 +143,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes message limits, unlimited pin chat, voice/video calls, quick chat, typing indicator, free gifts, letter, greeting, ice breaker, read receipts, AI translation, message recall, group chat, live chat, message filter, chat partner config, ODiamond visitor config, prologue config, love buzz data, secret crush limit, boost limit, message tab revision, collapsible conversation, chat helper AI, call duration, conversation refresh interval, heartbeat match, message integration, assistant message clear, ice break dialog config, continues op conv config",
+            "description": "Removes message limits, unlimited pin chat, voice/video calls, quick chat, typing indicator, free gifts, letter, greeting, ice breaker, read receipts, AI translation, message recall, group chat, live chat, message filter, chat partner config, ODiamond visitor config, prologue config, love buzz data, secret crush limit, boost limit, message tab revision, collapsible conversation, chat helper AI, call duration, conversation refresh interval",
             "name": "Messaging Enhancement",
             "options": []
         },
@@ -239,56 +215,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Advanced privacy protections: root/emulator detection bypass, ShuMeng SDK blocking, Facebook SDK emulator detection bypass, APK signature verification bypass, package enumeration prevention, HTTP proxy detection bypass, clipboard read monitoring",
+            "description": "Advanced privacy protections: root/emulator detection bypass, ShuMeng SDK blocking, Facebook SDK emulator detection bypass, APK signature verification bypass, package enumeration prevention",
             "name": "Privacy Enhancement",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK_REQUIRED",
-                    "description": "Tantan - Global Dating App",
-                    "name": "Tantan",
-                    "packageName": "com.tantantribe.tribe",
-                    "signatures": [
-                        "7c5d634c27841a5318a5bf47300e4415bee8011e009c74230b9aebca994d30c7"
-                    ],
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "7.3.6"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Override remote configuration values to control feature flags and bypass A/B testing",
-            "name": "Remote Config Override",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK_REQUIRED",
-                    "description": "Tantan - Global Dating App",
-                    "name": "Tantan",
-                    "packageName": "com.tantantribe.tribe",
-                    "signatures": [
-                        "7c5d634c27841a5318a5bf47300e4415bee8011e009c74230b9aebca994d30c7"
-                    ],
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "7.3.6"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Enhance discovery features by removing search limitations",
-            "name": "Search Discovery Enhancement",
             "options": []
         },
         {

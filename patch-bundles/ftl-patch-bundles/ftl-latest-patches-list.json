@@ -1,6 +1,35 @@
 {
-    "version": "v1.22.0",
+    "version": "v1.23.0-dev.3",
     "patches": [
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Shows a custom toast message when the app starts. Works on any app.",
+            "name": "Add Toast",
+            "options": [
+                {
+                    "default": "Mod By BlazeFTL",
+                    "description": "Text shown in the toast.",
+                    "key": "message",
+                    "required": false,
+                    "title": "Toast message",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "On: the toast only shows on the first launch. Off: it shows on every launch.",
+                    "key": "showOnce",
+                    "required": false,
+                    "title": "Show once",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
         {
             "compatiblePackages": null,
             "default": false,
@@ -134,6 +163,31 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "SnapTube",
+                    "packageName": "com.snaptube.premium",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.64.0.76450210",
+                            "versionCodes": {
+                                "ARM64_V8A": 76450210,
+                                "ARMEABI_V7A": 76450210,
+                                "X86": 76450210,
+                                "X86_64": 76450210
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the requirement to watch a rewarded ad before a download starts.",
+            "name": "Remove Watch Ad To Download",
+            "options": []
         }
     ]
 }

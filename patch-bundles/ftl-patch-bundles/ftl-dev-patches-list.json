@@ -1,6 +1,35 @@
 {
-    "version": "v1.21.0-dev.4",
+    "version": "v1.23.0-dev.3",
     "patches": [
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Shows a custom toast message when the app starts. Works on any app.",
+            "name": "Add Toast",
+            "options": [
+                {
+                    "default": "Mod By BlazeFTL",
+                    "description": "Text shown in the toast.",
+                    "key": "message",
+                    "required": false,
+                    "title": "Toast message",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "On: the toast only shows on the first launch. Off: it shows on every launch.",
+                    "key": "showOnce",
+                    "required": false,
+                    "title": "Show once",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
         {
             "compatiblePackages": null,
             "default": false,
@@ -39,15 +68,15 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Forces a higher display density for this app only, so the whole UI scales up without changing the system density. Works on any app that has an onCreate() in its Application class or launcher activity.",
+            "description": "Change this app's display size without touching your phone's system settings. Make it bigger if things look too small, or smaller to fit more on screen. Works on any app.",
             "name": "Custom DPI (Universal)",
             "options": [
                 {
-                    "default": 240,
-                    "description": "Forced display density in dots-per-inch for this app only. 160 = system default (mdpi), 240 is roughly 1.5x larger. Range 96-640.",
+                    "default": 100,
+                    "description": "Scales this app's display relative to the device's own setting. 100% = no change, 150% = 1.5x larger, 50% = half size. Range 25-300%.",
                     "key": "dpi",
                     "required": false,
-                    "title": "Custom DPI",
+                    "title": "Display scale",
                     "type": "kotlin.Long",
                     "values": null
                 }
@@ -134,6 +163,31 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "SnapTube",
+                    "packageName": "com.snaptube.premium",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.64.0.76450210",
+                            "versionCodes": {
+                                "ARM64_V8A": 76450210,
+                                "ARMEABI_V7A": 76450210,
+                                "X86": 76450210,
+                                "X86_64": 76450210
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the requirement to watch a rewarded ad before a download starts.",
+            "name": "Remove Watch Ad To Download",
+            "options": []
         }
     ]
 }
