@@ -1,5 +1,5 @@
 {
-    "version": "v1.23.0-dev.2",
+    "version": "v1.23.0-dev.3",
     "patches": [
         {
             "compatiblePackages": null,
@@ -172,7 +172,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.64.0.76450210"
+                            "version": "7.64.0.76450210",
+                            "versionCodes": {
+                                "ARM64_V8A": 76450210,
+                                "ARMEABI_V7A": 76450210,
+                                "X86": 76450210,
+                                "X86_64": 76450210
+                            }
                         }
                     ]
                 }
