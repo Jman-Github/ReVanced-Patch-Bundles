@@ -1,5 +1,5 @@
 {
-    "version": "v0.4.1",
+    "version": "v0.6.1",
     "patches": [
         {
             "compatibility": [
@@ -11,14 +11,14 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
                 ]
             },
             "dependencies": [
@@ -39,14 +39,14 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
                 ]
             },
             "dependencies": [
@@ -67,14 +67,14 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
                 ]
             },
             "dependencies": [],
@@ -93,14 +93,43 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds optional Morphe diagnostic logging, filtered reports, and local Java crash capture.",
+            "name": "Diagnostic tools",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
                 ]
             },
             "dependencies": [],
@@ -119,20 +148,48 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
                 ]
             },
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Prevents TikTok from detecting screenshots and screen recordings.",
+            "description": "Keeps long-pressing Share from opening TikTok's quick-share interaction.",
+            "name": "Disable long-press quick share",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Prevents TikTok from reacting to screenshots and screen recordings.",
             "name": "Disable screen capture detection",
             "options": [],
             "use": true
@@ -147,20 +204,20 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
                 ]
             },
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Adds watermark-free video and photo downloads, comment sticker saving, and configurable download-folder controls.",
+            "description": "Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates.",
             "name": "Downloads",
             "options": [],
             "use": true
@@ -175,21 +232,21 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
                 ]
             },
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Uses TikTok's hidden Open Debug settings cell as the entry point for Morphe settings. Required for the Morphe settings menu to appear. Supports TikTok 43.8.3.",
-            "name": "Enable Open Debug",
+            "description": "Shows TikTok's search entry in the Live drawer where supported.",
+            "name": "Enable Live search",
             "options": [],
             "use": true
         },
@@ -203,18 +260,45 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Uses TikTok's non-personalized search mode instead of its saved account choice.",
+            "name": "Enable non-personalized search",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.",
@@ -232,14 +316,14 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
                 ]
             },
             "dependencies": [
@@ -260,14 +344,14 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
                 ]
             },
             "dependencies": [
@@ -288,14 +372,14 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
                 ]
             },
             "dependencies": [],
@@ -314,20 +398,20 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
                 ]
             },
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Prevents client-side verification puzzle dialogs from opening, including those shown while browsing LIVE. This does not bypass server-side checks.",
+            "description": "Adds a default-off setting to hide browsing and LIVE puzzle dialogs while preserving login and account verification.",
             "name": "Hide CAPTCHA popups",
             "options": [],
             "use": true
@@ -342,14 +426,14 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
                 ]
             },
             "dependencies": [
@@ -370,14 +454,42 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides TikTok's exposed quick emoji row in supported comment inputs.",
+            "name": "Hide quick comment reactions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
                 ]
             },
             "dependencies": [
@@ -398,14 +510,14 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
                 ]
             },
             "dependencies": [
@@ -426,14 +538,14 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
                 ]
             },
             "dependencies": [
@@ -454,14 +566,14 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
                 ]
             },
             "dependencies": [],
@@ -480,14 +592,42 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Continues supported videos from where playback stopped when returning after a scroll.",
+            "name": "Resume videos after scrolling",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
                 ]
             },
             "dependencies": [
@@ -508,20 +648,20 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
                 ]
             },
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Adds the Morphe settings screen inside TikTok.",
+            "description": "Adds the Metra patches settings menu to TikTok. Supports TikTok 46.2.3.",
             "name": "Settings",
             "options": [],
             "use": true
@@ -536,14 +676,14 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
                 ]
             },
             "dependencies": [
@@ -564,14 +704,42 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Shows TikTok's video preview thumbnail while dragging the seekbar.",
+            "name": "Show seekbar thumbnail",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
                 ]
             },
             "dependencies": [
@@ -593,14 +761,42 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "43.8.3"
+                            "version": "46.2.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "43.8.3"
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Stops videos at the end instead of replaying them.",
+            "name": "Stop video looping",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
                 ]
             },
             "dependencies": [

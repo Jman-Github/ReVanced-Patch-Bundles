@@ -1,5 +1,5 @@
 {
-    "version": "v1.21.1",
+    "version": "v1.24.0",
     "patches": [
         {
             "compatibility": [
@@ -797,6 +797,34 @@
             "name": "Skip ads",
             "options": [],
             "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 15010068,
+                    "description": null,
+                    "name": "Netflix Android TV",
+                    "packageName": "com.netflix.ninja",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "13.0.1 build 25028"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.netflix.ninja": [
+                    "13.0.1 build 25028"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Hides the Netflix \"you're traveling\" / update-your-household prompt by keeping the client from activating the misdetection challenge session. Does NOT change what Netflix's servers detect (that's driven by your public IP — use a VPN for that); it only suppresses the on-screen prompt. Opt-in / experimental; only takes visible effect when the account would otherwise be prompted.",
+            "name": "Suppress Household Prompt",
+            "options": [],
+            "use": false
         }
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0",
+    "version": "v1.11.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -308,6 +308,29 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#5F7C8A",
+                    "name": "Fake GPS Location",
+                    "packageName": "com.hopefactory2021.fakegpslocation",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "125.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Fake GPS Location Premium",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#6C7BFF",
                     "name": "Gradient Weather",
                     "packageName": "com.subtlesignals.gradientweather",
@@ -431,26 +454,6 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#212121",
-                    "name": "Material Capsule",
-                    "packageName": "com.pryshedko.mtisland",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "15.7"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks Material Capsule Pro",
-            "name": "Enable Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#17364C",
                     "name": "Obd Mary",
                     "packageName": "com.elm.elm327.obd2.eobd.obd.car.scanner.diagnostics.tool.dashboard.doctor.check.engine.torque.speed.trouble.codes.mary",
@@ -465,6 +468,26 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Obd Mary's Paid Features, Including the Diagnostics Edition",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#009688",
+                    "name": "Paisa",
+                    "packageName": "dev.hemanths.paisa",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.06.230"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Paisa Premium. Use With Spoof Install Source",
             "name": "Enable Premium",
             "options": []
         },
