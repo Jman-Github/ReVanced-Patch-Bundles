@@ -1,0 +1,187 @@
+{
+    "version": "v1.4.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Goondori",
+                    "packageName": "com.goondori",
+                    "versions": [
+                        "5.6.0"
+                    ]
+                }
+            ],
+            "description": "Prevents the Adrop advertising SDK from initializing and receiving a user ID.",
+            "name": "Disable Adrop Ads"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Goondori",
+                    "packageName": "com.goondori",
+                    "versions": [
+                        "5.6.0"
+                    ]
+                }
+            ],
+            "description": "Stops Adrop user properties and analytics events from crossing the React Native bridge.",
+            "name": "Disable Adrop Metrics"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Goondori",
+                    "packageName": "com.goondori",
+                    "versions": [
+                        "5.6.0"
+                    ]
+                }
+            ],
+            "description": "Stops Goondori from logging Firebase events and attaching account or military metadata to Firebase Analytics.",
+            "name": "Disable Firebase Analytics"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Goondori",
+                    "packageName": "com.goondori",
+                    "versions": [
+                        "5.6.0"
+                    ]
+                }
+            ],
+            "description": "Stops Firebase and Google DataTransport telemetry from sending through firebaselogging.googleapis.com.",
+            "name": "Disable Firebase Logging"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Goondori",
+                    "packageName": "com.goondori",
+                    "versions": [
+                        "5.6.0"
+                    ]
+                }
+            ],
+            "description": "Prevents Firebase Remote Config from fetching server-controlled settings.",
+            "name": "Disable Firebase Remote Config"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Goondori",
+                    "packageName": "com.goondori",
+                    "versions": [
+                        "5.6.0"
+                    ]
+                }
+            ],
+            "description": "Disables Firebase Analytics collection and advertising-personalization signals at startup.",
+            "name": "Disable Firebase Startup Collection"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Goondori",
+                    "packageName": "com.goondori",
+                    "versions": [
+                        "5.6.0"
+                    ]
+                }
+            ],
+            "description": "Prevents Google Funding Choices and UMP from requesting advertising consent messages.",
+            "name": "Disable Funding Choices"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Goondori",
+                    "packageName": "com.goondori",
+                    "versions": [
+                        "5.6.0"
+                    ]
+                }
+            ],
+            "description": "Makes Google Play PairIP accept Goondori installations from outside Google Play.",
+            "name": "Disable Google Play Automatic Protection"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Goondori",
+                    "packageName": "com.goondori",
+                    "versions": [
+                        "5.6.0"
+                    ]
+                }
+            ],
+            "description": "Prevents RevenueCat subscription, entitlement, purchase-status, and paywall requests.",
+            "name": "Disable RevenueCat"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Goondori",
+                    "packageName": "com.goondori",
+                    "versions": [
+                        "5.6.0"
+                    ]
+                }
+            ],
+            "description": "Disables Sentry error and performance telemetry through Android manifest metadata.",
+            "name": "Disable Sentry"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Goondori",
+                    "packageName": "com.goondori",
+                    "versions": [
+                        "5.6.0"
+                    ]
+                }
+            ],
+            "description": "Hides the Community tab from Goondori's bottom navigation.",
+            "name": "Hide Community Tab"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Goondori",
+                    "packageName": "com.goondori",
+                    "versions": [
+                        "5.6.0"
+                    ]
+                }
+            ],
+            "description": "Hides the Content tab from Goondori's bottom navigation.",
+            "name": "Hide Content Tab"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Goondori",
+                    "packageName": "com.goondori",
+                    "versions": [
+                        "5.6.0"
+                    ]
+                }
+            ],
+            "description": "Hides the Store tab from Goondori's bottom navigation.",
+            "name": "Hide Store Tab"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Goondori",
+                    "packageName": "com.goondori",
+                    "versions": [
+                        "5.6.0"
+                    ]
+                }
+            ],
+            "description": "Hides the Vacation tab from Goondori's bottom navigation.",
+            "name": "Hide Vacation Tab"
+        }
+    ]
+}

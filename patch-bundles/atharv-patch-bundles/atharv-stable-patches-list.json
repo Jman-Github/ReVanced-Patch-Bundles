@@ -1,0 +1,61 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00D190",
+                    "description": null,
+                    "name": "Ola Electric",
+                    "packageName": "com.olaelectric.companion",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.4.0"
+                        }
+                    ],
+                    "versions": [
+                        "5.4.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces the Megaphone, Tamper & Fall Detection, Krutrim Assistant, and Kruti features to always report as available, regardless of the server-driven onboarding feature flags returned by the app's backend.",
+            "name": "Force enable Megaphone, Tamper Detection, Krutrim and Kruti",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00D190",
+                    "description": null,
+                    "name": "Ola Electric",
+                    "packageName": "com.olaelectric.companion",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "5.4.0"
+                        }
+                    ],
+                    "versions": [
+                        "5.4.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Raises the JPEG re-encode quality used by the camera capture-with-compression flow from 0 to 100, and raises the 6MB per-file size limit enforced on document uploads to 100MB, so scanned documents and high-resolution photos are no longer degraded or rejected before upload.",
+            "name": "High quality document upload",
+            "options": []
+        }
+    ]
+}

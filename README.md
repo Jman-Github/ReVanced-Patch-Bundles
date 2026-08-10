@@ -2373,6 +2373,97 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/chmate-revanced-patch-bundles/chmate-revanced-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 Simnple-Patches-Bundle [API v4]:
+[🧩 Simnple Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-simnple-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/simnple-patch-bundles/simnple-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/simnple-patch-bundles/simnple-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/simnple-patch-bundles/simnple-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Heval99-Patches-Bundle [Morphe]:
+[🧩 Heval99 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-heval99-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/heval99-patch-bundles/heval99-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/heval99-patch-bundles/heval99-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/heval99-patch-bundles/heval99-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Atharv-Patches-Bundle [Morphe]:
+[🧩 Atharv Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-atharv-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/atharv-patch-bundles/atharv-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/atharv-patch-bundles/atharv-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/atharv-patch-bundles/atharv-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Tiaruebar-Patches-Bundle [Morphe]:
+[🧩 Tiaruebar Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-tiaruebar-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tiaruebar-patch-bundles/tiaruebar-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tiaruebar-patch-bundles/tiaruebar-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tiaruebar-patch-bundles/tiaruebar-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 FTL-Portal-Patches-Bundle [Morphe]:
+[🧩 FTL-Portal Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ftl-portal-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ftl-portal-patch-bundles/ftl-portal-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ftl-portal-patch-bundles/ftl-portal-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ftl-portal-patch-bundles/ftl-portal-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 D4NZ-Patches-Bundle [API v4]:
+[🧩 D4NZ Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-d4nz-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/d4nz-patch-bundles/d4nz-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/d4nz-patch-bundles/d4nz-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/d4nz-patch-bundles/d4nz-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Google-Clock-Patches-Bundle [Morphe]:
+[🧩 Google-Clock Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-google-clock-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/google-clock-patch-bundles/google-clock-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/google-clock-patch-bundles/google-clock-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/google-clock-patch-bundles/google-clock-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -2747,6 +2838,20 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Ang3lo-Patches-Bundle](https://github.com/ang3lo-azevedo/morphe-patches)
 
 #### 🩹 [ChMate-ReVanced-Patches-Bundle](https://github.com/roflsunriz/chmate-revanced)
+
+#### 🩹 [Simnple-Patches-Bundle](https://github.com/simnple/revanced-patches)
+
+#### 🩹 [Heval99-Patches-Bundle](https://github.com/heval99/morphe-patches)
+
+#### 🩹 [Atharv-Patches-Bundle](https://github.com/madhu-gowda6/atharv-patches)
+
+#### 🩹 [Tiaruebar-Patches-Bundle](https://github.com/electiveDev/tiaruebar-patches-vip-fix)
+
+#### 🩹 [FTL-Portal-Patches-Bundle](https://github.com/BlazeFTL/Morphe-Portal-Patches-New)
+
+#### 🩹 [D4NZ-Patches-Bundle](https://github.com/D4NZ-jpg/revanced-patches)
+
+#### 🩹 [Google-Clock-Patches-Bundle](https://github.com/tadikwa/google-clock-morphe-patches)
 
 ## 🖇 Integrations Repositories In Use
 

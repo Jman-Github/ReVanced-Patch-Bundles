@@ -1,0 +1,34 @@
+{
+    "version": "v1.3.3",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1565C0",
+                    "description": null,
+                    "name": "Devices Tycoon",
+                    "packageName": "com.roasterygames.devicestycoon",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "4.0.1",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "4.0.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Instantly completes all IAP purchases (remove ads, research coins, budget) on tap and disables all ads in Devices Tycoon.",
+            "name": "Devices Tycoon Premium",
+            "options": []
+        }
+    ]
+}

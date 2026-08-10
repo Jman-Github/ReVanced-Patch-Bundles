@@ -1,0 +1,69 @@
+{
+    "version": "v1.7.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Clock",
+                    "packageName": "com.google.android.deskclock",
+                    "versions": [
+                        "9.0 (943154005)"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Writes detailed MediaBrowser diagnostics to Download/ClockMorpheDiag-LAST.txt.",
+            "name": "Diagnostic logging for YouTube Music alarms",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "YT Music Morphe",
+                    "packageName": "app.morphe.android.apps.youtube.music",
+                    "versions": [
+                        "9.15.51"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows Google Clock to obtain a browsable root from Morphe-patched YouTube Music on non-Premium accounts.",
+            "name": "Google Clock alarm MediaBrowser bridge",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Clock",
+                    "packageName": "com.google.android.deskclock",
+                    "versions": [
+                        "9.0 (943154005)"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Redirects Google Clock to Morphe YouTube Music and converts its Premium-required playback session into Clock's normal ready MediaBrowser state.",
+            "name": "Use Morphe YouTube Music for alarms",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "YT Music Morphe",
+                    "packageName": "app.morphe.android.apps.youtube.music",
+                    "versions": [
+                        "9.15.51"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Safe diagnostic build: starts logging only when Google Clock requests MediaBrowser children; normal YT Music startup is untouched.",
+            "name": "YT Music MediaBrowser diagnostic logging",
+            "options": []
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "version": "v1.0.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "name": "YouTube",
+                    "packageName": "com.google.android.youtube",
+                    "versions": [
+                        "20.40.45"
+                    ]
+                }
+            ],
+            "description": "Adds experimental settings to manage watched videos in the Subscriptions feed.",
+            "name": "Subscription manager"
+        }
+    ]
+}
