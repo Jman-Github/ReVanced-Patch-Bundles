@@ -170,7 +170,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [TikTok-Lite](#-tiktok-lite-bundle-patch-list) | 35 | 2 | Generated |
 | [Niconico-YT](#-niconico-yt-bundle-patch-list) | 1 | 1 | Generated |
 | [Alastor-Kaneki](#-alastor-kaneki-bundle-patch-list) | 1 | 1 | Generated |
-| [NuvioTV](#-nuviotv-bundle-patch-list) | 6 | 1 | Generated |
+| [NuvioTV](#-nuviotv-bundle-patch-list) | 7 | 1 | Generated |
 | [GoldRift](#-goldrift-bundle-patch-list) | 1 | 1 | Generated |
 | [RoundSalmon4](#-roundsalmon4-bundle-patch-list) | 1 | 1 | Generated |
 | [Dexnis](#-dexnis-bundle-patch-list) | 1 | 1 | Generated |
@@ -5654,12 +5654,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 NuvioTV Bundle Patch List:
 [📦 NuvioTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nuviotv-patches-bundle-morphe)
 <details>
-<summary><b>NuvioTV</b> - 6 patches, 1 app</summary>
+<summary><b>NuvioTV</b> - 7 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Allow Importing Subs from Local Storage``` | ```Adds Local Storage to Nuvio's ExoPlayer subtitle menu and imports subtitle files from the device.``` | ```NuvioTV``` | ```All versions``` |
-| ```Binge Group Manual Fallback``` | ```Adds Morphe > Playback control to open the source picker when no preferred binge-group stream is found.``` | ```NuvioTV``` | ```All versions``` |
+| ```Allow Importing Subs from Local Storage``` | ```Imports device subtitle files into Nuvio's ExoPlayer subtitle menu without rebuilding active playback.``` | ```NuvioTV``` | ```All versions``` |
+| ```Library Mode Focus Fix``` | ```Returns Library focus to the previously selected Saved or Cloud mode.``` | ```NuvioTV``` | ```All versions``` |
+| ```Local Media``` | ```Adds Library > Storage playback, folder selection, and same-basename sidecar subtitles for local video files.``` | ```NuvioTV``` | ```All versions``` |
 | ```Mark SDH Subtitles``` | ```Marks explicitly labelled SDH tracks and detected English SDH subtitle files.``` | ```NuvioTV``` | ```All versions``` |
 | ```Random Episode``` | ```Adds Morphe > Detail Page > Show Random Episode Button and random series playback.``` | ```NuvioTV``` | ```All versions``` |
 | ```Rating Visibility``` | ```Adds Settings > Morphe > Ratings with independent overall and episode rating controls.``` | ```NuvioTV``` | ```All versions``` |

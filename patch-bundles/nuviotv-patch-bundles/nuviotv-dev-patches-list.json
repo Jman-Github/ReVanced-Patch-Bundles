@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.17",
+    "version": "v1.0.0-dev.18",
     "patches": [
         {
             "compatiblePackages": [
@@ -11,7 +11,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.2-beta"
+                            "version": "0.8.3-beta"
                         }
                     ]
                 }
@@ -21,7 +21,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds Local Storage to Nuvio's ExoPlayer subtitle menu and imports subtitle files from the device.",
+            "description": "Imports device subtitle files into Nuvio's ExoPlayer subtitle menu without rebuilding active playback.",
             "name": "Allow Importing Subs from Local Storage",
             "options": []
         },
@@ -35,18 +35,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.2-beta"
+                            "version": "0.8.3-beta"
                         }
                     ]
                 }
             ],
             "default": false,
-            "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
-            "description": "Adds Morphe > Playback control to open the source picker when no preferred binge-group stream is found.",
-            "name": "Binge Group Manual Fallback",
+            "dependencies": [],
+            "description": "Returns Library focus to the previously selected Saved or Cloud mode.",
+            "name": "Library Mode Focus Fix",
             "options": []
         },
         {
@@ -59,7 +56,31 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.2-beta"
+                            "version": "0.8.3-beta"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds Library > Storage playback, folder selection, and same-basename sidecar subtitles for local video files.",
+            "name": "Local Media",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#111827",
+                    "name": "NuvioTV",
+                    "packageName": "com.nuvio.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.8.3-beta"
                         }
                     ]
                 }
@@ -83,7 +104,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.2-beta"
+                            "version": "0.8.3-beta"
                         }
                     ]
                 }
@@ -107,7 +128,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.2-beta"
+                            "version": "0.8.3-beta"
                         }
                     ]
                 }
@@ -131,7 +152,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.2-beta"
+                            "version": "0.8.3-beta"
                         }
                     ]
                 }
