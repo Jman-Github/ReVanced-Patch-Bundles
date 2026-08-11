@@ -1,5 +1,5 @@
 {
-    "version": "v2.4.0",
+    "version": "v2.5.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -73,7 +73,7 @@
                 }
             ],
             "default": true,
-            "description": "Full Google Clock/YT Music MediaBrowser chain: combines root/entitlement/consent fixes, upstream package identity/certificate compatibility, the Premium-producing onLoadChildren capability gate, and the client browse allow-list gate.",
+            "description": "Full Google Clock/YT Music MediaBrowser chain: root/entitlement/consent fixes, upstream package identity/certificate compatibility, loadChildren capability and client allow-list bypasses, plus the cached browse-error fast-path bypass that was still returning empty children and the Music Premium PlaybackState ERROR(7).",
             "name": "Google Clock MediaBrowser full bridge",
             "options": []
         },

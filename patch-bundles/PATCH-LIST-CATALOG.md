@@ -4676,7 +4676,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Always show publish date``` | ```Always shows the publish date in video author information. Thanks to lyyako for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Copy comments without username``` | ```Copies only the comment text without including the creator's username.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Custom offline videos limit``` | ```Adds a custom entry to TikTok's offline videos menu with a configurable limit of up to 500 videos.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Diagnostic tools``` | ```Adds optional Morphe diagnostic logging, filtered reports, and local Java crash capture.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Diagnostic tools``` | ```Adds optional Morphe diagnostic logging, filtered reports, and local TikTok crash capture.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Disable login requirement``` | ```Removes TikTok's mandatory login gate from supported flows.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Disable long-press quick share``` | ```Keeps long-pressing Share from opening TikTok's quick-share interaction.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Disable screen capture detection``` | ```Prevents TikTok from reacting to screenshots and screen recordings.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
@@ -5985,7 +5985,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Google Clock alarm MediaBrowser bridge``` | ```Short-circuits YT Music's MediaBrowser capability gate before it can publish PlaybackState ERROR(7), keeps browse entitlement metadata coherent, bypasses the DeskClock browse-consent detour, and enables background alarm playback.``` | ```YT Music Morphe``` | ```All versions``` |
 | ```Google Clock alarm MediaBrowser bridge v2``` | ```Adds the YT Music loadChildren gate fix that prevents the Premium PlaybackState error after Google Clock subscribes. Depends on the base Google Clock alarm MediaBrowser bridge.``` | ```YT Music Morphe``` | ```All versions``` |
 | ```Google Clock MediaBrowser error stack diagnostic``` | ```Temporary diagnostic that dumps the call stack from both known YT Music MediaBrowser error publishers (Llin.e and Lkzf.f). Depends on the full bridge.``` | ```YT Music Morphe``` | ```All versions``` |
-| ```Google Clock MediaBrowser full bridge``` | ```Full Google Clock/YT Music MediaBrowser chain: combines root/entitlement/consent fixes, upstream package identity/certificate compatibility, the Premium-producing onLoadChildren capability gate, and the client browse allow-list gate.``` | ```YT Music Morphe``` | ```All versions``` |
+| ```Google Clock MediaBrowser full bridge``` | ```Full Google Clock/YT Music MediaBrowser chain: root/entitlement/consent fixes, upstream package identity/certificate compatibility, loadChildren capability and client allow-list bypasses, plus the cached browse-error fast-path bypass that was still returning empty children and the Music Premium PlaybackState ERROR(7).``` | ```YT Music Morphe``` | ```All versions``` |
 | ```Google Clock MediaBrowser upstream compatibility``` | ```Isolated port of the upstream YT Music MediaBrowser unlock: bypasses the caller certificate gate and restores the original com.google.android.apps.youtube.music identity inside search_media_items.``` | ```YT Music Morphe``` | ```All versions``` |
 
 </details>
