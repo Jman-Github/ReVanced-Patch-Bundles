@@ -145,7 +145,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 29 | 12 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 29 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 284 | 218 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 295 | 226 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 137 | 4 | Generated |
@@ -4722,7 +4722,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 284 patches, 217 apps</summary>
+<summary><b>Rushiranpise</b> - 295 patches, 225 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4738,7 +4738,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks premium features in app.``` | ```Ace Ex File Manager``` | ```All versions``` |
 | ```Unlock Lifetime Premium``` | ```Unlocks all features locked behind the subscription paywall.``` | ```AdGuard``` | ```All versions``` |
 | ```Unlock Lifetime Premium``` | ```Unlocks all features locked behind the subscription paywall.``` | ```AdGuard for Android TV``` | ```All versions``` |
-| ```Adobe Acrobat Premium``` | ```Unlocks on-device Acrobat Pro tools (edit, organise, crop) without a subscription.``` | ```Adobe Acrobat``` | ```All versions``` |
+| ```Adobe Acrobat Premium``` | ```Unlocks all Acrobat Pro and Studio tools without a subscription.``` | ```Adobe Acrobat``` | ```All versions``` |
 | ```Adobe Scan Premium``` | ```Unlocks all premium scanning and PDF tools in Adobe Scan.``` | ```Adobe Scan``` | ```All versions``` |
 | ```Remove ads``` | ```Stubs all ad loading paths: banner/interstitial loaders, billing callbacks, and ad SDK init.``` | ```AIDA64``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks AiScore Premium Features in app.``` | ```AiScore``` | ```All versions``` |
@@ -4761,14 +4761,18 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Pro``` | ```Unlocks all Pro features in app.``` | ```App Permission Manager``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in Athena by making Settings.getPremiumUnlocked() always return true.``` | ```Athena``` | ```All versions``` |
 | ```Auto Cursor Premium``` | ```Unlocks Auto Cursor Pro by bypassing the local purchase state check.``` | ```Auto Cursor``` | ```All versions``` |
+| ```Unlock Premium``` | ```Removes the 30 running statement limit and unlocks Automate premium features.``` | ```Automate``` | ```All versions``` |
+| ```Aviate License``` | ```Bypasses the Pairip license check to prevent non-licensed app termination.``` | ```Aviate``` | ```All versions``` |
+| ```Aviate Premium``` | ```Unlocks Aviate Pro and Lifetime Pro by patching the Hermes JS subscription gate.``` | ```Aviate``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in Awake by bypassing the RC entitlement check chain and the Pairip Play Licensing verification.``` | ```Awake``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks premium and marks the yearly plan as purchased.``` | ```Battery Guru``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks premium and marks the yearly plan as purchased.``` | ```Battery Guru, Battery Guru Community``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks BatteryPods Pro: removes all advertisements and enables premium features including all widget themes and device customization options.``` | ```BatteryPods``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium in Beta by Mirko.``` | ```Beta Maniac``` | ```All versions``` |
 | ```Unlock VIP``` | ```Unlock ViP features in app.``` | ```Block Blast!``` | ```All versions``` |
 | ```Remove ads``` | ```Disables Block Puzzle AdMob initialization, banner, and interstitial ads.``` | ```Block Puzzle``` | ```All versions``` |
 | ```Unlock Lifetime``` | ```Unlocks lifetime subscription features in BlockerHero.``` | ```BlockerHero``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium features in Blocking Sites.``` | ```Blocking Sites``` | ```All versions``` |
+| ```Blek Premium``` | ```Unlocks all premium features including fullscreen mode and removes the Upgrade navigation item.``` | ```Bluetooth Keyboard & Mouse``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks the Pro upgrade in Bluetooth Volume Manager by forcing isUpgraded=true in the billing Info constructor.``` | ```Bluetooth Volume Manager``` | ```All versions``` |
 | ```Unlock Cloud Service``` | ```Unlocks BluramsGuard cloud storage, AI detection, and playback features.``` | ```Blurams``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock Premium Features in app.``` | ```BlurWall``` | ```All versions``` |
@@ -4786,7 +4790,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Pro``` | ```Unlocks all premium features in Case Tracker — Immigration.``` | ```Case Tracker``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlock Pro Features in Cashew App``` | ```Cashew``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Charge Meter premium features.``` | ```Charge Meter``` | ```All versions``` |
-| ```Unlock Pro``` | ```Unlocks all Citizen Plus and Protect features.``` | ```Citizen``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks all Citizen Plus/Protect features: Safety Network, Safety Center, Zones, Live Agent, Offender alerts, Clarity crime map, incident video, and more.``` | ```Citizen``` | ```All versions``` |
 | ```Unlock Club``` | ```Unlocks Citymapper Club Membership. Note: requires a manual purchase attempt inside the app.``` | ```Citymapper``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium in Clickmate``` | ```Clickmate``` | ```All versions``` |
 | ```Unlock Plus``` | ```Forces Clue Plus subscription active, unlocking all premium features.``` | ```Clue Period & Cycle Tracker``` | ```All versions``` |
@@ -4800,6 +4804,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Followed Locations``` | ```Unlocks the Followed Locations premium feature.``` | ```Crime Radar``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Crime Radar``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Cube ACR``` | ```All versions``` |
+| ```Puzzles Unlock``` | ```Unlocks all puzzle designs including kilominx and ad-gated variants.``` | ```Cube Solver``` | ```All versions``` |
+| ```Remove Ads``` | ```Removes advertisements and disables crash/analytics telemetry.``` | ```Cube Solver``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium features after login.``` | ```Dailyhunt``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium wallpapers.``` | ```Depth Live Wallpaper``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Drivvo Pro by patching all four gateway methods in the y9 subscription class: isPremium() → true, getPlanType() → 'pro', checkVehicleLimit() → true (no vehicle cap), checkPremiumScreen() → true (no screen lock).``` | ```Drivvo``` | ```All versions``` |
@@ -4817,6 +4823,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove Ads``` | ```Removes all ads in app``` | ```Flud``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Fuelio Premium, restores Google Maps, and suppresses the Limited Promo paywall banner for unlocked users.``` | ```Fuelio``` | ```All versions``` |
 | ```Unlock Ultra``` | ```Unlocks Ultra features in app.``` | ```Genius Scan``` | ```All versions``` |
+| ```Unlock Premium Features``` | ```Unlocks Getcontact Premium Yearly (Tariff 10) — patches all 28 subscription model getters including trial, usage limits, and plan identity.``` | ```Getcontact``` | ```All versions``` |
 | ```AMOLED dark theme``` | ```Makes Google Photos dark surfaces true black.``` | ```Google Photos``` | ```All versions``` |
 | ```Change package name``` | ```Installs Google Photos beside the system Photos app by changing package, permissions, providers, and app name.``` | ```Google Photos``` | ```All versions``` |
 | ```Enable DCIM folders backup control``` | ```Allows controlling Camera and other DCIM folder backup individually.``` | ```Google Photos``` | ```All versions``` |
@@ -4843,6 +4850,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Platinum``` | ```Unlocks Life360 Platinum feature in app.``` | ```Life360``` | ```All versions``` |
 | ```Remove ads``` | ```Disables LiveScore banner, native, and interstitial ad requests.``` | ```LiveScore``` | ```All versions``` |
 | ```Remove Ads``` | ```Removes interstitial and exit native ads from m-Indicator.``` | ```m-Indicator``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks Pro for MacroDroid - Device Automation.``` | ```MacroDroid``` | ```All versions``` |
 | ```Unlock Deluxe``` | ```Unlocks the Deluxe subscription.``` | ```MANGA Plus by SHUEISHA``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium features in app after login.``` | ```Mapy``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all pro features.``` | ```MaterialPods``` | ```All versions``` |
@@ -4860,7 +4868,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock premium``` | ```Unlocks NAVITIME Japan Travel Premium features in app``` | ```NAVITIME``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in NetGuard.``` | ```NetGuard``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```NetMonster``` | ```All versions``` |
-| ```Unlock Pro``` | ```Unlock Pro features.``` | ```Network Guru - Net Analyzer``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlock Pro features.``` | ```Network Guru``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium features in app..``` | ```NewsBreak``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Ninja VPN premium.``` | ```Ninja VPN``` | ```All versions``` |
 | ```Unlock subscription``` | ```Unlocks subscription in app``` | ```NYT Games``` | ```All versions``` |
@@ -4889,6 +4897,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Lifetime``` | ```Unlocks all Lifetime features in Proxyman.``` | ```Proxyman``` | ```All versions``` |
 | ```Remove Ads / Unlock Premium``` | ```Forces the subscription gate to report an unlimited subscription, removing ads and the upgrade prompt. Constructs a minimal fake Purchase to prevent NPE/IOOB in call sites that dereference getProducts().get(0).``` | ```Psiphon Pro``` | ```All versions``` |
 | ```Remove Ads``` | ```Unlocks the Remove Ads purchase in qBitConnect by injecting IAP ownership flags into SharedPreferences before Flutter reads them.``` | ```qBitConnect``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all Rainbow Weather premium features by forcing isPremium=true in the Adapty DataStore write.``` | ```Rainbow Weather``` | ```All versions``` |
 | ```Unlock Pro``` | ```Removes ads and unlocks the no-ads subscription in RAR.``` | ```RAR``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in re-Link by forcing the license StateFlow to always emit a Licensed state and the sync purchase check to always return true.``` | ```re-Link``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks RecipeBro premium by patching both CustomerInfo and FeatureFlagResponse premium gates.``` | ```RecipeBro``` | ```All versions``` |
@@ -4901,7 +4910,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks all premium feature in app.``` | ```SCRL``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks SD Maid SE Pro features.``` | ```SD Maid SE``` | ```All versions``` |
 | ```Remove Ads``` | ```Removes ads.``` | ```Send Files To TV``` | ```All versions``` |
-| ```Unlock Lifetime``` | ```Unlocks SHAREit lifetime premium.``` | ```SHAREit Premium``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks SHAREit Premium and bypasses APK signature tamper check.``` | ```SHAREit Premium``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Slopes``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Premium features in Snipd: AI Podcast Player by spoofing the RevenueCat CustomerInfo.``` | ```Snipd``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium features.``` | ```Snow-Forecast.com``` | ```All versions``` |
@@ -4952,6 +4961,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Change version code``` | ```Changes android:versionCode.``` | ```Universal``` | ```All versions``` |
 | ```Disable ad SDK calls``` | ```No-ops common ad SDK load/show/init/fetch methods in bundled ad packages.``` | ```Universal``` | ```All versions``` |
 | ```Disable clipboard access``` | ```Blocks app clipboard reads and writes.``` | ```Universal``` | ```All versions``` |
+| ```Disable PairIP license check``` | ```Disables PairIP license verification, VM checks, and repeated background checks.``` | ```Universal``` | ```All versions``` |
 | ```Disable shake ads``` | ```Skips SensorManager.registerListener calls that can power shake-to-ad behavior.``` | ```Universal``` | ```All versions``` |
 | ```Enable Android debugging``` | ```Sets android:debuggable=true.``` | ```Universal``` | ```All versions``` |
 | ```Enable debug build target``` | ```Forces compatible BUILD_TARGET debug providers to debug=true.``` | ```Universal``` | ```All versions``` |
@@ -4967,8 +4977,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide VPN and proxy``` | ```Hides common VPN transport/interface and Java proxy property checks.``` | ```Universal``` | ```All versions``` |
 | ```Override certificate pinning``` | ```Forces network security config trust anchors to override pins.``` | ```Universal``` | ```All versions``` |
 | ```Predictive back gesture``` | ```Enables Android predictive back gesture.``` | ```Universal``` | ```All versions``` |
-| ```Provide Original app certificate``` | ```By Default it Reads the signing certificate from the original app installed. Required for GmsCore, Firebase, and Signature spoof patches. Only fill options below if the original is uninstalled.``` | ```Universal``` | ```All versions``` |
+| ```Provide Original app certificate``` | ```Automatically reads the signing certificate from the APK you are patching — no original app installed or file provided needed. Only fill the options below if you are patching an APK that was already re-signed (e.g. a previously patched build): in that case point to the original APK file, or enter the certificate manually.``` | ```Universal``` | ```All versions``` |
 | ```Remove ad manifest entries``` | ```Removes common ad SDK permissions, services, providers, libraries, and metadata.``` | ```Universal``` | ```All versions``` |
+| ```Remove internet permission``` | ```Removes the INTERNET permission so the app cannot access the network at all. Blocks all trackers, analytics and ads from phoning home, but also disables any legitimate online features. Only enable for apps you want fully offline.``` | ```Universal``` | ```All versions``` |
 | ```Remove share targets``` | ```Removes chooser/direct share targets.``` | ```Universal``` | ```All versions``` |
 | ```Set target SDK 34``` | ```Sets targetSdkVersion to 34.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Android ID``` | ```Spoofs Settings.Secure android_id reads.``` | ```Universal``` | ```All versions``` |
