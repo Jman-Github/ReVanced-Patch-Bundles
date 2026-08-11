@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.2",
+    "version": "v1.7.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -272,6 +272,76 @@
             "dependencies": [
                 "Disable Hot Updates"
             ],
+            "description": "Hides Benefits from the More menu.",
+            "name": "Hide More Benefits",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
+            "description": "Hides Celebrity Support from the More menu.",
+            "name": "Hide More Celebrity Support",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
+            "description": "Hides Goondori Delivery from the More menu.",
+            "name": "Hide More Delivery",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
+            "description": "Hides the Food Menu from the More menu.",
+            "name": "Hide More Food Menu",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
+            "description": "Hides Goondori Mailbox from the More menu.",
+            "name": "Hide More Mailbox",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
             "description": "Hides the Goondori Premium entry without changing entitlement or purchase status.",
             "name": "Hide Premium Promotions",
             "options": [],
@@ -314,7 +384,7 @@
             "dependencies": [
                 "Patch"
             ],
-            "description": "Removes ads and their empty layout spaces, and blocks Adrop identifiers and metrics without changing Goondori Premium entitlement.",
+            "description": "Removes ads and their empty layout spaces, preserves the dashboard's ad-free spacing, and blocks Adrop identifiers and metrics without changing Goondori Premium entitlement.",
             "name": "Remove Ads",
             "options": [],
             "use": true
