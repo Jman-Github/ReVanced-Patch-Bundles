@@ -1,30 +1,6 @@
 {
-    "version": "v1.4.1",
+    "version": "v1.6.2",
     "patches": [
-        {
-            "compatiblePackages": {
-                "com.goondori": [
-                    "5.6.0"
-                ]
-            },
-            "dependencies": [],
-            "description": "Prevents the Adrop advertising SDK from initializing and receiving a user ID.",
-            "name": "Disable Adrop Ads",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.goondori": [
-                    "5.6.0"
-                ]
-            },
-            "dependencies": [],
-            "description": "Stops Adrop user properties and analytics events from crossing the React Native bridge.",
-            "name": "Disable Adrop Metrics",
-            "options": [],
-            "use": true
-        },
         {
             "compatiblePackages": {
                 "com.goondori": [
@@ -104,6 +80,46 @@
                 ]
             },
             "dependencies": [],
+            "description": "Keeps the embedded patched UI bundle active while allowing HotUpdater startup to complete normally.",
+            "name": "Disable Hot Updates",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
+            "description": "Stops Goondori from requesting the Google Play install-referrer value.",
+            "name": "Disable Install Referrer",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
+            "description": "Stops FCM and Expo push-token registration. Push notifications will not work.",
+            "name": "Disable Push Registration",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [],
             "description": "Prevents RevenueCat subscription, entitlement, purchase-status, and paywall requests.",
             "name": "Disable RevenueCat",
             "options": [],
@@ -127,7 +143,9 @@
                     "5.6.0"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
             "description": "Hides the Community tab from Goondori's bottom navigation.",
             "name": "Hide Community Tab",
             "options": [],
@@ -139,7 +157,9 @@
                     "5.6.0"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
             "description": "Hides the Content tab from Goondori's bottom navigation.",
             "name": "Hide Content Tab",
             "options": [],
@@ -151,7 +171,121 @@
                     "5.6.0"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
+            "description": "Hides Benefits from the Goondori home dashboard.",
+            "name": "Hide Home Benefits",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
+            "description": "Hides Community from the Goondori home dashboard.",
+            "name": "Hide Home Community",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
+            "description": "Hides Goondori Delivery from the home dashboard.",
+            "name": "Hide Home Delivery",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
+            "description": "Hides the 'How was your new home?' feedback card from the Goondori home dashboard.",
+            "name": "Hide Home Feedback",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
+            "description": "Hides the Food Menu from the Goondori home dashboard.",
+            "name": "Hide Home Food Menu",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
+            "description": "Hides Goondori Mailbox from the home dashboard.",
+            "name": "Hide Home Mailbox",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
+            "description": "Hides Vacation from the Goondori home dashboard.",
+            "name": "Hide Home Vacation",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
+            "description": "Hides the Goondori Premium entry without changing entitlement or purchase status.",
+            "name": "Hide Premium Promotions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
             "description": "Hides the Store tab from Goondori's bottom navigation.",
             "name": "Hide Store Tab",
             "options": [],
@@ -163,9 +297,39 @@
                     "5.6.0"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
             "description": "Hides the Vacation tab from Goondori's bottom navigation.",
             "name": "Hide Vacation Tab",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Removes ads and their empty layout spaces, and blocks Adrop identifiers and metrics without changing Goondori Premium entitlement.",
+            "name": "Remove Ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.goondori": [
+                    "5.6.0"
+                ]
+            },
+            "dependencies": [
+                "Disable Hot Updates"
+            ],
+            "description": "Removes the access-token console log from Goondori session initialization.",
+            "name": "Remove Sensitive Logs",
             "options": [],
             "use": true
         }

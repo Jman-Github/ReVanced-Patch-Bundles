@@ -44,7 +44,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Edge-ReVanced](#-edge-revanced-bundle-patch-list) | 8 | 1 | Generated |
 | [Dbhavsar76](#-dbhavsar76-bundle-patch-list) | 1 | 1 | Generated |
 | [ChMate-ReVanced](#-chmate-revanced-bundle-patch-list) | 1 | 1 | Generated |
-| [Simnple](#-simnple-bundle-patch-list) | 14 | 1 | Generated |
+| [Simnple](#-simnple-bundle-patch-list) | 25 | 1 | Generated |
 | [D4NZ](#-d4nz-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Morphe
@@ -186,7 +186,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Atharv](#-atharv-bundle-patch-list) | 2 | 1 | Generated |
 | [Tiaruebar](#-tiaruebar-bundle-patch-list) | 1 | 1 | Generated |
 | [FTL-Portal](#-ftl-portal-bundle-patch-list) | 3 | 2 | Generated |
-| [Google-Clock](#-google-clock-bundle-patch-list) | 4 | 2 | Generated |
+| [Google-Clock](#-google-clock-bundle-patch-list) | 5 | 2 | Generated |
 | [Imgur](#-imgur-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Legacy
@@ -5870,24 +5870,35 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Simnple Bundle Patch List:
 [📦 Simnple-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-simnple-patches-bundle-api-v4)
 <details>
-<summary><b>Simnple</b> - 14 patches, 1 app</summary>
+<summary><b>Simnple</b> - 25 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable Adrop Ads``` | ```Prevents the Adrop advertising SDK from initializing and receiving a user ID.``` | ```com.goondori``` | ```5.6.0``` |
-| ```Disable Adrop Metrics``` | ```Stops Adrop user properties and analytics events from crossing the React Native bridge.``` | ```com.goondori``` | ```5.6.0``` |
 | ```Disable Firebase Analytics``` | ```Stops Goondori from logging Firebase events and attaching account or military metadata to Firebase Analytics.``` | ```com.goondori``` | ```5.6.0``` |
 | ```Disable Firebase Logging``` | ```Stops Firebase and Google DataTransport telemetry from sending through firebaselogging.googleapis.com.``` | ```com.goondori``` | ```5.6.0``` |
 | ```Disable Firebase Remote Config``` | ```Prevents Firebase Remote Config from fetching server-controlled settings.``` | ```com.goondori``` | ```5.6.0``` |
 | ```Disable Firebase Startup Collection``` | ```Disables Firebase Analytics collection and advertising-personalization signals at startup.``` | ```com.goondori``` | ```5.6.0``` |
 | ```Disable Funding Choices``` | ```Prevents Google Funding Choices and UMP from requesting advertising consent messages.``` | ```com.goondori``` | ```5.6.0``` |
 | ```Disable Google Play Automatic Protection``` | ```Makes Google Play PairIP accept Goondori installations from outside Google Play.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Disable Hot Updates``` | ```Keeps the embedded patched UI bundle active while allowing HotUpdater startup to complete normally.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Disable Install Referrer``` | ```Stops Goondori from requesting the Google Play install-referrer value.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Disable Push Registration``` | ```Stops FCM and Expo push-token registration. Push notifications will not work.``` | ```com.goondori``` | ```5.6.0``` |
 | ```Disable RevenueCat``` | ```Prevents RevenueCat subscription, entitlement, purchase-status, and paywall requests.``` | ```com.goondori``` | ```5.6.0``` |
 | ```Disable Sentry``` | ```Disables Sentry error and performance telemetry through Android manifest metadata.``` | ```com.goondori``` | ```5.6.0``` |
 | ```Hide Community Tab``` | ```Hides the Community tab from Goondori's bottom navigation.``` | ```com.goondori``` | ```5.6.0``` |
 | ```Hide Content Tab``` | ```Hides the Content tab from Goondori's bottom navigation.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Hide Home Benefits``` | ```Hides Benefits from the Goondori home dashboard.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Hide Home Community``` | ```Hides Community from the Goondori home dashboard.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Hide Home Delivery``` | ```Hides Goondori Delivery from the home dashboard.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Hide Home Feedback``` | ```Hides the 'How was your new home?' feedback card from the Goondori home dashboard.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Hide Home Food Menu``` | ```Hides the Food Menu from the Goondori home dashboard.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Hide Home Mailbox``` | ```Hides Goondori Mailbox from the home dashboard.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Hide Home Vacation``` | ```Hides Vacation from the Goondori home dashboard.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Hide Premium Promotions``` | ```Hides the Goondori Premium entry without changing entitlement or purchase status.``` | ```com.goondori``` | ```5.6.0``` |
 | ```Hide Store Tab``` | ```Hides the Store tab from Goondori's bottom navigation.``` | ```com.goondori``` | ```5.6.0``` |
 | ```Hide Vacation Tab``` | ```Hides the Vacation tab from Goondori's bottom navigation.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Remove Ads``` | ```Removes ads and their empty layout spaces, and blocks Adrop identifiers and metrics without changing Goondori Premium entitlement.``` | ```com.goondori``` | ```5.6.0``` |
+| ```Remove Sensitive Logs``` | ```Removes the access-token console log from Goondori session initialization.``` | ```com.goondori``` | ```5.6.0``` |
 
 </details>
 
@@ -5958,13 +5969,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Google-Clock Bundle Patch List:
 [📦 Google-Clock-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-google-clock-patches-bundle-morphe)
 <details>
-<summary><b>Google-Clock</b> - 4 patches, 2 apps</summary>
+<summary><b>Google-Clock</b> - 5 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Use Morphe YouTube Music for alarms``` | ```Redirects Google Clock to the Morphe YouTube Music package.``` | ```Clock``` | ```All versions``` |
 | ```Google Clock alarm MediaBrowser bridge``` | ```Short-circuits YT Music's MediaBrowser capability gate before it can publish PlaybackState ERROR(7), keeps browse entitlement metadata coherent, bypasses the DeskClock browse-consent detour, and enables background alarm playback.``` | ```YT Music Morphe``` | ```All versions``` |
 | ```Google Clock alarm MediaBrowser bridge v2``` | ```Adds the YT Music loadChildren gate fix that prevents the Premium PlaybackState error after Google Clock subscribes. Depends on the base Google Clock alarm MediaBrowser bridge.``` | ```YT Music Morphe``` | ```All versions``` |
+| ```Google Clock MediaBrowser full bridge``` | ```Full Google Clock/YT Music MediaBrowser chain: combines root/entitlement/consent fixes, upstream package identity/certificate compatibility, the Premium-producing onLoadChildren capability gate, and the client browse allow-list gate.``` | ```YT Music Morphe``` | ```All versions``` |
 | ```Google Clock MediaBrowser upstream compatibility``` | ```Isolated port of the upstream YT Music MediaBrowser unlock: bypasses the caller certificate gate and restores the original com.google.android.apps.youtube.music identity inside search_media_items.``` | ```YT Music Morphe``` | ```All versions``` |
 
 </details>
