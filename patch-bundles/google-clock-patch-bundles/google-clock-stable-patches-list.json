@@ -1,5 +1,5 @@
 {
-    "version": "v2.3.0",
+    "version": "v2.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -54,7 +54,7 @@
                 }
             ],
             "default": false,
-            "description": "Temporary diagnostic that dumps the call stack whenever YT Music publishes a MediaBrowser playback error. Depends on the full bridge.",
+            "description": "Temporary diagnostic that dumps the call stack from both known YT Music MediaBrowser error publishers (Llin.e and Lkzf.f). Depends on the full bridge.",
             "name": "Google Clock MediaBrowser error stack diagnostic",
             "options": []
         },
