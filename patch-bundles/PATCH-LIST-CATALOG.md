@@ -179,7 +179,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 | [PetalMaps-AndroidAuto](#-petalmaps-androidauto-bundle-patch-list) | 8 | 1 | Generated |
-| [FTL](#-ftl-bundle-patch-list) | 10 | 2 | Generated |
+| [FTL](#-ftl-bundle-patch-list) | 12 | 2 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 1 | 1 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
 | [Heval99](#-heval99-bundle-patch-list) | 1 | 1 | Generated |
@@ -5810,10 +5810,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 FTL Bundle Patch List:
 [📦 FTL-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ftl-patches-bundle-morphe)
 <details>
-<summary><b>FTL</b> - 10 patches, 2 apps</summary>
+<summary><b>FTL</b> - 12 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Disable Notification Defaults``` | ```Turns off the Toolbar, Recommended contents, and Tool notifications channels by default.``` | ```SnapTube``` | ```All versions``` |
+| ```Hide Settings Items``` | ```Hides the Download tools and Phone clean categories, and their sub-items, from Settings.``` | ```SnapTube``` | ```All versions``` |
 | ```Remove Watch Ad To Download``` | ```Removes the requirement to watch a rewarded ad before a download starts.``` | ```SnapTube``` | ```All versions``` |
 | ```Add Toast``` | ```Shows a custom toast message when the app starts. Works on any app.``` | ```Universal``` | ```All versions``` |
 | ```APK Junk Cleanup``` | ```Removes build artifacts and metadata that bloat the APK: Play Services / Firebase version files, protobuf descriptors, debug probes, kotlin builtins, META-INF subfolder clutter, and misc junk. Safe — only removes files with no runtime purpose.``` | ```Universal``` | ```All versions``` |
@@ -5975,6 +5977,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Remove ads``` | ```Removes all ads in the app by forcing the no-ads (Emerald) entitlement flag.``` | ```Imgur``` | ```7.34.0.0``` |
+| ```Remove ads``` | ```Removes all ads in the app by forcing the no-ads (Emerald) entitlement flag.``` | ```Imgur``` | ```All versions``` |
 
 </details>

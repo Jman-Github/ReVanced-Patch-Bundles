@@ -2,32 +2,24 @@
     "version": "v1.0.0",
     "patches": [
         {
-            "name": "Remove ads",
-            "description": "Removes all ads in the app by forcing the no-ads (Emerald) entitlement flag.",
-            "default": true,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.imgur.mobile",
-                    "name": "Imgur",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#1BB76E",
-                    "signatures": null,
+                    "name": "Imgur",
+                    "packageName": "com.imgur.mobile",
                     "targets": [
                         {
-                            "version": "7.34.0.0",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.34.0.0"
                         }
-                    ],
-                    "versions": [
-                        "7.34.0.0"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes all ads in the app by forcing the no-ads (Emerald) entitlement flag.",
+            "name": "Remove ads",
             "options": []
         }
     ]

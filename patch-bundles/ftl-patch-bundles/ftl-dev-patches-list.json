@@ -1,5 +1,5 @@
 {
-    "version": "v1.23.0-dev.3",
+    "version": "v1.23.0-dev.13",
     "patches": [
         {
             "compatiblePackages": null,
@@ -81,6 +81,56 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "SnapTube",
+                    "packageName": "com.snaptube.premium",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.64.0.76450210",
+                            "versionCodes": {
+                                "ARM64_V8A": 76450210,
+                                "ARMEABI_V7A": 76450210,
+                                "X86": 76450210,
+                                "X86_64": 76450210
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Turns off the Toolbar, Recommended contents, and Tool notifications channels by default.",
+            "name": "Disable Notification Defaults",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "SnapTube",
+                    "packageName": "com.snaptube.premium",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.64.0.76450210",
+                            "versionCodes": {
+                                "ARM64_V8A": 76450210,
+                                "ARMEABI_V7A": 76450210,
+                                "X86": 76450210,
+                                "X86_64": 76450210
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the Download tools and Phone clean categories, and their sub-items, from Settings.",
+            "name": "Hide Settings Items",
+            "options": []
         },
         {
             "compatiblePackages": null,
