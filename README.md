@@ -2464,6 +2464,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/google-clock-patch-bundles/google-clock-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 Imgur-Patches-Bundle [Morphe]:
+[🧩 Imgur Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-imgur-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/imgur-patch-bundles/imgur-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/imgur-patch-bundles/imgur-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/imgur-patch-bundles/imgur-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -2852,6 +2865,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [D4NZ-Patches-Bundle](https://github.com/D4NZ-jpg/revanced-patches)
 
 #### 🩹 [Google-Clock-Patches-Bundle](https://github.com/tadikwa/google-clock-morphe-patches)
+
+#### 🩹 [Imgur-Patches-Bundle](https://github.com/sushruth/imgur-patches)
 
 ## 🖇 Integrations Repositories In Use
 

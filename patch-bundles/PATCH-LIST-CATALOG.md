@@ -187,6 +187,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Tiaruebar](#-tiaruebar-bundle-patch-list) | 1 | 1 | Generated |
 | [FTL-Portal](#-ftl-portal-bundle-patch-list) | 3 | 2 | Generated |
 | [Google-Clock](#-google-clock-bundle-patch-list) | 4 | 2 | Generated |
+| [Imgur](#-imgur-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -5963,5 +5964,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Google Clock alarm MediaBrowser bridge``` | ```Short-circuits YT Music's MediaBrowser capability gate before it can publish PlaybackState ERROR(7), keeps browse entitlement metadata coherent, bypasses the DeskClock browse-consent detour, and enables background alarm playback.``` | ```YT Music Morphe``` | ```All versions``` |
 | ```Google Clock alarm MediaBrowser bridge v2``` | ```Adds the YT Music loadChildren gate fix that prevents the Premium PlaybackState error after Google Clock subscribes. Depends on the base Google Clock alarm MediaBrowser bridge.``` | ```YT Music Morphe``` | ```All versions``` |
 | ```Google Clock MediaBrowser upstream compatibility``` | ```Isolated port of the upstream YT Music MediaBrowser unlock: bypasses the caller certificate gate and restores the original com.google.android.apps.youtube.music identity inside search_media_items.``` | ```YT Music Morphe``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Imgur Bundle Patch List:
+[📦 Imgur-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-imgur-patches-bundle-morphe)
+<details>
+<summary><b>Imgur</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Remove ads``` | ```Removes all ads in the app by forcing the no-ads (Emerald) entitlement flag.``` | ```Imgur``` | ```7.34.0.0``` |
 
 </details>
