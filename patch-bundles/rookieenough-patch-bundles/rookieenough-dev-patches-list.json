@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.1-dev.1",
+    "version": "v1.2.1-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -263,27 +263,6 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#001834",
-                    "name": "Tumblr",
-                    "packageName": "com.tumblr",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Disables the banner with a frog, prompting you to buy Tumblr Ad-Free.",
-            "name": "Disable Ad-Free Banner",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#607D8B",
                     "name": "Hex Editor",
                     "packageName": "com.myprog.hexedit",
@@ -298,125 +277,6 @@
             "dependencies": [],
             "description": null,
             "name": "Disable ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#001834",
-                    "name": "Tumblr",
-                    "packageName": "com.tumblr",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables the reminder to enable notifications for blogs you visit.",
-            "name": "Disable blog notification reminder",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#001834",
-                    "name": "Tumblr",
-                    "packageName": "com.tumblr",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Disables ads in the dashboard.",
-            "name": "Disable dashboard ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#001834",
-                    "name": "Tumblr",
-                    "packageName": "com.tumblr",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables the popup suggesting to buy TumblrMart items for other people.",
-            "name": "Disable gift message popup",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#001834",
-                    "name": "Tumblr",
-                    "packageName": "com.tumblr",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Disables the in-app update check and update prompt.",
-            "name": "Disable in-app update",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok (JP)",
-                    "packageName": "com.ss.android.ugc.trill",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "43.8.3"
-                        }
-                    ]
-                },
-                {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "43.8.3"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables mandatory login for TikTok. (Supports TikTok 43.6.2 + 43.8.3.)",
-            "name": "Disable login requirement",
             "options": []
         },
         {
@@ -441,57 +301,16 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#000000",
-                    "name": "SoundCloud",
-                    "packageName": "com.soundcloud.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2025.05.27-release"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables SoundCloud's telemetry system.",
-            "name": "Disable telemetry",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#001834",
-                    "name": "Tumblr",
-                    "packageName": "com.tumblr",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Removes the Tumblr TV navigation button from the bottom navigation bar.",
-            "name": "Disable Tumblr TV",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#0866FF",
                     "name": "Messenger",
                     "packageName": "com.facebook.orca",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "551.0.0.48.62",
+                            "version": "573.0.0.44.88",
                             "versionCodes": {
-                                "ARM64_V8A": 340211239,
-                                "ARMEABI_V7A": 340211298
+                                "ARM64_V8A": 344611864,
+                                "ARMEABI_V7A": 344611781
                             }
                         }
                     ]
@@ -501,67 +320,6 @@
             "dependencies": [],
             "description": "Disables the indicator while typing a message.",
             "name": "Disable typing indicator",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok (JP)",
-                    "packageName": "com.ss.android.ugc.trill",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "43.8.3"
-                        }
-                    ]
-                },
-                {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "43.8.3"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Removes download restrictions and changes the default download path. (Supports TikTok 43.6.2 + 43.8.3.)",
-            "name": "Downloads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#4887F4",
-                    "name": "Google News",
-                    "packageName": "com.google.android.apps.magazines",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.108.0.644447823"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Enables CustomTabs to open articles in your default browser.",
-            "name": "Enable CustomTabs",
             "options": []
         },
         {
@@ -586,59 +344,6 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#000000",
-                    "name": "SoundCloud",
-                    "packageName": "com.soundcloud.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2025.05.27-release"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": null,
-            "name": "Enable offline sync",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok (JP)",
-                    "packageName": "com.ss.android.ugc.trill",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        }
-                    ]
-                },
-                {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Re-enables the hidden \"Open debug\" entry. Supported on TikTok 43.6.2 only. (Not compatible with 43.8.3.)",
-            "name": "Enable Open Debug",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#FC6925",
                     "name": "Strava",
                     "packageName": "com.strava",
@@ -653,105 +358,6 @@
             "dependencies": [],
             "description": "Re-enables password login after having used an OTP code.",
             "name": "Enable password login",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok (JP)",
-                    "packageName": "com.ss.android.ugc.trill",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "43.8.3"
-                        }
-                    ]
-                },
-                {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "43.8.3"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Removes ads, livestreams, stories, image videos and videos with a specific amount of views or likes from the feed. (Supports TikTok 43.6.2 + 43.8.3.)",
-            "name": "Feed filter",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok (JP)",
-                    "packageName": "com.ss.android.ugc.trill",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "43.8.3"
-                        }
-                    ]
-                },
-                {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "43.8.3"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Allows logging in with a Google account. (Supports TikTok 43.6.2 + 43.8.3.)",
-            "name": "Fix Google login",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#001834",
-                    "name": "Tumblr",
-                    "packageName": "com.tumblr",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Fixes old versions of the app (v33.2 and earlier) breaking due to Tumblr removing remnants of Tumblr Live from the API, which causes many requests to fail. This patch has no effect on newer versions of the app.",
-            "name": "Fix old versions",
             "options": []
         },
         {
@@ -790,30 +396,6 @@
             "dependencies": [],
             "description": "Enables the FreePhone menu in the navigation drawer even on devices that do not support eSIM.",
             "name": "Force enable FreePhone",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#4887F4",
-                    "name": "Google News",
-                    "packageName": "com.google.android.apps.magazines",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.108.0.644447823"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
-            "name": "GmsCore support",
             "options": []
         },
         {
@@ -949,25 +531,6 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#E53935",
-                    "name": "Inshorts",
-                    "packageName": "com.nis.app",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": null,
-            "name": "Hide ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#00B020",
                     "name": "Letterboxd",
                     "packageName": "com.letterboxd.letterboxd",
@@ -1008,25 +571,6 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#000000",
-                    "name": "Peacock TV",
-                    "packageName": "com.peacocktv.peacockandroid",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Hides all video ads.",
-            "name": "Hide ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#0096FA",
                     "name": "Pixiv",
                     "packageName": "jp.pxv.android",
@@ -1041,46 +585,6 @@
             "default": true,
             "dependencies": [],
             "description": null,
-            "name": "Hide ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#000000",
-                    "name": "SoundCloud",
-                    "packageName": "com.soundcloud.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2025.05.27-release"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": null,
-            "name": "Hide ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#000000",
-                    "name": "Threads",
-                    "packageName": "com.instagram.barcelona",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "382.0.0.51.85"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Hides sponsored content / ads in Threads.",
             "name": "Hide ads",
             "options": []
         },
@@ -1178,10 +682,10 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "551.0.0.48.62",
+                            "version": "573.0.0.44.88",
                             "versionCodes": {
-                                "ARM64_V8A": 340211239,
-                                "ARMEABI_V7A": 340211298
+                                "ARM64_V8A": 344611864,
+                                "ARMEABI_V7A": 344611781
                             }
                         }
                     ]
@@ -1202,10 +706,10 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "551.0.0.48.62",
+                            "version": "573.0.0.44.88",
                             "versionCodes": {
-                                "ARM64_V8A": 340211239,
-                                "ARMEABI_V7A": 340211298
+                                "ARM64_V8A": 344611864,
+                                "ARMEABI_V7A": 344611781
                             }
                         }
                     ]
@@ -1226,10 +730,10 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "551.0.0.48.62",
+                            "version": "573.0.0.44.88",
                             "versionCodes": {
-                                "ARM64_V8A": 340211239,
-                                "ARMEABI_V7A": 340211298
+                                "ARM64_V8A": 344611864,
+                                "ARMEABI_V7A": 344611781
                             }
                         }
                     ]
@@ -1250,10 +754,10 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "551.0.0.48.62",
+                            "version": "573.0.0.44.88",
                             "versionCodes": {
-                                "ARM64_V8A": 340211239,
-                                "ARMEABI_V7A": 340211298
+                                "ARM64_V8A": 344611864,
+                                "ARMEABI_V7A": 344611781
                             }
                         }
                     ]
@@ -1362,25 +866,6 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#FF9800",
-                    "name": "RAR",
-                    "packageName": "com.rarlab.rar",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Hides the popup that reminds you to purchase the app.",
-            "name": "Hide purchase reminder",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#0866FF",
                     "name": "Facebook",
                     "packageName": "com.facebook.katana",
@@ -1432,10 +917,10 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "551.0.0.48.62",
+                            "version": "573.0.0.44.88",
                             "versionCodes": {
-                                "ARM64_V8A": 340211239,
-                                "ARMEABI_V7A": 340211298
+                                "ARM64_V8A": 344611864,
+                                "ARMEABI_V7A": 344611781
                             }
                         }
                     ]
@@ -1505,47 +990,6 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok (JP)",
-                    "packageName": "com.ss.android.ugc.trill",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "43.8.3"
-                        }
-                    ]
-                },
-                {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "43.8.3"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Enables the playback speed option for all videos and retains the speed configurations in between videos. (Supports TikTok 43.6.2 + 43.8.3.)",
-            "name": "Playback speed",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#FF9900",
                     "name": "Amazon Music",
                     "packageName": "com.amazon.mp3",
@@ -1560,65 +1004,6 @@
             "dependencies": [],
             "description": "Avoid uploading logs when the application crashes.",
             "name": "Prevent log upload",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok (JP)",
-                    "packageName": "com.ss.android.ugc.trill",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "43.8.3"
-                        }
-                    ]
-                },
-                {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "43.8.3"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Remembers the clear display configurations in between videos. (Supports TikTok 43.6.2 + 43.8.3.)",
-            "name": "Remember clear display",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#6D48FF",
-                    "name": "Proton Mail",
-                    "packageName": "ch.protonmail.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "4.15.0"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the 'Sent from Proton Mail mobile' signature from emails.",
-            "name": "Remove 'Sent from' signature",
             "options": []
         },
         {
@@ -1662,36 +1047,16 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#6D48FF",
-                    "name": "Proton Mail",
-                    "packageName": "ch.protonmail.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "4.15.0"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the limit for maximum free accounts logged in.",
-            "name": "Remove free accounts limit",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#0866FF",
                     "name": "Messenger",
                     "packageName": "com.facebook.orca",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "551.0.0.48.62",
+                            "version": "573.0.0.44.88",
                             "versionCodes": {
-                                "ARM64_V8A": 340211239,
-                                "ARMEABI_V7A": 340211298
+                                "ARM64_V8A": 344611864,
+                                "ARMEABI_V7A": 344611781
                             }
                         }
                     ]
@@ -1746,80 +1111,6 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok (JP)",
-                    "packageName": "com.ss.android.ugc.trill",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "43.8.3"
-                        }
-                    ]
-                },
-                {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "43.8.3"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Removes tracking parameters from shared links. (Supports TikTok 43.6.2 + 43.8.3.)",
-            "name": "Sanitize sharing links",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok (JP)",
-                    "packageName": "com.ss.android.ugc.trill",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        }
-                    ]
-                },
-                {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Adds Morphe settings to TikTok. Supported on 43.6.2 only. (Not compatible with 43.8.3.)",
-            "name": "Settings",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#9146FF",
                     "name": "Twitch",
                     "packageName": "tv.twitch.android.app",
@@ -1865,45 +1156,6 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok (JP)",
-                    "packageName": "com.ss.android.ugc.trill",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "43.8.3"
-                        }
-                    ]
-                },
-                {
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "43.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "43.8.3"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Shows a progress bar for all videos. (Supports TikTok 43.6.2 + 43.8.3.)",
-            "name": "Show seekbar",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#FF9900",
                     "name": "Amazon Music",
                     "packageName": "com.amazon.mp3",
@@ -1919,25 +1171,6 @@
                 "BytecodePatch"
             ],
             "description": "Skip ads between the tracks.",
-            "name": "Skip ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#09A9B8",
-                    "name": "Disney+",
-                    "packageName": "com.disney.disneyplus",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Automatically skips ads.",
             "name": "Skip ads",
             "options": []
         },
@@ -2057,10 +1290,10 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "551.0.0.48.62",
+                            "version": "573.0.0.44.88",
                             "versionCodes": {
-                                "ARM64_V8A": 340211239,
-                                "ARMEABI_V7A": 340211298
+                                "ARM64_V8A": 344611864,
+                                "ARMEABI_V7A": 344611781
                             }
                         }
                     ]
