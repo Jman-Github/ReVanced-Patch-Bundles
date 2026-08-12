@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.0",
+    "version": "v1.15.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -461,6 +461,29 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#212121",
+                    "name": "Lightmeter",
+                    "packageName": "com.vodemn.lightmeter",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "2.5.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Lightmeter Pro. Use With Spoof Install Source.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#F8485E",
                     "name": "Ling",
                     "packageName": "com.simyasolutions.ling.universal",
@@ -770,6 +793,29 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#4CAF50",
+                    "name": "TheFor",
+                    "packageName": "xyz.thefor.habits.habits",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.6"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks TheFor Pro",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#00C9A7",
                     "name": "Todo Mate",
                     "packageName": "com.undefined.mate",
@@ -920,6 +966,30 @@
             ]
         },
         {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#F16522",
+                    "name": "Flud",
+                    "packageName": "com.delphicoder.flud",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "2.0.13-beta02"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Ad Free Flud",
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -983,6 +1053,30 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1565C0",
+                    "name": "nzb360",
+                    "packageName": "com.kevinforeman.nzb360",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "24.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks nzb360",
+            "name": "Unlock All Access",
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -1561,6 +1655,29 @@
             "dependencies": [],
             "description": "Unlocks JEFIT Elite",
             "name": "Unlock Elite",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#7CB342",
+                    "name": "Automate",
+                    "packageName": "com.llamalab.automate",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.51.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Automate Premium",
+            "name": "Unlock Premium",
             "options": []
         },
         {
