@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.2",
+    "version": "v1.6.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -191,6 +191,31 @@
             "dependencies": [],
             "description": "Hooks the '+' (create Pin) navigation bar button: hidden if enabled in Morphe settings.",
             "name": "Hide Create nav button",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hooks the '+' (create) and inbox/notifications buttons in the home feed header: hidden if the matching Morphe settings are enabled.",
+            "name": "Hide greeting header buttons",
             "options": []
         },
         {

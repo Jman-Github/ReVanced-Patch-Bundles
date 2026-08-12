@@ -84,7 +84,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Samsung-Morphe](#-samsung-morphe-bundle-patch-list) | 2 | 1 | Generated |
 | [YT-YA-Voiceover](#-yt-ya-voiceover-bundle-patch-list) | 3 | 1 | Generated |
 | [Perplexity-STT](#-perplexity-stt-bundle-patch-list) | 1 | 1 | Generated |
-| [Browzomje](#-browzomje-bundle-patch-list) | 19 | 2 | Generated |
+| [Browzomje](#-browzomje-bundle-patch-list) | 20 | 2 | Generated |
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 13 | 6 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
@@ -879,7 +879,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Browzomje Bundle Patch List:
 [📦 Browzomje-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-browzomje-patches-bundle-morphe)
 <details>
-<summary><b>Browzomje</b> - 19 patches, 2 apps</summary>
+<summary><b>Browzomje</b> - 20 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -894,6 +894,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Download board``` | ```Adds an option to the board's "…" menu to bulk download images and videos from already loaded pins. Streaming-only videos are reported and skipped.``` | ```Pinterest``` | ```All versions``` |
 | ```Download video``` | ```Adds a 'Download video' option to the pin menu for video pins, saving the clip to the Downloads folder.``` | ```Pinterest``` | ```All versions``` |
 | ```Hide Create nav button``` | ```Hooks the '+' (create Pin) navigation bar button: hidden if enabled in Morphe settings.``` | ```Pinterest``` | ```All versions``` |
+| ```Hide greeting header buttons``` | ```Hooks the '+' (create) and inbox/notifications buttons in the home feed header: hidden if the matching Morphe settings are enabled.``` | ```Pinterest``` | ```All versions``` |
 | ```Hide Notifications nav button``` | ```Hooks the notifications button: hidden if enabled in Morphe settings.``` | ```Pinterest``` | ```All versions``` |
 | ```Hide search history``` | ```Hides the "Recent searches" section both on the search screen and in the carousel below the search bar. It does not prevent Pinterest from logging searches (server-side), but stops them from being shown anywhere in the app.``` | ```Pinterest``` | ```All versions``` |
 | ```Hide Search nav button``` | ```Hooks the search button: hidden if enabled in Morphe settings.``` | ```Pinterest``` | ```All versions``` |
