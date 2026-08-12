@@ -86,7 +86,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Perplexity-STT](#-perplexity-stt-bundle-patch-list) | 1 | 1 | Generated |
 | [Browzomje](#-browzomje-bundle-patch-list) | 19 | 2 | Generated |
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
-| [Zpatches](#-zpatches-bundle-patch-list) | 12 | 6 | Generated |
+| [Zpatches](#-zpatches-bundle-patch-list) | 13 | 6 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
 | [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 53 | 40 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
@@ -145,7 +145,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 29 | 12 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 29 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 295 | 226 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 323 | 229 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 137 | 4 | Generated |
@@ -923,7 +923,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Zpatches Bundle Patch List:
 [?? Zpatches-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-zpatches-patches-bundle-morphe)
 <details>
-<summary><b>Zpatches</b> - 12 patches, 6 apps</summary>
+<summary><b>Zpatches</b> - 13 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -935,6 +935,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Hide onboarding screen``` | ```Hide the onboarding "Plan you journey" screen``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
 | ```No geolocalisation check``` | ```Allows you to unlock a bike even if you're not near the station.``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
 | ```Spoof package signature``` | ```Spoofs the package signature required for Firebase, fixes notifications``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
+| ```Use multiple devices``` | ```Fix the login error "Access denied. This account is already in use on another device." by pretending to be the web client``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
 | ```Bypass PairIp``` | ```Bypass the PairIp license check preventing app modification``` | ```ee.dustland.android.dustlandsudoku``` | ```All versions``` |
 | ```Disable Internet and Telemetry``` | ```Disable Internet and Telemetry by removing all non-necessary permissions from the manifest``` | ```ee.dustland.android.dustlandsudoku, ee.dustland.android.minesweeper, ee.dustland.android.solitaire``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlock all purchasables options``` | ```ee.dustland.android.dustlandsudoku, ee.dustland.android.minesweeper, ee.dustland.android.solitaire``` | ```All versions``` |
@@ -4723,7 +4724,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 295 patches, 225 apps</summary>
+<summary><b>Rushiranpise</b> - 323 patches, 228 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4816,6 +4817,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Tracking``` | ```Disables analytics and telemetry in ES File Explorer``` | ```ES File Explorer``` | ```All versions``` |
 | ```Unlock VIP Lifetime``` | ```Unlock Vip Features in APP.``` | ```ES File Explorer``` | ```All versions``` |
 | ```Unlock Excel``` | ```Removes login requirement, unlocks premium, blocks ads, bypasses signature and code transparency checks.``` | ```Excel``` | ```All versions``` |
+| ```Change package name``` | ```Installs Facebook beside the original by renaming the manifest package and provider authorities, removing duplicate permission declarations.``` | ```Facebook``` | ```All versions``` |
+| ```Fix auto-restore crash (internal)``` | ```Spoofs the package name in hWL.<init> so the E2EE backup lookup always resolves to com.facebook.katana. Required by Change package name.``` | ```Facebook``` | ```All versions``` |
+| ```Hide feed ads``` | ```Prevents sponsored stories from entering the Facebook main feed pool.``` | ```Facebook``` | ```All versions``` |
+| ```Hide sponsored stories``` | ```Hides sponsored and promoted ad units in the Facebook main feed by suppressing their visibility dispatch.``` | ```Facebook``` | ```All versions``` |
+| ```Hide story ads``` | ```Blocks ad insertion, deferred ad fetch, fetch-more-ads, and CTA/dwell tail-loads in Facebook stories.``` | ```Facebook``` | ```All versions``` |
+| ```Suppress Meta Verified upsell``` | ```Suppresses the Meta Verified subscription prompt that appears after publishing posts.``` | ```Facebook``` | ```All versions``` |
+| ```Unlock Meta AI premium features``` | ```Unlocks all Facebook Plus benefits and Meta AI premium tier by bypassing the benefit entitlement system and MobileConfig remote flag checks.``` | ```Facebook``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Fitbod premium features.``` | ```Fitbod``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Fitia premium features by permanently reporting an active subscription.``` | ```Fitia``` | ```All versions``` |
 | ```Unlock Ad-Free``` | ```Forces FlightAware ad-free subscribed state.``` | ```FlightAware``` | ```All versions``` |
@@ -4856,6 +4864,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks Premium features in app after login.``` | ```Mapy``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all pro features.``` | ```MaterialPods``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all Pro features.``` | ```MEGA``` | ```All versions``` |
+| ```Change package name``` | ```Installs Messenger beside the original by renaming the manifest package and provider authorities, removing duplicate permission declarations.``` | ```Messenger``` | ```All versions``` |
+| ```Disable media transcoding``` | ```Sends photos and videos at original quality without re-encoding.``` | ```Messenger``` | ```All versions``` |
+| ```Disable typing indicator``` | ```Disables the indicator while typing a message.``` | ```Messenger``` | ```All versions``` |
+| ```Hide Facebook buttons``` | ```Hides buttons and shortcuts that open Facebook.``` | ```Messenger``` | ```All versions``` |
+| ```Hide inbox ads``` | ```Hides ads in the Messenger inbox.``` | ```Messenger``` | ```All versions``` |
+| ```Hide inbox stories and notes tray``` | ```Hides the stories and notes horizontal tray at the top of the inbox.``` | ```Messenger``` | ```All versions``` |
+| ```Hide inbox subtabs``` | ```Hides Home and Channels tabs between active now tray and chats.``` | ```Messenger``` | ```All versions``` |
+| ```Messenger signature + install source``` | ```Pre-seeds the Facebook signing certificate and enables signature and install-source spoofing.``` | ```Messenger``` | ```All versions``` |
+| ```Open links externally``` | ```Opens links in the external browser instead of the in-app browser.``` | ```Messenger``` | ```All versions``` |
+| ```Remove Meta AI``` | ```Removes the Meta AI floating button, drawer items, and search suggestions.``` | ```Messenger``` | ```All versions``` |
+| ```Spoof package version``` | ```Sets a very high version code so the Play Store treats the app as already up to date and never offers an update.``` | ```Messenger``` | ```All versions``` |
 | ```Unlock Enterprise``` | ```Unlocks Enterprise features in app.``` | ```MigraConnect``` | ```All versions``` |
 | ```Unlock Pro``` | ```Bypasses the Google Play Billing purchase check, unlocking all pro features.``` | ```MikroTik Network Tools``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock all premium widgets.``` | ```Minimal Widgets``` | ```All versions``` |
@@ -4902,6 +4921,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Pro``` | ```Removes ads and unlocks the no-ads subscription in RAR.``` | ```RAR``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in re-Link by forcing the license StateFlow to always emit a Licensed state and the sync purchase check to always return true.``` | ```re-Link``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks RecipeBro premium by patching both CustomerInfo and FeatureFlagResponse premium gates.``` | ```RecipeBro``` | ```All versions``` |
+| ```Disable Screenshot Popup``` | ```Suppresses the share prompt that appears after taking a screenshot.``` | ```Reddit``` | ```All versions``` |
+| ```Hide Ads``` | ```Removes promoted posts and comment ads without requiring Reddit Premium unlock.``` | ```Reddit``` | ```All versions``` |
+| ```Hide Communities Shelf``` | ```Hides the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```All versions``` |
+| ```Hide Navigation Buttons``` | ```Removes the Create Post button from the bottom navigation bar.``` | ```Reddit``` | ```All versions``` |
+| ```Hide Promoted Posts``` | ```Blanks the promoted post render method and forces promoted/ad flags to false at the model layer.``` | ```Reddit``` | ```All versions``` |
+| ```Hide Sidebar Components``` | ```Hides About, Resources, and Reddit Pro sections from the community sidebar.``` | ```Reddit``` | ```All versions``` |
+| ```Hide Trending Shelves``` | ```Removes Trending Today from the feed and trending searches from the search screen.``` | ```Reddit``` | ```All versions``` |
+| ```Remove Subreddit Dialogs``` | ```Suppresses the notification re-enable prompt that appears on subreddit visits.``` | ```Reddit``` | ```All versions``` |
+| ```Sanitize Sharing Links``` | ```Returns the raw permalink before UTM tracking parameters are appended to shared Reddit URLs.``` | ```Reddit``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Reddit Premium features and removes all ads client-side.``` | ```Reddit``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Relane VPN Premium by patching the RevenueCat SDK to always report an active "premium_vpn" entitlement, enabling premium servers, unlimited data, and premium sync.``` | ```Relane VPN``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in Rename & Organize.``` | ```Rename & Organize``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Rocket Money Premium Features.``` | ```Rocket Money``` | ```All versions``` |
