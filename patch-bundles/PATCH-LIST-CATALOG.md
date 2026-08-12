@@ -145,7 +145,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 30 | 12 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 29 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 323 | 229 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 330 | 229 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 137 | 4 | Generated |
@@ -4725,7 +4725,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 323 patches, 228 apps</summary>
+<summary><b>Rushiranpise</b> - 330 patches, 228 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4776,7 +4776,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Lifetime``` | ```Unlocks lifetime subscription features in BlockerHero.``` | ```BlockerHero``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium features in Blocking Sites.``` | ```Blocking Sites``` | ```All versions``` |
 | ```Blek Premium``` | ```Unlocks all premium features including fullscreen mode and removes the Upgrade navigation item.``` | ```Bluetooth Keyboard & Mouse``` | ```All versions``` |
-| ```Unlock Pro``` | ```Unlocks the Pro upgrade in Bluetooth Volume Manager by forcing isUpgraded=true in the billing Info constructor.``` | ```Bluetooth Volume Manager``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks the Pro upgrade in Bluetooth Volume Manager by forcing isUpgraded=true.``` | ```Bluetooth Volume Manager``` | ```All versions``` |
 | ```Unlock Cloud Service``` | ```Unlocks BluramsGuard cloud storage, AI detection, and playback features.``` | ```Blurams``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock Premium Features in app.``` | ```BlurWall``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks BoldVoice premium subscription.``` | ```BoldVoice: American Accent``` | ```All versions``` |
@@ -4819,8 +4819,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock VIP Lifetime``` | ```Unlock Vip Features in APP.``` | ```ES File Explorer``` | ```All versions``` |
 | ```Unlock Excel``` | ```Removes login requirement, unlocks premium, blocks ads, bypasses signature and code transparency checks.``` | ```Excel``` | ```All versions``` |
 | ```Change package name``` | ```Installs Facebook beside the original by renaming the manifest package and provider authorities, removing duplicate permission declarations.``` | ```Facebook``` | ```All versions``` |
-| ```Fix auto-restore crash (internal)``` | ```Spoofs the package name in hWL.<init> so the E2EE backup lookup always resolves to com.facebook.katana. Required by Change package name.``` | ```Facebook``` | ```All versions``` |
 | ```Hide feed ads``` | ```Prevents sponsored stories from entering the Facebook main feed pool.``` | ```Facebook``` | ```All versions``` |
+| ```Hide Reels ads``` | ```Suppresses the Reels ads floating CTA overlay and blocks playable ad activities.``` | ```Facebook``` | ```All versions``` |
 | ```Hide sponsored stories``` | ```Hides sponsored and promoted ad units in the Facebook main feed by suppressing their visibility dispatch.``` | ```Facebook``` | ```All versions``` |
 | ```Hide story ads``` | ```Blocks ad insertion, deferred ad fetch, fetch-more-ads, and CTA/dwell tail-loads in Facebook stories.``` | ```Facebook``` | ```All versions``` |
 | ```Suppress Meta Verified upsell``` | ```Suppresses the Meta Verified subscription prompt that appears after publishing posts.``` | ```Facebook``` | ```All versions``` |
@@ -4872,7 +4872,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide inbox ads``` | ```Hides ads in the Messenger inbox.``` | ```Messenger``` | ```All versions``` |
 | ```Hide inbox stories and notes tray``` | ```Hides the stories and notes horizontal tray at the top of the inbox.``` | ```Messenger``` | ```All versions``` |
 | ```Hide inbox subtabs``` | ```Hides Home and Channels tabs between active now tray and chats.``` | ```Messenger``` | ```All versions``` |
-| ```Messenger signature + install source``` | ```Pre-seeds the Facebook signing certificate and enables signature and install-source spoofing.``` | ```Messenger``` | ```All versions``` |
 | ```Open links externally``` | ```Opens links in the external browser instead of the in-app browser.``` | ```Messenger``` | ```All versions``` |
 | ```Remove Meta AI``` | ```Removes the Meta AI floating button, drawer items, and search suggestions.``` | ```Messenger``` | ```All versions``` |
 | ```Spoof package version``` | ```Sets a very high version code so the Play Store treats the app as already up to date and never offers an update.``` | ```Messenger``` | ```All versions``` |
@@ -4959,14 +4958,22 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Plus``` | ```Unlocks Subway Now Plus.``` | ```Subway Now``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium/lifetime featuers in app.``` | ```Super File``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Tag Tracker PRO: unlimited trackers, advanced detection, full history, and ad-free experience.``` | ```Tag Tracker``` | ```All versions``` |
+| ```Disable analytics``` | ```Blocks all Firebase analytics and event tracking in Telegram Plus.``` | ```Telegram Plus``` | ```All versions``` |
+| ```Disable auto-update``` | ```Disables automatic app update checks in Telegram Plus.``` | ```Telegram Plus``` | ```All versions``` |
+| ```Hide typing indicator``` | ```Prevents typing status from being sent in Telegram Plus.``` | ```Telegram Plus``` | ```All versions``` |
+| ```Plus Premium``` | ```Unlocks premium UI and suppresses premium nag dialogs. isPremiumUser returns true only for self to avoid showing premium badges on others.``` | ```Telegram Plus``` | ```All versions``` |
+| ```Remove ads``` | ```Removes Plus banner ads, native ads, Telegram sponsored messages, and video ads.``` | ```Telegram Plus``` | ```All versions``` |
 | ```Anti-delete messages``` | ```Prevents messages deleted by other users from being removed locally.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```All versions``` |
-| ```Anti-disappearing media``` | ```Keeps view-once photos, videos, voice messages, and round videos viewable indefinitely.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```All versions``` |
-| ```Bypass channel restrictions``` | ```Allows opening copyrighted, sensitive, and temporarily disabled channels.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```All versions``` |
-| ```Bypass content restrictions``` | ```Allows saving and forwarding content from restricted channels and chats.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```All versions``` |
+| ```Anti-disappearing media``` | ```Keeps view-once photos, videos and voice messages viewable indefinitely.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```All versions``` |
+| ```Anti-screenshot notification``` | ```Blocks screenshot notifications from being sent to the other user.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```All versions``` |
+| ```Bypass channel restrictions``` | ```Allows opening, viewing, saving and forwarding content from restricted, sensitive, and copyright-restricted channels.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```All versions``` |
+| ```Bypass content restrictions``` | ```Allows saving and forwarding content from restricted channels, chats, and users.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```All versions``` |
 | ```Bypass integrity check``` | ```Spoofs certificate fingerprint and SafetyNet results so login works on a patched APK.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```All versions``` |
 | ```Disable auto-update``` | ```Disables automatic app update checks, the blocking update screen, and the proxy sponsor channel insertion.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```All versions``` |
+| ```Disable channel switching``` | ```Disables the pull-down gesture that switches to the next unread channel.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```All versions``` |
 | ```Download speed boost``` | ```Increases download chunk size to 512 KB and max concurrent requests to 8.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```All versions``` |
 | ```Hide typing indicator``` | ```Hides your typing indicator from other users in all chats.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```All versions``` |
+| ```Premium UI``` | ```Hides story strip, allows saving stories, suppresses story/translate nags, enables swipe-back everywhere, and suppresses pinned message server fetches.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```All versions``` |
 | ```Remove ads``` | ```Removes sponsored messages and video ads from all chats and channels.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Telegram Premium features for the current account.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```All versions``` |
 | ```Voice to music``` | ```Plays voice notes in the full music player with seek bar and background playback.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```All versions``` |
