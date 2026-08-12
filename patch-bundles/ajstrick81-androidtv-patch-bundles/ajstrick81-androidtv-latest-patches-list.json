@@ -1,6 +1,32 @@
 {
-    "version": "v1.24.0",
+    "version": "v1.25.0",
     "patches": [
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 9521151,
+                    "description": null,
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "13.0.0.2"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "tv.twitch.android.app": [
+                    "13.0.0.2"
+                ]
+            },
+            "dependencies": [],
+            "description": "Blocks live ads on the Twitch ANDROID TV app (tv.twitch.android.app v13.0.0.2, the \"Starshot\" living-room build — NOT the phone app). That app runs the Twitch web player (laserarray/hls.js) in a WebView, and live ads are server-stitched into the video-weaver HLS playlist. This wraps the app's WebViewClient so a native shouldInterceptRequest override re-fetches the weaver playlist and strips the twitch-stitched-ad segments before hls.js sees them — timing-independent, no proxy, Twitch's own servers only.",
+            "name": "Block TV ads",
+            "options": [],
+            "use": true
+        },
         {
             "compatibility": [
                 {
