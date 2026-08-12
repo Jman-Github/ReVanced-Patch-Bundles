@@ -145,7 +145,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 30 | 12 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 29 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 329 | 229 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 323 | 228 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 137 | 4 | Generated |
@@ -4725,7 +4725,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 329 patches, 228 apps</summary>
+<summary><b>Rushiranpise</b> - 323 patches, 227 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4818,12 +4818,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Tracking``` | ```Disables analytics and telemetry in ES File Explorer``` | ```ES File Explorer``` | ```All versions``` |
 | ```Unlock VIP Lifetime``` | ```Unlock Vip Features in APP.``` | ```ES File Explorer``` | ```All versions``` |
 | ```Unlock Excel``` | ```Removes login requirement, unlocks premium, blocks ads, bypasses signature and code transparency checks.``` | ```Excel``` | ```All versions``` |
-| ```Change package name``` | ```Installs Facebook beside the original by renaming the manifest package and provider authorities, removing duplicate permission declarations.``` | ```Facebook``` | ```All versions``` |
-| ```Hide feed ads``` | ```Prevents sponsored stories from entering the Facebook main feed pool.``` | ```Facebook``` | ```All versions``` |
-| ```Hide sponsored stories``` | ```Hides sponsored and promoted ad units in the Facebook main feed by suppressing their visibility dispatch.``` | ```Facebook``` | ```All versions``` |
-| ```Hide story ads``` | ```Blocks ad insertion, deferred ad fetch, fetch-more-ads, and CTA/dwell tail-loads in Facebook stories.``` | ```Facebook``` | ```All versions``` |
-| ```Suppress Meta Verified upsell``` | ```Suppresses the Meta Verified subscription prompt that appears after publishing posts.``` | ```Facebook``` | ```All versions``` |
-| ```Unlock Meta AI premium features``` | ```Unlocks all Facebook Plus benefits and Meta AI premium tier by bypassing the benefit entitlement system and MobileConfig remote flag checks.``` | ```Facebook``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Fitbod premium features.``` | ```Fitbod``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Fitia premium features by permanently reporting an active subscription.``` | ```Fitia``` | ```All versions``` |
 | ```Unlock Ad-Free``` | ```Forces FlightAware ad-free subscribed state.``` | ```FlightAware``` | ```All versions``` |

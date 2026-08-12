@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.0-dev.4",
+    "version": "v1.18.0-dev.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -936,54 +936,6 @@
             "description": "Bypasses the subscription paywall in-app.",
             "name": "Bypass Subscription Paywall",
             "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1877F2",
-                    "name": "Facebook",
-                    "packageName": "com.facebook.katana",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "558.0.0.70.72",
-                            "versionCodes": {
-                                "ARM64_V8A": 470619290,
-                                "ARMEABI_V7A": 470619290,
-                                "X86": 470619290,
-                                "X86_64": 470619290
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Installs Facebook beside the original by renaming the manifest package and provider authorities, removing duplicate permission declarations.",
-            "name": "Change package name",
-            "options": [
-                {
-                    "default": "app.morphe.facebook.katana",
-                    "description": "Package name for the cloned Facebook app.",
-                    "key": "facebookPackageName",
-                    "required": true,
-                    "title": "Package name",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "Facebook Morphe",
-                    "description": "Launcher label shown in the home screen for the cloned Facebook.",
-                    "key": "facebookAppName",
-                    "required": true,
-                    "title": "App name",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
         },
         {
             "compatiblePackages": [
@@ -2293,35 +2245,6 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#1877F2",
-                    "name": "Facebook",
-                    "packageName": "com.facebook.katana",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "558.0.0.70.72",
-                            "versionCodes": {
-                                "ARM64_V8A": 470619290,
-                                "ARMEABI_V7A": 470619290,
-                                "X86": 470619290,
-                                "X86_64": 470619290
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Prevents sponsored stories from entering the Facebook main feed pool.",
-            "name": "Hide feed ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
                     "appIconColor": "#0084FF",
                     "name": "Messenger",
                     "packageName": "com.facebook.orca",
@@ -2581,64 +2504,6 @@
             "dependencies": [],
             "description": "Hides About, Resources, and Reddit Pro sections from the community sidebar.",
             "name": "Hide Sidebar Components",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1877F2",
-                    "name": "Facebook",
-                    "packageName": "com.facebook.katana",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "558.0.0.70.72",
-                            "versionCodes": {
-                                "ARM64_V8A": 470619290,
-                                "ARMEABI_V7A": 470619290,
-                                "X86": 470619290,
-                                "X86_64": 470619290
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Hides sponsored and promoted ad units in the Facebook main feed by suppressing their visibility dispatch.",
-            "name": "Hide sponsored stories",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1877F2",
-                    "name": "Facebook",
-                    "packageName": "com.facebook.katana",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "558.0.0.70.72",
-                            "versionCodes": {
-                                "ARM64_V8A": 470619290,
-                                "ARMEABI_V7A": 470619290,
-                                "X86": 470619290,
-                                "X86_64": 470619290
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Blocks ad insertion, deferred ad fetch, fetch-more-ads, and CTA/dwell tail-loads in Facebook stories.",
-            "name": "Hide story ads",
             "options": []
         },
         {
@@ -4728,35 +4593,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1877F2",
-                    "name": "Facebook",
-                    "packageName": "com.facebook.katana",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "558.0.0.70.72",
-                            "versionCodes": {
-                                "ARM64_V8A": 470619290,
-                                "ARMEABI_V7A": 470619290,
-                                "X86": 470619290,
-                                "X86_64": 470619290
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Suppresses the Meta Verified subscription prompt that appears after publishing posts.",
-            "name": "Suppress Meta Verified upsell",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#1565C0",
                     "name": "Unimote",
                     "packageName": "sensustech.universal.tv.remote.control",
@@ -5458,35 +5294,6 @@
             "dependencies": [],
             "description": "Unlocks all features locked behind the subscription paywall.",
             "name": "Unlock Lifetime Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1877F2",
-                    "name": "Facebook",
-                    "packageName": "com.facebook.katana",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "558.0.0.70.72",
-                            "versionCodes": {
-                                "ARM64_V8A": 470619290,
-                                "ARMEABI_V7A": 470619290,
-                                "X86": 470619290,
-                                "X86_64": 470619290
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Unlocks all Facebook Plus benefits and Meta AI premium tier by bypassing the benefit entitlement system and MobileConfig remote flag checks.",
-            "name": "Unlock Meta AI premium features",
             "options": []
         },
         {
