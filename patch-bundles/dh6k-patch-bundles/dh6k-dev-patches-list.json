@@ -1,6 +1,35 @@
 {
-    "version": "v1.2.0-dev.2",
+    "version": "v1.2.0-dev.3",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Quetta Browser",
+                    "packageName": "net.quetta.browser",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "name": "Quetta Browser Official",
+                    "packageName": "net.quetta.browser.official",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks bundled extension installation/reinstallation on arm64-v8a APKs (framework does not enforce ABI). Does not remove copies already present in existing profiles.",
+            "name": "Block Quetta bundled extension installation",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {

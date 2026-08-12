@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.1",
+    "version": "v1.6.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -41,6 +41,29 @@
             "dependencies": [],
             "description": "Neutralizes VOOM entry points — deep links, shares, and notifications do nothing and the standalone VOOM feed closes on open. Messaging and other tabs are unaffected.",
             "name": "Disable VOOM",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#06C755",
+                    "name": "LINE",
+                    "packageName": "jp.naver.line.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.11.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Routes chat-history backup's Google account picker and Drive token through GmsCore, so backup and restore work on re-signed builds. Requires MicroG-RE. Doesn't affect Google account login. Root Mount install does not need this patch.",
+            "name": "Fix chat backup sign-in via GmsCore",
             "options": []
         },
         {
