@@ -1,5 +1,5 @@
 {
-    "version": "v1.24.0-dev.7",
+    "version": "v1.25.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -105,6 +105,33 @@
             "dependencies": [],
             "description": "Turns off the Toolbar, Recommended contents, and Tool notifications channels by default.",
             "name": "Disable Notification Defaults",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player Pro",
+                    "packageName": "com.mxtech.videoplayer.pro",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                },
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the File Transfer, Video Playlist, and Private Folder tiles from the tools tile list.",
+            "name": "Hide File Transfer, Video Playlist, Private Folder tiles",
             "options": []
         },
         {
