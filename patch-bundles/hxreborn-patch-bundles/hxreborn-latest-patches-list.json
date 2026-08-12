@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -99,6 +99,26 @@
             ],
             "description": "Hides the top-bar upgrade button and promotional sidebar rows.",
             "name": "Hide upgrade upselling",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#F8991C",
+                    "name": "Audible",
+                    "packageName": "com.audible.application",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Opens the Library tab instead of Home on launch. Applies only while signed in.",
+            "name": "Open Library on launch",
             "options": []
         },
         {
@@ -279,7 +299,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets.",
+            "description": "Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets. The News feed is not included.",
             "name": "Unlock premium",
             "options": []
         }

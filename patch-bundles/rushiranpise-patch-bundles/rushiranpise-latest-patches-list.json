@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.0-dev.3",
+    "version": "v1.18.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -2510,35 +2510,6 @@
             ],
             "description": "Blanks the promoted post render method and forces promoted/ad flags to false at the model layer.",
             "name": "Hide Promoted Posts",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1877F2",
-                    "name": "Facebook",
-                    "packageName": "com.facebook.katana",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "558.0.0.70.72",
-                            "versionCodes": {
-                                "ARM64_V8A": 470619290,
-                                "ARMEABI_V7A": 470619290,
-                                "X86": 470619290,
-                                "X86_64": 470619290
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Suppresses the Reels ads floating CTA overlay and blocks playable ad activities.",
-            "name": "Hide Reels ads",
             "options": []
         },
         {

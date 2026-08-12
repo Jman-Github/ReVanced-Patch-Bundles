@@ -145,12 +145,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 30 | 12 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 29 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 330 | 229 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 329 | 229 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 137 | 4 | Generated |
 | [Stylus](#-stylus-bundle-patch-list) | 5 | 2 | Generated |
-| [HXReborn](#-hxreborn-bundle-patch-list) | 11 | 4 | Generated |
+| [HXReborn](#-hxreborn-bundle-patch-list) | 12 | 5 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 4 | 5 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 20 | 1 | Generated |
@@ -4725,7 +4725,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 330 patches, 228 apps</summary>
+<summary><b>Rushiranpise</b> - 329 patches, 228 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4820,7 +4820,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Excel``` | ```Removes login requirement, unlocks premium, blocks ads, bypasses signature and code transparency checks.``` | ```Excel``` | ```All versions``` |
 | ```Change package name``` | ```Installs Facebook beside the original by renaming the manifest package and provider authorities, removing duplicate permission declarations.``` | ```Facebook``` | ```All versions``` |
 | ```Hide feed ads``` | ```Prevents sponsored stories from entering the Facebook main feed pool.``` | ```Facebook``` | ```All versions``` |
-| ```Hide Reels ads``` | ```Suppresses the Reels ads floating CTA overlay and blocks playable ad activities.``` | ```Facebook``` | ```All versions``` |
 | ```Hide sponsored stories``` | ```Hides sponsored and promoted ad units in the Facebook main feed by suppressing their visibility dispatch.``` | ```Facebook``` | ```All versions``` |
 | ```Hide story ads``` | ```Blocks ad insertion, deferred ad fetch, fetch-more-ads, and CTA/dwell tail-loads in Facebook stories.``` | ```Facebook``` | ```All versions``` |
 | ```Suppress Meta Verified upsell``` | ```Suppresses the Meta Verified subscription prompt that appears after publishing posts.``` | ```Facebook``` | ```All versions``` |
@@ -5296,10 +5295,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 HXReborn Bundle Patch List:
 [📦 HXReborn-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hxreborn-patches-bundle-morphe)
 <details>
-<summary><b>HXReborn</b> - 11 patches, 4 apps</summary>
+<summary><b>HXReborn</b> - 12 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Open Library on launch``` | ```Opens the Library tab instead of Home on launch. Applies only while signed in.``` | ```Audible``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks all premium features.``` | ```ForusApp``` | ```All versions``` |
 | ```Disable tracking``` | ```Disables analytics and crash reporting.``` | ```Projectivy Launcher``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks all premium features.``` | ```Projectivy Launcher``` | ```All versions``` |
@@ -5310,7 +5310,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Spoof signature``` | ```Restores push notifications by spoofing the original app signature.``` | ```Proton Mail``` | ```All versions``` |
 | ```Unlock custom time picker``` | ```Enables picking a custom date and time when snoozing conversations and scheduling messages.``` | ```Proton Mail``` | ```All versions``` |
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Showly``` | ```All versions``` |
-| ```Unlock premium``` | ```Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets.``` | ```Showly``` | ```All versions``` |
+| ```Unlock premium``` | ```Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets. The News feed is not included.``` | ```Showly``` | ```All versions``` |
 
 </details>
 
