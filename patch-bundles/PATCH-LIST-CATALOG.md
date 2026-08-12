@@ -5835,7 +5835,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```ES File Explorer Cleanup``` | ```Removes selected ES File Explorer home tiles, menu actions, navigation header, media handler, and web-search entry.``` | ```ES File Explorer``` | ```All versions``` |
+| ```ES File Explorer Cleanup``` | ```Removes ES File Explorer home tiles/media, menu actions, navigation header, media handler, and web-search entry.``` | ```ES File Explorer``` | ```All versions``` |
 | ```Hide File Transfer, Video Playlist, Private Folder tiles``` | ```Removes the File Transfer, Video Playlist, and Private Folder tiles from the tools tile list.``` | ```MX Player Pro, MX Player``` | ```All versions``` |
 | ```Hide local tiles banner``` | ```Collapses the local device tiles banner.``` | ```MX Player Pro, MX Player``` | ```All versions``` |
 | ```Hide Me tab promo items``` | ```Collapses the WhatsApp, Legal, and Help entries on the Me tab.``` | ```MX Player Pro, MX Player``` | ```All versions``` |

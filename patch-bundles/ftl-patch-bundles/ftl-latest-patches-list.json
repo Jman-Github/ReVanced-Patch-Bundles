@@ -1,5 +1,5 @@
 {
-    "version": "v1.26.0-dev.5",
+    "version": "v1.26.0-dev.9",
     "patches": [
         {
             "compatiblePackages": null,
@@ -72,12 +72,12 @@
             "name": "Custom DPI (Universal)",
             "options": [
                 {
-                    "default": 100,
+                    "default": "100",
                     "description": "Scales this app's display relative to the device's own setting. 100% = no change, 150% = 1.5x larger, 50% = half size. Range 25-300%.",
                     "key": "dpi",
-                    "required": false,
+                    "required": true,
                     "title": "Display scale",
-                    "type": "kotlin.Long",
+                    "type": "kotlin.String",
                     "values": null
                 }
             ]
@@ -128,7 +128,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Removes selected ES File Explorer home tiles, menu actions, navigation header, media handler, and web-search entry.",
+            "description": "Removes ES File Explorer home tiles/media, menu actions, navigation header, media handler, and web-search entry.",
             "name": "ES File Explorer Cleanup",
             "options": []
         },
