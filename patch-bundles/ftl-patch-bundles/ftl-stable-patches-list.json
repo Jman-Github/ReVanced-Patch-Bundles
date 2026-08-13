@@ -1,5 +1,5 @@
 {
-    "version": "v1.25.0",
+    "version": "v1.27.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -72,12 +72,12 @@
             "name": "Custom DPI (Universal)",
             "options": [
                 {
-                    "default": 100,
+                    "default": "100",
                     "description": "Scales this app's display relative to the device's own setting. 100% = no change, 150% = 1.5x larger, 50% = half size. Range 25-300%.",
                     "key": "dpi",
-                    "required": false,
+                    "required": true,
                     "title": "Display scale",
-                    "type": "kotlin.Long",
+                    "type": "kotlin.String",
                     "values": null
                 }
             ]
@@ -105,6 +105,31 @@
             "dependencies": [],
             "description": "Turns off the Toolbar, Recommended contents, and Tool notifications channels by default.",
             "name": "Disable Notification Defaults",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "ES File Explorer",
+                    "packageName": "com.estrongs.android.pop",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.4.3.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 10353,
+                                "ARMEABI_V7A": 10353,
+                                "X86": 10353,
+                                "X86_64": 10353
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes ES File Explorer home tiles/media, menu actions, navigation header, media handler, and web-search entry.",
+            "name": "ES File Explorer Cleanup",
             "options": []
         },
         {

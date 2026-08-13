@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.12",
+    "version": "v1.11.13",
     "patches": [
         {
             "compatiblePackages": [
@@ -464,6 +464,18 @@
                     "name": "Wildberries",
                     "packageName": "com.wildberries.ru",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.7.5003-rustore",
+                            "versionCode": 61060
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.7.5003",
+                            "versionCode": 10061060
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 26,
