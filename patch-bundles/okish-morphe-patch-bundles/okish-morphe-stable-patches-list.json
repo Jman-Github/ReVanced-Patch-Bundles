@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.8.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -188,6 +188,48 @@
             "dependencies": [],
             "description": "Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.",
             "name": "Hill Climb Racing Instant Rewarded Video Rewards",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#8B0000",
+                    "name": "Into the Dead",
+                    "packageName": "com.sidheinteractive.sif.DR",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes all ads and grants rewarded-video rewards instantly: rewarded videos (legacy IronSource and LevelPlay), interstitials, launch, banner and AdMob App Open ads are all eliminated.",
+            "name": "Into the Dead Ad Removal",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#8B0000",
+                    "name": "Into the Dead",
+                    "packageName": "com.sidheinteractive.sif.DR",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all in-app purchases for free and bypasses SHA1withRSA receipt verification: every store item is granted instantly without launching the Google Play payment dialog, and any fabricated receipt is accepted.",
+            "name": "Into the Dead Billing Bypass",
             "options": []
         },
         {
