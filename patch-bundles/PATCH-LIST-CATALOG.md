@@ -69,7 +69,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 19 | 10 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 20 | 9 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 15 | 9 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 9 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -93,7 +93,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 45 | 32 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
-| [Anddea](#-anddea-bundle-patch-list) | 123 | 3 | Generated |
+| [Anddea](#-anddea-bundle-patch-list) | 122 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 128 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 11 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
@@ -627,7 +627,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 20 patches, 9 apps</summary>
+<summary><b>Okish-Morphe</b> - 15 patches, 9 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -640,13 +640,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```All versions``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```All versions``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```All versions``` |
-| ```Into the Dead Free IAP``` | ```Unlocks all in-app purchases for free: every store item is granted instantly without launching the Google Play payment dialog.``` | ```Into the Dead``` | ```All versions``` |
-| ```Into the Dead Instant Rewards``` | ```Skips rewarded video ads (legacy IronSource path): the reward is granted immediately without showing the ad.``` | ```Into the Dead``` | ```All versions``` |
-| ```Into the Dead Instant Rewards (LevelPlay)``` | ```Skips rewarded video ads (new LevelPlayRewardedAd API): the reward is granted immediately without showing the ad.``` | ```Into the Dead``` | ```All versions``` |
-| ```Into the Dead Remove Ads``` | ```Removes interstitial, launch and banner ads (legacy IronSource bridge): the C# interstitial-ready signal is killed, readiness polls return false, explicit loads are no-ops, and any show call completes the C# lifecycle instantly without displaying an ad.``` | ```Into the Dead``` | ```All versions``` |
-| ```Into the Dead Remove Ads (LevelPlay)``` | ```Safety nets for the new LevelPlay API: InterstitialAd.loadAd/showAd and BannerAd.load/showAd become no-ops and isAdReady returns false, so no interstitial or banner can ever display through the new API.``` | ```Into the Dead``` | ```All versions``` |
-| ```Into the Dead Remove App Open Ad``` | ```Removes the AdMob App Open full-screen ad (the one shown on the second launch): the load, show, pollAd preloader and lifecycle-trigger entry points on the com.google.unity.ads bridge all become no-ops, so an app open ad can never load or display.``` | ```Into the Dead``` | ```All versions``` |
-| ```Into the Dead Verify Bypass``` | ```Bypasses SHA1withRSA purchase receipt verification so fabricated purchase receipts are accepted.``` | ```Into the Dead``` | ```All versions``` |
+| ```Into the Dead Ad Removal``` | ```Removes all ads and grants rewarded-video rewards instantly: rewarded videos (legacy IronSource and LevelPlay), interstitials, launch, banner and AdMob App Open ads are all eliminated.``` | ```Into the Dead``` | ```All versions``` |
+| ```Into the Dead Billing Bypass``` | ```Unlocks all in-app purchases for free and bypasses SHA1withRSA receipt verification: every store item is granted instantly without launching the Google Play payment dialog, and any fabricated receipt is accepted.``` | ```Into the Dead``` | ```All versions``` |
 | ```Jetpack Joyride Billing Bypass``` | ```Intercepts all in-app purchases and reports instant success to the game engine.``` | ```Jetpack Joyride``` | ```All versions``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```All versions``` |
 | ```Swordigo Premium Unlock``` | ```Enables ad-free, guiding compass, and coin doubler without purchase.``` | ```Swordigo``` | ```All versions``` |
@@ -1602,7 +1597,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Anddea Bundle Patch List:
 [📦 Anddea-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-anddea-patches-bundle-morphe)
 <details>
-<summary><b>Anddea</b> - 123 patches, 3 apps</summary>
+<summary><b>Anddea</b> - 122 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1672,7 +1667,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Disable resuming Miniplayer on startup``` | ```Adds an option to disable the Miniplayer 'Continue watching' from resuming on app startup.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Disable resuming Shorts on startup``` | ```Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Disable sign in to TV popup``` | ```Adds an option to disable the popup asking to sign into a TV on the same local network.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
-| ```Disable splash animation``` | ```Adds an option to disable the splash animation on app startup.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Enable debug logging``` | ```Adds an option for debugging and exporting RVX logs to the clipboard.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Enable gradient loading screen``` | ```Adds an option to enable the gradient loading screen.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Force original audio``` | ```Adds an option to disable audio tracks from being automatically enabled.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
@@ -1691,12 +1685,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Hide shortcuts``` | ```Remove, at compile time, the app shortcuts that appears when the app icon is long pressed.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Hide Shorts dimming``` | ```Removes, at compile time, the dimming effect at the top and bottom of Shorts videos.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Hook download actions``` | ```Adds support to download videos with an external downloader app using the in-app download button.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
-| ```Hook YouTube Music actions``` | ```Adds support for opening music in RVX Music using the in-app YouTube Music button.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```MaterialYou``` | ```Applies the MaterialYou theme for Android 12+ devices.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Miniplayer``` | ```Adds options to change the in-app minimized player, and if patching target 19.16+ adds options to use modern miniplayers.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Navigation bar components``` | ```Adds options to hide or change components related to the navigation bar.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Open links externally``` | ```Adds an option to always open links in your browser instead of the in-app browser.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Overlay buttons``` | ```Adds options to display useful overlay buttons in the video player.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
+| ```Override YouTube Music buttons``` | ```Overrides YouTube Music buttons to open RVX Music or any compatible third-party client.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Playback in feeds``` | ```Adds the 'Playback in feeds' setting of YouTube to the RVX settings, where it is always available even if YouTube hides it.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Player components``` | ```Adds options to hide or change components related to the video player.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Reload video``` | ```Adds an option to display a button in the video player to reload the current video.``` | ```com.google.android.youtube``` | ```20.05.46, 20.51.39``` |
@@ -1716,7 +1710,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Spoof watch history``` | ```Adds an option to change the domain of the watch history or check its status.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Swipe controls``` | ```Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
-| ```Theme``` | ```Changes the app's themes to the values specified in patch options.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
+| ```Theme``` | ```Adds options to change the app's themes and splash screen style.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Toolbar components``` | ```Adds options to hide or change components located on the toolbar, such as the search bar, header, and toolbar buttons.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Translations for YouTube``` | ```Add translations or remove string resources.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
 | ```Video playback``` | ```Adds options to customize settings related to video playback, such as default video quality and playback speed.``` | ```com.google.android.youtube``` | ```19.43.41, 20.05.46, 20.51.39``` |
@@ -5845,7 +5839,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```ES File Explorer Cleanup``` | ```Removes ES File Explorer home tiles/media, menu actions, navigation header, media handler, and web-search entry.``` | ```ES File Explorer``` | ```All versions``` |
+| ```ES File Explorer Cleanup``` | ```Removes selected ES File Explorer home tiles, menu actions, navigation header, media handler, and web-search entry.``` | ```ES File Explorer``` | ```All versions``` |
 | ```Hide File Transfer, Video Playlist, Private Folder tiles``` | ```Removes the File Transfer, Video Playlist, and Private Folder tiles from the tools tile list.``` | ```MX Player Pro, MX Player``` | ```All versions``` |
 | ```Hide local tiles banner``` | ```Collapses the local device tiles banner.``` | ```MX Player Pro, MX Player``` | ```All versions``` |
 | ```Hide Me tab promo items``` | ```Collapses the WhatsApp, Legal, and Help entries on the Me tab.``` | ```MX Player Pro, MX Player``` | ```All versions``` |
