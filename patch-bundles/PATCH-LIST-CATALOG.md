@@ -170,7 +170,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [TikTok-Lite](#-tiktok-lite-bundle-patch-list) | 35 | 2 | Generated |
 | [Niconico-YT](#-niconico-yt-bundle-patch-list) | 1 | 1 | Generated |
 | [Alastor-Kaneki](#-alastor-kaneki-bundle-patch-list) | 1 | 1 | Generated |
-| [NuvioTV](#-nuviotv-bundle-patch-list) | 8 | 1 | Generated |
+| [NuvioTV](#-nuviotv-bundle-patch-list) | 9 | 1 | Generated |
 | [GoldRift](#-goldrift-bundle-patch-list) | 1 | 1 | Generated |
 | [RoundSalmon4](#-roundsalmon4-bundle-patch-list) | 1 | 1 | Generated |
 | [Dexnis](#-dexnis-bundle-patch-list) | 1 | 1 | Generated |
@@ -5684,7 +5684,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 NuvioTV Bundle Patch List:
 [📦 NuvioTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nuviotv-patches-bundle-morphe)
 <details>
-<summary><b>NuvioTV</b> - 8 patches, 1 app</summary>
+<summary><b>NuvioTV</b> - 9 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5696,6 +5696,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Random Episode``` | ```Adds Morphe > Detail Page > Show Random Episode Button and random series playback.``` | ```NuvioTV``` | ```All versions``` |
 | ```Rating Visibility``` | ```Adds Settings > Morphe > Ratings with independent overall and episode rating controls.``` | ```NuvioTV``` | ```All versions``` |
 | ```Remove SDH Annotations``` | ```Adds Settings → Morphe → Subtitles and removes SDH annotations from Media3 subtitles when enabled.``` | ```NuvioTV``` | ```All versions``` |
+| ```Restore Source Selection``` | ```Returns the source picker to the source played before leaving the player.``` | ```NuvioTV``` | ```All versions``` |
 
 </details>
 
