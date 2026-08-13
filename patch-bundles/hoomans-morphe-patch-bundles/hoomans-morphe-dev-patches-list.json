@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0-dev.3",
+    "version": "v1.44.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -1141,15 +1141,15 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Required for the map to load. Patching breaks Moovit's built-in Google Maps key, so you have to supply your own from a free Google Cloud project. In this patch's option, create a project, enable Maps SDK for Android, turn on billing, make an API key, and paste it in (leaving it unrestricted is easiest). Remove ads and Unlock Moovit+ both pull this in, so the map keeps working with either.",
+            "description": "Required for maps and exact-address search. Patching breaks Moovit's built-in Google Maps Platform key, so supply your own from a Google Cloud project. Enable Maps SDK for Android, Places API (New), and Geocoding API, turn on billing, create an API key, and paste it in (leaving it unrestricted is easiest). Remove ads and Unlock Moovit+ both pull this in.",
             "name": "Use your own Maps API key [REQUIRED]",
             "options": [
                 {
                     "default": null,
-                    "description": "Your own Google Maps Android API key (free). In the Google Cloud Console: create a project, enable \"Maps SDK for Android\", and turn on billing for the project (Maps needs a billing account, but normal use stays inside the free monthly credit). Then under Credentials create an API key and paste it here. Easiest is to leave the key unrestricted. If you do restrict it, set Application restrictions to Android apps and add package com.tranzmate with the SHA-1 of the certificate your patched build is signed with (read it from the patched APK). A blank map means the key is empty, restricted to a different cert, or its project is missing \"Maps SDK for Android\" or billing.",
+                    "description": "Your own Google Maps Platform key. In the Google Cloud Console, enable \"Maps SDK for Android\", \"Places API (New)\", and \"Geocoding API\", turn on billing, then create an API key and paste it here. Leaving the key unrestricted is easiest. If you restrict it, set Application restrictions to Android apps and add package com.tranzmate with the SHA-1 of the certificate your patched build is signed with. Also allow all three APIs under API restrictions. A blank map or missing exact-address results means the key, certificate restriction, API list, or billing setup is incomplete.",
                     "key": "mapsApiKey",
                     "required": true,
-                    "title": "Google Maps API key",
+                    "title": "Google Maps Platform API key",
                     "type": "kotlin.String",
                     "values": null
                 }

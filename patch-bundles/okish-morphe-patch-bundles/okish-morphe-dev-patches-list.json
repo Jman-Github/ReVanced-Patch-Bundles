@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0-dev.1",
+    "version": "v1.8.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -188,6 +188,153 @@
             "dependencies": [],
             "description": "Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.",
             "name": "Hill Climb Racing Instant Rewarded Video Rewards",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#8B0000",
+                    "name": "Into the Dead",
+                    "packageName": "com.sidheinteractive.sif.DR",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all in-app purchases for free: every store item is granted instantly without launching the Google Play payment dialog.",
+            "name": "Into the Dead Free IAP",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#8B0000",
+                    "name": "Into the Dead",
+                    "packageName": "com.sidheinteractive.sif.DR",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips rewarded video ads (legacy IronSource path): the reward is granted immediately without showing the ad.",
+            "name": "Into the Dead Instant Rewards",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#8B0000",
+                    "name": "Into the Dead",
+                    "packageName": "com.sidheinteractive.sif.DR",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips rewarded video ads (new LevelPlayRewardedAd API): the reward is granted immediately without showing the ad.",
+            "name": "Into the Dead Instant Rewards (LevelPlay)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#8B0000",
+                    "name": "Into the Dead",
+                    "packageName": "com.sidheinteractive.sif.DR",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes interstitial, launch and banner ads (legacy IronSource bridge): the C# interstitial-ready signal is killed, readiness polls return false, explicit loads are no-ops, and any show call completes the C# lifecycle instantly without displaying an ad.",
+            "name": "Into the Dead Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#8B0000",
+                    "name": "Into the Dead",
+                    "packageName": "com.sidheinteractive.sif.DR",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Safety nets for the new LevelPlay API: InterstitialAd.loadAd/showAd and BannerAd.load/showAd become no-ops and isAdReady returns false, so no interstitial or banner can ever display through the new API.",
+            "name": "Into the Dead Remove Ads (LevelPlay)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#8B0000",
+                    "name": "Into the Dead",
+                    "packageName": "com.sidheinteractive.sif.DR",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the AdMob App Open full-screen ad (the one shown on the second launch): the load, show, pollAd preloader and lifecycle-trigger entry points on the com.google.unity.ads bridge all become no-ops, so an app open ad can never load or display.",
+            "name": "Into the Dead Remove App Open Ad",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#8B0000",
+                    "name": "Into the Dead",
+                    "packageName": "com.sidheinteractive.sif.DR",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses SHA1withRSA purchase receipt verification so fabricated purchase receipts are accepted.",
+            "name": "Into the Dead Verify Bypass",
             "options": []
         },
         {

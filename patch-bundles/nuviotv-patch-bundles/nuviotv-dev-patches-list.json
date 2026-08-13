@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.18",
+    "version": "v1.0.0-dev.19",
     "patches": [
         {
             "compatiblePackages": [
@@ -11,7 +11,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.3-beta"
+                            "version": "0.8.4-beta"
                         }
                     ]
                 }
@@ -35,7 +35,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.3-beta"
+                            "version": "0.8.4-beta"
                         }
                     ]
                 }
@@ -56,7 +56,31 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.3-beta"
+                            "version": "0.8.4-beta"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Downloads selected direct movie and episode sources to local storage for exact local playback.",
+            "name": "Local Downloads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#111827",
+                    "name": "NuvioTV",
+                    "packageName": "com.nuvio.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.8.4-beta"
                         }
                     ]
                 }
@@ -80,7 +104,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.3-beta"
+                            "version": "0.8.4-beta"
                         }
                     ]
                 }
@@ -104,7 +128,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.3-beta"
+                            "version": "0.8.4-beta"
                         }
                     ]
                 }
@@ -128,7 +152,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.3-beta"
+                            "version": "0.8.4-beta"
                         }
                     ]
                 }
@@ -152,7 +176,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.3-beta"
+                            "version": "0.8.4-beta"
                         }
                     ]
                 }

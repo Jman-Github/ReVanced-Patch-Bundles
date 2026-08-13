@@ -69,7 +69,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 19 | 10 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 13 | 8 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 20 | 9 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 9 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -88,7 +88,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 13 | 6 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 53 | 40 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 54 | 41 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 45 | 32 | Generated |
@@ -170,7 +170,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [TikTok-Lite](#-tiktok-lite-bundle-patch-list) | 35 | 2 | Generated |
 | [Niconico-YT](#-niconico-yt-bundle-patch-list) | 1 | 1 | Generated |
 | [Alastor-Kaneki](#-alastor-kaneki-bundle-patch-list) | 1 | 1 | Generated |
-| [NuvioTV](#-nuviotv-bundle-patch-list) | 7 | 1 | Generated |
+| [NuvioTV](#-nuviotv-bundle-patch-list) | 8 | 1 | Generated |
 | [GoldRift](#-goldrift-bundle-patch-list) | 1 | 1 | Generated |
 | [RoundSalmon4](#-roundsalmon4-bundle-patch-list) | 1 | 1 | Generated |
 | [Dexnis](#-dexnis-bundle-patch-list) | 1 | 1 | Generated |
@@ -627,7 +627,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 13 patches, 8 apps</summary>
+<summary><b>Okish-Morphe</b> - 20 patches, 9 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -640,6 +640,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```All versions``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```All versions``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```All versions``` |
+| ```Into the Dead Free IAP``` | ```Unlocks all in-app purchases for free: every store item is granted instantly without launching the Google Play payment dialog.``` | ```Into the Dead``` | ```All versions``` |
+| ```Into the Dead Instant Rewards``` | ```Skips rewarded video ads (legacy IronSource path): the reward is granted immediately without showing the ad.``` | ```Into the Dead``` | ```All versions``` |
+| ```Into the Dead Instant Rewards (LevelPlay)``` | ```Skips rewarded video ads (new LevelPlayRewardedAd API): the reward is granted immediately without showing the ad.``` | ```Into the Dead``` | ```All versions``` |
+| ```Into the Dead Remove Ads``` | ```Removes interstitial, launch and banner ads (legacy IronSource bridge): the C# interstitial-ready signal is killed, readiness polls return false, explicit loads are no-ops, and any show call completes the C# lifecycle instantly without displaying an ad.``` | ```Into the Dead``` | ```All versions``` |
+| ```Into the Dead Remove Ads (LevelPlay)``` | ```Safety nets for the new LevelPlay API: InterstitialAd.loadAd/showAd and BannerAd.load/showAd become no-ops and isAdReady returns false, so no interstitial or banner can ever display through the new API.``` | ```Into the Dead``` | ```All versions``` |
+| ```Into the Dead Remove App Open Ad``` | ```Removes the AdMob App Open full-screen ad (the one shown on the second launch): the load, show, pollAd preloader and lifecycle-trigger entry points on the com.google.unity.ads bridge all become no-ops, so an app open ad can never load or display.``` | ```Into the Dead``` | ```All versions``` |
+| ```Into the Dead Verify Bypass``` | ```Bypasses SHA1withRSA purchase receipt verification so fabricated purchase receipts are accepted.``` | ```Into the Dead``` | ```All versions``` |
 | ```Jetpack Joyride Billing Bypass``` | ```Intercepts all in-app purchases and reports instant success to the game engine.``` | ```Jetpack Joyride``` | ```All versions``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```All versions``` |
 | ```Swordigo Premium Unlock``` | ```Enables ad-free, guiding compass, and coin doubler without purchase.``` | ```Swordigo``` | ```All versions``` |
@@ -965,7 +972,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### ?? Hoomans-Morphe Bundle Patch List:
 [?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 53 patches, 40 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 54 patches, 41 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -981,6 +988,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium``` | ```Turns on ChatBoost premium so the app's paid features and UI open up. Premium is decided by a single internal flag holder whose two flags both ship hardcoded off, so forcing them on makes the entitlement flow report premium no matter what Google Play Billing says, and every gate reads that one flow. One thing to know: ChatBoost is bring your own key, so the AI runs on your own provider API keys and was never part of the subscription. This unlocks the client-side paid features and UX, not free AI usage. The AI already runs on your keys.``` | ```ChatBoost``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Collectr's premium features without a subscription, like unlimited collections, price alerts, and the advanced analytics. This is the arm64 build. Anything Collectr serves from its own servers still needs the real subscription.``` | ```Collectr``` | ```All versions``` |
 | ```Unlock Gold``` | ```Unlocks Cronometer Gold without a subscription, like custom charts, advanced reports, the fasting tracker, custom biometrics, an ad-free view, and more. Anything Cronometer works out on its own servers still needs Gold.``` | ```Cronometer``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks DirectChat's premium without the in-app purchase, so the chat-head styles and themes, extra bubble options and the other paid settings all open, and the ad inside the message bubble is hidden too. Premium is a local flag the app seeds from its own purchase, so the unlock holds across restarts on a free account.``` | ```DirectChat``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Essence's premium tools without a subscription, like the detailed statistics and insights, custom themes, app lock, data export, and more. They run on your device, so they work offline. The AI recovery coach and anything else Essence makes on its servers still needs the real subscription.``` | ```Essence``` | ```All versions``` |
 | ```Unlock Plus``` | ```Unlocks Finch Plus features without a subscription, including the Plus shop items, extra themes and customization, seasonal event tiers, the monthly recap, and Plus insights. It also clears the upgrade prompts. This is the arm64 build. Cloud backup and cross-device sync run on Finch's own servers and still need the real subscription. Re-signing breaks Google sign-in, so log in with email instead.``` | ```Finch``` | ```All versions``` |
 | ```Remove ads``` | ```Removes the ads in Flightradar24. The Gold map layers, flight history, and 3D view are produced on Flightradar24's servers and still need a subscription.``` | ```Flightradar24``` | ```All versions``` |
@@ -995,7 +1003,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium``` | ```Unlocks Money Manager's premium and removes the ads: passcode lock, more accounts, custom categories and themes, repeat transactions, advanced stats, and local backup all open. PC/web sync and cloud backup stay tied to the server (it issues an expiry the app checks online), so those keep needing a real subscription.``` | ```Money Manager``` | ```All versions``` |
 | ```Remove ads``` | ```Removes the ads Moovit shows around the map and search and between screens.``` | ```Moovit``` | ```All versions``` |
 | ```Unlock Moovit+``` | ```Unlocks the Moovit+ extras without paying, like the extra sort and time-of-travel options and compare-on-map, and stops the upgrade-to-Moovit+ popups that nag you on app open. Things Moovit runs on its servers, like transit ticketing, still need the real subscription. Pair this with Remove ads for the ad-free part of Moovit+.``` | ```Moovit``` | ```All versions``` |
-| ```Use your own Maps API key [REQUIRED]``` | ```Required for the map to load. Patching breaks Moovit's built-in Google Maps key, so you have to supply your own from a free Google Cloud project. In this patch's option, create a project, enable Maps SDK for Android, turn on billing, make an API key, and paste it in (leaving it unrestricted is easiest). Remove ads and Unlock Moovit+ both pull this in, so the map keeps working with either.``` | ```Moovit``` | ```All versions``` |
+| ```Use your own Maps API key [REQUIRED]``` | ```Required for maps and exact-address search. Patching breaks Moovit's built-in Google Maps Platform key, so supply your own from a Google Cloud project. Enable Maps SDK for Android, Places API (New), and Geocoding API, turn on billing, create an API key, and paste it in (leaving it unrestricted is easiest). Remove ads and Unlock Moovit+ both pull this in.``` | ```Moovit``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Poweramp's full version state and Feature Package #1.``` | ```Poweramp``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Projectivy Launcher's premium so the paywall stops sending you to the upgrade screen. Display profiles, custom wallpapers and backgrounds, parental controls, and the locked settings and customization options all open up. The gate is decided on the device, so there is no account to sign in to.``` | ```Projectivy Launcher``` | ```All versions``` |
 | ```Unlock Plus``` | ```Removes ads and unlocks the on-device Quizlet Plus features without a subscription, including unlimited Learn and Test rounds and textbook explanation views that free accounts meter. The AI tools, like Magic Notes and generation, run on Quizlet's servers and stay locked.``` | ```Quizlet``` | ```All versions``` |
@@ -5677,12 +5685,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 NuvioTV Bundle Patch List:
 [📦 NuvioTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nuviotv-patches-bundle-morphe)
 <details>
-<summary><b>NuvioTV</b> - 7 patches, 1 app</summary>
+<summary><b>NuvioTV</b> - 8 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Allow Importing Subs from Local Storage``` | ```Imports device subtitle files into Nuvio's ExoPlayer subtitle menu without rebuilding active playback.``` | ```NuvioTV``` | ```All versions``` |
 | ```Library Mode Focus Fix``` | ```Returns Library focus to the previously selected Saved or Cloud mode.``` | ```NuvioTV``` | ```All versions``` |
+| ```Local Downloads``` | ```Downloads selected direct movie and episode sources to local storage for exact local playback.``` | ```NuvioTV``` | ```All versions``` |
 | ```Local Media``` | ```Adds Library > Storage playback, folder selection, and same-basename sidecar subtitles for local video files.``` | ```NuvioTV``` | ```All versions``` |
 | ```Mark SDH Subtitles``` | ```Marks explicitly labelled SDH tracks and detected English SDH subtitle files.``` | ```NuvioTV``` | ```All versions``` |
 | ```Random Episode``` | ```Adds Morphe > Detail Page > Show Random Episode Button and random series playback.``` | ```NuvioTV``` | ```All versions``` |
