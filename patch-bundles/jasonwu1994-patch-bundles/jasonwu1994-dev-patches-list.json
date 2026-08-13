@@ -1,6 +1,18 @@
 {
-    "version": "v2.8.0-dev.2",
+    "version": "v2.9.0-dev.2",
     "patches": [
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.7.7.932364120-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "切換新版或舊版 Access Points 選單樣式\nSwitch between the new and legacy Access Points menu styles.",
+            "name": "Access Points menu style",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "com.google.android.inputmethod.latin": [
@@ -34,6 +46,18 @@
             "dependencies": [],
             "description": "啟用 AI 撰寫工具，支援所有語言\nEnable AI writing tools with support for all languages.",
             "name": "AI Writing Tools",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.7.7.932364120-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "變更表情符號大小\nChange emoji size.",
+            "name": "Change emoji size",
             "options": [],
             "use": true
         },
@@ -104,6 +128,30 @@
                 ]
             },
             "dependencies": [],
+            "description": "啟用無障礙鍵盤配置\nEnable accessibility layout.",
+            "name": "Enable accessibility layout",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.7.7.932364120-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "長按空白鍵開啟游標觸控板與鎖定模式\nLong-press the space bar to use cursor trackpad and lock modes.",
+            "name": "Enable cursor trackpad mode",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.7.7.932364120-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
             "description": "啟用內嵌自動填入建議\nEnable Inline Autofill Suggestions",
             "name": "Enable Inline Autofill Suggestions",
             "options": [],
@@ -118,6 +166,18 @@
             "dependencies": [],
             "description": "啟用 OCR / 掃描文字功能，支援 拉丁、中文、日文、韓文 與 天城文 辨識後端\nEnable the OCR / Scan Text feature with Latin, Chinese, Japanese, Korean, and Devanagari recognition backends.",
             "name": "Enable OCR / Scan Text",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "17.7.7.932364120-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "啟用分離式鍵盤\nEnable the split keyboard layout.",
+            "name": "Enable split keyboard",
             "options": [],
             "use": true
         },

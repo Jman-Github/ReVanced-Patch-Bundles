@@ -120,7 +120,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 2 | 1 | Generated |
-| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 25 | 1 | Generated |
+| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 30 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
 | [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 60 | 23 | Generated |
 | [Binarymend](#-binarymend-bundle-patch-list) | 11 | 7 | Generated |
@@ -4102,20 +4102,25 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Jasonwu1994 Bundle Patch List:
 [📦 Jasonwu1994-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jasonwu1994-patches-bundle-morphe)
 <details>
-<summary><b>Jasonwu1994</b> - 25 patches, 1 app</summary>
+<summary><b>Jasonwu1994</b> - 30 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Access Points menu style``` | ```切換新版或舊版 Access Points 選單樣式 Switch between the new and legacy Access Points menu styles.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Add Gboard Signature Bypass``` | ```攔截 Gboard 的簽章白名單檢查並強制通過 Bypass Gboard signature whitelist checks and force them to pass.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Advanced Voice Typing``` | ```啟用進階語音輸入（包含自動標點功能），並另外為不支援進階語音輸入的繁體中文語音啟用自動標點 Enable Advanced Voice Typing with automatic punctuation, and separately enable automatic punctuation for Traditional Chinese voice typing, which does not support Advanced Voice Typing.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```AI Writing Tools``` | ```啟用 AI 撰寫工具，支援所有語言 Enable AI writing tools with support for all languages.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
+| ```Change emoji size``` | ```變更表情符號大小 Change emoji size.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Clipboard Custom Character Limit``` | ```自訂每個文字剪貼簿項目的最大字元數 Customize the maximum character count for each text clipboard item.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Clipboard Enhancements``` | ```增強剪貼簿的保留時間、數量上限、預覽行數、倒數/建立時間、順序編號與欄數 Enhance clipboard retention time, item count limit, preview lines, countdown/creation time labels, order index, and column count.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Custom Symbols``` | ```新增獨立的特殊符號分頁，長按逗號->愛心 Add a dedicated custom symbols tab and replace the long-press comma entry with a heart shortcut.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Developer options``` | ```啟用 開發人員選項 與 Flag 編輯器，你可以自己修改Flag的值 Enable Developer options and the Flag Editor, allowing you to modify flag values.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Emojis, stickers & GIFs Tab Order``` | ```自訂 Gboard「Emojis, stickers & GIFs」底部 tabs 的排序，支援拖曳調整 Customize the bottom tab order in Gboard's Emojis, stickers & GIFs panel with drag-and-drop reordering.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
+| ```Enable accessibility layout``` | ```啟用無障礙鍵盤配置 Enable accessibility layout.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
+| ```Enable cursor trackpad mode``` | ```長按空白鍵開啟游標觸控板與鎖定模式 Long-press the space bar to use cursor trackpad and lock modes.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Enable Inline Autofill Suggestions``` | ```啟用內嵌自動填入建議 Enable Inline Autofill Suggestions``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Enable OCR / Scan Text``` | ```啟用 OCR / 掃描文字功能，支援 拉丁、中文、日文、韓文 與 天城文 辨識後端 Enable the OCR / Scan Text feature with Latin, Chinese, Japanese, Korean, and Devanagari recognition backends.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
+| ```Enable split keyboard``` | ```啟用分離式鍵盤 Enable the split keyboard layout.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```English QWERTY Up-Flick Uppercase``` | ```英文 QWERTY 鍵盤上滑大小寫 Flick up on the English QWERTY keyboard to toggle uppercase and lowercase.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Grammar Checker``` | ```啟用 修正和建議 > 文法檢查 Enable Text correction > Grammar check.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
 | ```Incognito Mode Toggle``` | ```在 Access Point 工具列新增無痕模式切換按鈕，並可設定無痕模式下是否啟用剪貼簿與語音輸入 Add an Incognito toggle to the Access Point toolbar and configure clipboard and voice typing availability while Incognito mode is active.``` | ```com.google.android.inputmethod.latin``` | ```17.7.7.932364120-release-arm64-v8a``` |
