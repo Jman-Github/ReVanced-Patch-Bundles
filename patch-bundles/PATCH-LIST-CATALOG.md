@@ -175,7 +175,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RoundSalmon4](#-roundsalmon4-bundle-patch-list) | 1 | 1 | Generated |
 | [Dexnis](#-dexnis-bundle-patch-list) | 1 | 1 | Generated |
 | [HU-Liberator](#-hu-liberator-bundle-patch-list) | 11 | 2 | Generated |
-| [JonnyVR1](#-jonnyvr1-bundle-patch-list) | 10 | 1 | Generated |
+| [JonnyVR1](#-jonnyvr1-bundle-patch-list) | 13 | 1 | Generated |
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 | [PetalMaps-AndroidAuto](#-petalmaps-androidauto-bundle-patch-list) | 8 | 1 | Generated |
@@ -5762,10 +5762,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 JonnyVR1 Bundle Patch List:
 [📦 JonnyVR1-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jonnyvr1-patches-bundle-morphe)
 <details>
-<summary><b>JonnyVR1</b> - 10 patches, 1 app</summary>
+<summary><b>JonnyVR1</b> - 13 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```AB Test Override``` | ```Overrides A/B test values to enable beneficial features: instant match, quick message, batch icebreak, chat optimization, letter features, me tab revamp, push enhancements, verified chat, tiered membership, platinum membership, surprise box, anti-harass customization``` | ```Tantan``` | ```All versions``` |
 | ```Ad Removal``` | ```Removes all ad displays: navigation bar banner, native feed ads, live streaming banner ads, live video feed ads, live square ads, conversation Google ads, marriage guide card, four-select-one card, daily selection card, visitor list ads, likers ads, meet likers ads, meet visitor ads, splash screen ads, profile photo carousel ads, incentive video ads, fake splash view, video ad player, official advert, ad reward dialogs, live streaming ad user, treasure prize ads``` | ```Tantan``` | ```All versions``` |
 | ```Analytics Disable``` | ```Disables all analytics and telemetry for privacy``` | ```Tantan``` | ```All versions``` |
 | ```Dialog Cleanup``` | ```Removes annoying promotional dialogs: 5-star rating, appstore rating, version upgrade, offline popup, notification permission, phone auth prompts, purchase pages, purchase confirm, overheat popup, phone verify``` | ```Tantan``` | ```All versions``` |
@@ -5774,7 +5775,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Messaging Enhancement``` | ```Removes message limits, unlimited pin chat, voice/video calls, quick chat, typing indicator, free gifts, letter, greeting, ice breaker, read receipts, AI translation, message recall, group chat, live chat, message filter, chat partner config, ODiamond visitor config, prologue config, love buzz data, secret crush limit, boost limit, message tab revision, collapsible conversation, chat helper AI, call duration, conversation refresh interval, heartbeat match, message integration, assistant message clear, love buzz prolong count, ice break dialog config, continues op conv config``` | ```Tantan``` | ```All versions``` |
 | ```Premium Unlock``` | ```Unlocks all premium features, tier statuses, subscription validation, and display``` | ```Tantan``` | ```All versions``` |
 | ```Privacy Controls``` | ```Unlocks privacy features: hide from nearby, visitor footprint hiding, mysterious mode, nearby people access, read receipt unlock, read receipt dialog suppression, contact access block, location privacy, privacy settings force enable, hide activity time, hide age, hide icon, frozen activity, frozen time, hide distance, core service privacy gate, hide active from SVip, disable ad suggestions, live stealth privacy, online status visibility, hide VIP badge, heartbeat disable, verified user messages, online reminder, unreplied reminder, greeting do not disturb, only show about me inside``` | ```Tantan``` | ```All versions``` |
-| ```Privacy Enhancement``` | ```Advanced privacy protections: root/emulator detection bypass, ShuMeng SDK blocking, Facebook SDK emulator detection bypass, APK signature verification bypass, package enumeration prevention``` | ```Tantan``` | ```All versions``` |
+| ```Privacy Enhancement``` | ```Advanced privacy protections: root/emulator detection bypass, ShuMeng SDK blocking, Facebook SDK emulator detection bypass, APK signature verification bypass, package enumeration prevention, VPN/proxy detection bypass, overlay detection bypass``` | ```Tantan``` | ```All versions``` |
+| ```Remote Config Override``` | ```Overrides remote configuration values: disables popup scheduling, prevents aggressive token expiry, removes quick chat limits, disables text buzz auto-delete``` | ```Tantan``` | ```All versions``` |
+| ```Search Discovery``` | ```Enhances search and discovery: disables auto-adjust radius, removes invisible radius, enables Gaea distance algorithm, expands liked user and visitor filter ranges``` | ```Tantan``` | ```All versions``` |
 | ```UI Cleanup``` | ```Removes guides, banners, stickers, decorations, and AI prompts``` | ```Tantan``` | ```All versions``` |
 
 </details>
