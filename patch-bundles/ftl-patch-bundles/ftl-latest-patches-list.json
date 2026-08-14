@@ -1,5 +1,5 @@
 {
-    "version": "v1.30.0",
+    "version": "v1.31.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -334,6 +334,25 @@
             "dependencies": [],
             "description": "Moves the launcher intent filters and app shortcuts from the welcome/splash activity to the main activity, so the app boots straight past the splash and update screen.",
             "name": "Skip welcome screen",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Xender",
+                    "packageName": "cn.xender",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.8.0.prime"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Enters the main activity directly after the splash permission check instead of delaying for the additional external-storage check.",
+            "name": "Speed up splash screen",
             "options": []
         }
     ]
