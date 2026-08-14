@@ -1,5 +1,5 @@
 {
-    "version": "v1.15.0",
+    "version": "v1.16.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -706,6 +706,26 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks PinOut Premium. Just Tap Get Premium and Restore Purchase When Prompted",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF6D00",
+                    "name": "Six Pack in 30 Days",
+                    "packageName": "sixpack.sixpackabs.absworkout",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.8"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Premium",
             "name": "Enable Premium",
             "options": []
         },

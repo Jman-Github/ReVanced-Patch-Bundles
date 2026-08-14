@@ -154,7 +154,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 5 | 7 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 21 | 1 | Generated |
-| [Morning-Entree](#-morning-entree-bundle-patch-list) | 52 | 93 | Generated |
+| [Morning-Entree](#-morning-entree-bundle-patch-list) | 53 | 94 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
 | [Yandex-VoT](#-yandex-vot-bundle-patch-list) | 1 | 1 | Generated |
@@ -5358,7 +5358,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morning-Entree Bundle Patch List:
 [📦 Morning-Entree-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morning-entree-patches-bundle-morphe)
 <details>
-<summary><b>Morning-Entree</b> - 52 patches, 93 apps</summary>
+<summary><b>Morning-Entree</b> - 53 patches, 94 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5399,6 +5399,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Unlocks Pinnit Pro. Just Tap Restore Purchase When Prompted. Must be installed with either ADB/InstallerX Revived/Inure so it is not in Restricted Mode``` | ```Pinnit``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks PinOut Premium. Just Tap Get Premium and Restore Purchase When Prompted``` | ```PinOut``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Projectivy Launcher Premium``` | ```Projectivy Launcher``` | ```All versions``` |
+| ```Enable Premium``` | ```Unlocks Premium``` | ```Six Pack in 30 Days``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks Sleep as Android Premium. Tap Wait I already Paid when Prompted``` | ```Sleep as Android``` | ```All versions``` |
 | ```Enable Full Version``` | ```Unlocks the full version of Smart AudioBook Player``` | ```Smart AudioBook Player``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks Smash Hit. Just Tap Get Premium and Restore Purchase When Prompted``` | ```Smash Hit``` | ```All versions``` |
