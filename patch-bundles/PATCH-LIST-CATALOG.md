@@ -6048,10 +6048,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable ads``` | ```Removes Google IMA ad insertion (client-side and server-side DAI) from the ZEE5 player. The media source factory is returned DRM-configured but with ad-insertion components never attached, so content and DRM playback are unaffected.``` | ```ZEE5 Android TV``` | ```5.83.2``` |
-| ```Disable analytics``` | ```Disables all third-party analytics (CleverTap, Firebase, Mixpanel, videoanalytics) by short-circuiting the central analytics dispatch method. No tracking data is sent.``` | ```ZEE5 Android TV``` | ```5.83.2``` |
-| ```Disable CleverTap``` | ```Prevents the CleverTap analytics SDK from initializing, stopping behavioral tracking and advertising-id (GAID) collection.``` | ```ZEE5 Android TV``` | ```5.83.2``` |
-| ```Disable Firebase analytics``` | ```Prevents Firebase Analytics from initializing, stopping event and user-property reporting to Google.``` | ```ZEE5 Android TV``` | ```5.83.2``` |
+| ```Disable ads``` | ```Removes Google IMA ad insertion (client-side and server-side DAI) from the ZEE5 player. The media source factory is returned DRM-configured but with ad-insertion components never attached, so content and DRM playback are unaffected.``` | ```ZEE5 Android TV``` | ```All versions``` |
+| ```Disable analytics``` | ```Disables all third-party analytics (CleverTap, Firebase, Mixpanel, videoanalytics) by short-circuiting the central analytics dispatch method. No tracking data is sent.``` | ```ZEE5 Android TV``` | ```All versions``` |
+| ```Disable CleverTap``` | ```Prevents the CleverTap analytics SDK from initializing, stopping behavioral tracking and advertising-id (GAID) collection.``` | ```ZEE5 Android TV``` | ```All versions``` |
+| ```Disable Firebase analytics``` | ```Prevents Firebase Analytics from initializing, stopping event and user-property reporting to Google.``` | ```ZEE5 Android TV``` | ```All versions``` |
 
 </details>
 
@@ -6063,15 +6063,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Bypass certificate checks``` | ```Bypasses certificate pinning so intercepted TLS connections are accepted.``` | ```BaridiMob``` | ```1.29.1``` |
-| ```Disable analytics and crash reporting``` | ```Disables analytics and crash reporting while keeping push notifications.``` | ```BaridiMob``` | ```1.29.1``` |
-| ```Disable root detection``` | ```Disables the rooted-device check so the app runs on rooted devices.``` | ```BaridiMob``` | ```1.29.1``` |
-| ```Disable developer options detection``` | ```Stops the app from detecting that Developer Options or USB debugging are enabled on the device, removing the blocking security dialog.``` | ```My Ooredoo``` | ```1.5.13``` |
-| ```Disable Play Integrity``` | ```Short-circuits the Google Play Integrity attestation request with a "DISABLED" response, avoiding failures on modified or non-Play builds.``` | ```My Ooredoo``` | ```1.5.13``` |
-| ```Disable root & emulator detection``` | ```Forces every root, jailbreak, emulator and frida check in the app to report a clean device, so no blocking dialog is shown on modified/rooted environments.``` | ```My Ooredoo``` | ```1.5.13``` |
-| ```Remove CleverTap tracking``` | ```Removes CleverTap analytics initialization, stopping the app from collecting the phone number as an identity key and from reporting usage data.``` | ```My Ooredoo``` | ```1.5.13``` |
-| ```Allow screenshots``` | ```Removes the screen capture block so screenshots and recordings work.``` | ```Webetu``` | ```2.4.0``` |
-| ```Enable 30-day Resto reservations``` | ```Allows reserving Resto meals up to 30 days in advance.``` | ```Webetu``` | ```2.4.0``` |
-| ```Remove PairIP protection``` | ```Removes Google Play's PairIP anti-tamper wrapper so the app runs without license checks. Restores the original Application class in the manifest, removes all injected com.pairip.* components, and neuters PairIP's license client.``` | ```Webetu``` | ```2.4.0``` |
+| ```Bypass certificate checks``` | ```Bypasses certificate pinning so intercepted TLS connections are accepted.``` | ```BaridiMob``` | ```All versions``` |
+| ```Disable analytics and crash reporting``` | ```Disables analytics and crash reporting while keeping push notifications.``` | ```BaridiMob``` | ```All versions``` |
+| ```Disable root detection``` | ```Disables the rooted-device check so the app runs on rooted devices.``` | ```BaridiMob``` | ```All versions``` |
+| ```Disable developer options detection``` | ```Stops the app from detecting that Developer Options or USB debugging are enabled on the device, removing the blocking security dialog.``` | ```My Ooredoo``` | ```All versions``` |
+| ```Disable Play Integrity``` | ```Short-circuits the Google Play Integrity attestation request with a "DISABLED" response, avoiding failures on modified or non-Play builds.``` | ```My Ooredoo``` | ```All versions``` |
+| ```Disable root & emulator detection``` | ```Forces every root, jailbreak, emulator and frida check in the app to report a clean device, so no blocking dialog is shown on modified/rooted environments.``` | ```My Ooredoo``` | ```All versions``` |
+| ```Remove CleverTap tracking``` | ```Removes CleverTap analytics initialization, stopping the app from collecting the phone number as an identity key and from reporting usage data.``` | ```My Ooredoo``` | ```All versions``` |
+| ```Allow screenshots``` | ```Removes the screen capture block so screenshots and recordings work.``` | ```Webetu``` | ```All versions``` |
+| ```Enable 30-day Resto reservations``` | ```Allows reserving Resto meals up to 30 days in advance.``` | ```Webetu``` | ```All versions``` |
+| ```Remove PairIP protection``` | ```Removes Google Play's PairIP anti-tamper wrapper so the app runs without license checks. Restores the original Application class in the manifest, removes all injected com.pairip.* components, and neuters PairIP's license client.``` | ```Webetu``` | ```All versions``` |
 
 </details>
