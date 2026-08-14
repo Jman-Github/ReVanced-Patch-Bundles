@@ -677,8 +677,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 </details>
 
 ---
-### ?? Nai64 Bundle Patch List:
-[?? Nai64-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nai64-patches-bundle-morphe)
+### 🧩 Nai64 Bundle Patch List:
+[📦 Nai64-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nai64-patches-bundle-morphe)
 <details>
 <summary><b>Nai64</b> - 9 patches, 1 app</summary>
 
@@ -697,8 +697,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 </details>
 
 ---
-### ?? Morphe-Google Bundle Patch List:
-[?? Morphe-Google-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-google-patches-bundle-morphe)
+### 🧩 Morphe-Google Bundle Patch List:
+[📦 Morphe-Google-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-google-patches-bundle-morphe)
 <details>
 <summary><b>Morphe-Google</b> - 2 patches, 1 app</summary>
 
@@ -926,7 +926,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 ---
 ### 🧩 Zpatches Bundle Patch List:
-[?? Zpatches-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-zpatches-patches-bundle-morphe)
+[📦 Zpatches-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-zpatches-patches-bundle-morphe)
 <details>
 <summary><b>Zpatches</b> - 13 patches, 6 apps</summary>
 
@@ -949,8 +949,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 </details>
 
 ---
-### ?? iHealth-Morphe Bundle Patch List:
-[?? iHealth-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ihealth-morphe-patches-bundle-morphe)
+### 🧩 iHealth-Morphe Bundle Patch List:
+[📦 iHealth-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ihealth-morphe-patches-bundle-morphe)
 <details>
 <summary><b>iHealth-Morphe</b> - 6 patches, 2 apps</summary>
 
@@ -966,8 +966,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 </details>
 
 ---
-### ?? Hoomans-Morphe Bundle Patch List:
-[?? Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
+### 🧩 Hoomans-Morphe Bundle Patch List:
+[📦 Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
 <summary><b>Hoomans-Morphe</b> - 54 patches, 41 apps</summary>
 
@@ -5831,8 +5831,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 </details>
 
 ---
-### ?? Dbhavsar76 Bundle Patch List:
-[?? Dbhavsar76-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dbhavsar76-patches-bundle-api-v4)
+### 🧩 Dbhavsar76 Bundle Patch List:
+[📦 Dbhavsar76-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dbhavsar76-patches-bundle-api-v4)
 <details>
 <summary><b>Dbhavsar76</b> - 1 patch, 1 app</summary>
 
@@ -5896,8 +5896,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 </details>
 ---
-### ?? ChMate-ReVanced Bundle Patch List:
-[?? ChMate-ReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-chmate-revanced-patches-bundle-api-v4)
+### 🧩 ChMate-ReVanced Bundle Patch List:
+[📦 ChMate-ReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-chmate-revanced-patches-bundle-api-v4)
 <details>
 <summary><b>ChMate-ReVanced</b> - 1 patch, 1 app</summary>
 
