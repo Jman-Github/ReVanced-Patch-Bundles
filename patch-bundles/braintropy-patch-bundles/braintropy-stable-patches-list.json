@@ -1,27 +1,6 @@
 {
-    "version": "v1.1.0",
+    "version": "v2.0.0",
     "patches": [
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#111111",
-                    "name": "MyoAdapt",
-                    "packageName": "com.myoadapt.app.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.5.1"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks all premium content and fixes logouts.",
-            "name": "Unlock Premium",
-            "options": []
-        },
         {
             "compatiblePackages": [
                 {
