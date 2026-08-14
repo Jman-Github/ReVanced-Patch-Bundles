@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.11-dev.1",
+    "version": "v1.12.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -377,6 +377,12 @@
                         {
                             "isExperimental": false,
                             "minSdk": 26,
+                            "version": "19.30.0",
+                            "versionCode": 2705
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
                             "version": "19.29.0",
                             "versionCode": 2700
                         },
@@ -458,6 +464,18 @@
                     "name": "Wildberries",
                     "packageName": "com.wildberries.ru",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.7.5003-rustore",
+                            "versionCode": 61060
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.7.5003",
+                            "versionCode": 10061060
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 26,
@@ -578,7 +596,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the \"Подписки\" tab in Избранное, hide installments (Рассрочка) and the \"Спросите у продавца\" block on offers, expand descriptions by default (no \"Читать далее\"), hide offer recommendations, hide profile raffle, referral and Avito Pro promos, and hide the Avi assistant tab in the bottom navigation.",
+            "description": "Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the \"Подписки\" tab in Избранное, hide installments (Рассрочка) and the \"Спросите у продавца\" block on offers, expand descriptions by default (no \"Читать далее\"), hide reserved offers and offer recommendations, hide profile raffle, referral and Avito Pro promos, and hide the Avi assistant tab in the bottom navigation.",
             "name": "UI tweaks",
             "options": []
         }
