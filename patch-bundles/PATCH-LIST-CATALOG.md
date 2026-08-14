@@ -180,7 +180,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 | [PetalMaps-AndroidAuto](#-petalmaps-androidauto-bundle-patch-list) | 8 | 1 | Generated |
 | [FTL](#-ftl-bundle-patch-list) | 18 | 5 | Generated |
-| [braiNtropy](#-braintropy-bundle-patch-list) | 1 | 1 | Generated |
+| [braiNtropy](#-braintropy-bundle-patch-list) | 2 | 2 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
 | [Heval99](#-heval99-bundle-patch-list) | 1 | 1 | Generated |
 | [Atharv](#-atharv-bundle-patch-list) | 2 | 1 | Generated |
@@ -5877,10 +5877,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 braiNtropy Bundle Patch List:
 [📦 braiNtropy-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-braintropy-patches-bundle-morphe)
 <details>
-<summary><b>braiNtropy</b> - 1 patch, 1 app</summary>
+<summary><b>braiNtropy</b> - 2 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Unlock Premium``` | ```Unlocks all premium content and fixes logouts.``` | ```MyoAdapt``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium content and removes subscription banners.``` | ```Waking Up``` | ```All versions``` |
 
 </details>
