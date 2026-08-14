@@ -1,0 +1,121 @@
+{
+    "version": "v1.0.0-dev.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM_REQUIRED",
+                    "appIconColor": "#1C1C28",
+                    "description": "ZEE5: Movies, TV Shows, Series (Android TV)",
+                    "name": "ZEE5 Android TV",
+                    "packageName": "com.graymatrix.did",
+                    "signatures": [
+                        "17df0bbfa43f2a1d057c0a0c96e11b9c20c595f43873388b2719eb0a7e23e0cb"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "5.83.2"
+                        }
+                    ],
+                    "versions": [
+                        "5.83.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes Google IMA ad insertion (client-side and server-side DAI) from the ZEE5 player. The media source factory is returned DRM-configured but with ad-insertion components never attached, so content and DRM playback are unaffected.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM_REQUIRED",
+                    "appIconColor": "#1C1C28",
+                    "description": "ZEE5: Movies, TV Shows, Series (Android TV)",
+                    "name": "ZEE5 Android TV",
+                    "packageName": "com.graymatrix.did",
+                    "signatures": [
+                        "17df0bbfa43f2a1d057c0a0c96e11b9c20c595f43873388b2719eb0a7e23e0cb"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "5.83.2"
+                        }
+                    ],
+                    "versions": [
+                        "5.83.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables all third-party analytics (CleverTap, Firebase, Mixpanel, videoanalytics) by short-circuiting the central analytics dispatch method. No tracking data is sent.",
+            "name": "Disable analytics",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM_REQUIRED",
+                    "appIconColor": "#1C1C28",
+                    "description": "ZEE5: Movies, TV Shows, Series (Android TV)",
+                    "name": "ZEE5 Android TV",
+                    "packageName": "com.graymatrix.did",
+                    "signatures": [
+                        "17df0bbfa43f2a1d057c0a0c96e11b9c20c595f43873388b2719eb0a7e23e0cb"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "5.83.2"
+                        }
+                    ],
+                    "versions": [
+                        "5.83.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents the CleverTap analytics SDK from initializing, stopping behavioral tracking and advertising-id (GAID) collection.",
+            "name": "Disable CleverTap",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM_REQUIRED",
+                    "appIconColor": "#1C1C28",
+                    "description": "ZEE5: Movies, TV Shows, Series (Android TV)",
+                    "name": "ZEE5 Android TV",
+                    "packageName": "com.graymatrix.did",
+                    "signatures": [
+                        "17df0bbfa43f2a1d057c0a0c96e11b9c20c595f43873388b2719eb0a7e23e0cb"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "5.83.2"
+                        }
+                    ],
+                    "versions": [
+                        "5.83.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents Firebase Analytics from initializing, stopping event and user-property reporting to Google.",
+            "name": "Disable Firebase analytics",
+            "options": []
+        }
+    ]
+}

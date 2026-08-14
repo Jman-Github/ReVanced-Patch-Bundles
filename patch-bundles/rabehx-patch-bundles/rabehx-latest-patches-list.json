@@ -1,0 +1,255 @@
+{
+    "version": "v0.0.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#023C69",
+                    "name": "Webetu",
+                    "packageName": "app.progres.webetu",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.4.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.4.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the screen capture block so screenshots and recordings work.",
+            "name": "Allow screenshots",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#007A33",
+                    "name": "BaridiMob",
+                    "packageName": "ru.bpc.mobilebank.bpc",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.29.1"
+                        }
+                    ],
+                    "versions": [
+                        "1.29.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Bypasses certificate pinning so intercepted TLS connections are accepted.",
+            "name": "Bypass certificate checks",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#007A33",
+                    "name": "BaridiMob",
+                    "packageName": "ru.bpc.mobilebank.bpc",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.29.1"
+                        }
+                    ],
+                    "versions": [
+                        "1.29.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Disables analytics and crash reporting while keeping push notifications.",
+            "name": "Disable analytics and crash reporting",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#113C8A",
+                    "name": "My Ooredoo",
+                    "packageName": "com.algeria.selfcare.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.5.13"
+                        }
+                    ],
+                    "versions": [
+                        "1.5.13"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the app from detecting that Developer Options or USB debugging are enabled on the device, removing the blocking security dialog.",
+            "name": "Disable developer options detection",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#113C8A",
+                    "name": "My Ooredoo",
+                    "packageName": "com.algeria.selfcare.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.5.13"
+                        }
+                    ],
+                    "versions": [
+                        "1.5.13"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Short-circuits the Google Play Integrity attestation request with a \"DISABLED\" response, avoiding failures on modified or non-Play builds.",
+            "name": "Disable Play Integrity",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#113C8A",
+                    "name": "My Ooredoo",
+                    "packageName": "com.algeria.selfcare.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.5.13"
+                        }
+                    ],
+                    "versions": [
+                        "1.5.13"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces every root, jailbreak, emulator and frida check in the app to report a clean device, so no blocking dialog is shown on modified/rooted environments.",
+            "name": "Disable root & emulator detection",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#007A33",
+                    "name": "BaridiMob",
+                    "packageName": "ru.bpc.mobilebank.bpc",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.29.1"
+                        }
+                    ],
+                    "versions": [
+                        "1.29.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the rooted-device check so the app runs on rooted devices.",
+            "name": "Disable root detection",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#023C69",
+                    "name": "Webetu",
+                    "packageName": "app.progres.webetu",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.4.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.4.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows reserving Resto meals up to 30 days in advance.",
+            "name": "Enable 30-day Resto reservations",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#113C8A",
+                    "name": "My Ooredoo",
+                    "packageName": "com.algeria.selfcare.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.5.13"
+                        }
+                    ],
+                    "versions": [
+                        "1.5.13"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes CleverTap analytics initialization, stopping the app from collecting the phone number as an identity key and from reporting usage data.",
+            "name": "Remove CleverTap tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#023C69",
+                    "name": "Webetu",
+                    "packageName": "app.progres.webetu",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.4.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.4.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes Google Play's PairIP anti-tamper wrapper so the app runs without license checks. Restores the original Application class in the manifest, removes all injected com.pairip.* components, and neuters PairIP's license client.",
+            "name": "Remove PairIP protection",
+            "options": []
+        }
+    ]
+}

@@ -939,6 +939,16 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "aapam-stable": {
+        "patches": "https://api.github.com/repos/WZSE/aapam-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "rabehx-stable": {
+        "patches": "https://api.github.com/repos/RabehX/rabehx-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -1874,6 +1884,16 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
+    "aapam-dev": {
+        "patches": "https://api.github.com/repos/WZSE/aapam-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "rabehx-dev": {
+        "patches": "https://api.github.com/repos/RabehX/rabehx-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
     "piko-latest": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -2806,6 +2826,16 @@
     },
     "imgur-latest": {
         "patches": "https://api.github.com/repos/sushruth/imgur-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "aapam-latest": {
+        "patches": "https://api.github.com/repos/WZSE/aapam-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "rabehx-latest": {
+        "patches": "https://api.github.com/repos/RabehX/rabehx-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }
