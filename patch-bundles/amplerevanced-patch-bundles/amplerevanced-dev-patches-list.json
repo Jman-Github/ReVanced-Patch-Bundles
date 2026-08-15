@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.5",
+    "version": "v1.4.0-dev.6",
     "patches": [
         {
             "compatiblePackages": [
@@ -1631,6 +1631,31 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#3D4491",
+                    "name": "dcinside",
+                    "packageName": "com.dcinside.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.3.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Keeps gallery auto-refresh active, highlights newly arrived posts, and optionally alerts with sound or vibration while the gallery is open.",
+            "name": "Gallery watch mode",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FEE500",
                     "name": "Kakao Talk",
@@ -1819,6 +1844,30 @@
             ],
             "description": "Hides the Game tab from the More tab.",
             "name": "Hide More tab Game tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#3D4491",
+                    "name": "dcinside",
+                    "packageName": "com.dcinside.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.3.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds a setting to hide the Page N indicators between pages in post lists.",
+            "name": "Hide post list page indicators",
             "options": []
         },
         {

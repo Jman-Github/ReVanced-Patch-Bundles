@@ -108,7 +108,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 78 | 54 | Generated |
-| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 112 | 6 | Generated |
+| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 114 | 6 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 136 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
@@ -3274,7 +3274,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle-morphe)
 <details>
-<summary><b>AmpleReVanced</b> - 112 patches, 6 apps</summary>
+<summary><b>AmpleReVanced</b> - 114 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3298,10 +3298,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable update check``` | ```Disables the app's update check.``` | ```dcinside``` | ```All versions``` |
 | ```Enable OneStore feature``` | ```Enables the OneStore feature in DC Inside app.``` | ```dcinside``` | ```All versions``` |
 | ```Filter recently viewed posts by gallery``` | ```Adds a gallery filter below the recently viewed posts filters, which narrows the list down to the posts of a single gallery.``` | ```dcinside``` | ```All versions``` |
+| ```Gallery watch mode``` | ```Keeps gallery auto-refresh active, highlights newly arrived posts, and optionally alerts with sound or vibration while the gallery is open.``` | ```dcinside``` | ```All versions``` |
 | ```Hide DC official notices``` | ```Hides official DCInside operator notices from gallery notice lists.``` | ```dcinside``` | ```All versions``` |
 | ```Hide home components``` | ```Adds settings to hide selected DCInside home screen components.``` | ```dcinside``` | ```All versions``` |
 | ```Hide Main Ad``` | ```Hides the main ad in the app.``` | ```dcinside``` | ```All versions``` |
 | ```Hide mini gallery cover image``` | ```Adds a setting to hide the mini gallery cover image above post lists.``` | ```dcinside``` | ```All versions``` |
+| ```Hide post list page indicators``` | ```Adds a setting to hide the Page N indicators between pages in post lists.``` | ```dcinside``` | ```All versions``` |
 | ```Register settings activity``` | ```Registers the Morphe settings activity in the app manifest.``` | ```dcinside``` | ```All versions``` |
 | ```Render big DCCon as normal size``` | ```Adds a setting to render big DCCon at normal DCCon size.``` | ```dcinside``` | ```All versions``` |
 | ```Restore old post icons``` | ```Adds a setting to restore DCInside 4.7.x post list and read footer icons.``` | ```dcinside``` | ```All versions``` |
