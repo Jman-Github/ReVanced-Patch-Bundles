@@ -1882,7 +1882,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Fix inline images``` | ```Fixes images in text posts showing as plain links instead of rendering inline. Also adds captions below the images where applicable.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Fix r/random``` | ```Restores random subreddit functionality by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Fix Reddit Video Links``` | ```Fixes reddit video links (reddit.com/link/.../video) so they open in the native video player.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
-| ```Hacker News Feed``` | ```Integrates Hacker News (news.ycombinator.com) as a custom feed.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Hacker News Feed``` | ```Integrates Hacker News (news.ycombinator.com) into Reddit Sync as a custom feed.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Predictive back gesture (Reddit Sync)``` | ```Enables the predictive back gesture with fixes for Reddit Sync.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID (default included).``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Unlock Sync Ultra``` | ```Unlocks Sync Ultra Lifetime.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
