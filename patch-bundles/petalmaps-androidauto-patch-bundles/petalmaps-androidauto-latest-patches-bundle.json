@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-15T02:47:42",
-  "description": "Fix Finsky forge: ownership rows now mirror real Play-installed apps (account = device Google account discovered at runtime, backend=3, offer_type=1). Previous rows with account='' were invisible to PlayGearheadService ('app owners empty').",
-  "download_url": "https://github.com/andersonlucasg3/PetalMaps-AndroidAuto/releases/download/v1.1.13/patches-1.1.13.mpp",
+  "created_at": "2026-08-15T11:07:50",
+  "description": "Fix ANR on the car: add car-app-api.level to the APK root (androidx.car.app reads it via ClassLoader; without it getAppInfo() threw and the host reported ANR). Also: tweaker now warms up Play Store automatically (deviceidle whitelist + starts PlayGearheadService) \u2014 no need to open the Play Store manually.",
+  "download_url": "https://github.com/andersonlucasg3/PetalMaps-AndroidAuto/releases/download/v1.1.14/patches-1.1.14.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.1.13"
+  "version": "v1.1.14"
 }
