@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-15T11:07:50",
-  "description": "Fix ANR on the car: add car-app-api.level to the APK root (androidx.car.app reads it via ClassLoader; without it getAppInfo() threw and the host reported ANR). Also: tweaker now warms up Play Store automatically (deviceidle whitelist + starts PlayGearheadService) \u2014 no need to open the Play Store manually.",
-  "download_url": "https://github.com/andersonlucasg3/PetalMaps-AndroidAuto/releases/download/v1.1.14/patches-1.1.14.mpp",
+  "created_at": "2026-08-15T11:32:37",
+  "description": "Add androidx.car.app.ACCESS_SURFACE permission \u2014 the car host throws SecurityException when the app registers its SurfaceCallback without it (crashed PetalSession.onCreateScreen).",
+  "download_url": "https://github.com/andersonlucasg3/PetalMaps-AndroidAuto/releases/download/v1.1.15/patches-1.1.15.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.1.14"
+  "version": "v1.1.15"
 }
