@@ -95,7 +95,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 122 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 128 | 2 | Generated |
-| [HK-Morphe](#-hk-morphe-bundle-patch-list) | 11 | 4 | Generated |
+| [HK-Morphe](#-hk-morphe-bundle-patch-list) | 12 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 22 | 5 | Generated |
@@ -1871,7 +1871,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 HK-Morphe Bundle Patch List:
 [📦 HK-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hk-morphe-patches-bundle-morphe)
 <details>
-<summary><b>HK-Morphe</b> - 11 patches, 4 apps</summary>
+<summary><b>HK-Morphe</b> - 12 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1882,6 +1882,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Fix inline images``` | ```Fixes images in text posts showing as plain links instead of rendering inline. Also adds captions below the images where applicable.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Fix r/random``` | ```Restores random subreddit functionality by fetching from an alternative API.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Fix Reddit Video Links``` | ```Fixes reddit video links (reddit.com/link/.../video) so they open in the native video player.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
+| ```Hacker News Feed``` | ```Integrates Hacker News (news.ycombinator.com) as a custom feed.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Predictive back gesture (Reddit Sync)``` | ```Enables the predictive back gesture with fixes for Reddit Sync.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Spoof client``` | ```Restores functionality of the app by using custom client ID (default included).``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
 | ```Unlock Sync Ultra``` | ```Unlocks Sync Ultra Lifetime.``` | ```Sync for Reddit, Sync for Reddit Pro, Sync for Reddit Dev``` | ```All versions``` |
