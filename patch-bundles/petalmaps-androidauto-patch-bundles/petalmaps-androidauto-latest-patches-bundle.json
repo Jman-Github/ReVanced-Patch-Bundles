@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-07T22:50:58",
-  "description": "Fix car projection: create the VirtualDisplay from the SurfaceContainer dimensions/dpi (was using the phone's displayMetrics \u2014 could create an invalid display). Adds PetalAA log markers across the whole car flow (session, template, surface, display, launch, resize) and logs launch exceptions.",
-  "download_url": "https://github.com/andersonlucasg3/PetalMaps-AndroidAuto/releases/download/v1.1.10/patches-1.1.10.mpp",
+  "created_at": "2026-08-15T02:47:42",
+  "description": "Fix Finsky forge: ownership rows now mirror real Play-installed apps (account = device Google account discovered at runtime, backend=3, offer_type=1). Previous rows with account='' were invisible to PlayGearheadService ('app owners empty').",
+  "download_url": "https://github.com/andersonlucasg3/PetalMaps-AndroidAuto/releases/download/v1.1.13/patches-1.1.13.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.1.10"
+  "version": "v1.1.13"
 }
