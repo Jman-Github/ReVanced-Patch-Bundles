@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0",
+    "version": "v1.45.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -496,6 +496,28 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Finch Plus features without a subscription, including the Plus shop items, extra themes and customization, seasonal event tiers, the monthly recap, and Plus insights. It also clears the upgrade prompts. This is the arm64 build. Cloud backup and cross-device sync run on Finch's own servers and still need the real subscription. Re-signing breaks Google sign-in, so log in with email instead.",
+            "name": "Unlock Plus",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#4BBA17",
+                    "name": "Moneta",
+                    "packageName": "currency.converter.moneta",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.2.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Moneta Plus features, including the full asset catalog, more than five selected assets, five-minute rate updates, camera price scanning, and extended historical charts. Purchases, restore purchases, and server account state are unchanged. This is the arm64 build.",
             "name": "Unlock Plus",
             "options": []
         },
