@@ -1,5 +1,5 @@
 {
-    "version": "v1.32.0",
+    "version": "v1.33.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -225,16 +225,6 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Disables ad SDKs, ruins ad network request URLs, and hides empty ad containers across the app.",
-            "name": "Remove Ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [
-                "ResourcePatch"
-            ],
             "description": "Disables tracking and crash-reporting tools, corrupts analytics web links inside the code, and removes background tracking services.",
             "name": "Remove Analytics",
             "options": []
@@ -353,6 +343,14 @@
             "dependencies": [],
             "description": "Enters the main activity directly after the splash permission check instead of delaying for the additional external-storage check.",
             "name": "Speed up splash screen",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stubs known ad SDK entry points and poisons ad-network URL strings across the whole app.",
+            "name": "Universal Remove Ads",
             "options": []
         }
     ]
