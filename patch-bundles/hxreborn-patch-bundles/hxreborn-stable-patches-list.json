@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.5.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -300,6 +300,45 @@
                 "ResourcePatch"
             ],
             "description": "Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets. The News feed is not included.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#E22728",
+                    "name": "Symfonium",
+                    "packageName": "app.symfonik.music.player",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "14.0.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 127708,
+                                "ARMEABI_V7A": 127708,
+                                "X86": 127708,
+                                "X86_64": 127708
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "14.1.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 127734,
+                                "ARMEABI_V7A": 127734,
+                                "X86": 127734,
+                                "X86_64": 127734
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features.",
             "name": "Unlock premium",
             "options": []
         }
