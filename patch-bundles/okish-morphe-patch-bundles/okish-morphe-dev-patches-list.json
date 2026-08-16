@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0-dev.2",
+    "version": "v1.9.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -251,6 +251,48 @@
             "dependencies": [],
             "description": "Intercepts all in-app purchases and reports instant success to the game engine.",
             "name": "Jetpack Joyride Billing Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#689F38",
+                    "name": "Rodeo Stampede: Sky Zoo Safari",
+                    "packageName": "com.yodo1.rodeo.safari",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.23.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks banner/app-open/native ads and turns rewarded + interstitial ads into instant no-ad events so the game never fetches or displays ads.",
+            "name": "Rodeo Stampede Ad-Free (Ads blocked + instant rewards)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#689F38",
+                    "name": "Rodeo Stampede: Sky Zoo Safari",
+                    "packageName": "com.yodo1.rodeo.safari",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.23.0"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs in-app purchases as instantly successful at the Yodo1 purchase funnel.",
+            "name": "Rodeo Stampede Free Purchase",
             "options": []
         },
         {

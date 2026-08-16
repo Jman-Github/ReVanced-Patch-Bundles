@@ -1,5 +1,5 @@
 {
-    "version": "v1.46.0",
+    "version": "v1.47.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -10,7 +10,27 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "29.9.1"
+                            "version": "30.7.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Renders global and current-channel 7TV and BTTV emotes in incoming live chat. Type an emote code normally to send it; this patch does not add a picker or provider login.",
+            "name": "7TV and BTTV emotes",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#9147FF",
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "30.7.2"
                         }
                     ]
                 }
@@ -30,7 +50,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "29.9.1"
+                            "version": "30.7.2"
                         }
                     ]
                 }
@@ -50,7 +70,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "45.0.0.109"
+                            "version": "45.8.0.110"
                         }
                     ]
                 }
@@ -72,7 +92,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "45.0.0.109"
+                            "version": "45.8.0.110"
                         }
                     ]
                 }
@@ -114,7 +134,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "45.0.0.109"
+                            "version": "45.8.0.110"
                         }
                     ]
                 }
@@ -134,7 +154,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "45.0.0.109"
+                            "version": "45.8.0.110"
                         }
                     ]
                 }
@@ -145,6 +165,28 @@
             ],
             "description": "Turns off the in-app update check and the update prompt.",
             "name": "Disable in-app update",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#001935",
+                    "name": "Tumblr",
+                    "packageName": "com.tumblr",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "45.8.0.110"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Stops the share sheet that pops up when you take a screenshot in the app.",
+            "name": "Disable screenshot sharing",
             "options": []
         },
         {
@@ -178,7 +220,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "45.0.0.109"
+                            "version": "45.8.0.110"
                         }
                     ]
                 }
@@ -220,7 +262,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "45.0.0.109"
+                            "version": "45.8.0.110"
                         }
                     ]
                 }
@@ -240,7 +282,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "29.9.1"
+                            "version": "30.7.2"
                         }
                     ]
                 }
@@ -344,7 +386,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "45.0.0.109"
+                            "version": "45.8.0.110"
                         }
                     ]
                 }
@@ -384,7 +426,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "29.9.1"
+                            "version": "30.7.2"
                         }
                     ]
                 }
@@ -468,7 +510,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.56.0"
+                            "version": "4.57.4"
                         }
                     ]
                 }
@@ -899,6 +941,10 @@
                         {
                             "isExperimental": false,
                             "version": "2.5.0.2-beta1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "2.5.0.6"
                         }
                     ]
                 }
