@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.6",
+    "version": "v1.4.0-dev.8",
     "patches": [
         {
             "compatiblePackages": [
@@ -1506,6 +1506,31 @@
             ],
             "description": "Render plain text messages with markdown-style formatting.",
             "name": "Enable Markdown",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Samsung Keyboard",
+                    "packageName": "com.samsung.android.honeyboard",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 33,
+                            "version": "5.9.40.48"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Makes Samsung Keyboard installable and usable on non-One UI ROMs.",
+            "name": "Enable non-One UI ROM support",
             "options": []
         },
         {

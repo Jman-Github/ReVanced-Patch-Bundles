@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.20",
+    "version": "v1.1.24",
     "patches": [
         {
             "compatiblePackages": [
@@ -179,8 +179,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Changes AutoPetalMapsActivity's screenOrientation from landscape to unspecified so it follows the VirtualDisplay orientation.",
-            "name": "Automotive orientation fix",
+            "description": "Changes PetalMapsActivity's screenOrientation from behind to sensorLandscape so it renders in landscape on the car display.",
+            "name": "Automotive orientation fix (main activity)",
             "options": []
         },
         {

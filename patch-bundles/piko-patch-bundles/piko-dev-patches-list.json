@@ -1,5 +1,5 @@
 {
-    "version": "v3.9.0-dev.7",
+    "version": "v3.9.0-dev.8",
     "patches": [
         {
             "compatiblePackages": [
@@ -11,7 +11,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -46,6 +46,7 @@
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -95,7 +96,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -120,7 +121,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -143,7 +144,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -193,7 +194,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 },
@@ -242,7 +243,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -310,7 +311,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -365,7 +366,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -388,7 +389,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -412,7 +413,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -436,7 +437,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -457,13 +458,39 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89",
+                            "versionCodes": {
+                                "ARM64_V8A": 384510827
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Allows for using custom domains when sharing posts, reels and stories.",
+            "name": "Custom sharing domain",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
                     "appIconColor": "#000000",
                     "name": "Twitter",
                     "packageName": "com.twitter.android",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -487,7 +514,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -563,7 +590,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -586,7 +613,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -609,7 +636,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -632,7 +659,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -656,7 +683,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -679,7 +706,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -702,7 +729,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -725,7 +752,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -748,7 +775,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -771,7 +798,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -794,7 +821,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -871,7 +898,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -894,7 +921,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1069,7 +1096,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Prevents contacts and location permission onboarding prompts from appearing on launch.",
+            "description": "Prevents contacts and location permission onboarding prompts from appearing.",
             "name": "Disable onboarding permission prompts",
             "options": []
         },
@@ -1304,7 +1331,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1354,7 +1381,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1375,7 +1402,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1399,7 +1426,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1423,7 +1450,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1446,7 +1473,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1469,7 +1496,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1547,7 +1574,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1599,7 +1626,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1648,7 +1675,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1671,7 +1698,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1694,7 +1721,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1718,7 +1745,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1741,7 +1768,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1765,7 +1792,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1788,7 +1815,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1812,7 +1839,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1861,7 +1888,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1884,7 +1911,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1908,7 +1935,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -1984,7 +2011,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2007,7 +2034,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2030,7 +2057,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2054,7 +2081,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2078,7 +2105,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2181,7 +2208,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2205,7 +2232,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2256,7 +2283,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2306,7 +2333,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2317,6 +2344,32 @@
             ],
             "description": "Log json responses received from server",
             "name": "Log server response",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89",
+                            "versionCodes": {
+                                "ARM64_V8A": 384510827
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Replay the current story when it ends",
+            "name": "Loop story",
             "options": []
         },
         {
@@ -2383,7 +2436,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2468,7 +2521,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2496,7 +2549,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2524,7 +2577,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2551,7 +2604,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2600,7 +2653,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2651,7 +2704,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2727,7 +2780,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2750,7 +2803,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2773,7 +2826,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2797,7 +2850,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2860,6 +2913,35 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Captures incoming DMs locally as they arrive from the server and marks them when the sender deletes them.",
+            "name": "Save deleted messages",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89",
+                            "versionCodes": {
+                                "ARM64_V8A": 384510827
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
@@ -2879,7 +2961,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2903,7 +2985,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2930,7 +3012,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2953,7 +3035,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2976,7 +3058,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
@@ -2999,14 +3081,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": null,
             "name": "Show sensitive media",
@@ -3048,7 +3131,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.11.0-release.0"
+                            "version": "12.17.0-release.0"
                         }
                     ]
                 }
