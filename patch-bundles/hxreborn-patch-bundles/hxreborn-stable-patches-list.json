@@ -1,6 +1,28 @@
 {
-    "version": "v1.5.1",
+    "version": "v1.6.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#20808D",
+                    "name": "Perplexity",
+                    "packageName": "ai.perplexity.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Replaces the dark theme background with pure black.",
+            "name": "AMOLED dark theme",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -69,6 +91,26 @@
             "dependencies": [],
             "description": "Disables analytics and crash reporting.",
             "name": "Disable tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#F8991C",
+                    "name": "Audible",
+                    "packageName": "com.audible.application",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the membership promotion on the Home screen and the free trial bottom sheet.",
+            "name": "Hide membership upselling",
             "options": []
         },
         {
