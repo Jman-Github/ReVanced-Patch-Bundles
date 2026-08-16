@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-16T03:17:14",
-  "description": "Fix letterboxed portrait map on the car: never create the VirtualDisplay with portrait dims (automotive activity is landscape-only); reuse last known landscape dims or wait for a landscape update. Also: /sdcard/petal_aa.log now updates at every key car-flow event (surface, display, launch, attach) for remote debugging.",
-  "download_url": "https://github.com/andersonlucasg3/PetalMaps-AndroidAuto/releases/download/v1.1.17/patches-1.1.17.mpp",
+  "created_at": "2026-08-16T11:27:44",
+  "description": "Fix input dying after seconds and letterboxed layout: debounce VirtualDisplay recreation (700ms, host sends a burst of area changes), drop MULTIPLE_TASK (single task reuse), finish the old activity before destroying its display, and only dispatch touch to the live activity instance on the current display.",
+  "download_url": "https://github.com/andersonlucasg3/PetalMaps-AndroidAuto/releases/download/v1.1.18/patches-1.1.18.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.1.17"
+  "version": "v1.1.18"
 }

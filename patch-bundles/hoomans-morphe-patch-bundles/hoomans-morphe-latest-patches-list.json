@@ -1,5 +1,5 @@
 {
-    "version": "v1.47.0",
+    "version": "v1.48.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -271,6 +271,26 @@
             "dependencies": [],
             "description": "Turns on the cosmetic Tumblr Premium look: the premium badge and the premium settings entry. This only changes how the app looks on your device. It does not buy or unlock anything on Tumblr's side, so ad-free, the badge on your blog, and anything the server checks still need a real subscription. Use \"Remove ads\" for an actually ad-free feed.",
             "name": "Enable premium UI",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#9147FF",
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "30.7.2"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Fixes the \"This app version/OS is not currently supported\" error that blocks login after the app has been patched. Twitch runs a Play Integrity check in the background and reports the result to its login server; re-signing makes that check fail, so the server refuses the login. This stops the app from sending that attestation, so it looks like a device without Google Play, where login works normally. It does not change anything else about how you log in.",
+            "name": "Fix login",
             "options": []
         },
         {

@@ -88,7 +88,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 13 | 6 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 59 | 43 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 60 | 43 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 45 | 32 | Generated |
@@ -971,7 +971,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Hoomans-Morphe Bundle Patch List:
 [📦 Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 59 patches, 43 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 60 patches, 43 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1029,6 +1029,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```7TV and BTTV emotes``` | ```Renders global and current-channel 7TV and BTTV emotes in incoming live chat. Type an emote code normally to send it; this patch does not add a picker or provider login.``` | ```Twitch``` | ```All versions``` |
 | ```Auto claim channel points``` | ```Claims the channel points bonus chest for you automatically. Whenever Twitch makes a bonus available, the claim fires on its own so you don't have to tap the chest.``` | ```Twitch``` | ```All versions``` |
 | ```Block live ads``` | ```Routes live streams through a free third-party proxy that strips the ads baked into the stream, so the proxy has to be up for playback to work; turn this patch off if it goes down. Mid-stream ads get dropped reliably, but a single preroll can still slip through when you first open a channel and Twitch has flagged the shared proxy. VOD ads aren't covered.``` | ```Twitch``` | ```All versions``` |
+| ```Fix login``` | ```Fixes the "This app version/OS is not currently supported" error that blocks login after the app has been patched. Twitch runs a Play Integrity check in the background and reports the result to its login server; re-signing makes that check fail, so the server refuses the login. This stops the app from sending that attestation, so it looks like a device without Google Play, where login works normally. It does not change anything else about how you log in.``` | ```Twitch``` | ```All versions``` |
 | ```Hide display ads``` | ```Hides the banner, overlay, and in-feed display ads Twitch shows around the app. This doesn't touch the video ads in the stream itself.``` | ```Twitch``` | ```All versions``` |
 | ```Show deleted messages``` | ```Keeps deleted or moderated chat messages readable instead of replacing them with "<message deleted>". The message turns into a tappable spoiler: tap it to reveal the original text. Normally only moderators can do this; the patch grants that access to everyone.``` | ```Twitch``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Video Converter's Pro features without a subscription: 4K output, the full resolution and bitrate range, batch conversion, and watermark removal. Everything runs on the device's own FFmpeg encoder, so the unlocked settings produce real output. This is the arm64 build. The app has no ads, so there is nothing extra to remove.``` | ```Video Converter``` | ```All versions``` |
