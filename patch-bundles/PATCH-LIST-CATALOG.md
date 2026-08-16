@@ -107,7 +107,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
-| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 78 | 54 | Generated |
+| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 77 | 54 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 115 | 7 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 136 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
@@ -3095,7 +3095,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Hoo-dles Bundle Patch List:
 [📦 Hoo-dles-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoo-dles-patches-bundle-morphe)
 <details>
-<summary><b>Hoo-dles</b> - 78 patches, 54 apps</summary>
+<summary><b>Hoo-dles</b> - 77 patches, 54 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3153,7 +3153,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```RP Hypertrophy``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Showly``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Sleep as Android``` | ```All versions``` |
-| ```Disable signature check``` | ```Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.``` | ```Smart Launcher``` | ```All versions``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Smart Launcher``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```SnoreLab``` | ```All versions``` |
 | ```Disable ads``` | ```Disables all ads contained within the UI.``` | ```Sofascore``` | ```All versions``` |

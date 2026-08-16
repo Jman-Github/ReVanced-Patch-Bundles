@@ -1,5 +1,5 @@
 {
-    "version": "v1.40.0-dev.7",
+    "version": "v1.41.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -10,7 +10,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.267.0"
+                            "version": "1.271.1"
                         }
                     ]
                 }
@@ -236,26 +236,6 @@
             "dependencies": [],
             "description": "Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.",
             "name": "Disable Pairip license check",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#000000",
-                    "name": "Smart Launcher",
-                    "packageName": "ginlemon.flowerfree",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "6.6 build 014"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the anti-tamper protection, which verifies apk signature, causing the app to force close.",
-            "name": "Disable signature check",
             "options": []
         },
         {
@@ -499,7 +479,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.13.0"
+                            "version": "4.13.1"
                         }
                     ]
                 }
@@ -1007,7 +987,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.21.1"
+                            "version": "26.31.0"
                         }
                     ]
                 }
@@ -1109,7 +1089,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "9.11"
+                            "version": "9.24"
                         }
                     ]
                 }
@@ -1173,7 +1153,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.6 build 014"
+                            "version": "6.6 build 016"
                         }
                     ]
                 }
@@ -1237,7 +1217,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "10.17.1"
+                            "version": "11.0.0"
                         }
                     ]
                 }
