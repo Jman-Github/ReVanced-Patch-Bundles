@@ -1,5 +1,5 @@
 {
-    "version": "v1.33.0-dev.2",
+    "version": "v1.28.0-dev.7",
     "patches": [
         {
             "compatiblePackages": null,
@@ -128,8 +128,8 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Removes BookMark, New Files, Cleaner Row In HomePage, Cleans More menu actions",
-            "name": "ES File Explorer Ui Cleanup",
+            "description": "Removes selected ES File Explorer home tiles, menu actions, navigation header, media handler, and web-search entry.",
+            "name": "ES File Explorer Cleanup",
             "options": []
         },
         {
@@ -137,6 +137,15 @@
                 {
                     "name": "MX Player Pro",
                     "packageName": "com.mxtech.videoplayer.pro",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                },
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
                     "targets": [
                         {
                             "isExperimental": false
@@ -160,6 +169,15 @@
                             "isExperimental": false
                         }
                     ]
+                },
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
                 }
             ],
             "default": false,
@@ -173,6 +191,15 @@
                 {
                     "name": "MX Player Pro",
                     "packageName": "com.mxtech.videoplayer.pro",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                },
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
                     "targets": [
                         {
                             "isExperimental": false
@@ -217,6 +244,16 @@
             "dependencies": [],
             "description": "Compresses PNG images without losing quality and strips hidden metadata (DPI, timestamps, text) to make the app smaller. Only rewrites files when the result is actually smaller.",
             "name": "Png Optimizer",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables ad SDKs, ruins ad network request URLs, and hides empty ad containers across the app.",
+            "name": "Remove Ads",
             "options": []
         },
         {
@@ -318,39 +355,21 @@
                             "isExperimental": false
                         }
                     ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Moves the launcher intent filters and app shortcuts from the welcome/splash activity to the main activity, so the app boots straight past the splash and update screen.",
-            "name": "Skip welcome screen",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
+                },
                 {
-                    "name": "Xender",
-                    "packageName": "cn.xender",
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "18.8.0.prime"
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
             "default": false,
             "dependencies": [],
-            "description": "Enters the main activity directly after the splash permission check instead of delaying for the additional external-storage check.",
-            "name": "Speed up splash screen",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Stubs known ad SDK entry points and poisons ad-network URL strings across the whole app.",
-            "name": "Universal Remove Ads",
+            "description": "Moves the launcher intent filters and app shortcuts from the welcome/splash activity to the main activity, so the app boots straight past the splash and update screen.",
+            "name": "Skip welcome screen",
             "options": []
         }
     ]

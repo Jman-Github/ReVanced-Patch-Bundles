@@ -1,5 +1,5 @@
 {
-    "version": "v1.32.0",
+    "version": "v1.33.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -81,6 +81,31 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "All Video Downloader & Ace Player",
+                    "packageName": "videoplayer.videodownloader.downloader",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.9.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 24011893,
+                                "ARMEABI_V7A": 24011893,
+                                "X86": 24011893,
+                                "X86_64": 24011893
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Prevents the full-screen \"loading ad\" dialog from appearing when the app is reopened after being minimized.",
+            "name": "Disable ad dialog when reopening app",
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -222,10 +247,8 @@
         {
             "compatiblePackages": null,
             "default": false,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Disables ad SDKs, ruins ad network request URLs, and hides empty ad containers across the app.",
+            "dependencies": [],
+            "description": "Stubs known ad SDK entry points and poisons ad-network URL strings across the whole app.",
             "name": "Remove Ads",
             "options": []
         },
@@ -316,6 +339,31 @@
             "dependencies": [],
             "description": "Removes the requirement to watch a rewarded ad before a download starts.",
             "name": "Remove Watch Ad To Download",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "All Video Downloader & Ace Player",
+                    "packageName": "videoplayer.videodownloader.downloader",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.9.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 24011893,
+                                "ARMEABI_V7A": 24011893,
+                                "X86": 24011893,
+                                "X86_64": 24011893
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, and any ad/app-open dialog normally shown first.",
+            "name": "Skip splash and language screens",
             "options": []
         },
         {

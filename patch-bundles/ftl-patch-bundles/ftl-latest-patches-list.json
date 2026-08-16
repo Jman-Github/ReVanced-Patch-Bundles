@@ -1,5 +1,5 @@
 {
-    "version": "v1.33.0-dev.2",
+    "version": "v1.33.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -81,6 +81,31 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "All Video Downloader & Ace Player",
+                    "packageName": "videoplayer.videodownloader.downloader",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.9.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 24011893,
+                                "ARMEABI_V7A": 24011893,
+                                "X86": 24011893,
+                                "X86_64": 24011893
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Prevents the full-screen \"loading ad\" dialog from appearing when the app is reopened after being minimized.",
+            "name": "Disable ad dialog when reopening app",
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -222,6 +247,14 @@
         {
             "compatiblePackages": null,
             "default": false,
+            "dependencies": [],
+            "description": "Stubs known ad SDK entry points and poisons ad-network URL strings across the whole app.",
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
             "dependencies": [
                 "ResourcePatch"
             ],
@@ -311,6 +344,31 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "All Video Downloader & Ace Player",
+                    "packageName": "videoplayer.videodownloader.downloader",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.9.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 24011893,
+                                "ARMEABI_V7A": 24011893,
+                                "X86": 24011893,
+                                "X86_64": 24011893
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, and any ad/app-open dialog normally shown first.",
+            "name": "Skip splash and language screens",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "MX Player Pro",
                     "packageName": "com.mxtech.videoplayer.pro",
                     "targets": [
@@ -343,14 +401,6 @@
             "dependencies": [],
             "description": "Enters the main activity directly after the splash permission check instead of delaying for the additional external-storage check.",
             "name": "Speed up splash screen",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Stubs known ad SDK entry points and poisons ad-network URL strings across the whole app.",
-            "name": "Universal Remove Ads",
             "options": []
         }
     ]
