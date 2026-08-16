@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0",
+    "version": "v1.7.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -91,6 +91,34 @@
             "dependencies": [],
             "description": "Disables analytics and crash reporting.",
             "name": "Disable tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00A88F",
+                    "name": "Trainline",
+                    "packageName": "com.thetrainline",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "407.0.0.178994",
+                            "versionCodes": {
+                                "ARM64_V8A": 1278994,
+                                "ARMEABI_V7A": 1278994,
+                                "X86": 1278994,
+                                "X86_64": 1278994
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the adverts shown between search results.",
+            "name": "Hide ads",
             "options": []
         },
         {
@@ -217,6 +245,34 @@
             "dependencies": [],
             "description": "Removes the limit for maximum free accounts logged in.",
             "name": "Remove free accounts limit",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#0061BD",
+                    "name": "ReadEra",
+                    "packageName": "org.readera",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 16,
+                            "version": "26.05.20+2300",
+                            "versionCodes": {
+                                "ARM64_V8A": 2300,
+                                "ARMEABI_V7A": 2300,
+                                "X86": 2300,
+                                "X86_64": 2300
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the rate this app dialog and the promotional dialogs shown on startup.",
+            "name": "Remove nags",
             "options": []
         },
         {

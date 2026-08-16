@@ -150,7 +150,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 137 | 4 | Generated |
 | [Stylus](#-stylus-bundle-patch-list) | 5 | 2 | Generated |
-| [HXReborn](#-hxreborn-bundle-patch-list) | 15 | 7 | Generated |
+| [HXReborn](#-hxreborn-bundle-patch-list) | 17 | 9 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 6 | 7 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 21 | 1 | Generated |
@@ -463,8 +463,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Bypass PairIP license check``` | ```Bypasses the PairIP license check by (1) no-oping LicenseClient.checkLicense (static, from attachBaseContext), (2) no-oping LicenseClient.initializeLicenseCheck (instance, from any caller), and (3) modifying AndroidManifest to skip the PairIP Application class, remove LicenseActivity, and remove CHECK_LICENSE permission. This app uses a simple PairIP setup (no VM, no signature check) — only the license check.``` | ```Supreme Duelist Stickman``` | ```All versions``` |
 | ```Bypass PairIP manifest``` | ```Modifies AndroidManifest.xml to skip the PairIP Application class, remove LicenseActivity, and remove CHECK_LICENSE permission. Part of the PairIP bypass.``` | ```Supreme Duelist Stickman``` | ```All versions``` |
 | ```Free in-app purchases``` | ```Makes every IAP purchase succeed instantly without contacting Google Play Billing. When the user taps 'Buy' on any product (Remove Ads), the purchase is credited immediately.``` | ```Supreme Duelist Stickman``` | ```All versions``` |
-| ```Unlimited coins``` | ```Hex patches libil2cpp.so to skip SavePlayerData, SavePlayerProfile, and SaveCoins. This prevents the game from persisting coin deductions — when you spend coins on weapons, skins, maps, or modes, the reduced amount is never saved. Your coin balance stays unlimited across sessions. Does NOT affect weapon/skin/map unlock saves (those keep working).``` | ```Supreme Duelist Stickman``` | ```All versions``` |
-| ```Unlock all (weapons, skins, colors, modes, maps, no ads)``` | ```Hex patches libil2cpp.so to: (1) make get_AdsRemoved return true (No Ads purchased), (2) make all purchases free (AchatWeapon, AchatSkin, AchatColor, buyMap, buyMiniGames), (3) skip all rewarded ads (ShowRewardedWeaponAd, WatchReward, WatchRewardedAd, SkinAd), (4) make unlockBattleMode and unlockMiniGame free. 14 hex patches total.``` | ```Supreme Duelist Stickman``` | ```All versions``` |
+| ```Unlimited coins``` | ```Hex patches libil2cpp.so to skip SaveCoins only. This prevents the game from persisting coin deductions — when you spend coins, the reduced amount is never saved. Your balance stays unlimited across sessions. Does NOT affect SavePlayerData or SavePlayerProfile (those caused crashes).``` | ```Supreme Duelist Stickman``` | ```All versions``` |
+| ```Unlock all (no ads + skip rewarded ads)``` | ```Hex patches libil2cpp.so to: (1) make get_AdsRemoved return true (No Ads purchased), (2) skip all rewarded ads (ShowRewardedWeaponAd, WatchReward, WatchRewardedAd, SkinAd) while still granting the rewards. Combined with the 'Unlimited coins' patch, the player can buy everything without losing coins.``` | ```Supreme Duelist Stickman``` | ```All versions``` |
 | ```Free in-app purchases``` | ```Patches the Google Play Billing bridge to report success and validate purchases. Handles crystal packs and other IAP items at the billing layer. For unlocking tribes and skins, use the 'Unlock all tribes' patch instead.``` | ```The Battle of Polytopia``` | ```All versions``` |
 | ```Unlock all tribes``` | ```Unlocks all 20 tribes (Xinxi, Imperius, Bardur, Oumaji, Kickoo, Hoodrick, Luxidoor, Vengir, Zebasi, Aimo, Aquarion, Elyrion, Polaris, Magma, Yadakk, Quetzali, Cymanti, Swamp, Ikarus, Urkaz) and all skins by patching the native IL2CPP library (libil2cpp.so). Makes IsProductUnlocked return true, skips the purchase flow, and suppresses the 'Purchase error' dialog. Pure ARM64 hex patching, no smali, no extension.``` | ```The Battle of Polytopia``` | ```All versions``` |
 | ```Billing bypass``` | ```Attempts to credit purchases by scanning the app for billing code and applying the appropriate bypass. Runs 5 phases: (1) Cocos2d-x helper, (2) GameMaker verifyPurchase, (3) Google Play Billing, (4) Unity billing bridge, (5) Fallback. Also depends on Unity IL2CPP hex patch.``` | ```Universal``` | ```All versions``` |
@@ -5291,7 +5291,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 HXReborn Bundle Patch List:
 [📦 HXReborn-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hxreborn-patches-bundle-morphe)
 <details>
-<summary><b>HXReborn</b> - 15 patches, 7 apps</summary>
+<summary><b>HXReborn</b> - 17 patches, 9 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5307,9 +5307,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```Proton Mail``` | ```All versions``` |
 | ```Spoof signature``` | ```Restores push notifications by spoofing the original app signature.``` | ```Proton Mail``` | ```All versions``` |
 | ```Unlock custom time picker``` | ```Enables picking a custom date and time when snoozing conversations and scheduling messages.``` | ```Proton Mail``` | ```All versions``` |
+| ```Remove nags``` | ```Removes the rate this app dialog and the promotional dialogs shown on startup.``` | ```ReadEra``` | ```All versions``` |
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Showly``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets. The News feed is not included.``` | ```Showly``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks all premium features.``` | ```Symfonium``` | ```All versions``` |
+| ```Hide ads``` | ```Removes the adverts shown between search results.``` | ```Trainline``` | ```All versions``` |
 
 </details>
 
