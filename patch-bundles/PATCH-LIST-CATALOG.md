@@ -69,7 +69,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 19 | 10 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 17 | 10 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 21 | 11 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 9 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -625,10 +625,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 17 patches, 10 apps</summary>
+<summary><b>Okish-Morphe</b> - 21 patches, 11 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Big Hunter Fake Purchase``` | ```Tapping any store item grants the product immediately (via the game's own confirmed-purchase path -> native applyProduct) without opening Google Play billing. Entitlements persist across restarts.``` | ```Big Hunter``` | ```All versions``` |
+| ```Big Hunter PairIP License Bypass``` | ```Disables the PairIP license check (installer verification + Google Play licensing service validation + paywall/exit dialog). Required for patched APKs — the original check fails on any non-Play signature and force-closes the app.``` | ```Big Hunter``` | ```All versions``` |
+| ```Big Hunter Remove Ads``` | ```Interstitial ads are never shown (show() short-circuits via the ad-not-ready path on all three network bridges: AdMob, AppLovin, Unity Ads).``` | ```Big Hunter``` | ```All versions``` |
+| ```Big Hunter Rewards Without Ads``` | ```Rewarded video requests grant the reward immediately via the game's own native rewardCallback() without loading or showing any ad (AdMob, AppLovin, Unity Ads).``` | ```Big Hunter``` | ```All versions``` |
 | ```Doodle Jump Billing Bypass``` | ```Unlocks the full game by bypassing Google Play billing.``` | ```Doodle Jump``` | ```All versions``` |
 | ```Dr. Driving Ad Removal``` | ```Removes all Google AdMob ads (banner, interstitial, rewarded).``` | ```Dr. Driving``` | ```All versions``` |
 | ```Dr. Driving Unlimited Coins``` | ```Coins inflated to 1,000,000,000 on save load; purchases, upgrades, rentals and repairs never cost coins.``` | ```Dr. Driving``` | ```All versions``` |
