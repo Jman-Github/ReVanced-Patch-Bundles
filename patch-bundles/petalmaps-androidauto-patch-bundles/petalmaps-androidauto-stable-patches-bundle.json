@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-15T23:39:33",
-  "description": "Fix black screen on the car: launch the automotive activity via root 'am start --display <id>' (stock Android blocks launchDisplayId for regular apps). Shared RootShell helper (su --mount-master) between tweaker and CarDisplay; fallback to direct startActivity without root.",
-  "download_url": "https://github.com/andersonlucasg3/PetalMaps-AndroidAuto/releases/download/v1.1.16/patches-1.1.16.mpp",
+  "created_at": "2026-08-16T03:17:14",
+  "description": "Fix letterboxed portrait map on the car: never create the VirtualDisplay with portrait dims (automotive activity is landscape-only); reuse last known landscape dims or wait for a landscape update. Also: /sdcard/petal_aa.log now updates at every key car-flow event (surface, display, launch, attach) for remote debugging.",
+  "download_url": "https://github.com/andersonlucasg3/PetalMaps-AndroidAuto/releases/download/v1.1.17/patches-1.1.17.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.1.16"
+  "version": "v1.1.17"
 }

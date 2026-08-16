@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-dev.10",
+    "version": "v1.6.0-dev.11",
     "patches": [
         {
             "compatiblePackages": [
@@ -18,8 +18,8 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Multiplies the player's bullet damage by 10 in the Bullet Hell minigame (Normal: 1→10, Focused: 2→20), applied to both enemies and bosses.",
-            "name": "10x Bullet Damage",
+            "description": "Multiplies the player's bullet damage by 10 in the Bullet Hell minigame,  applied to both enemies and bosses.",
+            "name": "100x Bullet Damage",
             "options": []
         },
         {
@@ -39,8 +39,8 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Multiplies the player's firing speed by 10 in the Bullet Hell minigame (fire interval 0.15 -> 0.015) for a near-continuous beam.",
-            "name": "Beam of Death (10x Fire Rate)",
+            "description": "Multiplies the player's firing speed by 50 in the Bullet Hell minigame for a near-continuous beam.",
+            "name": "Beam of Death (50x Fire Rate)",
             "options": []
         },
         {

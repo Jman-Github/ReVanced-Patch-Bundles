@@ -88,7 +88,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 13 | 6 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 55 | 42 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 57 | 43 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 45 | 32 | Generated |
@@ -212,8 +212,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```10x Bullet Damage``` | ```Multiplies the player's bullet damage by 10 in the Bullet Hell minigame (Normal: 1→10, Focused: 2→20), applied to both enemies and bosses.``` | ```Roost``` | ```All versions``` |
-| ```Beam of Death (10x Fire Rate)``` | ```Multiplies the player's firing speed by 10 in the Bullet Hell minigame (fire interval 0.15 -> 0.015) for a near-continuous beam.``` | ```Roost``` | ```All versions``` |
+| ```100x Bullet Damage``` | ```Multiplies the player's bullet damage by 10 in the Bullet Hell minigame, applied to both enemies and bosses.``` | ```Roost``` | ```All versions``` |
+| ```Beam of Death (50x Fire Rate)``` | ```Multiplies the player's firing speed by 50 in the Bullet Hell minigame for a near-continuous beam.``` | ```Roost``` | ```All versions``` |
 | ```Bypass Play Store license check``` | ```Disables the PairIP Play-license check so a non-Play (e.g. patched/sideloaded) install no longer redirects to the "get it on Google Play" wall on launch.``` | ```Roost``` | ```All versions``` |
 | ```Redirect Google login to microG``` | ```Routes Roost's Google Play Services calls to microG RE so a patched install can sign in with Google. Requires microG RE (app.revanced.android.gms) installed.``` | ```Roost``` | ```All versions``` |
 | ```Skip Play Integrity (fix microG Firebase delay)``` | ```Makes Play Integrity attestation fail fast instead of hanging ~60s under microG, removing the delay before Firebase logins, leaderboards, and other backend calls.``` | ```Roost``` | ```All versions``` |
@@ -969,7 +969,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Hoomans-Morphe Bundle Patch List:
 [📦 Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 55 patches, 42 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 57 patches, 43 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -996,6 +996,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Sober Plus``` | ```Unlocks the client-side Sober Plus gates backed by the app's local RevenueCat state, including locked-access settings, extra reaction types, skins, workbook and urge logging entries, and the Sober Plus dashboard. Server-hosted services can still require a real account subscription.``` | ```I Am Sober``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks InShot's Pro features without a subscription: no export watermark, no ads, and the paid filters, effects, transitions, stickers and HD export open. The on-device AI tools (background remover, AI retouch, auto captions) verify the original signing key in native code, so those may not run on a re-signed build; the rest of Pro works offline.``` | ```InShot``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all of Liquid Gallery's Pro features without a purchase.``` | ```Liquid Gallery``` | ```All versions``` |
+| ```Disable cloud sign-in prompt``` | ```Keeps the optional Microsoft cloud sign-in onboarding from replacing SwiftKey's launcher, so local keyboard setup and settings remain usable without an account. This does not sign in or unlock cloud sync and other account-backed features.``` | ```Microsoft SwiftKey``` | ```All versions``` |
+| ```Disable telemetry``` | ```Stops SwiftKey's first-party telemetry records and uploads, Adjust attribution, Crashlytics, Firebase Sessions, legacy Google Analytics, and app exception reporting. Push messaging and the multipurpose job service stay enabled.``` | ```Microsoft SwiftKey``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Mixel's Premium tier without a subscription: the Pro feature gates open and the premium recipe packs show as entitled. Both gates are read client-side from RevenueCat's entitlements, so this lifts them on-device. Anything Mixel actually checks server-side (if a later build moves a gate there) won't be covered.``` | ```Mixel``` | ```All versions``` |
 | ```Unlock Plus``` | ```Unlocks Moneta Plus features, including the full asset catalog, more than five selected assets, five-minute rate updates, camera price scanning, and extended historical charts. Purchases, restore purchases, and server account state are unchanged. This is the arm64 build.``` | ```Moneta``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Money Manager's premium and removes the ads: passcode lock, more accounts, custom categories and themes, repeat transactions, advanced stats, and local backup all open. PC/web sync and cloud backup stay tied to the server (it issues an expiry the app checks online), so those keep needing a real subscription.``` | ```Money Manager``` | ```All versions``` |

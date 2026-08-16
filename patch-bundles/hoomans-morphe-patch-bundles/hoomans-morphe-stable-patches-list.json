@@ -1,5 +1,5 @@
 {
-    "version": "v1.45.0",
+    "version": "v1.46.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -86,6 +86,28 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#00A4EF",
+                    "name": "Microsoft SwiftKey",
+                    "packageName": "com.touchtype.swiftkey",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.13.13.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Keeps the optional Microsoft cloud sign-in onboarding from replacing SwiftKey's launcher, so local keyboard setup and settings remain usable without an account. This does not sign in or unlock cloud sync and other account-backed features.",
+            "name": "Disable cloud sign-in prompt",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#001935",
                     "name": "Tumblr",
                     "packageName": "com.tumblr",
@@ -123,6 +145,28 @@
             ],
             "description": "Turns off the in-app update check and the update prompt.",
             "name": "Disable in-app update",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00A4EF",
+                    "name": "Microsoft SwiftKey",
+                    "packageName": "com.touchtype.swiftkey",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.13.13.5"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Stops SwiftKey's first-party telemetry records and uploads, Adjust attribution, Crashlytics, Firebase Sessions, legacy Google Analytics, and app exception reporting. Push messaging and the multipurpose job service stay enabled.",
+            "name": "Disable telemetry",
             "options": []
         },
         {
