@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.20",
+    "version": "v1.0.0-dev.21",
     "patches": [
         {
             "compatiblePackages": [
@@ -186,7 +186,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds Settings → Morphe → Subtitles and removes SDH annotations from Media3 subtitles when enabled.",
+            "description": "Adds Settings → Morphe → Subtitles to normalize music symbols and remove SDH annotations from Media3 subtitles.",
             "name": "Remove SDH Annotations",
             "options": []
         },
@@ -212,6 +212,27 @@
             ],
             "description": "Returns the source picker to the source played before leaving the player.",
             "name": "Restore Source Selection",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#111827",
+                    "name": "NuvioTV",
+                    "packageName": "com.nuvio.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.8.4-beta"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Installs the patched app separately as Nuvio Morphe instead of replacing NuvioTV.",
+            "name": "Side-by-side installation",
             "options": []
         }
     ]

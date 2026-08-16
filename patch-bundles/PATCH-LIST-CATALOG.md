@@ -170,7 +170,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [TikTok-Lite](#-tiktok-lite-bundle-patch-list) | 35 | 2 | Generated |
 | [Niconico-YT](#-niconico-yt-bundle-patch-list) | 1 | 1 | Generated |
 | [Alastor-Kaneki](#-alastor-kaneki-bundle-patch-list) | 1 | 1 | Generated |
-| [NuvioTV](#-nuviotv-bundle-patch-list) | 9 | 1 | Generated |
+| [NuvioTV](#-nuviotv-bundle-patch-list) | 10 | 1 | Generated |
 | [GoldRift](#-goldrift-bundle-patch-list) | 1 | 1 | Generated |
 | [RoundSalmon4](#-roundsalmon4-bundle-patch-list) | 1 | 1 | Generated |
 | [Dexnis](#-dexnis-bundle-patch-list) | 1 | 1 | Generated |
@@ -463,8 +463,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Bypass PairIP license check``` | ```Bypasses the PairIP license check by (1) no-oping LicenseClient.checkLicense (static, from attachBaseContext), (2) no-oping LicenseClient.initializeLicenseCheck (instance, from any caller), and (3) modifying AndroidManifest to skip the PairIP Application class, remove LicenseActivity, and remove CHECK_LICENSE permission. This app uses a simple PairIP setup (no VM, no signature check) — only the license check.``` | ```Supreme Duelist Stickman``` | ```All versions``` |
 | ```Bypass PairIP manifest``` | ```Modifies AndroidManifest.xml to skip the PairIP Application class, remove LicenseActivity, and remove CHECK_LICENSE permission. Part of the PairIP bypass.``` | ```Supreme Duelist Stickman``` | ```All versions``` |
 | ```Free in-app purchases``` | ```Makes every IAP purchase succeed instantly without contacting Google Play Billing. When the user taps 'Buy' on any product (Remove Ads), the purchase is credited immediately.``` | ```Supreme Duelist Stickman``` | ```All versions``` |
-| ```Unlimited coins``` | ```Hex patches libil2cpp.so to skip SaveCoins, preventing the game from persisting coin deductions.``` | ```Supreme Duelist Stickman``` | ```All versions``` |
-| ```Unlock all (weapons, modes, maps, no ads)``` | ```Hex patches libil2cpp.so to: (1) make get_AdsRemoved return true (No Ads purchased), (2) make unlockBattleMode and unlockMiniGame free, (3) skip rewarded ads for weapons and rewards.``` | ```Supreme Duelist Stickman``` | ```All versions``` |
+| ```Unlimited coins``` | ```Hex patches libil2cpp.so to skip SavePlayerData, SavePlayerProfile, and SaveCoins. This prevents the game from persisting coin deductions — when you spend coins on weapons, skins, maps, or modes, the reduced amount is never saved. Your coin balance stays unlimited across sessions. Does NOT affect weapon/skin/map unlock saves (those keep working).``` | ```Supreme Duelist Stickman``` | ```All versions``` |
+| ```Unlock all (weapons, skins, colors, modes, maps, no ads)``` | ```Hex patches libil2cpp.so to: (1) make get_AdsRemoved return true (No Ads purchased), (2) make all purchases free (AchatWeapon, AchatSkin, AchatColor, buyMap, buyMiniGames), (3) skip all rewarded ads (ShowRewardedWeaponAd, WatchReward, WatchRewardedAd, SkinAd), (4) make unlockBattleMode and unlockMiniGame free. 14 hex patches total.``` | ```Supreme Duelist Stickman``` | ```All versions``` |
 | ```Free in-app purchases``` | ```Patches the Google Play Billing bridge to report success and validate purchases. Handles crystal packs and other IAP items at the billing layer. For unlocking tribes and skins, use the 'Unlock all tribes' patch instead.``` | ```The Battle of Polytopia``` | ```All versions``` |
 | ```Unlock all tribes``` | ```Unlocks all 20 tribes (Xinxi, Imperius, Bardur, Oumaji, Kickoo, Hoodrick, Luxidoor, Vengir, Zebasi, Aimo, Aquarion, Elyrion, Polaris, Magma, Yadakk, Quetzali, Cymanti, Swamp, Ikarus, Urkaz) and all skins by patching the native IL2CPP library (libil2cpp.so). Makes IsProductUnlocked return true, skips the purchase flow, and suppresses the 'Purchase error' dialog. Pure ARM64 hex patching, no smali, no extension.``` | ```The Battle of Polytopia``` | ```All versions``` |
 | ```Billing bypass``` | ```Attempts to credit purchases by scanning the app for billing code and applying the appropriate bypass. Runs 5 phases: (1) Cocos2d-x helper, (2) GameMaker verifyPurchase, (3) Google Play Billing, (4) Unity billing bridge, (5) Fallback. Also depends on Unity IL2CPP hex patch.``` | ```Universal``` | ```All versions``` |
@@ -5712,7 +5712,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 NuvioTV Bundle Patch List:
 [📦 NuvioTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nuviotv-patches-bundle-morphe)
 <details>
-<summary><b>NuvioTV</b> - 9 patches, 1 app</summary>
+<summary><b>NuvioTV</b> - 10 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5723,8 +5723,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Mark SDH Subtitles``` | ```Marks explicitly labelled SDH tracks and detected English SDH subtitle files.``` | ```NuvioTV``` | ```All versions``` |
 | ```Random Episode``` | ```Adds Morphe > Detail Page > Show Random Episode Button and random series playback.``` | ```NuvioTV``` | ```All versions``` |
 | ```Rating Visibility``` | ```Adds Settings > Morphe > Ratings with independent overall and episode rating controls.``` | ```NuvioTV``` | ```All versions``` |
-| ```Remove SDH Annotations``` | ```Adds Settings → Morphe → Subtitles and removes SDH annotations from Media3 subtitles when enabled.``` | ```NuvioTV``` | ```All versions``` |
+| ```Remove SDH Annotations``` | ```Adds Settings → Morphe → Subtitles to normalize music symbols and remove SDH annotations from Media3 subtitles.``` | ```NuvioTV``` | ```All versions``` |
 | ```Restore Source Selection``` | ```Returns the source picker to the source played before leaving the player.``` | ```NuvioTV``` | ```All versions``` |
+| ```Side-by-side installation``` | ```Installs the patched app separately as Nuvio Morphe instead of replacing NuvioTV.``` | ```NuvioTV``` | ```All versions``` |
 
 </details>
 
