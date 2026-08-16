@@ -1,5 +1,5 @@
 {
-    "version": "v1.26.3",
+    "version": "v1.27.0",
     "patches": [
         {
             "compatibility": [
@@ -545,7 +545,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Removes VOD pre-roll ads and pause ads while preserving live TV.",
+            "description": "Removes VOD pre-roll/mid-roll ads and pause ads, and replaces live sports commercial breaks with the \"Commercial in Progress\" slate, while preserving playback.",
             "name": "Paramount+ Android TV",
             "options": [],
             "use": true
