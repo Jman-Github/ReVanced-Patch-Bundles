@@ -2568,6 +2568,32 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hxreborn-tiktok-patch-bundles/hxreborn-tiktok-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 Flexboard-Patches-Bundle [Morphe]:
+[🧩 Flexboard Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-flexboard-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/flexboard-patch-bundles/flexboard-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/flexboard-patch-bundles/flexboard-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/flexboard-patch-bundles/flexboard-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Cricinfo-Tweaks-Patches-Bundle [Morphe]:
+[🧩 Cricinfo-Tweaks Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-cricinfo-tweaks-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/cricinfo-tweaks-patch-bundles/cricinfo-tweaks-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/cricinfo-tweaks-patch-bundles/cricinfo-tweaks-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/cricinfo-tweaks-patch-bundles/cricinfo-tweaks-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -2972,6 +2998,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [iPusnas-Patches-Bundle](https://github.com/kuchingneko28/ipusnas-patches)
 
 #### 🩹 [HXReborn-TikTok-Patches-Bundle](https://github.com/hxreborn/hxreborn-tiktok-patches)
+
+#### 🩹 [Flexboard-Patches-Bundle](https://github.com/JZ6/Flexboard)
+
+#### 🩹 [Cricinfo-Tweaks-Patches-Bundle](https://github.com/isuruhg/cricinfo-tweaks)
 
 ## 🖇 Integrations Repositories In Use
 
