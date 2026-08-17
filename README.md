@@ -3025,10 +3025,10 @@ Implemented a patch serializer for all `.rvp` (API v4) patch bundles in this
 
 ## ⭐ Star History
 
-<a href="https://star-history.dera.page/#Jman-Github/Revanced-Patch-Bundles&Jman-Github/ReVanced-Patch-Bundles">
+<a href="https://star-history.dera.page/#Jman-Github/Revanced-Patch-Bundles">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=Jman-Github/Revanced-Patch-Bundles,Jman-Github/ReVanced-Patch-Bundles&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=Jman-Github/Revanced-Patch-Bundles,Jman-Github/ReVanced-Patch-Bundles" />
-   <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=Jman-Github/Revanced-Patch-Bundles,Jman-Github/ReVanced-Patch-Bundles" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=Jman-Github/Revanced-Patch-Bundles&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=Jman-Github/Revanced-Patch-Bundles" />
+   <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=Jman-Github/Revanced-Patch-Bundles" />
  </picture>
 </a>
