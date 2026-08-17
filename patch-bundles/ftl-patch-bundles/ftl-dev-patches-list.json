@@ -1,5 +1,5 @@
 {
-    "version": "v1.28.0-dev.7",
+    "version": "v1.35.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -85,6 +85,31 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "All Video Downloader & Ace Player",
+                    "packageName": "videoplayer.videodownloader.downloader",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.9.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 24011893,
+                                "ARMEABI_V7A": 24011893,
+                                "X86": 24011893,
+                                "X86_64": 24011893
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Prevents the full-screen \"loading ad\" dialog from appearing when the app is reopened after being minimized.",
+            "name": "Disable ad dialog when reopening app",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "SnapTube",
                     "packageName": "com.snaptube.premium",
                     "targets": [
@@ -128,8 +153,8 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Removes selected ES File Explorer home tiles, menu actions, navigation header, media handler, and web-search entry.",
-            "name": "ES File Explorer Cleanup",
+            "description": "Removes BookMark, New Files, Cleaner Row In HomePage, Cleans More menu actions",
+            "name": "ES File Explorer Ui Cleanup",
             "options": []
         },
         {
@@ -137,15 +162,6 @@
                 {
                     "name": "MX Player Pro",
                     "packageName": "com.mxtech.videoplayer.pro",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                },
-                {
-                    "name": "MX Player",
-                    "packageName": "com.mxtech.videoplayer.ad",
                     "targets": [
                         {
                             "isExperimental": false
@@ -169,15 +185,6 @@
                             "isExperimental": false
                         }
                     ]
-                },
-                {
-                    "name": "MX Player",
-                    "packageName": "com.mxtech.videoplayer.ad",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
                 }
             ],
             "default": false,
@@ -196,21 +203,62 @@
                             "isExperimental": false
                         }
                     ]
-                },
-                {
-                    "name": "MX Player",
-                    "packageName": "com.mxtech.videoplayer.ad",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
                 }
             ],
             "default": false,
             "dependencies": [],
             "description": "Collapses the WhatsApp, Legal, and Help entries on the Me tab.",
             "name": "Hide Me tab promo items",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "RS File Manager",
+                    "packageName": "com.rs.explorer.filemanager",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.0.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 239,
+                                "ARMEABI_V7A": 239,
+                                "X86": 239,
+                                "X86_64": 239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Hides Hide, Add to desktop, Encrypt, Decrypt, Add bookmark, Web Search, Copy to, Move to, Transfer, and Playing from the \"More actions\" menu.",
+            "name": "Hide more actions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "RS File Manager",
+                    "packageName": "com.rs.explorer.filemanager",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.0.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 239,
+                                "ARMEABI_V7A": 239,
+                                "X86": 239,
+                                "X86_64": 239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the Network, Tools and Bookmarks sections from the home page section list.",
+            "name": "Hide network, tools and bookmarks on home page",
             "options": []
         },
         {
@@ -249,10 +297,8 @@
         {
             "compatiblePackages": null,
             "default": false,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Disables ad SDKs, ruins ad network request URLs, and hides empty ad containers across the app.",
+            "dependencies": [],
+            "description": "Stubs known ad SDK entry points and poisons ad-network URL strings across the whole app.",
             "name": "Remove Ads",
             "options": []
         },
@@ -348,17 +394,60 @@
         {
             "compatiblePackages": [
                 {
-                    "name": "MX Player Pro",
-                    "packageName": "com.mxtech.videoplayer.pro",
+                    "name": "All Video Downloader & Ace Player",
+                    "packageName": "videoplayer.videodownloader.downloader",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "1.9.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 24011893,
+                                "ARMEABI_V7A": 24011893,
+                                "X86": 24011893,
+                                "X86_64": 24011893
+                            }
                         }
                     ]
-                },
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, and any ad/app-open dialog normally shown first.",
+            "name": "Skip splash and language screens",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
                 {
-                    "name": "MX Player",
-                    "packageName": "com.mxtech.videoplayer.ad",
+                    "name": "RS File Manager",
+                    "packageName": "com.rs.explorer.filemanager",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.0.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 239,
+                                "ARMEABI_V7A": 239,
+                                "X86": 239,
+                                "X86_64": 239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Moves the launcher intent filter to the main activity and calls the all-files-access permission request directly, instead of showing the splash activity and its full-screen 'grant storage access' dialog.",
+            "name": "Skip splash screen",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player Pro",
+                    "packageName": "com.mxtech.videoplayer.pro",
                     "targets": [
                         {
                             "isExperimental": false
@@ -370,6 +459,25 @@
             "dependencies": [],
             "description": "Moves the launcher intent filters and app shortcuts from the welcome/splash activity to the main activity, so the app boots straight past the splash and update screen.",
             "name": "Skip welcome screen",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Xender",
+                    "packageName": "cn.xender",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.8.0.prime"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Enters the main activity directly after the splash permission check instead of delaying for the additional external-storage check.",
+            "name": "Speed up splash screen",
             "options": []
         }
     ]
