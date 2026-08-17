@@ -1,5 +1,5 @@
 {
-    "version": "v1.27.0",
+    "version": "v1.28.0",
     "patches": [
         {
             "compatibility": [
@@ -848,6 +848,47 @@
                 "ResourcePatch"
             ],
             "description": "Hides the Netflix \"you're traveling\" / update-your-household prompt by keeping the client from activating the misdetection challenge session. Does NOT change what Netflix's servers detect (that's driven by your public IP — use a VPN for that); it only suppresses the on-screen prompt. Opt-in / experimental; only takes visible effect when the account would otherwise be prompted.",
+            "name": "Suppress Household Prompt",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 1129679,
+                    "description": null,
+                    "name": "Disney+ Android TV",
+                    "packageName": "com.disney.disneyplus",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "26.6.0+rc5-2026.04.21"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "26.8.0+rc6-2026.05.20"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "26.9.2+rc1-2026.06.12"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "26.12.1+rc1-2026.07.15"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.disney.disneyplus": [
+                    "26.6.0+rc5-2026.04.21",
+                    "26.8.0+rc6-2026.05.20",
+                    "26.9.2+rc1-2026.06.12",
+                    "26.12.1+rc1-2026.07.15"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hides the Disney+ \"Verify Household Network\" / out-of-household prompt by forcing the client's out-of-household check to report in-household, so the app routes straight to home. Does NOT change what Disney's servers detect (that's driven by your public IP — use a VPN for that); it only suppresses the on-screen prompt/routing. Opt-in / experimental; only takes visible effect when the device would otherwise be prompted.",
             "name": "Suppress Household Prompt",
             "options": [],
             "use": false
