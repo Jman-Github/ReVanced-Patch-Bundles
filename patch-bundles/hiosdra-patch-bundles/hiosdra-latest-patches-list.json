@@ -1,14 +1,6 @@
 {
-    "version": "v1.4.0-dev.2",
+    "version": "v1.4.0-dev.3",
     "patches": [
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Provides a no-op patch for validating the project build.",
-            "name": "Compile-only example",
-            "options": []
-        },
         {
             "compatiblePackages": [
                 {
@@ -153,6 +145,28 @@
             "dependencies": [],
             "description": "Neutralises Google Play integrity/license checks (PairIP) so a repackaged build launches.",
             "name": "Movie Paradise - PairIP license bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "description": "VesselFinder mobile APK",
+                    "name": "VesselFinder",
+                    "packageName": "com.astrapaging.vff",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "6.6.0"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Prevents the VesselFinder advertisement plugin from creating or showing banner ads.",
+            "name": "VesselFinder - Disable advertisements",
             "options": []
         }
     ]

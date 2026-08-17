@@ -1,5 +1,5 @@
 {
-    "version": "v1.49.0",
+    "version": "v1.49.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -576,15 +576,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.57.4"
+                            "version": "4.56.0"
                         }
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Unlocks Cronometer Gold without a subscription, like custom charts, advanced reports, the fasting tracker, custom biometrics, an ad-free view, and more. Anything Cronometer works out on its own servers still needs Gold.",
             "name": "Unlock Gold",
             "options": []
