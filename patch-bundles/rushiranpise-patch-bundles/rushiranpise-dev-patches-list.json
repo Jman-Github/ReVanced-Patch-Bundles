@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.2-dev.1",
+    "version": "v1.18.3-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -7494,33 +7494,6 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all Wavve Boating GPS premium features: charts, weather, tide data, and removes subscription paywall.",
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#0066CC",
-                    "name": "WetterOnline",
-                    "packageName": "de.wetteronline.wetterapp",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.16.1",
-                            "versionCodes": {
-                                "ARM64_V8A": 2280443,
-                                "ARMEABI_V7A": 2280443,
-                                "X86": 2280443,
-                                "X86_64": 2280443
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks premium and unblocks logo screen freeze by bypassing billing callbacks and all local access checks.",
             "name": "Unlock Premium",
             "options": []
         },
