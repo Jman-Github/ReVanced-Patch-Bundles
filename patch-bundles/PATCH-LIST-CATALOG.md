@@ -145,7 +145,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 30 | 12 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 29 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 323 | 228 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 341 | 245 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 137 | 4 | Generated |
@@ -4735,7 +4735,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 323 patches, 227 apps</summary>
+<summary><b>Rushiranpise</b> - 341 patches, 244 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4750,7 +4750,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium+``` | ```Unlocks AccuWeather's Premium+ subscription tier without a Play Store purchase. Enables the full 15-day and hourly forecast detail, MinuteCast extended precision, air quality and health indexes, real-feel temperature, severe weather notifications, and widget customisation.``` | ```AccuWeather``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium features in app.``` | ```Ace Ex File Manager``` | ```All versions``` |
 | ```Unlock Lifetime Premium``` | ```Unlocks all features locked behind the subscription paywall.``` | ```AdGuard``` | ```All versions``` |
-| ```Unlock Lifetime Premium``` | ```Unlocks all features locked behind the subscription paywall.``` | ```AdGuard for Android TV``` | ```All versions``` |
 | ```Adobe Acrobat Premium``` | ```Unlocks all Acrobat Pro and Studio tools without a subscription.``` | ```Adobe Acrobat``` | ```All versions``` |
 | ```Adobe Scan Premium``` | ```Unlocks all premium scanning and PDF tools in Adobe Scan.``` | ```Adobe Scan``` | ```All versions``` |
 | ```Remove ads``` | ```Stubs all ad loading paths: banner/interstitial loaders, billing callbacks, and ad SDK init.``` | ```AIDA64``` | ```All versions``` |
@@ -4766,16 +4765,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Price history charts``` | ```Injects Keepa and CamelCamelCamel price history charts on Amazon product pages.``` | ```Amazon Shopping, Amazon India``` | ```All versions``` |
 | ```Remove ads``` | ```Hides sponsored and ad content in Amazon Shopping via CSS injection.``` | ```Amazon Shopping, Amazon India``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks AmoledPix premium features and disables ads.``` | ```AmoledPix``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks the Remove Ads purchase in Ampere by bypassing the isProVersion getter, purchase verifier, and payment-needed gate.``` | ```Ampere``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks the Remove Ads purchase in Ampere by bypassing the isProVersion getter and purchase verifier.``` | ```Ampere``` | ```All versions``` |
 | ```Bypass developer verification``` | ```Forces all APK install verification sessions to be bypassed, preventing the verifier from blocking sideloaded or unsigned apps on Android 16+ devices.Important: Requires pushing the patched APK as a system app replacement (e.g. via Magisk module or ADB with root)since the original holds DEVELOPER_VERIFICATION_AGENT permission. ADB installs are exempt from verification regardless.``` | ```Android Developer Verifier``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks AndroPods Pro: voice call integration, assistant control, ear detection auto-pause/resume, and all premium preferences.``` | ```AndroPods``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks AnExplorer Pro: hides paywall and removes all purchase gates.``` | ```AnExplorer``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium wallpapers.``` | ```Anime Depth Wallpapers``` | ```All versions``` |
 | ```Unlock Ultimate``` | ```Unlocks Ultimate Ad-Free + Android TV.``` | ```APKMirror Installer``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all Pro features in app.``` | ```App Permission Manager``` | ```All versions``` |
+| ```Unlock VIP``` | ```Unlocks all VIP features by bypassing the subscription status checks for all billing paths.``` | ```AppLock Watcher``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in Athena by making Settings.getPremiumUnlocked() always return true.``` | ```Athena``` | ```All versions``` |
 | ```Auto Cursor Premium``` | ```Unlocks Auto Cursor Pro by bypassing the local purchase state check.``` | ```Auto Cursor``` | ```All versions``` |
 | ```Unlock Premium``` | ```Removes the 30 running statement limit and unlocks Automate premium features.``` | ```Automate``` | ```All versions``` |
-| ```Aviate License``` | ```Bypasses the Pairip license check to prevent non-licensed app termination.``` | ```Aviate``` | ```All versions``` |
 | ```Aviate Premium``` | ```Unlocks Aviate Pro and Lifetime Pro by patching the Hermes JS subscription gate.``` | ```Aviate``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in Awake by bypassing the RC entitlement check chain and the Pairip Play Licensing verification.``` | ```Awake``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium and marks the yearly plan as purchased.``` | ```Battery Guru, Battery Guru Community``` | ```All versions``` |
@@ -4789,11 +4789,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Pro``` | ```Unlocks the Pro upgrade in Bluetooth Volume Manager by forcing isUpgraded=true.``` | ```Bluetooth Volume Manager``` | ```All versions``` |
 | ```Unlock Cloud Service``` | ```Unlocks BluramsGuard cloud storage, AI detection, and playback features.``` | ```Blurams``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock Premium Features in app.``` | ```BlurWall``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks BoldVoice premium subscription.``` | ```BoldVoice: American Accent``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks BoldVoice premium subscription and removes upsell nags.``` | ```BoldVoice``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Box Box Pro``` | ```Box Box``` | ```All versions``` |
+| ```Unlock Licence``` | ```Unlocks BubbleUPnP licence by forcing the licence setter to always write true.``` | ```BubbleUPnP``` | ```All versions``` |
 | ```Unlock SVIP``` | ```Unlocks SViP features in app.``` | ```BuzzCast``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Calimoto LIFETIME membership by spoofing the membership getter.``` | ```calimoto``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks Calm lifetime subscription``` | ```Calm: Sleep & Meditation``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Calm Premium: removes all subscription gates, upsell banners, video session locks, and content locks.``` | ```Calm``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Calory Pro and removes ads.``` | ```Calory``` | ```All versions``` |
 | ```Disable telemetry``` | ```Disables CamScanner's custom telemetry/log-agent system.``` | ```CamScanner``` | ```All versions``` |
 | ```Yearly Unlock``` | ```Unlocks premium features without login. Note: Login Won't Work``` | ```CamScanner``` | ```All versions``` |
@@ -4802,20 +4803,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks Carbon premium subscription.``` | ```Carbon``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all premium features in Case Tracker — Immigration.``` | ```Case Tracker``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlock Pro Features in Cashew App``` | ```Cashew``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Cast to TV - XCast premium by forcing subscription and pro gates to return true.``` | ```Cast to TV``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Charge Meter premium features.``` | ```Charge Meter``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all Citizen Plus/Protect features: Safety Network, Safety Center, Zones, Live Agent, Offender alerts, Clarity crime map, incident video, and more.``` | ```Citizen``` | ```All versions``` |
 | ```Unlock Club``` | ```Unlocks Citymapper Club Membership. Note: requires a manual purchase attempt inside the app.``` | ```Citymapper``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks premium in Clickmate``` | ```Clickmate``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks premium features in Clickmate by bypassing the purchase check.``` | ```Clickmate``` | ```All versions``` |
 | ```Unlock Plus``` | ```Forces Clue Plus subscription active, unlocking all premium features.``` | ```Clue Period & Cycle Tracker``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks ColorNote premium and removes advertising ID permissions.``` | ```ColorNote``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in Countdown Widget``` | ```Countdown Widget``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks premium features in app.``` | ```CPU-Z``` | ```All versions``` |
-| ```Bypass License Check``` | ```Bypasses PairIP DRM license verification to prevent forced app shutdown on non-Play-licensed installs.``` | ```Crime Radar``` | ```All versions``` |
-| ```Bypass Subscription Paywall``` | ```Bypasses the subscription paywall in-app.``` | ```Crime Radar``` | ```All versions``` |
-| ```Remove Item Limits``` | ```Removes all item limits in-app.``` | ```Crime Radar``` | ```All versions``` |
-| ```Suppress Premium Promotions``` | ```Supress all premium promotions in-app.``` | ```Crime Radar``` | ```All versions``` |
-| ```Unlock Followed Locations``` | ```Unlocks the Followed Locations premium feature.``` | ```Crime Radar``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Crime Radar``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks CrimeRadar premium subscription, raises followed locations limit, removes ads, and disables PairIP licence checks.``` | ```Crime Radar``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Cube ACR``` | ```All versions``` |
 | ```Puzzles Unlock``` | ```Unlocks all puzzle designs including kilominx and ad-gated variants.``` | ```Cube Solver``` | ```All versions``` |
 | ```Remove Ads``` | ```Removes advertisements and disables crash/analytics telemetry.``` | ```Cube Solver``` | ```All versions``` |
@@ -4825,9 +4822,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Debug Menu``` | ```Enables Duolingo's hidden debug menu in settings.``` | ```Duolingo``` | ```All versions``` |
 | ```Unlock Subscription``` | ```Unlocks user-selectable Duolingo subscription tiers.``` | ```Duolingo``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Electron premium features``` | ```Electron``` | ```All versions``` |
-| ```Disable Tracking``` | ```Disables analytics and telemetry in ES File Explorer``` | ```ES File Explorer``` | ```All versions``` |
-| ```Unlock VIP Lifetime``` | ```Unlock Vip Features in APP.``` | ```ES File Explorer``` | ```All versions``` |
+| ```Disable Tracking``` | ```Disables UMeng analytics and crash reporting in ES File Explorer.``` | ```ES File Explorer``` | ```All versions``` |
+| ```Unlock VIP Lifetime``` | ```Unlocks VIP lifetime features in ES File Explorer.``` | ```ES File Explorer``` | ```All versions``` |
 | ```Unlock Excel``` | ```Removes login requirement, unlocks premium, blocks ads, bypasses signature and code transparency checks.``` | ```Excel``` | ```All versions``` |
+| ```Disable Ads``` | ```Disables AdMob interstitial and banner ads.``` | ```Feem``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all File Manager premium features by bypassing the RSA license token verification.``` | ```File Manager``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Fitbod premium features.``` | ```Fitbod``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Fitia premium features by permanently reporting an active subscription.``` | ```Fitia``` | ```All versions``` |
 | ```Unlock Ad-Free``` | ```Forces FlightAware ad-free subscribed state.``` | ```FlightAware``` | ```All versions``` |
@@ -4849,9 +4848,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlock Premium features in app.``` | ```Historical Calendar``` | ```All versions``` |
 | ```Unlock Premium``` | ```N/A``` | ```Hola VPN Proxy Plus``` | ```All versions``` |
 | ```Unlock VIP (Lifetime)``` | ```Forces permanent professional VIP tier, removes ads and upgrade popups, bypasses PairIP.``` | ```HTTP Sniffer``` | ```All versions``` |
+| ```Unlock Premium & Remove Ads``` | ```Unlocks all pro features and removes ads in Hydro Coach by forcing the master premium gate, ads gate, and no-ads SKU check to return true/false respectively.``` | ```Hydro Coach``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in Image & Video Date Fixer.``` | ```Image & Video Date Fixer``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlock Pro Features in app.``` | ```Inmigreat``` | ```All versions``` |
-| ```Unlock Full Version``` | ```Unlocks all features in Inure App Manager by bypassing the trial period and companion-app verification checks.``` | ```Inure App Manager, Inure App Manager (GitHub)``` | ```All versions``` |
 | ```Unlock Elite``` | ```Unlocks JEFIT Elite features in app.``` | ```JEFIT``` | ```All versions``` |
 | ```Unlock Gold``` | ```Unlocks Kahoot! Plus Gold features in app.``` | ```Kahoot!``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in KillApps.``` | ```KillApps``` | ```All versions``` |
@@ -4864,13 +4863,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove ads``` | ```Disables LiveScore banner, native, and interstitial ad requests.``` | ```LiveScore``` | ```All versions``` |
 | ```Remove Ads``` | ```Removes interstitial and exit native ads from m-Indicator.``` | ```m-Indicator``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Pro for MacroDroid - Device Automation.``` | ```MacroDroid``` | ```All versions``` |
+| ```Unlock Ultimate``` | ```Unlocks all Malwarebytes Ultimate features via enum singleton and feature gate patches.``` | ```Malwarebytes Mobile Security``` | ```All versions``` |
 | ```Unlock Deluxe``` | ```Unlocks the Deluxe subscription.``` | ```MANGA Plus by SHUEISHA``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks Premium features in app after login.``` | ```Mapy``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Premium features in app after login.``` | ```Mapy.com``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all pro features.``` | ```MaterialPods``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all Pro features.``` | ```MEGA``` | ```All versions``` |
+| ```Allow screen capture``` | ```Allows screenshots and screen recording in all conversations including end-to-end encrypted ones.``` | ```Messenger``` | ```All versions``` |
+| ```Block screenshot detection``` | ```Prevents Messenger from notifying other participants when you take a screenshot or screen recording.``` | ```Messenger``` | ```All versions``` |
 | ```Change package name``` | ```Installs Messenger beside the original by renaming the manifest package and provider authorities, removing duplicate permission declarations.``` | ```Messenger``` | ```All versions``` |
 | ```Disable media transcoding``` | ```Sends photos and videos at original quality without re-encoding.``` | ```Messenger``` | ```All versions``` |
 | ```Disable typing indicator``` | ```Disables the indicator while typing a message.``` | ```Messenger``` | ```All versions``` |
+| ```Enable chat heads``` | ```Enables chat heads (bubbles) for all devices regardless of API level or RAM class.``` | ```Messenger``` | ```All versions``` |
 | ```Hide Facebook buttons``` | ```Hides buttons and shortcuts that open Facebook.``` | ```Messenger``` | ```All versions``` |
 | ```Hide inbox ads``` | ```Hides ads in the Messenger inbox.``` | ```Messenger``` | ```All versions``` |
 | ```Hide inbox stories and notes tray``` | ```Hides the stories and notes horizontal tray at the top of the inbox.``` | ```Messenger``` | ```All versions``` |
@@ -4878,45 +4881,53 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Open links externally``` | ```Opens links in the external browser instead of the in-app browser.``` | ```Messenger``` | ```All versions``` |
 | ```Remove Meta AI``` | ```Removes the Meta AI floating button, drawer items, and search suggestions.``` | ```Messenger``` | ```All versions``` |
 | ```Spoof package version``` | ```Sets a very high version code so the Play Store treats the app as already up to date and never offers an update.``` | ```Messenger``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all meteoblue Weather premium features by making the billing repository always report an active purchase.``` | ```meteoblue Weather``` | ```All versions``` |
 | ```Unlock Enterprise``` | ```Unlocks Enterprise features in app.``` | ```MigraConnect``` | ```All versions``` |
 | ```Unlock Pro``` | ```Bypasses the Google Play Billing purchase check, unlocking all pro features.``` | ```MikroTik Network Tools``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock all premium widgets.``` | ```Minimal Widgets``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in ML Manager.``` | ```ML Manager``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks MobiOffice premium and removes ads.``` | ```MobiOffice- Word, Excel, Slide``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks MobiOffice premium and removes ads.``` | ```MobiOffice``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in Monet by forcing the billing cache to always report premium as active.``` | ```Monet``` | ```All versions``` |
+| ```Unlock VIP``` | ```Unlocks VIP and shows Life Member status for Money Manager - Budget & Meow.``` | ```Money Manager``` | ```All versions``` |
 | ```Unlock Moovit+``` | ```Unlocks Moovit+ premium features, removes ads, and suppresses all upgrade paywalls and UI.``` | ```Moovit``` | ```All versions``` |
 | ```Unlock VIP``` | ```Unlocks VIP features in MovieBox TV.``` | ```MovieBox TV``` | ```All versions``` |
-| ```Unlock VIP``` | ```Unlocks VIP features in MovieBox and MovieBox India.``` | ```MovieBox, MovieBox (India)``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks MyRadar's yearly premium features``` | ```MyRadar``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks NAVITIME Japan Travel Premium features in app``` | ```NAVITIME``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in NetGuard.``` | ```NetGuard``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```NetMonster``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlock Pro features.``` | ```Network Guru``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks Premium features in app..``` | ```NewsBreak``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks NewsBreak Premium: ad-free reading, premium article access, and Reading Mode.``` | ```NewsBreak``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks NewsBreak Lite Premium: ad-free reading, premium article access, and Reading Mode.``` | ```NewsBreak Lite``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Ninja VPN premium.``` | ```Ninja VPN``` | ```All versions``` |
 | ```Unlock subscription``` | ```Unlocks subscription in app``` | ```NYT Games``` | ```All versions``` |
 | ```Unlock All Access``` | ```Unlocks All access in Nzb360.``` | ```nzb360``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features including advanced diagnostics, live sensor data, freeze frame, and removes the daily usage quota.``` | ```OBD Android``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks the Pro upgrade in Octi.``` | ```Octi``` | ```All versions``` |
-| ```Remove Ads``` | ```Blocks all ad display across Opera News's five ad networks and all mediation layers (AdsFacade, AppLovin MAX, TopOn, MCSDK, SmartDigiMkt).``` | ```Opera News - Breaking & Local``` | ```All versions``` |
-| ```Oxygen Updater Contributor``` | ```Removes ads and hides the purchase button by patching all five contribute-flag gate sites across SharedPreferences, DataStore, and StateFlow.``` | ```Oxygen Updater``` | ```All versions``` |
-| ```Force Pro``` | ```Unlocks Parallel Space Pro features by bypassing all Pro status checks.``` | ```Parallel Space Pro``` | ```All versions``` |
+| ```Remove Ads``` | ```Blocks all ad display across Opera News's five ad networks and all mediation layers (AdsFacade, AppLovin MAX, TopOn, MCSDK, SmartDigiMkt).``` | ```Opera News``` | ```All versions``` |
+| ```Oxygen Updater — Remove Ads``` | ```Unlocks the ad-free experience by spoofing the purchase state as acknowledged.``` | ```Oxygen Updater``` | ```All versions``` |
+| ```Force Pro``` | ```Unlocks Parallel Space Pro subscription features by bypassing all Pro status checks.``` | ```Parallel Space Pro``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlock premium features.``` | ```Parcels — Package Tracker``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Park4Night premium (Pro) access, removing all feature gates for offline maps, advanced filters, and publisher content.``` | ```Park4Night``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks premium features after login.``` | ```PC Remote - Desktop & Phone``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks premium features after login.``` | ```PC Remote``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks all Pro features in app.``` | ```Permission Pilot``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Photo Editor premium features and removes ads by bypassing the software license cache check.``` | ```Photo Editor``` | ```All versions``` |
 | ```Unlock All Features``` | ```Bypasses PairIP DRM license check, removes all paywalls, and unlocks all premium features including cloud sync and remote access.``` | ```Pialytic``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks Picture Mushroom premium features.``` | ```Picture Mushroom - Mushroom ID``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks PictureThis premium features.``` | ```PictureThis - Plant Identifier``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Picture Mushroom premium features.``` | ```Picture Mushroom``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks PictureThis premium features.``` | ```PictureThis``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium features and removes ads by overriding the subscription state setters in pillo.``` | ```pillo``` | ```All versions``` |
 | ```Unlock PRO``` | ```Unlocks all PRO features by permanently reporting a purchased state.``` | ```Pixel Habit Tracker``` | ```All versions``` |
+| ```Unlock premium``` | ```Unlocks all premium features across all Leap Fitness Group apps by overriding the IapSp isFree checks.``` | ```Plank Workout, Lose Weight App for Women, Height Increase, Home Workout, Women Workout``` | ```All versions``` |
 | ```Unlock VIP``` | ```Unlock VIP subscription in app.``` | ```PLAYit``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlock Premium features in app``` | ```Pocket Bard``` | ```All versions``` |
 | ```Unlock Patron``` | ```Unlocks Pocket Casts Patron yearly feature checks.``` | ```Pocket Casts``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Pocket Prep premium subscription gates and the full question bank.``` | ```Pocket Prep IT Cybersecurity, Pocket Prep Professional, Pocket Prep Behavioral Health, Pocket Prep Medical, Pocket Prep Nursing School, Pocket Prep Nursing, Pocket Prep EMS, Pocket Prep Skilled Trades, Pocket Prep Fitness, Pocket Prep Essentials, Pocket Prep``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks lifetime pro by bypassing all entitlement checks and poisoning the account cache.``` | ```PodsLink``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks premium features in app.``` | ```Police Scanner``` | ```All versions``` |
+| ```Unlock Custom Time Picker``` | ```Unlocks the custom scheduled send date/time picker for all users.``` | ```Proton Mail``` | ```All versions``` |
+| ```Unlock Unlimited Plan``` | ```Unlocks Proton Mail Unlimited plan features by always returning UpsellingVisibility.Hidden.``` | ```Proton Mail``` | ```All versions``` |
+| ```Unlock Unlimited Plan``` | ```Forces Proton Pass Plus plan with all limits removed and paid features unlocked.``` | ```Proton Pass``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks local Proton VPN premium features.``` | ```Proton VPN``` | ```All versions``` |
+| ```Unlock VPN Plus``` | ```Injects max tier (3=PMTeam) into VpnUser at construction for all UI unlocks, while routing connections through free servers for server-side compatibility.``` | ```Proton VPN``` | ```All versions``` |
 | ```Unlock Lifetime``` | ```Unlocks all Lifetime features in Proxyman.``` | ```Proxyman``` | ```All versions``` |
 | ```Remove Ads / Unlock Premium``` | ```Forces the subscription gate to report an unlimited subscription, removing ads and the upgrade prompt. Constructs a minimal fake Purchase to prevent NPE/IOOB in call sites that dereference getProducts().get(0).``` | ```Psiphon Pro``` | ```All versions``` |
 | ```Remove Ads``` | ```Unlocks the Remove Ads purchase in qBitConnect by injecting IAP ownership flags into SharedPreferences before Flutter reads them.``` | ```qBitConnect``` | ```All versions``` |
@@ -4943,12 +4954,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks all premium feature in app.``` | ```SCRL``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks SD Maid SE Pro features.``` | ```SD Maid SE``` | ```All versions``` |
 | ```Remove Ads``` | ```Removes ads.``` | ```Send Files To TV``` | ```All versions``` |
+| ```Server Auditor Premium``` | ```Unlocks Business tier by forcing the UserType mapper to always return UserType$BusinessTeamOwner.``` | ```Server Auditor``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks SHAREit Premium and bypasses APK signature tamper check.``` | ```SHAREit Premium``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Slopes``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all Premium features in Snipd: AI Podcast Player by spoofing the RevenueCat CustomerInfo.``` | ```Snipd``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Premium features.``` | ```Snow-Forecast.com``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Social Gamebox premium features.``` | ```Social Gamebox``` | ```All versions``` |
-| ```Bypass Pairip integrity check``` | ```Bypasses SocialLite's Pairip DRM: swaps the manifest android:name to com.sociallite.android.SocialLiteApplication so LicenseClient.checkLicense() is never called in attachBaseContext; removes LicenseActivity and CHECK_LICENSE from the manifest; and no-ops LicenseClient.checkLicense() as a secondary safety measure. Required by all other SocialLite patches.``` | ```SocialLite``` | ```All versions``` |
 | ```Unlock Family Plan``` | ```Unlocks SocialLite Pro by: (1) forcing isPremiumActive() to return true; (2) forcing getSubscriptionTier() to return 'pro', enabling all Pro-tier features gated by hasProFeatures(); (3) forcing hasProFeatures() itself to return true as defense-in-depth; (4) faking the RevenueCat entitlement snapshot to prevent the server sync from downgrading the premium state on subsequent launches.``` | ```SocialLite``` | ```All versions``` |
 | ```Unlock Ad-Free``` | ```Removes ads and unlocks ad-free status in Speedtest by Ookla.``` | ```Speedtest``` | ```All versions``` |
 | ```Unlock SPIN Plus``` | ```Unlocks SPIN Plus``` | ```SPIN``` | ```All versions``` |
@@ -4959,7 +4970,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Plus``` | ```Unlocks Sticker.ly Plus subscription. Note: For Facebook Login, uninstall the Facebook app first.``` | ```Sticker.ly``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Strava Premium features. Also re-enables password login after OTP.``` | ```Strava``` | ```All versions``` |
 | ```Unlock Plus``` | ```Unlocks Subway Now Plus.``` | ```Subway Now``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks premium/lifetime featuers in app.``` | ```Super File``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks premium and lifetime features in Super File.``` | ```Super File``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Tag Tracker PRO: unlimited trackers, advanced detection, full history, and ad-free experience.``` | ```Tag Tracker``` | ```All versions``` |
 | ```Disable analytics``` | ```Blocks all Firebase analytics and event tracking in Telegram Plus.``` | ```Telegram Plus``` | ```All versions``` |
 | ```Disable auto-update``` | ```Disables automatic app update checks in Telegram Plus.``` | ```Telegram Plus``` | ```All versions``` |
@@ -4983,6 +4994,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock VIP``` | ```Unlocks TeraBox / Dubox Drive VIP/SVIP (Premium+).``` | ```TeraBox``` | ```All versions``` |
 | ```Unlock Premium``` | ```Bypasses The Athletic paywall and removes all ads.``` | ```The Athletic``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks The Weather Channel's Premium and Premium Pro subscription tiers. Enables the ad-free experience, extended 15-day hourly forecast, real-feel temperature, air quality index, minute-by-minute precipitation, severe weather notifications, and radar overlays gated behind the subscription paywall.``` | ```The Weather Channel``` | ```All versions``` |
+| ```TikTok Lite Disable Login Requirement``` | ```Removes TikTok Lite mandatory login gate so the app can be browsed without an account.``` | ```TikTok Lite``` | ```All versions``` |
+| ```TikTok Lite Enable Duet and Stitch``` | ```Unlocks Duet and Stitch on all videos regardless of creator permission settings.``` | ```TikTok Lite``` | ```All versions``` |
+| ```TikTok Lite Feed Filter``` | ```Removes ads, sponsored content, and commerce posts from the TikTok Lite home feed.``` | ```TikTok Lite``` | ```All versions``` |
+| ```TikTok Lite Hide Live Cards``` | ```Removes live stream cards from the TikTok Lite home feed.``` | ```TikTok Lite``` | ```All versions``` |
+| ```TikTok Lite Remove Ads``` | ```Removes feed ads, splash ads, and soft ads from TikTok Lite.``` | ```TikTok Lite``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Today Weather``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks TomTom GO premium features for the selected vehicle type.``` | ```TomTom GO``` | ```All versions``` |
 | ```Remove ADS``` | ```Remove in-app ads``` | ```Toomics``` | ```All versions``` |
@@ -5057,8 +5073,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Speed Limit Sign``` | ```Sets the speed limit sign style shown on the map. • us (default) — large circular US-style sign, more readable at a glance • metric — smaller local-style sign Key: Map.Speedometer sign style``` | ```Waze``` | ```All versions``` |
 | ```Uncensored Radar / Camera Display``` | ```Shows exact fixed and mobile speed camera locations, including those not yet in the official Waze radar zone. Enables enforcement alerts via preferences keys: Alerts.Enable Enforcement Alert_ / Alert / Polic_ (truncated + full variants). Credits: Waze CGE Mod.``` | ```Waze``` | ```All versions``` |
 | ```Unlock donation``` | ```Forces h0() to return "yes" so donate dialog never shows and providers unlock.``` | ```Weawow``` | ```All versions``` |
+| ```WetterOnline Premium``` | ```Unlocks premium and unblocks logo screen freeze by bypassing billing callbacks and all local access checks.``` | ```WetterOnline``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks all premium widgets, themes, and features in Widget 2026 by bypassing the PremiumHelper SDK subscription check at both the public API (d.b()) and SharedPreferences root (yd/e.j()).``` | ```Widget 2026``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Windscribe premium account.``` | ```Windscribe VPN``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks Windy Pro features by patching the JS bundle. Sets subscription store default to 'annual' (P1), forces pr=true (P2) and hasAny()=true (P3) at module load. Prevents zl() from clearing the subscription store (P4) and flips its body class call from remove to add (P5), ensuring the 'subs-premium' CSS class persists on <body> even when the server reports no active subscription. Unlocks higher tile zoom, 1-hour forecast steps, premium minifest API params, the premium calendar view, and all premium UI.``` | ```Windy``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks Windy Pro features by patching the versioned JS bundle. Sets subscription store default to 'premium' (P1), forces gr=true (P2) and hasAny()=true (P3) at module load. Prevents cu() from clearing the subscription store (P4) and flips its body class call from remove to add (P5), ensuring the 'subs-premium' CSS class persists on <body> even when the server reports no active subscription. Unlocks higher tile zoom, 1-hour forecast steps, premium minifest API params, the premium calendar view, and all premium UI.``` | ```Windy``` | ```All versions``` |
 | ```Unlock Professional``` | ```Unlocks Professional features inapp.``` | ```WolframAlpha``` | ```All versions``` |
 | ```Unlock Word``` | ```Removes login requirement, unlocks premium, blocks ads, bypasses signature and code transparency checks.``` | ```Word``` | ```All versions``` |
 | ```Unlock VIP``` | ```Unlocks Yatri VIP by forcing active plan status and spoofing active plan DB query.``` | ```Yatri``` | ```All versions``` |

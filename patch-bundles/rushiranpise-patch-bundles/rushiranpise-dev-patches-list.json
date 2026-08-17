@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.0-dev.6",
+    "version": "v1.18.0-dev.7",
     "patches": [
         {
             "compatiblePackages": [
@@ -86,13 +86,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.7.1.47181",
-                            "versionCodes": {
-                                "ARM64_V8A": 1931947181,
-                                "ARMEABI_V7A": 1931947181,
-                                "X86": 1931947181,
-                                "X86_64": 1931947181
-                            }
+                            "version": "26.7.0.47169"
                         }
                     ]
                 }
@@ -127,7 +121,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#33CCFF",
                     "name": "Waze",
                     "packageName": "com.waze",
@@ -232,6 +226,33 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "573.0.0.44.88",
+                            "versionCodes": {
+                                "ARM64_V8A": 344611864,
+                                "ARMEABI_V7A": 344611781
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Allows screenshots and screen recording in all conversations including end-to-end encrypted ones.",
+            "name": "Allow screen capture",
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -447,7 +468,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -485,7 +506,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#33CCFF",
                     "name": "Waze",
                     "packageName": "com.waze",
@@ -556,39 +577,12 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.0.1",
+                            "version": "1.1.0-beta.1",
                             "versionCodes": {
-                                "ARM64_V8A": 201,
-                                "ARMEABI_V7A": 201,
-                                "X86": 201,
-                                "X86_64": 201
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Bypasses the Pairip license check to prevent non-licensed app termination.",
-            "name": "Aviate License",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#1A73E8",
-                    "name": "Aviate",
-                    "packageName": "me.highest.aviate",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.0.1",
-                            "versionCodes": {
-                                "ARM64_V8A": 201,
-                                "ARMEABI_V7A": 201,
-                                "X86": 201,
-                                "X86_64": 201
+                                "ARM64_V8A": 202,
+                                "ARMEABI_V7A": 202,
+                                "X86": 202,
+                                "X86_64": 202
                             }
                         }
                     ]
@@ -596,6 +590,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "RawResourcePatch"
             ],
             "description": "Unlocks Aviate Pro and Lifetime Pro by patching the Hermes JS subscription gate.",
@@ -612,12 +607,12 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.22.0",
+                            "version": "6.23.1",
                             "versionCodes": {
-                                "ARM64_V8A": 255,
-                                "ARMEABI_V7A": 255,
-                                "X86": 255,
-                                "X86_64": 255
+                                "ARM64_V8A": 257,
+                                "ARMEABI_V7A": 257,
+                                "X86": 257,
+                                "X86_64": 257
                             }
                         }
                     ]
@@ -629,6 +624,33 @@
             ],
             "description": "Unlocks all premium features including fullscreen mode and removes the Upgrade navigation item.",
             "name": "Blek Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "573.0.0.44.88",
+                            "versionCodes": {
+                                "ARM64_V8A": 344611864,
+                                "ARMEABI_V7A": 344611781
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Prevents Messenger from notifying other participants when you take a screenshot or screen recording.",
+            "name": "Block screenshot detection",
             "options": []
         },
         {
@@ -857,89 +879,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#E53935",
-                    "name": "Crime Radar",
-                    "packageName": "com.newsbreak.crimeradar",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.32.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 26320003,
-                                "ARMEABI_V7A": 26320003,
-                                "X86": 26320003,
-                                "X86_64": 26320003
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Bypasses PairIP DRM license verification to prevent forced app shutdown on non-Play-licensed installs.",
-            "name": "Bypass License Check",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#5B5EA6",
-                    "name": "SocialLite",
-                    "packageName": "com.sociallite.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.0.0.45",
-                            "versionCodes": {
-                                "ARM64_V8A": 73,
-                                "ARMEABI_V7A": 73,
-                                "X86": 73,
-                                "X86_64": 73
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Bypasses SocialLite's Pairip DRM: swaps the manifest android:name to com.sociallite.android.SocialLiteApplication so LicenseClient.checkLicense() is never called in attachBaseContext; removes LicenseActivity and CHECK_LICENSE from the manifest; and no-ops LicenseClient.checkLicense() as a secondary safety measure. Required by all other SocialLite patches.",
-            "name": "Bypass Pairip integrity check",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#E53935",
-                    "name": "Crime Radar",
-                    "packageName": "com.newsbreak.crimeradar",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.32.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 26320003,
-                                "ARMEABI_V7A": 26320003,
-                                "X86": 26320003,
-                                "X86_64": 26320003
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Bypasses the subscription paywall in-app.",
-            "name": "Bypass Subscription Paywall",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "APK",
                     "appIconColor": "#4285F4",
                     "name": "Google Photos",
@@ -958,7 +897,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Installs Google Photos beside the system Photos app by changing package, permissions, providers, and app name.",
             "name": "Change package name",
@@ -1002,7 +941,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -1119,6 +1058,33 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4350AF",
+                    "name": "Feem",
+                    "packageName": "com.feeperfect.airsend.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.10.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 6010000,
+                                "ARMEABI_V7A": 6010000,
+                                "X86": 6010000,
+                                "X86_64": 6010000
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables AdMob interstitial and banner ads.",
+            "name": "Disable Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#1565C0",
                     "name": "Unimote",
                     "packageName": "sensustech.universal.tv.remote.control",
@@ -1139,7 +1105,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#33CCFF",
                     "name": "Waze",
                     "packageName": "com.waze",
@@ -1166,7 +1132,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#33CCFF",
                     "name": "Waze",
                     "packageName": "com.waze",
@@ -1393,7 +1359,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -1553,19 +1519,19 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKS",
                     "appIconColor": "#19BCAA",
                     "name": "CamScanner",
                     "packageName": "com.intsig.camscanner",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.21.5.2607090000",
+                            "version": "7.22.5.2607250000",
                             "versionCodes": {
-                                "ARM64_V8A": 72151,
-                                "ARMEABI_V7A": 72151,
-                                "X86": 72151,
-                                "X86_64": 72151
+                                "ARM64_V8A": 72252,
+                                "ARMEABI_V7A": 72252,
+                                "X86": 72252,
+                                "X86_64": 72252
                             }
                         }
                     ]
@@ -1587,12 +1553,12 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.4.3.7",
+                            "version": "4.4.3.5",
                             "versionCodes": {
-                                "ARM64_V8A": 10353,
-                                "ARMEABI_V7A": 10353,
-                                "X86": 10353,
-                                "X86_64": 10353
+                                "ARM64_V8A": 10351,
+                                "ARMEABI_V7A": 10351,
+                                "X86": 10351,
+                                "X86_64": 10351
                             }
                         }
                     ]
@@ -1600,7 +1566,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables analytics and telemetry in ES File Explorer",
+            "description": "Disables UMeng analytics and crash reporting in ES File Explorer.",
             "name": "Disable Tracking",
             "options": []
         },
@@ -1796,6 +1762,33 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "573.0.0.44.88",
+                            "versionCodes": {
+                                "ARM64_V8A": 344611864,
+                                "ARMEABI_V7A": 344611781
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables chat heads (bubbles) for all devices regardless of API level or RAM class.",
+            "name": "Enable chat heads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#4285F4",
                     "name": "Google Photos",
                     "packageName": "com.google.android.apps.photos",
@@ -1813,7 +1806,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Allows controlling Camera and other DCIM folder backup individually.",
             "name": "Enable DCIM folders backup control",
@@ -1848,7 +1841,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Enables Duolingo's hidden debug menu in settings.",
             "name": "Enable Debug Menu",
@@ -1875,7 +1868,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#33CCFF",
                     "name": "Waze",
                     "packageName": "com.waze",
@@ -2001,7 +1994,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Prevents non-Camera DCIM folders from being grouped as Camera.",
             "name": "Fix DCIM folder classification",
@@ -2049,7 +2042,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks Parallel Space Pro features by bypassing all Pro status checks.",
+            "description": "Unlocks Parallel Space Pro subscription features by bypassing all Pro status checks.",
             "name": "Force Pro",
             "options": []
         },
@@ -2074,7 +2067,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "ResourcePatch"
             ],
@@ -2624,7 +2617,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#33CCFF",
                     "name": "Waze",
                     "packageName": "com.waze",
@@ -2715,7 +2708,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#33CCFF",
                     "name": "Waze",
                     "packageName": "com.waze",
@@ -2926,8 +2919,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes ads and hides the purchase button by patching all five contribute-flag gate sites across SharedPreferences, DataStore, and StateFlow.",
-            "name": "Oxygen Updater Contributor",
+            "description": "Unlocks the ad-free experience by spoofing the purchase state as acknowledged.",
+            "name": "Oxygen Updater — Remove Ads",
             "options": []
         },
         {
@@ -2960,7 +2953,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#33CCFF",
                     "name": "Waze",
                     "packageName": "com.waze",
@@ -3225,7 +3218,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#33CCFF",
                     "name": "Waze",
                     "packageName": "com.waze",
@@ -3372,7 +3365,7 @@
                 {
                     "apkFileType": "APKS",
                     "appIconColor": "#FF1B2A",
-                    "name": "Opera News - Breaking & Local",
+                    "name": "Opera News",
                     "packageName": "com.opera.app.news",
                     "targets": [
                         {
@@ -3397,7 +3390,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKS",
                     "appIconColor": "#4FC3F7",
                     "name": "qBitConnect",
                     "packageName": "com.bluematter.qbitconnect",
@@ -3757,33 +3750,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#E53935",
-                    "name": "Crime Radar",
-                    "packageName": "com.newsbreak.crimeradar",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.32.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 26320003,
-                                "ARMEABI_V7A": 26320003,
-                                "X86": 26320003,
-                                "X86_64": 26320003
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes all  item limits in-app.",
-            "name": "Remove Item Limits",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "APK",
                     "appIconColor": "#0084FF",
                     "name": "Messenger",
@@ -3900,7 +3866,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#33CCFF",
                     "name": "Waze",
                     "packageName": "com.waze",
@@ -3952,6 +3918,33 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A73E8",
+                    "name": "Server Auditor",
+                    "packageName": "com.server.auditor.ssh.client",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.8.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 933,
+                                "ARMEABI_V7A": 933,
+                                "X86": 933,
+                                "X86_64": 933
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Business tier by forcing the UserType mapper to always return UserType$BusinessTeamOwner.",
+            "name": "Server Auditor Premium",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -3962,7 +3955,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#33CCFF",
                     "name": "Waze",
                     "packageName": "com.waze",
@@ -4168,7 +4161,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Spoofs selectable Pixel Photos build and feature flags.",
             "name": "Spoof features",
@@ -4593,19 +4586,19 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#E53935",
-                    "name": "Crime Radar",
-                    "packageName": "com.newsbreak.crimeradar",
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok Lite",
+                    "packageName": "com.tiktok.lite.go",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.32.0",
+                            "version": "44.9.52",
                             "versionCodes": {
-                                "ARM64_V8A": 26320003,
-                                "ARMEABI_V7A": 26320003,
-                                "X86": 26320003,
-                                "X86_64": 26320003
+                                "ARM64_V8A": 440952,
+                                "ARMEABI_V7A": 440952,
+                                "X86": 440952,
+                                "X86_64": 440952
                             }
                         }
                     ]
@@ -4613,8 +4606,116 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Supress all premium promotions in-app.",
-            "name": "Suppress Premium Promotions",
+            "description": "Removes TikTok Lite mandatory login gate so the app can be browsed without an account.",
+            "name": "TikTok Lite Disable Login Requirement",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok Lite",
+                    "packageName": "com.tiktok.lite.go",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "44.9.52",
+                            "versionCodes": {
+                                "ARM64_V8A": 440952,
+                                "ARMEABI_V7A": 440952,
+                                "X86": 440952,
+                                "X86_64": 440952
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Duet and Stitch on all videos regardless of creator permission settings.",
+            "name": "TikTok Lite Enable Duet and Stitch",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok Lite",
+                    "packageName": "com.tiktok.lite.go",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "44.9.52",
+                            "versionCodes": {
+                                "ARM64_V8A": 440952,
+                                "ARMEABI_V7A": 440952,
+                                "X86": 440952,
+                                "X86_64": 440952
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes ads, sponsored content, and commerce posts from the TikTok Lite home feed.",
+            "name": "TikTok Lite Feed Filter",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok Lite",
+                    "packageName": "com.tiktok.lite.go",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "44.9.52",
+                            "versionCodes": {
+                                "ARM64_V8A": 440952,
+                                "ARMEABI_V7A": 440952,
+                                "X86": 440952,
+                                "X86_64": 440952
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes live stream cards from the TikTok Lite home feed.",
+            "name": "TikTok Lite Hide Live Cards",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok Lite",
+                    "packageName": "com.tiktok.lite.go",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "44.9.52",
+                            "versionCodes": {
+                                "ARM64_V8A": 440952,
+                                "ARMEABI_V7A": 440952,
+                                "X86": 440952,
+                                "X86_64": 440952
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes feed ads, splash ads, and soft ads from TikTok Lite.",
+            "name": "TikTok Lite Remove Ads",
             "options": []
         },
         {
@@ -4647,7 +4748,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#33CCFF",
                     "name": "Waze",
                     "packageName": "com.waze",
@@ -4788,12 +4889,12 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.8.0",
+                            "version": "11.9.0",
                             "versionCodes": {
-                                "ARM64_V8A": 110807310,
-                                "ARMEABI_V7A": 110807310,
-                                "X86": 110807310,
-                                "X86_64": 110807310
+                                "ARM64_V8A": 110900000,
+                                "ARMEABI_V7A": 110900000,
+                                "X86": 110900000,
+                                "X86_64": 110900000
                             }
                         }
                     ]
@@ -4857,6 +4958,36 @@
             "dependencies": [],
             "description": "Unlocks Citymapper Club Membership. Note: requires a manual purchase attempt inside the app.",
             "name": "Unlock Club",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Mail",
+                    "packageName": "ch.protonmail.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.11.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 18139,
+                                "ARMEABI_V7A": 18139,
+                                "X86": 18139,
+                                "X86_64": 18139
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Unlocks the custom scheduled send date/time picker for all users.",
+            "name": "Unlock Custom Time Picker",
             "options": []
         },
         {
@@ -5070,82 +5201,10 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "ResourcePatch"
             ],
             "description": "Unlocks SocialLite Pro by: (1) forcing isPremiumActive() to return true; (2) forcing getSubscriptionTier() to return 'pro', enabling all Pro-tier features gated by hasProFeatures(); (3) forcing hasProFeatures() itself to return true as defense-in-depth; (4) faking the RevenueCat entitlement snapshot to prevent the server sync from downgrading the premium state on subsequent launches.",
             "name": "Unlock Family Plan",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#E53935",
-                    "name": "Crime Radar",
-                    "packageName": "com.newsbreak.crimeradar",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.32.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 26320003,
-                                "ARMEABI_V7A": 26320003,
-                                "X86": 26320003,
-                                "X86_64": 26320003
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks the Followed Locations premium feature.",
-            "name": "Unlock Followed Locations",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#6200EE",
-                    "name": "Inure App Manager",
-                    "packageName": "app.simple.inure.play",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "build107.2.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 10720,
-                                "ARMEABI_V7A": 10720,
-                                "X86": 10720,
-                                "X86_64": 10720
-                            }
-                        }
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#6200EE",
-                    "name": "Inure App Manager (GitHub)",
-                    "packageName": "app.simple.inure",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "build107.2.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 10720,
-                                "ARMEABI_V7A": 10720,
-                                "X86": 10720,
-                                "X86_64": 10720
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks all features in Inure App Manager by bypassing the trial period and companion-app verification checks.",
-            "name": "Unlock Full Version",
             "options": []
         },
         {
@@ -5173,6 +5232,36 @@
             "dependencies": [],
             "description": "Unlocks Kahoot! Plus Gold features in app.",
             "name": "Unlock Gold",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "BubbleUPnP",
+                    "packageName": "com.bubblesoft.android.bubbleupnp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.6.5.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 3000929,
+                                "ARMEABI_V7A": 3000929,
+                                "X86": 3000929,
+                                "X86_64": 3000929
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Unlocks BubbleUPnP licence by forcing the licence setter to always write true.",
+            "name": "Unlock Licence",
             "options": []
         },
         {
@@ -5225,46 +5314,18 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
-                    "appIconColor": "#67B346",
-                    "name": "AdGuard for Android TV",
-                    "packageName": "com.adguard.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "4.14.68",
-                            "versionCodes": {
-                                "ARM64_V8A": 10330100,
-                                "ARMEABI_V7A": 10330100,
-                                "X86": 10330100,
-                                "X86_64": 10330100
-                            }
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks all features locked behind the subscription paywall.",
-            "name": "Unlock Lifetime Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
                     "appIconColor": "#67B346",
                     "name": "AdGuard",
                     "packageName": "com.adguard.android",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.14.68",
+                            "version": "4.14.0",
                             "versionCodes": {
-                                "ARM64_V8A": 10330100,
-                                "ARMEABI_V7A": 10330100,
-                                "X86": 10330100,
-                                "X86_64": 10330100
+                                "ARM64_V8A": 42218005,
+                                "ARMEABI_V7A": 42218005,
+                                "X86": 42218005,
+                                "X86_64": 42218005
                             }
                         }
                     ]
@@ -5286,12 +5347,12 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.197.0.1799",
+                            "version": "5.197.1.1801",
                             "versionCodes": {
-                                "ARM64_V8A": 1799,
-                                "ARMEABI_V7A": 1799,
-                                "X86": 1799,
-                                "X86_64": 1799
+                                "ARM64_V8A": 1801,
+                                "ARMEABI_V7A": 1801,
+                                "X86": 1801,
+                                "X86_64": 1801
                             }
                         }
                     ]
@@ -5601,7 +5662,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks the Remove Ads purchase in Ampere by bypassing the isProVersion getter, purchase verifier, and payment-needed gate.",
+            "description": "Unlocks the Remove Ads purchase in Ampere by bypassing the isProVersion getter and purchase verifier.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -5629,6 +5690,33 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks AndroPods Pro: voice call integration, assistant control, ear detection auto-pause/resume, and all premium preferences.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF5722",
+                    "name": "AnExplorer",
+                    "packageName": "dev.dworks.apps.anexplorer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.0.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 60604,
+                                "ARMEABI_V7A": 60604,
+                                "X86": 60604,
+                                "X86_64": 60604
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks AnExplorer Pro: hides paywall and removes all purchase gates.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -5752,10 +5840,10 @@
                             "isExperimental": false,
                             "version": "2.5.0.6",
                             "versionCodes": {
-                                "ARM64_V8A": 721,
-                                "ARMEABI_V7A": 721,
-                                "X86": 721,
-                                "X86_64": 721
+                                "ARM64_V8A": 723,
+                                "ARMEABI_V7A": 723,
+                                "X86": 723,
+                                "X86_64": 723
                             }
                         }
                     ]
@@ -5768,12 +5856,12 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.5.0.5",
+                            "version": "2.5.0.6",
                             "versionCodes": {
-                                "ARM64_V8A": 714,
-                                "ARMEABI_V7A": 714,
-                                "X86": 714,
-                                "X86_64": 714
+                                "ARM64_V8A": 723,
+                                "ARMEABI_V7A": 723,
+                                "X86": 723,
+                                "X86_64": 723
                             }
                         }
                     ]
@@ -5788,7 +5876,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKS",
                     "appIconColor": "#4CAF50",
                     "name": "BatteryPods",
                     "packageName": "com.sumyapplications.bluetooth.earphone",
@@ -5874,17 +5962,17 @@
                 {
                     "apkFileType": "APKS",
                     "appIconColor": "#FF5A36",
-                    "name": "BoldVoice: American Accent",
+                    "name": "BoldVoice",
                     "packageName": "com.wellocution.androidapp",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.3.9",
+                            "version": "4.6.1",
                             "versionCodes": {
-                                "ARM64_V8A": 388,
-                                "ARMEABI_V7A": 388,
-                                "X86": 388,
-                                "X86_64": 388
+                                "ARM64_V8A": 410,
+                                "ARMEABI_V7A": 410,
+                                "X86": 410,
+                                "X86_64": 410
                             }
                         }
                     ]
@@ -5892,7 +5980,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks BoldVoice premium subscription.",
+            "description": "Unlocks BoldVoice premium subscription and removes upsell nags.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -5948,7 +6036,7 @@
                 {
                     "apkFileType": "XAPK",
                     "appIconColor": "#4A90D9",
-                    "name": "Calm: Sleep & Meditation",
+                    "name": "Calm",
                     "packageName": "com.calm.android",
                     "targets": [
                         {
@@ -5966,7 +6054,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks Calm lifetime subscription",
+            "description": "Unlocks Calm Premium: removes all subscription gates, upsell banners, video session locks, and content locks.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -6020,6 +6108,36 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Carbon premium subscription.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#E53935",
+                    "name": "Cast to TV",
+                    "packageName": "cast.video.screenmirroring.casttotv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.5.3.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 253102,
+                                "ARMEABI_V7A": 253102,
+                                "X86": 253102,
+                                "X86_64": 253102
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Cast to TV - XCast premium by forcing subscription and pro gates to return true.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -6136,27 +6254,30 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKS",
                     "appIconColor": "#E53935",
                     "name": "Crime Radar",
                     "packageName": "com.newsbreak.crimeradar",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.32.0",
+                            "version": "26.33.0",
                             "versionCodes": {
-                                "ARM64_V8A": 26320003,
-                                "ARMEABI_V7A": 26320003,
-                                "X86": 26320003,
-                                "X86_64": 26320003
+                                "ARM64_V8A": 26330001,
+                                "ARMEABI_V7A": 26330001,
+                                "X86": 26330001,
+                                "X86_64": 26330001
                             }
                         }
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Unlocks Premium Features In the App.",
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Unlocks CrimeRadar premium subscription, raises followed locations limit, removes ads, and disables PairIP licence checks.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -6238,6 +6359,35 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Electron premium features",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF7043",
+                    "name": "File Manager",
+                    "packageName": "com.alphainventor.filemanager",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 2103082,
+                                "ARMEABI_V7A": 2103082,
+                                "X86": 2103082,
+                                "X86_64": 2103082
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Unlocks all File Manager premium features by bypassing the RSA license token verification.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -6334,12 +6484,12 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "10.3.2",
+                            "version": "10.3.3",
                             "versionCodes": {
-                                "ARM64_V8A": 3435,
-                                "ARMEABI_V7A": 3435,
-                                "X86": 3435,
-                                "X86_64": 3435
+                                "ARM64_V8A": 3437,
+                                "ARMEABI_V7A": 3437,
+                                "X86": 3437,
+                                "X86_64": 3437
                             }
                         }
                     ]
@@ -6420,6 +6570,33 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all premium features in Image & Video Date Fixer.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#4CAF50",
+                    "name": "Clickmate",
+                    "packageName": "com.inscode.autoclicker",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 680,
+                                "ARMEABI_V7A": 680,
+                                "X86": 680,
+                                "X86_64": 680
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features in Clickmate by bypassing the purchase check.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -6538,7 +6715,7 @@
                 {
                     "apkFileType": "XAPK",
                     "appIconColor": "#E03C31",
-                    "name": "Mapy",
+                    "name": "Mapy.com",
                     "packageName": "cz.seznam.mapy",
                     "targets": [
                         {
@@ -6590,6 +6767,33 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#0077CC",
+                    "name": "meteoblue Weather",
+                    "packageName": "com.meteoblue.droid",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "Cirrus Uncinus 3.0.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 27024,
+                                "ARMEABI_V7A": 27024,
+                                "X86": 27024,
+                                "X86_64": 27024
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all meteoblue Weather premium features by making the billing repository always report an active purchase.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#212121",
                     "name": "Minimal Widgets",
@@ -6597,12 +6801,12 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.3.01",
+                            "version": "1.1.01",
                             "versionCodes": {
-                                "ARM64_V8A": 11,
-                                "ARMEABI_V7A": 11,
-                                "X86": 11,
-                                "X86_64": 11
+                                "ARM64_V8A": 10,
+                                "ARMEABI_V7A": 10,
+                                "X86": 10,
+                                "X86_64": 10
                             }
                         }
                     ]
@@ -6639,7 +6843,7 @@
                 {
                     "apkFileType": "APKS",
                     "appIconColor": "#1565C0",
-                    "name": "MobiOffice- Word, Excel, Slide",
+                    "name": "MobiOffice",
                     "packageName": "com.mobisystems.office",
                     "targets": [
                         {
@@ -6738,19 +6942,19 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#E53935",
+                    "apkFileType": "APKS",
+                    "appIconColor": "#E31837",
                     "name": "NewsBreak",
                     "packageName": "com.particlenews.newsbreak",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.31.0",
+                            "version": "26.33.0",
                             "versionCodes": {
-                                "ARM64_V8A": 26310025,
-                                "ARMEABI_V7A": 26310025,
-                                "X86": 26310025,
-                                "X86_64": 26310025
+                                "ARM64_V8A": 26330030,
+                                "ARMEABI_V7A": 26330030,
+                                "X86": 26330030,
+                                "X86_64": 26330030
                             }
                         }
                     ]
@@ -6758,7 +6962,34 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks Premium features in app..",
+            "description": "Unlocks NewsBreak Premium: ad-free reading, premium article access, and Reading Mode.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#E31837",
+                    "name": "NewsBreak Lite",
+                    "packageName": "com.particlenews.newsbreaklite",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.33.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 26330013,
+                                "ARMEABI_V7A": 26330013,
+                                "X86": 26330013,
+                                "X86_64": 26330013
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks NewsBreak Lite Premium: ad-free reading, premium article access, and Reading Mode.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -6868,7 +7099,7 @@
                 {
                     "apkFileType": "APKS",
                     "appIconColor": "#1565C0",
-                    "name": "PC Remote - Desktop & Phone",
+                    "name": "PC Remote",
                     "packageName": "com.monect.portable",
                     "targets": [
                         {
@@ -6920,7 +7151,7 @@
             "compatiblePackages": [
                 {
                     "appIconColor": "#7A4A24",
-                    "name": "Picture Mushroom - Mushroom ID",
+                    "name": "Picture Mushroom",
                     "packageName": "com.glority.picturemushroom",
                     "targets": [
                         {
@@ -6952,7 +7183,7 @@
                 {
                     "apkFileType": "APKM",
                     "appIconColor": "#4CAF50",
-                    "name": "PictureThis - Plant Identifier",
+                    "name": "PictureThis",
                     "packageName": "cn.danatech.xingseus",
                     "targets": [
                         {
@@ -6974,6 +7205,33 @@
                 "BytecodePatch"
             ],
             "description": "Unlocks PictureThis premium features.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#FF69B4",
+                    "name": "pillo",
+                    "packageName": "xyz.rtrvr.pillo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.6.18",
+                            "versionCodes": {
+                                "ARM64_V8A": 432,
+                                "ARMEABI_V7A": 432,
+                                "X86": 432,
+                                "X86_64": 432
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features and removes ads by overriding the subscription state setters in pillo.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -7216,7 +7474,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APK",
                     "appIconColor": "#6D4AFF",
                     "name": "Proton VPN",
                     "packageName": "ch.protonvpn.android",
@@ -7641,12 +7899,12 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "474.14",
+                            "version": "475.11",
                             "versionCodes": {
-                                "ARM64_V8A": 12398925,
-                                "ARMEABI_V7A": 12398925,
-                                "X86": 12398925,
-                                "X86_64": 12398925
+                                "ARM64_V8A": 12399030,
+                                "ARMEABI_V7A": 12399030,
+                                "X86": 12399030,
+                                "X86_64": 12399030
                             }
                         }
                     ]
@@ -7681,7 +7939,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks premium/lifetime featuers in app.",
+            "description": "Unlocks premium and lifetime features in Super File.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -7780,19 +8038,19 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKS",
                     "appIconColor": "#1A1A1A",
                     "name": "The Athletic",
                     "packageName": "com.theathletic",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "13.145.0",
+                            "version": "13.146.0",
                             "versionCodes": {
-                                "ARM64_V8A": 33625688,
-                                "ARMEABI_V7A": 33625688,
-                                "X86": 33625688,
-                                "X86_64": 33625688
+                                "ARM64_V8A": 33625730,
+                                "ARMEABI_V7A": 33625730,
+                                "X86": 33625730,
+                                "X86_64": 33625730
                             }
                         }
                     ]
@@ -8029,6 +8287,33 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF6B35",
+                    "name": "Widget 2026",
+                    "packageName": "com.remi.widget",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "85.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 116,
+                                "ARMEABI_V7A": 116,
+                                "X86": 116,
+                                "X86_64": 116
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium widgets, themes, and features in Widget 2026 by bypassing the PremiumHelper SDK subscription check at both the public API (d.b()) and SharedPreferences root (yd/e.j()).",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#00AEEF",
                     "name": "Windscribe VPN",
                     "packageName": "com.windscribe.vpn",
@@ -8062,12 +8347,12 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "50.1.1",
+                            "version": "51.0.1",
                             "versionCodes": {
-                                "ARM64_V8A": 5001014,
-                                "ARMEABI_V7A": 5001014,
-                                "X86": 5001014,
-                                "X86_64": 5001014
+                                "ARM64_V8A": 5100010,
+                                "ARMEABI_V7A": 5100010,
+                                "X86": 5100010,
+                                "X86_64": 5100010
                             }
                         }
                     ]
@@ -8075,28 +8360,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks Windy Pro features by patching the JS bundle. Sets subscription store default to 'annual'  (P1), forces pr=true (P2) and hasAny()=true (P3) at module load. Prevents zl() from clearing the subscription store (P4) and flips its body class call from remove to add (P5), ensuring the 'subs-premium' CSS class persists on <body> even when the server reports no active subscription. Unlocks higher tile zoom, 1-hour forecast steps, premium minifest API params, the premium calendar view, and all premium UI.",
+            "description": "Unlocks Windy Pro features by patching the versioned JS bundle. Sets subscription store default to 'premium' (P1), forces gr=true (P2) and hasAny()=true (P3) at module load. Prevents cu() from clearing the subscription store (P4) and flips its body class call from remove to add (P5), ensuring the 'subs-premium' CSS class persists on <body> even when the server reports no active subscription. Unlocks higher tile zoom, 1-hour forecast steps, premium minifest API params, the premium calendar view, and all premium UI.",
             "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#4CAF50",
-                    "name": "Clickmate",
-                    "packageName": "com.inscode.autoclicker",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "7.1.4"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks premium in Clickmate",
-            "name": "Unlock Premium ",
             "options": []
         },
         {
@@ -8125,6 +8390,108 @@
                 "ResourcePatch"
             ],
             "description": "Unlocks AmoledPix premium features and disables ads.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "Plank Workout",
+                    "packageName": "fat.burnning.plank.fitness.loseweight",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 51,
+                                "ARMEABI_V7A": 51,
+                                "X86": 51,
+                                "X86_64": 51
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#FF5722",
+                    "name": "Lose Weight App for Women",
+                    "packageName": "loseweightapp.loseweightappforwomen.womenworkoutathome",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.4.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 107,
+                                "ARMEABI_V7A": 107,
+                                "X86": 107,
+                                "X86_64": 107
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "Height Increase",
+                    "packageName": "increaseheightworkout.heightincreaseexercise.tallerexercise",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.17",
+                            "versionCodes": {
+                                "ARM64_V8A": 66,
+                                "ARMEABI_V7A": 66,
+                                "X86": 66,
+                                "X86_64": 66
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#FF5722",
+                    "name": "Home Workout",
+                    "packageName": "homeworkout.homeworkouts.noequipment",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.7.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 151,
+                                "ARMEABI_V7A": 151,
+                                "X86": 151,
+                                "X86_64": 151
+                            }
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "Women Workout",
+                    "packageName": "women.workout.female.fitness",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 142,
+                                "ARMEABI_V7A": 142,
+                                "X86": 142,
+                                "X86_64": 142
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Unlocks all premium features across all Leap Fitness Group apps by overriding the IapSp isFree checks.",
             "name": "Unlock premium",
             "options": []
         },
@@ -8180,6 +8547,33 @@
             "dependencies": [],
             "description": "Unlock Premium features in app",
             "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#0288D1",
+                    "name": "Hydro Coach",
+                    "packageName": "com.codium.hydrocoach",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.1.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 541,
+                                "ARMEABI_V7A": 541,
+                                "X86": 541,
+                                "X86_64": 541
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all pro features and removes ads in Hydro Coach by forcing the master premium gate, ads gate, and no-ads SKU check to return true/false respectively.",
+            "name": "Unlock Premium & Remove Ads",
             "options": []
         },
         {
@@ -8427,7 +8821,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKS",
                     "appIconColor": "#0077B6",
                     "name": "Drivvo",
                     "packageName": "br.com.ctncardoso.ctncar",
@@ -8772,6 +9166,10 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Unlocks 1Tap Cleaner PRO features: history export, app-group filters, unlimited cache targets, and ad removal.",
@@ -8835,12 +9233,12 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.2",
+                            "version": "2.3.3",
                             "versionCodes": {
-                                "ARM64_V8A": 44,
-                                "ARMEABI_V7A": 44,
-                                "X86": 44,
-                                "X86_64": 44
+                                "ARM64_V8A": 45,
+                                "ARMEABI_V7A": 45,
+                                "X86": 45,
+                                "X86_64": 45
                             }
                         }
                     ]
@@ -8987,12 +9385,12 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "24.2.6",
+                            "version": "24.2.8",
                             "versionCodes": {
-                                "ARM64_V8A": 9943,
-                                "ARMEABI_V7A": 9943,
-                                "X86": 9943,
-                                "X86_64": 9943
+                                "ARM64_V8A": 20235,
+                                "ARMEABI_V7A": 20235,
+                                "X86": 20235,
+                                "X86_64": 20235
                             }
                         }
                     ]
@@ -9139,19 +9537,18 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
                     "appIconColor": "#00B2A9",
                     "name": "Transit",
                     "packageName": "com.thetransitapp.droid",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.2.2",
+                            "version": "6.1.12",
                             "versionCodes": {
-                                "ARM64_V8A": 5126285,
-                                "ARMEABI_V7A": 5126285,
-                                "X86": 5126285,
-                                "X86_64": 5126285
+                                "ARM64_V8A": 5125980,
+                                "ARMEABI_V7A": 5125980,
+                                "X86": 5125980,
+                                "X86_64": 5125980
                             }
                         }
                     ]
@@ -9293,7 +9690,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKS",
                     "appIconColor": "#7C3AED",
                     "name": "BuzzCast",
                     "packageName": "com.guochao.faceshow",
@@ -9376,6 +9773,33 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#0066FF",
+                    "name": "Malwarebytes Mobile Security",
+                    "packageName": "org.malwarebytes.antimalware",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.27.0+564",
+                            "versionCodes": {
+                                "ARM64_V8A": 52700564,
+                                "ARMEABI_V7A": 52700564,
+                                "X86": 52700564,
+                                "X86_64": 52700564
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all Malwarebytes Ultimate features via enum singleton and feature gate patches.",
+            "name": "Unlock Ultimate",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS",
                     "appIconColor": "#1565C0",
                     "name": "Genius Scan",
@@ -9398,6 +9822,94 @@
             "dependencies": [],
             "description": "Unlocks Ultra features in app.",
             "name": "Unlock Ultra",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Mail",
+                    "packageName": "ch.protonmail.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.11.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 18139,
+                                "ARMEABI_V7A": 18139,
+                                "X86": 18139,
+                                "X86_64": 18139
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Proton Mail Unlimited plan features by always returning UpsellingVisibility.Hidden.",
+            "name": "Unlock Unlimited Plan",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Pass",
+                    "packageName": "proton.android.pass",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.40.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 14003373,
+                                "ARMEABI_V7A": 14003373,
+                                "X86": 14003373,
+                                "X86_64": 14003373
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Forces Proton Pass Plus plan with all limits removed and paid features unlocked.",
+            "name": "Unlock Unlimited Plan",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1565C0",
+                    "name": "AppLock Watcher",
+                    "packageName": "com.domobile.applockwatcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.3.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2026073001,
+                                "ARMEABI_V7A": 2026073001,
+                                "X86": 2026073001,
+                                "X86_64": 2026073001
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all VIP features by bypassing the subscription status checks for all billing paths.",
+            "name": "Unlock VIP",
             "options": []
         },
         {
@@ -9457,43 +9969,30 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#E53935",
-                    "name": "MovieBox",
-                    "packageName": "com.community.oneroom",
+                    "apkFileType": "APKS",
+                    "appIconColor": "#FF6B9E",
+                    "name": "Money Manager",
+                    "packageName": "com.glgjing.money.manager.bookkeeping.meow",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.0.16.0723.03",
+                            "version": "1.9.9",
                             "versionCodes": {
-                                "ARM64_V8A": 50020117,
-                                "ARMEABI_V7A": 50020117,
-                                "X86": 50020117,
-                                "X86_64": 50020117
-                            }
-                        }
-                    ]
-                },
-                {
-                    "appIconColor": "#E53935",
-                    "name": "MovieBox (India)",
-                    "packageName": "com.community.mbox.in",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.0.16.0804.03",
-                            "versionCodes": {
-                                "ARM64_V8A": 50020116,
-                                "ARMEABI_V7A": 50020116,
-                                "X86": 50020116,
-                                "X86_64": 50020116
+                                "ARM64_V8A": 79,
+                                "ARMEABI_V7A": 79,
+                                "X86": 79,
+                                "X86_64": 79
                             }
                         }
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Unlocks VIP features in MovieBox and MovieBox India.",
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Unlocks VIP and shows Life Member status for Money Manager - Budget & Meow.",
             "name": "Unlock VIP",
             "options": []
         },
@@ -9580,19 +10079,18 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
                     "appIconColor": "#2196F3",
                     "name": "HTTP Sniffer",
                     "packageName": "com.anetcapture.mock",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.11.7-ad_mob",
+                            "version": "2.3.5-ad_mob",
                             "versionCodes": {
-                                "ARM64_V8A": 139,
-                                "ARMEABI_V7A": 139,
-                                "X86": 139,
-                                "X86_64": 139
+                                "ARM64_V8A": 153,
+                                "ARMEABI_V7A": 153,
+                                "X86": 153,
+                                "X86_64": 153
                             }
                         }
                     ]
@@ -9614,12 +10112,12 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.4.3.7",
+                            "version": "4.4.3.5",
                             "versionCodes": {
-                                "ARM64_V8A": 10353,
-                                "ARMEABI_V7A": 10353,
-                                "X86": 10353,
-                                "X86_64": 10353
+                                "ARM64_V8A": 10351,
+                                "ARMEABI_V7A": 10351,
+                                "X86": 10351,
+                                "X86_64": 10351
                             }
                         }
                     ]
@@ -9627,8 +10125,35 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlock Vip Features in APP.",
+            "description": "Unlocks VIP lifetime features in ES File Explorer.",
             "name": "Unlock VIP Lifetime",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.19.78.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605197800,
+                                "ARMEABI_V7A": 605197800,
+                                "X86": 605197800,
+                                "X86_64": 605197800
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Injects max tier (3=PMTeam) into VpnUser at construction for all UI unlocks, while routing connections through free servers for server-side compatibility.",
+            "name": "Unlock VPN Plus",
             "options": []
         },
         {
@@ -9721,7 +10246,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -9786,19 +10311,46 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0066CC",
+                    "name": "WetterOnline",
+                    "packageName": "de.wetteronline.wetterapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.16.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2280443,
+                                "ARMEABI_V7A": 2280443,
+                                "X86": 2280443,
+                                "X86_64": 2280443
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium and unblocks logo screen freeze by bypassing billing callbacks and all local access checks.",
+            "name": "WetterOnline Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
                     "appIconColor": "#19BCAA",
                     "name": "CamScanner",
                     "packageName": "com.intsig.camscanner",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.21.5.2607090000",
+                            "version": "7.22.5.2607250000",
                             "versionCodes": {
-                                "ARM64_V8A": 72151,
-                                "ARMEABI_V7A": 72151,
-                                "X86": 72151,
-                                "X86_64": 72151
+                                "ARM64_V8A": 72252,
+                                "ARMEABI_V7A": 72252,
+                                "X86": 72252,
+                                "X86_64": 72252
                             }
                         }
                     ]
