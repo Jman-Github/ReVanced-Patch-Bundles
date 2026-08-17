@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0-dev.1",
+    "version": "v1.11.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -167,6 +167,69 @@
             "dependencies": [],
             "description": "Gold is inflated to 1,000,000,000 on save load; gold packs in the store also grant gold.",
             "name": "Dr. Driving Unlimited Gold",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF6F00",
+                    "name": "Earn to Die 2",
+                    "packageName": "com.notdoppler.earntodie2",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.58"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Intercepts all in-app purchases and reports instant success to the game engine, unlocking paid content (cash doubler) for free.",
+            "name": "Earn to Die 2 Free IAP",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF6F00",
+                    "name": "Earn to Die 2",
+                    "packageName": "com.notdoppler.earntodie2",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.58"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes interstitial and rewarded ads, and grants rewarded-video rewards instantly by firing the native callbacks.",
+            "name": "Earn to Die 2 No Ads + Instant Rewards",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF6F00",
+                    "name": "Earn to Die 2",
+                    "packageName": "com.notdoppler.earntodie2",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.58"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the native Google Play distribution checks (installer package + signing signature) so the app runs when sideloaded.",
+            "name": "Earn to Die 2 Remove Google Play Check",
             "options": []
         },
         {

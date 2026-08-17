@@ -69,7 +69,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 20 | 11 | Generated |
 | [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 21 | 11 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 24 | 12 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 9 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -636,7 +636,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 21 patches, 11 apps</summary>
+<summary><b>Okish-Morphe</b> - 24 patches, 12 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -648,6 +648,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Dr. Driving Ad Removal``` | ```Removes all Google AdMob ads (banner, interstitial, rewarded).``` | ```Dr. Driving``` | ```All versions``` |
 | ```Dr. Driving Unlimited Coins``` | ```Coins inflated to 1,000,000,000 on save load; purchases, upgrades, rentals and repairs never cost coins.``` | ```Dr. Driving``` | ```All versions``` |
 | ```Dr. Driving Unlimited Gold``` | ```Gold is inflated to 1,000,000,000 on save load; gold packs in the store also grant gold.``` | ```Dr. Driving``` | ```All versions``` |
+| ```Earn to Die 2 Free IAP``` | ```Intercepts all in-app purchases and reports instant success to the game engine, unlocking paid content (cash doubler) for free.``` | ```Earn to Die 2``` | ```All versions``` |
+| ```Earn to Die 2 No Ads + Instant Rewards``` | ```Removes interstitial and rewarded ads, and grants rewarded-video rewards instantly by firing the native callbacks.``` | ```Earn to Die 2``` | ```All versions``` |
+| ```Earn to Die 2 Remove Google Play Check``` | ```Bypasses the native Google Play distribution checks (installer package + signing signature) so the app runs when sideloaded.``` | ```Earn to Die 2``` | ```All versions``` |
 | ```FreeJobAlert Ad Removal``` | ```Removes all Google AdMob ads (banner, interstitial, rewarded, app open, native).``` | ```FreeJobAlert``` | ```All versions``` |
 | ```FreeJobAlert License Bypass``` | ```Bypasses the Pairip Play Store installation check so the app launches normally.``` | ```FreeJobAlert``` | ```All versions``` |
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```All versions``` |
