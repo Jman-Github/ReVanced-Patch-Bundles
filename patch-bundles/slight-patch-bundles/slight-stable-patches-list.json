@@ -1,0 +1,53 @@
+{
+    "version": "v1.1.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1A237E",
+                    "name": "Sparkle TV",
+                    "packageName": "se.hedekonsult.sparkle",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.1"
+                        }
+                    ],
+                    "versions": [
+                        "2.3.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Sparkle TV's Plus features without purchase, including DVR recording, timeshift, multiview, VOD (movies & series), multi-source setup, and custom channel/category editing.",
+            "name": "Unlock Plus",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#000000",
+                    "name": "AT4K Launcher",
+                    "packageName": "com.overdevs.at4k",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1"
+                        }
+                    ],
+                    "versions": [
+                        "1.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks AT4K Launcher's premium features without paying, like more apps per row and the premium wallpaper options. It all runs on the device, so nothing stays locked.",
+            "name": "Unlock Premium",
+            "options": []
+        }
+    ]
+}

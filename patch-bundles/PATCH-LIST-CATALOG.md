@@ -190,6 +190,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Imgur](#-imgur-bundle-patch-list) | 1 | 1 | Generated |
 | [aapam](#-aapam-bundle-patch-list) | 4 | 1 | Generated |
 | [RabehX](#-rabehx-bundle-patch-list) | 10 | 3 | Generated |
+| [Tiaruebar1024](#-tiaruebar1024-bundle-patch-list) | 4 | 2 | Generated |
+| [Slight](#-slight-bundle-patch-list) | 2 | 2 | Generated |
+| [Riky](#-riky-bundle-patch-list) | 1 | 1 | Generated |
+| [iPusnas](#-ipusnas-bundle-patch-list) | 6 | 1 | Generated |
+| [HXReborn-TikTok](#-hxreborn-tiktok-bundle-patch-list) | 33 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -6106,5 +6111,110 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Allow screenshots``` | ```Removes the screen capture block so screenshots and recordings work.``` | ```Webetu``` | ```All versions``` |
 | ```Enable 30-day Resto reservations``` | ```Allows reserving Resto meals up to 30 days in advance.``` | ```Webetu``` | ```All versions``` |
 | ```Remove PairIP protection``` | ```Removes Google Play's PairIP anti-tamper wrapper so the app runs without license checks. Restores the original Application class in the manifest, removes all injected com.pairip.* components, and neuters PairIP's license client.``` | ```Webetu``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Tiaruebar1024 Bundle Patch List:
+[📦 Tiaruebar1024-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-tiaruebar1024-patches-bundle-morphe)
+<details>
+<summary><b>Tiaruebar1024</b> - 4 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```BitLife Ad Removal``` | ```Removes ads from BitLife by disabling ad loading and display methods.``` | ```BitLife``` | ```3.24.4``` |
+| ```BitLife Pairip Bypass``` | ```Bypasses Google Play Integrity (Pairip) license checks in BitLife.``` | ```BitLife``` | ```3.24.4``` |
+| ```BitLife Premium``` | ```Unlocks all premium features, Bitizenship, God Mode, and expansions using native ARM64 hex patching of IL2CPP methods.``` | ```BitLife``` | ```3.24.4``` |
+| ```Devices Tycoon Premium``` | ```Instantly completes all IAP purchases (remove ads, research coins, budget) on tap and disables all ads in Devices Tycoon.``` | ```Devices Tycoon``` | ```4.0.1``` |
+
+</details>
+
+
+---
+### 🧩 Slight Bundle Patch List:
+[📦 Slight-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-slight-patches-bundle-morphe)
+<details>
+<summary><b>Slight</b> - 2 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock Premium``` | ```Unlocks AT4K Launcher's premium features without paying, like more apps per row and the premium wallpaper options. It all runs on the device, so nothing stays locked.``` | ```AT4K Launcher``` | ```1.1``` |
+| ```Unlock Plus``` | ```Unlocks Sparkle TV's Plus features without purchase, including DVR recording, timeshift, multiview, VOD (movies & series), multi-source setup, and custom channel/category editing.``` | ```Sparkle TV``` | ```2.3.1``` |
+
+</details>
+
+
+---
+### 🧩 Riky Bundle Patch List:
+[📦 Riky-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-riky-patches-bundle-morphe)
+<details>
+<summary><b>Riky</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Hide ads``` | ```Removes banner, native, cover and interstitial ads and unlocks premium features.``` | ```3BMeteo``` | ```4.9.15``` |
+
+</details>
+
+
+---
+### 🧩 iPusnas Bundle Patch List:
+[📦 iPusnas-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ipusnas-patches-bundle-morphe)
+<details>
+<summary><b>iPusnas</b> - 6 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Bypass Play Store redirect``` | ```Makes the PairIP license check pass for sideloaded installs so the app no longer redirects to the Play Store and closes.``` | ```iPusnas``` | ```2.1.4``` |
+| ```Disable Firebase Analytics and FCM``` | ```Disables Google Firebase Analytics tracking and removes Firebase Cloud Messaging push notifications.``` | ```iPusnas``` | ```2.1.4``` |
+| ```Neuter Telegram security breach reporter``` | ```Stops the app from reporting security breaches or APK integrity failures to the developers' Telegram channel.``` | ```iPusnas``` | ```2.1.4``` |
+| ```Remove certificate pinning``` | ```Removes the hard-coded OkHttp certificate pins and SSL pinning interceptor so the app trusts system and user CAs.``` | ```iPusnas``` | ```2.1.4``` |
+| ```Remove screenshot restriction``` | ```Disables the FLAG_SECURE window flag in the PDF and EPUB readers so screenshots and screen recordings are allowed.``` | ```iPusnas``` | ```2.1.4``` |
+| ```Save book to Downloads``` | ```Adds a menu option that downloads, decrypts, and saves the book as a readable PDF or EPUB in the public Downloads folder.``` | ```iPusnas``` | ```2.1.4``` |
+
+</details>
+
+
+---
+### 🧩 HXReborn-TikTok Bundle Patch List:
+[📦 HXReborn-TikTok-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hxreborn-tiktok-patches-bundle-morphe)
+<details>
+<summary><b>HXReborn-TikTok</b> - 33 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Always show publish date``` | ```Always shows the publish date in video author information. Thanks to lyyako for the original implementation.``` | ```TikTok``` | ```46.2.3``` |
+| ```Copy comments without username``` | ```Copies only the comment text without including the creator's username.``` | ```TikTok``` | ```46.2.3``` |
+| ```Custom offline videos limit``` | ```Adds a custom entry to TikTok's offline videos menu with a configurable limit of up to 500 videos.``` | ```TikTok``` | ```46.2.3``` |
+| ```Diagnostic tools``` | ```Adds optional Morphe diagnostic logging, filtered reports, and local TikTok crash capture.``` | ```TikTok``` | ```46.2.3``` |
+| ```Disable login requirement``` | ```Removes TikTok's mandatory login gate from supported flows.``` | ```TikTok``` | ```46.2.3``` |
+| ```Disable long-press quick share``` | ```Keeps long-pressing Share from opening TikTok's quick-share interaction.``` | ```TikTok``` | ```46.2.3``` |
+| ```Disable screen capture detection``` | ```Prevents TikTok from reacting to screenshots and screen recordings.``` | ```TikTok``` | ```46.2.3``` |
+| ```Disable telemetry``` | ```Adds a Miscellaneous toggle that disables ByteDance AppLog analytics, AppsFlyer attribution tracking, BDLocation background uploads, Firebase Analytics, and crash reporting. Off by default.``` | ```TikTok``` | ```46.2.3``` |
+| ```Downloads``` | ```Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates.``` | ```TikTok``` | ```46.2.3``` |
+| ```Enable Live search``` | ```Shows TikTok's search entry in the Live drawer where supported.``` | ```TikTok``` | ```46.2.3``` |
+| ```Enable non-personalized search``` | ```Uses TikTok's non-personalized search mode instead of its saved account choice.``` | ```TikTok``` | ```46.2.3``` |
+| ```Expand activity list``` | ```Shows the full Activity and New followers lists instead of collapsing them behind a View all button.``` | ```TikTok``` | ```46.2.3``` |
+| ```Feature Gate Lab``` | ```Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.``` | ```TikTok``` | ```46.2.3``` |
+| ```Feed filter``` | ```Hides feed ads, TikTok Shop items, livestreams, stories, photo posts, the playlist bar, the floating event badge, AI-generated posts, paid partnership and promotional content, the account and bulletin-board suggestion cards, posts from verified accounts, and videos outside configured view or like ranges.``` | ```TikTok``` | ```46.2.3``` |
+| ```Feed tab navigation``` | ```Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.``` | ```TikTok``` | ```46.2.3``` |
+| ```Fix Google login``` | ```Restores Google account sign-in after patching.``` | ```TikTok``` | ```46.2.3``` |
+| ```Hide BdTuring CAPTCHA popups``` | ```Hides the BdTuring risk-control CAPTCHA dialog, gated by the Hide CAPTCHA popups setting.``` | ```TikTok``` | ```46.2.3``` |
+| ```Hide CAPTCHA popups``` | ```Adds a default-off setting to hide browsing and LIVE puzzle dialogs while preserving login and account verification.``` | ```TikTok``` | ```46.2.3``` |
+| ```Hide inbox stories``` | ```Hides the Stories row at the top of the Inbox page.``` | ```TikTok``` | ```46.2.3``` |
+| ```Hide quick comment reactions``` | ```Hides TikTok's exposed quick emoji row in supported comment inputs.``` | ```TikTok``` | ```46.2.3``` |
+| ```Hide suggested accounts``` | ```Hides the Suggested accounts list on the Activity, New followers and Inbox pages.``` | ```TikTok``` | ```46.2.3``` |
+| ```Hold-and-slide 2x lock``` | ```Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.``` | ```TikTok``` | ```46.2.3``` |
+| ```Open external links directly``` | ```Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.``` | ```TikTok``` | ```46.2.3``` |
+| ```Playback speed``` | ```Enables playback-speed controls for all videos and remembers the selected speed between videos.``` | ```TikTok``` | ```46.2.3``` |
+| ```Remember clear display``` | ```Remembers TikTok's clear-display state between videos.``` | ```TikTok``` | ```46.2.3``` |
+| ```Resume videos after scrolling``` | ```Continues supported videos from where playback stopped when returning after a scroll.``` | ```TikTok``` | ```46.2.3``` |
+| ```Sanitize sharing links``` | ```Removes tracking parameters from TikTok links before they are shared.``` | ```TikTok``` | ```46.2.3``` |
+| ```Settings``` | ```Adds the Morphe patches settings menu to TikTok.``` | ```TikTok``` | ```46.2.3``` |
+| ```Show seekbar``` | ```Shows TikTok's native video seekbar where it would normally be hidden.``` | ```TikTok``` | ```46.2.3``` |
+| ```Show seekbar thumbnail``` | ```Shows TikTok's video preview thumbnail while dragging the seekbar.``` | ```TikTok``` | ```46.2.3``` |
+| ```SIM spoof``` | ```Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.``` | ```TikTok``` | ```46.2.3``` |
+| ```Stop video looping``` | ```Stops videos at the end instead of replaying them.``` | ```TikTok``` | ```46.2.3``` |
+| ```Translate comments``` | ```Adds comment translation controls using TikTok's translation system, with selectable language exclusions.``` | ```TikTok``` | ```46.2.3``` |
 
 </details>

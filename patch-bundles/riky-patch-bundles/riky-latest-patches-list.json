@@ -1,0 +1,29 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#30639B",
+                    "name": "3BMeteo",
+                    "packageName": "com.Meteosolutions.Meteo3b",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.9.15"
+                        }
+                    ],
+                    "versions": [
+                        "4.9.15"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes banner, native, cover and interstitial ads and unlocks premium features.",
+            "name": "Hide ads",
+            "options": []
+        }
+    ]
+}

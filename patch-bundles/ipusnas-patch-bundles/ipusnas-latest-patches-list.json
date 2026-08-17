@@ -1,0 +1,152 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1D6BA8",
+                    "name": "iPusnas",
+                    "packageName": "mam.reader.ipusnas",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "2.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Makes the PairIP license check pass for sideloaded installs so the app no longer redirects to the Play Store and closes.",
+            "name": "Bypass Play Store redirect",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1D6BA8",
+                    "name": "iPusnas",
+                    "packageName": "mam.reader.ipusnas",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "2.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Disables Google Firebase Analytics tracking and removes Firebase Cloud Messaging push notifications.",
+            "name": "Disable Firebase Analytics and FCM",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1D6BA8",
+                    "name": "iPusnas",
+                    "packageName": "mam.reader.ipusnas",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "2.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the app from reporting security breaches or APK integrity failures to the developers' Telegram channel.",
+            "name": "Neuter Telegram security breach reporter",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1D6BA8",
+                    "name": "iPusnas",
+                    "packageName": "mam.reader.ipusnas",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "2.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the hard-coded OkHttp certificate pins and SSL pinning interceptor so the app trusts system and user CAs.",
+            "name": "Remove certificate pinning",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1D6BA8",
+                    "name": "iPusnas",
+                    "packageName": "mam.reader.ipusnas",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "2.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the FLAG_SECURE window flag in the PDF and EPUB readers so screenshots and screen recordings are allowed.",
+            "name": "Remove screenshot restriction",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1D6BA8",
+                    "name": "iPusnas",
+                    "packageName": "mam.reader.ipusnas",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "2.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds a menu option that downloads, decrypts, and saves the book as a readable PDF or EPUB in the public Downloads folder.",
+            "name": "Save book to Downloads",
+            "options": []
+        }
+    ]
+}
